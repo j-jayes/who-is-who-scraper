@@ -19,7 +19,7 @@ def extract_bio_data(page_source):
 
 # 1061
 
-for i in range(200, 400):
+for i in range(400, 600):
     url = f"http://runeberg.org/vemarvem/sthlm45/{str(i).zfill(4)}.html"
     response = requests.get(url)
 
