@@ -1,16 +1,19 @@
 import re
 import glob
+import yaml
 
-def get_surname_pattern(page_number):
-    # Customize this function to match the surname pattern for each page
-    if page_number == 2:
-        return r"^(Abrahamson)"
-    elif page_number == 4:
-        return r"^(Adlerstam)"
-    elif page_number == 6:
-        return r"^(Afzelius)"
-    else:
-        return r"^([A-Z][a-zåäöé]+)"
+def load_yaml_file(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+def get_surname_pattern(page_number, toc_data):
+    for letter, page_range in toc_data.items():
+        if page_number >= page_range[0] and page_number <= page_range[1]:
+            if letter == "V & W":
+                return r"^([VW][a-zåäöé]+)"
+            else:
+                return fr"^([{letter}][a-zåäöé]+)"
+    return r"^([A-Z][a-zåäöé]+)"
 
 def read_page_file(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
@@ -24,10 +27,11 @@ def process_files():
     file_paths = sorted(glob.glob("page_text_*.txt"))
     prev_bio = ""
     bio_counter = 1
+    toc_data = load_yaml_file("toc-stockholm.yaml")
 
     for idx, file_path in enumerate(file_paths):
         page_number = idx + 1
-        surname_pattern = get_surname_pattern(page_number)
+        surname_pattern = get_surname_pattern(page_number, toc_data)
         pattern = re.compile(f"{surname_pattern}, [A-Z][a-zåäöé]+")
 
         lines = read_page_file(file_path)

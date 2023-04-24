@@ -21,8 +21,8 @@ def extract_bio_data(page_source):
 
 # http://runeberg.org/vemarvem/gota48/1074.html
 
-for i in range(20, 1074):
-    url = f"http://runeberg.org/vemarvem/gota48/{str(i).zfill(4)}.html"
+for i in range(20, 22):
+    url = f"http://runeberg.org/vemarvem/sthlm45/{str(i).zfill(4)}.html"
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -32,9 +32,9 @@ for i in range(20, 1074):
         bio_data = extract_bio_data(str(soup))
 
         if bio_data:
-            with open(f"data/raw/gota_48_page_text_{i}.txt", "w", encoding="UTF-8") as f:
+            with open(f"data/raw/sthlm_45_page_text_{i}.txt", "w", encoding="UTF-8") as f:
                 f.write(bio_data)
-            print(f"Text has been saved to gota_48_page_text_{i}.txt")
+            print(f"Text has been saved to sthlm_45_page_text_{i}.txt")
 
         else:
             print(f"Biographical data not found for page {i}.")
