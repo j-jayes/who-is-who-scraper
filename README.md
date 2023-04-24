@@ -1,45 +1,17 @@
 # Who-is-Who Scraper
 
-This project is a web scraper designed to extract information about famous Swedes from the website Who-is-Who ([https://www.whoiswho.se/](https://www.whoiswho.se/) ).
-## Requirements
+## Problem
 
-To run this scraper, you will need to have the following installed on your machine:
-- Python 3
-- pip
-- Beautiful Soup 4
-- Requests
-## Installation
+Problem Description:
 
-To install the necessary dependencies, run the following command in your terminal:
+The task is to create a program that processes a collection of over 1000 text files containing short biographies of Swedish individuals. The biographies are digitized from a book called "Who Is Who?", with each text file representing one page containing between 4 and 8 biographies. The goal is to break up the text into individual biographies, stitch together any biographies that span multiple pages, and ultimately create one file for each biography.
 
-```
+Key points to consider:
 
-pip install beautifulsoup4 requests
-```
+1. Biographies start with the surname, followed by a comma, the first name, and then the biographical information.
+2. Each biography starts on a new line.
+3. An index is available, providing the starting letter of surnames on each page and some specific surnames.
+4. Biographies may span multiple pages, meaning the first words on a page might be the end of a biography from the previous page.
+5. The program should use regex to identify and separate the biographies, taking into account the starting letter of the surnames.
 
-
-## Usage
-
-To run the scraper, simply run the following command in your terminal:
-
-```
-
-python scrape.py
-```
-
-
-
-The scraper will output a CSV file containing the following information for each famous Swede listed on Who-is-Who:
-- Name
-- Birth year
-- Profession
-- Link to their Who-is-Who page
-## Limitations
-
-Please note that scraping websites without permission may violate their terms of service and/or be illegal. It is your responsibility to ensure that you have the legal right to scrape the website in question before running this scraper.
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-## Acknowledgements
-
-This project was inspired by the Who-is-Who website ([https://www.whoiswho.se/](https://www.whoiswho.se/) ), and uses Beautiful Soup 4 and Requests to scrape data from it.
+The solution should be able to process the text files, identify and separate the individual biographies, and stitch together any biographies that span multiple pages. The final output should be a set of files, each containing a single biography.
