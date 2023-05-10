@@ -15,3 +15,8 @@ Key points to consider:
 5. The program should use regex to identify and separate the biographies, taking into account the starting letter of the surnames.
 
 The solution should be able to process the text files, identify and separate the individual biographies, and stitch together any biographies that span multiple pages. The final output should be a set of files, each containing a single biography.
+
+## Things to remember
+
+Medl. av  Elektroing :fören. - He is a member of the Swedish Association of Electrical Engineers.' (Dalen, Sten Gunnar)
+
