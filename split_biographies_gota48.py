@@ -17,9 +17,14 @@ def read_and_split_biographies(file_name, letter):
     if letter == 'V':
         pattern = fr'^(?:[VW][a-zåäöA-ZÅÄÖ]+),\s(?=[A-ZÅÄÖ][a-zåäö]+)'
 
-    biographies = re.split(pattern, text, flags=re.MULTILINE)[1:]
+    # Split the text and capture the surnames
+    split_text = re.split(pattern, text, flags=re.MULTILINE)
+
+    # Pair the surnames with their corresponding biographies and join them
+    biographies = [f"{surname}, {bio}" for surname, bio in zip(split_text[1::2], split_text[2::2])]
 
     return biographies
+
 
 
 def save_biographies(biographies, letter):
@@ -27,11 +32,15 @@ def save_biographies(biographies, letter):
     os.makedirs(output_directory, exist_ok=True)
 
     for index, biography in enumerate(biographies):
+        # Remove line breaks and trim whitespace
+        cleaned_biography = ' '.join(biography.split()).strip()
+
         output_file_name = f'gota48_{letter}_biography_{index + 1}.txt'
         output_file_path = os.path.join(output_directory, output_file_name)
 
         with open(output_file_path, 'w', encoding='utf-8') as output_file:
-            output_file.write(biography)
+            output_file.write(cleaned_biography)
+
 
 def main():
     with open('data/book_info/gota48_toc.yaml', 'r', encoding='utf-8') as yaml_file:
