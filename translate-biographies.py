@@ -2,8 +2,12 @@ import os
 import openai
 import json
 import glob
+import yaml
 
-openai.api_key = "your_openai_api_key"
+with open("config.yaml", "r") as f:
+    config = yaml.safe_load(f)
+
+openai.api_key = config["default"]["key"]
 
 def translate_and_structure_text(swedish_text):
     # Translate the Swedish text to English
