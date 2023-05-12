@@ -140,3 +140,15 @@ FrOPlemér                Franska orden Pour le mérite
 <br/>IrakRO                       Irakiska Rafidain-orden
 <br/>
 <br/>9
+
+### What scraping is complete so far??
+
+gota48
+
+skane48
+
+sthlm45
+
+sthlm62
+
+svea64 (to page 643)
