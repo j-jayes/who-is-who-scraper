@@ -1,0 +1,118 @@
+{
+    "original": "Anderson, Nils Gunnar, godsägare, Ljunga, Mantorp, f. 25/9/75 i Veta, östergötl. 1., av godsäg. Johan A. o. Maria Månsson. G. 09 m. Hanna Lind- blad. Bam: Sven Gunnhagen f. 10, ’sysisil(o.man,, Romainäs, Stiig Gunnihagen 12, kamrer, Västervik, Bengt Gunnha-gen 14, hovrifiskal, Falkenberg. — Stud. v. folkhögsk. o. lanitbruk&amp;sk. Äg. o. bruk. Ljunga egend. Ordf. i Veta .komm istämimia o. -nd, i Öistergötl. Kreatrursförsiäkr :bol., ordf. o. verks t. dir. i Vifolka Sparbank i Mjölby, led. av styr. o. förvaltn :utsk. f. östergötl. 1. folkhögsk. o. lantmisk., kronoomb. i tax:nd m. m. RVO, Sparbankernas stGM, östergötl. L. Brandstodsbol. stGM.",
+    "translated": "Anderson, Nils Gunnar, landowner, Ljunga, Mantorp, born on September 25th, 1875 in Veta, Östergötland, son of the landowner Johan A. and Maria Månsson. Married in 1909 to Hanna Lindblad. Children: Sven Gunnhagen (born in 1910, district veterinary officer, Romainäs), Stiig Gunnhagen (born in 1912, accountant, Västervik), Bengt Gunnhagen (born in 1914, court fiscal, Falkenberg). Studied at folk high school and agricultural school. Owner and operator of Ljunga estate. Chairman of Veta local government and of Östergötland Livestock Insurance Company. Chairman and managing director of Vifolka Savings Bank in Mjölby. Member of the board of directors of Östergötland's folk high school and agricultural school, member of the Kronoombudsmannen's tax assessment committee, and more. Awarded RVO (Knight of the Order of Vasa), member of the general meeting of savings banks, and member of the board of directors of Östergötland Fire Insurance Company.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Gunnar Anderson",
+        "jobTitle": [
+            "Chairman of Veta",
+            "Chairman of Östergötland Livestock Insurance Company",
+            "Managing director of Vifolka Savings Bank in Mjölby",
+            "Member of the board of directors of Östergötland's folk high school and agricultural school",
+            "Member of the Kronoombudsmannen's tax assessment committee"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ljunga, Mantorp",
+            "postalCode": "",
+            "addressRegion": ""
+        },
+        "birthDate": "1875-09-25",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Veta",
+                "addressRegion": "Östergötland",
+                "postalCode": ""
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Hanna Lindblad",
+            "marriedDate": "1909"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Gunnhagen",
+                "birthDate": "1910",
+                "description": "District veterinary officer, Romainäs"
+            },
+            {
+                "@type": "Person",
+                "name": "Stiig Gunnhagen",
+                "birthDate": "1912",
+                "description": "Accountant, Västervik"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Gunnhagen",
+                "birthDate": "1914",
+                "description": "Court fiscal, Falkenberg"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": "High School",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Folk High School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": "Agricultural School",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Agricultural School"
+                }
+            }
+        ],
+        "owns": {
+            "@type": "Place",
+            "name": "Ljunga estate"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Veta local government",
+                "memberOf": {
+                    "@type": "LocalBusiness",
+                    "name": "Östergötland Livestock Insurance Company"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Vifolka Savings Bank in Mjölby",
+                "memberOf": {
+                    "@type": "LocalBusiness",
+                    "name": "Östergötland Fire Insurance Company"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Östergötland's folk high school and agricultural school"
+            }
+        ],
+        "award": [
+            {
+                "@type": "Order",
+                "name": "Knight of the Order of Vasa",
+                "dateReceived": "Date"
+            },
+            {
+                "@type": "Organization",
+                "name": "Savings banks",
+                "description": "Member of the general meeting"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östergötland Fire Insurance Company",
+                "description": "Member of the board of directors"
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "original": "Amundsson, John Artur, fil. mag., Göteborg, f. 12/5/12 i Ödsmål, Gbgs 0. Boh. I — Stud:ex. i Gbg 31, fil. mag. i Lund 36, provår v. Vasa h. a. 1. i Gbg 42-43. Extralär., e. adj. i Ängelholm 37-39, i Karlskrona 39-42, v. Vasa h. a. 1. i Gbg 43-46, e. o. adj. v. Östra realsk. i Gbg sed. 46. Tim-lär. v. Gbgs gymn. f. fl. 44-45, v. Gbgs h. samsk. sed. 46. Timass. i fysik v. CTH sed. 46.",
+    "translated": "Amundsson, John Artur, MA, Gothenburg, b. 12/5/12 in Ödsmål, Gothenburg and Bohuslän County. Primary education in Gothenburg in 1931, MA degree from Lund University in 1936. He completed a probation year at Vasa high school in Gothenburg in 1942-1943. He was an extra teacher and assistant teacher in Ängelholm from 1937 to 1939, then in Karlskrona from 1939 to 1942, and then at Vasa high school in Gothenburg from 1943 to 1946. In 1946, he became an acting assistant teacher in Östra realskolan in Gothenburg. He also worked as a part-time teacher at Gothenburg's gymnasium and high school from 1944 to 1945, and from 1946 onwards, he taught physics at Chalmers University of Technology in Gothenburg.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Artur Amundsson",
+        "jobTitle": "MA",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Ödsmål",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg",
+                "addressRegion": "Gothenburg and Bohuslän County"
+            }
+        },
+        "birthDate": "1912-05-12",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "primary",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationSystem": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "MA",
+                "educationalCredentialAwarded": "fil. mag.",
+                "educationSystem": "Lund University",
+                "yearAwarded": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "probation year",
+                "educationSystem": "Vasa high school",
+                "yearAwarded": "1943"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "extra teacher",
+                "employer": "Ängelholm",
+                "startDate": "1937",
+                "endDate": "1939"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "Assistant teacher",
+                "employer": "Karlskrona",
+                "startDate": "1939",
+                "endDate": "1942"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "acting assistant teacher",
+                "employer": "Östra realskolan",
+                "startDate": "1946"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "part-time teacher",
+                "employer": "Gothenburg's gymnasium and high school",
+                "startDate": "1944",
+                "endDate": "1945"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "teacher",
+                "employer": "Chalmers University of Technology",
+                "specialty": "physics",
+                "startDate": "1946"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressRegion": "Gothenburg and Bohuslän County"
+        }
+    }
+}

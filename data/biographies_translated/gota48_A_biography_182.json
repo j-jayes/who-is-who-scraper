@@ -1,0 +1,87 @@
+{
+    "original": "Andersson, Bror Gustav Wilhelm, läroverksadjunkt, Karlskrona, f. 26/12/ 06 i V. Sallerup, Malmöh. 1., av A. J. A. o. Christina Gustafsson. — Stud:ex. i Eslöv 24, fil. mag. i Lund 30, provår v. folkskisem. i Sthlm 37. Vik. adj. i Katrineholm 31, vik. ämneslär. v. Örebro h. folksk. 32, e. lär. i Ängelholm 32-36, e. o. adj. i Gävle 38-45, adj. i matem. o. kemi v. Karlskrona h. a. 1. sed. 45.",
+    "translated": "Andersson, Bror Gustav Wilhelm, High School Teacher, Karlskrona, born December 26, 1906 in V. Sallerup, Malmöh. First of A.J.A and Christina Gustafsson. Completed high school in Eslöv in 1924, received a bachelor's degree from Lund University in 1930, and completed a teaching internship at a primary school in Stockholm in 1937. He worked as a substitute teacher in Katrineholm in 1931, a substitute subject teacher at Örebro's primary school in 1932, a full-time teacher in Ängelholm from 1932 to 1936, an adjunct professor of Mathematics and Chemistry in Gävle from 1938-1945, and a high school mathematics and chemistry teacher in Karlskrona since 1945.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Bror Gustav Wilhelm Andersson",
+        "jobTitle": [
+            {
+                "@type": "Role",
+                "name": "Substitute Teacher",
+                "startDate": "1931",
+                "endDate": "1931",
+                "description": "Katrineholm"
+            },
+            {
+                "@type": "Role",
+                "name": "Substitute Subject Teacher",
+                "startDate": "1932",
+                "endDate": "1932",
+                "description": "Örebro's Primary School"
+            },
+            {
+                "@type": "Role",
+                "name": "Full-Time Teacher",
+                "startDate": "1932",
+                "endDate": "1936",
+                "description": "Ängelholm"
+            },
+            {
+                "@type": "Role",
+                "name": "Adjunct Professor",
+                "startDate": "1938",
+                "endDate": "1945",
+                "description": "Gävle"
+            },
+            {
+                "@type": "Role",
+                "name": "High School Mathematics and Chemistry Teacher",
+                "startDate": "1945",
+                "description": "Karlskrona"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlskrona"
+        },
+        "birthDate": "1906-12-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "V. Sallerup, Malmöh"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "A.J.A. Andersson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Christina Gustafsson",
+                "gender": "female"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Eslöv High School",
+                "endDate": "1924"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor's Degree"
+                },
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm Primary School",
+                "endDate": "1937"
+            }
+        ]
+    }
+}

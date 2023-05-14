@@ -1,0 +1,110 @@
+{
+    "original": "Almquist, Karl-Gustaf, komminister, Smålands Anneberg, f. 21/8/09 i Gbg. G. 38 m. Ingrid Garl-sson. Barn: Dan f. 38, Charlotte 41. — Stud:ex. i Gbg 29, fil. kand. 32, teol. kand., prakt, teol. prov samt prästv. f. Linköp. stift 37. Tjg. som past :adj. i Krlstdaia, Hedvigs o. S:t Olai församl. i Norrköp., kommin. i Norra Solberga 40. Stud :reis. t. Tyskl. 29, stip. v. La Fa-culté de la Theologie Protestante, Strasbourg, Frankr., 34, krigsfånge-sekr. i KFUM Världsförb. Krigs-fångehj. 44-46 m. uppg. att arb. bl. krigsfång. i USA, vist. und. nämnda tid där, ikrigsfångesiekr. i Frankr. 47.",
+    "translated": "Almquist, Karl-Gustaf, minister, from Smålands Anneberg, born on August 21, 1909 in Gothenburg. Married in 1938 to Ingrid Garl-sson. Children: Dan born in 1938, and Charlotte born in 1941. He graduated from high school in Gothenburg in 1929, earned a Bachelor's degree in 1932, a Master of Theology in 1937, and completed practical theological training in the Linköping diocese. He served as assistant pastor in the parishes of Kristdala, Hedvig, and St. Olai in Norrköping, and as minister in Norra Solberga in 1940. He studied in Germany in 1929, received a scholarship from La Faculté de la Théologie Protestante in Strasbourg, France in 1934, worked as a prisoner of war secretary for KFUM World Federation for Prisoners of War Aid from 1944 to 1946, with responsibilities working with prisoners of war in the United States during that time, and later worked as a prisoner secretary in France in 1947.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Karl-Gustaf Almquist",
+        "birthDate": "1909-08-21",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "occupation": "Minister",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Smålands Anneberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Garl-sson",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Dan",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotte",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Gbg 29",
+                "credentialCategory": "Secondary school graduation"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil. kand. 32",
+                "credentialCategory": "Bachelor's degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "credentialCategory": "Master of Theology"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Prakt, teol. prov",
+                "credentialCategory": "Practical theological training"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Prästv. f. Linköp. stift 37",
+                "credentialCategory": "Ordination as a minister"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "KFUM World Federation for Prisoners of War Aid"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "endDate": "1946",
+                "roleName": "Prisoner of War Secretary"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1947",
+                "endDate": "1947",
+                "roleName": "Prisoner Secretary"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1937",
+                "endDate": "1940",
+                "roleName": "Assistant Pastor",
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Kristdala Parish"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Hedvig Parish"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "St. Olai Parish"
+                    }
+                ]
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1940",
+                "roleName": "Minister",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Norra Solberga Parish"
+                }
+            }
+        ]
+    }
+}

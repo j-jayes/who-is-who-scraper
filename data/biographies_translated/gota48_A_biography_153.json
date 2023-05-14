@@ -1,0 +1,85 @@
+{
+    "original": "Anderson, Alvar Leonard, färgmästare, Borås, f. 15/3/01 i Borås av fabr. Claes A. o. Hanna Anderson. G. m. Lilly Astrid Söderlund. Barn: Kurt f. 30, Bengt 35. — Realex. v. Borås h. a. 1. 16. Res. t. Tyskl., Tjeckoslov. o. Schv\\^eiz. Färgmäst. h. Lind &amp; Co. i Borås. Led. av styr. f. detta föret. Medl. av Par Bricole o. Odd Fellow.",
+    "translated": "Anderson, Alvar Leonard, master dyer, Borås, b. March 15, 1901 in Borås to manufacturer Claes A. and Hanna Anderson. Married to Lilly Astrid Söderlund. Children: Kurt b. 1930, Bengt b. 1935. Completed Realex. at Borås high school in 1916. Traveled to Germany, Czechoslovakia, and Switzerland. Master dyer at Lind & Co. in Borås. Member of the board of directors for this company and a member of Par Bricole and Odd Fellow.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alvar Leonard Anderson",
+        "birthDate": "1901-03-15",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Borås"
+        },
+        "familyName": "Anderson",
+        "givenName": "Alvar Leonard",
+        "jobTitle": "Master dyer",
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Claes A. Anderson",
+                "jobTitle": "Manufacturer",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Anderson",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lilly Astrid Söderlund",
+            "gender": "Female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kurt Anderson",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Anderson",
+                "birthDate": "1935"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Realex",
+            "educationalLevel": "High School",
+            "provider": {
+                "@type": "Organization",
+                "name": "Borås High School"
+            },
+            "startDate": "1916"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Par Bricole"
+            },
+            {
+                "@type": "Organization",
+                "name": "Odd Fellow"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Lind & Co.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Borås"
+                }
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Lind & Co."
+        }
+    }
+}

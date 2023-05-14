@@ -1,0 +1,78 @@
+{
+    "original": "Andersson, Elon Siigfrid, ikyrlkoher-de, Torhamn, f. 4/11/93 i Augerum, Blek. 1. — Pastorsdiakon i Sigtuna 27, !Stud:ex. i Lund 32, teol. fil. ex. 33, teol’. kand. o. prästv. f. Lunds stift 3’5. V. pastor i Hjärsås 36, kyrkoadj. i Knislinge 37, kyrkoh. i Torhamn sed. 42.",
+    "translated": "Andersson, Elon Siigfrid, born November 4th, 1893 in Augerum, Blekinge. He was a pastors' deacon in Sigtuna in 1927, and received a student matriculation from Lund in 1932. He also received a Bachelor’s degree in theology in 1933, and was ordained as a priest for Lund diocese in 1935. He became an assistant pastor in Hjärsås in 1936, and a church adjutant in Knislinge in 1937. From 1942 onwards, he was a vicar in Torhamn.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Elon",
+        "additionalName": "Siigfrid",
+        "familyName": "Andersson",
+        "birthDate": "1893-11-04",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Augerum",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Blekinge"
+            }
+        },
+        "jobTitle": [
+            "Pastors' deacon",
+            "Assistant pastor",
+            "Church adjutant",
+            "Vicar"
+        ],
+        "memberOf": "Lunds stift",
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "eventType": "Stud:ex.",
+                "location": "Lund",
+                "startDate": "1932"
+            },
+            {
+                "@type": "EducationEvent",
+                "eventType": "Teol. fil. ex.",
+                "location": "Lund",
+                "startDate": "1933"
+            },
+            {
+                "@type": "EducationEvent",
+                "eventType": "Teol' kand.",
+                "location": "Lunds stift",
+                "startDate": "1935"
+            }
+        ],
+        "ordination": {
+            "@type": "Event",
+            "name": "Prästv.",
+            "location": "Lunds stift",
+            "startDate": "1935"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Sigtuna",
+                "jobTitle": "Pastors' deacon"
+            },
+            {
+                "@type": "Place",
+                "name": "Hjärsås",
+                "jobTitle": "Assistant pastor",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Place",
+                "name": "Knislinge",
+                "jobTitle": "Church adjutant",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Place",
+                "name": "Torhamn",
+                "jobTitle": "Vicar",
+                "startDate": "1942"
+            }
+        ]
+    }
+}
