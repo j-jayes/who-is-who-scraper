@@ -1,0 +1,105 @@
+{
+    "original": "Andersson, Anders Johan, ingenjör, Linköping, f. 21/8/99 i S. Akarp, Malmöh. 1., av G. E. A. o. Mathilda Mattsson. G. m. Birgit Ekström. Barn: Boel f. 35, Jan 37, Kerstin 41, Malin 44. — Stud:ex., maskiningiex. v. Techn. i Strelitz. Aff :res. t. Norge, Engl., Frankr., Belg., Tjeckoslov., Ungern, Rumänien, Bulg. o. Jugoslav. 32-39. Div. kort. anst. t. 28, statiker v. Messerschmitt Flugzeugbau i Augs-burg 28-30, statiker o. sen. ritkont:-chef v. Sv. Aero A-B i Lidingö 31-32, ritkont xhef v. A-B Sv. Järnv iverkst. aeroplravd. i Linköp. 33, chefskonstr. v. Bücker Flugzeugbau GmbH i Rangsdorf bei Berhn 33-39, chef f. konstr.-kont. v. Sv. Aeroplan A-B i Linköp. sed. 39.",
+    "translated": "Andersson, Anders Johan, engineer, Linköping, b. 21/8/99 in S. Akarp, Malmöh. 1., son of G. E. A. and Mathilda Mattsson. Married to Birgit Ekström. Children: Boel b. 35, Jan b. 37, Kerstin b. 41, Malin b. 44. – Studied at Techn. in Strelitz, graduated with a degree in mechanical engineering. Worked in various countries, including Norway, England, France, Belgium, Czechoslovakia, Hungary, Romania, Bulgaria, and Yugoslavia from 32-39. Had various short-term employments until 1928, became a statistician at Messerschmitt Flugzeugbau in Augsburg from 1928-1930, statistician and later chief of the drawing department at Sw. Aero A-B in Lidingö from 1931-1932, drawing chief at A-B Sw. Järnv iverkst. aeroplravd. in Linköp from 1933, chief designer at Bücker Flugzeugbau GmbH in Rangsdorf near Berlin from 1933-1939, and chief of the design department at Sv. Aeroplan A-B in Linköp from 1939 onwards.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anders Johan Andersson",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Statistician",
+                "startDate": "1928",
+                "endDate": "1930",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Messerschmitt Flugzeugbau",
+                    "location": "Augsburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Statistician",
+                "startDate": "1931",
+                "endDate": "1932",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Sw. Aero A-B",
+                    "location": "Lidingö"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Drawing Chief",
+                "startDate": "1933",
+                "affiliation": [
+                    {
+                        "@type": "Organization",
+                        "name": "A-B Sw. Järnv iverkst. aeroplravd.",
+                        "location": "Linköp"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Bücker Flugzeugbau GmbH",
+                        "location": "Rangsdorf"
+                    }
+                ]
+            }
+        ],
+        "birthPlace": {
+            "@type": "Place",
+            "name": "S. Akarp, Malmöh"
+        },
+        "birthDate": "1899-08-21",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "G. E. A. Andersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Mattsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgit Ekström"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Boel",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Malin",
+                "birthDate": "1944"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Techn. in Strelitz",
+            "degree": {
+                "@type": "EducationalDegree",
+                "name": "Mechanical Engineering"
+            }
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Sv. Aeroplan A-B",
+            "department": "Design department",
+            "jobTitle": "Chief"
+        }
+    }
+}

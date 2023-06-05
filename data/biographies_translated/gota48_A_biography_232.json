@@ -1,0 +1,96 @@
+{
+    "original": "Annerstedt, Nils Theodor, stadsombudsman, Västervik, f. 16/6/03 i Emmaboda, Kalmar 1., av v. konsuln Th. A. o. Nanny Ekefors. G. 36 m. Eva Berglind. Barn: Lena f. 38, Mats 42. — Stud :ex. i Kalmar 21, jur. kand. i Upps. 28. Tingstjg. i Hedemora doms. 29-31, tjg. v. rådhusr. o. magistraten i Västervik 32-34, stadsomb :man där sed. 35.",
+    "translated": "Annerstedt, Nils Theodor, city attorney, Västervik, b. June 16, 1903 in Emmaboda, Kalmar county, son of the Vice Consul Th. A. and Nanny Ekefors. Married to Eva Berglind in 1936. Children: Lena b. 1938, Mats b. 1942. Education: graduated from Kalmar in 1921, received law degree from Uppsala in 1928. Worked as assistant judge in Hedemora district court from 1929-1931 and served as assistant to town council and magistrate in Västervik from 1932-1934. Appointed as city attorney in Västervik in 1935 and remains in that position.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Theodor Annerstedt",
+        "jobTitle": "City Attorney",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Västervik"
+        },
+        "birthDate": "1903-06-16",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Emmaboda, Kalmar County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Th. A. Ekefors",
+                "jobTitle": "Vice Consul"
+            },
+            {
+                "@type": "Person",
+                "name": "Nanny Ekefors"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Eva Berglind",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lena Annerstedt",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Mats Annerstedt",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": "high school diploma",
+                "name": "Stud :ex. i Kalmar 21",
+                "startDate": "1921",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "bachelor's degree",
+                "name": "Jur. kand. i Upps. 28",
+                "startDate": "1928",
+                "endDate": "1928"
+            }
+        ],
+        "jobTitleHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "assistant judge",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Hedemora district court"
+                },
+                "startDate": "1929",
+                "endDate": "1931"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "assistant to town council and magistrate",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Västervik"
+                },
+                "startDate": "1932",
+                "endDate": "1934"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "city attorney",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Västervik"
+                },
+                "startDate": "1935"
+            }
+        ]
+    }
+}

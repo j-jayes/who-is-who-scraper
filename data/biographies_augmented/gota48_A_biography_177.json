@@ -1,0 +1,119 @@
+{
+    "original": "Andersson, Folke Edvard, advokat, Göteborg, f. 12/7/00 i Varv, Östergötl. 1., av lantbr. Gustaf A. o. Signe Andersson. G. 30 m. Ingrid Fagerström. Barn: Stig Folkeson f. 32, Anders Folkeson 34. — Stud:ex. i Linköp. 18, stud. i Upps. 18, jur. kand. 25. E. o. not. i Skånska hovr. 26, tingstjg. i V. Göinge doms. 26 o. 29, bitr. jur. å K. A. Vinges Adv :byrå i Gbg 29-35, egen verksamh. i Gbg sed. 35. Led. av Sv:es adv:samf. sed. 32.",
+    "translated": "Andersson, Folke Edvard, lawyer, Gothenburg, born on 12th July 1900 in Varv, Östergötland, son of farmer Gustaf A. and Signe Andersson. Married to Ingrid Fagerström for 30 years and has two children: Stig Folkeson, born in 1932, and Anders Folkeson, born in 1934. He received his high school diploma in Linköping in 1918, studied in Uppsala from 1918 to 1925 where he obtained a law degree. He served as clerk in the Skånska Court of Appeal in 1926 and as a judicial clerk in V. Göinge District Court in 1926 and 1929. He was a deputy lawyer at K. A. Vinges Law Firm in Gothenburg from 1929 to 1935 and has been practicing his own law firm in Gothenburg since 1935. He has been a member of the Swedish Bar Association since 1932.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Edvard Andersson",
+        "jobTitle": "Lawyer",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Varv",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Östergötland",
+                "addressCountry": "Sweden"
+            },
+            "latitude": 58.4676327,
+            "longitude": 15.1272083
+        },
+        "birthdate": "1900-07-12",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf A. Andersson",
+                "jobTitle": "Farmer"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Fagerström",
+            "marriageDuration": "P30Y"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Stig Folkeson Andersson",
+                "birthdate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Folkeson Andersson",
+                "birthdate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "HighSchool",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Linköping"
+                },
+                "completionDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Juris Doctor",
+                "educationalLevel": "Bachelor",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Uppsala"
+                },
+                "startDate": "1918",
+                "endDate": "1925"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Skånska Court of Appeal"
+                },
+                "jobTitle": "Clerk",
+                "startDate": "1926",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "V. Göinge District Court"
+                },
+                "jobTitle": "Judicial clerk",
+                "startDate": "1926",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "K. A. Vinges Law Firm"
+                },
+                "jobTitle": "Deputy Lawyer",
+                "startDate": "1929",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Own law firm"
+                },
+                "jobTitle": "Owner",
+                "startDate": "1935"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "memberStartDate": "1932"
+        }
+    }
+}

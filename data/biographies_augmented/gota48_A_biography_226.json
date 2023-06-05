@@ -1,0 +1,90 @@
+{
+    "original": "Aniansson, Gerda Alice, tandläkare, Halm-stad, f. 25/9/08 i Königsberg, Ostpreussen, av grosshandl. Georg Thran o. Alice Rosenfeldt. G. 32 m. tandl. Assar Aniansson. Barn: Gunnar f. 35, Gisela 40. — Stud:ex. i Königsberg 28, Gand. med. dent. i Bres’-;lau 29, tysk tandl. i Königisberg 31, sv. dito 36. Prakt, i Halmstad o. Ge-tirige sed, 36, skoltandl. i Getinge sed. 36 o. i Söndrum 37-40.",
+    "translated": "Aniansson, Gerda Alice was a dentist from Halmstad, born on September 25th, 1908 in Königsberg, East Prussia to a merchant named Georg Thran and Alice Rosenfeldt. She married fellow dentist Assar Aniansson in 1932 and had two children named Gunnar (born in 1935) and Gisela (born in 1940). Aniansson graduated from secondary school in Königsberg in 1928 and received her degree in dental medicine from the University of Breslau in 1929. She became a German licensed dentist in Königsberg in 1931 and a Swedish licensed dentist in 1936. She worked as a practicing dentist in Halmstad and Ge-tirige from 1936 and also worked as a school dentist in Getinge from 1936 to 1940 and in Söndrum from 1937 to 1940.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gerda Alice Aniansson",
+        "jobTitle": "Dentist",
+        "birthDate": "1908-09-25",
+        "birthPlace": "Königsberg, East Prussia",
+        "parent": {
+            "@type": "Person",
+            "name": "Alice Rosenfeldt"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Assar Aniansson",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar Aniansson",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Gisela Aniansson",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Breslau",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Dental Medicine"
+                },
+                "attendedFrom": "1929",
+                "attendedTo": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Secondary school in Königsberg",
+                "attendedFrom": "1928",
+                "attendedTo": "1928"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Halmstad Dental Practice",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ge-tirige Dental Practice",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "Organization",
+                "name": "Getinge School",
+                "jobTitle": "School Dentist",
+                "attendedFrom": "1936",
+                "attendedTo": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Söndrum School",
+                "jobTitle": "School Dentist",
+                "attendedFrom": "1937",
+                "attendedTo": "1940"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "German Licensing Board",
+                "membershipStartDate": "1931",
+                "membershipEndDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Licensing Board",
+                "membershipStartDate": "1936"
+            }
+        ]
+    }
+}

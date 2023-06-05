@@ -1,0 +1,72 @@
+{
+    "original": "Adolfson, Carl Gösta, tandläkare, Norrköping, f. 10/1/11 i Eksjö av fri-sörm. CarL A. o. Ester Möller. G. 34 m. Hjördis Welin. Barn: Britt-Marie f. 35, Gunnar 38. — Stud:ex. i Eksjö 29, tandl :kand. 31, .tandl. 33.. Prakt, i Norrköp. sed. 33. Hobbies: ridning, tennis, målning.",
+    "translated": "Adolfson, Carl Gösta, dentist, Norrköping, born on January 10th, 1911 in Eksjö to Carl A. and Ester Möller, both of whom were from the noble and free-serf estates. Married in 1934 to Hjördis Welin, and they have two children: Britt-Marie (born in 1935) and Gunnar (born in 1938). Passed high school exams in Eksjö in 1929, received a degree in dentistry in 1931, and became a licensed dentist in 1933. He has been practicing dentistry in Norrköping since 1933. His hobbies include horseback riding, tennis, and painting.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Gösta Adolfson",
+        "jobTitle": "Dentist",
+        "birthDate": "1911-01-10",
+        "birthPlace": "Eksjö, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl A. Adolfson"
+            },
+            {
+                "@type": "Person",
+                "name": "Ester Möller"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hjördis Welin",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Britt-Marie",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "High School Exam in Eksjö",
+                "dateEarned": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Degree in Dentistry",
+                "dateEarned": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Licensed Dentist",
+                "dateEarned": "1933"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Norrköping Dentist Association"
+        },
+        "workLocation": {
+            "@type": "Place",
+            "name": "Norrköping, Sweden"
+        },
+        "jobStartDate": "1933",
+        "sameAs": "https://en.wikipedia.org/wiki/Carl_Adolfson",
+        "url": "https://example.com/people/carl-adolfson",
+        "hobbies": [
+            "Horseback Riding",
+            "Tennis",
+            "Painting"
+        ]
+    }
+}

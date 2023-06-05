@@ -1,0 +1,72 @@
+{
+    "original": "Agging, William, tandläkare, Tranås, f. 15/11/04 i Boxholm, östergötl. 1. G. 36 m. Ingeborg Boqvist. Barn: Birgitta f. 40, Gunilla 44. — Stud:ex. i Linköping 26, Cand. med. dent. i Bonn 29, tysk tandl. där 31, sv. dito 32. Prakt, i Nyköping 32-36, i Box-hoim 36-38, i Eksjö 38-47, i Tranås sed. 47.",
+    "translated": "Agging, William, dentist, Tranås, b. November 15, 1904 in Boxholm, Östergötland. Married Ingeborg Boqvist in 1936, with whom he has two children: Birgitta, born in 1940, and Gunilla, born in 1944. He graduated from high school in Linköping in 1926, received a degree in dentistry from Bonn in 1929, and a German dental degree there in 1931 and a Swedish dental degree in 1932. Worked in Nyköping from 1932 to 1936, in Boxholm from 1936 to 1938, in Eksjö from 1938 to 1947, and in Tranås since 1947.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "William Agging",
+        "jobTitle": "Dentist",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Boxholm, Östergötland"
+        },
+        "birthDate": "1904-11-15",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Boqvist",
+            "dateOfMarriage": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta Agging",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Agging",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. Linköping",
+                "startDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Cand. med. dent. Bonn",
+                "startDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "German dental degree Bonn",
+                "startDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Swedish dental degree",
+                "startDate": "1932"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Association"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Tranås Dental Clinic"
+        },
+        "jobStartDate": "1947-01-01",
+        "formerPertners": [
+            "Nyköping Dental Clinic",
+            "Boxholm Dental Clinic",
+            "Eksjö Dental Clinic"
+        ],
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        }
+    }
+}

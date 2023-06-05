@@ -1,0 +1,112 @@
+{
+    "original": "Ahlin, Paul Tore Valfrid, leg. läkare, Göteborg, f. 10/8/11 i Hälsingborg av järnhandl. Valfrid A. o. Ebba Holst. G. 39 m. HiHevi Adèle Gentz. Barn: Staffan f. 40, Stellan 45. — Stud :ex. i Hälsingborg 29, med. kand. i Lund 33, med. lic. v. Karol. inst. 39. Und :läk. v. Sachsska barnsjukh. i Sthlm, barnsjukh. i Gbg, EpidemÅ-sjukh. i Gbg m, m. 39-47, prakt. läk. m, spec. barnsjukd. i Gbg ’sed. 47.",
+    "translated": "Ahlin, Paul Tore Valfrid, certified physician, Gothenburg, born on August 10th, 1911 in Helsingborg to Valfrid A. and Ebba Holst who owned an ironmongery. Married in 1939 to HiHevi Adèle Gentz. Children: Staffan born in 1940, Stellan born in 1945. He graduated from high school in Helsingborg in 1929, received a Bachelor of Medicine degree from Lund University in 1933, and a Medical Doctorate from Karolinska Institute in 1939. He worked as a resident physician at Sachs' Children's Hospital in Stockholm, at the Children's Hospital in Gothenburg, at the Epidemic Hospital in Gothenburg, and more, from 1939 to 1947. He has been a practising physician, specializing in pediatrics, in Gothenburg since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\", \n  \"@type\": \"Person\",\n  \"name\": \"Paul Tore Valfrid Ahlin\",\n  \"birthDate\": \"1911-08-10\",\n  \"birthPlace\": \"Helsingborg, Sweden\", \n  \"jobTitle\": \"Certified Physician\",\n  \"nationality\": \"Swedish\",\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"location\": \"Lund, Sweden\",\n      \"degree\": {\n        \"@type\": \"MedicalDegree\",\n        \"name\": \"Bachelor of Medicine\"\n      },\n      \"attendee\": {\n        \"@type\": \"Person\",\n        \"name\": \"Paul Tore Valfrid Ahlin\"\n      },\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Karolinska Institute\",\n      \"location\": \"Stockholm, Sweden\",\n      \"degree\": {\n        \"@type\": \"MedicalDegree\",\n        \"name\": \"Medical Doctorate\"\n      },\n      \"attendee\": {\n        \"@type\": \"Person\",\n        \"name\": \"Paul Tore Valfrid Ahlin\"\n      },\n      \"startDate\": \"1933\",\n      \"endDate\": \"1939\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"HiHevi Adèle Gentz\",\n    \"gender\": \"Female\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Staffan Ahlin\",\n      \"gender\": \"Male\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stellan Ahlin\",\n      \"gender\": \"Male\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Medical Center\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressCountry\": \"Sweden\",\n      \"addressLocality\": \"Gothenburg\"\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sachs' Children's Hospital\",\n      \"location\": \"Stockholm, Sweden\",\n      \"roleName\": \"Resident Physician\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg Children's Hospital\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"roleName\": \"Resident Physician\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg Epidemic Hospital\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"roleName\": \"Resident Physician\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg Medical Center\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"roleName\": \"Practising Physician\",\n      \"specialty\": [\n        {\n          \"@type\": \"MedicalSpecialty\",\n          \"name\": \"Pediatrics\"\n        }\n      ],\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Paul Tore Valfrid Ahlin",
+        "birthDate": "1911-08-10",
+        "birthPlace": "Helsingborg, Sweden",
+        "jobTitle": "Certified Physician",
+        "nationality": "Swedish",
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "location": "Lund, Sweden",
+                "degree": {
+                    "@type": "MedicalDegree",
+                    "name": "Bachelor of Medicine"
+                },
+                "attendee": {
+                    "@type": "Person",
+                    "name": "Paul Tore Valfrid Ahlin"
+                },
+                "endDate": "1933"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Karolinska Institute",
+                "location": "Stockholm, Sweden",
+                "degree": {
+                    "@type": "MedicalDegree",
+                    "name": "Medical Doctorate"
+                },
+                "attendee": {
+                    "@type": "Person",
+                    "name": "Paul Tore Valfrid Ahlin"
+                },
+                "startDate": "1933",
+                "endDate": "1939"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "HiHevi Adèle Gentz",
+            "gender": "Female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Staffan Ahlin",
+                "gender": "Male",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Stellan Ahlin",
+                "gender": "Male",
+                "birthDate": "1945"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg Medical Center",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Sweden",
+                "addressLocality": "Gothenburg"
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sachs' Children's Hospital",
+                "location": "Stockholm, Sweden",
+                "roleName": "Resident Physician",
+                "startDate": "1939",
+                "endDate": "1947"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg Children's Hospital",
+                "location": "Gothenburg, Sweden",
+                "roleName": "Resident Physician",
+                "startDate": "1939",
+                "endDate": "1947"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg Epidemic Hospital",
+                "location": "Gothenburg, Sweden",
+                "roleName": "Resident Physician",
+                "startDate": "1939",
+                "endDate": "1947"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg Medical Center",
+                "location": "Gothenburg, Sweden",
+                "roleName": "Practising Physician",
+                "specialty": [
+                    {
+                        "@type": "MedicalSpecialty",
+                        "name": "Pediatrics"
+                    }
+                ],
+                "startDate": "1947"
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "original": "Bergbäck, Sven Oskar Samuel, ak- tuarie, Norrköping, f. 25/3/17 i Linköping. G. 46 m. sjuksköt. Inger Lar-sen. Barn: Torkel f. 46. — Stud:ex. v. Linköp. h. a. 1. 38, DSI 44, fil. kand. v. Sthlms högsk. 45, pol. mag. 46. Ak-tuarie v. Norrköp. stads stat. kont. fr. 46.",
+    "translated": "Bergbäck, Sven Oskar Samuel, actuary, Norrköping, born on March 25, 1917 in Linköping. He married Inger Larsen in 1946 and they have one child named Torkel, born in 1946. He received his high school degree from Linköping in 1938 and his DSI in 1944. He earned a Bachelor of Arts from Stockholm's University in 1945 and a Master's Degree in Political Science in 1946. He has been an actuary at Norrköping city statistical office since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Oskar Samuel Bergbäck\",\n  \"jobTitle\": \"Actuary\",\n  \"birthDate\": \"1917-03-25\",\n  \"birthPlace\": \"Linköping, Sweden\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inger Larsen\",\n    \"jobTitle\": \"Nurse\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Torkel Bergbäck\",\n    \"birthDate\": \"1946\",\n    \"birthPlace\": \"Sweden\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"issuer\": \"Linköping\",\n      \"dateIssued\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"DSI\",\n      \"issuer\": \"\",\n      \"dateIssued\": \"1944\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Arts\",\n      \"issuer\": \"Stockholm's University\",\n      \"dateIssued\": \"1945\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's Degree in Political Science\",\n      \"issuer\": \"\",\n      \"dateIssued\": \"1946\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Norrköping City Statistical Office\",\n    \"jobTitle\": \"Actuary\",\n    \"startDate\": \"1946\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Oskar Samuel Bergbäck",
+        "jobTitle": "Actuary",
+        "birthDate": "1917-03-25",
+        "birthPlace": "Linköping, Sweden",
+        "spouse": {
+            "@type": "Person",
+            "name": "Inger Larsen",
+            "jobTitle": "Nurse"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Torkel Bergbäck",
+            "birthDate": "1946",
+            "birthPlace": "Sweden"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "issuer": "Linköping",
+                "dateIssued": "1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "DSI",
+                "issuer": "",
+                "dateIssued": "1944"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Arts",
+                "issuer": "Stockholm's University",
+                "dateIssued": "1945"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master's Degree in Political Science",
+                "issuer": "",
+                "dateIssued": "1946"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Norrköping City Statistical Office",
+            "jobTitle": "Actuary",
+            "startDate": "1946"
+        }
+    }
+}

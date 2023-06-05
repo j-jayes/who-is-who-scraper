@@ -1,0 +1,102 @@
+{
+    "original": "Andersson, Sven-Åke Gustaf, redaktör, Skänninge, f. 22/8/09 i Hult, Jön-köp. 1., av domkyrkokommin. Gustaf R. o. Elsa Andersson. G. 42 m. Signe Franke. — Stud:ex. 27. Anst. v. Ostgöta Correspondenten i Linköp. 33, lo-kalred. i Skänninge sed. 42. Sekr. i Skänningekrets. av SvR’K 43-46, ’sekr. i Skänninge lokalavd. av Sv. eldbe-gäng:fören. sed. 43, v. ordf. i Skän-ninge-ortens unpv. fören. 43, ordf. 44, v. ordf. o. kassör i Skänninge höger-fören. 45, ordf. 47. Medl. av Publ:kl. o. Odd Fellow.",
+    "translated": "Andersson, Sven-Åke Gustaf, editor, Skänninge. Born August 22, 1909 in Hult, Jönköping County, the first child of the cathedral curate Gustaf R. and Elsa Andersson. Married to Signe Franke in 1942. Completed studies at age 27. Employed by the Ostgöta Correspondenten in Linköping in 1933, became a local editor in Skänninge in 1942. Secretary of the Swedish Red Cross in the Skänninge district from 1943-1946, secretary of the Skänninge local chapter of the Swedish civilian defense association from 1943, vice chairman of the Skänninge community association in 1943, and chairman in 1944. Vice chairman and treasurer of the Skänninge conservative association in 1945, and chairman in 1947. Member of the Public Class and the Odd Fellows.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sven-Åke Gustaf Andersson",
+        "jobTitle": "Editor",
+        "birthDate": "1909-08-22",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hult",
+                "addressRegion": "Jönköping County"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf R. Andersson",
+                "jobTitle": "Cathedral Curate"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Franke",
+            "marriageDate": "1942"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "diploma",
+            "name": "Stud:ex",
+            "yearObtained": "1927"
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Ostgöta Correspondenten",
+                "startDate": "1933",
+                "endDate": "1942",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skänninge Local Newspaper",
+                "startDate": "1942",
+                "jobTitle": "Local Editor"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Red Cross",
+                "membershipStartDate": "1943",
+                "membershipEndDate": "1946",
+                "roleName": "Secretary",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Skänninge District"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Civilian Defense Association",
+                "membershipStartDate": "1943",
+                "roleName": "Secretary",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Skänninge Local Chapter"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Skänninge Community Association",
+                "membershipStartDate": "1943",
+                "roleName": "Vice Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skänninge Conservative Association",
+                "membershipStartDate": "1945",
+                "roleName": "Vice Chairman and Treasurer",
+                "membershipEndDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Odd Fellows",
+                "membershipStartDate": "unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Public Class",
+                "membershipStartDate": "unknown"
+            }
+        ]
+    }
+}

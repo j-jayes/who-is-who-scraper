@@ -1,0 +1,148 @@
+{
+    "original": "Asp, Erik Wilhelm, civilingenjör, Huskvarna, f. 22/5/13 i Vinnerstad, Österg. 1., av dir. Ernst A. o. Ester Samuelsson. G. 39 m. Martha Ceder-schiöld. Barn: Rolf f. 40, Lilian 42, Björn 45. — Stud :ex. (real) v. h. a. 1. i Motala 32, civ:ing:ex. v. KTH (mek.) 37. Res. t. Tyskl. 27, 35, 36. Arb :stud :ing. v. Sv. Metallverk, i Västerås 38, anst. i Sv. Petrol. A-B Standard 39-40, Sv. Stålpressn. A-B i Eskilstuna 41, Spec. Varuinköp 42, verkst :chef v. A-B Husqvarna Borst-fabr. fr. 43. Hobbies: bridge, golf.",
+    "translated": "Asp, Erik Wilhelm, civil engineer, from Huskvarna. Born on May 22, 1913 in Vinnerstad, Östergötland County, first child of director Ernst A. and Ester Samuelsson. Married in 1939 to Martha Cederschiöld. Children: Rolf (born 1940), Lilian (born 1942), Björn (born 1945). Education: Graduated from Motala (real) high school in 1932, received civil engineer degree from the Royal Institute of Technology in 1937. Residences in Germany in 1927, 1935, and 1936. Work experience: Studied engineering at Swedish Metalworks in Västerås in 1938, employed by Swedish Petroleum AB from 1939 to 1940, worked for Swedish Steel Press AB in Eskilstuna in 1941, specialized in purchasing from 1942 and became head of production at AB Husqvarna Brush Factory in 1943. Hobbies: playing bridge and golf.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Wilhelm Asp",
+        "jobTitle": "Civil Engineer",
+        "birthDate": "1913-05-22",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Vinnerstad, Östergötland County, Sweden",
+            "latitude": 58.5243333,
+            "longitude": 15.0741961
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ernst A. Asp",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Ester Samuelsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Martha Cederschiöld",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rolf Asp",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lilian Asp",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn Asp",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "real high school",
+                "educationalLevel": "Stud",
+                "educationalProgram": "Motala high school",
+                "endDate": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "civil engineer",
+                "educationalLevel": "Stud",
+                "educationalProgram": "Royal Institute of Technology",
+                "startDate": "1931-01-01",
+                "endDate": "1937-01-01"
+            }
+        ],
+        "residence": [
+            {
+                "@type": "Place",
+                "name": "Germany",
+                "startDate": "1927",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Place",
+                "name": "Germany",
+                "startDate": "1935",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Place",
+                "name": "Germany",
+                "startDate": "1936",
+                "endDate": "1936"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Metalworks",
+                "jobTitle": "Engineering Student",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Västerås",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1938",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Petroleum AB",
+                "jobTitle": "Employee",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1939",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Steel Press AB",
+                "jobTitle": "Employee",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Eskilstuna",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1941",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Husqvarna Brush Factory",
+                "jobTitle": "Head of Production",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Huskvarna",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1943"
+            }
+        ],
+        "sameAs": "https://example.com/me/erik-wilhelm-asp",
+        "hasOccupation": "Civil Engineer",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Engineering Association"
+            }
+        ],
+        "knowsLanguage": "Swedish",
+        "interest": [
+            "Bridge",
+            "Golf"
+        ]
+    }
+}

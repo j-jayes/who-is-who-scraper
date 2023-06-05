@@ -1,0 +1,112 @@
+{
+    "original": "Andersson, Carl Erik, assuransdi-rektör, Jönköping, f. 5/4/82 i Halmstad av Julius A. o. Anna Bengtsson. G. m. Angelika Lindström. Barn: Birgit f. 10, Gunvor 12, Ingrid 13, Bengt 16. •— Stud:ex. 02, stud. v. Gbgs hand:-inst. 02-03. Tj :man i Städernas Lös-öreförsäkringsbol. (num. Försäkr :-bol. Allm. Brand) 03, kamr. o. kont:-chef där 35, bitr. dir. sed. 42. Medl. av Sv. försäkr:fören. sed. 38.",
+    "translated": "Andersson, Carl Erik, insurance director, Jönköping, born April 5th, 1882 in Halmstad to Julius A. and Anna Bengtsson. Married to Angelika Lindström. Children: Birgit born in 1910, Gunvor in 1912, Ingrid in 1913, Bengt in 1916. He completed his high school exam in 1902 and studied at Gothenburg's business school in 1902-1903. He started working for Städernas Lösoresförsäkringsbolag (now called Försäkringsbolaget Allmänna Brand) in 1903 and was a clerk and head of the office there since 1935, and assistant director since 1942. He became a member of the Swedish insurance association in 1938.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Erik Andersson",
+        "jobTitle": "Insurance Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jönköping"
+        },
+        "birthdate": "1882-04-05",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Halmstad"
+            },
+            "latitude": 56.6739826,
+            "longitude": 12.8574827
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Julius A. Andersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Bengtsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Angelika Lindström"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgit Andersson",
+                "birthDate": "1910"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunvor Andersson",
+                "birthDate": "1912"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Andersson",
+                "birthDate": "1913"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Andersson",
+                "birthDate": "1916"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Carl Erik Andersson"
+                },
+                "dateEarned": "1902"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Gothenburg's business school",
+                "educationalCredentialAwarded": "Certificate",
+                "startDate": "1902",
+                "endDate": "1903"
+            }
+        ],
+        "employment": {
+            "@type": "Organization",
+            "name": "Försäkringsbolaget Allmänna Brand",
+            "employees": {
+                "@type": "Person",
+                "name": "Carl Erik Andersson"
+            },
+            "department": {
+                "@type": "Organization",
+                "name": "Städernas Lösoresförsäkringsbolag"
+            },
+            "jobTitle": [
+                {
+                    "@type": "JobTitle",
+                    "name": "Clerk",
+                    "startDate": "1903",
+                    "endDate": "1935"
+                },
+                {
+                    "@type": "JobTitle",
+                    "name": "Head of Office",
+                    "startDate": "1935"
+                },
+                {
+                    "@type": "JobTitle",
+                    "name": "Assistant Director",
+                    "startDate": "1942"
+                }
+            ]
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Insurance Association"
+        }
+    }
+}

@@ -1,0 +1,142 @@
+{
+    "original": "Asklund, John, tandläkare, Göteborg, f. 18/2/85 i Gbg av dir. John A. o. Anna-Cajsa Larson. G. 16 m. Annika Boström. Barn: Jan f. 16, tj :-man, Gbg, Ulla 19, g. m. fil. mag. Alvar Ellegård, Gbg, Per 23, stud. — Mog:ex. v. Gbgs h, reallärov. 05, res :-off:ex. 07, tandhkand. s. å., tandl. 10. Prakt, i Sthlm 10-11, i Malmberget 12, Jönköp. 12-15, Gbg 16-33, Degerfors 34 samt i Falköp., num. åter i Gbg. En av stift, av samt sekr. i Jönköp. (sederm. Smålands) tandl :fören.",
+    "translated": "Asklund, John, dentist, Gothenburg. Born on February 18, 1885 in Gothenburg to director John A. and Anna-Cajsa Larson. Married to Annika Boström for 16 years with children: Jan, born in 1916 and works as a clerk in Gothenburg, Ulla, born in 1919 and married to Alvar Ellegård who has a master's degree in philosophy, Per, born in 1923 and is a student. Completed his higher secondary education in Gothenburg in 1905, reservist officer examination in 1907, and became a dental student in the same year, completing his dental degree in 1910. Practiced in Stockholm from 1910 to 1911, Malmberget in 1912, Jönköping from 1912 to 1915, Gothenburg from 1916 to 1933, Degerfors in 1934, and then returned to Gothenburg. Also served as the secretary for the dental association in Jönköping and later in Småland.",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "John Asklund",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "startDate": "1910",
+                "endDate": "1911",
+                "jobLocation": {
+                    "@type": "City",
+                    "name": "Stockholm"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "startDate": "1912",
+                "endDate": "1912",
+                "jobLocation": {
+                    "@type": "City",
+                    "name": "Malmberget"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "startDate": "1912",
+                "endDate": "1915",
+                "jobLocation": {
+                    "@type": "City",
+                    "name": "Jönköping"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "startDate": "1916",
+                "endDate": "1933",
+                "jobLocation": {
+                    "@type": "City",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "startDate": "1934",
+                "endDate": "1934",
+                "jobLocation": {
+                    "@type": "City",
+                    "name": "Degerfors"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "startDate": "",
+                "jobLocation": {
+                    "@type": "City",
+                    "name": "Falköping"
+                }
+            }
+        ],
+        "birthDate": "1885-02-18",
+        "birthPlace": {
+            "name": "Gothenburg",
+            "latitude": 57.7072326,
+            "longitude": 11.9670171
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John A. Asklund"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Cajsa Larson"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Annika Boström",
+                "marriageDate": "16 years"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan Asklund",
+                "birthDate": "1916"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Asklund",
+                "birthDate": "1919",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Alvar Ellegård",
+                    "jobTitle": "Philosopher",
+                    "educationCredential": "Master's degree"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Per Asklund",
+                "birthDate": "1923",
+                "jobTitle": "Student"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg higher secondary school",
+                "location": "Gothenburg",
+                "endDate": "1905"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Reservist officer examination",
+                "location": "Sweden",
+                "endDate": "1907"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental school",
+                "location": "Sweden",
+                "startDate": "1907",
+                "endDate": "1910"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Dental association of Jönköping"
+            },
+            {
+                "@type": "Organization",
+                "name": "Småland dental association"
+            }
+        ]
+    }
+}

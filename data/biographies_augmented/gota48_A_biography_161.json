@@ -1,0 +1,119 @@
+{
+    "original": "Anderson, Axel Samuel, landsfiskal. Tidaholm, f. 11/4/89 i Tidaholm av handl. Per A. o. Anna Sundberg. G. 16 m. Anna Svensson. Barn: Anna-Britta f. 17, g. m. L/t Colonel Charles v. Zweigbergk, Camberly, Eng- land. — Realex. i Skövde 07, lands-fiskalsex. i Mariestad 11. Tf. landsfiskal i Tidaholm 12-16, landsfiskal i Tidaholms distr. sed. 16. Ordf. i styr. f. Tidaholms Sparbank 42, led. av styr. f. Bengtzons Manufaktur A-B sed. 35. Medl. av Odd Fellow. Hobby: fiske. RVO.",
+    "translated": "Anderson, Axel Samuel, county attorney. Tidaholm, born April 11th, 1889 in Tidaholm to merchant Per A. and Anna Sundberg. Married for 16 years to Anna Svensson. Children: Anna-Britta born in 1917, married to Lieutenant Colonel Charles v. Zweigbergk, Camberly, England. Completed the Realex exam in Skövde in 1907, became an assistant county attorney in Mariestad in 1911. Temporary county attorney in Tidaholm from 1912-1916 and county attorney in the Tidaholm district from 1916. Chairman of the board for Tidaholms Savings Bank in 1942 and a member of the board for Bengtzons Manufaktur AB since 1935. Member of Odd Fellow. Hobby: fishing. Received the Order of Vasa (RVO).",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Samuel Anderson",
+        "birthPlace": {
+            "name": "Tidaholm",
+            "latitude": 58.2,
+            "longitude": 13.933333
+        },
+        "birthDate": "1889-04-11",
+        "father": {
+            "@type": "Person",
+            "name": "Per A. Anderson",
+            "occupation": "Merchant"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Anna Sundberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Svensson",
+            "marriageDate": "YYYY-MM-DD",
+            "endDate": "YYYY-MM-DD"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anna-Britta",
+                "birthDate": "1917",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Lieutenant Colonel Charles v. Zweigbergk",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "Camberly"
+                    }
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Realex",
+                "educationLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Realex exam"
+                },
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Skövde"
+                },
+                "endDate": "1907"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": [
+                    "OrganizationRole",
+                    "GovernmentOffice"
+                ],
+                "name": "Mariestad",
+                "roleName": "Assistant County Attorney",
+                "startDate": "1911"
+            },
+            {
+                "@type": [
+                    "OrganizationRole",
+                    "GovernmentOffice"
+                ],
+                "name": "Tidaholm",
+                "roleName": "Temporary County Attorney",
+                "startDate": "1912",
+                "endDate": "1916"
+            },
+            {
+                "@type": [
+                    "OrganizationRole",
+                    "GovernmentOffice"
+                ],
+                "name": "Tidaholm district",
+                "roleName": "County Attorney",
+                "startDate": "1916"
+            },
+            {
+                "@type": [
+                    "OrganizationRole",
+                    "Corporation"
+                ],
+                "name": "Tidaholms Savings Bank",
+                "roleName": "Chairman of the Board",
+                "startDate": "1942"
+            },
+            {
+                "@type": [
+                    "OrganizationRole",
+                    "Corporation"
+                ],
+                "name": "Bengtzons Manufaktur AB",
+                "roleName": "Board Member",
+                "startDate": "1935"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Odd Fellow"
+        },
+        "hasOccupation": {
+            "@type": "GovernmentOffice",
+            "name": "County Attorney"
+        },
+        "honorificPrefix": "RVO",
+        "gender": "Male"
+    }
+}

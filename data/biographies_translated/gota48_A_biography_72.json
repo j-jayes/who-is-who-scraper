@@ -1,0 +1,103 @@
+{
+    "original": "Ahlström, Bror Axel, assuransdi-rektör, Göteborg, f. 24/4/84 i Skara av fabr. P. J. A. o. Emma Lundgren. G. 11 m. Ester Lindholm. Barn: An- ders f. 12, Ann-Marie 15. — Stud:ex. v. Skara h. a. 1. 03, genomg. Gbgs hand:inst. 04. Kont:prakt. i Hamburg 05, anst. i Brand- o. Lifförsäkr. A-B Svea i Gbg 05, avd :chef 19, kamr. 24, bitr. dir. 42, pens. 45. Bitr. sekr. i Sv. brandtariffören. Gbgs-delegation 12. ProPatrstGM, Brand- o. Lifförsäkr. A~B Sveas GM.",
+    "translated": "Ahlström, Bror Axel, insurance director, Gothenburg, born April 24, 1884 in Skara, son of factory owner P. J. A. and Emma Lundgren. Married in 1911 to Ester Lindholm. Children: Anders (born in 1912) and Ann-Marie (born in 1915). Graduated from Skara high school in 1903, completed studies at Gothenburg Business School in 1904. Worked in a trainee position in Hamburg in 1905, then joined the insurance company Brand- o. Lifförsäkr. A-B Svea in Gothenburg in 1905 and served as department manager in 1919, auditor in 1924, and assistant director in 1942 before retiring in 1945. Also worked as assistant secretary in the Swedish Fire Tariff Association's Gothenburg delegation in 1912. Awarded the Pro Patria Medal for Merit in Gold by Brand- o. Lifförsäkr. A-B Svea.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Bror Axel Ahlström\",\n   \"jobTitle\": \"Insurance Director\",\n   \"birthDate\": \"1884-04-24\",\n   \"birthPlace\": \"Skara, Sweden\",\n   \"father\": {\n      \"@type\": \"Person\",\n      \"name\": \"P. J. A. Ahlström\"\n   },\n   \"mother\": {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Lundgren\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Lindholm\",\n      \"marriageDate\": \"1911\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders Ahlström\",\n         \"birthDate\": \"1912\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ann-Marie Ahlström\",\n         \"birthDate\": \"1915\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Skara high school\",\n         \"endDate\": \"1903\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Gothenburg Business School\",\n         \"endDate\": \"1904\"\n      }\n   ],\n   \"jobTitleHistory\": [\n      {\n         \"@type\": \"JobPosting\",\n         \"title\": \"Trainee\",\n         \"hiringOrganization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Unknown\",\n            \"location\": \"Hamburg, Germany\"\n         },\n         \"startDate\": \"1905\"\n      },\n      {\n         \"@type\": \"JobPosting\",\n         \"title\": \"Department Manager\",\n         \"hiringOrganization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Brand- o. Lifförsäkr. A-B Svea\",\n            \"location\": \"Gothenburg, Sweden\"\n         },\n         \"startDate\": \"1919\",\n         \"endDate\": \"1924\"\n      },\n      {\n         \"@type\": \"JobPosting\",\n         \"title\": \"Assistant Director\",\n         \"hiringOrganization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Brand- o. Lifförsäkr. A-B Svea\",\n            \"location\": \"Gothenburg, Sweden\"\n         },\n         \"startDate\": \"1942\",\n         \"endDate\": \"1945\"\n      },\n      {\n         \"@type\": \"JobPosting\",\n         \"title\": \"Assistant Secretary\",\n         \"hiringOrganization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Swedish Fire Tariff Association's Gothenburg delegation\",\n            \"location\": \"Gothenburg, Sweden\"\n         },\n         \"startDate\": \"1912\"\n      }\n   ],\n   \"awards\": {\n      \"@type\": \"Medal\",\n      \"name\": \"Pro Patria Medal for Merit in Gold\",\n      \"issuer\": {\n         \"@type\": \"Organization\",\n         \"name\": \"Brand- o. Lifförsäkr. A-B Svea\",\n         \"location\": \"Gothenburg, Sweden\"\n      }\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Axel Ahlström",
+        "jobTitle": "Insurance Director",
+        "birthDate": "1884-04-24",
+        "birthPlace": "Skara, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "P. J. A. Ahlström"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Emma Lundgren"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ester Lindholm",
+            "marriageDate": "1911"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anders Ahlström",
+                "birthDate": "1912"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Marie Ahlström",
+                "birthDate": "1915"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara high school",
+                "endDate": "1903"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Business School",
+                "endDate": "1904"
+            }
+        ],
+        "jobTitleHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Trainee",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Unknown",
+                    "location": "Hamburg, Germany"
+                },
+                "startDate": "1905"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Department Manager",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Brand- o. Lifförsäkr. A-B Svea",
+                    "location": "Gothenburg, Sweden"
+                },
+                "startDate": "1919",
+                "endDate": "1924"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Director",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Brand- o. Lifförsäkr. A-B Svea",
+                    "location": "Gothenburg, Sweden"
+                },
+                "startDate": "1942",
+                "endDate": "1945"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Secretary",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Swedish Fire Tariff Association's Gothenburg delegation",
+                    "location": "Gothenburg, Sweden"
+                },
+                "startDate": "1912"
+            }
+        ],
+        "awards": {
+            "@type": "Medal",
+            "name": "Pro Patria Medal for Merit in Gold",
+            "issuer": {
+                "@type": "Organization",
+                "name": "Brand- o. Lifförsäkr. A-B Svea",
+                "location": "Gothenburg, Sweden"
+            }
+        }
+    }
+}

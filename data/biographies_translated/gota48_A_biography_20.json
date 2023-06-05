@@ -1,0 +1,120 @@
+{
+    "original": "Adlerskog, Oskar Harry, tandläkare, Mjölby, f. 3/3/06 i Linköping. G. 31 m. Gerd Eriksson. Barn: Bo 1. 38, Ann-Katrin 40. — Stud :ex. i Linköping 25, tandl:kand. 28, tandl. 30. Assist, i Sthlm 31-32, prakt, i Mjölby sed. 32. Adlerstierna-Adelsköld, Sten-Gustaf Fredrik, godsägare, kapten, Öijared, Flöda, f. 18/4/06 i St. Lundby, Älvsb. L, av ’godsäg. G. F. S. A.-A. o. Signe Anrep. G. 36 m. Uila Bring. — Stud:-ex. i Gbg 25, ’språkstud. i Frankr. 34. Fänr. v. Bohusl. reg. 28, und:l’öjtn. 29. löjtn. 31, res:’stat 37, kapten 40. In-neh. av Öijareds fideikommiss sed. 36. Ordf. i St. Lundby komm:fullm. fr. 40. Hobbies : jakt, hundar.",
+    "translated": "Adlerskog, Oskar Harry, dentist, Mjölby, b. 3/3/06 in Linköping. Married in 1931 to Gerd Eriksson. Children: Bo 38, Ann-Katrin 40. — Studied at Linköping University, graduating in 1925. Received a dental degree in 1928 and completed additional dental training in 1930. Worked as an assistant in Stockholm from 1931-1932 and then practiced in Mjölby. \n\nAdlerstierna-Adelsköld, Sten-Gustaf Fredrik, landowner, captain, Öijared, Flöda, b. 18/4/06 in St. Lundby, Älvsborg County. Son of a landowner. Married twice, first to Signe Anrep and then in 1936 to Uila Bring. Studied at the University of Gothenburg, graduating in 1925. Studied languages in France in 1934. Became a second lieutenant in the Bohuslän Regiment in 1928, first lieutenant in 1931, lieutenant colonel in 1937, and captain in 1940. Inherited the Öijared estate in 1936. Chairman of the St. Lundby municipal council from 1940. Hobbies: hunting and dogs.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oskar Harry Adlerskog",
+        "birthDate": "1906-03-03",
+        "birthPlace": "Linköping, Sweden",
+        "jobTitle": "Dentist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Mjölby"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Gerd Eriksson",
+            "marriageDate": "1931"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo Adlerskog",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Katrin Adlerskog",
+                "birthDate": "1940"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Linköping University",
+            "studyType": "Dental"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental degree",
+                "credentialCategory": "degree",
+                "educationalLevel": "Doctoral"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Additional dental training",
+                "credentialCategory": "certificate"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Stockholm",
+                "startDate": "1931",
+                "endDate": "1932",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mjölby",
+                "startDate": "1932",
+                "jobTitle": "Dentist"
+            }
+        ],
+        "Sten-Gustaf Fredrik Adlerstierna-Adelsköld": {
+            "@type": "Person",
+            "name": "Sten-Gustaf Fredrik Adlerstierna-Adelsköld",
+            "birthDate": "1906-04-18",
+            "birthPlace": "St. Lundby, Älvsborg County, Sweden",
+            "spouse": [
+                {
+                    "@type": "Person",
+                    "name": "Signe Anrep"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Uila Bring",
+                    "marriageDate": "1936"
+                }
+            ],
+            "parent": {
+                "@type": "Person",
+                "name": "Landowner Adlerstierna-Adelsköld"
+            },
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Gothenburg",
+                "studyType": "Language"
+            },
+            "honorificPrefix": "Captain",
+            "jobTitle": "Landowner",
+            "workExperience": [
+                {
+                    "@type": "Organization",
+                    "name": "Bohuslän Regiment",
+                    "startDate": "1928",
+                    "endDate": "1937",
+                    "jobTitle": "Lieutenant Colonel"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Bohuslän Regiment",
+                    "startDate": "1940",
+                    "jobTitle": "Captain"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Öijared estate",
+                    "startDate": "1936",
+                    "jobTitle": "Owner"
+                }
+            ],
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Flöda"
+            },
+            "hobbies": "hunting, dogs"
+        }
+    }
+}

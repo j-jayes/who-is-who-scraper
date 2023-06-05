@@ -1,0 +1,81 @@
+{
+    "original": "Alfsjö, John Artur, arkitekt, Halmstad, f. 21/11/00 i Holm, Hall. 1., av byggm. Sev. Andersson o. Kristina A. G. 26 m. Ketty Ahlström. Barn: Birgit f. 27. — Hässleholms tekn. lärov. 18-20. Inneh. av Halmstads snickerifabr. ,sed. 26. Sekr. i isnickerifabr. riksförb. Hallandskrets sed. 42, led. av styr. f. Halms;tads stads: yrkess’k. Hobbies: jakt, fisfce.",
+    "translated": "Alfsjö, John Artur, architect, from Halmstad. Born November 21, 1900 in Holm, Halland County, first child of builder Sev. Andersson and Kristina A. G. Married Ketty Ahlström in 1926, and they have one child, Birgit, born in 1927. Attended Hässleholm Technical School from 1918 to 1920. Owner of Halmstad Carpentry Factory since 1926. Secretary of the Carpentry Factory National Association's Halland District since 1942, and a member of the board of Halmstad City Vocational School. Hobbies include hunting and fishing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Artur Alfsjö\",\n  \"jobTitle\": \"Architect\",\n  \"birthDate\": \"1900-11-21\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Holm\",\n      \"addressRegion\": \"Halland County\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sev. Andersson\",\n      \"jobTitle\": \"Builder\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina A. G.\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ketty Ahlström\",\n    \"marriageDate\": \"1926\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgit\",\n    \"birthDate\": \"1927\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Hässleholm Technical School\",\n    \"startDate\": \"1918\",\n    \"endDate\": \"1920\"\n  },\n  \"owns\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Halmstad Carpentry Factory\",\n    \"startDate\": \"1926\"\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"jobTitle\": \"Secretary\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Carpentry Factory National Association\",\n        \"memberOf\": \"Halland District\"\n      },\n      \"startDate\": \"1942\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"jobTitle\": \"Board Member\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halmstad City Vocational School\"\n      }\n    }\n  ],\n  \"knowsAbout\": [\n    {\n      \"@type\": \"Thing\",\n      \"name\": \"Hunting\"\n    },\n    {\n      \"@type\": \"Thing\",\n      \"name\": \"Fishing\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Artur Alfsjö",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "jobTitle": "Secretary",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Carpentry Factory National Association",
+                    "memberOf": "Halland District"
+                },
+                "startDate": "1942"
+            },
+            {
+                "@type": "OrganizationRole",
+                "jobTitle": "Board Member",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Halmstad City Vocational School"
+                }
+            }
+        ],
+        "birthDate": "1900-11-21",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Holm",
+                "addressRegion": "Halland County"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Sev. Andersson",
+                "jobTitle": "Builder"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina A. G."
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ketty Ahlström",
+            "marriageDate": "1926"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Birgit",
+            "birthDate": "1927"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Hässleholm Technical School",
+            "startDate": "1918",
+            "endDate": "1920"
+        },
+        "owns": {
+            "@type": "Organization",
+            "name": "Halmstad Carpentry Factory",
+            "startDate": "1926"
+        },
+        "knowsAbout": [
+            {
+                "@type": "Thing",
+                "name": "Hunting"
+            },
+            {
+                "@type": "Thing",
+                "name": "Fishing"
+            }
+        ]
+    }
+}

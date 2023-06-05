@@ -1,0 +1,142 @@
+{
+    "original": "Antonson, John Thorsten, boktryckare, Göteborg, f. 16/10/89 i Gbg aV boktryck. John A. o. Sofie Oibson. G. 15 m. Ruth Westerberg. Barn: Einar f. 17, d. 25, Bertil 19, Lennart 20, Gunnar 21, Magnus 25, Margareta 27, Ingrid 31. — Genomg. facksk. f. bokind. i Gbg 08-10, stud. v. Königl. Akademie für graphische Künste und Buchgewerbe zu Leipzig 12-13. Prakt. v. tryckerier i Tyskl. Verkst. dir. i A-B John An-lonisons Boktryckeri i Gbg sed. 35, i Fastigh. A-B Cicero o. Kalenderverket f. Gbg A-’B. Led. av styr. f. Gbgs boktryckarefören., Gbgs fastigh :äg:-fören., Gbgs-avd. av Sv:es fastigh :äg. arb :giv:fören., fören. De arb :lösas vänner, medl. av KFUM sed. 11, led. av dess styr., medl. av Gbgs första baptistförs. sed. 16, diakon där, led. av styr. f. Osbeckska fonden sed. 34, kassaförv. där sed. 46, led. av tax:nd 32-46.",
+    "translated": "Antonson, John Thorsten, printer, from Gothenburg, born on October 16, 1889 in Gothenburg, son of printer John A. and Sofie Oibson. Married for 15 years to Ruth Westerberg. Children: Einar born in 1917, died in 1925, Bertil born in 1919, Lennart born in 1920, Gunnar born in 1921, Magnus born in 1925, Margareta born in 1927, Ingrid born in 1931. Completed vocational school for book industry in Gothenburg from 1908-1910, studied at the Royal Academy of Graphic Arts and Book Trade in Leipzig from 1912-1913. Practical experience gained from printing houses in Germany. Currently works as a director for A-B John Antonson's Printing Press in Gothenburg since 1935, and in A-B Cicero and Calendar Works for Gothenburg A-B. Member of the board for the Gothenburg Printers Association, Gothenburg Property Owners Association, Gothenburg branch of the Swedish Property Owners Employers' Association, Association of Friends of the Unemployed, member of KFUM since 1911, member of the board, member of the Gothenburg First Baptist Congregation since 1916, deacon there, member of the board for Osbeck's fund since 1934, treasurer since 1946, member of the tax commission from 1932-1946.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "John",
+        "additionalName": "Thorsten",
+        "familyName": "Antonson",
+        "birthDate": "1889-10-16",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gothenburg",
+            "latitude": 57.7072326,
+            "longitude": 11.9670171
+        },
+        "parent": {
+            "@type": "Person",
+            "name": "John A. Antonson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Westerberg",
+            "marriageDate": "xxxx-xx-xx",
+            "yearsMarried": "15"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Einar",
+                "birthDate": "1917",
+                "deathDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Bertil",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Lennart",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Gunnar",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Magnus",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Margareta",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ingrid",
+                "birthDate": "1931"
+            }
+        ],
+        "educationalCredentialAwarded": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Vocational School Diploma",
+            "description": "Completed vocational school for book industry in Gothenburg from 1908-1910"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Royal Academy of Graphic Arts and Book Trade",
+                "location": "Leipzig",
+                "startDate": "1912",
+                "endDate": "1913"
+            }
+        ],
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Printer"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A-B John Antonson's Printing Press",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Cicero and Calendar Works for Gothenburg A-B"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Printers Association",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Property Owners Employers' Association",
+                    "parentOrganization": {
+                        "@type": "Organization",
+                        "name": "Gothenburg Property Owners Association"
+                    }
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Association of Friends of the Unemployed"
+            },
+            {
+                "@type": "Organization",
+                "name": "KFUM",
+                "startDate": "1911",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg First Baptist Congregation",
+                    "member": {
+                        "@type": "Person",
+                        "name": "Ingrid",
+                        "roleName": "deacon"
+                    },
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "Osbeck's fund",
+                        "member": {
+                            "@type": "Person",
+                            "name": "John",
+                            "roleName": "treasurer"
+                        }
+                    }
+                }
+            }
+        ],
+        "taxID": {
+            "@type": "GovernmentOrganization",
+            "name": "Tax Commission",
+            "startDate": "1932",
+            "endDate": "1946"
+        }
+    }
+}

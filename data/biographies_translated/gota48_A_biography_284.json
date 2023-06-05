@@ -1,0 +1,123 @@
+{
+    "original": "Aronius, Sven Gunnar, komminister, Göteborg, f. 11/10/93 i Gbg. G. 1. 20 m. Marta Nilson; 2. 45 m. Elsa Hansson. Barn: Daniel f. 21, Lars 23, Bengt 25, Gunvor 29. —- Stud:ex. 15, teol. fil. ex. 17, teol. kand. o. prakt, teol. ex. 19, prästv. 20. V. kommin. i Askum 20, ständ. adj. i Svenljunga 21-24, kommin. i Istorp 24-27, i Var-be-rg 27-36, i Örgryte förs. i Gbg sed. 36. Pred. å Varb. ias. o. åklerd :hem 27-36.",
+    "translated": "Aronius, Sven Gunnar, minister, Gothenburg, b. 11/10/93 in Gothenburg. Married 1st, 20 years to Marta Nilson; 2nd, 45 years to Elsa Hansson. Children: Daniel b. 21, Lars b. 23, Bengt b. 25, Gunvor b. 29. - Education: High school graduate 1915, theology degree 1917, practical theology degree 1919, ordination 1920. Assistant minister in Askum from 1920, permanent adjutant in Svenljunga 1921-1924, minister in Istorp 1924-1927, in Varberg 1927-1936, in Örgryte parish in Gothenburg since 1936. Preacher at Varberg Prison and Workhouse 1927-1936.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sven Gunnar Aronius",
+        "birthDate": "1893-10-11",
+        "birthPlace": "Gothenburg, Sweden",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Marta Nilson",
+                "marriageDate": "unknown",
+                "divorceDate": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Hansson",
+                "marriageDate": "unknown",
+                "divorceDate": "unknown"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Daniel Aronius",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Aronius",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Aronius",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunvor Aronius",
+                "birthDate": "1929"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High school graduate",
+                "year:": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex.",
+                "educationalLevel": "Theology degree",
+                "year:": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand. o. prakt, teol. ex.",
+                "educationalLevel": "Practical theology degree",
+                "year:": "1919"
+            }
+        ],
+        "jobTitle": "Minister",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Örgryte parish"
+        },
+        "employmentHistory": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Askum"
+                },
+                "jobTitle": "Assistant minister",
+                "startDate": "1920"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Svenljunga"
+                },
+                "jobTitle": "Permanent adjutant",
+                "startDate": "1921",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Istorp"
+                },
+                "jobTitle": "Minister",
+                "startDate": "1924",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Varberg"
+                },
+                "jobTitle": "Minister",
+                "startDate": "1927",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Varberg Prison and Workhouse"
+                },
+                "jobTitle": "Preacher",
+                "startDate": "1927",
+                "endDate": "1936"
+            }
+        ]
+    }
+}

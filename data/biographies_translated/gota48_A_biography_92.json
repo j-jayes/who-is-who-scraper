@@ -1,0 +1,109 @@
+{
+    "original": "Aldeborg, Rolf Sixten, tandläkare, Göteborg, f. 29/4/05 i Gbg av bank-kamr. Adolf A. o. Augusta Håkansson. G. 30 m. Gun Jonzon. Barn: Eva f. 32, Ulla 35, Per 41, Ulf 45. — Stud:-ex. v. Gbgs h. real 25, Cand. med. dent. i Berlin 27, tandl :kand. s. å., tandl. 29. Assist, v. tandl :inst. tand-fylln:avd. 29, deltog i den s. k. Norrlandsund :sökn. s. å., prakt, i Gbg sed. 29. Skr.: art. i fackpressen.",
+    "translated": "Aldeborg, Rolf Sixten, dentist, Gothenburg, born April 29th, 1905 in Gothenburg to bank clerk Adolf A. and Augusta Håkansson. Married in 1930 to Gun Jonzon. Children: Eva (born 1932), Ulla (born 1935), Per (born 1941), Ulf (born 1945). Completed high school studies at Gothenburg's higher real school in 1925. Obtained a degree in dental medicine from Berlin in 1927 and graduated as a dental candidate the same year. Became an assistant at the dental institute's dental filling department in 1929 and participated in what is known as the Norrlandsund search the same year. Established a dental practice in Gothenburg in 1929. Contributed to articles in professional journals.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Rolf Sixten\",\n  \"familyName\": \"Aldeborg\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1905-04-29\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Adolf A.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Håkansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gun Jonzon\",\n    \"marriageDate\": \"1930\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"school\",\n      \"educationalLevel\": \"High school\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg's Higher Real School\"\n      },\n      \"dateIssued\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"Degree in Dental Medicine\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Berlin\"\n      },\n      \"dateIssued\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"Dental Candidate\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Berlin\"\n      },\n      \"dateIssued\": \"1927\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental Institute\"\n      },\n      \"roleName\": \"Assistant\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"n/a\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Own dental practice in Gothenburg\"\n      },\n      \"roleName\": \"Dentist\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"n/a\"\n    }\n  ],\n  \"article\": {\n    \"@type\": \"Article\",\n    \"name\": \"Articles in professional journals\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "givenName": "Rolf Sixten",
+        "familyName": "Aldeborg",
+        "jobTitle": "Dentist",
+        "birthDate": "1905-04-29",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Adolf A."
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Håkansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gun Jonzon",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Per",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulf",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "school",
+                "educationalLevel": "High school",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg's Higher Real School"
+                },
+                "dateIssued": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "Degree in Dental Medicine",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Berlin"
+                },
+                "dateIssued": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "Dental Candidate",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Berlin"
+                },
+                "dateIssued": "1927"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Dental Institute"
+                },
+                "roleName": "Assistant",
+                "startDate": "1929",
+                "endDate": "n/a"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Own dental practice in Gothenburg"
+                },
+                "roleName": "Dentist",
+                "startDate": "1929",
+                "endDate": "n/a"
+            }
+        ],
+        "article": {
+            "@type": "Article",
+            "name": "Articles in professional journals"
+        }
+    }
+}

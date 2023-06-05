@@ -1,0 +1,81 @@
+{
+    "original": "Berg, John Rune, försäljningschef, civilekonom, Halmstad, f. 6/7/17 i Juk-kasjärvi, Norrb. 1., av Johan B. o. Eilla Jonsson. G. m. Inga Brita Magnusson. — Stud:ex. v. Umeå h. a. 1. 36, DHS 44. Anst. v. Sv. Fläktfabr. i Sthlm 38-41, v. A-B Cloetta i Ljungsbro 44-46, försäljn:chef v. Sv. A-B Vato i Halmstad sed. 46.",
+    "translated": "Berg, John Rune, sales manager, Master of Science in Business and Economics, Halmstad, b. July 6, 1917 in Jukkasjärvi, Norrbotten county, son of Johan B. and Eilla Jonsson. Married to Inga Brita Magnusson in the 19xxs. Education: High school diploma from Umeå high school in 1936, DHS in 1944. Employed at Swedish Fläktfabr. in Stockholm from 1938-1941, at A-B Cloetta in Ljungsbro from 1944-1946, sales manager at Swedish A-B Vato in Halmstad from 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Rune Berg\",\n  \"birthDate\": \"1917-07-06\",\n  \"birthPlace\": \"Jukkasjärvi, Norrbotten, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan B. Berg\",\n      \"gender\": \"male\",\n      \"sameAs\": \"https://www.wikidata.org/wiki/Qxxxxxx\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eilla Jonsson\",\n      \"gender\": \"female\",\n      \"sameAs\": \"https://www.wikidata.org/wiki/Qxxxxxx\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga Brita Magnusson\",\n    \"sameAs\": \"https://www.wikidata.org/wiki/Qxxxxxx\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High School Diploma\",\n      \"educationalProgram\": \"Humanities\",\n      \"awardingInstitution\": \"Umeå High School\",\n      \"dateAwarded\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Master of Science in Business and Economics\",\n      \"awardingInstitution\": \"Unknown\",\n      \"dateAwarded\": \"1944\"\n    }\n  ],\n  \"jobTitle\": \"Sales Manager\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish A-B Vato\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Halmstad\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Fläktfabr\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1938\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Cloetta\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Ljungsbro\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Rune Berg",
+        "birthDate": "1917-07-06",
+        "birthPlace": "Jukkasjärvi, Norrbotten, Sweden",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan B. Berg",
+                "gender": "male",
+                "sameAs": "https://www.wikidata.org/wiki/Qxxxxxx"
+            },
+            {
+                "@type": "Person",
+                "name": "Eilla Jonsson",
+                "gender": "female",
+                "sameAs": "https://www.wikidata.org/wiki/Qxxxxxx"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga Brita Magnusson",
+            "sameAs": "https://www.wikidata.org/wiki/Qxxxxxx"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High School Diploma",
+                "educationalProgram": "Humanities",
+                "awardingInstitution": "Umeå High School",
+                "dateAwarded": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Master of Science in Business and Economics",
+                "awardingInstitution": "Unknown",
+                "dateAwarded": "1944"
+            }
+        ],
+        "jobTitle": "Sales Manager",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish A-B Vato",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Halmstad",
+                "addressCountry": "Sweden"
+            }
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Fläktfabr",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1938",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Cloetta",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Ljungsbro",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1944",
+                "endDate": "1946"
+            }
+        ]
+    }
+}

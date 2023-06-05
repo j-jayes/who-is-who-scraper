@@ -1,0 +1,79 @@
+{
+    "original": "Ador, Sven Olof, ’stadsingenjör, Vänersborg, f. 28/12/03 i Malmö av jur. utr. kand. And. O. Andersson o. Anna Malmgren. G. 34 m. Daga Bengtsson. Barn: Hans’ f. 35, Margareta 37. — Avg:ex. fr. CTH 31. Res. t. Tyskl. o. Frankr. 30. Anst. h. civ :ing. Stellan Jacobs’on i Gbg 30-32, h. Falkenbergs ’Stad 32-35, stadsingenjör i Vänersborg fr. 35.",
+    "translated": "Ador, Sven Olof, 'city engineer', Vänersborg, born on December 28th, 1903 in Malmö to Jur. Utr. Kand. And. O. Andersson and Anna Malmgren. Married in 1934 to Daga Bengtsson. Children: Hans, born in 1935 and Margareta, born in 1937. Graduated from Chalmers University of Technology in 1931. Traveled to Germany and France in 1930. Employed as a civil engineer at Stellan Jacobs'on in Gothenburg from 1930 to 1932, then at Falkenbergs 'Stad from 1932 to 1935, and finally appointed city engineer in Vänersborg from 1935 onwards.",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Sven Olof Ador",
+        "jobTitle": "City Engineer",
+        "birthDate": "1903-12-28",
+        "birthPlace": "Malmö",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "And. O. Andersson",
+                "jobTitle": "Jur. Utr. Kand."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Malmgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Daga Bengtsson",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1937"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Chalmers University of Technology",
+            "endDate": "1931"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Organization",
+                "name": "Stellan Jacobs'on",
+                "jobTitle": "Civil Engineer",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg"
+                },
+                "startDate": "1930",
+                "endDate": "1932"
+            },
+            {
+                "@type": "Organization",
+                "name": "Falkenbergs 'Stad",
+                "jobTitle": "Civil Engineer",
+                "location": {
+                    "@type": "Place",
+                    "name": "Falkenbergs 'Stad"
+                },
+                "startDate": "1932",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vänersborg",
+                "jobTitle": "City Engineer",
+                "location": {
+                    "@type": "Place",
+                    "name": "Vänersborg"
+                },
+                "startDate": "1935"
+            }
+        ]
+    }
+}

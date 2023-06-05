@@ -1,0 +1,98 @@
+{
+    "original": "Ahlberg, Bengt Magnus, tandläkare, Halmstad, f. 7/6/99 i Halmstad av tandl Carl Magnus A. o. Selma Julia de Maré, G. 27 m. Greta Carlqvist. Barn: Gertrud f. 32, Bengt 33, d. 36, Margaretha 36. — Stud :ex. i Halmstad 18, tandl :kand. 19, tandl. 21. Prakt, i Halmstad sed. 22. V. ordf. i Hall. tandl :fören. 23-26 o. 34-35, sekr. o. skattmäst. 32, v. ordf. 41, ordf. 42-43. Hobby: golf.",
+    "translated": "Ahlberg, Bengt Magnus, dentist, Halmstad, b. 7/6/99 in Halmstad, son of dentist Carl Magnus A. and Selma Julia de Maré, married to Greta Carlqvist. Children: Gertrud b. 32, Bengt b. 33, d. 36, Margaretha b. 36. - Studied: Halmstad 18 (high school), dentistry 19, graduated as a dentist 21. Practicing in Halmstad since 22. Vice-chairman of Halland Dental Association 23-26 and 34-35, secretary and treasurer 32, vice-chairman 41, chairman 42-43. Hobby: golf.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Magnus Ahlberg",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Halmstad"
+        },
+        "birthDate": "1899-06-07",
+        "birthPlace": "Halmstad",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Magnus Ahlberg",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "Person",
+                "name": "Selma Julia de Maré"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Carlqvist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gertrud",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1933",
+                "deathDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Margaretha",
+                "birthDate": "1936"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school",
+                "name": "Halmstad",
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentistry",
+                "name": "Halmstad",
+                "startDate": "1919",
+                "endDate": "1921"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Halland Dental Association",
+                "startDate": "1923",
+                "endDate": "1926",
+                "roleName": "Vice Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halland Dental Association",
+                "startDate": "1934",
+                "endDate": "1935",
+                "roleName": "Vice Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halland Dental Association",
+                "startDate": "1941",
+                "roleName": "Vice Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halland Dental Association",
+                "startDate": "1942",
+                "endDate": "1943",
+                "roleName": "Chairman"
+            }
+        ],
+        "performerIn": {
+            "@type": "CreativeWork",
+            "name": "Golf",
+            "category": "Hobby"
+        }
+    }
+}

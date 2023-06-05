@@ -1,0 +1,116 @@
+{
+    "original": "Arsell, Carl Gustaf, rådman, Norrköping, f. 14/5/82 i Malmö. G. 20 m. frih :an Ulla Brauner. Barn: Madeleine f. 22, g. 44 m. ing. Claes Otto, Norrköp., Göran 26, stud. — Mogrex. i Malmö 99, jur. utr. kand. i Lund 09. Stadsnot. v. Norrköp. rådhusr. 15, förste assessor där 25, tillika not. publ., tredje rådm. 35, num. andre rådm. o. led. å andra avd. Auditör v. särsk. krigsr. i Norrköp. 19, krigsdom. v. Bråvalla flygflottilj sed. 43. Tryck-frih:omb. i Norrköp. sed. 24, granskn:-man f. Skand. Bankens avd ikont. i östergötl. RNO, Norrköp. stads S :t OlofsM.",
+    "translated": "Arsell, Carl Gustaf, councilman in Norrköping, born on May 14, 1882, in Malmö. Married on July 20 to Ulla Brauner, daughter of a noble family. Children: Madeleine, born in 1922, married in 1944 to engineer Claes Otto, residing in Norrköping, and Göran, born in 1926, currently a student. Completed studies in commercial law in Malmö in 1899 and law in Lund in 1909. Worked as a city clerk in the Norrköping town hall starting in 1915, and became the first assessor and public notary there in 1925. Served as the third councilman since 1935, and later became a member of the second department of Auditör v. särsk. krigsr. in Norrköping and military judge at Bråvalla flygflottilj since 1943. Also worked as a press freedom commissioner in Norrköping since 1924 and served as an auditor for the Skand. Bankens at its branch in Östergötland. Received the Order of Vasa and Norrköping’s St. Olof’s medal.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Gustaf Arsell",
+        "birthDate": "1882-05-14",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Malmö",
+            "latitude": 55.6052931,
+            "longitude": 13.0001566
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ulla Brauner",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Noble family"
+            },
+            "marriageDate": "1920-07-20"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Madeleine",
+                "birthDate": "1922",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Claes Otto",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "Engineers"
+                    },
+                    "marriageDate": "1944",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Norrköping"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1926",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": {
+                        "@type": "DefinedTerm",
+                        "name": "Commercial Law"
+                    },
+                    "educationalLevel": {
+                        "@type": "DefinedTerm",
+                        "name": "Bachelor's degree"
+                    },
+                    "educationalCredentialAwarded": {
+                        "@type": "DefinedTerm",
+                        "name": "Juris Doctor"
+                    },
+                    "awardedBy": {
+                        "@type": "Organization",
+                        "name": "Lund University"
+                    },
+                    "alumniOf": {
+                        "@type": "Organization",
+                        "name": "Malmö University"
+                    }
+                },
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "University students"
+                }
+            }
+        ],
+        "jobTitle": [
+            "Councilman",
+            "City Clerk",
+            "First Assessor",
+            "Public Notary",
+            "Military Judge",
+            "Press Freedom Commissioner",
+            "Auditor"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Norrköping Town Hall"
+        },
+        "startDate": "1915",
+        "endDate": "1935",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Auditor v. särsk. krigsr."
+            },
+            {
+                "@type": "Organization",
+                "name": "Bråvalla flygflottilj"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skand. Bankens"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Order of Vasa"
+            },
+            {
+                "@type": "Medal",
+                "name": "Norrköping’s St. Olof’s medal"
+            }
+        ]
+    }
+}

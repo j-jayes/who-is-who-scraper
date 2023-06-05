@@ -1,0 +1,120 @@
+{
+    "original": "Bark, Ernst Harald, praktiserande läkare, Göteborg, f. 12/8/99 i Södertälje av las :läk. Carl Johan B. o. Gerda Rochstrohen. G. 24 m. Greta Schullström. Barn: Christina f. 26, fil. stud., Carl-Ulrik 27, d. 36, Stephan 30, Richard 38, Fredric 41. — Stud:ex. i Strängnäs 18, med. kand. i Upps. 23 o. med. lic. där 29. Assist :läk. v. Örebro las. kir. avd. 27, dito v. Akad. sjukh. bröstavd. o. med. avd. samt tf. und:läk. v. Hall. 1. tub:sjukh. 29, tf. andre und:läk. v. Hällnäs sanat. 30, förste und:läk. där 30’-31, assist :läk. v. Maria sjukh. med. avd. 31, undiläk. där 31-34, prakt. läk. i Gbg sed. 34, järnv :läk.",
+    "translated": "Bark, Ernst Harald, practicing doctor, Gothenburg, born August 12th, 1899 in Södertälje. Son of Las Carl Johan B. and Gerda Rochstrohen. Married to Greta Schullström in 1924. Children: Christina, born 1926, studying philosophy. Carl-Ulrik, born 1927, died 1936. Stephan, born 1930. Richard, born 1938. Fredric, born 1941. Ernst graduated from high school in Strängnäs in 1918, received his Bachelor of Medicine degree from Uppsala University in 1923 and his medical license there in 1929. He worked as a junior doctor at the surgical department of Örebro Hospital in 1927, as well as at the chest department and medical department of the Academic Hospital. He worked as a part-time junior doctor at Hall. 1 Tuberculosis Hospital in 1929, part-time second junior doctor at Hällnäs Sanatorium in 1930, first junior doctor there from 1930-31, junior doctor at Maria Hospital Medical Department in 1931, and assistant doctor there from 1931-34. He has been practicing medicine in Gothenburg since 1934 and was also a railroad doctor.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Harald Bark\",\n  \"birthDate\": \"1899-08-12\",\n  \"birthPlace\": \"Södertälje, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Carl Johan Bark\",\n    \"jobTitle\": \"Doctor\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gerda Rochstrohen\",\n    \"jobTitle\": \"Unknown\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Schullström\",\n    \"marriageDate\": \"1924\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Bark\",\n      \"birthDate\": \"1926\",\n      \"jobTitle\": \"Philosophy Student\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl-Ulrik Bark\",\n      \"birthDate\": \"1927\",\n      \"deathDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stephan Bark\",\n      \"birthDate\": \"1930\"\n    }, \n    {\n      \"@type\": \"Person\",\n      \"name\": \"Richard Bark\",\n      \"birthDate\": \"1938\"\n    }, \n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fredric Bark\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"jobTitle\": \"Practicing Doctor\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Örebro Hospital\",\n      \"jobTitle\": \"Junior Doctor (Surgical Department)\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Academic Hospital\",\n      \"jobTitle\": \"Junior Doctor (Chest Department and Medical Department)\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Hall. 1 Tuberculosis Hospital\",\n      \"jobTitle\": \"Part-Time Junior Doctor\",\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Hällnäs Sanatorium\",\n      \"jobTitle\": \"Part-Time Second Junior Doctor\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Maria Hospital\",\n      \"jobTitle\": \"Junior Doctor (Medical Department)\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Gothenburg\",\n      \"jobTitle\": \"Practicing Doctor\",\n      \"startDate\": \"1934\"\n    }, \n    {\n      \"@type\": \"Place\",\n      \"name\": \"Railroad\",\n      \"jobTitle\": \"Railroad Doctor\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Strängnäs\",\n      \"educationalCredentialAwarded\": \"High School Diploma\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"educationalCredentialAwarded\": \"Bachelor of Medicine\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"educationalCredentialAwarded\": \"Medical License\",\n      \"endDate\": \"1929\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Harald Bark",
+        "birthDate": "1899-08-12",
+        "birthPlace": "Södertälje, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Carl Johan Bark",
+            "jobTitle": "Doctor"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Gerda Rochstrohen",
+            "jobTitle": "Unknown"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Schullström",
+            "marriageDate": "1924"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christina Bark",
+                "birthDate": "1926",
+                "jobTitle": "Philosophy Student"
+            },
+            {
+                "@type": "Person",
+                "name": "Carl-Ulrik Bark",
+                "birthDate": "1927",
+                "deathDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Stephan Bark",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Richard Bark",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Fredric Bark",
+                "birthDate": "1941"
+            }
+        ],
+        "jobTitle": "Practicing Doctor",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Örebro Hospital",
+                "jobTitle": "Junior Doctor (Surgical Department)",
+                "startDate": "1927"
+            },
+            {
+                "@type": "Place",
+                "name": "Academic Hospital",
+                "jobTitle": "Junior Doctor (Chest Department and Medical Department)"
+            },
+            {
+                "@type": "Place",
+                "name": "Hall. 1 Tuberculosis Hospital",
+                "jobTitle": "Part-Time Junior Doctor",
+                "startDate": "1929"
+            },
+            {
+                "@type": "Place",
+                "name": "Hällnäs Sanatorium",
+                "jobTitle": "Part-Time Second Junior Doctor",
+                "startDate": "1930"
+            },
+            {
+                "@type": "Place",
+                "name": "Maria Hospital",
+                "jobTitle": "Junior Doctor (Medical Department)",
+                "startDate": "1931",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Place",
+                "name": "Gothenburg",
+                "jobTitle": "Practicing Doctor",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Place",
+                "name": "Railroad",
+                "jobTitle": "Railroad Doctor"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Strängnäs",
+                "educationalCredentialAwarded": "High School Diploma",
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "educationalCredentialAwarded": "Bachelor of Medicine",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "educationalCredentialAwarded": "Medical License",
+                "endDate": "1929"
+            }
+        ]
+    }
+}

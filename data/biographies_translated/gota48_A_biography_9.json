@@ -1,0 +1,65 @@
+{
+    "original": "Adamson, Nils Gerhard Rudolf, tandläkare, Skövde, f. 27/3/03 i Sjo-gerstad, Skarab. 1., av org. o. folk-skollär. Gottfrid A. o. Gerda Johansson. G. 29 m. Maria Aurell. Stud:-ex. i Skövde 22, tandl :kand. 25, tandläkare 27. Assist, i Gbg 28-29, praktik i Skövde sed, 29.",
+    "translated": "Adamson, Nils Gerhard Rudolf, dentist, Skövde, b. 27/3/03 in Sjo-gerstad, Skarab. 1st child of the org. and elementary school teacher Gottfrid A. and Gerda Johansson. Married in 1929 to Maria Aurell. Completed his studies at Skövde in 1922, graduated as a dental candidate in 1925, and became a licensed dentist in 1927. Worked as an assistant in Gothenburg from 1928-1929, and has been practicing dentistry in Skövde since 1929.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gerhard Rudolf Adamson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Sjo-gerstad, Skarab\",\n  \"birthDate\": \"1903-03-27\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gottfrid A. Adamson\",\n      \"jobTitle\": \"Organizer and Elementary School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerda Johansson\",\n      \"jobTitle\": \"Elementary School Teacher\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maria Aurell\",\n    \"marriageDate\": \"1929\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High school diploma\",\n      \"educationalProgram\": \"Stud:-ex. i Skövde\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor’s degree\",\n      \"educationalProgram\": \"Tandl :kand.\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Professional degree\",\n      \"educationalProgram\": \"Tandläkare\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistance\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Dentist\",\n      \"startDate\": \"1929\",\n      \"location\": \"Skövde\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nils Gerhard Rudolf Adamson",
+        "jobTitle": "Dentist",
+        "birthPlace": "Sjo-gerstad, Skarab",
+        "birthDate": "1903-03-27",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gottfrid A. Adamson",
+                "jobTitle": "Organizer and Elementary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Gerda Johansson",
+                "jobTitle": "Elementary School Teacher"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maria Aurell",
+            "marriageDate": "1929"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High school diploma",
+                "educationalProgram": "Stud:-ex. i Skövde",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor’s degree",
+                "educationalProgram": "Tandl :kand.",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Professional degree",
+                "educationalProgram": "Tandläkare",
+                "endDate": "1927"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "title": "Assistance",
+                "startDate": "1928",
+                "endDate": "1929",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Dentist",
+                "startDate": "1929",
+                "location": "Skövde"
+            }
+        ]
+    }
+}

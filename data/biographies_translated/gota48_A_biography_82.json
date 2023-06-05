@@ -1,0 +1,82 @@
+{
+    "original": "Ahxner, Anders Harald, civilingenjör, direktör, Jönköping, f. 17/8/78 i Mollösund, Gbgs o. Boh. 1. G. 11 m. Kerstin Johansson. Barn: Vivi f. 12. — CTL lägre avd. 97-99, h. avd. 00-03 (M). Anst. v. A-B Eminent (nuv. A-B Celsius) i Gbg 03-06, A-B A. Wi-borghs Ing:byrå &amp; Maskinaff. 06-10, start. Värmeledn:firman Harald Ahxner 10, etabl. fil. i Jönköp. 11, ombild. huvudfirman i Sthlm t. A-B Harald Ahxner 34, lämnade denna 37, start. Jönköp. Rörledn. A-B 38. Utf. värme-o. sanitetstekn. anläggn. o. utredn. inom flera ’Större sjukhus, statl. o. komm. byggn., järnv:stat., kaserner, fabr. m. fi. isamt bo:st:hus. Led. av Sv. teknifören.",
+    "translated": "Ahxner, Anders Harald, civil engineer, director, Jönköping, b. 17/8/78 in Mollösund, Gothenburg and Bohus County. 1st marriage with Kerstin Johansson in 1911, daughter Vivi b. 1912. Education: CTL lower division 1897-1899, higher division 1900-1903 (M). Employment at A-B Eminent (now A-B Celsius) in Gothenburg 1903-1906, A-B A. Wi-borghs Engineering & Machine Sales 1906-1910, started heating company Harald Ahxner in 1910, established a branch in Jönköping in 1911, and reorganized the main company to A-B Harald Ahxner in Stockholm in 1934, leaving it in 1937, started Jönköpings Rörledn. A-B in 1938. He carried out heating and sanitation engineering installations and surveys at several large hospitals, state and municipal buildings, railway stations, barracks, factories, and residential buildings. He was a member of the Swedish Technical Association.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Anders Harald Ahxner\",\n  \"jobTitle\": \"Civil Engineer, Director\",\n  \"birthDate\": \"1878-08-17\",\n  \"birthPlace\": \"Mollösund, Gothenburg and Bohus County\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kerstin Johansson\",\n    \"marriageDate\": \"1911\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vivi Ahxner\",\n    \"birthDate\": \"1912\"\n  },\n  \"education\": [{\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"CTL\",\n      \"location\": \"Sweden\",\n      \"courseStartDate\": \"1897\",\n      \"courseEndDate\": \"1903\",\n      \"programName\": \"Engineering\",\n      \"description\": \"Lower division 1897-1899, higher division 1900-1903 (M)\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Technical Association\",\n    \"description\": \"Member\"\n  },\n  \"employment\": [{\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Eminent (now A-B Celsius)\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"jobTitle\": \"Employee\",\n      \"startDate\": \"1903\",\n      \"endDate\": \"1906\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B A. Wi-borghs Engineering & Machine Sales\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"jobTitle\": \"Employee\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Harald Ahxner\",\n      \"location\": \"Sweden\",\n      \"jobTitle\": \"Founder\",\n      \"startDate\": \"1910\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköpings Rörledn. A-B\",\n      \"location\": \"Sweden\",\n      \"jobTitle\": \"Founder\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"worksFor\": [{\n      \"@type\": \"Organization\",\n      \"name\": \"Harald Ahxner\",\n      \"jobTitle\": \"Director\",\n      \"location\": \"Stockholm, Sweden\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1937\"\n    }\n  ],\n  \"description\": \"Anders Harald Ahxner was a Swedish civil engineer and director. He was known for founding companies in the heating and sanitation engineering industry and carrying out installations and surveys at several large hospitals, state and municipal buildings, railway stations, barracks, factories, and residential buildings.\"\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Anders Harald Ahxner",
+        "jobTitle": "Civil Engineer, Director",
+        "birthDate": "1878-08-17",
+        "birthPlace": "Mollösund, Gothenburg and Bohus County",
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Johansson",
+            "marriageDate": "1911"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Vivi Ahxner",
+            "birthDate": "1912"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "CTL",
+                "location": "Sweden",
+                "courseStartDate": "1897",
+                "courseEndDate": "1903",
+                "programName": "Engineering",
+                "description": "Lower division 1897-1899, higher division 1900-1903 (M)"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Technical Association",
+            "description": "Member"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "A-B Eminent (now A-B Celsius)",
+                "location": "Gothenburg, Sweden",
+                "jobTitle": "Employee",
+                "startDate": "1903",
+                "endDate": "1906"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B A. Wi-borghs Engineering & Machine Sales",
+                "location": "Gothenburg, Sweden",
+                "jobTitle": "Employee",
+                "startDate": "1906",
+                "endDate": "1910"
+            },
+            {
+                "@type": "Organization",
+                "name": "Harald Ahxner",
+                "location": "Sweden",
+                "jobTitle": "Founder",
+                "startDate": "1910"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköpings Rörledn. A-B",
+                "location": "Sweden",
+                "jobTitle": "Founder",
+                "startDate": "1938"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Harald Ahxner",
+                "jobTitle": "Director",
+                "location": "Stockholm, Sweden",
+                "startDate": "1934",
+                "endDate": "1937"
+            }
+        ],
+        "description": "Anders Harald Ahxner was a Swedish civil engineer and director. He was known for founding companies in the heating and sanitation engineering industry and carrying out installations and surveys at several large hospitals, state and municipal buildings, railway stations, barracks, factories, and residential buildings."
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "original": "Akmar, Erik Ture, lasarettsläkare, Lidköpin.g, f. 19/1/92 i Åtvidaberg, Ös-tergötl. I. — Studrex. i Linköp. 10, med. kand. i Upps. 15, med. lic. 22, med. hedrdr v. Upps. univ. 45. Aman. v. anatom. inst. i Upps. 13-14, und:-läk. v. Medevi brunn 16-19, aman. v. Akad. sjukh. med. o. pediatr. klin. 21-23, aman. v. med. klin. där 23-24, v. pediatr. klin. o. poliklin. där 24-27, därun-der tf. överläk. tio mån., aman. v. med. klin. där 27-31, intend. o, läk. v. Medevi brunn 29 o. 30, bitr. lär. i medicin v. Upps. univ. 30-31, last-läk. v. Lidköp. las. med. avd. sed. 31. Utg. smärre ’skr. i inv. medicin. RNO 47.",
+    "translated": "Akmar, Erik Ture, hospital physician, Lidköping, born on January 19, 1892 in Åtvidaberg, Östergötland. He studied in Linköping until 1910 and earned his Bachelor of Medicine in Uppsala in 1915. He obtained his medical license in 1922 and an honorary doctorate from Uppsala University in 1945. He was an assistant at the Department of Anatomy at Uppsala University from 1913-1914, a intern at Medevi Spa from 1916-1919, an assistant at the medical and pediatric clinics at the University Hospital in Uppsala from 1921-1924, including a ten-month position as acting senior physician. He was an intern at the medical clinic in Uppsala from 1927-1931, as well as a medical officer and doctor at Medevi Spa in 1929 and 1930, a deputy lecturer in medicine at Uppsala University from 1930-1931, and a hospital physician at Lidköping Hospital's medical department since 1931. He has published several minor works on internal medicine and was awarded the Order of the North Star in 1947. He married in an unknown year.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Ture Akmar\",\n  \"birthDate\": \"1892-01-19\",\n  \"birthPlace\": \"Åtvidaberg, Östergötland\",\n  \"deathDate\": null,\n  \"deathPlace\": null,\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Hospital Physician\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Lidköping Hospital\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Medicine\",\n      \"educationalLevel\": \"BachelorsDegree\",\n      \"awardingInstitution\": \"Uppsala University\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical License\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Honorary Doctorate\",\n      \"awardDate\": \"1945\",\n      \"awardingInstitution\": \"Uppsala University\"\n    }\n  ],\n  \"additionalName\": \"Ture\",\n  \"givenName\": \"Erik\",\n  \"familyName\": \"Akmar\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Lidköping\"\n  },\n  \"description\": \"Swedish hospital physician, known for contributions to the Department of Anatomy at Uppsala University and service to Medevi Spa. Author of several works on internal medicine.\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Department of Anatomy, Uppsala University\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Assistant, Department of Anatomy, Uppsala University\",\n    \"Intern, Medevi Spa\",\n    \"Assistant, Medical and Pediatric Clinics, Uppsala University Hospital\",\n    \"Acting Senior Physician, Medical and Pediatric Clinics, Uppsala University Hospital\",\n    \"Intern, Medical Clinic, Uppsala University\",\n    \"Medical Officer and Doctor, Medevi Spa\",\n    \"Deputy Lecturer in Medicine, Uppsala University\",\n    \"Hospital Physician, Lidköping Hospital\"\n  ],\n  \"honorificSuffix\": \"RNO\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Ture Akmar",
+        "birthDate": "1892-01-19",
+        "birthPlace": "Åtvidaberg, Östergötland",
+        "deathDate": null,
+        "deathPlace": null,
+        "nationality": "Swedish",
+        "jobTitle": [
+            "Assistant, Department of Anatomy, Uppsala University",
+            "Intern, Medevi Spa",
+            "Assistant, Medical and Pediatric Clinics, Uppsala University Hospital",
+            "Acting Senior Physician, Medical and Pediatric Clinics, Uppsala University Hospital",
+            "Intern, Medical Clinic, Uppsala University",
+            "Medical Officer and Doctor, Medevi Spa",
+            "Deputy Lecturer in Medicine, Uppsala University",
+            "Hospital Physician, Lidköping Hospital"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Lidköping Hospital"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Medicine",
+                "educationalLevel": "BachelorsDegree",
+                "awardingInstitution": "Uppsala University",
+                "startDate": "1910",
+                "endDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical License",
+                "startDate": "1915",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Honorary Doctorate",
+                "awardDate": "1945",
+                "awardingInstitution": "Uppsala University"
+            }
+        ],
+        "additionalName": "Ture",
+        "givenName": "Erik",
+        "familyName": "Akmar",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lidköping"
+        },
+        "description": "Swedish hospital physician, known for contributions to the Department of Anatomy at Uppsala University and service to Medevi Spa. Author of several works on internal medicine.",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Department of Anatomy, Uppsala University"
+            }
+        ],
+        "honorificSuffix": "RNO"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "original": "Axelsson, Bo Allan, tandläkare, Göteborg, f. 23/12/07 i Malmö av trafik-ch. Axel Nilsson o. Emma Möller. G. 38 m. operasång :an Elsa Ekendahl. — Stud:ex. i Malmö 25, tandl :kand. 27, tandläkare 30. Vik. i Varberg 30-31, assist, i Borås 31, därefter praktik först i Malmö o. numera i Gbg.",
+    "translated": "Axelsson, Bo Allan, dentist, Gothenburg, born December 23, 1907 in Malmö to traffic supervisor Axel Nilsson and Emma Möller. Married for 38 years to opera singer Elsa Ekendahl. He completed his high school education in Malmö in 1925 then studied dentistry, receiving his degree in 1930. He worked as a substitute in Varberg from 1930-1931 and as an assistant in Borås in 1931. He then established his practice first in Malmö and currently in Gothenburg.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "givenName": "Bo Allan",
+        "familyName": "Axelsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1907-12-23",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Malmö",
+            "latitude": 55.6052931,
+            "longitude": 13.0001566
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Axel Nilsson",
+                "jobTitle": "Traffic supervisor"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Möller"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Ekendahl",
+            "jobTitle": "Opera singer"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "High school education",
+                "startDate": "1925-01-01",
+                "endDate": "1925-12-31",
+                "belongsTo": {
+                    "@type": "Organization",
+                    "name": "Malmö"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentistry studies",
+                "startDate": "1927-01-01",
+                "endDate": "1930-12-31",
+                "belongsTo": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Substitute in Varberg",
+                "startDate": "1930-01-01",
+                "endDate": "1931-12-31",
+                "belongsTo": {
+                    "@type": "Organization",
+                    "name": "Varberg"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Assistant in Borås",
+                "startDate": "1931-01-01",
+                "endDate": "1931-12-31",
+                "belongsTo": {
+                    "@type": "Organization",
+                    "name": "Borås"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1932-01-01",
+                "belongsTo": [
+                    {
+                        "@type": "Organization",
+                        "name": "Malmö"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Gothenburg"
+                    }
+                ]
+            }
+        ]
+    }
+}

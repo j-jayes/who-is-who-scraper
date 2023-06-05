@@ -1,0 +1,63 @@
+{
+    "original": "Ageberg, Gustaf Ossian Hjalmar, fd. läroverksadjunkt, Göteborg, f. 20/4/76 i Kalmar av arbiförm. Nils A. o. Maria Lindström. G. 10 m. Ingeborg Liljeholm. Barn: Gerd f. 11, g. m. fil. mag. Gunnar Löfqvist, Gbg, Gudrun 14, fil. mag., g. m. fil. hc. Hans",
+    "translated": "Ageberg, Gustaf Ossian Hjalmar, former senior high school teacher, from Gothenburg, born on April 20th, 1876 in Kalmar to parents Nils A. and Maria Lindström who were laborers. He married Ingeborg Liljeholm and they had two children: Gerd born in 1911 who married fil. mag. Gunnar Löfqvist from Gothenburg and Gudrun born in 1914 who married fil. hc. Hans.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Ossian Hjalmar Ageberg",
+        "birthDate": "1876-04-20",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Kalmar",
+            "latitude": 57.02784235,
+            "longitude": 16.575102000807693
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Former senior high school teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils A."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Lindström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Liljeholm"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gerd",
+                "birthDate": "1911",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Gunnar Löfqvist",
+                    "jobTitle": "fil. mag.",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Gudrun",
+                "birthDate": "1914",
+                "jobTitle": "fil. mag.",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Hans",
+                    "jobTitle": "fil. hc."
+                }
+            }
+        ]
+    }
+}

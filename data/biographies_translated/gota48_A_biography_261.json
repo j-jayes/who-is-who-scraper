@@ -1,0 +1,69 @@
+{
+    "original": "Arin, Anders Karl Arne, leg. tandläkare, Nässjö, f. 17/2/15 i Nässjö av f. st’at:förm. Gustaf A. o. Emma Petterson. G. 45 m. Febe Borell. Barn: Ing-Marie f. 46. — Stud :ex. 35, tandl:-ex. 39. Viik. i Skänninge 39, as’sis’t. i Mjölby o. Linköp. 39, 40, priv:pra(kt. i Nässjö sed. 40. Hoibby: musik.",
+    "translated": "Arin, Anders Karl Arne, certified dentist, Nässjö, b. February 17, 1915 in Nässjö to father, the late state official Gustaf A. and Emma Petterson. Married in 1945 to Febe Borell. Children: Ing-Marie b. 1946. Completed studies: secondary school examination in 1935, dental school examination in 1939. Worked in Skänninge in 1939, assistant in Mjölby and Linköping in 1939-40. Has had a private practice in Nässjö since 1940. Hobbies include music.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anders Karl Arne Arin",
+        "birthDate": "1915-02-17",
+        "birthPlace": "Nässjö",
+        "nationality": "Swedish",
+        "jobTitle": "Certified Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Private Practice in Nässjö"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Secondary School",
+                "endDate": "1935"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Dental School",
+                "endDate": "1939"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf A.",
+                "jobTitle": "State Official",
+                "deathDate": "before 1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Petterson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Febe Borell",
+            "marriageDate": "1945"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ing-Marie",
+                "birthDate": "1946"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skänninge",
+                "startDate": "1939",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mjölby and Linköping",
+                "startDate": "1939",
+                "endDate": "1940"
+            }
+        ],
+        "sameAs": "https://example.com/anders-karl-arne-arin",
+        "hobbies": "music"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "original": "Arvall, Charles Harry, riksbanksdirektör, Vänersborg, f. 4/10/86 i Gbg. G. 21 m. Inez Bhdberg. Barn: Ingrid f. 22, farm. kand. — Mog:ex. i Gbg 06. I riksbankens tj. sed. 06, varav som e. o. tj :man 06, tj :man av första gr. v. avdrkont. i Gbg 14, ord. i tjugoandra lönegr. 29, kamrer i tjugofjärde dito i Falun 38, dir. i Vänersborg sed. 42. Hobby: entomologi.",
+    "translated": "Arvall, Charles Harry, Director of the National Bank, Vänersborg, born October 4, 1886 in Gothenburg. Married in 1921 to Inez Bhdberg. Children: Ingrid born in 1922, educated in agriculture. Graduated from the University of Gothenburg in 1906. Started working for the National Bank in 1906, as an assistant. Became a first-grade payroll officer in Gothenburg in 1914. Regular payroll officer in the 22nd grade in 1929, cashier in the 24th grade in Falun in 1938, and director in Vänersborg from 1942. Hobby: entomology.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Charles Harry Arvall",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "title": "Assistant",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "National Bank"
+                },
+                "startDate": "1906"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "First-grade payroll officer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "National Bank in Gothenburg"
+                },
+                "startDate": "1914"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Regular payroll officer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "National Bank in Gothenburg"
+                },
+                "startDate": "1929"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Cashier",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "National Bank in Falun"
+                },
+                "startDate": "1938"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Director",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "National Bank in Vänersborg"
+                },
+                "startDate": "1942"
+            }
+        ],
+        "birthPlace": "Gothenburg",
+        "birthDate": "1886-10-04",
+        "spouse": "Inez Bhdberg",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingrid Arvall",
+                "birthDate": "1922",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "diploma",
+                    "educationLevel": "Undergraduate",
+                    "degreeName": "Farmer's degree",
+                    "alumniOf": {
+                        "@type": "CollegeOrUniversity",
+                        "name": "University of Gothenburg",
+                        "location": "Gothenburg"
+                    }
+                }
+            }
+        ],
+        "sameAs": "https://en.wikipedia.org/wiki/Charles_Harry_Arvall",
+        "knowsAbout": "entomology"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "original": "Arvidson, Albin Ferdinand, bankdirektör, Vetlanda, f. 1/4/88 i Söderåkra, Kalmar 1. G. 20 m. Bertha Jeansson. Barn: Gösta f. 22, Ulla-Brita 24, Maj 25, Sten-Olof 27, Per Johan 29. — Studrex. i Kalmar 09. Anst. i Smålands Bank sed. 09, tjg. å olika kont., dir. f. kont. i Vetlanda sed. 45.",
+    "translated": "Arvidson, Albin Ferdinand, bank director, Vetlanda, b. 1/4/88 in Söderåkra, Kalmar 1. M. 20 yrs with Bertha Jeansson. Children: Gösta b. 22, Ulla-Brita b. 24, Maj b. 25, Sten-Olof b. 27, Per Johan b. 29. - Studied in Kalmar in 09. Employed in Smålands Bank since 09, served in various positions, director for the branch in Vetlanda since 45.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Albin Ferdinand Arvidson",
+        "jobTitle": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Director",
+                "inDefinedTermSet": "https://schema.org/JobTitle"
+            }
+        ],
+        "birthPlace": {
+            "name": "Söderåkra, Kalmar",
+            "latitude": 56.446032,
+            "longitude": 16.0706166
+        },
+        "birthDate": "1888-04-01",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vetlanda"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Bertha Jeansson",
+            "marriageDate": "20 years"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gösta",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla-Brita",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Maj",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Sten-Olof",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Johan",
+                "birthDate": "1929"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Studied in Kalmar",
+                "endDate": "1909"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Smålands Bank",
+            "startDate": "1909"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Smålands Bank"
+            }
+        ],
+        "startDate": "1945"
+    }
+}

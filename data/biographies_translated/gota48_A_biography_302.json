@@ -1,0 +1,71 @@
+{
+    "original": "Arvidsson, Karl Erik Gustav, tandläkare, Västervik, f. 8/9/10 i Rogslösa, östergötl. 1., av stat iförest. Arvid Pettersson o. Minna Gyllenhammar. G. 35 m. Ellen Svensson. Barn: Ulla f. 36, Kerstin 39. — Studrex. i Linköp. 30, tandl:kand. 31, tandl. 33. Assist, i Kisa 33-34, prakt, i Västervik sed. 35, skoltandl. i Överums kommun sed. 35, i Törnsfalls 36-38.",
+    "translated": "Arvidsson, Karl Erik Gustav, dentist, Västervik, b. 8/9/10 in Rogslösa, Östergötland, oldest child of state official Arvid Pettersson and Minna Gyllenhammar. Married to Ellen Svensson in 1935. Children: Ulla b. 1936, Kerstin b. 1939. - Studied at Linköping University in 1930, became a dental student in 1931, and graduated as a dentist in 1933. Worked as an assistant in Kisa from 1933-1934 and ran his own dental practice in Västervik from 1935. Also served as a school dentist in the Överum municipality since 1935, and in Törnsfall from 1936-1938.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Erik Gustav Arvidsson",
+        "jobTitle": "Dentist",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Rogslösa, Östergötland"
+        },
+        "birthDate": "1910-09-08",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Arvid Pettersson",
+                "jobTitle": "State Official"
+            },
+            {
+                "@type": "Person",
+                "name": "Minna Gyllenhammar"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Svensson",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1939"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Linköping University",
+                "endDate": "1933"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Kisa"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västervik"
+            },
+            {
+                "@type": "Organization",
+                "name": "Överum Municipality",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Törnsfall",
+                "startDate": "1936",
+                "endDate": "1938"
+            }
+        ]
+    }
+}

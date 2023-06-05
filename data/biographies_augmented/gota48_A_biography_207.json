@@ -1,0 +1,103 @@
+{
+    "original": "Andersson, Sven Arvid, fondchef, Borås, f. 5/9/95 i Borås av förm. Johan A. o. Jenny Sandqvist. G. 22 m. Ebba Rösel. — Stud:ex. i Borås 14, Gbgs hand:inst. 15. Anst. v. A-B Sv. hand :bank. (tid. Borås ensk. bank) sed. 16, fondchef där fr. 38. Intend. f. Borås teat. sed. 38, led. av teat:-styr. fr. s. å., styr:l’ed. i teat:fören. fr. 40, sekr. där 46, v. ordf. i Sv. bank-m:förb. diistr :istyr. i Borås sed. 47. Medl. av P. B. Hobbies: teater, sång, friluftsliv.",
+    "translated": "Andersson, Sven Arvid, portfolio manager, Borås, b. 5/9/95 in Borås to former Johan A. and Jenny Sandqvist. Married for 22 years to Ebba Rösel. - Graduated high school in Borås in 1914, and from Göteborg's School of Business in 1915. Employed by A-B Sw. Handelsbank (formerly Borås private bank) since 1916, portfolio manager there since 1938. Also worked as an administrator for Borås Theater since 1938, member of the theater board since the same year, board member of the theater association since 1940, secretary since 1946, and deputy chairman of the Swedish Bankers' Association's district board in Borås since 1947. Member of the P. B. Hobbies include theater, singing, and outdoor life.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Arvid Andersson",
+        "birthDate": "1895-09-05",
+        "birthPlace": {
+            "name": "Borås",
+            "latitude": 57.7210839,
+            "longitude": 12.9407407
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan A. Andersson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Jenny Sandqvist",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ebba Rösel",
+            "marriageDate": "unknown",
+            "gender": "female"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationLevel": "High school",
+                "educationType": "graduation",
+                "institution": "Borås",
+                "startDate": "1914",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Gbgs hand:inst.",
+                "educationLevel": "college",
+                "educationType": "graduation",
+                "institution": "Göteborg's School of Business",
+                "startDate": "1915",
+                "endDate": "1915"
+            }
+        ],
+        "jobTitle": [
+            "Portfolio Manager"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A-B Sw. Handelsbank",
+                "startDate": "1916"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Theater",
+                "startDate": "1938",
+                "endDate": "unknown",
+                "jobTitle": "Administrator",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Theater Board",
+                        "startDate": "1938"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Theater Association",
+                        "startDate": "1940"
+                    }
+                ],
+                "subOrganization": {
+                    "@type": "Organization",
+                    "name": "Swedish Bankers' Association",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "District Board in Borås",
+                        "startDate": "1947",
+                        "jobTitle": "Deputy Chairman"
+                    }
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "P.B.",
+            "startDate": "unknown"
+        },
+        "gender": "male",
+        "interest": [
+            "Theater",
+            "Singing",
+            "Outdoor Life"
+        ]
+    }
+}

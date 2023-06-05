@@ -1,0 +1,35 @@
+{
+    "original": "Ahnve, Hans Elof, godsägare, San-debo, Västervik, f. 14/6/07 i Södra Vi, Kalmar 1. G. 45 m. Inga-Britt Magnusson. Barn: Torsten f. 46. — Stud. v. folkhögsk. o. lantm:sk. Äg. o. bruk. Sandebo gård sed. 45.",
+    "translated": "Ahnve, Hans Elof was a landowner in Sandebo, Västervik. He was born on June 14th, 1907, in Södra Vi, Kalmar. Hans Elof married Inga-Britt Magnusson in 1945. They had one child named Torsten, who was born in 1946. Hans Elof studied at the People's High School and the Agricultural College. He owned and operated Sandebo farm since 1945.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Hans Elof Ahnve\",\n    \"birthDate\": \"1907-06-14\",\n    \"birthPlace\": {\n        \"@type\": \"Place\",\n        \"name\": \"Södra Vi, Kalmar\"\n    },\n    \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"People's High School\"\n    },\n    \"memberOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Agricultural College\"\n    },\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Inga-Britt Magnusson\",\n        \"marriageDate\": \"1945\"\n    },\n    \"children\": {\n        \"@type\": \"Person\",\n        \"name\": \"Torsten Ahnve\",\n        \"birthDate\": \"1946\"\n    },\n    \"jobTitle\": \"Landowner\",\n    \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sandebo farm\"\n    },\n    \"startDate\": \"1945\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hans Elof Ahnve",
+        "birthDate": "1907-06-14",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Södra Vi, Kalmar"
+        },
+        "memberOf": {
+            "@type": "EducationalOrganization",
+            "name": "Agricultural College"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga-Britt Magnusson",
+            "marriageDate": "1945"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Torsten Ahnve",
+            "birthDate": "1946"
+        },
+        "jobTitle": "Landowner",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Sandebo farm"
+        },
+        "startDate": "1945"
+    }
+}

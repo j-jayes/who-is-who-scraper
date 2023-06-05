@@ -1,0 +1,108 @@
+{
+    "original": "Ahlson, Josef Emil, kontraktsprost, Töreboda, f. 16/1/85 i Säter, Skarab. 1., av Axel A. o. Lovisa Lindberg. G. 20 m. Hertha Persson. — Mogiex. i Skara 05, fil. kand. i Upps. 08, teol. kand., prakt. teol. prov o. prästv. f. Skara stift 13. Pastor v. Flöda arb i-koloni i Vemdalen 13, kommin. i Fredsberg 20, kyrkoh. där sed. 31, kontr iprost i Norra Vadsbo kontr. sed. 41. Missistyr. stiftsombud 21-37, ordf. i pastoratets kyrkoråd. Fredsbergs kyrkofuUm. o. kyrkostämm. i Bäck. LVO.",
+    "translated": "Ahlson, Josef Emil, a dean, from Töreboda, born on January 16, 1885 in Säter, Skaraborg County, the first child of Axel A. and Lovisa Lindberg. Married to Hertha Persson for 20 years. He studied at Mogiex in Skara in 1905, received a Bachelor's degree in Uppsala in 1908, and completed a practical theology examination and was ordained as a priest for the Skara diocese in 1913. He worked as a pastor at Flöda, running a labor colony in Vemdalen in 1913, became a vicar in Fredsberg in 1920, and a church secretary there until 1931, and then became dean in the Norra Vadsbo deanery in 1941. He was a mission district representative from 1921 to 1937 and chairman of the parish church council. He was also a member of the church council in Fredsberg and the church assembly in Bäck. He was awarded the Order of Vasa (LVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Josef Emil Ahlson\",\n  \"jobTitle\": \"Dean\",\n  \"birthDate\": \"1885-01-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Säter, Skaraborg County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel A. Lindberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lovisa Lindberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hertha Persson\",\n    \"marriageDate\": \"1905-01-01\",\n    \"endDate\": \"1925-01-01\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Mogiex, Skara\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"degree\": {\n        \"@type\":  \"BachelorDegree\",\n        \"name\": \"Bachelor's degree\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Priest\",\n      \"startDate\": \"1913-01-01\",\n      \"endDate\": \"1941-01-01\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skara Diocese\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Pastor\",\n      \"startDate\": \"1913-01-01\",\n      \"endDate\": \"1920-01-01\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Flöda \"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1920-01-01\",\n      \"endDate\": \"1931-01-01\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Fredsberg\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Dean\",\n      \"startDate\": \"1941-01-01\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norra Vadsbo Deanery\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mission District\",\n      \"roleName\": \"Representative\",\n      \"startDate\": \"1921-01-01\",\n      \"endDate\": \"1937-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fredsberg Church Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bäck Church Assembly\"\n    }\n  ],\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Order of Vasa\",\n    \"awardDate\": \"Unknown\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Josef Emil Ahlson",
+        "jobTitle": [
+            {
+                "@type": "Role",
+                "name": "Priest",
+                "startDate": "1913-01-01",
+                "endDate": "1941-01-01",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Skara Diocese"
+                }
+            },
+            {
+                "@type": "Role",
+                "name": "Pastor",
+                "startDate": "1913-01-01",
+                "endDate": "1920-01-01",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Flöda "
+                }
+            },
+            {
+                "@type": "Role",
+                "name": "Vicar",
+                "startDate": "1920-01-01",
+                "endDate": "1931-01-01",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Fredsberg"
+                }
+            },
+            {
+                "@type": "Role",
+                "name": "Dean",
+                "startDate": "1941-01-01",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Norra Vadsbo Deanery"
+                }
+            }
+        ],
+        "birthDate": "1885-01-16",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Säter, Skaraborg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel A. Lindberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Lovisa Lindberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hertha Persson",
+            "marriageDate": "1905-01-01",
+            "endDate": "1925-01-01"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Mogiex, Skara"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "degree": {
+                    "@type": "BachelorDegree",
+                    "name": "Bachelor's degree"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Mission District",
+                "roleName": "Representative",
+                "startDate": "1921-01-01",
+                "endDate": "1937-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Fredsberg Church Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bäck Church Assembly"
+            }
+        ],
+        "awards": {
+            "@type": "Order",
+            "name": "Order of Vasa",
+            "awardDate": "Unknown"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "original": "Augustinius, John Albert André, kyrkoherde, Nykil, f. 1/8/84 i Väst-rum, Kalmar 1. G. 15 m. Märta Gyl-ilenhammar, d; 46. Barn: John-Arne f. 19, ing. v. SAAB i Linköp. — Mog:ex. i Upps. 06, teol. fil. ex. 07, teol. kand., prakt. teol. prov samt prästv. f. Linköp. stift 09. Kommin. i Mörlunda 15, kyrkoh. i Nykil sed. 22. Ordf. i kyrkostämma o. kyrkofullm. m. m.",
+    "translated": "Augustinius, John Albert André, clergyman, Nykil, b. 1/8/84 in Väst-rum, Kalmar. 1st marriage: married to Märta Gylilenhammar, deceased; had a son, John-Arne, b. 19, engineer at SAAB in Linköping. Education: Completed magisterexamen in Uppsala 06, filosofie kandidatexamen in theology 07, theological seminary education, practical theological examination and ordained as priest in the Linköping diocese in 09. Served as assistant vicar in Mörlunda from 15, and as a parish priest in Nykil since 22. Also served as chairman of the church assembly and church council, among other roles.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Albert André Augustinius",
+        "birthDate": "1884-08-01",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Väst-rum, Kalmar"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Märta Gylilenhammar",
+                "deathDate": "1946"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "John-Arne Augustinius",
+                "birthDate": "19XX",
+                "description": "Engineer at SAAB in Linköping."
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "mastersexamen",
+            "educationalLevel": "magister",
+            "dateIssued": "1906"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Linköping diocese"
+            }
+        ],
+        "jobTitle": [
+            "Clergyman",
+            "Assistant Vicar",
+            "Parish Priest",
+            "Chairman of the Church Assembly",
+            "Chairman of the Church Council"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Mörlunda"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nykil"
+            }
+        ],
+        "deathDate": "YYYY"
+    }
+}

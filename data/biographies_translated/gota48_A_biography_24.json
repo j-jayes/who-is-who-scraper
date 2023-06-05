@@ -1,0 +1,67 @@
+{
+    "original": "Adolfsson, Stefan Gustav Daniel, tandläkare, Motala, f. 1/12/09 i Högs-by, Kalmar 1., av godsäg. Aug. A. o. Hilda Karlsson. G. 37 m. Brita Austrin. Barn: Berit f. 38, Inger 42. — Stud:ex. i Linköp. 27, tandl :kand. 30, tandl. 34. Praktik i Motala sed. 34.",
+    "translated": "Adolfsson, Stefan Gustav Daniel, a dentist from Motala, born on December 1st, 1909 in Högs-by, Kalmar county, son of the estate owner August A. and Hilda Karlsson. He got married at the age of 37 to Brita Austrin and has two children: Berit, born in 1938 and Inger, born in 1942. Stefan completed his high school studies in Linköping in 1927, graduated with a degree in dentistry in 1930 and obtained his dental license in 1934. He has been practicing dentistry in Motala since 1934.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Stefan Gustav Daniel Adolfsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1909-12-01",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Högs-by",
+                "addressRegion": "Kalmar county",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "August A. Adolfsson",
+                "jobTitle": "Estate owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Austrin",
+            "birthDate": "unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Berit Adolfsson",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger Adolfsson",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Linköping School",
+                "location": "Linköping",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Tandläkarhögskolan",
+                "location": "Sweden",
+                "endDate": "1930"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Motala Clinic"
+        },
+        "jobStartDate": "1934"
+    }
+}

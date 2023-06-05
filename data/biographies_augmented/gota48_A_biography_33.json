@@ -1,0 +1,126 @@
+{
+    "original": "Agnemar, Karl Gustaf Efraim, läroverksadjunkt, Lidköping, f. 14/10/88 i Sthlm. G. 39 m. Margit Aldenius. Barn: Andens f. 40, LarS’ 42, Torbjörn 44. — Moig:ex. i Karlstad 07, fil. mag. i Upps. 15, stud. f. fil. lic., provår i Upps. 32-33. Medarb. i Värml. Dag-bi., sedermera Värml. Läns Tidn., 07- 11, senare åren som red. o. ansv. utg., e. o. lär. v. Forsa folkhögsk. 17, ord. ämneslär. där 20, extralär. v. Karol. lärov. i Örebro 33-36, adj. i modersm. o. hist. m. samh :lära v. Lidköp. sam-realsk. sed. 36.",
+    "translated": "Agnemar, Karl Gustaf Efraim, high school teacher, from Lidköping, born on October 14th, 1888 in Stockholm. Married in 1939 to Margit Aldenius. Children: Andens born in 1940, LarS’ in 1942, and Torbjörn in 1944. Academic background: passed exams in Karlstad in 1907, received a Master's degree in Uppsala in 1915, studied for a PhD, completed a teaching internship in Uppsala from 1932-1933. Contributed to Värmlands Dagblad and later to Värmlands Läns Tidning from 1907-1911, served as editor and responsible editor in later years. Substitute teacher at Forsa folk high school in 1917, regular subject teacher there in 1920, extracurricular teacher at Karolinska High School in Örebro from 1933-1936, then language and history teacher with social science at Lidköping secondary school from 1936.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Gustaf Efraim Agnemar",
+        "birthDate": "1888-10-14",
+        "birthPlace": {
+            "name": "Stockholm, Sweden",
+            "latitude": 59.3251172,
+            "longitude": 18.0710935
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Aldenius",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Andens",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "LarS’",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Torbjörn",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Moig:ex.",
+                "dateAwarded": "1907",
+                "awardingInstitution": "Karlstad"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil. mag.",
+                "dateAwarded": "1915",
+                "awardingInstitution": "Uppsala"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied for PhD",
+                "startDate": "1915",
+                "endDate": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teaching internship",
+                "startDate": "1932",
+                "endDate": "1933",
+                "inDuration": "P1Y"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Värmlands Dagblad"
+                },
+                "startDate": "1907",
+                "endDate": "1911",
+                "roleName": "Contributing Writer"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Värmlands Läns Tidning"
+                },
+                "startDate": "1911",
+                "endDate": null,
+                "roleName": "Editor and Responsible Editor"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Forsa Folkhögskola"
+                },
+                "startDate": "1917",
+                "endDate": "1920",
+                "roleName": "Substitute Teacher"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Forsa Folkhögskola"
+                },
+                "startDate": "1920",
+                "endDate": "1933",
+                "roleName": "Regular Subject Teacher"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Karolinska Läroverket"
+                },
+                "startDate": "1933",
+                "endDate": "1936",
+                "roleName": "Extracurricular Teacher"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Lidköping Samrealskola"
+                },
+                "startDate": "1936",
+                "endDate": null,
+                "roleName": "Language and History Teacher with Social Science"
+            }
+        ]
+    }
+}

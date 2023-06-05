@@ -1,0 +1,92 @@
+{
+    "original": "Ahlskog, Bengt Gustaf Edv^ard, tandläkare, Motala, f. 26/6/09 i Tiders-rum, östergötl. 1., av hemmiäg. G. W. Karlsson o. Signe Margareta Eriksson. — Studiex. v. Motala samgymn. 29, tandlikand. 32, tandläkare 35. Assist, i Visby 36, vik. i Härnösand s. å., praktik i Motala sed. 37.",
+    "translated": "Ahlskog, Bengt Gustaf Edv^ard, dentist, Motala, b. June 26, 1909 in Tiders-rum, östergötl. 1., son of G. W. Karlsson and Signe Margareta Eriksson, who were homeowners. He graduated from Motala samgymnasium in 1929, completed his dental studies in 1932, and became a dentist in 1935. He worked as an assistant in Visby in 1936, as a substitute in Härnösand the same year, and has had his own practice in Motala since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Gustaf Edvard Ahlskog\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1909-06-26\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Tiders-rum\",\n      \"addressRegion\": \"östergötland\",\n      \"postalCode\": \"1\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"G. W. Karlsson\",\n      \"jobTitle\": \"Homeowner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Margareta Eriksson\",\n      \"jobTitle\": \"Homeowner\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"School\",\n    \"name\": \"Motala samgymnasium\",\n    \"endDate\": \"1929\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"description\": \"Dental studies\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"professional\",\n      \"description\": \"Dentist\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Visby\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Substitute\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Härnösand\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1937\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Motala\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Gustaf Edvard Ahlskog",
+        "jobTitle": "Dentist",
+        "birthDate": "1909-06-26",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Tiders-rum",
+                "addressRegion": "östergötland",
+                "postalCode": "1"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "G. W. Karlsson",
+                "jobTitle": "Homeowner"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Margareta Eriksson",
+                "jobTitle": "Homeowner"
+            }
+        ],
+        "alumniOf": {
+            "@type": "School",
+            "name": "Motala samgymnasium",
+            "endDate": "1929"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "description": "Dental studies",
+                "endDate": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "professional",
+                "description": "Dentist",
+                "endDate": "1935"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Assistant",
+                "startDate": "1936",
+                "endDate": "1936",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Visby"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Substitute",
+                "startDate": "1936",
+                "endDate": "1936",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Härnösand"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1937",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Motala"
+                    }
+                }
+            }
+        ]
+    }
+}

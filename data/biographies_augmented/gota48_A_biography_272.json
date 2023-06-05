@@ -1,0 +1,145 @@
+{
+    "original": "Arnell, Sture Anders, lektor, Karlskrona, f. 22/8/05 i Enslöv, Hall. 1., av folksk :lär. A. J. A. o. Hulda Kristina Petersson. G. 40 m. fil. mag. Margareta Schartau. Barn: Sigurd f. 41, Harald 45. — Stud:ex. i Halmstad 24, fil. mag.^ i Lund 28, fil. lic. 35, fil. dr 38, provår i Lund s. å. Arkivstud. i Königsberg 34, Riga, Dorpat o. Re-val 35. Vik. adj. v. Hälsingborgs gosslärov. 30, i Karlshamn 35-36, v. Malmö realsk. 39, e. o. adj. v. Karlskrona h. a. 1. 39, lektor i modersm. o. hist. m. samh :lära där sed. 40. Aman. v. l|andsarkiv, i Lund 36-38. Skr.: Die Auflösung des livländ. Ordens-staates. Das schwed. Eingreifen und die Heirat Herzog Johanns von Finnl., 1558-62 (grad:avh. 37) m. fl.",
+    "translated": "Arnell, Sture Anders, lecturer, Karlskrona, b. August 22nd, 1905 in Enslöv, Halland, son of primary school teacher A.J.A. and Hulda Kristina Petersson. Married in 1940 to Margareta Schartau, with two children: Sigurd born in 1941 and Harald born in 1945. Education: graduation from high school in Halmstad in 1924, Bachelor of Arts from Lund University in 1928, Master of Arts in 1935, Licentiate in Philosophy in 1935, and Doctorate in Philosophy in 1938, followed by a probationary period at Lund University. Studied archives in Königsberg in 1934, Riga, Dorpat, and Reval in 1935. Temporary assistant teacher at Hälsingborg boys' school in 1930, Karlshamn in 1935-1936, and at Malmö high school in 1939. Appointed as assistant lecturer at Karlskrona naval academy in 1939, and became a lecturer in mother tongue and history with social science in 1940. Assistant archivist at the National Archives in Lund from 1936-1938; published works include \"The Dissolution of the Livonian Order State: Swedish Intervention and the Marriage of Duke John of Finland, 1558-62\" (degree thesis in 1937), among others.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sture Anders Arnell",
+        "jobTitle": "Lecturer",
+        "birthPlace": "Enslöv, Halland",
+        "birthDate": "1905-08-22",
+        "parents": {
+            "@type": "Person",
+            "parent": [
+                "A.J.A. Arnell",
+                "Hulda Kristina Petersson"
+            ]
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Schartau",
+            "marriageDate": "1940"
+        },
+        "children": {
+            "@type": "Person",
+            "child": [
+                {
+                    "@type": "Person",
+                    "name": "Sigurd Arnell",
+                    "birthDate": "1941"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Harald Arnell",
+                    "birthDate": "1945"
+                }
+            ]
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "educationalLevel": [
+                "HighSchool",
+                "Bachelor'sDegree",
+                "Master'sDegree",
+                "LicentiateDegree",
+                "DoctoralDegree"
+            ],
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University"
+            },
+            "dateReceived": [
+                {
+                    "@type": "QuantitativeValue",
+                    "value": "1924"
+                },
+                {
+                    "@type": "QuantitativeValue",
+                    "value": "1928"
+                },
+                {
+                    "@type": "QuantitativeValue",
+                    "value": "1935"
+                },
+                {
+                    "@type": "QuantitativeValue",
+                    "value": "1935"
+                },
+                {
+                    "@type": "QuantitativeValue",
+                    "value": "1938"
+                }
+            ]
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Karlskrona naval academy"
+            },
+            {
+                "@type": "Organization",
+                "name": "National Archives",
+                "memberOf": [
+                    {
+                        "@type": "OccupationalExperience",
+                        "jobTitle": "Assistant Archivist",
+                        "startDate": "1936",
+                        "endDate": "1938"
+                    }
+                ]
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Karlskrona naval academy",
+            "worksFor": {
+                "@type": "OccupationalExperience",
+                "name": "lecturer",
+                "startDate": "1940"
+            }
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Temporary Assistant teacher",
+                "startDate": "1930",
+                "endDate": "1930",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Hälsingborg boys' school"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary Assistant teacher",
+                "startDate": "1935",
+                "endDate": "1936",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Karlshamn"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary Assistant teacher",
+                "startDate": "1939",
+                "endDate": "1939",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Malmö High School"
+                }
+            }
+        ],
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Die Auflösung des livländ. Ordens-staates. Das schwed. Eingreifen und die Heirat Herzog Johanns von Finnl., 1558-62",
+                "dateIssued": "1937"
+            }
+        ],
+        "givenName": "Sture",
+        "middleName": "Anders",
+        "familyName": "Arnell"
+    }
+}

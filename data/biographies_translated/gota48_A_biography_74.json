@@ -1,0 +1,184 @@
+{
+    "original": "Ahlström, Gösta Adolf, läroverksadjunkt, Borås, f. 15/5/90 i Skara av P. J. A. o. Emma Landgren. G. 21 m. Elin Hagberg. Barn: Siv f. 23, Per 28, Britt 33, Catharina 39. — Stud:ex. i Skara 09, fil. kand. 12, fil. mag. 13, provår v. Gbgs h. reallärov. 16. Res. t. Danm. o. Norge f. geol. ’Stud. Vik. ladj. o. e. lär. i Skellefteå, Vara o. Borås, adj. i matem., fysik o. geogr. v. Borås h. a. 1. sed. 26. As-’sist. i matem. v. Borås tekn. sk. 18-43. Led. av Borås folksk :styr. sed. 31 o. av hälsov :ndn där ised. 38. Skr.: Kolebaecksugnen (27) isamt ett flert. upps. i fackpres’sen ang. myrjärnsut-vdnning o. allmogesmåde i södra Väs-tergötl., ett flert. art. om det gamla hantv. li Borås’. RVO, RLSF ftjM",
+    "translated": "Ahlström, Gösta Adolf, high school teacher, Borås, b. 15/5/90 in Skara to P.J.A. and Emma Landgren. Married in 1921 to Elin Hagberg. Children: Siv b. 1923, Per b. 1928, Britt b. 1933, Catharina b. 1939. - Graduated from high school in Skara in 1909, Bachelor of Arts in 1912, Master of Arts in 1913, training year at Gothenburg's high school in 1916. Traveled to Denmark and Norway for geological studies. Teacher's assistant and teacher in Skellefteå, Vara, and Borås, teaching mathematics, physics, and geography. Became a high school teacher in Borås in 1926. Assistant in mathematics at the Borås technical school from 1918-1943. Member of the school board in Borås since 1931 and of the board of health since 1938. Wrote \"Kolebaecksugnen\" in 1927 and several articles in professional journals about the extraction of bog iron and traditional handicrafts in southern Västergötland. Honors include RVO, RLSF, and the Illustrious Order of Freemasons.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Adolf Ahlström\",\n  \"birthDate\": \"1890-05-15\",\n  \"birthPlace\": \"Skara, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"P.J.A. Ahlström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Landgren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elin Hagberg\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Siv Ahlström\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Ahlström\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britt Ahlström\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Catharina Ahlström\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skara High School\",\n        \"location\": \"Skara, Sweden\"\n      },\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Unknown\"\n      },\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"master's degree\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Unknown\"\n      },\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"training year\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg's High School\"\n      },\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"profession\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Geological Studies\",\n      \"startDate\": \"Unknown\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Teaching\",\n      \"name\": \"Teacher's Assistant\",\n      \"startDate\": \"Unknown\",\n      \"endDate\": \"Unknown\",\n      \"memberOf\": [\n        {\n          \"@type\": \"EducationalOrganization\",\n          \"name\": \"Skellefteå\"\n        },\n        {\n          \"@type\": \"EducationalOrganization\",\n          \"name\": \"Vara\"\n        },\n        {\n          \"@type\": \"EducationalOrganization\",\n          \"name\": \"Borås\"\n        }\n      ],\n      \"teaches\": [\n        \"Mathematics\",\n        \"Physics\",\n        \"Geography\"\n      ]\n    },\n    {\n      \"@type\": \"Teaching\",\n      \"name\": \"High School Teacher\",\n      \"startDate\": \"1926\",\n      \"memberOf\": [\n        {\n          \"@type\": \"EducationalOrganization\",\n          \"name\": \"Borås High School\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Teaching\",\n      \"name\": \"Assistant in Mathematics\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1943\",\n      \"memberOf\": [\n        {\n          \"@type\": \"EducationalOrganization\",\n          \"name\": \"Borås Technical School\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås School Board\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Health\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"PublicationEvent\",\n      \"name\": \"Kolebaecksugnen\",\n      \"location\": \"Unknown\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"PublicationEvent\",\n      \"name\": \"Extracting bog iron and traditional handicrafts in southern Västergötland\",\n      \"location\": \"Unknown\",\n      \"startDate\": \"Unknown\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the Seraphim\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Swedish Society of Sciences\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Illustrious Order of Freemasons\"\n    }\n  ]\n}\n",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gösta Adolf Ahlström",
+        "birthDate": "1890-05-15",
+        "birthPlace": "Skara, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "P.J.A. Ahlström"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Landgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elin Hagberg",
+            "marriageDate": "1921"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Siv Ahlström",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Ahlström",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Britt Ahlström",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Catharina Ahlström",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skara High School",
+                    "location": "Skara, Sweden"
+                },
+                "endDate": "1909"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Unknown"
+                },
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "master's degree",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Unknown"
+                },
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "training year",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg's High School"
+                },
+                "endDate": "1916"
+            }
+        ],
+        "profession": [
+            {
+                "@type": "Occupation",
+                "name": "Geological Studies",
+                "startDate": "Unknown",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Teaching",
+                "name": "Teacher's Assistant",
+                "startDate": "Unknown",
+                "endDate": "Unknown",
+                "memberOf": [
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "Skellefteå"
+                    },
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "Vara"
+                    },
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "Borås"
+                    }
+                ],
+                "teaches": [
+                    "Mathematics",
+                    "Physics",
+                    "Geography"
+                ]
+            },
+            {
+                "@type": "Teaching",
+                "name": "High School Teacher",
+                "startDate": "1926",
+                "memberOf": [
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "Borås High School"
+                    }
+                ]
+            },
+            {
+                "@type": "Teaching",
+                "name": "Assistant in Mathematics",
+                "startDate": "1918",
+                "endDate": "1943",
+                "memberOf": [
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "Borås Technical School"
+                    }
+                ]
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Borås School Board",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Board of Health",
+                "startDate": "1938"
+            }
+        ],
+        "publication": [
+            {
+                "@type": "PublicationEvent",
+                "name": "Kolebaecksugnen",
+                "location": "Unknown",
+                "startDate": "1927"
+            },
+            {
+                "@type": "PublicationEvent",
+                "name": "Extracting bog iron and traditional handicrafts in southern Västergötland",
+                "location": "Unknown",
+                "startDate": "Unknown"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the Seraphim"
+            },
+            {
+                "@type": "Order",
+                "name": "Royal Swedish Society of Sciences"
+            },
+            {
+                "@type": "Order",
+                "name": "Illustrious Order of Freemasons"
+            }
+        ]
+    }
+}

@@ -155,3 +155,11 @@ svea64
 
 gotaa65 to page 174
 
+## What do I want to show at CBS?
+
+1. Basic intro to the electricity paper.
+
+
+
+What do I think is cool?
+ChatGPT is both the thing that helps me code, and the thing which does the NLP - really amazing!

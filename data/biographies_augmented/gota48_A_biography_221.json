@@ -1,0 +1,139 @@
+{
+    "original": "Andreen, Ragnar Emil Andreas, bankdirektör, Finspång, f. 22/6/89 i Norrköp. av Johannes Andrén o. Alma Andorff. G. m. Greta Janzon. Barn: Dagmar, g. m. disp. Rolf Frö-iberg i A-B John Fröbierg, Finisipång, Margit, g. m. köpm. Bror Christo^f-fers’son, Sthlm. — Amst. i Ö^ster-göt’1. Ensk. Bank 04-17, kassör i A-B Sv. Lantmännens Bank i Norrköp. 17-20, intr. i styr. f. Norrköp. Ensk. Bank i Finspång 20, kont:fö-rest. o. kamr. s. å., tjg.-förordn. v. huv:kont. i Linköp. 27, kamr. i Tranås 27-29, åter i styr. f. kont. i Finspång samt verkst. dir. där sed. 29.",
+    "translated": "Andreen, Ragnar Emil Andreas, bank director, Finspång, b. June 22, 1889 in Norrköping to Johannes Andrén and Alma Andorff. Married to Greta Janzon. Children: Dagmar, married to manager Rolf Frö-iberg in A-B John Fröbierg, Finspång, Margit, married to merchant Bror Christoffersson, Stockholm. Worked in Östergötland. Worked as cashier at Enskilda Bank from 1904-1917, cashier at A-B Svenska Lantmännens Bank in Norrköping 1917-1920, joined board of Norrköpings Enskilda Bank in Finspång in 1920, appointed as accountant the same year, temporary assignment at head office in Linköping in 1927, accountant in Tranås from 1927-1929, returned to board of bank in Finspång and became executive director there in 1929.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ragnar Emil Andreas Andreen",
+        "birthDate": "1889-06-22",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Norrköping",
+            "latitude": 58.5909124,
+            "longitude": 16.1903511
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johannes Andrén"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Andorff"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Janzon"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Dagmar",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Rolf Frö-iberg",
+                    "jobTitle": "Manager"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Margit",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Bror Christoffersson",
+                    "jobTitle": "Merchant",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm"
+                    }
+                }
+            }
+        ],
+        "jobTitle": "Bank Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Finspång"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Norrköpings Enskilda Bank",
+                "startDate": "1920",
+                "endDate": "1929",
+                "jobTitle": "Accountant"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Svenska Lantmännens Bank",
+                "startDate": "1917",
+                "endDate": "1920",
+                "jobTitle": "Cashier"
+            },
+            {
+                "@type": "Organization",
+                "name": "Enskilda Bank",
+                "startDate": "1904",
+                "endDate": "1917",
+                "jobTitle": "Cashier"
+            }
+        ],
+        "jobStartDate": "1920",
+        "jobEndDate": null,
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Finspång",
+            "jobTitle": "Executive Director"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Accountant",
+                "startDate": "1927",
+                "endDate": "1929",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Tranås"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary Assignment",
+                "startDate": "1927",
+                "endDate": null,
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Linköping"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Cashier",
+                "startDate": "1917",
+                "endDate": "1920",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "A-B Svenska Lantmännens Bank",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Norrköping"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Cashier",
+                "startDate": "1904",
+                "endDate": "1917",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Enskilda Bank",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Östergötland"
+                    }
+                }
+            }
+        ]
+    }
+}

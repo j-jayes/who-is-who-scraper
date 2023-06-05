@@ -1,0 +1,81 @@
+{
+    "original": "Annerstedt, Lars Edvin, stadsingenjör, civilingenjör SVR, Falköping, f. 10/1/18 i Kalmar av sjökapt. Edvin Nilsson o. Ella Annerstedt. G. 44 ni. Ruth Ahlquist. Barn: Jan f. 45. — Stud:ex. i Gbg 38, civ:ing:ex. v. CTH 43. Anst. v. Västerviks stads byggn:-kont. 43, stadsing. i Falköping sed. 46.",
+    "translated": "Annerstedt, Lars Edvin, city engineer, SVR civil engineer, Falköping, b. January 10, 1918 in Kalmar to sea captain Edvin Nilsson and Ella Annerstedt. Married in 1944 to Ruth Ahlquist. Children: Jan (born 1945). Completed high school in Gothenburg in 1938, earned a civil engineering degree from Chalmers University of Technology in 1943. Employed in Västervik's city building office in 1943 and has been a city engineer in Falköping since 1946.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Lars Edvin Annerstedt",
+        "birthDate": "1918-01-10",
+        "birthPlace": {
+            "name": "Kalmar, Sweden",
+            "latitude": 57.02784235,
+            "longitude": 16.575102000807693
+        },
+        "nationality": "Swedish",
+        "jobTitle": "City Engineer",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationLevel": "High School",
+                "educationalLevel": "secondary"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Civ:ing:ex.",
+                "educationLevel": "Civil Engineering Degree",
+                "educationalLevel": "undergraduate"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Edvin Nilsson",
+                "jobTitle": "Sea Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Ella Annerstedt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Ahlquist",
+            "marriageDate": "1944"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Jan Annerstedt",
+            "birthDate": "1945"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Sveriges Väg- och Vattenbyggare Riksförbund (SVR)",
+                "url": "https://www.svrvv.se/"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Falköping Municipality",
+            "url": "https://www.falkoping.se/"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Västervik Municipality",
+                "jobTitle": "City Building Office Employee",
+                "startDate": "1943",
+                "endDate": "1946",
+                "url": "https://www.vastervik.se/"
+            },
+            {
+                "@type": "Organization",
+                "name": "Falköping Municipality",
+                "jobTitle": "City Engineer",
+                "startDate": "1946",
+                "url": "https://www.falkoping.se/"
+            }
+        ]
+    }
+}

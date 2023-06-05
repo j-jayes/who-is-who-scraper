@@ -1,0 +1,48 @@
+{
+    "original": "Berg, Otto Vendel, kanslichef, Gö-töborg, f. 28/4/88 i Bäcke, Älvsb. 1., av Lars W. B. o. Ma B. G. 16 m. Hulda Karlsson. Barn: Ingrid Teresa f. 19. — Anst. v. SJ 16, kanslichef fr. 39. Styr :led. i Gbgs sparb.",
+    "translated": "Berg, Otto Vendel, office manager, Gothenburg, born on April 28th, 1888 in Bäcke, Älvsborgs län. Son of Lars W.B. and Ma B.G. Married to Hulda Karlsson in 1916. Children: Ingrid Teresa, born in 1919. Employed by SJ (Swedish Railways) since 1916, became office manager in 1939. Board member of Gothenburg Savings Bank.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Otto Vendel Berg\",\n  \"birthDate\": \"1888-04-28\",\n  \"birthPlace\": \"Bäcke, Älvsborgs län\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars W.B. Berg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ma B.G.\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hulda Karlsson\",\n    \"marriageDate\": \"1916\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Teresa\",\n      \"birthDate\": \"1919\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Railways\",\n    \"startDate\": \"1916\"\n  },\n  \"jobTitle\": \"Office Manager\",\n  \"startDate\": \"1939\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Savings Bank\",\n      \"position\": \"Board Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Otto Vendel Berg",
+        "birthDate": "1888-04-28",
+        "birthPlace": "Bäcke, Älvsborgs län",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Lars W.B. Berg"
+            },
+            {
+                "@type": "Person",
+                "name": "Ma B.G."
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hulda Karlsson",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingrid Teresa",
+                "birthDate": "1919"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish Railways",
+            "startDate": "1916"
+        },
+        "jobTitle": "Office Manager",
+        "startDate": "1939",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Savings Bank",
+                "position": "Board Member"
+            }
+        ]
+    }
+}

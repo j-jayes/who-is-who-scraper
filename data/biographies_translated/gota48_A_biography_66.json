@@ -1,0 +1,131 @@
+{
+    "original": "Ahlstedt, Ernst Harald, landsfiskal, Västervik, f. 23/8/85 i Kalmar av köpm. August A. o. Jenny Runnquist. G. 15 m. Karin Johansson. Barm Ivar f. 16, förf., Sthlm, Marianne 20, g. m. ing. Brunn, Sthlm, Leif 32, stud. — Genomg. 7 kl. allm. lärov., lands-fiskalsex. 10. E. o. landskanslist i Kalmar 1. 05-10, ord. dito 10-12, landsfiskal i Äkerbo landsfisikalsidistr. 12-24, dito i Hjorteds distr. sed. 24. Ordf. i taxindr ett flert. år. RVO 47.",
+    "translated": "Ahlstedt, Ernst Harald, district prosecutor, Västervik, born on August 23, 1885 in Kalmar to merchants August A. and Jenny Runnquist. Married to Karin Johansson for 15 years. Father of Ivar, born in 1916, an author in Stockholm, Marianne, age 20, married to an engineer in Brunn, Stockholm, and Leif, age 32, a student. Completed 7 grades in general education and 10 years in district prosecutor training. Worked as Assistant District Prosecutor in Kalmar from 1905 to 1910 and as an Ordinary District Prosecutor from 1910 to 1912. Served as district prosecutor in Äkerbo from 1912 to 1924, and then in Hjorteds. Chairman of the tax commission for several years. Awarded the Order of Vasa in 1947.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Harald Ahlstedt\",\n  \"birthDate\": \"1885-08-23\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kalmar\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August A. Ahlstedt\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jenny Runnquist\",\n      \"jobTitle\": \"Merchant\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Johansson\",\n    \"marriageDate\": \"15 years\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ivar Ahlstedt\",\n      \"birthDate\": \"1916-01-01\",\n      \"jobTitle\": \"Author\",\n      \"birthPlace\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Ahlstedt\",\n      \"birthDate\": \"Unknown\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Engineer\",\n        \"jobTitle\": \"Engineer\",\n        \"location\": {\n          \"@type\": \"Place\",\n          \"name\": \"Brunn, Stockholm\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif Ahlstedt\",\n      \"birthDate\": \"Unknown\",\n      \"jobTitle\": \"Student\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"name\": \"7 grades in general education\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"name\": \"10 years in district prosecutor training\"\n    }\n  ],\n  \"jobTitle\": \"District Prosecutor\",\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Västervik\"\n  },\n  \"workHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1905-01-01\",\n      \"endDate\": \"1910-01-01\",\n      \"roleName\": \"Assistant District Prosecutor\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1910-01-01\",\n      \"endDate\": \"1912-01-01\",\n      \"roleName\": \"Ordinary District Prosecutor\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1912-01-01\",\n      \"endDate\": \"1924-01-01\",\n      \"roleName\": \"District Prosecutor\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Äkerbo\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924-01-01\",\n      \"roleName\": \"District Prosecutor\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hjorteds\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tax Commission\",\n      \"memberRole\": \"Chairman\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of Vasa\",\n      \"dateAwarded\": \"1947-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Ernst Harald Ahlstedt",
+        "birthDate": "1885-08-23",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kalmar"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "August A. Ahlstedt",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Jenny Runnquist",
+                "jobTitle": "Merchant"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Johansson",
+            "marriageDate": "15 years"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ivar Ahlstedt",
+                "birthDate": "1916-01-01",
+                "jobTitle": "Author",
+                "birthPlace": "Stockholm"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Ahlstedt",
+                "birthDate": "Unknown",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Engineer",
+                    "jobTitle": "Engineer",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Brunn, Stockholm"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Leif Ahlstedt",
+                "birthDate": "Unknown",
+                "jobTitle": "Student"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "name": "7 grades in general education"
+            },
+            {
+                "@type": "EducationEvent",
+                "name": "10 years in district prosecutor training"
+            }
+        ],
+        "jobTitle": "District Prosecutor",
+        "workLocation": {
+            "@type": "Place",
+            "name": "Västervik"
+        },
+        "workHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1905-01-01",
+                "endDate": "1910-01-01",
+                "roleName": "Assistant District Prosecutor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Kalmar"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1910-01-01",
+                "endDate": "1912-01-01",
+                "roleName": "Ordinary District Prosecutor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Kalmar"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1912-01-01",
+                "endDate": "1924-01-01",
+                "roleName": "District Prosecutor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Äkerbo"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924-01-01",
+                "roleName": "District Prosecutor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Hjorteds"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Tax Commission",
+                "memberRole": "Chairman"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Order of Vasa",
+                "dateAwarded": "1947-01-01"
+            }
+        ]
+    }
+}

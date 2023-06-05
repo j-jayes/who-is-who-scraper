@@ -1,0 +1,108 @@
+{
+    "original": "Alström, Börje Samuel, folkskollärare, Falköping, f. 3/9/83’ i V. Gerum, Skarab. 1., av kvarn- o. sågv:äg. Al-frid A. o. Mathilda Carlén. G. 21 m. Carin Jo’hansson. Barn: Marianne f. 24, Tore 28. — Folkskoll :ex. i Strängnäs 12. Vik. folkskoll. i Floby 12, folkskoll. i Gränna 13-14, i Falköp. fr. 14. Ordf. i styr. f. Falköp. stadsbibi. sed. 26, styr:,led. i SvRK:krets., dess kassaförv. 21-38, sekr. i sällsk. Falköp. jultomtar fr. 31, i styr. f. arbetsstugan fr. 33, led. av styr. f. barnkol. SvRK ftj:SM.",
+    "translated": "Alström, Börje Samuel, primary school teacher, from Falköping. Born on September 3, 1883 in V. Gerum, Skaraborg County. Firstborn son of mill and sawmill owner Al-frid A. and Mathilda Carlén. Married to Carin Johansson in 1921. They had two children, Marianne (born in 1924) and Tore (born in 1928). Börje Alström passed his primary school teacher exam in Strängnäs in 1912. He worked as a substitute teacher in Floby in 1912, primary school teacher in Gränna from 1913-1914, and then moved to Falköping where he worked as a primary school teacher from 1914 onward. He served as the chair of the board for the Falköping city library from 1926, board member of the Swedish Red Cross circle, and treasurer from 1921-1938. He was also the secretary of the Falköping Santa Claus Society from 1931 and a board member of the working cottage from 1933. He was a board member of the children's colony of the Swedish Red Cross in Jämtland County.",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Börje Samuel Alström",
+        "birthDate": "1883-09-03",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "V. Gerum, Skaraborg County"
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Primary school teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Falköping"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Al-frid A."
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Carlén"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Carin Johansson",
+            "marriageDate": "1921"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Marianne Alström",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Tore Alström",
+                "birthDate": "1928"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Strängnäs",
+                "eduType": "Primary school teacher exam",
+                "endDate": "1912"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Red Cross",
+                "description": "board member of the Swedish Red Cross circle.",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "SvRK:krets",
+                    "description": "led the treasury from 1921-1938"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Falköping city library",
+                "description": "chair of the board for the Falköping city library from 1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Falköping Santa Claus Society",
+                "description": "secretary of the Falköping Santa Claus Society from 1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Working cottage",
+                "description": "board member of the working cottage from 1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "Children's colony of the Swedish Red Cross in Jämtland County",
+                "description": "board member of the children's colony of the Swedish Red Cross in Jämtland County."
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Floby",
+                "jobTitle": "Substitute teacher",
+                "startDate": "1912"
+            },
+            {
+                "@type": "Place",
+                "name": "Gränna",
+                "jobTitle": "Primary school teacher",
+                "startDate": "1913",
+                "endDate": "1914"
+            },
+            {
+                "@type": "Place",
+                "name": "Falköping",
+                "jobTitle": "Primary school teacher",
+                "startDate": "1914"
+            }
+        ]
+    }
+}

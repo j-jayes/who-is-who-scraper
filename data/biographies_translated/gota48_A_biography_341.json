@@ -1,0 +1,52 @@
+{
+    "original": "Axelson, Karl Axel Olof, distriktsveterinär, Hemse, f. 13/9/05 i Stoby, Krist. 1. G. 43 m. Ulla Ringberg. Barn: Lena f. 45. — Studrex. i Örebro 26, veterinärex. 33. Resa t. Finl. 40. Konsul, i medicrstyr. 41-43, di-str :veterinär i Hemse sed. 43. FFrK-4kl m sv.",
+    "translated": "Axelson, Karl Axel Olof, district veterinarian, Hemse, b. 13/9/05 in Stoby, Krist. 1. Married in 1943 to Ulla Ringberg. Children: Lena b. 1945. Studied at the University of Örebro in 1926, graduated with a degree in veterinary science in 1933. Travelled to Finland in 1940. Worked as a consul in the medical corps from 1941-1943, and has been a district veterinarian in Hemse since 1943. Awarded the Order of the Polar Star, 4th Class with a Swedish insignia.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Axel Olof Axelson",
+        "birthDate": "1905-09-13",
+        "birthPlace": "Stoby, Krist.",
+        "jobTitle": "District Veterinarian",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hemse"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ulla Ringberg",
+            "marriageDate": "1943"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Lena Axelson",
+            "birthDate": "1945"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Örebro",
+            "startDate": "1926",
+            "endDate": "1933"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Medical Corps",
+                "startDate": "1941",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "District of Hemse",
+                "startDate": "1943"
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "Order of the Polar Star",
+            "awardDate": "unknown",
+            "category": "4th Class",
+            "description": "with a Swedish insignia"
+        }
+    }
+}

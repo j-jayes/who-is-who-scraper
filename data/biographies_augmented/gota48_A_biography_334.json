@@ -1,0 +1,83 @@
+{
+    "original": "Axell, Folke Adolf, civilingenjör, Norrköping, f. 4/12/08 i Ljusnarsberg, Örebro 1. G. 36 m. Marianne Hammarberg. Barn: Anita f. 37, Peter 42. — Avg:ex. fr. tekn. gymn. i Örebro 28, civ:ing:ex. v. KTH 34. Ing:assist. v. telegr :v. i Nässjö 35, linjeing. v. te-legr :v. i Norrköp. sed. 46. Led. av Sv. tekn :fören. sed. 35.",
+    "translated": "Axell, Folke Adolf, engineer, from Norrköping, born on December 4th, 1908 in Ljusnarsberg, Örebro 1. Married in 1936 to Marianne Hammarberg. Children: Anita born in 1937, Peter born in 1942. He graduated from the Technical Gymnasium in Örebro in 1928, received his engineering degree from KTH in 1934. Worked as an engineering assistant at the telegraph station in Nässjö in 1935, and as a line engineer at the telegraph station in Norrköping since 1946. Member of the Swedish Technical Association since 1935.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Adolf Axell",
+        "birthDate": "1908-12-04",
+        "birthPlace": {
+            "name": "Ljusnarsberg, Örebro",
+            "latitude": 59.916667,
+            "longitude": 15.0
+        },
+        "jobTitle": "Engineer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Technical Association"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anita",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter",
+                "birthDate": "1942"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Marianne Hammarberg",
+            "marriageDate": "1936"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Vocational",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Technical Gymnasium in Örebro"
+                },
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "KTH"
+                },
+                "endDate": "1934"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Telegraph station in Norrköping",
+            "startDate": "1946"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Engineering assistant",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Telegraph station in Nässjö"
+                },
+                "startDate": "1935",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Line engineer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Telegraph station in Norrköping"
+                },
+                "startDate": "1946"
+            }
+        ]
+    }
+}

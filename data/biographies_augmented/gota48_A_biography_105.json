@@ -1,0 +1,77 @@
+{
+    "original": "Alm, Folke, musikdirektör, Varberg, f. 19/10/17 i Karlskrona av musikdir. Oscar A. o. Sigrid Lindqvist. G. 44 m. Märit Bohm. Barn: Peter f. 46. — Realex. i Karlskrona 33, elev v. musikhögsk. 39-43, h. organistex. 42, h. kantorsex. 42, musiklär :ex. 43, stud. kontrapunkt f. prof. H. M. Melchers, priv. stud. i orgel o. piano f. Alf Linder o. Algot Haquinius. Musikled. v. Iggesunds Bruk 44-45, kyrkomusiker i Varbergs förs. sed. 45. PianosoHst v. konserter anordn. av Karlskrona or-kesterfören. 43, 45 o. 46., P. A. Bergs jeton i orgelspeln. 42.",
+    "translated": "Alm, Folke, music director, Varberg, born October 19th, 1917 in Karlskrona to music director Oscar A. and Sigrid Lindqvist. Married to Märit Bohm in 1944 with one child, Peter born in 1946. Completed Realexamen in Karlskrona in 1933, was a student at the music conservatory from 1939-1943, and completed his higher organist and cantor examinations in 1942, as well as his music teacher examination in 1943. Studied counterpoint under Professor H. M. Melchers and took private lessons for organ and piano from Alf Linder and Algot Haquinius. Worked as a music director for Iggesunds Bruk from 1944-1945 and has been a church musician in Varberg since 1945. Played piano for concerts organized by the Karlskrona orchestra association in 1943, 1945 and 1946 and was awarded the P. A. Berg's medal for his organ playing in 1942.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Folke Alm",
+        "birthDate": "1917-10-19",
+        "birthPlace": {
+            "name": "Karlskrona",
+            "latitude": 56.1621073,
+            "longitude": 15.5866422
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Music Director",
+        "memberOf": [
+            {
+                "@type": "MusicGroup",
+                "name": "Karlskrona Orchestra Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Iggesunds Bruk"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Realexamen",
+                "issuer": "Karlskrona"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Higher Organist Examination",
+                "issuer": "Unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Higher Cantor Examination",
+                "issuer": "Unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Music Teacher Examination",
+                "issuer": "Unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Counterpoint",
+                "issuer": "Professor H. M. Melchers"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märit Bohm"
+        },
+        "child": {
+            "@type": "Person",
+            "name": "Peter Alm",
+            "birthDate": "1946"
+        },
+        "performerIn": [
+            {
+                "@type": "MusicEvent",
+                "name": "Piano Concerts by Karlskrona Orchestra Association",
+                "startDate": "1943-01-01",
+                "endDate": "1946-12-31"
+            }
+        ],
+        "award": {
+            "@type": "Award",
+            "name": "P. A. Berg's Medal",
+            "description": "For Organ Playing",
+            "year": "1942"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "original": "Adolfson, Berndt Emiil Artur, komminister, Nydalakloster, f. 13/8/11 i S:t Sigfrid, Kalmar 1., av Emil A. o. Sofia Petersdotter. G. 40 m. Rut Nore. Barå: Christer f. 41, Heiena 44, Samudl 46. — Stud :ex. i Lund 34, teol fil. ex. där 35, teol. kand., prakt. teol. prov o. prästv. f. Växjö ’Stift 40. Paist:-adj. i Kristina för^siaml. i Jönköp. 40, pastorsadj. i Lenhovda 41, ikommin. i Nydala ^sed. 45.",
+    "translated": "Adolfson, Berndt Emil Artur, minister, Nydalakloster, born on August 13th, 1911 in St. Sigfrid, Kalmar 1., to Emil A. and Sofia Petersdotter. Married to Rut Nore in 1940. Children: Christer born in 1941, Heiena in 1944, and Samudl in 1946. He studied in Lund and received his theological degree in 1935. He was ordained as a priest in Växjö Diocese in 1940 after passing his practical theological exam. He worked as a pastor's assistant in Kristina for some time and in Lenhovda as well. He became the minister of Nydala in 1945.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Berndt Emil Artur Adolfson",
+        "birthDate": "1911-08-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "St. Sigfrid",
+            "addressRegion": "Kalmar 1.",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Emil A. Adolfson"
+            },
+            {
+                "@type": "Person",
+                "name": "Sofia Petersdotter"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Rut Nore",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christer",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Heiena",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Samudl",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud: ex. i Lund",
+                "alumniOf": "Lund University",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol fil. ex. där",
+                "alumniOf": "Lund University",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Prakt. teol. prov o. prästv.",
+                "endDate": "1940"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Paist:-adj. i Kristina för^siaml. i Jönköp.",
+                "startDate": "1940",
+                "endDate": "1941",
+                "memberOf": "Kristina Diocese"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Pastorsadj. i Lenhovda",
+                "startDate": "1941",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Komminister",
+                "startDate": "1945",
+                "memberOf": "Nydala Diocese"
+            }
+        ]
+    }
+}

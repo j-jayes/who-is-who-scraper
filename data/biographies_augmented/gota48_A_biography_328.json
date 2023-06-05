@@ -1,0 +1,112 @@
+{
+    "original": "Atterfelt, Ester Fanny, tandläkare, Göteborg, f. 2/7/01 i Sthlm av köpm. Marcus Asarnoj o. Sonja Tuch. G. 27-40 m. tiandd. Albert Atterfelt. Barn : Siv f. 30, Paula Birgit 37. — Stud:ex. v. Södermalms h. läroanst. f. fl. i Sthlm 21, tandl :kand. 23, tandl. 26. Vik. i Säffle 26-27, prakt, i Sthlm 27, vik. skoltandl. i Sthlm 27-28, skoltandl. v. Gbgs folksk. sed. 28.",
+    "translated": "Atterfelt, Ester Fanny, dentist, Gothenburg, born July 2, 1901 in Stockholm to merchant Marcus Asarnoj and Sonja Tuch. Married from 1927 to 1940 to dentist Albert Atterfelt. Children: Siv born 1930, Paula Birgit born 1937. Completed high school at Södermalms h. läroanst. in Stockholm in 1921, earned a degree in dentistry in 1923, and completed dental studies in 1926. Worked temporarily in Säffle from 1926 to 1927, practiced in Stockholm in 1927, worked as a school dentist in Stockholm from 1927 to 1928, and has been a school dentist at Gothenburg's primary schools since 1928.",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Ester Fanny Atterfelt",
+        "jobTitle": "Dentist",
+        "birthDate": "1901-07-02",
+        "birthPlace": {
+            "name": "Stockholm",
+            "latitude": 59.3251172,
+            "longitude": 18.0710935
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Marcus Asarnoj",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Sonja Tuch"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Albert Atterfelt",
+                "jobTitle": "Dentist",
+                "startDate": "1927",
+                "endDate": "1940"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Siv Atterfelt",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Paula Birgit Atterfelt",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High school",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Södermalms h. läroanst."
+                },
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl:kand.",
+                "educationalLevel": "Bachelor's degree",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl.",
+                "educationalLevel": "Dental degree",
+                "endDate": "1926"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1926",
+                "endDate": "1927",
+                "roleName": "Temporary dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Säffle"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "roleName": "Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": "1928",
+                "roleName": "School dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Stockholm's Primary Schools"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "roleName": "School dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Primary Schools"
+                }
+            }
+        ]
+    }
+}

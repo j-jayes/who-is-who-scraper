@@ -1,0 +1,78 @@
+{
+    "original": "Andersson, Tage A»lbin, tandläkare, Skövde, f. 25/7/06 i Lidköp. av bok-handl. Albin A. o. Mary Molander. ’ G. 36 m. tandl. Lily Hommerberg. Barn: Thomas f. 38, Mats 44, Berit 45. — Stud :ex. i Skara 25, tandl :kand. 27, tandläkare 30. Praktik i Skövde sed. 31.",
+    "translated": "Andersson, Tage Albin, dentist, Skövde, born July 25th, 1906 in Lidköp, to bookseller Albin A. and Mary Molander. Married in 1936 to dentist Lily Hommerberg, with children Thomas (born 1938), Mats (born 1944), and Berit (born 1945). Completed his student exam in Skara in 1925, dental degree in 1927, and became a licensed dentist in 1930. Started practicing in Skövde in 1931.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tage Albin Andersson",
+        "birthDate": "1906-07-25",
+        "birthPlace": "Lidköp",
+        "nationality": "Swedish",
+        "occupation": "dentist",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "examination",
+                "educationalLevel": "student exam",
+                "institution": "Skara",
+                "dateEarned": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "dental",
+                "institution": null,
+                "dateEarned": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "license",
+                "educationalLevel": null,
+                "institution": null,
+                "dateEarned": "1930"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lily Hommerberg",
+            "occupation": "dentist",
+            "dateMarried": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Thomas Andersson",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Mats Andersson",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Berit Andersson",
+                "birthDate": "1945"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Albin A. Andersson",
+                "occupation": "bookseller"
+            },
+            {
+                "@type": "Person",
+                "name": "Mary Molander"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skövde"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Association"
+        }
+    }
+}

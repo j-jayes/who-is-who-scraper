@@ -1,0 +1,68 @@
+{
+    "original": "Ahlstrand, Isak Anton Ragnar, kassör, Halmstad, f. 5/12/00 i Karlskrona av Alfred A. o. Tekla Ahl-strand-Hjortsberg. G. 32 m. Gudrun Frick. Barm Krister f. 43. — Tekn. :sk. 20, handisk. 24. Anst. i Skand. Banken 25-30, kassör i Östra Bryggeri A-B i Halmstad S’ed. 30. Medl. av Frimurarorden.",
+    "translated": "Ahlstrand, Isak Anton Ragnar, treasurer, Halmstad, b. 5/12/00 in Karlskrona to Alfred A. and Tekla Ahlstrand-Hjortsberg. Married in 1932 to Gudrun Frick. Son Krister born in 1943. Technical school 1920, commercial school 1924. Employed in Skand. Banken from 1925-1930, treasurer in Östra Bryggeri A-B in Halmstad since 1930. Member of the Freemason order.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Isak Anton Ragnar Ahlstrand\",\n  \"jobTitle\": \"Treasurer\",\n  \"birthPlace\": \"Karlskrona\",\n  \"birthDate\": \"1900-12-05\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alfred A. Ahlstrand\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tekla Ahlstrand-Hjortsberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gudrun Frick\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Krister Ahlstrand\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Technical School\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Commercial School\",\n      \"endDate\": \"1924\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Frimurarorden\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Östra Bryggeri A-B\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skand. Banken\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östra Bryggeri A-B\",\n      \"startDate\": \"1930\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Isak Anton Ragnar Ahlstrand",
+        "jobTitle": "Treasurer",
+        "birthPlace": "Karlskrona",
+        "birthDate": "1900-12-05",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Alfred A. Ahlstrand"
+            },
+            {
+                "@type": "Person",
+                "name": "Tekla Ahlstrand-Hjortsberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gudrun Frick",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Krister Ahlstrand",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Technical School",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Commercial School",
+                "endDate": "1924"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Frimurarorden"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Östra Bryggeri A-B"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Skand. Banken",
+                "startDate": "1925",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östra Bryggeri A-B",
+                "startDate": "1930"
+            }
+        ]
+    }
+}

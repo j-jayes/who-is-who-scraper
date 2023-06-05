@@ -1,0 +1,121 @@
+{
+    "original": "Albåge, John Severin, kyrkoherde. Horn, Väring, f. 23/10/89 i Österplana, Skarab. 1. G. 25 m. diakonissan Anna Elvira Lundqvist. Barn: Roland f. 25, Lars-Gunnar 28. — Studrex. i Upps. 13, teol. fil. -ex. 15, teol. kand. 18, prakt. teol. pr. o. prästv. ’S. å. Res. i Tyskl., Frankr., Estl. Kyrko-adj. i Tidaholm 18, i ULriceh. 19, i Borås 20-21, kommin. i Tidah. 21-30, kyrkoherde i Horns past. fr. 30. Ordf. i past. kyrkost., i Tidah. b ar nav :nd 26-30. Skr.: upps. i istiift. julbok o. V ä st gö t a u ngd. j u Ib ok.",
+    "translated": "Albåge, John Severin, pastor. Born on October 23, 1889 in Österplana, Skaraborg province. Married for the first time on May 25 to deaconess Anna Elvira Lundqvist. Children: Roland, born in 1925, and Lars-Gunnar, born in 1928. He studied in Uppsala, receiving a Bachelor of Arts in 1913, Bachelor of Theology in 1915, and a Master's degree in theology in 1918. He completed his practical theological training and was ordained as a minister in the same year. He traveled in Germany, France, and Estonia. He was a church officer in Tidaholm in 1918 and in Ulricehamn in 1919. He held the same position from 1920 to 1921 in Borås. He served as a curate in Tidaholm from 1921 to 1930, and was appointed as the pastor of Horn's parish from 1930. He was chairman of the parish church council, and chairman of the school board in Tidaholm from 1926 to 1930. He wrote in the annual Christmas book of the diocese and the Västgöta youth Christmas book.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Severin Albåge\",\n  \"birthDate\": \"1889-10-23\",\n  \"birthPlace\": \"Österplana, Skaraborg province\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Elvira Lundqvist\",\n    \"jobTitle\": \"Deaconess\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Roland Albåge\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Gunnar Albåge\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Bachelor's degree\",\n    \"hasCredential\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"name\": \"Bachelor of Theology\",\n      \"dateReceived\": \"1915\"\n    },\n    \"name\": \"Bachelor of Arts\",\n    \"dateReceived\": \"1913\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala, Sweden\"\n    }\n  ],\n  \"training\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master's degree\",\n      \"dateReceived\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ordained as a minister\",\n      \"dateReceived\": \"1918\"\n    }\n  ],\n  \"travelledTo\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Germany\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"France\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Estonia\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Church officer\",\n    \"Curate\",\n    \"Kyrkoherde (Pastor)\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Horns parish\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tidaholm church council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tidaholm school board\"\n    }\n  ],\n  \"currentJob\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Horns parish\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tidaholm church council\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tidaholm school board\",\n      \"position\": \"Chairman\"\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"PublicationEvent\",\n      \"name\": \"Annual Christmas book of the diocese\",\n      \"location\": \"Uppsala, Sweden\"\n    },\n    {\n      \"@type\": \"PublicationEvent\",\n      \"name\": \"Västgöta youth Christmas book\",\n      \"location\": \"Västergötland, Sweden\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Severin Albåge",
+        "birthDate": "1889-10-23",
+        "birthPlace": "Österplana, Skaraborg province",
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Elvira Lundqvist",
+            "jobTitle": "Deaconess"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Roland Albåge",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars-Gunnar Albåge",
+                "birthDate": "1928"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Bachelor's degree",
+            "hasCredential": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "name": "Bachelor of Theology",
+                "dateReceived": "1915"
+            },
+            "name": "Bachelor of Arts",
+            "dateReceived": "1913"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "location": "Uppsala, Sweden"
+            }
+        ],
+        "training": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master's degree",
+                "dateReceived": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ordained as a minister",
+                "dateReceived": "1918"
+            }
+        ],
+        "travelledTo": [
+            {
+                "@type": "Place",
+                "name": "Germany"
+            },
+            {
+                "@type": "Place",
+                "name": "France"
+            },
+            {
+                "@type": "Place",
+                "name": "Estonia"
+            }
+        ],
+        "jobTitle": [
+            "Church officer",
+            "Curate",
+            "Kyrkoherde (Pastor)"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Horns parish"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tidaholm church council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tidaholm school board"
+            }
+        ],
+        "currentJob": {
+            "@type": "Organization",
+            "name": "Horns parish"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Tidaholm church council",
+                "position": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tidaholm school board",
+                "position": "Chairman"
+            }
+        ],
+        "publication": [
+            {
+                "@type": "PublicationEvent",
+                "name": "Annual Christmas book of the diocese",
+                "location": "Uppsala, Sweden"
+            },
+            {
+                "@type": "PublicationEvent",
+                "name": "Västgöta youth Christmas book",
+                "location": "Västergötland, Sweden"
+            }
+        ]
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "original": "Axelson, Nils Erik Axel, ’lämsasis-es- j s-or, Göteboirg, f. 8/10/04 i Brågarp, Malmöh. 1. G. 33 m. skolkökslär. Ruth Margareta Jaco’bsson. Barn: Mette £. 38, Bengt 43. — Stud:ex. i Lund 22, jur. kand. 27. Tjg. i Norrvikens doms. 27-30. Länsnot. v. läns styr, d Gbg 30, läns assessor fr. 47.",
+    "translated": "Axelson, Nils Erik Axel, 'lämsasis-es-j s-or, Gothenburg, born on October 8th, 1904 in Brågarp, Malmöhus. Married once, for 33 years, to school kitchen teacher Ruth Margareta Jacobsson. Children: Mette born in 1938, Bengt in 1943. He passed his high school exams in Lund in 1922 and then graduated with a law degree in 1927. He worked as a lawyer in Norrviken from 1927 to 1930, and then in the county government for West Gothia from 1930. He worked as a county assessor from 1947.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Erik Axel Axelson",
+        "birthDate": "1904-10-08",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Brågarp",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Malmöhus"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Margareta Jacobsson",
+            "jobTitle": "School Kitchen Teacher"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Mette",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Exams",
+                "educationLevel": "High School",
+                "dateReceived": "1922",
+                "educationalLevel": "SecondaryEducation"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Law Degree",
+                "educationLevel": "Bachelor's Degree",
+                "dateReceived": "1927",
+                "educationalLevel": "higherEducation"
+            }
+        ],
+        "jobTitle": "County Assessor",
+        "affiliation": [
+            {
+                "@type": "GovernmentOrganization",
+                "name": "West Gothia County Government",
+                "jobTitle": "County Government Position",
+                "startDate": "1930"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "GovernmentBuilding",
+                "name": "Norrviken Doms",
+                "jobTitle": "Lawyer",
+                "startDate": "1927",
+                "endDate": "1930"
+            }
+        ]
+    }
+}

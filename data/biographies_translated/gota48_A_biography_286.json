@@ -1,0 +1,44 @@
+{
+    "original": "Aronsson, Kari Valter, tandläkare, Vårgårda, f. 9/3/00 i Södra Härene, Älvsb. 1. — Stud:ex. i Sthlm 22, tand-l:kand. 36, tandläkare 28. Praktik i Norrköp. 38-30, i Vårgårda sed. 30.",
+    "translated": "Aronsson, Kari Valter, dentist, Vårgårda, born March 9, 1900 in Södra Härene, Älvsborg County. Graduated from high school in Stockholm in 1922. Completed dental studies in 1936 and became a licensed dentist in 1928. Practiced in Norrköping from 1938 to 1930, and in Vårgårda since then.",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Kari Valter Aronsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1900-03-09",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Södra Härene",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborg County"
+            }
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "High School",
+            "dateIssued": "1922",
+            "issuedBy": "Stockholm"
+        },
+        "medicalSpecialty": "Dentistry",
+        "license": {
+            "@type": "MedicalLicense",
+            "issuedBy": "Sweden",
+            "validThrough": "1928"
+        },
+        "workLocation": [
+            {
+                "@type": "City",
+                "name": "Norrköping",
+                "startDate": "1938",
+                "endDate": "1930"
+            },
+            {
+                "@type": "City",
+                "name": "Vårgårda",
+                "startDate": "1930"
+            }
+        ]
+    }
+}

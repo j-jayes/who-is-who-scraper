@@ -1,0 +1,86 @@
+{
+    "original": "Arborelius, Ingeborg Nataha, tandläkare, Halmstad, f. 10/10/95 i Nyköp. av köpm. Berndt Carlsson o. Natalia Nordhng (antag, namnet Berndt). G. 23 m. las.-läk. Måns Arborelius. Barn: Kerstin f. 24, Inga 25, Måns 28, Märta 32. — Stud:ex. v. Whitlockska samsk. i Sthlm 15, med. kand. v. Karol. inst. 19, tandl. 31.",
+    "translated": "Arborelius, Ingeborg Natasha, dentist, Halmstad, b. 10/10/95 in Nyköping, daughter of merchant Berndt Carlsson and Natalia Nordhng (presumably the name Berndt). Married to medical doctor Måns Arborelius on the 23rd of March (year unknown). Children: Kerstin b. 1924, Inga b. 1925, Måns b. 1928, Märta b. 1932. \n\nEducation and qualifications: Graduated from Whitlock's Private School in Stockholm in 1915, received Bachelor of Medicine degree from Karolinska Institute in 1919, and became a dentist in 1931.",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ingeborg Natasha Arborelius",
+        "jobTitle": "Dentist",
+        "birthPlace": {
+            "name": "Nyköping",
+            "latitude": 58.7545409,
+            "longitude": 17.0120656
+        },
+        "birthDate": "1895-10-10",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Berndt Carlsson",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Natalia Nordhng",
+                "jobTitle": "Unknown"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Måns Arborelius",
+            "jobTitle": "Medical Doctor"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Arborelius",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga Arborelius",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Måns Arborelius",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Märta Arborelius",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "highSchoolDiploma",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Whitlock's Private School",
+                    "location": "Stockholm"
+                },
+                "endDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelorDegree",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Karolinska Institute"
+                },
+                "endDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "professionalCredential",
+                "credentialAwarded": "Dentist",
+                "awardingOrganization": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                },
+                "endDate": "1931"
+            }
+        ]
+    }
+}
