@@ -61,7 +61,7 @@ def main():
     all_files = sorted([f for f in os.listdir(input_directory) if f.endswith(".txt")])
 
     # Process only the first 10 files
-    for file_name in all_files[350:600]:
+    for file_name in all_files[600:3000]:
         file_path = os.path.join(input_directory, file_name)
 
         try:

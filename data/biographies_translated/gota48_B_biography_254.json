@@ -1,0 +1,79 @@
+{
+    "original": "Berntsson, Nils Sven, leg. tandläkare, Vänersborg, f. 21/12/18 i Gbg av tullkontr. Nils B. o. Maria Lundskog. G. 44 m. Kerstin Chambert. Barn: Ann-Marie f. 45, Kristina 46. — Stud:-ex. v. Gbgs h. real 37, tandl :ex. 42. Assist, i Vänersborg 42-45, egen prakt, där sed. 45. Led. av styr. f. Västg.-Dals tandl :fören. sed. 45.",
+    "translated": "Berntsson, Nils Sven, licensed dentist, Vänersborg, born on December 21st, 1918 in Gothenburg to customs officer Nils B. and Maria Lundskog. Married in 1944 to Kerstin Chambert. They have two children: Ann-Marie, born in 1945, and Kristina, born in 1946. He passed his high school graduation from Gothenburg's Higher Real School in 1937, and his dental exam in 1942. He worked as an assistant in Vänersborg from 1942-1945 and has had his own practice there since 1945. He has been a member of the board of the Västgötaland-Dalsland Dental Association since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Sven Berntsson\",\n  \"birthDate\": \"1918-12-21\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Nils B. Berntsson\",\n    \"jobTitle\": \"Customs Officer\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maria Lundskog\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kerstin Chambert\",\n    \"marriageDate\": \"1944\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Marie Berntsson\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Berntsson\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"jobTitle\": \"Licensed dentist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Västgötaland-Dalsland Dental Association\",\n    \"foundingDate\": \"1945\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"educationLevel\": \"High School\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Nils Sven Berntsson\"\n      },\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Higher Real School\"\n      },\n      \"dateIssued\": \"1937\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Exam\",\n      \"credentialCategory\": \"licensing\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Nils Sven Berntsson\"\n      },\n      \"dateIssued\": \"1942\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Vänersborg, Sweden\"\n  },\n  \"workExperience\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Nils Sven Berntsson's Dental Practice\",\n    \"startDate\": \"1945\"\n  },\n  \"jobTitle\": \"Licensed dentist\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Sven Berntsson",
+        "birthDate": "1918-12-21",
+        "birthPlace": "Gothenburg, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Nils B. Berntsson",
+            "jobTitle": "Customs Officer"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Maria Lundskog"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Chambert",
+            "marriageDate": "1944"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann-Marie Berntsson",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Berntsson",
+                "birthDate": "1946"
+            }
+        ],
+        "jobTitle": "Licensed dentist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Västgötaland-Dalsland Dental Association",
+            "foundingDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationLevel": "High School",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Nils Sven Berntsson"
+                },
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Higher Real School"
+                },
+                "dateIssued": "1937"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Exam",
+                "credentialCategory": "licensing",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Nils Sven Berntsson"
+                },
+                "dateIssued": "1942"
+            }
+        ],
+        "workLocation": {
+            "@type": "Place",
+            "name": "Vänersborg, Sweden"
+        },
+        "workExperience": {
+            "@type": "Organization",
+            "name": "Nils Sven Berntsson's Dental Practice",
+            "startDate": "1945"
+        }
+    }
+}

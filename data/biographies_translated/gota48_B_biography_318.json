@@ -1,0 +1,92 @@
+{
+    "original": "Björk, Einar, tandläkare, Linköping, f. 20/3/09 i Ludvika av godsäg. Karl B. o. Erika Wikström. G. 35 m. Margit Bretz. Barn: Karl-Olov f. 36, Eva 40, Lennart 42. — Stud:ex. i Upps. 29, tandl:kand. 32, tandl. 34. Stud:-res. t. Berlin 38, t. USA 46-47 s. Sv.-Amer. Stift. .stip. Spec :situd. v. Coilum-bia univ., N. Y. As-sist i Sth’lm 34-35, prakt, i Lin k öp. sed. 35. Se kr. i Öster-götl. il. tandl :fören. 43-45.",
+    "translated": "Name: Einar Björk\n\nOccupation: Dentist (Tandläkare in Swedish)\n\nBirthplace: Ludvika, Sweden\n\nDate of Birth: March 20, 1909\n\nParents: Karl B. and Erika Wikström, who owned a farm\n\nSpouse: Margit Bretz (married in 1935)\n\nChildren: Karl-Olov (born in 1936), Eva (born in 1940), Lennart (born in 1942)\n\nEducation: Graduated from Uppsala University in 1929, completed dental studies in 1932 and became a licensed dentist in 1934. Undertook study trips to Berlin in 1938 and the United States in 1946-47, supported by the Swedish-American Foundation grant. He pursued a special course of study at Columbia University in New York.\n\nCareer: Worked as an assistant in Stockholm from 1934 to 1935, and then established a dental practice in Linköping in 1935. Served as chairman of the Östergötland Dental Association from 1943 to 1945.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Einar Björk\",\n   \"jobTitle\":\"Dentist\",\n   \"birthPlace\":{\n      \"@type\":\"Place\",\n      \"name\":\"Ludvika, Sweden\"\n   },\n   \"birthDate\":\"1909-03-20\",\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Karl B. Björk\",\n         \"jobTitle\":\"Landowner\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Erika Wikström\",\n         \"jobTitle\":\"Unknown\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Margit Bretz\",\n      \"marriageDate\":\"1935\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Karl-Olov\",\n         \"birthDate\":\"1936\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Eva\",\n         \"birthDate\":\"1940\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Lennart\",\n         \"birthDate\":\"1942\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Uppsala University\",\n         \"location\":\"Uppsala, Sweden\",\n         \"endDate\":\"1929\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Dental studies\",\n         \"startDate\":\"1929\",\n         \"endDate\":\"1932\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Dental license\",\n         \"startDate\":\"1932\",\n         \"endDate\":\"1934\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Special study course in dentistry\",\n         \"location\":\"Columbia University, New York\",\n         \"startDate\":\"1946\",\n         \"endDate\":\"1947\"\n      }\n   ],\n   \"career\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Linköping Dental Practice\",\n      \"location\":\"Linköping, Sweden\",\n      \"startDate\":\"1935\"\n   },\n   \"memberOf\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Östergötland Dental Association\",\n         \"roleName\":\"Chairman\",\n         \"startDate\":\"1943\",\n         \"endDate\":\"1945\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Einar Björk",
+        "jobTitle": "Dentist",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Ludvika, Sweden"
+        },
+        "birthDate": "1909-03-20",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl B. Björk",
+                "jobTitle": "Landowner"
+            },
+            {
+                "@type": "Person",
+                "name": "Erika Wikström",
+                "jobTitle": "Unknown"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Bretz",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karl-Olov",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "location": "Uppsala, Sweden",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental studies",
+                "startDate": "1929",
+                "endDate": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental license",
+                "startDate": "1932",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Special study course in dentistry",
+                "location": "Columbia University, New York",
+                "startDate": "1946",
+                "endDate": "1947"
+            }
+        ],
+        "career": {
+            "@type": "Organization",
+            "name": "Linköping Dental Practice",
+            "location": "Linköping, Sweden",
+            "startDate": "1935"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Östergötland Dental Association",
+                "roleName": "Chairman",
+                "startDate": "1943",
+                "endDate": "1945"
+            }
+        ]
+    }
+}

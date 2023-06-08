@@ -1,0 +1,101 @@
+{
+    "original": "Ekdal, Allan Helge, tandläkare, Linköping, f. 10/4/12 i Sävsjö, Jönköp. 1., av Helge E. o. Elina Möller. G. 36 m. Margareta EHsabeth Björnberg. Barn: Rolf f. 44, Marianne 46. — Stud:ex. i Halmstad 30, tandl :kand. 32, tandl. 35. Assist, i Vislanda 36, i Tierp 37, prakt, i Linköp. sed. 37.",
+    "translated": "Ekdal, Allan Helge, dentist, from Linköping, born on April 10, 1912 in Sävsjö, Jönköping County, Sweden, first child of Helge E. and Elina Möller. Married in 1936 to Margareta Elisabeth Björnberg. They had two children: Rolf, born in 1944, and Marianne, born in 1946. Allan passed his high school exam in Halmstad in 1930 and graduated with a degree in dentistry in 1932. He became a licensed dentist in 1935. He started as an assistant in Vislanda in 1936, and then in Tierp in 1937, before establishing his own practice in Linköping in the same year.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Allan Helge Ekdal\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Sävsjö\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Jönköping County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"birthDate\": \"1912-04-10\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helge Ekdal\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elina Möller\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Elisabeth Björnberg\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Ekdal\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Ekdal\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school\",\n      \"description\": \"Passed high school exam in Halmstad in 1930\",\n      \"educationalLevel\": \"secondary\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree in dentistry\",\n      \"description\": \"Graduated with a degree in dentistry in 1932\"\n    },\n    {\n      \"@type\": \"MedicalCredential\",\n      \"description\": \"Became a licensed dentist in 1935\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Employment\",\n      \"title\": \"Assistant Dentist\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Vislanda\"\n      },\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Employment\",\n      \"title\": \"Assistant Dentist\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tierp\"\n      },\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Employment\",\n      \"title\": \"Dentist\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Allan Helge Ekdal's Dental Practice\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Linköping\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Allan Helge Ekdal",
+        "jobTitle": "Dentist",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Sävsjö",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jönköping County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "birthDate": "1912-04-10",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Helge Ekdal",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Elina Möller",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Elisabeth Björnberg",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rolf Ekdal",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Ekdal",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school",
+                "description": "Passed high school exam in Halmstad in 1930",
+                "educationalLevel": "secondary"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree in dentistry",
+                "description": "Graduated with a degree in dentistry in 1932"
+            },
+            {
+                "@type": "MedicalCredential",
+                "description": "Became a licensed dentist in 1935"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Employment",
+                "title": "Assistant Dentist",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Vislanda"
+                },
+                "startDate": "1936"
+            },
+            {
+                "@type": "Employment",
+                "title": "Assistant Dentist",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Tierp"
+                },
+                "startDate": "1937"
+            },
+            {
+                "@type": "Employment",
+                "title": "Dentist",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Allan Helge Ekdal's Dental Practice",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Linköping",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1937"
+            }
+        ]
+    }
+}

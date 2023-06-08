@@ -1,0 +1,98 @@
+{
+    "original": "Borgquist, Sture Lennart, rådman, Linköping, f. 20/8/02 i Kristianstad av förvalt. J. B. o. Fredrika Holm. G. 40 m. Signe Örn. — Stud:ex. i Landskrona 21, jur. kand. i Lund 28. Tings-tjg. i Linköp. 28-31, bitr. jurist å adv:-byrå 31, tf. rådm. i Linköp. 32, brott-målsrådm. där sed. 38, auditör v. Livgren :reg. o. Svea trängkår sed. 46.",
+    "translated": "Borgquist, Sture Lennart, councilman, Linköping, b. 20/8/1902 in Kristianstad, son of administrative officer J.B. and Fredrika Holm. Married in 1940 to Signe Örn. - Received diploma from Landskrona 1921, law degree from Lund University 1928. Worked as a court clerk in Linköping from 1928 to 1931, assistant lawyer at a law firm in 1931, and temporary councilman in Linköping in 1932. Became a criminal councilman there in 1938, and served as an auditor with the Livgren regiment and Svea supply corps from 1946.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Sture Lennart Borgquist\",\n   \"birthDate\": \"1902-08-20\",\n   \"birthPlace\": \"Kristianstad\",\n   \"father\": {\n      \"@type\": \"Person\",\n      \"name\": \"J.B. Borgquist\",\n      \"jobTitle\": \"Administrative officer\"\n   },\n   \"mother\": {\n      \"@type\": \"Person\",\n      \"name\": \"Fredrika Holm\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Örn\",\n      \"marriageDate\": \"1940\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Stud:ex.\",\n         \"issuer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Landskrona\"\n         },\n         \"credentialCategory\": \"diploma\",\n         \"dateIssued\": \"1921\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Jur. kand.\",\n         \"issuer\": {\n            \"@type\": \"PostsecondaryOrganization\",\n            \"name\": \"Lund University\"\n         },\n         \"credentialCategory\": \"degree\",\n         \"dateIssued\": \"1928\"\n      }\n   ],\n   \"jobTitle\": [\n      \"Councilman\",\n      \"Court clerk\",\n      \"Assistant lawyer\",\n      \"Criminal Councilman\",\n      \"Auditor\"\n   ],\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Livgren regiment\"\n   },\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Svea supply corps\"\n   },\n   \"workLocation\": [\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Linköping\",\n         \"jobTitle\": \"Court clerk\",\n         \"startDate\": \"1928\",\n         \"endDate\": \"1931\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Law firm\",\n         \"jobTitle\": \"Assistant lawyer\",\n         \"startDate\": \"1931\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Linköping\",\n         \"jobTitle\": \"Temporary councilman\",\n         \"startDate\": \"1932\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Linköping\",\n         \"jobTitle\": \"Criminal councilman\",\n         \"startDate\": \"1938\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Livgren regiment\",\n         \"jobTitle\": \"Auditor\",\n         \"startDate\": \"1946\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Svea supply corps\",\n         \"jobTitle\": \"Auditor\",\n         \"startDate\": \"1946\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sture Lennart Borgquist",
+        "birthDate": "1902-08-20",
+        "birthPlace": "Kristianstad",
+        "father": {
+            "@type": "Person",
+            "name": "J.B. Borgquist",
+            "jobTitle": "Administrative officer"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Fredrika Holm"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Örn",
+            "marriageDate": "1940"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Landskrona"
+                },
+                "credentialCategory": "diploma",
+                "dateIssued": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Jur. kand.",
+                "issuer": {
+                    "@type": "PostsecondaryOrganization",
+                    "name": "Lund University"
+                },
+                "credentialCategory": "degree",
+                "dateIssued": "1928"
+            }
+        ],
+        "jobTitle": [
+            "Councilman",
+            "Court clerk",
+            "Assistant lawyer",
+            "Criminal Councilman",
+            "Auditor"
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Svea supply corps"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Linköping",
+                "jobTitle": "Court clerk",
+                "startDate": "1928",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Law firm",
+                "jobTitle": "Assistant lawyer",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Place",
+                "name": "Linköping",
+                "jobTitle": "Temporary councilman",
+                "startDate": "1932"
+            },
+            {
+                "@type": "Place",
+                "name": "Linköping",
+                "jobTitle": "Criminal councilman",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Livgren regiment",
+                "jobTitle": "Auditor",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Svea supply corps",
+                "jobTitle": "Auditor",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

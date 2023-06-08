@@ -1,0 +1,88 @@
+{
+    "original": "Forssell, Nils Fredrik, kyrkoherde, Totsö, f. 25/9/99 i Gbg. G. 27 m. Dagny Schmidt. Barn: Yvonne f. 28, Bengt 31. — Stud:ex. i Gbg 19, teol. fil. ex. 21, teol. kand., prakt. teol. prov samt prästv. f. Skara stift 25. Tjg. s. v. pastor i Fägre samt s. kommin. i Ransberg, kyrkoh. i Torsö sed. 41.",
+    "translated": "Forssell, Nils Fredrik, clergyman, Totsö, born on September 25, 1899 in Gothenburg. Married in 1927 to Dagny Schmidt. Children: Yvonne (born in 1928) and Bengt (born in 1931). He graduated from high school in Gothenburg in 1919, received a degree in theology in 1921, passed practical theology exams and was ordained as a priest in Skara diocese in 1925. He served as a vicar in Fägre and a curate in Ransberg, and has been the pastor of Torsö since 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Fredrik Forssell\",\n  \"birthDate\": \"1899-09-25\",\n  \"birthPlace\": \"Gothenburg\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagny Schmidt\",\n    \"marriageDate\": \"1927\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Yvonne\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1931\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"educationLevel\": \"HighSchool\",\n      \"educationalProgram\": \"Gothenburg\",\n      \"alumniOf\": \"Gothenburg\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. fil. ex\",\n      \"educationalLevel\": \"Degree\",\n      \"educationalProgram\": \"Theology\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. kand.\",\n      \"educationalLevel\": \"Degree\",\n      \"educationalProgram\": \"Theology\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Prakt. teol. prov samt prästv.\",\n      \"educationalLevel\": \"Degree\",\n      \"educationalProgram\": \"Theology\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"jobTitle\": \"Clergyman\",\n  \"memberOf\": \"Skara diocese\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Totsö\"\n  },\n  \"jobStartDate\": \"1925\",\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fägre\",\n      \"jobTitle\": \"Vicar\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"?\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ransberg\",\n      \"jobTitle\": \"Curate\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"?\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Torsö\",\n      \"jobTitle\": \"Pastor\",\n      \"startDate\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Fredrik Forssell",
+        "birthDate": "1899-09-25",
+        "birthPlace": "Gothenburg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagny Schmidt",
+            "marriageDate": "1927"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Yvonne",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1931"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "educationLevel": "HighSchool",
+                "educationalProgram": "Gothenburg",
+                "alumniOf": "Gothenburg",
+                "endDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex",
+                "educationalLevel": "Degree",
+                "educationalProgram": "Theology",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "educationalLevel": "Degree",
+                "educationalProgram": "Theology"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Prakt. teol. prov samt prästv.",
+                "educationalLevel": "Degree",
+                "educationalProgram": "Theology",
+                "endDate": "1925"
+            }
+        ],
+        "jobTitle": "Clergyman",
+        "memberOf": "Skara diocese",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Totsö"
+        },
+        "jobStartDate": "1925",
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Fägre",
+                "jobTitle": "Vicar",
+                "startDate": "unknown",
+                "endDate": "?"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ransberg",
+                "jobTitle": "Curate",
+                "startDate": "unknown",
+                "endDate": "?"
+            },
+            {
+                "@type": "Organization",
+                "name": "Torsö",
+                "jobTitle": "Pastor",
+                "startDate": "1941"
+            }
+        ]
+    }
+}

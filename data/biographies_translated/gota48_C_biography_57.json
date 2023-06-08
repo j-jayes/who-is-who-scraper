@@ -1,0 +1,62 @@
+{
+    "original": "Ceder, Erik Verner, komminister, Isums, f. 14/12/00 i Kattunga, Älvsb. 1., av Emil C. o. Amanda Johansson. G. 38 m. Signe Hedén. — Stud:ex. v. Lunds priv. elem:sk. 33, teol. fil. ex. v. Lunds univ. 35, teol. kand. där 38, prästv. 39. V. pastor i Vänge 39-42, kommin. i Stenkumla sed. 42. Ordf. i kyrkostämma o. skolstyr.",
+    "translated": "Ceder, Erik Verner, vicar, Isums, b. 14/12/00 in Kattunga, Älvsb. County, son of Emil C. and Amanda Johansson. Married in 1938 to Signe Hedén. – Received his high school diploma from Lund private school in 1933, degree of Bachelor of Theology from Lund University in 1935, degree of Master of Theology in 1938, and was ordained as a priest in 1939. Worked as a vicar in Vänge from 1939-1942, and as a vicar in Stenkumla since 1942. Chairman of church council and school board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Verner Ceder\",\n  \"birthPlace\": \"Kattunga, Älvsb. County, Sweden\",\n  \"birthDate\": \"1900-12-14\",\n  \"parents\": [\n    {\n      \"name\": \"Emil Ceder\",\n      \"@type\": \"Person\"\n    },\n    {\n      \"name\": \"Amanda Johansson\",\n      \"@type\": \"Person\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Hedén\",\n    \"dateMarried\": \"1938\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"HighSchoolDiploma\",\n      \"awardingOrganization\": \"Lund private school\",\n      \"dateAwarded\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree in Theology\",\n      \"awardingOrganization\": \"Lund University\",\n      \"dateAwarded\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's degree in Theology\",\n      \"awardingOrganization\": \"Lund University\",\n      \"dateAwarded\": \"1938\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Vicar\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vänge Parish\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1942\",\n      \"jobTitle\": \"Vicar\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stenkumla Parish\",\n      \"startDate\": \"1942\",\n      \"jobTitle\": \"Vicar\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Council\",\n      \"jobTitle\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\",\n      \"jobTitle\": \"Chairman\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Erik Verner Ceder",
+        "birthPlace": "Kattunga, Älvsb. County, Sweden",
+        "birthDate": "1900-12-14",
+        "parents": [
+            {
+                "name": "Emil Ceder",
+                "@type": "Person"
+            },
+            {
+                "name": "Amanda Johansson",
+                "@type": "Person"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Hedén",
+            "dateMarried": "1938"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "HighSchoolDiploma",
+                "awardingOrganization": "Lund private school",
+                "dateAwarded": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree in Theology",
+                "awardingOrganization": "Lund University",
+                "dateAwarded": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master's degree in Theology",
+                "awardingOrganization": "Lund University",
+                "dateAwarded": "1938"
+            }
+        ],
+        "jobTitle": [
+            "Vicar"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church Council",
+                "jobTitle": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board",
+                "jobTitle": "Chairman"
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "original": "Bjerkander, Gustav Samuel, direktör, Lerum, f. 28/4/10 i Gbg av skohand!. R. T. S. B. o. Bertha Nordlöf. G. 34 m. Märta Törnqvist. Barn: Lars f. 40. — Stud:ex. i Gbg 28. Anst. v. Heylische Lederwerke i Worms 31. Övertog faderns firma J. F. Nordlöf, detalj af f. und. firma Nordlöfs Skoaffärer 34, sederm. A-B. Ordf. i Gbgs skohandl :fören., styrrled. i Gbgs köp-m:förb. o. Sv. skohandl :förb. Hobby: jakt.",
+    "translated": "Bjerkander, Gustav Samuel, director, Lerum, b. 28/4/10 in Gothenburg, son of a shoe trader. Married to Märta Törnqvist in 1934, they have one child, Lars, born in 1940. He graduated from high school in Gothenburg in 1928. Employed by Heylische Lederwerke in Worms in 1931. Took over his father's business J.F. Nordlöf, a retail branch of the former company Nordlöf's Shoe Stores in 1934, which later became a limited company. Chairman of the Gothenburg Shoe Trader Association, board member of the Gothenburg Chamber of Commerce, and the Swedish Shoe Trader Association. Hobby: hunting.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Gustav Samuel Bjerkander\",\n   \"birthDate\": \"1910-04-28\",\n   \"birthPlace\": {\n      \"@type\": \"City\",\n      \"name\": \"Gothenburg\"\n   },\n   \"parent\": {\n      \"@type\": \"Person\",\n      \"name\": \"R.T.S.B. and Bertha Nordlöf\",\n      \"jobTitle\": \"Shoe Traders\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Märta Törnqvist\",\n      \"marriageDate\": \"1934\"\n   },\n   \"children\": {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Bjerkander\",\n      \"birthDate\": \"1940\"\n   },\n   \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High School\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Gothenburg High School\"\n      },\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n   },\n   \"jobTitle\": \"Director\",\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Heylische Lederwerke\",\n         \"startDate\": \"1931\",\n         \"endDate\": \"1934\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"J.F. Nordlöf\",\n         \"foundingDate\": \"1934\",\n         \"dissolutionDate\": \"N/A\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg Shoe Trader Association\",\n         \"roleName\": \"Chairman\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg Chamber of Commerce\",\n         \"roleName\": \"Board Member\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Swedish Shoe Trader Association\",\n         \"roleName\": \"Board Member\"\n      }\n   ],\n   \"hasOccupation\": {\n      \"@type\": \"Occupation\",\n      \"name\": \"Shoe Trader\",\n      \"isPartOf\": {\n         \"@type\": \"Organization\",\n         \"name\": \"Nordlöf's Shoe Stores\"\n      }\n   },\n   \"knowsAbout\": \"Hunting\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustav Samuel Bjerkander",
+        "birthDate": "1910-04-28",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gothenburg"
+        },
+        "parent": {
+            "@type": "Person",
+            "name": "R.T.S.B. and Bertha Nordlöf",
+            "jobTitle": "Shoe Traders"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Törnqvist",
+            "marriageDate": "1934"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Lars Bjerkander",
+            "birthDate": "1940"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "High School",
+            "educationalCredentialAwarded": "Stud:ex.",
+            "educationalInstitution": {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School"
+            },
+            "startDate": "1928",
+            "endDate": "1928"
+        },
+        "jobTitle": "Director",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Heylische Lederwerke",
+                "startDate": "1931",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "J.F. Nordlöf",
+                "foundingDate": "1934",
+                "dissolutionDate": "N/A"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Shoe Trader Association",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Chamber of Commerce",
+                "roleName": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Shoe Trader Association",
+                "roleName": "Board Member"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Shoe Trader",
+            "isPartOf": {
+                "@type": "Organization",
+                "name": "Nordlöf's Shoe Stores"
+            }
+        },
+        "knowsAbout": "Hunting"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "original": "Elmqvist, Bengt Eduard Magnus, prakt, läkare, Oskarshamn, f. 31/10/13 i Malmö av stadsläk. i Borås Eduard E. o. Ester Eimqviist. G. 41 m. fil. mag. Kerstin Ljungfors. Barn: Lena f. 44. — Stud:ex. i Malmö 32, med. kand. 35, med. lic. 40. Und :läk. å kir. avd. v. Växjö las. 40-41, und:läk. i Kristinehamn 42-43, förste und :läk. i Oskarshamn 43-46. Privatprakt. iäk. i Oskarshamn fr. 46.",
+    "translated": "Elmqvist, Bengt Eduard Magnus, physician, Oskarshamn, born on 31/10/13 in Malmö, son of city physician in Borås Eduard E. and Ester Elmqvist. Married in 1941 to Kerstin Ljungfors, who has a degree in philosophy. They have one child, Lena, born in 1944. Bengt passed his matriculation exam in Malmö in 1932, received a Bachelor of Medicine degree in 1935, and a medical license in 1940. He served as an assistant physician in the surgical department at Växjö Hospital from 1940 to 1941, and then in Kristinehamn from 1942 to 1943. He was appointed chief assistant physician in Oskarshamn in 1943, and has worked as a private practitioner there since 1946.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org/\",\n   \"@type\":\"Person\",\n   \"name\":\"Bengt Eduard Magnus Elmqvist\",\n   \"birthDate\":\"1913-10-31\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Malmö\"\n   },\n   \"parents\":[\n      {\n         \"@type\":\"MedicalOrganization\",\n         \"name\":\"City physician in Borås\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Ester Elmqvist\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Kerstin Ljungfors\",\n      \"education\":{\n         \"@type\":\"EducationalOrganization\",\n         \"degreeName\":\"Philosophy\"\n      }\n   },\n   \"children\":{\n      \"@type\":\"Person\",\n      \"name\":\"Lena\",\n      \"birthDate\":\"1944\"\n   },\n   \"education\":[\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Malmö\",\n         \"startDate\":\"1932\",\n         \"endDate\":\"1935\",\n         \"degreeName\":\"Bachelor of Medicine\"\n      },\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Unknown\",\n         \"startDate\":\"1935\",\n         \"endDate\":\"1940\",\n         \"degreeName\":\"Medical License\"\n      }\n   ],\n   \"memberOf\":[\n      {\n         \"@type\":\"MedicalOrganization\",\n         \"name\":\"Växjö Hospital\",\n         \"roleName\":\"Assistant Physician\",\n         \"startDate\":\"1940\",\n         \"endDate\":\"1941\",\n         \"departmentName\":\"Surgical\"\n      },\n      {\n         \"@type\":\"MedicalOrganization\",\n         \"name\":\"Kristinehamn\",\n         \"roleName\":\"Assistant Physician\",\n         \"startDate\":\"1942\",\n         \"endDate\":\"1943\"\n      },\n      {\n         \"@type\":\"MedicalOrganization\",\n         \"name\":\"Oskarshamn\",\n         \"roleName\":\"Chief Assistant Physician\",\n         \"startDate\":\"1943\"\n      }\n   ],\n   \"jobTitle\":\"Physician\",\n   \"worksFor\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Private Practice\"\n   },\n   \"startDate\":\"1946\"\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Bengt Eduard Magnus Elmqvist",
+        "birthDate": "1913-10-31",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Malmö"
+        },
+        "parents": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "City physician in Borås"
+            },
+            {
+                "@type": "Person",
+                "name": "Ester Elmqvist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Ljungfors",
+            "education": {
+                "@type": "EducationalOrganization",
+                "degreeName": "Philosophy"
+            }
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Lena",
+            "birthDate": "1944"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Malmö",
+                "startDate": "1932",
+                "endDate": "1935",
+                "degreeName": "Bachelor of Medicine"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Unknown",
+                "startDate": "1935",
+                "endDate": "1940",
+                "degreeName": "Medical License"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Växjö Hospital",
+                "roleName": "Assistant Physician",
+                "startDate": "1940",
+                "endDate": "1941",
+                "departmentName": "Surgical"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Kristinehamn",
+                "roleName": "Assistant Physician",
+                "startDate": "1942",
+                "endDate": "1943"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Oskarshamn",
+                "roleName": "Chief Assistant Physician",
+                "startDate": "1943"
+            }
+        ],
+        "jobTitle": "Physician",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Private Practice"
+        },
+        "startDate": "1946"
+    }
+}

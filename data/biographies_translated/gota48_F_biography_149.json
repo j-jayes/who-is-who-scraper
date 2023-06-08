@@ -1,0 +1,57 @@
+{
+    "original": "Fredriksson, Curt Artur, läroverksadjunkt, Halmstad, f. 26/2/95 i Sönd-rum. Hall. 1. G. 29 m. Märta Jepps-son. Barn: Margit f. 30, Rolf 31. — Stud:ex. i Halmstad 14, fitl. mag. i Lund 20, efterprövn. 29 o. 31. E. lär. v. Halmstads h. a. 1. 32-36, adj. där sed. 36.",
+    "translated": "Fredriksson, Curt Artur, high school teacher, Halmstad, b. 26/2/95 in Sönd-rum, Halland. 1st Marriage: in 1929 to Märta Jeppsson. Children: Margit b. 1930, Rolf b. 1931. Education: high school graduation in Halmstad in 1914, master's degree in Lund in 1920, certification exams in 1929 and 1931. Started teaching as a substitute teacher in Halmstad in 1932, became a permanent teacher there since 1936.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Curt Artur Fredriksson\",\n   \"jobTitle\": \"High School Teacher\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Halmstad\",\n      \"addressRegion\": \"Halland\"\n   },\n   \"birthDate\": \"1895-02-26\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Märta Jeppsson\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Margit\",\n         \"birthDate\": \"1930\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Rolf\",\n         \"birthDate\": \"1931\"\n      }\n   ],\n   \"alumniOf\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Halmstad High School\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Lund University\",\n         \"degree\": {\n            \"@type\": \"EducationalDegree\",\n            \"name\": \"Master's Degree\"\n         },\n         \"attendedFrom\": \"1914\",\n         \"attendedTo\": \"1920\"\n      }\n   ],\n   \"jobStartDate\": \"1932\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Halmstad High School\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1936\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Curt Artur Fredriksson",
+        "jobTitle": "High School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Halmstad",
+            "addressRegion": "Halland"
+        },
+        "birthDate": "1895-02-26",
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Jeppsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margit",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf",
+                "birthDate": "1931"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Halmstad High School"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Master's Degree"
+                },
+                "attendedFrom": "1914",
+                "attendedTo": "1920"
+            }
+        ],
+        "jobStartDate": "1932",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Halmstad High School",
+            "jobTitle": "Substitute Teacher",
+            "startDate": "1932",
+            "endDate": "1936"
+        }
+    }
+}

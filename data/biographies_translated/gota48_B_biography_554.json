@@ -1,0 +1,64 @@
+{
+    "original": "Brise, Greta Karolina Andrea, tandläkare, Karlshamn, f. 17/12/97 i Karlshamn av tullförv. S. Aug. Svensson o. Andrea Söderlund. G. 22 m. tandl. Ivan Brise. Barn: se denne. — Stud:-ex. i Lund 16, stud. v. Lunds univ. 17, tandl :kand. 18, tandl. 20. Assist, i Växjö 20-21, praikt. i Karlshamn 21.",
+    "translated": "Brise, Greta Karolina Andrea, dentist, Karlshamn, b. 17/12/97 in Karlshamn to customs official S. Aug. Svensson and Andrea Söderlund. Married in 1922 to dentist Ivan Brise. Children: see Ivan Brise's biography. - Passed matriculation exam in Lund in 1916, studied at Lund University in 1917, studied dentistry and graduated in 1920. Assistant in Växjö from 1920-1921, practiced in Karlshamn in 1921.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Greta Karolina Andrea Brise\",\n   \"jobTitle\":\"Dentist\",\n   \"birthDate\":\"1897-12-17\",\n   \"birthPlace\":\"Karlshamn\",\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"S. Aug. Svensson\",\n         \"jobTitle\":\"Customs Official\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Andrea Söderlund\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Ivan Brise\",\n      \"jobTitle\":\"Dentist\",\n      \"dateMarried\":\"1922\"\n   },\n   \"children\":{\n      \"@type\":\"Person\",\n      \"name\":\"(See Ivan Brise's biography)\"\n   },\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"matriculation exam\",\n         \"recognizedBy\":\"Lund University\",\n         \"dateEarned\":\"1916\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"University Degree\",\n         \"recognizedBy\":\"Lund University\",\n         \"fieldOfStudy\":\"Dentistry\",\n         \"dateEarned\":\"1920\"\n      }\n   ],\n   \"workExperience\":[\n      {\n         \"@type\":\"OccupationalExperience\",\n         \"company\":\"Växjö\",\n         \"position\":\"Assistant\",\n         \"startDate\":\"1920\",\n         \"endDate\":\"1921\"\n      },\n      {\n         \"@type\":\"OccupationalExperience\",\n         \"company\":\"Karlshamn\",\n         \"position\":\"Practitioner\",\n         \"startDate\":\"1921\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Greta Karolina Andrea Brise",
+        "jobTitle": "Dentist",
+        "birthDate": "1897-12-17",
+        "birthPlace": "Karlshamn",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "S. Aug. Svensson",
+                "jobTitle": "Customs Official"
+            },
+            {
+                "@type": "Person",
+                "name": "Andrea Söderlund"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ivan Brise",
+            "jobTitle": "Dentist",
+            "dateMarried": "1922"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "(See Ivan Brise's biography)"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "matriculation exam",
+                "recognizedBy": "Lund University",
+                "dateEarned": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "University Degree",
+                "recognizedBy": "Lund University",
+                "fieldOfStudy": "Dentistry",
+                "dateEarned": "1920"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OccupationalExperience",
+                "company": "Växjö",
+                "position": "Assistant",
+                "startDate": "1920",
+                "endDate": "1921"
+            },
+            {
+                "@type": "OccupationalExperience",
+                "company": "Karlshamn",
+                "position": "Practitioner",
+                "startDate": "1921"
+            }
+        ]
+    }
+}

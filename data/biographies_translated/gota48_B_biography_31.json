@@ -1,0 +1,122 @@
+{
+    "original": "Behm, Vidar, lektor. Skara, f. 25/7/ 89 i Ragunda förs., Jämti. 1., av länsveterinär K. M. B. o. Ingrid Marta MarteM. G. 23 m. Wilily Hallander. Barn: Brita f. 26, fil. stud. — Stud:ex. v. Umeå h. a. 1. 10, veterinärex. i Sthlm 15. Stud :resa m. statsstip. t. Tyskl. o. Danm. 31. Distr :veterinär i Ockelbo distr. 19, lär. i veterinär-kunsk. v. Skara lantm:sk. sed. 22, lektor o. förest, f. veterinärinrättn. i Skara sed. 23. Skr.: Rasstambok f. Nordsv. hästar (bd 3 23, bd 4 27, bd 5 29). RVO.",
+    "translated": "Behm, Vidar, lecturer. Skara, born on July 25, 1889 in Ragunda parish, Jämtland. First marriage to county veterinarian K. M. B. and Ingrid Marta MarteM. Second marriage to Wilily Hallander in 1923. Child: Brita, born in 1926, a student of philosophy. Education: completed secondary school in Umeå in 1910, received a veterinary degree in Stockholm in 1915. Received a scholarship for studies in Germany and Denmark in 1931. Work experience: district veterinarian in Ockelbo district in 1919, teacher of veterinary science at Skara Agricultural School since 1922, lecturer and head of the Veterinary Institution in Skara since 1923. Writings include Pedigree Book for North Swedish horses (vol. 3 in 1923, vol. 4 in 1927, vol. 5 in 1929). Awarded the Royal Order of Vasa (RVO).",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Vidar Behm\",\n  \"birthDate\": \"1889-07-25\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Ragunda parish, Jämtland\"\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"county veterinarian K. M. B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilily Hallander\",\n      \"marriageDate\": \"1923\"\n    }\n  ],\n  \"child\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Behm\",\n    \"birthDate\": \"1926\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Secondary school\"\n      },\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Completed\"\n      },\n      \"educationalProgram\": {\n        \"@type\": \"EducationalProgram\",\n        \"name\": \"Umeå secondary school\"\n      },\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Veterinary degree\"\n      },\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Received\"\n      },\n      \"educationalProgram\": {\n        \"@type\": \"EducationalProgram\",\n        \"name\": \"Stockholm veterinary school\"\n      },\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"ScholarlyArticle\",\n      \"name\": \"Scholarship for studies in Germany and Denmark\",\n      \"award\": {\n        \"@type\": \"MonetaryGrant\",\n        \"name\": \"Statstipendium\"\n      },\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"jobTitle\": \"Lecturer\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara Agricultural School\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Veterinary Institution in Skara\",\n      \"startDate\": \"1923\",\n      \"jobTitle\": \"Lecturer\",\n      \"description\": \"Head of the institution\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Ockelbo district\",\n      \"description\": \"District veterinarian\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Skara Agricultural School\",\n      \"description\": \"Teacher of veterinary science\",\n      \"startDate\": \"1922\"\n    }\n  ],\n  \"significantPublication\": {\n    \"@type\": \"Book\",\n    \"name\": \"Pedigree Book for North Swedish horses\",\n    \"volumeNumber\": [\"3\", \"4\", \"5\"],\n    \"datePublished\": [\"1923\", \"1927\", \"1929\"]\n  },\n  \"award\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Vidar Behm",
+        "birthDate": "1889-07-25",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Ragunda parish, Jämtland"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "county veterinarian K. M. B."
+            },
+            {
+                "@type": "Person",
+                "name": "Wilily Hallander",
+                "marriageDate": "1923"
+            }
+        ],
+        "child": {
+            "@type": "Person",
+            "name": "Brita Behm",
+            "birthDate": "1926"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": {
+                    "@type": "DefinedTerm",
+                    "name": "Secondary school"
+                },
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Completed"
+                },
+                "educationalProgram": {
+                    "@type": "EducationalProgram",
+                    "name": "Umeå secondary school"
+                },
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": {
+                    "@type": "DefinedTerm",
+                    "name": "Veterinary degree"
+                },
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Received"
+                },
+                "educationalProgram": {
+                    "@type": "EducationalProgram",
+                    "name": "Stockholm veterinary school"
+                },
+                "endDate": "1915"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "name": "Scholarship for studies in Germany and Denmark",
+                "award": {
+                    "@type": "MonetaryGrant",
+                    "name": "Statstipendium"
+                },
+                "endDate": "1931"
+            }
+        ],
+        "jobTitle": "Lecturer",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skara Agricultural School"
+            },
+            {
+                "@type": "Organization",
+                "name": "Veterinary Institution in Skara",
+                "startDate": "1923",
+                "jobTitle": "Lecturer",
+                "description": "Head of the institution"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Ockelbo district",
+                "description": "District veterinarian",
+                "startDate": "1919"
+            },
+            {
+                "@type": "Place",
+                "name": "Skara Agricultural School",
+                "description": "Teacher of veterinary science",
+                "startDate": "1922"
+            }
+        ],
+        "significantPublication": {
+            "@type": "Book",
+            "name": "Pedigree Book for North Swedish horses",
+            "volumeNumber": [
+                "3",
+                "4",
+                "5"
+            ],
+            "datePublished": [
+                "1923",
+                "1927",
+                "1929"
+            ]
+        },
+        "award": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            }
+        ]
+    }
+}

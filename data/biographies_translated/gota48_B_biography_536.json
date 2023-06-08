@@ -1,0 +1,100 @@
+{
+    "original": "Bredin, Torsten, länsassessor, Vänersborg, f. 14/6/98 i Öggerstorp, Jönköp. 1., av prosten Alfred B. o. Bertha Gylilensvärd. G. 31 m. Hertha Sandström. Barn: Göran f. 41. — Stud:ex. v. Lunds priv. elem:sk. 17, jur. kand. i Lund 26. Bitr. länsbok-håll. i Jönköp. 26, länsbokhåll. av andra kl. där 38, länsassess. i Vä-nersb. fr. 44. Sekr. i dir. f. Ryhovs sjukh. i Jönköp. 32-44, i Jönköp. 1. blindv:nd 35-44.",
+    "translated": "Bredin, Torsten, county assessor, Vänersborg, born on June 14th, 1898 in Öggerstorp, Jönköping county, son of the priest Alfred B. and Bertha Gylilensvärd. He was married in 1931 to Hertha Sandström and they had one child named Göran, born in 1941. Torsten graduated from Lund's private elementary school in 1917 and received his law degree from Lund University in 1926. He worked as a deputy county bookkeeper in Jönköping in 1926, became a second-class county bookkeeper there in 1938, and was appointed county assessor in Vänersborg in 1944. He served as secretary for the board of directors of Ryhov Hospital in Jönköping from 1932 to 1944, and was also secretary for the Jönköping Blind Welfare Board from 1935 to 1944.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Torsten Bredin\",\n  \"jobTitle\": \"County Assessor\",\n  \"birthDate\": \"1898-06-14\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Öggerstorp, Jönköping County\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alfred Bredin\",\n      \"jobTitle\": \"Priest\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertha Gylilensvärd\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hertha Sandström\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Göran Bredin\",\n    \"birthDate\": \"1941\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund's private elementary school\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Law\",\n        \"degreeType\": \"Bachelor\",\n        \"startDate\": \"1926\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Deputy County Bookkeeper\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1938\",\n      \"namedPosition\": {\n        \"@type\": \"OrganizationRole\",\n        \"title\": \"Second-Class County Bookkeeper\",\n        \"startDate\": \"1938\",\n        \"endDate\": \"1944\",\n        \"namedPosition\": {\n          \"@type\": \"OrganizationRole\",\n          \"title\": \"County Assessor\",\n          \"startDate\": \"1944\",\n          \"endDate\": null,\n          \"namedPosition\": null\n        }\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ryhov Hospital\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Role\",\n          \"name\": \"Secretary\",\n          \"startDate\": \"1932\",\n          \"endDate\": \"1944\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping Blind Welfare Board\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Role\",\n          \"name\": \"Secretary\",\n          \"startDate\": \"1935\",\n          \"endDate\": \"1944\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Torsten Bredin",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Deputy County Bookkeeper",
+                "startDate": "1926",
+                "endDate": "1938",
+                "namedPosition": {
+                    "@type": "OrganizationRole",
+                    "title": "Second-Class County Bookkeeper",
+                    "startDate": "1938",
+                    "endDate": "1944",
+                    "namedPosition": {
+                        "@type": "OrganizationRole",
+                        "title": "County Assessor",
+                        "startDate": "1944",
+                        "endDate": null,
+                        "namedPosition": null
+                    }
+                }
+            }
+        ],
+        "birthDate": "1898-06-14",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Öggerstorp, Jönköping County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Alfred Bredin",
+                "jobTitle": "Priest"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertha Gylilensvärd"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hertha Sandström",
+            "marriageDate": "1931"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Göran Bredin",
+            "birthDate": "1941"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund's private elementary school",
+                "startDate": "1917"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Law",
+                    "degreeType": "Bachelor",
+                    "startDate": "1926"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Ryhov Hospital",
+                "memberOf": [
+                    {
+                        "@type": "Role",
+                        "name": "Secretary",
+                        "startDate": "1932",
+                        "endDate": "1944"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping Blind Welfare Board",
+                "memberOf": [
+                    {
+                        "@type": "Role",
+                        "name": "Secretary",
+                        "startDate": "1935",
+                        "endDate": "1944"
+                    }
+                ]
+            }
+        ]
+    }
+}

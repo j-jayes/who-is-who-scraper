@@ -1,0 +1,75 @@
+{
+    "original": "Ekelund, Carl Emanuel, häradskrivare, Visby, f. 5/8/97 i Visby, Gotl. l., av stadskamrer Chr. E. o. Jenny Ericsson. G. 30 m. Greta Carlsson. Barn: Gunnar f. 36, Elisabeth 37, Gunilla 40. — Stud. v. Visby h. a. 1. samt v. Schartaus hand:inst. 18-20. Tf. kronokassör 30, ord. ;sed. 34, häradsskrivare 46.",
+    "translated": "Ekelund, Carl Emanuel, district clerk, Visby, b. 5/8/97 in Visby, Gotland, son of city treasurer Chr. E. and Jenny Ericsson. Married in 1930 to Greta Carlsson. Children: Gunnar b. 1936, Elisabeth b. 1937, Gunilla b. 1940. — Studied at Visby high school and Schartaus Handelsinstitut 1918-1920. Acting Kronokassör from 1930, permanent from 1934, district clerk from 1946.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Carl Emanuel Ekelund\",\n   \"birthDate\": \"1897-05-08\",\n   \"birthPlace\": {\n      \"@type\": \"City\",\n      \"name\": \"Visby\",\n      \"address\": {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Visby\",\n         \"addressRegion\": \"Gotland\",\n         \"addressCountry\": \"Sweden\"\n      }\n   },\n   \"parents\":{\n      \"@type\":\"Person\",\n      \"father\":{\n         \"@type\":\"Person\",\n         \"name\":\"Chr. E. Ekelund\",\n         \"jobTitle\":\"City Treasurer\"\n      },\n      \"mother\":{\n         \"@type\":\"Person\",\n         \"name\":\"Jenny Ericsson\"\n      }\n   },\n   \"spouse\": {\n      \"@type\":\"Person\",\n      \"name\":\"Greta Carlsson\",\n      \"marriageDate\":\"1930\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Gunnar\",\n         \"birthDate\":\"1936\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Elisabeth\",\n         \"birthDate\":\"1937\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Gunilla\",\n         \"birthDate\":\"1940\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Visby High School\",\n         \"startDate\":\"1918\",\n         \"endDate\":\"1920\"\n      },\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Schartaus Handelsinstitut\",\n         \"startDate\":\"1918\",\n         \"endDate\":\"1920\"\n      }\n   ],\n   \"jobTitle\": \"District Clerk\",\n   \"worksFor\": {\n      \"@type\":\"Organization\",\n      \"name\":\"Visby\"\n   },\n   \"startDate\":\"1946\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl Emanuel Ekelund",
+        "birthDate": "1897-05-08",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Visby",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Visby",
+                "addressRegion": "Gotland",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": {
+            "@type": "Person",
+            "father": {
+                "@type": "Person",
+                "name": "Chr. E. Ekelund",
+                "jobTitle": "City Treasurer"
+            },
+            "mother": {
+                "@type": "Person",
+                "name": "Jenny Ericsson"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Carlsson",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Elisabeth",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Visby High School",
+                "startDate": "1918",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Schartaus Handelsinstitut",
+                "startDate": "1918",
+                "endDate": "1920"
+            }
+        ],
+        "jobTitle": "District Clerk",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Visby"
+        },
+        "startDate": "1946"
+    }
+}

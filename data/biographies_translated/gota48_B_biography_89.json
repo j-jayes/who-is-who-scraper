@@ -1,0 +1,118 @@
+{
+    "original": "Bergh, Ernst Leonard, postmästare, Falkenberg, f. 28/6/87 i Kristianstad av postiljon E. P. B. o. Maria Frid. G. 13 m. Alf rida Maria Cecilia Paradis. Barn: Carl Magnus f. 14, Lars Emil’ 20. — M’og:ex. i Kristianstad 07. E. o. postexp. 08, postass. 25, fcontr. i Nässjö 43, postmäst. i Falkenberg sed. 46. GM 8 st.",
+    "translated": "Bergh, Ernst Leonard, Postmaster, Falkenberg, born June 28, 1887 in Kristianstad to postilion E.P.B and Maria Frid. Married for 13 years to Alf rida Maria Cecilia Paradis. Children: Carl Magnus born in 1914, Lars Emil in 1920. Married and divorced in Kristianstad in 1907. Became a postal worker in 1908, post assistant in 1925, manager in Nässjö in 1943, and postmaster in Falkenberg since 1946. Married 8 times.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Leonard Bergh\",\n  \"birthDate\": \"1887-06-28\",\n  \"birthPlace\": \"Kristianstad, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"E.P.B\",\n      \"jobTitle\": \"Postilion\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Frid\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alfrida Maria Cecilia Paradis\",\n      \"marriageDate\": \"13 years\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Magnus Bergh\",\n      \"birthDate\": \"1914\",\n      \"parent\": \"Ernst Leonard Bergh\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Emil Bergh\",\n      \"birthDate\": \"1920\",\n      \"parent\": \"Ernst Leonard Bergh\"\n    }\n  ],\n  \"marriageDate\": \"1907\",\n  \"divorceDate\": \"unknown\",\n  \"jobTitle\": \"Postmaster\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Nässjö\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Falkenberg\",\n      \"startDate\": \"1946\",\n      \"parent\": \"Nässjö\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Post Office\",\n      \"jobTitle\": \"Postal Worker\",\n      \"startDate\": \"1908\",\n      \"parent\": \"Kristianstad\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Post Office\",\n      \"jobTitle\": \"Post Assistant\",\n      \"startDate\": \"1925\",\n      \"parent\": \"Kristianstad\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Post Office\",\n      \"jobTitle\": \"Manager\",\n      \"startDate\": \"1943\",\n      \"location\": \"Nässjö\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Post Office\",\n      \"jobTitle\": \"Postmaster\",\n      \"startDate\": \"1946\",\n      \"location\": \"Falkenberg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Leonard Bergh",
+        "birthDate": "1887-06-28",
+        "birthPlace": "Kristianstad, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "E.P.B",
+                "jobTitle": "Postilion"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Frid"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Alfrida Maria Cecilia Paradis",
+                "marriageDate": "13 years"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl Magnus Bergh",
+                "birthDate": "1914",
+                "parent": "Ernst Leonard Bergh"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Emil Bergh",
+                "birthDate": "1920",
+                "parent": "Ernst Leonard Bergh"
+            }
+        ],
+        "marriageDate": "1907",
+        "divorceDate": "unknown",
+        "jobTitle": "Postmaster",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Nässjö",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Place",
+                "name": "Falkenberg",
+                "startDate": "1946",
+                "parent": "Nässjö"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Post Office",
+                "jobTitle": "Postal Worker",
+                "startDate": "1908",
+                "parent": "Kristianstad"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Post Office",
+                "jobTitle": "Post Assistant",
+                "startDate": "1925",
+                "parent": "Kristianstad"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Post Office",
+                "jobTitle": "Manager",
+                "startDate": "1943",
+                "location": "Nässjö"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Post Office",
+                "jobTitle": "Postmaster",
+                "startDate": "1946",
+                "location": "Falkenberg"
+            }
+        ]
+    }
+}

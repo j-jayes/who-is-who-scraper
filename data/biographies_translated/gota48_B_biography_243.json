@@ -1,0 +1,108 @@
+{
+    "original": "Bernlöf, Albert Ragnar, andre stadsfogde, Göteborg, f. 5/1/92 i Gbg. G. 26 m. Astrid Hedvig Aurora Lindberg. Barn: Maud Astrid Aurora f. 27, Carl-Erik Ragnar 30. — Stud:ex. v. Gbgs h. latin 12, jur. kand. v. Upps. univ. 21. Tingstjg. v. Askims m. fl. här:rätt. Andre mag:not. v. Gbgs mag. 29, förste mag:not. 35, andre stadsfogde i Gbg fr. 45. Ordf. i tax:-nd ied. 37.",
+    "translated": "Bernlöf, Albert Ragnar, second city bailiff, Gothenburg, born on January 5, 1892 in Gothenburg. Married on 1926 to Astrid Hedvig Aurora Lindberg, they have two children: Maud Astrid Aurora born on 1927 and Carl-Erik Ragnar born on 1930. He graduated with a Bachelor's degree in Latin from Gothenburg High School in 1912, and graduated with a law degree from Uppsala University in 1921. He served as a judicial clerk in Askims and other district courts and as a second notary in Gothenburg in 1929, first notary in 1935, and as a second city bailiff in Gothenburg from 1945. He was the chairman of the tax committee in 1937.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org/\",\n   \"@type\":\"Person\",\n   \"name\":\"Albert Ragnar Bernlöf\",\n   \"birthDate\":\"1892-01-05\",\n   \"birthPlace\":\"Gothenburg\",\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Astrid Hedvig Aurora Lindberg\",\n      \"marriageDate\":\"1926\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Maud Astrid Aurora\",\n         \"birthDate\":\"1927\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Carl-Erik Ragnar\",\n         \"birthDate\":\"1930\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Bachelor of Latin\",\n         \"educationalLevel\":\"Bachelor's degree\",\n         \"educationalProgram\":\"Latin\",\n         \"educationInstitution\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Gothenburg High School\"\n         },\n         \"dateEarned\":\"1912\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Law Degree\",\n         \"educationalLevel\":\"Bachelor's degree\",\n         \"educationalProgram\":\"Law\",\n         \"educationInstitution\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Uppsala University\"\n         },\n         \"dateEarned\":\"1921\"\n      }\n   ],\n   \"occupation\":[\n      {\n         \"@type\":\"GovernmentOffice\",\n         \"name\":\"Judicial Clerk\",\n         \"officeName\": \"Justice of the Peace\",\n         \"startDate\":\"1921\",\n         \"endDate\":\"1929\",\n         \"jurisdiction\":{\n            \"@type\":\"AdministrativeArea\",\n            \"name\":\"Askims and other district courts\"\n         }\n      },\n      {\n         \"@type\":\"GovernmentOffice\",\n         \"name\":\"Second Notary\",\n         \"officeName\":\"Magistrate\",\n         \"startDate\":\"1929\",\n         \"endDate\":\"1935\",\n         \"jurisdiction\":{\n            \"@type\":\"AdministrativeArea\",\n            \"name\":\"Gothenburg\"\n         }\n      },\n      {\n         \"@type\":\"GovernmentOffice\",\n         \"name\":\"First Notary\",\n         \"officeName\":\"Magistrate\",\n         \"startDate\":\"1935\",\n         \"endDate\":\"1945\",\n         \"jurisdiction\":{\n            \"@type\":\"AdministrativeArea\",\n            \"name\":\"Gothenburg\"\n         }\n      },\n      {\n         \"@type\":\"GovernmentOffice\",\n         \"name\":\"Second City Bailiff\",\n         \"officeName\":\"Magistrate\",\n         \"startDate\":\"1945\",\n         \"jurisdiction\":{\n            \"@type\":\"AdministrativeArea\",\n            \"name\":\"Gothenburg\"\n         }\n      },\n      {\n         \"@type\":\"GovernmentOffice\",\n         \"name\":\"Chairman\",\n         \"officeName\":\"Tax Committee\",\n         \"startDate\":\"1937\",\n         \"jurisdiction\":{\n            \"@type\":\"AdministrativeArea\",\n            \"name\":\"Gothenburg\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Albert Ragnar Bernlöf",
+        "birthDate": "1892-01-05",
+        "birthPlace": "Gothenburg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Hedvig Aurora Lindberg",
+            "marriageDate": "1926"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maud Astrid Aurora",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Carl-Erik Ragnar",
+                "birthDate": "1930"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Latin",
+                "educationalLevel": "Bachelor's degree",
+                "educationalProgram": "Latin",
+                "educationInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg High School"
+                },
+                "dateEarned": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Law Degree",
+                "educationalLevel": "Bachelor's degree",
+                "educationalProgram": "Law",
+                "educationInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "dateEarned": "1921"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "GovernmentOffice",
+                "name": "Judicial Clerk",
+                "officeName": "Justice of the Peace",
+                "startDate": "1921",
+                "endDate": "1929",
+                "jurisdiction": {
+                    "@type": "AdministrativeArea",
+                    "name": "Askims and other district courts"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Second Notary",
+                "officeName": "Magistrate",
+                "startDate": "1929",
+                "endDate": "1935",
+                "jurisdiction": {
+                    "@type": "AdministrativeArea",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "First Notary",
+                "officeName": "Magistrate",
+                "startDate": "1935",
+                "endDate": "1945",
+                "jurisdiction": {
+                    "@type": "AdministrativeArea",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Second City Bailiff",
+                "officeName": "Magistrate",
+                "startDate": "1945",
+                "jurisdiction": {
+                    "@type": "AdministrativeArea",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Chairman",
+                "officeName": "Tax Committee",
+                "startDate": "1937",
+                "jurisdiction": {
+                    "@type": "AdministrativeArea",
+                    "name": "Gothenburg"
+                }
+            }
+        ]
+    }
+}

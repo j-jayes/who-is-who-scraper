@@ -1,0 +1,94 @@
+{
+    "original": "Carlberg, Carl Johan Gustaf, major, Varberg, f. 17/10/82 i Vänersborg av rådm. Anders Gustaf C. o. Ellen Andersson. G. 13 m. Elsa Knutsdotter Haeger. Barn: Margareta f. 14, g. m. dr Carl SchmlterlÖv^, Ängby, Anders 18. — Stud:ex. i Vänersborg 02, off:- ex. 04, GCI 11-13. Und :löjtn. v. Hall. reg. 04, löjtn. 10, kapt. i reg. 19, major i airtmén 30. Biefiälh. f. Varberigs ro nr 9 36-42. Kamr. v. Varbergs Havsbad o. Kurort sed. 32. RSO.",
+    "translated": "Carl Johan Gustaf Carlberg was a major from Varberg. He was born on October 17th, 1882 in Vänersborg to councilman Anders Gustaf C. and Ellen Andersson. He married Elsa Knutsdotter Haeger in 1913, and they had two children: Margareta, born in 1914, who married Dr. Carl SchmlterlÖv in Ängby, and Anders, born in 1918. Carlberg completed his student examination in Vänersborg in 1902, and his officer's examination in 1904. He attended the General Course of Instruction from 1911-1913. He served as second lieutenant in the Halland Regiment in 1904, lieutenant in 1910, captain in 1919, and major in the air force in 1930. He was the commanding officer for Varberg's artillery regiment from 1936-1942. He was also a chamberlain at Varberg's Havsbad and Kurort from 1932 onwards. He was a recipient of the Order of the Sword.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org/\",\n   \"@type\":\"Person\",\n   \"name\":\"Carl Johan Gustaf Carlberg\",\n   \"birthDate\":\"1882-10-17\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Vänersborg\"\n   },\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Anders Gustaf C.\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Ellen Andersson\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Elsa Knutsdotter Haeger\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Margareta\",\n         \"birthDate\":\"1914\",\n         \"spouse\":{\n            \"@type\":\"Person\",\n            \"name\":\"Dr. Carl SchmlterlÖv\"\n         },\n         \"birthPlace\":{\n            \"@type\":\"City\",\n            \"name\":\"Ängby\"\n         }\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Anders\",\n         \"birthDate\":\"1918\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Student examination\",\n         \"educationLevel\":\"Examination\",\n         \"awardDate\":\"1902\",\n         \"awardingInstitution\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Vänersborg\"\n         }\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Officer's examination\",\n         \"educationLevel\":\"Examination\",\n         \"awardDate\":\"1904\"\n      },\n      {\n        \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"General Course of Instruction\",\n         \"educationLevel\":\"Course\",\n         \"startDate\":\"1911\",\n         \"endDate\":\"1913\"\n      }\n   ],\n   \"jobTitle\":[\n      \"Major\",\n      \"Commanding officer\"\n   ],\n   \"worksFor\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Varberg's artillery regiment\",\n      \"jobTitle\":\"Biefiälh.\"\n   },\n   \"memberOf\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Varberg's Havsbad and Kurort\",\n      \"jobTitle\":\"Chamberlain\",\n      \"startDate\":\"1932\"\n   },\n   \"awards\":{\n      \"@type\":\"Order\",\n      \"name\":\"Order of the Sword\",\n      \"awardDate\":\"Unknown\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Carl Johan Gustaf Carlberg",
+        "birthDate": "1882-10-17",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Vänersborg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anders Gustaf C."
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Knutsdotter Haeger"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1914",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Dr. Carl SchmlterlÖv"
+                },
+                "birthPlace": {
+                    "@type": "City",
+                    "name": "Ängby"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1918"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student examination",
+                "educationLevel": "Examination",
+                "awardDate": "1902",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "Vänersborg"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Officer's examination",
+                "educationLevel": "Examination",
+                "awardDate": "1904"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "General Course of Instruction",
+                "educationLevel": "Course",
+                "startDate": "1911",
+                "endDate": "1913"
+            }
+        ],
+        "jobTitle": [
+            "Major",
+            "Commanding officer"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Varberg's artillery regiment",
+            "jobTitle": "Biefiälh."
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Varberg's Havsbad and Kurort",
+            "jobTitle": "Chamberlain",
+            "startDate": "1932"
+        },
+        "awards": {
+            "@type": "Order",
+            "name": "Order of the Sword",
+            "awardDate": "Unknown"
+        }
+    }
+}

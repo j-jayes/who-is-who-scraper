@@ -1,0 +1,114 @@
+{
+    "original": "Bergstrand, Per-Erik Albert, tandläkare, Karlskrona, f. 2/8/86 i Långasjö, Kronob. 1., av kantorn Per Magnus B. o. Anna Hammargren. G. 12 m. Astrid Neander. Barn: Gunnel f. 13, Sophiasyster, Stig 15, med. lic., Birgit 18. — Mog:ex. i Växjö 07, elev v. apot. Göta Lejon i Karlskrona 07-08, tandhkand. 09, tandl. 11. Prakt, i Oskarshamn 11-23, i Karlskrona sed. 23, förest, f. tandpoliklin. v. Karlskrona kustart :reg. sed. 25. Medv. v. ordn. av skoltandv. i Oskarshamn, skoltandl. där i tre år. Led. av hälsov :nd o. fat-tigv:nd i Oskarshamn.",
+    "translated": "Bergstrand, Per-Erik Albert, dentist, Karlskrona, born on August 2, 1886 in Långasjö, Kronob. Son of the cantor Per Magnus B. and Anna Hammargren. Married to Astrid Neander in 19xx. They had four children: Gunnel (born in 1913), Sophiasyster, Stig (born in 1915, medical licentiate) and Birgit (born in 1918). \n\nPer-Erik studied dentistry at Mog:ex. in Växjö in 1907, was a student at apot. Göta Lejon in Karlskrona from 1907-1908, and graduated from dental school in 1911. He practiced dentistry in Oskarshamn from 1911-1923 and then in Karlskrona from 1923 onwards. He was in charge of the dental clinic at Karlskrona kustart :reg. from 1925 onwards and also involved in the organization of school dentistry in Oskarshamn as well as working as a school dentist there for three years. Additionally, he served as a member of the health authority and poor relief authority in Oskarshamn.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per-Erik Albert Bergstrand\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1886-08-02\",\n  \"birthPlace\": \"Långasjö, Kronob\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Magnus B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Hammargren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Neander\",\n    \"marriageDate\": \"191x\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnel\",\n      \"birthDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sophiasyster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig\",\n      \"birthDate\": \"1915\",\n      \"education\": [\n        {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"credentialCategory\": \"medical licentiate\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1918\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"tandhkand.\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Mog:ex.\",\n        \"location\": \"Växjö\",\n        \"startDate\": \"1907\",\n        \"endDate\": \"1907\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"elev\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"apot. Göta Lejon\",\n        \"location\": \"Karlskrona\",\n        \"startDate\": \"1907\",\n        \"endDate\": \"1908\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"tandl.\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"unknown institution\",\n        \"location\": \"unknown location\",\n        \"startDate\": \"1909\",\n        \"endDate\": \"1911\"\n      }\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlskrona kustart :reg.\",\n      \"department\": \"dental clinic\",\n      \"startDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Oskarshamn\",\n      \"department\": \"school dentistry\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Oskarshamn\",\n      \"department\": \"health authority\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Oskarshamn\",\n      \"department\": \"poor relief authority\"\n    }\n  ],\n  \"sameAs\": \"\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per-Erik Albert Bergstrand",
+        "jobTitle": "Dentist",
+        "birthDate": "1886-08-02",
+        "birthPlace": "Långasjö, Kronob",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Per Magnus B."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Hammargren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Neander",
+            "marriageDate": "191x"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnel",
+                "birthDate": "1913"
+            },
+            {
+                "@type": "Person",
+                "name": "Sophiasyster"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig",
+                "birthDate": "1915",
+                "education": [
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "credentialCategory": "medical licentiate"
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1918"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "tandhkand.",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Mog:ex.",
+                    "location": "Växjö",
+                    "startDate": "1907",
+                    "endDate": "1907"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "elev",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "apot. Göta Lejon",
+                    "location": "Karlskrona",
+                    "startDate": "1907",
+                    "endDate": "1908"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "tandl.",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "unknown institution",
+                    "location": "unknown location",
+                    "startDate": "1909",
+                    "endDate": "1911"
+                }
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Karlskrona kustart :reg.",
+                "department": "dental clinic",
+                "startDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Oskarshamn",
+                "department": "school dentistry"
+            },
+            {
+                "@type": "Organization",
+                "name": "Oskarshamn",
+                "department": "health authority"
+            },
+            {
+                "@type": "Organization",
+                "name": "Oskarshamn",
+                "department": "poor relief authority"
+            }
+        ],
+        "sameAs": ""
+    }
+}

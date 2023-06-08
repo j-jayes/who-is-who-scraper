@@ -1,0 +1,90 @@
+{
+    "original": "Ericstam, Per Göte, tandläkare, Borås’, f. 20/1/11 i Ransäter, Värm-l i., av pastor Eric E. o. Emerentia As-penberg. G. 38 m. Mary Helena Or-stadius. Barn: Jan-Åke f. 38, Per-Erik 42, Björn 45. •—• Stud:ex. i Borås 29, ^andl :kand. 31, tandiäk. 33. As-sist. i Falkenberg 33-34, praktik i Borås •sed. 34.",
+    "translated": "Ericstam, Per Göte, dentist in Borås, born on January 20, 1911 in Ransäter, Värmland county, son of pastor Eric E. and Emerentia Aspenberg. Married in 1938 to Mary Helena Orstadius. Children: Jan-Åke (born in 1938), Per-Erik (born in 1942), Björn (born in 1945). He completed his secondary education in Borås in 1929, graduated from dental school in 1931, and became a licensed dentist in 1933. He worked as an assistant in Falkenberg from 1933 to 1934, and then started his own practice in Borås.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Göte Ericstam\",\n  \"birthDate\": \"1911-01-20\",\n  \"birthPlace\": \"Ransäter, Värmland\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Private Practice\"\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric E. Ericstam\",\n    \"jobTitle\": \"Pastor\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emerentia Aspenberg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mary Helena Orstadius\",\n    \"marriageDate\": \"1938-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan-Åke Ericstam\",\n      \"birthDate\": \"1938-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Erik Ericstam\",\n      \"birthDate\": \"1942-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn Ericstam\",\n      \"birthDate\": \"1945-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary education\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"awardDate\": \"1929-01-01\",\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Borås School\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental degree\",\n      \"educationalLevel\": \"Professional\",\n      \"awardDate\": \"1931-01-01\",\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental School\"\n      }\n    },\n    {\n      \"@type\": \"OccupationalExperience\",\n      \"name\": \"Dental assistant\",\n      \"startDate\": \"1933-01-01\",\n      \"endDate\": \"1934-01-01\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Falkenberg Dental Office\"\n      }\n    },\n    {\n      \"@type\": \"OccupationalExperience\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1934-01-01\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Private Practice\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Göte Ericstam",
+        "birthDate": "1911-01-20",
+        "birthPlace": "Ransäter, Värmland",
+        "nationality": "Swedish",
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Private Practice"
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Eric E. Ericstam",
+            "jobTitle": "Pastor"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Emerentia Aspenberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Mary Helena Orstadius",
+            "marriageDate": "1938-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan-Åke Ericstam",
+                "birthDate": "1938-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Per-Erik Ericstam",
+                "birthDate": "1942-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn Ericstam",
+                "birthDate": "1945-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary education",
+                "educationalLevel": "SecondaryEducation",
+                "awardDate": "1929-01-01",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "Borås School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental degree",
+                "educationalLevel": "Professional",
+                "awardDate": "1931-01-01",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "Dental School"
+                }
+            },
+            {
+                "@type": "OccupationalExperience",
+                "name": "Dental assistant",
+                "startDate": "1933-01-01",
+                "endDate": "1934-01-01",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Falkenberg Dental Office"
+                }
+            },
+            {
+                "@type": "OccupationalExperience",
+                "name": "Dentist",
+                "startDate": "1934-01-01",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Private Practice"
+                }
+            }
+        ]
+    }
+}

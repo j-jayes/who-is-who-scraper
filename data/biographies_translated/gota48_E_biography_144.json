@@ -1,0 +1,125 @@
+{
+    "original": "Ekman, Hans, leg. läkare, Göteborg, f. 20/11/08 i Sthlm av bankdir. Carl Gotthard E. o. Alma Sofia Bergström. — Stud:ex. 27, med. kand. 31 o. med. lic. 36, allt i Sthlm. E. o. und :läk. v. Seraf:las. kir. klin. 35 o. 36, tf. andre und:läk. v.’ Östersunds las. kir. avd. tre mån. samma tid, tf. proviläk. i Melleruds o. Stegeborgs distr. tre mån., auskultant v. Sabbatsb. sjukh. kir. avd. 37, vik. und :làk. v. las. i Årjäng, Ljungby o. Visby tills, fyra mån. 37-38, andre und:läk. v. Västerviks las. 38-41, und:läk. v. Hälsingborgs las. kir. avd. 41-45, undiläk. v. Sahlgr. sjukh. kir. avd. sed. 45.",
+    "translated": "Ekman, Hans, MD, Gothenburg, b. 20/11/08 in Stockholm to bank director Carl Gotthard E. and Alma Sofia Bergström. - Passed Student Exam in 1927, Medical Candidate in 1931, and Medical Licentiate in 1936, all in Stockholm. E.o. and Junior Doctor at Seraf:las. surgical clinic in 1935 and 1936, Acting Assistant Junior Doctor at the surgical department of Östersunds hospital for three months during the same time, Acting Assistant District Physician in Mellerud's and Stegeborg's districts for three months, Intern at Sabbatsberg hospital surgical department in 1937, Substitute Junior Doctor at hospitals in Årjäng, Ljungby, and Visby till, for four months in 1937-1938, Second Assistant Junior Doctor at Västervik's hospital from 1938-1941, Junior Doctor at Hälsingborg's hospital surgical department from 1941-1945, and Junior Doctor at Sahlgr. hospital surgical department since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hans Ekman\",\n  \"jobTitle\": \"Medical Doctor\",\n  \"birthDate\": \"1908-11-20\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Gotthard Ekman\",\n      \"jobTitle\": \"Bank Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma Sofia Bergström\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical Licentiate\",\n      \"eduThesis\": {\n        \"@type\": \"Thesis\",\n        \"name\": \"Thesis on Medical Studies\"\n      },\n      \"educationalLevel\": \"Medicine\",\n      \"awardingInstitution\": \"Stockholm University\",\n      \"dateReceived\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Student Exam\",\n      \"educationalLevel\": \"Secondary School\",\n      \"awardingInstitution\": \"Stockholm University\",\n      \"dateReceived\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical Candidate\",\n      \"educationalLevel\": \"Medicine\",\n      \"awardingInstitution\": \"Stockholm University\",\n      \"dateReceived\": \"1931\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Seraf:las Surgical Clinic\",\n      \"jobTitle\": \"Junior Doctor\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Östersunds Hospital\",\n      \"jobTitle\": \"Acting Assistant Junior Doctor\",\n      \"department\": \"Surgical Department\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sabbatsberg Hospital\",\n      \"jobTitle\": \"Intern\",\n      \"department\": \"Surgical Department\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Årjäng Hospital\",\n      \"jobTitle\": \"Substitute Junior Doctor\",\n      \"department\": \"General Medicine\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Ljungby Hospital\",\n      \"jobTitle\": \"Substitute Junior Doctor\",\n      \"department\": \"General Medicine\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Visby Hospital\",\n      \"jobTitle\": \"Substitute Junior Doctor\",\n      \"department\": \"General Medicine\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Västervik's Hospital\",\n      \"jobTitle\": \"Second Assistant Junior Doctor\",\n      \"department\": \"General Medicine\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Hälsingborg's Hospital\",\n      \"jobTitle\": \"Junior Doctor\",\n      \"department\": \"Surgical Department\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Sahlgr. Hospital\",\n      \"jobTitle\": \"Junior Doctor\",\n      \"department\": \"Surgical Department\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"givenName\": \"Hans\",\n  \"familyName\": \"Ekman\",\n  \"gender\": \"Male\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hans Ekman",
+        "jobTitle": "Medical Doctor",
+        "birthDate": "1908-11-20",
+        "birthPlace": "Stockholm, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl Gotthard Ekman",
+                "jobTitle": "Bank Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Sofia Bergström"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical Licentiate",
+                "eduThesis": {
+                    "@type": "Thesis",
+                    "name": "Thesis on Medical Studies"
+                },
+                "educationalLevel": "Medicine",
+                "awardingInstitution": "Stockholm University",
+                "dateReceived": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student Exam",
+                "educationalLevel": "Secondary School",
+                "awardingInstitution": "Stockholm University",
+                "dateReceived": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical Candidate",
+                "educationalLevel": "Medicine",
+                "awardingInstitution": "Stockholm University",
+                "dateReceived": "1931"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Seraf:las Surgical Clinic",
+                "jobTitle": "Junior Doctor",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Östersunds Hospital",
+                "jobTitle": "Acting Assistant Junior Doctor",
+                "department": "Surgical Department",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sabbatsberg Hospital",
+                "jobTitle": "Intern",
+                "department": "Surgical Department",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Årjäng Hospital",
+                "jobTitle": "Substitute Junior Doctor",
+                "department": "General Medicine",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Ljungby Hospital",
+                "jobTitle": "Substitute Junior Doctor",
+                "department": "General Medicine",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Visby Hospital",
+                "jobTitle": "Substitute Junior Doctor",
+                "department": "General Medicine",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Västervik's Hospital",
+                "jobTitle": "Second Assistant Junior Doctor",
+                "department": "General Medicine",
+                "startDate": "1938",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Hälsingborg's Hospital",
+                "jobTitle": "Junior Doctor",
+                "department": "Surgical Department",
+                "startDate": "1941",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Sahlgr. Hospital",
+                "jobTitle": "Junior Doctor",
+                "department": "Surgical Department",
+                "startDate": "1945"
+            }
+        ],
+        "givenName": "Hans",
+        "familyName": "Ekman",
+        "gender": "Male"
+    }
+}

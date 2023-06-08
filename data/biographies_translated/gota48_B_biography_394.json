@@ -1,0 +1,96 @@
+{
+    "original": "Blomberg, Ernst, tandläkare, Göteborg, f. 17/10/85 i Timrå, Västernorrl. 1., av disp. August B. o. Christine Wikström. G. 15 m. Mary Viktoria Hammarström. Barn: Lars-Henrik f. 16, med. lic., Upps., Mary-Anne 19, g. m. överste Xavier Sainz, Biarritz, Ragnar 22, stud., Carl-Otto 25, stud. — Mogiex. i Sundsvall 05, tandl :kand. 08, tandl. 10, Doctor of Dental Surgery v. Northv^estern Univ. i Chicago 11. Prakt, i Gbg sed. 11. Ordf. i Gbgs tandl :sällsk. 26. Hobbies : tennis, cyk-ling.",
+    "translated": "Blomberg, Ernst, dentist, Gothenburg, born October 17, 1885 in Timrå, Västernorrland, first child of August B. and Christine Wikström. Married on the 15th of a month in a year ending with \"15\" to Mary Viktoria Hammarström. Children: Lars-Henrik born in 1916, medical licentiate, Uppsala, Mary-Anne born in 1919, married to Colonel Xavier Sainz, Biarritz, Ragnar born in 1922, studying, and Carl-Otto born in 1925, studying. Graduated from Mogiex. in Sundsvall in 1905, studied dentistry and graduated in 1910, obtained Doctor of Dental Surgery degree from Northwestern University in Chicago in 1911. Practicing in Gothenburg since 1911. Chairman of the Gothenburg Dental Society in 1926. Hobbies: tennis, cycling.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Blomberg\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1885-10-17\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Timrå, Västernorrland\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August B. Blomberg\",\n      \"jobTitle\": \"Dispensary owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christine Wikström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mary Viktoria Hammarström\",\n    \"marriageDate\": \"YEAR-15-15\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Henrik Blomberg\",\n      \"birthDate\": \"1916\",\n      \"jobTitle\": \"Medical licentiate\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mary-Anne Blomberg\",\n      \"birthDate\": \"1919\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Colonel Xavier Sainz\",\n        \"jobTitle\": \"Colonel\",\n        \"affiliation\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Biarritz\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnar Blomberg\",\n      \"birthDate\": \"1922\",\n      \"jobTitle\": \"Student\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl-Otto Blomberg\",\n      \"birthDate\": \"1925\",\n      \"jobTitle\": \"Student\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Doctorate\",\n    \"educationalLevel\": \"Doctor of Dental Surgery\",\n    \"educationalCredentialAwarded\": \"Northwestern University\",\n    \"dateIssued\": \"1911\"\n  },\n  \"affiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Northwestern University\",\n    \"location\": \"Chicago\"\n  },\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Dental Society\",\n    \"startDate\": \"1926\"\n  },\n  \"sameAs\": \"example.com/ernst-blomberg\",\n  \"knowsAbout\": [\n    \"Tennis\",\n    \"Cycling\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Blomberg",
+        "jobTitle": "Dentist",
+        "birthDate": "1885-10-17",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Timrå, Västernorrland"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "August B. Blomberg",
+                "jobTitle": "Dispensary owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Christine Wikström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Mary Viktoria Hammarström",
+            "marriageDate": "YEAR-15-15"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars-Henrik Blomberg",
+                "birthDate": "1916",
+                "jobTitle": "Medical licentiate",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Mary-Anne Blomberg",
+                "birthDate": "1919",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Colonel Xavier Sainz",
+                    "jobTitle": "Colonel",
+                    "affiliation": {
+                        "@type": "Organization",
+                        "name": "Biarritz"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Ragnar Blomberg",
+                "birthDate": "1922",
+                "jobTitle": "Student"
+            },
+            {
+                "@type": "Person",
+                "name": "Carl-Otto Blomberg",
+                "birthDate": "1925",
+                "jobTitle": "Student"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Doctorate",
+            "educationalLevel": "Doctor of Dental Surgery",
+            "educationalCredentialAwarded": "Northwestern University",
+            "dateIssued": "1911"
+        },
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Northwestern University",
+            "location": "Chicago"
+        },
+        "workLocation": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Gothenburg Dental Society",
+            "startDate": "1926"
+        },
+        "sameAs": "example.com/ernst-blomberg",
+        "knowsAbout": [
+            "Tennis",
+            "Cycling"
+        ]
+    }
+}

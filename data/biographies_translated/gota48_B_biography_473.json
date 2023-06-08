@@ -1,0 +1,58 @@
+{
+    "original": "Bondeman, Olof (Olle) Fredrik Johan Valdemar, tandläkare, Jönköping, f. 16/8/07 i Nävelsjö, Jönköp. 1. G. 35 m. Anna Björk. Barn: Anders f. 37, Kristina 39. — Studiex. v. Jönköp. h. a. 1. 27, Cand. med. dent. i Berlin 29, tandläk. i Sthlm 32. Prakt, i Jönköp. sed. 32.",
+    "translated": "Bondeman, Olof (Olle) Fredrik Johan Valdemar, dentist, Jönköping, b. August 16th, 1907 in Nävelsjö, Jönköping. Married once, in 1935 to Anna Björk. Children: Anders b. 1937, Kristina b. 1939. He studied at Jönköping university beginning in 1927 and earned his degree in dentistry from Berlin University in 1929. He worked as a dentist in Stockholm from 1932 and began his own practice in Jönköping in 1932.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Fredrik Johan Valdemar Bondeman\",\n  \"givenName\": \"Olle\",\n  \"birthDate\": \"1907-08-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Nävelsjö, Jönköping\"\n  },\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Björk\",\n    \"marriageDate\": \"1935\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Bondeman\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Bondeman\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Jönköping University\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Berlin University\",\n      \"degreeName\": \"Doctor of Dental Medicine\",\n      \"degreeEarned\": \"true\",\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping\"\n  },\n  \"startDate\": \"1932\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Fredrik Johan Valdemar Bondeman",
+        "givenName": "Olle",
+        "birthDate": "1907-08-16",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Nävelsjö, Jönköping"
+        },
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Jönköping"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Björk",
+            "marriageDate": "1935"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Anders Bondeman",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Bondeman",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Jönköping University",
+                "startDate": "1927",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Berlin University",
+                "degreeName": "Doctor of Dental Medicine",
+                "degreeEarned": "true",
+                "startDate": "1929"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Jönköping"
+        },
+        "startDate": "1932"
+    }
+}

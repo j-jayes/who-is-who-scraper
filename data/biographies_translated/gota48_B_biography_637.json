@@ -1,0 +1,70 @@
+{
+    "original": "Bäckman, Gustaf August Natanael, stadskamrer, Amål, f. 26/5/90 i Bäck-seda, Jönköp. 1., av red. Aug. B. o. Augusta Lsakson. G. 23 m. Emy Som-mansson. Barn: Sven f. 25. — Sam-:sk. i Vetlanda, hand :.sk. där 16. Kom-m:kamrer i Vetlanda 12-18, istads-kamrer i Amål 18.",
+    "translated": "Bäckman, Gustaf August Natanael, town treasurer, from Amål, born on May 26, 1890 in Bäck-seda, Jönköp. County, son of editor Aug. B. and Augusta Lsakson. Married on March 23, 19xx to Emy Som-mansson. They had a son named Sven, born in 1925. Worked as a clerk in Vetlanda and as a merchant in the same town for 16 years. Became the deputy treasurer in Vetlanda from 1912-1918 and then became the town treasurer in Amål from 1918 onward.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf August Natanael Bäckman\",\n  \"birthDate\": \"1890-05-26\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Bäck-seda, Jönköp.\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Jönköping\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Aug. B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Lsakson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emy Som-mansson\",\n    \"marriageDate\": \"19xx-03-23\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Bäckman\",\n      \"birthDate\": \"1925\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Town Treasurer\",\n    \"Clerk\",\n    \"Merchant\",\n    \"Deputy Treasurer\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vetlanda\",\n      \"startDate\": \"19xx\",\n      \"endDate\": \"19xx\",\n      \"jobTitle\": \"Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vetlanda\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1918\",\n      \"jobTitle\": \"Deputy Treasurer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Amål\",\n      \"startDate\": \"1918\",\n      \"jobTitle\": \"Town Treasurer\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf August Natanael Bäckman",
+        "birthDate": "1890-05-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Bäck-seda, Jönköp.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jönköping",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Aug. B."
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Lsakson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Emy Som-mansson",
+            "marriageDate": "19xx-03-23"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Bäckman",
+                "birthDate": "1925"
+            }
+        ],
+        "jobTitle": [
+            "Town Treasurer",
+            "Clerk",
+            "Merchant",
+            "Deputy Treasurer"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Vetlanda",
+                "startDate": "19xx",
+                "endDate": "19xx",
+                "jobTitle": "Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vetlanda",
+                "startDate": "1912",
+                "endDate": "1918",
+                "jobTitle": "Deputy Treasurer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Amål",
+                "startDate": "1918",
+                "jobTitle": "Town Treasurer"
+            }
+        ]
+    }
+}

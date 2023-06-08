@@ -1,0 +1,112 @@
+{
+    "original": "Dahlberg, John Henrik Mauritz, tandläkare, Vänersborg, f. 22/2/90 i Karlstad av handl. Karl Paulus D. o. Hulda Löfgren. G. 17 m. Titi Gran. Barn: Gunhild f. 18. — Stud:ex. i Karlstad 10, tandl :kand. 13, tandläk. 17. Vik. i Karlstad 17, praktik i Vä-nersb. sed. s. å., mihtandl. v. Västg. reg. 23-27. Tandv:insp. f. Älvsb. 1. ■sed. 40, förest, f. folktandv. poliklin. i Vänersborg sed. 46.",
+    "translated": "Dahlberg, John Henrik Mauritz, dentist, from Vänersborg, born on February 22, 1890 in Karlstad to the merchant Karl Paulus D. and Hulda Löfgren. Married to Titi Gran since 1917 and they have one child, Gunhild, born in 1918. He completed his secondary education in Karlstad in 1910, graduated from dental school in 1913, and became a licensed dentist in 1917. He worked temporarily in Karlstad in 1917 before starting a private practice in Vänersborg in the same year, and also worked as a military dentist for the Västergötland regiment from 1923-1927. He was appointed dental inspector for Älvsborg County in 1940, and became the director of the public dental clinic in Vänersborg in 1946.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"John Henrik Mauritz Dahlberg\",\n   \"birthDate\":\"1890-02-22\",\n   \"birthPlace\":\"Karlstad\",\n   \"nationality\":\"Swedish\",\n   \"occupation\":\"Dentist\",\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Vänersborg\"\n   },\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Karl Paulus D.\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Hulda Löfgren\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Titi Gran\",\n      \"marriageDate\":\"1917\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Gunhild\",\n         \"birthDate\":\"1918\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"secondaryEducation\",\n         \"alumniOf\":\"Karlstad\",\n         \"endDate\":\"1910\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"dentalSchool\",\n         \"alumniOf\":\"Unknown\",\n         \"endDate\":\"1913\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"professionalLicense\",\n         \"awardingOrganization\":\"Unknown\",\n         \"dateIssued\":\"1917\"\n      }\n   ],\n   \"workExperience\":[\n      {\n         \"@type\":\"OrganizationRole\",\n         \"startDate\":\"1917\",\n         \"endDate\":\"Unknown\",\n         \"roleName\":\"Temporary Dentist\",\n         \"organization\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Karlstad\"\n         }\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"startDate\":\"1917\",\n         \"endDate\":\"Unknown\",\n         \"roleName\":\"Private Practice Dentist\",\n         \"organization\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Vänersborg\"\n         }\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"startDate\":\"1923\",\n         \"endDate\":\"1927\",\n         \"roleName\":\"Military Dentist\",\n         \"organization\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Västergötland Regiment\"\n         }\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"startDate\":\"1940\",\n         \"endDate\":\"Unknown\",\n         \"roleName\":\"Dental Inspector\",\n         \"organization\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Älvsborg County\"\n         }\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"startDate\":\"1946\",\n         \"endDate\":\"Unknown\",\n         \"roleName\":\"Public Dental Clinic Director\",\n         \"organization\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Vänersborg\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Henrik Mauritz Dahlberg",
+        "birthDate": "1890-02-22",
+        "birthPlace": "Karlstad",
+        "nationality": "Swedish",
+        "occupation": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vänersborg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Paulus D."
+            },
+            {
+                "@type": "Person",
+                "name": "Hulda Löfgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Titi Gran",
+            "marriageDate": "1917"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunhild",
+                "birthDate": "1918"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondaryEducation",
+                "alumniOf": "Karlstad",
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dentalSchool",
+                "alumniOf": "Unknown",
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "professionalLicense",
+                "awardingOrganization": "Unknown",
+                "dateIssued": "1917"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "Unknown",
+                "roleName": "Temporary Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Karlstad"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "Unknown",
+                "roleName": "Private Practice Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Vänersborg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1923",
+                "endDate": "1927",
+                "roleName": "Military Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Västergötland Regiment"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1940",
+                "endDate": "Unknown",
+                "roleName": "Dental Inspector",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Älvsborg County"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1946",
+                "endDate": "Unknown",
+                "roleName": "Public Dental Clinic Director",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Vänersborg"
+                }
+            }
+        ]
+    }
+}

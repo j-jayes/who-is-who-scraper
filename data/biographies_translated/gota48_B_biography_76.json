@@ -1,0 +1,93 @@
+{
+    "original": "Bengtson, Karl Åke, praktiserande läkare, Borås, f. 27/4/07 i Vingåker, Södermani. 1., av verkmäst. C. Th. B. o. Ida Sofia Ljungqvist. G. 40 m. Ester Brundin. Barn: Eva Marianne f. 44. — Stud:ex. 26, med. kand. 30 o. med. Hc. 36, alit i Upps. Assist :läk. v. Söderköp. las. 36-37, därund. und:läk. v. Mössebergs vintersanat. o. vatten-kuranst. 37-40, kort. förordn. å Maria o. Sabbatsb. sjukh. i Sthlm 41, prakt, läk. i Borås sed. 42.",
+    "translated": "Bengtson, Karl Åke, practicing physician, Borås, b. April 27th, 1907 in Vingåker, Södermani. 1st child of foreman C. Th. B. and Ida Sofia Ljungqvist. Married in 1940 to Ester Brundin. Children: Eva Marianne b. 1944. Education: high school graduate 1926, medical degree 1930, medical practicing license 1936, all from Uppsala. Assistant physician at Söderköping Hospital 1936-1937, then resident physician at Mösseberg Winter Sanatorium and Water Cure 1937-1940, briefly worked at Maria and Sabbatsberg Hospitals in Stockholm in 1941 before becoming a practicing physician in Borås from 1942 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Karl Åke\",\n  \"familyName\": \"Bengtson\",\n  \"jobTitle\": \"Practicing Physician\",\n  \"birthDate\": \"1907-04-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Vingåker\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Södermani\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. Th. B.\",\n      \"jobTitle\": \"Foreman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Sofia Ljungqvist\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ester Brundin\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Eva\",\n      \"familyName\": \"Marianne\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"degree\",\n    \"educationalLevel\": {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"High School Graduate\"\n    },\n    \"degreeName\": \"Medical Degree\",\n    \"degreeEarned\": {\n      \"@type\": \"EducationalOccupationalDegree\",\n      \"name\": \"Doctor of Medicine\"\n    },\n    \"alumniOf\": {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala\"\n    },\n    \"validFor\": {\n      \"@type\": \"Duration\",\n      \"value\": \"P0Y4M0D\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Hospital\",\n    \"name\": \"Borås\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Söderköping\"\n    },\n    {\n      \"@type\": \"MedicalClinic\",\n      \"name\": \"Mösseberg Winter Sanatorium and Water Cure\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Maria and Sabbatsberg\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"MedicalOccupation\",\n    \"name\": \"Assistant Physician\",\n    \"startDate\": \"1936-01-01\",\n    \"endDate\": \"1937-12-31\",\n    \"worksFor\": {\n      \"@type\": \"Hospital\",\n      \"name\": \"Söderköping\"\n    }\n  },\n  \"hasOccupation\": {\n    \"@type\": \"MedicalOccupation\",\n    \"name\": \"Resident Physician\",\n    \"startDate\": \"1937-01-01\",\n    \"endDate\": \"1940-12-31\",\n    \"worksFor\": {\n      \"@type\": \"MedicalClinic\",\n      \"name\": \"Mösseberg Winter Sanatorium and Water Cure\"\n    }\n  },\n  \"hasOccupation\": {\n    \"@type\": \"MedicalOccupation\",\n    \"name\": \"Practicing Physician\",\n    \"startDate\": \"1942-01-01\",\n    \"worksFor\": {\n      \"@type\": \"Hospital\",\n      \"name\": \"Borås\"\n    }\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Karl Åke",
+        "familyName": "Bengtson",
+        "jobTitle": "Practicing Physician",
+        "birthDate": "1907-04-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Vingåker",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Södermani"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "C. Th. B.",
+                "jobTitle": "Foreman"
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Sofia Ljungqvist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ester Brundin",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Eva",
+                "familyName": "Marianne",
+                "birthDate": "1944"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "educationalLevel": {
+                "@type": "DefinedTerm",
+                "name": "High School Graduate"
+            },
+            "degreeName": "Medical Degree",
+            "degreeEarned": {
+                "@type": "EducationalOccupationalDegree",
+                "name": "Doctor of Medicine"
+            },
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala"
+            },
+            "validFor": {
+                "@type": "Duration",
+                "value": "P0Y4M0D"
+            }
+        },
+        "worksFor": {
+            "@type": "Hospital",
+            "name": "Borås"
+        },
+        "workLocation": [
+            {
+                "@type": "Hospital",
+                "name": "Söderköping"
+            },
+            {
+                "@type": "MedicalClinic",
+                "name": "Mösseberg Winter Sanatorium and Water Cure"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Maria and Sabbatsberg"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "MedicalOccupation",
+            "name": "Practicing Physician",
+            "startDate": "1942-01-01",
+            "worksFor": {
+                "@type": "Hospital",
+                "name": "Borås"
+            }
+        }
+    }
+}

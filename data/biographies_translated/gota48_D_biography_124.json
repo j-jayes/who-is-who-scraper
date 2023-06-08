@@ -1,0 +1,117 @@
+{
+    "original": "Dyberg, Erik Ragnar, direktör, Jönköping, f. 24/9/07 i Nordmaling, Västerb. 1., av sågverksförvalt. E. E. D. o. Esther Edström. G. 34 m. Ann-Mari Jonsson. Barn: Gun f. 35, Ulla 38, Erik 42, Marianne 45. — Stud:ex. v. Umeå h. a. 1. 25, Schartaus hand:-inst. 26-27. Föret, ett flert. res..t. olika europ. länder. Anst. i Sthlms Ensk. Bank 27-31, i Banque des Pays du Nord i Paris 28-29, v. Sv. Tändst. A-B i Jönköp. sed. 31, chef f. dess finans-avd. sed. 46. Hobbies: golf, bridge.",
+    "translated": "Dyberg, Erik Ragnar, Director, Jönköping, born on September 24th, 1907 in Nordmaling, Västerbotten, the first child of the sawmill management team E.E.D. and Esther Edström. Married in 1934 to Ann-Mari Jonsson and has four children: Gun, born in 1935, Ulla in 1938, Erik in 1942, and Marianne in 1945. He attended Umeå high school, graduating in 1925, then Schartau's business institute in 1926-27. He worked in several European countries before joining Stockholm's Enskilda Bank from 1927 to 1931, Banque des Pays du Nord in Paris from 1928 to 1929, and then Swedish Match A-B in Jönköping since 1931. He became the head of its finance department in 1946. His hobbies include golfing and playing bridge.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Ragnar Dyberg\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1907-09-24\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Nordmaling, Västerbotten\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"E.E.D. Dyberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Esther Edström\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Mari Jonsson\",\n      \"dateMarried\": \"1934\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gun Dyberg\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Dyberg\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Dyberg\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Dyberg\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Umeå High School\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Schartau's Business Institute\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm's Enskilda Bank\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Banque des Pays du Nord\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Paris\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Match A-B\",\n      \"startDate\": \"1931\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Jönköping\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Head of Finance Department\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"sameAs\": [\n    {\n      \"url\": \"https://en.wikipedia.org/wiki/Erik_Ragnar_Dyberg\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Golf Player\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Bridge Player\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Ragnar Dyberg",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "title": "Head of Finance Department",
+                "startDate": "1946"
+            }
+        ],
+        "birthDate": "1907-09-24",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Nordmaling, Västerbotten"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "E.E.D. Dyberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Esther Edström"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Ann-Mari Jonsson",
+                "dateMarried": "1934"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gun Dyberg",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Dyberg",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Erik Dyberg",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Dyberg",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Umeå High School",
+                "startDate": "1925",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Schartau's Business Institute",
+                "startDate": "1926",
+                "endDate": "1927"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Stockholm's Enskilda Bank",
+                "startDate": "1927",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Banque des Pays du Nord",
+                "startDate": "1928",
+                "endDate": "1929",
+                "location": {
+                    "@type": "Place",
+                    "name": "Paris"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Match A-B",
+                "startDate": "1931",
+                "location": {
+                    "@type": "Place",
+                    "name": "Jönköping"
+                }
+            }
+        ],
+        "sameAs": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Erik_Ragnar_Dyberg"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Golf Player"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Bridge Player"
+            }
+        ]
+    }
+}

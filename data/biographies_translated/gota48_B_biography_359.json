@@ -1,0 +1,96 @@
+{
+    "original": "Björnberg, Emil Richard, kapten, Göteborg, f, 7/2/84 i Lidköp. av läro-v:adj. i Skara Jonas Emil Teodor B. o. Lina Larsson. G. 17 m. Gunborg Thehn. Barn: Kerstin f. 19, kont:-bitr., Sthlm, Gunnar 21, civ:ekonom, Norrköp. — Stud:ex. i Skara 04. Und:löjtn. i Hall. reg. 06, löjtn. 11, kapt. 21, i res. sed. 34. Anst. v. För-säkr. A-B Hansas Gbgskont. sed. 27, chef där sed. 30. RSO.",
+    "translated": "Björnberg, Emil Richard, Captain, Gothenburg, born on February 7th, 1884 in Lidköping. Son of the teaching assistant in Skara, Jonas Emil Teodor B. and Lina Larsson. Married to Gunborg Thehn in 1917. Children: Kerstin, born in 1919, employed as an office clerk in Stockholm, and Gunnar, born in 1921, a business economist in Norrköping. Emil Richard Björnberg graduated from high school in Skara in 1904. He served as a second lieutenant in the Halland Regiment from 1906, and was promoted to lieutenant in 1911 and to captain in 1921. He was in the reserves from 1934. From 1927, he was employed at the insurance company För-säkr. A-B Hansas' Gothenburg office, where he became the head of the office in 1930. He was awarded the Royal Order of the Seraphim (RSO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Emil Richard Björnberg\",\n  \"jobTitle\": \"Captain\",\n  \"birthPlace\": \"Lidköping, Sweden\",\n  \"birthDate\": \"1884-02-07\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jonas Emil Teodor Björnberg\",\n      \"jobTitle\": \"Teaching Assistant in Skara\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lina Larsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunborg Thehn\",\n    \"marriageDate\": \"1917\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1919\",\n      \"jobTitle\": \"Office Clerk in Stockholm\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1921\",\n      \"jobTitle\": \"Business Economist in Norrköping\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex\",\n    \"educationalLevel\": \"High School\",\n    \"educationalCredentialAwarded\": \"Stud:ex\",\n    \"awardingInstitution\": \"Skara\",\n    \"alumniOf\": \"Skara\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\",\n      \"roleName\": \"Employee\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"För-säkr. A-B Hansas Gbgskont.\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1930\",\n      \"roleName\": \"Head of the Gothenburg Office\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"För-säkr. A-B Hansas Gbgskont.\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Halland Regiment\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of the Seraphim\",\n    \"description\": \"One of the Royal Orders of Sweden\",\n    \"category\": \"Civic\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Emil Richard Björnberg",
+        "jobTitle": "Captain",
+        "birthPlace": "Lidköping, Sweden",
+        "birthDate": "1884-02-07",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Jonas Emil Teodor Björnberg",
+                "jobTitle": "Teaching Assistant in Skara"
+            },
+            {
+                "@type": "Person",
+                "name": "Lina Larsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunborg Thehn",
+            "marriageDate": "1917"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1919",
+                "jobTitle": "Office Clerk in Stockholm"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1921",
+                "jobTitle": "Business Economist in Norrköping"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex",
+            "educationalLevel": "High School",
+            "educationalCredentialAwarded": "Stud:ex",
+            "awardingInstitution": "Skara",
+            "alumniOf": "Skara"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": "1930",
+                "roleName": "Employee",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "För-säkr. A-B Hansas Gbgskont.",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1930",
+                "roleName": "Head of the Gothenburg Office",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "För-säkr. A-B Hansas Gbgskont.",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Halland Regiment",
+                "startDate": "1906",
+                "endDate": "1934"
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "Royal Order of the Seraphim",
+            "description": "One of the Royal Orders of Sweden",
+            "category": "Civic"
+        }
+    }
+}

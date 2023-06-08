@@ -1,0 +1,93 @@
+{
+    "original": "Calvert, Axel Frederick William, direktör, Göteborg, f. 9/9/82 i Gbg av James C. o. Flora Grosse. G. 21 m. Viveka Rosencrantz. Barn: Greger f. 22, stud., Hillevi 24, scriptgirl i Europa Fiim, Sthlm, Madeleine 26. — Prakt. o. stud. i Engl. o. Tyskl. Förest. f. Billeruds sulfitfabr. 05-07, anst. v. A-B Calvert &amp; Co. i Gbg sed. 08, verkst. dir. där sed. 23. Medl. av SFMK sed. 21.",
+    "translated": "Calvert, Axel Frederick William, director, Gothenburg, born on September 9, 1882 in Gothenburg to James C. and Flora Grosse. Married in 1921 to Viveka Rosencrantz. Children: Greger, born in 1922 and a student, Hillevi, born in 1924 and a scriptgirl in Europa Film in Stockholm, Madeleine, born in 1926. Practiced and studied in England and Germany. Was a manager for Billerud's sulfite factory from 1905 to 1907, then employed by A-B Calvert &amp; Co. in Gothenburg starting in 1908, and became the executive director there in 1923. Was a member of the SFMK from 1921.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Frederick William Calvert\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1882-09-09\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"James C. Calvert\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Flora Grosse\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Viveka Rosencrantz\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Greger Calvert\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hillevi Calvert\",\n      \"birthDate\": \"1924\",\n      \"jobTitle\": \"Scriptgirl\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Europa Film\",\n        \"location\": {\n          \"@type\": \"Place\",\n          \"name\": \"Stockholm\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Madeleine Calvert\",\n      \"birthDate\": \"1926\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"England\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Germany\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Billerud's sulfite factory\",\n      \"startDate\": \"1905\",\n      \"endDate\": \"1907\",\n      \"jobTitle\": \"Manager\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Calvert & Co.\",\n      \"startDate\": \"1908\",\n      \"jobTitle\": \"Employee\",\n      \"endDate\": \"1923\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Executive Director\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SFMK\",\n      \"startDate\": \"1921\",\n      \"jobTitle\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Frederick William Calvert",
+        "jobTitle": "Director",
+        "birthDate": "1882-09-09",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "James C. Calvert"
+            },
+            {
+                "@type": "Person",
+                "name": "Flora Grosse"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Viveka Rosencrantz",
+            "marriageDate": "1921"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Greger Calvert",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Hillevi Calvert",
+                "birthDate": "1924",
+                "jobTitle": "Scriptgirl",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Europa Film",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Stockholm"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Madeleine Calvert",
+                "birthDate": "1926"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "England"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Germany"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Billerud's sulfite factory",
+                "startDate": "1905",
+                "endDate": "1907",
+                "jobTitle": "Manager"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Calvert & Co.",
+                "startDate": "1908",
+                "jobTitle": "Employee",
+                "endDate": "1923",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Executive Director"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "SFMK",
+                "startDate": "1921",
+                "jobTitle": "Member"
+            }
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "original": "Bäckström, John Stellan, tandläkare, Borås, f. 21/9/95 i Kristianstad av musikfanj. C. O. Bäckström o. Hilma Möller. G. 20 m. Gurli Eliasen. Barn: Gudrun f. 21, tandläk., Karl-Fredrik 22, d. 29, Sven-Eric 23, Glaes-Göran 26, Stina 36. — Stud:ex. i Ystad 14, tandhkand. 15, tandläk. 17. Praktik i Höganäs 17-18, assist, i Kristianstad 18-19, praktik i Borås -sed. 19.",
+    "translated": "Bäckström, John Stellan, dentist, Borås, born on September 21, 1895 in Kristianstad, son of musician C.O. Bäckström and Hilma Möller. Married to Gurli Eliasen in 1920. Children: Gudrun, born in 1921 and also a dentist, Karl-Fredrik born in 1922 and deceased in 1929, Sven-Eric born in 1923, Glaes-Göran born in 1926, and Stina born in 1936. Studied in Ystad and graduated in 1914. Passed dental exams in 1915 and became a certified dentist in 1917. Practiced in Höganäs from 1917 to 1918, served as an assistant in Kristianstad from 1918 to 1919, and practiced in Borås from 1919 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Stellan Bäckström\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Kristianstad, Sweden\",\n  \"birthDate\": \"1895-09-21\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.O. Bäckström\",\n      \"jobTitle\": \"Musician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Möller\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gurli Eliasen\",\n    \"marriageDate\": \"1920\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun Bäckström\",\n      \"birthDate\": \"1921\",\n      \"jobTitle\": \"Dentist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Fredrik Bäckström\",\n      \"birthDate\": \"1922\",\n      \"deathDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven-Eric Bäckström\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Glaes-Göran Bäckström\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stina Bäckström\",\n      \"birthDate\": \"1936\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Ystad\",\n      \"issueDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalCredentialAwarded\": \"Tandhkand.\",\n      \"issueDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalCredentialAwarded\": \"Tandläk.\",\n      \"issueDate\": \"1917\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Höganäs\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1918\",\n      \"jobTitle\": \"Dentist, Practitioner\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kristianstad\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\",\n      \"jobTitle\": \"Dentist, Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås\",\n      \"startDate\": \"1919\",\n      \"jobTitle\": \"Dentist, Practitioner\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Stellan Bäckström",
+        "jobTitle": "Dentist",
+        "birthPlace": "Kristianstad, Sweden",
+        "birthDate": "1895-09-21",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "C.O. Bäckström",
+                "jobTitle": "Musician"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Möller"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gurli Eliasen",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gudrun Bäckström",
+                "birthDate": "1921",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl-Fredrik Bäckström",
+                "birthDate": "1922",
+                "deathDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven-Eric Bäckström",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Glaes-Göran Bäckström",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Stina Bäckström",
+                "birthDate": "1936"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": "Ystad",
+                "issueDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "Tandhkand.",
+                "issueDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "Tandläk.",
+                "issueDate": "1917"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Höganäs",
+                "startDate": "1917",
+                "endDate": "1918",
+                "jobTitle": "Dentist, Practitioner"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kristianstad",
+                "startDate": "1918",
+                "endDate": "1919",
+                "jobTitle": "Dentist, Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås",
+                "startDate": "1919",
+                "jobTitle": "Dentist, Practitioner"
+            }
+        ]
+    }
+}

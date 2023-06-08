@@ -1,0 +1,90 @@
+{
+    "original": "Björtin, John Gustaf Stig, leg. tandläkare, Skara, f. 13/11/16 i Ulricehamn. G. 42 m. Anna-Margareta Haglund. Barn: Ulla f. 46. — Tand-läk :ex. 42. Anst. i Gbg 43, Jönköp. 44, Växjö 45, eg. praktik i Skara fr. 45.",
+    "translated": "Björtin, John Gustaf Stig, certified dentist, from Skara, born on November 13, 1916, in Ulricehamn. Married in 1942 to Anna-Margareta Haglund. They have one child, Ulla, born in 1946. He received his dental certification in 1942 and was employed in Gothenburg in 1943, Jönköping in 1944, Växjö in 1945. He established his own practice in Skara by 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Gustaf Stig Björtin\",\n  \"birthDate\": \"1916-11-13\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Ulricehamn\",\n    \"inLocation\": {\n      \"@type\": \"State\",\n      \"name\": \"Västra Götaland\"\n    },\n    \"inCountry\": {\n      \"@type\": \"Country\",\n      \"name\": \"Sweden\"\n    }\n  },\n  \"jobTitle\": \"Certified Dentist\",\n  \"memberOf\": \"Swedish Dental Association\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Margareta Haglund\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ulla\",\n    \"birthDate\": \"1946\"\n  },\n  \"educationCredentials\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Certificate\",\n    \"name\": \"Dental Certification\",\n    \"validFor\": {\n      \"@type\": \"Duration\",\n      \"name\": \"Indefinite\"\n    },\n    \"educationalLevel\": \"Certification\",\n    \"recognizedBy\": \"Swedish National Board of Health and Welfare\",\n    \"dateIssued\": \"1942\"\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Employed Dentist\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1945\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Dental Clinic\"\n      },\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Employed Dentist\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping Dental Clinic\"\n      },\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Jönköping\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist with Own Practice\",\n      \"startDate\": \"1945\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Björtin Dental Clinic\"\n      },\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Skara\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Gustaf Stig Björtin",
+        "birthDate": "1916-11-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Ulricehamn",
+            "inLocation": {
+                "@type": "State",
+                "name": "Västra Götaland"
+            },
+            "inCountry": {
+                "@type": "Country",
+                "name": "Sweden"
+            }
+        },
+        "jobTitle": "Certified Dentist",
+        "memberOf": "Swedish Dental Association",
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Margareta Haglund",
+            "marriageDate": "1942"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Ulla",
+            "birthDate": "1946"
+        },
+        "educationCredentials": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Certificate",
+            "name": "Dental Certification",
+            "validFor": {
+                "@type": "Duration",
+                "name": "Indefinite"
+            },
+            "educationalLevel": "Certification",
+            "recognizedBy": "Swedish National Board of Health and Welfare",
+            "dateIssued": "1942"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Employed Dentist",
+                "startDate": "1943",
+                "endDate": "1945",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Dental Clinic"
+                },
+                "location": {
+                    "@type": "City",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Employed Dentist",
+                "startDate": "1944",
+                "endDate": "1945",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Jönköping Dental Clinic"
+                },
+                "location": {
+                    "@type": "City",
+                    "name": "Jönköping"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist with Own Practice",
+                "startDate": "1945",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Björtin Dental Clinic"
+                },
+                "location": {
+                    "@type": "City",
+                    "name": "Skara"
+                }
+            }
+        ]
+    }
+}

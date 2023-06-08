@@ -1,0 +1,56 @@
+{
+    "original": "Engborn, Lars Gunnar, tandläkare, Göteborg, f. 8/4/20 i Gbg av överveter. Georg E. o. Greta Virgin. G. 46 m. Helfrid Lindros. — Stud:ex. v. Gbgs h. real 40, tandläk:ex. i Sthlm 44. Anst. v. folktandv. i Dingle 45, eg. prakt, i Gbg fr. 46.",
+    "translated": "Engborn, Lars Gunnar, dentist, Gothenburg, born April 8, 1920 in Gothenburg to veteran George E. and Greta Virgin. Married in 1946 to Helfrid Lindros. Graduated from Gothenburg Secondary School in 1940 and received his dental degree in Stockholm in 1944. Employed by public dental care in Dingle in 1945, established his own practice in Gothenburg from 1946 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Lars Gunnar\",\n  \"familyName\": \"Engborn\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1920-04-08\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Georg\",\n    \"familyName\": \"Virgin\",\n    \"description\": \"Veteran\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Greta\",\n    \"familyName\": \"Virgin\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Helfrid\",\n    \"familyName\": \"Lindros\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Secondary School\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm Dental School\",\n      \"endDate\": \"1944\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Public Dental Care in Dingle\",\n    \"startDate\": \"1945\",\n    \"endDate\": \"1946\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1946\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Lars Gunnar",
+        "familyName": "Engborn",
+        "jobTitle": "Dentist",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gothenburg"
+        },
+        "birthDate": "1920-04-08",
+        "father": {
+            "@type": "Person",
+            "givenName": "Georg",
+            "familyName": "Virgin",
+            "description": "Veteran"
+        },
+        "mother": {
+            "@type": "Person",
+            "givenName": "Greta",
+            "familyName": "Virgin"
+        },
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Helfrid",
+            "familyName": "Lindros"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Secondary School",
+                "endDate": "1940"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm Dental School",
+                "endDate": "1944"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Public Dental Care in Dingle",
+            "startDate": "1945",
+            "endDate": "1946"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1946"
+        }
+    }
+}

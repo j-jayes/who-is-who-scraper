@@ -1,0 +1,86 @@
+{
+    "original": "Dahlbring, Carl Ivar, bankdirektör, Falkenberg, f. 29/7/95 i Vinberg, Hall. 1. G. 22 m. Elsa Fohrman. Barn: Gunvor f. 24, Mona 27, Göran 32. — Stud:ex. 15. Anst. v. A-B Gbgs Banks avd :kont. i Falkenberg 17, förest, f. kont. i Ullared o. Älvsered 17, kont:-förest. i Smålandsstenar 25, kamr. i Karlstad 35, kont :förest. o. kamr. i Laholm 36, i Falkenberg sed. 41, även förest, f. kont. i Ullared.",
+    "translated": "Dahlbring, Carl Ivar, bank director, Falkenberg, b. 29/7/95 in Vinberg, Halland. Married on 22/xx/xx to Elsa Fohrman. Children: Gunvor b. 1924, Mona b. 1927, Göran b. 1932. — Completed secondary school in 1915. Employed by A-B Gbgs Bank's branch office in Falkenberg in 1917, became head of the office in Ullared and Älvsered in 1917, head of the office in Smålandsstenar in 1925, cashier in Karlstad in 1935, head of the office and cashier in Laholm in 1936, in Falkenberg since 1941, also head of the office in Ullared.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\" : \"Person\",\n   \"name\": \"Carl Ivar Dahlbring\",\n   \"jobTitle\": \"Bank Director\",\n   \"birthPlace\": \"Vinberg, Halland\",\n   \"birthDate\": \"1895-07-29\",\n   \"spouse\": \"Elsa Fohrman\",\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gunvor Dahlbring\",\n         \"birthDate\": \"1924\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Mona Dahlbring\",\n         \"birthDate\": \"1927\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Göran Dahlbring\",\n         \"birthDate\": \"1932\"\n      }\n   ],\n   \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Secondary School\",\n      \"dateReceived\": \"1915\"\n   },\n   \"employmentHistory\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Gbgs Bank\",\n         \"location\": \"Falkenberg\",\n         \"startDate\": \"1917\",\n         \"endDate\": null,\n         \"jobTitle\": \"Branch Office Employee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Gbgs Bank\",\n         \"location\": \"Ullared and Älvsered\",\n         \"startDate\": \"1917\",\n         \"endDate\": \"1925\",\n         \"jobTitle\": \"Branch Office Head\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": null,\n         \"location\": \"Smålandsstenar\",\n         \"startDate\": \"1925\",\n         \"endDate\": \"1935\",\n         \"jobTitle\": \"Branch Office Head\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": null,\n         \"location\": \"Karlstad\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1936\",\n         \"jobTitle\": \"Cashier\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": null,\n         \"location\": \"Laholm\",\n         \"startDate\": \"1936\",\n         \"endDate\": \"1941\",\n         \"jobTitle\": \"Branch Office Head and Cashier\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": null,\n         \"location\": \"Falkenberg\",\n         \"startDate\": \"1941\",\n         \"endDate\": null,\n         \"jobTitle\": \"Branch Office Head\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl Ivar Dahlbring",
+        "jobTitle": "Bank Director",
+        "birthPlace": "Vinberg, Halland",
+        "birthDate": "1895-07-29",
+        "spouse": "Elsa Fohrman",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunvor Dahlbring",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Mona Dahlbring",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran Dahlbring",
+                "birthDate": "1932"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "Secondary School",
+            "dateReceived": "1915"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "A-B Gbgs Bank",
+                "location": "Falkenberg",
+                "startDate": "1917",
+                "endDate": null,
+                "jobTitle": "Branch Office Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Gbgs Bank",
+                "location": "Ullared and Älvsered",
+                "startDate": "1917",
+                "endDate": "1925",
+                "jobTitle": "Branch Office Head"
+            },
+            {
+                "@type": "Organization",
+                "name": null,
+                "location": "Smålandsstenar",
+                "startDate": "1925",
+                "endDate": "1935",
+                "jobTitle": "Branch Office Head"
+            },
+            {
+                "@type": "Organization",
+                "name": null,
+                "location": "Karlstad",
+                "startDate": "1935",
+                "endDate": "1936",
+                "jobTitle": "Cashier"
+            },
+            {
+                "@type": "Organization",
+                "name": null,
+                "location": "Laholm",
+                "startDate": "1936",
+                "endDate": "1941",
+                "jobTitle": "Branch Office Head and Cashier"
+            },
+            {
+                "@type": "Organization",
+                "name": null,
+                "location": "Falkenberg",
+                "startDate": "1941",
+                "endDate": null,
+                "jobTitle": "Branch Office Head"
+            }
+        ]
+    }
+}

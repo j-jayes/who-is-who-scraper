@@ -1,0 +1,99 @@
+{
+    "original": "Danielsson, Stig Nils Daniel, jur. kand., stadsfogde, Norrköping, f. 20/ 11/09 i Bankekind, Östergötl. 1., av godsäg. Henning D. o. Anna Andersson. G. 36 m. Karin Tyra Maria Lundborg. — Stud:ex. 28, jur. kand. 34. Tingstjg. i Sollentuna o. Färentu-na doms. 34-37, tjg. i Svea hovr. 37, e. fiskal i hovr. f. Övre Norrl. 38, stadsfogde i Norrköp. sed. 38, deläg. i Stegeborgs egend.",
+    "translated": "Danielsson, Stig Nils Daniel, graduated in law, city sheriff, Norrköping, born on November 20th, 1909 in Bankekind, Östergötland, eldest son of the landowner Henning D. and Anna Andersson. Married in 1936 to Karin Tyra Maria Lundborg. Graduated from highschool in 1928 and obtained his degree in law in 1934. Served as a magistrate in Sollentuna and Färentuna courts from 1934 to 1937, worked in Svea Court of Appeal in 1937, was a deputy prosecutor in the Court of Appeal of the Northern Region in 1938, and became the city sheriff of Norrköping in 1938. He was also a co-owner of Stegeborg estate.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Stig Nils Daniel Danielsson\",\n  \"birthDate\": \"1909-11-20\",\n  \"birthPlace\": \"Bankekind, Östergötland, Sweden\",\n  \"deathDate\": null,\n  \"deathPlace\": null,\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"City Sheriff\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stegeborgs egend\"\n    }\n  ],\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henning D. Danielsson\",\n      \"gender\": \"Male\",\n      \"jobTitle\": \"Landowner\",\n      \"nationality\": \"Swedish\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Andersson\",\n      \"gender\": \"Female\",\n      \"nationality\": \"Swedish\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Tyra Maria Lundborg\",\n    \"gender\": \"Female\",\n    \"nationality\": \"Swedish\",\n    \"marriageDate\": \"1936\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Diploma\",\n      \"educationalLevel\": \"High School\",\n      \"dateReceived\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"Bachelor's Degree in Law\",\n      \"dateReceived\": \"1934\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Role\",\n      \"jobTitle\": \"Magistrate\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1937\",\n      \"worksFor\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Sollentuna Court\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Färentuna Court\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Role\",\n      \"jobTitle\": \"Deputy Prosecutor\",\n      \"startDate\": \"1938\",\n      \"endDate\": null,\n      \"worksFor\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Court of Appeal of the Northern Region\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Role\",\n      \"jobTitle\": \"City Sheriff\",\n      \"startDate\": \"1938\",\n      \"endDate\": null,\n      \"worksFor\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Norrköping City\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Stig Nils Daniel Danielsson",
+        "birthDate": "1909-11-20",
+        "birthPlace": "Bankekind, Östergötland, Sweden",
+        "deathDate": null,
+        "deathPlace": null,
+        "nationality": "Swedish",
+        "jobTitle": [
+            {
+                "@type": "Role",
+                "jobTitle": "Magistrate",
+                "startDate": "1934",
+                "endDate": "1937",
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Sollentuna Court"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Färentuna Court"
+                    }
+                ]
+            },
+            {
+                "@type": "Role",
+                "jobTitle": "Deputy Prosecutor",
+                "startDate": "1938",
+                "endDate": null,
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Court of Appeal of the Northern Region"
+                    }
+                ]
+            },
+            {
+                "@type": "Role",
+                "jobTitle": "City Sheriff",
+                "startDate": "1938",
+                "endDate": null,
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Norrköping City"
+                    }
+                ]
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Stegeborgs egend"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Henning D. Danielsson",
+                "gender": "Male",
+                "jobTitle": "Landowner",
+                "nationality": "Swedish"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Andersson",
+                "gender": "Female",
+                "nationality": "Swedish"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Tyra Maria Lundborg",
+            "gender": "Female",
+            "nationality": "Swedish",
+            "marriageDate": "1936"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Diploma",
+                "educationalLevel": "High School",
+                "dateReceived": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "educationalLevel": "Bachelor's Degree in Law",
+                "dateReceived": "1934"
+            }
+        ]
+    }
+}

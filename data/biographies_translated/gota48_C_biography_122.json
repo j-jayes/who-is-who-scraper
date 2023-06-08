@@ -1,0 +1,98 @@
+{
+    "original": "Claus, Nils Georg Harald, tandläkare, Lidköping, f. 17/11/06 i Halmstad av Joel C. o. Olivia Extergren. G. 37 m. Gunvor Grath. Barn: Ann-Charlotte f. 41, Amelie 44. — Stud:ex. i Lillehammer, Norge, 27, tandl :kand. 30, tandläk. 32. Tf. assist, v. tandl inst. 32, vik. i Västervik 33, praktik i Lidköp. sed. s. å.",
+    "translated": "Claus, Nils Georg Harald, dentist, Lidköping, b. 17/11/06 in Halmstad to Joel C. and Olivia Extergren. Married in 1937 to Gunvor Grath. Children: Ann-Charlotte b. 1941, Amelie b. 1944. He finished secondary school in Lillehammer, Norway in 1927, graduated from dental school in 1930, and became a licensed dentist in 1932. Became a temporary assistant at the dental institute in 1932, worked as a substitute in Västervik in 1933, and started his own practice in Lidköping the same year.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Georg Harald Claus\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Halmstad\",\n  \"birthDate\": \"1906-11-17\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Joel C. Claus\",\n      \"relation\": \"father\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olivia Extergren\",\n      \"relation\": \"mother\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunvor Grath\",\n      \"dateMarried\": \"1937\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Charlotte\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amelie\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalEvent\",\n      \"name\": \"Secondary School\",\n      \"location\": \"Lillehammer, Norway\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalEvent\",\n      \"name\": \"Dental School\",\n      \"location\": \"Unknown\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalEvent\",\n      \"name\": \"Licensure as Dentist\",\n      \"location\": \"Unknown\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Temporary Assistant\",\n      \"alternateName\": \"Tf. assist\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental Institute\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Substitute\",\n      \"alternateName\": \"Vik.\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Place\",\n        \"name\": \"Västervik\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Dentist\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Place\",\n        \"name\": \"Lidköping\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Georg Harald Claus",
+        "jobTitle": "Dentist",
+        "birthPlace": "Halmstad",
+        "birthDate": "1906-11-17",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Joel C. Claus",
+                "relation": "father"
+            },
+            {
+                "@type": "Person",
+                "name": "Olivia Extergren",
+                "relation": "mother"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Gunvor Grath",
+                "dateMarried": "1937"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann-Charlotte",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Amelie",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalEvent",
+                "name": "Secondary School",
+                "location": "Lillehammer, Norway",
+                "startDate": "1927"
+            },
+            {
+                "@type": "EducationalEvent",
+                "name": "Dental School",
+                "location": "Unknown",
+                "startDate": "1930"
+            },
+            {
+                "@type": "EducationalEvent",
+                "name": "Licensure as Dentist",
+                "location": "Unknown",
+                "startDate": "1932"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Temporary Assistant",
+                "alternateName": "Tf. assist",
+                "startDate": "1932",
+                "endDate": "Unknown",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Dental Institute"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Substitute",
+                "alternateName": "Vik.",
+                "startDate": "1933",
+                "endDate": "Unknown",
+                "organization": {
+                    "@type": "Place",
+                    "name": "Västervik"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Dentist",
+                "startDate": "1933",
+                "endDate": "Unknown",
+                "organization": {
+                    "@type": "Place",
+                    "name": "Lidköping"
+                }
+            }
+        ]
+    }
+}

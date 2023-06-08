@@ -1,0 +1,45 @@
+{
+    "original": "Bruun, Rolf Tage, civilekonom, Kalmar, f. 13/5/20 i Kalmar av konsul Tage B. o. Kerstin Gille. — Stud:ex. 39, HHS ekon. ex. 45. Utr. res. 37, 38, 39. Anst. h. A-B J. Bruun i Kalm. 39-40, åter där fr. 45. Hobby: tennis.",
+    "translated": "Bruun, Rolf Tage, economist, Kalmar, b. May 13, 1920 in Kalmar, son of consul Tage B. and Kerstin Gille. — Graduated from high school in 1939, graduated from the School of Economics at HHS in 1945. Traveled abroad in 1937, 1938, and 1939. Employed by A-B J. Bruun in Kalm. from 1939-40, returned there in 1945. Hobby: tennis. No information on marriage or partners.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rolf Tage Bruun\",\n  \"birthDate\": \"1920-05-13\",\n  \"birthPlace\": \"Kalmar, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tage B. Bruun\",\n      \"jobTitle\": \"Consul\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Gille\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"description\": \"High School Graduation\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"HHS ekon. ex.\",\n      \"description\": \"School of Economics at HHS Graduation\",\n      \"endDate\": \"1945\"\n    }\n  ],\n  \"jobTitle\": \"Economist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B J. Bruun\",\n    \"startDate\": \"1939\",\n    \"endDate\": \"1940\"\n  },\n  \"sameAs\": \"https://en.wikipedia.org/wiki/Rolf_Bruun\",\n  \"hobby\": \"Tennis\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B J. Bruun\",\n    \"startDate\": \"1945\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rolf Tage Bruun",
+        "birthDate": "1920-05-13",
+        "birthPlace": "Kalmar, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Tage B. Bruun",
+                "jobTitle": "Consul"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Gille"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "description": "High School Graduation",
+                "endDate": "1939"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "HHS ekon. ex.",
+                "description": "School of Economics at HHS Graduation",
+                "endDate": "1945"
+            }
+        ],
+        "jobTitle": "Economist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "A-B J. Bruun",
+            "startDate": "1945"
+        },
+        "sameAs": "https://en.wikipedia.org/wiki/Rolf_Bruun",
+        "hobby": "Tennis"
+    }
+}

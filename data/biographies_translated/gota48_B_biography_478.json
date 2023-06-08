@@ -1,0 +1,116 @@
+{
+    "original": "Borelius, Aron Johan Teodor, intendent, Norrköping, f. 9/6/98 i Falun av kontr :prosten Carl Aron B. o. Gertrud Frank. G. 1. 24 m. As-trid Tornberg; 2. 35 m. EBsa Themner. — Fil. kand. i Lund 22, fil dic. 24, fil. dr 27. E. o. aman. v. Lunds univ. konstmus. 21-26, doc. i konst-hist. m. konstteori v. Lunds univ. sed. 27, int. v. Norrköp. mus. sed. 45. Lunds stud:kårs ordf. 23, led. av stadsfulim. i Lund 35-42 m. fl. komm. uppdr., landstingsman 35-42. Skr.: Johan Fredrik Höckert (27), upps. o. rec. i estet., relig. o. polit. ämnen i tidn. o. tidskr.",
+    "translated": "Borelius, Aron Johan Teodor was a superintendent in Norrköping, born on June 9th, 1898 in Falun to the priest Carl Aron B. and Gertrud Frank. He married twice - first in 1924 to Astrid Tornberg for 24 years, and then in 1935 to EBsa Themner for 35 years. He received his Bachelor's degree from Lund in 1922, his Master's degree in 1924, and his PhD in 1927. He served as assistant curator at the Lund University Art Museum from 1921-1926, lecturer in art history and theory at Lund University since 1927, and superintendent of the Norrköping museum since 1945. He was also the Chairman of the Lund Student Union in 1923, a member of the city council in Lund from 1935-1942, and a member of the county council from 1935-1942. He wrote several articles and reviews on aesthetic, religious, and political topics for newspapers and journals, including a book about Johan Fredrik Höckert in 1927.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Aron Johan Teodor Borelius\",\n   \"givenName\": \"Aron Johan Teodor\",\n   \"familyName\": \"Borelius\",\n   \"birthDate\": \"1898-06-09\",\n   \"birthPlace\": \"Falun\",\n   \"nationality\": \"Swedish\",\n   \"jobTitle\": \"Superintendent\",\n   \"worksFor\": \"Norrköping Museum\",\n   \"father\": {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Aron Borelius\",\n      \"jobTitle\": \"Priest\"\n   },\n   \"mother\": {\n      \"@type\": \"Person\",\n      \"name\": \"Gertrud Frank\"\n   },\n   \"spouse\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Astrid Tornberg\",\n         \"marriageDate\": \"1924-01-01\",\n         \"endDate\": \"1948-01-01\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"EBsa Themner\",\n         \"marriageDate\": \"1935-01-01\",\n         \"endDate\": \"1970-01-01\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Bachelor's degree\",\n         \"educationalLevel\": \"Bachelor\",\n         \"awardedBy\": \"Lund University\",\n         \"yearAwarded\": \"1922\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Master's degree\",\n         \"educationalLevel\": \"Master\",\n         \"awardedBy\": \"Lund University\",\n         \"yearAwarded\": \"1924\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"PhD\",\n         \"educationalLevel\": \"Doctoral\",\n         \"awardedBy\": \"Lund University\",\n         \"yearAwarded\": \"1927\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Lund Student Union\",\n         \"roleName\": \"Chairman\",\n         \"startDate\": \"1923\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Lund City Council\",\n         \"roleName\": \"Member\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"County Council\",\n         \"roleName\": \"Member\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1942\"\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Assistant Curator\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1926\",\n         \"namedPosition\": \"Lund University Art Museum\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Lecturer in Art History and Theory\",\n         \"startDate\": \"1927\",\n         \"endDate\": \"1945\",\n         \"namedPosition\": \"Lund University\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Superintendent\",\n         \"startDate\": \"1945\",\n         \"namedPosition\": \"Norrköping Museum\"\n      }\n   ],\n   \"citation\": {\n      \"@type\": \"Article\",\n      \"name\": \"Johan Fredrik Höckert\",\n      \"articleBody\": \"A book about Johan Fredrik Höckert in 1927\",\n      \"publisher\": {\n         \"@type\": \"Organization\",\n         \"name\": \"Unknown\"\n      },\n      \"datePublished\": \"1927\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aron Johan Teodor Borelius",
+        "givenName": "Aron Johan Teodor",
+        "familyName": "Borelius",
+        "birthDate": "1898-06-09",
+        "birthPlace": "Falun",
+        "nationality": "Swedish",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant Curator",
+                "startDate": "1921",
+                "endDate": "1926",
+                "namedPosition": "Lund University Art Museum"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Lecturer in Art History and Theory",
+                "startDate": "1927",
+                "endDate": "1945",
+                "namedPosition": "Lund University"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Superintendent",
+                "startDate": "1945",
+                "namedPosition": "Norrköping Museum"
+            }
+        ],
+        "worksFor": "Norrköping Museum",
+        "father": {
+            "@type": "Person",
+            "name": "Carl Aron Borelius",
+            "jobTitle": "Priest"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Gertrud Frank"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Astrid Tornberg",
+                "marriageDate": "1924-01-01",
+                "endDate": "1948-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "EBsa Themner",
+                "marriageDate": "1935-01-01",
+                "endDate": "1970-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree",
+                "educationalLevel": "Bachelor",
+                "awardedBy": "Lund University",
+                "yearAwarded": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master's degree",
+                "educationalLevel": "Master",
+                "awardedBy": "Lund University",
+                "yearAwarded": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "PhD",
+                "educationalLevel": "Doctoral",
+                "awardedBy": "Lund University",
+                "yearAwarded": "1927"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Lund Student Union",
+                "roleName": "Chairman",
+                "startDate": "1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lund City Council",
+                "roleName": "Member",
+                "startDate": "1935",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Council",
+                "roleName": "Member",
+                "startDate": "1935",
+                "endDate": "1942"
+            }
+        ],
+        "citation": {
+            "@type": "Article",
+            "name": "Johan Fredrik Höckert",
+            "articleBody": "A book about Johan Fredrik Höckert in 1927",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Unknown"
+            },
+            "datePublished": "1927"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "original": "Engellau, Gunnar Ludvig, civilingenjör, direktör, Trollhättan, f. 11/11/07 i Sthlm av adv. Ivar E. o. Hulda Lin-dequist. G. 33 m. Margit Höckert. Barn: John-Jakob f. 34, Christina 36, Birgitta 39, Margita 41, Caroline 43. — Stud :ex. v. norra real i Sthlm 26, utex. fr. KTH 31._ Anst. v. SJ hu-vudverkst. i Gbg, Örebro o. Sthlm 32-34, chef f. planerings- o. tidsstud:-avd. v. A-B Motala Verkst. 35-36, inköps- O’, försäljn :chef där 37-39, tekn. försäljn :chef v. Elektrolux i Sthlm o. Motala 39-43, verkst. dir. f. Sv. Flygmotor A-B ’S’ed. 43.",
+    "translated": "Engellau, Gunnar Ludvig, engineer, director, Trollhättan, born on November 11, 1907 in Stockholm to lawyer Ivar E. and Hulda Lindequist. Married in 1933 to Margit Höckert. Children: John-Jakob born in 1934, Christina in 1936, Birgitta in 1939, Margita in 1941, Caroline in 1943. Education: graduated from Norra Real in Stockholm in 1926, graduated from KTH in 1931. Employed at SJ main workshop in Gothenburg, Örebro, and Stockholm from 1932-1934, head of planning and time study department at A-B Motala Verkst. from 1935-1936, procurement and sales manager from 1937-1939, technical sales manager at Elektrolux in Stockholm and Motala from 1939-1943, managing director of Swedish Flygmotor A-B 'S'ed in 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Ludvig Engellau\",\n  \"birthDate\": \"1907-11-11\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Stockholm\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ivar E. Engellau\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hulda Lindequist\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Höckert\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John-Jakob Engellau\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Engellau\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Engellau\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margita Engellau\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Caroline Engellau\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"jobTitle\": \"Engineer, Director\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SJ Main Workshop\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Gothenburg\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Örebro\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Stockholm\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Motala Verkst.\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"department\": {\n        \"@type\": \"Department\",\n        \"name\": \"Planning and Time Study\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Elektrolux\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1943\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Stockholm\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Motala\"\n        }\n      ],\n      \"department\": {\n        \"@type\": \"Department\",\n        \"name\": \"Technical Sales\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Flygmotor A-B 'S'ed\",\n      \"startDate\": \"1943\",\n      \"jobTitle\": \"Managing Director\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Diploma\",\n      \"credentialSubject\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Stud\"\n      },\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norra Real, Stockholm\"\n      },\n      \"dateIssued\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"credentialSubject\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Engineering\"\n      },\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"KTH\"\n      },\n      \"dateIssued\": \"1931\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Ludvig Engellau",
+        "birthDate": "1907-11-11",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stockholm"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ivar E. Engellau"
+            },
+            {
+                "@type": "Person",
+                "name": "Hulda Lindequist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Höckert",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "John-Jakob Engellau",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Christina Engellau",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Engellau",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Margita Engellau",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Caroline Engellau",
+                "birthDate": "1943"
+            }
+        ],
+        "jobTitle": "Engineer, Director",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "SJ Main Workshop",
+                "startDate": "1932",
+                "endDate": "1934",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Gothenburg"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Örebro"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Stockholm"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Motala Verkst.",
+                "startDate": "1935",
+                "endDate": "1936",
+                "department": {
+                    "@type": "Department",
+                    "name": "Planning and Time Study"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Elektrolux",
+                "startDate": "1939",
+                "endDate": "1943",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Stockholm"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Motala"
+                    }
+                ],
+                "department": {
+                    "@type": "Department",
+                    "name": "Technical Sales"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Flygmotor A-B 'S'ed",
+                "startDate": "1943",
+                "jobTitle": "Managing Director"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Diploma",
+                "credentialSubject": {
+                    "@type": "DefinedTerm",
+                    "name": "Stud"
+                },
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Norra Real, Stockholm"
+                },
+                "dateIssued": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "credentialSubject": {
+                    "@type": "DefinedTerm",
+                    "name": "Engineering"
+                },
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "KTH"
+                },
+                "dateIssued": "1931"
+            }
+        ]
+    }
+}

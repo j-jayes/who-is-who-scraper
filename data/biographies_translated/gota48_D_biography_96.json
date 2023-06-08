@@ -1,0 +1,116 @@
+{
+    "original": "Deurell, Nils, bankdirektör, Norrköping, f. 2/3/90 i Katrineholm av stat:-skriv. Anders Enooh D. o. Thérèse Pettersson. G. 24 m. Stina Burman, d. 45. Barn: Agneta f. 25, g. m. löjtn. Kurt Berglund, Cecilia 27, Birgitta o. Sten 30. — Mogrex. 08. Anst. v. Södermani. Ensk. Bank 08, ord. tj :man 09, bokför, v. huv:kont. 15, sifferrev. 16, förest, f. reviavd. 18, kamr. o. styr:led. v. avd:kont. i Flen 26, jourhav. dir. i Södertälje 39-45, dito i Eskilstuna 45, jourhav. dir. v. Skand. Bankens avd:kont. i Norrköp. sed. 45. Godk. granskn:man, rev. i flera bol. o. komm. kassor. Medl. av Odd Fel-low. Hobby: segling.",
+    "translated": "Deurell, Nils, bank director, Norrköping, born on March 2, 1890 in Katrineholm to civil servant Anders Enooh D. and Thérèse Pettersson. Married on June 24, 19xx to Stina Burman, who died in 1945. Children: Agneta, born in 1925, married to Lieutenant Kurt Berglund, Cecilia, born in 1927, Birgitta and Sten, both born in 1930. Worked at Mogrex in 1908. Employed by Södermani. Enskilda Bank in 1908, became a regular employee in 1909, worked as a bookkeeper at the head office in 1915, in the accounting department in 1916, became head of the accounting department in 1918, became a colleague and board member of the department in Flen in 1926, was acting director in Södertälje from 1939 to 1945, was acting director in Eskilstuna in 1945, and acting director of the Skand. Bank's branch office in Norrköping since 1945. Approved auditor, auditor for several companies and municipal treasuries. Member of the Odd Fellow. Hobby: sailing.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Nils Deurell\",\n    \"jobTitle\": \"Bank Director\",\n    \"birthDate\": \"1890-03-02\",\n    \"birthPlace\": \"Katrineholm\",\n    \"nationality\": \"Swedish\",\n    \"father\": {\n        \"@type\": \"Person\",\n        \"name\": \"Anders Enooh D.\"\n    },\n    \"mother\": {\n        \"@type\": \"Person\",\n        \"name\": \"Thérèse Pettersson\"\n    },\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Stina Burman\",\n        \"deathDate\": \"1945\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Agneta\",\n            \"birthDate\": \"1925\",\n            \"spouse\": {\n                \"@type\": \"Person\",\n                \"name\": \"Kurt Berglund\",\n                \"jobTitle\": \"Lieutenant\"\n            }\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Cecilia\",\n            \"birthDate\": \"1927\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Birgitta\",\n            \"birthDate\": \"1930\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Sten\",\n            \"birthDate\": \"1930\"\n        }\n    ],\n    \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Odd Fellow\"\n    },\n    \"jobHistory\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Mogrex\",\n            \"startDate\": \"1908\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Södermani. Enskilda Bank\",\n            \"startDate\": \"1908\",\n            \"endDate\": \"1945\",\n            \"jobTitle\": \"Regular Employee\",\n            \"subOrganization\": {\n                \"@type\": \"Organization\",\n                \"name\": \"Head Office\",\n                \"jobTitle\": \"Bookkeeper\",\n                \"startDate\": \"1915\",\n                \"endDate\": \"1916\",\n                \"subOrganization\": {\n                    \"@type\": \"Organization\",\n                    \"name\": \"Accounting Department\",\n                    \"jobTitle\": \"Head of Accounting Department\",\n                    \"startDate\": \"1918\",\n                    \"colleague\": {\n                        \"@type\": \"Organization\",\n                        \"name\": \"Flen Department\",\n                        \"jobTitle\": \"Board Member\",\n                        \"startDate\": \"1926\"\n                    }\n                }\n            }\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Södertälje\",\n            \"startDate\": \"1939\",\n            \"endDate\": \"1945\",\n            \"jobTitle\": \"Acting Director\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Eskilstuna\",\n            \"startDate\": \"1945\",\n            \"jobTitle\": \"Acting Director\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Skand. Bank's Branch Office\",\n            \"startDate\": \"1945\",\n            \"jobTitle\": \"Acting Director\"\n        }\n    ],\n    \"additionalName\": \"Bankdirektör\",\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Norrköping\"\n    },\n    \"sameAs\": \"\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Deurell",
+        "jobTitle": "Bank Director",
+        "birthDate": "1890-03-02",
+        "birthPlace": "Katrineholm",
+        "nationality": "Swedish",
+        "father": {
+            "@type": "Person",
+            "name": "Anders Enooh D."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Thérèse Pettersson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Burman",
+            "deathDate": "1945"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1925",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Kurt Berglund",
+                    "jobTitle": "Lieutenant"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Cecilia",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Sten",
+                "birthDate": "1930"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Odd Fellow"
+        },
+        "jobHistory": [
+            {
+                "@type": "Organization",
+                "name": "Mogrex",
+                "startDate": "1908"
+            },
+            {
+                "@type": "Organization",
+                "name": "Södermani. Enskilda Bank",
+                "startDate": "1908",
+                "endDate": "1945",
+                "jobTitle": "Regular Employee",
+                "subOrganization": {
+                    "@type": "Organization",
+                    "name": "Head Office",
+                    "jobTitle": "Bookkeeper",
+                    "startDate": "1915",
+                    "endDate": "1916",
+                    "subOrganization": {
+                        "@type": "Organization",
+                        "name": "Accounting Department",
+                        "jobTitle": "Head of Accounting Department",
+                        "startDate": "1918",
+                        "colleague": {
+                            "@type": "Organization",
+                            "name": "Flen Department",
+                            "jobTitle": "Board Member",
+                            "startDate": "1926"
+                        }
+                    }
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Södertälje",
+                "startDate": "1939",
+                "endDate": "1945",
+                "jobTitle": "Acting Director"
+            },
+            {
+                "@type": "Organization",
+                "name": "Eskilstuna",
+                "startDate": "1945",
+                "jobTitle": "Acting Director"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skand. Bank's Branch Office",
+                "startDate": "1945",
+                "jobTitle": "Acting Director"
+            }
+        ],
+        "additionalName": "Bankdirektör",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
+        },
+        "sameAs": ""
+    }
+}

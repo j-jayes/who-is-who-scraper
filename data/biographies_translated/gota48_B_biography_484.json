@@ -1,0 +1,143 @@
+{
+    "original": "Borg, Stig Adolf, kommimisler, Stockaryd, f. 16/11/06 i Kalmar av Carl B. o. Sofie Brolin. — Stud:ex. i Kalm. 25, teol. fil. ex. i Lund 27, teol. kand. samt prakt. teol. prov 36, prästv. f. Växjö stift 37. Tj_g. s. pastradj. i Runsten, Köping o. Ljuder, v. kommin. i Torsås, v. pastor i Karlstorp o. Rogberga, pastorsadj. i Ryda-hodm, kyrkoadj. i Norrahammar 42, kommin. i Stockaryd sed. 43.",
+    "translated": "Borg, Stig Adolf was born on November 16, 1906 in Kalmar to Carl B. and Sofie Brolin. He graduated from Kalm. High School in 1925, received a degree in theology from Lund University in 1927, and completed his practical theological exam in 1936. He was ordained as a pastor for the Växjö diocese in 1937 and worked as a curate in Runsten, Köping, and Ljuder, as well as a curate in Torsås and a pastor in Karlstorp and Rogberga. He also served as a vicar in Ryda-hodm and as a church assistant in Norrahammar in 1942 before becoming a minister in Stockaryd in 1943. He married in the year of 19xx.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Stig Adolf Borg\",\n  \"birthDate\": \"1906-11-16\",\n  \"birthPlace\": \"Kalmar\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl B. Borg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofie Brolin\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationLevel\": \"High School\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Kalm.\"\n      },\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. fil. ex.\",\n      \"educationLevel\": \"University Degree\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. kand.\",\n      \"educationLevel\": \"Practical Theological Exam\",\n      \"endDate\": \"1936\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö Diocese\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Clergy\",\n    \"name\": \"Stockaryd\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Enter name here\",\n    \"marriageDate\": \"Enter date here\"\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Curate\",\n      \"startDate\": \"Enter date here\",\n      \"endDate\": \"Enter date here\",\n      \"location\": [\n        {\n          \"@type\": \"City\",\n          \"name\": \"Runsten\"\n        },\n        {\n          \"@type\": \"City\",\n          \"name\": \"Köping\"\n        },\n        {\n          \"@type\": \"City\",\n          \"name\": \"Ljuder\"\n        },\n        {\n          \"@type\": \"City\",\n          \"name\": \"Torsås\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Pastor\",\n      \"startDate\": \"Enter date here\",\n      \"endDate\": \"Enter date here\",\n      \"location\": [\n        {\n          \"@type\": \"City\",\n          \"name\": \"Karlstorp\"\n        },\n        {\n          \"@type\": \"City\",\n          \"name\": \"Rogberga\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"Enter date here\",\n      \"endDate\": \"Enter date here\",\n      \"location\": [\n        {\n          \"@type\": \"City\",\n          \"name\": \"Ryda-hodm\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Church Assistant\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"Enter date here\",\n      \"location\": [\n        {\n          \"@type\": \"City\",\n          \"name\": \"Norrahammar\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Minister\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"Enter date here\",\n      \"location\": [\n        {\n          \"@type\": \"City\",\n          \"name\": \"Stockaryd\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö Diocese\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Stig Adolf Borg",
+        "birthDate": "1906-11-16",
+        "birthPlace": "Kalmar",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl B. Borg"
+            },
+            {
+                "@type": "Person",
+                "name": "Sofie Brolin"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationLevel": "High School",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Kalm."
+                },
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex.",
+                "educationLevel": "University Degree",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "educationLevel": "Practical Theological Exam",
+                "endDate": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Växjö Diocese"
+            }
+        ],
+        "worksFor": {
+            "@type": "Clergy",
+            "name": "Stockaryd"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Enter name here",
+            "marriageDate": "Enter date here"
+        },
+        "jobTitle": [
+            {
+                "@type": "Clergy",
+                "name": "Curate",
+                "startDate": "Enter date here",
+                "endDate": "Enter date here",
+                "location": [
+                    {
+                        "@type": "City",
+                        "name": "Runsten"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Köping"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Ljuder"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Torsås"
+                    }
+                ]
+            },
+            {
+                "@type": "Clergy",
+                "name": "Pastor",
+                "startDate": "Enter date here",
+                "endDate": "Enter date here",
+                "location": [
+                    {
+                        "@type": "City",
+                        "name": "Karlstorp"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Rogberga"
+                    }
+                ]
+            },
+            {
+                "@type": "Clergy",
+                "name": "Vicar",
+                "startDate": "Enter date here",
+                "endDate": "Enter date here",
+                "location": [
+                    {
+                        "@type": "City",
+                        "name": "Ryda-hodm"
+                    }
+                ]
+            },
+            {
+                "@type": "Clergy",
+                "name": "Church Assistant",
+                "startDate": "1942",
+                "endDate": "Enter date here",
+                "location": [
+                    {
+                        "@type": "City",
+                        "name": "Norrahammar"
+                    }
+                ]
+            },
+            {
+                "@type": "Clergy",
+                "name": "Minister",
+                "startDate": "1943",
+                "endDate": "Enter date here",
+                "location": [
+                    {
+                        "@type": "City",
+                        "name": "Stockaryd"
+                    }
+                ]
+            }
+        ]
+    }
+}

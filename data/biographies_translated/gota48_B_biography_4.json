@@ -1,0 +1,49 @@
+{
+    "original": "Backer, Gunnar Daniel, civilingenjör, Göteborg, f. 21/11/94 i Tåsjö, Väs-ternorrl. 1. G. 27 m. Jenny Gustafsson. — Stud:ex. i Karlstad 14, avg:-ex. fr. KTH (K) 17. Anst. v. Gbgs patentbyrå, v. Jönköp. Benmjölsfabr., därefter patentomb :verksamh. i Gbg 23-27, inneh. egen patentbyrå i Gbg sed. 27.",
+    "translated": "Backer, Gunnar Daniel, engineer, Gothenburg, born November 21, 1894 in Tåsjö, Västernorrland. Married once, in 1927, to Jenny Gustafsson. He received his high school diploma in Karlstad in 1914, and his engineering degree from KTH (Royal Institute of Technology) in Stockholm in 1917. He was employed at Gothenburg's patent agency and then at Jönköping's bone meal factory, followed by patent office work in Gothenburg from 1923 to 1927. He ran his own patent agency in Gothenburg starting in 1927.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Daniel Backer\",\n  \"birthDate\": \"1894-11-21\",\n  \"birthPlace\": \"Tåsjö, Västernorrland\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Engineer\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg's patent agency\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping's bone meal factory\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"institution\": [\n      {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Karlstad\"\n      },\n      {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"KTH (Royal Institute of Technology)\"\n      }\n    ],\n    \"startDate\": \"1914\",\n    \"endDate\": \"1917\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jenny Gustafsson\",\n    \"marriageDate\": \"1927\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Own patent agency in Gothenburg\",\n    \"startDate\": \"1927\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Daniel Backer",
+        "birthDate": "1894-11-21",
+        "birthPlace": "Tåsjö, Västernorrland",
+        "nationality": "Swedish",
+        "occupation": "Engineer",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg's patent agency"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping's bone meal factory"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "institution": [
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Karlstad"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "KTH (Royal Institute of Technology)"
+                }
+            ],
+            "startDate": "1914",
+            "endDate": "1917"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Jenny Gustafsson",
+            "marriageDate": "1927"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Own patent agency in Gothenburg",
+            "startDate": "1927"
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "original": "Björk, Per Julius, överlärare, Slite, f. 16/8/98 i Härnösand. G. 21 m. Elna Nyberg. — Stud:ex. 17, folkskoll :ex. 19. Lär. v. Sandöverkens folksk. i Västern. 1. 19-22, i Roslingstorps folksk. i Örebro 1. 22-24, i Slite sed. 24, överlär. sed. 40, rektor f. Slite köp. skolor f. yrkesunderv. sed. 45, förest, f. Övre Othems föreläsn:fören., ordf. i Go’tl :krets. av Sv:es folkskoll :för-bund, i Gotl. länsikrets’ av SAF, i komm :sitäm!ma, led. av folikskoieistyr., f. d. led. av komm:nd o. komm:fuillm. m. fl. komm. insititutioner",
+    "translated": "Björk, Per Julius, head teacher, Slite, b.16/8/98 in Härnösand. Married in 1921 to Elna Nyberg. — Graduated from high school in 1917, and graduated from teaching college in 1919. Worked as a teacher at Sandöverkens primary school in Västern from 1919-1922, at Roslingstorps primary school in Örebro from 1922-1924, and in Slite from 1924. Became head teacher in 1940, and principal of Slite vocational schools from 1945. Also served as chairman of the Övre Ottem's lecture association, chairman of the Gotland district of the Swedish Primary School Association, chairman of the Gotland County SAF district, and as a member of various municipal institutions including the school board and local council.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Björk, Per Julius\",\n  \"birthDate\": \"1898-08-16\",\n  \"birthPlace\": \"Härnösand\",\n  \"jobTitle\": \"Head Teacher\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Övre Ottem's Lecture Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland District of the Swedish Primary School Association\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland County SAF District\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Institutions\",\n      \"roleName\": [\n        \"School Board Member\",\n        \"Local Council Member\"\n      ]\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elna Nyberg\",\n    \"marriageDate\": \"1921\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"credentialCategory\": \"exam\",\n      \"educationalLevel\": \"Secondary education\",\n      \"dateIssued\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teaching College Degree\",\n      \"credentialCategory\": \"exam\",\n      \"educationalLevel\": \"tertiary\",\n      \"dateIssued\": \"1919\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sandöverkens Primary School\",\n      \"address\": \"Västern\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Roslingstorps Primary School\",\n      \"address\": \"Örebro\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Slite\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1922\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sandöverkens Primary School\",\n        \"address\": \"Västern\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1924\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Roslingstorps Primary School\",\n        \"address\": \"Örebro\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Slite\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1940\",\n      \"roleName\": \"Head Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Slite\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1945\",\n      \"roleName\": \"Principal\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Slite Vocational Schools\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Övre Ottem's Lecture Association\",\n      \"roleName\": \"Chairman\"\n   \n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland District of the Swedish Primary School Association\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland County SAF District\",\n      \"roleName\": \"Chairman\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Björk, Per Julius",
+        "birthDate": "1898-08-16",
+        "birthPlace": "Härnösand",
+        "jobTitle": "Head Teacher",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Övre Ottem's Lecture Association",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland District of the Swedish Primary School Association",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland County SAF District",
+                "roleName": "Chairman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elna Nyberg",
+            "marriageDate": "1921"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "credentialCategory": "exam",
+                "educationalLevel": "Secondary education",
+                "dateIssued": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teaching College Degree",
+                "credentialCategory": "exam",
+                "educationalLevel": "tertiary",
+                "dateIssued": "1919"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Sandöverkens Primary School",
+                "address": "Västern"
+            },
+            {
+                "@type": "Organization",
+                "name": "Roslingstorps Primary School",
+                "address": "Örebro"
+            },
+            {
+                "@type": "Organization",
+                "name": "Slite"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1919",
+                "endDate": "1922",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Sandöverkens Primary School",
+                    "address": "Västern"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1922",
+                "endDate": "1924",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Roslingstorps Primary School",
+                    "address": "Örebro"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Slite"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1940",
+                "roleName": "Head Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Slite"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1945",
+                "roleName": "Principal",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Slite Vocational Schools"
+                }
+            }
+        ]
+    }
+}

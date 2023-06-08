@@ -1,0 +1,118 @@
+{
+    "original": "Brun, John Erik Axel Hugo, tandläkare, Mariestad, f. 29/8/96 i Myssjö, Jämtl. l., av org. o. folksk:lär. Hugo B. o. Amelie Ståhlberg. G. 25 m. Maja Melkersson. Barn: Karin f. 28, Arne 30, Margareta 34, Anders 38, Helena 40. — Stud:ex. i Söderhamn 16, med. stud. v. Karol. inst. 17-18, tandl:-kand. 20, tandl. 22. Assist, i Lysekil 21 o. 22, prakt, i Töreboda 23-24, i Mariestad sed. 24. Sekr. i Västergötl. tandl:fören. 38-46.",
+    "translated": "Brun, John Erik Axel Hugo, dentist, Mariestad, born August 29, 1896 in Myssjö, Jämtland County, son of teacher Hugo B. and Amelie Ståhlberg. Married Maja Melkersson in 1925. They had five children: Karin born in 1928, Arne in 1930, Margareta in 1934, Anders in 1938, and Helena in 1940. John attended high school in Söderhamn in 1916, studied medicine at Karolinska Institute from 1917 to 1918, and graduated with a dental degree in 1920. He worked as an assistant dentist in Lysekil in 1921 and 1922, and had his own dental practice in Töreboda from 1923 to 1924 before moving to Mariestad where he worked as a dentist starting in 1924. He was also the secretary of the Västergötland Dental Association from 1938 to 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Erik Axel Hugo Brun\",\n  \"jobTitle\": \"Dentist\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västergötland Dental Association\",\n      \"startDate\": \"1938-01-01\",\n      \"endDate\": \"1946-12-31\",\n      \"roleName\": \"Secretary\"\n    }\n  ],\n  \"birthDate\": \"1896-08-29\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Myssjö, Jämtland County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hugo B.\",\n      \"jobTitle\": \"Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amelie Ståhlberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maja Melkersson\",\n    \"marriageDate\": \"1925-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1928-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne\",\n      \"birthDate\": \"1930-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1934-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1938-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helena\",\n      \"birthDate\": \"1940-01-01\"\n    }\n  ],\n  \"knowsAbout\": [\n    \"Dentistry\",\n    \"Medicine\"\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"awardedBy\": \"Söderhamn\",\n      \"startDate\": \"1916-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical Degree\",\n      \"educationalLevel\": \"HigherEducation\",\n      \"awardedBy\": \"Karolinska Institute\",\n      \"startDate\": \"1917-01-01\",\n      \"endDate\": \"1918-12-31\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Degree\",\n      \"educationalLevel\": \"HigherEducation\",\n      \"awardedBy\": \"Unknown University\",\n      \"startDate\": \"1920-01-01\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Lysekil\",\n      \"jobTitle\": \"Dental assistant\",\n      \"startDate\": \"1921-01-01\",\n      \"endDate\": \"1922-12-31\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Töreboda\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1923-01-01\",\n      \"endDate\": \"1924-12-31\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Mariestad\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1924-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Erik Axel Hugo Brun",
+        "jobTitle": "Dentist",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Västergötland Dental Association",
+                "startDate": "1938-01-01",
+                "endDate": "1946-12-31",
+                "roleName": "Secretary"
+            }
+        ],
+        "birthDate": "1896-08-29",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Myssjö, Jämtland County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hugo B.",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Amelie Ståhlberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maja Melkersson",
+            "marriageDate": "1925-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1928-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Arne",
+                "birthDate": "1930-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1934-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1938-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Helena",
+                "birthDate": "1940-01-01"
+            }
+        ],
+        "knowsAbout": [
+            "Dentistry",
+            "Medicine"
+        ],
+        "educationalCredentialAwarded": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationalLevel": "SecondaryEducation",
+                "awardedBy": "Söderhamn",
+                "startDate": "1916-01-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical Degree",
+                "educationalLevel": "HigherEducation",
+                "awardedBy": "Karolinska Institute",
+                "startDate": "1917-01-01",
+                "endDate": "1918-12-31"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Degree",
+                "educationalLevel": "HigherEducation",
+                "awardedBy": "Unknown University",
+                "startDate": "1920-01-01"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Lysekil",
+                "jobTitle": "Dental assistant",
+                "startDate": "1921-01-01",
+                "endDate": "1922-12-31"
+            },
+            {
+                "@type": "Place",
+                "name": "Töreboda",
+                "jobTitle": "Dentist",
+                "startDate": "1923-01-01",
+                "endDate": "1924-12-31"
+            },
+            {
+                "@type": "Place",
+                "name": "Mariestad",
+                "jobTitle": "Dentist",
+                "startDate": "1924-01-01"
+            }
+        ]
+    }
+}

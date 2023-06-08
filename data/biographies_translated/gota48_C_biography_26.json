@@ -1,0 +1,86 @@
+{
+    "original": "Carlborg, Ivar Fredrik, tandläkare, Ulricehamn, f. 7/11/16 i Gbg av järnv:-kontr. Oscar C. o. Sophie Bogeman. G. 41 m. Marianne Hörling. Barn: Göran f. 43, Elisabeth 46. — Stud:ex. i Lidingö 36, tandliex. 41. Res. t. Tyskl. o. Engl. 37. Var. assist, h. tandl. Leif Ericsson i Sundbyberg, egen prakt, i Ulricehamn sed. 43. Medl. av Odd Fellow.",
+    "translated": "Carlborg, Ivar Fredrik, dentist, Ulricehamn, born November 7, 1916 in Gothenburg to railway contractor Oscar C. and Sophie Bogeman. Married in 1941 to Marianne Hörling and had two children, Göran born in 1943 and Elisabeth born in 1946. He graduated from high school in Lidingö in 1936 and received his dental degree in 1941. He traveled to Germany and England in 1937 and worked as an assistant to Leif Ericsson, a prominent dentist in Sundbyberg. He established his own dental practice in Ulricehamn in 1943. He was a member of the Odd Fellow.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Ivar Fredrik Carlborg\",\n    \"birthDate\": \"1916-11-07\",\n    \"birthPlace\": \"Gothenburg\",\n    \"nationality\": \"Swedish\",\n    \"occupation\": \"Dentist\",\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Odd Fellow\"\n        }\n    ],\n    \"parent\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Oscar C. Carlborg\",\n            \"jobTitle\": \"Railway Contractor\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Sophie Bogeman\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Marianne Hörling\",\n        \"marriageDate\": \"1941\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Göran Carlborg\",\n            \"birthDate\": \"1943\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Elisabeth Carlborg\",\n            \"birthDate\": \"1946\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Stud:ex.\",\n            \"alumniOf\": {\n                \"@type\": \"EducationalOrganization\",\n                \"name\": \"Lidingö\",\n                \"location\": \"Lidingö\",\n                \"foundingDate\": \"1936\"\n            }\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Tandliex.\",\n            \"alumniOf\": {\n                \"@type\": \"EducationalOrganization\",\n                \"name\": \"Tandläkarhögskolan\",\n                \"location\": \"Sweden\",\n                \"foundingDate\": \"1941\"\n            },\n            \"credentialCategory\": \"degree\"\n        }\n    ],\n    \"hasOccupation\": [\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Assistant to Leif Ericsson\",\n            \"location\": \"Sundbyberg\",\n            \"startDate\": \"1937\",\n            \"endDate\": \"1943\"\n        },\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Owner and Dentist\",\n            \"location\": \"Ulricehamn\",\n            \"startDate\": \"1943\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ivar Fredrik Carlborg",
+        "birthDate": "1916-11-07",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "occupation": "Dentist",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Odd Fellow"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Oscar C. Carlborg",
+                "jobTitle": "Railway Contractor"
+            },
+            {
+                "@type": "Person",
+                "name": "Sophie Bogeman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Marianne Hörling",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Carlborg",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Elisabeth Carlborg",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lidingö",
+                    "location": "Lidingö",
+                    "foundingDate": "1936"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandliex.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Tandläkarhögskolan",
+                    "location": "Sweden",
+                    "foundingDate": "1941"
+                },
+                "credentialCategory": "degree"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Assistant to Leif Ericsson",
+                "location": "Sundbyberg",
+                "startDate": "1937",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Owner and Dentist",
+                "location": "Ulricehamn",
+                "startDate": "1943"
+            }
+        ]
+    }
+}

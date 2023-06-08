@@ -1,0 +1,100 @@
+{
+    "original": "Berggren, Erik Ludvig, landsfiskal, Jämjöslätt, f. 12/3/97 i Höör, Malmöh. 1., av’lantbr :ing. Ernst B. o. Eva Rönström. — Realsk:ex. 12, stud:ex. 17, landsfiskalsex. 25. E. landsfiskal i Augerums distr. 28, i Ronneby distr. 31, landsfisk. i Augerums 37, i Kristia-nopels 41. GV:sJmt.",
+    "translated": "Berggren, Erik Ludvig, district prosecutor, Jämjöslätt, b. March 12, 1897 in Höör, Malmöh. Son of farmer Ernst B. and Eva Rönström. Completed Realskola at age 12, graduated at age 17, and became a district prosecutor in 1925. He was the district prosecutor in Augerums district from 1928, in Ronneby district from 1931, and again in Augerums district from 1937, and finally in Kristianopel in 1941. Awarded the GV:sJmt. honor. He married in the year indicated by '\\d\\d m. partner's name'.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Ludvig Berggren\",\n  \"jobTitle\": \"District Prosecutor\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Höör\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"birthDate\": \"1897-03-12\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ernst B. Berggren\",\n      \"jobTitle\": \"Farmer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Rönström\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Realskola\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stud:ex\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Landsfiskalsex\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"jobs\": [\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Prosecutor\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Augerums district\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Prosecutor\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1937\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Ronneby district\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Prosecutor\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1941\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Augerums district\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Prosecutor\",\n      \"startDate\": \"1941\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Kristianopel\"\n      }\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"GV:sJmt\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"partner's name\",\n    \"marriageDate\": \"dd m.\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Ludvig Berggren",
+        "jobTitle": "District Prosecutor",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Höör",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Sweden"
+            }
+        },
+        "birthDate": "1897-03-12",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ernst B. Berggren",
+                "jobTitle": "Farmer"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Rönström"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Realskola",
+                "endDate": "1909"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stud:ex",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Landsfiskalsex",
+                "endDate": "1925"
+            }
+        ],
+        "jobs": [
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Prosecutor",
+                "startDate": "1925",
+                "endDate": "1928",
+                "location": {
+                    "@type": "City",
+                    "name": "Augerums district"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Prosecutor",
+                "startDate": "1931",
+                "endDate": "1937",
+                "location": {
+                    "@type": "City",
+                    "name": "Ronneby district"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Prosecutor",
+                "startDate": "1937",
+                "endDate": "1941",
+                "location": {
+                    "@type": "City",
+                    "name": "Augerums district"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Prosecutor",
+                "startDate": "1941",
+                "location": {
+                    "@type": "City",
+                    "name": "Kristianopel"
+                }
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "GV:sJmt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "partner's name",
+            "marriageDate": "dd m."
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "original": "Forssell, Gunnar Erling Manfred, tandläkare, Borghodm, f. 14/10/00 i Älvdalen, Kopparb. i., av folkskolL Gotthard. F. o. Elin Jansson. G. 33 m.. Gunvor Monsén. Barn: Birgitta f. 34,. Margareta 36, Örjan 37, Björn 45. — Stud:ex. i Falun 20, tandl :kand. 23, tandläk. 25. Praktik i Borgholm S’ed. 25, ’skoltandi. där 30-42. Styr :led. i A-B Borgholmis .Badort sed. 35, stadsfullm. 37-47, led av iolksk :styr., ordf. i Borg-holmis tenniskl., v. ordf. i Kalm. 1. tandl :sällsk.",
+    "translated": "Forssell, Gunnar Erling Manfred, dentist, Borgholm, born on October 14th, 1900 in Älvdalen, Kopparberg county, son of primary school teacher Gotthard F. and Elin Jansson. He married Gunvor Monsén in 1933 and they had four children: Birgitta (born 1934), Margareta (born 1936), Örjan (born 1937), and Björn (born 1945). Gunnar graduated from high school in Falun in 1920, received his dental degree in 1923, and became a licensed dentist in 1925. He practiced dentistry in Borgholm from 1925 to 1942 and also worked as a school dentist there from 1930 to 1942. He was a board member of A-B Borgholmis Badort since 1935, a member of the city council from 1937 to 1947, a member of the public school board, chairman of the Borg-holm tennis club, and vice chairman of the Kalm. 1 dental society.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Gunnar Erling Manfred Forssell\",\n   \"birthDate\": \"1900-10-14\",\n   \"birthPlace\": {\n      \"@type\": \"City\",\n      \"name\": \"Älvdalen\",\n      \"address\": {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Älvdalen\",\n         \"addressRegion\": \"Kopparberg county\"\n      }\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gotthard F.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Elin Jansson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Gunvor Monsén\",\n      \"marriageDate\": \"1933\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Birgitta\",\n         \"birthDate\": \"1934\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Margareta\",\n         \"birthDate\": \"1936\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Örjan\",\n         \"birthDate\": \"1937\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Björn\",\n         \"birthDate\": \"1945\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"High School Diploma\",\n         \"educationalLevel\": \"HighSchool\",\n         \"awardDate\": \"1920\",\n         \"awardingInstitution\": \"Falun\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Dental Degree\",\n         \"educationalLevel\": \"Bachelor's Degree\",\n         \"awardDate\": \"1923\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Dental License\",\n         \"educationalLevel\": \"License\",\n         \"awardDate\": \"1925\"\n      }\n   ],\n   \"occupation\": [\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dentist\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"School Dentist\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1942\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Borgholm\"\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Board Member\",\n         \"startDate\": \"1935\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"A-B Borgholmis Badort\"\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"City Council Member\",\n         \"startDate\": \"1937\",\n         \"endDate\": \"1947\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Public School Board Member\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Tennis Club Chairman\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Borg-holm\"\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dental Society Vice Chairman\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Kalm. 1\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Erling Manfred Forssell",
+        "birthDate": "1900-10-14",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Älvdalen",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvdalen",
+                "addressRegion": "Kopparberg county"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gotthard F."
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Jansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunvor Monsén",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Örjan",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1920",
+                "awardingInstitution": "Falun"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Degree",
+                "educationalLevel": "Bachelor's Degree",
+                "awardDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental License",
+                "educationalLevel": "License",
+                "awardDate": "1925"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Dentist"
+            },
+            {
+                "@type": "Occupation",
+                "name": "School Dentist",
+                "startDate": "1930",
+                "endDate": "1942",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Borgholm"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Board Member",
+                "startDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "A-B Borgholmis Badort"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "City Council Member",
+                "startDate": "1937",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Public School Board Member"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Tennis Club Chairman",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Borg-holm"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dental Society Vice Chairman",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Kalm. 1"
+                }
+            }
+        ]
+    }
+}

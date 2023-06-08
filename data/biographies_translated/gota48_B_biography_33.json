@@ -1,0 +1,96 @@
+{
+    "original": "Beijer, Erik, kyrkoherde, Bjärges, f. 22/6/09 i Gbg av mål :mäst. Hjalmar B. o. Anna Jo^hansson. G. 39 m. Anna-Stina Sundh. Barn: Göran f. 40, Gunilla 41, Birgitta 44. — Stud:ex. i Gbg 28, teol. fil. ex. 30, teol. kand. 36, stud. v. univ. i Berlin 36-37, prästv. f. Visby stift 38. V. kommin. i Visby 38, dom-kyrkoadj. där 39, kyrkoh. i Vänge,",
+    "translated": "Beijer, Erik, clergyman, born on June 22, 1909 in Gothenburg, son of master Hjalmar B. and Anna Johansson. Married in 1939 to Anna-Stina Sundh. Children: Göran born in 1940, Gunilla in 1941 and Birgitta in 1944. He finished his studies with a high school diploma in Gothenburg in 1928, followed by a Bachelor of Theology in 1930 and a Master of Theology in 1936. He studied as a student at the University of Berlin from 1936-37 and was ordained as a priest for the Visby diocese in 1938. He worked as an assistant minister in Visby in 1938, a cathedral assistant in 1939 and as a vicar in Vänge.",
+    "structured_raw": "{\n  \"@context\":\"http://schema.org/\",\n  \"@type\":\"Person\",\n  \"name\":\"Erik Beijer\",\n  \"birthDate\":\"1909-06-22\",\n  \"birthPlace\":{\n    \"@type\":\"City\",\n    \"name\":\"Gothenburg\"\n  },\n  \"parent\":{\n    \"@type\":\"Person\",\n    \"name\":\"Hjalmar B.\",\n    \"jobTitle\":\"Master\"\n  },\n  \"parent\":{\n    \"@type\":\"Person\",\n    \"name\":\"Anna Johansson\"\n  },\n  \"spouse\":{\n    \"@type\":\"Person\",\n    \"name\":\"Anna-Stina Sundh\",\n    \"marriageDate\":\"1939\"\n  },\n  \"children\":[\n    {\n      \"@type\":\"Person\",\n      \"name\":\"Göran\",\n      \"birthDate\":\"1940\"\n    },\n    {\n      \"@type\":\"Person\",\n      \"name\":\"Gunilla\",\n      \"birthDate\":\"1941\"\n    },\n    {\n      \"@type\":\"Person\",\n      \"name\":\"Birgitta\",\n      \"birthDate\":\"1944\"\n    }\n  ],\n  \"education\":[\n    {\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"name\":\"Stud:ex.\",\n      \"educationalLevel\":\"High school diploma\",\n      \"educationalCredentialAwarded\":\"High school diploma\",\n      \"educationalOrganization\":{\n        \"@type\":\"Organization\",\n        \"name\":\"Gbg\"\n      },\n      \"startDate\":\"1928\"\n    },\n    {\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"name\":\"Teol. fil. ex.\",\n      \"educationalLevel\":\"Bachelor of Theology\",\n      \"educationalCredentialAwarded\":\"Bachelor of Theology\",\n      \"educationalOrganization\":{\n        \"@type\":\"Organization\"\n      },\n      \"startDate\":\"1930\"\n    },\n    {\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"name\":\"Teol. kand.\",\n      \"educationalLevel\":\"Master of Theology\",\n      \"educationalCredentialAwarded\":\"Master of Theology\",\n      \"educationalOrganization\":{\n        \"@type\":\"Organization\"\n      },\n      \"startDate\":\"1936\"\n    },\n    {\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"name\":\"stud. v. univ.\",\n      \"startDate\":\"1936\",\n      \"endDate\":\"1937\",\n      \"educationalOrganization\":{\n        \"@type\":\"Organization\",\n        \"name\":\"University of Berlin\"\n      }\n    }\n  ],\n  \"jobTitle\":\"Clergyman\",\n  \"memberOf\":{\n    \"@type\":\"Organization\",\n    \"name\":\"Visby stift\"\n  },\n  \"ordainedDate\":\"1938\",\n  \"deathDate\":null,\n  \"gender\":\"Male\",\n  \"address\":{\n    \"@type\":\"PostalAddress\",\n    \"addressLocality\":\"Vänge\"\n  },\n  \"memberOf\":{\n    \"@type\":\"Organization\",\n    \"name\":\"Dom-kyrkoadj\"\n  },\n  \"memberOf\":{\n    \"@type\":\"Organization\",\n    \"name\":\"V. kommin.\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Erik Beijer",
+        "birthDate": "1909-06-22",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gothenburg"
+        },
+        "parent": {
+            "@type": "Person",
+            "name": "Anna Johansson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Stina Sundh",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High school diploma",
+                "educationalCredentialAwarded": "High school diploma",
+                "educationalOrganization": {
+                    "@type": "Organization",
+                    "name": "Gbg"
+                },
+                "startDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex.",
+                "educationalLevel": "Bachelor of Theology",
+                "educationalCredentialAwarded": "Bachelor of Theology",
+                "educationalOrganization": {
+                    "@type": "Organization"
+                },
+                "startDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "educationalLevel": "Master of Theology",
+                "educationalCredentialAwarded": "Master of Theology",
+                "educationalOrganization": {
+                    "@type": "Organization"
+                },
+                "startDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "stud. v. univ.",
+                "startDate": "1936",
+                "endDate": "1937",
+                "educationalOrganization": {
+                    "@type": "Organization",
+                    "name": "University of Berlin"
+                }
+            }
+        ],
+        "jobTitle": "Clergyman",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "V. kommin."
+        },
+        "ordainedDate": "1938",
+        "deathDate": null,
+        "gender": "Male",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vänge"
+        }
+    }
+}

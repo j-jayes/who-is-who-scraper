@@ -1,0 +1,58 @@
+{
+    "original": "Boström, Bror Gusten Ragnar, postmästare, Visby, f. 16/8/87 i S:t Pauli förs. i Malmö av postmast. Gusten B. o. Anna Kristina Andersson. G. 17 m. Signe Söderquist. Barn: Margit f. 20, Inger 23. — Språkstud. i Hannover i Tyskl. 21-22. Postmäst. i Visby sed. 46. GM 8 st.",
+    "translated": "Boström, Bror Gusten Ragnar was a postmaster in Visby. He was born on August 16, 1887 in S:t Pauli parish in Malmö to postmaster Gusten B. and Anna Kristina Andersson. He married Signe Söderquist on the 17th of an unspecified month in an unspecified year. They had two children together: Margit, born in 1920, and Inger, born in 1923. Bror studied languages in Hannover, Germany from 1921-1922. He worked as a postmaster in Visby from 1946 and had 8 grandchildren.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Gusten Ragnar Boström\",\n  \"jobTitle\": \"Postmaster\",\n  \"birthDate\": \"1887-08-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"S:t Pauli parish in Malmö\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gusten B. Boström\",\n      \"jobTitle\": \"Postmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Kristina Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Söderquist\",\n    \"marriageDate\": \"unspecified month and year\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Boström\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Boström\",\n      \"birthDate\": \"1923\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Hannover\",\n      \"description\": \"Language Studies\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"jobLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Visby\"\n  },\n  \"grandchildren\": \"8\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Gusten Ragnar Boström",
+        "jobTitle": "Postmaster",
+        "birthDate": "1887-08-16",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "S:t Pauli parish in Malmö"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gusten B. Boström",
+                "jobTitle": "Postmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Kristina Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Söderquist",
+            "marriageDate": "unspecified month and year"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margit Boström",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger Boström",
+                "birthDate": "1923"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Hannover",
+                "description": "Language Studies",
+                "startDate": "1921",
+                "endDate": "1922"
+            }
+        ],
+        "jobLocation": {
+            "@type": "Place",
+            "name": "Visby"
+        },
+        "grandchildren": "8"
+    }
+}

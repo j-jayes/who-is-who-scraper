@@ -1,0 +1,167 @@
+{
+    "original": "Björklund, Bror Erhard, major, Uddevalla, f. 21/2/94 i Vänersborg av jägmäst. Erhard B. o. Ida Milto-pæus. G. 17 m. Greta Engeström. Barn: Astrid f. 19, g. 43 m. dir. Gösta Sandels, Sthlm, Carl-Fredrik 21, jur. stud. — Stud:ex. i Vänersborg 13, off:ex. 16, RS 24-25, SS 26. Fänrik v. Västg. reg. 16, löjtn. 18, v. Bohusl. reg. 28, kapt. där 31 o. major 40. Re-petitör v. kspkurs. 27-28, andre lär. v. SS 35-37. RSO, 2 skytteM.",
+    "translated": "Björklund, Bror Erhard, Major, Uddevalla, born February 21, 1894 in Vänersborg to a forester, Erhard B. and Ida Milto-pæus. Married in 1917 to Greta Engeström. Children: Astrid (born in 1919) married in 1943 to director Gösta Sandels in Stockholm and Carl-Fredrik (born in 1921) who studied law. He graduated from high school in Vänersborg in 1913, officer training in 1916, served in the Royal Swedish Army from 1924-1925 and in 1928 became a lieutenant in Bohusläns Regiment, became captain there in 1931 and was promoted to major in 1940. From 1927-1928, he served as a tutor for military training and from 1935-1937 as a secondary teacher at SS (the military's college). He was awarded the RSO (Order of the Sword) and 2 marksman medals.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Erhard Björklund\",\n  \"birthDate\": \"1894-02-21\",\n  \"birthPlace\": \"Vänersborg, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Military officer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Uddevalla\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erhard B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Milto-pæus\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Greta Engeström\",\n      \"marriageDate\": \"1917\"\n    }\n  ],\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Astrid\",\n      \"birthDate\": \"1919\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Gösta Sandels\",\n        \"occupation\": \"Director\",\n        \"marriageDate\": \"1943\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl-Fredrik\",\n      \"birthDate\": \"1921\",\n      \"occupation\": \"Law student\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Vänersborg\",\n      \"credentialCategory\": \"High school\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Vänersborg school\"\n      },\n      \"startDate\": \"1913\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Officer training\",\n      \"credentialCategory\": \"Training\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Swedish Army\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bohusläns Regiment\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SS (Military's College)\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Fänrik\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1918\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västg. reg.\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Löjtnant\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1928\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bohusl. reg.\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Kapten\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1940\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bohusl. reg.\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Major\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Re-petitör\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"KSPkurs\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"secondary teacher\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1937\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"SS (Military's College)\"\n      }\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"RSO (Order of the Sword)\"\n    },\n    {\n      \"@type\": \"MilitaryAward\",\n      \"name\": \"Marksman medal\",\n      \"awardDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"MilitaryAward\",\n      \"name\": \"Marksman medal\",\n      \"awardDate\": \"unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Erhard Björklund",
+        "birthDate": "1894-02-21",
+        "birthPlace": "Vänersborg, Sweden",
+        "nationality": "Swedish",
+        "occupation": "Military officer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Uddevalla",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Erhard B."
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Milto-pæus"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Greta Engeström",
+                "marriageDate": "1917"
+            }
+        ],
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Astrid",
+                "birthDate": "1919",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Gösta Sandels",
+                    "occupation": "Director",
+                    "marriageDate": "1943",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Carl-Fredrik",
+                "birthDate": "1921",
+                "occupation": "Law student"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Vänersborg",
+                "credentialCategory": "High school",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Vänersborg school"
+                },
+                "startDate": "1913",
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Officer training",
+                "credentialCategory": "Training",
+                "startDate": "1916",
+                "endDate": "1916"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Royal Swedish Army"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bohusläns Regiment"
+            },
+            {
+                "@type": "Organization",
+                "name": "SS (Military's College)"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "JobTitle",
+                "name": "Fänrik",
+                "startDate": "1916",
+                "endDate": "1918",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Västg. reg."
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Löjtnant",
+                "startDate": "1918",
+                "endDate": "1928",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Bohusl. reg."
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Kapten",
+                "startDate": "1931",
+                "endDate": "1940",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Bohusl. reg."
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Major",
+                "startDate": "1940"
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Re-petitör",
+                "startDate": "1927",
+                "endDate": "1928",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "KSPkurs"
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "secondary teacher",
+                "startDate": "1935",
+                "endDate": "1937",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "SS (Military's College)"
+                }
+            }
+        ],
+        "award": [
+            {
+                "@type": "Order",
+                "name": "RSO (Order of the Sword)"
+            },
+            {
+                "@type": "MilitaryAward",
+                "name": "Marksman medal",
+                "awardDate": "unknown"
+            },
+            {
+                "@type": "MilitaryAward",
+                "name": "Marksman medal",
+                "awardDate": "unknown"
+            }
+        ]
+    }
+}

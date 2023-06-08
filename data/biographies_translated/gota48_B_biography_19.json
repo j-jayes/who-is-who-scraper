@@ -1,0 +1,53 @@
+{
+    "original": "Bartram, Thor Vilhe.lm, läroverksadjunkt, Amål, f. 16/9/06 i Stockholm av Dr. phdl. Thor Andersson 6. Irma Franke. — Stud :ex. i Strängnäs 24, fil ämb:ex. v. Sthlm&gt;s hö-gsk. 30. E. o. ämneslär. v. komm. mell:sk. i Svalöv 32-41, adjunkt v. samrealsk. i Amål fr. 41.",
+    "translated": "Bartram, Thor Vilhelm, high school teacher, born on September 16, 1906 in Stockholm to Dr. phdl. Thor Andersson and Irma Franke. He passed his student examination in Strängnäs in 1924 and his degree examination in philosophy at Stockholm University in 1930. He worked as a substitute subject teacher at a municipal middle school in Svalöv from 1932-1941 and as a teacher at a secondary school in Amål from 1941 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Thor Vilhelm Bartram\",\n  \"birthDate\": \"1906-09-16\",\n  \"birthPlace\": \"Stockholm\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dr. phdl. Thor Andersson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Irma Franke\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Student Examination\",\n      \"educationalLevel\": \"High School\",\n      \"awardedBy\": \"Strängnäs\",\n      \"dateIssued\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree Examination in Philosophy\",\n      \"educationalLevel\": \"University\",\n      \"awardedBy\": \"Stockholm University\",\n      \"dateIssued\": \"1930\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Middle School in Svalöv\",\n      \"memberOf\": \"Substitute Subject Teacher\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Secondary School in Amål\",\n      \"memberOf\": \"Teacher\",\n      \"startDate\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Thor Vilhelm Bartram",
+        "birthDate": "1906-09-16",
+        "birthPlace": "Stockholm",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Dr. phdl. Thor Andersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Irma Franke"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student Examination",
+                "educationalLevel": "High School",
+                "awardedBy": "Strängnäs",
+                "dateIssued": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree Examination in Philosophy",
+                "educationalLevel": "University",
+                "awardedBy": "Stockholm University",
+                "dateIssued": "1930"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Municipal Middle School in Svalöv",
+                "memberOf": "Substitute Subject Teacher",
+                "startDate": "1932",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Secondary School in Amål",
+                "memberOf": "Teacher",
+                "startDate": "1941"
+            }
+        ]
+    }
+}

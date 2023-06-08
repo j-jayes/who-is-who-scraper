@@ -1,0 +1,125 @@
+{
+    "original": "Elliot, Åke Oscar, civilingenjör, Åt-vidaiberg, f. 21/12/08 i Malmö av civ:-ing. O. J. E. o. Berta Trägårdh. G. 35 m. Ilse Nagel. Barn: Inger f. 37, Claes Åke 39, Rolf Åke 41. — Stud:-ex. 27, avg:ex. fr. KTH (E) 32. Res. t. Danm., Engl., Finl., Norge, Tyskl., Frankr. o. Schweiz. Anst. h. ASEA i Västerås 32-33, v. Elektr. A-B Skan- dia i Sthlm 34-37, ing. v. Forsaströms Kraft A-B i Åtvidaberg sed. 37. Led. av munic:-, löne-, byiggn:- o. fastigh:-nd, led. av styr. f. Forsaströms Kraft A-B o. dess dotterbol. A-B Blomsfors Kraftstat., A-B Hallsta-Rimforsa Elverk o. Tyrisfors Kraft A-B.",
+    "translated": "Elliot, Åke Oscar, engineer, of Åtvidaberg, born on December 21st, 1908 in Malmö, son of civil engineer O.J.E. and Berta Trägårdh. Married in 1935 to Ilse Nagel. Children: Inger, born in 1937, Claes Åke born in 1939, and Rolf Åke born in 1941. He passed his student matriculation examination in 1927 and graduated from the Royal Institute of Technology in Stockholm (Electrical Engineering) in 1932. He has traveled to Denmark, England, Finland, Norway, Germany, France, and Switzerland for residence. He worked at ASEA in Västerås from 1932-1933, at Elektr. A-B Skandia in Stockholm from 1934-1937, and as an engineer at Forsaströms Kraft A-B in Åtvidaberg since 1937. He is a member of the municipal, salary, building and property committees, board member of Forsaströms Kraft A-B and its subsidiary companies A-B Blomsfors Kraftstat., A-B Hallsta-Rimforsa Elverk, and Tyrisfors Kraft A-B.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Åke Oscar Elliot\",\n   \"jobTitle\": \"Engineer\",\n   \"birthDate\": \"1908-12-21\",\n   \"birthPlace\": \"Malmö\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"O.J.E Elliot\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Berta Trägårdh\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ilse Nagel\",\n      \"marriageDate\": \"1935\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Inger Elliot\",\n         \"birthDate\": \"1937\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Claes Åke Elliot\",\n         \"birthDate\": \"1939\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Rolf Åke Elliot\",\n         \"birthDate\": \"1941\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"matriculation examination\",\n         \"educationalLevel\": \"SecondaryEducation\",\n         \"awardDate\": \"1927\",\n         \"awardingInstitution\": \"Unknown\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"degree\",\n         \"educationalLevel\": \"BachelorDegree\",\n         \"awardDate\": \"1932\",\n         \"awardingInstitution\": \"Royal Institute of Technology\"\n      }\n   ],\n   \"nationality\": \"Swedish\",\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Municipal committee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Salary committee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Building committee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Property committee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Forsaströms Kraft A-B board\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Blomsfors Kraftstat. subsidiary company board\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Hallsta-Rimforsa Elverk subsidiary company board\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Tyrisfors Kraft A-B subsidiary company board\"\n      }\n   ],\n   \"employment\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"ASEA\",\n         \"startDate\": \"1932\",\n         \"endDate\": \"1933\",\n         \"employmentType\": \"FullTime\",\n         \"location\": \"Västerås\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Elektr. A-B Skandia\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1937\",\n         \"employmentType\": \"FullTime\",\n         \"location\": \"Stockholm\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Forsaströms Kraft A-B\",\n         \"startDate\": \"1937\",\n         \"employmentType\": \"FullTime\",\n         \"location\": \"Åtvidaberg\"\n      }\n   ],\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Åtvidaberg\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åke Oscar Elliot",
+        "jobTitle": "Engineer",
+        "birthDate": "1908-12-21",
+        "birthPlace": "Malmö",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "O.J.E Elliot"
+            },
+            {
+                "@type": "Person",
+                "name": "Berta Trägårdh"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ilse Nagel",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Elliot",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Claes Åke Elliot",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf Åke Elliot",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "matriculation examination",
+                "educationalLevel": "SecondaryEducation",
+                "awardDate": "1927",
+                "awardingInstitution": "Unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "BachelorDegree",
+                "awardDate": "1932",
+                "awardingInstitution": "Royal Institute of Technology"
+            }
+        ],
+        "nationality": "Swedish",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Municipal committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Salary committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Building committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Property committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Forsaströms Kraft A-B board"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Blomsfors Kraftstat. subsidiary company board"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Hallsta-Rimforsa Elverk subsidiary company board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tyrisfors Kraft A-B subsidiary company board"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "ASEA",
+                "startDate": "1932",
+                "endDate": "1933",
+                "employmentType": "FullTime",
+                "location": "Västerås"
+            },
+            {
+                "@type": "Organization",
+                "name": "Elektr. A-B Skandia",
+                "startDate": "1934",
+                "endDate": "1937",
+                "employmentType": "FullTime",
+                "location": "Stockholm"
+            },
+            {
+                "@type": "Organization",
+                "name": "Forsaströms Kraft A-B",
+                "startDate": "1937",
+                "employmentType": "FullTime",
+                "location": "Åtvidaberg"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Åtvidaberg"
+        }
+    }
+}

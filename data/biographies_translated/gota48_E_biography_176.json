@@ -1,0 +1,53 @@
+{
+    "original": "Eländer, Olof Bertil Eberhard, kyr- ,koadjunkt. Grästorp, f. 11/12/10 i Gbg av red, Elis E. o. Hi-lma Jansson. — Stud:ex. v. Gbgs h. latin 30, teol. fil. ex. i Gbg 31, teol. kand. i Lund 38, prakt. teol. prov o. prästv. f. Skara |Stift s. å. Eft. div. förordn. bl. a. i Hjälistad, Borås Caroli o. Amnehärad ’kyrkoadj. i Grästorp fr. 46.",
+    "translated": "Eländer, Olof Bertil Eberhard, church assistant and curate. Born December 11, 1910 in Gothenburg to editor Elis E. and Hilma Jansson. He graduated from Gothenburg High Latin School in 1930, received a degree in theology and philosophy in Gothenburg in 1931, a degree in theology from Lund University in 1938, and passed his practical theology examination and was ordained as a priest in Skara Diocese the same year. After various appointments, including in Hjälistad, Borås Caroli, and Amnehärad, he became a church assistant and curate in Grästorp in 1946. He married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Bertil Eberhard Eländer\",\n  \"birthDate\": \"1910-12-11\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Church Assistant and Curate\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Grästorp Church\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Gothenburg High Latin School\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"degreeName\": \"Theology\",\n      \"major\": \"Philosophy\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"practicalExam\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Practical Theology Examination\",\n    \"year\": \"1938\"\n  },\n  \"ordination\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Ordained as a Priest\",\n    \"issuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara Diocese\"\n    },\n    \"year\": \"1938\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"XXXXX Eländer\",\n    \"gender\": \"Female\",\n    \"birthdate\": \"19xx\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Bertil Eberhard Eländer",
+        "birthDate": "1910-12-11",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "jobTitle": "Church Assistant and Curate",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Grästorp Church"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Gothenburg High Latin School",
+                "startDate": "1930",
+                "endDate": "1931"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "degreeName": "Theology",
+                "major": "Philosophy",
+                "startDate": "1938"
+            }
+        ],
+        "practicalExam": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Practical Theology Examination",
+            "year": "1938"
+        },
+        "ordination": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Ordained as a Priest",
+            "issuer": {
+                "@type": "Organization",
+                "name": "Skara Diocese"
+            },
+            "year": "1938"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "XXXXX Eländer",
+            "gender": "Female",
+            "birthdate": "19xx"
+        }
+    }
+}

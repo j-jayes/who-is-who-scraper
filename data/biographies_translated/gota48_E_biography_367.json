@@ -1,0 +1,113 @@
+{
+    "original": "Eskebäck, Karl Erik Vilhelm, fd. läroverksadjunkt, författare. Mariestad, f. 24/1/91 i Norrköp. G. 22 m. Marit Löfgren. — Stud:ex. i Kristianstad 10, fil. kand. i Lund 13, fil. mag. 16, stud. v. univ. i Jena. Res. t. Tyskl. 12, Tyskl., Schweiz o. Österr. 30. Ord. ämneslär. i Lidingö 22 o. adj. 28, adj. i modersm., hist. m. sam-h:lära o. tyska i Mariestad 30. Led. av Sv. botanisk fören., Sv. filatelist-fören. o. fören. Norden. Skr.: An-teckn. om Mariestads skola (minnes-skr. 33), Till hembygd o. fäder (dikt-saml.) samt dikter i pressen.",
+    "translated": "Eskebäck, Karl Erik Vilhelm, former high school teacher, author. Born in Mariestad on January 24th, 1891, in Norrköping. Married to Marit Löfgren in 1922. He completed his high school education in Kristianstad in 1910, earned a Bachelor of Arts degree in Lund in 1913, a Master of Arts degree in 1916, and studied at the University of Jena. He traveled to Germany in 1912, and in 1930, he traveled to Germany, Switzerland, and Austria. He was a regular subject teacher in Lidingö in 1922 and an adjunct professor in Mariestad in 1928. He taught his mother tongue, history, social science, and German in Mariestad in 1930. He was a member of the Swedish Botanical Association, the Swedish Philatelist Association, and the Nordic Association. He has written \"Notes on Mariestad School\" (memorial book 33), \"For Homeland and Fathers\" (collection of poems), and also poems in the press.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Erik Vilhelm Eskebäck\",\n  \"jobTitle\": \"Former High School Teacher and Author\",\n  \"birthDate\": \"1891-01-24\",\n  \"birthPlace\": \"Norrköping, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Marit Löfgren\",\n    \"marriageDate\": \"1922\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"High School\",\n      \"issuedBy\": \"Kristianstad\",\n      \"dateIssued\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"issuedBy\": \"Lund\",\n      \"dateIssued\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts\",\n      \"issuedBy\": \"Lund\",\n      \"dateIssued\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"University Studies\",\n      \"institution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"University of Jena\"\n      },\n      \"dateStarted\": \"unknown\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Regular Subject Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lidingö\"\n      },\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Adjunct Professor\",\n      \"hiringOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Mariestad\"\n      },\n      \"startDate\": \"1928\",\n      \"endDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Teaching Mother Tongue, History, Social Science, and German\",\n      \"hiringOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Mariestad\"\n      },\n      \"startDate\": \"1930\",\n      \"endDate\": \"unknown\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Botanical Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Philatelist Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nordic Association\"\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"PublicationEvent\",\n      \"name\": \"Notes on Mariestad School\",\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      },\n      \"startDate\": \"1933\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"PublicationEvent\",\n      \"name\": \"For Homeland and Fathers\",\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Erik Vilhelm Eskebäck",
+        "jobTitle": [
+            {
+                "@type": "Order",
+                "name": "Regular Subject Teacher",
+                "hiringOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lidingö"
+                },
+                "startDate": "1922"
+            },
+            {
+                "@type": "Order",
+                "name": "Adjunct Professor",
+                "hiringOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Mariestad"
+                },
+                "startDate": "1928",
+                "endDate": "unknown"
+            },
+            {
+                "@type": "Order",
+                "name": "Teaching Mother Tongue, History, Social Science, and German",
+                "hiringOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Mariestad"
+                },
+                "startDate": "1930",
+                "endDate": "unknown"
+            }
+        ],
+        "birthDate": "1891-01-24",
+        "birthPlace": "Norrköping, Sweden",
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Marit Löfgren",
+            "marriageDate": "1922"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High School",
+                "issuedBy": "Kristianstad",
+                "dateIssued": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "issuedBy": "Lund",
+                "dateIssued": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts",
+                "issuedBy": "Lund",
+                "dateIssued": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "University Studies",
+                "institution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Jena"
+                },
+                "dateStarted": "unknown"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Botanical Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Philatelist Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nordic Association"
+            }
+        ],
+        "publication": [
+            {
+                "@type": "PublicationEvent",
+                "name": "Notes on Mariestad School",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                },
+                "startDate": "1933",
+                "endDate": "1933"
+            },
+            {
+                "@type": "PublicationEvent",
+                "name": "For Homeland and Fathers",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            }
+        ]
+    }
+}

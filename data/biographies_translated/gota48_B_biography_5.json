@@ -1,0 +1,107 @@
+{
+    "original": "Backman, Rolf Karl Vilhelm, rytt-mästare, Ronneby, f. 14/2/89 i Sthlm av dir. Axel B. o. Sigrid Holmström. G. 16 m. Olga Dam. Barn: Ulla-Britta f. 17, Manetta 19, Lennart 20. — Stud:ex. 09, off :ex. 12. Und:löjtn. 12, flygspanare 17, löjtn. 18, ryttmäst. 27, på överg:stat 28. Res. t. Holl. 03, Tyskl. 07 o. 10. Ridlär. v. Ing. 1 29’-30, chef f. fortifik. remontsk. i Eksjö 31-36, basbat:chef 40-44, mob:-off. v. F. 17 sed. 44. Tillf, hästsport-ref. i ett flert. tidn. Hobbies : ridning o. jakt. RSO, Ing. 1 förtj :GM.",
+    "translated": "Backman, Rolf Karl Vilhelm, cavalry captain, Ronneby, born February 14, 1889 in Stockholm to director Axel B. and Sigrid Holmström. Married in 1916 to Olga Dam. Children: Ulla-Britta born 1917, Manetta born 1919, Lennart born 1920. He graduated from high school in 1909 and officer school in 1912. He was a second lieutenant in 1912, a reconnaissance pilot in 1917, a lieutenant in 1918, a cavalry captain in 1927, and in the reserve from 1928. He traveled to Holland in 1903, Germany in 1907 and 1910. He was an equestrian instructor at the Engineer Regiment in 1929-1930, chief of the fortification refurbishment in Eksjö in 1931-1936, base commander in 1940-1944, and mobilization officer at F17 since 1944. He was a horse sports referee in several magazines. His hobbies were horseback riding and hunting. He was awarded the Order of the Sword and the first class medal of merit.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rolf Karl Vilhelm Backman\",\n  \"jobTitle\": \"Cavalry Captain\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"birthDate\": \"1889-02-14\",\n  \"parents\": {\n    \"@type\": \"Person\",\n    \"father\": \"Axel B. Backman\",\n    \"mother\": \"Sigrid Holmström\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Olga Dam\",\n    \"marriageDate\": \"1916-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla-Britta Backman\",\n      \"birthDate\": \"1917-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Manetta Backman\",\n      \"birthDate\": \"1919-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Backman\",\n      \"birthDate\": \"1920-01-01\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"High School\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Officer School\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Engineer Regiment\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"F17\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Equestrian instructor\",\n      \"startDate\": \"1929-01-01\",\n      \"endDate\": \"1930-12-31\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Chief of fortification refurbishment\",\n      \"startDate\": \"1931-01-01\",\n      \"endDate\": \"1936-12-31\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Base Commander\",\n      \"startDate\": \"1940-01-01\",\n      \"endDate\": \"1944-12-31\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Mobilization Officer\",\n      \"employer\": \"F17\",\n      \"startDate\": \"1944-01-01\"\n    }\n  ],\n  \"knowsAbout\": [\n    {\n      \"@type\": \"Thing\",\n      \"name\": \"Horseback riding\"\n    },\n    {\n      \"@type\": \"Thing\",\n      \"name\": \"Hunting\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of the Sword\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"Medal of Merit\",\n      \"description\": \"First Class\"\n    }\n  ],\n  \"sameAs\": \"http://example.com/rolf-backman\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rolf Karl Vilhelm Backman",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "title": "Equestrian instructor",
+                "startDate": "1929-01-01",
+                "endDate": "1930-12-31"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Chief of fortification refurbishment",
+                "startDate": "1931-01-01",
+                "endDate": "1936-12-31"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Base Commander",
+                "startDate": "1940-01-01",
+                "endDate": "1944-12-31"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Mobilization Officer",
+                "employer": "F17",
+                "startDate": "1944-01-01"
+            }
+        ],
+        "birthPlace": "Stockholm, Sweden",
+        "birthDate": "1889-02-14",
+        "parents": {
+            "@type": "Person",
+            "father": "Axel B. Backman",
+            "mother": "Sigrid Holmström"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Olga Dam",
+            "marriageDate": "1916-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla-Britta Backman",
+                "birthDate": "1917-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Manetta Backman",
+                "birthDate": "1919-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Backman",
+                "birthDate": "1920-01-01"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "High School"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Officer School"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Engineer Regiment"
+            },
+            {
+                "@type": "Organization",
+                "name": "F17"
+            }
+        ],
+        "knowsAbout": [
+            {
+                "@type": "Thing",
+                "name": "Horseback riding"
+            },
+            {
+                "@type": "Thing",
+                "name": "Hunting"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Order of the Sword"
+            },
+            {
+                "@type": "Medal",
+                "name": "Medal of Merit",
+                "description": "First Class"
+            }
+        ],
+        "sameAs": "http://example.com/rolf-backman"
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "original": "Bramstång, Sven Oskar Johannes, tandläkare, Falkenberg, f. 3/2/10 i Varberg av Carl B. o. Ellen Rohlin. G. 43 m. Stina Johansson. Barn: Kerstin f. 46. — Stud:ex. v. Gbgs h. latin 28, Cand. med. dent. i Greifs-v^^ald 30, tysk tandläk. i München 33, svensk tandläk. 34. Egen praktik i Falkenberg sed. 34. Finalist i SM i tennis 42, 44, 45, erövrat SM i tennis 46.",
+    "translated": "Bramstång, Sven Oskar Johannes, dentist, Falkenberg, born on February 3rd, 1910 in Varberg to Carl B. and Ellen Rohlin. Married in 1943 to Stina Johansson. Children: Kerstin, born in 1946. He took his studentexamen from Gothenburg's Högre Latinläroverk in 1928, graduated with a degree in dental medicine from Greifs-wald in 1930, studied German dentistry in Munich in 1933, and became a Swedish dentist in 1934. He established his own practice in Falkenberg from 1934 onwards. He was a finalist in the Swedish National Championships for tennis in 1942, 1944, and 1945, and won the National Championships in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Oskar Johannes Bramstång\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1910-02-03\",\n  \"birthPlace\": \"Varberg, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl B. Bramstång\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Rohlin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Johansson\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Bramstång\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studentexamen\",\n      \"issuer\": \"Gothenburg's Högre Latinläroverk\",\n      \"issuedDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Cand. med. dent.\",\n      \"issuer\": \"Greifs-wald\",\n      \"issuedDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"German Dentistry Studies\",\n      \"issuer\": \"Munich University\",\n      \"issuedDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Swedish Dentistry Studies\",\n      \"issuedDate\": \"1934\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Bramstång Dentistry Practice\",\n    \"startDate\": \"1934\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Falkenberg, Sweden\"\n    }\n  },\n  \"memberOfSportsTeam\": {\n    \"@type\": \"SportsTeam\",\n    \"name\": \"Swedish National Tennis Team\",\n    \"memberOf\": \"Swedish Tennis Association\",\n    \"gender\": \"Male\",\n    \"championships\": [\n      {\n        \"@type\": \"SportsEvent\",\n        \"name\": \"Swedish National Tennis Championships\",\n        \"startDate\": \"1942\",\n        \"endDate\": \"1946\",\n        \"winner\": true\n      }\n    ]\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Oskar Johannes Bramstång",
+        "jobTitle": "Dentist",
+        "birthDate": "1910-02-03",
+        "birthPlace": "Varberg, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl B. Bramstång"
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Rohlin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Johansson",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Bramstång",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen",
+                "issuer": "Gothenburg's Högre Latinläroverk",
+                "issuedDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Cand. med. dent.",
+                "issuer": "Greifs-wald",
+                "issuedDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "German Dentistry Studies",
+                "issuer": "Munich University",
+                "issuedDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Swedish Dentistry Studies",
+                "issuedDate": "1934"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Bramstång Dentistry Practice",
+            "startDate": "1934",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Falkenberg, Sweden"
+            }
+        },
+        "memberOfSportsTeam": {
+            "@type": "SportsTeam",
+            "name": "Swedish National Tennis Team",
+            "memberOf": "Swedish Tennis Association",
+            "gender": "Male",
+            "championships": [
+                {
+                    "@type": "SportsEvent",
+                    "name": "Swedish National Tennis Championships",
+                    "startDate": "1942",
+                    "endDate": "1946",
+                    "winner": true
+                }
+            ]
+        }
+    }
+}

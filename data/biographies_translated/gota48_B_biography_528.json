@@ -1,0 +1,92 @@
+{
+    "original": "Bratt, Axel Erland, civilingenjör, Göteborg, f. 16/3/11 i Sthlm av tandl. Axel B. o. tandl. Elsa Sundberg. G. 38 m. Ulrika Axelsdotter Klingen-stierna. \"Barn: Madeleine f. 39, Ylva 41, Gunilla 45. — Stud:ex. v. norra real i Sthlm 29, avgrex. fr. KTH (M) 33. Ing. v. SKF i Gbg sed. 35. Led. av Tekn. (samf. i Gbg. IVA® GM 46.",
+    "translated": "Bratt, Axel Erland, engineer, Gothenburg, b. March 16, 1911 in Stockholm to dentist Axel B. and dentist Elsa Sundberg. Married in 1938 to Ulrika Axelsdotter Klinge-stierna. \"Children: Madeleine b. 1939, Ylva b. 1941, Gunilla b. 1945. - Graduated from Norra Real in Stockholm in 1929, graduated from KTH (M) in 1933. Engineer at SKF in Gothenburg since 1935. Member of the Swedish Academy of Engineering Sciences in Gothenburg. Awarded GM in 1946.\"",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Erland Bratt\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1911-03-16\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel B. Bratt\",\n      \"jobTitle\": \"Dentist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Sundberg\",\n      \"jobTitle\": \"Dentist\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ulrika Axelsdotter Klinge-stierna\",\n    \"birthDate\": \"unknown\",\n    \"birthPlace\": \"unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Madeleine\",\n      \"birthDate\": \"1939\",\n      \"birthPlace\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ylva\",\n      \"birthDate\": \"1941\",\n      \"birthPlace\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1945\",\n      \"birthPlace\": \"unknown\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"KTH (M)\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norra Real\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"SKF\",\n    \"startDate\": \"1935\",\n    \"endDate\": \"unknown\",\n    \"location\": {\n      \"@type\": \"Place\",\n      \"name\": \"Gothenburg, Sweden\"\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Academy of Engineering Sciences\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"unknown\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gothenburg, Sweden\"\n      }\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Award\",\n    \"name\": \"GM\",\n    \"awardDate\": \"1946\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Erland Bratt",
+        "jobTitle": "Engineer",
+        "birthDate": "1911-03-16",
+        "birthPlace": "Stockholm, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel B. Bratt",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Sundberg",
+                "jobTitle": "Dentist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ulrika Axelsdotter Klinge-stierna",
+            "birthDate": "unknown",
+            "birthPlace": "unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Madeleine",
+                "birthDate": "1939",
+                "birthPlace": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "Ylva",
+                "birthDate": "1941",
+                "birthPlace": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1945",
+                "birthPlace": "unknown"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "KTH (M)",
+                "startDate": "unknown",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norra Real",
+                "startDate": "unknown",
+                "endDate": "1929"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "SKF",
+            "startDate": "1935",
+            "endDate": "unknown",
+            "location": {
+                "@type": "Place",
+                "name": "Gothenburg, Sweden"
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Academy of Engineering Sciences",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg, Sweden"
+                }
+            }
+        ],
+        "award": {
+            "@type": "Award",
+            "name": "GM",
+            "awardDate": "1946"
+        }
+    }
+}

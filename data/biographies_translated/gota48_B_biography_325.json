@@ -1,0 +1,98 @@
+{
+    "original": "Björkengren, Alf Gerhard, landsfiskal, Mellerud, f. 28/8/90 i Gränna av hamnfogd. Bror B. o. Alma B. G. 18 m. Ellen Maria Ohlsson. Barn: Alf f. 18, Lennart 20, Karl Axel 24. — 5-kil. h. a. 1. i Jöniköp. Landsfiskal i Nordals distr. fr, 24. Ombudsm. i A-B Dalsl. bank t. 41, ordf. i Melle-ruds kommifullm. 28-40, ordf. i komm. mell:sk. styr. 35-40, sekr. i Nordals här. vägs tyr. 30-40.",
+    "translated": "Björkengren, Alf Gerhard was a district prosecutor in Mellerud. He was born on August 28th, 1890 in Gränna to a port warden. His siblings were named Bror B. and Alma B. He married Ellen Maria Ohlsson in 1918 and they had three children: Alf (born in 1918), Lennart (born in 1920), and Karl Axel (born in 1924). He owned a five-hectare farm in Jöniköping. He served as a district prosecutor in the Nordals district from 1924. He was a representative of A-B Dalslänningen Bank starting in 1941, chairman of the Mellerud Municipal Council from 1928 to 1940, chairman of the Municipal Middle School Board from 1935 to 1940, and secretary of the Nordals County Road Board from 1930 to 1940.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Alf Gerhard Björkengren\",\n  \"birthDate\": \"1890-08-28\",\n  \"birthPlace\": \"Gränna\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Port Warden Björkengren\"\n    }\n  ],\n  \"siblings\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bror B. Björkengren\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma B. Björkengren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Maria Ohlsson\",\n    \"marriageDate\": \"1918\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alf Björkengren\",\n      \"birthDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Björkengren\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Axel Björkengren\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Land\",\n    \"name\": \"Jöniköping\",\n    \"hectare\": \"5\"\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"CourtOfficial\",\n      \"name\": \"District Prosecutor\",\n      \"affiliation\": [\n        {\n          \"@type\": \"Court\",\n          \"name\": \"Nordals District\",\n          \"startDate\": \"1924\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Corporation\",\n      \"name\": \"A-B Dalslänningen Bank\",\n      \"representativeOf\": \"Alf Gerhard Björkengren\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"PublicOffice\",\n      \"name\": \"Chairman\",\n      \"affiliation\": [\n        {\n          \"@type\": \"GovernmentOrganization\",\n          \"name\": \"Mellerud Municipal Council\",\n          \"startDate\": \"1928\",\n          \"endDate\": \"1940\"\n        },\n        {\n          \"@type\": \"GovernmentOrganization\",\n          \"name\": \"Municipal Middle School Board\",\n          \"startDate\": \"1935\",\n          \"endDate\": \"1940\"\n        },\n        {\n          \"@type\": \"GovernmentOrganization\",\n          \"name\": \"Nordals County Road Board\",\n          \"startDate\": \"1930\",\n          \"endDate\": \"1940\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Alf Gerhard Björkengren",
+        "birthDate": "1890-08-28",
+        "birthPlace": "Gränna",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Port Warden Björkengren"
+            }
+        ],
+        "siblings": [
+            {
+                "@type": "Person",
+                "name": "Bror B. Björkengren"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma B. Björkengren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Maria Ohlsson",
+            "marriageDate": "1918"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Alf Björkengren",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Björkengren",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl Axel Björkengren",
+                "birthDate": "1924"
+            }
+        ],
+        "owns": {
+            "@type": "Land",
+            "name": "Jöniköping",
+            "hectare": "5"
+        },
+        "jobTitle": [
+            {
+                "@type": "CourtOfficial",
+                "name": "District Prosecutor",
+                "affiliation": [
+                    {
+                        "@type": "Court",
+                        "name": "Nordals District",
+                        "startDate": "1924"
+                    }
+                ]
+            },
+            {
+                "@type": "Corporation",
+                "name": "A-B Dalslänningen Bank",
+                "representativeOf": "Alf Gerhard Björkengren",
+                "startDate": "1941"
+            },
+            {
+                "@type": "PublicOffice",
+                "name": "Chairman",
+                "affiliation": [
+                    {
+                        "@type": "GovernmentOrganization",
+                        "name": "Mellerud Municipal Council",
+                        "startDate": "1928",
+                        "endDate": "1940"
+                    },
+                    {
+                        "@type": "GovernmentOrganization",
+                        "name": "Municipal Middle School Board",
+                        "startDate": "1935",
+                        "endDate": "1940"
+                    },
+                    {
+                        "@type": "GovernmentOrganization",
+                        "name": "Nordals County Road Board",
+                        "startDate": "1930",
+                        "endDate": "1940"
+                    }
+                ]
+            }
+        ]
+    }
+}

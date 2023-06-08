@@ -1,0 +1,160 @@
+{
+    "original": "Berntman, Daniel, lektor, Växjö, f. 9/2/93 i Hyssna, Älvsb. 1., av kommin. C. J. Petersson o. h. h. f. Jonasson. G. 1. 26-37 m. Siri Ahlberg; 2. 39 m. Sigrid Hall. Barn: Ingegerd f. 32, Åsa 42, Leif 44. — Stud:ex. 10, fil. kand. 17, fil. mag. 17, fil. lic. 34, fil dr 36. Res. t. Tyskl. 22, 26, 36 o. 39, Ösiterr. 22, Tjeckoslov. 22, Frankr., Holl. o. Belg. 26, Finl. 37, Danm. o. Norge uppr. ggr. Lär. v. Solbacka lärov., i Sundbyberg, Karlskoga, Gud-mundrå, Ronneby, Örebro, Malmö, Uddevalla o. Trollhättan 18-32, adj. i Söderhamn 32, lektor i biol. o. kemi v. Växjö h. a. 1. sed. 36. Skr.: Die Spaltöffnungszahl bei Rumex acetosa L. (Bot. Notiser 29), Vattenkulturer m. Tradescantia (Uddevalla lärov. redogörelse 30), Stellaria media L x St. neglecta Weihe (Bot. Notiser 33), Some Chromosome Numbers in the Genus Stellaria (Bot. Notiser 35), Stellaria-Studien (Bot. Notiser 36), Smälteryd (Namn o. Bygd 41).",
+    "translated": "Berntman, Daniel, lecturer, Växjö, born on February 9, 1893 in Hyssna, Älvsborg County, son of the minister C. J. Petersson and his wife Jonasson. Married 1st in 1926 to Siri Ahlberg, divorced in 1937, and married 2nd in 1939 to Sigrid Hall. Children: Ingegerd born in 1932, Åsa in 1942, and Leif in 1944. Educational qualifications: matriculation in 1910, Bachelor of Arts in 1917, Master of Arts in 1917, Licentiate in Philosophy in 1934, PhD in Philosophy in 1936. Traveled to Germany in 1922, 1926, 1936, and 1939, Austria in 1922, Czechoslovakia in 1922, France, the Netherlands, and Belgium in 1926, Finland in 1937, and Denmark and Norway several times. Teaching positions: at Solbacka school, in Sundbyberg, Karlskoga, Gudmundrå, Ronneby, Örebro, Malmö, Uddevalla, and Trollhättan between 1918-1932, then assistant teacher in Söderhamn in 1932, and lecturer in biology and chemistry at Växjö from 1936. Publications: Die Spaltöffnungszahl bei Rumex acetosa L. (Botanical Gazette 29), Water Cultures with Tradescantia (Uddevalla school report 30), Stellaria media L x St. neglecta Weihe (Botanical Gazette 33), Some Chromosome Numbers in the Genus Stellaria (Botanical Gazette 35), Stellaria Studies (Botanical Gazette 36), and Smälteryd (Name and District 41).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Daniel Berntman\",\n  \"jobTitle\": \"Lecturer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Växjö\"\n  },\n  \"birthDate\": \"1893-02-09\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Hyssna\",\n      \"addressRegion\": \"Älvsborg County\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. J. Petersson\",\n      \"jobTitle\": \"Minister\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jonasson\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Siri Ahlberg\",\n      \"marriageDate\": \"1926-01-01\",\n      \"divorceDate\": \"1937-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Hall\",\n      \"marriageDate\": \"1939-01-01\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd\",\n      \"birthDate\": \"1932-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åsa\",\n      \"birthDate\": \"1942-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif\",\n      \"birthDate\": \"1944-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"matriculation\",\n      \"credentialEarned\": \"1910-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Arts\",\n      \"credentialEarned\": \"1917-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master of Arts\",\n      \"credentialEarned\": \"1917-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Licentiate in Philosophy\",\n      \"credentialEarned\": \"1934-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"PhD in Philosophy\",\n      \"credentialEarned\": \"1936-01-01\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Solbacka school\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Söderhamn\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Teaching\",\n          \"teaches\": [\n            \"biology\",\n            \"chemistry\"\n          ],\n          \"startDate\": \"1936-01-01\"\n        }\n      ]\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"Botanical Gazette 29\",\n      \"publicationDate\": \"unknown\",\n      \"description\": \"Die Spaltöffnungszahl bei Rumex acetosa L.\"\n    },\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"Uddevalla school report 30\",\n      \"publicationDate\": \"unknown\",\n      \"description\": \"Water Cultures with Tradescantia\"\n    },\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"Botanical Gazette 33\",\n      \"publicationDate\": \"unknown\",\n      \"description\": \"Stellaria media L x St. neglecta Weihe\"\n    },\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"Botanical Gazette 35\",\n      \"publicationDate\": \"unknown\",\n      \"description\": \"Some Chromosome Numbers in the Genus Stellaria\"\n    },\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"Botanical Gazette 36\",\n      \"publicationDate\": \"unknown\",\n      \"description\": \"Stellaria Studies\"\n    },\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"Name and District 41\",\n      \"publicationDate\": \"unknown\",\n      \"description\": \"Smälteryd\"\n    }\n  ],\n  \"sameAs\": [\n    {\n      \"@type\": \"URL\",\n      \"url\": \"https://en.wikipedia.org/wiki/Daniel_Berntman\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Daniel Berntman",
+        "jobTitle": "Lecturer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Växjö"
+        },
+        "birthDate": "1893-02-09",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hyssna",
+                "addressRegion": "Älvsborg County"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C. J. Petersson",
+                "jobTitle": "Minister"
+            },
+            {
+                "@type": "Person",
+                "name": "Jonasson"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Siri Ahlberg",
+                "marriageDate": "1926-01-01",
+                "divorceDate": "1937-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Hall",
+                "marriageDate": "1939-01-01"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingegerd",
+                "birthDate": "1932-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Åsa",
+                "birthDate": "1942-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Leif",
+                "birthDate": "1944-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "matriculation",
+                "credentialEarned": "1910-01-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Arts",
+                "credentialEarned": "1917-01-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master of Arts",
+                "credentialEarned": "1917-01-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Licentiate in Philosophy",
+                "credentialEarned": "1934-01-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "PhD in Philosophy",
+                "credentialEarned": "1936-01-01"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Solbacka school"
+            },
+            {
+                "@type": "Organization",
+                "name": "Söderhamn"
+            },
+            {
+                "@type": "Organization",
+                "name": "Växjö",
+                "memberOf": [
+                    {
+                        "@type": "Teaching",
+                        "teaches": [
+                            "biology",
+                            "chemistry"
+                        ],
+                        "startDate": "1936-01-01"
+                    }
+                ]
+            }
+        ],
+        "publication": [
+            {
+                "@type": "PublicationIssue",
+                "name": "Botanical Gazette 29",
+                "publicationDate": "unknown",
+                "description": "Die Spaltöffnungszahl bei Rumex acetosa L."
+            },
+            {
+                "@type": "PublicationIssue",
+                "name": "Uddevalla school report 30",
+                "publicationDate": "unknown",
+                "description": "Water Cultures with Tradescantia"
+            },
+            {
+                "@type": "PublicationIssue",
+                "name": "Botanical Gazette 33",
+                "publicationDate": "unknown",
+                "description": "Stellaria media L x St. neglecta Weihe"
+            },
+            {
+                "@type": "PublicationIssue",
+                "name": "Botanical Gazette 35",
+                "publicationDate": "unknown",
+                "description": "Some Chromosome Numbers in the Genus Stellaria"
+            },
+            {
+                "@type": "PublicationIssue",
+                "name": "Botanical Gazette 36",
+                "publicationDate": "unknown",
+                "description": "Stellaria Studies"
+            },
+            {
+                "@type": "PublicationIssue",
+                "name": "Name and District 41",
+                "publicationDate": "unknown",
+                "description": "Smälteryd"
+            }
+        ],
+        "sameAs": [
+            {
+                "@type": "URL",
+                "url": "https://en.wikipedia.org/wiki/Daniel_Berntman"
+            }
+        ]
+    }
+}

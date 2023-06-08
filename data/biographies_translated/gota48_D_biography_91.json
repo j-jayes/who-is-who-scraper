@@ -1,0 +1,121 @@
+{
+    "original": "Dellborg, Carl Dani&amp;l Evald, hamn-direktör, Göteborg, f. 3/10/03 i Göteborg. G. 32 m. Barbro Lundström. Barn: Berit f. 38, Helen 43. — Stud ex. v. Gbgs real 23, avg:ex. fr. CTH (V) 28. Bitr. ing. v. Gbgs hamnstyr. 28-30, e. byråing. 30-32, tf. arb :chef 32-35, arb xhef 35-44, konstr:chef 44-47, hamndir. fr. 47. Kassör i Chailmers ing:fören. 33-38, led. av Tekn. samf. i Gbg 28, sekr. i avd. väig o. vatten 36-38, led. av Sv. tekn:fören. ’Sed. 31.",
+    "translated": "Dellborg, Carl Dani&amp;l Evald, port director, Gothenburg, born October 3rd, 1903 in Gothenburg. Married in 1932 to Barbro Lundström. Children: Berit, born 1938, Helen, born 1943. He completed his studies at Gothenburg's Real School in 1923 and graduated with a degree from Chalmers University of Technology in 1928. He worked as an assistant engineer for Gothenburg's Port Authority from 1928-1930, then as a bureau engineer from 1930-1932, acting as a chief executive from 1932-1935, an executive chief from 1935-1944, a construction chief from 1944-1947, and as port director from 1947. He was treasurer of the Chalmers Engineering Society from 1933-1938, a member of the Technical Society in Gothenburg in 1928, secretary of the Road and Water Division from 1936-1938, and a member of the Swedish Engineering Association since 1931.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Daniël Evald Dellborg\",\n  \"jobTitle\": \"Port Director\",\n  \"birthDate\": \"1903-10-03\",\n  \"birthPlace\": \"Gothenburg\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbro Lundström\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berit Dellborg\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helen Dellborg\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": \"Bachelor's Degree\",\n    \"educationalCredentialAwarded\": \"Degree in Engineering\",\n    \"educationalInstitution\": [\n      {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg's Real School\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\"\n        },\n        \"endDate\": \"1923\"\n      },\n      {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Chalmers University of Technology\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\"\n        },\n        \"endDate\": \"1928\"\n      }\n    ]\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg's Port Authority\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Chalmers Engineering Society\",\n      \"jobTitle\": \"Treasurer\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Society in Gothenburg\",\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Road and Water Division\",\n      \"jobTitle\": \"Secretary\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Engineering Association\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Engineering jobs\",\n      \"name\": \"Assistant Engineer Gothenburg's Port Authority\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Engineering jobs\",\n      \"name\": \"Bureau Engineer Gothenburg's Port Authority\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Engineering jobs\",\n      \"name\": \"Chief Executive Gothenburg's Port Authority\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Engineering jobs\",\n      \"name\": \"Executive Chief Gothenburg's Port Authority\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Engineering jobs\",\n      \"name\": \"Construction Chief Gothenburg's Port Authority\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Engineering jobs\",\n      \"name\": \"Port Director\",\n      \"startDate\": \"1947\"\n    }\n  ]\n }",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl Daniël Evald Dellborg",
+        "jobTitle": [
+            {
+                "@type": "Engineering jobs",
+                "name": "Assistant Engineer Gothenburg's Port Authority",
+                "startDate": "1928",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Engineering jobs",
+                "name": "Bureau Engineer Gothenburg's Port Authority",
+                "startDate": "1930",
+                "endDate": "1932"
+            },
+            {
+                "@type": "Engineering jobs",
+                "name": "Chief Executive Gothenburg's Port Authority",
+                "startDate": "1932",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Engineering jobs",
+                "name": "Executive Chief Gothenburg's Port Authority",
+                "startDate": "1935",
+                "endDate": "1944"
+            },
+            {
+                "@type": "Engineering jobs",
+                "name": "Construction Chief Gothenburg's Port Authority",
+                "startDate": "1944",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Engineering jobs",
+                "name": "Port Director",
+                "startDate": "1947"
+            }
+        ],
+        "birthDate": "1903-10-03",
+        "birthPlace": "Gothenburg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Barbro Lundström",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Berit Dellborg",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Helen Dellborg",
+                "birthDate": "1943"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "Bachelor's Degree",
+            "educationalCredentialAwarded": "Degree in Engineering",
+            "educationalInstitution": [
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg's Real School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    },
+                    "endDate": "1923"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Chalmers University of Technology",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    },
+                    "endDate": "1928"
+                }
+            ]
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg's Port Authority"
+        },
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Chalmers Engineering Society",
+                "jobTitle": "Treasurer",
+                "startDate": "1933",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Technical Society in Gothenburg",
+                "startDate": "1928"
+            },
+            {
+                "@type": "Organization",
+                "name": "Road and Water Division",
+                "jobTitle": "Secretary",
+                "startDate": "1936",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Engineering Association",
+                "startDate": "1931"
+            }
+        ]
+    }
+}

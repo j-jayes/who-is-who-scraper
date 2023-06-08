@@ -1,0 +1,119 @@
+{
+    "original": "Bergquist, Nils Josef, komminister, Rångedala, f. 3/9/00 i Byske, Västerb. 1. G. 32 m. Ina Maria Bengtsson. Barn: Lars f. 33, Per 36, Anders 43. — Stud:ex. i Lund 26, teol. fil. ex. 28, teol. kand., prakt. teol. prov samt prästv. f. Luleå stift 31. Tjg. som kyrkoadj., kommin. o. las :pred. i Gällivare samt som v. kommin. i Malmberget, kommin. i Rångedala 37.",
+    "translated": "Bergquist, Nils Josef, minister, Rångedala, born on 3/9/00 in Byske, Västerbotten. Married for the first time in 1932 to Ina Maria Bengtsson. Children: Lars born in 1933, Per in 1936, Anders in 1943. - Studied in Lund, completed secondary school in 1926, Bachelor's degree in theology in 1928, completed practical theological training and ordained as a priest in Luleå diocese in 1931. Served as a church assistant, minister, and preaching reader (a lay preacher who could read sermons written by the minister) in Gällivare and as an assistant minister in Malmberget. Became minister in Rångedala in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Josef Bergquist\",\n  \"birthDate\": \"1900-09-03\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Byske, Västerbotten\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ina Maria Bengtsson\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Bergquist\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Bergquist\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Bergquist\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Studied\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"educationalCredentialAwarded\": \"Stud:ex\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Completed\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Teol. fil. ex.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Completed\",\n      \"educationalLevel\": \"Practical theological training\",\n      \"educationalCredentialAwarded\": null,\n      \"educationalInstitution\": null,\n      \"endDate\": null\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Completed\",\n      \"educationalLevel\": \"Ordained as a priest\",\n      \"educationalCredentialAwarded\": null,\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Luleå diocese\"\n      },\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Church assistant\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"memberOf\": null\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Minister\",\n      \"startDate\": \"1937\",\n      \"endDate\": null,\n      \"memberOf\": {\n        \"@type\": \"Place\",\n        \"name\": \"Rångedala\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Preaching reader\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"memberOf\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gällivare\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant minister\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"memberOf\": {\n        \"@type\": \"Place\",\n        \"name\": \"Malmberget\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nils Josef Bergquist",
+        "birthDate": "1900-09-03",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Byske, Västerbotten"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ina Maria Bengtsson",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Bergquist",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Bergquist",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Bergquist",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Studied",
+                "educationalLevel": "SecondarySchool",
+                "educationalCredentialAwarded": "Stud:ex",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "startDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Completed",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Teol. fil. ex.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Completed",
+                "educationalLevel": "Practical theological training",
+                "educationalCredentialAwarded": null,
+                "educationalInstitution": null,
+                "endDate": null
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Completed",
+                "educationalLevel": "Ordained as a priest",
+                "educationalCredentialAwarded": null,
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Luleå diocese"
+                },
+                "endDate": "1931"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Church assistant",
+                "startDate": null,
+                "endDate": null,
+                "memberOf": null
+            },
+            {
+                "@type": "Occupation",
+                "name": "Minister",
+                "startDate": "1937",
+                "endDate": null,
+                "memberOf": {
+                    "@type": "Place",
+                    "name": "Rångedala"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Preaching reader",
+                "startDate": null,
+                "endDate": null,
+                "memberOf": {
+                    "@type": "Place",
+                    "name": "Gällivare"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Assistant minister",
+                "startDate": null,
+                "endDate": null,
+                "memberOf": {
+                    "@type": "Place",
+                    "name": "Malmberget"
+                }
+            }
+        ]
+    }
+}

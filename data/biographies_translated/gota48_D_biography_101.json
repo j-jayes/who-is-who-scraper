@@ -1,0 +1,89 @@
+{
+    "original": "Dieden, Bengt Vincent, disponent, Romakloster, f. 30/8/11 i Flackarp, Malmöh. 1., av godsäg. Henrik D. o. Ebba Baeckström. G. 40 m. Märta von Schéele. Barn: Eva f. 40, Marianne 42, Henrik 44, Johan 46. — Stud :ex. i Lund 29, re® :ö’ff :ex. 32, ciiv :&lt;inig: ex. 35. Anst. v. Sv. Sockerfabr. A-B i TreUie-borg 35-36, Ardöv 36-42, Köpingebro 42-44, di’sp. v. Roma Sockerbruk sed. 44.",
+    "translated": "Dieden, Bengt Vincent, manager, Romakloster. Born August 30th, 1911 in Flackarp, Malmöhus County, Sweden. First child of landowner Henrik D. and Ebba Baeckström. Married in 1940 to Märta von Schéele. Children: Eva (born 1940), Marianne (1942), Henrik (1944), Johan (1946). Education: Bachelor's degree from Lund University in 1929, Master's degree in Business Administration in 1932, and Civil Engineering degree in 1935. Worked for Swedish Sugar Factory AB in Trellborg (1935-1936), Ardöv (1936-1942), Köpingebro (1942-1944), and managed Roma Sugar Mill since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Vincent Dieden\",\n  \"birthDate\": \"1911-08-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Flackarp, Malmöhus County, Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henrik D.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba Baeckström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta von Schéele\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Dieden\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Dieden\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henrik Dieden\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Dieden\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Bachelor's degree from Lund University\",\n      \"awardDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"master's degree\",\n      \"educationalLevel\": \"Master's degree\",\n      \"educationalCredentialAwarded\": \"Master's degree in Business Administration\",\n      \"awardDate\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"civil engineering degree\",\n      \"educationalLevel\": \"Civil Engineering degree\",\n      \"educationalCredentialAwarded\": \"Civil Engineering degree\",\n      \"awardDate\": \"1935\"\n    }\n  ],\n  \"jobTitle\": \"Manager\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Roma Sugar Mill\",\n    \"startDate\": \"1944\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Sugar Factory AB\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Vincent Dieden",
+        "birthDate": "1911-08-30",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Flackarp, Malmöhus County, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Henrik D."
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba Baeckström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta von Schéele",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva Dieden",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Dieden",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Henrik Dieden",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Johan Dieden",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Bachelor's degree from Lund University",
+                "awardDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "master's degree",
+                "educationalLevel": "Master's degree",
+                "educationalCredentialAwarded": "Master's degree in Business Administration",
+                "awardDate": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "civil engineering degree",
+                "educationalLevel": "Civil Engineering degree",
+                "educationalCredentialAwarded": "Civil Engineering degree",
+                "awardDate": "1935"
+            }
+        ],
+        "jobTitle": "Manager",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Roma Sugar Mill",
+            "startDate": "1944"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Sugar Factory AB",
+                "startDate": "1935",
+                "endDate": "1944"
+            }
+        ]
+    }
+}

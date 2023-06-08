@@ -1,0 +1,102 @@
+{
+    "original": "Björkenstam, Carl Gustaf Knuts-son, major, Skövde, f. 9/8/93 i Sim-tuna, Våstmanl. 1., av major Knut B. o. Anna Toll. G. 24 m. Margit Lundblad. — Studiex. i Örebro 13, off:ex. 16. Res. t. Böhmen-Mähren 41. Fänr. v. L3 16, löjtn. 19, kapten 31, major i fälttygkår. 42, stabstygoff. v. IIL milostab. fr. 42. RSO, Lst SM, Skyt-te- o. LstrM.",
+    "translated": "Björkenstam, Carl Gustaf Knutsson, Major, from Skövde, born on August 9, 1893 in Simtuna, Västmanland, son of Major Knut B. and Anna Toll. Married in 1924 to Margit Lundblad. He passed his examinations in Örebro in 1913 and graduated from Officer's School in 1916. He was sent to Bohemia-Moravia in 1941. He was a Second Lieutenant in the L3 regiment in 1916, promoted to Lieutenant in 1919, Captain in 1931, Major in the Field Artillery in 1942, and staff officer at the III military staff from 1942. RSO, Lst SM, Skytte- and LstrM.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Knutsson Björkenstam\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1893-08-09\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Simtuna\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Västmanland\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut B. Björkenstam\",\n      \"jobTitle\": \"Major\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Toll\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Lundblad\",\n      \"marriageDate\": \"1924-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialType\": \"Studiexamen\",\n      \"educationalLevel\": \"High School\",\n      \"awardingInstitution\": \"Örebro\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialType\": \"Officers School Graduation\",\n      \"educationalLevel\": \"Officer's School\",\n      \"awardingInstitution\": \"Officer's School\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"jobTitle\": \"Major\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish military\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"L3 regiment\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Field Artillery\",\n      \"jobTitle\": \"Major\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"III military staff\",\n      \"jobTitle\": \"Staff officer\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1942\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"The Royal Order of the Sword\",\n      \"awardDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"OrderOfMerit\",\n      \"name\": \"Order of Merit\",\n      \"awardDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"The Royal Order of the Seraphim\",\n      \"awardDate\": \"Unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl Gustaf Knutsson Björkenstam",
+        "gender": "Male",
+        "birthDate": "1893-08-09",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Simtuna",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Västmanland",
+                "addressCountry": "Sweden"
+            }
+        },
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Knut B. Björkenstam",
+                "jobTitle": "Major"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Toll"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Margit Lundblad",
+                "marriageDate": "1924-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialType": "Studiexamen",
+                "educationalLevel": "High School",
+                "awardingInstitution": "Örebro",
+                "startDate": "1913",
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialType": "Officers School Graduation",
+                "educationalLevel": "Officer's School",
+                "awardingInstitution": "Officer's School",
+                "startDate": "1916",
+                "endDate": "1916"
+            }
+        ],
+        "jobTitle": "Major",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish military"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "L3 regiment",
+                "startDate": "1916",
+                "endDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Field Artillery",
+                "jobTitle": "Major",
+                "startDate": "1942",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "III military staff",
+                "jobTitle": "Staff officer",
+                "startDate": "1942",
+                "endDate": "1942"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "The Royal Order of the Sword",
+                "awardDate": "Unknown"
+            },
+            {
+                "@type": "OrderOfMerit",
+                "name": "Order of Merit",
+                "awardDate": "Unknown"
+            },
+            {
+                "@type": "Order",
+                "name": "The Royal Order of the Seraphim",
+                "awardDate": "Unknown"
+            }
+        ]
+    }
+}

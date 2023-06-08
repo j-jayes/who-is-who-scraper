@@ -1,0 +1,146 @@
+{
+    "original": "Carlquist, Carl Gustaf Mauritz, fil, majg., läroverksadjunkt, Nässjö, f. 14/ 3/89 i Ljusne, Gävleb. 1., av Carl Gustaf C. o. Anna Skytt. G. 1. 19 m. Franciska Rasmussen, d. 24; 2. 28 m. Elsa Brostrand. Barn: Elsa f. 23, jur. stud., g. m. jur. stud. K. A. Levin, Lund. — Stud.-ex. i Hälsingb. 08, fil. mag. i Lund 16. Provår 21. Informator h. greve C. Wachtmeister på Wanås 08-11, e. o. ämneslär. i Nässjö 16-18, ämneslär. där 18, adj. v. sam-realsk. i Nässjö fr. 28. Rektor v. lärl:-sk. 22. Res. t. Engl. 11, Tyskl. 21, 22, 23.",
+    "translated": "Carl Gustaf Mauritz Carlquist was born on March 14, 1889 in Ljusne, Gävleborg County, Sweden. His parents are Carl Gustaf C. and Anna Skytt. He married twice, first to Franciska Rasmussen in 1919 who passed away in 1924, and then to Elsa Brostrand in 1928. Together with Franciska, Carl Gustaf has a daughter named Elsa who is married to K. A. Levin, a law student in Lund. Carl Gustaf passed his studentexamen (university entrance examination) in Hälsingborg in 1908 and became a filosofie magister (Master of Arts) in Lund in 1916. He did his praktiskt provår (teacher training) in 1921. From 1908 to 1911, he worked as a tutor for Count C. Wachtmeister in Wanås and from 1916 to 1918, he served as an e.o. (extraordinary) subject teacher in Nässjö. He continued as a subject teacher and later became an adjunct at the same school from 1918 to 1928. From 1922, he served as the principal of a vocational school in Nässjö. He also traveled to England in 1911, Germany in 1921, 1922, and 1923 for educational purposes.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Mauritz Carlquist\",\n  \"birthdate\": \"1889-03-14\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Ljusne, Gävleborg County\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Gustaf C.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Skytt\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Franciska Rasmussen\",\n      \"marriageDate\": \"1919\",\n      \"deathDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Brostrand\",\n      \"marriageDate\": \"1928\"\n    }\n  ],\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa\",\n      \"birthdate\": \"1923\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"K. A. Levin\",\n        \"occupation\": \"law student\",\n        \"education\": [\n          {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Lund University\",\n            \"degree\": {\n              \"@type\": \"EducationalDegree\",\n              \"name\": \"law\"\n            }\n          }\n        ]\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studentexamen\",\n      \"educationalLevel\": \"upper-secondary\",\n      \"educationalCredentialAwarded\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"university entrance examination\"\n      },\n      \"educationalSpecialty\": \"Hälsingborg\",\n      \"startDate\": \"1908\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Filosofie magister\",\n      \"educationalCredentialAwarded\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Master of Arts\"\n      },\n      \"educationalSpecialty\": \"Lund\",\n      \"startDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Praktiskt provår\",\n      \"educationLevel\": \"vocational\",\n      \"startDate\": \"1921\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Tutor\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"1911\",\n      \"employer\": {\n        \"@type\": \"Person\",\n        \"name\": \"Count C. Wachtmeister\"\n      },\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Wanås\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Extraordinary subject teacher\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1918\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nässjö\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Subject teacher\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1928\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nässjö\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Adjunct\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1928\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nässjö\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vocational school principal\",\n      \"startDate\": \"1922\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nässjö\"\n      }\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"sameAs\": \"https://en.wikipedia.org/wiki/Carl_Gustaf_MAuritz_Carlquist\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl Gustaf Mauritz Carlquist",
+        "birthdate": "1889-03-14",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Ljusne, Gävleborg County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl Gustaf C."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Skytt"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Franciska Rasmussen",
+                "marriageDate": "1919",
+                "deathDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Brostrand",
+                "marriageDate": "1928"
+            }
+        ],
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Elsa",
+                "birthdate": "1923",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "K. A. Levin",
+                    "occupation": "law student",
+                    "education": [
+                        {
+                            "@type": "EducationalOrganization",
+                            "name": "Lund University",
+                            "degree": {
+                                "@type": "EducationalDegree",
+                                "name": "law"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen",
+                "educationalLevel": "upper-secondary",
+                "educationalCredentialAwarded": {
+                    "@type": "EducationalDegree",
+                    "name": "university entrance examination"
+                },
+                "educationalSpecialty": "Hälsingborg",
+                "startDate": "1908"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Filosofie magister",
+                "educationalCredentialAwarded": {
+                    "@type": "EducationalDegree",
+                    "name": "Master of Arts"
+                },
+                "educationalSpecialty": "Lund",
+                "startDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Praktiskt provår",
+                "educationLevel": "vocational",
+                "startDate": "1921"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Tutor",
+                "startDate": "1908",
+                "endDate": "1911",
+                "employer": {
+                    "@type": "Person",
+                    "name": "Count C. Wachtmeister"
+                },
+                "location": {
+                    "@type": "Place",
+                    "name": "Wanås"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Extraordinary subject teacher",
+                "startDate": "1916",
+                "endDate": "1918",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Nässjö"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Subject teacher",
+                "startDate": "1918",
+                "endDate": "1928",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Nässjö"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Adjunct",
+                "startDate": "1918",
+                "endDate": "1928",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Nässjö"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Vocational school principal",
+                "startDate": "1922",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Nässjö"
+                }
+            }
+        ],
+        "nationality": "Swedish",
+        "sameAs": "https://en.wikipedia.org/wiki/Carl_Gustaf_MAuritz_Carlquist"
+    }
+}

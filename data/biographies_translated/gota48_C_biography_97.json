@@ -1,0 +1,78 @@
+{
+    "original": "Christiansen, Jörgen Richard, diplomingenjör, Norrköping, f. 14/3/86 i Hesslunda, Malmöh. 1., av godsäg. Eduard C. o. Marie Knutzen. G. 16 m. Gertrud Perless. Barn: Gertrud Ebba Maria f. 17, g. m. tj :man Elis Nordin, Carl-Eduard Jörgen Richard 20, banktj :man. — Stud:ex. i Lund 05, ingiex. v. tekn. högsk. i Dresden 12. Ing. v. AEG i Berlin 13, övering. v. Siemens-Schuckert Werke A-G i Berlin 14-43, pens. 43.",
+    "translated": "Christiansen, Jörgen Richard, graduate engineer, Norrköping, born on March 14, 1886 in Hesslunda, Malmöh. Eldest son of landowner Eduard C. and Marie Knutzen. Married in 1916 to Gertrud Perless. They had two children: Gertrud Ebba Maria, born in 1917, married to clerk Elis Nordin, and Carl-Eduard Jörgen Richard, born in 1920, bank clerk. He passed his final school exam in Lund in 1905, completed his engineering studies at the Technical University of Dresden in 1912, worked as an engineer at AEG in Berlin in 1913, and as a chief engineer at Siemens-Schuckert Werke AG in Berlin from 1914 until his retirement in 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \n  \"name\": \"Jörgen Richard Christiansen\",\n  \n  \"jobTitle\": \"Graduate Engineer\",\n  \n  \"birthDate\": \"1886-03-14\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Hesslunda, Malmöh\"\n  },\n  \n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eduard C. Christiansen\",\n      \"jobTitle\": \"Landowner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marie Knutzen\"\n    }\n  ],\n  \n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gertrud Perless\"\n  },\n  \n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gertrud Ebba Maria\",\n      \"birthDate\": \"1917\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Elis Nordin\",\n        \"jobTitle\": \"Clerk\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl-Eduard Jörgen Richard\",\n      \"birthDate\": \"1920\",\n      \"jobTitle\": \"Bank Clerk\"\n    }\n  ],\n  \n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Final School Exam\",\n      \"description\": \"Stud:ex. in Lund\",\n      \"dateIssued\": \"1905\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Engineering Degree\",\n      \"description\": \"Ingiex. v. tekn. högsk. i Dresden\",\n      \"dateIssued\": \"1912\"\n    }\n  ],\n  \n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AEG\",\n      \"jobTitle\": \"Engineer\",\n      \"startDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Siemens-Schuckert Werke AG\",\n      \"jobTitle\": \"Chief Engineer\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jörgen Richard Christiansen",
+        "jobTitle": "Graduate Engineer",
+        "birthDate": "1886-03-14",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Hesslunda, Malmöh"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Eduard C. Christiansen",
+                "jobTitle": "Landowner"
+            },
+            {
+                "@type": "Person",
+                "name": "Marie Knutzen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gertrud Perless"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Gertrud Ebba Maria",
+                "birthDate": "1917",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Elis Nordin",
+                    "jobTitle": "Clerk"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Carl-Eduard Jörgen Richard",
+                "birthDate": "1920",
+                "jobTitle": "Bank Clerk"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Final School Exam",
+                "description": "Stud:ex. in Lund",
+                "dateIssued": "1905"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Engineering Degree",
+                "description": "Ingiex. v. tekn. högsk. i Dresden",
+                "dateIssued": "1912"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "AEG",
+                "jobTitle": "Engineer",
+                "startDate": "1913"
+            },
+            {
+                "@type": "Organization",
+                "name": "Siemens-Schuckert Werke AG",
+                "jobTitle": "Chief Engineer",
+                "startDate": "1914",
+                "endDate": "1943"
+            }
+        ]
+    }
+}

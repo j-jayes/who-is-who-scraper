@@ -1,0 +1,86 @@
+{
+    "original": "Björkeson, John Leonard, bankdirektör, Linköping, f. 14/3/88 i Ryssby, Kronob. 1. G. 19 m. Greta Elg. Barn: Bengt f. 20, ing., Brita 23, med. kand., Ingvar 27, stud. — Stud:ex. i Jönköp. 09. Anst. v. Smål. Ensk. Banks huv:-kont. i Jönköp. 11, huvrbokför. där 23, kamr. i Linköp. Sparbank 27 o. verkst. dir. sed. 38. Styr iled. där o. d Ös-tergötl. sparbanksfören., styrisuppl. i Sv. sparbanksfören.",
+    "translated": "Björkeson, John Leonard, bank director, from Linköping, born on March 14th 1888 in Ryssby, Kronob. Married once in 19xx to Greta Elg. Children: Bengt, born in 1920, engineer; Brita, born in 1923, medical candidate; Ingvar, born in 1927, student. Graduated from high school in Jönköping in 1909. Started working for Smålands Enskilda Bank's main office in Jönköping in 1911, then became the chief accountant there in 1923, a colleague in Linköping Sparbank in 1927 and an executive director since 1938. He was a board member of Östergötlands Sparbanksförening and a board representative in the Swedish Savings Bank Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Leonard Björkeson\",\n  \"birthDate\": \"1888-03-14\",\n  \"birthPlace\": \"Ryssby, Kronob\",\n  \"nationality\": \"Swedish\",\n  \"gender\": \"Male\",\n  \"jobTitle\": \"Bank Director\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östergötlands Sparbanksförening\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Savings Bank Association\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Elg\",\n    \"marriageDate\": \"19xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Björkeson\",\n      \"birthDate\": \"1920\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Björkeson\",\n      \"birthDate\": \"1923\",\n      \"jobTitle\": \"Medical Candidate\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar Björkeson\",\n      \"birthDate\": \"1927\",\n      \"jobTitle\": \"Student\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex\",\n    \"educationalLevel\": \"HighSchool\",\n    \"fromLocation\": {\n      \"@type\": \"Place\",\n      \"name\": \"Jönköping\"\n    },\n    \"dateIssued\": \"1909\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Smålands Enskilda Bank\",\n      \"jobTitle\": \"Chief Accountant\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1923\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Smålands Enskilda Bank\",\n        \"jobTitle\": \"Main Office\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Sparbank\",\n      \"jobTitle\": \"Colleague\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Sparbank\",\n      \"jobTitle\": \"Executive Director\",\n      \"startDate\": \"1938\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Leonard Björkeson",
+        "birthDate": "1888-03-14",
+        "birthPlace": "Ryssby, Kronob",
+        "nationality": "Swedish",
+        "gender": "Male",
+        "jobTitle": "Bank Director",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Östergötlands Sparbanksförening"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Savings Bank Association"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Elg",
+            "marriageDate": "19xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt Björkeson",
+                "birthDate": "1920",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Brita Björkeson",
+                "birthDate": "1923",
+                "jobTitle": "Medical Candidate"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingvar Björkeson",
+                "birthDate": "1927",
+                "jobTitle": "Student"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex",
+            "educationalLevel": "HighSchool",
+            "fromLocation": {
+                "@type": "Place",
+                "name": "Jönköping"
+            },
+            "dateIssued": "1909"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Smålands Enskilda Bank",
+                "jobTitle": "Chief Accountant",
+                "startDate": "1911",
+                "endDate": "1923",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Smålands Enskilda Bank",
+                    "jobTitle": "Main Office"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping Sparbank",
+                "jobTitle": "Colleague",
+                "startDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping Sparbank",
+                "jobTitle": "Executive Director",
+                "startDate": "1938"
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "original": "Engström, Esther Anna Paulina, tandläkare, Alingsås, f. 30/9/89 i Sthlm av förvalt. Per Landin o. Anna Skantz. G. 14 m. tandl. Lennart Engström. — Stud:ex. v. Lyceum f. fl. i StMm 09, tandl :kan’d. 11, tandll. 14, prakt, i Adinigsås sed. 14.",
+    "translated": "Engström, Esther Anna Paulina, dentist, Alingsås, born on September 30, 1889 in Stockholm to financial administrator Per Landin and Anna Skantz. Married on July 14, 19XX to dentist Lennart Engström. She graduated from the Lyceum for several years in Stockholm in 1909, became a dental assistant in 1911, a dentist in 1914, and began practicing in Alingsås in 1914.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Esther Anna Paulina Engström\",\n  \"birthDate\": \"1889-09-30\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Stockholm\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Landin\",\n      \"jobTitle\": \"Financial Administrator\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Skantz\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lennart Engström\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lyceum for several years in Stockholm\",\n      \"startDate\": \"1909\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Dental Assisting\",\n      \"startDate\": \"1911\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Dentistry\",\n      \"startDate\": \"1914\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Alingsås\"\n  },\n  \"startDate\": \"1914\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Esther Anna Paulina Engström",
+        "birthDate": "1889-09-30",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Stockholm"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Per Landin",
+                "jobTitle": "Financial Administrator"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Skantz"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lennart Engström",
+            "jobTitle": "Dentist"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lyceum for several years in Stockholm",
+                "startDate": "1909"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Dental Assisting",
+                "startDate": "1911"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Dentistry",
+                "startDate": "1914"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Alingsås"
+        },
+        "startDate": "1914"
+    }
+}

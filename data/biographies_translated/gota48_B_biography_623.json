@@ -1,0 +1,151 @@
+{
+    "original": "Burman, Joban Elov, bankdirektör, Jönköping, f. 29/4/91 i Sundsvall av fabr. J. B. o. Brita Högbom. G. m. Agnes Sångberg. Barn: Maj-Britta Kristina f. 19, Kjell Elov Emanuel 29. — Mog:ex. i Sundsvall 08, kommers, utbildn. i Engl, Tyskl o. Frankr. 08-11. Anst. v. A-B Sundsvalls Hand:-bank 11-14, Sydsv. Kredit A-B 14-22, A-’B Sydsv. Banken (num. Skånska Banken) 22-31, dir. o. st&gt;T:led. v. avd:kont. i Jönköp. sed. 31. Äger Älghyttans skogsegend. rn. kolugn i Or-maryd. Ordf. i styr. f. A-B Hapeco i Malmö o. v. ordf. i styr. f. Jönköp. orkesterfören. Hobby: musik.",
+    "translated": "Burman, Joban Elov, bank director, Jönköping, b. April 29, 1891 in Sundsvall to manufacturer J.B. and Brita Högbom. Married to Agnes Sångberg. Children: Maj-Britta Kristina b. 1919, Kjell Elov Emanuel b. 1929. Graduated from high school in Sundsvall in 1908, commercial education in England, Germany and France from 1908-1911. Employed by A-B Sundsvalls Handelsbank from 1911-1914, Sydsvenska Kredit AB from 1914-1922, A-B Sydsvenska Banken (now Skånska Banken) from 1922-1931, director and head of department in Jönköping since 1931. Owns Älghyttans forest property and a charcoal kiln in Ormaryd. Chairman of the board of A-B Hapeco in Malmö and vice chairman of the board of Jönköping Orchestra Association. Hobby: music.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Joban Elov Burman\",\n  \"jobTitle\": \"Bank Director\",\n  \"birthDate\": \"1891-04-29\",\n  \"birthPlace\": \"Sundsvall\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J.B. Burman\",\n      \"jobTitle\": \"Manufacturer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Högbom\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agnes Sångberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maj-Britta Kristina\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kjell Elov Emanuel\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"startDate\": \"1908\",\n    \"endDate\": \"1911\",\n    \"location\": [\n      {\n        \"@type\": \"Place\",\n        \"name\": \"England\"\n      },\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Germany\"\n      },\n      {\n        \"@type\": \"Place\",\n        \"name\": \"France\"\n      }\n      ]\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1914\",\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Sundsvalls Handelsbank\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1922\",\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sydsvenska Kredit AB\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1931\",\n      \"roleName\": \"Director and Head of Department\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Sydsvenska Banken\",\n        \"alternateName\": \"Skånska Banken\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"roleName\": \"Director and Head of Department\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping\"\n      }\n    }\n  ],\n  \"own\": [\n    {\n      \"@type\": \"OwnershipInfo\",\n      \"ownedFrom\": \"1931\",\n      \"ownedThrough\": \"present\",\n      \"typeOfGood\": {\n        \"@type\": \"Product\",\n        \"name\": \"Älghyttans forest property\"\n      }\n    },\n    {\n      \"@type\": \"OwnershipInfo\",\n      \"ownedFrom\": \"1931\",\n      \"ownedThrough\": \"present\",\n      \"typeOfGood\": {\n        \"@type\": \"Product\",\n        \"name\": \"Charcoal kiln in Ormaryd\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Chairman of the board\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Hapeco\",\n        \"alternateName\": \"Malmö\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Vice Chairman of the board\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping Orchestra Association\"\n      }\n    }\n  ],\n  \"knowsAbout\": \"Swedish family history\",\n  \"sameAs\": [\n    \"https://en.wikipedia.org/wiki/Joban_Elov_Burman\"\n  ],\n  \"hobbies\": [\n    {\n      \"@type\": \"Thing\",\n      \"name\": \"Music\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Joban Elov Burman",
+        "jobTitle": "Bank Director",
+        "birthDate": "1891-04-29",
+        "birthPlace": "Sundsvall",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "J.B. Burman",
+                "jobTitle": "Manufacturer"
+            },
+            {
+                "@type": "Person",
+                "name": "Brita Högbom"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Sångberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maj-Britta Kristina",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Kjell Elov Emanuel",
+                "birthDate": "1929"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "startDate": "1908",
+            "endDate": "1911",
+            "location": [
+                {
+                    "@type": "Place",
+                    "name": "England"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Germany"
+                },
+                {
+                    "@type": "Place",
+                    "name": "France"
+                }
+            ]
+        },
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1911",
+                "endDate": "1914",
+                "roleName": "Employee",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Sundsvalls Handelsbank"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1914",
+                "endDate": "1922",
+                "roleName": "Employee",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Sydsvenska Kredit AB"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1922",
+                "endDate": "1931",
+                "roleName": "Director and Head of Department",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Sydsvenska Banken",
+                    "alternateName": "Skånska Banken"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "roleName": "Director and Head of Department",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Jönköping"
+                }
+            }
+        ],
+        "own": [
+            {
+                "@type": "OwnershipInfo",
+                "ownedFrom": "1931",
+                "ownedThrough": "present",
+                "typeOfGood": {
+                    "@type": "Product",
+                    "name": "Älghyttans forest property"
+                }
+            },
+            {
+                "@type": "OwnershipInfo",
+                "ownedFrom": "1931",
+                "ownedThrough": "present",
+                "typeOfGood": {
+                    "@type": "Product",
+                    "name": "Charcoal kiln in Ormaryd"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Chairman of the board",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Hapeco",
+                    "alternateName": "Malmö"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Vice Chairman of the board",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Jönköping Orchestra Association"
+                }
+            }
+        ],
+        "knowsAbout": "Swedish family history",
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Joban_Elov_Burman"
+        ],
+        "hobbies": [
+            {
+                "@type": "Thing",
+                "name": "Music"
+            }
+        ]
+    }
+}

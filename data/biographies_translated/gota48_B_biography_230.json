@@ -1,0 +1,96 @@
+{
+    "original": "Berlin, Karl Gustaf Yngve, rektor. Torsås, f. 13/7/93 i Västerstad, Malmöh. 1, av kyrkoh. Måns B. o. Klara Löwegren. G. 20 m. Anna Johansson. Barn: Knut f. 22, Gertrud 25. — Stud:ex. i Lund 11, fil. kand. där 13, folkskoll :ex. i Växjö 16. Vik. adj. v. Växjö folksk :sem. 16-17, ord. folkskoll. i Nyköp. 18-21, ord. ämneslär. i matem., fysik, kemi o. teckr^ v. Torsås k o mm. mellan sk. 21, rektor där 35, adj. i matem. o. fysik samt rektor v. skolans ombild. t. samrealsk 44.",
+    "translated": "Berlin, Karl Gustaf Yngve, rektor (principal/headmaster). Born in Västerstad, Malmöh on July 13th, 1893 to the church minister Måns B. and Klara Löwegren. Married to Anna Johansson in 1920 with two children – Knut, born in 1922, and Gertrud, born in 1925. Studied at Lund University, graduating with a degree in philosophy in 1913, and obtained a teaching certificate for elementary school in Växjö in 1916. Worked as a substitute teacher at Växjö elementary school from 1916 to 1917, and as a full-time elementary school teacher in Nyköping from 1918 to 1921. Was an appointed subject teacher of mathematics, physics, chemistry, and drawing in Torsås from 1921, and became the principal of a newly established secondary school in Torsås in 1935. He also served as a subject teacher of mathematics and physics while serving as the principal of the secondary school from 1944 onward.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Gustaf Yngve Berlin\",\n  \"birthDate\": \"1893-07-13\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Västerstad\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Malmöh\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Måns B. Berlin\",\n      \"jobTitle\": \"Church Minister\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Klara Löwegren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Johansson\",\n    \"marriageDate\": \"1920-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut Berlin\",\n      \"birthDate\": \"1922-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gertrud Berlin\",\n      \"birthDate\": \"1925-01-01\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"startDate\": \"1913-01-01\",\n      \"endDate\": \"1913-12-31\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Växjö Elementary School\",\n      \"startDate\": \"1916-01-01\",\n      \"endDate\": \"1917-12-31\",\n      \"jobTitle\": \"Substitute Teacher\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Nyköping Elementary School\",\n      \"startDate\": \"1918-01-01\",\n      \"endDate\": \"1921-12-31\",\n      \"jobTitle\": \"Full-Time Teacher\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Torsås\",\n      \"startDate\": \"1921-01-01\",\n      \"jobTitle\": \"Subject Teacher\",\n      \"teaches\": [\n        \"mathematics\",\n        \"physics\",\n        \"chemistry\",\n        \"drawing\"\n      ]\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Torsås Secondary School\",\n      \"startDate\": \"1935-01-01\",\n      \"jobTitle\": \"Principal\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Subject Teacher of Mathematics and Physics\",\n    \"Principal of Torsås Secondary School\"\n  ],\n  \"startDate\": [\n    \"1944-01-01\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Gustaf Yngve Berlin",
+        "birthDate": "1893-07-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Västerstad",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Malmöh"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Måns B. Berlin",
+                "jobTitle": "Church Minister"
+            },
+            {
+                "@type": "Person",
+                "name": "Klara Löwegren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Johansson",
+            "marriageDate": "1920-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Knut Berlin",
+                "birthDate": "1922-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Gertrud Berlin",
+                "birthDate": "1925-01-01"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "startDate": "1913-01-01",
+                "endDate": "1913-12-31"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Växjö Elementary School",
+                "startDate": "1916-01-01",
+                "endDate": "1917-12-31",
+                "jobTitle": "Substitute Teacher"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Nyköping Elementary School",
+                "startDate": "1918-01-01",
+                "endDate": "1921-12-31",
+                "jobTitle": "Full-Time Teacher"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Torsås",
+                "startDate": "1921-01-01",
+                "jobTitle": "Subject Teacher",
+                "teaches": [
+                    "mathematics",
+                    "physics",
+                    "chemistry",
+                    "drawing"
+                ]
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Torsås Secondary School",
+                "startDate": "1935-01-01",
+                "jobTitle": "Principal"
+            }
+        ],
+        "jobTitle": [
+            "Subject Teacher of Mathematics and Physics",
+            "Principal of Torsås Secondary School"
+        ],
+        "startDate": [
+            "1944-01-01"
+        ]
+    }
+}

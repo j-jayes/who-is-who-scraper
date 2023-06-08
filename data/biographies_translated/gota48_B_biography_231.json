@@ -1,0 +1,125 @@
+{
+    "original": "Berlind, Carl August Harald, jägmästare, Eksjö, f. 29/5/95 i Nivelsjö, Jönköp. 1. G. 1. 24 m. Margareta Aspengrén; 2. 38 m. Mary-Ann As-pengrén. Barn: Karin f. 26, Ingeborg 28, Sven 31, Gunnar 33, S ten 37, Ann 45. — Stud:ex. i Växjö 14, fil. stud. v. Upps. univ. 14-15, ex. v. skogs-högsk. 21. Res. t. Franska Nordafrika, Ital. o. Ösiterr. 22. Anst. i don änv. s. as’sist. i olika revir i Norrl. 2ll-28^ i s. Sv:e fr. 29 o. h. överjägmäst. i distr. 35-37, bitr. jägmäst. i Eksjö revir sed. 37.",
+    "translated": "Berlind, Carl August Harald, forester, Eksjö, born May 29, 1895 in Nivelsjö, Jönköping. Married first to Margareta Aspengrén in 1924 for 24 months, and later to Mary-Ann Aspengrén in 1938 for 38 months. Children: Karin born in 1926, Ingeborg in 1928, Sven in 1931, Gunnar in 1933, Sten in 1937, and Ann in 1945. He graduated from high school in Växjö in 1914, studied philosophy at Uppsala University from 1914-1915, and graduated from forestry school in 1921. He traveled to French North Africa, Italy, and Austria in 1922. He was employed as an assistant in various districts in Northern Sweden from 1921-1928 and as a senior forester in the southern part of Sweden from 1929 and as head forester in the district from 1935-1937. From 1937, he has worked as assistant forester in the Eksjö district.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl August Harald Berlind\",\n  \"jobTitle\": \"Forester\",\n  \"birthPlace\": \"Nivelsjö, Jönköping, Sweden\",\n  \"birthDate\": \"1895-05-29\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Aspengrén\",\n      \"marriageDate\": \"1924-01-01\",\n      \"divorceDate\": \"1926-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mary-Ann Aspengrén\",\n      \"marriageDate\": \"1938-01-01\",\n      \"divorceDate\": \"1941-03-01\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Berlind\",\n      \"birthDate\": \"1926-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingeborg Berlind\",\n      \"birthDate\": \"1928-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Berlind\",\n      \"birthDate\": \"1931-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Berlind\",\n      \"birthDate\": \"1933-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sten Berlind\",\n      \"birthDate\": \"1937-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann Berlind\",\n      \"birthDate\": \"1945-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"educationalLevel\": \"SecondaryEducationLevel\",\n      \"educationalCredentialAwarded\": \"Stud:ex. i Växjö\",\n      \"educationStartDate\": \"1914\",\n      \"educationEndDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"educationalLevel\": \"UndergraduateLevel\",\n      \"educationalCredentialAwarded\": \"Fil. stud. v. Upps. univ.\",\n      \"educationStartDate\": \"1914\",\n      \"educationEndDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"educationalCredentialAwarded\": \"Ex. v. skogs-högsk.\",\n      \"educationStartDate\": \"1915\",\n      \"educationEndDate\": \"1921\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Occupation\",\n      \"title\": \"Assistant Forester\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1928\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"title\": \"Senior Forester\",\n      \"startDate\": \"1929\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"title\": \"Head Forester\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1937\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"title\": \"Assistant Forester\",\n      \"startDate\": \"1937\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Eksjö District\"\n      }\n    }\n  ],\n  \"nationality\": \"Swedish\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl August Harald Berlind",
+        "jobTitle": [
+            {
+                "@type": "Occupation",
+                "title": "Assistant Forester",
+                "startDate": "1921",
+                "endDate": "1928",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "title": "Senior Forester",
+                "startDate": "1929",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "title": "Head Forester",
+                "startDate": "1935",
+                "endDate": "1937",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "title": "Assistant Forester",
+                "startDate": "1937",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Eksjö District"
+                }
+            }
+        ],
+        "birthPlace": "Nivelsjö, Jönköping, Sweden",
+        "birthDate": "1895-05-29",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Margareta Aspengrén",
+                "marriageDate": "1924-01-01",
+                "divorceDate": "1926-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Mary-Ann Aspengrén",
+                "marriageDate": "1938-01-01",
+                "divorceDate": "1941-03-01"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin Berlind",
+                "birthDate": "1926-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingeborg Berlind",
+                "birthDate": "1928-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven Berlind",
+                "birthDate": "1931-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar Berlind",
+                "birthDate": "1933-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Sten Berlind",
+                "birthDate": "1937-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann Berlind",
+                "birthDate": "1945-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "educationalLevel": "SecondaryEducationLevel",
+                "educationalCredentialAwarded": "Stud:ex. i Växjö",
+                "educationStartDate": "1914",
+                "educationEndDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "educationalLevel": "UndergraduateLevel",
+                "educationalCredentialAwarded": "Fil. stud. v. Upps. univ.",
+                "educationStartDate": "1914",
+                "educationEndDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "educationalLevel": "BachelorDegree",
+                "educationalCredentialAwarded": "Ex. v. skogs-högsk.",
+                "educationStartDate": "1915",
+                "educationEndDate": "1921"
+            }
+        ],
+        "nationality": "Swedish"
+    }
+}

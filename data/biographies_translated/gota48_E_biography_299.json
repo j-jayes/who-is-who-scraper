@@ -1,0 +1,110 @@
+{
+    "original": "Eriksson, Artur Johan, civilingenjör, Borås, f. 24/6/01 i By, Kopparb. 1., av Alfred E. o. Hilma Sundström. G. 26 m. Gerda Jödahl. Barn: Barbro f. 27, Bengt 30, Bertil 35, Bo 37. — Stud. v. norra real i Sthlin, civ:ing:ex. v. KTH 24. Kemist v. A-B Joh. Ohlssons Tekn. Fabr. 17-20, chef f. Ammunitions fabr. försökslab. i Sthlm 25-28, driftsing., ’senare driftchef v. A-B Sv. Konstsilke i Borås sed. 28. Led. av Sv. tekn :fören. sed. 24.",
+    "translated": "Eriksson, Artur Johan, Engineer, Borås, born June 24, 1901 in By, Kopparberg County, first child of Alfred E. and Hilma Sundström. Married in 1926 to Gerda Jödahl. Children: Barbro b. 1927, Bengt b. 1930, Bertil b. 1935, Bo b. 1937. Studied at Norra Real in Stockholm, graduated as a civil engineer from KTH in 1924. Worked as a chemist at A-B Joh. Ohlsson Tekn. Fabr. from 1917-1920, as head of the ammunition factory research laboratory in Stockholm from 1925-1928, and as a production engineer and later production manager at A-B Sv. Konstsilke in Borås since 1928. Member of the Swedish Technical Association since 1924.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Artur Johan Eriksson\",\n   \"birthDate\": \"1901-06-24\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"By, Kopparberg County\"\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Alfred E. Eriksson\",\n         \"spouse\": {\n            \"@type\": \"Person\",\n            \"name\": \"Hilma Sundström\"\n         }\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Gerda Jödahl\",\n      \"marriageDate\": \"1926\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Barbro Eriksson\",\n         \"birthDate\": \"1927\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Bengt Eriksson\",\n         \"birthDate\": \"1930\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Bertil Eriksson\",\n         \"birthDate\": \"1935\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Bo Eriksson\",\n         \"birthDate\": \"1937\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Norra Real\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Stockholm\",\n            \"addressCountry\": \"Sweden\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"KTH\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Stockholm\",\n            \"addressCountry\": \"Sweden\"\n         },\n         \"endDate\": \"1924\"\n      }\n   ],\n   \"jobTitle\": \"Engineer\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\"\n   },\n   \"workExperience\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Joh. Ohlssons Tekn. Fabr.\",\n         \"jobTitle\": \"Chemist\",\n         \"startDate\": \"1917\",\n         \"endDate\": \"1920\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Ammunition factory research laboratory\",\n         \"jobTitle\": \"Head\",\n         \"startDate\": \"1925\",\n         \"endDate\": \"1928\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Stockholm\",\n            \"addressCountry\": \"Sweden\"\n         }\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Sv. Konstsilke\",\n         \"jobTitle\": \"Production Manager\",\n         \"startDate\": \"1928\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Borås\",\n            \"addressCountry\": \"Sweden\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Artur Johan Eriksson",
+        "birthDate": "1901-06-24",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "By, Kopparberg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Alfred E. Eriksson",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Hilma Sundström"
+                }
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gerda Jödahl",
+            "marriageDate": "1926"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Barbro Eriksson",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Eriksson",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil Eriksson",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Eriksson",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norra Real",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm",
+                    "addressCountry": "Sweden"
+                }
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "KTH",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm",
+                    "addressCountry": "Sweden"
+                },
+                "endDate": "1924"
+            }
+        ],
+        "jobTitle": "Engineer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Technical Association"
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "A-B Joh. Ohlssons Tekn. Fabr.",
+                "jobTitle": "Chemist",
+                "startDate": "1917",
+                "endDate": "1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ammunition factory research laboratory",
+                "jobTitle": "Head",
+                "startDate": "1925",
+                "endDate": "1928",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm",
+                    "addressCountry": "Sweden"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Sv. Konstsilke",
+                "jobTitle": "Production Manager",
+                "startDate": "1928",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Borås",
+                    "addressCountry": "Sweden"
+                }
+            }
+        ]
+    }
+}

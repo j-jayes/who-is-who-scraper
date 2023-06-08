@@ -1,0 +1,122 @@
+{
+    "original": "Björck, Erik Sigfrid, stadsläkare, Mölndal, f. 1/11/91 i Falkenberg av prov:läk. Carl Henrik B. o. Eliza Kjellberg. G. 18 m. Laila Lindegren. Barn: Ulla f. 20, Birgit (adopt.) 23. — Stud:ex. i Stliim 10, med. kand. i Upps. 14, med. lic. där 18. Stud:resa t. Köpenhamn 19. Tf. und :läk. v. Sö-dermanl. 1. tub :sjukh. 17, v. Varbergs las. 20, vik. e. prov:läk. i Fässbergs distr. 21-23, assist, v. barnsjukh. Kai-serin Augusta Victoria Haus, Berlin-Charlottenburg, 18, läk. v. Mölndals folksk. 19-28, v. dess epidrsjukh. 22-46 samt v. dess komm. sinnessjukanst. 23-45, stadsläk. i Mölndal sed. 23.",
+    "translated": "Björck, Erik Sigfrid, town doctor, Mölndal, born on November 1st, 1891 in Falkenberg, son of provincial physician Carl Henrik B. and Eliza Kjellberg. Married on the 18th with Laila Lindegren. Children: Ulla born in 1920, Birgit (adopted) born in 1923. He completed his high school education in Stockholm in 1910, graduated with a Bachelor of Medicine degree from Uppsala in 1914, and a medical license in 1918. He went on a study trip to Copenhagen in 1919. He served as a temporary assistant doctor at Södermanland's tuberculosis hospital in 1917, at Varberg's county hospital in 1920, and as a substitute provincial physician in Fässberg's district from 1921-1923. He was an assistant at the Kaiserin Augusta Victoria Haus children's hospital in Berlin-Charlottenburg in 1918, was a doctor at Mölndal's elementary school from 1919-1928, worked at their epidemic hospital from 1922-1946, and at their community mental hospital from 1923-1945. He has been the town doctor in Mölndal since 1923.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Sigfrid Björck\",\n  \"jobTitle\": \"Town Doctor\",\n  \"birthDate\": \"1891-11-01\",\n  \"birthPlace\": \"Falkenberg, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Henrik B. Björck\",\n      \"jobTitle\": \"Provincial Physician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eliza Kjellberg Björck\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Laila Lindegren\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Björck\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit Björck\",\n      \"birthDate\": \"1923\",\n      \"adopted\": true\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"educationLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Stud:ex\",\n      \"awardingInstitution\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Medicine\",\n      \"educationLevel\": \"Bachelor's Degree\",\n      \"educationalCredentialAwarded\": \"Med. kand.\",\n      \"awardingInstitution\": \"Uppsala University\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical License\",\n      \"educationalCredentialAwarded\": \"Med. lic.\",\n      \"awardIngInstitution\": \"Uppsala University\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Tuberculosis\",\n      \"occupationLocation\": [\n        {\n          \"@type\": \"City\",\n          \"name\": \"Södermanland\",\n          \"endTime\": \"1917\"\n        },\n        {\n          \"@type\": \"City\",\n          \"name\": \"Varberg\",\n          \"endTime\": \"1920\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Pediatrics\",\n      \"occupationLocation\": [\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Fässberg's district\",\n          \"startTime\": \"1921\",\n          \"endTime\": \"1923\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Kaiserin Augusta Victoria Haus\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Berlin\",\n            \"addressRegion\": \"Charlottenburg\",\n            \"addressCountry\": \"Germany\"\n          },\n          \"startTime\": \"1918\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Mölndal's Elementary School\",\n          \"startTime\": \"1919\",\n          \"endTime\": \"1928\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Mölndal's Community Mental Hospital\",\n          \"startTime\": \"1923\",\n          \"endTime\": \"1945\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Mölndal's Epidemic Hospital\",\n          \"startTime\": \"1922\",\n          \"endTime\": \"1946\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Erik Sigfrid Björck",
+        "jobTitle": "Town Doctor",
+        "birthDate": "1891-11-01",
+        "birthPlace": "Falkenberg, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl Henrik B. Björck",
+                "jobTitle": "Provincial Physician"
+            },
+            {
+                "@type": "Person",
+                "name": "Eliza Kjellberg Björck"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Laila Lindegren"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla Björck",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit Björck",
+                "birthDate": "1923",
+                "adopted": true
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationLevel": "HighSchool",
+                "educationalCredentialAwarded": "Stud:ex",
+                "awardingInstitution": "Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Medicine",
+                "educationLevel": "Bachelor's Degree",
+                "educationalCredentialAwarded": "Med. kand.",
+                "awardingInstitution": "Uppsala University",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical License",
+                "educationalCredentialAwarded": "Med. lic.",
+                "awardIngInstitution": "Uppsala University",
+                "endDate": "1918"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Tuberculosis",
+                "occupationLocation": [
+                    {
+                        "@type": "City",
+                        "name": "Södermanland",
+                        "endTime": "1917"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Varberg",
+                        "endTime": "1920"
+                    }
+                ]
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Pediatrics",
+                "occupationLocation": [
+                    {
+                        "@type": "AdministrativeArea",
+                        "name": "Fässberg's district",
+                        "startTime": "1921",
+                        "endTime": "1923"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Kaiserin Augusta Victoria Haus",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Berlin",
+                            "addressRegion": "Charlottenburg",
+                            "addressCountry": "Germany"
+                        },
+                        "startTime": "1918"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Mölndal's Elementary School",
+                        "startTime": "1919",
+                        "endTime": "1928"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Mölndal's Community Mental Hospital",
+                        "startTime": "1923",
+                        "endTime": "1945"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Mölndal's Epidemic Hospital",
+                        "startTime": "1922",
+                        "endTime": "1946"
+                    }
+                ]
+            }
+        ]
+    }
+}

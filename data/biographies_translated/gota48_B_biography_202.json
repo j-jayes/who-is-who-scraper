@@ -1,0 +1,116 @@
+{
+    "original": "Bergström, Leif Bele Vilhelm, länsjägmästare, Halmstad, f. 12/11/93 i Färnebo, Värml. 1., av brukspatron Albert B. o. Maria Dahl. G. 21 m. Vivi Sundquist. Barn: Unn f. 22, Bo 24, Ulf 26, Nina 33. — Stud:ex. v. Lundsberg 11, utex. fr. skogshögsk. 18. Stud:resa t. Finl. 27. Anst. i do-miänv. 18-30, h. skogsv:styr. i Norrb. 1. 30-44, länsjägmäst. i Hall. 1. sed. 45. Hobby: skidåkning. RVO.",
+    "translated": "Bergström, Leif Bele Vilhelm, County Forester, Halmstad, born on November 12, 1893 in Färnebo, Värmland, the first child of industrialist Albert B. and Maria Dahl. Married in 1921 to Vivi Sundquist. Children: Unn (1922), Bo (1924), Ulf (1926), Nina (1933). He completed his high school studies at Lundsberg in 1911, graduated from the Forestry College in 1918, and went on a study trip to Finland in 1927. Employed in municipal services from 1918-1930, then worked for the Forest Authority in Norrbotten from 1930-1944 before becoming a County Forester in Halland in 1945. His hobbies are skiing, and he has received the Royal Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Leif Bele Vilhelm Bergström\",\n  \"birthDate\": \"1893-11-12\",\n  \"birthPlace\": \"Färnebo, Värmland, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert B. Bergström\",\n      \"jobTitle\": \"Industrialist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Dahl\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vivi Sundquist\",\n    \"marriageDate\": \"1921\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Unn Bergström\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Bergström\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Bergström\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nina Bergström\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lundsberg\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Swedish University of Agricultural Sciences\",\n      \"endDate\": \"1918\"\n    }\n  ],\n  \"jobTitle\": [\n    \"County Forester\",\n    \"Industrialist\"\n  ],\n  \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Order of Vasa\"\n  },\n  \"hasOccupationHistory\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1930\",\n      \"location\": {\n        \"@type\": \"Country\",\n        \"name\": \"Sweden\"\n      },\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Municipal Services\"\n      }\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1944\",\n      \"location\": {\n        \"@type\": \"Country\",\n        \"name\": \"Sweden\"\n      },\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Forest Authority in Norrbotten\"\n      }\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"startDate\": \"1945\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Halland, Sweden\"\n      },\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Forester\"\n      }\n    }\n  ],\n  \"knowsAbout\": [\n    {\n      \"@type\": \"Thing\",\n      \"name\": \"Skiing\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Leif Bele Vilhelm Bergström",
+        "birthDate": "1893-11-12",
+        "birthPlace": "Färnebo, Värmland, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Albert B. Bergström",
+                "jobTitle": "Industrialist"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Dahl"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vivi Sundquist",
+            "marriageDate": "1921"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Unn Bergström",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Bergström",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulf Bergström",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Nina Bergström",
+                "birthDate": "1933"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lundsberg",
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Swedish University of Agricultural Sciences",
+                "endDate": "1918"
+            }
+        ],
+        "jobTitle": [
+            "County Forester",
+            "Industrialist"
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Royal Order of Vasa"
+        },
+        "hasOccupationHistory": [
+            {
+                "@type": "EmploymentEvent",
+                "startDate": "1918",
+                "endDate": "1930",
+                "location": {
+                    "@type": "Country",
+                    "name": "Sweden"
+                },
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Municipal Services"
+                }
+            },
+            {
+                "@type": "EmploymentEvent",
+                "startDate": "1930",
+                "endDate": "1944",
+                "location": {
+                    "@type": "Country",
+                    "name": "Sweden"
+                },
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Forest Authority in Norrbotten"
+                }
+            },
+            {
+                "@type": "EmploymentEvent",
+                "startDate": "1945",
+                "location": {
+                    "@type": "Place",
+                    "name": "Halland, Sweden"
+                },
+                "employer": {
+                    "@type": "Organization",
+                    "name": "County Forester"
+                }
+            }
+        ],
+        "knowsAbout": [
+            {
+                "@type": "Thing",
+                "name": "Skiing"
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "original": "Barrholm, Gustaf Artur, kamrer, Kinna, f. 24/1/08 i Jönköp. G. 34 m. Siri Holmqvist. Barn: Ulla f. 35, Inger 41, Kerstin 45. — Genomg. Ne-dins handisk. 28 samt korresp :sk. Kassör v. Krönleins Bryggeri i Jönköp. 30i-33, kamr. v. Kinna Bryggeri A-B sed. 33. Kassör i Marks härads bef :utb :fören. sed. 37, dito i RPO avd. i Kinna. Hobbies: rodd o. fiske. Älvsb. bef :utb :förb. förtjiSM.",
+    "translated": "Barrholm, Gustaf Artur, accountant, from Kinna, born on January 24, 1908 in Jönköping. Married in 1934 to Siri Holmqvist. Children: Ulla born in 1935, Inger born in 1941, Kerstin born in 1945. Graduated from Ne-din's handicraft school in 1928 and correspondence school. Treasurer at Krönleins Brewery in Jönköping from 1930-1933, accountant at Kinna Brewery AB since 1933. Treasurer in the Marks County educational association since 1937 and also in the RPO department in Kinna. Hobbies include rowing and fishing. Received a merit award from the Älvsborg County educational association.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org/\",\n    \"@type\": \"Person\",\n    \"name\": \"Gustaf Artur Barrholm\",\n    \"jobTitle\": \"Accountant\",\n    \"birthPlace\": \"Jönköping\",\n    \"birthDate\": \"1908-01-24\",\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Siri Holmqvist\",\n        \"marriageDate\": \"1934\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Ulla\",\n            \"birthDate\": \"1935\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Inger\",\n            \"birthDate\": \"1941\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Kerstin\",\n            \"birthDate\": \"1945\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"handicraft school\",\n            \"educationalLevel\": \"secondary\",\n            \"educationalCredentialAwarded\": \"Ne-din's handicraft school\",\n            \"alumniOf\": \"Ne-din's handicraft school\",\n            \"startDate\": \"1928\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"correspondence school\",\n            \"educationalLevel\": \"secondary\",\n            \"educationalCredentialAwarded\": \"Correspondence school\",\n            \"alumniOf\": \"Correspondence school\"\n        }\n    ],\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Krönleins Brewery\",\n            \"startDate\": \"1930\",\n            \"endDate\": \"1933\",\n            \"jobTitle\": \"Treasurer\",\n            \"description\": \"Krönleins Brewery in Jönköping\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Kinna Brewery AB\",\n            \"startDate\": \"1933\",\n            \"jobTitle\": \"Accountant\",\n            \"description\": \"Kinna Brewery AB\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Marks County educational association\",\n            \"startDate\": \"1937\",\n            \"jobTitle\": \"Treasurer\",\n            \"description\": \"Marks County educational association\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"RPO department\",\n            \"jobTitle\": \"Treasurer\",\n            \"description\": \"RPO department in Kinna\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Älvsborg County educational association\",\n            \"description\": \"Älvsborg County educational association\",\n            \"award\": \"Merit award\"\n        }\n    ],\n    \"sameAs\": \"\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gustaf Artur Barrholm",
+        "jobTitle": "Accountant",
+        "birthPlace": "Jönköping",
+        "birthDate": "1908-01-24",
+        "spouse": {
+            "@type": "Person",
+            "name": "Siri Holmqvist",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "handicraft school",
+                "educationalLevel": "secondary",
+                "educationalCredentialAwarded": "Ne-din's handicraft school",
+                "alumniOf": "Ne-din's handicraft school",
+                "startDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "correspondence school",
+                "educationalLevel": "secondary",
+                "educationalCredentialAwarded": "Correspondence school",
+                "alumniOf": "Correspondence school"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Krönleins Brewery",
+                "startDate": "1930",
+                "endDate": "1933",
+                "jobTitle": "Treasurer",
+                "description": "Krönleins Brewery in Jönköping"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kinna Brewery AB",
+                "startDate": "1933",
+                "jobTitle": "Accountant",
+                "description": "Kinna Brewery AB"
+            },
+            {
+                "@type": "Organization",
+                "name": "Marks County educational association",
+                "startDate": "1937",
+                "jobTitle": "Treasurer",
+                "description": "Marks County educational association"
+            },
+            {
+                "@type": "Organization",
+                "name": "RPO department",
+                "jobTitle": "Treasurer",
+                "description": "RPO department in Kinna"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvsborg County educational association",
+                "description": "Älvsborg County educational association",
+                "award": "Merit award"
+            }
+        ],
+        "sameAs": ""
+    }
+}

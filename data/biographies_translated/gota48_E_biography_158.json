@@ -1,0 +1,61 @@
+{
+    "original": "Ekstam, Gunnar Fredrik Isidor, tandläkare, Göteborg, f. 28/5/83 i V. Harg, östergötl. 1., av Per Fredrik Nilsson o. OLara Helena Ekstam. G. 12 m. Viva Helander. — Mog:ex. i Linköping 03, res :off :ex. 05, tandl :-kand. 06, tandl. 09. Prakt, i Gbg sed. 09. Sekr. i Gbgs tandl :sällsk. 12.",
+    "translated": "Ekstam, Gunnar Fredrik Isidor, dentist, Gothenburg, b. May 28th, 1883 in Västra Harg, Östergötland, son of Per Fredrik Nilsson and OLara Helena Ekstam. Married to Viva Helander in 1912. Graduated from the Dental College in Linköping in 1903, became a reserve officer in 1905, graduated as a dental candidate in 1906, and became a dentist in 1909. Practiced in Gothenburg since 1909. Secretary of the Gothenburg Dental Association in 1912.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Fredrik Isidor Ekstam\",\n  \"birthDate\": \"1883-05-28\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Västra Harg, Östergötland, Sweden\"\n  },\n  \"spouse\": \"Viva Helander\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Fredrik Nilsson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"OLara Helena Ekstam\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Dental Association\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Linköping Dental College\",\n      \"location\": \"Linköping, Sweden\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University of Gothenburg\",\n      \"location\": \"Gothenburg, Sweden\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Dental Association\",\n      \"startDate\": \"1912-01-01\"\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"gender\": \"male\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Dental Association\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Association\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Medical Association\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Reserve Officer's Association\",\n      \"startDate\": \"1905-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Fredrik Isidor Ekstam",
+        "birthDate": "1883-05-28",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Västra Harg, Östergötland, Sweden"
+        },
+        "spouse": "Viva Helander",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Per Fredrik Nilsson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "OLara Helena Ekstam",
+                "gender": "female"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg Dental Association"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Linköping Dental College",
+                "location": "Linköping, Sweden"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Gothenburg",
+                "location": "Gothenburg, Sweden"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Dental Association",
+                "startDate": "1912-01-01"
+            }
+        ],
+        "nationality": "Swedish",
+        "gender": "male",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Reserve Officer's Association",
+                "startDate": "1905-01-01"
+            }
+        ]
+    }
+}

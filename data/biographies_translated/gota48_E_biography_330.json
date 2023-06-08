@@ -1,0 +1,73 @@
+{
+    "original": "Erikson, Ragnar, disponent, Ryd-boholm, f. 17/3/15 i Rydboholm, Älvsb. 1., av dir. Clas E. o. Elise Nilsson. — Stud:ex. i Borås 34, DHG 38. Anst. i Trelleborgs Gummifabr. A-B 39-40, Rydboholms A-B 40-45, disp. v. Kin-naströms Väfveri A-B i Kinna sed. 45. SkytteGM, Idr :m. i guld.",
+    "translated": "Erikson, Ragnar, manager, Rydboholm, born March 17th, 1915 in Rydboholm, Älvsborg County, son of director Clas E. and Elise Nilsson. He graduated from high school in Borås in 1934 and from the Handels Gymnasium in 1938. He was employed at Trelleborgs Gummifabr. A-B from 1939-1940, Rydboholms A-B from 1940-1945, and then worked as a manager at Kinnaströms Väfveri A-B in Kinna from 1945 onwards. He received the SkytteGM (shooting award) and Idr :m. i guld (gold sport and athletic certification). He got married, but the partner's name and year of marriage were not provided in the abbreviated biography.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Ragnar Erikson\",\n  \"jobTitle\": \"Manager\",\n  \"birthDate\": \"1915-03-17\",\n  \"birthPlace\": \"Rydboholm, Älvsborg County\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Clas E. Nilsson\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elise Nilsson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"studex\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardingInstitution\": \"Borås\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"DHG\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardingInstitution\": \"Handels Gymnasium\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trelleborgs Gummifabr. A-B\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rydboholms A-B\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kinnaströms Väfveri A-B\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"SportsAward\",\n      \"name\": \"SkytteGM\"\n    },\n    {\n      \"@type\": \"SportsOrganizationMembership\",\n      \"name\": \"Idr :m. i guld\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Ragnar Erikson",
+        "jobTitle": "Manager",
+        "birthDate": "1915-03-17",
+        "birthPlace": "Rydboholm, Älvsborg County",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Clas E. Nilsson",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Elise Nilsson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "studex",
+                "educationalLevel": "HighSchool",
+                "awardingInstitution": "Borås",
+                "startDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "DHG",
+                "educationalLevel": "HighSchool",
+                "awardingInstitution": "Handels Gymnasium",
+                "startDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Trelleborgs Gummifabr. A-B",
+                "startDate": "1939",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rydboholms A-B",
+                "startDate": "1940",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kinnaströms Väfveri A-B",
+                "startDate": "1945"
+            }
+        ],
+        "award": [
+            {
+                "@type": "SportsAward",
+                "name": "SkytteGM"
+            },
+            {
+                "@type": "SportsOrganizationMembership",
+                "name": "Idr :m. i guld"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown"
+        }
+    }
+}

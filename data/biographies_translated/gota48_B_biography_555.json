@@ -1,0 +1,67 @@
+{
+    "original": "Brise, Gustaf Ivan Alfred, tandläkare, Karlshamn, f. 17/6/92 i Mjölby. G. 22 m. tandl. Greta Bodekull. Barn: Hiansi f. 2;2, Sven 25, Margareta 30. — Stud :ex. i Jöniköping 10, ekon. ex. v. HHS 12, tandl :kand. 16, tandläkare 18. Tj :man i A-B Gbgs Bank i Sthlm 12-15, tandl :praktik i Karlshamn sed. 18. Ordf. i Blek. tandl :-fören. 31-33.",
+    "translated": "Brise, Gustaf Ivan Alfred, dentist, Karlshamn, b. June 17, 1892 in Mjölby. Married in 1922 to dentist Greta Bodekull. Children: Hiansi b. 1922, Sven b. 1925, Margareta b. 1930. He obtained a degree in dentistry from Jönköping in 1910, an economics degree from HHS in 1912, a dental degree in 1916, and became a licensed dentist in 1918. He worked as a clerk for A-B Gbgs Bank in Stockholm from 1912-1915, and then established a dental practice in Karlshamn in 1918. He served as chairman of the Blekinge Dental Association from 1931-1933.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Ivan Alfred Brise\",\n  \"birthDate\": \"1892-06-17\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Mjölby\"\n  },\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Karlshamn\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Bodekull\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hiansi\",\n      \"birthDate\": \"1922-02-02\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1930\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Jönköping\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"HHS\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1912\"\n    }\n  ],\n  \"knowsAbout\": \"Dentistry\",\n  \"jobTitle\": \"Licensed dentist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Gbgs Bank\",\n    \"startDate\": \"1912\",\n    \"endDate\": \"1915\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dental Practitioner\",\n    \"startDate\": \"1918\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Blekinge Dental Association\",\n    \"startDate\": \"1931\",\n    \"endDate\": \"1933\",\n    \"roleName\": \"Chairman\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Ivan Alfred Brise",
+        "birthDate": "1892-06-17",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Mjölby"
+        },
+        "jobTitle": "Licensed dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlshamn"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Bodekull",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hiansi",
+                "birthDate": "1922-02-02"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1930"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Jönköping"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "HHS",
+                "startDate": "1912",
+                "endDate": "1912"
+            }
+        ],
+        "knowsAbout": "Dentistry",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Blekinge Dental Association",
+            "startDate": "1931",
+            "endDate": "1933",
+            "roleName": "Chairman"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dental Practitioner",
+            "startDate": "1918"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "original": "Enander, John Arthur, komminister, Göteborg, f. 15/8/06 i Rydboholm, Älvsb. 1., av Johannes Larsson o. Anna Enander. G. 36 m. Kamma Knud-sen. Barn: Inger f. 38, Anne-Marie 41, Barbro 44. — Stud:ex. i Gbg 26, teol. fil. ex. 27, teol. kand. samt prakt, teol. prov 30, prästv. f. Gbgs stift 31. Müssiv i Brastad o. Starr^kärr 31, v. kommin. i Gamlestads förs. i Gbg 31, kyrkoadj. där 33 o. kommin. där sed. 36. Led. av Gamlestads barn- o. ungd :råd.",
+    "translated": "Enander, John Arthur, minister, Gothenburg, born August 15th, 1906 in Rydboholm, Älvsborg County, son of Johannes Larsson and Anna Enander. Married in 1936 to Kamma Knudsen. Children: Inger, born in 1938, Anne-Marie born in 1941, and Barbro born in 1944. He completed his high school studies in Gothenburg in 1926, followed by theological studies and practical theological exams in 1927 and 1930, respectively. He was ordained as a priest for the Gothenburg diocese in 1931. He served as a curate in Brastad and Starrkärr in 1931, and as a substitute minister in Gamlestads parish in Gothenburg in 1933 before becoming a full-time minister there in 1936. He was also a member of the Gamlestads children and youth council.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"John Arthur Enander\",\n  \"jobTitle\": \"Minister\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1906-08-15\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Rydboholm, Älvsborg County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johannes Larsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Enander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kamma Knudsen\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud:ex\",\n      \"credentialEarned\": \"Gbg 26\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teol. fil. ex\",\n      \"credentialEarned\": \"27\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teol. kand. samt prakt, teol. prov\",\n      \"credentialEarned\": \"30\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"prästv.\",\n      \"credentialEarned\": \"Gbg stift 31\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gamlestads barn- o. ungd :råd\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1933\",\n      \"description\": \"Served as a curate in Brastad and Starrkärr\"\n    },\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Minister\",\n      \"startDate\": \"1936\",\n      \"description\": \"Full-time minister at Gamlestads parish in Gothenburg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "John Arthur Enander",
+        "jobTitle": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Curate",
+                "startDate": "1931",
+                "endDate": "1933",
+                "description": "Served as a curate in Brastad and Starrkärr"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Minister",
+                "startDate": "1936",
+                "description": "Full-time minister at Gamlestads parish in Gothenburg"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1906-08-15",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Rydboholm, Älvsborg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johannes Larsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Enander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Kamma Knudsen",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Anne-Marie",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex",
+                "credentialEarned": "Gbg 26"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teol. fil. ex",
+                "credentialEarned": "27"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teol. kand. samt prakt, teol. prov",
+                "credentialEarned": "30"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "prästv.",
+                "credentialEarned": "Gbg stift 31"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gamlestads barn- o. ungd :råd"
+            }
+        ]
+    }
+}

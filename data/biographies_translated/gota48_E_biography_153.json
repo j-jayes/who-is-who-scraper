@@ -1,0 +1,102 @@
+{
+    "original": "Ekner, Johan (John) Henrik, läroverksadjunkt, Huskvarna, f. 25/3/89 i Dalstorp, Älvsb. 1. G. 31 m. Frida Sundén. Barn: Karin f. 32, Olof 34, Margareta 38. — Stud:ex. 10, fil. kand. 15 o. teol. kand. 22, allt i Lund, prov-år i Sthlm 26. E. lär. i Umeå 22-23, e. o. ämneslär. i Kiruna 23-26, ord. dito där 27, adj. 34, adj. i kristend:-kunsk. o. modersm. v. Huskvarna samrealsk. sed. 35, vik. rektor bl. a. somr. 40’-43. Led. av förs :rådet, ordf. i kyrkobrödrakåren 43-45.",
+    "translated": "Ekner, Johan (John) Henrik, high school teacher, Huskvarna, b. 25/3/89 in Dalstorp, Älvsb. 1. Married Frida Sundén in 1931. Children: Karin b. 1932, Olof b. 1934, Margareta b. 1938. Completed high school in 1910, Bachelor of Arts degree in 1915 and Bachelor of Theology degree in 1922, all in Lund. Had a probationary year in Stockholm in 1926. Was a teacher in Umeå from 1922-1923, a substitute subject teacher in Kiruna from 1923-1926, then a regular subject teacher there in 1927, adjunct professor in Christian Studies and mother tongue at the Huskvarna Secondary School since 1935, acting principal in the summer of 1940-1943. He was a member of the parish council and chairman of the Church Brothers' organization from 1943-1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Henrik Ekner\",\n  \"givenName\": \"Johan\",\n  \"additionalName\": \"Henrik\",\n  \"familyName\": \"Ekner\",\n  \"birthDate\": \"1889-03-25\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Dalstorp, Älvsborg\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Dalstorp\",\n      \"addressRegion\": \"Älvsborg\"\n    }\n  },\n  \"deathDate\": null,\n  \"nationality\": \"Swedish\",\n  \"gender\": \"Male\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Frida Sundén\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\"\n    }\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"fil. kand.\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"teol. kand.\"\n    }\n  ],\n  \"jobTitle\": \"High School Teacher\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Huskvarna\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Umeå\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Kiruna\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Huskvarna Secondary School\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Parish council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Brothers' organization\",\n      \"memberOf\": {\n        \"@type\": \"TimeInterval\",\n        \"startDate\": \"1943\",\n        \"endDate\": \"1945\"\n      }\n    }\n  ],\n  \"sameAs\": null\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Henrik Ekner",
+        "givenName": "Johan",
+        "additionalName": "Henrik",
+        "familyName": "Ekner",
+        "birthDate": "1889-03-25",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Dalstorp, Älvsborg",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Dalstorp",
+                "addressRegion": "Älvsborg"
+            }
+        },
+        "deathDate": null,
+        "nationality": "Swedish",
+        "gender": "Male",
+        "spouse": {
+            "@type": "Person",
+            "name": "Frida Sundén"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1938"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University"
+            }
+        ],
+        "educationalCredentialAwarded": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "fil. kand."
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "teol. kand."
+            }
+        ],
+        "jobTitle": "High School Teacher",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Huskvarna"
+            },
+            {
+                "@type": "Place",
+                "name": "Umeå"
+            },
+            {
+                "@type": "Place",
+                "name": "Kiruna"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Huskvarna Secondary School"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Parish council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church Brothers' organization",
+                "memberOf": {
+                    "@type": "TimeInterval",
+                    "startDate": "1943",
+                    "endDate": "1945"
+                }
+            }
+        ],
+        "sameAs": null
+    }
+}

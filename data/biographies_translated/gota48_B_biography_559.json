@@ -1,0 +1,83 @@
+{
+    "original": "Broberg, Erik Oskar, tandläkare, Oskarshamn, f. 23/12/04 i Uppsala av godsäg. Oskar B. o. Anna Söderberg. G. 31 m. Märta Hagberg. Barn: Olle f. 40, Kerstin 43. — Stud:ex. i Nyköping 24, tandl:kand. 27, tandläkare 31. Vik. i Skellefteå o. Matfors 30, assist, i Oskarshamn 31-32, praktik där sed. 32, handhade Röda Korsets skoltandv. i Oskarshamn delvis under åren 31-37. Hobby: filateli.",
+    "translated": "Broberg, Erik Oskar, dentist, from Oskarshamn, born December 23, 1904 in Uppsala to estate owner Oskar B. and Anna Söderberg. Married in 1931 to Märta Hagberg. Children: Olle born in 1940, Kerstin born in 1943. He completed his secondary school education in Nyköping in 1924, graduated from dental school in 1927, and became a licensed dentist in 1931. He worked temporarily in Skellefteå and Matfors in 1930, as an assistant in Oskarshamn in 1931-1932, and then had his own dental practice in Oskarshamn starting in 1932. He partially managed the Swedish Red Cross school dental service in Oskarshamn between 1931-1937. His hobby was philately.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Erik Oskar Broberg\",\n   \"jobTitle\":\"Dentist\",\n   \"birthDate\":\"1904-12-23\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Uppsala\"\n   },\n   \"parent\":{\n      \"@type\":\"Person\",\n      \"name\":\"Oskar B. Broberg\"\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Märta Hagberg\",\n      \"marriageDate\":\"1931\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Olle\",\n         \"birthDate\":\"1940\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Kerstin\",\n         \"birthDate\":\"1943\"\n      }\n   ],\n   \"nationality\":{\n        \"@type\":\"Country\",\n        \"name\":\"Sweden\"\n   },\n   \"education\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"credentialCategory\":\"secondary school education\",\n      \"name\":\"Stud:ex.\",\n      \"educationLevel\":\"secondary education\",\n      \"alumniOf\":{\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Nyköping\"\n      },\n      \"endDate\":\"1924\"\n   },\n   \"workExperience\":[\n      {\n         \"@type\":\"Occupation\",\n         \"name\":\"Temporary work in Skellefteå\",\n         \"startDate\":\"1930\"\n      },\n      {\n         \"@type\":\"Occupation\",\n         \"name\":\"Temporary work in Matfors\",\n         \"startDate\":\"1930\"\n      },\n      {\n         \"@type\":\"Occupation\",\n         \"name\":\"Assistant in Oskarshamn\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"1932\"\n      },\n      {\n         \"@type\":\"Occupation\",\n         \"name\":\"Dental practice in Oskarshamn\",\n         \"startDate\":\"1932\"\n      },\n      {\n         \"@type\":\"Occupation\",\n         \"name\":\"Swedish Red Cross school dental service\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"1937\"\n      }\n   ],\n   \"knowsAbout\":\"Philately\",\n   \"@id\":\"https://example.com/person/erik-oskar-broberg\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Erik Oskar Broberg",
+        "jobTitle": "Dentist",
+        "birthDate": "1904-12-23",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Uppsala"
+        },
+        "parent": {
+            "@type": "Person",
+            "name": "Oskar B. Broberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Hagberg",
+            "marriageDate": "1931"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Olle",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1943"
+            }
+        ],
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "secondary school education",
+            "name": "Stud:ex.",
+            "educationLevel": "secondary education",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Nyköping"
+            },
+            "endDate": "1924"
+        },
+        "workExperience": [
+            {
+                "@type": "Occupation",
+                "name": "Temporary work in Skellefteå",
+                "startDate": "1930"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary work in Matfors",
+                "startDate": "1930"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Assistant in Oskarshamn",
+                "startDate": "1931",
+                "endDate": "1932"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dental practice in Oskarshamn",
+                "startDate": "1932"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Swedish Red Cross school dental service",
+                "startDate": "1931",
+                "endDate": "1937"
+            }
+        ],
+        "knowsAbout": "Philately",
+        "@id": "https://example.com/person/erik-oskar-broberg"
+    }
+}

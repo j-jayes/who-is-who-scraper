@@ -1,0 +1,99 @@
+{
+    "original": "Björne, Per Axel, distriktsveterinär, Mjölby, f. 23/3/86 i Hjo. G. 14 m. Tyra Engström. Barn: Ingemar f. 16, aman. i kontr :styr., Marianne 19, g. :m. civ:ing. S. Lundell, Sthlm. — Stud:ex. i Skara 04, veterinärex. 08. Priv. prakt, i Mjölby 09-13, distr ’.veterinär där sed. 13, besiktn :veterinär v. Mjölby köttbesiktn :byrå sed. 16, kontrollant v. A-B Margarinfabr. Vega sed. 33. RVO.",
+    "translated": "Björne, Per Axel, district veterinarian, Mjölby, born March 23rd, 1886 in Hjo. Married 1914 to Tyra Engström. Children: Ingemar, born 1916, employed in military contracting, Marianne, born 1919, married to civil engineer S. Lundell in Stockholm. Per Axel received his high school degree in Skara in 1904 and his degree in veterinary medicine in 1908. He worked in private practice in Mjölby from 1909 to 1913, and as district veterinarian there since 1913. He was a veterinary inspector at the Mjölby meat inspection agency from 1916 and a controller at the A-B Margarine Factory Vega from 1933. He was awarded the Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Axel Björne\",\n  \"birthDate\": \"1886-03-23\",\n  \"birthPlace\": \"Hjo\",\n  \"jobTitle\": \"District Veterinarian\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Mjölby\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tyra Engström\",\n    \"marriageDate\": \"1914\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingemar\",\n      \"birthDate\": \"1916\",\n      \"jobTitle\": \"Employee\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Military Contracting\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1919\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"S. Lundell\",\n        \"jobTitle\": \"Civil Engineer\"\n      },\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"High School\",\n        \"dateAwarded\": \"1904\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Veterinary Medicine\",\n        \"dateAwarded\": \"1908\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"\",\n      \"jobTitle\": \"Private Practitioner\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"\",\n      \"jobTitle\": \"District Veterinarian\",\n      \"startDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mjölby Meat Inspection Agency\",\n      \"jobTitle\": \"Veterinary Inspector\",\n      \"startDate\": \"1916\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Margarine Factory Vega\",\n      \"jobTitle\": \"Controller\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Order of Vasa\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Per Axel Björne",
+        "birthDate": "1886-03-23",
+        "birthPlace": "Hjo",
+        "jobTitle": "District Veterinarian",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Mjölby"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Tyra Engström",
+            "marriageDate": "1914"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingemar",
+                "birthDate": "1916",
+                "jobTitle": "Employee",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Military Contracting"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne",
+                "birthDate": "1919",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "S. Lundell",
+                    "jobTitle": "Civil Engineer"
+                },
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "Organization",
+                "name": "Skara",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "High School",
+                    "dateAwarded": "1904"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Veterinary Medicine",
+                    "dateAwarded": "1908"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "",
+                "jobTitle": "Private Practitioner",
+                "startDate": "1909",
+                "endDate": "1913"
+            },
+            {
+                "@type": "Organization",
+                "name": "",
+                "jobTitle": "District Veterinarian",
+                "startDate": "1913"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mjölby Meat Inspection Agency",
+                "jobTitle": "Veterinary Inspector",
+                "startDate": "1916"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Margarine Factory Vega",
+                "jobTitle": "Controller",
+                "startDate": "1933"
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "Order of Vasa"
+        }
+    }
+}

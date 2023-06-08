@@ -1,0 +1,115 @@
+{
+    "original": "Bodin, Sven Johannes Wilhelm, postmästare, Göteborg, f. 21/10/84 i Tvärred, Älvsb. 1., av köpm. A. W. B. o. Dina Pettersson. G. 16 m. Clary Edgardh, d. 46. Barn: Sven Yngve Lennart f. 20, banktjänsteman, Gbg. — Stud. v. Gbgs h. latin. Anst. i postv. sed. 05, postexp. i Gbg 10, post-assist. där 25, tf. förste postassist. i Gbg 33, förste postassist. där s, å., kontr. där 38, postmäst. i Gbg sed. 43. Led. av styr. f. Understödsfören. Gbgs postmannakassa sed. 12, led. av o. sekr. i styr. f. Gbgs sekt. av Postmäst :fören. sed. 43, v. ordf. i pens:-ndn f. Gbgs stads 14 :e pens :distr. sed. 32. GM 8 st.",
+    "translated": "Bodin, Sven Johannes Wilhelm, postmaster, Gothenburg, born 21/10/84 in Tvärred, Älvsborg County, son of merchant A.W.B. and Dina Pettersson. Married in 1916 to Clary Edgardh who passed away in 1946. Children: Sven Yngve Lennart, born in 1920, bank clerk in Gothenburg. Studied at Gothenburg High Latin School in postal services and worked as a postal clerk in Gothenburg since 1910. Became a temporary senior postal clerk in Gothenburg in 1925, senior postal assistant in the same year, postmaster in Gothenburg in 1943, and superintendent in 1948. He is a member of the board of directors for the Gothenburg Postal Workers' Assistance Fund since 1912, and a member and secretary of the board of directors for the Gothenburg section of the Postmaster's Association since 1943. He also serves as vice-chair of the pension committee for the 14th district of the Gothenburg city pension office since 1932. He has received the medal of eight of the highest class.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Johannes Wilhelm Bodin\",\n  \"jobTitle\": \"Postmaster\",\n  \"birthDate\": \"1884-10-21\",\n  \"birthPlace\": \"Tvärred, Älvsborg County, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"A. W. B. Bodin\",\n    \"occupation\": \"Merchant\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dina Pettersson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Clary Edgardh\",\n    \"deathDate\": \"1946\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Yngve Lennart\",\n      \"birthDate\": \"1920\",\n      \"occupation\": \"Bank Clerk\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Postal Workers' Assistance Fund\",\n        \"foundingDate\": \"1912\"\n      }\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Gothenburg High Latin School\",\n    \"programName\": \"Postal Services\",\n    \"enrollmentDate\": \"1905\",\n    \"endDate\": \"1910\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Post Office\",\n      \"jobTitle\": \"Postal Clerk\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Post Office\",\n      \"jobTitle\": \"Temporary Senior Postal Clerk\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Post Office\",\n      \"jobTitle\": \"Senior Postal Assistant\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Post Office\",\n      \"jobTitle\": \"Postmaster\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1948\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Postal Workers' Assistance Fund\",\n      \"foundingDate\": \"1912\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Board of Directors\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Postmaster's Association\",\n      \"foundingDate\": \"1943\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Board of Directors\",\n        \"roleName\": \"Secretary\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg City Pension Office\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Pension Committee\",\n        \"districtName\": \"14th District\",\n        \"roleName\": \"Vice-Chair\"\n      },\n      \"enrollmentDate\": \"1932\"\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"Award\",\n      \"name\": \"Medal of Eight of the Highest Class\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Johannes Wilhelm Bodin",
+        "jobTitle": "Postmaster",
+        "birthDate": "1884-10-21",
+        "birthPlace": "Tvärred, Älvsborg County, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "A. W. B. Bodin",
+            "occupation": "Merchant"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Dina Pettersson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Clary Edgardh",
+            "deathDate": "1946"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Yngve Lennart",
+                "birthDate": "1920",
+                "occupation": "Bank Clerk",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Postal Workers' Assistance Fund",
+                    "foundingDate": "1912"
+                }
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Gothenburg High Latin School",
+            "programName": "Postal Services",
+            "enrollmentDate": "1905",
+            "endDate": "1910"
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Post Office",
+                "jobTitle": "Postal Clerk",
+                "startDate": "1910",
+                "endDate": "1912"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Post Office",
+                "jobTitle": "Temporary Senior Postal Clerk",
+                "startDate": "1925",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Post Office",
+                "jobTitle": "Senior Postal Assistant",
+                "startDate": "1925",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Post Office",
+                "jobTitle": "Postmaster",
+                "startDate": "1943",
+                "endDate": "1948"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Postal Workers' Assistance Fund",
+                "foundingDate": "1912",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Board of Directors"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Postmaster's Association",
+                "foundingDate": "1943",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Board of Directors",
+                    "roleName": "Secretary"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg City Pension Office",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Pension Committee",
+                    "districtName": "14th District",
+                    "roleName": "Vice-Chair"
+                },
+                "enrollmentDate": "1932"
+            }
+        ],
+        "award": [
+            {
+                "@type": "Award",
+                "name": "Medal of Eight of the Highest Class"
+            }
+        ]
+    }
+}

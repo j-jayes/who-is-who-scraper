@@ -1,0 +1,153 @@
+{
+    "original": "Edberg, Artur Wilhelm, fil. mag., Göteborg, f. 3/5/93 i Revesjö förs., Älvsb. 1., av fanj. C. R. E. o. Hulda Edberg. G. 26 m. Agnes Nanny Valborg Jönsson. Barn: Inger Barbro f. 27, Eva Birgitta 33. — Stud:ex. i Borås 12, fil. mag. i Upps. 18, provår v. Gbgs real 19-20. Lär. v. Katrineholms tekn. sk. 18-19, vik. adj. i Sundsvall 19, lär. v. Slöjdfören. sk. i Gbg 19-20, e. o. lär. i Karlshamn 20-24, ord. ämne slär. i kemi o. matem. v. Gbgs h. folksk. tekn. linje fr. 23 (fr. 36 Gbgs prakt, m e 1’1 a nsk.).",
+    "translated": "Edberg, Artur Wilhelm, Master of Philosophy, Gothenburg, born on May 3, 1893 in Revesjö parish, Älvsborg county. Son of Sergeant C.R.E. and Hulda Edberg. Married in 1926 to Agnes Nanny Valborg Jönsson. Children: Inger Barbro born in 1927, Eva Birgitta born in 1933. Artur completed his high school studies in Borås in 1912. He received his Master of Philosophy degree from Uppsala University in 1918, and served a teaching internship from 1919 to 1920 at Gothenburg's Real School. He went on to teach at Katrineholms Technical School from 1918-1919, was a substitute teacher in Sundsvall in 1919, and taught at the Craft Association School in Gothenburg from 1919-1920. He became a teacher in Karlshamn from 1920-1924. From 1923, he was a regular subject teacher in chemistry and mathematics at Gothenburg's high school technical line, which became practical from 1936 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Artur Wilhelm Edberg\",\n  \"birthDate\": \"1893-05-03\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Revesjö parish, Älvsborg county, Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.R.E. Edberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hulda Edberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agnes Nanny Valborg Jönsson\",\n    \"marriageDate\": \"1926\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Barbro Edberg\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Birgitta Edberg\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardDate\": \"1912\",\n      \"awardingOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Borås\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Fil. mag.\",\n      \"educationalLevel\": \"Master\",\n      \"awardDate\": \"1918\",\n      \"awardingOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      }\n    }\n  ],\n  \"occupation\":[\n    {\n      \"@type\":\"Occupation\",\n      \"jobTitle\":\"Teacher\",\n      \"startDate\":\"1919-01-01\",\n      \"endDate\":\"1920-12-31\",\n      \"location\":{\n        \"@type\":\"Place\",\n        \"name\":\"Gothenburg's Real School\"\n      }\n    },\n    {\n      \"@type\":\"Occupation\",\n      \"jobTitle\":\"Teacher\",\n      \"startDate\":\"1918-01-01\",\n      \"endDate\":\"1919-12-31\",\n      \"location\":{\n        \"@type\":\"Place\",\n        \"name\":\"Katrineholms Technical School\"\n      }\n    },\n    {\n      \"@type\":\"Occupation\",\n      \"jobTitle\":\"Substitute Teacher\",\n      \"startDate\":\"1919-01-01\",\n      \"endDate\":\"1919-12-31\",\n      \"location\":{\n        \"@type\":\"Place\",\n        \"name\":\"Sundsvall\"\n      }\n    },\n    {\n      \"@type\":\"Occupation\",\n      \"jobTitle\":\"Teacher\",\n      \"startDate\":\"1919-01-01\",\n      \"endDate\":\"1920-12-31\",\n      \"location\":{\n        \"@type\":\"Place\",\n        \"name\":\"Craft Association School in Gothenburg\"\n      }\n    },\n    {\n      \"@type\":\"Occupation\",\n      \"jobTitle\":\"Teacher\",\n      \"startDate\":\"1920-01-01\",\n      \"endDate\":\"1924-12-31\",\n      \"location\":{\n        \"@type\":\"Place\",\n        \"name\":\"Karlshamn\"\n      }\n    },\n    {\n      \"@type\":\"Occupation\",\n      \"jobTitle\":\"Subject Teacher\",\n      \"startDate\":\"1923-01-01\",\n      \"endDate\":\"1936-12-31\",\n      \"location\":{\n        \"@type\":\"Place\",\n        \"name\":\"Gothenburg's high school technical line\"\n      },\n      \"subjectOf\":{\n        \"@type\":\"EducationalOccupationalCredential\",\n        \"credentialCategory\": \"Ord. ämne slär i kemi o. matem.\",\n        \"educationalLevel\": \"Bachelor\",\n        \"awardingOrganization\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\":\"Occupation\",\n      \"jobTitle\":\"Subject Teacher\",\n      \"startDate\":\"1936-01-01\",\n      \"location\":{\n        \"@type\":\"Place\",\n        \"name\":\"Gothenburg's practical h. folksk. tekn. linje\"\n      },\n      \"subjectOf\":{\n        \"@type\":\"EducationalOccupationalCredential\",\n        \"credentialCategory\": \"Ord. ämne slär i kemi o. matem.\",\n        \"educationalLevel\": \"Bachelor\",\n        \"awardingOrganization\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Gothenburg\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Artur Wilhelm Edberg",
+        "birthDate": "1893-05-03",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Revesjö parish, Älvsborg county, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "C.R.E. Edberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Hulda Edberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Nanny Valborg Jönsson",
+            "marriageDate": "1926"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Barbro Edberg",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Birgitta Edberg",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1912",
+                "awardingOrganization": {
+                    "@type": "Organization",
+                    "name": "Borås"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Fil. mag.",
+                "educationalLevel": "Master",
+                "awardDate": "1918",
+                "awardingOrganization": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                }
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "jobTitle": "Teacher",
+                "startDate": "1919-01-01",
+                "endDate": "1920-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg's Real School"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "jobTitle": "Teacher",
+                "startDate": "1918-01-01",
+                "endDate": "1919-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Katrineholms Technical School"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "jobTitle": "Substitute Teacher",
+                "startDate": "1919-01-01",
+                "endDate": "1919-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Sundsvall"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "jobTitle": "Teacher",
+                "startDate": "1919-01-01",
+                "endDate": "1920-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Craft Association School in Gothenburg"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "jobTitle": "Teacher",
+                "startDate": "1920-01-01",
+                "endDate": "1924-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Karlshamn"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "jobTitle": "Subject Teacher",
+                "startDate": "1923-01-01",
+                "endDate": "1936-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg's high school technical line"
+                },
+                "subjectOf": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Ord. ämne slär i kemi o. matem.",
+                    "educationalLevel": "Bachelor",
+                    "awardingOrganization": {
+                        "@type": "Organization",
+                        "name": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "jobTitle": "Subject Teacher",
+                "startDate": "1936-01-01",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg's practical h. folksk. tekn. linje"
+                },
+                "subjectOf": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Ord. ämne slär i kemi o. matem.",
+                    "educationalLevel": "Bachelor",
+                    "awardingOrganization": {
+                        "@type": "Organization",
+                        "name": "Gothenburg"
+                    }
+                }
+            }
+        ]
+    }
+}

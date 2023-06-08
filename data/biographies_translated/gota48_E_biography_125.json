@@ -1,0 +1,111 @@
+{
+    "original": "Eking, Eric Leopold, tandläkare, Göteborg, f. 5/9/91 i Halmstad. G. 19 m. Göta Carola Charlotta Levin. Barn: Brita f. 20, d. 22, Per-Eric 23, trafikassist., Torslanda, fänrik i res., Kerstin 24, Sonja 30. — Stud:ex. i Halmstad 12, tandhkand. 13, tandl. 16. Assist, i Värnamo 15, i Gbg 16, prakt, i Landskrona, Teckom-atorp, N. Skrävlinge o. Svalöv 21-29, prakt, i Gbg sed. 29. Ordf. i Landskrona lawntenniskl. 23-25, i Landskrona skyttegille 25-29, led. av styr. f. Hälsingborgs-Landskrona skyttekrets. Hobby: sportfiske. Hall. skytteförb. GM, Landskrona skyttegilles förtj :M, RiksM, SkytteGm.",
+    "translated": "Eking, Eric Leopold, dentist, Gothenburg, born September 5th, 1891 in Halmstad. Married in 1919 to Göta Carola Charlotta Levin. Children: Brita born in 1920 and died in 1922, Per-Eric born in 1923 and is a traffic assistant in Torslanda and a reserve lieutenant, Kerstin born in 1924, Sonja born in 1930. Eric passed his studentexamen in Halmstad in 1912 and became a dental student in 1913, achieving his dental degree in 1916. He worked as an assistant in Värnamo in 1915, in Gothenburg in 1916, and then practiced in Landskrona, Teckomatorp, N. Skrävlinge, and Svalöv from 1921-1929. Since 1929, he has practiced in Gothenburg. Eric served as the chairman of the Landskrona lawn tennis club from 1923-1925, and was a member of the board of the Helsingborg-Landskrona shooting district. His hobby is sport fishing. Eric was awarded the GM title by the Halland shooting association and received medals from the Landskrona shooting club. He was also awarded the RiksM and SkytteGM titles.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Eric Leopold Eking\",\n  \"birthDate\": \"1891-09-05\",\n  \"birthPlace\": \"Halmstad\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Göta Carola Charlotta Levin\",\n    \"marriageDate\": \"1919\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita\",\n      \"birthDate\": \"1920\",\n      \"deathDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Eric\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sonja\",\n      \"birthDate\": \"1930\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Halmstad High School\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental School\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Värnamo Hospital\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Hospital\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Landskrona Dental Practice\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1929\"\n    },\n   {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Dental Practice\",\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Landskrona Lawn Tennis Club\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Helsingborg-Landskrona Shooting District Board\"\n    }\n  ],\n  \"knowsAbout\": \"Sportfishing\",\n  \"awards\": [\n    {\n      \"@type\": \"Award\",\n      \"name\": \"GM\",\n      \"from\": \"Halland Shooting Association\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"SkytteGm\",\n      \"from\": \"Landskrona Shooting Club\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"RiksM\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Eric Leopold Eking",
+        "birthDate": "1891-09-05",
+        "birthPlace": "Halmstad",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Göta Carola Charlotta Levin",
+            "marriageDate": "1919"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Brita",
+                "birthDate": "1920",
+                "deathDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Per-Eric",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Sonja",
+                "birthDate": "1930"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Halmstad High School",
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental School",
+                "endDate": "1916"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Värnamo Hospital",
+                "startDate": "1915",
+                "endDate": "1915"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Hospital",
+                "startDate": "1916",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "Landskrona Dental Practice",
+                "startDate": "1921",
+                "endDate": "1929"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Dental Practice",
+                "startDate": "1929"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Landskrona Lawn Tennis Club",
+                "startDate": "1923",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Helsingborg-Landskrona Shooting District Board"
+            }
+        ],
+        "knowsAbout": "Sportfishing",
+        "awards": [
+            {
+                "@type": "Award",
+                "name": "GM",
+                "from": "Halland Shooting Association"
+            },
+            {
+                "@type": "Medal",
+                "name": "SkytteGm",
+                "from": "Landskrona Shooting Club"
+            },
+            {
+                "@type": "Medal",
+                "name": "RiksM"
+            }
+        ]
+    }
+}

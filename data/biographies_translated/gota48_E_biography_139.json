@@ -1,0 +1,64 @@
+{
+    "original": "Eklöf, Bengt Josef, disponent, Jönköping, f. 20/1/21 i Jönköping. G. 43 m. Karin Werme. Barn: Anna f. 47. — Realex. 37. Stud:res. t. Tyskl. 36, Tyskl. o. Schweiz 37, Engl. 38, USA 47. Anst. v. A-B Löfsko sed. 39. Hob-bies : isegling, ’skidåkning.",
+    "translated": "Eklöf, Bengt Josef, manager, Jönköping, b. January 20, 1921 in Jönköping. Married in 1943 to Karin Werme. Children: Anna b. 1947. Completed secondary education in 1937. Studied abroad in Germany in 1936, Switzerland in 1937, England in 1938, and visited the United States in 1947. Employed by A-B Löfsko since 1939. Hobbies: sailing, skiing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Josef Eklöf\",\n  \"jobTitle\": \"Manager\",\n  \"birthDate\": \"1921-01-20\",\n  \"birthPlace\": \"Jönköping\",\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Realex\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\", \n    \"name\": \"Karin Werme\", \n    \"dateMarried\": \"1943\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Eklöf\",\n    \"birthDate\": \"1947\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"dateEarned\": \"1937\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Studied abroad in Germany\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Studied abroad in Switzerland\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Studied abroad in England\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Visited the United States\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Löfsko\",\n    \"startDate\": \"1939\"\n  },\n  \"hobbies\": [\"Sailing\", \"Skiing\"]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Josef Eklöf",
+        "jobTitle": "Manager",
+        "birthDate": "1921-01-20",
+        "birthPlace": "Jönköping",
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Realex"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Werme",
+            "dateMarried": "1943"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Anna Eklöf",
+            "birthDate": "1947"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "dateEarned": "1937"
+            },
+            {
+                "@type": "Course",
+                "name": "Studied abroad in Germany",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Course",
+                "name": "Studied abroad in Switzerland",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Course",
+                "name": "Studied abroad in England",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Course",
+                "name": "Visited the United States",
+                "startDate": "1947"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B Löfsko",
+            "startDate": "1939"
+        },
+        "hobbies": [
+            "Sailing",
+            "Skiing"
+        ]
+    }
+}

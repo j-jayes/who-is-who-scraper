@@ -1,0 +1,53 @@
+{
+    "original": "Dahlquist, Carl-Gustaf Oskar, komminister, Värsås, f. 16/10/10 i Kristian- stad. — Studrex. i Hälsingb. 31, teoL fil. ex. 33, teol. kand., prakt. teoL prov o. prästv. f. Skara ^stift 38. Tjg.. ;s. v. kommin. i Götene o. Saileby, kom-min. ii Värisås sed. 45.",
+    "translated": "Dahlquist, Carl-Gustaf Oskar, minister, Värsås, b. 10/16/10 in Kristianstad. - Studied in Hälsingborg in 1931, degree in theology in 1933, theological candidate, practical theological test and ordained from Skara diocese in 1938. Served as temporary minister in Götene and Saileby, minister in Värsås since 1945. Note that '\\d\\d m. partner's name' means that the person married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Gustaf Oskar Dahlquist\",\n  \"jobTitle\": \"Minister\",\n  \"birthPlace\": \"Kristianstad\",\n  \"birthDate\": \"1910-10-16\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"major\": \"Theology\",\n      \"dateIssued\": \"1933\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara diocese\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"present\"\n    }\n  ],\n  \"spouse\": null,\n  \"children\": null,\n  \"sameAs\": null,\n  \"temporaryPositions\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary minister\",\n      \"startDate\": \"1938\",\n      \"endDate\": null,\n      \"location\": \"Götene\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary minister\",\n      \"startDate\": \"1938\",\n      \"endDate\": null,\n      \"location\": \"Saileby\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Värsås\"\n  },\n  \"startDate\": \"1945\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl-Gustaf Oskar Dahlquist",
+        "jobTitle": "Minister",
+        "birthPlace": "Kristianstad",
+        "birthDate": "1910-10-16",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's Degree",
+                "major": "Theology",
+                "dateIssued": "1933"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skara diocese",
+                "startDate": "1938",
+                "endDate": "present"
+            }
+        ],
+        "spouse": null,
+        "children": null,
+        "sameAs": null,
+        "temporaryPositions": [
+            {
+                "@type": "JobPosting",
+                "title": "Temporary minister",
+                "startDate": "1938",
+                "endDate": null,
+                "location": "Götene"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary minister",
+                "startDate": "1938",
+                "endDate": null,
+                "location": "Saileby"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Värsås"
+        },
+        "startDate": "1945"
+    }
+}

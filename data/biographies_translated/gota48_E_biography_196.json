@@ -1,0 +1,56 @@
+{
+    "original": "Eliason, Erik Birger, fabrikör, Kin-nahult, f. 6/3/90 i Kinna, Älvsb. 1., av Elias Andersson o. Edela Jönsson. — Res. t. Tyskl., Österr., Ungern o. Danm. Dir. v. o. inneh. av Kinna-hults Väfveri sed. 20. Led. av styr. f. A-B Sv. Wellpappfabr. sed. 29, styr :led. o. deläg. i Eriksbergs Väfveri A-B 19-46, led. av komm:ful(lm. sed. 38.",
+    "translated": "Eliason, Erik Birger, industrialist, Kin-nahult, born March 6th, 1890 in Kinna, Älvsborgs län, son of Elias Andersson and Edela Jönsson. He traveled to Germany, Austria, Hungary and Denmark. He was the director and owner of Kinna-hults Väfveri since 1920. He became a member of the board of directors for A-B Sv. Wellpappfabr. in 1929. He was also a board member and co-owner of Eriksbergs Väfveri A-B from 1919-1946. He served on the municipal council from 1938. He got married in 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Birger Eliason\",\n  \"jobTitle\": \"Industrialist\",\n  \"birthDate\": \"1890-03-06\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kinna, Älvsborgs län\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elias Andersson\",\n      \"jobTitle\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Edela Jönsson\",\n      \"jobTitle\": \"Unknown\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Sv. Wellpappfabr.\",\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kinna-hults Väfveri\",\n    \"startDate\": \"1920\"\n  },\n  \"coOwns\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Eriksbergs Väfveri A-B\",\n    \"startDate\": \"1919\",\n    \"endDate\": \"1946\"\n  },\n  \"politicalAffiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Municipal council\",\n    \"startDate\": \"1938\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\",\n    \"startDate\": \"19xx\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Birger Eliason",
+        "jobTitle": "Industrialist",
+        "birthDate": "1890-03-06",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kinna, Älvsborgs län"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Elias Andersson",
+                "jobTitle": "Unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "Edela Jönsson",
+                "jobTitle": "Unknown"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A-B Sv. Wellpappfabr.",
+                "startDate": "1929"
+            }
+        ],
+        "owns": {
+            "@type": "Organization",
+            "name": "Kinna-hults Väfveri",
+            "startDate": "1920"
+        },
+        "coOwns": {
+            "@type": "Organization",
+            "name": "Eriksbergs Väfveri A-B",
+            "startDate": "1919",
+            "endDate": "1946"
+        },
+        "politicalAffiliation": {
+            "@type": "Organization",
+            "name": "Municipal council",
+            "startDate": "1938"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown",
+            "startDate": "19xx"
+        }
+    }
+}

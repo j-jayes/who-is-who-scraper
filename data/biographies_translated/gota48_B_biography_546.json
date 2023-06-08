@@ -1,0 +1,130 @@
+{
+    "original": "Brinck, Gunnar Fredrik, överste, BoTås, f. 17/9/95 i Jönköp. av järn-handl. Wilhelm B. o. Lotten Sandin. G. 22 m. Greta Wallström, dtr t. di&amp;p. C. A. Walktröm o. h. h. ELlen W. Barn: Hans f. 24, jur. stud., Henrik 28, stud. — Und-.ilöjtn. v. Ska-rab. reg. 17, kapt. v. gen :slaben 30, major v. gen iistabskåren 37, öv:löjtn. där 41, överste o. chef f. Älvsb. reg. sed. 42. Stabschef v. II. arméfördcln, 37-41, chef f. arméstabens utbildn :avd. 41-42. KS02kl, RVO,FAKGM, Centr:förb. f. befiutbildn. GM, Älvsb. landst:förb. GM.",
+    "translated": "Brinck, Gunnar Fredrik, Colonel, born on September 17, 1895 in Jönköping, son of iron dealer Wilhelm B. and Lotten Sandin. Married on February 22 to Greta Wallström, daughter of C.A. Wallström and Ellen W. They had two children: Hans, born in 1924 and studying law, and Henrik, born in 1928 and still studying. Brinck was a Second Lieutenant in the Skaraborg Regiment 1917, Captain in the General Staff 1930, Major in the General Staff Corps 1937, Lieutenant Colonel there in 1941, Colonel and Chief of the Älvsborg Regiment since 1942. He was Staff Chief in the 2nd Army Division from 1937 to 1941 and Head of the Army Staff Training Department from 1941 to 1942. He received numerous awards such as the Order of the Sword, Commander 2nd Class, the Royal Victorian Order, the Great Nordic War Memorial Medal, and was a member of the Central Association for Command Education as well as of the Älvsborg County Council.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Fredrik Brinck\",\n  \"birthDate\": \"1895-09-17\",\n  \"birthPlace\": \"Jönköping, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Colonel\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilhelm B.\",\n      \"jobTitle\": \"Iron dealer\",\n      \"identifier\": \"father\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lotten Sandin\",\n      \"identifier\": \"mother\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Wallström\",\n    \"birthPlace\": \"Sweden\",\n    \"parent\": [\n      {\n        \"@type\": \"Person\",\n        \"name\": \"C.A. Wallström\",\n        \"identifier\": \"father\"\n      },\n      {\n        \"@type\": \"Person\",\n        \"name\": \"Ellen W.\",\n        \"identifier\": \"mother\"\n      }\n    ],\n    \"marriageDate\": \"1922-02-22\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans\",\n      \"birthDate\": \"1924\",\n      \"educationalCredentialAwarded\": \"Study of Law\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henrik\",\n      \"birthDate\": \"1928\",\n      \"educationalCredentialAwarded\": \"Still Studying\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Skaraborg Regiment\",\n      \"jobTitle\": \"Second Lieutenant\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"General Staff\",\n      \"jobTitle\": \"Captain\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"General Staff Corps\",\n      \"jobTitle\": \"Major\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"General Staff Corps\",\n      \"jobTitle\": \"lieutenant colonel\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Älvsborg Regiment\",\n      \"jobTitle\": \"Colonel and Chief\",\n      \"startDate\": \"1942\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"2nd Army Division\",\n      \"jobTitle\": \"Staff Chief\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Army Staff Training Department\",\n      \"jobTitle\": \"Head\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1942\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Central Association for Command Education\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älvsborg County Council\"\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of the Sword\",\n      \"awardCategory\": \"Commander 2nd Class\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Victorian Order\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"Great Nordic War Memorial Medal\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Fredrik Brinck",
+        "birthDate": "1895-09-17",
+        "birthPlace": "Jönköping, Sweden",
+        "nationality": "Swedish",
+        "occupation": "Colonel",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Wilhelm B.",
+                "jobTitle": "Iron dealer",
+                "identifier": "father"
+            },
+            {
+                "@type": "Person",
+                "name": "Lotten Sandin",
+                "identifier": "mother"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Wallström",
+            "birthPlace": "Sweden",
+            "parent": [
+                {
+                    "@type": "Person",
+                    "name": "C.A. Wallström",
+                    "identifier": "father"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Ellen W.",
+                    "identifier": "mother"
+                }
+            ],
+            "marriageDate": "1922-02-22"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1924",
+                "educationalCredentialAwarded": "Study of Law"
+            },
+            {
+                "@type": "Person",
+                "name": "Henrik",
+                "birthDate": "1928",
+                "educationalCredentialAwarded": "Still Studying"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MilitaryOrganization",
+                "name": "Skaraborg Regiment",
+                "jobTitle": "Second Lieutenant",
+                "startDate": "1917"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "General Staff",
+                "jobTitle": "Captain",
+                "startDate": "1930"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "General Staff Corps",
+                "jobTitle": "Major",
+                "startDate": "1937"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "General Staff Corps",
+                "jobTitle": "lieutenant colonel",
+                "startDate": "1941"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "Älvsborg Regiment",
+                "jobTitle": "Colonel and Chief",
+                "startDate": "1942"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "2nd Army Division",
+                "jobTitle": "Staff Chief",
+                "startDate": "1937",
+                "endDate": "1941"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Army Staff Training Department",
+                "jobTitle": "Head",
+                "startDate": "1941",
+                "endDate": "1942"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Central Association for Command Education"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvsborg County Council"
+            }
+        ],
+        "award": [
+            {
+                "@type": "Order",
+                "name": "Order of the Sword",
+                "awardCategory": "Commander 2nd Class"
+            },
+            {
+                "@type": "Order",
+                "name": "Royal Victorian Order"
+            },
+            {
+                "@type": "Medal",
+                "name": "Great Nordic War Memorial Medal"
+            }
+        ]
+    }
+}

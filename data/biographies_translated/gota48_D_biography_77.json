@@ -1,0 +1,108 @@
+{
+    "original": "Danowsky, Abraham, tandläkare, Jönköping, f. 15/10/02 i Kristianstad av Mejer D. o. Feigel Werbelowsky. G. 34 ni. Sara Slabodkin. Barn: Ulf f. 43. — Stud :ex. i Kristianst. 22, Cand. med. dent. i Berlin 27, tandläk. 29. Vik. i Valdemarsvik 29-30, praktik i ödeshög 30-33, i Jönköp. sed. 33, skoltandl. i Norrahammar sed. 34.",
+    "translated": "Danowsky, Abraham, dentist, Jönköping, born on October 15th, 1902 in Kristianstad to Mejer D. and Feigel Werbelowsky. Married in 1934 to Sara Slabodkin. They had one child, Ulf, born in 1943. Abraham completed his Bachelor's degree in Kristianstad in 1922, earned his dental degree in Berlin in 1927, and became a licensed dentist in 1929. He worked in Valdemarsvik from 1929-1930, then in Ödeshög from 1930-1933, before settling in Jönköping in 1933 and becoming the school dentist in Norrahammar in 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Abraham Danowsky\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1902-10-15\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kristianstad\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mejer D. Danowsky\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Feigel Werbelowsky\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sara Slabodkin\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ulf Danowsky\",\n    \"birthDate\": \"1943\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"educationalCredentialAwarded\": \"Stud :ex. i Kristianst. 22\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Kristianstad\"\n      },\n      \"credentialOffered\": {\n        \"@type\": \"Degree\",\n        \"name\": \"Bachelor's Degree\"\n      },\n      \"issuedOn\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dental degree\",\n      \"educationalLevel\": \"Doctoral Degree\",\n      \"educationalCredentialAwarded\": \"Cand. med. dent. i Berlin 27\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Berlin\"\n      },\n      \"credentialOffered\": {\n        \"@type\": \"Degree\",\n        \"name\": \"Doctoral Degree\"\n      },\n      \"issuedOn\": \"1927\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Valdemarsvik\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ödeshög\"\n      },\n      \"startDate\": \"1930\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping\"\n      },\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"School Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrahammar\"\n      },\n      \"startDate\": \"1934\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abraham Danowsky",
+        "jobTitle": "Dentist",
+        "birthDate": "1902-10-15",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kristianstad"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Mejer D. Danowsky"
+            },
+            {
+                "@type": "Person",
+                "name": "Feigel Werbelowsky"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sara Slabodkin",
+            "marriageDate": "1934"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Ulf Danowsky",
+            "birthDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "Bachelor's Degree",
+                "educationalCredentialAwarded": "Stud :ex. i Kristianst. 22",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Kristianstad"
+                },
+                "credentialOffered": {
+                    "@type": "Degree",
+                    "name": "Bachelor's Degree"
+                },
+                "issuedOn": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dental degree",
+                "educationalLevel": "Doctoral Degree",
+                "educationalCredentialAwarded": "Cand. med. dent. i Berlin 27",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Berlin"
+                },
+                "credentialOffered": {
+                    "@type": "Degree",
+                    "name": "Doctoral Degree"
+                },
+                "issuedOn": "1927"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Valdemarsvik"
+                },
+                "startDate": "1929",
+                "endDate": "1930"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Ödeshög"
+                },
+                "startDate": "1930",
+                "endDate": "1933"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Jönköping"
+                },
+                "startDate": "1933"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "School Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Norrahammar"
+                },
+                "startDate": "1934"
+            }
+        ]
+    }
+}

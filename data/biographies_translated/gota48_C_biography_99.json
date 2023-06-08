@@ -1,0 +1,90 @@
+{
+    "original": "Christiansson, Einar Vilhehn, konstnär, Göteborg, f. 8/6/01 i Gbg av Herman Valdemar Kristiansson o. Anna Gustava K. — Stud. v. h. avd. f. grafisk teckn. v. slöjdfören. sk. i Gbg 25-27, Valands målarsk. i Gbg 32-36, konstakad. i Köpenhamn 39-40. Res. t. Paris 37 o. 38-39, Sydfrankr. 39. V. klubbmäst. i Gbgs konstnärskl, led. av Gbgs friluftsällsk. Hobbies : konstböcker, friluftsliv.",
+    "translated": "Christiansson, Einar Vilhehn, artist, Gothenburg, born June 8th, 1901 in Gothenburg to Herman Valdemar Kristiansson and Anna Gustava K. He studied graphic design at the Handicraft Association School in Gothenburg from 1925-1927, painting at Valand's School of Fine Arts in Gothenburg from 1932-1936, and at the Royal Academy of Fine Arts in Copenhagen from 1939-1940. He traveled to Paris in 1937 and 1938-1939, and to southern France in 1939. He was a board member of the Gothenburg Artists' Club and a member of the Gothenburg Outdoor Association. His hobbies included art books and outdoor activities. He married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Einar Vilhehn Christiansson\",\n  \"birthDate\": \"1901-06-08\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Herman Valdemar Kristiansson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Gustava K.\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"profession\": \"artist\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Handicraft Association School in Gothenburg\",\n      \"location\": \"Gothenburg\",\n      \"course\": \"graphic design\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Valand's School of Fine Arts\",\n      \"location\": \"Gothenburg\",\n      \"course\": \"painting\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Royal Academy of Fine Arts\",\n      \"location\": \"Copenhagen\",\n      \"course\": \"painting\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1940\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"<Insert spouse's name>\",\n    \"gender\": \"<Insert gender>\"\n  },\n  \"travelHistory\": [\n    {\n      \"place\": \"Paris\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"place\": \"Paris\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"place\": \"Southern France\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\"\n    }\n  ],\n  \"organizations\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Artists' Club\",\n      \"position\": \"board member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Outdoor Association\",\n      \"position\": \"member\"\n    }\n  ],\n  \"interests\": [\n    \"art books\",\n    \"outdoor activities\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Einar Vilhehn Christiansson",
+        "birthDate": "1901-06-08",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Herman Valdemar Kristiansson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Gustava K.",
+                "gender": "female"
+            }
+        ],
+        "nationality": "Swedish",
+        "profession": "artist",
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Handicraft Association School in Gothenburg",
+                "location": "Gothenburg",
+                "course": "graphic design",
+                "startDate": "1925",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Valand's School of Fine Arts",
+                "location": "Gothenburg",
+                "course": "painting",
+                "startDate": "1932",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Royal Academy of Fine Arts",
+                "location": "Copenhagen",
+                "course": "painting",
+                "startDate": "1939",
+                "endDate": "1940"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "<Insert spouse's name>",
+            "gender": "<Insert gender>"
+        },
+        "travelHistory": [
+            {
+                "place": "Paris",
+                "startDate": "1937",
+                "endDate": "1937"
+            },
+            {
+                "place": "Paris",
+                "startDate": "1938",
+                "endDate": "1939"
+            },
+            {
+                "place": "Southern France",
+                "startDate": "1939",
+                "endDate": "1939"
+            }
+        ],
+        "organizations": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Artists' Club",
+                "position": "board member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Outdoor Association",
+                "position": "member"
+            }
+        ],
+        "interests": [
+            "art books",
+            "outdoor activities"
+        ]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "original": "Brundin, Carl Hugo Andreas, municipalläkare, Åtvidaberg, f. 11/10/94 i Gbg av tullkontr. Wilhelm B. o. Helena Kollinius. G. 21 m. Dagmar Lun- derqvist. Barn: Gunnar f. 23. — Stud:ex. i Gbg 13, med. kand. i Upps. 17, med. lic. i Sthlm 23. Stud:resa t. Frankfurt am Main 28. Läk. v. Dals Rostocks brunn 19 o. 20, und:läk. v. Spenshults sanat. 21-22, läk. v. Östersunds hosp. 22, und:läk. v. Norrtälje las. 23, assist:läk. v. Sabbatsb. sjukh. två mån. 23-24, tf. prov:läk. i Sundsvalls distr. fyra mån. 24, munic:läk., sjukstuguläk. o. skolläk. i Åtvidaberg sed. 24. Ordf. i hälsov:ndn.",
+    "translated": "Brundin, Carl Hugo Andreas, municipal physician, Åtvidaberg, born on October 11, 1894 in Gothenburg to customs contractor Wilhelm B. and Helena Kollinius. Married in 1921 to Dagmar Lunderqvist. Children: Gunnar, born in 1923. Completed high school in Gothenburg in 1913, received a Bachelor of Medicine degree from Uppsala University in 1917, and a medical license in Stockholm in 1923. Took a study trip to Frankfurt am Main in 1928. Worked as a physician at Dals Rostock spa in 1919 and 1920, as a deputy physician at Spenshult sanatorium from 1921 to 1922, a physician at the Östersund hospital in 1922, a deputy physician at the Norrtälje hospital in 1923, and an assistant physician at Sabbatsberg Hospital for two months in 1923-1924. Served as acting district medical officer in Sundsvall for four months in 1924, became a municipal physician, health station physician, and school physician in Åtvidaberg in 1924. Also served as chairman of the health committee.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Hugo Andreas Brundin\",\n  \"givenName\": \"Carl Hugo Andreas\",\n  \"familyName\": \"Brundin\",\n  \"birthDate\": \"1894-10-11\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Municipal Physician\"\n    }\n  ],\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilhelm B. Brundin\",\n      \"sameAs\": \"https://viaf.org/viaf/0000000000000000\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helena Kollinius\",\n      \"sameAs\": \"https://viaf.org/viaf/0000000000000000\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagmar Lunderqvist\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunnar Brundin\",\n    \"birthDate\": \"1923\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University of Gothenburg\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"High School\",\n        \"dateAwarded\": \"1913\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala, Sweden\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Bachelor of Medicine\",\n        \"dateAwarded\": \"1917\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm University\",\n      \"location\": \"Stockholm, Sweden\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Medical License\",\n        \"dateAwarded\": \"1923\"\n      }\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dals Rostocks Brunn\",\n      \"location\": \"Dals Rostock, Sweden\",\n      \"jobTitle\": \"Physician\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Spenshults Sanatorium\",\n      \"location\": \"Oskarström, Sweden\",\n      \"jobTitle\": \"Deputy Physician\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östersunds Hospital\",\n      \"location\": \"Östersund, Sweden\",\n      \"jobTitle\": \"Physician\",\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrtälje Hospital\",\n      \"location\": \"Norrtälje, Sweden\",\n      \"jobTitle\": \"Deputy Physician\",\n      \"startDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sabbatsberg Hospital\",\n      \"location\": \"Stockholm, Sweden\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"startDate\": \"1923-12\",\n      \"endDate\": \"1924-02\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sundsvalls District\",\n      \"location\": \"Sundsvall, Sweden\",\n      \"jobTitle\": \"Acting District Medical Officer\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924-04\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Åtvidaberg Municipal\",\n      \"location\": \"Åtvidaberg, Sweden\",\n      \"jobTitle\": [\n        \"Municipal Physician\",\n        \"Health Station Physician\",\n        \"School Physician\"\n      ],\n      \"startDate\": \"1924\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Health Committee\",\n    \"jobTitle\": \"Chairman\"\n  }\n}\n",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Hugo Andreas Brundin",
+        "givenName": "Carl Hugo Andreas",
+        "familyName": "Brundin",
+        "birthDate": "1894-10-11",
+        "birthPlace": "Gothenburg, Sweden",
+        "nationality": "Swedish",
+        "occupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Municipal Physician"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Wilhelm B. Brundin",
+                "sameAs": "https://viaf.org/viaf/0000000000000000"
+            },
+            {
+                "@type": "Person",
+                "name": "Helena Kollinius",
+                "sameAs": "https://viaf.org/viaf/0000000000000000"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagmar Lunderqvist",
+            "marriageDate": "1921"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Gunnar Brundin",
+            "birthDate": "1923"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Gothenburg",
+                "location": "Gothenburg, Sweden",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "High School",
+                    "dateAwarded": "1913"
+                }
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "location": "Uppsala, Sweden",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor of Medicine",
+                    "dateAwarded": "1917"
+                }
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm University",
+                "location": "Stockholm, Sweden",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Medical License",
+                    "dateAwarded": "1923"
+                }
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Dals Rostocks Brunn",
+                "location": "Dals Rostock, Sweden",
+                "jobTitle": "Physician",
+                "startDate": "1919",
+                "endDate": "1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "Spenshults Sanatorium",
+                "location": "Oskarström, Sweden",
+                "jobTitle": "Deputy Physician",
+                "startDate": "1921",
+                "endDate": "1922"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östersunds Hospital",
+                "location": "Östersund, Sweden",
+                "jobTitle": "Physician",
+                "startDate": "1922"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrtälje Hospital",
+                "location": "Norrtälje, Sweden",
+                "jobTitle": "Deputy Physician",
+                "startDate": "1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sabbatsberg Hospital",
+                "location": "Stockholm, Sweden",
+                "jobTitle": "Assistant Physician",
+                "startDate": "1923-12",
+                "endDate": "1924-02"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sundsvalls District",
+                "location": "Sundsvall, Sweden",
+                "jobTitle": "Acting District Medical Officer",
+                "startDate": "1924",
+                "endDate": "1924-04"
+            },
+            {
+                "@type": "Organization",
+                "name": "Åtvidaberg Municipal",
+                "location": "Åtvidaberg, Sweden",
+                "jobTitle": [
+                    "Municipal Physician",
+                    "Health Station Physician",
+                    "School Physician"
+                ],
+                "startDate": "1924"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Health Committee",
+            "jobTitle": "Chairman"
+        }
+    }
+}

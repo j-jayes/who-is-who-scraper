@@ -1,0 +1,76 @@
+{
+    "original": "Danielsson, Carl Ragnar, godsförvaltare, Stegeborg, f. 1/4/12 i Bankekind, östergötl. 1., av godsäg. Henning D. o. Anna Andersson. ■— Stud:-ex. v. Lunds priv. elem:sk. 32, skogs-o. sågv:sk. i Härnösand 34, lantbr:sk. 38. Resa t. Finl. 35. Anst. v. Blankaholms Såg 35-36, i Ryssl. 36, i Engl. 37, förvalt. å Stegeborgs egend. sed. 39.",
+    "translated": "Danielsson, Carl Ragnar, estate manager, Stegeborg, b. 1/4/12 in Bankekind, Östergötland. Son of the landowner, Henning D. and Anna Andersson. He took his studentexamen from Lund's private high school in 1932, attended forestry and sawmill school in Härnösand in 1934, and agricultural school in 1938. He traveled to Finland in 1935. From 1935 to 1936 he was employed at Blankaholm's sawmill, 1936 in Russia, and 1937 in England. He became the manager of Stegeborg's estate in 1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Ragnar Danielsson\",\n  \"jobTitle\": \"Estate Manager\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Bankekind\",\n    \"addressRegion\": \"Östergötland\"\n  },\n  \"birthDate\": \"1912-04-01\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henning D. Danielsson\",\n      \"jobTitle\": \"Landowner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Andersson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund's Private High School\",\n      \"location\": \"Lund\",\n      \"url\": \"https://www.lu.se/en\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Forestry and Sawmill School\",\n      \"location\": \"Härnösand\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Agricultural School\",\n      \"location\": \"Sweden\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blankaholm's Sawmill\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Russia\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"England\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stegeborg's Estate\",\n      \"startDate\": \"1939\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Ragnar Danielsson",
+        "jobTitle": [
+            {
+                "@type": "Organization",
+                "name": "Russia",
+                "startDate": "1936",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "England",
+                "startDate": "1937",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stegeborg's Estate",
+                "startDate": "1939"
+            }
+        ],
+        "birthPlace": {
+            "@type": "City",
+            "name": "Bankekind",
+            "addressRegion": "Östergötland"
+        },
+        "birthDate": "1912-04-01",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Henning D. Danielsson",
+                "jobTitle": "Landowner"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Andersson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund's Private High School",
+                "location": "Lund",
+                "url": "https://www.lu.se/en"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Forestry and Sawmill School",
+                "location": "Härnösand",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Agricultural School",
+                "location": "Sweden",
+                "startDate": "1938",
+                "endDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Blankaholm's Sawmill",
+                "startDate": "1935",
+                "endDate": "1936"
+            }
+        ]
+    }
+}

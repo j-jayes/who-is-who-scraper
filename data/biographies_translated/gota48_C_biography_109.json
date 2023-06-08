@@ -1,0 +1,45 @@
+{
+    "original": "Claesson, Bertil, tandläkare, Gis^la-ved, f. 25/10/12 li Sthlm. — Stud:ex. i Örebro 33, tandl :kand. 36, tandlläk. 40. Praktik i Gis-laved m. biprakt. i Anders torp 41-46.",
+    "translated": "Claesson, Bertil, dentist, Gis^la-ved, b. October 25th, 1912 in Stockholm. Finished high school in Örebro in 1933, graduated with a dentistry degree in 1936, and became a licensed dentist in 1940. Practiced dentistry in Gis-laved with a secondary practice in Anders torp from 1941 to 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bertil Claesson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Stockholm\",\n  \"birthDate\": \"1912-10-25\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"educationLevel\": \"High school\",\n      \"awardDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree in dentistry\",\n      \"educationLevel\": \"University\",\n      \"awardDate\": \"1936\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gis-laved Dental Practice\"\n  },\n  \"license\": {\n    \"@type\": \"MedicalLicense\",\n    \"name\": \"Dentistry License\",\n    \"issuedBy\": \"Sweden\",\n    \"validThrough\": \"1946-12-31\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Anders torp Dental Practice\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bertil Claesson",
+        "jobTitle": "Dentist",
+        "birthPlace": "Stockholm",
+        "birthDate": "1912-10-25",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "educationLevel": "High school",
+                "awardDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in dentistry",
+                "educationLevel": "University",
+                "awardDate": "1936"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gis-laved Dental Practice"
+        },
+        "license": {
+            "@type": "MedicalLicense",
+            "name": "Dentistry License",
+            "issuedBy": "Sweden",
+            "validThrough": "1946-12-31"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Anders torp Dental Practice",
+                "startDate": "1941",
+                "endDate": "1946"
+            }
+        ]
+    }
+}

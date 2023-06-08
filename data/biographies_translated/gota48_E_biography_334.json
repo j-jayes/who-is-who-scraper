@@ -1,0 +1,89 @@
+{
+    "original": "Ericson, Sigfrid, arkitekt, Göteborg, f. 7/10/79 i Fritsla, Älvsb. 1., av fabr. Andreas E. o. Ida Larson. G. m. Ruth Josefson. — Stud. v. Gbgs h. latin, avg:ex. fr. CTH 99, stud. v. KKH 99-02. Lär. v. Gbgs slöjdfören. sk. 03-06 o. v. CTH 06-13, rektor v. Gbgs slöjdfören. sk. 13-45, arkit. i byggn:styr. sed. 24. Sekr. i fören. Konstfliten 06, led. av styr. f. Röhs-ska konstslöjdmus. 14, arkit. v. jub :-utställn. 19-23. Utf. ritn. t. ett flert. kyrkor, museer, skolor, villor, egna-hemsbyggn. o. möbler. Skr.: Slöjdfören. skola på jub rutställningen i Gbg 1923 (24), Jub lutställn. arkitektur (30), Slöjdfören. skola på Stockholms-utställn. 1930 (31), Textil mönsterkomposition (44). Hobbies: botanik, trädg ikonst, fjällvandringar.",
+    "translated": "Ericson, Sigfrid, architect, Gothenburg, b. 7/10/79 in Fritsla, Älvsborgs län (county), son of factory worker Andreas E. and Ida Larson. Married to Ruth Josefson in the year 19xx. Studied at Gothenburg's high school (Högre Latinläroverket), graduating with distinction in 1899, and at the Royal Institute of Technology (Kungliga Tekniska Högskolan) from 1899 to 1902. Taught at Gothenburg's School of Arts and Crafts (Slöjdföreningens skola) from 1903 to 1906 and again from 1906 to 1913, when he became its principal, a position he held until 1945. Served as an architect in the building regulations department from 1924. Secretary of the Art Craft Association (Konstfliten) in 1906 and a board member of the Röhsska Museum of Art and Design from 1914. Contributed architectural designs to the jubilee exhibition in Gothenburg from 1919 to 1923. Created plans for several churches, museums, schools, villas, personal residences, and furniture. Wrote several works including \"Slöjdfören. Skola på Jub Rutställningen i Gbg 1923\" (1924), \"Jub utställningen arkitektur\" (1930), \"Slöjdfören skola på Stockholms-utställning 1930\" (1931), and \"Textil mönsterkomposition\" (1944). Hobbies include botany, garden art, and mountain hikes.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sigfrid Ericson\",\n  \"jobTitle\": \"Architect\",\n  \"birthDate\": \"1879-10-07\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Fritsla, Älvsborgs län, Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Andreas E.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Larson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Josefson\",\n    \"dateModified\": \"19xx\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School\",\n      \"location\": \"Gothenburg\",\n      \"endDate\": \"1899\",\n      \"description\": \"Graduated with distinction\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Royal Institute of Technology\",\n      \"location\": \"Stockholm\",\n      \"startDate\": \"1899\",\n      \"endDate\": \"1902\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg School of Arts and Crafts\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1903\",\n      \"endDate\": \"1945\",\n      \"jobTitle\": [\n        \"Teacher\",\n        \"Principal\"\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Regulations Department\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1924\",\n      \"jobTitle\": \"Architect\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Art Craft Association\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1906\",\n      \"jobTitle\": \"Secretary\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Röhsska Museum of Art and Design\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1914\",\n      \"jobTitle\": \"Board Member\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Konstfliten\"\n    }\n  ],\n  \"sameAs\": \"\",\n  \"description\": \"Sigfrid Ericson was a Swedish architect who designed several churches, museums, schools, villas, personal residences, and furniture. He also wrote several works relating to his field and had hobbies that included botany, garden art, and mountain hikes.\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sigfrid Ericson",
+        "jobTitle": "Architect",
+        "birthDate": "1879-10-07",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Fritsla, Älvsborgs län, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Andreas E."
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Larson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Josefson",
+            "dateModified": "19xx"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School",
+                "location": "Gothenburg",
+                "endDate": "1899",
+                "description": "Graduated with distinction"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Royal Institute of Technology",
+                "location": "Stockholm",
+                "startDate": "1899",
+                "endDate": "1902"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg School of Arts and Crafts",
+                "location": "Gothenburg",
+                "startDate": "1903",
+                "endDate": "1945",
+                "jobTitle": [
+                    "Teacher",
+                    "Principal"
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Building Regulations Department",
+                "location": "Gothenburg",
+                "startDate": "1924",
+                "jobTitle": "Architect"
+            },
+            {
+                "@type": "Organization",
+                "name": "Art Craft Association",
+                "location": "Gothenburg",
+                "startDate": "1906",
+                "jobTitle": "Secretary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Röhsska Museum of Art and Design",
+                "location": "Gothenburg",
+                "startDate": "1914",
+                "jobTitle": "Board Member"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Konstfliten"
+            }
+        ],
+        "sameAs": "",
+        "description": "Sigfrid Ericson was a Swedish architect who designed several churches, museums, schools, villas, personal residences, and furniture. He also wrote several works relating to his field and had hobbies that included botany, garden art, and mountain hikes."
+    }
+}

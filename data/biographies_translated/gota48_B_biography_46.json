@@ -1,0 +1,51 @@
+{
+    "original": "Bendt, Kurt Harald, direktör, Linköping, f. 20/4/06 i Kiruna, Norrb. 1. G. 39 m. Gerd Tuweson. Barn: Christina f. 40, Håkan 43, Thomas 46. — Giv:ekonom 35. Dir. i Svea Band- &amp; Pappers A-B i Linköping sed. 39.",
+    "translated": "Bendt, Kurt Harald, director, Linköping, born April 20th, 1906 in Kiruna, Norrbotten. 1st marriage in 1939 to Gerd Tuweson. Children: Christina born in 1940, Håkan in 1943, and Thomas in 1946. Started a giving economy in 1935. Director of Svea Band &amp; Pappers A-B in Linköping since 1939.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Kurt Harald Bendt\",\n   \"jobTitle\": \"Director\",\n   \"birthDate\": \"1906-04-20\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Kiruna, Norrbotten\"\n   },\n   \"spouse\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gerd Tuweson\",\n         \"dateMarried\": \"1939\"\n      }\n   ],\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Christina\",\n         \"birthDate\": \"1940\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Håkan\",\n         \"birthDate\": \"1943\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Thomas\",\n         \"birthDate\": \"1946\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Svea Band & Pappers A-B\"\n      }\n   ],\n   \"startDate\": {\n      \"@type\": \"Date\",\n      \"date\": \"1939\"\n   },\n   \"description\": \"Started a giving economy in 1935.\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Kurt Harald Bendt",
+        "jobTitle": "Director",
+        "birthDate": "1906-04-20",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kiruna, Norrbotten"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Gerd Tuweson",
+                "dateMarried": "1939"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christina",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Håkan",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Thomas",
+                "birthDate": "1946"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Svea Band & Pappers A-B"
+            }
+        ],
+        "startDate": {
+            "@type": "Date",
+            "date": "1939"
+        },
+        "description": "Started a giving economy in 1935."
+    }
+}

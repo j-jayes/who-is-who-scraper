@@ -1,0 +1,150 @@
+{
+    "original": "Erlandsson, Paul, läroverksadjunkt, Norrköping, f. 16/8/83 i Vadstena av Jöns E. o. Adèle Johansson. G. 13 m. Edith Pettersson. Barn: Erland f. 20, fil. mag. — Mog:ex. i Linköp. 02, fil. kand. i Upps. 07, provår i Lund 10-11. E. lär. i Linköp. 08-10 o. 11-12, lär. v. Ljungstedtska tekn. yrkes-sk. där samma tider, adj. i Mariestad 11, adj. i matem. o, fysik v. Norrköp. h. a. 1. sed. 15. Skolöverstyr. ombud v. realex. i Valdemarsvik 24, 25, 27 o. 28. RVO.",
+    "translated": "Erlandsson, Paul, high school teacher, Norrköping, b. August 16th, 1883 in Vadstena to Jöns E. and Adèle Johansson. Married to Edith Pettersson in 1913. Children: Erland, born in 1920, holds a degree in philosophy. Mog has completed exams in Linköping in 1902, a bachelor's degree in Uppsala in 1907, and a probationary period in Lund from 1910-1911. Paul was a teacher in Linköping from 1908-1910 and 1911-1912, a teacher at Ljungstedtska technical vocational school during those same periods, and a deputy in Mariestad in 1911. He has been a teacher in mathematics and physics at Norrköping högre allmänna läroverk since 1915. He was a school board representative at Valdemarsvik realexamen in 1924, 1925, 1927 and 1928. He was awarded the Royal Order of Vasa.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Paul Erlandsson\",\n   \"jobTitle\": \"High school teacher\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Norrköping\"\n   },\n   \"birthDate\": \"1883-08-16\",\n   \"birthPlace\": \"Vadstena\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Jöns E. Erlandsson\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Adèle Johansson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Edith Pettersson\",\n      \"marriageDate\": \"1913\"\n   },\n   \"child\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Erland Erlandsson\",\n         \"birthDate\": \"1920\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Mog Erlandsson\",\n         \"education\": [\n            {\n               \"@type\": \"EducationalOccupationalCredential\",\n               \"credentialCategory\": \"exams\",\n               \"credentialOffered\": {\n                  \"@type\": \"EducationalOccupationalCredential\",\n                  \"name\": \"Mog's exams\"\n               },\n               \"educationLevel\": \"college\",\n               \"recognizedBy\": {\n                  \"@type\": \"Organization\",\n                  \"name\": \"Linköpings universitet\"\n               },\n               \"expires\": \"1902\"\n            },\n            {\n               \"@type\": \"EducationalOccupationalCredential\",\n               \"credentialCategory\": \"bachelor's degree\",\n               \"credentialOffered\": {\n                  \"@type\": \"EducationalOccupationalCredential\",\n                  \"name\": \"Mog's bachelor's degree\"\n               },\n               \"educationLevel\": \"college\",\n               \"recognizedBy\": {\n                  \"@type\": \"Organization\",\n                  \"name\": \"Uppsala universitet\"\n               },\n               \"expires\": \"1907\"\n            },\n            {\n               \"@type\": \"EducationalOccupationalCredential\",\n               \"credentialCategory\": \"probationary period\",\n               \"credentialOffered\": {\n                  \"@type\": \"EducationalOccupationalCredential\",\n                  \"name\": \"Mog's probationary period\"\n               },\n               \"educationLevel\": \"college\",\n               \"recognizedBy\": {\n                  \"@type\": \"Organization\",\n                  \"name\": \"Lunds universitet\"\n               },\n               \"startDate\": \"1910\",\n               \"endDate\": \"1911\"\n            }\n         ]\n      }\n   ],\n   \"hasOccupation\": [\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Teacher\",\n         \"startDate\": \"1908\",\n         \"endDate\": \"1910\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Linköping school\"\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Teacher\",\n         \"startDate\": \"1911\",\n         \"endDate\": \"1912\",\n         \"employer\": [\n            {\n               \"@type\": \"Organization\",\n               \"name\": \"Linköping school\"\n            },\n            {\n               \"@type\": \"Organization\",\n               \"name\": \"Ljungstedtska technical vocational school\"\n            }\n         ]\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Deputy\",\n         \"startDate\": \"1911\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Mariestad\"\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Mathematics and Physics Teacher\",\n         \"startDate\": \"1915\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Norrköping högre allmänna läroverk\"\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"School Board Representative\",\n         \"startDate\": \"1924\",\n         \"endDate\": \"1928\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Valdemarsvik realexamen\"\n         }\n      }\n   ],\n   \"awards\": [\n      {\n         \"@type\": \"Order\",\n         \"name\": \"Royal Order of Vasa\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Paul Erlandsson",
+        "jobTitle": "High school teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
+        },
+        "birthDate": "1883-08-16",
+        "birthPlace": "Vadstena",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Jöns E. Erlandsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Adèle Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Edith Pettersson",
+            "marriageDate": "1913"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Erland Erlandsson",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Mog Erlandsson",
+                "education": [
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "credentialCategory": "exams",
+                        "credentialOffered": {
+                            "@type": "EducationalOccupationalCredential",
+                            "name": "Mog's exams"
+                        },
+                        "educationLevel": "college",
+                        "recognizedBy": {
+                            "@type": "Organization",
+                            "name": "Linköpings universitet"
+                        },
+                        "expires": "1902"
+                    },
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "credentialCategory": "bachelor's degree",
+                        "credentialOffered": {
+                            "@type": "EducationalOccupationalCredential",
+                            "name": "Mog's bachelor's degree"
+                        },
+                        "educationLevel": "college",
+                        "recognizedBy": {
+                            "@type": "Organization",
+                            "name": "Uppsala universitet"
+                        },
+                        "expires": "1907"
+                    },
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "credentialCategory": "probationary period",
+                        "credentialOffered": {
+                            "@type": "EducationalOccupationalCredential",
+                            "name": "Mog's probationary period"
+                        },
+                        "educationLevel": "college",
+                        "recognizedBy": {
+                            "@type": "Organization",
+                            "name": "Lunds universitet"
+                        },
+                        "startDate": "1910",
+                        "endDate": "1911"
+                    }
+                ]
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Teacher",
+                "startDate": "1908",
+                "endDate": "1910",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Linköping school"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Teacher",
+                "startDate": "1911",
+                "endDate": "1912",
+                "employer": [
+                    {
+                        "@type": "Organization",
+                        "name": "Linköping school"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Ljungstedtska technical vocational school"
+                    }
+                ]
+            },
+            {
+                "@type": "Occupation",
+                "name": "Deputy",
+                "startDate": "1911",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Mariestad"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Mathematics and Physics Teacher",
+                "startDate": "1915",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Norrköping högre allmänna läroverk"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "School Board Representative",
+                "startDate": "1924",
+                "endDate": "1928",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Valdemarsvik realexamen"
+                }
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            }
+        ]
+    }
+}

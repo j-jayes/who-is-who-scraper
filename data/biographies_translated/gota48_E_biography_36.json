@@ -1,0 +1,81 @@
+{
+    "original": "Edstrand, Cari-Gustaf, bruksdisponent, Sy a, f. 27/9/04 i Malmö av dir. Hans E. o. Amanda Mortensen. G. 38 m. Anna-Greta Westerlund. Barn: Hans-Christian f. 38, Ann-Charlotte 41. — Stud:ex. v. Lundsbergs sk. 23, res :off :ex. 25, civiling:ex. v. CTH (M) 30. Kapten v. T. 1. Anst. v. Spångs-liolms Bruks A-B i Sya 31, disp. sed. 38.",
+    "translated": "Edstrand, Cari-Gustaf, works manager, Sya, b. September 27, 1904 in Malmö, son of director Hans E. and Amanda Mortensen. Married in 1938 to Anna-Greta Westerlund. Children: Hans-Christian, b. 1938, Ann-Charlotte, b. 1941. He graduated from Lundsbergs boardingschool in 1923, and became a reserve officer in 1925. He received his Master of Science in Engineering degree from Chalmers University of Technology (M) in 1930. He was a captain in the Swedish Armed Forces stationed at T1. He was employed at Spångsholm Bruks AB in Sya in 1931, and appointed works manager in 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Cari-Gustaf Edstrand\",\n  \"birthDate\": \"1904-09-27\",\n  \"birthPlace\": \"Malmö\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans E. Edstrand\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Mortensen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Greta Westerlund\",\n    \"marriageDate\": \"1938\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans-Christian Edstrand\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Charlotte Edstrand\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalCredential\",\n      \"credentialCategory\": \"Stud\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalProgram\": \"Lundsbergs sk.\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalCredential\",\n      \"credentialCategory\": \"Res\",\n      \"educationalLevel\": \"OfficerTraining\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalCredential\",\n      \"credentialCategory\": \"Civiling\",\n      \"educationalLevel\": \"MastersDegree\",\n      \"educationalProgram\": \"Chalmers University of Technology\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"jobTitle\": \"Works Manager\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Spångsholm Bruks AB\",\n    \"location\": \"Sya\"\n  },\n  \"startDate\": \"1931\",\n  \"endDate\": \"1938\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Armed Forces\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"T1\"\n    }\n  ],\n  \"gender\": \"Male\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Cari-Gustaf Edstrand",
+        "birthDate": "1904-09-27",
+        "birthPlace": "Malmö",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hans E. Edstrand"
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Mortensen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Greta Westerlund",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hans-Christian Edstrand",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Charlotte Edstrand",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalCredential",
+                "credentialCategory": "Stud",
+                "educationalLevel": "HighSchool",
+                "educationalProgram": "Lundsbergs sk.",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalCredential",
+                "credentialCategory": "Res",
+                "educationalLevel": "OfficerTraining",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalCredential",
+                "credentialCategory": "Civiling",
+                "educationalLevel": "MastersDegree",
+                "educationalProgram": "Chalmers University of Technology",
+                "endDate": "1930"
+            }
+        ],
+        "jobTitle": "Works Manager",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Spångsholm Bruks AB",
+            "location": "Sya"
+        },
+        "startDate": "1931",
+        "endDate": "1938",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Armed Forces"
+        },
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "T1"
+            }
+        ],
+        "gender": "Male"
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "original": "Forssman, Oskar Johan Alfred, postmästare, Nybro, f. 2/3/85 i Växjö av Johan Peter F. o. Maria Augusta Johnsson. G. 31 m. Greta Sjö. Barn: Lars f. 32, Stig 39. — Mog:ex. i Växjö 04. Anst. i p’0’stv. sed. 06, postexp. i Älmhult 11, i Växjö 24, postassist. där 25, tf. förste postassist. i Ljungby 33, förste postassist. 34, postmäst. i Höör 35, i Hällefors 39 o. i Nybro sed. 45.",
+    "translated": "Forssman, Oskar Johan Alfred, postmaster, Nybro, born 2/3/85 in Växjö to Johan Peter F. and Maria Augusta Johnsson. Married in 1931 to Greta Sjö. Children: Lars born in 1932, Stig born in 1939. — Previously married and divorced in Växjö in 1904. Employed in the postal service since 1906, worked as a postal clerk in Älmhult in 1911, in Växjö in 1924, as a postal assistant there in 1925, acting chief postal assistant in Ljungby in 1933, chief postal assistant in 1934, postmaster in Höör in 1935, in Hällefors in 1939 and in Nybro since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oskar Johan Alfred Forssman\",\n  \"birthDate\": \"1885-03-02\",\n  \"birthPlace\": \"Växjö\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Peter F.\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Augusta Johnsson\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Sjö\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Forssman\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig Forssman\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"formerSpouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mog\",\n    \"divorceDate\": \"1904\",\n    \"location\": \"Växjö\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Postal Clerk\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1911\",\n      \"location\": \"Älmhult\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Postal Clerk\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\",\n      \"location\": \"Växjö\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Chief Postal Assistant\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\",\n      \"location\": \"Ljungby\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Chief Postal Assistant\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\",\n      \"location\": \"Växjö\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Postmaster\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1939\",\n      \"location\": \"Höör\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Postmaster\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1945\",\n      \"location\": \"Hällefors\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Postmaster\",\n      \"startDate\": \"1945\",\n      \"location\": \"Nybro\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oskar Johan Alfred Forssman",
+        "birthDate": "1885-03-02",
+        "birthPlace": "Växjö",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Peter F.",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Augusta Johnsson",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Sjö",
+            "marriageDate": "1931"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Forssman",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig Forssman",
+                "birthDate": "1939"
+            }
+        ],
+        "formerSpouse": {
+            "@type": "Person",
+            "name": "Mog",
+            "divorceDate": "1904",
+            "location": "Växjö"
+        },
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Postal Clerk",
+                "startDate": "1906",
+                "endDate": "1911",
+                "location": "Älmhult"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Postal Clerk",
+                "startDate": "1924",
+                "endDate": "1925",
+                "location": "Växjö"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Acting Chief Postal Assistant",
+                "startDate": "1933",
+                "endDate": "1934",
+                "location": "Ljungby"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Chief Postal Assistant",
+                "startDate": "1934",
+                "endDate": "1935",
+                "location": "Växjö"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Postmaster",
+                "startDate": "1935",
+                "endDate": "1939",
+                "location": "Höör"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Postmaster",
+                "startDate": "1939",
+                "endDate": "1945",
+                "location": "Hällefors"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Postmaster",
+                "startDate": "1945",
+                "location": "Nybro"
+            }
+        ]
+    }
+}

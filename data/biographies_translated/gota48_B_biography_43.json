@@ -1,0 +1,97 @@
+{
+    "original": "Bellander, Torsten Valdemar, civilingenjör, Skara, f. 21/4/95 i Nikolai förs., Örebro 1., av Karl Adolf B. o. Sigrid Sjögren. G. 36 m. May Lilja. Barn: Olof f. 38. — Stud:ex. v. Karol. lärov. i Örebro’ 15. Avg:ex. fr. KTH 21. fes. t. Tyskl. o. Tjec-koslov. 22-23. Anst. v. Kem. stat. i Örebro 24-25, v. Lindbecks läderfabr. 25-27, v. Sthlms Garveri A-B 27-29, förste kem. v. lantbr :kem. kontr :stat. i Jönköp. 29-47, förest, f. lantbr: k em. kontr listat, i Skara sed. 47.",
+    "translated": "Bellander, Torsten Valdemar, engineer, Skara, b. 21/4/95 in Nikolai parish, Örebro 1., son of Karl Adolf B. and Sigrid Sjögren. Married to May Lilja in 1936, with one child: Olof, b. 1938. Studied at Karol. lärov. i Örebro, graduated in 1915. Graduated from KTH in 1921, and studied in Germany and Czechoslovakia in 1922-23. Employment at Kem. stat. in Örebro 1924-1925, Lindbecks läderfabr. 1925-1927, Sthlms Garveri A-B 1927-1929, first chemistry officer at lantbr: kem. kontr :stat. in Jönköping 1929-1947. Head of the lantbr: kem. kontr :stat. in Skara since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Torsten Valdemar Bellander\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1895-04-21\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Örebro\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Örebro\",\n      \"postalCode\": \"701 10\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Adolf Bellander\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Sjögren\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"May Lilja\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Bellander\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. v. Karol. lärov. i Örebro\",\n      \"startDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Avg:ex. fr. KTH\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied in Germany and Czechoslovakia\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kem. stat. i Örebro\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lindbecks läderfabr.\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sthlms Garveri A-B\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"lantbr: kem. kontr :stat. in Jönköping\",\n      \"jobTitle\": \"First Chemistry Officer\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"lantbr: kem. kontr :stat. in Skara\",\n      \"jobTitle\": \"Head of Lantbr: Kem. Kontr:stat.\",\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Torsten Valdemar Bellander",
+        "jobTitle": "Engineer",
+        "birthDate": "1895-04-21",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Örebro",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Örebro",
+                "postalCode": "701 10",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Adolf Bellander",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Sjögren",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "May Lilja",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Olof Bellander",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. v. Karol. lärov. i Örebro",
+                "startDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Avg:ex. fr. KTH",
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied in Germany and Czechoslovakia",
+                "startDate": "1922",
+                "endDate": "1923"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Kem. stat. i Örebro",
+                "startDate": "1924",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lindbecks läderfabr.",
+                "startDate": "1925",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sthlms Garveri A-B",
+                "startDate": "1927",
+                "endDate": "1929"
+            },
+            {
+                "@type": "Organization",
+                "name": "lantbr: kem. kontr :stat. in Jönköping",
+                "jobTitle": "First Chemistry Officer",
+                "startDate": "1929",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "lantbr: kem. kontr :stat. in Skara",
+                "jobTitle": "Head of Lantbr: Kem. Kontr:stat.",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

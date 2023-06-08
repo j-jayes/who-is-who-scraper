@@ -1,0 +1,132 @@
+{
+    "original": "Bjerkeby, Georg Berndt Ivar, tandläkare, Sävsjö, f. 31/1/09 i Kattarp, Malmöh. 1. G. m. Kerstin Rylander. Barn: Gunilla f. 42, Stig 43. — Stud:-ex. i Lund 28, med. kand. där 34, tandl: ex. 38. Vik. i Skönsberg 37, asisitst. i Sävsjö samt vik. skoltandl. i Vrig-stads s :n 38, prakt, i Sävsjö sed. 39, skoltandl. i Vallsjö o. Skepperstads kommuner. Led. av skolstyr.",
+    "translated": "Bjerkeby, Georg Berndt Ivar, dentist, resident in Sävsjö, born on 31st January 1909 in Kattarp, Malmöhus County. Married once to Kerstin Rylander in a year not specified. They had two children: Gunilla born in 1942 and Stig born in 1943. He completed his secondary education at Lund in 1928, received his Bachelor of Medicine degree there in 1934, and his dental degree in 1938. He worked as a temporary dentist in Skönsberg in 1937, became an assistant in Sävsjö, and also worked as a temporary school dentist in Vrigstad parish in 1938. He started his own dental practice in Sävsjö in 1939 and worked as a school dentist in the municipalities of Vallsjö and Skepperstad. He was a member of the school board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Georg Berndt Ivar Bjerkeby\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1909-01-31\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kattarp, Malmöhus County\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kerstin Rylander\",\n    \"marriageDate\": \"\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary education\",\n      \"educationalLevel\": \"secondary school\",\n      \"educationStartDate\": \"1928\",\n      \"educationalEndDate\": \"1928\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"undergraduate\",\n      \"educationStartDate\": \"1928\",\n      \"educationEndDate\": \"1934\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund\"\n      },\n      \"earnedBy\": \"Georg Berndt Ivar Bjerkeby\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"professional degree\",\n      \"educationalLevel\": \"graduate\",\n      \"educationStartDate\": \"1938\",\n      \"educationEndDate\": \"1938\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown\"\n      },\n      \"earnedBy\": \"Georg Berndt Ivar Bjerkeby\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Temporary Dentist\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Skönsberg\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant\",\n      \"startDate\": \"\",\n      \"endDate\": \"\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sävsjö\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Temporary School Dentist\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Vrigstad Parish\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sävsjö\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"School Dentist\",\n      \"startDate\": \"\",\n      \"endDate\": \"\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Vallsjö Municipality\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Skepperstad Municipality\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"School Board\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Georg Berndt Ivar Bjerkeby",
+        "jobTitle": "Dentist",
+        "birthDate": "1909-01-31",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kattarp, Malmöhus County"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Rylander",
+            "marriageDate": ""
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary education",
+                "educationalLevel": "secondary school",
+                "educationStartDate": "1928",
+                "educationalEndDate": "1928",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "undergraduate",
+                "educationStartDate": "1928",
+                "educationEndDate": "1934",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund"
+                },
+                "earnedBy": "Georg Berndt Ivar Bjerkeby"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "professional degree",
+                "educationalLevel": "graduate",
+                "educationStartDate": "1938",
+                "educationEndDate": "1938",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown"
+                },
+                "earnedBy": "Georg Berndt Ivar Bjerkeby"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Occupation",
+                "name": "Temporary Dentist",
+                "startDate": "1937",
+                "endDate": "1937",
+                "location": {
+                    "@type": "Place",
+                    "name": "Skönsberg"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Assistant",
+                "startDate": "",
+                "endDate": "",
+                "location": {
+                    "@type": "Place",
+                    "name": "Sävsjö"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary School Dentist",
+                "startDate": "1938",
+                "endDate": "1938",
+                "location": {
+                    "@type": "Place",
+                    "name": "Vrigstad Parish"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1939",
+                "endDate": "",
+                "location": {
+                    "@type": "Place",
+                    "name": "Sävsjö"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "School Dentist",
+                "startDate": "",
+                "endDate": "",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Vallsjö Municipality"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Skepperstad Municipality"
+                    }
+                ]
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "School Board"
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "original": "Bäck, Knut, tonsättare, pianopedagog, Göteborg, f. 22/4/68 i Sthlm av prot:sekr. Chr. B. o. Lina Malmström. G. 97 m. pianopedagog Dagmar Malm. Studiex. 86, stud. piano o. tonsättn. h. bl. a. Rich. Andersson, Emil Sjögren, Joh. Lindegren, H. Barth, M. Bruch. Omfatt. pianopedagog, verks, sed. 96. Musikkritiker i Gbgs-Posten sed. 31. Giv. kammarmusiksoaréer, komp. sång-, pianost. o. körverk. Utg. skr.: Tema m. variation f. piano (95), V. Rydbergs Tomten f. baryton o. ork. (96), sång- o. pianostycken. RVO, LMA.",
+    "translated": "Bäck, Knut, composer, piano teacher, Gothenburg, b. 22/4/68 in Stockholm to Protestant Secretary Christian B. and Lina Malmström. Married in 1897 to piano teacher Dagmar Malm. Graduated 1886, studied piano and composition with Richard Andersson, Emil Sjögren, Johan Lindegren, H. Barth, and Max Bruch. Engaged in piano teaching and composition since 1896. Musical critic in Gbgs-Posten since 1931. Hosted chamber music soirées, composed vocal, piano, and choral works. Published works include: \"Theme with variations for piano\" (1895), \"V. Rydberg's The Christmas Elf for baritone and orchestra\" (1896), vocal and piano pieces. Awarded Royal Order of Vasa, Royal Swedish Academy of Music.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Bäck\",\n  \"jobTitle\": \"Composer, Piano Teacher\",\n  \"birthDate\": \"1868-04-22\",\n  \"birthPlace\": \"Stockholm\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christian Bäck\",\n      \"jobTitle\": \"Protestant Secretary\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lina Malmström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagmar Malm\",\n    \"jobTitle\": \"Piano Teacher\",\n    \"marriageDate\": \"1897\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"diploma\",\n    \"description\": \"Graduated in 1886\",\n    \"educationalLevel\": \"Higher Education\",\n    \"issuedBy\": \"Unknown\",\n    \"issuedCredential\": \"Studied piano and composition with Richard Andersson, Emil Sjögren, Johan Lindegren, H. Barth, and Max Bruch\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Piano Teacher\",\n      \"startDate\": \"1896\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Composer\",\n      \"startDate\": \"1896\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Musical Critic\",\n      \"startDate\": \"1931\",\n      \"description\": \"Musikkritiker i Gbgs-Posten\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Swedish Academy of Music\",\n      \"award\": {\n        \"@type\": \"Medal\",\n        \"name\": \"Royal Order of Vasa\"\n      }\n    }\n  ],\n  \"event\": [\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Chamber Music Soirées\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Theme with Variations for Piano\",\n      \"datePublished\": \"1895\"\n    },\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"V. Rydberg's The Christmas Elf for Baritone and Orchestra\",\n      \"datePublished\": \"1896\"\n    },\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Vocal and Piano Pieces\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Bäck",
+        "jobTitle": "Composer, Piano Teacher",
+        "birthDate": "1868-04-22",
+        "birthPlace": "Stockholm",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Christian Bäck",
+                "jobTitle": "Protestant Secretary"
+            },
+            {
+                "@type": "Person",
+                "name": "Lina Malmström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagmar Malm",
+            "jobTitle": "Piano Teacher",
+            "marriageDate": "1897"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "diploma",
+            "description": "Graduated in 1886",
+            "educationalLevel": "Higher Education",
+            "issuedBy": "Unknown",
+            "issuedCredential": "Studied piano and composition with Richard Andersson, Emil Sjögren, Johan Lindegren, H. Barth, and Max Bruch"
+        },
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Piano Teacher",
+                "startDate": "1896"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Composer",
+                "startDate": "1896"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Musical Critic",
+                "startDate": "1931",
+                "description": "Musikkritiker i Gbgs-Posten"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Royal Swedish Academy of Music",
+                "award": {
+                    "@type": "Medal",
+                    "name": "Royal Order of Vasa"
+                }
+            }
+        ],
+        "event": [
+            {
+                "@type": "Event",
+                "name": "Chamber Music Soirées"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "CreativeWork",
+                "name": "Theme with Variations for Piano",
+                "datePublished": "1895"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "V. Rydberg's The Christmas Elf for Baritone and Orchestra",
+                "datePublished": "1896"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Vocal and Piano Pieces"
+            }
+        ]
+    }
+}

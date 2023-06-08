@@ -1,0 +1,103 @@
+{
+    "original": "Engström, Olof, jägmästare, Viking-stad, f. 17/9/91 i Linköp. av folksk :-lär. Fr. W. E. o, Laura Bohman. G. 20 m. Elsa Andersson. Barn: Margareta f. 20, g. m. tandl. Lars Lied-hodm, Sthlm, Gunnar 22, stud. v. folksk :sem. — Stud:ex. i Linköp. 12, jäg-mäst:ex. v. skogshögsk. 19. Tf. över-jägmäst :assist. o. skogsindeln :assist. å ett flert. platser 19-34, jaktv :konsulent i östergötl. 1. sed. 39. Skr.: div. art. om jakt o. jaktvård.",
+    "translated": "Engström, Olof, forestry officer, Vikingstad. Born September 17, 1891 in Linköping to primary school teacher Fr. W. E. and Laura Bohman. Married to Elsa Andersson in 1920, with two children: Margareta, born in 1920, married to dentist Lars Liedholm in Stockholm, and Gunnar, born in 1922, studying at primary school teacher's college. Olof passed his high school final exams in Linköping in 1912 and obtained a forestry officer degree from the Swedish University of Agricultural Sciences in 1919. He acted as deputy forestry officer and forestry industry assistant at several locations between 1919 and 1934 before becoming a hunting consultant in Östergötland since 1939. His publications include articles on hunting and hunting conservation.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Engström\",\n  \"jobTitle\": \"Forestry officer\",\n  \"birthDate\": \"1891-09-17\",\n  \"birthPlace\": \"Linköping, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fr. W. E. Engström\",\n      \"jobTitle\": \"Primary school teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Laura Bohman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Andersson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Engström\",\n      \"birthDate\": \"1920\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Lars Liedholm\",\n        \"jobTitle\": \"Dentist\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Engström\",\n      \"birthDate\": \"1922\",\n      \"jobTitle\": \"Student\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school final exams\",\n      \"educationLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardingInstitution\": \"Linköping\",\n      \"dateAwarded\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Forestry officer degree\",\n      \"educationLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Jägmäst:ex.\",\n      \"awardingInstitution\": \"Swedish University of Agricultural Sciences\",\n      \"dateAwarded\": \"1919\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish University of Agricultural Sciences\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Deputy forestry officer and forestry industry assistant\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1934\",\n      \"location\": [\n        \"Sweden\"\n      ]\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Hunting consultant\",\n      \"startDate\": \"1939\",\n      \"location\": [\n        \"Östergötland, Sweden\"\n      ]\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Deputy forestry officer\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Forestry industry assistant\"\n    }\n  ],\n  \"publication\": {\n    \"@type\": \"CreativeWork\",\n    \"name\": \"Articles on hunting and hunting conservation\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Engström",
+        "jobTitle": "Forestry officer",
+        "birthDate": "1891-09-17",
+        "birthPlace": "Linköping, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Fr. W. E. Engström",
+                "jobTitle": "Primary school teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Laura Bohman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Andersson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta Engström",
+                "birthDate": "1920",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Lars Liedholm",
+                    "jobTitle": "Dentist"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar Engström",
+                "birthDate": "1922",
+                "jobTitle": "Student"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school final exams",
+                "educationLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardingInstitution": "Linköping",
+                "dateAwarded": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Forestry officer degree",
+                "educationLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Jägmäst:ex.",
+                "awardingInstitution": "Swedish University of Agricultural Sciences",
+                "dateAwarded": "1919"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish University of Agricultural Sciences"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Deputy forestry officer and forestry industry assistant",
+                "startDate": "1919",
+                "endDate": "1934",
+                "location": [
+                    "Sweden"
+                ]
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Hunting consultant",
+                "startDate": "1939",
+                "location": [
+                    "Östergötland, Sweden"
+                ]
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Deputy forestry officer"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Forestry industry assistant"
+            }
+        ],
+        "publication": {
+            "@type": "CreativeWork",
+            "name": "Articles on hunting and hunting conservation"
+        }
+    }
+}

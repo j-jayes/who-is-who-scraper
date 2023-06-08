@@ -1,0 +1,72 @@
+{
+    "original": "Engström, Carl August Lennart, tandläkare, Alingsås, f. 2/1/89 i Nå-runga, Älvsb. 1., av folksk :lär. Carl Albert E. o. Anna Sofia Johansson. G. 14 m. tandl. Esther Landin. — Stud:ex. i Skara 09, tandl :kand. 10, tandl. 12. Prakt, i Hjo 12-13, i Alingsås sed. 13. Fd. ordf. i Odon-tolog. fören.",
+    "translated": "Engström, Carl August Lennart, dentist, Alingsås, b. January 2nd, 1889 in Nårunga, Älvsborgs County, son of elementary school teacher Carl Albert E. and Anna Sofia Johansson. Married in 1914 to dentist Esther Landin. He graduated from Skara secondary school in 1909, dental college in 1910, and became a licensed dentist in 1912. He worked as a dental practitioner in Hjo from 1912-1913, and in Alingsås since 1913. He was a former chairman of the Odontological Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl August Lennart Engström\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Alingsås\"\n  },\n  \"birthDate\": \"1889-01-02\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Nårunga, Älvsborgs County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Albert E. Engström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Sofia Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Esther Landin\",\n    \"marriageDate\": \"1914\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary School Diploma\",\n      \"educationalLevel\": \"SecondaryEducationLevel\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skara Secondary School\"\n      },\n      \"yearAwarded\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Professional Certification\",\n      \"educationalLevel\": \"ProfessionalEducationLevel\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental College\"\n      },\n      \"yearAwarded\": \"1912\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Dental practice in Alingsås\"\n  },\n  \"membership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odontological Association\",\n      \"membershipStartDate\": \"unknown\",\n      \"membershipEndDate\": \"unknown\",\n      \"roleName\": \"former chairman\"\n    }\n  ],\n  \"givenName\": \"Carl August Lennart\",\n  \"familyName\": \"Engström\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl August Lennart Engström",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Alingsås"
+        },
+        "birthDate": "1889-01-02",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Nårunga, Älvsborgs County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Albert E. Engström"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Sofia Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Esther Landin",
+            "marriageDate": "1914"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary School Diploma",
+                "educationalLevel": "SecondaryEducationLevel",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Skara Secondary School"
+                },
+                "yearAwarded": "1909"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Certification",
+                "educationalLevel": "ProfessionalEducationLevel",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Dental College"
+                },
+                "yearAwarded": "1912"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Dental practice in Alingsås"
+        },
+        "membership": [
+            {
+                "@type": "Organization",
+                "name": "Odontological Association",
+                "membershipStartDate": "unknown",
+                "membershipEndDate": "unknown",
+                "roleName": "former chairman"
+            }
+        ],
+        "givenName": "Carl August Lennart",
+        "familyName": "Engström"
+    }
+}

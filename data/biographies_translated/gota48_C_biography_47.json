@@ -1,0 +1,100 @@
+{
+    "original": "Carlsund, Bo Einar, landskanslist, Vänersborg, f. 7/4/98 i Pajala, Norrb. 1., av prov:läk. Herman Johans’son o-. Sigrid Carlsund. G. 31 m. Greta Wet-tergren. Barn: Bo f. 33. — Stud:ex. i Uddevalla 18. E. o. iandskansl. i Nyköp. 21-23, i Vänersb. 23, ord. Iandskansl. i Vänersb. fr. 33. Sekr. i Vänersb. jaktskyttekl. 36, ordf. i fören. Älvsb. 1. Iandskansl. o. ilandskont. 38. Medl. av Frimurarorden, P. B. Hob-bies: jakt, fiske.",
+    "translated": "Carlsund, Bo Einar, county official, Vänersborg, born April 7th, 1898 in Pajala, Norrbotten, son of provincial physician Herman Johansson and Sigrid Carlsund. Married to Greta Wettergren in 1931, with one child, Bo (born 1933). Graduated from high school in Uddevalla in 1918. Started working as a county official in Nyköping from 1921-1923, then moved to Vänersborg in 1923, and became a regular county official in Vänersborg from 1933. Secretary of the Vänersborg hunting club in 1936 and chairman of the Älvsborg association. Worked for the county office and land office in 1938. Member of the Freemason Order and his hobbies include hunting and fishing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bo Einar Carlsund\",\n  \"birthDate\": \"1898-04-07\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Pajala\",\n    \"addressRegion\": \"Norrbotten\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Herman Johansson\",\n      \"jobTitle\": \"Provincial physician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Carlsund\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Wettergren\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bo Carlsund\",\n    \"birthDate\": \"1933\"\n  },\n  \"jobTitle\": \"County official\",\n  \"affiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Frimurarorden\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vänersborg hunting club\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älvsborg association\",\n      \"jobTitle\": \"Chairman\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"High school\",\n    \"educationalLevel\": \"secondaryEducation\",\n    \"endDate\": \"1918\",\n    \"recognizedBy\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla\"\n    }\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County office\",\n      \"jobTitle\": \"County official\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Nyköping\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County office\",\n      \"jobTitle\": \"County official\",\n      \"startDate\": \"1923\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Vänersborg\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Land office\",\n      \"jobTitle\": \"County official\",\n      \"startDate\": \"1938\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Vänersborg\"\n      }\n    }\n  ],\n  \"knowsAbout\": [\n    \"Hunting\",\n    \"Fishing\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Einar Carlsund",
+        "birthDate": "1898-04-07",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Pajala",
+            "addressRegion": "Norrbotten"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Herman Johansson",
+                "jobTitle": "Provincial physician"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Carlsund"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Wettergren",
+            "marriageDate": "1931"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bo Carlsund",
+            "birthDate": "1933"
+        },
+        "jobTitle": "County official",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Frimurarorden"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Vänersborg hunting club"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvsborg association",
+                "jobTitle": "Chairman"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "High school",
+            "educationalLevel": "secondaryEducation",
+            "endDate": "1918",
+            "recognizedBy": {
+                "@type": "Organization",
+                "name": "Uddevalla"
+            }
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "County office",
+                "jobTitle": "County official",
+                "startDate": "1921",
+                "endDate": "1923",
+                "location": {
+                    "@type": "City",
+                    "name": "Nyköping"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "County office",
+                "jobTitle": "County official",
+                "startDate": "1923",
+                "location": {
+                    "@type": "City",
+                    "name": "Vänersborg"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Land office",
+                "jobTitle": "County official",
+                "startDate": "1938",
+                "location": {
+                    "@type": "City",
+                    "name": "Vänersborg"
+                }
+            }
+        ],
+        "knowsAbout": [
+            "Hunting",
+            "Fishing"
+        ]
+    }
+}

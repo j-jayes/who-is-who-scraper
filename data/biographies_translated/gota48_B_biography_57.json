@@ -1,0 +1,79 @@
+{
+    "original": "Bengtsson, Carl Birger, stadsfiskal, Sölvesborg, f. 20/3/99 i Landskrona av handl. P. B. o. Johanna Persson. G. 46 m. Anna-Lisa Rossander. — Stud:ex. 17, jur. kand. 22. Tingstjg. 24-26, egen adv :verks. 27-29, stads-fiskal o. stadsfogde i Sölvesborg sed. 30.",
+    "translated": "Bengtsson, Carl Birger, city prosecutor, Sölvesborg, b. March 20, 1899 in Landskrona to merchant P. B. and Johanna Persson. Married in 1946 to Anna-Lisa Rossander. — Graduated high school in 1917, graduated with a law degree in 1922. Worked in judicial district court from 1924-1926, had own law practice from 1927-1929, city prosecutor and municipal officer in Sölvesborg since 1930.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Carl Birger Bengtsson\",\n   \"jobTitle\": \"City Prosecutor\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Sölvesborg\"\n   },\n   \"birthDate\": \"1899-03-20\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Landskrona\"\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"P. B. Bengtsson\",\n         \"jobTitle\": \"Merchant\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Johanna Persson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Lisa Rossander\",\n      \"marriageDate\": \"1946\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"High School\",\n         \"dateEarned\": \"1917\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"Law Degree\",\n         \"dateEarned\": \"1922\"\n      }\n   ],\n   \"workExperience\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Judicial District Court\"\n         },\n         \"startDate\": \"1924\",\n         \"endDate\": \"1926\",\n         \"roleName\": \"Judicial District Court Employee\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Own Law Practice\"\n         },\n         \"startDate\": \"1927\",\n         \"endDate\": \"1929\",\n         \"roleName\": \"Lawyer\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Sölvesborg Municipality\"\n         },\n         \"startDate\": \"1930\",\n         \"roleName\": \"City Prosecutor\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl Birger Bengtsson",
+        "jobTitle": "City Prosecutor",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sölvesborg"
+        },
+        "birthDate": "1899-03-20",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Landskrona"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "P. B. Bengtsson",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Persson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Lisa Rossander",
+            "marriageDate": "1946"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High School",
+                "dateEarned": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Law Degree",
+                "dateEarned": "1922"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Judicial District Court"
+                },
+                "startDate": "1924",
+                "endDate": "1926",
+                "roleName": "Judicial District Court Employee"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Own Law Practice"
+                },
+                "startDate": "1927",
+                "endDate": "1929",
+                "roleName": "Lawyer"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Sölvesborg Municipality"
+                },
+                "startDate": "1930",
+                "roleName": "City Prosecutor"
+            }
+        ]
+    }
+}

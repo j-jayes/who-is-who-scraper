@@ -1,0 +1,51 @@
+{
+    "original": "Dahl, Göran Oskar, bankdirektör, Värnamo, f. 10/9/95 i Växjö. — Stud:-ex. i Växjö 14. Anst. i Sydsv. Kre-ditbol. 14-22, i Skånska banken 22, kont.xhef f. dess kont. i Lamhult 25-42, dir. o. kont xhef i Värnamo fr. 42.",
+    "translated": "Dahl, Göran Oskar, bank director, Värnamo, b. 10/9/95 in Växjö. - High-school graduate in Växjö in 1914. Employed at Sydsvenska Kreditbolaget from 1914-1922, at Skånska banken in 1922, head of department for its branch in Lamhult from 1925-1942, director and head of department in Värnamo since 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Göran Oskar Dahl\",\n  \"birthDate\": \"1895-10-09\",\n  \"birthPlace\": \"Växjö\",\n  \"jobTitle\": \"Bank Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Värnamo\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"High-school graduate\",\n    \"educationalLevel\": \"High School\",\n    \"educationalCredentialAwarded\": \"Stud:-ex\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sydsvenska Kreditbolaget\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skånska banken\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skånska banken\",\n      \"department\": \"Lamhult\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1942\",\n      \"jobTitle\": \"Head of department\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Värnamo\",\n      \"startDate\": \"1942\",\n      \"jobTitle\": \"Director and Head of department\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Göran Oskar Dahl",
+        "birthDate": "1895-10-09",
+        "birthPlace": "Växjö",
+        "jobTitle": "Bank Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Värnamo"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "High-school graduate",
+            "educationalLevel": "High School",
+            "educationalCredentialAwarded": "Stud:-ex"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Sydsvenska Kreditbolaget",
+                "startDate": "1914",
+                "endDate": "1922"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skånska banken",
+                "startDate": "1922",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skånska banken",
+                "department": "Lamhult",
+                "startDate": "1925",
+                "endDate": "1942",
+                "jobTitle": "Head of department"
+            },
+            {
+                "@type": "Organization",
+                "name": "Värnamo",
+                "startDate": "1942",
+                "jobTitle": "Director and Head of department"
+            }
+        ]
+    }
+}

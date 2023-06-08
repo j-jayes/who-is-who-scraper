@@ -1,0 +1,61 @@
+{
+    "original": "Carlstedt, Bror Emanuel, tullöver-kontroHör, Halmstad, f. 15/11/82 i Gävle av målarem. C. O. C. o. Anna Hammargren. G. 25 m. Selma Ljung. Barn: Britta f. 26. — Stud:ex. 01. Res. t. Frankr. 09; Ryssl. 10. Anst. i tullv. sed. 02, tullöverkontr. i Halmstad sed. 45. Hobbies: segling, pistolskytte.",
+    "translated": "Carlstedt, Bror Emanuel, customs inspector, Halmstad, b. 15/11/82 in Gävle to a painter, C.O.C. and Anna Hammargren. Married on 25/xx to Selma Ljung, with whom he had a daughter named Britta, born in 1926. Bror graduated from high school in 1901 and traveled to France in 1909 and to Russia in 1910. He was employed in customs since 1902 and became a customs inspector in Halmstad in 1945. His hobbies are sailing and pistol shooting.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Emanuel Carlstedt\",\n  \"jobTitle\": \"Customs Inspector\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Gävle\"\n  },\n  \"birthDate\": \"1882-11-15\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.O.C.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Hammargren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Selma Ljung\",\n    \"marriageDate\": \"1925-01-25\"\n  },\n  \"children\": {\n    \"@type\": \"Child\",\n    \"name\": \"Britta Carlstedt\",\n    \"birthDate\": \"1926\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Stud:ex. 01\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"name\": \"Customs\",\n      \"startDate\": \"1902\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"name\": \"Customs Inspector\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Halmstad Customs Office\"\n  },\n  \"hobbies\": [\n    \"Sailing\",\n    \"Pistol shooting\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Emanuel Carlstedt",
+        "jobTitle": "Customs Inspector",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gävle"
+        },
+        "birthDate": "1882-11-15",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "C.O.C."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Hammargren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Selma Ljung",
+            "marriageDate": "1925-01-25"
+        },
+        "children": {
+            "@type": "Child",
+            "name": "Britta Carlstedt",
+            "birthDate": "1926"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Stud:ex. 01"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "name": "Customs",
+                "startDate": "1902",
+                "endDate": "1945"
+            },
+            {
+                "@type": "OrganizationRole",
+                "name": "Customs Inspector",
+                "startDate": "1945"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Halmstad Customs Office"
+        },
+        "hobbies": [
+            "Sailing",
+            "Pistol shooting"
+        ]
+    }
+}

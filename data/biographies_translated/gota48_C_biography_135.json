@@ -1,0 +1,47 @@
+{
+    "original": "Collin, Tage Salomon, civilingenjör, Lidköping, f. 4/6/98 i Jönköp. av Johan C. O’. Gerda Holmberg. — Stud:-ex. i Jönköp. 16, utex. fr. CTH (M) 20. Anst. i ol. befattn. o. fabr. h. STAB 23-35, driftsing. v. Jönköp. &amp; Vulcans Tändsticksfabr. A-B fabr. i Lidköp. sed. 35.",
+    "translated": "Collin, Tage Salomon, civil engineer, Lidköping, b. June 4th, 1898 in Jönköping to Johan C. O’. Gerda Holmberg. - Graduated from Jönköping's gymnasium in '16, graduated from the Chalmers University of Technology with a degree in Mechanical Engineering in '20. Employed in the oil industry and managerial positions in factories at STAB from '23-'35, then as the chief engineer at Jönköping & Vulcan's match factory in Lidköping since '35.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tage Salomon Collin\",\n  \"birthDate\": \"1898-06-04\",\n  \"birthPlace\":\"Jönköping, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Chalmers University of Technology\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping's gymnasium\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan C. O'Collin\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerda Holmberg\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"STAB\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1935\",\n      \"jobTitle\": \"Managerial Position\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping & Vulcan's match factory\",\n      \"startDate\": \"1935\",\n      \"jobTitle\": \"Chief Engineer\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tage Salomon Collin",
+        "birthDate": "1898-06-04",
+        "birthPlace": "Jönköping, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": "Civil Engineer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Chalmers University of Technology"
+        },
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "Jönköping's gymnasium"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan C. O'Collin"
+            },
+            {
+                "@type": "Person",
+                "name": "Gerda Holmberg"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "STAB",
+                "startDate": "1923",
+                "endDate": "1935",
+                "jobTitle": "Managerial Position"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping & Vulcan's match factory",
+                "startDate": "1935",
+                "jobTitle": "Chief Engineer"
+            }
+        ]
+    }
+}

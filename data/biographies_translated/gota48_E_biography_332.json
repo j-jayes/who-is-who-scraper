@@ -1,0 +1,119 @@
+{
+    "original": "Eriksson, Sven Ragnar, komminister, Göteborg, f. 4/7/06 i Gbg av ex-peditör Oskar E. o. Tekla Joelsson. G. 38 m. Margit Holm^strand. Barn: Bengt f. 39, Göran 40, Lennart 43, Stig 45. — Stud:ex. i Gbg 26, teol. fil. ex. 28, teol. kand. 32, prakt. teol. prov samt prästv. f. Gbgs stift 33. Tjg. s. v. pastor i Svenljunga, v. kommin. i Örsås samt past:adj. i Carl Johans förs. i Gbg, kommin. i Haga förs. där sed. 41.",
+    "translated": "Eriksson, Sven Ragnar, parish minister, Gothenburg, born July 4th, 1906 in Gothenburg to former shop assistant Oskar E. and Tekla Joelsson. Married in 1938 to Margit Holmstrand. Children: Bengt (born 1939), Göran (born 1940), Lennart (born 1943), Stig (born 1945). Education: matriculation examination in Gothenburg in 1926, theology degree in 1928, theology candidate in 1932, practical theology examination and ordained as priest in the Gothenburg diocese in 1933. Worked as curate in Svenljunga, assistant vicar in Örsås, as well as assistant priest in Carl Johan's parish in Gothenburg. Promoted to parish minister in Haga parish since 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Ragnar Eriksson\",\n  \"birthDate\": \"1906-07-04\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Oskar E. Eriksson\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tekla Joelsson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Holmstrand\",\n    \"marriageDate\": \"1938\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Eriksson\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Eriksson\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Eriksson\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig Eriksson\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Matriculation Examination\",\n      \"educationalLevel\": \"Matriculation\",\n      \"issuedBy\": \"Gothenburg\",\n      \"dateIssued\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theology Degree\",\n      \"educationalLevel\": \"Bachelor's\",\n      \"issuedBy\": \"Gothenburg\",\n      \"dateIssued\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theology Candidate\",\n      \"educationalLevel\": \"Master's\",\n      \"issuedBy\": \"Unknown\",\n      \"dateIssued\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical Theology Examination\",\n      \"issuedBy\": \"Gothenburg\",\n      \"dateIssued\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ordained as a Priest\",\n      \"issuedBy\": \"Gothenburg Diocese\",\n      \"dateIssued\": \"1933\"\n    }\n  ],\n  \"jobTitle\": \"Parish Minister\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressRegion\": \"\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Svenljunga Church\",\n      \"jobTitle\": \"Curate\",\n      \"startDate\": \"Unknown\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örsås Church\",\n      \"jobTitle\": \"Assistant Vicar\",\n      \"startDate\": \"Unknown\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Carl Johan's Parish\",\n      \"jobTitle\": \"Assistant Priest\",\n      \"startDate\": \"Unknown\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Haga Parish\",\n      \"jobTitle\": \"Parish Minister\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"Unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Ragnar Eriksson",
+        "birthDate": "1906-07-04",
+        "birthPlace": "Gothenburg, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Oskar E. Eriksson"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Tekla Joelsson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Holmstrand",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt Eriksson",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran Eriksson",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Eriksson",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig Eriksson",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Matriculation Examination",
+                "educationalLevel": "Matriculation",
+                "issuedBy": "Gothenburg",
+                "dateIssued": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theology Degree",
+                "educationalLevel": "Bachelor's",
+                "issuedBy": "Gothenburg",
+                "dateIssued": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theology Candidate",
+                "educationalLevel": "Master's",
+                "issuedBy": "Unknown",
+                "dateIssued": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Practical Theology Examination",
+                "issuedBy": "Gothenburg",
+                "dateIssued": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ordained as a Priest",
+                "issuedBy": "Gothenburg Diocese",
+                "dateIssued": "1933"
+            }
+        ],
+        "jobTitle": "Parish Minister",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressRegion": "",
+            "addressCountry": "Sweden"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Svenljunga Church",
+                "jobTitle": "Curate",
+                "startDate": "Unknown",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Örsås Church",
+                "jobTitle": "Assistant Vicar",
+                "startDate": "Unknown",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Carl Johan's Parish",
+                "jobTitle": "Assistant Priest",
+                "startDate": "Unknown",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Haga Parish",
+                "jobTitle": "Parish Minister",
+                "startDate": "1941",
+                "endDate": "Unknown"
+            }
+        ]
+    }
+}

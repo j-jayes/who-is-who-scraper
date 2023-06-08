@@ -1,0 +1,46 @@
+{
+    "original": "Danheim, Tore, tandläkare, Kalmar, f. 25/5/17 li Virserum, Kalm. 1. G. 43 m. Margit (Git) Sjögren. — Stud:-ex. 38, tandläk:ex. 42. Assist, h. tanidläk. Erilk Larsson, Karlsboirg, 42-431, egen prakt, i Kalm. sied. 43.",
+    "translated": "Danheim, Tore, dentist, Kalmar, b. May 25, 1917, in Virserum, Kalm. Married in 1943 to Margit (Git) Sjögren. He graduated from high school in 1938 and from dental school in 1942. He worked as an assistant dentist for Erilk Larsson in Karlsboirg from 1942-1943, then started his own dental practice in Kalmar in 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tore Danheim\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1917-05-25\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Virserum, Kalm\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kalmar\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Sjögren\",\n    \"dateMarried\": \"1943\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalProgram\",\n    \"name\": \"Stud;-ex. 38, tandläk:ex. 42\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Erilk Larsson\",\n      \"jobTitle\": \"Assistant Dentist\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1943\",\n      \"location\": \"Karlsboirg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Own Dental Practice\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1943\",\n      \"location\": \"Kalmar\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tore Danheim",
+        "jobTitle": "Dentist",
+        "birthDate": "1917-05-25",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Virserum, Kalm"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Kalmar"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Sjögren",
+            "dateMarried": "1943"
+        },
+        "education": {
+            "@type": "EducationalOccupationalProgram",
+            "name": "Stud;-ex. 38, tandläk:ex. 42"
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Erilk Larsson",
+                "jobTitle": "Assistant Dentist",
+                "startDate": "1942",
+                "endDate": "1943",
+                "location": "Karlsboirg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Own Dental Practice",
+                "jobTitle": "Dentist",
+                "startDate": "1943",
+                "location": "Kalmar"
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "original": "Didner, Gustaf Emanuel, bankdirektör, Jönköping, f. 11/2/91 i Alunda, Upps. 1. G. 24 m. Elisabet Jansson. Barn: Bengt f. 29, stud. — Stud:ex. i Upps. 11, Anst. v. Uppl. Ensk. Bank i Upps. 11, kamrer där 18-33, byråinsp. i bank- o. fbndinsp. 33-36, förste dito 36-43, verkst. dir. i A-B Smål. Bank sed. 43. Hobby: cykelfärder. RNO.",
+    "translated": "Didner, Gustaf Emanuel, bank director, Jönköping, born 2/11/1891 in Alunda, Uppland, Sweden. He married Elisabet Jansson in 1924 and they had one child, Bengt, born in 1929 who studied and later became a clerk at Upplands Enskilda Bank in Uppsala in 1911. Gustaf himself also worked at the same bank, starting as a clerk in 1911, becoming head of department in 1933, and then managing director of A-B Smål. Bank in 1943. He had a hobby of cycling and was awarded RNO (Royal Order of the North Star).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Gustaf Emanuel\",\n  \"familyName\": \"Didner\",\n  \"jobTitle\": \"Bank Director\",\n  \"birthDate\": \"1891-02-11\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Alunda, Uppland, Sweden\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabet Jansson\",\n    \"marriageDate\": \"1924\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bengt\",\n    \"birthDate\": \"1929\",\n    \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied\",\n      \"credentialAwarded\": \"Stud:ex. in Upps. 11\"\n    },\n    \"jobTitle\": \"Clerk at Upplands Enskilda Bank\",\n    \"startDate\": \"1911\"\n  },\n  \"jobTitle\": \"Clerk at Upplands Enskilda Bank\",\n  \"startDate\": \"1911\",\n  \"employer\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Uppl. Ensk. Bank\",\n    \"startDate\": \"1911\"\n  },\n  \"jobTitle\": \"Head of Department\",\n  \"startDate\": \"1933\",\n  \"endDate\": \"1943\",\n  \"employer\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Uppl. Ensk. Bank\"\n  },\n  \"jobTitle\": \"Managing Director\",\n  \"startDate\": \"1943\",\n  \"endDate\": null,\n  \"employer\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Smål. Bank\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Royal Order of the North Star\"\n  },\n  \"knowsAbout\": \"Cycling\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Gustaf Emanuel",
+        "familyName": "Didner",
+        "jobTitle": "Managing Director",
+        "birthDate": "1891-02-11",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Alunda, Uppland, Sweden"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabet Jansson",
+            "marriageDate": "1924"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bengt",
+            "birthDate": "1929",
+            "education": {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied",
+                "credentialAwarded": "Stud:ex. in Upps. 11"
+            },
+            "jobTitle": "Clerk at Upplands Enskilda Bank",
+            "startDate": "1911"
+        },
+        "startDate": "1943",
+        "employer": {
+            "@type": "Organization",
+            "name": "A-B Smål. Bank"
+        },
+        "endDate": null,
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Royal Order of the North Star"
+        },
+        "knowsAbout": "Cycling"
+    }
+}

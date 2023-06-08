@@ -1,0 +1,76 @@
+{
+    "original": "Björnsson, Björn Sigfrid, förste kon-troillör, Kalmar, f. 5/3/95 i 0’sby, Krist. 1., av trävaruhandl. Sven B. o. Elna Johansson. G. 28 m. Elsa Lindskog. — E. o. postassist. 14, förste 38, post-miäst. 43, i Torsby 44, förste kontr. i Kalm. fr. 47. Kaisisaförv. v. Torsby ’komm. mielflansik. 46-47. Stud:res, t. Tyskl. 37. Hobbies’: jakt, fiake.",
+    "translated": "Björn Sigfrid Björnsson, first inspector of contracts, Kalmar, born March 5, 1895 in Ösby, Kristianstad, son of timber merchant Sven B. and Elna Johansson. Married on the 28th of an unspecified month to Elsa Lindskog. Worked as a temporary postal assistant in 1914, became first postal inspector in 1938, postmaster in 1943 in Torsby, and first contract inspector in Kalmar from 1947. Also served as administrator for Kaisisa in the Torsby municipal government from 1946-1947. Went on a study trip to Germany in 1937. Hobbies include hunting and driving.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Björn Sigfrid Björnsson\",\n  \"birthDate\": \"1895-03-05\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Ösby, Kristianstad\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven B.\",\n      \"jobTitle\": \"Timber Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elna Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Lindskog\"\n  },\n  \"jobTitle\": \"First Inspector of Contracts\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kalmar\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Torsby Municipal Government\",\n      \"jobTitle\": \"Administrator\",\n      \"startDate\": \"1946\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"jobTitle\": \"Temporary Postal Assistant\",\n      \"startDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"jobTitle\": \"First Postal Inspector\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"jobTitle\": \"Postmaster\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"jobTitle\": \"First Contract Inspector\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kaisisa\",\n    \"jobTitle\": \"Mielflansik.\",\n    \"startDate\": \"1946\",\n    \"endDate\": \"1947\"\n  },\n  \"knowsLanguage\": {\n    \"@type\": \"Language\",\n    \"name\": \"German\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Thing\",\n    \"name\": \"Hunting\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Thing\",\n    \"name\": \"Driving\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Björn Sigfrid Björnsson",
+        "birthDate": "1895-03-05",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Ösby, Kristianstad"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sven B.",
+                "jobTitle": "Timber Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Elna Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Lindskog"
+        },
+        "jobTitle": "First Inspector of Contracts",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Kalmar"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Torsby Municipal Government",
+                "jobTitle": "Administrator",
+                "startDate": "1946",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Temporary Postal Assistant",
+                "startDate": "1914"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "jobTitle": "First Postal Inspector",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Postmaster",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "jobTitle": "First Contract Inspector",
+                "startDate": "1947"
+            }
+        ],
+        "memberOf": {
+            "@type": "Thing",
+            "name": "Driving"
+        },
+        "knowsLanguage": {
+            "@type": "Language",
+            "name": "German"
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "original": "Belfrage, Hans Åke, direktör, Al|ingsås^, f. 2/11/02 i Trädet, Älvsb. L, av statiinsp. Axel B. o. Alida Höök. G. 43 m. Anna-Stina Bengtsson. Barn: Joneta f. 44. — Realex. i Tidaholm 19, Gbgs handiinst. 21. Res. t. Tyskl. o. Österr. 30 o. 31, Tyskl., Österr., Ungern o. Tjeckoslov. 37. Anst. v. A-B Rantens Strå- &amp; Filthattfabrik. 22-25, A-B Fritsla Syfabr. 25-38, dir. f. o. deläg. i Al|ingsås Konfektions A-B sed. 38. Medl. av Götiska förb.",
+    "translated": "Belfrage, Hans Åke, director, born November 2, 1902 in Trädet, Älvsborg County, son of state inspector Axel B. and Alida Höök. Married in 1943 to Anna-Stina Bengtsson. They have one child, Joneta, born in 1944. He completed his Real School education in Tidaholm in 1919 and graduated from Gothenburg's Handicraft Institute in 1921. He traveled to Germany and Austria in 1930 and 1931 and to Germany, Austria, Hungary, and Czechoslovakia in 1937. He worked for AB Rantens Strå- & Filthattfabrik from 1922-1925 and then for AB Fritsla Syfabr from 1925-1938. He became director and co-owner of Al|ingsås Konfektions AB in 1938. He is a member of the Götiska Förbundet.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Hans Åke Belfrage\",\n   \"birthDate\": \"1902-11-02\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Trädet, Älvsborg County\"\n   },\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Axel B. Belfrage\",\n         \"jobTitle\": \"State Inspector\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Alida Höök\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Stina Bengtsson\",\n      \"marriageDate\": \"1943\"\n   },\n   \"children\": {\n      \"@type\": \"Person\",\n      \"name\": \"Joneta Belfrage\",\n      \"birthDate\": \"1944\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Real School\",\n         \"location\": \"Tidaholm\",\n         \"endDate\": \"1919\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Gothenburg's Handicraft Institute\",\n         \"location\": \"Gothenburg\",\n         \"endDate\": \"1921\"\n      }\n   ],\n   \"employment\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"AB Rantens Strå- & Filthattfabrik\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1925\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"AB Fritsla Syfabr\",\n         \"startDate\": \"1925\",\n         \"endDate\": \"1938\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Al|ingsås Konfektions AB\",\n         \"startDate\": \"1938\",\n         \"jobTitle\": \"Director and co-owner\"\n      }\n   ],\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Götiska Förbundet\"\n   },\n   \"event\": [\n      {\n         \"@type\": \"TravelEvent\",\n         \"name\": \"Travel to Germany and Austria\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1931\",\n         \"location\": [\n            {\n               \"@type\": \"Place\",\n               \"name\": \"Germany\"\n            },\n            {\n               \"@type\": \"Place\",\n               \"name\": \"Austria\"\n            }\n         ]\n      },\n      {\n         \"@type\": \"TravelEvent\",\n         \"name\": \"Travel to Germany, Austria, Hungary, and Czechoslovakia\",\n         \"startDate\": \"1937\",\n         \"location\": [\n            {\n               \"@type\": \"Place\",\n               \"name\": \"Germany\"\n            },\n            {\n               \"@type\": \"Place\",\n               \"name\": \"Austria\"\n            },\n            {\n               \"@type\": \"Place\",\n               \"name\": \"Hungary\"\n            },\n            {\n               \"@type\": \"Place\",\n               \"name\": \"Czechoslovakia\"\n            }\n         ]\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hans Åke Belfrage",
+        "birthDate": "1902-11-02",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Trädet, Älvsborg County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Axel B. Belfrage",
+                "jobTitle": "State Inspector"
+            },
+            {
+                "@type": "Person",
+                "name": "Alida Höök"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Stina Bengtsson",
+            "marriageDate": "1943"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Joneta Belfrage",
+            "birthDate": "1944"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Real School",
+                "location": "Tidaholm",
+                "endDate": "1919"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's Handicraft Institute",
+                "location": "Gothenburg",
+                "endDate": "1921"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "AB Rantens Strå- & Filthattfabrik",
+                "startDate": "1922",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Fritsla Syfabr",
+                "startDate": "1925",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Al|ingsås Konfektions AB",
+                "startDate": "1938",
+                "jobTitle": "Director and co-owner"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Götiska Förbundet"
+        },
+        "event": [
+            {
+                "@type": "TravelEvent",
+                "name": "Travel to Germany and Austria",
+                "startDate": "1930",
+                "endDate": "1931",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Germany"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Austria"
+                    }
+                ]
+            },
+            {
+                "@type": "TravelEvent",
+                "name": "Travel to Germany, Austria, Hungary, and Czechoslovakia",
+                "startDate": "1937",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Germany"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Austria"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Hungary"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Czechoslovakia"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "original": "Bolling, Bo Hans Pontus Sam, praktiserande läkare, Göteborg, f. 7/1/01 i Karlskrona av genimajor Sam B. o. Gerda Ulff. G. 29 m. Margit Arnfelt. Barn: Ulf f. 30, Anne-Marie 33, Birgitta 39. — Stud:ex. i Karlskrona 20, med. kand. i Sthlm 24, med. lic. där 28. Assist :läk. v. Sahlgr. sjukh. kir. avd. 28, tf. und :läk. v. Carlanderska sjukhemm. i Gbg 29, ord. där 29-33, prakt. läk. i Gbg sed. 33, läk. v. Djur-sätra brunn 3’’3 o. 34, järnv:’l!àk.",
+    "translated": "Bolling, Bo Hans Pontus Sam, practicing physician, Gothenburg, born on January 7, 1901 in Karlskrona to Brigadier General Sam B. and Gerda Ulff. Married to Margit Arnfelt in 1929. Children: Ulf born in 1930, Anne-Marie born in 1933, and Birgitta born in 1939. He graduated from high school in Karlskrona in 1920, received his medical degree in Stockholm in 1924, and his medical license there in 1928. He served as an assistant doctor at Sahlgr. Hospital's surgical department in 1928, acting senior physician at Carlanderska Hospital in Gothenburg in 1929, and regular physician there from 1929 to 1933. He then worked as a practicing physician in Gothenburg from 1933, and as a doctor at Djursätra Spa in 1933 and 1934. Additionally, he worked as a railway physician.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bo Hans Pontus Sam Bolling\",\n  \"birthDate\": \"1901-01-07\",\n  \"birthPlace\": \"Karlskrona\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Practicing physician\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brigadier General Sam B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerda Ulff\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Arnfelt\",\n    \"marriageDate\": \"1929\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Karlskrona\",\n      \"credentialCategory\": \"degree\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"20\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. kand.\",\n      \"educationLevel\": \"Undergraduate\",\n      \"educationalCredentialAwarded\": \"Stockholm\",\n      \"credentialCategory\": \"degree\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"24\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. lic.\",\n      \"educationLevel\": \"Graduate\",\n      \"educationalCredentialAwarded\": \"Stockholm\",\n      \"credentialCategory\": \"license\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"28\"\n      }\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgr. Hospital\",\n      \"department\": \"Surgical\",\n      \"position\": \"Assistant Doctor\",\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Carlanderska Hospital\",\n      \"department\": \"\",\n      \"position\": \"Acting Senior Physician\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg\",\n      \"department\": \"\",\n      \"position\": \"Practicing Physician\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Djursätra Spa\",\n      \"department\": \"\",\n      \"position\": \"Doctor\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Railway Company\",\n      \"department\": \"\",\n      \"position\": \"Physician\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Hans Pontus Sam Bolling",
+        "birthDate": "1901-01-07",
+        "birthPlace": "Karlskrona",
+        "nationality": "Swedish",
+        "jobTitle": "Practicing physician",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Brigadier General Sam B."
+            },
+            {
+                "@type": "Person",
+                "name": "Gerda Ulff"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Arnfelt",
+            "marriageDate": "1929"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Anne-Marie",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationLevel": "High school",
+                "educationalCredentialAwarded": "Karlskrona",
+                "credentialCategory": "degree",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "20"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. kand.",
+                "educationLevel": "Undergraduate",
+                "educationalCredentialAwarded": "Stockholm",
+                "credentialCategory": "degree",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "24"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. lic.",
+                "educationLevel": "Graduate",
+                "educationalCredentialAwarded": "Stockholm",
+                "credentialCategory": "license",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "28"
+                }
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgr. Hospital",
+                "department": "Surgical",
+                "position": "Assistant Doctor",
+                "startDate": "1928"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Carlanderska Hospital",
+                "department": "",
+                "position": "Acting Senior Physician",
+                "startDate": "1929",
+                "endDate": "1933"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg",
+                "department": "",
+                "position": "Practicing Physician",
+                "startDate": "1933"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Djursätra Spa",
+                "department": "",
+                "position": "Doctor",
+                "startDate": "1933",
+                "endDate": "1934"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Railway Company",
+                "department": "",
+                "position": "Physician"
+            }
+        ]
+    }
+}

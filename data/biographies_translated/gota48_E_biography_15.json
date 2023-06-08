@@ -1,0 +1,133 @@
+{
+    "original": "Edemo, Johan Eskil Richard, kyrkoherde, Lerdala, f. 6/2/95 i Utväng^s-torp, Skarab. 1. G. 34 m. Dagmar Gunilla Andersson. Barn: Sven f. 35, Gunnel 37. — Teol. kand., prästv. 29. V. pastor i Järpås 29-33, kommin. i Vara past. (Skarstad) 3’3-45, kyrkoherde i Berg, Skarab. 1., fr. 45. I Järpås ordf. i kyrkost., kyrkoråd, skolråd o. foiksk :styr., i SkariStad ordf. i kyrkost., skolråd, barnav:nd, fani:bidr:-nd. I Berg ordf. i kyrkost., skolråd o. kyrkoråd.",
+    "translated": "Edemo, Johan Eskil Richard, clergyman, Lerdala, b. 2/6/1895 in Utvängs-torp, Skaraborg. Married firstly in 1934 to Dagmar Gunilla Andersson, they had two children: Sven b. 1935 and Gunnel b. 1937. Johan graduated with a Bachelor of Theology degree and was ordained in 1929. He served as an assistant pastor in Järpås from 1929-1933, and then as a curate in Vara pastorate (Skarstad) from 1933-1945. In 1945, Johan became a pastor in Berg, Skaraborg. During his time in Järpås, he served as chairman of the church council, school board, and local welfare committee. In Skarstad, he served as chairman of the church council, school board, child welfare committee, and military contribution committee. In Berg, he served as chairman of the church council, school board, and local welfare committee.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Johan Eskil Richard Edemo\",\n   \"jobTitle\": \"Clergyman\",\n   \"birthDate\": \"1895-02-06\",\n   \"birthPlace\": {\n      \"@type\": \"City\",\n      \"name\": \"Utvängs-torp\",\n      \"address\": {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Skaraborg\",\n         \"addressCountry\": \"Sweden\"\n      }\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Dagmar Gunilla Andersson\",\n      \"marriageDate\": \"1934\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Sven\",\n         \"birthDate\": \"1935\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gunnel\",\n         \"birthDate\": \"1937\"\n      }\n   ],\n   \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"name\": \"Bachelor of Theology\",\n      \"dateIssued\": \"1929\"\n   },\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Järpås\",\n         \"position\": [\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of Church Council\",\n               \"startDate\": \"1929\",\n               \"endDate\": \"1933\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of School Board\",\n               \"startDate\": \"1929\",\n               \"endDate\": \"1933\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of Local Welfare Committee\",\n               \"startDate\": \"1929\",\n               \"endDate\": \"1933\"\n            }\n         ]\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Vara Pastorate\",\n         \"position\": [\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Curate\",\n               \"startDate\": \"1933\",\n               \"endDate\": \"1945\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of Church Council\",\n               \"startDate\": \"1933\",\n               \"endDate\": \"1945\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of School Board\",\n               \"startDate\": \"1933\",\n               \"endDate\": \"1945\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of Child Welfare Committee\",\n               \"startDate\": \"1933\",\n               \"endDate\": \"1945\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of Military Contribution Committee\",\n               \"startDate\": \"1933\",\n               \"endDate\": \"1945\"\n            }\n         ]\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Berg\",\n         \"position\": [\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Pastor\",\n               \"startDate\": \"1945\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of Church Council\",\n               \"startDate\": \"1945\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of School Board\",\n               \"startDate\": \"1945\"\n            },\n            {\n               \"@type\": \"Role\",\n               \"name\": \"Chairman of Local Welfare Committee\",\n               \"startDate\": \"1945\"\n            }\n         ]\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Eskil Richard Edemo",
+        "jobTitle": "Clergyman",
+        "birthDate": "1895-02-06",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Utvängs-torp",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Skaraborg",
+                "addressCountry": "Sweden"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagmar Gunilla Andersson",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnel",
+                "birthDate": "1937"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "bachelor's degree",
+            "educationalLevel": "Bachelor's Degree",
+            "name": "Bachelor of Theology",
+            "dateIssued": "1929"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Järpås",
+                "position": [
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of Church Council",
+                        "startDate": "1929",
+                        "endDate": "1933"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of School Board",
+                        "startDate": "1929",
+                        "endDate": "1933"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of Local Welfare Committee",
+                        "startDate": "1929",
+                        "endDate": "1933"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Vara Pastorate",
+                "position": [
+                    {
+                        "@type": "Role",
+                        "name": "Curate",
+                        "startDate": "1933",
+                        "endDate": "1945"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of Church Council",
+                        "startDate": "1933",
+                        "endDate": "1945"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of School Board",
+                        "startDate": "1933",
+                        "endDate": "1945"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of Child Welfare Committee",
+                        "startDate": "1933",
+                        "endDate": "1945"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of Military Contribution Committee",
+                        "startDate": "1933",
+                        "endDate": "1945"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Berg",
+                "position": [
+                    {
+                        "@type": "Role",
+                        "name": "Pastor",
+                        "startDate": "1945"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of Church Council",
+                        "startDate": "1945"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of School Board",
+                        "startDate": "1945"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Chairman of Local Welfare Committee",
+                        "startDate": "1945"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "original": "Bergman, Olof, praktiserande läkare, Göteborg, f. 14/1/07 i Gbg av trafikinsp. Gunnar B. o. Anna Anders- son. G. 37 m. Sonja Persson. Barn: Bodil £. 40, Agneta 41, Anders 44. — Stud:ex. i Göteborg 27, med. kand. i Lund 31 o. med. lic. där 37. Kort. förordn. s. e. läk. v. sinnessjukh. samt tf. und :läk. v. barnsjukh., assist :läk. o. tf. und :läk. v. Sahlgr. sjukh. rönt-gendiagn. avd. 37-38, e. läk. där 39, und :läk. v. örnsköldsviks las. kir. avd. 40-42, v. Vasa sjukh. i Gbg 42-44, prakt. läk. i Gbg sed. 44.",
+    "translated": "Bergman, Olof, practicing physician, Gothenburg, born on January 14, 1907 in Gothenburg, to traffic inspector Gunnar B. and Anna Andersson. Married in 1937 to Sonja Persson. Children: Bodil born in 1940, Agneta in 1941, and Anders in 1944. Completed secondary school in Gothenburg in 1927, received Bachelor's degree in medicine from Lund University in 1931 and a medical license in 1937. Had brief appointments as assistant physician in psychiatric hospitals and temporary positions as a pediatrician. Worked as assistant physician and temporary junior physician at Sahlgr. Hospital's radiology department from 1937 to 1938, became a physician there in 1939, worked as a junior physician in Örnsköldsvik hospital's surgical department from 1940 to 1942, worked at Vasa hospital in Gothenburg from 1942 to 1944, and has been a practicing physician in Gothenburg since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Bergman\",\n  \"jobTitle\": \"Practicing Physician\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1907-01-14\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar B. Bergman\",\n      \"jobTitle\": \"Traffic Inspector\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sonja Persson\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bodil E.\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agneta\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"educationalProgram\": \"Stud:ex.\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Göteborg\"\n      },\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalProgram\": \"Medicine\",\n      \"institution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"MedicalLicense\",\n      \"issuedBy\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"validFrom\": \"1937\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgr. sjukh.\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"department\": \"Sinnessjukh.\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgr. sjukh.\",\n      \"jobTitle\": \"Physician\",\n      \"department\": \"Sinnessjukh.\",\n      \"startDate\": \"1939\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Örnsköldsviks las.\",\n      \"jobTitle\": \"Junior Physician\",\n      \"department\": \"Kir. avd.\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Vasa sjukh.\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Private Practice\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Bergman",
+        "jobTitle": "Practicing Physician",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1907-01-14",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gunnar B. Bergman",
+                "jobTitle": "Traffic Inspector"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sonja Persson",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bodil E.",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "SecondarySchool",
+                "educationalProgram": "Stud:ex.",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Göteborg"
+                },
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's degree",
+                "educationalProgram": "Medicine",
+                "institution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University"
+                },
+                "endDate": "1931"
+            },
+            {
+                "@type": "MedicalLicense",
+                "issuedBy": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Lund University"
+                },
+                "validFrom": "1937"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgr. sjukh.",
+                "jobTitle": "Assistant Physician",
+                "department": "Sinnessjukh.",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgr. sjukh.",
+                "jobTitle": "Physician",
+                "department": "Sinnessjukh.",
+                "startDate": "1939"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Örnsköldsviks las.",
+                "jobTitle": "Junior Physician",
+                "department": "Kir. avd.",
+                "startDate": "1940",
+                "endDate": "1942"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Vasa sjukh.",
+                "jobTitle": "Practicing Physician",
+                "startDate": "1942",
+                "endDate": "1944"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Private Practice",
+                "jobTitle": "Practicing Physician",
+                "startDate": "1944"
+            }
+        ]
+    }
+}

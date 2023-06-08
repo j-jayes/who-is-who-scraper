@@ -1,0 +1,139 @@
+{
+    "original": "Clason, Karl Alex Georg, tandläkare, Kalmar, f. 2/1/87 i Döderhult, Kalmar 1., av Carl Johan C. o. Inga Mathilda Larsson. G. 19 m. Gudrun Un-neberg. Barn: Leif f. 19, fil. kand., Bertil 22, farm. kand. o. odont. kand. — Stud:ex. i Lund 12, tandlikand. 14, tandläk. 17. Praktik i Åmål 18, i Kalm. sed. 19, skoltandl. v. Kalm. folksk. 19-20. Sekr. i Kalm. 1. tandl:-sällsk. 33-35, skattmäst. 35-39.",
+    "translated": "Clason, Karl Alex Georg, dentist, Kalmar, b. 2/1/87 in Döderhult, Kalmar 1., son of Carl Johan C. and Inga Mathilda Larsson. Married in 19xx to Gudrun Un-neberg. Children: Leif b. 19, B.A., Bertil b. 22, B.Pharm., and B.D.S. — Graduated from Lund University with matriculation certificate in 1912, dental degree in 1914, and became a licensed dentist in 1917. Practiced in Åmål in 1918, and Kalmar from 1919. School dentist at Kalmar public schools from 1919-1920. Secretary of the Kalmar Dental Society from 1933-1935, and treasurer from 1935-1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Alex Georg Clason\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1887-01-02\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Döderhult\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Kalmar 1.\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Johan C. Clason\",\n      \"sameAs\": \"https://www.wikidata.org/wiki/Q106687267\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga Mathilda Larsson\",\n      \"sameAs\": \"https://www.wikidata.org/wiki/Q106687267\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gudrun Un-neberg\",\n    \"dateModified\": \"19xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif Clason\",\n      \"birthDate\": \"1919\",\n      \"additionalName\": \"B.A.\",\n      \"sameAs\": \"https://www.wikidata.org/wiki/Q106687267\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil Clason\",\n      \"birthDate\": \"1922\",\n      \"additionalName\": \"B.Pharm., B.D.S.\",\n      \"sameAs\": \"https://www.wikidata.org/wiki/Q106687267\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Lund\"\n      },\n      \"alumniOf\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Matriculation certificate\",\n        \"startDate\": \"1912\"\n      }\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Lund\"\n      },\n      \"alumniOf\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Dental degree\",\n        \"startDate\": \"1914\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar Dental Society\",\n      \"member\": {\n        \"@type\": \"Person\",\n        \"name\": \"Karl Alex Georg Clason\"\n      },\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\",\n      \"roleName\": \"Secretary\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar Dental Society\",\n      \"member\": {\n        \"@type\": \"Person\",\n        \"name\": \"Karl Alex Georg Clason\"\n      },\n      \"startDate\": \"1935\",\n      \"endDate\": \"1939\",\n      \"roleName\": \"Treasurer\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Licensed Dentist\",\n    \"startDate\": \"1917\"\n  },\n  \"hasCredential\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandlikand.\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandläk.\"\n    }\n  ],\n  \"hasPracticedAt\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Åmål\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Kalmar\",\n      \"startDate\": \"1919\"\n    }\n  ],\n  \"knowsLanguage\": \"Swedish\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Alex Georg Clason",
+        "jobTitle": "Dentist",
+        "birthDate": "1887-01-02",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Döderhult",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kalmar 1."
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Johan C. Clason",
+                "sameAs": "https://www.wikidata.org/wiki/Q106687267"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga Mathilda Larsson",
+                "sameAs": "https://www.wikidata.org/wiki/Q106687267"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gudrun Un-neberg",
+            "dateModified": "19xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Leif Clason",
+                "birthDate": "1919",
+                "additionalName": "B.A.",
+                "sameAs": "https://www.wikidata.org/wiki/Q106687267"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil Clason",
+                "birthDate": "1922",
+                "additionalName": "B.Pharm., B.D.S.",
+                "sameAs": "https://www.wikidata.org/wiki/Q106687267"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "location": {
+                    "@type": "City",
+                    "name": "Lund"
+                },
+                "alumniOf": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Matriculation certificate",
+                    "startDate": "1912"
+                }
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "location": {
+                    "@type": "City",
+                    "name": "Lund"
+                },
+                "alumniOf": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Dental degree",
+                    "startDate": "1914"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Kalmar Dental Society",
+                "member": {
+                    "@type": "Person",
+                    "name": "Karl Alex Georg Clason"
+                },
+                "startDate": "1933",
+                "endDate": "1935",
+                "roleName": "Secretary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalmar Dental Society",
+                "member": {
+                    "@type": "Person",
+                    "name": "Karl Alex Georg Clason"
+                },
+                "startDate": "1935",
+                "endDate": "1939",
+                "roleName": "Treasurer"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Licensed Dentist",
+            "startDate": "1917"
+        },
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "startDate": "1912",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandlikand."
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandläk."
+            }
+        ],
+        "hasPracticedAt": [
+            {
+                "@type": "Place",
+                "name": "Åmål",
+                "startDate": "1918"
+            },
+            {
+                "@type": "Place",
+                "name": "Kalmar",
+                "startDate": "1919"
+            }
+        ],
+        "knowsLanguage": "Swedish"
+    }
+}

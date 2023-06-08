@@ -1,0 +1,77 @@
+{
+    "original": "Bergström, Karl-Erik Ragnar, över-lärare, Uddevalla, f. 15/2/02 i Örebro. G. 27 m. Jenny Högsten. Barn: Per-Erik f. 27, Karin 30. — Ing:ex. i Örebro 21, stud:ex. i Örebro 24, folkskol-l:ex. i Strängnäs 25. Lär. v. Åkerby skyddshem 25-27, v. Skövde folksk. 27-38, överlär. v. Vänersb. folksk. 39-43, v. Uddevalla folksk. fr. 44.",
+    "translated": "Bergström, Karl-Erik Ragnar, Senior Teacher, Uddevalla, b. 15/2/02 in Örebro. Married on 27 with Jenny Högsten. Children: Per-Erik b. 27, Karin b. 30. — Passed the exams for primary school in Örebro in 1921, passed the secondary school exam in Örebro in 1924, and passed the teacher's exam in Strängnäs in 1925. Worked as a teacher at Åkerby Shelter from 1925-27, at Skövde Primary School from 1927-1938, as a senior teacher at Vänersborg Primary School from 1939-1943, and at Uddevalla Primary School from 1944 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl-Erik Ragnar Bergström\",\n  \"jobTitle\": \"Senior Teacher\",\n  \"birthPlace\": \"Örebro, Sweden\",\n  \"birthDate\": \"1902-02-15\",\n  \"spouse\": \"Jenny Högsten\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Erik Bergström\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Bergström\",\n      \"birthDate\": \"1930\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Åkerby Shelter\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Primary School\",\n      \"awardDate\": \"1921\",\n      \"awardingInstitution\": \"Örebro\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Secondary School\",\n      \"awardDate\": \"1924\",\n      \"awardingInstitution\": \"Örebro\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Teacher's Certification\",\n      \"awardDate\": \"1925\",\n      \"awardingInstitution\": \"Strängnäs\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Åkerby Shelter\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde Primary School\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vänersborg Primary School\",\n      \"jobTitle\": \"Senior Teacher\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla Primary School\",\n      \"jobTitle\": \"Senior Teacher\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Karl-Erik Ragnar Bergström",
+        "jobTitle": "Senior Teacher",
+        "birthPlace": "Örebro, Sweden",
+        "birthDate": "1902-02-15",
+        "spouse": "Jenny Högsten",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per-Erik Bergström",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Bergström",
+                "birthDate": "1930"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Åkerby Shelter"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Primary School",
+                "awardDate": "1921",
+                "awardingInstitution": "Örebro"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Secondary School",
+                "awardDate": "1924",
+                "awardingInstitution": "Örebro"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Teacher's Certification",
+                "awardDate": "1925",
+                "awardingInstitution": "Strängnäs"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Åkerby Shelter",
+                "startDate": "1925",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skövde Primary School",
+                "startDate": "1927",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vänersborg Primary School",
+                "jobTitle": "Senior Teacher",
+                "startDate": "1939",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Uddevalla Primary School",
+                "jobTitle": "Senior Teacher",
+                "startDate": "1944"
+            }
+        ]
+    }
+}

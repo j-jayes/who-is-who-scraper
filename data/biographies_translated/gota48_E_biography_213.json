@@ -1,0 +1,79 @@
+{
+    "original": "Elmer, Per Thure Valdemar, tele-grafkommissarie, Lysekil, f. 2/4/99 i Bergunda, Kronob. 1., av civ:ing. Per E. o. Hilma Lundgren. G. 42 m. Eli-se-Marie Hultin. — Stud:ex. v. Växjö h. a, 1. 19, telegr :v. und :visn :anst. 20. Telegr :komm :ie i Lysekil sed. 42. Medi. av Odd Fellov^^ sed. 43 o. av Ro-tarykl. 45.",
+    "translated": "Elmer, Per Thure Valdemar, telegraph commissioner, Lysekil, born on April 2, 1899 in Bergunda, Kronoberg County, son of civil engineer Per E. and Hilma Lundgren. Married in 1942 to Eli-se-Marie Hultin. Passed high school exam at Växjö in 1919, worked as a telegraph assistant at the telegraph agency in 1920, became a telegraph commissioner in Lysekil in 1942. Awarded by the Odd Fellows in 1943 and the Rotary Club in 1945.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Per Thure Valdemar Elmer\",\n   \"jobTitle\": \"Telegraph Commissioner\",\n   \"birthDate\": \"1899-04-02\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Bergunda, Kronoberg County, Sweden\"\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Per E. Lundgren\",\n         \"jobTitle\": \"Civil Engineer\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Hilma Lundgren\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Eli-se-Marie Hultin\",\n      \"marriageDate\": \"1942\"\n   },\n   \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": {\n         \"@type\": \"DefinedTerm\",\n         \"name\": \"High School Diploma\"\n      },\n      \"educationalLevel\": {\n         \"@type\": \"DefinedTerm\",\n         \"name\": \"Secondary Education\"\n      },\n      \"issuer\": {\n         \"@type\": \"Organization\",\n         \"name\": \"Växjö High School\"\n      },\n      \"issuedDate\": \"1919\"\n   },\n   \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Telegraph Agency in Lysekil\"\n   },\n   \"employmentHistory\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Telegraph Agency\",\n         \"startDate\": \"1920\",\n         \"endDate\": \"1942\",\n         \"jobTitle\": \"Telegraph Assistant\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Lysekil Telegraph Commission\",\n         \"startDate\": \"1942\",\n         \"jobTitle\": \"Telegraph Commissioner\"\n      }\n   ],\n   \"awards\": [\n      {\n         \"@type\": \"Award\",\n         \"name\": \"Odd Fellows Award\",\n         \"awardDate\": \"1943\"\n      },\n      {\n         \"@type\": \"Award\",\n         \"name\": \"Rotary Club Award\",\n         \"awardDate\": \"1945\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Per Thure Valdemar Elmer",
+        "jobTitle": "Telegraph Commissioner",
+        "birthDate": "1899-04-02",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Bergunda, Kronoberg County, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Per E. Lundgren",
+                "jobTitle": "Civil Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Lundgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Eli-se-Marie Hultin",
+            "marriageDate": "1942"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": {
+                "@type": "DefinedTerm",
+                "name": "High School Diploma"
+            },
+            "educationalLevel": {
+                "@type": "DefinedTerm",
+                "name": "Secondary Education"
+            },
+            "issuer": {
+                "@type": "Organization",
+                "name": "Växjö High School"
+            },
+            "issuedDate": "1919"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Telegraph Agency in Lysekil"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Telegraph Agency",
+                "startDate": "1920",
+                "endDate": "1942",
+                "jobTitle": "Telegraph Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lysekil Telegraph Commission",
+                "startDate": "1942",
+                "jobTitle": "Telegraph Commissioner"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Award",
+                "name": "Odd Fellows Award",
+                "awardDate": "1943"
+            },
+            {
+                "@type": "Award",
+                "name": "Rotary Club Award",
+                "awardDate": "1945"
+            }
+        ]
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "original": "Börjeson, Eric Gustaf, komminister. Lekåsa, f. 22/5/08 i Skara av Birger B. o. Runa Kiörck. G. 38 m. Brita Alida Eneroth. Barn: Lennart f. 41, Anders 45. ■— Teol. kand., prästv. f. Skara stift 34. Rektor v. h. folksk. i Grästorp 38-39, timlär. 39-41, e. o. ämneslär. v. folkhögsk. i Vara 29-30, kommin. i Lekåsa fr. 41. Ordf. i kyrkostämma o. skolråd.",
+    "translated": "Börjeson, Eric Gustaf, minister. Born May 22, 1908 in Skara to Birger B. and Runa Kiörck. Married in 1938 to Brita Alida Eneroth. Children: Lennart born in 1941, Anders born in 1945. Earned a Bachelor of Theology degree and was ordained as a priest in Skara diocese in 1934. He served as a principal at a primary school in Grästorp from 1938 to 1939, and as a temporary teacher from 1939 to 1941. He was also an acting subject teacher at a folk high school in Vara in 1929 to 1930 prior to becoming a minister in Lekåsa from 1941. He was the chairman of the church congregation and school board.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Eric Gustaf Börjeson\",\n   \"birthDate\": \"1908-05-22\",\n   \"birthPlace\": \"Skara, Sweden\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Birger Börjeson\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Runa Kiörck\"\n      }\n   ],\n   \"spouse\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Brita Alida Eneroth\",\n         \"marriageDate\": \"1938\"\n      }\n   ],\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Lennart Börjeson\",\n         \"birthDate\": \"1941\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders Börjeson\",\n         \"birthDate\": \"1945\"\n      }\n   ],\n   \"educationalCredentialAwarded\": \"Bachelor of Theology\",\n   \"alumniOf\": {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Skara diocese\"\n   },\n   \"occupation\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Principal\",\n         \"startDate\": \"1938\",\n         \"endDate\": \"1939\",\n         \"namedPosition\": \"Primary school in Grästorp\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Temporary Teacher\",\n         \"startDate\": \"1939\",\n         \"endDate\": \"1941\",\n         \"namedPosition\": \"Primary school in Grästorp\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Acting Subject Teacher\",\n         \"startDate\": \"1929\",\n         \"endDate\": \"1930\",\n         \"namedPosition\": \"Folk high school in Vara\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Minister\",\n         \"startDate\": \"1941\",\n         \"namedPosition\": \"Lekåsa\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Church congregation\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"School board\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Eric Gustaf Börjeson",
+        "birthDate": "1908-05-22",
+        "birthPlace": "Skara, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Birger Börjeson"
+            },
+            {
+                "@type": "Person",
+                "name": "Runa Kiörck"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Brita Alida Eneroth",
+                "marriageDate": "1938"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lennart Börjeson",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Börjeson",
+                "birthDate": "1945"
+            }
+        ],
+        "educationalCredentialAwarded": "Bachelor of Theology",
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Skara diocese"
+        },
+        "occupation": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Principal",
+                "startDate": "1938",
+                "endDate": "1939",
+                "namedPosition": "Primary school in Grästorp"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Temporary Teacher",
+                "startDate": "1939",
+                "endDate": "1941",
+                "namedPosition": "Primary school in Grästorp"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Acting Subject Teacher",
+                "startDate": "1929",
+                "endDate": "1930",
+                "namedPosition": "Folk high school in Vara"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Minister",
+                "startDate": "1941",
+                "namedPosition": "Lekåsa"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church congregation"
+            },
+            {
+                "@type": "Organization",
+                "name": "School board"
+            }
+        ]
+    }
+}

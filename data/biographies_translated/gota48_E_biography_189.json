@@ -1,0 +1,127 @@
+{
+    "original": "Elg, Viktor Hilding, journalist, Borås, f. 27/2/02 i Gävle av kont. Viktor E. o. Johanna Roman. G. 2. 42 m. Anna Lundström. Barn i för eg. äkt.: Sigrid f. 24, Lennart 29. — Stud:ex. i Gävle 21. Vol. i Gefle Dagbl. 21-23, medarb. i Borås Tidn. sed. 23, teat:-rec. ’sed. 27. Sign.: alces o. -Ic-. Styr:led. i Borås teat:fören. sed. 36, des’s sekr. 36-44, sekr. i Gbgs o. Älvsb. distr. av Sv. Bsperantoförb. ’sed. 40, ordf. i Esper.-kl. Verda Rondo i Borås 43-46. Hobbies : teat :hist., esperanto.",
+    "translated": "Elg, Viktor Hilding was a journalist from Borås, born on February 27th, 1902 in Gävle to accountant Viktor E. and Johanna Roman. He married Anna Lundström in 1942 and they had two children together: Sigrid, born in 1924, and Lennart, born in 1929. Viktor passed his studentexamen in Gävle in 1921 and worked for Vol. i Gefle Dagblad from 1921-1923 before becoming a contributor to Borås Tidning, where he wrote theater reviews from 1923 onwards. His signature was \"alces\" or \"-Ic-\". He served as a board member for Borås Theater Association from 1936, acting as secretary from 1936-1944. He also served as the secretary of the Swedish Esperanto Federation's Gothenburg and Älvsborg districts from 1940 and chaired the Esperanto club Verda Rondo in Borås from 1943-1946. His hobbies included theater history and Esperanto.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Viktor Hilding Elg\",\n  \"birthDate\": \"1902-02-27\",\n  \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Gävle\"\n  },\n  \"deathDate\": null,\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Journalist\",\n  \"description\" : \"Victor Hilding Elg was a Swedish journalist from Borås\",\n  \"children\": [{\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Elg\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Elg\",\n      \"birthDate\": \"1929\"\n    }],\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Viktor E. Elg\",\n      \"jobTitle\": \"Accountant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johanna Roman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Lundström\",\n    \"marriageDate\": \"1942\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalProgram\",\n    \"educationalLevel\": \"Secondary education\",\n    \"name\": \"Stud:ex. in Gävle\",\n    \"startDate\": \"1921\",\n    \"endDate\": null\n  },\n  \"work\": [{\n      \"@type\": \"Organization\",\n      \"name\": \"Vol. i Gefle Dagbl.\",\n      \"url\": \"https://www.worldcat.org/title/vol-i-gefle-dagblad/oclc/1049706939\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\",\n      \"description\": \"Worked as a contributor from 1921-1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Tidning\",\n      \"url\": \"https://www.worldcat.org/title/boras-tidning/oclc/1049706879\",\n      \"startDate\": \"1923\",\n      \"endDate\": null,\n      \"description\": \"Wrote theatre reviews from 1923 onwards\"\n    }],\n   \"signature\": [\"alces\", \"-Ic-\"],\n   \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Theatre Association\",\n      \"url\": \"https://www.borasteaterforening.se\",\n      \"startDate\": \"1936\",\n      \"endDate\": null,\n      \"roleName\": [\n        {\"@type\": \"Role\", \"name\": \"Board member\"},\n        {\"@type\": \"Role\", \"name\": \"Secretary\"}\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Esperanto Federation\",\n      \"url\": \"http://esperanto.se\",\n      \"startDate\": \"1940\",\n      \"endDate\": null,\n      \"roleName\": [\n        {\"@type\": \"Role\", \"name\": \"Secretary\"}\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Verda Rondo Esperanto club\",\n      \"url\": null,\n      \"startDate\": \"1943\",\n      \"endDate\": \"1946\",\n      \"roleName\": [\n        {\"@type\": \"Role\", \"name\": \"Chairman\"}\n      ]\n    }\n   ],\n   \"knowsAbout\": [\"Theatre history\", \"Esperanto\"],\n   \"url\": null,\n   \"gender\": null\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Viktor Hilding Elg",
+        "birthDate": "1902-02-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gävle"
+        },
+        "deathDate": null,
+        "nationality": "Swedish",
+        "jobTitle": "Journalist",
+        "description": "Victor Hilding Elg was a Swedish journalist from Borås",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sigrid Elg",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Elg",
+                "birthDate": "1929"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Viktor E. Elg",
+                "jobTitle": "Accountant"
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Roman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Lundström",
+            "marriageDate": "1942"
+        },
+        "education": {
+            "@type": "EducationalOccupationalProgram",
+            "educationalLevel": "Secondary education",
+            "name": "Stud:ex. in Gävle",
+            "startDate": "1921",
+            "endDate": null
+        },
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Vol. i Gefle Dagbl.",
+                "url": "https://www.worldcat.org/title/vol-i-gefle-dagblad/oclc/1049706939",
+                "startDate": "1921",
+                "endDate": "1923",
+                "description": "Worked as a contributor from 1921-1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Tidning",
+                "url": "https://www.worldcat.org/title/boras-tidning/oclc/1049706879",
+                "startDate": "1923",
+                "endDate": null,
+                "description": "Wrote theatre reviews from 1923 onwards"
+            }
+        ],
+        "signature": [
+            "alces",
+            "-Ic-"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Borås Theatre Association",
+                "url": "https://www.borasteaterforening.se",
+                "startDate": "1936",
+                "endDate": null,
+                "roleName": [
+                    {
+                        "@type": "Role",
+                        "name": "Board member"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "Secretary"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Esperanto Federation",
+                "url": "http://esperanto.se",
+                "startDate": "1940",
+                "endDate": null,
+                "roleName": [
+                    {
+                        "@type": "Role",
+                        "name": "Secretary"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Verda Rondo Esperanto club",
+                "url": null,
+                "startDate": "1943",
+                "endDate": "1946",
+                "roleName": [
+                    {
+                        "@type": "Role",
+                        "name": "Chairman"
+                    }
+                ]
+            }
+        ],
+        "knowsAbout": [
+            "Theatre history",
+            "Esperanto"
+        ],
+        "url": null,
+        "gender": null
+    }
+}

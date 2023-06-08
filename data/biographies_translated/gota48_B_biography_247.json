@@ -1,0 +1,100 @@
+{
+    "original": "Bernstein, John Hugo, tandläkare, Växjö, f. 6/1/15 i Växjö av fabr. Herman B. o. Nanny Karlsson. G. 41 m. Gunvor Lundholm. — Stud:ex. v. Växjö h. a. 1. 34, tandl ikand. 35, tandl. 38. Assist’.tandl. i Sthlm 39, vik. i Örebro 40, prakt, i Växjö sed. 41.",
+    "translated": "Bernstein, John Hugo, dentist, Växjö, b. January 6, 1915 in Växjö to factory worker Herman B. and Nanny Karlsson. Married in 1941 to Gunvor Lundholm. Completed high school degree at Växjö high school in 1934. Started studying dentistry in 1935 and completed his dental degree in 1938. Worked as assistant dentist in Stockholm in 1939 and as a substitute dentist in Örebro in 1940. Started his own dental practice in Växjö in 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Hugo Bernstein\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1915-01-06\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Växjö\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Herman B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nanny Karlsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunvor Lundholm\",\n    \"dateOfMarriage\": \"1941\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Stud:ex. v. Växjö h. a.\",\n      \"dateReceived\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"tandl ikand.\",\n      \"dateReceived\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"tandl.\",\n      \"dateReceived\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm Dentistry Association\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant Dentist\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental Clinic Stockholm\"\n      },\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Substitute Dentist\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1940\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental Clinic Örebro\"\n      },\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Örebro\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1941\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bernstein Dental Practice\"\n      },\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Växjö\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Hugo Bernstein",
+        "jobTitle": "Dentist",
+        "birthDate": "1915-01-06",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Växjö"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Herman B."
+            },
+            {
+                "@type": "Person",
+                "name": "Nanny Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunvor Lundholm",
+            "dateOfMarriage": "1941"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Stud:ex. v. Växjö h. a.",
+                "dateReceived": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "tandl ikand.",
+                "dateReceived": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "tandl.",
+                "dateReceived": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Stockholm Dentistry Association"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Occupation",
+                "name": "Assistant Dentist",
+                "startDate": "1939",
+                "endDate": "1939",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Dental Clinic Stockholm"
+                },
+                "location": {
+                    "@type": "City",
+                    "name": "Stockholm"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Substitute Dentist",
+                "startDate": "1940",
+                "endDate": "1940",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Dental Clinic Örebro"
+                },
+                "location": {
+                    "@type": "City",
+                    "name": "Örebro"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1941",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Bernstein Dental Practice"
+                },
+                "location": {
+                    "@type": "City",
+                    "name": "Växjö"
+                }
+            }
+        ]
+    }
+}

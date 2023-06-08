@@ -1,0 +1,124 @@
+{
+    "original": "Ehrnst, Olle, tandläkare, Töreboda, f. 9/1/06 i Reppiinge, Kalm. 1., av dir. John E. o. Anna von Mentzer. G. 34 m. Anna Lisa Beskow. Barn: Ann-Sofie f. 36, Odle 38, Gunnar 40. — Stud :ex. i Kristianst. 24, med. kand. v. Karoi. inst. 27, tandläk. 32. Vik. i Hälsingb. 32-33, i Trelleb. 33, förest, f. Sv. Röda Korsets ambuler. tand-klin. inom Jämtl. län samt praktik i Töreboda sed. 43.",
+    "translated": "Ehrnst, Olle, dentist, Töreboda, b. 9/1/06 in Reppiinge, Kalm. County, son of director John E. and Anna von Mentzer. Married in 1934 to Anna Lisa Beskow. Children: Ann-Sofie b. 1936, Odle b. 1938, Gunnar b. 1940. Education: student exam in Kristianst. in 1924, medical candidate at Karolinska Institute in 1927, dentist degree in 1932. Worked in Hälsingborg temporary in 1932-1933, in Trelleborg in 1933, and managed the Swedish Red Cross' mobile dental clinic in Jämtland County as well as dental practice in Töreboda since 1943.",
+    "structured_raw": "{ \n \"@context\": \"http://schema.org\",\n \"@type\": \"Person\",\n \"name\": \"Olle Ehrnst\",\n \"birthDate\": \"1906-09-01\",\n \"birthPlace\": {\n   \"@type\": \"Place\",\n   \"name\": \"Reppiinge, Kalm. County\"\n },\n \"nationality\": \"Swedish\",\n \"parents\": [\n   {\n     \"@type\": \"Person\",\n     \"name\": \"John E. Ehrnst\",\n     \"jobTitle\": \"Director\"\n   },\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Anna von Mentzer\"\n   }\n ],\n \"spouse\": {\n   \"@type\": \"Person\",\n   \"name\": \"Anna Lisa Beskow\",\n   \"marriageDate\": \"1934\"\n },\n \"children\": [\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Ann-Sofie\",\n     \"birthDate\": \"1936\"\n   },\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Odle\",\n     \"birthDate\": \"1938\"\n   },\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Gunnar\",\n     \"birthDate\": \"1940\"\n   }\n ],\n \"education\": [\n   {\n     \"@type\": \"EducationalOccupationalCredential\",\n     \"name\": \"Student Exam\",\n     \"educationalLevel\": \"SecondaryEducation\",\n     \"educationalCredentialAwarded\": \"Secondary School Certificate\",\n     \"awardedBy\": \"Kristianst.\",\n     \"dateAwarded\": \"1924\"\n   },\n   {\n     \"@type\": \"EducationalOccupationalCredential\",\n     \"name\": \"Medical Candidate\",\n     \"educationalLevel\": \"Bachelor\",\n     \"educationalCredentialAwarded\": \"Bachelor of Medicine\",\n     \"awardedBy\": \"Karolinska Institute\",\n     \"dateAwarded\": \"1927\"\n   },\n   {\n     \"@type\": \"EducationalOccupationalCredential\",\n     \"name\": \"Dentist Degree\",\n     \"educationalLevel\": \"Professional\",\n     \"educationalCredentialAwarded\": \"Doctor of Dental Medicine\",\n     \"dateAwarded\": \"1932\"\n   }\n ],\n \"jobTitle\": \"Dentist\",\n \"worksFor\": {\n   \"@type\": \"Organization\",\n   \"name\": \"Töreboda\"\n },\n \"employmentHistory\": [\n   {\n     \"@type\": \"EmploymentEvent\",\n     \"employer\": {\n       \"@type\": \"Organization\",\n       \"name\": \"Hälsingborg\"\n     },\n     \"jobTitle\": \"Dentist\",\n     \"startDate\": \"1932\",\n     \"endDate\": \"1933\"\n   },\n   {\n     \"@type\": \"EmploymentEvent\",\n     \"employer\": {\n       \"@type\": \"Organization\",\n       \"name\": \"Trelleborg\"\n     },\n     \"jobTitle\": \"Dentist\",\n     \"startDate\": \"1933\",\n     \"endDate\": \"1933\"\n   },\n   {\n     \"@type\": \"EmploymentEvent\",\n     \"employer\": {\n       \"@type\": \"Organization\",\n       \"name\": \"Swedish Red Cross\"\n     },\n     \"jobTitle\": \"Mobile Dental Clinic Manager\",\n     \"location\": {\n       \"@type\": \"Place\",\n       \"name\": \"Jämtland County\"\n     },\n     \"startDate\": \"1933\",\n     \"endDate\": \"1943\"\n   },\n   {\n     \"@type\": \"EmploymentEvent\",\n     \"employer\": {\n       \"@type\": \"Organization\",\n       \"name\": \"Töreboda\"\n     },\n     \"jobTitle\": \"Dentist\",\n     \"startDate\": \"1943\"\n   }\n ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Olle Ehrnst",
+        "birthDate": "1906-09-01",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Reppiinge, Kalm. County"
+        },
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John E. Ehrnst",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna von Mentzer"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Lisa Beskow",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann-Sofie",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Odle",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student Exam",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Secondary School Certificate",
+                "awardedBy": "Kristianst.",
+                "dateAwarded": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical Candidate",
+                "educationalLevel": "Bachelor",
+                "educationalCredentialAwarded": "Bachelor of Medicine",
+                "awardedBy": "Karolinska Institute",
+                "dateAwarded": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dentist Degree",
+                "educationalLevel": "Professional",
+                "educationalCredentialAwarded": "Doctor of Dental Medicine",
+                "dateAwarded": "1932"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Töreboda"
+        },
+        "employmentHistory": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Hälsingborg"
+                },
+                "jobTitle": "Dentist",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Trelleborg"
+                },
+                "jobTitle": "Dentist",
+                "startDate": "1933",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Swedish Red Cross"
+                },
+                "jobTitle": "Mobile Dental Clinic Manager",
+                "location": {
+                    "@type": "Place",
+                    "name": "Jämtland County"
+                },
+                "startDate": "1933",
+                "endDate": "1943"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Töreboda"
+                },
+                "jobTitle": "Dentist",
+                "startDate": "1943"
+            }
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "original": "Ekström, Gustaf Emanuel, direktör, ingenjör, Nässjö, f. 19/3/94 i Nässjö av Carl E. o. Emma Jonsson. G. 26 m. Inez Sundberg. Barn: Lars f. 27, Per 30, Marianne 34, Ingrid 43. — Ing:ex. v. CTI (V) 17. Anst. v. stadsing :kont. i Trollhättan 17-18, v. Smålands Kraft A-B i Nässjö sed. 18, driftsing. där 20, verkst. dir. sed. 39. Led. av stadsfullm. o. drätselkamm. i Nässjö. Led. av Sv. tekn:fören. sed. 26. Småil. idr :förb. förtj :M 23, Nässjö sim- o. livräddn :,sällsk. förtj :M 33, Nässjö IF förtj :M 37.",
+    "translated": "Ekström, Gustaf Emanuel, director, engineer, Nässjö, b. March 19, 1894 in Nässjö to Carl E. and Emma Jonsson. Married Inez Sundberg in 1926. Children: Lars b. 1927, Per b. 1930, Marianne b. 1934, Ingrid b. 1943. Graduated with a degree in engineering from the Royal Institute of Technology (stockholm) in 1917. Employed at the municipal engineering office in Trollhättan from 1917-1918, and at Smålands Kraft A-B in Nässjö since 1918, as a plant engineer since 1920 and as managing director since 1939. Member of the city council and the finance committee in Nässjö. Member of the Swedish Technical Association since 1926. Awarded the Medal of Merit by Småland's Sports Association in 1923, by the Nässjö Swimming and Lifesaving Association in 1933, and by the Nässjö IF in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Emanuel Ekström\",\n  \"jobTitle\": \"Director, Engineer\",\n  \"birthPlace\": \"Nässjö\",\n  \"birthDate\": \"1894-03-19\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl E. Ekström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Jonsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inez Sundberg\",\n    \"marriageDate\": \"1926-01-26\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Ekström\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Ekström\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Ekström\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Ekström\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"degree\",\n    \"credentialOffered\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree in Engineering\"\n    },\n    \"educationalLevel\": {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"University\"\n    },\n    \"issuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Institute of Technology\"\n    },\n    \"dateIssued\": \"1917-01-01\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Engineering Office\",\n      \"location\": \"Trollhättan\",\n      \"startDate\": \"1917-01-01\",\n      \"endDate\": \"1918-12-31\",\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Smålands Kraft A-B\",\n      \"location\": \"Nässjö\",\n      \"startDate\": \"1918-01-01\",\n      \"jobTitle\": \"Plant Engineer\",\n      \"endDate\": \"1939-12-31\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Smålands Kraft A-B\",\n      \"location\": \"Nässjö\",\n      \"startDate\": \"1939-01-01\",\n      \"jobTitle\": \"Managing Director\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council of Nässjö\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finance Committee of Nässjö\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\",\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Småland's Sports Association\",\n      \"honorificSuffix\": \"Medal of Merit\",\n      \"awardDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nässjö Swimming and Lifesaving Association\",\n      \"honorificSuffix\": \"Medal of Merit\",\n      \"awardDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nässjö IF\",\n      \"honorificSuffix\": \"Medal of Merit\",\n      \"awardDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Emanuel Ekström",
+        "jobTitle": "Director, Engineer",
+        "birthPlace": "Nässjö",
+        "birthDate": "1894-03-19",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl E. Ekström"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Jonsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inez Sundberg",
+            "marriageDate": "1926-01-26"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Ekström",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Ekström",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Ekström",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Ekström",
+                "birthDate": "1943"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "credentialOffered": {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in Engineering"
+            },
+            "educationalLevel": {
+                "@type": "DefinedTerm",
+                "name": "University"
+            },
+            "issuer": {
+                "@type": "Organization",
+                "name": "Royal Institute of Technology"
+            },
+            "dateIssued": "1917-01-01"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Municipal Engineering Office",
+                "location": "Trollhättan",
+                "startDate": "1917-01-01",
+                "endDate": "1918-12-31",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Smålands Kraft A-B",
+                "location": "Nässjö",
+                "startDate": "1918-01-01",
+                "jobTitle": "Plant Engineer",
+                "endDate": "1939-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "Smålands Kraft A-B",
+                "location": "Nässjö",
+                "startDate": "1939-01-01",
+                "jobTitle": "Managing Director"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "City Council of Nässjö"
+            },
+            {
+                "@type": "Organization",
+                "name": "Finance Committee of Nässjö"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "startDate": "1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Småland's Sports Association",
+                "honorificSuffix": "Medal of Merit",
+                "awardDate": "1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nässjö Swimming and Lifesaving Association",
+                "honorificSuffix": "Medal of Merit",
+                "awardDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nässjö IF",
+                "honorificSuffix": "Medal of Merit",
+                "awardDate": "1937"
+            }
+        ]
+    }
+}

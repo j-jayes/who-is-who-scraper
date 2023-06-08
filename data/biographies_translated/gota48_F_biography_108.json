@@ -1,0 +1,101 @@
+{
+    "original": "Forssell, Carl Bengt Otto, civilingenjör, överingenjör, Mariestad, f. 6/ 4/10 i Sthlm av prof. Carl F. o. Märta Torell. G. 37 m. Ingeborg WaUde. Barn: Martin f. 38, Hans 40, Olof 43, Eva 46. — Stud:ex. 29, avg:ex. fr. KTH 34. Stud:res. t. Engl. 29 o. 31. Ing. v. Kramfors A-B 34-35, h. Sv:es ind:förb., A-B Industribyrån, Sthlm, 35-43, övering. h. A-B Tidan i Marie-istiad tsied. 43. Rev. i KTH isit’ud:kår 32, v. sekr. i avd. I av Sv. tekn :fören. 43-44. SM på florett 43.",
+    "translated": "Forssell, Carl Bengt Otto, civil engineer, chief engineer, from Mariestad, born on April 6th, 1910 in Stockholm to Professor Carl F. and Märta Torell. Married Ingeborg WaUde in 1937 and had four children: Martin (b. 1938), Hans (b. 1940), Olof (b. 1943), Eva (b. 1946). He graduated from KTH with a Bachelor of Science in Engineering in 1934 after completing his high school diploma in 1929. He went on study trips to England in 1929 and 1931. He worked as an engineer at Kramfors A-B from 1934-1935, then joined the Swedish Industrial Federation, A-B Industrial Bureau in Stockholm from 1935-1943, and finally became chief engineer at A-B Tidan in Mariestad in 1943. He was a reviewer in KTH's student union in 1932 and secretary of division I of the Swedish Technical Association in 1943-1944. He won the Swedish championship in foil fencing in 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Bengt Otto Forssell\",\n  \"birthDate\": \"1910-04-06\",\n  \"birthPlace\": \"Stockholm\",\n  \"gender\": \"Male\",\n  \"nationality\": \"Swedish\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg WaUde\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Martin Forssell\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Forssell\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Forssell\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Forssell\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"jobTitle\": \"Civil engineer, Chief engineer\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\",\n      \"memberOfStartDate\": \"1943\",\n      \"memberOfEndDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Industrial Federation\",\n      \"memberOfStartDate\": \"1935\",\n      \"memberOfEndDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Science in Engineering\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Carl Bengt Otto Forssell\"\n      },\n      \"educationalCredentialAwardedDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"educationalLevel\": \"High school\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Carl Bengt Otto Forssell\"\n      },\n      \"educationalCredentialAwardedDate\": \"1929\"\n    }\n  ],\n  \"reviewer\": {\n    \"@type\": \"Organization\",\n    \"name\": \"KTH student union\",\n    \"reviewedDate\": \"1932\"\n  },\n  \"award\": {\n    \"@type\": \"Award\",\n    \"name\": \"Swedish championship in foil fencing\",\n    \"awardDate\": \"1943\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kramfors A-B\",\n      \"worksForStartDate\": \"1934\",\n      \"worksForEndDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Tidan\",\n      \"worksForStartDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Bengt Otto Forssell",
+        "birthDate": "1910-04-06",
+        "birthPlace": "Stockholm",
+        "gender": "Male",
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg WaUde",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Martin Forssell",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans Forssell",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof Forssell",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Forssell",
+                "birthDate": "1946"
+            }
+        ],
+        "jobTitle": "Civil engineer, Chief engineer",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "memberOfStartDate": "1943",
+                "memberOfEndDate": "1944"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Industrial Federation",
+                "memberOfStartDate": "1935",
+                "memberOfEndDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Science in Engineering",
+                "educationalLevel": "Bachelor's degree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Carl Bengt Otto Forssell"
+                },
+                "educationalCredentialAwardedDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "educationalLevel": "High school",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Carl Bengt Otto Forssell"
+                },
+                "educationalCredentialAwardedDate": "1929"
+            }
+        ],
+        "reviewer": {
+            "@type": "Organization",
+            "name": "KTH student union",
+            "reviewedDate": "1932"
+        },
+        "award": {
+            "@type": "Award",
+            "name": "Swedish championship in foil fencing",
+            "awardDate": "1943"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Kramfors A-B",
+                "worksForStartDate": "1934",
+                "worksForEndDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Tidan",
+                "worksForStartDate": "1943"
+            }
+        ]
+    }
+}

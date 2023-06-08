@@ -1,0 +1,99 @@
+{
+    "original": "Dahllöf, Nils Oskar, rektor, Växjö, £. 2W7/9S i Vänersborg av banm. N. W. D. o. Emma Olsson. G. 1. m. Dagmar Eriksson, d. 37; 2. 39 m. Gunvor Maj Elisabeth Halil. — Stud:ex. i Vänersborg 13, fil. mag. i Upps. 19, fil. lic. i Gbg 28 o. fil. dr där 31. Res. t. Frankr. o. Ital. 31. E. o. lär. v. olika läroanst. 18-29, adj. i latin o. grek. v. Karol. lärov. i Örebro 29, lektor i samma ämnen v. Kristianstads h. a. 1. 31, rektor v. Växjö h. a. 1. sed. 35. Skr.: Tempora o. modi h. Columella (griadiiaMh.). RNO.",
+    "translated": "Dahllöf, Nils Oskar, principal, Växjö, b. 27/9S in Vänersborg to railway manager N.W.D. and Emma Olsson. Married 1st to Dagmar Eriksson, who passed away in 37; married 2nd in 39 to Gunvor Maj Elisabeth Halil. — Graduated from high school in Vänersborg in 13, earned a bachelor's degree from Uppsala University in 19, a master's degree from the University of Gothenburg in 28, and a PhD in 31. Traveled to France and Italy in 31. Taught at various educational institutions from 18-29, served as an adjunct in Latin and Greek at Karolinska Secondary School in Örebro in 29, as a lecturer in the same subjects at Kristianstad High School in 31, and as a principal at Växjö High School from 35 onwards. Author of \"Tempora and Moda as in Columella\" (thesis). Awarded the Order of the Polar Star.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Oskar Dahllöf\",\n  \"birthDate\": \"1895-09-27\",\n  \"birthPlace\": \"Vänersborg, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Vänersborg High School\"\n      },\n      \"endDate\": \"1913\",\n      \"description\": \"Graduated from high school\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Uppsala University\"\n      },\n      \"endDate\": \"1919\",\n      \"description\": \"Earned Bachelor's degree\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"University of Gothenburg\"\n      },\n      \"endDate\": \"1928\",\n      \"description\": \"Earned Master's degree\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"University of Gothenburg\"\n      },\n      \"endDate\": \"1931\",\n      \"description\": \"Earned PhD\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dagmar Eriksson\",\n      \"deathDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunvor Maj Elisabeth Halil\",\n      \"marriageDate\": \"1939\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"N.W.D.\",\n      \"relationship\": \"father\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Olsson\",\n      \"relationship\": \"mother\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Principal\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Växjö High School\"\n    }\n  ],\n  \"teaches\": [\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Latin\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Greek\"\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Order of the Polar Star\"\n  },\n  \"description\": \"Author of \\\"Tempora and Moda as in Columella\\\" (thesis)\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Oskar Dahllöf",
+        "birthDate": "1895-09-27",
+        "birthPlace": "Vänersborg, Sweden",
+        "nationality": "Swedish",
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Vänersborg High School"
+                },
+                "endDate": "1913",
+                "description": "Graduated from high school"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Uppsala University"
+                },
+                "endDate": "1919",
+                "description": "Earned Bachelor's degree"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Gothenburg"
+                },
+                "endDate": "1928",
+                "description": "Earned Master's degree"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Gothenburg"
+                },
+                "endDate": "1931",
+                "description": "Earned PhD"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Dagmar Eriksson",
+                "deathDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunvor Maj Elisabeth Halil",
+                "marriageDate": "1939"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "N.W.D.",
+                "relationship": "father"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Olsson",
+                "relationship": "mother"
+            }
+        ],
+        "jobTitle": [
+            "Principal"
+        ],
+        "worksFor": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Växjö High School"
+            }
+        ],
+        "teaches": [
+            {
+                "@type": "Course",
+                "name": "Latin"
+            },
+            {
+                "@type": "Course",
+                "name": "Greek"
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "Order of the Polar Star"
+        },
+        "description": "Author of \"Tempora and Moda as in Columella\" (thesis)"
+    }
+}

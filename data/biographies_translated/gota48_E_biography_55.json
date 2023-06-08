@@ -1,0 +1,74 @@
+{
+    "original": "Egnell, Claes-Otto, godsägare, Raf-näs ’säteri, Norrköping, f. 13/2/85 i Törnevalla s :n, Östergötl. 1., av gods-äg. Claes E. o. Ottilia Weslien. G. 43 m. Göta Egnell. — Dir. f. Vikbolan-deitiS’ Sp-airibamk i Norrköp. ’se-d. 39, äg. av Rafnäs säteri ised. 16. Led. av styr. f. Vikbolandets Sparb. sed. 17, ordf. där sed. 39, ordf. i Vikbo’landets hiis-h:giillie, ordf. i Konungsunds komm:-stämma, tid. inneh. av ett fler t. komm. uppdr., ordf. i styr. f. Vikbokndets Elektr. Kraft A-B -sed. 37. Medl. av Odd Fetow. Hobbi-es-: jakt o. fiske.",
+    "translated": "Egnell, Claes-Otto, estate owner, Rafnäs manor, Norrköping, born February 13, 1885 in Törnevalla parish, Östergötland County, son of estate owner Claes E. and Ottilia Weslien. Married in 1943 to Göta Egnell. Director of Vikbolandet Savings Bank in Norrköping since 1939, owner of Rafnäs manor since 1916. Member of the board of Vikbolandet Savings Bank since 1917, chairman there since 1939, chairman of Vikbolandet's agricultural society, chairman of Konungsunds municipality's meeting, former holder of several municipal assignments, chairman of the board of Vikbolandet's Electricity Company since 1937. Member of Odd Fellows. Hobbies: hunting and fishing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Claes-Otto Egnell\",\n  \"birthDate\": \"1885-02-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Törnevalla parish, Östergötland County, Sweden\"\n  },\n  \"parents\": [{\n      \"@type\": \"Person\",\n      \"name\": \"Claes Egnell\",\n      \"jobTitle\": \"Estate owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ottilia Weslien\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Göta Egnell\",\n    \"marriageDate\": \"1943\"\n  },\n  \"jobTitle\": \"Estate owner\",\n  \"owns\": {\n    \"@type\": \"Place\",\n    \"name\": \"Rafnäs manor, Norrköping\",\n    \"ownershipStartDate\": \"1916\"\n  },\n  \"directs\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Vikbolandet Savings Bank\",\n    \"jobTitle\": \"Director\",\n    \"startDate\": \"1939\"\n  },\n  \"boards\": [{\n      \"@type\": \"Organization\",\n      \"name\": \"Vikbolandet Savings Bank\",\n      \"jobTitle\": \"Board member\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vikbolandet's agricultural society\",\n      \"jobTitle\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Konungsunds municipality's meeting\",\n      \"jobTitle\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vikbolandet's Electricity Company\",\n      \"jobTitle\": \"Chairman of the board\",\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"memberships\": [{\n    \"@type\": \"Organization\",\n    \"name\": \"Odd Fellows\"\n  }],\n  \"knowsAbout\": \"Hunting, fishing\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Claes-Otto Egnell",
+        "birthDate": "1885-02-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Törnevalla parish, Östergötland County, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Claes Egnell",
+                "jobTitle": "Estate owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Ottilia Weslien"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Göta Egnell",
+            "marriageDate": "1943"
+        },
+        "jobTitle": "Estate owner",
+        "owns": {
+            "@type": "Place",
+            "name": "Rafnäs manor, Norrköping",
+            "ownershipStartDate": "1916"
+        },
+        "directs": {
+            "@type": "Organization",
+            "name": "Vikbolandet Savings Bank",
+            "jobTitle": "Director",
+            "startDate": "1939"
+        },
+        "boards": [
+            {
+                "@type": "Organization",
+                "name": "Vikbolandet Savings Bank",
+                "jobTitle": "Board member",
+                "startDate": "1917"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vikbolandet's agricultural society",
+                "jobTitle": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Konungsunds municipality's meeting",
+                "jobTitle": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vikbolandet's Electricity Company",
+                "jobTitle": "Chairman of the board",
+                "startDate": "1937"
+            }
+        ],
+        "memberships": [
+            {
+                "@type": "Organization",
+                "name": "Odd Fellows"
+            }
+        ],
+        "knowsAbout": "Hunting, fishing"
+    }
+}

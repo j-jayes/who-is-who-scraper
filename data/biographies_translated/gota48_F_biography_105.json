@@ -1,0 +1,93 @@
+{
+    "original": "Forsbring, Axel Bertil Esaias, kyrkoherde, Grebo, f. 22/4/04 i Eksjö av musikfanj. Alfred F. o. Amanda Fors-bring. G. 32 m. Gunhild Bode-Lind-quist. Barn: Curt f. 33. — Stud:ex. i Lund 25, teol. fil. ex. 27, teol. kand., prakt. teol. prov samt prästv. f. Linköp. stift 31. V. kommin. i Hällestad 31, kommin. i Skedevi 32, kyrkoh. i Grebo o. Värna sed. 40.",
+    "translated": "Forsbring, Axel Bertil Esaias, pastor, Grebo, born on April 22nd, 1904 in Eksjö to musician Alfred F. and Amanda Forsbring. Married in 1932 to Gunhild Bode-Lindquist with one child named Curt, born in 1933. He graduated from Lund University in 1925, obtained a degree in theology in 1927, and passed the practical theology examination for the priesthood in the Linköping diocese in 1931. He was a curate in Hällestad in 1931, a curate in Skedevi in 1932, and has been the pastor in Grebo and Värna since 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Bertil Esaias Forsbring\",\n  \"jobTitle\": \"Pastor\",\n  \"birthDate\": \"1904-04-22\",\n  \"birthPlace\": \"Eksjö\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alfred F. Forsbring\",\n      \"jobTitle\": \"Musician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Forsbring\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunhild Bode-Lindquist\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Curt\",\n    \"birthDate\": \"1933\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Lund University\",\n    \"attendee\": {\n      \"@type\": \"Person\"\n    },\n    \"endDate\": \"1925\"\n  },\n  \"hasCredential\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Degree in Theology\",\n      \"major\": \"Philosophy\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"certificate\",\n      \"name\": \"Practical Theology Examination\",\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Diocese\",\n      \"member\": {\n        \"@type\": \"Person\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Curate\",\n      \"endDate\": \"1931\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hällestad\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Curate\",\n      \"endDate\": \"1932\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skedevi\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Pastor\",\n      \"startDate\": \"1940\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Grebo and Värna\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Bertil Esaias Forsbring",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "title": "Curate",
+                "endDate": "1931",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Hällestad"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Curate",
+                "endDate": "1932",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Skedevi"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Pastor",
+                "startDate": "1940",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Grebo and Värna"
+                }
+            }
+        ],
+        "birthDate": "1904-04-22",
+        "birthPlace": "Eksjö",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Alfred F. Forsbring",
+                "jobTitle": "Musician"
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Forsbring"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunhild Bode-Lindquist"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Curt",
+            "birthDate": "1933"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Lund University",
+            "attendee": {
+                "@type": "Person"
+            },
+            "endDate": "1925"
+        },
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Degree in Theology",
+                "major": "Philosophy",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "certificate",
+                "name": "Practical Theology Examination",
+                "endDate": "1931"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Linköping Diocese",
+                "member": {
+                    "@type": "Person"
+                }
+            }
+        ]
+    }
+}

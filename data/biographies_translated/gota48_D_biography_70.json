@@ -1,0 +1,80 @@
+{
+    "original": "Danielsson, Axel Uno Sture, civilingenjör, Trollhättan, f. 27/5/87 i Tu-na, Kalm. 1., av Carl Oscar D. o. Charlotta Svensson. G. 18 m. LiHi Maurin. Barn: Ulf f. 19. — Mogiex. i Linköp. 08, stud. v. KTH (E) 09-12. Ing. v. ASEA 13-16, egen affärsverks, i Oskarshamn 17-19, anst. v. A-B Atlas Diesel 20-28, chef f. dieselmotoravd. konstr:kont. v. Nydqvist &amp; Holm A-B i Trollhättan sed. 28.",
+    "translated": "Danielsson, Axel Uno Sture, engineer, from Trollhättan, born 27/5/87 in Tuna, Kalmar county, son of Carl Oscar D. and Charlotta Svensson. Married in 18 with LiHi Maurin. Children: Ulf, born in 19. He completed his studies at KTH (E) from 09-12 and worked as an engineer at ASEA from 13-16, owned a business in Oskarshamn from 17-19, worked at A-B Atlas Diesel from 20-28, and has been the head of the diesel engine department at the Nydqvist & Holm A-B engineering firm in Trollhättan since 28.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Uno Sture Danielsson\",\n  \"birthDate\": \"1887-05-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Tuna, Kalmar county\"\n  },\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Engineer\",\n  \"hasOccupation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Nydqvist & Holm A-B\",\n    \"department\": \"Diesel Engine Department\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Oscar D.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Charlotta Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"LiHi Maurin\",\n    \"marriageDate\": \"1918\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf\",\n      \"birthDate\": \"1919\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Degree\",\n    \"educationalLevel\": \"Master's Degree\",\n    \"degreeName\": \"Civilingenjör\",\n    \"educationalProgram\": [\n      {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"KTH (E)\",\n        \"startDate\": \"1909\",\n        \"endDate\": \"1912\"\n      }\n    ]\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"ASEA\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1916\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Atlas Diesel\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1928\",\n      \"jobTitle\": \"Employee\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Business in Oskarshamn\",\n    \"startDate\": \"1917\",\n    \"endDate\": \"1919\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Uno Sture Danielsson",
+        "birthDate": "1887-05-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Tuna, Kalmar county"
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Engineer",
+        "hasOccupation": {
+            "@type": "Organization",
+            "name": "Nydqvist & Holm A-B",
+            "department": "Diesel Engine Department"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Oscar D."
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotta Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "LiHi Maurin",
+            "marriageDate": "1918"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf",
+                "birthDate": "1919"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Degree",
+            "educationalLevel": "Master's Degree",
+            "degreeName": "Civilingenjör",
+            "educationalProgram": [
+                {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "KTH (E)",
+                    "startDate": "1909",
+                    "endDate": "1912"
+                }
+            ]
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "ASEA",
+                "startDate": "1913",
+                "endDate": "1916",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Atlas Diesel",
+                "startDate": "1920",
+                "endDate": "1928",
+                "jobTitle": "Employee"
+            }
+        ],
+        "owns": {
+            "@type": "Organization",
+            "name": "Business in Oskarshamn",
+            "startDate": "1917",
+            "endDate": "1919"
+        }
+    }
+}

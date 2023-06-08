@@ -1,0 +1,92 @@
+{
+    "original": "Ericsson, Carl Olof (Olle), direktör, Göteborg, f. 14/5/98 i Fellingsbro, Örebro 1. G. 28 m. Ragnhild Lundin. Barn: Stina f. 31, Lena 36. — Stud:ex. i Örebro 17, agronomex. v. Ultuna 21, mejerikonsul, v. Alnarp 24, uthstud. i olika period. Dir:assiist. i Sv. smör-provn. o. förest, f. dess avd. i Gbg 30-37, verkst. dir. i Västsv. mejeriernas centr:förb. sed. 37. Led. av styr. f. Mejeritekn. fören., ordf. i dess Gbgs-avd.",
+    "translated": "Ericsson, Carl Olof (Olle), director, Gothenburg, born on May 14th, 1898 in Fellingsbro, Örebro. Married in 1928 to Ragnhild Lundin. Children: Stina, born in 1931 and Lena, born in 1936. He graduated from gymnasium in Örebro in 1917, agricultural school in Ultuna in 1921, and became a dairy consultant in Alnarp in 1924. He undertook various further studies. He was previously an assistant director of the Swedish Butter Test and was the head of its department in Gothenburg between 1930-1937. He was the managing director of the Central Association of Western Swedish Dairies since 1937. He is a member of the board of the Dairy Technology Association and chairman of its Gothenburg division.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Olof Ericsson\",\n  \"jobTitle\": \"Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1898-05-14\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Fellingsbro\",\n      \"addressRegion\": \"Örebro\"\n    }\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ragnhild Lundin\",\n    \"dateOfMarriage\": \"1928\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stina\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena\",\n      \"birthDate\": \"1936\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Örebro gymnasium\",\n      \"location\": \"Örebro\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Ultuna Agricultural School\",\n      \"location\": \"Ultuna\",\n      \"endDate\": \"1921\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Butter Test\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Swedish Dairy Technology Association\",\n          \"foundingLocation\": \"Sweden\",\n          \"member\": \"Carl Olof Ericsson\"\n        }\n      ],\n      \"assistantDirector\": \"Carl Olof Ericsson\",\n      \"headOfDepartment\": \"Gothenburg\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1937\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Central Association of Western Swedish Dairies\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Swedish Dairy Technology Association\",\n          \"foundingLocation\": \"Sweden\",\n          \"member\": \"Carl Olof Ericsson\"\n        }\n      ],\n      \"managingDirector\": \"Carl Olof Ericsson\",\n      \"startDate\": \"1937\",\n      \"location\": \"West Sweden\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://en.wikipedia.org/wiki/Carl_Olof_Ericsson\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Olof Ericsson",
+        "jobTitle": "Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1898-05-14",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Fellingsbro",
+                "addressRegion": "Örebro"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ragnhild Lundin",
+            "dateOfMarriage": "1928"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Stina",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Lena",
+                "birthDate": "1936"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Örebro gymnasium",
+                "location": "Örebro",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Ultuna Agricultural School",
+                "location": "Ultuna",
+                "endDate": "1921"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Butter Test",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Swedish Dairy Technology Association",
+                        "foundingLocation": "Sweden",
+                        "member": "Carl Olof Ericsson"
+                    }
+                ],
+                "assistantDirector": "Carl Olof Ericsson",
+                "headOfDepartment": "Gothenburg",
+                "startDate": "1930",
+                "endDate": "1937",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Central Association of Western Swedish Dairies",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Swedish Dairy Technology Association",
+                        "foundingLocation": "Sweden",
+                        "member": "Carl Olof Ericsson"
+                    }
+                ],
+                "managingDirector": "Carl Olof Ericsson",
+                "startDate": "1937",
+                "location": "West Sweden"
+            }
+        ],
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Carl_Olof_Ericsson"
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "original": "Cerne, Per Gunnar, apotekare, Kar*lislkroinia, f. 9/8/91 i Södina Afsum., Malmöh. 1. G. 25 m. Elsa Arndt. Barn: Per-Gunnar f. 27, Nils-Eric 38. — Stud:ex. i Lund 13, farm. kand. 17, apot:ex. 22. Eilev v. apot. Hjorten i Lund 13-16, anst. v. apot. i Emmaboda, Eksjö, Lund, Ystad, Oskarshamn, Ljiunigiby 22-26, varav ’som fö’re’s!t. siex mån., åter v. Hjorten i Lund 26-41, varav s. förest, c :a tre år, priv. å apoteket Tre Kronor i Karlliskrona 41.",
+    "translated": "Cerne, Per Gunnar, pharmacist, born August 9, 1891 in Södina Afsum, Malmöhus County. 1st marriage in 1925 to Elsa Arndt. Children: Per-Gunnar (born 1927) and Nils-Eric (born 1938). He passed his high school exams in Lund in 1913, graduated with a degree in pharmacy in 1917, and became a licensed pharmacist in 1922. He worked at the Hjorten pharmacy in Lund between 1913-1916, and was employed at pharmacies in Emmaboda, Eksjö, Lund, Ystad, Oskarshamn, and Ljungby between 1922-1926, including six months as the head pharmacist. He returned to Hjorten in Lund from 1926-1941, serving as head pharmacist for three years. He then worked privately at the Tre Kronor pharmacy in Karlskrona from 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Gunnar Cerne\",\n  \"birthDate\": \"1891-08-09\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Södina Afsum, Malmöhus County\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Arndt\",\n    \"marriageDate\": \"1925\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Gunnar Cerne\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils-Eric Cerne\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Lund\",\n      \"credentialCategory\": \"HighSchool Diploma\",\n      \"educationalLevel\": \"High School\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Farm. kand.\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Apot:ex.\",\n      \"educationalLevel\": \"Graduate\",\n      \"endDate\": \"1922\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Medical Products Agency\"\n      }\n    }\n  ],\n  \"jobTitle\": \"Pharmacist\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hjorten pharmacy\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1916\",\n      \"jobTitle\": \"Pharmacist\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Emmaboda pharmacy\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eksjö pharmacy\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lund pharmacy\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Pharmacist\",\n      \"subOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tre Kronor pharmacy\",\n        \"jobTitle\": \"Private Pharmacist\",\n        \"startDate\": \"1941\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ystad pharmacy\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Oskarshamn pharmacy\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ljungby pharmacy\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Gunnar Cerne",
+        "birthDate": "1891-08-09",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Södina Afsum, Malmöhus County"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Arndt",
+            "marriageDate": "1925"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per-Gunnar Cerne",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Nils-Eric Cerne",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Lund",
+                "credentialCategory": "HighSchool Diploma",
+                "educationalLevel": "High School",
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Farm. kand.",
+                "educationalLevel": "Undergraduate",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Apot:ex.",
+                "educationalLevel": "Graduate",
+                "endDate": "1922",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Swedish Medical Products Agency"
+                }
+            }
+        ],
+        "jobTitle": "Pharmacist",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Hjorten pharmacy",
+                "startDate": "1913",
+                "endDate": "1916",
+                "jobTitle": "Pharmacist"
+            },
+            {
+                "@type": "Organization",
+                "name": "Emmaboda pharmacy"
+            },
+            {
+                "@type": "Organization",
+                "name": "Eksjö pharmacy"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lund pharmacy",
+                "startDate": "1922",
+                "endDate": "1926",
+                "jobTitle": "Pharmacist",
+                "subOrganization": {
+                    "@type": "Organization",
+                    "name": "Tre Kronor pharmacy",
+                    "jobTitle": "Private Pharmacist",
+                    "startDate": "1941"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Ystad pharmacy"
+            },
+            {
+                "@type": "Organization",
+                "name": "Oskarshamn pharmacy"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ljungby pharmacy"
+            }
+        ]
+    }
+}

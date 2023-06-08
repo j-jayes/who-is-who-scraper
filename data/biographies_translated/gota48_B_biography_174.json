@@ -1,0 +1,68 @@
+{
+    "original": "Berghman, Kurt Nore, civilingenjör, Uddevalla, f. 27/3/03’ i Uddevalla av ing. Nore Erik Andreas B. o. Tyra Bogren. G. 28 m. Gunnel Söderholm. — Stud:ex. i Uddevalla 21, KTH (VoV) 21-25. Driftsled. v. Granit A-B C. A. Kullgrens Enka i Uddevalla sed. 25. Led. av stadsfullm. (fp) 38. Led. av Sv. tekn:fören.",
+    "translated": "Berghman, Kurt Nore, engineer, from Uddevalla, born on March 27th, 1903 in Uddevalla to engineer Nore Erik Andreas B. and Tyra Bogren. Married in 1928 to Gunnel Söderholm. He graduated from high school in Uddevalla in 1921 and from KTH (VoV) in 1921-1925. He worked as a production manager at Granit A-B C. A. Kullgrens Enka in Uddevalla since 1925. He was a member of the city council (FP) from 1938 and a member of the Swedish Engineering Association.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Kurt Nore Berghman\",\n  \"birthDate\": \"1903-03-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Uddevalla\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Andreas B. Nore\",\n      \"jobTitle\": \"Engineer\",\n      \"sameAs\": \"\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tyra Bogren\",\n      \"sameAs\": \"\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunnel Söderholm\",\n    \"marriageDate\": \"1928\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"degree\",\n    \"educationalLevel\": \"Bachelor's Degree\",\n    \"issuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"KTH\"\n    },\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uddevalla High School\"\n    },\n    \"startDate\": \"1921\",\n    \"endDate\": \"1925\"\n  },\n  \"jobTitle\": \"Engineer\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Granit A-B C.A. Kullgrens Enka\",\n    \"startDate\": \"1925\",\n    \"jobTitle\": \"Production Manager\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"FP\",\n      \"jobTitle\": \"City Council Member\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Engineering Association\",\n      \"jobTitle\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Kurt Nore Berghman",
+        "birthDate": "1903-03-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Uddevalla"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik Andreas B. Nore",
+                "jobTitle": "Engineer",
+                "sameAs": ""
+            },
+            {
+                "@type": "Person",
+                "name": "Tyra Bogren",
+                "sameAs": ""
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunnel Söderholm",
+            "marriageDate": "1928"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "educationalLevel": "Bachelor's Degree",
+            "issuer": {
+                "@type": "Organization",
+                "name": "KTH"
+            },
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Uddevalla High School"
+            },
+            "startDate": "1921",
+            "endDate": "1925"
+        },
+        "jobTitle": "Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Granit A-B C.A. Kullgrens Enka",
+            "startDate": "1925",
+            "jobTitle": "Production Manager"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "FP",
+                "jobTitle": "City Council Member",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Engineering Association",
+                "jobTitle": "Member"
+            }
+        ]
+    }
+}

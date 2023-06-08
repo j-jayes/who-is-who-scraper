@@ -1,0 +1,88 @@
+{
+    "original": "Biörnerud, Lars Tage Nils, direktör, Göteborg, f. 13/8/08 i Landvetter, Gbgs o. Boh. 1. G. 35 m. Elsa Biörnerud. Barn: Ingela f. 38, Ylva 43, Lars 44. — Stud:ex. v. Borås h. a. 1. 28, avg:ex. fr. fackkurs f. stud. v. Gbgs hand :inst. 30. Korresp. h. A-B C. Fr. Wærn &amp; Co. i Gbg 30-34, avd:-chef h. O. Chr. Oisen &amp; Co. A-B i Gbg 34-40, proikurist i firma Nils Troèdsson &amp; Co. A-B i Gbg .sed. 40, dir. i Nils Troèdsson Paper Co A-B i Gbg sed. 44. Suppi. i Sityr. f. si|stnämnda föret. sed. 44, suppl. i styr. f. Sv. Transmarina Exportförb.",
+    "translated": "Biörnerud, Lars Tage Nils, director, Gothenburg, b. August 13th, 1908 in Landvetter, Gothenburg and Bohus County. 1st marriage in 1935 with Elsa Biörnerud. Children: Ingela b. 1938, Ylva b. 1943, Lars b. 1944. Education: graduated from Borås high school in 1928, completed vocational course for students at Gothenburg's School of Commerce in 1930. Correspondent at A-B C. Fr. Wærn &amp; Co. in Gothenburg from 1930 to 1934, department head at O. Chr. Oisen &amp; Co. A-B in Gothenburg from 1934 to 1940, pro-curator at Nils Troèdsson &amp;amp; Co. A-B in Gothenburg since 1940, director at Nils Troèdsson Paper Co A-B in Gothenburg since 1944. Also serves as a supplementary member in the board of directors for the latter mentioned company since 1944, as well as a supplementary member in the board of directors for the Swedish Transmarine Export Association.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Lars Tage Nils Biörnerud\",\n   \"jobTitle\": \"Director\",\n   \"birthDate\": \"1908-08-13\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Landvetter, Gothenburg and Bohus County\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Borås High School\",\n         \"credentialCategory\": \"diploma\",\n         \"endDate\": \"1928-06-01\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Vocational Course for Students at Gothenburg's School of Commerce\",\n         \"credentialCategory\": \"certificate\",\n         \"endDate\": \"1930-06-01\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Biörnerud\",\n      \"marriageDate\": \"1935\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ingela\",\n         \"birthDate\": \"1938\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ylva\",\n         \"birthDate\": \"1943\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Lars\",\n         \"birthDate\": \"1944\"\n      }\n   ],\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B C. Fr. Wærn &amp; Co.\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1934\",\n         \"jobTitle\": \"Correspondent\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"O. Chr. Oisen &amp; Co. A-B\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1940\",\n         \"jobTitle\": \"Department Head\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Nils Troèdsson &amp;amp; Co. A-B\",\n         \"startDate\": \"1940\",\n         \"jobTitle\": \"Pro-Curator\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Nils Troèdsson Paper Co A-B\",\n         \"startDate\": \"1944\",\n         \"jobTitle\": \"Director\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Swedish Transmarine Export Association\",\n         \"startDate\": \"1944\",\n         \"roleName\": \"Supplementary Member, Board of Directors\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Lars Tage Nils Biörnerud",
+        "jobTitle": "Director",
+        "birthDate": "1908-08-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Landvetter, Gothenburg and Bohus County"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Borås High School",
+                "credentialCategory": "diploma",
+                "endDate": "1928-06-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Vocational Course for Students at Gothenburg's School of Commerce",
+                "credentialCategory": "certificate",
+                "endDate": "1930-06-01"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Biörnerud",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingela",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Ylva",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1944"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A-B C. Fr. Wærn &amp; Co.",
+                "startDate": "1930",
+                "endDate": "1934",
+                "jobTitle": "Correspondent"
+            },
+            {
+                "@type": "Organization",
+                "name": "O. Chr. Oisen &amp; Co. A-B",
+                "startDate": "1934",
+                "endDate": "1940",
+                "jobTitle": "Department Head"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nils Troèdsson &amp;amp; Co. A-B",
+                "startDate": "1940",
+                "jobTitle": "Pro-Curator"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nils Troèdsson Paper Co A-B",
+                "startDate": "1944",
+                "jobTitle": "Director"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Transmarine Export Association",
+                "startDate": "1944",
+                "roleName": "Supplementary Member, Board of Directors"
+            }
+        ]
+    }
+}

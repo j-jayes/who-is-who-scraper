@@ -1,0 +1,92 @@
+{
+    "original": "Boda, Kopparb. 1., av kontr iprost Jacob Theodor B. o. Augusta Elisabet Lindell. G. 24 m. Ingeborg Setter-berg. Barn: Inga f. 25, fil. stud., Uppsala. — Stud:ex. i Falun 06, fil. mag. i Upps. 12. Provår 16. Vik. adj. i Skara 12 o. 13, e. lär. i Luleå 17, i Uddevalia 18-21, ord. ämneslär. i Skän-ninge 21, adj. v. samrealsk. i Nässjö fr. 31.",
+    "translated": "Boda, Kopparberg, 1st district, son of parish priest Jacob Theodor B. and Augusta Elisabet Lindell. Married Ingeborg Setterberg in 1924. Children: Inga born in 1925, studied philosophy in Uppsala. Passed final exam in Falun in 1906, graduated with a degree in philosophy from Uppsala in 1912. Completed a probationary year in 1916. Temporary teacher in Skara in 1912 and 1913, permanent teacher in Luleå in 1917, in Uddevalla from 1918-1921, head teacher in Skänninge from 1921, and assistant teacher in a secondary school in Nässjö from 1931 onwards.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Boda\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Kopparberg\",\n      \"addressRegion\": \"1st district\"\n    }\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jacob Theodor B.\",\n    \"jobTitle\": \"Parish Priest\",\n    \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Elisabet Lindell\"\n    }\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Setterberg\",\n    \"dateMarried\": \"1924\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga\",\n      \"birthDate\": \"1925\",\n      \"jobTitle\": \"Philosophy Student\",\n      \"educationalCredentialAwarded\": \"Studied philosophy in Uppsala\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Falun\",\n      \"startDate\": \"06\",\n      \"endDate\": \"1906\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Fil. mag. i Upps.\",\n      \"startDate\": \"12\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Provår\",\n      \"startDate\": \"16\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vik. adj. i Skara\",\n      \"startDate\": \"12\",\n      \"endDate\": \"13\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"E. lär. i Luleå\",\n      \"startDate\": \"17\",\n      \"endDate\": \"17\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"E. lär. i Uddevalla\",\n      \"startDate\": \"18\",\n      \"endDate\": \"21\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Ord. ämneslär. i Skänninge\",\n      \"startDate\": \"21\",\n      \"endDate\": \"31\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Adj. v. samrealsk. i Nässjö\",\n      \"startDate\": \"31\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Boda",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kopparberg",
+                "addressRegion": "1st district"
+            }
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Jacob Theodor B.",
+            "jobTitle": "Parish Priest",
+            "spouse": {
+                "@type": "Person",
+                "name": "Augusta Elisabet Lindell"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Setterberg",
+            "dateMarried": "1924"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inga",
+                "birthDate": "1925",
+                "jobTitle": "Philosophy Student",
+                "educationalCredentialAwarded": "Studied philosophy in Uppsala"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Falun",
+                "startDate": "06",
+                "endDate": "1906"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil. mag. i Upps.",
+                "startDate": "12",
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Provår",
+                "startDate": "16",
+                "endDate": "1916"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "Occupation",
+                "name": "Vik. adj. i Skara",
+                "startDate": "12",
+                "endDate": "13"
+            },
+            {
+                "@type": "Occupation",
+                "name": "E. lär. i Luleå",
+                "startDate": "17",
+                "endDate": "17"
+            },
+            {
+                "@type": "Occupation",
+                "name": "E. lär. i Uddevalla",
+                "startDate": "18",
+                "endDate": "21"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Ord. ämneslär. i Skänninge",
+                "startDate": "21",
+                "endDate": "31"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Adj. v. samrealsk. i Nässjö",
+                "startDate": "31"
+            }
+        ]
+    }
+}

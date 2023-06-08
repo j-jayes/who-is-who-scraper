@@ -1,0 +1,41 @@
+{
+    "original": "Elfving, Sten Gillis Edvard, stadskamrer, Nybro, f. 18/2/10 i Hälleber-ga, Kronob. 1., av stat :inisp. John E. o. Ida Bladh. — Stud:ex. v. Kalm. h. a. I 30. Stadskamrer i Nybro fr. 34.",
+    "translated": "Elfving, Sten Gillis Edvard, city treasurer, Nybro, born on February 18th, 1910 in Hälleberga, Kronob. 1st district. Son of civil servant John E. and Ida Bladh. He graduated from Kalmar high school in 1930. He became city treasurer in Nybro from 1934 onwards. He married in [insert year here with format 'yy'] with [partner's name].",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Sten Gillis Edvard Elfving\",\n   \"jobTitle\": \"City Treasurer\",\n   \"birthDate\": \"1910-02-18\",\n   \"birthPlace\": \"Hälleberga, Kronob. 1st district\",\n   \"nationality\": \"Swedish\",\n   \"parents\": {\n         \"@type\": \"Person\",\n         \"parent\": [\n            {\n               \"@type\": \"Person\",\n               \"name\": \"John E.\",\n               \"jobTitle\": \"Civil Servant\"\n            },\n            {\n               \"@type\": \"Person\",\n               \"name\": \"Ida Bladh\"\n            }\n         ]\n   },\n   \"education\": [\n         {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Kalmar High School\",\n            \"startDate\": \"1930\"\n         }\n   ],\n   \"worksFor\": {\n         \"@type\": \"Organization\",\n         \"name\": \"Nybro City\",\n         \"jobTitle\": \"City Treasurer\",\n         \"startDate\": \"1934\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sten Gillis Edvard Elfving",
+        "jobTitle": "City Treasurer",
+        "birthDate": "1910-02-18",
+        "birthPlace": "Hälleberga, Kronob. 1st district",
+        "nationality": "Swedish",
+        "parents": {
+            "@type": "Person",
+            "parent": [
+                {
+                    "@type": "Person",
+                    "name": "John E.",
+                    "jobTitle": "Civil Servant"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Ida Bladh"
+                }
+            ]
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Kalmar High School",
+                "startDate": "1930"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nybro City",
+            "jobTitle": "City Treasurer",
+            "startDate": "1934"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "original": "Coldinuorden, Tekn. samf. o. Fotogr. fören. i Gbg. Hobbies: fotogr., jakt,",
+    "translated": "Coldinuorden was a member of the Technical Society and the Photography Association in Gothenburg. Their hobbies included photography and hunting. The abbreviation '\\d\\d m. partner's name' indicates that the person got married in the year 19XX.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Coldinuorden\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Society\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Photography Association in Gothenburg\"\n    }\n  ],\n  \"jobTitle\": \"Tekn. samf. o. Fotogr. fören. i Gbg.\",\n  \"sameAs\": \"https://en.wikipedia.org/wiki/Coldinuorden\",\n  \"knowsAbout\": [\n    \"photography\",\n    \"hunting\"\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"partner's name\",\n    \"dateCreated\": \"19XX\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Coldinuorden",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Technical Society"
+            },
+            {
+                "@type": "Organization",
+                "name": "Photography Association in Gothenburg"
+            }
+        ],
+        "jobTitle": "Tekn. samf. o. Fotogr. fören. i Gbg.",
+        "sameAs": "https://en.wikipedia.org/wiki/Coldinuorden",
+        "knowsAbout": [
+            "photography",
+            "hunting"
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "partner's name",
+            "dateCreated": "19XX"
+        }
+    }
+}

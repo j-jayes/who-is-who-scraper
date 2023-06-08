@@ -1,0 +1,68 @@
+{
+    "original": "Carlander, Carl Edvin, tandläkare, Halm.stad, f. 24/2/04 i Halmstad av Carl Änder C. o. Amanda Sandström. G. 33 m. Carola Ablberg. — Stud:ex. i Halmstad 24, med. kand. 28, tandl. 30. Prakt, i Halmstad sed. 31. Ordf. i Fastigh:bol. Brevbäraren i Halmstad. Hobby: golf.",
+    "translated": "Carlander, Carl Edvin, dentist, Halmstad city, born on February 24th, 1904 in Halmstad to Carl Änder C. and Amanda Sandström. Married in 1933 to Carola Ablberg. He completed his secondary school education in Halmstad in 1924, obtained a bachelor's degree in medicine in 1928, and got his dentist's license in 1930. He worked as a dentist in Halmstad since 1931 and served as chairman of the Property Company. He was also a mailman in Halmstad and enjoyed golf as a hobby.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Edvin Carlander\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Halmstad\",\n  \"birthDate\": \"1904-02-24\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Änder C.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Sandström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Carola Ablberg\",\n    \"marriageDate\": \"1933\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school education\",\n      \"educationLevel\": \"HighSchool\",\n      \"educationalProgramType\": \"secondary education program\",\n      \"name\": \"Stud:ex. i Halmstad\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationLevel\": \"Bachelor'sDegree\",\n      \"educationalProgramType\": \"medicine program\",\n      \"name\": \"Med. kand.\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dentist's license\",\n      \"name\": \"Tandl.\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"City\",\n    \"name\": \"Halmstad city\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Fastigh:bol.\"\n  },\n  \"jobTitle\": \"Dentist\",\n  \"startDate\": \"1931\",\n  \"hobby\": \"golf\",\n  \"additionalProperty\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brevbäraren i Halmstad.\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Edvin Carlander",
+        "jobTitle": "Dentist",
+        "birthPlace": "Halmstad",
+        "birthDate": "1904-02-24",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Änder C."
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Sandström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Carola Ablberg",
+            "marriageDate": "1933"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school education",
+                "educationLevel": "HighSchool",
+                "educationalProgramType": "secondary education program",
+                "name": "Stud:ex. i Halmstad",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationLevel": "Bachelor'sDegree",
+                "educationalProgramType": "medicine program",
+                "name": "Med. kand.",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dentist's license",
+                "name": "Tandl.",
+                "endDate": "1930"
+            }
+        ],
+        "workLocation": {
+            "@type": "City",
+            "name": "Halmstad city"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Fastigh:bol."
+        },
+        "startDate": "1931",
+        "hobby": "golf",
+        "additionalProperty": [
+            {
+                "@type": "Person",
+                "name": "Brevbäraren i Halmstad."
+            }
+        ]
+    }
+}

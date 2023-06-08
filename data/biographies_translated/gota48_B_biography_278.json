@@ -1,0 +1,90 @@
+{
+    "original": "Billig, Oskar, civilingenjör, Borås, f. 3/11/01 i Borås av fabr. Karl B. o. Emma Götz. G. 28 m. Martha Andersson. Barn: Inger f. 31, Thomas 39. — Stud:ex. i Borås 20, civ:ing:ex. v. KTH 24, textilkem. stud. v. div. föret. i Sv:e 25-26. Anst. v. A-B Borås Appreturmedelfabr. sed. 26, dir. o. chefskem. där sed. 27. Led. av styr. f. detta föret. Led. av Sv. tekn:-fören. sed. 24, v. ordf. i Tekn. förb. i Borås sed. 46.",
+    "translated": "Billig, Oskar, civil engineer, Borås, b. 3/11/01 in Borås to manufacturer Karl B. and Emma Götz. Married on 28 with Martha Andersson. Children: Inger b. 31, Thomas b. 39. - Graduated from high school in Borås in 20, graduated from KTH as a civil engineer in 24, textile chemistry studies at various companies in Sweden from 25-26. Employed at A-B Borås Appreturmedelfabr. since 26, director and chief chemist there since 27. Member of the board of this company. Member of the Swedish Technical Association since 24, vice chairman of the Technical Association in Borås since 46.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oskar Billig\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthPlace\": \"Borås\",\n  \"birthDate\": \"1901-11-03\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karl B.\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emma Götz\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Martha Andersson\",\n    \"marriageDate\": \"1928-01-28\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Billig\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thomas Billig\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Borås\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"civ:ing:ex.\",\n      \"educationLevel\": \"Civil Engineering\",\n      \"educationalCredentialAwarded\": \"civ:ing:ex.\",\n      \"educationalInstitution\": \"KTH\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"Textile chemistry studies\",\n      \"educationLevel\": \"Higher education\",\n      \"educationalCredentialAwarded\": \"Textile chemistry studies\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Borås Appreturmedelfabr.\",\n      \"startDate\": \"1926\",\n      \"department\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Director and Chief Chemist\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Association in Borås\",\n      \"position\": \"Vice Chairman\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oskar Billig",
+        "jobTitle": "Civil Engineer",
+        "birthPlace": "Borås",
+        "birthDate": "1901-11-03",
+        "father": {
+            "@type": "Person",
+            "name": "Karl B."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Emma Götz"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Martha Andersson",
+            "marriageDate": "1928-01-28"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Billig",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Thomas Billig",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationLevel": "High school",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": "Borås",
+                "startDate": "1920",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "civ:ing:ex.",
+                "educationLevel": "Civil Engineering",
+                "educationalCredentialAwarded": "civ:ing:ex.",
+                "educationalInstitution": "KTH",
+                "startDate": "1924",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Textile chemistry studies",
+                "educationLevel": "Higher education",
+                "educationalCredentialAwarded": "Textile chemistry studies",
+                "startDate": "1925",
+                "endDate": "1926"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "A-B Borås Appreturmedelfabr.",
+                "startDate": "1926",
+                "department": {
+                    "@type": "Organization",
+                    "name": "Director and Chief Chemist"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "startDate": "1924"
+            },
+            {
+                "@type": "Organization",
+                "name": "Technical Association in Borås",
+                "position": "Vice Chairman",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "original": "Danielsson, Åke Gabriel, disponent, Norrköping, f. 11/2/91 i Bankekind, Östergötl. 1., av dir. N. P. D. o. Mathilda Svensson. G. 17 m. Viola Drangel. Barn: Hubert f. 18, Arne 21, Åke 30. — Realex. v. Linköp. h. a. 1. 07. Res. i de europ. länd. (även Ryssl.) årl. Prakt, i Engl. 07-09, anst. i Trävaru A-B Norrköp. Exporthyv-leri sed. 17, verkst. dir. där sed. 25. Led. av styr. f. Tunabergs Trävaru A-B i Koppartorp, led. av Norrköp. hamnstyr., ordf. i direkt, f. Norrköp. sjömanshus, ordf. i Norrköp. fältritt-kl. Hobby: ridsport m. m.",
+    "translated": "Danielsson, Åke Gabriel, manager, Norrköping, born February 11th, 1891 in Bankekind, Östergötland, son of N.P.D. Director and Mathilda Svensson. Married to Viola Drangel in 1917. Children: Hubert b. 1918, Arne b. 1921, Åke b. 1930. Completed secondary school in Linköping in 1907. Traveled annually to European countries (including Russia). Practical experience in England from 1907-1909. Employed by Trävaru A-B Norrköping since 1917, became production manager in 1925. Member of the board of Tunabergs Trävaru A-B in Koppartorp, member of the Norrköping port authority, chairman of the board of Norrköpings sjömanshus. Hobbies: equestrian sports, and more.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Gabriel Danielsson\",\n  \"jobTitle\": \"Manager\",\n  \"birthDate\": \"1891-02-11\",\n  \"birthPlace\": \"Bankekind, Östergötland\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"N. P. D. Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mathilda Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Viola Drangel\",\n    \"marriageDate\": \"1917\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hubert\",\n      \"birthDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åke\",\n      \"birthDate\": \"1930\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"diploma\",\n    \"description\": \"Completed secondary school in Linköping\",\n    \"endDate\": \"1907\"\n  },\n  \"jobTitle\": \"Manager\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tunabergs Trävaru A-B\",\n      \"position\": \"Board Member\",\n      \"location\": \"Koppartorp\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Port Authority\",\n      \"position\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköpings sjömanshus\",\n      \"position\": \"Chairman of the Board\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trävaru A-B Norrköping\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1925\",\n      \"position\": \"Production Manager\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trävaru A-B Norrköping\",\n      \"startDate\": \"1917\",\n      \"position\": \"Employee\"\n    }\n  ],\n  \"knowsAbout\": [\n    \"Equestrian sports\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Åke Gabriel Danielsson",
+        "jobTitle": "Manager",
+        "birthDate": "1891-02-11",
+        "birthPlace": "Bankekind, Östergötland",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "N. P. D. Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Viola Drangel",
+            "marriageDate": "1917"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hubert",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Arne",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Åke",
+                "birthDate": "1930"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "diploma",
+            "description": "Completed secondary school in Linköping",
+            "endDate": "1907"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Tunabergs Trävaru A-B",
+                "position": "Board Member",
+                "location": "Koppartorp"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Port Authority",
+                "position": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköpings sjömanshus",
+                "position": "Chairman of the Board"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Trävaru A-B Norrköping",
+                "startDate": "1917",
+                "endDate": "1925",
+                "position": "Production Manager"
+            },
+            {
+                "@type": "Organization",
+                "name": "Trävaru A-B Norrköping",
+                "startDate": "1917",
+                "position": "Employee"
+            }
+        ],
+        "knowsAbout": [
+            "Equestrian sports"
+        ]
+    }
+}

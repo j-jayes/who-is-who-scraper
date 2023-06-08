@@ -1,0 +1,110 @@
+{
+    "original": "Bolin, Nils Fredrik, stadsläkare, Visby, f. 21/8/95 i Klinte, Gotl. 1., av fältläk. Karl Niklas B. o. Maria Magdalena Budin. G. 1. 27 m. tellegrafexp. Gerda Barbro Sofia Nordvik; 2. 43 m. Margit Östling. — Stud:ex. i Visby 15, med. kand. i Sthlm 20, med. lic. där 25. E. läk. v. Östersunds hosp. 23-24, assist :läk. v. Linköp. las. samt kort. förordn. i Trollhättans, Domnarvets o. Hoverbergs distr. 26, prakt. läk. i Visby sed. 27, tf. stadsläk. där 27, 28 o. 29-30, ord. dito sed. 30, skoHäk. v. Visby h. flicksk.",
+    "translated": "Bolin, Nils Fredrik, city physician, Visby, b. 21/8/95 in Klinte, Gotl. County, son of field physician Karl Niklas B. and Maria Magdalena Budin. Married 1st in 27 to telegraph operator Gerda Barbro Sofia Nordvik; 2nd in 43 to Margit Östling. Education: high school in Visby in 15, medical degree in Stockholm in 20, medical license there in 25. Worked as a resident physician at Östersunds Hospital from 23-24, assistant physician at Linköping hospital as well as working briefly in Trollhättan, Domnarvet, and Hoverberg districts in 26, practicing physician in Visby since 27, serving as temporary city physician there in 27, 28, 29-30, and permanent city physician since 30. Also worked as the school physician at Visby Girls' School.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Fredrik Bolin\",\n  \"jobTitle\": \"City Physician\",\n  \"birthPlace\": \"Klinte, Gotland County, Sweden\",\n  \"birthDate\": \"1895-08-21\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Niklas Bolin\",\n      \"jobTitle\": \"Field Physician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Magdalena Budin\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerda Barbro Sofia Nordvik\",\n      \"marriageDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Östling\",\n      \"marriageDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High School\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardedBy\": \"Visby\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Medical Degree\",\n      \"awardedBy\": \"Stockholm\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Medical License\",\n      \"awardedBy\": \"Stockholm\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östersunds Hospital\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"jobTitle\": \"Resident Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Hospital\",\n      \"jobTitle\": \"Assistant Physician\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättan District\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Practicing Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Domnarvet District\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Practicing Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hoverberg District\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Practicing Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Visby\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"present\",\n      \"jobTitle\": \"Practicing Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Visby Girls' School\",\n      \"jobTitle\": \"School Physician\"\n    }\n  ],\n  \"gender\": \"Male\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Fredrik Bolin",
+        "jobTitle": "City Physician",
+        "birthPlace": "Klinte, Gotland County, Sweden",
+        "birthDate": "1895-08-21",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Niklas Bolin",
+                "jobTitle": "Field Physician"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Magdalena Budin"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Gerda Barbro Sofia Nordvik",
+                "marriageDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Margit Östling",
+                "marriageDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High School",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardedBy": "Visby",
+                "startDate": "1915",
+                "endDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Medical Degree",
+                "awardedBy": "Stockholm",
+                "startDate": "1920",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Medical License",
+                "awardedBy": "Stockholm",
+                "startDate": "1925",
+                "endDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Östersunds Hospital",
+                "startDate": "1923",
+                "endDate": "1924",
+                "jobTitle": "Resident Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping Hospital",
+                "jobTitle": "Assistant Physician"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Trollhättan District",
+                "startDate": "1926",
+                "endDate": "1926",
+                "jobTitle": "Practicing Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Domnarvet District",
+                "startDate": "1926",
+                "endDate": "1926",
+                "jobTitle": "Practicing Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hoverberg District",
+                "startDate": "1926",
+                "endDate": "1926",
+                "jobTitle": "Practicing Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Visby",
+                "startDate": "1927",
+                "endDate": "present",
+                "jobTitle": "Practicing Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Visby Girls' School",
+                "jobTitle": "School Physician"
+            }
+        ],
+        "gender": "Male"
+    }
+}

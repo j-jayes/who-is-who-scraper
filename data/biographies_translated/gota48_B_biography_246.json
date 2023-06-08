@@ -1,0 +1,87 @@
+{
+    "original": "Berns, Hans Werner, praktiserande läkare, Linköping, f. 21/1/12 i Mann-heim, TyskL, av ing. Heinrich B. o. Berta Harting. G. 39 m. Barbro Sa-belström. Barn: Lennart f. 40, Birgitta 42, Gunnar 44. — Stud:ex. i Linköp. 30, med. kand. v. Karol. inst. 33 o. med. lic. där 38. Tf. und:läk. v. Seraf ilas. ögonpoliklin. o. ögonklin. 38-39, förordn. s. assist :läk. v. Hoch-gebirge-Augenklinik Guardaval i Davos, Schweiz, 39, andre o. förste und:-läk. v. Karol. sjukh. ögonklin. 39-43, prakt, ögonläk. i Linköp. sed. 43.",
+    "translated": "Berns, Hans Werner, practicing physician, Linköping, born January 21, 1912 in Mannheim, Germany, son of engineer Heinrich B. and Berta Harting. Married in 1939 to Barbro Sabelström. Children: Lennart born in 1940, Birgitta in 1942, Gunnar in 1944. He graduated from high school in Linköping in 1930, and earned a Bachelor's degree in medicine from Karolinska Institute in 1933 and a medical license there in 1938. He served as a temporary junior doctor at the Seraf ilas Eye Clinic and Eye Hospital in 1938-1939, was appointed as an assistant medical doctor at the Guardaval Eye Clinic in Davos, Switzerland in 1939, and became the second and first junior doctor at Karolinska Hospital's Eye Clinic from 1939 to 1943. Since 1943, he has been practicing as an ophthalmologist in Linköping.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hans Werner Berns\",\n  \"jobTitle\": \"Practicing Physician\",\n  \"birthDate\": \"1912-01-21\",\n  \"birthPlace\": \"Mannheim, Germany\",\n  \"nationality\": \"Swedish\",\n  \"gender\": \"Male\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Heinrich B. Berns\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berta Harting\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbro Sabelström\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Berns\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Berns\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Berns\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. in Linköp.\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor's degree in medicine from Karolinska Institute\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Linköping Hospital\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"MedicalOccupation\",\n    \"name\": \"Ophthalmologist\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Seraf ilas Eye Clinic\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Guardaval Eye Clinic\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karolinska Hospital's Eye Clinic\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hans Werner Berns",
+        "jobTitle": "Practicing Physician",
+        "birthDate": "1912-01-21",
+        "birthPlace": "Mannheim, Germany",
+        "nationality": "Swedish",
+        "gender": "Male",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Heinrich B. Berns",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Berta Harting"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Barbro Sabelström",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lennart Berns",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Berns",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar Berns",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. in Linköp.",
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree in medicine from Karolinska Institute",
+                "startDate": "1933",
+                "endDate": "1938"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Linköping Hospital"
+        },
+        "hasOccupation": {
+            "@type": "MedicalOccupation",
+            "name": "Ophthalmologist"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Seraf ilas Eye Clinic"
+            },
+            {
+                "@type": "Organization",
+                "name": "Guardaval Eye Clinic",
+                "startDate": "1939",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karolinska Hospital's Eye Clinic",
+                "startDate": "1939",
+                "endDate": "1943"
+            }
+        ]
+    }
+}

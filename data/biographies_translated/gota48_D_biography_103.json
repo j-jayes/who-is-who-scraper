@@ -1,0 +1,51 @@
+{
+    "original": "Dietmann, Albert Wilhelm Mauritz, civilingenjör, Jönköping, f. 18/9/03 i Hoorn, Holl. G. 33 m. Maj Forss. Barn: Curt f. 35, Irma 37, Rolf 40. — Stud:ex. 24, avg:ex. fr. CTH 30. Res. t. Engl., Schweiz, Belg. — Anst. v. A-B Siefvert &amp; Fornander Jönköp:-avd. fr. 31.",
+    "translated": "Dietmann, Albert Wilhelm Mauritz, a civil engineer, was born on September 18th, 1903 in Hoorn, Netherlands. He was married in 1933 to Maj Forss and had three children: Curt (born 1935), Irma (born 1937), and Rolf (born 1940). He graduated from high school in 1924 and from Chalmers University of Technology in 1930. He worked in England, Switzerland, and Belgium. He worked for A-B Siefvert &amp; Fornander Jönköping from 1931.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Albert Wilhelm Mauritz Dietmann\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthDate\": \"1903-09-18\",\n  \"birthPlace\": \"Hoorn, Netherlands\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maj Forss\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Curt Dietmann\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Irma Dietmann\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Dietmann\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Chalmers University of Technology\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Siefvert & Fornander Jönköping\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"sameAs\": \"\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Albert Wilhelm Mauritz Dietmann",
+        "jobTitle": [
+            {
+                "@type": "Organization",
+                "name": "A-B Siefvert & Fornander Jönköping",
+                "startDate": "1931"
+            }
+        ],
+        "birthDate": "1903-09-18",
+        "birthPlace": "Hoorn, Netherlands",
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj Forss",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Curt Dietmann",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Irma Dietmann",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf Dietmann",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Chalmers University of Technology",
+                "location": "Gothenburg, Sweden",
+                "startDate": "1924",
+                "endDate": "1930"
+            }
+        ],
+        "sameAs": ""
+    }
+}

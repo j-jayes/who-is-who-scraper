@@ -1,0 +1,152 @@
+{
+    "original": "Bengtsson, Olof Gunnar, läroverksadjunkt, Göteborg, f. 31/1/91 i Gbg av poisttj :man Karl B. o. Maria Pettersson. — Stud:ex. v. Gbgs latin 11, fil. kand. v. Gbgs högsk. 15, fil. mag. 17. Res. t. Tyskl. 14, 21, 22, 29, 31, 35 o. 37, Engl. 23, Ryssl. 39. Vik. adj. v. västra real i Gbg 16 o. 17, e. o. adj. i Laholm 19-20, i Troillhättan 20-24, e. lär. v. Gbgs real 25-28, adj. i Karlstad 27, dito i modersm. o. tyska v. h. a. 1. i Majorna i Gbg sed. 31.",
+    "translated": "Bengtsson, Olof Gunnar, teacher at a secondary school, Gothenburg, born on January 31st, 1891 in Gothenburg to unmarried couple Karl B. and Maria Pettersson. He passed his final exam at Gothenburg's Latin School 11 and received his Bachelor of Philosophy from Gothenburg University in 1915. He earned his Master of Philosophy in 1917. He traveled to Germany in 1914, 1921, 1922, 1929, 1931, 1935, and 1937, to England in 1923, and to Russia in 1939. He was a substitute teacher at the Western Secondary School in Gothenburg in 1916 and 1917, temporary teacher in Laholm between 1919-1920, in Trollhättan between 1920-1924, permanent teacher at Gothenburg Real School between 1925-1928, and teacher of his native language and German at the Higher Primary School in Majorna, Gothenburg from 1931 onwards. He got married in 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Gunnar Bengtsson\",\n  \"birthDate\": \"1891-01-31\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Pettersson\"\n    }\n  ],\n  \"jobTitle\": \"Teacher\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Secondary School\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondarySchoolDiploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg Latin School\"\n      },\n      \"dateIssued\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelorDegree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardingInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Gothenburg University\"\n      },\n      \"dateIssued\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"masterDegree\",\n      \"educationalLevel\": \"Graduate\",\n      \"awardingInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Gothenburg University\"\n      },\n      \"dateIssued\": \"1917\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"unknown\",\n    \"dateOfMarriage\": \"19xx\"\n  },\n  \"sameAs\": [\n    \"https://en.wikipedia.org/wiki/Olof_Gunnar_Bengtsson\"\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Substitute Teacher\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1917\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Western Secondary School\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Temporary Teacher\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Laholm\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Temporary Teacher\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1924\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Trollhättan\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Permanent Teacher\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Real School\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Teacher\",\n      \"startDate\": \"1931\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Higher Primary School in Majorna, Gothenburg\"\n      },\n      \"teaches\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Native Language and German\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg University\"\n    }\n  ],\n  \"additionalProperty\": [\n    {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Traveled To\",\n      \"value\": [\n        {\"name\": \"Germany\", \"startDate\": \"1914\", \"endDate\": \"1937\"},\n        {\"name\": \"England\", \"startDate\": \"1923\"},\n        {\"name\": \"Russia\", \"startDate\": \"1939\"}\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Gunnar Bengtsson",
+        "birthDate": "1891-01-31",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl B."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Pettersson"
+            }
+        ],
+        "jobTitle": "Teacher",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg Secondary School"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondarySchoolDiploma",
+                "educationalLevel": "SecondaryEducation",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg Latin School"
+                },
+                "dateIssued": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelorDegree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Gothenburg University"
+                },
+                "dateIssued": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "masterDegree",
+                "educationalLevel": "Graduate",
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Gothenburg University"
+                },
+                "dateIssued": "1917"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "unknown",
+            "dateOfMarriage": "19xx"
+        },
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Olof_Gunnar_Bengtsson"
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Substitute Teacher",
+                "startDate": "1916",
+                "endDate": "1917",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Western Secondary School"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary Teacher",
+                "startDate": "1919",
+                "endDate": "1920",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Laholm"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary Teacher",
+                "startDate": "1920",
+                "endDate": "1924",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Trollhättan"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Permanent Teacher",
+                "startDate": "1925",
+                "endDate": "1928",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Real School"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Teacher",
+                "startDate": "1931",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Higher Primary School in Majorna, Gothenburg"
+                },
+                "teaches": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Native Language and German"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg University"
+            }
+        ],
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Traveled To",
+                "value": [
+                    {
+                        "name": "Germany",
+                        "startDate": "1914",
+                        "endDate": "1937"
+                    },
+                    {
+                        "name": "England",
+                        "startDate": "1923"
+                    },
+                    {
+                        "name": "Russia",
+                        "startDate": "1939"
+                    }
+                ]
+            }
+        ]
+    }
+}

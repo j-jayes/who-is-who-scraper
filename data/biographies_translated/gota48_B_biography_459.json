@@ -1,0 +1,130 @@
+{
+    "original": "Bollerup, Erik Gunnar, fil. lic., läroverksadjunkt, Göteborg, f. 3/4/99 i Lund. — Studrex. i Ystad 17, fil. kand. i Lund 24, fil. mag. 25, fil. lic. 29, provår i Lund 31-32. E. befattn :hav. v. landsarkiv, i Lund, andre aman. där 29, vik. lektor i Nyköp. 30, v. Kungsh. h. a. 1. i Sthlm 31, i Gbg 32-33, i Örebro 33-35, e. lär. v. Österm. h. a. 1. i Sthlm 35-37, adj. i modersm. o. hist. m. samh :lära v. Hvitfeldtska h. a. 1. i Gbg sed. 37. Red. f. Lunds univ. katalog 26, 27 o. 30.",
+    "translated": "Bollerup, Erik Gunnar, Master of Arts, high school teacher, Gothenburg, born on March 4th, 1899 in Lund. He was a student at Ystad School in 1917, earned his Bachelor of Arts degree from Lund University in 1924, Master of Arts in 1925, and his Doctor of Philosophy in 1929. He served as a clerk at the Regional Archives in Lund, second assistant there in 1929, substitute teacher in Nyköping in 1930, acting professor at the Royal Academy of War in Stockholm in 1931, and in Gothenburg from 1932-1933, in Örebro from 1933-1935, and as a lecturer at Östermalm School in Stockholm from 1935-1937. He worked as a teacher of Swedish language, literature, and social studies at the Hvitfeldtska high school in Gothenburg since 1937. He was also an editor of Lund University's catalog in 1926, 1927, and 1930. He got married in 19XX.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Gunnar Bollerup\",\n  \"givenName\": \"Erik\",\n  \"familyName\": \"Bollerup\",\n  \"birthDate\": \"1899-03-04\",\n  \"birthPlace\": \"Lund\",\n  \"jobTitle\": \"High School Teacher\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hvitfeldtska High School\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts\",\n      \"educationalLevel\": \"Postgraduate\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"educationalLevel\": \"Undergraduate\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Doctor of Philosophy\",\n      \"educationalLevel\": \"Postgraduate\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"19XX\",\n      \"endDate\": \"\",\n      \"roleName\": \"Editor\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund University\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"\",\n      \"roleName\": \"Clerk\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Regional Archives in Lund\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"\",\n      \"roleName\": \"Second Assistant\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Regional Archives in Lund\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"\",\n      \"roleName\": \"Substitute Teacher\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nyköping\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"\",\n      \"roleName\": \"Acting Professor\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Royal Academy of War in Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\",\n      \"roleName\": \"Professor\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\",\n      \"roleName\": \"Professor\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Örebro\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1937\",\n      \"roleName\": \"Lecturer\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Östermalm School in Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"\",\n      \"roleName\": \"Teacher\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hvitfeldtska High School in Gothenburg\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Erik Gunnar Bollerup",
+        "givenName": "Erik",
+        "familyName": "Bollerup",
+        "birthDate": "1899-03-04",
+        "birthPlace": "Lund",
+        "jobTitle": "High School Teacher",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Hvitfeldtska High School"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts",
+                "educationalLevel": "Postgraduate"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "educationalLevel": "Undergraduate"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Doctor of Philosophy",
+                "educationalLevel": "Postgraduate"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "19XX",
+                "endDate": "",
+                "roleName": "Editor",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Lund University"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": "",
+                "roleName": "Clerk",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Regional Archives in Lund"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": "",
+                "roleName": "Second Assistant",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Regional Archives in Lund"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1930",
+                "endDate": "",
+                "roleName": "Substitute Teacher",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Nyköping"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "endDate": "",
+                "roleName": "Acting Professor",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Royal Academy of War in Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "endDate": "1933",
+                "roleName": "Professor",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1933",
+                "endDate": "1935",
+                "roleName": "Professor",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Örebro"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "endDate": "1937",
+                "roleName": "Lecturer",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Östermalm School in Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1937",
+                "endDate": "",
+                "roleName": "Teacher",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Hvitfeldtska High School in Gothenburg"
+                }
+            }
+        ]
+    }
+}

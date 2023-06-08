@@ -1,0 +1,72 @@
+{
+    "original": "Cronqvist, Gustav Knut, leg. läkare, Västervik, f. 13/1/09 i Landskrona av fanj. Sigfrid C. o. Anna Beata Persson. G. 42 m. Dera Lundgren. Barn: Kerstin Margareta f. 43, Brita Desideria 44. — Stud:ex. i Landskrona 28, med. kand. v. univ. i Lund 33 o. med. lic. där 39. E. o. andre läk. v. S:ta Gertruds sjukh. i Västervik 42-46, andre läk. sed. 47.",
+    "translated": "Cronqvist, Gustav Knut, certified physician, Västervik, born January 13th, 1909 in Landskrona to Sergeant Sigfrid C. and Anna Beata Persson. Married in 1942 to Dera Lundgren. Children: Kerstin Margareta born in 1943, Brita Desideria born in 1944. He completed his high school education in Landskrona in 1928, obtained a Bachelor's degree in medicine at Lund University in 1933, and a medical license in 1939. He worked as a resident physician at S:ta Gertruds Hospital in Västervik from 1942-1946, then as an attending physician starting in 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustav Knut Cronqvist\",\n  \"jobTitle\": \"Certified Physician\",\n  \"birthDate\": \"1909-01-13\",\n  \"birthPlace\": \"Landskrona, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigfrid C.\",\n      \"jobTitle\": \"Sergeant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Beata Persson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dera Lundgren\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Margareta\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Desideria\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"High School\",\n      \"awardDate\": \"1928\",\n      \"awardingInstitution\": \"Landskrona\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor's degree in medicine\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"awardDate\": \"1933\",\n      \"awardingInstitution\": \"Lund University\"\n    },\n    {\n     \"@type\": \"EducationalOccupationalCredential\",\n     \"name\": \"Medical license\",\n     \"educationalLevel\": \"Medical License\",\n     \"awardDate\": \"1939\",\n     \"awardingInstitute\": \"Lund University\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Hospital\",\n    \"name\": \"S:ta Gertruds sjukh.\",\n    \"location\": \"Västervik, Sweden\"\n  },\n  \"jobTitle\": \"Attending Physician\",\n  \"startDate\": \"1947-01-01\",\n  \"endDate\": \"1947-12-31\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gustav Knut Cronqvist",
+        "jobTitle": "Attending Physician",
+        "birthDate": "1909-01-13",
+        "birthPlace": "Landskrona, Sweden",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sigfrid C.",
+                "jobTitle": "Sergeant"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Beata Persson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Dera Lundgren",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Margareta",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Brita Desideria",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High School",
+                "awardDate": "1928",
+                "awardingInstitution": "Landskrona"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree in medicine",
+                "educationalLevel": "Bachelor's Degree",
+                "awardDate": "1933",
+                "awardingInstitution": "Lund University"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical license",
+                "educationalLevel": "Medical License",
+                "awardDate": "1939",
+                "awardingInstitute": "Lund University"
+            }
+        ],
+        "worksFor": {
+            "@type": "Hospital",
+            "name": "S:ta Gertruds sjukh.",
+            "location": "Västervik, Sweden"
+        },
+        "startDate": "1947-01-01",
+        "endDate": "1947-12-31"
+    }
+}

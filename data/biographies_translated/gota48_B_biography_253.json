@@ -1,0 +1,53 @@
+{
+    "original": "Berntsson, Martin Josua, komminister, Svanesund, f. 19/9/03 i Hålanda, Älvsb. 1. — Stud :ex. i Gbg 25, teol. fil. ex. 27, teol. kand. o. prakt. teol. prov 30, prästv. f. Gbgs stift 31. V. kommin. i Sjötofta 31, v. pastor i Na-verstad s. å., i Myckleby 32, ständig adj. i Ödsmål 33, kommin. i Myckleby sed. 37.",
+    "translated": "Berntsson, Martin Josua, minister, Svanesund, born on September 19th, 1903 in Hålanda, Älvsborg. He graduated with a degree in theology from Gothenburg University in 1925, completed a theological bachelor's in 1927, passed practical theology exams in 1930, and was ordained in the Gothenburg diocese in 1931. He worked as an assistant pastor in Sjötofta in 1931, a deputy pastor in Navervad in the same year, in Myckleby in 1932, and as a permanent deputy in Ödsmål in 1933. In 1937 he became a minister in Myckleby, and was married that same year.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Martin Josua Berntsson\",\n   \"jobTitle\": \"Minister\",\n   \"birthDate\": \"1903-09-19\",\n   \"birthPlace\": \"Hålanda, Älvsborg\",\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"Bachelor's Degree in Theology\",\n         \"educationalProgram\": \"Theology\",\n         \"institution\": {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"Gothenburg University\",\n            \"location\": \"Gothenburg\"\n         },\n         \"dateReceived\": \"1927\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"Degree in Theology\",\n         \"educationalProgram\": \"Theology\",\n         \"institution\": {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"Gothenburg University\",\n            \"location\": \"Gothenburg\"\n         },\n         \"dateReceived\": \"1925\"\n      },\n      {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"educationalLevel\": \"Theological Practical Exams\",\n        \"dateReceived\": \"1930\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg diocese\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Mentioned but not specified in the original text\"\n   },\n   \"sameAs\": \"url for the person’s official website or other relevant page\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Martin Josua Berntsson",
+        "jobTitle": "Minister",
+        "birthDate": "1903-09-19",
+        "birthPlace": "Hålanda, Älvsborg",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's Degree in Theology",
+                "educationalProgram": "Theology",
+                "institution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Gothenburg University",
+                    "location": "Gothenburg"
+                },
+                "dateReceived": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Degree in Theology",
+                "educationalProgram": "Theology",
+                "institution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Gothenburg University",
+                    "location": "Gothenburg"
+                },
+                "dateReceived": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Theological Practical Exams",
+                "dateReceived": "1930"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg diocese"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Mentioned but not specified in the original text"
+        },
+        "sameAs": "url for the person’s official website or other relevant page"
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "original": "Björkman, Ållan E:son, leg. läkare, Borås, f. 18/6/11 !i Tyresö, Sthlms L, av här:hövd. Erik B. o. Ebba Norén. G. 37 m. Saga Olby. Barn: x\\nn-Catlirine f. 40, Lars 43, Kerstin 46. — Stud:ex. i Sthlm 29, med. kand. 32 o. med. lic. 38 v. Karol. inst. För-ordn. s. aman. o. bitr. lär. v. Karol. inst. histolog. avd., vik. und :läk. v. olika las. 38-42, underläk. v. Ängelholms las. 43, v. Sahlgrenska sjukh. öronavd. 44-46, v. Borås las. öronavd. sed. 47.",
+    "translated": "Björkman, Ållan E:son, medical doctor, Borås, b. June 18, 1911 in Tyresö, Stockholm County, son of Lieutenant Colonel Erik B. and Ebba Norén. Married in 1937 to Saga Olby and they had three children: x\\nn-Catlirine b. 1940, Lars b. 1943, Kerstin b. 1946. He completed his secondary education in Stockholm in 1929, graduated with a Bachelor of Medicine in 1932 and received his medical license in 1938 from the Karolinska Institute. He was appointed as an assistant physician and assistant professor of histology at the Karolinska Institute. He worked as a substitute physician at various hospitals from 1938-1942, and worked as an intern at Ängelholm Hospital in 1943, at the Sahlgrenska Hospital ear division from 1944-1946, and at the Borås Hospital ear division from 1947 until his retirement.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ållan E:son Björkman\",\n  \"jobTitle\": \"Medical Doctor\",\n  \"birthDate\": \"1911-06-18\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Tyresö, Stockholm County\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik B. Björkman\",\n      \"jobTitle\": \"Lieutenant Colonel\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba Norén\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Saga Olby\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"x\\nn-Catlirine\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Karolinska Institute\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm\"\n    },\n    \"startDate\": \"1929\",\n    \"endDate\": \"1932\"\n  },\n  \"medicalSpecialty\": {\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"Histology\"\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"MedicalAudience\",\n      \"name\": \"Assistant Physician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Assistant Professor of Histology\"\n    },\n    {\n      \"@type\": \"MedicalAudience\",\n      \"name\": \"Substitute Physician\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"MedicalAudience\",\n      \"name\": \"Intern\",\n      \"employer\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"Ängelholm Hospital\"\n      },\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"MedicalAudience\",\n      \"name\": \"Intern\",\n      \"employer\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"Sahlgrenska Hospital\"\n      },\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\",\n      \"specialty\": {\n        \"@type\": \"MedicalSpecialty\",\n        \"name\": \"Ear\"\n      }\n    },\n    {\n      \"@type\": \"MedicalAudience\",\n      \"name\": \"Intern\",\n      \"employer\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"Borås Hospital\",\n        \"department\": {\n          \"@type\": \"MedicalDepartment\",\n          \"name\": \"Ear\"\n        }\n      },\n      \"startDate\": \"1947\",\n      \"endDate\": \"<Retirement date>\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ållan E:son Björkman",
+        "jobTitle": [
+            {
+                "@type": "MedicalAudience",
+                "name": "Assistant Physician"
+            },
+            {
+                "@type": "Person",
+                "name": "Assistant Professor of Histology"
+            },
+            {
+                "@type": "MedicalAudience",
+                "name": "Substitute Physician",
+                "startDate": "1938",
+                "endDate": "1942"
+            },
+            {
+                "@type": "MedicalAudience",
+                "name": "Intern",
+                "employer": {
+                    "@type": "Hospital",
+                    "name": "Ängelholm Hospital"
+                },
+                "startDate": "1943"
+            },
+            {
+                "@type": "MedicalAudience",
+                "name": "Intern",
+                "employer": {
+                    "@type": "Hospital",
+                    "name": "Sahlgrenska Hospital"
+                },
+                "startDate": "1944",
+                "endDate": "1946",
+                "specialty": {
+                    "@type": "MedicalSpecialty",
+                    "name": "Ear"
+                }
+            },
+            {
+                "@type": "MedicalAudience",
+                "name": "Intern",
+                "employer": {
+                    "@type": "Hospital",
+                    "name": "Borås Hospital",
+                    "department": {
+                        "@type": "MedicalDepartment",
+                        "name": "Ear"
+                    }
+                },
+                "startDate": "1947",
+                "endDate": "<Retirement date>"
+            }
+        ],
+        "birthDate": "1911-06-18",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Tyresö, Stockholm County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Erik B. Björkman",
+                "jobTitle": "Lieutenant Colonel"
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba Norén"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Saga Olby",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "x\nn-Catlirine",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1946"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Karolinska Institute",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm"
+            },
+            "startDate": "1929",
+            "endDate": "1932"
+        },
+        "medicalSpecialty": {
+            "@type": "MedicalSpecialty",
+            "name": "Histology"
+        }
+    }
+}

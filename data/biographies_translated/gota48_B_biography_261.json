@@ -1,0 +1,107 @@
+{
+    "original": "Beskow, Arne Wilhelm Tage, e. o. länsnotarie, Halmstad, f. 1/4/17 i Kristianstad av hovr:rådet Gunnar B. o. Cecilia Gussing. G. 43 m. Gunborg Ödlund. Barn: Gunnar f. 45, Kerstin 46. — Stud:ex. i Malmö 35, jur. kand. i Lund 40. Tingstjg. i Halmstad 40-43, tf. e. O’, läns no t. v. länss-tyr. i Hall. 1. sed. 43, alllm. omb. i Rännestövs Sparbank sed. 46, i Våxtorpis o. Gunnarps spar b. ’Sed. 47.",
+    "translated": "Beskow, Arne Wilhelm Tage, acting county notary, from Halmstad, born on April 1st, 1917 in Kristianstad to court council Gunnar B. and Cecilia Gussing. Married in 1943 to Gunborg Ödlund with whom he had two children: Gunnar, born in 1945, and Kerstin, born in 1946. He passed his matriculation exam in Malmö in 1935 and received a law degree from Lund in 1940. He worked as a judicial clerk in Halmstad from 1940 to 1943, then as an acting county notary for the County Government in Halland from 1943, and as a general agent for Rännestövs Savings Bank from 1946, and then for the Våxtorp and Gunnarps Savings Banks from 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Arne Wilhelm Tage\",\n  \"familyName\": \"Beskow\",\n  \"additionalName\": \"e. o. länsnotarie\",\n  \"birthDate\": \"1917-04-01\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Kristianstad\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Cecilia Gussing\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunborg Ödlund\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Gunnar\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Kerstin\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Studex\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalProgramType\": \"SecondaryEducation\",\n      \"name\": \"Stud:ex.\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö\"\n      },\n      \"dateIssued\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"JurisDoctor\",\n      \"educationalLevel\": \"BachelorsDegree\",\n      \"educationalProgramMode\": \"FullTime\",\n      \"name\": \"jur. kand.\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"dateIssued\": \"1940\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Halmstad\",\n      \"subOrganization\": {\n        \"@type\": \"JudicialOrganization\",\n        \"name\" : \"County Government of Halland\",\n        \"jobTitle\": \"Judicial Clerk\",\n        \"startDate\": \"1940\",\n        \"endDate\": \"1943\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Halland\",\n      \"jobTitle\": \"Acting County Notary\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rännestövs Savings Bank\",\n      \"jobTitle\": \"General Agent\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Våxtorp\",\n      \"jobTitle\": \"General Agent\",\n      \"startDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gunnarps Savings Bank\",\n      \"jobTitle\": \"General Agent\",\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Arne Wilhelm Tage",
+        "familyName": "Beskow",
+        "additionalName": "e. o. länsnotarie",
+        "birthDate": "1917-04-01",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Kristianstad"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gunnar B."
+            },
+            {
+                "@type": "Person",
+                "name": "Cecilia Gussing"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunborg Ödlund",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Gunnar",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Kerstin",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Studex",
+                "educationalLevel": "HighSchool",
+                "educationalProgramType": "SecondaryEducation",
+                "name": "Stud:ex.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Malmö"
+                },
+                "dateIssued": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "JurisDoctor",
+                "educationalLevel": "BachelorsDegree",
+                "educationalProgramMode": "FullTime",
+                "name": "jur. kand.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                },
+                "dateIssued": "1940"
+            }
+        ],
+        "work": [
+            {
+                "@type": "GovernmentOffice",
+                "name": "Halmstad",
+                "subOrganization": {
+                    "@type": "JudicialOrganization",
+                    "name": "County Government of Halland",
+                    "jobTitle": "Judicial Clerk",
+                    "startDate": "1940",
+                    "endDate": "1943"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Halland",
+                "jobTitle": "Acting County Notary",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rännestövs Savings Bank",
+                "jobTitle": "General Agent",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Våxtorp",
+                "jobTitle": "General Agent",
+                "startDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gunnarps Savings Bank",
+                "jobTitle": "General Agent",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

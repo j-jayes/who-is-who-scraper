@@ -1,0 +1,74 @@
+{
+    "original": "Dannberg, Alvar Emil, byggnadschef, Skövde, f. 2/4/12 i Sandviken, Gävleb. 1., av Emil D. o. Lovisia Eriksson. G. 39 m. Ingrid Svensson. Barn: Gunilla f. 41, Katarina 45. — Stud:ex. 32, civ:ing:ex. v. CTH 37. Anst. v. Gbgs stads gatukont, 37-38, h. Skövde stads drätselkamm. fr. 39, byggnichef i Skövde.",
+    "translated": "Dannberg, Alvar Emil, construction manager, Skövde, born 2/4/12 in Sandviken, Gävleborg County, the first child of Emil D. and Lovisia Eriksson. Married in 1939 to Ingrid Svensson and had two children: Gunilla, born in 1941, and Katarina, born in 1945. He graduated from high school in 1932, and earned a degree in civil engineering from Chalmers University of Technology in 1937. He worked for Gothenburg's city street department from 1937 to 1938, and then moved to Skövde where he worked for the city treasury from 1939 until becoming the chief of construction in Skövde.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Alvar Emil Dannberg\",\n  \"jobTitle\": \"Construction Manager\",\n  \"birthDate\": \"1912-02-04\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Sandviken\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gävleborg County\",\n      \"postalCode\": \"xxxxx\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emil D. Dannberg\",\n    \"sameAs\": \"\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lovisia Eriksson\",\n    \"sameAs\": \"\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Svensson\",\n    \"dateMarried\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Katarina\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Chalmers University of Technology\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gothenburg\",\n        \"address\": {\n        \t\"@type\": \"PostalAddress\",\n        \t\"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\"\n    }\n  ],\n  \"jobTitle\": \"Construction Manager\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Skövde City Treasury\",\n    \"location\": {\n      \"@type\": \"City\",\n      \"name\": \"Skövde\"\n    },\n    \"startDate\": \"1939\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alvar Emil Dannberg",
+        "jobTitle": "Construction Manager",
+        "birthDate": "1912-02-04",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Sandviken",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gävleborg County",
+                "postalCode": "xxxxx",
+                "addressCountry": "Sweden"
+            }
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Emil D. Dannberg",
+            "sameAs": ""
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Lovisia Eriksson",
+            "sameAs": ""
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Svensson",
+            "dateMarried": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Katarina",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Chalmers University of Technology",
+                "location": {
+                    "@type": "City",
+                    "name": "Gothenburg",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1937",
+                "endDate": "1937"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Skövde City Treasury",
+            "location": {
+                "@type": "City",
+                "name": "Skövde"
+            },
+            "startDate": "1939"
+        }
+    }
+}

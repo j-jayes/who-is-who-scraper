@@ -1,0 +1,55 @@
+{
+    "original": "Davidsson, Karil Albert, landsfiskal, Hova, f. 12/9/89 i Torpa, Östergötl. 1. G. 23 m. Karin Amalia Selander. Barn: Anna-Greta f. 24, Birgitta 28. —- Realex., kronolänsm :ex. Tjg. som tf. länsm., landsfiskal o. stadsfiskal. Landsfiskal i Hova distr. fr. 23. Led. fr. 32, nu ordf. i Hova -skolistyr., led. o. ordf. i div. lotk. ndr o. s^tyr.",
+    "translated": "Davidsson, Karil Albert, district prosecutor, from Hova, born on September 12th, 1889 in Torpa, Östergötland. First marriage in 1923 with Karin Amalia Selander. Children: Anna-Greta born in 1924, Birgitta born in 1928. He completed his secondary education and passed the county governor's exam. He served as acting county governor, district prosecutor, and city prosecutor. He has been the district prosecutor for Hova since 1923. He has been a member since 1932, now the chairman of the school committee in Hova. He's also a member and chairman of various other local committees.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Karil Albert Davidsson\",\n  \"jobTitle\": \"District Prosecutor\",\n  \"birthDate\": \"1889-09-12\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Torpa, Östergötland\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Amalia Selander\",\n    \"marriageDate\": \"1923\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Greta\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Secondary education\"\n  },\n  \"jobTitle\": \"District Prosecutor\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hova School Committee\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"present\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Local committees\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Hova\"\n  },\n  \"jobStartDate\": \"1923\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Karil Albert Davidsson",
+        "jobTitle": "District Prosecutor",
+        "birthDate": "1889-09-12",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Torpa, Östergötland"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Amalia Selander",
+            "marriageDate": "1923"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anna-Greta",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1928"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Secondary education"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Hova School Committee",
+                "startDate": "1932",
+                "endDate": "present",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Local committees"
+            }
+        ],
+        "workLocation": {
+            "@type": "Place",
+            "name": "Hova"
+        },
+        "jobStartDate": "1923"
+    }
+}

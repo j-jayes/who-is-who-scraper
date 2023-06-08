@@ -1,0 +1,108 @@
+{
+    "original": "Dahlenius, John, rektor, Onsala, f, 13/10/96 i Herrljunga, Älvsb. 1. G. 37 m, Ebba Maria Enderlein. — Stud :ex, i Uddevalla, fil, kand, 23 v. Gbgs hög-’sk,, fil, mag, där 26, provår v. Gbgs h, real 36. Stud:res. t, Engl. o. Tyskl, Vik, lär. v. Tidaholms komm. mellan-sk. o. Trollhättans komm, mellansk, 21, vik, ämneslär. v. Onsala h. folk-sk. 27, ord, 31, rektor sed. 27. Led. av kyrkoråd sed. 31, bibl:styr. sed. 34, komm:fullm. ’sed. 38. Hemv :kretsbef, 43-46. Hemv. ftj :plak. i silver.",
+    "translated": "Dahlenius, John, principal, Onsala, born on the 13th of October 1896 in Herrljunga, Älvsborgs län. 1st marriage in 1937 to Ebba Maria Enderlein. He took his student exam in Uddevalla and received a Bachelor of Arts degree at the age of 23. He later earned a Master's degree in philosophy at the University of Gothenburg in 1926 and spent a trial year at Gothenburg's high school in 1936. He travelled to England and Germany to study abroad and worked as a substitute teacher at Tidaholms and Trollhättan's middle schools. He worked as a substitute subject teacher at Onsala's elementary school in 1927, became a regular teacher in 1931, and was appointed principal that same year. He has been a member of the church council since 1931 and a member of the library committee since 1934. He was a member of the municipal council from 1938. In 1943-1946, he was the chairman of the local home association. He received a silver plaque as a gift from the local community.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"John Dahlenius\",\n   \"jobTitle\":\"Principal\",\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Onsala\"\n   },\n   \"birthDate\":\"1896-10-13\",\n   \"birthPlace\":{\n      \"@type\":\"Place\",\n      \"name\":\"Herrljunga, Älvsborgs län\"\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Ebba Maria Enderlein\",\n      \"marriageDate\":\"1937\"\n   },\n   \"education\":[\n      {\n         \"@type\":\"EducationEvent\",\n         \"institution\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Uddevalla\"\n         },\n         \"endDate\":\"\",\n         \"degree\":\"Student Exam\"\n      },\n      {\n         \"@type\":\"EducationEvent\",\n         \"institution\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"University of Gothenburg\"\n         },\n         \"startDate\":\"1926\",\n         \"endDate\":\"\",\n         \"degree\":\"Master's Degree in Philosophy\"\n      }\n   ],\n   \"workHistory\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Tidaholms and Trollhättan's Middle Schools\",\n         \"jobTitle\":\"Substitute Teacher\",\n         \"startDate\":\"\",\n         \"endDate\":\"\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Onsala Elementary School\",\n         \"jobTitle\":\"Substitute Subject Teacher\",\n         \"startDate\":\"1927\",\n         \"endDate\":\"\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Onsala Elementary School\",\n         \"jobTitle\":\"Teacher\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Onsala Elementary School\",\n         \"jobTitle\":\"Principal\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"\"\n      }\n   ],\n   \"memberOf\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Church Council\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Library Committee\",\n         \"startDate\":\"1934\",\n         \"endDate\":\"\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Municipal Council\",\n         \"startDate\":\"1938\",\n         \"endDate\":\"\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Local Home Association\",\n         \"jobTitle\":\"Chairman\",\n         \"startDate\":\"1943\",\n         \"endDate\":\"1946\"\n      }\n   ],\n   \"award\":{\n      \"@type\":\"Achievement\",\n      \"name\":\"Silver Plaque\",\n      \"description\":\"Gift from local community\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Dahlenius",
+        "jobTitle": "Principal",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Onsala"
+        },
+        "birthDate": "1896-10-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Herrljunga, Älvsborgs län"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ebba Maria Enderlein",
+            "marriageDate": "1937"
+        },
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uddevalla"
+                },
+                "endDate": "",
+                "degree": "Student Exam"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "University of Gothenburg"
+                },
+                "startDate": "1926",
+                "endDate": "",
+                "degree": "Master's Degree in Philosophy"
+            }
+        ],
+        "workHistory": [
+            {
+                "@type": "Organization",
+                "name": "Tidaholms and Trollhättan's Middle Schools",
+                "jobTitle": "Substitute Teacher",
+                "startDate": "",
+                "endDate": ""
+            },
+            {
+                "@type": "Organization",
+                "name": "Onsala Elementary School",
+                "jobTitle": "Substitute Subject Teacher",
+                "startDate": "1927",
+                "endDate": ""
+            },
+            {
+                "@type": "Organization",
+                "name": "Onsala Elementary School",
+                "jobTitle": "Teacher",
+                "startDate": "1931",
+                "endDate": ""
+            },
+            {
+                "@type": "Organization",
+                "name": "Onsala Elementary School",
+                "jobTitle": "Principal",
+                "startDate": "1931",
+                "endDate": ""
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church Council",
+                "startDate": "1931",
+                "endDate": ""
+            },
+            {
+                "@type": "Organization",
+                "name": "Library Committee",
+                "startDate": "1934",
+                "endDate": ""
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Council",
+                "startDate": "1938",
+                "endDate": ""
+            },
+            {
+                "@type": "Organization",
+                "name": "Local Home Association",
+                "jobTitle": "Chairman",
+                "startDate": "1943",
+                "endDate": "1946"
+            }
+        ],
+        "award": {
+            "@type": "Achievement",
+            "name": "Silver Plaque",
+            "description": "Gift from local community"
+        }
+    }
+}

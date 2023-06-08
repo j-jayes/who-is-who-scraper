@@ -1,0 +1,107 @@
+{
+    "original": "Berg, Olof Gunnar, civilingenjör, Huskvarna, f. 21/8/11 i Nacka, Sthlms 1., av byråchef Albert B. o. EHsabeth Stange. G. m. Maj Hallgren. Barn: Göran f. 39, Erik 42, Marie 45. — Stud:ex. i Saltsjöbaden 29, avg:ex. fr. KTH (S) 33. Anst. v. Holmens Bruks o. Fabr. A-B i Norrköp. 34-35, ing. v. Husqvarna Vapenfabr. A-B i Huskvarna sed. 36. Led. av Sv. tekn:-fören. sed. 34.",
+    "translated": "Berg, Olof Gunnar, civil engineer, Huskvarna, born August 21, 1911 in Nacka, Stockholm County, eldest son of senior clerk Albert B. and EHsabeth Stange. Married to Maj Hallgren since an unspecified date. Children: Göran born in 1939, Erik in 1942, Marie in 1945. Berg completed his high school education in Saltsjöbaden in 1929 and graduated from the Royal Institute of Technology in Stockholm in 1933. He was employed by Holmens Bruks and Fabr. A-B in Norrköping from 1934-1935 and as an engineer by Husqvarna Vapenfabr. A-B in Huskvarna since 1936. Berg has been a member of Swedish Technical Association since 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Gunnar Berg\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthDate\": \"1911-08-21\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Nacka, Stockholm County\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert B. Berg\",\n      \"jobTitle\": \"Senior Clerk\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"EHsabeth Stange\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maj Hallgren\",\n    \"gender\": \"Female\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Berg\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Berg\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marie Berg\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"exam\",\n      \"educationalLevel\": \"HighSchool\",\n      \"name\": \"Stud:ex.\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Saltsjöbaden\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1929\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"exam\",\n      \"educationalLevel\": \"University\",\n      \"name\": \"Avg:ex.\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Royal Institute of Technology in Stockholm\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1933\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Technical Association\",\n    \"startDate\": \"1934\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Holmens Bruks och Fabr. A-B\",\n      \"startDate\": \"1934-01-01\",\n      \"endDate\": \"1935-12-31\",\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Husqvarna Vapenfabr. A-B\",\n      \"startDate\": \"1936-01-01\",\n      \"jobTitle\": \"Engineer\"\n    }\n  ],\n  \"gender\": \"Male\",\n  \"sameAs\": null\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Gunnar Berg",
+        "jobTitle": "Civil Engineer",
+        "birthDate": "1911-08-21",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Nacka, Stockholm County"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Albert B. Berg",
+                "jobTitle": "Senior Clerk",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "EHsabeth Stange",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj Hallgren",
+            "gender": "Female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Berg",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Erik Berg",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Marie Berg",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "exam",
+                "educationalLevel": "HighSchool",
+                "name": "Stud:ex.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Saltsjöbaden"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1929"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "exam",
+                "educationalLevel": "University",
+                "name": "Avg:ex.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Royal Institute of Technology in Stockholm"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1933"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Technical Association",
+            "startDate": "1934"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Holmens Bruks och Fabr. A-B",
+                "startDate": "1934-01-01",
+                "endDate": "1935-12-31",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Husqvarna Vapenfabr. A-B",
+                "startDate": "1936-01-01",
+                "jobTitle": "Engineer"
+            }
+        ],
+        "gender": "Male",
+        "sameAs": null
+    }
+}

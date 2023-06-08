@@ -1,0 +1,120 @@
+{
+    "original": "Berger, Elin Dagny Viola, tandläkare, Karlskrona, f. 27/10/08 i Lysekil av ing. Daniel Strandberg o. Elin Berglund. G. 32 m. tandl. Olof Berger. Barn: Gunilla f. 34, Cecilia 40. — Stud:ex. i Ystad 28, tandl :kand. 29, tandl. 31. Vik. i Gävle 31-32, prakt, i Karlskrona sed. 32, biprakt. i Fågelmara 35-43. Medl. av Visans vänner i Karlskrona.",
+    "translated": "Berger, Elin Dagny Viola was a dentist from Karlskrona, born on October 27th, 1908 in Lysekil to engineer Daniel Strandberg and Elin Berglund. She married dentist Olof Berger in 1932 and they had two children: Gunilla born in 1934 and Cecilia born in 1940. Elin completed her high school studies in Ystad in 1928, graduated in dentistry in 1929 and obtained her dental license in 1931. She worked as a substitute dentist in Gävle from 1931 to 1932, and then began her own practice in Karlskrona where she worked from 1932 to 1943. She also worked as a part-time dentist in Fågelmara from 1935 to 1943. Elin was a member of \"Visans vänner\" (Friends of Song) in Karlskrona.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Elin Dagny Viola Berger\",\n  \"givenName\": \"Elin Dagny Viola\",\n  \"familyName\": \"Berger\",\n  \"gender\": \"Female\",\n  \"birthDate\": \"1908-10-27\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Lysekil\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Daniel Strandberg\",\n      \"jobTitle\": \"Engineer\",\n      \"memberOf\": \"Ing-Teknologerna\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Berglund\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Olof Berger\",\n    \"jobTitle\": \"Dentist\",\n    \"gender\": \"Male\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Berger\",\n      \"birthDate\": \"1934\",\n      \"gender\": \"Female\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Cecilia Berger\",\n      \"birthDate\": \"1940\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Ystad High School\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Ystad\"\n      },\n      \"foundingDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental School\",\n      \"foundingDate\": \"1929\",\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Visans vänner\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Karlskrona\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gävle Dental Clinic\",\n      \"jobTitle\": \"Substitute Dentist\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gävle\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlskrona Dental Clinic\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1943\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Karlskrona\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fågelmara Dental Clinic\",\n      \"jobTitle\": \"Part-time Dentist\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1943\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Fågelmara\"\n      }\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Karlskrona\",\n    \"addressCountry\": \"Sweden\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Elin Dagny Viola Berger",
+        "givenName": "Elin Dagny Viola",
+        "familyName": "Berger",
+        "gender": "Female",
+        "birthDate": "1908-10-27",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Lysekil"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Daniel Strandberg",
+                "jobTitle": "Engineer",
+                "memberOf": "Ing-Teknologerna",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Berglund",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Olof Berger",
+            "jobTitle": "Dentist",
+            "gender": "Male"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla Berger",
+                "birthDate": "1934",
+                "gender": "Female"
+            },
+            {
+                "@type": "Person",
+                "name": "Cecilia Berger",
+                "birthDate": "1940",
+                "gender": "Female"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Ystad High School",
+                "location": {
+                    "@type": "City",
+                    "name": "Ystad"
+                },
+                "foundingDate": "1928"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental School",
+                "foundingDate": "1929",
+                "endDate": "1931"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Visans vänner",
+                "location": {
+                    "@type": "City",
+                    "name": "Karlskrona"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Gävle Dental Clinic",
+                "jobTitle": "Substitute Dentist",
+                "startDate": "1931",
+                "endDate": "1932",
+                "location": {
+                    "@type": "City",
+                    "name": "Gävle"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlskrona Dental Clinic",
+                "jobTitle": "Dentist",
+                "startDate": "1932",
+                "endDate": "1943",
+                "location": {
+                    "@type": "City",
+                    "name": "Karlskrona"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Fågelmara Dental Clinic",
+                "jobTitle": "Part-time Dentist",
+                "startDate": "1935",
+                "endDate": "1943",
+                "location": {
+                    "@type": "City",
+                    "name": "Fågelmara"
+                }
+            }
+        ],
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlskrona",
+            "addressCountry": "Sweden"
+        }
+    }
+}

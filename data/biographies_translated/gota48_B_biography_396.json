@@ -1,0 +1,83 @@
+{
+    "original": "Blomberg, Sven Victor, kapten, kontorschef, Överum, f. 17/9/89 i Sthlm av grossh. A. Wilhelm B. o. EHsabeth v. Berger. G. 15 m. Ingrid Wahlman. Barn: Anders f. 16, Lis-beth 18, Lars 22, Birgitta 28. — Stud:-ex. i Sthlm 07, off :ex. 09, ekon. ex. v. hand:högsk. 15. Undrlöjtn. v. Bo-husl. reg. 09, löjtn. 15, i res. 18, kapt. 25. Kontorschef v. A-B Överums bruk fr. 18.",
+    "translated": "Blomberg, Sven Victor, Captain, Office Manager, Överum, b. 17/9/89 in Stockholm to wholesale merchant A. Wilhelm B. and EHsabeth v. Berger. Married to Ingrid Wahlman in 15. Children: Anders b. 16, Lis-beth b. 18, Lars b. 22, Birgitta b. 28. Completed his student exam in Stockholm in 07, military exam in 09, and economics exam at the university of commerce in 15. Second Lieutenant in the Bohuslän reg. in 09, Lieutenant in 15, in reserve in 18, Captain in 25. Office manager at A-B Överums bruk from 18..",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Sven Victor Blomberg\",\n    \"jobTitle\": \"Captain, Office Manager\",\n    \"birthDate\": \"1889-09-17\",\n    \"birthPlace\": \"Stockholm, Sweden\",\n    \"parent\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"A. Wilhelm Blomberg\",\n            \"jobTitle\": \"Wholesale Merchant\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"EHsabeth v. Berger\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Ingrid Wahlman\",\n        \"marriageDate\": \"1915\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Anders Blomberg\",\n            \"birthDate\": \"1916\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Lis-beth Blomberg\",\n            \"birthDate\": \"1918\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Lars Blomberg\",\n            \"birthDate\": \"1922\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Birgitta Blomberg\",\n            \"birthDate\": \"1928\"\n        }\n    ],\n    \"alumniOf\": [\n        {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Stockholm Student Exam\",\n            \"endDate\": \"1907\"\n        },\n        {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"University of Commerce\",\n            \"courseMode\": \"Full-time\",\n            \"degreeName\": \"Economics exam\",\n            \"endDate\": \"1915\"\n        }\n    ],\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Bohuslän Regiment\",\n            \"startDate\": \"1909\",\n            \"endDate\": \"1915\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"A-B Överums bruk\",\n            \"jobTitle\": \"Office Manager\",\n            \"startDate\": \"1918\"\n        }\n    ],\n    \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Överums bruk\"\n    }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Victor Blomberg",
+        "jobTitle": "Captain, Office Manager",
+        "birthDate": "1889-09-17",
+        "birthPlace": "Stockholm, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "A. Wilhelm Blomberg",
+                "jobTitle": "Wholesale Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "EHsabeth v. Berger"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Wahlman",
+            "marriageDate": "1915"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anders Blomberg",
+                "birthDate": "1916"
+            },
+            {
+                "@type": "Person",
+                "name": "Lis-beth Blomberg",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Blomberg",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Blomberg",
+                "birthDate": "1928"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm Student Exam",
+                "endDate": "1907"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Commerce",
+                "courseMode": "Full-time",
+                "degreeName": "Economics exam",
+                "endDate": "1915"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Bohuslän Regiment",
+                "startDate": "1909",
+                "endDate": "1915"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Överums bruk",
+                "jobTitle": "Office Manager",
+                "startDate": "1918"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B Överums bruk"
+        }
+    }
+}

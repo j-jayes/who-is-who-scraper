@@ -1,0 +1,86 @@
+{
+    "original": "Bermann, Georg Emanuel, tandläkare, Tidaholm, f. 2/2/96 i Gtg. G. 25 m, Anna Alice Söderberg. | Barn: Gösta f. 26, Britt-Marie 28, Leif Ric-kard 38. — Stud:ex. v. Gbgs h. rea! VI, järnv:elev v. Bergslagsbanan 11-13, med. stud. v. Karol. inst. 15, tand-l:kand. 16, tandläk. 18. Assist, i Vara 18, praktik i Meilerud 18-19, i Trollhättan 19-25 o. i Tidaholm sed. 26.",
+    "translated": "Bermann, Georg Emanuel, dentist, Tidaholm, born on February 2, 1896 in Gothenburg. Son of Gustav and Anna Alice Söderberg. | Children: Gösta born in 1926, Britt-Marie born in 1928, and Leif Ric-kard born in 1938. — High school degree from Gothenburg's Latin school, trainee at Bergslagsbanan from 1911 to 1913, medical studies at Karolinska Institute in 1915, dentistry studies in 1916, and graduated in dentistry in 1918. Started as an assistant dentist in Vara in 1918, practiced in Meilerud from 1918 to 1919, in Trollhattan from 1919 to 1925, and in Tidaholm since 1926.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Georg Emanuel Bermann\",\n    \"birthDate\": \"1896-02-02\",\n    \"birthPlace\": \"Gothenburg\",\n    \"nationality\": \"Swedish\",\n    \"parent\": [\n        {\"parentType\": \"father\", \"name\": \"Gustav Bermann\"},\n        {\"parentType\": \"mother\", \"name\": \"Anna Alice Söderberg\"}\n    ],\n    \"child\": [\n        {\"name\": \"Gösta Bermann\", \"birthDate\": \"1926\"},\n        {\"name\": \"Britt-Marie Bermann\", \"birthDate\": \"1928\"},\n        {\"name\": \"Leif Ric-kard Bermann\", \"birthDate\": \"1938\"}\n    ],\n    \"education\": [\n        {\"institution\": \"Gothenburg's Latin School\", \"studyType\": \"High school\", \"completedDate\": \"N/A\"},\n        {\"institution\": \"Bergslagsbanan\", \"studyType\": \"Trainee\", \"startDate\": \"1911-01-01\", \"endDate\": \"1913-12-31\"},\n        {\"institution\": \"Karolinska Institute\", \"studyType\": \"Medical Studies\", \"completedDate\": \"1915\"},\n        {\"institution\": \"Karolinska Institute\", \"studyType\": \"Dentistry Studies\", \"completedDate\": \"1918\"}\n    ],\n    \"workExperience\": [\n        {\"position\": \"Assistant Dentist\", \"employer\": \"Vara\", \"startDate\": \"1918-01-01\", \"endDate\": \"N/A\"},\n        {\"position\": \"Dentist\", \"employer\": \"Meilerud\", \"startDate\": \"1918-01-01\", \"endDate\": \"1919-12-31\"},\n        {\"position\": \"Dentist\", \"employer\": \"Trollhattan\", \"startDate\": \"1919-01-01\", \"endDate\": \"1925-12-31\"},\n        {\"position\": \"Dentist\", \"employer\": \"Tidaholm\", \"startDate\": \"1926-01-01\", \"endDate\": \"N/A\"}  \n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Georg Emanuel Bermann",
+        "birthDate": "1896-02-02",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "parentType": "father",
+                "name": "Gustav Bermann"
+            },
+            {
+                "parentType": "mother",
+                "name": "Anna Alice Söderberg"
+            }
+        ],
+        "child": [
+            {
+                "name": "Gösta Bermann",
+                "birthDate": "1926"
+            },
+            {
+                "name": "Britt-Marie Bermann",
+                "birthDate": "1928"
+            },
+            {
+                "name": "Leif Ric-kard Bermann",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "institution": "Gothenburg's Latin School",
+                "studyType": "High school",
+                "completedDate": "N/A"
+            },
+            {
+                "institution": "Bergslagsbanan",
+                "studyType": "Trainee",
+                "startDate": "1911-01-01",
+                "endDate": "1913-12-31"
+            },
+            {
+                "institution": "Karolinska Institute",
+                "studyType": "Medical Studies",
+                "completedDate": "1915"
+            },
+            {
+                "institution": "Karolinska Institute",
+                "studyType": "Dentistry Studies",
+                "completedDate": "1918"
+            }
+        ],
+        "workExperience": [
+            {
+                "position": "Assistant Dentist",
+                "employer": "Vara",
+                "startDate": "1918-01-01",
+                "endDate": "N/A"
+            },
+            {
+                "position": "Dentist",
+                "employer": "Meilerud",
+                "startDate": "1918-01-01",
+                "endDate": "1919-12-31"
+            },
+            {
+                "position": "Dentist",
+                "employer": "Trollhattan",
+                "startDate": "1919-01-01",
+                "endDate": "1925-12-31"
+            },
+            {
+                "position": "Dentist",
+                "employer": "Tidaholm",
+                "startDate": "1926-01-01",
+                "endDate": "N/A"
+            }
+        ]
+    }
+}

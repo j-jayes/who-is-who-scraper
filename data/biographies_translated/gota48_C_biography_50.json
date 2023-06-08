@@ -1,0 +1,105 @@
+{
+    "original": "Carr, Nils Tage Engelbrekt, praktiserande läkare, Ulricehamn, f. 10/5/98 i Falun av prov:läk. C. A. Carlsson o. Anna Lindberg. G. 25 m. Anna liljeström. Barn: Anna-Margareta f. 26, Kerstin 29. — Studiex. i Falun 16, med. kand. i Sthlm 19 o. med. lic. där 25. Div. förordn. s. assist, o. und:-läk., prov:-, fäng:- o. järnv:läk. 25 c. 26, bruks- o. järnv:läk. i Limmared 27-37, prakt. läk. i Ulricehamn sed. 37.",
+    "translated": "Carr, Nils Tage Engelbrekt, practicing physician, Ulricehamn, b. May 10, 1898 in Falun, son of chief medical officer C. A. Carlsson and Anna Lindberg. Married on May 25th to Anna Liljeström. Children: Anna-Margareta b. 1926, Kerstin b. 1929. Completed high school in Falun in 1916, medical degree from Stockholm in 1919 and licensed to practice medicine there in 1925. Served various positions as assistant and junior physician, including prisons, railways, and mining, from 1925 to 1926. Worked as a physician for mining and iron works in Limmared from 1927 to 1937, and has worked as a general practitioner in Ulricehamn since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Tage Engelbrekt Carr\",\n  \"jobTitle\": \"Practicing Physician\",\n  \"birthDate\": \"1898-05-10\",\n  \"birthPlace\": \"Falun, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"C.A. Carlsson\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Lindberg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Liljeström\",\n    \"marriageDate\": \"1925-05-25\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Margareta Carr\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Carr\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationLevel\": \"HighSchool\",\n      \"educationalProgramType\": \"HighSchool\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Falun High School\"\n      },\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medical degree\",\n      \"educationLevel\": \"Bachelor's Degree\",\n      \"educationalProgramType\": \"Medicine\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm University\"\n      },\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medical license\",\n      \"educationLevel\": \"Professional License\",\n      \"educationalProgramType\": \"Medicine\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm University\"\n      },\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Medical Association\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mining and Iron Works, Limmared\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1937\",\n      \"jobTitle\": \"Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Private Practice\",\n      \"startDate\": \"1937\",\n      \"jobTitle\": \"General Practitioner\"\n    }\n  ],\n  \"performerIn\": [\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Diagnosis and Treatment of Iron Deficiency Anemia\",\n      \"creator\": {\n        \"@type\": \"Person\",\n        \"name\": \"Nils Tage Engelbrekt Carr\"\n      },\n      \"datePublished\": \"1933-01-15\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Swedish Medical Association\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Tage Engelbrekt Carr",
+        "jobTitle": "Practicing Physician",
+        "birthDate": "1898-05-10",
+        "birthPlace": "Falun, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "C.A. Carlsson"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Anna Lindberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Liljeström",
+            "marriageDate": "1925-05-25"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anna-Margareta Carr",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Carr",
+                "birthDate": "1929"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationLevel": "HighSchool",
+                "educationalProgramType": "HighSchool",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Falun High School"
+                },
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medical degree",
+                "educationLevel": "Bachelor's Degree",
+                "educationalProgramType": "Medicine",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm University"
+                },
+                "endDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medical license",
+                "educationLevel": "Professional License",
+                "educationalProgramType": "Medicine",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm University"
+                },
+                "endDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Swedish Medical Association"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mining and Iron Works, Limmared",
+                "startDate": "1927",
+                "endDate": "1937",
+                "jobTitle": "Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Private Practice",
+                "startDate": "1937",
+                "jobTitle": "General Practitioner"
+            }
+        ],
+        "performerIn": [
+            {
+                "@type": "CreativeWork",
+                "name": "Diagnosis and Treatment of Iron Deficiency Anemia",
+                "creator": {
+                    "@type": "Person",
+                    "name": "Nils Tage Engelbrekt Carr"
+                },
+                "datePublished": "1933-01-15"
+            }
+        ]
+    }
+}

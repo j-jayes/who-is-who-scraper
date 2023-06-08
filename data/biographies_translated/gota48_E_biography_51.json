@@ -1,0 +1,105 @@
+{
+    "original": "Egerström, Sven Arvid Vilihelm, med. lic. Mjölllby, f. 11/3/12 i Öster-lövsta, Upps. 1., av prov:läk. Birger E. o. Hilma Möller. G. 42 m. Maj-Britt Jonson. Barn: Eva-Britt f. 44, Ulla 46. — Stud:ex. v. södra latin i Sthlm 31, med. kand. v. Karol. inst. i Sthlm 35, med. Jlic. där 40. Undrläk. v. Vadstena (las. 44-47, sjukstuguiäk. i Tranås 47 o. 47-48. Priv. prakt. ’läk. i Mjölby.",
+    "translated": "Egerström, Sven Arvid Vilhelm, M.D., was born on March 11, 1912 in Öster-lövsta, Uppsala county, to district physician Birger E. and Hilma Möller. He married Maj-Britt Jonson in 1942, and they had two children: Eva-Britt (born in 1944) and Ulla (born in 1946). Egerström passed his final exams at Södra Latin in Stockholm in 1931, obtained a Bachelor of Medicine degree from the Karolinska Institute in Stockholm in 1935, and received his Medical Doctorate from the same institute in 1940. He worked as an assistant physician in Vadstena (1944-1947) and as a hospital physician in Tranås (1947-1948) before establishing a private practice as a physician in Mjölby.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Arvid Vilhelm Egerström\",\n  \"birthDate\": \"1912-03-11\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Öster-lövsta, Uppsala county\"\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birger Egerström\",\n    \"jobTitle\": \"District physician\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hilma Möller\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maj-Britt Jonson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva-Britt Egerström\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Egerström\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"educationalLevel\": \"HighSchool\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Arvid Vilhelm Egerström\"\n      },\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Södra Latin, Stockholm\"\n      },\n      \"dateEarned\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Medicine\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Arvid Vilhelm Egerström\"\n      },\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karolinska Institute, Stockholm\"\n      },\n      \"dateEarned\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical Doctorate\",\n      \"educationalLevel\": \"DoctoralDegree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Arvid Vilhelm Egerström\"\n      },\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karolinska Institute, Stockholm\"\n      },\n      \"dateEarned\": \"1940\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Vadstena Hospital\",\n      \"jobTitle\": \"Assistant physician\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Tranås Hospital\",\n      \"jobTitle\": \"Hospital physician\",\n      \"startDate\": \"1947\",\n      \"endDate\": \"1948\"\n    }\n  ],\n  \"jobTitle\": \"Private practice physician\",\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Mjölby\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Arvid Vilhelm Egerström",
+        "birthDate": "1912-03-11",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Öster-lövsta, Uppsala county"
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Birger Egerström",
+            "jobTitle": "District physician"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Hilma Möller"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj-Britt Jonson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva-Britt Egerström",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Egerström",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "educationalLevel": "HighSchool",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Sven Arvid Vilhelm Egerström"
+                },
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Södra Latin, Stockholm"
+                },
+                "dateEarned": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Medicine",
+                "educationalLevel": "BachelorDegree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Sven Arvid Vilhelm Egerström"
+                },
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Karolinska Institute, Stockholm"
+                },
+                "dateEarned": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical Doctorate",
+                "educationalLevel": "DoctoralDegree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Sven Arvid Vilhelm Egerström"
+                },
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Karolinska Institute, Stockholm"
+                },
+                "dateEarned": "1940"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Vadstena Hospital",
+                "jobTitle": "Assistant physician",
+                "startDate": "1944",
+                "endDate": "1947"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Tranås Hospital",
+                "jobTitle": "Hospital physician",
+                "startDate": "1947",
+                "endDate": "1948"
+            }
+        ],
+        "jobTitle": "Private practice physician",
+        "workLocation": {
+            "@type": "Place",
+            "name": "Mjölby"
+        }
+    }
+}

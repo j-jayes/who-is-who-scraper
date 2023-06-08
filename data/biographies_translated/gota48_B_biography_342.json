@@ -1,0 +1,109 @@
+{
+    "original": "Björkman, Carl Fridolf Emanuel, tandläkare, Göteborg, f. 26/9/92 i Jämjö, Blek. 1., av folkskollär. N. Björkman o. Karolina Sjögren. G. 16 m. tandl. Kerstin Billing. Barn: Margit f. 21, Inger 25. — Studiex. i Lund 12, tandhkand. 13, tandl. 15. Prakt, i Gbg sed. 16. Skattmäst. i Gbgs tandl isällsk. 23-25, sekr. 26, ordf. i Aeoilus club.",
+    "translated": "Björkman, Carl Fridolf Emanuel, dentist, Gothenburg, b. September 26, 1892 in Jämjö, Blekinge, first child of elementary school teacher N. Björkman and Karolina Sjögren. Married to dentist Kerstin Billing since 1916. Children: Margit, born in 1921, and Inger, born in 1925. Graduated from Lund University with a bachelor's degree in 1912, a degree in dentistry in 1913, and a license to practice dentistry in 1915. Has been practicing in Gothenburg since 1916. Treasurer in the Gothenburg Dental Association from 1923 to 1925, secretary in 1926, and president of the Aeolus Club.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Carl Fridolf Emanuel Björkman\",\n    \"jobTitle\": \"Dentist\",\n    \"birthDate\": \"1892-09-26\",\n    \"birthPlace\": {\n        \"@type\": \"Place\",\n        \"name\": \"Jämjö, Blekinge\"\n    },\n    \"parent\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"N. Björkman\",\n            \"jobTitle\": \"Elementary School Teacher\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Karolina Sjögren\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Kerstin Billing\",\n        \"jobTitle\": \"Dentist\",\n        \"marriageDate\": \"1916-xx-xx\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Margit Björkman\",\n            \"birthDate\": \"1921-xx-xx\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Inger Björkman\",\n            \"birthDate\": \"1925-xx-xx\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"bachelor's degree\",\n            \"educationalLevel\": \"Undergraduate\",\n            \"educationalCredentialAwarded\": \"Bachelor's Degree\",\n            \"awardDate\": \"1912-xx-xx\",\n            \"awardingInstitution\": {\n                \"@type\": \"CollegeOrUniversity\",\n                \"name\": \"Lund University\"\n            }\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"degree in dentistry\",\n            \"educationalLevel\": \"Graduate\",\n            \"educationalCredentialAwarded\": \"Degree in Dentistry\",\n            \"awardDate\": \"1913-xx-xx\",\n            \"awardingInstitution\": {\n                \"@type\": \"CollegeOrUniversity\",\n                \"name\": \"Lund University\"\n            }\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"license to practice dentistry\",\n            \"educationalLevel\": \"Professional\",\n            \"educationalCredentialAwarded\": \"License to Practice Dentistry\",\n            \"awardDate\": \"1915-xx-xx\",\n            \"awardingInstitution\": {\n                \"@type\": \"CollegeOrUniversity\",\n                \"name\": \"Lund University\"\n            }\n        }\n    ],\n    \"hasOccupation\": {\n        \"@type\": \"Occupation\",\n        \"name\": \"Dentist\",\n        \"startDate\": \"1916-xx-xx\",\n        \"worksFor\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg Dental Association\"\n        }\n    },\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg Dental Association\",\n            \"startDate\": \"1923-xx-xx\",\n            \"endDate\": \"1925-xx-xx\",\n            \"roleName\": \"Treasurer\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg Dental Association\",\n            \"startDate\": \"1926-xx-xx\",\n            \"roleName\": \"Secretary\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Aeolus Club\",\n            \"roleName\": \"President\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Fridolf Emanuel Björkman",
+        "jobTitle": "Dentist",
+        "birthDate": "1892-09-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Jämjö, Blekinge"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "N. Björkman",
+                "jobTitle": "Elementary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Karolina Sjögren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Billing",
+            "jobTitle": "Dentist",
+            "marriageDate": "1916-xx-xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margit Björkman",
+                "birthDate": "1921-xx-xx"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger Björkman",
+                "birthDate": "1925-xx-xx"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "Undergraduate",
+                "educationalCredentialAwarded": "Bachelor's Degree",
+                "awardDate": "1912-xx-xx",
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree in dentistry",
+                "educationalLevel": "Graduate",
+                "educationalCredentialAwarded": "Degree in Dentistry",
+                "awardDate": "1913-xx-xx",
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "license to practice dentistry",
+                "educationalLevel": "Professional",
+                "educationalCredentialAwarded": "License to Practice Dentistry",
+                "awardDate": "1915-xx-xx",
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University"
+                }
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1916-xx-xx",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Gothenburg Dental Association"
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Dental Association",
+                "startDate": "1923-xx-xx",
+                "endDate": "1925-xx-xx",
+                "roleName": "Treasurer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Dental Association",
+                "startDate": "1926-xx-xx",
+                "roleName": "Secretary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Aeolus Club",
+                "roleName": "President"
+            }
+        ]
+    }
+}

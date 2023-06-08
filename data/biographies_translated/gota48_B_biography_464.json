@@ -1,0 +1,21 @@
+{
+    "original": "Bolmdahl, Anders Ruben Valdemar, kyrkoherde, Skillingaryd, f. 12/2/05 1",
+    "translated": "Bolmdahl, Anders Ruben Valdemar, clergyman, Skillingaryd, born on February 12th, 1905. He got married in the year 19XX (where XX represents the specific year) with an unmentioned partner's name.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Anders Ruben Valdemar Bolmdahl\",\n   \"birthDate\": \"1905-02-12\",\n   \"jobTitle\": \"Clergyman\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Skillingaryd\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Unknown\",\n      \"marriageDate\": \"19XX\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anders Ruben Valdemar Bolmdahl",
+        "birthDate": "1905-02-12",
+        "jobTitle": "Clergyman",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skillingaryd"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown",
+            "marriageDate": "19XX"
+        }
+    }
+}

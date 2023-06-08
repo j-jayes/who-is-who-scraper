@@ -1,0 +1,67 @@
+{
+    "original": "Forsman, David Johannes, stadskamrer, Borgholm, f. 4/9/16 i Umeå lands-förs., Västerb. I., av Johan F. o. Tekla Forsman. G. 46 m. Gurli Anne-Marie Marklund. — Studrex. i Umeå 38, DSI 43. Tax-.kontr. v. länsstyr. i Umeå 44-45, socialv :as’s’rst. i Arvidsjaur 45, stadskamrer i Borgholm fr. 46.",
+    "translated": "Forsman, David Johannes, city treasurer, Borgholm, born on September 4th, 1916 in Umeå rural parish, Västerbotten County, Sweden, to Johan F. and Tekla Forsman. Married to Gurli Anne-Marie Marklund in 1946. - Studied at Umeå in 1938 and at DSI in 1943. Worked as a tax contractor for the county government in Umeå from 1944-1945, social welfare assistant in Arvidsjaur in 1945, and city treasurer in Borgholm from 1946 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"David Johannes Forsman\",\n  \"jobTitle\": \"City Treasurer\",\n  \"birthDate\": \"1916-09-04\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Umeå\",\n      \"addressRegion\": \"Västerbotten County\",\n      \"addressCountry\": \"Sweden\"\n    },\n    \"name\": \"Umeå rural parish\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan F. Forsman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tekla Forsman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gurli Anne-Marie Marklund\",\n    \"marriageDate\": \"1946\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Umeå\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"DSI\",\n      \"endDate\": \"1943\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Borgholm\",\n    \"startDate\": \"1946\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County Government of Umeå\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Social Welfare of Arvidsjaur\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1945\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "David Johannes Forsman",
+        "jobTitle": "City Treasurer",
+        "birthDate": "1916-09-04",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Umeå",
+                "addressRegion": "Västerbotten County",
+                "addressCountry": "Sweden"
+            },
+            "name": "Umeå rural parish"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan F. Forsman"
+            },
+            {
+                "@type": "Person",
+                "name": "Tekla Forsman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gurli Anne-Marie Marklund",
+            "marriageDate": "1946"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Umeå"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "DSI",
+                "endDate": "1943"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Borgholm",
+            "startDate": "1946"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "County Government of Umeå",
+                "startDate": "1944",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Organization",
+                "name": "Social Welfare of Arvidsjaur",
+                "startDate": "1945",
+                "endDate": "1945"
+            }
+        ]
+    }
+}

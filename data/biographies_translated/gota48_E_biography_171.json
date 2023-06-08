@@ -1,0 +1,82 @@
+{
+    "original": "Ekströmer, Carl Johan Henrik, ryttmästare, disponent, Norrhult, f. 30/ 5/10 i Nottebäck, Kronob. 1., av bruks-patr. C. I. E. o. Eva v. Krusenstjerna. G. 1. 38-46 m. N. C. Tranchell; 2. 47 m. Agneta Lilliehöök. Barn: Lars’ f. 40. — Stud:ex. i Eksjö 29, res:off:ex. 32, dipL fr. hand: högs k. i Sthlm 34. Disp. v. Klafreströms bruk fr. 46.",
+    "translated": "Ekströmer, Carl Johan Henrik, captain, manager, Norrhult, b. May 30, 1910, in Nottebäck, Kronoberg County, son of industrialist C.I.E. Ekströmer and Eva v. Krusenstjerna. Married 1st in 1938-1946 to N.C. Tranchell; 2nd in 1947 to Agneta Lilliehöök. Children: Lars, born in 1940. Passed high school exams in Eksjö in 1929, commissioned officer exams in 1932, and diploma in business from Stockholm College in 1934. Became manager of Klafreströms bruk from 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Carl Johan Henrik\",\n  \"familyName\": \"Ekströmer\",\n  \"birthDate\": \"1910-05-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Nottebäck\",\n      \"addressRegion\": \"Kronoberg County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"C.I.E.\",\n      \"familyName\": \"Ekströmer\",\n      \"occupation\": \"industrialist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Eva\",\n      \"familyName\": \"v. Krusenstjerna\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"N.C.\",\n      \"familyName\": \"Tranchell\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Agneta\",\n      \"familyName\": \"Lilliehöök\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Lars\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Captain\",\n    \"Manager\"\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Exam\",\n      \"educationalLevel\": \"secondary\"\n    },\n    {\n      \"@type\": \"OccupationalCredential\",\n      \"credentialCategory\": \"Commissioned Officer Exam\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Diploma in Business\",\n      \"educationalLevel\": \"college\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Klafreströms bruk\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Carl Johan Henrik",
+        "familyName": "Ekströmer",
+        "birthDate": "1910-05-30",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Nottebäck",
+                "addressRegion": "Kronoberg County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "C.I.E.",
+                "familyName": "Ekströmer",
+                "occupation": "industrialist"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Eva",
+                "familyName": "v. Krusenstjerna"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "givenName": "N.C.",
+                "familyName": "Tranchell",
+                "startDate": "1938",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Agneta",
+                "familyName": "Lilliehöök",
+                "startDate": "1947"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Lars",
+                "birthDate": "1940"
+            }
+        ],
+        "jobTitle": [
+            "Captain",
+            "Manager"
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Exam",
+                "educationalLevel": "secondary"
+            },
+            {
+                "@type": "OccupationalCredential",
+                "credentialCategory": "Commissioned Officer Exam"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Diploma in Business",
+                "educationalLevel": "college"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Klafreströms bruk",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

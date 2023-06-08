@@ -1,0 +1,98 @@
+{
+    "original": "Forssander, Olof Carl Svante, tandläkare, Falkenberg, f. 13/11/01 i Herr-Ijunga, Älvsb. 1., av bankdir. Carl F. o. Elin Lundberg. G. 31 m. Elisabeth Dahlquist. Barn: Svante f. 34. •— Stud:ex. i Skövde 23, med. kand. 27, tandläkare 29. Assist, i Sthlm 29-30, i Falkenberg 31, skoltandl. där sed. s. å. Sekr. i Hall. tandl :fören. 38.",
+    "translated": "Forssander, Olof Carl Svante, a dentist from Falkenberg, born on November 13th, 1901 in Herrljunga, Älvsborgs län. His parents were bank director Carl F. and Elin Lundberg. He married Elisabeth Dahlquist in 1931 and they had one child, Svante, born in 1934. Forssander obtained his high school diploma in Skövde in 1923, graduated with a Bachelor of Medicine in 1927, and became a dentist in 1929. He worked as an assistant in Stockholm from 1929 to 1930, in Falkenberg in 1931, and then as a school dentist in Falkenberg. In 1938, he became the secretary for the Halland Dental Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Carl Svante Forssander\",\n  \"birthDate\": \"1901-11-13\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Herrljunga\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Herrljunga\",\n      \"addressRegion\": \"Älvsborgs län\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl F. Lundberg\",\n      \"jobTitle\": \"Bank Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Lundberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabeth Dahlquist\",\n    \"marriageDate\": \"1931-01-01\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Svante Forssander\",\n    \"birthDate\": \"1934-01-01\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"educationalLevel\": \"High School\",\n      \"awardDate\": \"1923-01-01\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skövde\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Medicine\",\n      \"educationalLevel\": \"Bachelor\",\n      \"awardDate\": \"1927-01-01\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dentist\",\n      \"educationalLevel\": \"Dentistry\",\n      \"awardDate\": \"1929-01-01\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Halland Dental Association\",\n    \"startDate\": \"1938-01-01\",\n    \"jobTitle\": \"Secretary\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Stockholm\",\n      \"jobTitle\": \"Assistant\",\n      \"startDate\": \"1929-01-01\",\n      \"endDate\": \"1930-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Falkenberg\",\n      \"jobTitle\": \"Assistant\",\n      \"startDate\": \"1931-01-01\",\n      \"endDate\": \"1931-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Falkenberg\",\n      \"jobTitle\": \"School Dentist\",\n      \"startDate\": \"1931-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Carl Svante Forssander",
+        "birthDate": "1901-11-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Herrljunga",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Herrljunga",
+                "addressRegion": "Älvsborgs län"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl F. Lundberg",
+                "jobTitle": "Bank Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Lundberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabeth Dahlquist",
+            "marriageDate": "1931-01-01"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Svante Forssander",
+            "birthDate": "1934-01-01"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationalLevel": "High School",
+                "awardDate": "1923-01-01",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Skövde"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Medicine",
+                "educationalLevel": "Bachelor",
+                "awardDate": "1927-01-01",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": ""
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dentist",
+                "educationalLevel": "Dentistry",
+                "awardDate": "1929-01-01"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Halland Dental Association",
+            "startDate": "1938-01-01",
+            "jobTitle": "Secretary"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Stockholm",
+                "jobTitle": "Assistant",
+                "startDate": "1929-01-01",
+                "endDate": "1930-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "Falkenberg",
+                "jobTitle": "Assistant",
+                "startDate": "1931-01-01",
+                "endDate": "1931-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "Falkenberg",
+                "jobTitle": "School Dentist",
+                "startDate": "1931-01-01"
+            }
+        ]
+    }
+}

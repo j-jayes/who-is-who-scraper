@@ -1,0 +1,164 @@
+{
+    "original": "Blomquist, John Einar, leg. läkare, Borås, f. 4/2/97 i Gävle av John A. B. o. Clara Carlsson-Åkerman. G. 30 m. skolkökslär. Ella Lundgren. Barn: Jan Einar Torkel f. 36. — Stud:ex. i Lund 17, med. kand. 24, med. lic. 37. Res. t. Tyskl. 24. 01. förordn. på Barnsjukh. i Lund, Epid:sjukh. i Malmö, lungklin. i Malmö, sanat:-und:läk. i Broby, Målilla, Högbo o. Västeråsen, förste und:läk. o. bitr. disp :läk. å Västeråsens sanat. fr. 44.",
+    "translated": "Blomquist, John Einar, MD, Borås. Born on February 4, 1897 in Gävle to parents John A.B. Blomquist and Clara Carlsson-Åkerman. Married on 1930 to school cookery teacher Ella Lundgren. They had one child named Jan Einar Torkel born in 1936. John Einar Blomquist completed his high school education at Lund in 1917, received a Bachelor of Medicine degree in 1924, and a Medical License in 1937. He traveled to Germany in 1924 and was appointed to work at the Children’s Hospital in Lund, Epidemic Hospital in Malmö, Lung Clinic in Malmö, Sanatorium in Broby, Målilla, Högbo and Västeråsen. In 1944, he became a chief medical officer and assistant medical examiner at Västeråsen sanatorium.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Einar Blomquist\",\n  \"jobTitle\": \"MD\",\n  \"birthDate\": \"1897-02-04\",\n  \"birthPlace\": \"Gävle, Sweden\",\n  \"parents\": {\n    \"@type\": \"Person\",\n    \"father\": \"John A.B. Blomquist\",\n    \"mother\": \"Clara Carlsson-Åkerman\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ella Lundgren\",\n    \"jobTitle\": \"School Cookery Teacher\",\n    \"marriageDate\": \"1930\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jan Einar Torkel\",\n    \"birthDate\": \"1936\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"location\": \"Lund, Sweden\",\n      \"alumniOf\": \"1917\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Stud:ex.\"\n      }\n    }\n  ],\n  \"medicalSpecialty\": {\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"General Medicine\"\n  },\n  \"medicalTraining\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Medicine\",\n      \"credentialCategory\": \"diploma\",\n      \"duration\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": \"7\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"Year\",\n        \"value\": \"1924\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical License\",\n      \"credentialCategory\": \"license\",\n      \"duration\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": \"3\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"Year\",\n        \"value\": \"1937\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Physician\",\n      \"duration\": {\n        \"@type\": \"Duration\",\n        \"value\": \"1924\",\n        \"name\": \"Year\"\n      },\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Children’s Hospital\",\n        \"location\": \"Lund, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Physician\",\n      \"duration\": {\n        \"@type\": \"Duration\",\n        \"value\": \"1924-1937\",\n        \"name\": \"Year\"\n      },\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Epidemic Hospital\",\n        \"location\": \"Malmö, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Physician\",\n      \"duration\": {\n        \"@type\": \"Duration\",\n        \"value\": \"1937-1944\",\n        \"name\": \"Year\"\n      },\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lung Clinic\",\n        \"location\": \"Malmö, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Physician\",\n      \"duration\": {\n        \"@type\": \"Duration\",\n        \"value\": \"1940s\",\n        \"name\": \"Decades\"\n      },\n      \"affiliation\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Broby Sanatorium\",\n          \"location\": \"Broby, Sweden\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Målilla Sanatorium\",\n          \"location\": \"Målilla, Sweden\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Högbo Sanatorium\",\n          \"location\": \"Högbo, Sweden\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Västeråsen Sanatorium\",\n          \"location\": \"Västeråsen, Sweden\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Chief Medical Officer and Assistant Medical Examiner\",\n      \"duration\": {\n        \"@type\": \"Duration\",\n        \"value\": \"1944-\",\n        \"name\": \"Year\"\n      },\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västeråsen Sanatorium\",\n        \"location\": \"Västeråsen, Sweden\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Einar Blomquist",
+        "jobTitle": "MD",
+        "birthDate": "1897-02-04",
+        "birthPlace": "Gävle, Sweden",
+        "parents": {
+            "@type": "Person",
+            "father": "John A.B. Blomquist",
+            "mother": "Clara Carlsson-Åkerman"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ella Lundgren",
+            "jobTitle": "School Cookery Teacher",
+            "marriageDate": "1930"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Jan Einar Torkel",
+            "birthDate": "1936"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "location": "Lund, Sweden",
+                "alumniOf": "1917",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Stud:ex."
+                }
+            }
+        ],
+        "medicalSpecialty": {
+            "@type": "MedicalSpecialty",
+            "name": "General Medicine"
+        },
+        "medicalTraining": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Medicine",
+                "credentialCategory": "diploma",
+                "duration": {
+                    "@type": "QuantitativeValue",
+                    "value": "7"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "Year",
+                    "value": "1924"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical License",
+                "credentialCategory": "license",
+                "duration": {
+                    "@type": "QuantitativeValue",
+                    "value": "3"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "Year",
+                    "value": "1937"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Physician",
+                "duration": {
+                    "@type": "Duration",
+                    "value": "1924",
+                    "name": "Year"
+                },
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Children’s Hospital",
+                    "location": "Lund, Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Physician",
+                "duration": {
+                    "@type": "Duration",
+                    "value": "1924-1937",
+                    "name": "Year"
+                },
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Epidemic Hospital",
+                    "location": "Malmö, Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Physician",
+                "duration": {
+                    "@type": "Duration",
+                    "value": "1937-1944",
+                    "name": "Year"
+                },
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Lung Clinic",
+                    "location": "Malmö, Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Physician",
+                "duration": {
+                    "@type": "Duration",
+                    "value": "1940s",
+                    "name": "Decades"
+                },
+                "affiliation": [
+                    {
+                        "@type": "Organization",
+                        "name": "Broby Sanatorium",
+                        "location": "Broby, Sweden"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Målilla Sanatorium",
+                        "location": "Målilla, Sweden"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Högbo Sanatorium",
+                        "location": "Högbo, Sweden"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Västeråsen Sanatorium",
+                        "location": "Västeråsen, Sweden"
+                    }
+                ]
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Chief Medical Officer and Assistant Medical Examiner",
+                "duration": {
+                    "@type": "Duration",
+                    "value": "1944-",
+                    "name": "Year"
+                },
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Västeråsen Sanatorium",
+                    "location": "Västeråsen, Sweden"
+                }
+            }
+        ]
+    }
+}

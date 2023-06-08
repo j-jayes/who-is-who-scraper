@@ -1,0 +1,145 @@
+{
+    "original": "Billvall, Karl, apotekare, Göteborg, f. 26/6/89 i Bro, Värml. 1. G. 36 m. apot. Inez Olsson. Barn: Göran f. 43.,— Mog:ex. i Gbg 08, farm. kand. 11, apot:ex. 21. Elev v. apot. Kronan i Gbg 08-10, anst. där, v. Valen i Gbg 11-13, Tre Kronor i Karlskrona, apot. i Mölndal, Enhörningen i Gbg 15-19, 21-28, Hjorten i Gbg, åter v. apot. i Mölndal 29-34, Måsen i Gbg 34-36, priv. å apot. i Hallstahammar 36, transp. t. Delfinen i Gbg 42. Därjämte aman. h. prof. i bot. o. farmakog-nosi v. farm. inst. 20-21.",
+    "translated": "Billvall, Karl, pharmacist, Gothenburg, born on June 26, 1889 in Bro, Värmland. First marriage in 1936 to pharmacist Inez Olsson. Children: Göran, born in 1943; also Mag., ex. in Gothenburg in 1908, pharmaceutical candidate in 1911, and pharmacist in 1921. Was a student at the pharmacy Kronan in Gothenburg from 1908-1910, employed there as well as at Valen in Gothenburg from 1911-1913, Tre Kronor in Karlskrona, the pharmacy in Mölndal, Enhörningen in Gothenburg from 1915-1919 and 1921-1928, Hjorten in Gothenburg, then back to the pharmacy in Mölndal from 1929-1934, Måsen in Gothenburg from 1934-1936, and privately at the pharmacy in Hallstahammar in 1936 before transitioning to Delfinen in Gothenburg in 1942. Additionally, served as assistant professor in botany and pharmacognosy at the pharmacy institute from 1920-1921.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Karl\",\n  \"familyName\": \"Billvall\",\n  \"jobTitle\": \"Pharmacist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1889-06-26\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Bro, Värmland\"\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inez Olsson\",\n      \"jobTitle\": \"Pharmacist\",\n      \"startDate\": \"1936\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Göran\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Pharmacy Kronan\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Pharmacy Institute\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1921\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Unknown\"\n      }\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Valen\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Tre Kronor\",\n      \"location\": \"Karlskrona\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Mölndal\",\n      \"location\": \"Mölndal\",\n      \"startDate\": \"Not earlier than 1915\",\n      \"endDate\": \"Not later than 1934\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Enhörningen\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Hjorten\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Mölndal\",\n      \"location\": \"Mölndal\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Måsen\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Hallstahammar\",\n      \"location\": \"Hallstahammar\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"Not later than 1942\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Delfinen\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1942\"\n    }\n  ],\n  \"additionalName\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mag.\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"Not later than 1911\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Pharmaceutical candidate\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"Not later than 1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Professor\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1921\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Pharmacy Institute\",\n        \"location\": \"Gothenburg\"\n      },\n      \"subjectOf\": {\n        \"@type\": \"Book\",\n        \"name\": \"Botany and Pharmacognosy\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Karl",
+        "familyName": "Billvall",
+        "jobTitle": "Pharmacist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1889-06-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Bro, Värmland"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Inez Olsson",
+                "jobTitle": "Pharmacist",
+                "startDate": "1936"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Göran",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Pharmacy Kronan",
+                "location": "Gothenburg",
+                "startDate": "1908",
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Pharmacy Institute",
+                "location": "Gothenburg",
+                "startDate": "1920",
+                "endDate": "1921",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Unknown"
+                }
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Pharmacy",
+                "name": "Valen",
+                "location": "Gothenburg",
+                "startDate": "1911",
+                "endDate": "1913"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Tre Kronor",
+                "location": "Karlskrona"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Mölndal",
+                "location": "Mölndal",
+                "startDate": "Not earlier than 1915",
+                "endDate": "Not later than 1934"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Enhörningen",
+                "location": "Gothenburg",
+                "startDate": "1915",
+                "endDate": "1919"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Hjorten",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Mölndal",
+                "location": "Mölndal",
+                "startDate": "1929",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Måsen",
+                "location": "Gothenburg",
+                "startDate": "1934",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Hallstahammar",
+                "location": "Hallstahammar",
+                "startDate": "1936",
+                "endDate": "Not later than 1942"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Delfinen",
+                "location": "Gothenburg",
+                "startDate": "1942"
+            }
+        ],
+        "additionalName": [
+            {
+                "@type": "Person",
+                "name": "Mag.",
+                "startDate": "1908",
+                "endDate": "Not later than 1911"
+            },
+            {
+                "@type": "Person",
+                "name": "Pharmaceutical candidate",
+                "startDate": "1911",
+                "endDate": "Not later than 1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Professor",
+                "startDate": "1920",
+                "endDate": "1921",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Pharmacy Institute",
+                    "location": "Gothenburg"
+                },
+                "subjectOf": {
+                    "@type": "Book",
+                    "name": "Botany and Pharmacognosy"
+                }
+            }
+        ]
+    }
+}

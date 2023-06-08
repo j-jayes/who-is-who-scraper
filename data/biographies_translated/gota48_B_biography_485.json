@@ -1,0 +1,81 @@
+{
+    "original": "Borg, Sven Oskar, fil. mag., läroverksadjunkt, Tranås, f. 22/7/92 i Skövde. G. 22 m. Maria Karlsson, d. 46. Barn: Birgitta f. 25, farm. stud., Sthlm. — Stud:ex. i Skara 12, fil. mag. i Upps. 19. Provår i Lund 28. E. o. ämneslär. i Tranås 19-27, 28-32, vik. adj. där 32-33, adj. v. samrealsk. i Tranås fr. 33. Kyrkvärd fr. 31, led, av kyrkofullm.",
+    "translated": "Borg, Sven Oskar, MA, high school teacher, Tranås, b. 22/7/92 in Skövde. Married on 22 May to Maria Karlsson, d. 1946. Children: Birgitta b. 1925, pharmacy student, Stockholm. Graduated from Skara High School in 1912, MA in Uppsala in 1919. Practiced teaching in Lund in 1928. Temporary and subject-specific teacher in Tranås from 1919 to 1927 and from 1928 to 1932 respectively. Temporary high school teacher in Tranås from 1932 to 1933. Church warden from 1931, member of the church council.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Oskar Borg\",\n  \"jobTitle\": \"High School Teacher\",\n  \"birthDate\": \"1892-07-22\",\n  \"birthPlace\": \"Skövde\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maria Karlsson\",\n    \"deathDate\": \"1946\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1925\",\n      \"jobTitle\": \"Pharmacy student\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm University\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Skara\",\n      \"startDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Fil. mag. i Upps.\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Provår i Lund\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Tranås\"\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"E. o. ämneslär. i Tranås\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vik. adj. där\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Adj. v. samrealsk. i Tranås\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"hasCredential\": [\n    {\n      \"@type\": \"OccupationalCredential\",\n      \"name\": \"Kyrkvärd\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"OccupationalCredential\",\n      \"name\": \"Led, av kyrkofullm.\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Oskar Borg",
+        "jobTitle": "High School Teacher",
+        "birthDate": "1892-07-22",
+        "birthPlace": "Skövde",
+        "spouse": {
+            "@type": "Person",
+            "name": "Maria Karlsson",
+            "deathDate": "1946"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1925",
+                "jobTitle": "Pharmacy student",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Stockholm University"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Skara",
+                "startDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil. mag. i Upps.",
+                "startDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Provår i Lund",
+                "startDate": "1928"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Tranås"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "E. o. ämneslär. i Tranås",
+                "startDate": "1919",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Vik. adj. där",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Adj. v. samrealsk. i Tranås",
+                "startDate": "1933"
+            }
+        ],
+        "hasCredential": [
+            {
+                "@type": "OccupationalCredential",
+                "name": "Kyrkvärd",
+                "startDate": "1931"
+            },
+            {
+                "@type": "OccupationalCredential",
+                "name": "Led, av kyrkofullm."
+            }
+        ]
+    }
+}

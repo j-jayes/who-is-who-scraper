@@ -1,0 +1,104 @@
+{
+    "original": "Eliason, Tord Axel, arki-tekt, Göteborg, f. 23/12/09’ i Grebbestad, Gbgs o. Boh. 1., av Axel E. o. Ellen Johansson. G. 37 m. Stina Brunell. Barn: Mona f. 38, Per-Axel 42, Birgitta 46. — Ex. v. CTL 29, CTH (husbyggn:-konst) 34. Res. t. Norge 39, Danm. 38. Anst. v. ing:byrån v. Gbgs stads fastigh :kont. 34, förste arkit. 41, chef f. fastigh :ko’nt. tekn. utredn :byrå fr. 44. Led. av Tekn. isamf. m. fl.",
+    "translated": "Eliason, Tord Axel, architect, Gothenburg, born 23/12/09 in Grebbestad, Gothenburg and Bohuslän province, son of Axel E. and Ellen Johansson. Married in 1937 to Stina Brunell. Children: Mona born 1938, Per-Axel born 1942, Birgitta born 1946. Graduated from CTL in 1929 and CTH (construction art) in 1934. Worked in Norway in 1939 and Denmark in 1938. Employed at the engineering office of the Gothenburg city property control department from 1934, became first architect in 1941, and then chief of the technical investigation department of the property control department from 1944. Member of the Swedish Society of Engineers and other organizations.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tord Axel Eliason\",\n  \"jobTitle\": \"Architect\",\n  \"birthDate\": \"1909-12-23\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Grebbestad, Gothenburg and Bohuslän province\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel E.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Brunell\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mona\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Axel\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"CTL\",\n      \"credentialCategory\": \"degree\",\n      \"credentialOffered\": \"Bachelor's Degree\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"CTL\"\n      },\n      \"dateIssued\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"CTH\",\n      \"credentialCategory\": \"degree\",\n      \"credentialOffered\": \"Bachelor's Degree\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"CTH (Construction Art)\"\n      },\n      \"dateIssued\": \"1934\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Society of Engineers\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Society of Sweden\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Gothenburg\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Engineering office of the Gothenburg city property control department\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1941\",\n      \"jobTitle\": \"First Architect\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical investigation department of the property control department\",\n      \"startDate\": \"1944\",\n      \"jobTitle\": \"Chief of Technical Investigation Department\"\n    }\n  ],\n  \"deathDate\": \"unknown\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tord Axel Eliason",
+        "jobTitle": "Architect",
+        "birthDate": "1909-12-23",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Grebbestad, Gothenburg and Bohuslän province"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Axel E."
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Brunell",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Mona",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Per-Axel",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "CTL",
+                "credentialCategory": "degree",
+                "credentialOffered": "Bachelor's Degree",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "CTL"
+                },
+                "dateIssued": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "CTH",
+                "credentialCategory": "degree",
+                "credentialOffered": "Bachelor's Degree",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "CTH (Construction Art)"
+                },
+                "dateIssued": "1934"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Society of Engineers"
+            },
+            {
+                "@type": "Organization",
+                "name": "Technical Society of Sweden"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Gothenburg"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Engineering office of the Gothenburg city property control department",
+                "startDate": "1934",
+                "endDate": "1941",
+                "jobTitle": "First Architect"
+            },
+            {
+                "@type": "Organization",
+                "name": "Technical investigation department of the property control department",
+                "startDate": "1944",
+                "jobTitle": "Chief of Technical Investigation Department"
+            }
+        ],
+        "deathDate": "unknown"
+    }
+}

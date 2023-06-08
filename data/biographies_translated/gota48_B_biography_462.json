@@ -1,0 +1,121 @@
+{
+    "original": "Bolling, Sven Gösta, direktör, Alingsås, f. 30/12/01 i Gbg av disp. E. F. B. o. Anna Pettersson. G. 29 m. Dagmar Hellström. Barn: Lars 1. 35. — Stud:ex. i Borås 20, Gbgs hand :inst. 21. Prakt, i uti. bl. a. s. kont:chef v. Soc. Anonyme Electro-Lux i Paris 24-27, deläg. i ag:firma Bolling &amp; Co. i Gbg 27-29, försäljn:-chef v. Komfieiktions A-B Oscar Molander i Alingsås 29-31, medstift. o. verkst. dir. i Konfektions A-B Drabant i Alingsås sed. 32. Medl. av Frimurarorden, W-Sex o. Rotary.",
+    "translated": "Bolling, Sven Gösta, director, Alingsås, b. December 30, 1901 in Gothenburg to E.F.B. and Anna Pettersson. Married on March 29 to Dagmar Hellström. Children: Lars, b. 1935. Education: graduated from Borås in 1920, attended Gothenburg School of Business in 1921. Work experience includes, among others, being a department head at Electro-Lux in Paris from 1924-1927, co-owner of Bolling & Co. in Gothenburg from 1927-1929, sales manager at Komfieiktions A-B Oscar Molander in Alingsås from 1929-1931, co-founder and managing director of Konfektions A-B Drabant in Alingsås from 1932 onward. Member of the Freemasons, W-Sex, and Rotary.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Gösta Bolling\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1901-12-30\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"E.F.B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Pettersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagmar Hellström\",\n    \"marriageDate\": \"1929-03-29\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lars\",\n    \"birthDate\": \"1935\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"diploma\",\n    \"degreeName\": \"Stud:ex.\",\n    \"issuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås\"\n    },\n    \"validFor\": {\n      \"@type\": \"AdministrativeArea\",\n      \"name\": \"Sweden\"\n    },\n    \"startDate\": \"1920\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"W-Sex\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rotary\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Department Head\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1927\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Electro-Lux\",\n        \"location\": {\n          \"@type\": \"City\",\n          \"name\": \"Paris\",\n          \"addressCountry\": \"FR\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Co-Owner\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bolling & Co.\",\n        \"location\": {\n          \"@type\": \"City\",\n          \"name\": \"Gothenburg\",\n          \"addressCountry\": \"SE\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Sales Manager\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Komfieiktions A-B Oscar Molander\",\n        \"location\": {\n          \"@type\": \"City\",\n          \"name\": \"Alingsås\",\n          \"addressCountry\": \"SE\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Co-Founder and Managing Director\",\n      \"startDate\": \"1932\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Konfektions A-B Drabant\",\n        \"location\": {\n          \"@type\": \"City\",\n          \"name\": \"Alingsås\",\n          \"addressCountry\": \"SE\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Gösta Bolling",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "title": "Department Head",
+                "startDate": "1924",
+                "endDate": "1927",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Electro-Lux",
+                    "location": {
+                        "@type": "City",
+                        "name": "Paris",
+                        "addressCountry": "FR"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Co-Owner",
+                "startDate": "1927",
+                "endDate": "1929",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Bolling & Co.",
+                    "location": {
+                        "@type": "City",
+                        "name": "Gothenburg",
+                        "addressCountry": "SE"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Sales Manager",
+                "startDate": "1929",
+                "endDate": "1931",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Komfieiktions A-B Oscar Molander",
+                    "location": {
+                        "@type": "City",
+                        "name": "Alingsås",
+                        "addressCountry": "SE"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Co-Founder and Managing Director",
+                "startDate": "1932",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Konfektions A-B Drabant",
+                    "location": {
+                        "@type": "City",
+                        "name": "Alingsås",
+                        "addressCountry": "SE"
+                    }
+                }
+            }
+        ],
+        "birthDate": "1901-12-30",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "E.F.B."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Pettersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagmar Hellström",
+            "marriageDate": "1929-03-29"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Lars",
+            "birthDate": "1935"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "diploma",
+            "degreeName": "Stud:ex.",
+            "issuer": {
+                "@type": "Organization",
+                "name": "Borås"
+            },
+            "validFor": {
+                "@type": "AdministrativeArea",
+                "name": "Sweden"
+            },
+            "startDate": "1920"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            },
+            {
+                "@type": "Organization",
+                "name": "W-Sex"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rotary"
+            }
+        ]
+    }
+}

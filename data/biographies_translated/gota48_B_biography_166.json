@@ -1,0 +1,87 @@
+{
+    "original": "Berglund, Nils Ivar, advokat, Norrköping, f. 25/7/02 i Malmö av bygg-mäst. Nils B. o. Elina Jönsson. G. 30 m. Ruth Anders^son. Barn: Gunvor f. 31, Torvald o. Anette 45. — Stud:ex. i Malmö 20, jur. kand. i Lund 25. Adv. i Norrköp., förb :jurist f. Bilverkstädernas riksförb. Led. av Sv:-es adv:samf. sed. 33. Skr.: upps. i tidskr. Bilverkstäderna.",
+    "translated": "Berglund, Nils Ivar, lawyer, Norrköping, born July 25th, 1902 in Malmö to builder Nils B. and Elina Jönsson. Married to Ruth Andersson in 1930. Children: Gunvor born in 1931, Torvald and Anette born in 1945. Graduated from high school in Malmö in 1920 and received a law degree from Lund University in 1925. Works as a lawyer in Norrköping and is a legal advisor for the National Federation of Automotive Repair Shops. Member of the Swedish Bar Association since 1933. Has written papers in the magazine Bilverkstäderna.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Ivar Berglund\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1902-07-25\",\n  \"birthPlace\": \"Malmö\",\n  \"nationality\": \"Swedish\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils B.\",\n      \"jobTitle\": \"Builder\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elina Jönsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Andersson\",\n    \"marriageDate\": \"1930\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunvor\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torvald\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anette\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"HighSchool\",\n      \"name\": \"Stud:ex.\",\n      \"awardDate\": \"1920\",\n      \"educationalProgram\": \"High School Program\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"name\": \"Jur. kand.\",\n      \"awardDate\": \"1925\",\n      \"educationalProgram\": \"Law Program\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"National Federation of Automotive Repair Shops\",\n      \"jobTitle\": \"Legal Advisor\"\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Upps. i tidskr. Bilverkstäderna.\"\n    }\n  ],\n  \"jobLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Norrköping\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Ivar Berglund",
+        "jobTitle": "Lawyer",
+        "birthDate": "1902-07-25",
+        "birthPlace": "Malmö",
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Nils B.",
+                "jobTitle": "Builder"
+            },
+            {
+                "@type": "Person",
+                "name": "Elina Jönsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Andersson",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunvor",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Torvald",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Anette",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": "HighSchool",
+                "name": "Stud:ex.",
+                "awardDate": "1920",
+                "educationalProgram": "High School Program"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "Bachelor's degree",
+                "name": "Jur. kand.",
+                "awardDate": "1925",
+                "educationalProgram": "Law Program"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "National Federation of Automotive Repair Shops",
+                "jobTitle": "Legal Advisor"
+            }
+        ],
+        "publication": [
+            {
+                "@type": "Article",
+                "name": "Upps. i tidskr. Bilverkstäderna."
+            }
+        ],
+        "jobLocation": {
+            "@type": "Place",
+            "name": "Norrköping"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "original": "Eriksson, Gunnar Ture Albert, ingenjör, Karlskrona, f. 4/10/17 i Säbrå föris., Väsiteirnorril. 1., aiv byggm. Albert E. o. 0’liga Dahlberg. G. 44 m. Maj-Brith Möller. — Ex. v. tekn. gymn. i Härnösand 40. Andre avd:ing. v. Karlskrona stads byggn :kont. sed. 44.",
+    "translated": "Eriksson, Gunnar Ture Albert, engineer, Karlskrona, born 4/10/17 in Säbrå föris., Västernorrland. Son of builder Albert E. and Olga Dahlberg. Married in 1944 to Maj-Brith Möller. He graduated from the technical high school in Härnösand in 1940 and worked as a second department engineer at the Karlskrona municipal building office since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Ture Albert Eriksson\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1917-10-04\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Säbrå föris\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Västernorrland\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert E. Eriksson\",\n      \"jobTitle\": \"Builder\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olga Dahlberg\"\n    }\n  ],\n  \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Maj-Brith Möller\",\n      \"marriageDate\": \"1944\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"credentialEarned\": \"technical high school diploma\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"educationalProgramMode\": \"full-time\",\n      \"educationalSpecialty\": \"engineering\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Härnösand Technical High School\"\n      },\n      \"startDate\": \"1940\",\n      \"endDate\": \"1940\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Karlskrona Municipal Building Office\",\n    \"employee\": {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Ture Albert Eriksson\",\n      \"jobTitle\": \"Second Department Engineer\",\n      \"startDate\": \"1944\"\n    }\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gunnar Ture Albert Eriksson",
+        "jobTitle": "Engineer",
+        "birthDate": "1917-10-04",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Säbrå föris",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Västernorrland"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Albert E. Eriksson",
+                "jobTitle": "Builder"
+            },
+            {
+                "@type": "Person",
+                "name": "Olga Dahlberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj-Brith Möller",
+            "marriageDate": "1944"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "credentialEarned": "technical high school diploma",
+                "educationalLevel": "Bachelor's Degree",
+                "educationalProgramMode": "full-time",
+                "educationalSpecialty": "engineering",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Härnösand Technical High School"
+                },
+                "startDate": "1940",
+                "endDate": "1940"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Karlskrona Municipal Building Office",
+            "employee": {
+                "@type": "Person",
+                "name": "Gunnar Ture Albert Eriksson",
+                "jobTitle": "Second Department Engineer",
+                "startDate": "1944"
+            }
+        }
+    }
+}

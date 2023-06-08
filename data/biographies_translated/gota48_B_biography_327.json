@@ -1,0 +1,88 @@
+{
+    "original": "Björkeroth, Hans Johan, direktor, Lidköping, f. 6/2/84 i Hälsingborg. G. 15 m. Ruth Holmqvist. Barn: Gunnar f. 17, Åke 18, Greta 19. — Stud. v. elemilärov. o. handisk., prakt, i uti. Res. t. flert. eur. länd. Anst. i trä-varufirmor o. skeppsred. i Engl., h. M^ell. Sv:es Sockerfabr. A-B 08-36, därefter i A-B Kinnevik m. dotterbol., direktör sed. 45, Suchard, A-B Idro m. fl. Led. av styr. f. Ängbåt-s A-B",
+    "translated": "Björkeroth, Hans Johan, director, Lidköping, born on February 6, 1884 in Hälsingborg. Married to Ruth Holmqvist in 1915 and has three children: Gunnar (born in 1917), Åke (born in 1918), and Greta (born in 1919). Completed primary and secondary school and vocational training. Traveled extensively throughout Europe. Worked for various timber companies and shipping firms in England and was employed by M^ell. Sv:es Sockerfabr. A-B from 1908-1936 before becoming director for A-B Kinnevik and its subsidiaries. He was a director for Suchard, A-B Idro and others since 1945. Also a member of the board of directors for Ängbåt-s A-B.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Hans Johan Björkeroth\",\n   \"birthDate\": \"1884-02-06\",\n   \"birthPlace\": \"Hälsingborg\",\n   \"nationality\": \"Swedish\",\n   \"jobTitle\": \"Director\",\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Kinnevik\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Suchard\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Idro\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"M^ell. Sv:es Sockerfabr. A-B\",\n         \"startDate\": \"1908\",\n         \"endDate\": \"1936\"\n      }\n   ],\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Ängbåt-s A-B\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ruth Holmqvist\",\n      \"marriageDate\": \"1915\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gunnar Björkeroth\",\n         \"birthDate\": \"1917\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Åke Björkeroth\",\n         \"birthDate\": \"1918\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Greta Björkeroth\",\n         \"birthDate\": \"1919\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Primary\",\n         \"educationalLevel\": \"PrimarySchool\",\n         \"startDate\": \"1890\",\n         \"endDate\": \"1898\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Secondary\",\n         \"educationalLevel\": \"SecondarySchool\",\n         \"startDate\": \"1898\",\n         \"endDate\": \"1902\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Vocational\",\n         \"name\": \"Practical Training\",\n         \"startDate\": \"1902\"\n      }\n   ],\n   \"travelHistory\": {\n      \"@type\": \"TouristTrip\",\n      \"departureDate\": \"1902\",\n      \"returnDate\": \"1908\",\n      \"touristType\": \"Leisure\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Hans Johan Björkeroth",
+        "birthDate": "1884-02-06",
+        "birthPlace": "Hälsingborg",
+        "nationality": "Swedish",
+        "jobTitle": "Director",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A-B Kinnevik"
+            },
+            {
+                "@type": "Organization",
+                "name": "Suchard"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Idro"
+            },
+            {
+                "@type": "Organization",
+                "name": "M^ell. Sv:es Sockerfabr. A-B",
+                "startDate": "1908",
+                "endDate": "1936"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Ängbåt-s A-B"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Holmqvist",
+            "marriageDate": "1915"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar Björkeroth",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Åke Björkeroth",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Greta Björkeroth",
+                "birthDate": "1919"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Primary",
+                "educationalLevel": "PrimarySchool",
+                "startDate": "1890",
+                "endDate": "1898"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary",
+                "educationalLevel": "SecondarySchool",
+                "startDate": "1898",
+                "endDate": "1902"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Vocational",
+                "name": "Practical Training",
+                "startDate": "1902"
+            }
+        ],
+        "travelHistory": {
+            "@type": "TouristTrip",
+            "departureDate": "1902",
+            "returnDate": "1908",
+            "touristType": "Leisure"
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "original": "Erikson, John Olof, direktör, Borås, f. 1/9/87 i Rydboholm, Älvsb. 1. G. 22 m. Ingeborg Karlson. Barn: Rut f. 22, Sven 24, Olof 27, Gunhild 32. — Stud:ex. i Gbg 07, DHS 18. Tj :-man v. Kinnaströms Väfveri A-B i Kinna 18-20, kamr. v. Rydboho/lms A-B 21-26, v. verkst. dir. där 26-36, verkst. dir. f. A-B John Erikison &amp; Co. i Borås sed. 36. Led. av styr. f. Kinnaströms Väfveri A-B o. Rydahls Manufaktur A-B.",
+    "translated": "Erikson, John Olof, Director, Borås, b. 1/9/87 in Rydboholm, Älvsborg. 1st Marriage: Married in 1922 to Ingeborg Karlson. Children: Rut b. 1922, Sven b. 1924, Olof b. 1927, Gunhild b. 1932. Education: Studied in Gothenburg graduating in 1907, DHS in 1918. Worked as a clerk for Kinnaströms Väfveri A-B in Kinna from 1918-1920, became a superintendent at Rydboholms A-B from 1921-1926, deputy managing director from 1926-1936 and managing director of A-B John Erikson &amp; Co. in Borås since 1936. He was a board member of Kinnaströms Väfveri A-B and Rydahls Manufaktur A-B.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Olof Erikson\",\n  \"jobTitle\": \"Director\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Rydboholm, Älvsborg\"\n  },\n  \"birthDate\": \"1887-01-09\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Karlson\",\n    \"marriageDate\": \"1922\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rut\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunhild\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"STUD_EXAM\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardedBy\": \"Gothenburg\",\n      \"yearAwarded\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"PROFESSIONAL_CERTIFICATION\",\n      \"name\": \"DHS\",\n      \"awardedBy\": \"\",\n      \"yearAwarded\": \"1918\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1920\",\n      \"roleName\": \"Clerk\",\n      \"employee\": {\n        \"@type\": \"Person\",\n        \"name\": \"John Olof Erikson\"\n      },\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kinnaströms Väfveri A-B\",\n        \"location\": \"Kinna\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1926\",\n      \"roleName\": \"Superintendent\",\n      \"employee\": {\n        \"@type\": \"Person\",\n        \"name\": \"John Olof Erikson\"\n      },\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rydboholms A-B\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1936\",\n      \"roleName\": \"Deputy Managing Director\",\n      \"employee\": {\n        \"@type\": \"Person\",\n        \"name\": \"John Olof Erikson\"\n      },\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rydboholms A-B\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"roleName\": \"Managing Director\",\n      \"employee\": {\n        \"@type\": \"Person\",\n        \"name\": \"John Olof Erikson\"\n      },\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B John Erikson & Co.\",\n        \"location\": \"Borås\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kinnaströms Väfveri A-B\",\n      \"membershipType\": \"Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rydahls Manufaktur A-B\",\n      \"membershipType\": \"Board\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "John Olof Erikson",
+        "jobTitle": "Director",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Rydboholm, Älvsborg"
+        },
+        "birthDate": "1887-01-09",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Karlson",
+            "marriageDate": "1922"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rut",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunhild",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "STUD_EXAM",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardedBy": "Gothenburg",
+                "yearAwarded": "1907"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "PROFESSIONAL_CERTIFICATION",
+                "name": "DHS",
+                "awardedBy": "",
+                "yearAwarded": "1918"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1918",
+                "endDate": "1920",
+                "roleName": "Clerk",
+                "employee": {
+                    "@type": "Person",
+                    "name": "John Olof Erikson"
+                },
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Kinnaströms Väfveri A-B",
+                    "location": "Kinna"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1921",
+                "endDate": "1926",
+                "roleName": "Superintendent",
+                "employee": {
+                    "@type": "Person",
+                    "name": "John Olof Erikson"
+                },
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Rydboholms A-B"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1926",
+                "endDate": "1936",
+                "roleName": "Deputy Managing Director",
+                "employee": {
+                    "@type": "Person",
+                    "name": "John Olof Erikson"
+                },
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Rydboholms A-B"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "roleName": "Managing Director",
+                "employee": {
+                    "@type": "Person",
+                    "name": "John Olof Erikson"
+                },
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B John Erikson & Co.",
+                    "location": "Borås"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Kinnaströms Väfveri A-B",
+                "membershipType": "Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rydahls Manufaktur A-B",
+                "membershipType": "Board"
+            }
+        ]
+    }
+}

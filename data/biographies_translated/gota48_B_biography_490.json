@@ -1,0 +1,108 @@
+{
+    "original": "Borgquist, Per-Axel Lionel, civilingenjör, Göteborg, f. 27/2/11 i Gbg av sjökapt. F. L. B. o. Edith Kjerstens-dotter. G. 40 m. Brita Bauge. Barn: Ulla-Brita f. 42, Bo 43. — Elev v. Gbgs h. real, CTI ^1. avd. 28-31, h. avd. (eltekn.) 31-34. Platsing. v. lin-jebyggn. v. Sydsv. Kraft A-B Kal-markont. 35, ÄEGs filial i Gbg ised. 37, AEG i Berlin 39-40, försäljn :chef sed. 47. Assist, v. CTH 39-45, lär. v. Gbgs Tekn. Inst. 40-46, led. av Tekn. Samf.",
+    "translated": "Borgquist, Per-Axel Lionel, engineer, Gothenburg, born February 27, 1911 in Gothenburg to ship captain F.L.B. and Edith Kjerstens-daughter. Married in 1940 to Brita Bauge, with two children: Ulla-Brita (born 1942) and Bo (born 1943). He was a student at Gothenburg's Higher Real Gymnasium, CTI ^1. Department from 1928-1931 and in the electrical engineering department from 1931-1934. He began working at the South Swedish Power Line Construction Company's Kalmar branch in 1935, at AEG's Gothenburg branch in 1937, and at AEG in Berlin from 1939-1940 as a sales manager, before returning to Sweden and becoming an assistant at Chalmers University of Technology from 1939-1945 and a lecturer at Gothenburg's Technical Institute from 1940-1946. He was also a member of the Swedish Society of Engineering.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Per-Axel Lionel Borgquist\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1911-02-27\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"F.L.B.\",\n      \"jobTitle\": \"Ship Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Edith Kjerstens-dotter\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Bauge\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla-Brita\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg's Higher Real Gymnasium\",\n      \"department\": \"CTI ^1. Department\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg's Higher Real Gymnasium\",\n      \"department\": \"electrical engineering department\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Society of Engineering\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"South Swedish Power Line Construction Company\",\n      \"branch\": \"Kalmar branch\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AEG\",\n      \"branch\": \"Gothenburg branch\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1940\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Sales Manager\",\n      \"workedFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AEG\",\n        \"branch\": \"Berlin\"\n      },\n      \"startDate\": \"1939\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant\",\n      \"workedFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Chalmers University of Technology\"\n      },\n      \"startDate\": \"1939\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Lecturer\",\n      \"workedFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Technical Institute\"\n      },\n      \"startDate\": \"1940\",\n      \"endDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Per-Axel Lionel Borgquist",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Sales Manager",
+                "workedFor": {
+                    "@type": "Organization",
+                    "name": "AEG",
+                    "branch": "Berlin"
+                },
+                "startDate": "1939",
+                "endDate": "1940"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant",
+                "workedFor": {
+                    "@type": "Organization",
+                    "name": "Chalmers University of Technology"
+                },
+                "startDate": "1939",
+                "endDate": "1945"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Lecturer",
+                "workedFor": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Technical Institute"
+                },
+                "startDate": "1940",
+                "endDate": "1946"
+            }
+        ],
+        "birthDate": "1911-02-27",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "F.L.B.",
+                "jobTitle": "Ship Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Edith Kjerstens-dotter"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Bauge",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla-Brita",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's Higher Real Gymnasium",
+                "department": "CTI ^1. Department",
+                "startDate": "1928",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's Higher Real Gymnasium",
+                "department": "electrical engineering department",
+                "startDate": "1931",
+                "endDate": "1934"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Society of Engineering"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "South Swedish Power Line Construction Company",
+                "branch": "Kalmar branch",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "AEG",
+                "branch": "Gothenburg branch",
+                "startDate": "1937",
+                "endDate": "1940"
+            }
+        ]
+    }
+}

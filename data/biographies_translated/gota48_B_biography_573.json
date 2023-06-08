@@ -1,0 +1,52 @@
+{
+    "original": "Brogren, Sten Karl Teodor, kyrkoherde, Kättilstad, f. 4/4/04 i Rystad, Östergötl. 1. — Stud:ex. i Linköp. 24, teol. fil. ex. 25, teol. kand. 27, prakt, teol. prov samt prästv. f. Linköp. stift 28. Pastorsadj. i Vallerstad 28, kommin. i Virserum 30, kyrkoh. i Kättilstad sed. 36. Ordf. i kyrkostämma.",
+    "translated": "Brogren, Sten Karl Teodor, clergyman, Kättilstad, born April 4th, 1904 in Rystad, Östergötland. He received his high school diploma in Linköping in 1924, theology degree in 1925, Bachelor of Theology degree in 1927, practical theology exam and ordination from the Linköping diocese in 1928. He served as a pastor's assistant in Vallerstad in 1928, curate in Virserum in 1930, and vicar of Kättilstad from 1936. He was also chairman of the church meeting. He got married in xx.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Sten Karl Teodor Brogren\",\n    \"jobTitle\": \"Clergyman\",\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Kättilstad\",\n        \"addressCountry\": \"Sweden\"\n    },\n    \"birthDate\": \"1904-04-04\",\n    \"birthPlace\": \"Rystad, Östergötland, Sweden\",\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"high school diploma\",\n            \"educationalLevel\": \"SecondarySchool\",\n            \"educationalProgramCompletionDate\": \"1924\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"Bachelor of Theology degree\",\n            \"educationalLevel\": \"CollegeOrUniversity\",\n            \"educationalProgramCompletionDate\": \"1927\"\n        }\n    ],\n    \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping diocese\",\n        \"subOrganization\": {\n            \"@type\": \"LocalBusiness\",\n            \"name\": \"Vallerstad\",\n            \"jobTitle\": \"Pastor's assistant\",\n            \"startDate\": \"1928\"\n        },\n        \"subOrganization\": {\n            \"@type\": \"LocalBusiness\",\n            \"name\": \"Virserum\",\n            \"jobTitle\": \"Curate\",\n            \"startDate\": \"1930\"\n        },\n        \"subOrganization\": {\n            \"@type\": \"LocalBusiness\",\n            \"name\": \"Kättilstad\",\n            \"jobTitle\": \"Vicar\",\n            \"startDate\": \"1936\"\n        }\n    },\n    \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kättilstad church\",\n        \"jobTitle\": \"Chairman of the church meeting\"\n    },\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"[Name of spouse]\",\n        \"dateOfMarriage\": \"[Date of marriage]\"\n    }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sten Karl Teodor Brogren",
+        "jobTitle": "Clergyman",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kättilstad",
+            "addressCountry": "Sweden"
+        },
+        "birthDate": "1904-04-04",
+        "birthPlace": "Rystad, Östergötland, Sweden",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "SecondarySchool",
+                "educationalProgramCompletionDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Theology degree",
+                "educationalLevel": "CollegeOrUniversity",
+                "educationalProgramCompletionDate": "1927"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Linköping diocese",
+            "subOrganization": {
+                "@type": "LocalBusiness",
+                "name": "Kättilstad",
+                "jobTitle": "Vicar",
+                "startDate": "1936"
+            }
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Kättilstad church",
+            "jobTitle": "Chairman of the church meeting"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "[Name of spouse]",
+            "dateOfMarriage": "[Date of marriage]"
+        }
+    }
+}

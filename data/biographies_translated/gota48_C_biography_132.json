@@ -1,0 +1,95 @@
+{
+    "original": "Collin, Erik, direktör, Göteborg, f. 6/4/89 i Gbg av grosshandl. Emil C. o. Elvira Stender. G. 15 m. Ragna Kylberg. Barn: Irene Elinor Margaret f. 15, Jo’han Emil William 19. — Stud:ex. 09, språk- o. yrkesstud. i Engl, Tyskl. o. USA 10-13. Verkst. dir. i Lindahl &amp; Collin, assurans- o. haveribyrå. Styr :iled. i A-B Gbgs Bank, Rederi A-B Transatlantic, A-B Bililingsfors-Långed m. fl. boil., ’led. av hand:- o. sjöfartsnd i Gbg.",
+    "translated": "Collin, Erik, director, Gothenburg, born on April 6, 1889 in Gothenburg to merchant Emil C. and Elvira Stender. Married for 15 years to Ragna Kylberg. Children: Irene Elinor Margaret born in 1915, Jo’han Emil William born in 1919. He completed his high-school diploma in 1909, studied languages and professions in England, Germany, and the USA from 1910-1913. He became a managing director in Lindahl &amp; Collin, an insurance and marine survey firm. He serves as a board member of A-B Gothenburg Bank, Rederi A-B Transatlantic, A-B Bililingsfors-Långed, and other companies. He is a member of the commerce and shipping associations in Gothenburg.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Collin\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1889-04-06\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emil C. Collin\",\n    \"jobTitle\": \"Merchant\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elvira Stender\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ragna Kylberg\",\n    \"marriageDate\": \"15 years\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Irene Elinor Margaret\",\n      \"birthDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jo’han Emil William\",\n      \"birthDate\": \"1919\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"high-school diploma\",\n    \"awardDate\": \"1909\"\n  },\n  \"additionalProperty\": [\n    {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Language Studied\",\n      \"value\": [\n        \"English\",\n        \"German\",\n        \"USA\"\n      ]\n    },\n    {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Profession Studied\",\n      \"value\": [\n        \"Insurance\",\n        \"Marine Survey\"\n      ]\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Lindahl & Collin\",\n    \"jobTitle\": \"Managing Director\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Gothenburg Bank\",\n      \"jobTitle\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transatlantic\",\n      \"jobTitle\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Bililingsfors-Långed\",\n      \"jobTitle\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Commerce Association of Gothenburg\",\n      \"jobTitle\": \"Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Shipping Association of Gothenburg\",\n      \"jobTitle\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Collin",
+        "jobTitle": "Director",
+        "birthDate": "1889-04-06",
+        "birthPlace": "Gothenburg, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Emil C. Collin",
+            "jobTitle": "Merchant"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Elvira Stender"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ragna Kylberg",
+            "marriageDate": "15 years"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Irene Elinor Margaret",
+                "birthDate": "1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Jo’han Emil William",
+                "birthDate": "1919"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "high-school diploma",
+            "awardDate": "1909"
+        },
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Language Studied",
+                "value": [
+                    "English",
+                    "German",
+                    "USA"
+                ]
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Profession Studied",
+                "value": [
+                    "Insurance",
+                    "Marine Survey"
+                ]
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Lindahl & Collin",
+            "jobTitle": "Managing Director"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A-B Gothenburg Bank",
+                "jobTitle": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transatlantic",
+                "jobTitle": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Bililingsfors-Långed",
+                "jobTitle": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Commerce Association of Gothenburg",
+                "jobTitle": "Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Shipping Association of Gothenburg",
+                "jobTitle": "Member"
+            }
+        ]
+    }
+}

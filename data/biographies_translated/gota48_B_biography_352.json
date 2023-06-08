@@ -1,0 +1,81 @@
+{
+    "original": "Björkman, Torsten Gunnar, praktiserande läkare, Göteborg, f. 19/12/97 i Gbg av med. lic. Klas B. o. Ida Dorotea Janzon. G. 33 m. Margot Lindh. — Stud:ex. i Gbg 17, med. kand. i Upps. 24, med. lic. i Sthlm 34. Bad-läk. v. Helsjöns badanst. 36-38, prakt, läk. i Gbg, järnv:läk. v. Bergslag. Järnv. sed. 41, postläk. sed. 42.",
+    "translated": "Björkman, Torsten Gunnar, practicing physician, Gothenburg, b. December 19, 1897 in Gothenburg to medical licentiate Klas B. and Ida Dorotea Janzon. Married in 1933 to Margot Lindh. He passed his high school exams in Gothenburg in 1917, earned a degree in medicine in Uppsala in 1924, and obtained a medical license in Stockholm in 1934. He worked as a doctor at Helsjöns bathhouse from 1936-1938, and was a practicing physician in Gothenburg. He was a physician for Bergslag railway from 1941 and a postal physician from 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Torsten Gunnar Björkman\",\n  \"birthDate\": \"1897-12-19\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Klas B. Björkman\",\n    \"jobTitle\": \"Medical Licentiate\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ida Dorotea Janzon\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margot Lindh\",\n    \"marriageDate\": \"1933\"\n  },\n  \"jobTitle\": \"Practicing Physician\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Bergslag Railway\",\n    \"jobTitle\": \"Physician\"\n  },\n  \"education\": [{\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationLevel\": \"High School\",\n      \"earnedBy\": \"Torsten Gunnar Björkman\",\n      \"educationCredentialAwarded\": \"High school exams\",\n      \"educationalInstitution\": \"Gothenburg High School\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\"\n    }, {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationLevel\": \"Degree in Medicine\",\n      \"earnedBy\": \"Torsten Gunnar Björkman\",\n      \"educationalCredentialAwarded\": \"Medical Degree\",\n      \"educationalInstitution\": \"Uppsala University\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\"\n    }, {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationLevel\": \"Medical License\",\n      \"earnedBy\": \"Torsten Gunnar Björkman\",\n      \"educationalCredentialAwarded\": \"Medical License\",\n      \"educationalInstitution\": \"Stockholm\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"memberOf\": [{\n    \"@type\": \"Organization\",\n    \"name\": \"Helsjöns Bathhouse\",\n    \"jobTitle\": \"Doctor\",\n    \"startDate\": \"1936\",\n    \"endDate\": \"1938\"\n  }, {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\",\n    \"jobTitle\": \"Practicing Physician\"\n  }, {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Postal Service\",\n    \"jobTitle\": \"Postal Physician\",\n    \"startDate\": \"1942\"\n  }]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Torsten Gunnar Björkman",
+        "birthDate": "1897-12-19",
+        "birthPlace": "Gothenburg, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Klas B. Björkman",
+            "jobTitle": "Medical Licentiate"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Ida Dorotea Janzon"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margot Lindh",
+            "marriageDate": "1933"
+        },
+        "jobTitle": "Practicing Physician",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Bergslag Railway",
+            "jobTitle": "Physician"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": "High School",
+                "earnedBy": "Torsten Gunnar Björkman",
+                "educationCredentialAwarded": "High school exams",
+                "educationalInstitution": "Gothenburg High School",
+                "startDate": "1917",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": "Degree in Medicine",
+                "earnedBy": "Torsten Gunnar Björkman",
+                "educationalCredentialAwarded": "Medical Degree",
+                "educationalInstitution": "Uppsala University",
+                "startDate": "1924",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": "Medical License",
+                "earnedBy": "Torsten Gunnar Björkman",
+                "educationalCredentialAwarded": "Medical License",
+                "educationalInstitution": "Stockholm",
+                "startDate": "1934",
+                "endDate": "1934"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Helsjöns Bathhouse",
+                "jobTitle": "Doctor",
+                "startDate": "1936",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg",
+                "jobTitle": "Practicing Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Postal Physician",
+                "startDate": "1942"
+            }
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "original": "Boberg, Anders Ivar, bankdirektör, Vimmerby, f. 1/1/88 i Brunskog, Värml. 1., av Magnus B. o. Charlotta Persson. G. 25 m. Ellen Haller. — Realex. v. Karlstads h. a. 1. E. o. landskansl. i Växjö t. 18, anst. v. A-B Skånska hand rbanken 18-19, i Skand. banken sed. 19, dir. sed. 31. V. ordf. i fattigv :styr. o. pens :nd. Led. av stadsfulim.",
+    "translated": "Boberg, Anders Ivar, bank director, Vimmerby, born on January 1, 1888 in Brunskog, Värmland, first-born of Magnus B. and Charlotta Persson. Married on May 25, to Ellen Haller. Completed his secondary education at Karlstad's high school. Employed as a clerk at the county governor's office in Växjö until 1918, then worked for A-B Skånska Handelsbanken from 1918-1919 and for Skandinaviska Enskilda Banken since then, becoming a director in 1931. Vice chairman of the poor relief board and pension committee. Member of the town council.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Anders Ivar Boberg\",\n   \"jobTitle\": \"Bank Director\",\n   \"birthPlace\": \"Brunskog, Värmland, Sweden\",\n   \"birthDate\": \"1888-01-01\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Magnus B. Boberg\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Charlotta Persson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Haller\",\n      \"marriageDate\": \"25 May\"\n   },\n   \"education\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karlstad's High School\",\n      \"endDate\": \"1908\"\n   },\n   \"employmentHistory\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Växjö County Governor's Office\",\n         \"endDate\": \"1918\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Skånska Handelsbanken\",\n         \"startDate\": \"1918\",\n         \"endDate\": \"1919\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Skandinaviska Enskilda Banken\",\n         \"startDate\": \"1919\",\n         \"position\": \"Director\",\n         \"startDate\": \"1931\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Poor Relief Board\",\n         \"position\": \"Vice Chairman\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Pension Committee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Town Council\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Anders Ivar Boberg",
+        "jobTitle": "Bank Director",
+        "birthPlace": "Brunskog, Värmland, Sweden",
+        "birthDate": "1888-01-01",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Magnus B. Boberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotta Persson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Haller",
+            "marriageDate": "25 May"
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Karlstad's High School",
+            "endDate": "1908"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Växjö County Governor's Office",
+                "endDate": "1918"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Skånska Handelsbanken",
+                "startDate": "1918",
+                "endDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skandinaviska Enskilda Banken",
+                "startDate": "1931",
+                "position": "Director"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Poor Relief Board",
+                "position": "Vice Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Pension Committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Town Council"
+            }
+        ]
+    }
+}

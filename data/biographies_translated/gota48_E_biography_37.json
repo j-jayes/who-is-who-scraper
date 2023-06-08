@@ -1,0 +1,138 @@
+{
+    "original": "Edström, Nils Erik, tandläkare, Göteborg, f. 7/9/04 i Frösön, Jämtl. 1., av kyrkoh. Johan Olof E. o. Hanna Cederberg. G. 29 m. Vera Henriksson. Barn: Jan-Erik f. 31, Birgitta 33, Anders 38. — Stud :ex. i Öistersund 23, tandhkand. 25, tandl. 27. Stud:-resa t. Tyskl. 36, stud. behandl. av käkskadade på krigsilas, i Wien o. Ber-hn 42. Prakt, i Markaryd 27-30, i Gbg sed. 30.",
+    "translated": "Edström, Nils Erik, dentist, Gothenburg, born on September 7th, 1904 in Frösön, Jämtland county, son of the vicar Johan Olof E. and Hanna Cederberg. Married on the 29th of an unknown month in an unknown year to Vera Henriksson. Children: Jan-Erik born in 1931, Birgitta in 1933, Anders in 1938. He studied in Östersund and received his degree in dentistry in 1925 and became a licensed dentist in 1927. He went on a study trip to Germany in 1936 and to Vienna and Berlin in 1942 for the treatment of jaw injuries. He practiced dentistry in Markaryd from 1927 to 1930 and in Gothenburg from 1930 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Erik Edström\",\n  \"description\": \"Dentist in Gothenburg\",\n  \"birthDate\": \"1904-09-07\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Frösön\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Olof Edström\",\n      \"sameAs\": \"https://en.wikipedia.org/wiki/Johan_Edström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Cederberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vera Henriksson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan-Erik Edström\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Edström\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Edström\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"identifier\": \"Östersund\",\n      \"credentialCategory\": \"Degree\",\n      \"description\": \"Studied in Östersund\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"License\",\n      \"description\": \"Became a licensed dentist\",\n      \"startDate\": \"1927\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Association\",\n      \"url\": \"https://www.swedental.se/\"\n    }\n  ],\n  \"birthOrder\": \"1\",\n  \"deathDate\": \"1987\",\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Dental practice in Gothenburg\"\n  },\n  \"studyAbroad\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"identifier\": \"Germany\",\n      \"description\": \"Study trip to Germany\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"MedicalStudy\",\n      \"identifier\": \"Vienna\",\n      \"description\": \"Study of jaw injuries in Vienna\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1942\",\n      \"studySubject\": {\n        \"@type\": \"MedicalCondition\",\n        \"name\": \"Jaw injuries\"\n      },\n      \"studyLocation\": {\n        \"@type\": \"City\",\n        \"name\": \"Vienna\"\n      }\n    },\n    {\n      \"@type\": \"MedicalStudy\",\n      \"identifier\": \"Berlin\",\n      \"description\": \"Study of jaw injuries in Berlin\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1942\",\n      \"studySubject\": {\n        \"@type\": \"MedicalCondition\",\n        \"name\": \"Jaw injuries\"\n      },\n      \"studyLocation\": {\n        \"@type\": \"City\",\n        \"name\": \"Berlin\"\n      }\n    }\n  ],\n  \"hasPracticed\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Markaryd dental practice\",\n      \"description\": \"Practiced dentistry in Markaryd\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg dental practice\",\n      \"description\": \"Practiced dentistry in Gothenburg\",\n      \"startDate\": \"1930\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nils Erik Edström",
+        "description": "Dentist in Gothenburg",
+        "birthDate": "1904-09-07",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Frösön"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Olof Edström",
+                "sameAs": "https://en.wikipedia.org/wiki/Johan_Edström"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Cederberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vera Henriksson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan-Erik Edström",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Edström",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Edström",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "identifier": "Östersund",
+                "credentialCategory": "Degree",
+                "description": "Studied in Östersund",
+                "startDate": "1923",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "License",
+                "description": "Became a licensed dentist",
+                "startDate": "1927"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Dental Association",
+                "url": "https://www.swedental.se/"
+            }
+        ],
+        "birthOrder": "1",
+        "deathDate": "1987",
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Dental practice in Gothenburg"
+        },
+        "studyAbroad": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "identifier": "Germany",
+                "description": "Study trip to Germany",
+                "startDate": "1936"
+            },
+            {
+                "@type": "MedicalStudy",
+                "identifier": "Vienna",
+                "description": "Study of jaw injuries in Vienna",
+                "startDate": "1942",
+                "endDate": "1942",
+                "studySubject": {
+                    "@type": "MedicalCondition",
+                    "name": "Jaw injuries"
+                },
+                "studyLocation": {
+                    "@type": "City",
+                    "name": "Vienna"
+                }
+            },
+            {
+                "@type": "MedicalStudy",
+                "identifier": "Berlin",
+                "description": "Study of jaw injuries in Berlin",
+                "startDate": "1942",
+                "endDate": "1942",
+                "studySubject": {
+                    "@type": "MedicalCondition",
+                    "name": "Jaw injuries"
+                },
+                "studyLocation": {
+                    "@type": "City",
+                    "name": "Berlin"
+                }
+            }
+        ],
+        "hasPracticed": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Markaryd dental practice",
+                "description": "Practiced dentistry in Markaryd",
+                "startDate": "1927",
+                "endDate": "1930"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg dental practice",
+                "description": "Practiced dentistry in Gothenburg",
+                "startDate": "1930"
+            }
+        ]
+    }
+}

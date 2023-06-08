@@ -1,0 +1,44 @@
+{
+    "original": "Ek, Erik Harald, tullförvaltare, Kalmar, f. 13/2/86 i Gbg. G. 16 m. Ellen Katarina Pettersson. — Stud:ex. v. Gbgs h. latin 06. Anst. i tullverket fr. 07, ord. kamm:skriv. 17, tullkontr. 32, förste tullkontr. 40, tullförv. i Kalm. fr. 43, dessut. skeppsmät. fr. 19.",
+    "translated": "Ek, Erik Harald, customs official, Kalmar, b. 13/2/86 in Gothenburg. Married to Ellen Katarina Pettersson in 1916. - Graduated from Gothenburg high school in 1906. Employed in customs service from 1907, regular chamber clerk from 1917, customs inspector from 1932, senior customs inspector from 1940, customs manager in Kalmar from 1943, also ship measurer from 1919.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Harald Ek\",\n  \"birthDate\": \"1886-02-13\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"jobTitle\": \"Customs official\",\n  \"worksFor\": \"Swedish Customs Service\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Katarina Pettersson\",\n    \"marriageDate\": \"1916\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"highSchoolDiploma\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School\"\n    },\n    \"dateIssued\": \"1906\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Customs Service\"\n  },\n  \"jobStartDate\": \"1907\",\n  \"jobTitle\": \"Regular Chamber Clerk\",\n  \"occupationLocation\": {\n    \"@type\": \"AdministrativeArea\",\n    \"name\": \"Sweden\"\n  },\n  \"jobStartDate\": \"1932\",\n  \"jobTitle\": \"Customs inspector\",\n  \"jobStartDate\": \"1940\",\n  \"jobTitle\": \"Senior customs inspector\",\n  \"jobStartDate\": \"1943\",\n  \"jobTitle\": \"Customs manager in Kalmar\",\n  \"additionalProperty\": [\n    {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Ship Measurer\",\n      \"value\": \"1919\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Harald Ek",
+        "birthDate": "1886-02-13",
+        "birthPlace": "Gothenburg, Sweden",
+        "jobTitle": "Customs manager in Kalmar",
+        "worksFor": "Swedish Customs Service",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Katarina Pettersson",
+            "marriageDate": "1916"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "highSchoolDiploma",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School"
+            },
+            "dateIssued": "1906"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Customs Service"
+        },
+        "jobStartDate": "1943",
+        "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Sweden"
+        },
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Ship Measurer",
+                "value": "1919"
+            }
+        ]
+    }
+}

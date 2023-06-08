@@ -1,0 +1,140 @@
+{
+    "original": "Bjarne, Nils Johan Otto, läroverksadjunkt, Laholm, f. 5/8/85 i Tryde, Krist. 1. G. 19 m. ämneslär. Gulli Bergqvist. Barn: se denna. — Folkskoll :ex. 07, stud:ex. i Hälsingb. 11, fil. kand. i Lund 13, fil. mag. 14. E. lär. i Nederkalix 15, ord. ämneslär. där 15, rektor o. ord. ämneslär. v. komm. mellansk. i Laholm 15-30, rektor o. adj. v. samrealsk. där 30-33, lä-roverksadj. sed. 33. Hobby: vinodling.",
+    "translated": "Bjarne, Nils Johan Otto, high school teacher, from Laholm, born August 5, 1885 in Tryde, Krist. Married in 1919 to subject teacher Gulli Bergqvist. Children: see this. - Graduated from elementary school in 1907, studied at Hälsingb. in 1911, received Bachelor of Arts degree from Lund in 1913, and Master of Arts in 1914. Became a teacher in Nederkalix in 1915, became a regular subject teacher there in 1915, principal and regular subject teacher in the central municipality of Laholm from 1915-1930, principal and adjunct at the secondary school there from 1930-1933, and high school teacher since 1933. Hobby: vineyard cultivation.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Nils Johan Otto\",\n  \"familyName\": \"Bjarne\",\n  \"birthDate\": \"1885-08-05\",\n  \"birthPlace\": \"Tryde, Krist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Laholm\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gulli Bergqvist\",\n    \"occupation\": \"Subject Teacher\",\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Laholm\"\n    },\n    \"dateOfMarriage\": \"1919\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": [],\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Laholm\"\n    }\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Folkskoll\",\n      \"dateEarned\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied at Hälsingb.\",\n      \"dateEarned\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"dateEarned\": \"1913\",\n      \"earnedFrom\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Lund\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts\",\n      \"educationalLevel\": \"MasterDegree\",\n      \"dateEarned\": \"1914\",\n      \"earnedFrom\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Lund\"\n      }\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Elementary School Teacher\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1915\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nederkalix\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Regular Subject Teacher\",\n      \"startDate\": \"1915\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nederkalix\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Principal and Regular Subject Teacher\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1930\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Laholm\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Principal and Adjunct at the Secondary School\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1933\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Laholm\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"High School Teacher\",\n      \"startDate\": \"1933\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Laholm\"\n      }\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Nederkalix\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Laholm\"\n    }\n  ],\n  \"additionalName\": \"Läroverksadjunkt\",\n  \"sameAs\": {\n    \"@type\": \"URL\",\n    \"url\": \"https://en.wikipedia.org/wiki/Nils_Johan_Otto_Bjarne\"\n  },\n  \"knowsAbout\": {\n    \"@type\": \"Thing\",\n    \"name\": \"Swedish family history\"\n  },\n  \"hobby\": {\n    \"@type\": \"Thing\",\n    \"name\": \"Vinodling\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Nils Johan Otto",
+        "familyName": "Bjarne",
+        "birthDate": "1885-08-05",
+        "birthPlace": "Tryde, Krist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Laholm"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Gulli Bergqvist",
+            "occupation": "Subject Teacher",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Laholm"
+            },
+            "dateOfMarriage": "1919"
+        },
+        "children": {
+            "@type": "Person",
+            "name": [],
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Laholm"
+            }
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Folkskoll",
+                "dateEarned": "1907"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied at Hälsingb.",
+                "dateEarned": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "educationalLevel": "BachelorDegree",
+                "dateEarned": "1913",
+                "earnedFrom": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts",
+                "educationalLevel": "MasterDegree",
+                "dateEarned": "1914",
+                "earnedFrom": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                }
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Elementary School Teacher",
+                "startDate": "1915",
+                "endDate": "1915",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Nederkalix"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Regular Subject Teacher",
+                "startDate": "1915",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Nederkalix"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Principal and Regular Subject Teacher",
+                "startDate": "1915",
+                "endDate": "1930",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Laholm"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Principal and Adjunct at the Secondary School",
+                "startDate": "1930",
+                "endDate": "1933",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Laholm"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "High School Teacher",
+                "startDate": "1933",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Laholm"
+                }
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Nederkalix"
+            },
+            {
+                "@type": "Place",
+                "name": "Laholm"
+            }
+        ],
+        "additionalName": "Läroverksadjunkt",
+        "sameAs": {
+            "@type": "URL",
+            "url": "https://en.wikipedia.org/wiki/Nils_Johan_Otto_Bjarne"
+        },
+        "knowsAbout": {
+            "@type": "Thing",
+            "name": "Swedish family history"
+        },
+        "hobby": {
+            "@type": "Thing",
+            "name": "Vinodling"
+        }
+    }
+}

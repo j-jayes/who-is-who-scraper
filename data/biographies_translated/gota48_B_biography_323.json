@@ -1,0 +1,76 @@
+{
+    "original": "Björkbom, Carl Hjalmar, civihngen-jör, Trollhättan, f. 17/12/07 i Sthlm av Valfrid B. o. Clary Hammer. G. 34 m. Britte Söderberg. Barn: Eva o. Hans ff. 43. — Stud:ex. 25, KTH 33. Anst. v. SKF i Gbg 33-43, v. Svenska Flygmotor A-B i Trodilhättan sed. 43.",
+    "translated": "Björkbom, Carl Hjalmar, civilingenjör (engineer), from Trollhättan, born on December 17th, 1907 in Stockholm to parents Valfrid B. and Clary Hammer. He married Britte Söderberg in 1934 and they had two children, Eva and Hans, born in 1943. He completed his high school studies in 1925 and studied at KTH (Royal Institute of Technology) in 1933. He was employed at SKF in Gothenburg from 1933-1943 and then worked for Svenska Flygmotor A-B in Trollhättan from 1943 onward.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Hjalmar Björkbom\",\n  \"birthDate\": \"1907-12-17\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Stockholm\"\n  },\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Trollhättan\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Valfrid B. Björkbom\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Clary Hammer\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Britte Söderberg\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Björkbom\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Björkbom\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Royal Institute of Technology\",\n    \"startDate\": \"1933\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SKF\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1943\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Svenska Flygmotor A-B\",\n      \"startDate\": \"1943\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Trollhättan\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl Hjalmar Björkbom",
+        "birthDate": "1907-12-17",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stockholm"
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Trollhättan"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Valfrid B. Björkbom",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Clary Hammer",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Britte Söderberg",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva Björkbom",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans Björkbom",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Royal Institute of Technology",
+            "startDate": "1933"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "SKF",
+                "startDate": "1933",
+                "endDate": "1943",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Svenska Flygmotor A-B",
+                "startDate": "1943",
+                "location": {
+                    "@type": "Place",
+                    "name": "Trollhättan"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "original": "Christiansen, Vilhelm, överingenjör, Finspång, f. 27/6/9S i Vitsand, Värml. 1., av H. C. o. Emilia Enocksen. G. 22 m. Karin Tisell. Barn: Ulla f. 25, situd. v. univ. i Edinburgh, Bo 27, Kerstin 29, Per 34. — Stud:ex. i Karlstad 14, KTH (metallurgi) 16-20. Värmetekn. und:sökn. v. IVAsi kraft-o. bräns’leutredn, 20-23, metallurg o. lab :chef v. Finspångs Metallverks A-B sed. 23, nu A-B Sv. Metallverken, Finspong-verken, övering. där sed. 41. Skr.: upps. i facktidskr.",
+    "translated": "Christiansen, Vilhelm, chief engineer, Finspång, born June 27, 1895 in Vitsand, Värmland, first child of H. C. and Emilia Enocksen. Married in 1922 to Karin Tisell. Children: Ulla, born in 1925, studying at the University of Edinburgh, Bo in 1927, Kerstin in 1929, and Per in 1934. He passed his matriculation exam in Karlstad in 1914, and studied metallurgy at KTH from 1916 to 1920. He worked on heat technology and fuel investigations for IVA from 1920 to 1923, and was a metallurgist and laboratory manager for Finspångs Metallverks AB since 1923, currently known as AB Svenska Metallverken, and has been chief engineer there since 1941. He has authored papers in professional journals.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Vilhelm Christiansen\",\n  \"jobTitle\": \"Chief Engineer\",\n  \"birthDate\": \"1895-06-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Vitsand, Värmland\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"H. C. Enocksen\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emilia Enocksen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Tisell\",\n    \"marriageDate\": \"1922\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Christiansen\",\n      \"birthDate\": \"1925\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"University of Edinburgh\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Christiansen\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Christiansen\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Christiansen\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Karlstad\",\n      \"description\": \"High school matriculation examination\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"startDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Metallurgy\",\n      \"description\": \"KTH (Royal Institute of Technology, Stockholm) 1916-1920\",\n      \"educationalLevel\": \"BachelorDegree\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"IVAsi kraft-o. bräns’leutredn\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finspångs Metallverks AB\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Svenska Metallverken\",\n      \"startDate\": \"1941\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"AB Svenska Metallverken\"\n  },\n  \"jobStartDate\": \"1941\",\n  \"description\": \"Metallurgist and laboratory manager who has authored papers in professional journals\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Vilhelm Christiansen",
+        "jobTitle": "Chief Engineer",
+        "birthDate": "1895-06-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Vitsand, Värmland"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "H. C. Enocksen"
+            },
+            {
+                "@type": "Person",
+                "name": "Emilia Enocksen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Tisell",
+            "marriageDate": "1922"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla Christiansen",
+                "birthDate": "1925",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Edinburgh"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Christiansen",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Christiansen",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Christiansen",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Karlstad",
+                "description": "High school matriculation examination",
+                "educationalLevel": "SecondaryEducation",
+                "startDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Metallurgy",
+                "description": "KTH (Royal Institute of Technology, Stockholm) 1916-1920",
+                "educationalLevel": "BachelorDegree"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "IVAsi kraft-o. bräns’leutredn",
+                "startDate": "1920",
+                "endDate": "1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Finspångs Metallverks AB",
+                "startDate": "1923",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Svenska Metallverken",
+                "startDate": "1941"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "AB Svenska Metallverken"
+        },
+        "jobStartDate": "1941",
+        "description": "Metallurgist and laboratory manager who has authored papers in professional journals"
+    }
+}

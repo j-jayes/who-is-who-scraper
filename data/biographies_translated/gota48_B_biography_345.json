@@ -1,0 +1,94 @@
+{
+    "original": "Björkman, Halvor Nils Henrik, hemmansägare, Bråta, Borensberg, f. 25/ 12/88 i Rappestad, östergötl. 1., av Nils B. o. Henny CorneHus. G. 18 m. Astrid Simonsson. Barn: Nils f. 19, Bernt 21, Jan 25. — Stud:ex. 07, fil. kand. 13, fil. mag. 14. Landstingsman 30-46, led. av landstingets ddstr :vårds-styr. sed. 36, suppl. i förvaltn :utsk. o. led. av direkt, f. länslas., led. av styr. f. Allm. valmiförb, f. Östergötl., rev. i RLF östgötaavd., ordf. i Bobergs högerfören.",
+    "translated": "Björkman, Halvor Nils Henrik, homesteader, Bråta, Borensberg, born on December 25th, 1888 in Rappestad, Östergötland, son of Nils B. and Henny CorneHus. Married in 1918 to Astrid Simonsson. Children: Nils born in 1919, Bernt in 1921, Jan in 1925. He graduated high school in 1907, Bachelor of Arts in 1913, and Master of Arts in 1914. He was a member of the county council from 1930 to 1946, a member of the council's healthcare committee since 1936, a substitute in the management committee, and a member of the board of directors of the county insurance company. He was a member of the board of directors for the General Election Association of Östergötland, auditor in the Swedish Farmers Association's Östergötland branch, and chairman of the Boberg's Right Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Halvor Nils Henrik Björkman\",\n  \"birthDate\": \"1888-12-25\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Rappestad\",\n      \"addressRegion\": \"Östergötland\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henny CorneHus\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Simonsson\",\n    \"marriageDate\": \"1918\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bernt\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan\",\n      \"birthDate\": \"1925\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"edLevel\": \"high school\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Ministry of Education\"\n      },\n      \"educationalLevel\": \"Upper secondary education\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"edLevel\": \"bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Fil. kand.\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"master's degree\",\n      \"edLevel\": \"master's degree\",\n      \"educationalCredentialAwarded\": \"Fil. mag.\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östergötland County Council\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"General Election Association of Östergötland\",\n      \"roleName\": \"board of directors\",\n      \"startDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Farmers Association's Östergötland Branch\",\n      \"roleName\": \"auditor\",\n      \"startDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Boberg's Right Association\",\n      \"roleName\": \"chairman\",\n      \"startDate\": \"unknown\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Östergötland County Insurance Company\",\n    \"roleName\": \"board of directors\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"County Council's Healthcare Committee\",\n    \"startDate\": \"1936\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"County Council's Administrative Committee\",\n    \"roleName\": \"substitute\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Halvor Nils Henrik Björkman",
+        "birthDate": "1888-12-25",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Rappestad",
+                "addressRegion": "Östergötland"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils B."
+            },
+            {
+                "@type": "Person",
+                "name": "Henny CorneHus"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Simonsson",
+            "marriageDate": "1918"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Nils",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Bernt",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan",
+                "birthDate": "1925"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "edLevel": "high school",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Swedish Ministry of Education"
+                },
+                "educationalLevel": "Upper secondary education"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "edLevel": "bachelor's degree",
+                "educationalCredentialAwarded": "Fil. kand.",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "master's degree",
+                "edLevel": "master's degree",
+                "educationalCredentialAwarded": "Fil. mag.",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "County Council's Administrative Committee",
+            "roleName": "substitute"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Östergötland County Insurance Company",
+            "roleName": "board of directors"
+        }
+    }
+}

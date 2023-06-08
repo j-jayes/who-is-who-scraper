@@ -1,0 +1,149 @@
+{
+    "original": "Björnby, Per Harald, praktiserande läkare, Falkenberg, f. 3/3/03 i Arboga. G. 32 m. Ingeborg Östnäs. Barn: Anita f. 34, Per 36. — Stud:ex. i Västerås 22, med. kand. i Upps. 26, med. lic. där 31. E. o. aman. v. patolog, inst. i Upps. 26, e. läk. v. Sätra brunn 26-28, und:läk. där 30-32, assist :läk. v. Akad. sjukh. med. avd. 31, v. otolaryngolog. avd. där s. å. samt v. kir. avd. 32, läk. v. Falkenbergs havsbad sed. 33, v. Falkenbergs epid:sjukh. 34, tf. stadsläk. där 34-35, prakt. läk. där sed. 32 samt skolläk. v. Katrinebergs folkhögsk. Led. av direkt, f. Falkenbergs las.",
+    "translated": "Björnby, Per Harald, practicing physician, Falkenberg, b. 3/3/03 in Arboga. Married in 1932 to Ingeborg Östnäs. Children: Anita b. 1934, Per b. 1936. He graduated from high school in Västerås in 1922, received his medical degree from Uppsala in 1926, and became a licensed physician there in 1931. He served as an assistant in the pathology department in Uppsala in 1926, as a physician at Sätra brunn from 1926-1928, as a junior physician there from 1930-1932, as an assistant physician in the medical department of Akademiska sjukhuset in 1931, in the otolaryngology department the same year, and in the surgical department in 1932. He worked as a physician at Falkenbergs havsbad from 1933, at Falkenbergs epidemics hospital in 1934, as an interim city physician in Falkenberg from 1934-1935, as a practicing physician in Falkenberg from 1932, and as a school physician at Katrinebergs folkhögskola. He was also a member of the board of directors for Falkenbergs las.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Harald Björnby\",\n  \"birthDate\": \"1903-03-03\",\n  \"birthPlace\": \"Arboga\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Practicing physician\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Falkenbergs las\",\n    \"memberOf\": {\n      \"@type\": \"BoardingPolicyType\",\n      \"name\": \"Board of Directors\"\n    }\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"HighSchool\",\n      \"name\": \"Västerås\",\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala\",\n      \"degree\": {\n        \"@type\": \"MedicalDegree\",\n        \"name\": \"Medical degree\",\n        \"dateAwarded\": \"1926\"\n      },\n      \"alumniOf\": {\n        \"@type\": \"MedicalSchool\",\n        \"name\": \"Medicine\"\n      }\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Östnäs\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anita\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per\",\n      \"birthDate\": \"1936\"\n    }\n  ],\n  \"medicalSpecialty\": {\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"General practice\"\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Pathologist\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sätra brunn\"\n      }\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Junior physician\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sätra brunn\"\n      }\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Assistant physician\",\n      \"startDate\": \"1931\",\n      \"worksFor\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Akademiska sjukhuset\",\n          \"department\": \"Medical department\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Akademiska sjukhuset\",\n          \"department\": \"Otolaryngology department\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Akademiska sjukhuset\",\n          \"department\": \"Surgical department\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Physician\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\",\n      \"worksFor\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Falkenbergs havsbad\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Falkenbergs epidemics hospital\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Interim city physician\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Falkenberg\"\n      }\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Practicing physician\",\n      \"startDate\": \"1932\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Falkenberg\"\n      }\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"School physician\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Katrinebergs folkhögskola\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Harald Björnby",
+        "birthDate": "1903-03-03",
+        "birthPlace": "Arboga",
+        "nationality": "Swedish",
+        "jobTitle": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Pathologist",
+                "startDate": "1926",
+                "endDate": "1928",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Sätra brunn"
+                }
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Junior physician",
+                "startDate": "1930",
+                "endDate": "1932",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Sätra brunn"
+                }
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Assistant physician",
+                "startDate": "1931",
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Akademiska sjukhuset",
+                        "department": "Medical department"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Akademiska sjukhuset",
+                        "department": "Otolaryngology department"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Akademiska sjukhuset",
+                        "department": "Surgical department"
+                    }
+                ]
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Physician",
+                "startDate": "1933",
+                "endDate": "1934",
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Falkenbergs havsbad"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Falkenbergs epidemics hospital"
+                    }
+                ]
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Interim city physician",
+                "startDate": "1934",
+                "endDate": "1935",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Falkenberg"
+                }
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Practicing physician",
+                "startDate": "1932",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Falkenberg"
+                }
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "School physician",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Katrinebergs folkhögskola"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Falkenbergs las",
+            "memberOf": {
+                "@type": "BoardingPolicyType",
+                "name": "Board of Directors"
+            }
+        },
+        "alumniOf": [
+            {
+                "@type": "HighSchool",
+                "name": "Västerås",
+                "startDate": "1922"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala",
+                "degree": {
+                    "@type": "MedicalDegree",
+                    "name": "Medical degree",
+                    "dateAwarded": "1926"
+                },
+                "alumniOf": {
+                    "@type": "MedicalSchool",
+                    "name": "Medicine"
+                }
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Östnäs",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anita",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Per",
+                "birthDate": "1936"
+            }
+        ],
+        "medicalSpecialty": {
+            "@type": "MedicalSpecialty",
+            "name": "General practice"
+        }
+    }
+}

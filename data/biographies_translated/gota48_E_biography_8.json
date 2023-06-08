@@ -1,0 +1,93 @@
+{
+    "original": "Eckerström, Åke Emil Fredrik Robert, advokat, Vimmerby, f. 7/4/04 i Karlskrona av kapt. Nils Johan Carl E. o. Amy Jemima Elisabet Nyberg. G. 33 m. Ingrid Smitterberg. Barn: Birgitta f. 35, Agneta 37, Christer Åkesson 41. — Stud:ex. i Karlskrona 22, jur. kand. i Sthlm 29. Tingstjg. i V. Göinge 29-32, bitr. jur. å Sven Graucobs Adv :byrå i Sthlm 32-37, egen adv iverksamh. i Vimmerby sed. 37. Led. av Sv:es adv:samf. 35.",
+    "translated": "Eckerström, Åke Emil Fredrik Robert, lawyer, born on 7/4/04 in Karlskrona to Captain Nils Johan Carl E. and Amy Jemima Elisabet Nyberg. Married Ingrid Smitterberg in 1933, and had three children: Birgitta, born 1935, Agneta, born 1937, and Christer Åkesson, born 1941. He received his High school diploma in Karlskrona in 1922 and earned his law degree in Stockholm in 1929. Worked as an associate judge at the V. Göinge district court from 1929-1932 and later worked as a clerk at the Sven Graucob law firm in Stockholm from 1932-1937. He started working as an independent attorney in Vimmerby in 1937. He was a member of the Swedish Bar Association since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Emil Fredrik Robert Eckerström\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1904-04-07\",\n  \"birthPlace\": \"Karlskrona, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Johan Carl Eckerström\",\n      \"jobTitle\": \"Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amy Jemima Elisabet Nyberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Smitterberg\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Eckerström\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agneta Eckerström\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christer Åkesson Eckerström\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"UpperSecondarySchool\",\n      \"educationCredentialAwarded\": \"Stud:ex.\",\n      \"educationalSpecialization\": \"Karlskrona\",\n      \"awardDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Law degree\",\n      \"educationalLevel\": \"Master's degree\",\n      \"educationCredentialAwarded\": \"Jur. kand.\",\n      \"educationalSpecialization\": \"Stockholm\",\n      \"awardDate\": \"1929\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Court\",\n      \"name\": \"V. Göinge district court\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\",\n      \"jobTitle\": \"Associate judge\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Sven Graucob law firm\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1937\",\n      \"jobTitle\": \"Clerk\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Independent law practice in Vimmerby\",\n      \"startDate\": \"1937\",\n      \"jobTitle\": \"Attorney\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Åke Emil Fredrik Robert Eckerström",
+        "jobTitle": "Lawyer",
+        "birthDate": "1904-04-07",
+        "birthPlace": "Karlskrona, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils Johan Carl Eckerström",
+                "jobTitle": "Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Amy Jemima Elisabet Nyberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Smitterberg",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta Eckerström",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta Eckerström",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Christer Åkesson Eckerström",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "UpperSecondarySchool",
+                "educationCredentialAwarded": "Stud:ex.",
+                "educationalSpecialization": "Karlskrona",
+                "awardDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Law degree",
+                "educationalLevel": "Master's degree",
+                "educationCredentialAwarded": "Jur. kand.",
+                "educationalSpecialization": "Stockholm",
+                "awardDate": "1929"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1935"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Court",
+                "name": "V. Göinge district court",
+                "startDate": "1929",
+                "endDate": "1932",
+                "jobTitle": "Associate judge"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Sven Graucob law firm",
+                "startDate": "1932",
+                "endDate": "1937",
+                "jobTitle": "Clerk"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Independent law practice in Vimmerby",
+                "startDate": "1937",
+                "jobTitle": "Attorney"
+            }
+        ]
+    }
+}

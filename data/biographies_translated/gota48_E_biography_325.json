@@ -1,0 +1,133 @@
+{
+    "original": "Ericson, Johannes Mattias, läroverksadjunkt, Kinna, f. 10/7/01 i Kin-narumma, Älvsb. k, av lagerbokhåll. Carl E. o. Elma Eriksson. G. 32 m. Alice Andersson. Barn: Lars-Göran f. 35. — Stud:ex. i Borås 22, fil. kand. i Lund 28, folksk :lär :ex. i Växjö 31. Vik. adj. o. e. lär. v, Härnösands h. a. 1. 31-34, ämneslär. v. Emmaboda komm. mellansk. 35-38, dito v. Kinna samrealsk. sed. 46. Led. av styr. f. HSB i Kinna sed. 44. Hobiby: cykelfärder.",
+    "translated": "Ericson, Johannes Mattias, high school teacher, Kinna, b. 10/7/01 in Kin-narumma, Älvsborg county, son of warehouse keeper Carl E. and Elma Eriksson. Married in 1932 to Alice Andersson. Children: Lars-Göran b. 1935. Studied at Borås graduating class in 1922, graduated from Lund University with a Bachelor of Arts degree in 1928, and received a teaching degree for elementary school in Växjö in 1931. Temporary teacher and teacher's assistant at Härnösands higher secondary school from 1931 to 1934, subject teacher in Emmaboda 35-38, and in Kinna secondary school from 1946. Member of the board of HSB (Housing Association) in Kinna since 1944. Hobbies: cycling.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johannes Mattias Ericson\",\n  \"jobTitle\": \"High School Teacher\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kin-narumma, Älvsborg County, Sweden\"\n  },\n  \"birthDate\": \"1901-10-07\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl E. Eriksson\",\n      \"jobTitle\": \"Warehouse Keeper\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elma Eriksson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alice Andersson\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Göran Ericson\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. (Graduation Certificate)\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Borås\"\n      },\n      \"credentialCategory\": \"certificate\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"June 1922\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Fil. kand. (Bachelor of Arts)\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Lund University\"\n      },\n      \"credentialCategory\": \"degree\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1928\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Folksk :lär :ex. (Teaching Degree for Elementary School)\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Växjö\"\n      },\n      \"credentialCategory\": \"degree\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1931\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"HSB\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kinna Board\"\n      },\n      \"startDate\": \"1944\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Temporary Teacher\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Härnösands Higher Secondary School\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Teacher's Assistant\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Härnösands Higher Secondary School\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Subject Teacher\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1938\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Emmaboda\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Subject Teacher\",\n      \"startDate\": \"1946\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Kinna Secondary School\"\n      }\n    }\n  ],\n  \"knowsAbout\": \"Cycling\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johannes Mattias Ericson",
+        "jobTitle": "High School Teacher",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kin-narumma, Älvsborg County, Sweden"
+        },
+        "birthDate": "1901-10-07",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl E. Eriksson",
+                "jobTitle": "Warehouse Keeper"
+            },
+            {
+                "@type": "Person",
+                "name": "Elma Eriksson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Alice Andersson",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars-Göran Ericson",
+                "birthDate": "1935"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. (Graduation Certificate)",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Borås"
+                },
+                "credentialCategory": "certificate",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "June 1922"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil. kand. (Bachelor of Arts)",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University"
+                },
+                "credentialCategory": "degree",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1928"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Folksk :lär :ex. (Teaching Degree for Elementary School)",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Växjö"
+                },
+                "credentialCategory": "degree",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1931"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "HSB",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Kinna Board"
+                },
+                "startDate": "1944"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Temporary Teacher",
+                "startDate": "1931",
+                "endDate": "1934",
+                "location": {
+                    "@type": "Place",
+                    "name": "Härnösands Higher Secondary School"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Teacher's Assistant",
+                "startDate": "1931",
+                "endDate": "1934",
+                "location": {
+                    "@type": "Place",
+                    "name": "Härnösands Higher Secondary School"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Subject Teacher",
+                "startDate": "1935",
+                "endDate": "1938",
+                "location": {
+                    "@type": "Place",
+                    "name": "Emmaboda"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Subject Teacher",
+                "startDate": "1946",
+                "location": {
+                    "@type": "Place",
+                    "name": "Kinna Secondary School"
+                }
+            }
+        ],
+        "knowsAbout": "Cycling"
+    }
+}

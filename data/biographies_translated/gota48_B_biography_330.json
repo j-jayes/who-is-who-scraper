@@ -1,0 +1,177 @@
+{
+    "original": "Björkhagen, Karl David, kyrkoherde, Almvik, f. 20/11/86 i Brännkyrka, Sthlms 1., av C. J. Nilsson o. Kristina Olsson. G. 18 m. Ester Bartholdsson. Barn: Birgit f. 19, med. kand., Bertil 28, stud. — Mog:ex\". i Sthlm 07, teol. kand., prakt. teol. prov samt prästv. f. Linköp. stift 16. Past:adj. i Linköp. 16, kommin. i Hallingeberg 18, v. pastor där s. å., kommin. i Mjölby 21, v. pastor där s. å., i Högby s. å,, kyrkoh. i Törnsfall sed. 25. Ordf. i kyrkostämma o. skolråd.",
+    "translated": "Björkhagen, Karl David, vicar, Almvik, born November 20, 1886 in Brännkyrka, Stockholm County (city district), son of C.J. Nilsson and Kristina Olsson. Married in 1918 to Ester Bartholdsson. Children: Birgit, born in 1919, medical student, and Bertil, born in 1928, student. Graduated from Stockholm University in 1907 with a degree in theology, passed practical theology exams and was ordained in Linköping diocese in 1916. Served as curate in Linköping from 1916, vicar in Hallingeberg from 1918, assistant pastor there the same year, curate in Mjölby from 1921, assistant pastor there the same year, and in Högby the same year, parish vicar in Törnsfall since 1925. Chairman of the church meeting and school board. Note: \"\\d\\d m. partner's name\" means that the person married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl David Björkhagen\",\n  \"birthDate\": \"1886-11-20\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Brännkyrka\",\n      \"addressRegion\": \"Stockholm\",\n      \"postalCode\": \"\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.J. Nilsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Olsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ester Bartholdsson\",\n    \"dateMarried\": \"1918\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit Björkhagen\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil Björkhagen\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"institution\": {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Stockholm University\"\n    },\n    \"endDate\": \"1907\",\n    \"educationalCredentialAwarded\": \"Degree in Theology\"\n  },\n  \"jobTitle\": \"Vicar\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Diocese\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Curate\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1918\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping Diocese\"\n      },\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Linköping\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Vicar\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1921\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hallingeberg\"\n      },\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Hallingeberg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Assistant Pastor\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1921\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hallingeberg\"\n      },\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Hallingeberg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Curate\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1925\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Mjölby\"\n      },\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Mjölby\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Assistant Pastor\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1925\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Mjölby\"\n      },\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Mjölby\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Parish Vicar\",\n      \"startDate\": \"1925\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Törnsfall\"\n      },\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Törnsfall\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Meeting\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Karl David Björkhagen",
+        "birthDate": "1886-11-20",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Brännkyrka",
+                "addressRegion": "Stockholm",
+                "postalCode": "",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C.J. Nilsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Olsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ester Bartholdsson",
+            "dateMarried": "1918"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgit Björkhagen",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil Björkhagen",
+                "birthDate": "1928"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "institution": {
+                "@type": "CollegeOrUniversity",
+                "name": "Stockholm University"
+            },
+            "endDate": "1907",
+            "educationalCredentialAwarded": "Degree in Theology"
+        },
+        "jobTitle": "Vicar",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church Meeting"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "WorkExperience",
+                "title": "Curate",
+                "startDate": "1916",
+                "endDate": "1918",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Linköping Diocese"
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Linköping",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Vicar",
+                "startDate": "1918",
+                "endDate": "1921",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Hallingeberg"
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Hallingeberg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Assistant Pastor",
+                "startDate": "1918",
+                "endDate": "1921",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Hallingeberg"
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Hallingeberg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Curate",
+                "startDate": "1921",
+                "endDate": "1925",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Mjölby"
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Mjölby",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Assistant Pastor",
+                "startDate": "1921",
+                "endDate": "1925",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Mjölby"
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Mjölby",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Parish Vicar",
+                "startDate": "1925",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Törnsfall"
+                },
+                "jobLocation": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Törnsfall",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ]
+    }
+}

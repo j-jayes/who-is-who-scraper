@@ -1,0 +1,108 @@
+{
+    "original": "Berthelius, Tor, civilingenjör, Göteborg, f. 14/9/10 i Sthim av övering. Fredrik B. o. Anna Maria Peterssoa. G. m. Harriet Varenius. Barn: Ann f. 41, Per-Henrik 43. — Stud:ex. i Sthlm 30, KTH (M) 30-35, Techn. Hochsch. i Dresden 32. Studires. t. Tyskl., Österr., Tjeckoslov. 32, Tyskl., Österr., Ital., Schweiz 33, Tyskl. 35, USA 45-46. Provn:- o. experiment-ing. v. A-B Volvo, Pentaverken i Skövde, 35, labxhef 35-46, chef f. per-sonvagnavd. sed. 46 v. A-B Volvo, Gbg. Led. av Sv. tekn:fören.. Sv. fy-sikersamf., Tekn. fören. i Skövde m. fl in- o. uti. isammanislutn. Skr.: upp-s. i facktidis-kr.",
+    "translated": "Berthelius, Tor, engineer, Gothenburg, born September 14, 1910 in Stockholm to Captain Fredrik B. and Anna Maria Peterssoa. Married to Harriet Varenius. Children: Ann born in 1941, Per-Henrik born in 1943. He completed his high school education in Stockholm in 1930, studied at the Royal Institute of Technology (Master's Degree) from 1930 to 1935, and at the Technical University in Dresden in 1932. He also studied in Germany, Austria, and Czechoslovakia in 1932, in Germany, Austria, Italy, and Switzerland in 1933, in Germany in 1935, and in the USA from 1945 to 1946. He worked as a test and experimental engineer at AB Volvo, Pentaverken in Skövde in 1935, was a lab manager from 1935 to 1946, and has been head of the passenger car division at AB Volvo in Gothenburg since 1946. He is a member of the Swedish Society of Engineers, the Swedish Physical Society, the Technical Association in Skövde, and other domestic and international associations. He has published articles in professional journals.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tor Berthelius\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1910-09-14\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Captain Fredrik B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Maria Peterssoa\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Harriet Varenius\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann Berthelius\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Henrik Berthelius\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Royal Institute of Technology\",\n      \"location\": \"Stockholm, Sweden\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1935\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Master's Degree\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Technical University of Dresden\",\n      \"location\": \"Dresden, Germany\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"OccupationalExperience\",\n      \"name\": \"Test and Experimental Engineer\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1946\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Volvo, Pentaverken\"\n      }\n    },\n    {\n      \"@type\": \"OccupationalExperience\",\n      \"name\": \"Lab Manager\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1946\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Volvo\"\n      }\n    },\n    {\n      \"@type\": \"OccupationalExperience\",\n      \"name\": \"Head of Passenger Car Division\",\n      \"startDate\": \"1946\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Volvo\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Society of Engineers\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Physical Society\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Association in Skövde\"\n    }\n  ],\n  \"publication\": {\n    \"@type\": \"PublicationEvent\",\n    \"name\": \"Professional Journals\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tor Berthelius",
+        "jobTitle": "Engineer",
+        "birthDate": "1910-09-14",
+        "birthPlace": "Stockholm, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Captain Fredrik B."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Maria Peterssoa"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Harriet Varenius"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann Berthelius",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Per-Henrik Berthelius",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Royal Institute of Technology",
+                "location": "Stockholm, Sweden",
+                "startDate": "1930",
+                "endDate": "1935",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Master's Degree"
+                }
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Technical University of Dresden",
+                "location": "Dresden, Germany",
+                "startDate": "1932",
+                "endDate": "1932"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "OccupationalExperience",
+                "name": "Test and Experimental Engineer",
+                "startDate": "1935",
+                "endDate": "1946",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "AB Volvo, Pentaverken"
+                }
+            },
+            {
+                "@type": "OccupationalExperience",
+                "name": "Lab Manager",
+                "startDate": "1935",
+                "endDate": "1946",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "AB Volvo"
+                }
+            },
+            {
+                "@type": "OccupationalExperience",
+                "name": "Head of Passenger Car Division",
+                "startDate": "1946",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "AB Volvo"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Society of Engineers"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Physical Society"
+            },
+            {
+                "@type": "Organization",
+                "name": "Technical Association in Skövde"
+            }
+        ],
+        "publication": {
+            "@type": "PublicationEvent",
+            "name": "Professional Journals"
+        }
+    }
+}

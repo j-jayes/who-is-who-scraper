@@ -1,0 +1,55 @@
+{
+    "original": "Blomquist, Sven Gunnar, tandläkare, Varberg, f. 18/8/19 i Degerfors, Västerb. 1., av stat :mäst. v. SJ S. A. B. o. Anna Sjödin. — Stud:ex. i Umeå 39, tandl:ex. 45. Distr :tandl. i Var-berg sed. 46.",
+    "translated": "Blomquist, Sven Gunnar, dentist, Varberg, born August 18th, 1919 in Degerfors, Västerbotten county. Son of state master at SJ S.A.B., and Anna Sjödin. Completed high school in Umeå in 1939, and graduated from dental school in 1945. Practiced as a dentist in Varberg since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Gunnar Blomquist\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1919-08-18\",\n  \"birthPlace\": \"Degerfors, Västerbotten, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"State Master at SJ S.A.B.\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Sjödin\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"name\": \"Completed high school in Umeå\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1939\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Graduated from dental school\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1945\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Varberg Dental Association\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Varberg Dental Practice\"\n  },\n  \"jobStartDate\": \"1946\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Gunnar Blomquist",
+        "jobTitle": "Dentist",
+        "birthDate": "1919-08-18",
+        "birthPlace": "Degerfors, Västerbotten, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "State Master at SJ S.A.B.",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Sjödin",
+                "gender": "Female"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "name": "Completed high school in Umeå",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1939"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Graduated from dental school",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1945"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Varberg Dental Association"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Varberg Dental Practice"
+        },
+        "jobStartDate": "1946"
+    }
+}

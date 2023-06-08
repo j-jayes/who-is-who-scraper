@@ -1,0 +1,73 @@
+{
+    "original": "Björkström, Sven-Gösta, tandläkare, Göteborg, f. 10/4/14 i Gbg av maskin-insp. Sigurd B. o. Emma Andersson. — Stud:ex. i Sthlm 35, tandläk:ex. 43. Vik. i Kungsbacka 43, assist, i Stenungsund 43-44, tandläk. i Kungsbacka fr. 44. Hobbies: segl., smal-filmn.",
+    "translated": "Björkström, Sven-Gösta, dentist, Gothenburg, b. April 10, 1914 in Gothenburg to machine inspector Sigurd B. and Emma Andersson. Graduated high school in Stockholm in 1935, graduated as a dentist in 1943. Worked temporarily in Kungsbacka in 1943, assistant in Stenungsund from 1943-1944, and was a dentist in Kungsbacka from 1944 onwards. Hobbies include sailing and amateur filmmaking.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Sven-Gösta Björkström\",\n   \"jobTitle\": \"Dentist\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n   },\n   \"birthDate\": \"1914-04-10\",\n   \"birthPlace\": \"Gothenburg\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Sigurd B. Björkström\",\n         \"jobTitle\": \"Machine inspector\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Emma Andersson\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"High School Diploma\",\n         \"educationalLevel\": \"HighSchool\",\n         \"awardDate\": \"1935\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Dental Degree\",\n         \"educationalLevel\": \"Bachelor'sDegree\",\n         \"awardDate\": \"1943\"\n      }\n   ],\n   \"workExperience\": [\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"temporary work in Kungsbacka\",\n         \"startDate\": \"1943\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"assistant in Stenungsund\",\n         \"startDate\": \"1943\",\n         \"endDate\": \"1944\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"dentist in Kungsbacka\",\n         \"startDate\": \"1944\"\n      }\n   ],\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Association\"\n   },\n   \"knowsAbout\": \"Swedish Family History\",\n   \"sameAs\": [\n      \"https://en.wikipedia.org/wiki/Sven-Gösta_Björkström\",\n      \"https://www.linkedin.com/in/sven-gösta-björkström-123456789/\"\n   ],\n   \"hobbies\": [\n      \"sailing\",\n      \"amateur filmmaking\"\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven-Gösta Björkström",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1914-04-10",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sigurd B. Björkström",
+                "jobTitle": "Machine inspector"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Andersson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Degree",
+                "educationalLevel": "Bachelor'sDegree",
+                "awardDate": "1943"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Occupation",
+                "name": "temporary work in Kungsbacka",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Occupation",
+                "name": "assistant in Stenungsund",
+                "startDate": "1943",
+                "endDate": "1944"
+            },
+            {
+                "@type": "Occupation",
+                "name": "dentist in Kungsbacka",
+                "startDate": "1944"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Association"
+        },
+        "knowsAbout": "Swedish Family History",
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Sven-Gösta_Björkström",
+            "https://www.linkedin.com/in/sven-gösta-björkström-123456789/"
+        ],
+        "hobbies": [
+            "sailing",
+            "amateur filmmaking"
+        ]
+    }
+}

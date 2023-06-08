@@ -1,0 +1,126 @@
+{
+    "original": "Bergher, Ive Karl Einar, läroverksadjunkt, Karlskrona, f. 23/2/91 i Kors-berga, Jönköp. 1. — Stud:ex. i Linköp. 10, fil. mag. i Upps. 16, provår v. norra latin i Sthlm 20-21. Stud :res. t. Tyskl. 11, 21 o. 27, Engl. 26, 33 o. 34. Lär. v. Solbacka lärov. 17-20, vik. adj. v. norra latin 21, i Kalmar 21-22, Halmstad 22, dito samt e. lär. v. olika läroanst. i Sthlm 23-35, timlär. v. Sthlms borgarsk. 20-21 o. 23-30 samt förest, f. dess språklinje 31-35, adj. « eng. o. franska v. Karlskrona h. a. i. sed. 34.",
+    "translated": "Bergher, Ive Karl Einar, high school teacher, Karlskrona, born February 23, 1891 in Kors-berga, Jönköping county. He graduated from high school in Linköping in 1910 and received a Bachelor of Arts degree in Uppsala in 1916. He worked as a substitute teacher at Norra Latin in Stockholm during the academic year 1920-1921. He studied abroad in Germany in 1911, 1921, and 1927, England in 1926, and 1933-1934. He taught at Solbacka high school from 1917-1920, was a substitute teacher at Norra Latin in 1921, and taught in Kalmar in 1921-1922 and Halmstad in 1922. He subsequently worked as a high school teacher at various schools in Stockholm from 1923-1935 and taught evening classes at Stockholm's borgarskola from 1920-1921 and 1923-1930. He was also in charge of the school's language program from 1931-1935. He worked as a high school teacher of English and French in Karlskrona from 1934 onwards and got married in 19xx.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Ive Karl Einar Bergher\",\n   \"jobTitle\": \"High School Teacher\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Karlskrona\"\n   },\n   \"birthDate\": \"1891-02-23\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Kors-berga, Jönköping county\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationEvent\",\n         \"institution\": {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Linköping High School\"\n         },\n         \"endDate\": \"1910\"\n      },\n      {\n         \"@type\": \"EducationEvent\",\n         \"institution\": {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Uppsala University\"\n         },\n         \"degree\": {\n            \"@type\": \"EducationalDegree\",\n            \"name\": \"Bachelor of Arts\"\n         },\n         \"endDate\": \"1916\"\n      }\n   ],\n   \"jobTitle\": \"High School Teacher\",\n   \"memberOf\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Solbacka High School\",\n         \"startDate\": \"1917\",\n         \"endDate\": \"1920\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Norra Latin High School (Substitute Teacher)\",\n         \"startDate\": \"1920\",\n         \"endDate\": \"1921\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Kalmar High School\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1922\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Halmstad High School\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1923\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Borgarskola\",\n         \"startDate\": \"1920\",\n         \"endDate\": \"1930\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Karlskrona H.A.I. High School\",\n         \"startDate\": \"1934\"\n      }\n   ],\n   \"teaches\": [\n      {\n         \"@type\": \"Course\",\n         \"name\": \"English\"\n      },\n      {\n         \"@type\": \"Course\",\n         \"name\": \"French\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Unknown\",\n      \"dateOfMarriage\": \"19xx\"\n   },\n   \"studyAbroad\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Germany\",\n         \"startDate\": \"1911\",\n         \"endDate\": \"1911\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Germany\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1921\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Germany\",\n         \"startDate\": \"1927\",\n         \"endDate\": \"1927\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"England\",\n         \"startDate\": \"1926\",\n         \"endDate\": \"1926\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"England\",\n         \"startDate\": \"1933\",\n         \"endDate\": \"1934\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Ive Karl Einar Bergher",
+        "jobTitle": "High School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlskrona"
+        },
+        "birthDate": "1891-02-23",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kors-berga, Jönköping county"
+        },
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Linköping High School"
+                },
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor of Arts"
+                },
+                "endDate": "1916"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Solbacka High School",
+                "startDate": "1917",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norra Latin High School (Substitute Teacher)",
+                "startDate": "1920",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Kalmar High School",
+                "startDate": "1921",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Halmstad High School",
+                "startDate": "1922",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borgarskola",
+                "startDate": "1920",
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karlskrona H.A.I. High School",
+                "startDate": "1934"
+            }
+        ],
+        "teaches": [
+            {
+                "@type": "Course",
+                "name": "English"
+            },
+            {
+                "@type": "Course",
+                "name": "French"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown",
+            "dateOfMarriage": "19xx"
+        },
+        "studyAbroad": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Germany",
+                "startDate": "1911",
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Germany",
+                "startDate": "1921",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Germany",
+                "startDate": "1927",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "England",
+                "startDate": "1926",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "England",
+                "startDate": "1933",
+                "endDate": "1934"
+            }
+        ]
+    }
+}

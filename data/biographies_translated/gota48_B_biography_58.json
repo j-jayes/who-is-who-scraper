@@ -1,0 +1,87 @@
+{
+    "original": "Bengtsson, Adèle Daga Ann-Marie, tandläkare. Vara, f. 25/10/10 i Gbg av Edvard Gustafsson o. Adèle Sandström. G. 38 m. tandl. Bengt Bengtsson. Barn: Rolf f. 39, Ingela 42, Marianne 45. — Stud:ex. v. Sigrid Ru-debecks gymn. i Gbg 30, tandl :kand. 33, tandläkare 36. Vik. i bl, a. Höganäs, Knivsta, Töreboda, Katrineholm o. Fjällbacka, praktik i Vara sed. 38.",
+    "translated": "Bengtsson, Adèle Daga Ann-Marie, dentist. Born on 25/10/10 in Gothenburg to Edvard Gustafsson and Adèle Sandström. Married in 1938 to dentist Bengt Bengtsson. They have three children: Rolf, born in 1939, Ingela in 1942, and Marianne in 1945. Adèle completed her secondary education at Sigrid Ru-debeck's gymnasium in Gothenburg in 1930. She received her dental degree in 1933 and became a licensed dentist in 1936. She worked in various locations including Höganäs, Knivsta, Töreboda, Katrineholm, and Fjällbacka. She started her own practice in Vara in 1938 and continues to work there.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Adèle Daga Ann-Marie Bengtsson\",\n    \"birthDate\": \"1910-10-25\",\n    \"birthPlace\": \"Gothenburg\",\n    \"nationality\": \"Swedish\",\n    \"jobTitle\": \"Dentist\",\n    \"parent\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Edvard Gustafsson\",\n            \"gender\": \"Male\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Adèle Sandström\",\n            \"gender\": \"Female\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Bengt Bengtsson\",\n        \"jobTitle\": \"Dentist\",\n        \"marriageDate\": \"1938\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Rolf Bengtsson\",\n            \"birthDate\": \"1939\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Ingela Bengtsson\",\n            \"birthDate\": \"1942\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Marianne Bengtsson\",\n            \"birthDate\": \"1945\"\n        }\n    ],\n    \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Sigrid Ru-debeck's Gymnasium\",\n        \"location\": \"Gothenburg\",\n        \"foundingDate\": \"1930\"\n    },\n    \"hasOccupation\": {\n        \"@type\": \"Occupation\",\n        \"name\": \"Dentist\",\n        \"startDate\": \"1936\"\n    },\n    \"workLocation\": [\n        {\n            \"@type\": \"Place\",\n            \"name\": \"Höganäs\"\n        },\n        {\n            \"@type\": \"Place\",\n            \"name\": \"Knivsta\"\n        },\n        {\n            \"@type\": \"Place\",\n            \"name\": \"Töreboda\"\n        },\n        {\n            \"@type\": \"Place\",\n            \"name\": \"Katrineholm\"\n        },\n        {\n            \"@type\": \"Place\",\n            \"name\": \"Fjällbacka\"\n        },\n        {\n            \"@type\": \"Place\",\n            \"name\": \"Vara\",\n            \"startDate\": \"1938\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Adèle Daga Ann-Marie Bengtsson",
+        "birthDate": "1910-10-25",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "jobTitle": "Dentist",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Edvard Gustafsson",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Adèle Sandström",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Bengt Bengtsson",
+            "jobTitle": "Dentist",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rolf Bengtsson",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingela Bengtsson",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Bengtsson",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Sigrid Ru-debeck's Gymnasium",
+            "location": "Gothenburg",
+            "foundingDate": "1930"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1936"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Höganäs"
+            },
+            {
+                "@type": "Place",
+                "name": "Knivsta"
+            },
+            {
+                "@type": "Place",
+                "name": "Töreboda"
+            },
+            {
+                "@type": "Place",
+                "name": "Katrineholm"
+            },
+            {
+                "@type": "Place",
+                "name": "Fjällbacka"
+            },
+            {
+                "@type": "Place",
+                "name": "Vara",
+                "startDate": "1938"
+            }
+        ]
+    }
+}

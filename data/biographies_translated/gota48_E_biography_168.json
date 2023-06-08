@@ -1,0 +1,72 @@
+{
+    "original": "Ekström, Nils, ingenjör, Norrköping, f. 27/12/02 i Sthlm av ing. A. E. o. J. Rüder. G. 33 m. Anna-Lisa Wunder-mann. Barn: Bo f. 34, Lars 38, Kerstin 44. — Tekn. högsk. i Darmstadt 28. Ing. v. Holmens Bruks o. Fabr. A-B i Norrköp. sed. 29. Sekr. i Norrköp. golfkl., led. av styr. f. Norrköp. luft-v:fören.",
+    "translated": "Ekström, Nils, engineer, Norrköping, born on December 27, 1902 in Stockholm to engineer A.E. and J. Rüder. Married in 1933 to Anna-Lisa Wundermann. Children: Bo, born in 1934, Lars, born in 1938, and Kerstin, born in 1944. Studied at the Technical University in Darmstadt in 1928. Employed as an engineer by Holmens Bruks and Fabr. AB in Norrköping since 1929. Secretary of the Norrköping Golf Club and a board member of the Norrköping Aviation Club (Luftveteranernas Vanner Norrköping).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Ekström\",\n  \"birthDate\": \"1902-12-27\",\n  \"birthPlace\": \"Stockholm\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Engineer\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Holmens Bruks and Fabr. AB\",\n    \"location\": \"Norrköping\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Darmstadt Technical University\",\n    \"location\": \"Darmstadt\",\n    \"startDate\": \"1928\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"SportsOrganization\",\n      \"name\": \"Norrköping Golf Club\",\n      \"jobTitle\": \"Secretary\"\n    },\n    {\n      \"@type\": \"SportsOrganization\",\n      \"name\": \"Norrköping Aviation Club\",\n      \"jobTitle\": \"Board Member\",\n      \"description\": \"Luftveteranernas Vanner Norrköping\"\n    }\n  ],\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"A.E. Ekström\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J. Rüder\",\n      \"jobTitle\": \"Engineer\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Lisa Wundermann\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Ekström\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Ekström\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Ekström\",\n      \"birthDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Ekström",
+        "birthDate": "1902-12-27",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "jobTitle": "Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Holmens Bruks and Fabr. AB",
+            "location": "Norrköping"
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Darmstadt Technical University",
+            "location": "Darmstadt",
+            "startDate": "1928"
+        },
+        "memberOf": [
+            {
+                "@type": "SportsOrganization",
+                "name": "Norrköping Golf Club",
+                "jobTitle": "Secretary"
+            },
+            {
+                "@type": "SportsOrganization",
+                "name": "Norrköping Aviation Club",
+                "jobTitle": "Board Member",
+                "description": "Luftveteranernas Vanner Norrköping"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "A.E. Ekström",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "J. Rüder",
+                "jobTitle": "Engineer"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Lisa Wundermann",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo Ekström",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Ekström",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Ekström",
+                "birthDate": "1944"
+            }
+        ]
+    }
+}

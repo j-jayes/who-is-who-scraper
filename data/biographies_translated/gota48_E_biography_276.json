@@ -1,0 +1,90 @@
+{
+    "original": "Engstrand, Sten Ludvig Knut, distriktslantmätare, kapten, Kungsbacka, f. 1/10/83 i Jönköp. av Johan Per E. o. Amanda Kristina Linder. G. 13 m. Harriet Ling-Vannérus. Barn: Anine f. 15, Jacques 17, Ingegerd 27. ~ Stud:ex. 03, lantmät:ex. 09, off :-ex. 05. Distr :lan’tmät. i Kungsbacka drstr. sed. 21, kapten i Uppl. reg. res. 20. RVO, Hall Ifb SM.",
+    "translated": "Engstrand, Sten Ludvig Knut, district surveyor, captain, from Kungsbacka, born on October 1st, 1883 in Jönköping, to Johan Per E. and Amanda Kristina Linder. Married to Harriet Ling-Vannérus in 19xx. Children: Anine born in 1915, Jacques born in 1917, Ingegerd born in 1927. Studied at exam level in 1903, completed surveying studies in 1909, and officer training in 1905. District surveyor in Kungsbacka since 1921, captain in the Uppland Regiment since 1920. Received the Order of Vasa, the Halland Province's Sports Association Medal.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Sten Ludvig Knut Engstrand\",\n  \"jobTitle\": [\n    \"District Surveyor\",\n    \"Captain\"\n  ],\n  \"birthDate\": \"1883-10-01\",\n  \"birthPlace\": \"Jönköping, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Per E. Engstrand\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Kristina Linder\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Harriet Ling-Vannérus\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anine\",\n      \"birthDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jacques\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd\",\n      \"birthDate\": \"1927\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"exam level\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"dateIssued\": \"1903\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"surveying studies\",\n      \"educationalLevel\": \"Certificate\",\n      \"dateIssued\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"officer training\",\n      \"educationalLevel\": \"Certificate\",\n      \"dateIssued\": \"1905\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uppland Regiment\",\n      \"startDate\": \"1920\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Kungsbacka\",\n    \"addressRegion\": \"\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"award\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of Vasa\"\n    },\n    {\n      \"@type\": \"Award\",\n      \"name\": \"Halland Province's Sports Association Medal\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sten Ludvig Knut Engstrand",
+        "jobTitle": [
+            "District Surveyor",
+            "Captain"
+        ],
+        "birthDate": "1883-10-01",
+        "birthPlace": "Jönköping, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan Per E. Engstrand"
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Kristina Linder"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Harriet Ling-Vannérus"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anine",
+                "birthDate": "1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Jacques",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingegerd",
+                "birthDate": "1927"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "exam level",
+                "educationalLevel": "SecondarySchool",
+                "dateIssued": "1903"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "surveying studies",
+                "educationalLevel": "Certificate",
+                "dateIssued": "1909"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "officer training",
+                "educationalLevel": "Certificate",
+                "dateIssued": "1905"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Uppland Regiment",
+                "startDate": "1920"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kungsbacka",
+            "addressRegion": "",
+            "addressCountry": "Sweden"
+        },
+        "award": [
+            {
+                "@type": "Order",
+                "name": "Order of Vasa"
+            },
+            {
+                "@type": "Award",
+                "name": "Halland Province's Sports Association Medal"
+            }
+        ]
+    }
+}

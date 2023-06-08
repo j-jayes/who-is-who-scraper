@@ -1,0 +1,101 @@
+{
+    "original": "Berglund, Folke Verner, bankdirektör, Trollhättan, f. 15/12/99 i Möll-torp, Skarab. L, av handl. J. E. B. o. EHn Elisabeth Karlsson. G. 29 m. Ebba Elisabet Hedin. Barn: Kerstin f. 31, Gunilla 35, Johan 42. — Anst. v. Vänersborgsbanken 20-31, därav i Borås 30-24 o. i Trollhättan 24-31, kassör i Trollhättans Sparbank 32, dir. o. styr :led. där sed. 39. Led. av kyrko-fullm.",
+    "translated": "Berglund, Folke Verner, bank director, Trollhättan, born on December 15, 1899 in Möll-torp, Skaraborg County, son of merchant J.E.B. and EHn Elisabeth Karlsson. Married on June 29, 19xx to Ebba Elisabet Hedin. Children: Kerstin born in 1931, Gunilla in 1935, Johan in 1942. Employed by Vänersborg Bank from 1920 to 1931, working in Borås from 1920 to 1924 and in Trollhättan from 1924 to 1931. Became treasurer of Trollhättan Savings Bank in 1932 and director and board member there since 1939. Member of the church council.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Folke Verner Berglund\",\n  \"birthDate\": \"1899-12-15\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Möll-torp\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Skaraborg County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J.E.B. Berglund\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"EHn Elisabeth Karlsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ebba Elisabet Hedin\",\n    \"marriageDate\": \"19xx-06-29\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Vänersborg Bank\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vänersborg Bank\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1931\",\n      \"location\": [\n        {\n          \"@type\": \"City\",\n          \"name\": \"Borås\"\n        },\n        {\n          \"@type\": \"City\",\n          \"name\": \"Trollhättan\"\n        }\n      ],\n      \"position\": [\n        {\n          \"@type\": \"JobPosting\",\n          \"title\": \"Bank Employee\",\n          \"employmentType\": \"Full time\"\n        },\n        {\n          \"@type\": \"JobPosting\",\n          \"title\": \"Treasurer\",\n          \"employmentType\": \"Full time\",\n          \"startDate\": \"1932\"\n        },\n        {\n          \"@type\": \"JobPosting\",\n          \"title\": \"Director\",\n          \"employmentType\": \"Full time\",\n          \"startDate\": \"1939\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Church Council\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Verner Berglund",
+        "birthDate": "1899-12-15",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Möll-torp",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Skaraborg County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "J.E.B. Berglund"
+            },
+            {
+                "@type": "Person",
+                "name": "EHn Elisabeth Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ebba Elisabet Hedin",
+            "marriageDate": "19xx-06-29"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Johan",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Vänersborg Bank",
+                "startDate": "1920",
+                "endDate": "1931"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Vänersborg Bank",
+                "startDate": "1920",
+                "endDate": "1931",
+                "location": [
+                    {
+                        "@type": "City",
+                        "name": "Borås"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Trollhättan"
+                    }
+                ],
+                "position": [
+                    {
+                        "@type": "JobPosting",
+                        "title": "Bank Employee",
+                        "employmentType": "Full time"
+                    },
+                    {
+                        "@type": "JobPosting",
+                        "title": "Treasurer",
+                        "employmentType": "Full time",
+                        "startDate": "1932"
+                    },
+                    {
+                        "@type": "JobPosting",
+                        "title": "Director",
+                        "employmentType": "Full time",
+                        "startDate": "1939"
+                    }
+                ]
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Church Council"
+        }
+    }
+}

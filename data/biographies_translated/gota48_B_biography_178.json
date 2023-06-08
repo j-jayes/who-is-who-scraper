@@ -1,0 +1,105 @@
+{
+    "original": "Bergman, Victor, civilingenjör, Göteborg, f. 7/11/83 i Sunne, Värml. 1., av disp. Adolf B. o. Leontine Bellan-der. G. 16 m. Edith Nylén. Barn: Elsa f. 18, g. m. civ:ing. Ingmar Kauf-feldt, Sthlm, Arne 23, stud. v. CTH. — Stud:ex. i Gävle 04, avgiex. fr. KTH (VoV) 10. Bitr. ing. v. SJ 11, v. nedre norra väg- o. vattenbyggn :-distr. 12-lö, v. ostkustbanan 16-17, v. gatu- o. vägförvaltn. i Gbg 17-19, v. Gbgs stadsingikont. 19-22, registrator där 22-29, förste ing. v. stadsing :kont. i Gbg sed.. 29.",
+    "translated": "Bergman, Victor, engineer, Gothenburg, born November 7, 1883 in Sunne, Värmland, son of accountant Adolf B. and Leontine Bellander. Married to Edith Nylén in 1916. Children: Elsa (born 1918, married to engineer Ingmar Kauffeldt in Stockholm), Arne (born 1923, studying at Chalmers University of Technology). Passed his high school exam in Gävle in 1904 and graduated from the Royal Institute of Technology in Stockholm in 1910. Assistant engineer at the Swedish State Railways in 1911, working for the lower northern road and water building district from 1912-1915, on the East Coast railway from 1916-1917, and for the Gothenburg Road and Street Administration from 1917-1919. He worked at the Gothenburg City Engineering Office from 1919-1922, and was appointed registrar there in 1922. He became the first engineer at the City Engineering Office in Gothenburg in 1929 and remained in that position until retirement.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Victor Bergman\",\n    \"jobTitle\": \"Civil Engineer\",\n    \"birthDate\": \"1883-11-07\",\n    \"birthPlace\": \"Sunne, Värmland, Sweden\",\n    \"spouse\": \"Edith Nylén\",\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Elsa Kauffeldt\",\n            \"birthDate\": \"1918\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Arne Bergman\",\n            \"birthDate\": \"1923\"\n        }\n    ],\n    \"parents\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Adolf B. Bergman\",\n            \"jobTitle\": \"Accountant\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Leontine Bellander\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"High School Exam\",\n            \"educationLevel\": \"High School\",\n            \"educationalCredentialAwarded\": \"Stud:ex.\",\n            \"awardingInstitution\": \"Gävle\",\n            \"dateAwarded\": \"1904\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Engineering Degree\",\n            \"educationLevel\": \"University\",\n            \"educationalCredentialAwarded\": \"Civ.ing.\",\n            \"awardingInstitution\": \"Royal Institute of Technology, Stockholm\",\n            \"dateAwarded\": \"1910\"\n        }\n    ],\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Swedish State Railways\",\n            \"startDate\": \"1911\",\n            \"endDate\": \"1915\",\n            \"jobTitle\": \"Assistant Engineer\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Lower Northern Road and Water Building District\",\n            \"startDate\": \"1912\",\n            \"endDate\": \"1915\",\n            \"jobTitle\": \"Engineer\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"East Coast Railway\",\n            \"startDate\": \"1916\",\n            \"endDate\": \"1917\",\n            \"jobTitle\": \"Engineer\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg Road and Street Administration\",\n            \"startDate\": \"1917\",\n            \"endDate\": \"1919\",\n            \"jobTitle\": \"Engineer\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg City Engineering Office\",\n            \"startDate\": \"1919\",\n            \"endDate\": \"1922\",\n            \"jobTitle\": \"Engineer\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg City Engineering Office\",\n            \"startDate\": \"1922\",\n            \"endDate\": \"1929\",\n            \"jobTitle\": \"Registrar\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg City Engineering Office\",\n            \"startDate\": \"1929\",\n            \"jobTitle\": \"First Engineer\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Victor Bergman",
+        "jobTitle": "Civil Engineer",
+        "birthDate": "1883-11-07",
+        "birthPlace": "Sunne, Värmland, Sweden",
+        "spouse": "Edith Nylén",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Elsa Kauffeldt",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Arne Bergman",
+                "birthDate": "1923"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Adolf B. Bergman",
+                "jobTitle": "Accountant"
+            },
+            {
+                "@type": "Person",
+                "name": "Leontine Bellander"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Exam",
+                "educationLevel": "High School",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardingInstitution": "Gävle",
+                "dateAwarded": "1904"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Engineering Degree",
+                "educationLevel": "University",
+                "educationalCredentialAwarded": "Civ.ing.",
+                "awardingInstitution": "Royal Institute of Technology, Stockholm",
+                "dateAwarded": "1910"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish State Railways",
+                "startDate": "1911",
+                "endDate": "1915",
+                "jobTitle": "Assistant Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lower Northern Road and Water Building District",
+                "startDate": "1912",
+                "endDate": "1915",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "East Coast Railway",
+                "startDate": "1916",
+                "endDate": "1917",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Road and Street Administration",
+                "startDate": "1917",
+                "endDate": "1919",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg City Engineering Office",
+                "startDate": "1919",
+                "endDate": "1922",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg City Engineering Office",
+                "startDate": "1922",
+                "endDate": "1929",
+                "jobTitle": "Registrar"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg City Engineering Office",
+                "startDate": "1929",
+                "jobTitle": "First Engineer"
+            }
+        ]
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "original": "Dahlqvist, Sören Oskar Torsten, civiljägmästare, Jönköping, f. 25/12/02 i Kristianstad av Nils P. D. o. Mathilda Dahlqvist. G. 43 m. Linnéa Petter-sison. — Stud:ex. 22, forstmäsit:-ex. 31, jägmästrex. 36. Omb :man i Jönköp. 1. skogsäg ifören. sed. 44.",
+    "translated": "Dahlqvist, Sören Oskar Torsten, civil forester, Jönköping, b. December 25, 1902, in Kristianstad to Nils P. D. and Mathilda Dahlqvist. Married in 1943 to Linnéa Pettersson. Completed high school in 1922, forestry degree in 1931, and forestry master's degree in 1936. He was a member of the forestry association in Jönköping and worked as a forest manager for a cooperative since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sören Oskar Torsten Dahlqvist\",\n  \"jobTitle\": \"Civil Forester\",\n  \"birthDate\": \"1902-12-25\",\n  \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Kristianstad\"\n  },\n  \"parents\": [\n      {\n          \"@type\": \"Person\",\n          \"name\": \"Nils P. D. Dahlqvist\"\n      },\n      {\n          \"@type\": \"Person\",\n          \"name\": \"Mathilda Dahlqvist\"\n      }\n  ],\n  \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Linnéa Pettersson\",\n      \"marriageDate\": \"1943\"\n  },\n  \"education\": [\n      {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"credentialCategory\": \"high school\",\n          \"endDate\": \"1922\"\n      },\n      {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"credentialCategory\": \"forestry degree\",\n          \"endDate\": \"1931\"\n      },\n      {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"credentialCategory\": \"forestry master's degree\",\n          \"endDate\": \"1936\"\n      }\n  ],\n  \"memberOf\": [\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"Jönköping Forestry Association\"\n      }\n  ],\n  \"employment\": [\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"Cooperative\",\n          \"jobTitle\": \"Forest Manager\",\n          \"startDate\": \"1944\"\n      }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sören Oskar Torsten Dahlqvist",
+        "jobTitle": "Civil Forester",
+        "birthDate": "1902-12-25",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kristianstad"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils P. D. Dahlqvist"
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Dahlqvist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Linnéa Pettersson",
+            "marriageDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "forestry degree",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "forestry master's degree",
+                "endDate": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Jönköping Forestry Association"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Cooperative",
+                "jobTitle": "Forest Manager",
+                "startDate": "1944"
+            }
+        ]
+    }
+}

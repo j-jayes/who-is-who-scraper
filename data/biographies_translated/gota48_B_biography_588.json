@@ -1,0 +1,123 @@
+{
+    "original": "Bruhn, Anders Olof, prakt. läkare, Älmhult, f. 3/10/98 i Gbg av Olof B. o, Hulda Lundstedt. G. 27 m. Sigrid Melin. Barn: Eva f. 29, Anders 44. — Stud:ex. i Gbg 17, med. kand. 24 o. med. lic. 29 i Upps. Assist:läk. o. tf. und:läk. v. Sachs’ska barnsjukh. i Sthlm 29, tf. prov:läk. i Melleruds o. Sölvesb. distr. 30, prakt. läk. först i Lönsboda o. nu i Älmhult. Marinläk:stip. över stat 33-34.",
+    "translated": "Bruhn, Anders Olof, practical doctor, Älmhult, born October 3, 1898 in Gothenburg to Olof B. and Hulda Lundstedt. Married since 1927 to Sigrid Melin. Children: Eva, born in 1929, and Anders, born in 1944. He graduated from high school in Gothenburg in 1917, received a Bachelor of Medicine in 1924, and a Medical License in 1929, both from Uppsala University. He worked as an assistant physician and acting junior physician at Sachs Children's Hospital in Stockholm in 1929. He was also an acting physician in Melleruds and Sölvesborg districts in 1930. He worked as a practical doctor first in Lönsboda and currently in Älmhult. From 1933 to 1934, he received a scholarship as a naval physician.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Anders Olof Bruhn\",\n  \"jobTitle\": \"Practical Doctor\",\n  \"birthDate\": \"1898-10-03\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hulda Lundstedt\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sigrid Melin\",\n    \"marriageDate\": \"1927\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University of Gothenburg\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"High School Diploma\",\n        \"issuedBy\": {\n          \"@type\": \"Organization\",\n          \"name\": \"University of Gothenburg\"\n        },\n        \"credentialCategory\": \"diploma\",\n        \"issuedOn\": \"1917\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"alumniOf\": [\n        {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"name\": \"Bachelor of Medicine\",\n          \"issuedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Uppsala University\"\n          },\n          \"credentialCategory\": \"degree\",\n          \"issuedOn\": \"1924\"\n        },\n        {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"name\": \"Medical License\",\n          \"issuedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Uppsala University\"\n          },\n          \"credentialCategory\": \"license\",\n          \"issuedOn\": \"1929\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sachs Children's Hospital\",\n      \"jobTitle\": \"Assistant Physician, Acting Junior Physician\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\",\n      \"location\": {\n        \"@type\": \"MedicalClinic\",\n        \"name\": \"Sachs Children's Hospital\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Melleruds and Sölvesborg Districts\",\n      \"jobTitle\": \"Acting Physician\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Älmhult\",\n      \"jobTitle\": \"Practical Doctor\",\n      \"startDate\": \"1930\",\n      \"location\": {\n        \"@type\": \"MedicalClinic\",\n        \"name\": \"Älmhult\"\n      }\n    }\n  ],\n  \"funder\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Navy\",\n    \"fundingPeriod\": {\n      \"@type\": \"Duration\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\"\n    },\n    \"fundingType\": \"Scholarship\",\n    \"description\": \"Naval Physician Scholarship\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Anders Olof Bruhn",
+        "jobTitle": "Practical Doctor",
+        "birthDate": "1898-10-03",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Olof B."
+            },
+            {
+                "@type": "Person",
+                "name": "Hulda Lundstedt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sigrid Melin",
+            "marriageDate": "1927"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1944"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Gothenburg",
+                "alumniOf": {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "High School Diploma",
+                    "issuedBy": {
+                        "@type": "Organization",
+                        "name": "University of Gothenburg"
+                    },
+                    "credentialCategory": "diploma",
+                    "issuedOn": "1917"
+                }
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "alumniOf": [
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "name": "Bachelor of Medicine",
+                        "issuedBy": {
+                            "@type": "Organization",
+                            "name": "Uppsala University"
+                        },
+                        "credentialCategory": "degree",
+                        "issuedOn": "1924"
+                    },
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "name": "Medical License",
+                        "issuedBy": {
+                            "@type": "Organization",
+                            "name": "Uppsala University"
+                        },
+                        "credentialCategory": "license",
+                        "issuedOn": "1929"
+                    }
+                ]
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sachs Children's Hospital",
+                "jobTitle": "Assistant Physician, Acting Junior Physician",
+                "startDate": "1929",
+                "endDate": "1929",
+                "location": {
+                    "@type": "MedicalClinic",
+                    "name": "Sachs Children's Hospital"
+                }
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Melleruds and Sölvesborg Districts",
+                "jobTitle": "Acting Physician",
+                "startDate": "1930",
+                "endDate": "1930"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Älmhult",
+                "jobTitle": "Practical Doctor",
+                "startDate": "1930",
+                "location": {
+                    "@type": "MedicalClinic",
+                    "name": "Älmhult"
+                }
+            }
+        ],
+        "funder": {
+            "@type": "Organization",
+            "name": "Swedish Navy",
+            "fundingPeriod": {
+                "@type": "Duration",
+                "startDate": "1933",
+                "endDate": "1934"
+            },
+            "fundingType": "Scholarship",
+            "description": "Naval Physician Scholarship"
+        }
+    }
+}

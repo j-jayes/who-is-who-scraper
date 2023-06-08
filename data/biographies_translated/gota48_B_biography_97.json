@@ -1,0 +1,179 @@
+{
+    "original": "Berg, John Harald, kapten, Göteborg, f. 25/5/95 i Ölme, Värml. 1., av landsfiskal C. E. B. o. Jenny Peder-sén. G. 20 m. Ruth Karlström. Barn: Gunnulf Haraldsson f. 22, jur. kand., Karlstad, Ragnvald Haraldsson 33, stud., Gbg. — Stud:ex. i Karlstad 13, jur. stud. i Upps. 13-15, off :ex. 17, avg:ex. fr. Gbgs hand :inst. 20. Res. t. Tyskl. o. Österr. 21. Fänr. v. Uppl. art:reg. 18, kapt. i Göta art:reg. res. 34. Anst. v. Dr Philip Leniaiis Adv:-byrå i Gbg 25-30, dir :assist. o. inköpschef. v. Mölnlycke Väfveri A-B sed. 30. Kanslichef v. jub :utställn. i Gbg 20-25, huvudsekr. f. femte nord. träd-giutställn. i Gbg 22-23. Led. av Ör-gryte kyrkoråd 28-32, av kyrkofulim. i Örgryte 33-35, av Gbgs kyrkofulim. ■sed. 47, styr:ied. i Gbgs trädg:fören. sed. 46.",
+    "translated": "Berg, John Harald, Captain, Gothenburg, born May 25th, 1895 in Ölme, Värmland, the first son of County Bailiff C. E. B. and Jenny Pedersén. Married in 1920 to Ruth Karlström. Children: Gunnulf Haraldsson born in 1922, a law student in Karlstad, and Ragnvald Haraldsson born in 1933, a student in Gothenburg. Berg passed his entrance exam in Karlstad in 1913, studied law in Uppsala from 1913 to 1915, completed officer's training in 1917, and finished his business degree at Gothenburg's School of Business, Economics and Law in 1920. He traveled to Germany and Austria in 1921, serving as a lieutenant in the Uppland Artillery Regiment in 1918 and as a captain in the Gothenburg Artillery Regiment until 1934. He was employed by Dr. Philip Leniaiis' law firm in Gothenburg from 1925 to 1930 and worked as an administrative assistant and purchasing manager at Mölnlycke Väfveri A-B since 1930. He served as chief of staff for Gothenburg Jubilee Exhibition from 1920 to 1925 and chief secretary for the fifth Nordic Tree Exhibition in Gothenburg from 1922 to 1923. He was a member of the Örgryte Church Council from 1928 to 1932, the Örgryte Church Assembly from 1933 to 1935, and the Gothenburg Church Assembly since 1947. He was also a board member of the Gothenburg Horticultural Society since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Harald Berg\",\n  \"jobTitle\": \"Captain\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"birthDate\": \"1895-05-25\",\n  \"birthPlace\": \"Ölme, Värmland, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. E. B.\",\n      \"jobTitle\": \"County Bailiff\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jenny Pedersén\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Karlström\",\n    \"marriageDate\": \"1920\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnulf Haraldsson\",\n      \"birthDate\": \"1922\",\n      \"jobTitle\": \"Law Student\",\n      \"memberOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Karlstad University\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Karlstad\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnvald Haraldsson\",\n      \"birthDate\": \"1933\",\n      \"jobTitle\": \"Student\",\n      \"memberOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg University\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Karlstad University\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Karlstad\",\n      \"addressCountry\": \"Sweden\"\n    },\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Uppsala\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1913\",\n      \"endDate\": \"1915\",\n      \"memberOf\": {\n        \"@type\": [\"School\", \"CollegeOrUniversity\"],\n        \"name\": \"Gothenburg School of Business, Economics and Law\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        },\n        \"graduationDate\": \"1920\"\n      }\n    }\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dr. Philip Leniaiis' Law Firm\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Employed\",\n      \"description\": \"Assistant to Dr. Philip Leniaiis and purchasing manager.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mölnlycke Väfveri A-B\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Mölnlycke\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1930\",\n      \"jobTitle\": \"Administrative Assistant and Purchasing Manager\"\n    }\n  ],\n  \"militaryService\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uppland Artillery Regiment\",\n      \"jobTitle\": \"Lieutenant\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Artillery Regiment\",\n      \"jobTitle\": \"Captain\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örgryte Church Council\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örgryte Church Assembly\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Church Assembly\",\n      \"startDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Horticultural Society\",\n      \"startDate\": \"1946\",\n      \"jobTitle\": \"Board Member\"\n    }\n  ],\n  \"event\": [\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Gothenburg Jubilee Exhibition\",\n      \"startDate\": \"1920-01-01\",\n      \"endDate\": \"1925-12-31\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Fifth Nordic Tree Exhibition\",\n      \"startDate\": \"1922-01-01\",\n      \"endDate\": \"1923-12-31\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Harald Berg",
+        "jobTitle": "Captain",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "birthDate": "1895-05-25",
+        "birthPlace": "Ölme, Värmland, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C. E. B.",
+                "jobTitle": "County Bailiff"
+            },
+            {
+                "@type": "Person",
+                "name": "Jenny Pedersén"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Karlström",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnulf Haraldsson",
+                "birthDate": "1922",
+                "jobTitle": "Law Student",
+                "memberOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Karlstad University",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Karlstad",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Ragnvald Haraldsson",
+                "birthDate": "1933",
+                "jobTitle": "Student",
+                "memberOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg University",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Karlstad University",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Karlstad",
+                "addressCountry": "Sweden"
+            },
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Uppsala",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1913",
+                "endDate": "1915",
+                "memberOf": {
+                    "@type": [
+                        "School",
+                        "CollegeOrUniversity"
+                    ],
+                    "name": "Gothenburg School of Business, Economics and Law",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    },
+                    "graduationDate": "1920"
+                }
+            }
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Dr. Philip Leniaiis' Law Firm",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1925",
+                "endDate": "1930",
+                "jobTitle": "Employed",
+                "description": "Assistant to Dr. Philip Leniaiis and purchasing manager."
+            },
+            {
+                "@type": "Organization",
+                "name": "Mölnlycke Väfveri A-B",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Mölnlycke",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1930",
+                "jobTitle": "Administrative Assistant and Purchasing Manager"
+            }
+        ],
+        "militaryService": [
+            {
+                "@type": "Organization",
+                "name": "Uppland Artillery Regiment",
+                "jobTitle": "Lieutenant",
+                "startDate": "1918"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Artillery Regiment",
+                "jobTitle": "Captain",
+                "startDate": "1918",
+                "endDate": "1934"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Örgryte Church Council",
+                "startDate": "1928",
+                "endDate": "1932"
+            },
+            {
+                "@type": "Organization",
+                "name": "Örgryte Church Assembly",
+                "startDate": "1933",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Church Assembly",
+                "startDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Horticultural Society",
+                "startDate": "1946",
+                "jobTitle": "Board Member"
+            }
+        ],
+        "event": [
+            {
+                "@type": "Event",
+                "name": "Gothenburg Jubilee Exhibition",
+                "startDate": "1920-01-01",
+                "endDate": "1925-12-31"
+            },
+            {
+                "@type": "Event",
+                "name": "Fifth Nordic Tree Exhibition",
+                "startDate": "1922-01-01",
+                "endDate": "1923-12-31"
+            }
+        ]
+    }
+}

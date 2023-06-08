@@ -1,0 +1,53 @@
+{
+    "original": "Eriksson, Frank Arne Vilhelm, redaktör, Uddevalla, f. 4/3/03’ i Uddevalla, Gbgs o. Boh. 1. _ G. 28 m. Ruth Johnsson. Barn: Åje f. 32, Rey 36. — Medarb. i Kuriren fr. 24, huv:red. o. ansv. utg. fr. 45. Ordf. i brandstyr. o. polisnd, v. ordf. i Boh.-Hali. erk. centr :sjukkassa.",
+    "translated": "Eriksson, Frank Arne Vilhelm, editor, from Uddevalla, born on March 4th, 1903 in Uddevalla, Gothenburg and Bohuslän. Married in 1928 to Ruth Johnsson, with two children: Åje born in 1932 and Rey born in 1936. Worked as a collaborator for Kuriren since 1924, becoming chief editor and responsible for publishing in 1945. Chairman of the fire and police department, vice chairman of the Bohus-Halland recognized center health insurance.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Frank Arne Vilhelm Eriksson\",\n   \"jobTitle\": \"Editor\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Uddevalla\"\n   },\n   \"birthDate\": \"1903-03-04\",\n   \"nationality\": \"Swedish\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ruth Johnsson\",\n      \"marriageDate\": \"1928\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Åje Eriksson\",\n         \"birthDate\": \"1932\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Rey Eriksson\",\n         \"birthDate\": \"1936\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Kuriren\",\n         \"startDate\": \"1924\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Bohus-Halland Recognized Center Health Insurance\"\n      }\n   ],\n   \"affiliation\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Kuriren\",\n         \"startDate\": \"1924\",\n         \"endDate\": \"1945\"\n      }\n   ],\n   \"sameAs\": \"https://example.com/frank-arne-vilhelm-eriksson\",\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Boh.-Hali. Erk. Centr Sjukkassa\"\n      }\n   ],\n   \"jobTitle\": \"Chief Editor and Publisher\",\n   \"workLocation\": {\n      \"@type\": \"Place\",\n      \"name\": \"Uddevalla\"\n   },\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Fire and Police Department\"\n      }\n   ],\n   \"jobTitle\": \"Chairman\",\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Bohus-Halland Recognized Center Health Insurance\"\n      }\n   ],\n   \"jobTitle\": \"Vice Chairman\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Frank Arne Vilhelm Eriksson",
+        "jobTitle": "Vice Chairman",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Uddevalla"
+        },
+        "birthDate": "1903-03-04",
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Johnsson",
+            "marriageDate": "1928"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Åje Eriksson",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Rey Eriksson",
+                "birthDate": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Bohus-Halland Recognized Center Health Insurance"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Kuriren",
+                "startDate": "1924",
+                "endDate": "1945"
+            }
+        ],
+        "sameAs": "https://example.com/frank-arne-vilhelm-eriksson",
+        "workLocation": {
+            "@type": "Place",
+            "name": "Uddevalla"
+        }
+    }
+}

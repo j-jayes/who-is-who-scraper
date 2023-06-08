@@ -1,0 +1,87 @@
+{
+    "original": "Björklund, Knut Charles, tandläkare, Norrköping, f. 2/9/02 i Sthlm av Karl Gustaf B. o. Vivii Wadelius. G. 28 m. Elsa Kristina Ruus. Barn: Vivan f. 29, Kurt 30i, Marianne 32, Eva 33, Ulla 37, Karl Gunnar 40. — Stud:-ex. v. norra real i StiHm 22, tandl:-kand. 25, tandl. 27. Prakt, i Norrköp. sed. 27. Sekr. i Odontolog. fören. 26-27. Hobby: trädg : skötsel.",
+    "translated": "Björklund, Knut Charles, dentist, Norrköping, b. 2/9/02 in Stockholm to Karl Gustaf B. and Vivii Wadelius. Married on 28/xx/yy to Elsa Kristina Ruus. Children: Vivan b. 1929, Kurt b. 1930, Marianne b. 1932, Eva b. 1933, Ulla b. 1937, Karl Gunnar b. 1940. — Graduated from Norra Real in Stockholm in 1922, studied dentistry and graduated in 1927. Has been practicing in Norrköping since 1927. Secretary for the Odontological Association in 1926-1927. Hobby: gardening.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Charles Björklund\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1902-09-02\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Gustaf Björklund\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vivii Wadelius\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Kristina Ruus\",\n    \"marriageDate\": \"xx/yy/28\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vivan Björklund\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kurt Björklund\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Björklund\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Björklund\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Björklund\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Gunnar Björklund\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Norra Real\",\n    \"location\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Stockholm\",\n      \"addressCountry\": \"Sweden\"\n    },\n    \"endDate\": \"1922\"\n  },\n  \"knowsAbout\": \"Dentistry\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Odontologiska Föreningen\",\n    \"startDate\": \"1926\",\n    \"endDate\": \"1927\",\n    \"position\": \"Secretary\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1927\"\n  },\n  \"interest\": {\n    \"@type\": \"Thing\",\n    \"name\": \"Gardening\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Charles Björklund",
+        "jobTitle": "Dentist",
+        "birthDate": "1902-09-02",
+        "birthPlace": "Stockholm, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Gustaf Björklund"
+            },
+            {
+                "@type": "Person",
+                "name": "Vivii Wadelius"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Kristina Ruus",
+            "marriageDate": "xx/yy/28"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Vivan Björklund",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Kurt Björklund",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Björklund",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Björklund",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Björklund",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl Gunnar Björklund",
+                "birthDate": "1940"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Norra Real",
+            "location": {
+                "@type": "PostalAddress",
+                "addressLocality": "Stockholm",
+                "addressCountry": "Sweden"
+            },
+            "endDate": "1922"
+        },
+        "knowsAbout": "Dentistry",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Odontologiska Föreningen",
+            "startDate": "1926",
+            "endDate": "1927",
+            "position": "Secretary"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1927"
+        },
+        "interest": {
+            "@type": "Thing",
+            "name": "Gardening"
+        }
+    }
+}

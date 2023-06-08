@@ -1,0 +1,54 @@
+{
+    "original": "Eichstädt, Torsten Kristian August, civilingenjör, Norrköping, f. 14/12/95 i Gbg av intend., fil. dr Fredrik E. o. Sophie de Flindt. G. 27 m. Sonja Olson. — Stud:ex. v. Gbgs h. real 14, CTH (VoV) 14-20. Bitr. ing. v. Norrköp. stads byggn:kont. 20-30, ga-tuing. där sed. 30.",
+    "translated": "Eichstädt, Torsten Kristian August, engineer, Norrköping. Born on December 14, 1895, in Gothenburg to Fredrik E., who was an officer, and Sophie de Flindt. Married to Sonja Olson in 1927. Torsten finished his secondary education at Gothenburg's High School of Science in 1914 and then studied at Chalmers University of Technology (VoV) from 1914 to 1920. He worked as an assistant engineer at the Norrköping city building office from 1920 to 1930, and later became a gardening inspector there.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Torsten Kristian August Eichstädt\",\n   \"jobTitle\": \"Engineer\",\n   \"birthDate\": \"1895-12-14\",\n   \"birthPlace\": \"Gothenburg\",\n   \"nationality\": \"Swedish\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Fredrik E.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Sophie de Flindt\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Sonja Olson\",\n      \"marriageDate\": \"1927-01-27\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Gothenburg's High School of Science\",\n         \"endDate\": \"1914\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Chalmers University of Technology\",\n         \"startDate\": \"1914\",\n         \"endDate\": \"1920\"\n      }\n   ],\n   \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping City Building Office\"\n   },\n   \"jobStartDate\": \"1920\",\n   \"jobEndDate\": \"1930\",\n   \"occupation\": \"Assistant Engineer\",\n   \"additionalProperty\": {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Field\",\n      \"value\": \"Gardening inspector\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Torsten Kristian August Eichstädt",
+        "jobTitle": "Engineer",
+        "birthDate": "1895-12-14",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Fredrik E."
+            },
+            {
+                "@type": "Person",
+                "name": "Sophie de Flindt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sonja Olson",
+            "marriageDate": "1927-01-27"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's High School of Science",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Chalmers University of Technology",
+                "startDate": "1914",
+                "endDate": "1920"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Norrköping City Building Office"
+        },
+        "jobStartDate": "1920",
+        "jobEndDate": "1930",
+        "occupation": "Assistant Engineer",
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "Field",
+            "value": "Gardening inspector"
+        }
+    }
+}

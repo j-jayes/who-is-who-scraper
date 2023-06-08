@@ -1,0 +1,85 @@
+{
+    "original": "Brising, Lars Harald, civilingenjör, Linköping, f. 18/5/15 i Sthlm av fil. dr Harald B. o. Louise Welhaven. G. 42 m. Maja-Brita Frödell. Barn: Louise f. 44, Dag 47. — Stud :ex. i Sthlm 33, civ :-ing:ex v. KTH (M) 38. Kontr :ing. v. filygförvaltn. 38, konstr. v. A-B Götaverken 39, anst. v. V^altion Lentoko-netehdas i Finl. 40, provn:ing. v. Sv. Aeroplan A-B 40-41, flyging. av tredje gr. v. flygv. 41-43, konstr :chef v. Sv. Aeroplan A-B i Linköp. sed. 43. Led. av Sv. tekn:fören.",
+    "translated": "Brising, Lars Harald, civil engineer, from Linköping, born on May 18, 1915 in Stockholm to PhD Harald B. and Louise Welhaven. Married in 1942 to Maja-Brita Frödell. Children: Louise born in 1944, Dag born in 1947. Lars passed his student exam in Stockholm in 1933 and graduated with a degree in civil engineering from KTH (M) in 1938. He worked as a contract engineer for filygförvaltn in 1938 and as a designer for A-B Götaverken in 1939. In 1940, he was employed at the Valtion Lentokonetehdas in Finland as a tester. From 1940-1941, he served as a test pilot for the Swedish Aeroplane Company AB and later as a flying officer for the third group of the Air Force from 1941-1943. From 1943, he served as the chief designer at the Swedish Aeroplane Company AB in Linköping. Lars was a member of the Swedish Technical Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Harald Brising\",\n  \"birthDate\": \"1915-05-18\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Technical Association\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harald B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Louise Welhaven\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maja-Brita Frödell\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Louise Brising\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dag Brising\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalProgram\",\n    \"name\": \"KTH (M), Civil Engineering\",\n    \"startDate\": \"1933\",\n    \"endDate\": \"1938\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"filygförvaltn\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"jobTitle\": \"Contract Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Götaverken\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1940\",\n      \"jobTitle\": \"Designer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Valtion Lentokonetehdas\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1941\",\n      \"jobTitle\": \"Tester\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Aeroplane Company AB\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1943\",\n      \"jobTitle\": [\"Test Pilot\", \"Flying Officer\", \"Chief Designer\"]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Harald Brising",
+        "birthDate": "1915-05-18",
+        "birthPlace": "Stockholm, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": "Civil Engineer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Technical Association"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Harald B."
+            },
+            {
+                "@type": "Person",
+                "name": "Louise Welhaven"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maja-Brita Frödell",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Louise Brising",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Dag Brising",
+                "birthDate": "1947"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalProgram",
+            "name": "KTH (M), Civil Engineering",
+            "startDate": "1933",
+            "endDate": "1938"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "filygförvaltn",
+                "startDate": "1938",
+                "endDate": "1939",
+                "jobTitle": "Contract Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Götaverken",
+                "startDate": "1939",
+                "endDate": "1940",
+                "jobTitle": "Designer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Valtion Lentokonetehdas",
+                "startDate": "1940",
+                "endDate": "1941",
+                "jobTitle": "Tester"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Aeroplane Company AB",
+                "startDate": "1940",
+                "endDate": "1943",
+                "jobTitle": [
+                    "Test Pilot",
+                    "Flying Officer",
+                    "Chief Designer"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "original": "Ellioth, Erik Bertil, distriktstandläkare, Sölvesborg, f. 20/12/08 i Sthlm av fabr. Eric E. o. Olga Widgren. G. 34 m. Dagmar Svensson. Barn: Olof f. 37, Leif 41, d. 43, Barbro 43. — Stud:ex. i Sthlm 28, med. stud. v. Karol. inst. 29-31, tandl :kand. 32, tandl. 35. Prakt, i Gbg 35-36, i Dals-Ed m. prakt, i Bäckefors samt för-ordn. s. skoltandl. i Ed, Rölanda, Ödskölt o. Bäcke 36-40, distr:tandl. i Sölvesborg sed. 43, itandv :insp. f. B’lek. 1. landstingsomr. sed. 43. Var i Ed supp’l’. i hälisovindn, styr :’led. i badhus-fören. o. ordf. i pistolkl., ordf. i tjänstesekt. inom Blek. &lt;1. tandlifören., led. av S’tyr. f. dito sed. 46.",
+    "translated": "Ellioth, Erik Bertil, district dentist, Sölvesborg, born on December 20th, 1908 in Stockholm to factory worker Eric E. and Olga Widgren. Married in 1934 to Dagmar Svensson. Children: Olof (born in 1937), Leif (born in 1941, died in 1943), and Barbro (born in 1943). Completed high school in Stockholm in 1928, studied medicine at Karolinska Institute from 1929 to 1931, earned a degree in dental medicine in 1932, and became a licensed dentist in 1935. Worked in Gothenburg from 1935 to 1936, had a dental practice in Dals-Ed, Bäckefors, and served as a school dentist in Ed, Rölanda, Ödskölt, and Bäcke from 1936 to 1940. Became district dentist in Sölvesborg from 1943 and a dental inspector for Blekinge County from 1943. Was a substitute in the local health council in Ed, a board member in the bathhouse association and chairman of the pistol club. Was also chairman of the employees' section within Blekinge County dental association, and a member of the board for the same association since 1946.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Bertil Ellioth\",\n  \"birthDate\": \"1908-12-20\",\n  \"birthPlace\": \"Stockholm\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"District Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Sölvesborg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eric E.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olga Widgren\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dagmar Svensson\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Ellioth\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif Ellioth\",\n      \"birthDate\": \"1941\",\n      \"deathDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro Ellioth\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"awardingInstitution\": \"Stockholm\",\n      \"awardDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medicine Degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardingInstitution\": \"Karolinska Institute\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental Medicine Degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardingInstitution\": null,\n      \"awardDate\": \"1932\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blekinge County Dental Association\",\n      \"jobTitle\": \"Dental Inspector\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": null,\n      \"jobTitle\": \"District Dentist\",\n      \"startDate\": \"1943\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Sölvesborg\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": null,\n      \"jobTitle\": \"School Dentist\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1940\",\n      \"address\": [\n        {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Ed\"\n        },\n        {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Rölanda\"\n        },\n        {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Ödskölt\"\n        },\n        {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Bäcke\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": null,\n      \"jobTitle\": null,\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bathhouse Association\",\n      \"jobTitle\": \"Board Member\",\n      \"startDate\": null,\n      \"address\": null\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blekinge County Dental Association\",\n      \"jobTitle\": \"Employees' Section Chairman\",\n      \"startDate\": null,\n      \"address\": null\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blekinge County Dental Association\",\n      \"jobTitle\": \"Board Member\",\n      \"startDate\": \"1946\",\n      \"address\": null\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Pistol Club\",\n      \"jobTitle\": \"Chairman\",\n      \"startDate\": null,\n      \"address\": null\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Erik Bertil Ellioth",
+        "birthDate": "1908-12-20",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "occupation": "District Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sölvesborg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Eric E."
+            },
+            {
+                "@type": "Person",
+                "name": "Olga Widgren"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Dagmar Svensson"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Olof Ellioth",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Leif Ellioth",
+                "birthDate": "1941",
+                "deathDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro Ellioth",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "educationalLevel": "SecondaryEducation",
+                "awardingInstitution": "Stockholm",
+                "awardDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medicine Degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "Karolinska Institute",
+                "startDate": "1929",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental Medicine Degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": null,
+                "awardDate": "1932"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Blekinge County Dental Association",
+                "jobTitle": "Dental Inspector",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": null,
+                "jobTitle": "District Dentist",
+                "startDate": "1943",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Sölvesborg"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": null,
+                "jobTitle": "School Dentist",
+                "startDate": "1936",
+                "endDate": "1940",
+                "address": [
+                    {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Ed"
+                    },
+                    {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Rölanda"
+                    },
+                    {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Ödskölt"
+                    },
+                    {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Bäcke"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": null,
+                "jobTitle": null,
+                "startDate": "1935",
+                "endDate": "1936",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Bathhouse Association",
+                "jobTitle": "Board Member",
+                "startDate": null,
+                "address": null
+            },
+            {
+                "@type": "Organization",
+                "name": "Blekinge County Dental Association",
+                "jobTitle": "Employees' Section Chairman",
+                "startDate": null,
+                "address": null
+            },
+            {
+                "@type": "Organization",
+                "name": "Blekinge County Dental Association",
+                "jobTitle": "Board Member",
+                "startDate": "1946",
+                "address": null
+            },
+            {
+                "@type": "Organization",
+                "name": "Pistol Club",
+                "jobTitle": "Chairman",
+                "startDate": null,
+                "address": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "original": "Davidsson, John, bergsingenjör, Olofström, f. 15/2/73 i Karlshamn av fabr. S. J. D. o. Carolina Jonsson. — KTH 94. Ritare h. byggmäst. 95-96, ritare o. konstr. v. Hofors Bruk 96-99, valsv:ing. där 99, övering. där 16 o. tekn. dir. 18-3^. RVO, HedLIVA.",
+    "translated": "Davidsson, John, mining engineer, from Olofström. Born on February 15th, 1873 in Karlshamn to factory worker S. J. D. and Carolina Jonsson. He graduated from KTH (Royal Institute of Technology) in 1894 and worked as a draftsman for a builder from 1895 to 1896. From 1896 to 1899, he worked as a draftsman and constructor at Hofors Bruk and became a rolling mill engineer there in 1899. He was promoted to supervisor in 1916 and served as technical director from 1918 to 193^. He was awarded the Order of Vasa (RVO) and the Litteris et Artibus medal (HedLIVA). John married a partner whose name is not specified.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Davidsson\",\n  \"jobTitle\": \"Mining engineer\",\n  \"birthDate\": \"1873-02-15\",\n  \"birthPlace\": \"Karlshamn\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"S. J. D.\",\n      \"jobTitle\": \"Factory worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carolina Jonsson\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"KTH (Royal Institute of Technology)\",\n      \"startDate\": \"1894\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hofors Bruk\",\n      \"startDate\": \"1896\",\n      \"endDate\": \"1931\",\n      \"jobTitle\": [\n        \"Draftsman\",\n        \"Constructor\",\n        \"Rolling mill engineer\",\n        \"Supervisor\",\n        \"Technical director\"\n      ]\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of Vasa (RVO)\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"Litteris et Artibus medal (HedLIVA)\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Davidsson",
+        "jobTitle": "Mining engineer",
+        "birthDate": "1873-02-15",
+        "birthPlace": "Karlshamn",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "S. J. D.",
+                "jobTitle": "Factory worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Carolina Jonsson"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "KTH (Royal Institute of Technology)",
+                "startDate": "1894"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hofors Bruk",
+                "startDate": "1896",
+                "endDate": "1931",
+                "jobTitle": [
+                    "Draftsman",
+                    "Constructor",
+                    "Rolling mill engineer",
+                    "Supervisor",
+                    "Technical director"
+                ]
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Order of Vasa (RVO)"
+            },
+            {
+                "@type": "Medal",
+                "name": "Litteris et Artibus medal (HedLIVA)"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown"
+        }
+    }
+}

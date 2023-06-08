@@ -1,0 +1,64 @@
+{
+    "original": "Ekman, Percy, överste, Göteborg, f. 6/9/89 i Gbg av kapt. Peter E. o. ELlen Hilil. G. 18 m. Maud Bexelius. Barn: Magnus f. 19, Maud 22, Carl 24. — Off:ex. v. A. 2 11. Löjtn. 16, kapt. 24, major 35, öv:löjtn. 41, överste i IIL milo res. 44, pens. 44. RSO.",
+    "translated": "Ekman, Percy, Colonel, Gothenburg, b. 6/9/89 in Gothenburg as the son of Captain Peter E. and Ellen Hilil. Married in 1918 to Maud Bexelius. Children: Magnus b. 1919, Maud b. 1922, Carl b. 1924. Military service: Officer Candidate School class A2 1911, Second Lieutenant 1916, Captain 1924, Major 1935, Lieutenant Colonel 1941, Colonel in III Military District reserve 1944, retired in 1944. Awarded the Royal Order of the Sword (RSO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Percy Ekman\",\n  \"birthPlace\": \"Gothenburg\",\n  \"birthDate\": \"1889-09-06\",\n  \"parents\": [ \n    {\n      \"@type\": \"Person\",\n      \"name\": \"Captain Peter E.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Hilil\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maud Bexelius\",\n    \"marriageDate\": \"1918\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Magnus Ekman\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maud Ekman\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Ekman\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"jobTitle\": \"Colonel\",\n  \"memberOf\": {\n    \"@type\": \"MilitaryOrganization\",\n    \"name\": \"III Military District\",\n    \"status\": \"Reserve\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Officer Candidate School\",\n      \"credentialCategory\": \"Military\"\n    }\n  ],\n  \"knowsAbout\": \"Swedish family history\",\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of the Sword\",\n    \"dateAwarded\": \"N/A\",\n    \"fromLocation\": \"Sweden\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Percy Ekman",
+        "birthPlace": "Gothenburg",
+        "birthDate": "1889-09-06",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Captain Peter E."
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Hilil"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maud Bexelius",
+            "marriageDate": "1918"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Magnus Ekman",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Maud Ekman",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Carl Ekman",
+                "birthDate": "1924"
+            }
+        ],
+        "jobTitle": "Colonel",
+        "memberOf": {
+            "@type": "MilitaryOrganization",
+            "name": "III Military District",
+            "status": "Reserve"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Officer Candidate School",
+                "credentialCategory": "Military"
+            }
+        ],
+        "knowsAbout": "Swedish family history",
+        "award": {
+            "@type": "Order",
+            "name": "Royal Order of the Sword",
+            "dateAwarded": "N/A",
+            "fromLocation": "Sweden"
+        }
+    }
+}

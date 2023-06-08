@@ -1,0 +1,57 @@
+{
+    "original": "Bergvall, Axel Ludvig, disponent, Norrköping, f. 15/2/86 i Norrköp. av rådm. o. fabr. Axel K. B. o. Ida Svensson. G. 13 m. Agda Anderson. Barn: Margit f. 14, Harriet 16. — Lärovistud. i Norrköp., in- o. uti. hand.-sk. Verkst. dir. i A-B Axel K. Bergvall &amp; Söner fr. 17.",
+    "translated": "Bergvall, Axel Ludvig, manager, Norrköping, born February 15, 1886 in Norrköping to councilman and manufacturer Axel K. B. and Ida Svensson. Married to Agda Anderson in 1913. Children: Margit born in 1914, Harriet born in 1916. Educated at a school in Norrköping for both elementary and high school, as well as a trade school. Managing director at A-B Axel K. Bergvall & Sons since 1917.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Ludvig Bergvall\",\n  \"jobTitle\": \"Manager\",\n  \"birthDate\": \"1886-02-15\",\n  \"birthPlace\": \"Norrköping\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel K. B. Bergvall\",\n      \"jobTitle\": \"Councilman and Manufacturer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agda Anderson\",\n    \"marriageDate\": \"1913\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit\",\n      \"birthDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harriet\",\n      \"birthDate\": \"1916\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norrköping School\",\n      \"EducationalOrganizationType\": \"elementary and high school\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Trade School\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Axel K. Bergvall & Sons\"\n  },\n  \"jobTitle\": \"Managing Director\",\n  \"startDate\": \"1917\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Ludvig Bergvall",
+        "jobTitle": "Managing Director",
+        "birthDate": "1886-02-15",
+        "birthPlace": "Norrköping",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Axel K. B. Bergvall",
+                "jobTitle": "Councilman and Manufacturer"
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agda Anderson",
+            "marriageDate": "1913"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margit",
+                "birthDate": "1914"
+            },
+            {
+                "@type": "Person",
+                "name": "Harriet",
+                "birthDate": "1916"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norrköping School",
+                "EducationalOrganizationType": "elementary and high school"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Trade School"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B Axel K. Bergvall & Sons"
+        },
+        "startDate": "1917"
+    }
+}

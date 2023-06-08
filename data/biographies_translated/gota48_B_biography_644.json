@@ -1,0 +1,93 @@
+{
+    "original": "Bäckström, Sven Arthur Valdemar, stationsinspektor, Vetlanda, f. 7/10/90 i N. Solberga, Jönköp. 1., av musik-fanj. Sven Johan B. o. h. h. f. Johnsson. G. 22 m. Ester Lönegren. Barn: Bertil f. 24. — Stud. v. Eksjö h. a. 1. Anst. v. Nässjö-Oskarshamns Järnväg fr. 06, kont:biträde 13, stat:skriv. 17, kont:skriv. 18, byråbokhåll. 22, byrå-assist. 42, stat:insp. v. SJ sed. 46. Kapt. i landst. Medl. av Frimurarorden sed. 24. Hobby: filateli. PatrGM, N. Smålands landst :förb. förtj:SM, Centr:förb. f. bef:utb. förtj:SM.",
+    "translated": "Bäckström, Sven Arthur Valdemar, station inspector, Vetlanda, born on October 7th, 1890 in N. Solberga, Jönköp. County 1st district, son of musician Sven Johan B. and housewife H. F. Johnsson. Married on February 22nd with Ester Lönegren, they had one child: Bertil, born in 1924. Studied at Eksjö h. a. 1. Employed by Nässjö-Oskarshamns Railway from 1906, as clerk from 1913, state secretary from 1917, as accounting clerk from 1918, as bureau bookkeeper from 1922, as bureau assistant from 1942, and state inspector at SJ since 1946. Captain in the county council. Member of the Freemasonry since 1924. His hobby was philately. He received the PatrGM, N. Småland county council award, and the Centr:förb. f. bef:utb. award.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Arthur Valdemar Bäckström\",\n  \"birthDate\": \"1890-10-07\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"N. Solberga\",\n      \"addressRegion\": \"Jönköp. County\",\n      \"addressDistrict\": \"1st district\",\n      \"postalCode\": \"\"\n    }\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sven Johan Bäckström\",\n    \"occupation\": \"musician, fanjunkare\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"H. F. Johnsson\",\n    \"occupation\": \"housewife\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ester Lönegren\",\n    \"marriageDate\": \"1922-02-22\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil Bäckström\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Eksjö h. a. 1\"\n  },\n  \"jobTitles\": [\n    \"station inspector\",\n    \"clerk\",\n    \"state secretary\",\n    \"accounting clerk\",\n    \"bureau bookkeeper\",\n    \"bureau assistant\",\n    \"state inspector at SJ\"\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Nässjö-Oskarshamns Railway\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Freemasonry\",\n      \"foundingLocation\": \"Sweden\",\n      \"foundingDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"N. Småland county council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Centr:förb. f. bef:utb.\"\n    }\n  ],\n  \"hobbies\": [\n    \"philately\"\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Award\",\n      \"name\": \"PatrGM\"\n    },\n    {\n      \"@type\": \"Award\",\n      \"name\": \"N. Småland county council award\"\n    },\n    {\n      \"@type\": \"Award\",\n      \"name\": \"Centr:förb. f. bef:utb. award\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Arthur Valdemar Bäckström",
+        "birthDate": "1890-10-07",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "N. Solberga",
+                "addressRegion": "Jönköp. County",
+                "addressDistrict": "1st district",
+                "postalCode": ""
+            }
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Sven Johan Bäckström",
+            "occupation": "musician, fanjunkare"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "H. F. Johnsson",
+            "occupation": "housewife"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ester Lönegren",
+            "marriageDate": "1922-02-22"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bertil Bäckström",
+                "birthDate": "1924"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Eksjö h. a. 1"
+        },
+        "jobTitles": [
+            "station inspector",
+            "clerk",
+            "state secretary",
+            "accounting clerk",
+            "bureau bookkeeper",
+            "bureau assistant",
+            "state inspector at SJ"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nässjö-Oskarshamns Railway"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Freemasonry",
+                "foundingLocation": "Sweden",
+                "foundingDate": "1924"
+            },
+            {
+                "@type": "Organization",
+                "name": "N. Småland county council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Centr:förb. f. bef:utb."
+            }
+        ],
+        "hobbies": [
+            "philately"
+        ],
+        "awards": [
+            {
+                "@type": "Award",
+                "name": "PatrGM"
+            },
+            {
+                "@type": "Award",
+                "name": "N. Småland county council award"
+            },
+            {
+                "@type": "Award",
+                "name": "Centr:förb. f. bef:utb. award"
+            }
+        ]
+    }
+}

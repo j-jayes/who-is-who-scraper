@@ -1,0 +1,113 @@
+{
+    "original": "Blychert, Ernst Gunnar, läroverksadjunkt, Skövde, f. 23/12/95 i Björk-äng, Skarab. 1., av folkskoll. August B. o. Maria Johansson. G. 31 m. Margareta Gustafsson. Barn: Gunnar f. 34, Arne 37, Gudrun 39, Ingvar 42. — Stud:ex. i Skövde 16, fil. mag. i Upps. 21, provår i Lund 24. Extralär. i Ystad 21-23, i Lund 25-26, e. o. lax. v. Skövde h. a. 1. 26-35, adj. v. Skara h. a. 1. 35, adj. i Skövde sed. 44.",
+    "translated": "Blychert, Ernst Gunnar, high school teacher, Skövde, born December 23, 1895 in Björkäng, Skaraborg county, first born of August B. and Maria Johansson who were elementary school teachers. Married to Margareta Gustafsson in 1931. They have four children: Gunnar (b. 1934), Arne (b. 1937), Gudrun (b. 1939), and Ingvar (b. 1942). Blychert passed his high school exam in Skövde in 1916, received a Bachelor of Arts degree from Uppsala University in 1921, and did his teaching internship in Lund in 1924. He worked as an extra teacher in Ystad from 1921 to 1923, in Lund from 1925 to 1926, as well as a substitute high school teacher in Skövde from 1926 to 1935. He was appointed as a high school teacher in Skara from 1935 and has been a high school teacher in Skövde since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Gunnar Blychert\",\n  \"jobTitle\": \"High School Teacher\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Skövde\",\n    \"addressRegion\": \"Skaraborg County\"\n  },\n  \"birthDate\": \"1895-12-23\",\n  \"birthPlace\": \"Björkäng, Skaraborg County, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August Blychert\",\n      \"jobTitle\": \"Elementary School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Johansson\",\n      \"jobTitle\": \"Elementary School Teacher\"\n    }\n  ],\n  \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Gustafsson\",\n      \"marriageDate\": \"1931\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Blychert\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne Blychert\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun Blychert\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar Blychert\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skövde High School\",\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"endDate\": \"1921\",\n      \"description\": \"Bachelor of Arts degree\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"endDate\": \"1924\",\n      \"description\": \"Teaching internship\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Ystad\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\",\n      \"roleName\": \"Extra Teacher\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\",\n      \"roleName\": \"Extra Teacher\"\n    }\n  ],\n  \"worksFor\": [\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Skövde High School\",\n        \"startDate\": \"1926\",\n        \"endDate\": \"1935\",\n        \"roleName\": \"Substitute High School Teacher\"\n      },\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Skara High School\",\n        \"startDate\": \"1935\",\n        \"roleName\": \"High School Teacher\"\n      },\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Skövde High School\",\n        \"startDate\": \"1944\",\n        \"roleName\": \"High School Teacher\"\n      }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Gunnar Blychert",
+        "jobTitle": "High School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skövde",
+            "addressRegion": "Skaraborg County"
+        },
+        "birthDate": "1895-12-23",
+        "birthPlace": "Björkäng, Skaraborg County, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "August Blychert",
+                "jobTitle": "Elementary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Johansson",
+                "jobTitle": "Elementary School Teacher"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Gustafsson",
+            "marriageDate": "1931"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar Blychert",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Arne Blychert",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Gudrun Blychert",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingvar Blychert",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skövde High School",
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "endDate": "1921",
+                "description": "Bachelor of Arts degree"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "endDate": "1924",
+                "description": "Teaching internship"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Ystad",
+                "startDate": "1921",
+                "endDate": "1923",
+                "roleName": "Extra Teacher"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund",
+                "startDate": "1925",
+                "endDate": "1926",
+                "roleName": "Extra Teacher"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Skövde High School",
+                "startDate": "1926",
+                "endDate": "1935",
+                "roleName": "Substitute High School Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skara High School",
+                "startDate": "1935",
+                "roleName": "High School Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skövde High School",
+                "startDate": "1944",
+                "roleName": "High School Teacher"
+            }
+        ]
+    }
+}

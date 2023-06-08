@@ -1,0 +1,77 @@
+{
+    "original": "Eckerstein, Åke Carl Oscar, advokat, Göteborg, f. 25/11/11 i Gbg av bokhandl. O. F. E. o. Selma Eckerstein. G. 40 m. adv. Greten Martinell. Barn: Margareta f. 42, Carl Michael 46. — Stud:ex. i Gbg 33, jur. kand. i Upps. 39. Tingstjg. i Hall. n. doms. 39-42, ans’t. v. Folmers Adv:byrå i Gbg sed. 42. Led. av Sv:es Adv:-samf. sed. 44.",
+    "translated": "Eckerstein, Åke Carl Oscar, lawyer, Gothenburg, born on November 25, 1911 in Gothenburg to bookstore owner O. F. E. and Selma Eckerstein. Married in 1940 to lawyer Greten Martinell. Children: Margareta born in 1942, Carl Michael born in 1946. Completed high school in Gothenburg in 1933, earned a law degree from Uppsala University in 1939. Served as court clerk in Halland from 1939 to 1942, then worked for Folmers Law Firm in Gothenburg since 1942. Member of the Swedish Bar Association since 1944.",
+    "structured_raw": "{\n  \"@context\":\"https://schema.org\",\n  \"@type\":\"Person\",\n  \"name\":\"Åke Carl Oscar Eckerstein\",\n  \"jobTitle\":\"Lawyer\",\n  \"birthDate\":\"1911-11-25\",\n  \"birthPlace\":\"Gothenburg\",\n  \"parent\":[{\n    \"@type\":\"Person\",\n    \"name\":\"O. F. Eckerstein\"\n  },{\n    \"@type\":\"Person\",\n    \"name\":\"Selma Eckerstein\"\n  }],\n  \"spouse\":{\n    \"@type\":\"Person\",\n    \"name\":\"Greten Martinell\",\n    \"jobTitle\":\"Lawyer\",\n    \"marriageDate\":\"1940\"\n  },\n  \"children\":[{\n    \"@type\":\"Person\",\n    \"name\":\"Margareta\",\n    \"birthDate\":\"1942\"\n  }, {\n    \"@type\":\"Person\",\n    \"name\":\"Carl Michael\",\n    \"birthDate\":\"1946\"\n  }],\n  \"education\":{\n    \"@type\":\"EducationalOrganization\",\n    \"name\":\"Uppsala University\"\n  },\n  \"alumniOf\":[{\n    \"@type\":\"EducationalOrganization\",\n    \"name\":\"Gothenburg High School\",\n    \"endDate\":\"1933\"\n  },{\n    \"@type\":\"EducationalOrganization\",\n    \"name\":\"Uppsala University\",\n    \"endDate\":\"1939\"\n  }],\n  \"jobTitle\":\"Court Clerk\",\n  \"memberOf\":[{\n    \"@type\":\"Organization\",\n    \"name\":\"Swedish Bar Association\",\n    \"startDate\":\"1944\"\n  }],\n  \"workExperience\":[{\n    \"@type\":\"Organization\",\n    \"name\":\"Halland Court\",\n    \"startDate\":\"1939\",\n    \"endDate\":\"1942\"\n  },{\n    \"@type\":\"Organization\",\n    \"name\":\"Folmers Law Firm\",\n    \"startDate\":\"1942\"\n  }]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åke Carl Oscar Eckerstein",
+        "jobTitle": "Court Clerk",
+        "birthDate": "1911-11-25",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "O. F. Eckerstein"
+            },
+            {
+                "@type": "Person",
+                "name": "Selma Eckerstein"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greten Martinell",
+            "jobTitle": "Lawyer",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Carl Michael",
+                "birthDate": "1946"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Uppsala University"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "endDate": "1939"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1944"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Halland Court",
+                "startDate": "1939",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "Folmers Law Firm",
+                "startDate": "1942"
+            }
+        ]
+    }
+}

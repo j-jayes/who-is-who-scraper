@@ -1,0 +1,76 @@
+{
+    "original": "Danielsson, Karl Olof, apotekare, Söderköping, f. 30/3/01 i Byarum, Jönköp. 1. G. 36 m. Gun Josefsson. Barn: Eva f. 37, Inga 39. — Farm. kand. 23, apot:ex. 27. Anst. å apot. i Uddevalla 19-25 o. 27-31, å apot. Kronan i Borås 31-38, priv. å apot. på Tjörn 38-46, å apot. Kronan i Söderköping ised. 46.",
+    "translated": "Danielsson, Karl Olof, pharmacist, Söderköping, b. March 30, 1901 in Byarum, Jönköping. 1st marriage in 1936 with Gun Josefsson. Children: Eva b. 1937, Inga b. 1939. - Bachelor of Pharmacy (Pharm. kand.) in 1923, pharmacist exam in 1927. Employed at a pharmacy in Uddevalla from 1919-1925 and in 1927-1931, at Kronan pharmacy in Borås 1931-1938, privately at a pharmacy on Tjörn 1938-1946, and at Kronan pharmacy in Söderköping since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Olof Danielsson\",\n  \"jobTitle\": \"Pharmacist\",\n  \"birthDate\": \"1901-03-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Byarum, Jönköping\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gun Josefsson\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"bachelor\",\n    \"educationalLevel\": \"Bachelor of Pharmacy\",\n    \"startDate\": \"1923\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kronan pharmacy\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1938\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Borås\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private pharmacy\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1946\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Tjörn\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kronan pharmacy\",\n      \"startDate\": \"1946\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Söderköping\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Uddevalla pharmacy\",\n    \"startDate\": \"1919\",\n    \"endDate\": \"1925\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Uddevalla pharmacy\",\n    \"startDate\": \"1927\",\n    \"endDate\": \"1931\"\n  },\n  \"jobTitle\": \"Pharmacist\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Olof Danielsson",
+        "jobTitle": "Pharmacist",
+        "birthDate": "1901-03-30",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Byarum, Jönköping"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Gun Josefsson",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga",
+                "birthDate": "1939"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "bachelor",
+            "educationalLevel": "Bachelor of Pharmacy",
+            "startDate": "1923"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Kronan pharmacy",
+                "startDate": "1931",
+                "endDate": "1938",
+                "location": {
+                    "@type": "Place",
+                    "name": "Borås"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Private pharmacy",
+                "startDate": "1938",
+                "endDate": "1946",
+                "location": {
+                    "@type": "Place",
+                    "name": "Tjörn"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Kronan pharmacy",
+                "startDate": "1946",
+                "location": {
+                    "@type": "Place",
+                    "name": "Söderköping"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Uddevalla pharmacy",
+            "startDate": "1927",
+            "endDate": "1931"
+        }
+    }
+}

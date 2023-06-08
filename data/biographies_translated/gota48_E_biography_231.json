@@ -1,0 +1,75 @@
+{
+    "original": "Emanuelsson, Sven Hugo, lasaretts-syssloman. Mariestad, f. 2/1/99 i Skål-lerud, Älvsb. 1., av lasisysslom. Henrik Severin E. o. Berta Bergström. G. 46 m. Lillie 01s’son. — Realex. 16, Gbgs hand:inst. 19. Anst. h. A-B Nyman &amp; Schultz i Sthlm 20-21, tj :man v. länslas. i Lidköp. 21-39, syssloman v. län sias. i Marie stad fr. 39.",
+    "translated": "Emanuelsson, Sven Hugo, hospital clerk. Born on January 2, 1899 in Skållerud, Älvsborgs län, son of hospital clerk Henrik Severin E. and Berta Bergström. Married Lillie Olsson in 1946. Completed realexamen at age 16, and graduated from Gothenburg's handelsinstitut in 1919. Employed at A-B Nyman & Schultz in Stockholm from 1920-1921, then as a clerk at the county hospital in Lidköping from 1921-1939. Became a hospital clerk in Mariestad in 1939.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Sven Hugo Emanuelsson\",\n   \"birthDate\": \"1899-01-02\",\n   \"birthPlace\": {\n      \"@type\": \"City\",\n      \"name\": \"Skållerud\",\n      \"address\": {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Älvsborgs län\"\n      }\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Henrik Severin Emanuelsson\",\n         \"jobTitle\": \"Hospital Clerk\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Berta Bergström\",\n         \"jobTitle\": \"Hospital Clerk\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Lillie Olsson\",\n      \"marriageDate\": \"1946\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"realexamen\",\n         \"name\": \"Completed realexamen\",\n         \"startDate\": \"1915\",\n         \"endDate\": \"1916\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"graduation\",\n         \"name\": \"Graduated from Gothenburg's handelsinstitut\",\n         \"startDate\": \"1919\",\n         \"endDate\": \"1919\"\n      }\n   ],\n   \"jobTitle\": [\n      \"Hospital Clerk\",\n      \"Clerk\"\n   ],\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Nyman & Schultz\",\n         \"startDate\": \"1920\",\n         \"endDate\": \"1921\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"County Hospital in Lidköping\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1939\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Mariestad Hospital\",\n         \"startDate\": \"1939\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sven Hugo Emanuelsson",
+        "birthDate": "1899-01-02",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Skållerud",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborgs län"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Henrik Severin Emanuelsson",
+                "jobTitle": "Hospital Clerk"
+            },
+            {
+                "@type": "Person",
+                "name": "Berta Bergström",
+                "jobTitle": "Hospital Clerk"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lillie Olsson",
+            "marriageDate": "1946"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "realexamen",
+                "name": "Completed realexamen",
+                "startDate": "1915",
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduation",
+                "name": "Graduated from Gothenburg's handelsinstitut",
+                "startDate": "1919",
+                "endDate": "1919"
+            }
+        ],
+        "jobTitle": [
+            "Hospital Clerk",
+            "Clerk"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A-B Nyman & Schultz",
+                "startDate": "1920",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Hospital in Lidköping",
+                "startDate": "1921",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mariestad Hospital",
+                "startDate": "1939"
+            }
+        ]
+    }
+}

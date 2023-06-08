@@ -1,0 +1,154 @@
+{
+    "original": "Bengtsson, Karl Vilhelm, civilingenjör, vägdirektör, Karlskrona, f. 22/9/ 02 i Vännäs, Västerbott. 1., av tåg-mäst. B. A. B. o. Kristina Svensson. G. 37 m. Anna Engström. Barn: Christina f. 38, Bo 40, Lars 43. — Stud:ex. i Umeå 21, KTH (VoV) 25. Res. t. Tyskl. o. Ital. 37, Schweiz 39. Bitr. ing. i Västerb. väg- o. vattenbyggn :-distr. 26-30, bitr. väging. i Jämtl. 1. 30-35, konsult, ing. i Umeå 35-43, väging. i Jämtl. 1. 44, tf. vägdir. i Blek. 1. 45, vägdir. där sed. 46.",
+    "translated": "Bengtsson, Karl Vilhelm, engineer, road director, Karlskrona, born September 22nd, 1902 in Vännäs, Västerbotten, first child of train master B.A.B. and Kristina Svensson. Married in 1937 to Anna Engström. Children: Christina (born 1938), Bo (born 1940), Lars (born 1943). He graduated from high school in Umeå in 1921 and from KTH (VoV) in 1925. He traveled to Germany and Italy in 1937 and Switzerland in 1939. He was an assistant engineer in Västerbotten's road and water building district from 1926-1930, assistant road engineer in Jämtland from 1930-1935, consultant engineer in Umeå from 1935-1943, road engineer in Jämtland in 1944, acting road director in Blekinge in 1945, and road director there since 1946.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Karl Vilhelm Bengtsson\",\n   \"jobTitle\": \"Civil Engineer, Road Director\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Karlskrona\"\n   },\n   \"birthDate\": \"1902-09-22\",\n   \"birthPlace\": \"Vännäs, Västerbotten\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"B.A.B. Bengtsson\",\n         \"jobTitle\": \"Train Master\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Kristina Svensson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Engström\",\n      \"marriageDate\": \"1937\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Christina Bengtsson\",\n         \"birthDate\": \"1938\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Bo Bengtsson\",\n         \"birthDate\": \"1940\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Lars Bengtsson\",\n         \"birthDate\": \"1943\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"diploma\",\n         \"name\": \"Stud:ex. Umeå\",\n         \"startDate\": \"1921\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"degree\",\n         \"name\": \"KTH (VoV)\",\n         \"startDate\": \"1925\"\n      }\n   ],\n   \"workExperience\": [\n      {\n         \"@type\": \"Employment\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Västerbottens road and water building district\",\n            \"alternateName\": \"Västerb. väg- o. vattenbyggn\"\n         },\n         \"jobTitle\": \"Assistant Engineer\",\n         \"startDate\": \"1926\",\n         \"endDate\": \"1930\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Västerbotten\"\n         }\n      },\n      {\n         \"@type\": \"Employment\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Jämtland's road and water building district\",\n            \"alternateName\": \"Jämtl. 1\"\n         },\n         \"jobTitle\": \"Assistant Road Engineer\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1935\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Jämtland\"\n         }\n      },\n      {\n         \"@type\": \"Employment\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Consultant Engineer in Umeå\",\n            \"alternateName\": \"Konsult, ing. i Umeå\"\n         },\n         \"jobTitle\": \"Consultant Engineer\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1943\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Umeå\"\n         }\n      },\n      {\n         \"@type\": \"Employment\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Jämtland's road department\",\n            \"alternateName\": \"Jämtl. 1\"\n         },\n         \"jobTitle\": \"Road Engineer\",\n         \"startDate\": \"1944\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Jämtland\"\n         }\n      },\n      {\n         \"@type\": \"Employment\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Blekinge's road department\",\n            \"alternateName\": \"Blek. 1\"\n         },\n         \"jobTitle\": \"Acting Road Director\",\n         \"startDate\": \"1945\",\n         \"endDate\": \"1946\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Blekinge\"\n         }\n      },\n      {\n         \"@type\": \"Employment\",\n         \"employer\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Blekinge's road department\",\n            \"alternateName\": \"Blek. 1\"\n         },\n         \"jobTitle\": \"Road Director\",\n         \"startDate\": \"1946\",\n         \"location\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Blekinge\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Karl Vilhelm Bengtsson",
+        "jobTitle": "Civil Engineer, Road Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlskrona"
+        },
+        "birthDate": "1902-09-22",
+        "birthPlace": "Vännäs, Västerbotten",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "B.A.B. Bengtsson",
+                "jobTitle": "Train Master"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Engström",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christina Bengtsson",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Bengtsson",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Bengtsson",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Stud:ex. Umeå",
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "KTH (VoV)",
+                "startDate": "1925"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Västerbottens road and water building district",
+                    "alternateName": "Västerb. väg- o. vattenbyggn"
+                },
+                "jobTitle": "Assistant Engineer",
+                "startDate": "1926",
+                "endDate": "1930",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Västerbotten"
+                }
+            },
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Jämtland's road and water building district",
+                    "alternateName": "Jämtl. 1"
+                },
+                "jobTitle": "Assistant Road Engineer",
+                "startDate": "1930",
+                "endDate": "1935",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Jämtland"
+                }
+            },
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Consultant Engineer in Umeå",
+                    "alternateName": "Konsult, ing. i Umeå"
+                },
+                "jobTitle": "Consultant Engineer",
+                "startDate": "1935",
+                "endDate": "1943",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Umeå"
+                }
+            },
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Jämtland's road department",
+                    "alternateName": "Jämtl. 1"
+                },
+                "jobTitle": "Road Engineer",
+                "startDate": "1944",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Jämtland"
+                }
+            },
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Blekinge's road department",
+                    "alternateName": "Blek. 1"
+                },
+                "jobTitle": "Acting Road Director",
+                "startDate": "1945",
+                "endDate": "1946",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Blekinge"
+                }
+            },
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Blekinge's road department",
+                    "alternateName": "Blek. 1"
+                },
+                "jobTitle": "Road Director",
+                "startDate": "1946",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Blekinge"
+                }
+            }
+        ]
+    }
+}

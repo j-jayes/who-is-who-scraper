@@ -1,0 +1,96 @@
+{
+    "original": "Edlund, Sven Göran, folkskolinspektör, Karlskrona, f. 12/1/09 i Kvis’tbro, Örebro 1., av folksk :lär. Karl E. o. Sara Härndahl. G. 36 m. Barbro Gö;thberg. Barn: Claes Göran f. 41, Bengt Olof 45. — Stud:ex. 28, folksk :lär :ex. 33, fil. mag. i Lund 35, fil. lic. där 41, fil. dr 47. Folksk :-lär. i Lund 35, överlär. där 42, folksk :-insp. i Karlskrona sed. 45. Kurator f. Värml. nat. i Lund 36-37.",
+    "translated": "Edlund, Sven Göran was a primary school inspector from Karlskrona. He was born on January 12th, 1909 in Kvis'tbro, Örebro 1st district, to primary school teacher Karl E. and Sara Härndahl. He married Barbro Göthberg in 1936 and they had two children: Claes Göran, born in 1941, and Bengt Olof, born in 1945. Edlund passed his high school exams in 1928, primary school teacher exams in 1933, and earned a bachelor's degree in Lund in 1935. He also earned a master's degree there in 1941 and a Ph.D. in 1947. Edlund worked as a primary school teacher in Lund starting in 1935, became head teacher in 1942, and worked as a primary school inspector in Karlskrona since 1945. He was also a curator for the Värml. nat. in Lund from 1936-1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Göran Edlund\",\n  \"givenName\": \"Sven Göran\",\n  \"familyName\": \"Edlund\",\n  \"birthDate\": \"1909-01-12\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kvis'tbro, Örebro 1st district\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl E. Edlund\",\n      \"jobTitle\": \"Primary School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sara Härndahl\",\n      \"jobTitle\": \"Primary School Teacher\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbro Göthberg\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes Göran Edlund\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Olof Edlund\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Exam\",\n      \"dateEarned\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Primary School Teacher Exam\",\n      \"dateEarned\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor's Degree\",\n      \"educationalDegree\": \"Bachelor of Arts\",\n      \"college\": \"Lund\",\n      \"dateEarned\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master's Degree\",\n      \"educationalDegree\": \"Master of Arts\",\n      \"college\": \"Lund\",\n      \"dateEarned\": \"1941\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ph.D.\",\n      \"educationalDegree\": \"Doctor of Philosophy\",\n      \"college\": \"Lund\",\n      \"dateEarned\": \"1947\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Primary School Teacher\",\n    \"Head Teacher\",\n    \"Primary School Inspector\"\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Karlskrona\"\n  },\n  \"affiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Värml. nat.\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Lund\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Göran Edlund",
+        "givenName": "Sven Göran",
+        "familyName": "Edlund",
+        "birthDate": "1909-01-12",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kvis'tbro, Örebro 1st district"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Karl E. Edlund",
+                "jobTitle": "Primary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Sara Härndahl",
+                "jobTitle": "Primary School Teacher"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Barbro Göthberg",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Claes Göran Edlund",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Olof Edlund",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Exam",
+                "dateEarned": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Primary School Teacher Exam",
+                "dateEarned": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's Degree",
+                "educationalDegree": "Bachelor of Arts",
+                "college": "Lund",
+                "dateEarned": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master's Degree",
+                "educationalDegree": "Master of Arts",
+                "college": "Lund",
+                "dateEarned": "1941"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ph.D.",
+                "educationalDegree": "Doctor of Philosophy",
+                "college": "Lund",
+                "dateEarned": "1947"
+            }
+        ],
+        "jobTitle": [
+            "Primary School Teacher",
+            "Head Teacher",
+            "Primary School Inspector"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Karlskrona"
+        },
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Värml. nat."
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Lund"
+        }
+    }
+}

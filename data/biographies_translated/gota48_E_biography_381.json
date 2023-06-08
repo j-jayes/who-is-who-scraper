@@ -1,0 +1,79 @@
+{
+    "original": "Evers, Sven Albert Mauritz, civiHn-genjör, Norrköping, f. 13/8/10 i Fristad, Älvsb. 1., av ing. Lars Iv^ar E. o. Ebba Bergström. G. 35 m. Birgitta Eriksson. Barn: Göran f. 36, Rolf 39, Marianne 41. — Stud:ex. i Borås 28, KTH (VoV) 28-33. Anst. v. stads-ingikont. i Norrköp. 34-39, tillika sta-tiker h. Norrköp. stads byggn :nd 35-46, konsult, ing. i Norrköp. sed. 39. Hobby: tennis. DM i tennis 25 ggr.",
+    "translated": "Evers, Sven Albert Mauritz, civil engineer, from Norrköping, born on August 13, 1910 in Fristad, Älvsborg County, son of engineer Lars Iv^ar E. and Ebba Bergström. Married to Birgitta Eriksson in 1935. They had three children: Göran (born 1936), Rolf (born 1939), and Marianne (born 1941). Sven passed his high school diploma in Borås in 1928 and studied at KTH (Royal Institute of Technology) from 1928 to 1933. He was employed as a city engineer in Norrköping from 1934 to 1939, and was also a statistician for Norrköping city's construction department from 1935 to 1946. He worked as a consultant engineer in Norrköping since 1939. His hobby was tennis, and he won the tennis championship 25 times.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Albert Mauritz Evers\",\n  \"birthDate\": \"1910-08-13\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Fristad\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Älvsborg County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Iv^ar Evers\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba Bergström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgitta Eriksson\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Evers\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Evers\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Evers\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"jobTitle\": \"Civil Engineer\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Institute of Technology\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"City of Norrköping\",\n    \"employeeStartDate\": \"1934\",\n    \"employeeEndDate\": \"1939\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Statistician\",\n    \"startDate\": \"1935\",\n    \"endDate\": \"1946\"\n  },\n  \"knowsAbout\": \"Tennis\",\n  \"awards\": {\n    \"@type\": \"SportsAward\",\n    \"name\": \"DM in Tennis\",\n    \"awardDate\": \"25 times\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Albert Mauritz Evers",
+        "birthDate": "1910-08-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Fristad",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborg County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Lars Iv^ar Evers",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba Bergström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgitta Eriksson",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Evers",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf Evers",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Evers",
+                "birthDate": "1941"
+            }
+        ],
+        "jobTitle": "Civil Engineer",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Royal Institute of Technology",
+                "startDate": "1928",
+                "endDate": "1933"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "City of Norrköping",
+            "employeeStartDate": "1934",
+            "employeeEndDate": "1939"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Statistician",
+            "startDate": "1935",
+            "endDate": "1946"
+        },
+        "knowsAbout": "Tennis",
+        "awards": {
+            "@type": "SportsAward",
+            "name": "DM in Tennis",
+            "awardDate": "25 times"
+        }
+    }
+}

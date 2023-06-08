@@ -1,0 +1,109 @@
+{
+    "original": "Erlandsson, Theodor Sixten, museiintendent, Fårösund, f. 1/2/69 i Eke-by, Gotl. 1., av Jacob E. o. Wilhelmina Björkegren. G. 95 m. Anna Kellström. — Folksk :lär :ex. i Upps. 90. Lär. v. folksk. i Bunge 90-29. Skapare av o. intend. f. kulturhist. mus. i Bunge. Verkst. dir. i Bunge Sparbank 15-42, led. av styr. sed. 92, ordf. i komm :stämman, led. av Gotl. 1. landsting o. dess v. ordf. sed. 12. Skr.: En döende kultur. Det Gotländska vikingaarvet m. m. RNO, RVO, GMiqml, PatrGM, GM, KorrespLHA.",
+    "translated": "Erlandsson, Theodor Sixten, museum superintendent, Fårösund, born on February 1st, 1869 in Eke-by, Gotland county, son of Jacob E. and Wilhelmina Björkegren. Married in 1895 to Anna Kellström. Completed primary school teacher training in Uppsala in 1890. Worked as a primary school teacher in Bunge from 1890 to 1929. Creator and superintendent of the cultural history museum in Bunge. Executive director of Bunge Savings Bank from 1915 to 1942. Member of the board since 1892, chairman of the municipal meeting, and member of the Gotland county council and its vice chairman since 1912. Author of \"En döende kultur. Det Gotländska vikingaarvet m.m.\" Recipient of the Royal Order of the North Star, the Royal Victorian Order, the Gustav V Medal of Merit in gold with chains, the Patriotic Society's Great Medal in gold, and the Society of Antiquaries Corresponding Member Medal.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Theodor Sixten Erlandsson\",\n  \"birthDate\": \"1869-02-01\",\n  \"birthPlace\": \"Eke-by, Gotland, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jacob E. Erlandsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilhelmina Björkegren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Kellström\",\n    \"marriageDate\": \"1895\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": \"Primary school teacher\",\n    \"educationalCredentialAwarded\": \"Folkskollärarexamen\",\n    \"awardedBy\": \"Uppsala University\",\n    \"dateIssued\": \"1890\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Primary school teacher\",\n      \"startDate\": \"1890\",\n      \"endDate\": \"1929\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Bunge\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Museum superintendent\",\n      \"startDate\": \"1929\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Fårösund\"\n      },\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bunge Museum\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Executive director\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1942\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Bunge\"\n      },\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bunge Savings Bank\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland county council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bunge Savings Bank\",\n      \"startDate\": \"1892\",\n      \"roleName\": \"Board member\"\n    }\n  ],\n  \"description\": \"Author of 'En döende kultur. Det Gotländska vikingaarvet m.m.'\",\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the North Star\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Victorian Order\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"Gustav V Medal of Merit in gold with chains\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"Patriotic Society's Great Medal in gold\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"Society of Antiquaries Corresponding Member Medal\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Theodor Sixten Erlandsson",
+        "birthDate": "1869-02-01",
+        "birthPlace": "Eke-by, Gotland, Sweden",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Jacob E. Erlandsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Wilhelmina Björkegren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Kellström",
+            "marriageDate": "1895"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "Primary school teacher",
+            "educationalCredentialAwarded": "Folkskollärarexamen",
+            "awardedBy": "Uppsala University",
+            "dateIssued": "1890"
+        },
+        "occupation": [
+            {
+                "@type": "JobPosting",
+                "title": "Primary school teacher",
+                "startDate": "1890",
+                "endDate": "1929",
+                "location": {
+                    "@type": "Place",
+                    "name": "Bunge"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Museum superintendent",
+                "startDate": "1929",
+                "location": {
+                    "@type": "Place",
+                    "name": "Fårösund"
+                },
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Bunge Museum"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Executive director",
+                "startDate": "1915",
+                "endDate": "1942",
+                "location": {
+                    "@type": "Place",
+                    "name": "Bunge"
+                },
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Bunge Savings Bank"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gotland county council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bunge Savings Bank",
+                "startDate": "1892",
+                "roleName": "Board member"
+            }
+        ],
+        "description": "Author of 'En döende kultur. Det Gotländska vikingaarvet m.m.'",
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the North Star"
+            },
+            {
+                "@type": "Order",
+                "name": "Royal Victorian Order"
+            },
+            {
+                "@type": "Medal",
+                "name": "Gustav V Medal of Merit in gold with chains"
+            },
+            {
+                "@type": "Medal",
+                "name": "Patriotic Society's Great Medal in gold"
+            },
+            {
+                "@type": "Medal",
+                "name": "Society of Antiquaries Corresponding Member Medal"
+            }
+        ]
+    }
+}

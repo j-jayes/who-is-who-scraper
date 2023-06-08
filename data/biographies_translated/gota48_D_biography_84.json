@@ -1,0 +1,94 @@
+{
+    "original": "Davidsson, Sigge Frid Ulf, civilingenjör, Motala Verkstad, f. 9/12/09 i Locknevi, Kalmar 1, G. 39 m. sjuksköt. Elsa-Greta Hansson. Barn: Ulf f. 42, Lars 46. — Verkmäst :ex. v. Chalmers 1. avd. 33, ing:ex. v. CTH 37. Stud:res. t. Tyskl., Österr., Ungern o. Tjeckoslov. 37, Tyskl. 39. Anst. v. A-B Motala Verkstad sed. 37. Hobby : armégevärsskytte.",
+    "translated": "Davidsson, Sigge Frid Ulf, civil engineer, Motala Verkstad, born on December 9, 1909 in Locknevi, Kalmar 1. Married in 1939 to nurse Elsa-Greta Hansson. Children: Ulf, born in 1942 and Lars, born in 1946. Worked as Assistant workshop manager at Chalmers 1st department from 1933 and as an engineer at CTH in 1937. Studied in Germany, Austria, Hungary, and Czech Republic in 1937 and Germany in 1939. Employed at AB Motala Verkstad since 1937. Hobby: shooting with army rifles.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sigge Frid Ulf Davidsson\",\n  \"birthDate\": \"1909-12-09\",\n  \"birthPlace\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Locknevi\",\n    \"addressRegion\": \"Kalmar 1\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa-Greta Hansson\",\n    \"jobTitle\": \"Nurse\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Davidsson\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Davidsson\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"jobTitle\": \"Civil Engineer\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Motala Verkstad\"\n  },\n  \"workLocation\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Motala\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Chalmers\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"CTH\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Motala Verkstad\"\n    }\n  ],\n  \"jobStartDate\": [\n    {\n      \"@type\": \"Event\",\n      \"name\":\"Assistant Workshop Manager at Chalmers 1st Department\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\":\"Engineer at CTH\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\":\"Employed at AB Motala Verkstad\",\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Tyskl.\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Österr.\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Ungern\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Tjeckoslov.\"\n    }\n  ],\n  \"hobbies\": [\n    \"shooting with army rifles\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sigge Frid Ulf Davidsson",
+        "birthDate": "1909-12-09",
+        "birthPlace": {
+            "@type": "PostalAddress",
+            "addressLocality": "Locknevi",
+            "addressRegion": "Kalmar 1"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa-Greta Hansson",
+            "jobTitle": "Nurse"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf Davidsson",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Davidsson",
+                "birthDate": "1946"
+            }
+        ],
+        "jobTitle": "Civil Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Motala Verkstad"
+        },
+        "workLocation": {
+            "@type": "PostalAddress",
+            "addressLocality": "Motala"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Chalmers"
+            },
+            {
+                "@type": "Organization",
+                "name": "CTH"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Motala Verkstad"
+            }
+        ],
+        "jobStartDate": [
+            {
+                "@type": "Event",
+                "name": "Assistant Workshop Manager at Chalmers 1st Department",
+                "startDate": "1933"
+            },
+            {
+                "@type": "Event",
+                "name": "Engineer at CTH",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Event",
+                "name": "Employed at AB Motala Verkstad",
+                "startDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Tyskl."
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Österr."
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Ungern"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Tjeckoslov."
+            }
+        ],
+        "hobbies": [
+            "shooting with army rifles"
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "original": "Dahl, Erik Gustav, apotekare, Vag-geryd, f. 27/7/02 i Sthlm av August D. o. Johanna Dimberg. G. 33 m. Elin Harwisch. Barn: Anne-Marie f. 39, Bengt Erik 44. — Stud:ex. i Sthlm 23, farm. kand. 28, apot:ex. 32. Elev v. apot. Tranan o. Hjorten i Sthlm 25-27, anst. v. Kronan i Sthlm, apot. i Sollefteå 32-35 samt Lejonet i Upps., priv. å apot. i Vaggeryd sed. 46. Led. av ’Styr. f. Mälarkrets. av Sv. farm:-förb. 38, v. sekr. 39, sekr. 44.",
+    "translated": "Dahl, Erik Gustav, pharmacist, born on July 27, 1902 in Stockholm to August D. and Johanna Dimberg. Married Elin Harwisch in 1933. Children: Anne-Marie born in 1939, Bengt Erik born in 1944. He completed his secondary education in Stockholm in 1923, earned a Bachelor of Pharmacy degree in 1928, and a Pharmacist degree in 1932. He was a student at the Tranan and Hjorten pharmacies in Stockholm from 1925-1927, worked for Kronan pharmacy in Stockholm, Sollefteå pharmacy from 1932-1935, and at Lejonet pharmacy in Uppsala. He established a private pharmacy in Vaggeryd in 1946. He served on the board of the Mälarkrets. of Swedish Pharmacy Association in 1938. He was the vice secretary in 1939 and the secretary in 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Gustav Dahl\",\n  \"birthDate\": \"1902-07-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Stockholm\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August D.\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johanna Dimberg\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Harwisch\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Erik\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"description\": \"Secondary education\",\n      \"educationLevel\": \"SecondaryEducation\",\n      \"earnedBy\": {\n            \"@type\": \"Person\",\n            \"name\": \"Erik Gustav Dahl\"\n          },\n      \"awardedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Stockholm\"\n      },\n      \"dateAwarded\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Pharmacy\",\n      \"description\": \"Bachelor's degree in Pharmacy\",\n      \"educationLevel\": \"BachelorDegree\",\n      \"earnedBy\": {\n            \"@type\": \"Person\",\n            \"name\": \"Erik Gustav Dahl\"\n      },\n      \"awardedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"\"\n      },\n      \"dateAwarded\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Pharmacist\",\n      \"description\": \"Pharmacist degree\",\n      \"educationLevel\": \"Professional\",\n      \"earnedBy\": {\n            \"@type\": \"Person\",\n            \"name\": \"Erik Gustav Dahl\"\n      },\n      \"dateAwarded\": \"1932\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Mälarkrets. of Swedish Pharmacy Association\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tranan\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hjorten\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kronan\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sollefteå\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lejonet\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"private pharmacy in Vaggeryd\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kronan\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sollefteå\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lejonet\"\n    }\n  ],\n  \"jobTitle\": \"Pharmacist\",\n  \"gender\": \"male\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Gustav Dahl",
+        "birthDate": "1902-07-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stockholm"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "August D.",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Dimberg",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elin Harwisch"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anne-Marie",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Erik",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "description": "Secondary education",
+                "educationLevel": "SecondaryEducation",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Erik Gustav Dahl"
+                },
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                },
+                "dateAwarded": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Pharmacy",
+                "description": "Bachelor's degree in Pharmacy",
+                "educationLevel": "BachelorDegree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Erik Gustav Dahl"
+                },
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": ""
+                },
+                "dateAwarded": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Pharmacist",
+                "description": "Pharmacist degree",
+                "educationLevel": "Professional",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Erik Gustav Dahl"
+                },
+                "dateAwarded": "1932"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Mälarkrets. of Swedish Pharmacy Association"
+        },
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Tranan"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hjorten"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kronan"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sollefteå"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lejonet"
+            },
+            {
+                "@type": "Organization",
+                "name": "private pharmacy in Vaggeryd"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Kronan"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sollefteå"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lejonet"
+            }
+        ],
+        "jobTitle": "Pharmacist",
+        "gender": "male"
+    }
+}

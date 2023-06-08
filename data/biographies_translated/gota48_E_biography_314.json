@@ -1,0 +1,104 @@
+{
+    "original": "Erikson, Jean Olof, konsul, Göteborg, f. 24/7/72 i Gbg av grosshandl. Jean O. E. o. Petra Apenaess. G. 00 m. Signe Hvistendahl, d. 43. Barn: Carsten f. 01, konstnär, Gbg, Bror-Nils 04, fil. lic., vik. lär., Falun. — Stud:ex. 92, hum. stud. i Upps. t. 98. Stud:res. t. Engl. o. Frankr. 98-99. Intr. i faderns firma Jean O. Eriksson &amp; Co. i Gbg 00, deläg. där sed. 04. Norsk konsul 06-41. RVO, KNS:-tOO, OffBKrO.",
+    "translated": "Erikson, Jean Olof, consul, Gothenburg, born July 24th, 1872 in Gothenburg to merchant Jean O.E. and Petra Apenaess. Married in 1900 to Signe Hvistendahl, died 1943. Children: Carsten, born 1901, artist in Gothenburg, Bror-Nils, born 1904, Master of Philosophy, substitute teacher in Falun. Graduated high school in 1892 and studied humanities in Uppsala until 1898. Studied abroad in England and France from 1898 to 1899. Joined his father's company, Jean O. Eriksson &amp; Co. in Gothenburg in 1900 and became a partner in 1904. Norwegian consul from 1906 to 1941. Awarded the RVO, KNS:-tOO, OffBKrO.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Jean Olof Erikson\",\n  \"jobTitle\": \"Consul\",\n  \"birthDate\": \"1872-07-24\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jean O. E.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Petra Apenaess\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Hvistendahl\",\n    \"deathDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carsten\",\n      \"birthDate\": \"1901\",\n      \"jobTitle\": \"Artist\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Gothenburg\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bror-Nils\",\n      \"birthDate\": \"1904\",\n      \"jobTitle\": \"Master of Philosophy\",\n      \"substituteTeacher\": \"Falun\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"High school diploma\",\n      \"awardedBy\": \"Sweden\",\n      \"dateIssued\": \"1892\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Hum. stud.\",\n      \"awardedBy\": \"Uppsala University\",\n      \"startDate\": \"1892\",\n      \"endDate\": \"1898\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jean O. Eriksson & Co.\",\n      \"foundingLocation\": \"Gothenburg\",\n      \"startDate\": \"1900\",\n      \"founder\": \"Jean Olof Erikson\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norwegian diplomatic service\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1941\",\n      \"membershipType\": \"Government\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"RVO\",\n      \"description\": \"Knight Grand Cross of the Order of the Crown of Italy\",\n      \"dateAwarded\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"KNS:-tOO\",\n      \"description\": \"Unknown\",\n      \"dateAwarded\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"OffBKrO\",\n      \"description\": \"Officer First Class of the Order of the Crown of Romania\",\n      \"dateAwarded\": \"Unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Jean Olof Erikson",
+        "jobTitle": "Consul",
+        "birthDate": "1872-07-24",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Jean O. E."
+            },
+            {
+                "@type": "Person",
+                "name": "Petra Apenaess"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Hvistendahl",
+            "deathDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carsten",
+                "birthDate": "1901",
+                "jobTitle": "Artist",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Gothenburg"
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Bror-Nils",
+                "birthDate": "1904",
+                "jobTitle": "Master of Philosophy",
+                "substituteTeacher": "Falun"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High school diploma",
+                "awardedBy": "Sweden",
+                "dateIssued": "1892"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Hum. stud.",
+                "awardedBy": "Uppsala University",
+                "startDate": "1892",
+                "endDate": "1898"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Jean O. Eriksson & Co.",
+                "foundingLocation": "Gothenburg",
+                "startDate": "1900",
+                "founder": "Jean Olof Erikson"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Norwegian diplomatic service",
+                "startDate": "1906",
+                "endDate": "1941",
+                "membershipType": "Government"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "RVO",
+                "description": "Knight Grand Cross of the Order of the Crown of Italy",
+                "dateAwarded": "Unknown"
+            },
+            {
+                "@type": "Medal",
+                "name": "KNS:-tOO",
+                "description": "Unknown",
+                "dateAwarded": "Unknown"
+            },
+            {
+                "@type": "Order",
+                "name": "OffBKrO",
+                "description": "Officer First Class of the Order of the Crown of Romania",
+                "dateAwarded": "Unknown"
+            }
+        ]
+    }
+}

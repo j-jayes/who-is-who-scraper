@@ -1,0 +1,83 @@
+{
+    "original": "Elmerson, Elmer Josef Bernhard, komminister. Furuby, f. 19/11/02 i Sö-deråkra, Kalmar 1. G. 38 m. Britt-Marie Lundgren. Barn: Agneta f. 40, Göran 42, Stefan 45. — Stud:ex. i Lund 22, teol. fil. ex. där 24, teol. kand. samt prakt. teol. prov 28, prästv. f. Växjö stift 29. Tjg. s. e. o. prästman i Kalvsvik, Villstad o. Reftele, kommin. i Furuby 32, tilltr. 35.",
+    "translated": "Elmerson, Elmer Josef Bernhard, assistant pastor. Furuby, b. November 19, 1902 in Söderåkra, Kalmar 1. Married in 1938 to Britt-Marie Lundgren. Children: Agneta b. 1940, Göran b. 1942, Stefan b. 1945. — Passed student exam in Lund in 1922, theological degree in 1924, theological candidate and practical theological exam in 1928, ordained priest in Växjö diocese in 1929. Served as assistant pastor in Kalvsvik, Villstad, and Reftele, and as assistant pastor in Furuby from 1932, assumed in 1935.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Elmer Josef Bernhard Elmerson\",\n   \"jobTitle\": \"Assistant Pastor\",\n   \"birthPlace\": \"Söderåkra, Kalmar\",\n   \"birthDate\": \"1902-11-19\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Britt-Marie Lundgren\",\n      \"marriageDate\": \"1938\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Agneta\",\n         \"birthDate\": \"1940\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Göran\",\n         \"birthDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Stefan\",\n         \"birthDate\": \"1945\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Student Exam\",\n         \"educationalLevel\": \"Passed\",\n         \"issuer\": \"Lund\",\n         \"issuedDate\": \"1922\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Theological Degree\",\n         \"educationalLevel\": \"Degree\",\n         \"issuer\": \"Lund\",\n         \"issuedDate\": \"1924\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Theological Candidate and Practical Theological Exam\",\n         \"educationalLevel\": \"Certificate\",\n         \"issuer\": \"Lund\",\n         \"issuedDate\": \"1928\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Växjö Diocese\"\n      }\n   ],\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Furuby\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Kalvsvik\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Villstad\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Reftele\"\n      }\n   ],\n   \"jobStartDate\": \"1932\",\n   \"jobEndDate\": \"1935\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö Diocese\"\n   },\n   \"gender\": \"Male\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Elmer Josef Bernhard Elmerson",
+        "jobTitle": "Assistant Pastor",
+        "birthPlace": "Söderåkra, Kalmar",
+        "birthDate": "1902-11-19",
+        "spouse": {
+            "@type": "Person",
+            "name": "Britt-Marie Lundgren",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Stefan",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student Exam",
+                "educationalLevel": "Passed",
+                "issuer": "Lund",
+                "issuedDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theological Degree",
+                "educationalLevel": "Degree",
+                "issuer": "Lund",
+                "issuedDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theological Candidate and Practical Theological Exam",
+                "educationalLevel": "Certificate",
+                "issuer": "Lund",
+                "issuedDate": "1928"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Växjö Diocese"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Furuby"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalvsvik"
+            },
+            {
+                "@type": "Organization",
+                "name": "Villstad"
+            },
+            {
+                "@type": "Organization",
+                "name": "Reftele"
+            }
+        ],
+        "jobStartDate": "1932",
+        "jobEndDate": "1935",
+        "gender": "Male"
+    }
+}

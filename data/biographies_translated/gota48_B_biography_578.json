@@ -1,0 +1,147 @@
+{
+    "original": "Broman, John Henrik, kapten, Karlsby, f. 26/3/93 i Brunflo, Jämtl. 1., av lantbr :dir. Johan B. o. Annie Ericsson. G. 23 m. Elin Enberg. Barn: Ann-Marie f. 28, Margot 36. — Fänrik i Jämtl. fältjäg:reg. 16, und:löjtn. 19, löjtn. 20, kapt. 31. Lär. o. avd:-förest. v. statens uppfostr :anst. å Bona sed. 24. Lett byggn. av Bona idr:-plats. Flygspan. i finska frih :krig. 18, UKT3. Hobby: idrott, spec. fotboll, skytte o. jakt. FFrK4kl m sv, Tam-merforsM, FMM, Östergötl. skytte-förb. GoiSM, 1. årtalsm. i guld, guldm. i allm. idr. o. skidi.",
+    "translated": "Broman, John Henrik, Captain, Karlsby, born on 26th of March 1893 in Brunflo, Jämtland. Son of farmer director Johan B. and Annie Ericsson. Married to Elin Enberg in 1923. They had two children: Ann-Marie, b. 1928, and Margot, b. 1936. Broman served as Second Lieutenant in Jämtland Ranger Regiment 16, First Lieutenant in 1919, Captain in 1931. He was a teacher and department head at the state educational institution in Bona since 1924, responsible for constructions at Bona Athletic Field. During the Finnish Civil War in 1918, he was in charge of reconnaissance. He received the Fourth Class of the Order of the Cross of Liberty with swords, Tammerfors Medal, and the Order of Military Merit. Broman's hobbies were sports, football, shooting, and hunting. He won gold medals at the first annual championship and in general sports and skiing.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"John Henrik Broman\",\n   \"birthDate\": \"1893-03-26\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Brunflo, Jämtland\"\n   },\n   \"deathDate\": null,\n   \"nationality\": \"Swedish\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Johan B.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Annie Ericsson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Enberg\",\n      \"marriageDate\": \"1923\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ann-Marie Broman\",\n         \"birthDate\": \"1928\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Margot Broman\",\n         \"birthDate\": \"1936\"\n      }\n   ],\n   \"occupation\": [\n      {\n         \"@type\": \"Role\",\n         \"name\": \"Captain\",\n         \"startDate\": \"1931\"\n      },\n      {\n         \"@type\": \"Role\",\n         \"name\": \"Second Lieutenant\",\n         \"startDate\": \"1916\",\n         \"endDate\": \"1919\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Jämtland Ranger Regiment 16\"\n         }\n      },\n      {\n         \"@type\": \"Role\",\n         \"name\": \"First Lieutenant\",\n         \"startDate\": \"1919\"\n      },\n      {\n         \"@type\": \"Role\",\n         \"name\": \"Teacher\",\n         \"startDate\": \"1924\",\n         \"endDate\": null,\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"State educational institution Bona\"\n         }\n      },\n      {\n         \"@type\": \"Role\",\n         \"name\": \"Department Head\",\n         \"startDate\": \"1924\",\n         \"endDate\": null,\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"State educational institution Bona\"\n         }\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"TammerforsM\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Östergötl. skytte-förb.\"\n      }\n   ],\n   \"awards\": [\n      {\n         \"@type\": \"Order\",\n         \"name\": \"Order of Military Merit\"\n      },\n      {\n         \"@type\": \"Order\",\n         \"name\": \"Order of the Cross of Liberty with swords\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"UKT3\"\n         },\n         \"awardedBy\": {\n            \"@type\": \"GovernmentOrganization\",\n            \"name\": \"Finnish Government\"\n         },\n         \"rank\": \"Fourth Class\"\n      },\n      {\n         \"@type\": \"Medal\",\n         \"name\": \"Gold medal\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"First Annual Championship\"\n         },\n         \"awardedBy\": null\n      },\n      {\n         \"@type\": \"Medal\",\n         \"name\": \"Gold medal\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"General Sports and Skiing\"\n         },\n         \"awardedBy\": null\n      }\n   ],\n   \"knowsAbout\": [\n      {\n         \"@type\": \"Thing\",\n         \"name\": \"Football\"\n      },\n      {\n         \"@type\": \"Thing\",\n         \"name\": \"Shooting\"\n      },\n      {\n         \"@type\": \"Thing\",\n         \"name\": \"Hunting\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Henrik Broman",
+        "birthDate": "1893-03-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Brunflo, Jämtland"
+        },
+        "deathDate": null,
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan B."
+            },
+            {
+                "@type": "Person",
+                "name": "Annie Ericsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elin Enberg",
+            "marriageDate": "1923"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann-Marie Broman",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Margot Broman",
+                "birthDate": "1936"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Role",
+                "name": "Captain",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Role",
+                "name": "Second Lieutenant",
+                "startDate": "1916",
+                "endDate": "1919",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Jämtland Ranger Regiment 16"
+                }
+            },
+            {
+                "@type": "Role",
+                "name": "First Lieutenant",
+                "startDate": "1919"
+            },
+            {
+                "@type": "Role",
+                "name": "Teacher",
+                "startDate": "1924",
+                "endDate": null,
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "State educational institution Bona"
+                }
+            },
+            {
+                "@type": "Role",
+                "name": "Department Head",
+                "startDate": "1924",
+                "endDate": null,
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "State educational institution Bona"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "TammerforsM"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östergötl. skytte-förb."
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Order of Military Merit"
+            },
+            {
+                "@type": "Order",
+                "name": "Order of the Cross of Liberty with swords",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "UKT3"
+                },
+                "awardedBy": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Finnish Government"
+                },
+                "rank": "Fourth Class"
+            },
+            {
+                "@type": "Medal",
+                "name": "Gold medal",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "First Annual Championship"
+                },
+                "awardedBy": null
+            },
+            {
+                "@type": "Medal",
+                "name": "Gold medal",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "General Sports and Skiing"
+                },
+                "awardedBy": null
+            }
+        ],
+        "knowsAbout": [
+            {
+                "@type": "Thing",
+                "name": "Football"
+            },
+            {
+                "@type": "Thing",
+                "name": "Shooting"
+            },
+            {
+                "@type": "Thing",
+                "name": "Hunting"
+            }
+        ]
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "original": "Claesson, Ivar Sixtus, direktör, Kungälv, f. 17/2/82 i Tranemo, Älvsb. 1. G. m. Agnes Maria Carlson. Barn: Clas f. 14, Markus 15, Sven 17, Ingmar 19, Lars 20. — Genomg. priv. hand:-’sk. i Sthlm o. Gbg. Grund, tills. m. brodern firman Bröd. Claes^son i Kungälv 09, ensam inneh. av affären 18, dir. f. den t. A-B ombild. firman 20.",
+    "translated": "Claesson, Ivar Sixtus, director, Kungälv, b. February 17, 1882 in Tranemo, Älvsborg. 1st marriage to Agnes Maria Carlson. Children: Clas b. 1914, Markus b. 1915, Sven b. 1917, Ingmar b. 1919, Lars b. 1920. He completed his education at private business schools in Stockholm and Gothenburg. He established the company Bröd. Claesson in Kungälv together with his brother in 1909, and became the sole owner of the business in 1918. He was appointed director of the restructured company in 1920.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ivar Sixtus Claesson\",\n  \"jobTitle\": \"Director\",\n  \"birthPlace\": \"Tranemo, Älvsborg, Sweden\",\n  \"birthDate\": \"1882-02-17\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agnes Maria Carlson\",\n    \"marriageDate\": \"Unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Clas\",\n      \"birthDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Markus\",\n      \"birthDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingmar\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1920\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Private business schools in Stockholm and Gothenburg\"\n  },\n  \"businessOwnership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bröd. Claesson\",\n      \"foundingDate\": \"1909\",\n      \"founders\": [\"Ivar Sixtus Claesson\", \"Claesson's Brother\"],\n      \"dissolutionDate\": \"1920\"\n    }\n  ],\n  \"directorship\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Bröd. Claesson\",\n    \"startDate\": \"1920\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ivar Sixtus Claesson",
+        "jobTitle": "Director",
+        "birthPlace": "Tranemo, Älvsborg, Sweden",
+        "birthDate": "1882-02-17",
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Maria Carlson",
+            "marriageDate": "Unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Clas",
+                "birthDate": "1914"
+            },
+            {
+                "@type": "Person",
+                "name": "Markus",
+                "birthDate": "1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingmar",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1920"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Private business schools in Stockholm and Gothenburg"
+        },
+        "businessOwnership": [
+            {
+                "@type": "Organization",
+                "name": "Bröd. Claesson",
+                "foundingDate": "1909",
+                "founders": [
+                    "Ivar Sixtus Claesson",
+                    "Claesson's Brother"
+                ],
+                "dissolutionDate": "1920"
+            }
+        ],
+        "directorship": {
+            "@type": "Organization",
+            "name": "Bröd. Claesson",
+            "startDate": "1920"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "original": "Ekman, Åke Torsten, tandläkare, Halmstad, f. 30/3/91 i Halmstad av Hjalmar E. o. Charlotte Wulff. G. 22 m. Anna Vera Vickström. Barn: Hjalmar f. 24, Ernst-Åke 27. — Stud:-ex. i Elaimstad 11, tandl :kand. 12, tandl. 14. Prakt, i Halmstad sed. 14, skoltandil. där samt tandl. v. HalH. reg. 14-27. Hobby: antikviteter.",
+    "translated": "Ekman, Åke Torsten, dentist, Halmstad, born 30/3/91 in Halmstad to Hjalmar E. and Charlotte Wulff. Married on 22nd month with Anna Vera Vickström. Children: Hjalmar born in 1924, Ernst-Åke born in 1927. Studied for his exams in Elaimstad in 1911, qualified as a dentist in 1912, and graduated in 1914. Started working in Halmstad in 1914 and later became a school dentist there. Also worked as a military dentist for HalH. reg. from 1914 to 1927. His hobby was antiques.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Torsten Ekman\",\n  \"birthDate\": \"1891-03-30\",\n  \"birthPlace\": \"Halmstad\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Halmstad\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hjalmar E. Ekman\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Charlotte Wulff\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Vera Vickström\",\n    \"marriageDate\": \"1922-xx-xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hjalmar Ekman\",\n      \"birthDate\": \"1924-xx-xx\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ernst-Åke Ekman\",\n      \"birthDate\": \"1927-xx-xx\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud-ex.\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"issuedBy\": \"Elaimstad\",\n      \"dateIssued\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandl-kand.\",\n      \"educationalLevel\": \"HigherEducation\",\n      \"issuedBy\": \"unknown\",\n      \"dateIssued\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandl.\",\n      \"educationalLevel\": \"HigherEducation\",\n      \"issuedBy\": \"unknown\",\n      \"dateIssued\": \"1914\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Prakt, i Halmstad\",\n      \"startDate\": \"1914\",\n      \"endDate\": null\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Skoltandil., Halmstad\",\n      \"startDate\": null,\n      \"endDate\": null\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Tandl. v. HalH. reg.\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"interest\": [\n    {\n      \"@type\": \"Thing\",\n      \"name\": \"Antiques\",\n      \"description\": \"Hobby\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Åke Torsten Ekman",
+        "birthDate": "1891-03-30",
+        "birthPlace": "Halmstad",
+        "nationality": "Swedish",
+        "occupation": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Halmstad"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Hjalmar E. Ekman",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotte Wulff",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Vera Vickström",
+            "marriageDate": "1922-xx-xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hjalmar Ekman",
+                "birthDate": "1924-xx-xx"
+            },
+            {
+                "@type": "Person",
+                "name": "Ernst-Åke Ekman",
+                "birthDate": "1927-xx-xx"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud-ex.",
+                "educationalLevel": "SecondaryEducation",
+                "issuedBy": "Elaimstad",
+                "dateIssued": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl-kand.",
+                "educationalLevel": "HigherEducation",
+                "issuedBy": "unknown",
+                "dateIssued": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl.",
+                "educationalLevel": "HigherEducation",
+                "issuedBy": "unknown",
+                "dateIssued": "1914"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Occupation",
+                "name": "Prakt, i Halmstad",
+                "startDate": "1914",
+                "endDate": null
+            },
+            {
+                "@type": "Occupation",
+                "name": "Skoltandil., Halmstad",
+                "startDate": null,
+                "endDate": null
+            },
+            {
+                "@type": "Occupation",
+                "name": "Tandl. v. HalH. reg.",
+                "startDate": "1914",
+                "endDate": "1927"
+            }
+        ],
+        "interest": [
+            {
+                "@type": "Thing",
+                "name": "Antiques",
+                "description": "Hobby"
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "original": "Ehrby, Bror Gunnar, apotekare, Hultsfred, f. 10/10/03 i Umeå av fahr. Jonas Gustaf Eriksson o. Erika Char- ’lotta E., f. Sjöström. G. 30 m. farm. kand. Britta Giese. Barn: Bo Gunnar f. 32, Britt-Louis.e 43. — Stud:ex. i Umeå 22, farm. kand. 26, apot:ex. 30. Elev v. apot. i Sandviken o. Nordstjärnan i Sthlm 212-25, anst. v. Renen i Umeå, Garn :apot. i Sthlm, Lokatten i Sthilm, S:t Göran i StMm 31-46, nu-’meria prdv. å lapol’. li Huilitislfired-.",
+    "translated": "Ehrby, Bror Gunnar, pharmacist, Hultsfred, b. October 10th, 1903 in Umeå to father Jonas Gustaf Eriksson and mother Erika Charlotta E., nee Sjöström. Married to pharmacy student Britta Giese in 1930. Children: Bo Gunnar b. 1932, Britt-Louise b. 1943. Completed secondary school in Umeå in 1922, pharmaceutical degree in 1926, and pharmacy license in 1930. Worked as an apprentice at pharmacies in Sandviken and Nordstjärnan in Stockholm from 1921-1925. Was employed at Renen in Umeå, Garn pharmacy in Stockholm, Lokatten in Stockholm, and S:t Göran in Stockholm from 1931-1946. Currently retired and living in Hultsfred.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Gunnar Ehrby\",\n  \"birthDate\": \"1903-10-10\",\n  \"birthPlace\": \"Umeå\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jonas Gustaf Eriksson\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Erika Charlotta E.\",\n    \"familyName\": \"Sjöström\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Britta Giese\",\n    \"jobTitle\": \"Pharmacy Student\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Gunnar\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britt-Louise\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary School Certificate\",\n      \"educationalLevel\": \"secondary\",\n      \"awardingInstitution\": \"Umeå\",\n      \"dateAwarded\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Pharmaceutical Degree\",\n      \"dateAwarded\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Pharmacy License\",\n      \"dateAwarded\": \"1930\"\n    }\n  ],\n  \"jobTitle\": \"Pharmacist\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Sandviken\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Nordstjärnan, Stockholm\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Renen, Umeå\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Garn Pharmacy, Stockholm\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Lokatten, Stockholm\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"S:t Göran, Stockholm\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Hultsfred\"\n    }\n  ],\n  \"retirementDate\": \"1946\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Gunnar Ehrby",
+        "birthDate": "1903-10-10",
+        "birthPlace": "Umeå",
+        "father": {
+            "@type": "Person",
+            "name": "Jonas Gustaf Eriksson"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Erika Charlotta E.",
+            "familyName": "Sjöström"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Britta Giese",
+            "jobTitle": "Pharmacy Student"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo Gunnar",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Britt-Louise",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary School Certificate",
+                "educationalLevel": "secondary",
+                "awardingInstitution": "Umeå",
+                "dateAwarded": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Pharmaceutical Degree",
+                "dateAwarded": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Pharmacy License",
+                "dateAwarded": "1930"
+            }
+        ],
+        "jobTitle": "Pharmacist",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Sandviken"
+            },
+            {
+                "@type": "Place",
+                "name": "Nordstjärnan, Stockholm"
+            },
+            {
+                "@type": "Place",
+                "name": "Renen, Umeå"
+            },
+            {
+                "@type": "Place",
+                "name": "Garn Pharmacy, Stockholm"
+            },
+            {
+                "@type": "Place",
+                "name": "Lokatten, Stockholm"
+            },
+            {
+                "@type": "Place",
+                "name": "S:t Göran, Stockholm"
+            },
+            {
+                "@type": "Place",
+                "name": "Hultsfred"
+            }
+        ],
+        "retirementDate": "1946"
+    }
+}

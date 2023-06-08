@@ -1,0 +1,89 @@
+{
+    "original": "Enbom, Sven Albert, tandläkare, Vänersborg, f. 27/2/12 i Norrtälje av civ:ing. Albert E. o. Ehn Korn. G. 42 m. Kerstin Ottkärr. Barn: Håkan f. 43, Birgitta 45. — S;tud:ex. v. Gbgs h. latin 31, stud. v. Karol. inst., med. kand. v. Lunds univ. 34, tandl. 38. Prakt, i Vargön o. Vänersborg.",
+    "translated": "Enbom, Sven Albert, dentist, Vänersborg, b. February 27th, 1912 in Norrtälje to civil engineer Albert E. and Ehn Korn. Married in 1942 to Kerstin Ottkärr. Children: Håkan b. 1943, Birgitta b. 1945. Educational background: Completed secondary education with a focus on Latin in Gothenburg in 1931, studied at the Karolinska Institute, earned a bachelor's degree in medicine from Lund University in 1934, and graduated with a degree in dentistry in 1938. Practiced in Vargön and Vänersborg.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Sven Albert\",\n  \"familyName\": \"Enbom\",\n  \"birthDate\": \"1912-02-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Norrtälje\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Albert E.\",\n      \"familyName\": \"Enbom\",\n      \"jobTitle\": \"Civil Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Ehn\",\n      \"familyName\": \"Korn\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Kerstin\",\n    \"familyName\": \"Ottkärr\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Håkan\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Birgitta\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Vänersborg\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied at the Karolinska Institute\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor's degree in medicine from Lund University\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree in dentistry\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Completed secondary education with a focus on Latin in Gothenburg\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"occupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Vargön\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Vänersborg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Sven Albert",
+        "familyName": "Enbom",
+        "birthDate": "1912-02-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Norrtälje"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Albert E.",
+                "familyName": "Enbom",
+                "jobTitle": "Civil Engineer"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ehn",
+                "familyName": "Korn"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Kerstin",
+            "familyName": "Ottkärr"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Håkan",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Birgitta",
+                "birthDate": "1945"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Vänersborg"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied at the Karolinska Institute"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree in medicine from Lund University",
+                "startDate": "1930",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in dentistry",
+                "startDate": "1934",
+                "endDate": "1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Completed secondary education with a focus on Latin in Gothenburg",
+                "startDate": "1928",
+                "endDate": "1931"
+            }
+        ],
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Dentist"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Vargön"
+            },
+            {
+                "@type": "Place",
+                "name": "Vänersborg"
+            }
+        ]
+    }
+}

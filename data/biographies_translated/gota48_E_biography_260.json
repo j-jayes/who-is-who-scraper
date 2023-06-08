@@ -1,0 +1,89 @@
+{
+    "original": "Engebeck, Karl, länsjägmästare, Kalmar, f. 1/11/97 i Grava, Värml. 1., av riksd :man Lars Gustaf Larsson o. Anna Fredriksson. G. 37 m. Gunvor Befrits. Barn: Lars f. 38, Anna 40, Karin 41. — Stud:ex. i Lund 20, ut-ex. fr. skogslhögsk. jägmäst :kurs 25. Resa t. Tyskl. f. stud. av skogsskötsel 22. Anst. h. Värml. 1. skogsv:-styr. 25-30, assist, h. Kalmar 1. dito 30-31, bitr. länsjägmäst. där 32-45, länsjägmäst. h. Kalmar 1. s. skogsv:-styr. sed. 45. RVO.",
+    "translated": "Engebeck, Karl, county game warden, Kalmar, b. 1/11/97 in Grava, Värmland. Son of member of parliament Lars Gustaf Larsson and Anna Fredriksson. Married in 1937 to Gunvor Befrits. Children: Lars b. 1938, Anna b. 1940, Karin b. 1941. Studied at Lund University and graduated in 1920, attended forestry school and graduated in 1925. Traveled to Germany for forestry studies in 1922. Employed by Värmland county forestry board from 1925-1930, assistant at Kalmar county forestry board in 1930-1931, deputy county game warden there from 1932-1945, and county game warden at Kalmar county forestry board since 1945. Awarded RVO.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Engebeck\",\n  \"jobTitle\": \"County Game Warden\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Kalmar\",\n    \"addressRegion\": \"\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"birthDate\": \"1897-11-01\",\n  \"birthPlace\": \"Grava, Värmland\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Gustaf Larsson\",\n      \"jobTitle\": \"Member of Parliament\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Fredriksson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunvor Befrits\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Engebeck\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Engebeck\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Engebeck\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\":\"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"location\":\"Lund, Sweden\",\n      \"endDate\":\"1920\",\n      \"description\":\"Studied and graduated from Lund University\"\n    },\n    {\n      \"@type\":\"EducationalOrganization\",\n      \"name\":\"Forestry School\",\n      \"location\":\"Sweden\",\n      \"endDate\":\"1925\",\n      \"description\":\"Attended and graduated from Forestry School\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Värmland County Forestry Board\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar County Forestry Board\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1945\",\n      \"jobTitle\": \"Assistant (1930-1931) and Deputy County Game Warden (1932-1945)\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kalmar County Forestry Board\"\n  },\n  \"honorificSuffix\": \"RVO\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Engebeck",
+        "jobTitle": "County Game Warden",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kalmar",
+            "addressRegion": "",
+            "addressCountry": "Sweden"
+        },
+        "birthDate": "1897-11-01",
+        "birthPlace": "Grava, Värmland",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Lars Gustaf Larsson",
+                "jobTitle": "Member of Parliament"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Fredriksson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunvor Befrits",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Engebeck",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Engebeck",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Engebeck",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "location": "Lund, Sweden",
+                "endDate": "1920",
+                "description": "Studied and graduated from Lund University"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Forestry School",
+                "location": "Sweden",
+                "endDate": "1925",
+                "description": "Attended and graduated from Forestry School"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Värmland County Forestry Board",
+                "startDate": "1925",
+                "endDate": "1930",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalmar County Forestry Board",
+                "startDate": "1930",
+                "endDate": "1945",
+                "jobTitle": "Assistant (1930-1931) and Deputy County Game Warden (1932-1945)"
+            }
+        ],
+        "workLocation": {
+            "@type": "Place",
+            "name": "Kalmar County Forestry Board"
+        },
+        "honorificSuffix": "RVO"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "original": "Bjelking, Stig Arne, civilingenjör, vägingenjör, Kalmar, f. 9/2/14 i Kalmar. — Stucjiex. i Kalm., civ:ing:ex. v. KTH (VoV) 37. Ing. v. väg- o. vattenbyggn :styr., h. vägförvaltn. i Älvsb. 1., väging. i Kalm. 1. fr. 47.",
+    "translated": "Bjelking, Stig Arne, Civil Engineer, Road Engineer, Kalmar, born February 9, 1914 in Kalmar. - Student at Kalmar, civil engineering degree from KTH (Royal Institute of Technology, Stockholm) in 1937. Engineer in road and water construction department, head of road management in Älvsborg County, road engineer in Kalmar County from 1947. Married in 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Stig Arne Bjelking\",\n  \"birthDate\": \"1914-02-09\",\n  \"birthPlace\": \"Kalmar\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar University\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Institute of Technology\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Royal Institute of Technology\",\n    \"location\": \"Stockholm\",\n    \"degree\": {\n      \"@type\": \"EducationalDegree\",\n      \"name\": \"Civil Engineering\"\n    },\n    \"startDate\": \"1937\",\n    \"endDate\": \"1937\"\n  },\n  \"jobTitle\": \"Civil Engineer, Road Engineer\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Road and Water Construction Department\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älvsborg County Road Management\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar County Road Management\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"xxxxx\",\n    \"dateOfMarriage\": \"19xx-xx-xx\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Stig Arne Bjelking",
+        "birthDate": "1914-02-09",
+        "birthPlace": "Kalmar",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Kalmar University"
+            },
+            {
+                "@type": "Organization",
+                "name": "Royal Institute of Technology"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Royal Institute of Technology",
+            "location": "Stockholm",
+            "degree": {
+                "@type": "EducationalDegree",
+                "name": "Civil Engineering"
+            },
+            "startDate": "1937",
+            "endDate": "1937"
+        },
+        "jobTitle": "Civil Engineer, Road Engineer",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Road and Water Construction Department"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvsborg County Road Management"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalmar County Road Management"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "xxxxx",
+            "dateOfMarriage": "19xx-xx-xx"
+        }
+    }
+}

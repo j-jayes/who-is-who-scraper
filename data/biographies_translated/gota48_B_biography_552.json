@@ -1,0 +1,77 @@
+{
+    "original": "Brink, Ivar, major, Halmstad, f. 13/ 11/85 i Råda, Skarab. 1., av kapt. E. B. o. Elise Hammarén. G. m. Alfhild Nordlöf. — Stud:ex. i Skara 03, off :-ex. 05. Off. v. L 16 05, kapt. där 21, på överg:stat 28, major i res. 45. Anst. v. Kull &amp; Hallbergs Handels A-B i Halmstad sed. 28. RSO.",
+    "translated": "Brink, Ivar, Major, Halmstad, born November 13, 1885, in Råda, Skaraborg County. Son of Captain E. B. and Elise Hammarén. Married to Alfhild Nordlöf in 19xx. He completed his secondary education in Skara in 1903 and officer training in 1905. He was an officer in L16 from 1905, became a Captain in 1921, and transferred to the reserves in 1945 at the rank of Major. Starting in 1928, he worked for Kull & Hallbergs Handels A-B in Halmstad. He was awarded the Royal Order of the Sword (RSO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ivar Brink\",\n  \"jobTitle\": \"Major\",\n  \"birthDate\": \"1885-11-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Råda, Skaraborg County\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"E.B. Hammarén\",\n      \"jobTitle\": \"Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elise Hammarén\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alfhild Nordlöf\",\n    \"birthDate\": \"19xx\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skara\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary Education\",\n      \"educationalLevel\": \"High School\",\n      \"yearAwarded\": \"1903\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Officer Training\",\n      \"yearAwarded\": \"1905\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"L16\",\n      \"jobTitle\": \"Officer\",\n      \"startDate\": \"1905\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kull & Hallbergs Handels A-B\",\n      \"jobTitle\": \"Employee\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Armed Forces\"\n    }\n  ],\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of the Sword\",\n    \"awardDate\": \"N/A\",\n    \"dateCreated\": \"N/A\",\n    \"description\": \"Awarded for distinguished military service.\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ivar Brink",
+        "jobTitle": "Major",
+        "birthDate": "1885-11-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Råda, Skaraborg County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "E.B. Hammarén",
+                "jobTitle": "Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Elise Hammarén"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Alfhild Nordlöf",
+            "birthDate": "19xx"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary Education",
+                "educationalLevel": "High School",
+                "yearAwarded": "1903"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Officer Training",
+                "yearAwarded": "1905"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "L16",
+                "jobTitle": "Officer",
+                "startDate": "1905",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kull & Hallbergs Handels A-B",
+                "jobTitle": "Employee",
+                "startDate": "1928"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Armed Forces"
+            }
+        ],
+        "awards": {
+            "@type": "Order",
+            "name": "Royal Order of the Sword",
+            "awardDate": "N/A",
+            "dateCreated": "N/A",
+            "description": "Awarded for distinguished military service."
+        }
+    }
+}

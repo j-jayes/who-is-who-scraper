@@ -1,0 +1,114 @@
+{
+    "original": "Bäfverfeldt, Erland Theodor, postmästare, Göteborg, f. 4/6/86 i Alingsås av Oskar Theodor B. o. Marie Benedikta Fernanda Nielsen. G. 15 m. Selma Katrina Zetterberg, d. 40. Barn : Rigmbr f. 16, g. m. img. C. A. Cervin, Gbg, Knut 18, kassör, Gbg, Tyra 23, g. m. textiling. Gerhard Frog-ner, Norge. — Anst. i postv. sed. 06, postexp. 12, postassist. v. järnv:posten i v. distr. 25, förste postassist. där 29, postmast, i Vingåker 39, i Gbg sed. 45. GM 8 st.",
+    "translated": "Bäfverfeldt, Erland Theodor, postmaster, Gothenburg, born June 4th, 1886 in Alingsås to Oskar Theodor B. and Marie Benedikta Fernanda Nielsen. Married on May 15th to Selma Katrina Zetterberg who passed away in 1940. Children: Rigmbr (likely an abbreviation for a name) born in 1916, married to someone with initials C. A. Cervin from Gothenburg, Knut born in 1918, cashier in Gothenburg, Tyra born in 1923, married to Gerhard Frog-ner from Norway working in textiles. Employed in the postal service since 1906, postal expert since 1912, postal assistant for the railway post in western district since 1925, first postal assistant there since 1929, postmaster in Vingåker since 1939, and in Gothenburg since 1945. Had eight grandchildren.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erland Theodor Bäfverfeldt\",\n  \"givenName\": \"Erland Theodor\",\n  \"familyName\": \"Bäfverfeldt\",\n  \"birthDate\": \"1886-06-04\",\n  \"birthPlace\": \"Alingsås, Sweden\",\n  \"deathDate\": null,\n  \"deathPlace\": null,\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Postmaster\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Postal Service\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Selma Katrina Zetterberg\",\n    \"dateOfMarriage\": \"1916-05-15\",\n    \"dateOfDeath\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rigmbr\",\n      \"dateOfBirth\": \"1916\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": null,\n        \"hasOccupation\": null,\n        \"hasAffiliation\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut\",\n      \"dateOfBirth\": \"1918\",\n      \"hasOccupation\": \"Cashier\",\n      \"hasAffiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tyra\",\n      \"dateOfBirth\": \"1923\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Gerhard Frog-ner\",\n        \"hasOccupation\": \"Textile Worker\",\n        \"hasAffiliation\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Norway\"\n        }\n      }\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"startDate\": \"1906\",\n      \"endDate\": null,\n      \"jobTitle\": \"Postal Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"startDate\": \"1912\",\n      \"endDate\": null,\n      \"jobTitle\": \"Postal Expert\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1929\",\n      \"jobTitle\": \"Postal Assistant for Railway Post in Western District\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1939\",\n      \"jobTitle\": \"First Postal Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1945\",\n      \"jobTitle\": \"Postmaster of Vingåker\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\",\n      \"startDate\": \"1945\",\n      \"endDate\": null,\n      \"jobTitle\": \"Postmaster of Gothenburg\"\n    }\n  ],\n  \"numberOfChildren\": 3,\n  \"numberOfGrandchildren\": 8\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erland Theodor Bäfverfeldt",
+        "givenName": "Erland Theodor",
+        "familyName": "Bäfverfeldt",
+        "birthDate": "1886-06-04",
+        "birthPlace": "Alingsås, Sweden",
+        "deathDate": null,
+        "deathPlace": null,
+        "nationality": "Swedish",
+        "jobTitle": "Postmaster",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish Postal Service"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Selma Katrina Zetterberg",
+            "dateOfMarriage": "1916-05-15",
+            "dateOfDeath": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rigmbr",
+                "dateOfBirth": "1916",
+                "spouse": {
+                    "@type": "Person",
+                    "name": null,
+                    "hasOccupation": null,
+                    "hasAffiliation": {
+                        "@type": "Organization",
+                        "name": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Knut",
+                "dateOfBirth": "1918",
+                "hasOccupation": "Cashier",
+                "hasAffiliation": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Tyra",
+                "dateOfBirth": "1923",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Gerhard Frog-ner",
+                    "hasOccupation": "Textile Worker",
+                    "hasAffiliation": {
+                        "@type": "Organization",
+                        "name": "Norway"
+                    }
+                }
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "startDate": "1906",
+                "endDate": null,
+                "jobTitle": "Postal Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "startDate": "1912",
+                "endDate": null,
+                "jobTitle": "Postal Expert"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "startDate": "1925",
+                "endDate": "1929",
+                "jobTitle": "Postal Assistant for Railway Post in Western District"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "startDate": "1929",
+                "endDate": "1939",
+                "jobTitle": "First Postal Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "startDate": "1939",
+                "endDate": "1945",
+                "jobTitle": "Postmaster of Vingåker"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service",
+                "startDate": "1945",
+                "endDate": null,
+                "jobTitle": "Postmaster of Gothenburg"
+            }
+        ],
+        "numberOfChildren": 3,
+        "numberOfGrandchildren": 8
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "original": "Cederlund, Torsten Vilhelm, kyrkoherde, Skärblacka, f. 14/8/90 i Gbg av August C. o. Alma Landström. G. 20 m. Elisabeth Asserlind. Barn: Martin f. 22, flygare i RAF, Jan Fredrik 24, fil. stud. i Lund, Bengt Kristofer 26, stud. — Stud:ex. 10, fil. kand. i Gbg 15, teol. kand. i Upps., prakt. teol. prov o. prästv. 20. Assist, v. sv. sjö-m:kyrkan i London 16, v. pastor i Frinnaryd 20, sjöm:pastor i London s. å., sekr. i Sv. kyrkans miss:styr. 27, kyrkoh. i Horn 30, åter sjöm:pastor i London 35, v. pastor i Lommaryd 40, kyrkoh. i Kullerstad sed. 42. Skr.: Från hamnar o. hav (34) m. fl., red. f. De Våra i Främmande Land 28-30, bitr. red. av Ute o. Hemma 28-32.",
+    "translated": "Cederlund, Torsten Vilhelm, clergyman, Skärblacka, born August 14, 1890 in Gothenburg to August C. and Alma Landström. Married Elisabeth Asserlind in 1920. Children: Martin born in 1922, a pilot in the RAF, Jan Fredrik born in 1924, a philosophy student in Lund, Bengt Kristofer born in 1926, a student. Torsten passed his student exam in 1910, earned a Bachelor of Arts degree in Gothenburg in 1915, a Bachelor of Theology degree in Uppsala, and passed his practical theology exam and was ordained in 1920. He worked as an assistant for the Swedish Seamen's Church in London in 1916, an assistant pastor in Frinnaryd in 1920, a seamen's pastor in London the same year, a secretary for the Swedish Church's Missionary Board in 1927, a parish priest in Horn in 1930, returned to be a seamen's pastor in London in 1935, an assistant pastor in Lommaryd in 1940, and was a parish priest in Kullerstad from 1942. He wrote \"Från hamnar o. hav\" and other books, was an editor for \"De Våra i Främmande Land\" from 1928-1930, and an assistant editor for \"Ute o. Hemma\" from 1928-1932.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Torsten Vilhelm Cederlund\",\n  \"birthDate\": \"1890-08-14\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabeth Asserlind\",\n    \"marriageDate\": \"1920\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Martin Cederlund\",\n      \"birthDate\": \"1922\",\n      \"occupation\": \"Pilot in RAF\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan Fredrik Cederlund\",\n      \"birthDate\": \"1924\",\n      \"education\": \"Philosophy student in Lund\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Kristofer Cederlund\",\n      \"birthDate\": \"1926\",\n      \"education\": \"Student\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studentexamen\",\n      \"earnedBy\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"earnedBy\": \"1915\",\n      \"educationalLevel\": \"BachelorDegree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Theology\",\n      \"earnedBy\": \"Unknown\",\n      \"educationalLevel\": \"BachelorDegree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical theology exam and ordination\",\n      \"earnedBy\": \"1920\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Assistant for the Swedish Seamen's Church in London\",\n    \"Assistant pastor in Frinnaryd\",\n    \"Seamen's pastor in London\",\n    \"Secretary for the Swedish Church's Missionary Board\",\n    \"Parish priest in Horn\",\n    \"Seamen's pastor in London\",\n    \"Assistant pastor in Lommaryd\",\n    \"Parish priest in Kullerstad\"\n  ],\n  \"sameAs\": \"Cederlund, Torsten Vilhelm\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Seamen's Church\",\n      \"jobTitle\": \"Assistant pastor\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1920\",\n      \"location\": \"London\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Church's Missionary Board\",\n      \"jobTitle\": \"Secretary\",\n      \"startDate\": \"1927\"\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"De Våra i Främmande Land\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\",\n      \"editor\": \"Torsten Vilhelm Cederlund\"\n    },\n    {\n      \"@type\": \"PublicationIssue\",\n      \"name\": \"Ute o. Hemma\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1932\",\n      \"assistantEditor\": \"Torsten Vilhelm Cederlund\"\n    },\n    {\n      \"@type\": \"Book\",\n      \"name\": \"Från hamnar o. hav\",\n      \"publicationDate\": \"1934\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Torsten Vilhelm Cederlund",
+        "birthDate": "1890-08-14",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabeth Asserlind",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Martin Cederlund",
+                "birthDate": "1922",
+                "occupation": "Pilot in RAF"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan Fredrik Cederlund",
+                "birthDate": "1924",
+                "education": "Philosophy student in Lund"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Kristofer Cederlund",
+                "birthDate": "1926",
+                "education": "Student"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen",
+                "earnedBy": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "earnedBy": "1915",
+                "educationalLevel": "BachelorDegree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Theology",
+                "earnedBy": "Unknown",
+                "educationalLevel": "BachelorDegree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Practical theology exam and ordination",
+                "earnedBy": "1920"
+            }
+        ],
+        "jobTitle": [
+            "Assistant for the Swedish Seamen's Church in London",
+            "Assistant pastor in Frinnaryd",
+            "Seamen's pastor in London",
+            "Secretary for the Swedish Church's Missionary Board",
+            "Parish priest in Horn",
+            "Seamen's pastor in London",
+            "Assistant pastor in Lommaryd",
+            "Parish priest in Kullerstad"
+        ],
+        "sameAs": "Cederlund, Torsten Vilhelm",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Seamen's Church",
+                "jobTitle": "Assistant pastor",
+                "startDate": "1916",
+                "endDate": "1920",
+                "location": "London"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Church's Missionary Board",
+                "jobTitle": "Secretary",
+                "startDate": "1927"
+            }
+        ],
+        "publication": [
+            {
+                "@type": "PublicationIssue",
+                "name": "De Våra i Främmande Land",
+                "startDate": "1928",
+                "endDate": "1930",
+                "editor": "Torsten Vilhelm Cederlund"
+            },
+            {
+                "@type": "PublicationIssue",
+                "name": "Ute o. Hemma",
+                "startDate": "1928",
+                "endDate": "1932",
+                "assistantEditor": "Torsten Vilhelm Cederlund"
+            },
+            {
+                "@type": "Book",
+                "name": "Från hamnar o. hav",
+                "publicationDate": "1934"
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "original": "Bengtsson, Carl Sture, leg. apotekare, Halmstad, f. 19/6/15 i Tryde, Krist. 1., av stat:insp. Tage B. o. Hertha Larsson. G. m. Barbro Nilsson. Barn: Lars Göran f. 45, Per Lennart 47. — Stud:ex. i Ystad 35, farm. kand. 39, apotrex. 43. Anst. å apot. i Tomeililla 39-41 o. 43, Lejonet i Malmö 44, Vakteln i Halmstad 44-46, Svalan i Halmislad :S’ed. 46.",
+    "translated": "Bengtsson, Carl Sture, licensed pharmacist, Halmstad, born June 19th, 1915 in Tryde, Kristianstad County, son of state inspector Tage B. and Hertha Larsson. Married to Barbro Nilsson in the year 194X. Children: Lars Göran born in 1945, Per Lennart born in 1947. Completed high school in Ystad in 1935. Received a Bachelor of Science in Pharmacy in 1939 and became a licensed pharmacist in 1943. Employed at Tomeililla Pharmacy from 1939 to 1941 and in 1943, Lejonet Pharmacy in Malmö in 1944, Vakteln Pharmacy in Halmstad from 1944 to 1946 and Svalan Pharmacy in Halmstad since 1946.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org/\",\n   \"@type\":\"Person\",\n   \"name\":\"Carl Sture Bengtsson\",\n   \"birthDate\":\"1915-06-19\",\n   \"birthPlace\":\"Tryde, Kristianstad County\",\n   \"deathDate\": null,\n   \"nationality\": \"Swedish\",\n   \"gender\": \"Male\",\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Barbro Nilsson\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Lars Göran Bengtsson\",\n         \"birthDate\":\"1945\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Per Lennart Bengtsson\",\n         \"birthDate\":\"1947\"\n      }\n   ],\n   \"parent\":{\n      \"@type\":\"Person\",\n      \"father\":{\n         \"@type\":\"Person\",\n         \"name\":\"Tage B.\"\n      },\n      \"mother\":{\n         \"@type\":\"Person\",\n         \"name\":\"Hertha Larsson\"\n      }\n   },\n   \"jobTitle\":\"Licensed Pharmacist\",\n   \"worksFor\":[\n      {\n         \"@type\":\"Pharmacy\",\n         \"name\":\"Tomeililla Pharmacy\",\n         \"startDate\":\"1939\",\n         \"endDate\":\"1941\"\n      },\n      {\n         \"@type\":\"Pharmacy\",\n         \"name\":\"Lejonet Pharmacy\",\n         \"startDate\":\"1944\",\n         \"endDate\":\"1944\"\n      },\n      {\n         \"@type\":\"Pharmacy\",\n         \"name\":\"Vakteln Pharmacy\",\n         \"startDate\":\"1944\",\n         \"endDate\":\"1946\"\n      },\n      {\n         \"@type\":\"Pharmacy\",\n         \"name\":\"Svalan Pharmacy\",\n         \"startDate\":\"1946\"\n      }\n   ],\n   \"education\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"educationalLevel\":\"High School\",\n      \"awardingInstitution\":{\n         \"@type\":\"Organization\",\n         \"name\":\"Ystad\"\n      },\n      \"startDate\":\"1935\",\n      \"endDate\":\"1935\"\n   },\n   \"alumniOf\":{\n      \"@type\":\"CollegeOrUniversity\",\n      \"name\":\"Bachelor of Science in Pharmacy\",\n      \"startDate\":\"1939\",\n      \"endDate\":\"1939\"\n   },\n   \"hasOccupation\": {\n      \"@type\":\"Occupation\",\n      \"name\":\"Licensed Pharmacist\",\n      \"startDate\":\"1943\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Carl Sture Bengtsson",
+        "birthDate": "1915-06-19",
+        "birthPlace": "Tryde, Kristianstad County",
+        "deathDate": null,
+        "nationality": "Swedish",
+        "gender": "Male",
+        "spouse": {
+            "@type": "Person",
+            "name": "Barbro Nilsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Göran Bengtsson",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Lennart Bengtsson",
+                "birthDate": "1947"
+            }
+        ],
+        "parent": {
+            "@type": "Person",
+            "father": {
+                "@type": "Person",
+                "name": "Tage B."
+            },
+            "mother": {
+                "@type": "Person",
+                "name": "Hertha Larsson"
+            }
+        },
+        "jobTitle": "Licensed Pharmacist",
+        "worksFor": [
+            {
+                "@type": "Pharmacy",
+                "name": "Tomeililla Pharmacy",
+                "startDate": "1939",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Lejonet Pharmacy",
+                "startDate": "1944",
+                "endDate": "1944"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Vakteln Pharmacy",
+                "startDate": "1944",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Svalan Pharmacy",
+                "startDate": "1946"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "High School",
+            "awardingInstitution": {
+                "@type": "Organization",
+                "name": "Ystad"
+            },
+            "startDate": "1935",
+            "endDate": "1935"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Bachelor of Science in Pharmacy",
+            "startDate": "1939",
+            "endDate": "1939"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Licensed Pharmacist",
+            "startDate": "1943"
+        }
+    }
+}

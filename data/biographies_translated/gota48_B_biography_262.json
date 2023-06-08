@@ -1,0 +1,104 @@
+{
+    "original": "Beskow, Bo Gunnar, hovrättsassessor, Jönköping, f. 6/10/08 i Lund av hovrrrådet Gunnar B. o. Cecilia Gussing. G. 42 m. Margareta Hedborg. Barn: Kristina f. 44, Andens 47. — Studiex. i Malimö 27, jur. kand. i Lund 32. Tingstjg. i Torna o. Bara doms. 32-35, asp. i Göta hovr. 35, fiskal ^s. å., sekr. i Skövde doms. 38-40, a&amp;sessor 44, ’Sekr. åt 44 års trafikförfattningssakk. sed. 44.",
+    "translated": "Beskow, Bo Gunnar, Court of Appeals Assessor, Jönköping, born on October 6, 1908 in Lund to Court of Appeals Counselor Gunnar B. and Cecilia Gussing. Married in 1942 to Margareta Hedborg. Children: Kristina born in 1944, Andens born in 1947. He completed his secondary education in Malmo in 1927, and earned his law degree from Lund in 1932. He served as district court clerk in Torna and Bara from 1932-1935, and assistant judge in Göta Court of Appeals in 1935, and deputy prosecutor the same year. He worked as a secretary in Skövde District Court from 1938-1940 and became an Assessor in 1944. He served as secretary to the Traffic Regulation Committee in 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bo Gunnar Beskow\",\n  \"birthDate\": \"1908-10-06\",\n  \"birthPlace\": \"Lund, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Court of Appeals Assessor\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping Court of Appeals\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar B. Beskow\",\n      \"jobTitle\": \"Court of Appeals Counselor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Cecilia Gussing\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Hedborg\",\n    \"marriageDate\": \"1942\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Andens\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"name\": \"Studiexamen Malmo\",\n      \"dateIssued\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"name\": \"Juris kandidat Lund\",\n      \"dateIssued\": \"1932\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"CourtPosition\",\n      \"name\": \"Tingstjg.\",\n      \"court\": \"Torna and Bara district court\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"CourtPosition\",\n      \"name\": \"Assistant Judge\",\n      \"court\": \"Göta Court of Appeals\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"N/A\"\n    },\n    {\n      \"@type\": \"CourtPosition\",\n      \"name\": \"Deputy Prosecutor\",\n      \"court\": \"Göta Court of Appeals\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"N/A\"\n    },\n    {\n      \"@type\": \"CourtPosition\",\n      \"name\": \"Secretary\",\n      \"court\": \"Skövde District Court\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"CourtPosition\",\n      \"name\": \"Assessor\",\n      \"court\": \"Jönköping Court of Appeals\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"N/A\"\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Secretary to the Traffic Regulation Committee\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"N/A\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Gunnar Beskow",
+        "birthDate": "1908-10-06",
+        "birthPlace": "Lund, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": [
+            {
+                "@type": "CourtPosition",
+                "name": "Tingstjg.",
+                "court": "Torna and Bara district court",
+                "startDate": "1932",
+                "endDate": "1935"
+            },
+            {
+                "@type": "CourtPosition",
+                "name": "Assistant Judge",
+                "court": "Göta Court of Appeals",
+                "startDate": "1935",
+                "endDate": "N/A"
+            },
+            {
+                "@type": "CourtPosition",
+                "name": "Deputy Prosecutor",
+                "court": "Göta Court of Appeals",
+                "startDate": "1935",
+                "endDate": "N/A"
+            },
+            {
+                "@type": "CourtPosition",
+                "name": "Secretary",
+                "court": "Skövde District Court",
+                "startDate": "1938",
+                "endDate": "1940"
+            },
+            {
+                "@type": "CourtPosition",
+                "name": "Assessor",
+                "court": "Jönköping Court of Appeals",
+                "startDate": "1944",
+                "endDate": "N/A"
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Secretary to the Traffic Regulation Committee",
+                "startDate": "1944",
+                "endDate": "N/A"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Jönköping Court of Appeals"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gunnar B. Beskow",
+                "jobTitle": "Court of Appeals Counselor"
+            },
+            {
+                "@type": "Person",
+                "name": "Cecilia Gussing"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Hedborg",
+            "marriageDate": "1942"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Kristina",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Andens",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary",
+                "educationalLevel": "SecondaryEducation",
+                "name": "Studiexamen Malmo",
+                "dateIssued": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "BachelorDegree",
+                "name": "Juris kandidat Lund",
+                "dateIssued": "1932"
+            }
+        ]
+    }
+}

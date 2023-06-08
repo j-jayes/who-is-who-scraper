@@ -1,0 +1,108 @@
+{
+    "original": "Bengtsson, Ragnar Theodor, civilingenjör, Finspång, f. 8/11/94 i Malmö av Thomas B. o. Kerstin Elisa Linde-löf. G. 35 m. sjuksköt. Hildur Ask-löf. Barn: Thomas f. 36, Göran 39, Agneta 43. — Stud :ex. i Malmö 14, civ:ing:ex. v. KTH 21. Anst. v. Mell. o. N. Sv:es Ångpannefören. filialkont. i Gbg 23-25, projekting. v. A. Bengtssons Maskinaffär i Malmö 25-27, anst. s. beräkn:- o. provn :ing. v. STAL i Finspång 27 samt s. chef f. därv. provn:-, kalltryckn:- o. kontrravd. sed. 41. Led. av Sv. Teknifören. 21-30 samt fr. 41. Skr.: förf. kap. ång-’tunbiner i Sv. Ing:handbok, art. om ångturbrner i Sv:es Ind:lexikon.",
+    "translated": "Bengtsson, Ragnar Theodor, Engineer, from Finspång, born on November 8th, 1894 in Malmö to Thomas B. and Kerstin Elisa Linde-löf. Married in 1935 to nurse Hildur Ask-löf. Children: Thomas born in 1936, Göran in 1939, Agneta in 1943. Passed final exams in Malmö in 1914, and at the Royal Institute of Technology (KTH) in 1921. Employed at the Middle and Northern Sweden Steam Boiler Association's branch office in Gothenburg from 1923 to 1925, on project engineering at A. Bengtssons Machinery Store in Malmö from 1925 to 1927, and in calculation and testing engineering at STAL in Finspång from 1927 onwards, ultimately becoming head of testing, cold pressure, and counter flow. Member of the Swedish Technical Society from 1921 to 1930 and from 1941 onward. Authored a chapter on steam turbines in the Swedish Engineering Handbook and an article on steam turbine engines in the Swedish Industrial Lexicon.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ragnar Theodor Bengtsson\",\n  \"givenName\": \"Ragnar Theodor\",\n  \"familyName\": \"Bengtsson\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1894-11-08\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Malmö\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thomas B. Bengtsson\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Elisa Linde-löf\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hildur Ask-löf\",\n    \"gender\": \"Female\",\n    \"occupation\": \"Nurse\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thomas Bengtsson\",\n      \"gender\": \"Male\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Bengtsson\",\n      \"gender\": \"Male\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agneta Bengtsson\",\n      \"gender\": \"Female\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Studied in Malmö and passed final exams in 1914\",\n      \"credentialCategory\": \"Exams\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Passed final exams at the Royal Institute of Technology (KTH) in 1921\",\n      \"credentialCategory\": \"Exams\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Society\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Society\",\n      \"startDate\": \"1941\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"STAL\",\n    \"location\": \"Finspång\",\n    \"jobTitle\": \"Head of Testing, Cold Pressure, and Counter Flow\",\n    \"startDate\": \"1927\"\n  },\n  \"hasOccupation\":[\n    {\n      \"@type\":\"Engineering\",\n      \"name\":\"Engineer\"\n    }\n  ],\n  \"authorOf\": [\n    {\n      \"@type\": \"Chapter\",\n      \"name\": \"Chapter on steam turbines in the Swedish Engineering Handbook\"\n    },\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Article on steam turbine engines in the Swedish Industrial Lexicon\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ragnar Theodor Bengtsson",
+        "givenName": "Ragnar Theodor",
+        "familyName": "Bengtsson",
+        "gender": "Male",
+        "birthDate": "1894-11-08",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Malmö"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Thomas B. Bengtsson",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Elisa Linde-löf",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hildur Ask-löf",
+            "gender": "Female",
+            "occupation": "Nurse"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Thomas Bengtsson",
+                "gender": "Male",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran Bengtsson",
+                "gender": "Male",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta Bengtsson",
+                "gender": "Female",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Studied in Malmö and passed final exams in 1914",
+                "credentialCategory": "Exams"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Passed final exams at the Royal Institute of Technology (KTH) in 1921",
+                "credentialCategory": "Exams"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Society",
+                "startDate": "1921",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Society",
+                "startDate": "1941"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "STAL",
+            "location": "Finspång",
+            "jobTitle": "Head of Testing, Cold Pressure, and Counter Flow",
+            "startDate": "1927"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Engineering",
+                "name": "Engineer"
+            }
+        ],
+        "authorOf": [
+            {
+                "@type": "Chapter",
+                "name": "Chapter on steam turbines in the Swedish Engineering Handbook"
+            },
+            {
+                "@type": "Article",
+                "name": "Article on steam turbine engines in the Swedish Industrial Lexicon"
+            }
+        ]
+    }
+}

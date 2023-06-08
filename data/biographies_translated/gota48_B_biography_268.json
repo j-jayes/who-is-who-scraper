@@ -1,0 +1,99 @@
+{
+    "original": "Biber, Samuel (Sam), tandläkare, Göteborg, f. 10/5/04 i Tykosin, Ryssl., av grosshandl. Abr. Köpniwsky o. Ester Biber. G. 33 m. Vera Schatz. Barn: Ulla f. 34, Monica 37, Björn 44. — Stud :ex. i Växjö 23, med. kand. i Lund 28, tandl. 31. Vik. i Norberg 31-32, prakt. o. skoltandl. i Skene 32-42, skoltandl. i Gbg 42-43, egen prakt, där sed. 43.",
+    "translated": "Biber, Samuel (Sam), dentist, Gothenburg, born May 10th, 1904 in Tykosin, Russia, son of merchant Abr. Köpniwsky and Ester Biber. Married in 1933 to Vera Schatz. Children: Ulla born in 1934, Monica in 1937, and Björn in 1944. He completed his studies in Växjö in 1923, obtained a medical degree in Lund in 1928, and became a dentist in 1931. He worked temporarily in Norberg from 1931 to 1932, then as a dental practitioner and school dentist in Skene from 1932 to 1942, and as a school dentist in Gothenburg from 1942 to 1943. He opened his own practice in Gothenburg in 1943 and continued to work there.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Samuel Biber\",\n  \"givenName\": \"Samuel\",\n  \"familyName\": \"Biber\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1904-05-10\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Tykosin\",\n      \"addressCountry\": \"Russia\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Abr. Köpniwsky\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Biber\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vera Schatz\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Monica\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalCredentialAwarded\": \"Växjö\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. kand.\",\n      \"educationalCredentialAwarded\": \"Lund\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandl.\",\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\",\n      \"roleName\": \"Vik. i Norberg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1942\",\n      \"roleName\": \"Dental practitioner and school dentist in Skene\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1943\",\n      \"roleName\": \"School dentist in Gothenburg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1943\",\n      \"roleName\": \"Dentist at own practice in Gothenburg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Samuel Biber",
+        "givenName": "Samuel",
+        "familyName": "Biber",
+        "jobTitle": "Dentist",
+        "birthDate": "1904-05-10",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Tykosin",
+                "addressCountry": "Russia"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Abr. Köpniwsky",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Ester Biber"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vera Schatz",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Monica",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalCredentialAwarded": "Växjö",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. kand.",
+                "educationalCredentialAwarded": "Lund",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl.",
+                "endDate": "1931"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "endDate": "1932",
+                "roleName": "Vik. i Norberg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "endDate": "1942",
+                "roleName": "Dental practitioner and school dentist in Skene"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1942",
+                "endDate": "1943",
+                "roleName": "School dentist in Gothenburg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1943",
+                "roleName": "Dentist at own practice in Gothenburg"
+            }
+        ]
+    }
+}

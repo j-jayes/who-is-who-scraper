@@ -1,0 +1,76 @@
+{
+    "original": "Dahlberg, Sven Inge Eberhard, civilingenjör, Jönköping, f. 24/11/02 i Söderala, Gävleb. 1., av bruksförvalt. Anders Johan D. o. Dagmar Gullström. G. 32 m. Elsvig Lindquist. — Stud:-ex. i Västervik 21, KTH (M) 23-27. Res. t. Tyskl., Ital., Grekl. o. Egypten. Patenting. v. A-B Delmar &amp; Co. Pat:byrå i Sthlm 28-30, dito v. STAB sed. 30. Led. av Sv. tekn:fören.",
+    "translated": "Dahlberg, Sven Inge Eberhard, a civil engineer from Jönköping, born on November 24th, 1902 in Söderala, Gävle County, firstborn of estate manager Anders Johan D. and Dagmar Gullström. Married Elsvig Lindquist in 1932. He passed his high school exam in Västervik in 1921, and attended the Royal Institute of Technology (Mechanical Engineering) from 1923 to 1927. He traveled to Germany, Italy, Greece, and Egypt. He worked in patenting at A-B Delmar & Co. Patent Agency in Stockholm from 1928 to 1930, and then at STAB from 1930 onwards. He is a member of the Swedish Society of Technology.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Inge Eberhard Dahlberg\",\n  \"birthDate\": \"1902-11-24\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Söderala, Gävle County\"\n  },\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Society of Technology\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Johan D.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dagmar Gullström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsvig Lindquist\",\n    \"marriageDate\": \"1932\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n\t  \"credentialCategory\": \"high school exam\",\n\t  \"credentialAwarded\": \"Stud:-ex.\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalProgram\": \"Västervik High School\",\n      \"educationalSpecialization\": \"\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"credentialAwarded\": \"Civilingenjör\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalProgram\": \"Mechanical Engineering\",\n      \"educationalSpecialization\": \"\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Delmar & Co. Patent Agency\",\n      \"jobTitle\": \"Patenting professional\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"STAB\",\n      \"jobTitle\": \"Patenting professional\",\n      \"startDate\": \"1930\"\n    }\n  ],\n  \"hasOccupation\": {\n      \"@type\": \"Occupation\",\n      \"name\": \"Civil Engineer\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Inge Eberhard Dahlberg",
+        "birthDate": "1902-11-24",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Söderala, Gävle County"
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Civil Engineer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Society of Technology"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anders Johan D."
+            },
+            {
+                "@type": "Person",
+                "name": "Dagmar Gullström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsvig Lindquist",
+            "marriageDate": "1932"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school exam",
+                "credentialAwarded": "Stud:-ex.",
+                "educationalLevel": "SecondaryEducation",
+                "educationalProgram": "Västervik High School",
+                "educationalSpecialization": "",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "credentialAwarded": "Civilingenjör",
+                "educationalLevel": "Undergraduate",
+                "educationalProgram": "Mechanical Engineering",
+                "educationalSpecialization": "",
+                "startDate": "1923",
+                "endDate": "1927"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A-B Delmar & Co. Patent Agency",
+                "jobTitle": "Patenting professional",
+                "startDate": "1928",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "STAB",
+                "jobTitle": "Patenting professional",
+                "startDate": "1930"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Civil Engineer"
+        }
+    }
+}

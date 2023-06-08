@@ -1,0 +1,116 @@
+{
+    "original": "Bartler, Jens Anders, musikdirektör, Falköping, f. 24/8/07 i Hudiksvall. G. 38 m. tandl. Ingrid Agner. Barn: Göran f. 40, Gunilla 43. — Or-ganistex. 29, musiklär :ex. 30, kantors-ex. 31, allt v. musikkons. i Sthlm. Stud. i Berliin o. Leipzig 34, Frankr. 37. Lär. v. Uddevalla h. a. 1. 32-36, musiklär. v. Falköp. samrealsk. sed. 36, organist o. kantor i Falköp. kyrka sed. s. å. Dirig. f. Falköp. orik:fören. sed. 36. Komp.: Kantat (39). P. A. Bergs jeton.",
+    "translated": "Bartler, Jens Anders, music director, Falköping, born August 24, 1907 in Hudiksvall. Married in 1938 to dentist Ingrid Agner. Children: Göran born in 1940, Gunilla born in 1943. He achieved the degree of organist in 1929, music teacher in 1930, and cantor in 1931, all from the Music Conservatory in Stockholm. He studied in Berlin and Leipzig in 1934 and in France in 1937. He was a teacher at the high school in Uddevalla from 1932-1936, and a music teacher at the Falköping secondary school since 1936. He has been an organist and cantor in the Falköping church since the same year and has been the conductor for the Falköping choral society since 1936. His compositions include a cantata from 1939 and he was awarded the P. A. Berg medal.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Jens Anders Bartler\",\n  \"birthDate\": \"1907-08-24\",\n  \"birthPlace\": \"Hudiksvall, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Music Director\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Falköping Church\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Agner\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Bartler\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Bartler\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Organist\",\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Music Teacher\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Cantor\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Music Degree from Music Conservatory, Stockholm\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied in Berlin and Leipzig\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied in France\",\n      \"startDate\": \"1937\"\n    }\n  ], \n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932-01-01\",\n      \"endDate\": \"1936-01-01\",\n      \"roleName\": \"Teacher at Uddevalla High School\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uddevalla High School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936-01-01\",\n      \"roleName\": \"Music Teacher at Falköping Secondary School\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Falköping Secondary School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936-01-01\",\n      \"roleName\": \"Organist and Cantor at Falköping Church\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Falköping Church\"\n      }\n    },\n   {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936-01-01\",\n      \"roleName\": \"Conductor for Falköping Choral Society\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Falköping Choral Society\"\n      }\n    }\n  ],\n  \"composer\": {\n    \"@type\": \"MusicComposition\",\n    \"name\": \"Kantat\",\n    \"dateCreated\": \"1939-01-01\"\n  },\n  \"awards\": {\n    \"@type\": \"Medal\",\n    \"name\": \"P. A. Berg Medal\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jens Anders Bartler",
+        "birthDate": "1907-08-24",
+        "birthPlace": "Hudiksvall, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": "Music Director",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Falköping Church"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Agner",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Bartler",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Bartler",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Organist",
+                "startDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Music Teacher",
+                "startDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Cantor",
+                "startDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Music Degree from Music Conservatory, Stockholm",
+                "startDate": "1929",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied in Berlin and Leipzig",
+                "startDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied in France",
+                "startDate": "1937"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932-01-01",
+                "endDate": "1936-01-01",
+                "roleName": "Teacher at Uddevalla High School",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Uddevalla High School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936-01-01",
+                "roleName": "Music Teacher at Falköping Secondary School",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Falköping Secondary School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936-01-01",
+                "roleName": "Organist and Cantor at Falköping Church",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Falköping Church"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936-01-01",
+                "roleName": "Conductor for Falköping Choral Society",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Falköping Choral Society"
+                }
+            }
+        ],
+        "composer": {
+            "@type": "MusicComposition",
+            "name": "Kantat",
+            "dateCreated": "1939-01-01"
+        },
+        "awards": {
+            "@type": "Medal",
+            "name": "P. A. Berg Medal"
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "original": "Bärnebo, Sven Håkan, kommdnister, Arentorp, f. 8/5/06 i Hovby, Skarab. 1. G. 40 m. sjuksköt. Signe Larsson. Barn: Christina f. 43. — Stud:ex. 27, teol. fil. ex. 28, teok kand. 32. Kom-min. i Södra Kedum fr. 37. Ordf. i skolstyr., v. ordf. ;i kyrkovstämma, led. av kyrkoråd, ordf. i S. Kedum-s RK-krets.",
+    "translated": "Bärnebo, Sven Håkan, clergyman, Arentorp, born 8/5/06 in Hovby, Skaraborg. First marriage in 1940 to nurse Signe Larsson, with one child: Christina, born 1943. He graduated from secondary school in 1927, with a degree in theology and philosophy in 1928, and a Bachelor of Theology in 1932. He became a minister in Södra Kedum from 1937 and served as chairman of the school board, vice chairman of the church meeting, member of the church council, and chairman of the S. Kedum-S RK district.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Håkan Bärnebo\",\n  \"jobTitle\": \"Clergyman\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Hovby\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Skaraborg\"\n    }\n  },\n  \"birthDate\": \"1906-05-08\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Larsson\",\n      \"jobTitle\": \"Nurse\"\n    }\n  ],\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Christina\",\n    \"birthDate\": \"1943\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"issuedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish National Agency for Education\",\n        \"sameAs\": \"https://www.skolverket.se/\"\n      },\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. fil. ex.\",\n      \"issuedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"University of Uppsala\",\n        \"sameAs\": \"https://www.uu.se/\"\n      },\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teok kand.\",\n      \"issuedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"University of Uppsala\",\n        \"sameAs\": \"https://www.uu.se/\"\n      },\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Södra Kedum\",\n      \"memberRole\": {\n        \"@type\": \"Role\",\n        \"roleName\": \"Minister\",\n        \"startDate\": \"1937\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"S. Kedum-S RK district\",\n      \"memberRole\": [\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Chairman\",\n          \"startDate\": \"Unknown\"\n        },\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Vice-Chairman\",\n          \"startDate\": \"Unknown\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"the school board\",\n      \"memberRole\": {\n        \"@type\": \"Role\",\n        \"roleName\": \"Chairman\",\n        \"startDate\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"the church meeting\",\n      \"memberRole\": {\n        \"@type\": \"Role\",\n        \"roleName\": \"Vice-Chairman\",\n        \"startDate\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"the church council\",\n      \"memberRole\": {\n        \"@type\": \"Role\",\n        \"roleName\": \"Member\",\n        \"startDate\": \"Unknown\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Håkan Bärnebo",
+        "jobTitle": "Clergyman",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Hovby",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Skaraborg"
+            }
+        },
+        "birthDate": "1906-05-08",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Signe Larsson",
+                "jobTitle": "Nurse"
+            }
+        ],
+        "children": {
+            "@type": "Person",
+            "name": "Christina",
+            "birthDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Swedish National Agency for Education",
+                    "sameAs": "https://www.skolverket.se/"
+                },
+                "startDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex.",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "University of Uppsala",
+                    "sameAs": "https://www.uu.se/"
+                },
+                "startDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teok kand.",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "University of Uppsala",
+                    "sameAs": "https://www.uu.se/"
+                },
+                "startDate": "1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Södra Kedum",
+                "memberRole": {
+                    "@type": "Role",
+                    "roleName": "Minister",
+                    "startDate": "1937"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "S. Kedum-S RK district",
+                "memberRole": [
+                    {
+                        "@type": "Role",
+                        "roleName": "Chairman",
+                        "startDate": "Unknown"
+                    },
+                    {
+                        "@type": "Role",
+                        "roleName": "Vice-Chairman",
+                        "startDate": "Unknown"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "the school board",
+                "memberRole": {
+                    "@type": "Role",
+                    "roleName": "Chairman",
+                    "startDate": "Unknown"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "the church meeting",
+                "memberRole": {
+                    "@type": "Role",
+                    "roleName": "Vice-Chairman",
+                    "startDate": "Unknown"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "the church council",
+                "memberRole": {
+                    "@type": "Role",
+                    "roleName": "Member",
+                    "startDate": "Unknown"
+                }
+            }
+        ]
+    }
+}

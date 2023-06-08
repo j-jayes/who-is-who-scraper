@@ -1,0 +1,88 @@
+{
+    "original": "Bosson, Robert Egidius, kyrkoherde, Johannishus, f. 5/2/95 i Asarum, Blek. 1. G. 27 m. Ester Fridholm. Barn: Sven f. 28, Anna-Karin 29. — Stud:ex. i Lund 16, teol. fil. ex. 17, teol. kand., prakt. teol. prov o. prästv. f. Lunds stift 20. V. pastor i Kristia-nopel 20-24, kyrkoadj. i Landskr. 25-29, även pred. v. länslas. o. tvångs-arb:anst. där, kyrkoh. i Hjortsberga o. Edestad ^sed. 29. Kontr :pro(st i M^edelsta &amp;ed. 47. Ordf. i Hjortsberga o. Edestads kyrkoråd o. kyrkostämmor, Hjortsberga barnav:nd, Edestads skolstyr., Hjortsberga lok. folkbildn :råd, ombud för Sv. kyrkans miss. i Medelsta kontr. Skr.: Kristi budskap t. kyrkan (39), art. i tidn. o. tidskr.",
+    "translated": "Bosson, Robert Egidius, clergyman, Johannishus, born February 5, 1895 in Asarum, Blekinge. Married once, to Ester Fridholm in 1927, with two children: Sven, born 1928, and Anna-Karin, born 1929. Educated at Lund University, graduating with a bachelor's degree in 1916, a degree in theology in 1917, and completing practical theology and ordination for the Lund diocese in 1920. Worked as an assistant pastor in Kristianopel from 1920 to 1924, as a church assistant in Landskrona from 1925 to 1929, and also worked as a preacher for the county prison and a compulsory labor institution there. Became a vicar in Hjortsberga and Edestad in 1929, and a rural dean in the Medelsta district from 1947. Served as chairman for the Hjortsberga and Edestad church boards and church assemblies, Hjortsberga child welfare society, Edestad school board, Hjortsberga local adult education council, and as a representative for the Swedish Church Mission in the Medelsta district. Published a book entitled Kristi budskap t. kyrkan (Christ's Message to the Church) in 1939, and also wrote articles for newspapers and magazines.",
+    "structured_raw": "{\n \"@context\": \"https://schema.org\",\n \"@type\": \"Person\",\n \"name\": \"Robert Egidius Bosson\",\n \"jobTitle\": \"Clergyman\",\n \"birthDate\": \"1895-02-05\",\n \"birthPlace\": \"Asarum, Blekinge\",\n \"spouse\": {\n   \"@type\": \"Person\",\n   \"name\": \"Ester Fridholm\",\n   \"marriageDate\": \"1927\"\n },\n \"children\": [{\n     \"@type\": \"Person\",\n     \"name\": \"Sven Bosson\",\n     \"birthDate\": \"1928\"\n   },\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Anna-Karin Bosson\",\n     \"birthDate\": \"1929\"\n   }\n ],\n \"education\": {\n   \"@type\": \"EducationalOrganization\",\n   \"name\": \"Lund University\",\n   \"location\": \"Lund\",\n   \"degree\": [{\n       \"@type\": \"EducationalDegree\",\n       \"name\": \"Bachelor's degree\",\n       \"dateAwarded\": \"1916\"\n     },\n     {\n       \"@type\": \"EducationalDegree\",\n       \"name\": \"Degree in Theology\",\n       \"dateAwarded\": \"1917\"\n     }\n   ]\n },\n \"memberOf\": [{\n   \"@type\": \"Organization\",\n   \"name\": \"Lund diocese\",\n   \"startDate\": \"1920\",\n   \"endDate\": \"1920\"\n }],\n \"worksFor\": [{\n     \"@type\": \"Organization\",\n     \"name\": \"Kristianopel\",\n     \"startDate\": \"1920\",\n     \"endDate\": \"1924\"\n   },\n   {\n     \"@type\": \"Organization\",\n     \"name\": \"Landskrona\",\n     \"startDate\": \"1925\",\n     \"endDate\": \"1929\"\n   },\n   {\n     \"@type\": \"Organization\",\n     \"name\": \"Hjortsberga and Edestad\",\n     \"startDate\": \"1929\"\n   }\n ],\n \"jobLocation\": {\n   \"@type\": \"Place\",\n   \"name\": \"Medelsta district\"\n },\n \"memberOf\": {\n   \"@type\": \"Organization\",\n   \"name\": \"Hjortsberga and Edestad church boards and church assemblies\"\n },\n \"occupation\": [{\n     \"@type\": \"Occupation\",\n     \"name\": \"Chairman\",\n     \"startDate\": \"1929\"\n   },\n   {\n     \"@type\": \"Occupation\",\n     \"name\": \"Representative for the Swedish Church Mission in the Medelsta district\"\n   }\n ],\n \"sameAs\": [\"http://www.example.com\"]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Robert Egidius Bosson",
+        "jobTitle": "Clergyman",
+        "birthDate": "1895-02-05",
+        "birthPlace": "Asarum, Blekinge",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ester Fridholm",
+            "marriageDate": "1927"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Bosson",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Karin Bosson",
+                "birthDate": "1929"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Lund University",
+            "location": "Lund",
+            "degree": [
+                {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor's degree",
+                    "dateAwarded": "1916"
+                },
+                {
+                    "@type": "EducationalDegree",
+                    "name": "Degree in Theology",
+                    "dateAwarded": "1917"
+                }
+            ]
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Hjortsberga and Edestad church boards and church assemblies"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Kristianopel",
+                "startDate": "1920",
+                "endDate": "1924"
+            },
+            {
+                "@type": "Organization",
+                "name": "Landskrona",
+                "startDate": "1925",
+                "endDate": "1929"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hjortsberga and Edestad",
+                "startDate": "1929"
+            }
+        ],
+        "jobLocation": {
+            "@type": "Place",
+            "name": "Medelsta district"
+        },
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Chairman",
+                "startDate": "1929"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Representative for the Swedish Church Mission in the Medelsta district"
+            }
+        ],
+        "sameAs": [
+            "http://www.example.com"
+        ]
+    }
+}

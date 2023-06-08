@@ -1,0 +1,119 @@
+{
+    "original": "Cederblom, Per Axel Hjalmar, tandläkare, _ Göteborg, f. 22/5/01 i Gbg av järnv:tj:man Johan C. o. Joisefdna Maria Carlsdotter. G. 24 m. Elsa Johansson. Barn: Margret f. 24, Birgitta 26, Kerstin 29. — Stud:ex. v. Gbgs h. real 19, tandi:kand. 21, tandiäk. 23. Assist, i Upp’s. 23, vik. i Ly,sekil 23-24, praktik i Gbg sed. 24. Led. av Sv. Sim-förb. styr. sed. 40. Delt. i Olymp. sp. 20 (bröstsim), nord. mäst. 21 i brösit-sim, SM 27 i livräddning. Hobbiieis: simning o. främj. av simidr.",
+    "translated": "Cederblom, Per Axel Hjalmar, dentist, from Gothenburg, born on May 22, 1901 in Gothenburg to railway officer Johan C. and Joisefdna Maria Carlsdotter. Married Elsa Johansson in 1924. Children: Margret born in 1924, Birgitta in 1926, and Kerstin in 1929. He graduated from Gothenburg high school in 1919, completed his dental studies in 1921, and became a licensed dentist in 1923. He worked as an assistant in Uppsala in 1923, a temporary dentist in Lysekil from 1923 to 1924, and had his own practice in Gothenburg since 1924. He has been a member of the Swedish Swimming Association since 1940, and participated in the Olympic Games in 1920 (breaststroke) and was the Nordic champion in breaststroke in 1921. He was also the Swedish champion in lifesaving in 1927. His hobbies include swimming and promoting swimming activities.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Axel Hjalmar Cederblom\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Gothenburg\",\n  \"birthDate\": \"1901-05-22\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan C. Cederblom\",\n      \"jobTitle\": \"Railway Officer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Joisefdna Maria Carlsdotter\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Johansson\",\n    \"marriageDate\": \"1924\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margret Cederblom\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Cederblom\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Cederblom\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School\",\n      \"endDate\": \"1919\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"present\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Assistant\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Temporary Dentist\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lysekil\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Swimming Association\",\n      \"startDate\": \"1940\",\n      \"roleName\": \"Board Member\"\n    }\n  ],\n  \"performerIn\": [\n    {\n      \"@type\": \"SportsEvent\",\n      \"name\": \"Olympic Games\",\n      \"startDate\": \"1920\",\n      \"subEvent\": {\n        \"@type\": \"SportsEvent\",\n        \"name\": \"Breaststroke\"\n      }\n    },\n    {\n      \"@type\": \"SportsEvent\",\n      \"name\": \"Nordic Championship\",\n      \"startDate\": \"1921\",\n      \"subEvent\": {\n        \"@type\": \"SportsEvent\",\n        \"name\": \"Breaststroke\"\n      }\n    },\n    {\n      \"@type\": \"SportsEvent\",\n      \"name\": \"Swedish Championship\",\n      \"startDate\": \"1927\",\n      \"subEvent\": {\n        \"@type\": \"SportsEvent\",\n        \"name\": \"Lifesaving\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swimming Club\",\n      \"description\": \"Engages in activities that promote swimming\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://en.wikipedia.org/wiki/Per_Cederblom\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Axel Hjalmar Cederblom",
+        "jobTitle": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Dentist",
+                "startDate": "1923",
+                "endDate": "present"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Assistant",
+                "startDate": "1923",
+                "endDate": "1924",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Uppsala"
+                }
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Temporary Dentist",
+                "startDate": "1923",
+                "endDate": "1924",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Lysekil"
+                }
+            }
+        ],
+        "birthPlace": "Gothenburg",
+        "birthDate": "1901-05-22",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan C. Cederblom",
+                "jobTitle": "Railway Officer"
+            },
+            {
+                "@type": "Person",
+                "name": "Joisefdna Maria Carlsdotter"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Johansson",
+            "marriageDate": "1924"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margret Cederblom",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Cederblom",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Cederblom",
+                "birthDate": "1929"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School",
+                "endDate": "1919"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swimming Club",
+                "description": "Engages in activities that promote swimming"
+            }
+        ],
+        "performerIn": [
+            {
+                "@type": "SportsEvent",
+                "name": "Olympic Games",
+                "startDate": "1920",
+                "subEvent": {
+                    "@type": "SportsEvent",
+                    "name": "Breaststroke"
+                }
+            },
+            {
+                "@type": "SportsEvent",
+                "name": "Nordic Championship",
+                "startDate": "1921",
+                "subEvent": {
+                    "@type": "SportsEvent",
+                    "name": "Breaststroke"
+                }
+            },
+            {
+                "@type": "SportsEvent",
+                "name": "Swedish Championship",
+                "startDate": "1927",
+                "subEvent": {
+                    "@type": "SportsEvent",
+                    "name": "Lifesaving"
+                }
+            }
+        ],
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Per_Cederblom"
+        ]
+    }
+}

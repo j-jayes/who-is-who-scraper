@@ -1,0 +1,95 @@
+{
+    "original": "Björvik, Rudolf Sanfrid, läroverksadjunkt, Mjölby, f. 19/7/00 i Tranemo, Älvsb. 1. G. 37 m. Inga Smedberg. Barn: Birgitta f. 40. — Stud:ex. 24, fil. magf 28, folksk :lär :ex. 29, provår 37. Res. t. Norge 34, Danm. 35 o. 36, Tyskl. 38. Ämneslär. v. Fleninge h. folksk. 29-36, e. o. adj. v. Växjö h. a. 1. 37-40, adj. i modersm. o. hist. m. sam-h :lära v. Mjölby samrealsk. sed. 40. Led. av lokalstyr. f. Mjölby samrealsk., bibi.",
+    "translated": "Björvik, Rudolf Sanfrid, high school teacher, Mjölby, b. 19/7/00 in Tranemo, Älvsborg. Married once in 1937 to Inga Smedberg with one child named Birgitta born in 1940. Education: graduate from high school in 1924, bachelor's degree in 1928, teaching degree in 1929, probationary year in 1937. Resided in Norway in 1934, Denmark in 1935 and 1936, and Germany in 1938. Subject teacher at Fleninge primary school from 1929 to 1936, substitute teacher at Växjö high school from 1937 to 1940, and teacher in native language and history with social studies at Mjölby secondary school since 1940. Member of the local government for Mjölby secondary school, library.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Rudolf Sanfrid Björvik\",\n   \"birthDate\": \"1900-07-19\",\n   \"birthPlace\": \"Tranemo, Älvsborg\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Inga Smedberg\",\n      \"marriageDate\": \"1937\"\n   },\n   \"children\": {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Björvik\",\n      \"birthDate\": \"1940\"\n   },\n   \"nationality\": \"Swedish\",\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Graduate from high school\",\n         \"credentialCategory\": \"diploma\",\n         \"awardDate\": \"1924\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Bachelor's degree\",\n         \"credentialCategory\": \"bachelor's degree\",\n         \"awardDate\": \"1928\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Teaching degree\",\n         \"credentialCategory\": \"teaching degree\",\n         \"awardDate\": \"1929\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Probationary year\",\n         \"credentialCategory\": \"probationary year\",\n         \"awardDate\": \"1937\"\n      }\n   ],\n   \"residences\": [\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Norway\",\n         \"dateRange\": \"1934\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Denmark\",\n         \"dateRange\": \"1935-1936\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Germany\",\n         \"dateRange\": \"1938\"\n      }\n   ],\n   \"employmentHistory\": [\n      {\n         \"@type\": \"Occupation\",\n         \"title\": \"Subject teacher at Fleninge primary school\",\n         \"startDate\": \"1929\",\n         \"endDate\": \"1936\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"title\": \"Substitute teacher at Växjö high school\",\n         \"startDate\": \"1937\",\n         \"endDate\": \"1940\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"title\": \"Teacher in native language and history with social studies at Mjölby secondary school\",\n         \"startDate\": \"1940\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Local government for Mjölby secondary school\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Library\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rudolf Sanfrid Björvik",
+        "birthDate": "1900-07-19",
+        "birthPlace": "Tranemo, Älvsborg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga Smedberg",
+            "marriageDate": "1937"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Birgitta Björvik",
+            "birthDate": "1940"
+        },
+        "nationality": "Swedish",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Graduate from high school",
+                "credentialCategory": "diploma",
+                "awardDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree",
+                "credentialCategory": "bachelor's degree",
+                "awardDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teaching degree",
+                "credentialCategory": "teaching degree",
+                "awardDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Probationary year",
+                "credentialCategory": "probationary year",
+                "awardDate": "1937"
+            }
+        ],
+        "residences": [
+            {
+                "@type": "Place",
+                "name": "Norway",
+                "dateRange": "1934"
+            },
+            {
+                "@type": "Place",
+                "name": "Denmark",
+                "dateRange": "1935-1936"
+            },
+            {
+                "@type": "Place",
+                "name": "Germany",
+                "dateRange": "1938"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Occupation",
+                "title": "Subject teacher at Fleninge primary school",
+                "startDate": "1929",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Occupation",
+                "title": "Substitute teacher at Växjö high school",
+                "startDate": "1937",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Occupation",
+                "title": "Teacher in native language and history with social studies at Mjölby secondary school",
+                "startDate": "1940"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Local government for Mjölby secondary school"
+            },
+            {
+                "@type": "Organization",
+                "name": "Library"
+            }
+        ]
+    }
+}

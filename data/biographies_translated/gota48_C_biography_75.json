@@ -1,0 +1,107 @@
+{
+    "original": "Cederlund, Jacob Otto, konsul. Mönsterås, f. 2/12/75 i Flöda, Södermani. 1., av Otto C. o. Charlotta Nilsson. G. 1. 01 m. Anna-Lisa Carls’s0n, •d. 29; 2. 31 m. Elin Jonsson. Barn: Carl Jaccb f. 03, adv., Sthlm. ^ Res. t. Danm., Tyskl. iippr. ggr. Konditioner i Flen 90-95, Sävsjö, Vimmerby, Vetlanda 95-01, inneh. av firma J. O. Cederlund i Mönsterås fr. 01. Fd. led. av ett flert. koinm., ordf. i Sv. Hand:-bank. i Mönsterås ett 10-tal år, led. av Strands här. sparb:styr., ordf. i sjukstugustyr., hed :led. av Kalm. 1. köpm:förb. 38. Danm. vicekons. i Mönsterås fr. 08. RDDO 25, Sv. köp-mifören. hed:t i guld 29.",
+    "translated": "Cederlund, Jacob Otto, consul. Born on December 2, 1875 in Flöda, Södermani. First son of Otto C. and Charlotta Nilsson. Married twice: first in 1901 to Anna-Lisa Carls'son, who died in 1929; and then in 1931 to Elin Jonsson. Children: Carl Jacob, born in 1903, lawyer in Stockholm, lived in Denmark and Germany multiple times. Worked as a clerk in Flen from 1890-1895, and then in Sävsjö, Vimmerby, and Vetlanda from 1895-1901. Started his own company, J. O. Cederlund in Mönsterås, in 1901. Former member of several committees, chairman of the Swedish Handelsbank in Mönsterås for about 10 years, member of the Strands här. Savings Bank Board of Directors, chairman of the sick hospital's board of directors, honorary member of the Kalm. 1st merchant association in 1938. Vice-consul for Denmark in Mönsterås from 1908. Recipient of the RDDO award in 1925 and honorary member of the Swedish commerce association in gold in 1929.",
+    "structured_raw": "{ \n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Jacob Otto Cederlund\",\n   \"birthDate\": \"1875-12-02\",\n   \"birthPlace\": {\n     \"@type\": \"Place\",\n     \"name\": \"Flöda, Södermani\"\n   },\n   \"parents\": [\n     {\n       \"@type\": \"Person\",\n       \"name\": \"Otto Cederlund\",\n       \"gender\": \"male\"\n     },\n     {\n       \"@type\": \"Person\",\n       \"name\": \"Charlotta Nilsson\",\n       \"gender\": \"female\"\n     }\n   ],\n   \"spouse\": [\n     {\n       \"@type\": \"Person\",\n       \"name\": \"Anna-Lisa Carls'son\",\n       \"marriageDate\": \"1901\",\n       \"deathDate\": \"1929\"\n     },\n     {\n       \"@type\": \"Person\",\n       \"name\": \"Elin Jonsson\",\n       \"marriageDate\": \"1931\"\n     }\n   ],\n   \"children\": [\n     {\n       \"@type\": \"Person\",\n       \"name\": \"Carl Jacob Cederlund\",\n       \"birthDate\": \"1903\",\n       \"description\": \"Lawyer in Stockholm, lived in Denmark and Germany multiple times.\"\n     }\n   ],\n   \"occupation\": {\n     \"@type\": \"Occupation\",\n     \"name\": \"Consul\"\n   },\n   \"memberOf\": [\n     {\n       \"@type\": \"Organization\",\n       \"name\": \"Swedish Handelsbank\",\n       \"roleName\": \"Chairman\",\n       \"startDate\": \"unknown\",\n       \"endDate\": \"unknown\",\n       \"location\": {\n         \"@type\": \"Place\",\n         \"name\": \"Mönsterås\"\n       }\n     },\n     {\n       \"@type\": \"Organization\",\n       \"name\": \"Strands här. Savings Bank\",\n       \"roleName\": \"Board of Directors\",\n       \"startDate\": \"unknown\",\n       \"endDate\": \"unknown\",\n       \"location\": {\n         \"@type\": \"Place\",\n         \"name\": \"unknown\"\n       }\n     },\n     {\n       \"@type\": \"Organization\",\n       \"name\": \"Kalm. 1st merchant association\",\n       \"roleName\": \"Honorary Member\",\n       \"startDate\": \"1938\",\n       \"endDate\": \"unknown\",\n       \"location\": {\n         \"@type\": \"Place\",\n         \"name\": \"unknown\"\n       }\n     }\n   ],\n   \"additionalProperty\": [\n     {\n       \"@type\": \"QuantitativeValue\",\n       \"name\": \"Danm. vicekons.\",\n       \"value\": \"Mönsterås fr. 08.\"\n     },\n     {\n       \"@type\": \"QuantitativeValue\",\n       \"name\": \"RDDO\",\n       \"value\": \"1925\"\n     },\n     {\n      \"@type\": \"QuantitativeValue\",\n      \"name\": \"Swedish commerce association\",\n      \"value\": \"1929\",\n      \"unitText\": \"gold\",\n      \"description\": \"Honorary Member\"\n     }\n   ],\n   \"description\": \"First son of Otto C. and Charlotta Nilsson. Started his own company, J. O. Cederlund in Mönsterås, in 1901. Former member of several committees and chairman of the sick hospital's board of directors.\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jacob Otto Cederlund",
+        "birthDate": "1875-12-02",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Flöda, Södermani"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Otto Cederlund",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotta Nilsson",
+                "gender": "female"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Anna-Lisa Carls'son",
+                "marriageDate": "1901",
+                "deathDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Jonsson",
+                "marriageDate": "1931"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl Jacob Cederlund",
+                "birthDate": "1903",
+                "description": "Lawyer in Stockholm, lived in Denmark and Germany multiple times."
+            }
+        ],
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Consul"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Handelsbank",
+                "roleName": "Chairman",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "location": {
+                    "@type": "Place",
+                    "name": "Mönsterås"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Strands här. Savings Bank",
+                "roleName": "Board of Directors",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "location": {
+                    "@type": "Place",
+                    "name": "unknown"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalm. 1st merchant association",
+                "roleName": "Honorary Member",
+                "startDate": "1938",
+                "endDate": "unknown",
+                "location": {
+                    "@type": "Place",
+                    "name": "unknown"
+                }
+            }
+        ],
+        "additionalProperty": [
+            {
+                "@type": "QuantitativeValue",
+                "name": "Danm. vicekons.",
+                "value": "Mönsterås fr. 08."
+            },
+            {
+                "@type": "QuantitativeValue",
+                "name": "RDDO",
+                "value": "1925"
+            },
+            {
+                "@type": "QuantitativeValue",
+                "name": "Swedish commerce association",
+                "value": "1929",
+                "unitText": "gold",
+                "description": "Honorary Member"
+            }
+        ],
+        "description": "First son of Otto C. and Charlotta Nilsson. Started his own company, J. O. Cederlund in Mönsterås, in 1901. Former member of several committees and chairman of the sick hospital's board of directors."
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "original": "Bjurgert, Anton Hilding Vilhelm, komminister, österökna, f. 13/6/11 i Algutsboda, Kronob. 1., av hemm:äg. Gustaf Viktor Petersson o. Emma Kristina Lindgren. G. 41 m. Josta Andersson. Barn: Lorentz f. 43, Trygve 46. — Stud:ex. i Lund 32, teol. fil. ex. 34, teol. kand. i Lund 38. Kommin. i Ökna sed. 41. Ordf. i kyrkostämma, skolstyr. o. barnav :nd, kassör i skolstyr. o. barnav :nd.",
+    "translated": "Bjurgert, Anton Hilding Vilhelm, vicar, Österökna, born June 13th, 1911 in Algutsboda, Kronoberg. Son of home owner Gustaf Viktor Petersson and Emma Kristina Lindgren. Married in 1941 to Josta Andersson. Children: Lorentz, born in 1943 and Trygve born in 1946. Anton attended Lund for his studies, graduating high school in 1932, obtaining his degree in theology in 1934, and becoming a candidate of theology in Lund in 1938. He became a vicar in Ökna in 1941. Additionally, he served as the chairman of the church meeting, school board, and child welfare, treasurer of the school board, and child welfare.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Anton Hilding Vilhelm Bjurgert\",\n  \"birthDate\": \"1911-06-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Algutsboda, Kronoberg\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Viktor Petersson\",\n      \"jobTitle\": \"home owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Kristina Lindgren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Josta Andersson\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lorentz\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Trygve\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Stud:ex.\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"dateIssued\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"teol. fil. ex.\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"dateIssued\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"teol. kand.\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"dateIssued\": \"1938\"\n    }\n  ],\n  \"jobTitle\": \"komminister\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Ökna\"\n  },\n  \"startDate\": \"1941\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"kyrkostämma\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"skolstyr.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"barnav :nd\"\n    }\n  ],\n  \"honorificPrefix\": \"Av\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anton Hilding Vilhelm Bjurgert",
+        "birthDate": "1911-06-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Algutsboda, Kronoberg"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Viktor Petersson",
+                "jobTitle": "home owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Kristina Lindgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Josta Andersson",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lorentz",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Trygve",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Stud:ex.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                },
+                "dateIssued": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "teol. fil. ex.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                },
+                "dateIssued": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "teol. kand.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                },
+                "dateIssued": "1938"
+            }
+        ],
+        "jobTitle": "komminister",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Ökna"
+        },
+        "startDate": "1941",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "kyrkostämma"
+            },
+            {
+                "@type": "Organization",
+                "name": "skolstyr."
+            },
+            {
+                "@type": "Organization",
+                "name": "barnav :nd"
+            }
+        ],
+        "honorificPrefix": "Av"
+    }
+}

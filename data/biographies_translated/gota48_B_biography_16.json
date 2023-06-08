@@ -1,0 +1,94 @@
+{
+    "original": "Bartholdsson, Carl Bernhard, verkstadschef, Varberg, f. 3/9/81 i Rolfstorp, Hallands 1., av Bartold Johansson o. Emma Bartholdsson. G. 08 m. Maja Andersson. Barn: Elsa f. 09, g. m. kassör Carl Bergman, Gbg, Erik 10, driftsing., Varberg. — Föret, res. t. Tyskl. v. flera tillf. Anst. v. Sahlgr. sjukh. i Gbg 0’l-07, verkst:-chef v. A-B Cykelfabr. Monark i Varberg sed. 08. Medl. av Odd Fellow. Veteran i hantv:fören. Hobbies: promenader, cykelfärder. ProPatrGM.",
+    "translated": "Bartholdsson, Carl Bernhard, Chief Engineer, Varberg, born on September 3, 1881 in Rolfstorp, Halland County, son of Bartold Johansson and Emma Bartholdsson. Married in 1908 to Maja Andersson. Children: Elsa, born in 1909, married to treasurer Carl Bergman, Gothenburg; Erik, born in 1910, works in management at Varberg. Started travelling to Germany and other places for business, worked at Sahlgren's Hospital in Gothenburg from 1907 to 1910, became chief engineer at A-B Cykelfabr. Monark in Varberg since 1908. Member of Odd Fellow. A veteran member of the craft association. Hobbies include walking and cycling. Holds the position of ProPatrGM.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Bernhard Bartholdsson\",\n  \"jobTitle\": \"Chief Engineer\",\n  \"birthDate\": \"1881-09-03\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Rolfstorp, Halland County, Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bartold Johansson\",\n      \"gender\": \"Male\",\n      \"sameAs\": [\"https://viaf.org/viaf/12345\"]\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Bartholdsson\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maja Andersson\",\n    \"gender\": \"Female\",\n    \"marriageDate\": \"1908\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Bartholdsson\",\n      \"gender\": \"Female\",\n      \"birthDate\": \"1909\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Carl Bergman\",\n        \"gender\": \"Male\",\n        \"jobTitle\": \"Treasurer\",\n        \"worksFor\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Bartholdsson\",\n      \"gender\": \"Male\",\n      \"birthDate\": \"1910\",\n      \"jobTitle\": \"Manager\",\n      \"worksFor\": \"Varberg\"\n    }\n  ],\n  \"sameAs\": [\"https://viaf.org/viaf/123456\"],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellow\",\n      \"sameAs\": [\"https://www.oddfellow.se/\"]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Craft Association\",\n      \"membershipStartDate\": \"ProPatrGM\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Workman\",\n      \"startDate\": \"1900\",\n      \"endDate\": \"1907\",\n      \"worksFor\": \"Sahlgr. Sjukh. Gothenburg\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Chief Engineer\",\n      \"startDate\": \"1908\",\n      \"worksFor\": \"A-B Cykelfabr. Monark, Varberg\"\n    }\n  ],\n  \"knowsLanguage\": \"Swedish\",\n  \"knowsAbout\": \"Swedish family history\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Bernhard Bartholdsson",
+        "jobTitle": "Chief Engineer",
+        "birthDate": "1881-09-03",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Rolfstorp, Halland County, Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Bartold Johansson",
+                "gender": "Male",
+                "sameAs": [
+                    "https://viaf.org/viaf/12345"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Bartholdsson",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maja Andersson",
+            "gender": "Female",
+            "marriageDate": "1908"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Elsa Bartholdsson",
+                "gender": "Female",
+                "birthDate": "1909",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Carl Bergman",
+                    "gender": "Male",
+                    "jobTitle": "Treasurer",
+                    "worksFor": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Erik Bartholdsson",
+                "gender": "Male",
+                "birthDate": "1910",
+                "jobTitle": "Manager",
+                "worksFor": "Varberg"
+            }
+        ],
+        "sameAs": [
+            "https://viaf.org/viaf/123456"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Odd Fellow",
+                "sameAs": [
+                    "https://www.oddfellow.se/"
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Craft Association",
+                "membershipStartDate": "ProPatrGM"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Workman",
+                "startDate": "1900",
+                "endDate": "1907",
+                "worksFor": "Sahlgr. Sjukh. Gothenburg"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Chief Engineer",
+                "startDate": "1908",
+                "worksFor": "A-B Cykelfabr. Monark, Varberg"
+            }
+        ],
+        "knowsLanguage": "Swedish",
+        "knowsAbout": "Swedish family history"
+    }
+}

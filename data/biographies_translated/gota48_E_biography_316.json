@@ -1,0 +1,76 @@
+{
+    "original": "Ericsson, John Axel, tandläkare, Vänersborg, f. 1/6/08 i Vänersb. av Axel E. o. Hanna Skoogh. G. 36 m. Svea Eleonora Jo’sefson. Barn: John f. 39, Anders 44. ■— Stud:ex. i Vänersb. 29, med. kand. i Upps. 33, tandläk. 35. Praktik i Brålanda 36-42 o. i Vänersb. ■sed. 42.",
+    "translated": "Ericsson, John Axel, dentist, Vänersborg, born on 1/6/08 in Vänersborg to Axel E. and Hanna Skoogh. Married in 1936 to Svea Eleonora Jo’sefson. Children: John born in 1939, Anders in 1944. Graduated from high school in Vänersborg in 1929, completed a medical bachelor's degree in Uppsala in 1933, and became a dentist in 1935. Practiced in Brålanda from 1936 to 1942 and in Vänersborg since 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Axel Ericsson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1908-01-06\",\n  \"birthPlace\": \"Vänersborg\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Svea Eleonora Jo’sefson\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John Ericsson\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Ericsson\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel E. Ericsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Skoogh\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Vänersborg High School\",\n      \"alumniOf\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"alumniOf\": \"1933\"\n    }\n  ],\n  \"hasCredential\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Dentistry\",\n    \"name\": \"Dentist\",\n    \"identifier\": \"tandläkare\",\n    \"awardingOrganization\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Sweden\"\n    },\n    \"credentialEarned\": \"1935\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Brålanda Dental Practice\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vänersborg Dental Practice\",\n      \"startDate\": \"1942\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Axel Ericsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1908-01-06",
+        "birthPlace": "Vänersborg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Svea Eleonora Jo’sefson",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "John Ericsson",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Ericsson",
+                "birthDate": "1944"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel E. Ericsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Skoogh"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Vänersborg High School",
+                "alumniOf": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "alumniOf": "1933"
+            }
+        ],
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Dentistry",
+            "name": "Dentist",
+            "identifier": "tandläkare",
+            "awardingOrganization": {
+                "@type": "Organization",
+                "name": "Sweden"
+            },
+            "credentialEarned": "1935"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Brålanda Dental Practice",
+                "startDate": "1936",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vänersborg Dental Practice",
+                "startDate": "1942"
+            }
+        ]
+    }
+}

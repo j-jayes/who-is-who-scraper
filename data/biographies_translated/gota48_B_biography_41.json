@@ -1,0 +1,78 @@
+{
+    "original": "Belfrage, Åke Lennart Knutsson, tandläkare, Växjö, f. 23/12/15 i Växjö av kapt. Kniut B. o. Vera Såndberg. G. 45 m. Vera-Mari Vange. — Studi-ex. 34, tandläk:ex. 39. Priv:prakt. i Växjö sed. 44.",
+    "translated": "Belfrage, Åke Lennart Knutsson, dentist, born on December 23, 1915 in Växjö to Captain Knut B. and Vera Sandberg. Married in 1945 to Vera-Mari Vange. Completed his study examination in 1934 and his dental examination in 1939. Has been in private practice in Växjö since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Lennart Knutsson Belfrage\",\n  \"birthDate\": \"1915-12-23\",\n  \"birthPlace\": \"Växjö\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut Belfrage\",\n      \"jobTitle\": \"Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vera Sandberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vera-Mari Vange\",\n    \"marriageDate\": \"1945\"\n  },\n  \"jobTitle\": \"Dentist\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Study Examination\",\n      \"giver\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      },\n      \"credentialCategory\": \"diploma\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"duration\": \"P1Y\"      \n      },\n      \"validUntil\": \"1935-12-31\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Examination\",\n      \"giver\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      },\n      \"credentialCategory\": \"diploma\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"duration\": \"P5Y\"      \n      },\n      \"validUntil\": \"1944-12-31\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Unknown\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"None\"\n  },\n  \"hasOccupation\": {\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"Dentistry\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Växjö\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"startDate\": \"1944-01-01\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åke Lennart Knutsson Belfrage",
+        "birthDate": "1915-12-23",
+        "birthPlace": "Växjö",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Knut Belfrage",
+                "jobTitle": "Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Vera Sandberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vera-Mari Vange",
+            "marriageDate": "1945"
+        },
+        "jobTitle": "Dentist",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Study Examination",
+                "giver": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                },
+                "credentialCategory": "diploma",
+                "validFor": {
+                    "@type": "Duration",
+                    "duration": "P1Y"
+                },
+                "validUntil": "1935-12-31"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Examination",
+                "giver": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                },
+                "credentialCategory": "diploma",
+                "validFor": {
+                    "@type": "Duration",
+                    "duration": "P5Y"
+                },
+                "validUntil": "1944-12-31"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Unknown"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "None"
+        },
+        "hasOccupation": {
+            "@context": "https://schema.org",
+            "@type": "MedicalSpecialty",
+            "name": "Dentistry"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Växjö",
+            "addressCountry": "Sweden"
+        },
+        "startDate": "1944-01-01"
+    }
+}

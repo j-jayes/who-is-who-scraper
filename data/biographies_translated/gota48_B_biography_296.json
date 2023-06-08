@@ -1,0 +1,84 @@
+{
+    "original": "Bjerkhagen, Roland Alf Robert, tandläkare, Göteborg, f. 19/4/09 i Gbg. G. 38 m. Beth Fredrikson. Barn: Agneta f. 40, Anders 42, Eva 47. — Stud:-ex. v. Gbgs h. real 29, Cand. med. dent. i Greifswald 31, stud. i Wien 31-32, tysk tandl. 33, sv. dito 35. Prakt, i Nor- berg 35, i Gbg sed. 35, skoltandl. v. Mölndals folksk. 37-42.",
+    "translated": "Bjerkhagen, Roland Alf Robert, dentist, Gothenburg, born April 19, 1909 in Gothenburg. Married in 1938 to Beth Fredrikson. Children: Agneta born in 1940, Anders in 1942, Eva in 1947. He graduated from Gothenburg High School in 1929, got a degree in dentistry from Greifswald in 1931, studied in Vienna from 1931 to 1932, worked as a German dentist in 1933 and Swedish dentist in 1935. He worked as a dentist in Norberg in 1935, and in Gothenburg since 1935. He also worked as a school dentist at Mölndals Folkskola from 1937 to 1942.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Roland Alf Robert Bjerkhagen\",\n   \"birthDate\": \"1909-04-19\",\n   \"birthPlace\": \"Gothenburg\",\n   \"jobTitle\": \"Dentist\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Beth Fredrikson\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Agneta\",\n         \"birthDate\": \"1940\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders\",\n         \"birthDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Eva\",\n         \"birthDate\": \"1947\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Stud:-ex. v. Gbgs h. real\",\n         \"educationalLevel\": \"HighSchool\",\n         \"issuer\": \"Gothenburg High School\",\n         \"dateIssued\": \"1929\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Cand. med. dent. i Greifswald\",\n         \"educationalLevel\": \"Doctorate\",\n         \"issuer\": \"Greifswald University\",\n         \"dateIssued\": \"1931\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Studied in Vienna\",\n         \"educationalLevel\": \"CollegeOrUniversity\",\n         \"issuer\": \"Vienna University\",\n         \"startDate\": \"1931\",\n         \"endDate\": \"1932\"\n      }\n   ],\n   \"workExperience\": [\n      {\n         \"@type\": \"MedicalOrganization\",\n         \"name\": \"Norberg\",\n         \"occupation\": \"Dentist\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1935\"\n      },\n      {\n         \"@type\": \"MedicalOrganization\",\n         \"name\": \"Gothenburg\",\n         \"occupation\": \"Dentist\",\n         \"startDate\": \"1935\"\n      },\n      {\n         \"@type\": \"School\",\n         \"name\": \"Mölndals Folkskola\",\n         \"occupation\": \"School Dentist\",\n         \"startDate\": \"1937\",\n         \"endDate\": \"1942\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Roland Alf Robert Bjerkhagen",
+        "birthDate": "1909-04-19",
+        "birthPlace": "Gothenburg",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Beth Fredrikson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:-ex. v. Gbgs h. real",
+                "educationalLevel": "HighSchool",
+                "issuer": "Gothenburg High School",
+                "dateIssued": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Cand. med. dent. i Greifswald",
+                "educationalLevel": "Doctorate",
+                "issuer": "Greifswald University",
+                "dateIssued": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Studied in Vienna",
+                "educationalLevel": "CollegeOrUniversity",
+                "issuer": "Vienna University",
+                "startDate": "1931",
+                "endDate": "1932"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Norberg",
+                "occupation": "Dentist",
+                "startDate": "1935",
+                "endDate": "1935"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg",
+                "occupation": "Dentist",
+                "startDate": "1935"
+            },
+            {
+                "@type": "School",
+                "name": "Mölndals Folkskola",
+                "occupation": "School Dentist",
+                "startDate": "1937",
+                "endDate": "1942"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "original": "Delden, Per Evert, läroverksadjunkt, Huskvarna, f. 21/9/03 i Söderköp. G. 40 m. Carin Rundborg. Barn: Anna Katarina f. 45. — Stud:ex. i Norrköp. 24, fil. kand. i Upps. 30, fil. mag. 32, provår v. Gbgs folksk:sem. 39. Vik. adj. i Linköp. 33, vik. ämnes lär. i Älm-hult 34, vik. adj. i Enköp. 34-35, e. o. ämneslär. i Lindesberg 35-38, vik. adj. i Västerås 40, vik. ämneslär. v. Gbgs komm. me 11 ans k. 40, adj. v. Huskvarna samrealsk. sed. 41.",
+    "translated": "Delden, Per Evert, high school teacher, Huskvarna, b. September 21, 1903 in Söderköping. Married in 1940 to Carin Rundborg. Children: Anna Katarina b. 1945. — Graduated from Norrköping high school in 1924, Bachelor of Arts from Uppsala University in 1930, Master of Arts in 1932, probationary year at Gothenburg primary school teacher's college in 1939. Temporary teacher in Linköping in 1933, temporary subject teacher in Älmhult in 1934, temporary teacher in Enköping in 1934-35, acting subject teacher in Lindesberg in 1935-38, temporary teacher in Västerås in 1940, temporary subject teacher at Gothenburg municipal school for 11 years from 1940, teacher at Huskvarna secondary school since 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Evert Delden\",\n  \"birthPlace\": \"Söderköping, Sweden\",\n  \"birthDate\": \"1903-09-21\",\n  \"jobTitle\": \"High School Teacher\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Huskvarna\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Carin Rundborg\",\n    \"dateOfBirth\": \"\",\n    \"dateOfMarriage\": \"1940\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Katarina\",\n    \"dateOfBirth\": \"1945\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"High School Diploma\",\n    \"issuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping High School\",\n      \"location\": \"Norrköping, Sweden\"\n    },\n    \"dateIssued\": \"1924\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Uppsala University\",\n    \"location\": \"Uppsala, Sweden\"\n  },\n  \"hasCredential\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Bachelor of Arts\",\n    \"issuer\": {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala, Sweden\"\n    },\n    \"dateIssued\": \"1930\"\n  },\n  \"hasCredential\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Master of Arts\",\n    \"issuer\": {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala, Sweden\"\n    },\n    \"dateIssued\": \"1932\"\n  },\n  \"hasCredential\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Probationary year at Gothenburg primary school teacher's college\",\n    \"issuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg primary school teacher's college\",\n      \"location\": \"Gothenburg, Sweden\"\n    },\n    \"dateIssued\": \"1939\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping School\",\n      \"jobTitle\": \"Temporary Teacher\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älmhult School\",\n      \"jobTitle\": \"Temporary Subject Teacher\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Enköping School\",\n      \"jobTitle\": \"Temporary Teacher\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lindesberg School\",\n      \"jobTitle\": \"Acting Subject Teacher\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västerås School\",\n      \"jobTitle\": \"Temporary Teacher\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Municipal School\",\n      \"jobTitle\": \"Temporary Subject Teacher\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1951\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Huskvarna Secondary School\",\n      \"jobTitle\": \"Teacher\",\n      \"startDate\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Evert Delden",
+        "birthPlace": "Söderköping, Sweden",
+        "birthDate": "1903-09-21",
+        "jobTitle": "High School Teacher",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Huskvarna"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Carin Rundborg",
+            "dateOfBirth": "",
+            "dateOfMarriage": "1940"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Anna Katarina",
+            "dateOfBirth": "1945"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "High School Diploma",
+            "issuer": {
+                "@type": "Organization",
+                "name": "Norrköping High School",
+                "location": "Norrköping, Sweden"
+            },
+            "dateIssued": "1924"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Uppsala University",
+            "location": "Uppsala, Sweden"
+        },
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Probationary year at Gothenburg primary school teacher's college",
+            "issuer": {
+                "@type": "Organization",
+                "name": "Gothenburg primary school teacher's college",
+                "location": "Gothenburg, Sweden"
+            },
+            "dateIssued": "1939"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Linköping School",
+                "jobTitle": "Temporary Teacher",
+                "startDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älmhult School",
+                "jobTitle": "Temporary Subject Teacher",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Enköping School",
+                "jobTitle": "Temporary Teacher",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lindesberg School",
+                "jobTitle": "Acting Subject Teacher",
+                "startDate": "1935",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västerås School",
+                "jobTitle": "Temporary Teacher",
+                "startDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Municipal School",
+                "jobTitle": "Temporary Subject Teacher",
+                "startDate": "1940",
+                "endDate": "1951"
+            },
+            {
+                "@type": "Organization",
+                "name": "Huskvarna Secondary School",
+                "jobTitle": "Teacher",
+                "startDate": "1941"
+            }
+        ]
+    }
+}

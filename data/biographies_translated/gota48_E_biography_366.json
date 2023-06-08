@@ -1,0 +1,86 @@
+{
+    "original": "Esborn, Magnus * Axel William, tandläkare, Göteborg, f. 18/4/07 i Örebro av fabr. Georg E. o. Nina Bengtsson. G. 39 m. Inga Dellner. Barn: Ann f. 40, Fredrik 44. — Stud:ex. i Örebro 26, tandl :kand. 28, tandl. 31. Assist, h. tandl. Folke Jansson i Växjö 31, prakt, i Trollhättan 31-46, i Gbg sed. 46.",
+    "translated": "Esborn, Magnus Axel William was a dentist from Göteborg. He was born on April 18th, 1907 in Örebro to factory owner Georg E. and Nina Bengtsson. In 1939, he married Inga Dellner and they had two children, Ann (born in 1940) and Fredrik (born in 1944). Magnus passed his final exams in Örebro in 1926 and went on to study dentistry, earning his degree in 1931. He worked as an assistant to head dentist Folke Jansson in Växjö in 1931 and then worked in private practice in Trollhättan from 1931 until 1946. Finally, he set up his own dental practice in Göteborg in 1946 and worked there until retiring.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Magnus Axel William Esborn\",\n  \"birthDate\": \"1907-04-18\",\n  \"birthPlace\": \"Örebro\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Georg E. Esborn\",\n      \"jobTitle\": \"Factory Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nina Bengtsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga Dellner\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann Esborn\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fredrik Esborn\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"diploma\",\n    \"educationalLevel\": \"Bachelor's degree\",\n    \"degreeName\": \"Dentistry\",\n    \"dateIssued\": \"1931\",\n    \"issuedBy\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Unknown\"\n    },\n    \"recognizedBy\": [\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Örebro\"\n      }\n    ]\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättan\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göteborg\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Private Practice\"\n    }\n  ],\n  \"deathDate\":\"unknown\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Magnus Axel William Esborn",
+        "birthDate": "1907-04-18",
+        "birthPlace": "Örebro",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Georg E. Esborn",
+                "jobTitle": "Factory Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Nina Bengtsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga Dellner",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann Esborn",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Fredrik Esborn",
+                "birthDate": "1944"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "diploma",
+            "educationalLevel": "Bachelor's degree",
+            "degreeName": "Dentistry",
+            "dateIssued": "1931",
+            "issuedBy": {
+                "@type": "Organization",
+                "name": "Unknown"
+            },
+            "recognizedBy": [
+                {
+                    "@type": "Organization",
+                    "name": "Örebro"
+                }
+            ]
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Växjö"
+            },
+            {
+                "@type": "Organization",
+                "name": "Trollhättan"
+            },
+            {
+                "@type": "Organization",
+                "name": "Göteborg"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Dentist"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Assistant"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Private Practice"
+            }
+        ],
+        "deathDate": "unknown"
+    }
+}

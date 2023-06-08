@@ -1,0 +1,52 @@
+{
+    "original": "Eklundh, Anna, tandläkare, Motala, f. 22/9/80 i V. Stenby, östergötl. 1., av lantbr:ing. Teodor E. o. Hilda Vilhelmina Svensson. — Mog:ex. v. Lv-ceum f. fl. i Sthlm 99, tandl :kand. tandl. 03. Prakt, i Motala sed. 03.",
+    "translated": "Eklundh, Anna, dentist, Motala, born September 22, 1880 in Västra Stenby, Östergötland, daughter of farmer Teodor E. and Hilda Vilhelmina Svensson. Attended several schools in Stockholm, graduating from Lv-ceum in 1899 and receiving a degree in dentistry in 1903. Practiced as a dentist in Motala since 1903. Married (date not specified).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Anna Eklundh\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1880-09-22\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Västra Stenby\"\n  },\n  \"nationality\": \"Swedish\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Teodor Eklundh\",\n      \"jobTitle\": \"Farmer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Vilhelmina Svensson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lv-ceum\",\n      \"location\": \"Stockholm\",\n      \"endDate\": \"1899\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Tandl :kand\",\n      \"location\": \"Stockholm\",\n      \"endDate\": \"1903\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Motala Dental Association\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Motala Dental Practice\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anna Eklundh",
+        "jobTitle": "Dentist",
+        "birthDate": "1880-09-22",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Västra Stenby"
+        },
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Teodor Eklundh",
+                "jobTitle": "Farmer"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Vilhelmina Svensson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lv-ceum",
+                "location": "Stockholm",
+                "endDate": "1899"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Tandl :kand",
+                "location": "Stockholm",
+                "endDate": "1903"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Motala Dental Association"
+        },
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Motala Dental Practice"
+            }
+        ]
+    }
+}

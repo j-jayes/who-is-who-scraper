@@ -1,0 +1,99 @@
+{
+    "original": "Ekstedt, Carl Gustav, advokat, Göteborg, f. 5/9/06 i Gbg av brandche- fen Gustaf E. o. Ester Borg. G. 38 m. Sonja Penlow. Barn: Margareta f. 39, Ragnhild 41, Robert 43. — Stud:-ex. v. Gbgs latin 24, fil. kand. i Gbg 26, jur. kand. i Lund 29. Tingstjg. i Askims, Hisings o. Sävedals doms. 29-32, egen adv :verksamh. i Gbg sed. 33. Led. av Sv:es adv:s’amf. sed. 35.",
+    "translated": "Ekstedt, Carl Gustav, lawyer, Gothenburg, born September 5th, 1906 in Gothenburg to fire chief Gustaf E. and Ester Borg. Married in 1938 to Sonja Penlow. Children: Margareta (born in 1939), Ragnhild (born in 1941), and Robert (born in 1943). He passed his entrance exam to Gothenburg's Latin School in 1924, received a bachelor's degree in philosophy from Gothenburg in 1926, and earned a law degree from Lund in 1929. He served as a court clerk in Askim, Hisingen and Sävedalens courts from 1929-1932, and had his own law practice in Gothenburg since 1933. He has been a member of the Swedish Bar Association since 1935.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Carl Gustav Ekstedt\",\n   \"jobTitle\": \"Lawyer\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n   },\n   \"birthDate\": \"1906-09-05\",\n   \"birthPlace\": \"Gothenburg\",\n   \"father\": {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf E.\"\n   },\n   \"mother\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Borg\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Sonja Penlow\",\n      \"marriageDate\": \"1938\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Margareta\",\n         \"birthDate\": \"1939\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ragnhild\",\n         \"birthDate\": \"1941\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Robert\",\n         \"birthDate\": \"1943\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Entrance Exam\",\n         \"issuer\": \"Gothenburg's Latin School\",\n         \"issuedDate\": \"1924\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Bachelor's Degree in Philosophy\",\n         \"issuer\": \"Gothenburg\",\n         \"issuedDate\": \"1926\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Law Degree\",\n         \"issuer\": \"Lund\",\n         \"issuedDate\": \"1929\"\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"CourtClerk\",\n         \"employer\": [\n            {\n               \"@type\": \"Courthouse\",\n               \"name\": \"Askim Court\"\n            },\n            {\n               \"@type\": \"Courthouse\",\n               \"name\": \"Hisingen Court\"\n            },\n            {\n               \"@type\": \"Courthouse\",\n               \"name\": \"Sävedalens Court\"\n            }\n         ],\n         \"startDate\": \"1929\",\n         \"endDate\": \"1932\"\n      },\n      {\n         \"@type\": \"OwnBusiness\",\n         \"name\": \"Law Practice in Gothenburg\",\n         \"startDate\": \"1933\"\n      }\n   ],\n   \"memberOf\": [{\n     \"@type\": \"Organization\",\n     \"name\": \"Swedish Bar Association\",\n     \"startDate\": \"1935\"\n   }]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Gustav Ekstedt",
+        "jobTitle": [
+            {
+                "@type": "CourtClerk",
+                "employer": [
+                    {
+                        "@type": "Courthouse",
+                        "name": "Askim Court"
+                    },
+                    {
+                        "@type": "Courthouse",
+                        "name": "Hisingen Court"
+                    },
+                    {
+                        "@type": "Courthouse",
+                        "name": "Sävedalens Court"
+                    }
+                ],
+                "startDate": "1929",
+                "endDate": "1932"
+            },
+            {
+                "@type": "OwnBusiness",
+                "name": "Law Practice in Gothenburg",
+                "startDate": "1933"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1906-09-05",
+        "birthPlace": "Gothenburg",
+        "father": {
+            "@type": "Person",
+            "name": "Gustaf E."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Ester Borg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Sonja Penlow",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Ragnhild",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Robert",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Entrance Exam",
+                "issuer": "Gothenburg's Latin School",
+                "issuedDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree in Philosophy",
+                "issuer": "Gothenburg",
+                "issuedDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Law Degree",
+                "issuer": "Lund",
+                "issuedDate": "1929"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1935"
+            }
+        ]
+    }
+}

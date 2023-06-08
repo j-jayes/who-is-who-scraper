@@ -1,0 +1,92 @@
+{
+    "original": "Bengtsson, Erik Alfons, civil|ingenjör, Göteborg, f. 12/7/Ö9 i Örgryte förs., Gbgs o. Boh, 1., av Adolf B. o. Allmina Johansdotter. G. 39 m. Karin Öhnell. Barn: Hans f. 39 (adopt:-son). — Stud:ex. v. Gbgs latin 29, ingiex. v. CTH 36. Anst. v. Sthlms stads gatukont. 38-43, v. stadsplane-kont. i Gbg sed. 43. Hobby: genealogi.",
+    "translated": "Bengtsson, Erik Alfons was a civil engineer from Gothenburg, born on July 12, 1909 in the Örgryte parish of Gothenburg and Bohus County. He was the first child of Adolf B. and Allmina Johansdotter. He married Karin Öhnell in 1939 and had a son named Hans (adopted). Erik graduated from Gothenburg Latin School in 1929 and from Chalmers University of Technology in 1936 with a degree in engineering. He worked for Stockholm City's Road Administration from 1938 to 1943 and then for the City Planning Department in Gothenburg. Erik's hobby was genealogy.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Alfons Bengtsson\",\n  \"birthDate\": \"1909-07-12\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Örgryte förs., Gothenburg, Sweden\"\n  },\n  \"description\": \"Erik Alfons Bengtsson was a civil engineer from Gothenburg.\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Adolf B. Bengtsson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Allmina Johansdotter\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Öhnell\",\n    \"gender\": \"female\",\n    \"marriageDate\": \"1939\"\n  },\n  \"child\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hans Bengtsson\",\n    \"gender\": \"male\",\n    \"adopted\": true,\n    \"birthDate\": \"1939\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex\",\n      \"educationalLevel\": \"HighSchool\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gbgs latin\",\n        \"location\": \"Gothenburg\"\n      },\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"ingiex.\",\n      \"educationalLevel\": \"University\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Chalmers University of Technology\",\n        \"location\": \"Gothenburg\"\n      },\n      \"endDate\": \"1936\",\n      \"description\": \"Degree in Engineering\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm City's Road Administration\",\n      \"location\": \"Stockholm\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1943\",\n      \"description\": \"Employed as Civil Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Planning Department\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1943\",\n      \"description\": \"Employed as Civil Engineer\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Genealogical Society\"\n  },\n  \"hobbies\": \"Genealogy\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Alfons Bengtsson",
+        "birthDate": "1909-07-12",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Örgryte förs., Gothenburg, Sweden"
+        },
+        "description": "Erik Alfons Bengtsson was a civil engineer from Gothenburg.",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Adolf B. Bengtsson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Allmina Johansdotter",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Öhnell",
+            "gender": "female",
+            "marriageDate": "1939"
+        },
+        "child": {
+            "@type": "Person",
+            "name": "Hans Bengtsson",
+            "gender": "male",
+            "adopted": true,
+            "birthDate": "1939"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex",
+                "educationalLevel": "HighSchool",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Gbgs latin",
+                    "location": "Gothenburg"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "ingiex.",
+                "educationalLevel": "University",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Chalmers University of Technology",
+                    "location": "Gothenburg"
+                },
+                "endDate": "1936",
+                "description": "Degree in Engineering"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Stockholm City's Road Administration",
+                "location": "Stockholm",
+                "startDate": "1938",
+                "endDate": "1943",
+                "description": "Employed as Civil Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "City Planning Department",
+                "location": "Gothenburg",
+                "startDate": "1943",
+                "description": "Employed as Civil Engineer"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Genealogical Society"
+        },
+        "hobbies": "Genealogy"
+    }
+}

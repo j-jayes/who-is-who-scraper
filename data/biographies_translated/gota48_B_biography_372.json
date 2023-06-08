@@ -1,0 +1,44 @@
+{
+    "original": "Blidberg, Metcalfe &amp; Co. A-B i Gbg 17-19, i Stånd. Shipp. Co. Inc. i New York 19-20, start, firma Blidberg, Sägen Co. Inc. i Nev^ York 20, ombild. föret. t. firma Blidberg, Rotchild Co. Inc. 22, chef f. denna firma, anst. i",
+    "translated": "Blidberg, Metcalfe &amp; Co. A-B in Gothenburg from 1917-1919, status unknown. Became part of Shipp. Co. Inc. in New York from 1919-1920, starting a new company, Blidberg, Sägen Co. Inc. in New York in 1920. Reorganized the company to the firm Blidberg, Rotchild Co. Inc. in 1922, where he became the head of the company and worked for this company. It is unknown if he had any partners, or if he married during this time.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Blidberg\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blidberg, Metcalfe & Co. A-B\",\n      \"foundingDate\": \"1917\",\n      \"dissolutionDate\": \"1919\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Shipp. Co. Inc.\",\n      \"foundingDate\": \"1919\",\n      \"dissolutionDate\": \"1920\",\n      \"location\": \"New York\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blidberg, Sägen Co. Inc.\",\n      \"foundingDate\": \"1920\",\n      \"location\": \"New York\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blidberg, Rotchild Co. Inc.\",\n      \"foundingDate\": \"1922\",\n      \"location\": \"New York\"\n    }\n  ],\n  \"jobTitle\": \"Head of Blidberg, Rotchild Co. Inc.\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Blidberg, Rotchild Co. Inc.\"\n  },\n  \"unknownMartialStatusDuringEmployment\": true\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Blidberg",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Blidberg, Metcalfe & Co. A-B",
+                "foundingDate": "1917",
+                "dissolutionDate": "1919",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Shipp. Co. Inc.",
+                "foundingDate": "1919",
+                "dissolutionDate": "1920",
+                "location": "New York"
+            },
+            {
+                "@type": "Organization",
+                "name": "Blidberg, Sägen Co. Inc.",
+                "foundingDate": "1920",
+                "location": "New York"
+            },
+            {
+                "@type": "Organization",
+                "name": "Blidberg, Rotchild Co. Inc.",
+                "foundingDate": "1922",
+                "location": "New York"
+            }
+        ],
+        "jobTitle": "Head of Blidberg, Rotchild Co. Inc.",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Blidberg, Rotchild Co. Inc."
+        },
+        "unknownMartialStatusDuringEmployment": true
+    }
+}

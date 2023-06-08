@@ -1,0 +1,42 @@
+{
+    "original": "Christiansson, Signe Ingeborg, tandläkare, Göteborg, f. 8/11/04 i Röstånga, Malmöh. 1., av Axel C. o. Elise Cal’1-mer. Stud:ex. v. Eslövs h. samisk. 24, tandl :kand. 26, tandläkare 29. Tandläkare v. Gbgs kommun, tandpolikliniker 29.",
+    "translated": "Christiansson, Signe Ingeborg, dentist, Gothenburg, born November 8th, 1904 in Röstånga, Malmöhus County. First child of Axel C. and Elise Cal’1-mer. Passed student exam at Eslöv high school in 1924. Completed dental studies in 1926 and became a licensed dentist in 1929. Worked as a dentist for Gothenburg municipality at dental clinics since 1929.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Signe Ingeborg Christiansson\",\n  \"birthDate\": \"1904-11-08\",\n  \"birthPlace\": \"Röstånga, Malmöhus County\",\n  \"parents\": [\n    {\n      \"@type\": \"Parent\",\n      \"name\": \"Axel C. Christiansson\"\n    },\n    {\n      \"@type\": \"Parent\",\n      \"name\": \"Elise Cal’1-mer\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"institution\": {\n      \"@type\": \"HighSchool\",\n      \"name\": \"Eslövs h. samisk.\"\n    },\n    \"endDate\": \"1924\"\n  },\n  \"occupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1929\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Municipality\"\n  },\n  \"spouse\": [],\n  \"children\": [],\n  \"gender\": \"Female\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Signe Ingeborg Christiansson",
+        "birthDate": "1904-11-08",
+        "birthPlace": "Röstånga, Malmöhus County",
+        "parents": [
+            {
+                "@type": "Parent",
+                "name": "Axel C. Christiansson"
+            },
+            {
+                "@type": "Parent",
+                "name": "Elise Cal’1-mer"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "institution": {
+                "@type": "HighSchool",
+                "name": "Eslövs h. samisk."
+            },
+            "endDate": "1924"
+        },
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1929"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg Municipality"
+        },
+        "spouse": [],
+        "children": [],
+        "gender": "Female"
+    }
+}

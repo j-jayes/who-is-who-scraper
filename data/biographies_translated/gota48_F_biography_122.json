@@ -1,0 +1,60 @@
+{
+    "original": "Forslund, Melker, ingenjör, Linköping, f. 23/12/00 i Linköp. av smides-mäst. C. M. F. o. Sofia Karlsson. G. 25 m. Margareta Wastesson. Barn: Carin f. 26, Lennart 32. — Stud. v. Linköp. h. a. 1. samt ing:ex. 21. Ing. v. Forslunds Verkstäder sed. 37.",
+    "translated": "Forslund, Melker, engineer, Linköping, b. 23/12/1900 in Linköping. Son of blacksmith master C.M.F. and Sofia Karlsson. Married to Margareta Wastesson in 1925. Children: Carin b. 1926, Lennart b. 1932. He studied at Linköping high school and passed the engineering exam in 1921. He worked as an engineer at Forslund's workshops since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Melker Forslund\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1900-12-23\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Linköping\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.M.F.\",\n      \"jobTitle\": \"Blacksmith Master\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofia Karlsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Wastesson\",\n    \"marriageDate\": \"1925\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carin\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"HighSchool\",\n      \"name\": \"Linköping High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Engineering Exam\",\n      \"dateIssued\": \"1921\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Forslund's Workshops\"\n  },\n  \"startDate\": \"1937\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Melker Forslund",
+        "jobTitle": "Engineer",
+        "birthDate": "1900-12-23",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Linköping"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "C.M.F.",
+                "jobTitle": "Blacksmith Master"
+            },
+            {
+                "@type": "Person",
+                "name": "Sofia Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Wastesson",
+            "marriageDate": "1925"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carin",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "HighSchool",
+                "name": "Linköping High School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Engineering Exam",
+                "dateIssued": "1921"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Forslund's Workshops"
+        },
+        "startDate": "1937"
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "original": "Dalhammar, Carl Ingmar, civilingenjör, Göteborg, f. 30/11/03 i Lungsund, Värml. 1., av förste aktuarien, fil. dr B. A. Carlsson o. Alma Svensson. G. 31 m. Gerda Bengtsson. Barn: Kristina f. 38, Margareta 40, Lars 43. — Stud:ex. v. ö^stra real i Sthlm 21, avg:-ex. fr. KTH 26. Kon&amp;tr. h. A-B Pen-taverken i Skövde 27-29, v. Nydqvist &amp; Holm A-B dieselmotoravd. i Trollhättan 29-30, kontr:ing. h. NOHAB Flygmotorfabr. A-B där 30-35, plianer :-chef v. Nydqvist &amp; Holm A-B 35-39, övering. v. Sv. Flygmotor A-B i Trollhättan sed. 39. Led. av Sv. tekn:-fören. sed. 26.",
+    "translated": "Dalhammar, Carl Ingmar, engineer, Gothenburg, b. 30/11/03 in Lungsund, Värmland. Son of the first actuary, PhD B.A. Carlsson and Alma Svensson. Married to Gerda Bengtsson in 1931. Children: Kristina b. 1938, Margareta b. 1940, Lars b. 1943. He completed his secondary education at Östra Real in Stockholm in 1921 and graduated from the Royal Institute of Technology in 1926. He worked as a contractor at A-B Penta Works in Skövde from 1927-1929, then at Nydqvist & Holm AB diesel motor department in Trollhättan from 1929-1930, and as a contracting engineer at NOHAB Flygmotorfabr. AB from 1930-1935. He was the planner manager at Nydqvist & Holm AB from 1935-1939 and was the chief engineer at the Swedish Flygmotor AB in Trollhättan since 1939. He has been a member of the Swedish Engineering Association since 1926.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Ingmar Dalhammar\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1903-11-30\",\n  \"birthPlace\": \"Lungsund, Värmland, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"B.A. Carlsson\",\n      \"jobTitle\": \"Actuary\",\n      \"degree\": \"PhD\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gerda Bengtsson\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary education\",\n      \"educationalLevel\": \"Stud\",\n      \"institution\": \"Östra Real\",\n      \"location\": \"Stockholm\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduation\",\n      \"educationalLevel\": \"graduated\",\n      \"institution\": \"Royal Institute of Technology\",\n      \"location\": \"Stockholm\",\n      \"endDate\": \"1926\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Contractor\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Penta Works\",\n        \"location\": \"Skövde\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Contracting Engineer\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1935\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"NOHAB Flygmotorfabr. AB\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Planner Manager\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1939\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nydqvist & Holm AB\",\n        \"location\": \"Trollhättan\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Chief Engineer\",\n      \"startDate\": \"1939\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Flygmotor AB\",\n        \"location\": \"Trollhättan\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Engineering Association\",\n    \"startDate\": \"1926\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl Ingmar Dalhammar",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Contractor",
+                "startDate": "1927",
+                "endDate": "1929",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Penta Works",
+                    "location": "Skövde"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Contracting Engineer",
+                "startDate": "1930",
+                "endDate": "1935",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "NOHAB Flygmotorfabr. AB"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Planner Manager",
+                "startDate": "1935",
+                "endDate": "1939",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Nydqvist & Holm AB",
+                    "location": "Trollhättan"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Chief Engineer",
+                "startDate": "1939",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Flygmotor AB",
+                    "location": "Trollhättan"
+                }
+            }
+        ],
+        "birthDate": "1903-11-30",
+        "birthPlace": "Lungsund, Värmland, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "B.A. Carlsson",
+                "jobTitle": "Actuary",
+                "degree": "PhD"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gerda Bengtsson",
+            "marriageDate": "1931"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kristina",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary education",
+                "educationalLevel": "Stud",
+                "institution": "Östra Real",
+                "location": "Stockholm",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduation",
+                "educationalLevel": "graduated",
+                "institution": "Royal Institute of Technology",
+                "location": "Stockholm",
+                "endDate": "1926"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Engineering Association",
+            "startDate": "1926"
+        }
+    }
+}

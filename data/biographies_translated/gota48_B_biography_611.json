@@ -1,0 +1,83 @@
+{
+    "original": "Bråkenhielm, Carl-Ivar C :son, civilingenjör, Norrköping, f. 9/3/18 i Gbg av byråing. Carl B. o. Dagny Persson-Unger. G. 43 m. Marion Elisabeth Krüger. Barn: Carl-Reinhold f. 45. — Örebro tekn. gymn. 38, KTH 43. Löjtn. i Smål. art:reg. res. Planeringschef v. Bultfabr. A-B i Hallstahammar 43-46, anst. v. Lithografiska A-B i Norrköp. sed. 47. Led. av Sv. Tekn:fören. FMM m sv.",
+    "translated": "Bråkenhielm, Carl-Ivar C:son, engineer, Norrköping, b. 9/3/18 in Gothenburg, son of a bureau chief, Carl B. and Dagny Persson-Unger. Married in 1943 to Marion Elisabeth Krüger. Children: Carl-Reinhold b. 1945. Graduated from Örebro Technical High School in 1938 and from KTH in 1943. Lieutenant in Småland's Artillery Regiment reserve. Planning manager at Bultfabrik AB in Hallstahammar from 1943-1946 and employee at Lithografiska AB in Norrköping since 1947. Member of the Swedish Technical Association and the Military Merit Medal Society.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Carl-Ivar\",\n  \"additionalName\": \"C\",\n  \"familyName\": \"Bråkenhielm\",\n  \"birthDate\": \"1918-03-09\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Gothenburg\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl B. Bråkenhielm\",\n      \"jobTitle\": \"Bureau Chief\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dagny Persson-Unger\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Marion Elisabeth Krüger\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl-Reinhold\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Örebro Technical High School\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"KTH\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Lieutenant\",\n    \"Planning Manager\",\n    \"Employee\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Military Merit Medal Society\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bultfabrik AB\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1946\",\n      \"jobTitle\": \"Planning Manager\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lithografiska AB\",\n      \"startDate\": \"1947\",\n      \"jobTitle\": \"Employee\"\n    }\n  ],\n  \"nationality\": \"Swedish\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Carl-Ivar",
+        "additionalName": "C",
+        "familyName": "Bråkenhielm",
+        "birthDate": "1918-03-09",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gothenburg"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl B. Bråkenhielm",
+                "jobTitle": "Bureau Chief"
+            },
+            {
+                "@type": "Person",
+                "name": "Dagny Persson-Unger"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Marion Elisabeth Krüger",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl-Reinhold",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Örebro Technical High School",
+                "startDate": "1938"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "KTH",
+                "startDate": "1943"
+            }
+        ],
+        "jobTitle": [
+            "Lieutenant",
+            "Planning Manager",
+            "Employee"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Military Merit Medal Society"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Bultfabrik AB",
+                "startDate": "1943",
+                "endDate": "1946",
+                "jobTitle": "Planning Manager"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lithografiska AB",
+                "startDate": "1947",
+                "jobTitle": "Employee"
+            }
+        ],
+        "nationality": "Swedish"
+    }
+}

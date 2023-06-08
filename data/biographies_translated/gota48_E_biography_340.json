@@ -1,0 +1,124 @@
+{
+    "original": "Ericsson, Conrad Thore, civilingenjör, direktör, Eksjö, f. 10/8/04 i Sthlm av grosshandl. C. Th. E. o. Hildegard Blomquist. G. 41 m. Astrid Molander. Barn: Jan f. 41, Stig 43, Björn 45. — Stud:ex. v. södra latin i Sthlm 23, avg:ex. fr. KTH 28. Anst. h. STAB i Sthlm 28, v. dess dotterbol. The Western India Match Co. i Bombay 29-32, v. Union Allumettière i Bryssel 33, v. Jönköp. &amp; Vulcans Tändsticksifabr. A-B i Jönköp. 35-36,. verkst. dir. i Sv. Vaxduks A-B i Smål. Anneberg sed. 36. Led. av Sv. tekn:-fören.",
+    "translated": "Ericsson, Conrad Thore, Civil Engineer, Director, from Eksjö, born on August 10, 1904 in Stockholm to merchant C. Th. E. and Hildegard Blomquist. Married in 1941 to Astrid Molander. They have three sons: Jan, born in 1941, Stig in 1943, and Björn in 1945. He graduated from Södra Latin in Stockholm in 1923 and from KTH (Royal Institute of Technology) in 1928. He was employed at STAB in Stockholm in 1928 and at its subsidiary, The Western India Match Co. in Bombay from 1929 to 1932, at Union Allumettière in Brussels in 1933, and at Jönköp. & Volcanoes Tändsticksifabr. A-B in Jönköping from 1935 to 1936. From 1936, he was the managing director of Swedish Oilcloth A-B in Småland, Anneberg. He is a member of the Swedish Technical Association.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Conrad Thore Ericsson\",\n    \"birthDate\": \"1904-08-10\",\n    \"birthPlace\": {\n        \"@type\": \"City\",\n        \"name\": \"Stockholm\"\n    },\n    \"nationality\": \"Swedish\",\n    \"occupation\": [\n        {\n            \"@type\": \"CivilEngineer\",\n            \"name\": \"Civil Engineer\"\n        }, \n        {\n            \"@type\": \"Director\",\n            \"name\": \"Director\"\n        }\n    ],\n    \"parent\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"C. Th. E.\",\n            \"jobTitle\": \"Merchant\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Hildegard Blomquist\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Astrid Molander\",\n        \"marriageDate\": \"1941\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Jan\",\n            \"birthDate\": \"1941\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Stig\",\n            \"birthDate\": \"1943\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Björn\",\n            \"birthDate\": \"1945\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Stud:ex. v. södra latin i Sthlm\",\n            \"educationalLevel\": \"SecondaryEducation\",\n            \"startDate\": \"1923\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Avg:ex. fr. KTH\",\n            \"educationalLevel\": \"UndergraduateUpperDivision\",\n            \"startDate\": \"1928\"\n        }\n    ],\n    \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Technical Association\"\n    },\n    \"workExperience\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"STAB\",\n            \"startDate\": \"1928\",\n            \"endDate\": \"1929\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"The Western India Match Co.\",\n            \"startDate\": \"1929\",\n            \"endDate\": \"1932\",\n            \"location\": {\n                \"@type\": \"City\",\n                \"name\": \"Bombay\"\n            }\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Union Allumettière\",\n            \"startDate\": \"1933\",\n            \"location\": {\n                \"@type\": \"City\",\n                \"name\": \"Brussels\"\n            }\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Jönköp. & Volcanoes Tändsticksifabr. A-B\",\n            \"startDate\": \"1935\",\n            \"endDate\": \"1936\",\n            \"location\": {\n                \"@type\": \"City\",\n                \"name\": \"Jönköping\"\n            }\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Swedish Oilcloth A-B\",\n            \"startDate\": \"1936\",\n            \"location\": {\n                \"@type\": \"City\",\n                \"name\": \"Anneberg\"\n            },\n            \"jobTitle\": \"Managing Director\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Conrad Thore Ericsson",
+        "birthDate": "1904-08-10",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Stockholm"
+        },
+        "nationality": "Swedish",
+        "occupation": [
+            {
+                "@type": "CivilEngineer",
+                "name": "Civil Engineer"
+            },
+            {
+                "@type": "Director",
+                "name": "Director"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C. Th. E.",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Hildegard Blomquist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Molander",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. v. södra latin i Sthlm",
+                "educationalLevel": "SecondaryEducation",
+                "startDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Avg:ex. fr. KTH",
+                "educationalLevel": "UndergraduateUpperDivision",
+                "startDate": "1928"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Technical Association"
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "STAB",
+                "startDate": "1928",
+                "endDate": "1929"
+            },
+            {
+                "@type": "Organization",
+                "name": "The Western India Match Co.",
+                "startDate": "1929",
+                "endDate": "1932",
+                "location": {
+                    "@type": "City",
+                    "name": "Bombay"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Union Allumettière",
+                "startDate": "1933",
+                "location": {
+                    "@type": "City",
+                    "name": "Brussels"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköp. & Volcanoes Tändsticksifabr. A-B",
+                "startDate": "1935",
+                "endDate": "1936",
+                "location": {
+                    "@type": "City",
+                    "name": "Jönköping"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Oilcloth A-B",
+                "startDate": "1936",
+                "location": {
+                    "@type": "City",
+                    "name": "Anneberg"
+                },
+                "jobTitle": "Managing Director"
+            }
+        ]
+    }
+}

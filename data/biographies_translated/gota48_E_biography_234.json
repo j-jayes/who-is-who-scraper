@@ -1,0 +1,94 @@
+{
+    "original": "Enander, Carl Andreas, komminister, Lur, f. 20/12/99’ i Rydboholm, Älvsb. 1., av Johiannes Larsiso^n o. An- na Enander. G. 34 m. Frida Johansson. Barn: Sven Gustaf f. 36, Mona (adoptivdtr) 38. — Stud:ex. 28, teol. kand. 33. V. past. i Laho’lm 33, stifts-ad!j. i S’kaigen 34, ’kiomimàni. i Lur 37, kyrko’h. i Tiamum: fir. 47. I Lur oir-dif. i kyrkostämmia, kyrkogårdsförest., kyrkokasisör.",
+    "translated": "Enander, Carl Andreas, vicar, Lur, b. 20/12/99 in Rydboholm, Älvsborgs län, son of Johannes Larsson and Anna Enander. Married in 1934 to Frida Johansson. Children: Sven Gustaf b. 1936, Mona (adopted daughter) b. 1938. Graduated high school in 1928, theology degree in 1933. Assistant vicar in Laho’lm in 1933, district chaplain in S’kaigen in 1934, vicar in Lur in 1937, and vicar in Tiamum in 1947. In Lur served on the church council, as cemetery superintendent, and as church treasurer.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Andreas Enander\",\n  \"birthDate\": \"1899-12-20\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Rydboholm\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Älvsborgs län\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johannes Larsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Enander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Frida Johansson\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Gustaf\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mona\",\n      \"birthDate\": \"1938\",\n      \"adopted\": true\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. kand.\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Vicar\",\n    \"Assistant vicar\",\n    \"District chaplain\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Laho’lm Church\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"S’kaigen Church\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lur Church\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tiamum Church\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Church council\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1947\",\n      \"members\": [\"Lur Church\"]\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Cemetery superintendent\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1947\",\n      \"members\": [\"Lur Church\"]\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Church treasurer\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1947\",\n      \"members\": [\"Lur Church\"]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Andreas Enander",
+        "birthDate": "1899-12-20",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Rydboholm",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborgs län",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johannes Larsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Enander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Frida Johansson",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Gustaf",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Mona",
+                "birthDate": "1938",
+                "adopted": true
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "endDate": "1933"
+            }
+        ],
+        "jobTitle": [
+            "Vicar",
+            "Assistant vicar",
+            "District chaplain"
+        ],
+        "memberOf": [
+            {
+                "@type": "OrganizationRole",
+                "namedPosition": "Church council",
+                "startDate": "1937",
+                "endDate": "1947",
+                "members": [
+                    "Lur Church"
+                ]
+            },
+            {
+                "@type": "OrganizationRole",
+                "namedPosition": "Cemetery superintendent",
+                "startDate": "1937",
+                "endDate": "1947",
+                "members": [
+                    "Lur Church"
+                ]
+            },
+            {
+                "@type": "OrganizationRole",
+                "namedPosition": "Church treasurer",
+                "startDate": "1937",
+                "endDate": "1947",
+                "members": [
+                    "Lur Church"
+                ]
+            }
+        ]
+    }
+}

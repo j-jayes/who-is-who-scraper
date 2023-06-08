@@ -1,0 +1,127 @@
+{
+    "original": "Djurberg, Nils Stensson, major, Borås, f. 11/1/99 i Fredsberg, Skarab. 1., av öv:löjtn. Sten D. o. Selma Thim-gren. G. 25 m. Elisabeth Björck. Barn: Sten f. 26, Agneta 35. — Stud:-ex. i Skövde 18, off:ex. 21, KHS 30-32, SS 28 o. 37. Fänr. v. Skarab. reg. 21, löjtn. 23, kapten 36, major v. Älvsb. reg. fr. 42. Lär. v. krigssk. 36-40, komp:chef där 40-41. Styr:led. i Älvsb. reg. kamratfören. 42, v. ordf. i Skarab. reg. kamratfören. 38-42. Medl. av Frimurarorden. RSO, Land-stSM, Sthlm-s landst:förb. SM, 2 SkytteM.",
+    "translated": "Djurberg, Nils Stensson, Major, Borås, born on January 11, 1899 in Fredsberg, Skaraborg County, first child of Lt. Col. Sten D. and Selma Thimgren. Married in 1925 to Elisabeth Björck. Children: Sten, born in 1926 and Agneta, born in 1935. He graduated from Skövde in 1918, Officer Training School in 1921, Krigshögskolan (Swedish National Defense College) from 1930 to 1932, and Staff College in 1928 and 1937. He held various military ranks such as Second Lieutenant in the Skaraborg Regiment in 1921, Lieutenant in 1923, Captain in 1936, and Major in the Älvsborg Regiment from 1942. He taught at the Military School from 1936 to 1940, and was a company commander there from 1940 to 1941. He was a member of the board of directors for the Älvsborg Regiment's comrade association in 1942, and vice-chairman of the Skaraborg Regiment's comrade association from 1938 to 1942. He was a member of the Freemasons. He received the Royal Order of the Sword, the County Council Medal in Stockholm, and the 2nd class of the Army Shooting Medal.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Nils Stensson Djurberg\",\n   \"birthDate\": \"1899-01-11\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Fredsberg, Skaraborg County\"\n   },\n   \"nationality\": \"Swedish\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Sten D.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Selma Thimgren\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabeth Björck\",\n      \"marriageDate\": \"1925\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Sten\",\n         \"birthDate\": \"1926\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Agneta\",\n         \"birthDate\": \"1935\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Skövde\",\n         \"startDate\": \"1918\",\n         \"endDate\": \"1918\",\n         \"additionalType\": \"stud-ex\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Officer Training School\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1921\",\n         \"additionalType\": \"off-ex\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Krigshögskolan\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1932\",\n         \"additionalType\": \"ss\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Staff College\",\n         \"startDate\": \"1928\",\n         \"endDate\": \"1928\",\n         \"additionalType\": \"staff-college\"\n      },\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Military School\",\n         \"startDate\":\"1936\",\n         \"endDate\":\"1940\"\n      }\n   ],\n   \"affiliation\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Älvsborg Regiment\",\n         \"startDate\": \"1942\",\n         \"roleName\": \"Major\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Skaraborg Regiment\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1938\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"name\": \"Krigsskolan, komp:chef\",\n         \"startDate\": \"1940\",\n         \"endDate\": \"1941\",\n         \"roleName\":\"company Commander\",\n         \"affiliation\": [\n            {\n               \"@type\": \"Organization\",\n               \"name\": \"Krigsskolan\"\n            }\n         ]\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Frimurarorden\"\n      }\n   ],\n   \"award\": [\n      {\n         \"@type\": \"Order\",\n         \"name\": \"Royal Order of the Sword\",\n         \"additionalType\": \"RSO\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"County Council Medal in Stockholm\",\n         \"additionalType\": \"Land-stSM\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Army Shooting Medal, 2nd Class\",\n         \"additionalType\": \"2 SkytteM\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Stensson Djurberg",
+        "birthDate": "1899-01-11",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Fredsberg, Skaraborg County"
+        },
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sten D."
+            },
+            {
+                "@type": "Person",
+                "name": "Selma Thimgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabeth Björck",
+            "marriageDate": "1925"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sten",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1935"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skövde",
+                "startDate": "1918",
+                "endDate": "1918",
+                "additionalType": "stud-ex"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Officer Training School",
+                "startDate": "1921",
+                "endDate": "1921",
+                "additionalType": "off-ex"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Krigshögskolan",
+                "startDate": "1930",
+                "endDate": "1932",
+                "additionalType": "ss"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Staff College",
+                "startDate": "1928",
+                "endDate": "1928",
+                "additionalType": "staff-college"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Military School",
+                "startDate": "1936",
+                "endDate": "1940"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Älvsborg Regiment",
+                "startDate": "1942",
+                "roleName": "Major"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skaraborg Regiment",
+                "startDate": "1921",
+                "endDate": "1938"
+            },
+            {
+                "@type": "OrganizationRole",
+                "name": "Krigsskolan, komp:chef",
+                "startDate": "1940",
+                "endDate": "1941",
+                "roleName": "company Commander",
+                "affiliation": [
+                    {
+                        "@type": "Organization",
+                        "name": "Krigsskolan"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            }
+        ],
+        "award": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the Sword",
+                "additionalType": "RSO"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Council Medal in Stockholm",
+                "additionalType": "Land-stSM"
+            },
+            {
+                "@type": "Organization",
+                "name": "Army Shooting Medal, 2nd Class",
+                "additionalType": "2 SkytteM"
+            }
+        ]
+    }
+}

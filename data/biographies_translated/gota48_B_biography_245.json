@@ -1,0 +1,88 @@
+{
+    "original": "Bernroth, Folke Herbert, fil. mag., Borås, f. 9/12/12 i Sjötofta, Älvsb. 1., av förste banmäst. Robert B. o. Maria Johansson. G. 42 m. Ingrid Hern-qvist. Barn: Elisabet f. 43, Eva 46. — Stud:ex. i Halmstad 33, fil. mag. i Lund 40. E. adj. v. samrealsk. i Vetlanda 41-45, dito v. kommun, mel-lansk. i Mölndal 45-46, e. adj. v. tekn. gymn. i Borås sed. 46.",
+    "translated": "Bernroth, Folke Herbert, MA, Borås, b. 12/9/1912 in Sjötofta, Älvsborgs län, son of first railway foreman Robert B. and Maria Johansson. Married in 1942 to Ingrid Hernqvist. Children: Elisabet b. 1943, Eva b. 1946. Completed secondary school in Halmstad in 1933, received an MA from Lund University in 1940. Worked as an assistant teacher at the lower secondary school in Vetlanda from 1941 to 1945, as well as at the municipal middle school in Mölndal from 1945 to 1946. Since 1946, he has been an assistant teacher at the technical high school in Borås.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Folke Herbert Bernroth\",\n  \"birthDate\": \"1912-09-12\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Sjötofta, Älvsborgs län, Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Robert B. Bernroth\",\n      \"jobTitle\": \"First Railway Foreman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Hernqvist\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabet Bernroth\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Bernroth\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halmstad\"\n      },\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Fil. Mag.\",\n      \"educationalLevel\": \"MastersDegree\",\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund University\"\n      },\n      \"startDate\": \"1940\"\n    }\n  ],\n  \"jobTitle\": \"Assistant Teacher\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Vetlanda\",\n      \"jobTitle\": \"Assistant Teacher\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Mölndal\",\n      \"jobTitle\": \"Assistant Teacher\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Borås\",\n      \"jobTitle\": \"Assistant Teacher\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Herbert Bernroth",
+        "birthDate": "1912-09-12",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Sjötofta, Älvsborgs län, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Robert B. Bernroth",
+                "jobTitle": "First Railway Foreman"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Hernqvist",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Elisabet Bernroth",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Bernroth",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "SecondarySchool",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "Halmstad"
+                },
+                "startDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil. Mag.",
+                "educationalLevel": "MastersDegree",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "Lund University"
+                },
+                "startDate": "1940"
+            }
+        ],
+        "jobTitle": "Assistant Teacher",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Vetlanda",
+                "jobTitle": "Assistant Teacher",
+                "startDate": "1941",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Place",
+                "name": "Mölndal",
+                "jobTitle": "Assistant Teacher",
+                "startDate": "1945",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Place",
+                "name": "Borås",
+                "jobTitle": "Assistant Teacher",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

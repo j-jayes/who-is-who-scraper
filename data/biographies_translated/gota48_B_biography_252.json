@@ -1,0 +1,61 @@
+{
+    "original": "Berntsson, Nils Bertil, tandläkare, Linköping, f. 25/9/15 i Gbg av kam-marskriv. Nils B. o. Maria Lundskog. G. 39 m. Karin Sahlgaard. Barn: Birgitta o. Björn ff. 42. — Stud:ex. v. Gbgs h. latin 34, tandl :kand. 35, tandläkare 38. Praktik i Linköping. Sekr. i Linköp. tandl :fören. sed. 45.",
+    "translated": "Berntsson, Nils Bertil, dentist, Linköping, b. September 25, 1915 in Gothenburg to a commissioning clerk, Nils B. and Maria Lundskog. Married in 1939 to Karin Sahlgaard. Children: Birgitta and Björn born in 1942. Nils graduated from Gothenburg High Latin School in 1934, graduated with a dentistry degree in 1935, and became a licensed dentist in 1938. He worked as a dental practitioner in Linköping and also served as a secretary of the Linköping Dental Association starting from 1945.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Nils Bertil Berntsson\",\n   \"jobTitle\": \"Dentist\",\n   \"birthDate\": \"1915-09-25\",\n   \"birthPlace\": \"Gothenburg\",\n   \"father\": {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Berntsson\",\n      \"jobTitle\": \"Commissioning Clerk\"\n   },\n   \"mother\": {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Lundskog\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Sahlgaard\",\n      \"marriageDate\": \"1939\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Birgitta Berntsson\",\n         \"birthDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Björn Berntsson\",\n         \"birthDate\": \"1942\"\n      }\n   ],\n   \"alumniOf\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Gothenburg High Latin School\",\n         \"startDate\": \"1934\"\n      }\n   ],\n   \"hasOccupation\": {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1938\"\n   },\n   \"workLocation\": {\n      \"@type\": \"Place\",\n      \"name\": \"Linköping\"\n   },\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Dental Association\",\n      \"startDate\": \"1945\",\n      \"jobTitle\": \"Secretary\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Bertil Berntsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1915-09-25",
+        "birthPlace": "Gothenburg",
+        "father": {
+            "@type": "Person",
+            "name": "Nils Berntsson",
+            "jobTitle": "Commissioning Clerk"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Maria Lundskog"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Sahlgaard",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta Berntsson",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn Berntsson",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High Latin School",
+                "startDate": "1934"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1938"
+        },
+        "workLocation": {
+            "@type": "Place",
+            "name": "Linköping"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Linköping Dental Association",
+            "startDate": "1945",
+            "jobTitle": "Secretary"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "original": "Bolling, Eric, kapten, Göteborg, f. 26/9/95 i Ljugarn, Gotl. 1., av tullförv. Fredric B. o. Anna Broander. G. 28 m. Carin Matilda Margareta Betz. Barn: Marianne f. 33. — Stud:ex. i Gävle 13, minkurs! 18. Fänr. i floittan 16, löjtn. 18, kapt. i filottans res. 39, kontr:off. i Gbgs-trafiken 41-44. Reklamchef h. Sv. Amerika Linien i Gbg. SvRK förtj :t, NyaSvM, Sikytte-m. i guld.",
+    "translated": "Bolling, Eric, Captain, Gothenburg, born on September 26th, 1895 in Ljugarn, Gotland. Son of customs officer Fredric B. and Anna Broander. Married on 1928 to Carin Matilda Margareta Betz. They had a daughter named Marianne, born in 1933. Eric passed his final exams in Gävle in 1913. He became a second lieutenant in the Navy in 1916 and a first lieutenant in 1918. He became a captain in the Navy Reserve in 1939 and a contracted officer in the Gothenburg traffic service from 1941 to 1944. He worked as an advertising manager at the Swedish American Line in Gothenburg. Eric was awarded the Swedish Order of the Sword, the New Swedish Times medal, and the Shooting Gold Medal.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Eric Bolling\",\n  \"birthDate\": \"1895-09-26\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Ljugarn\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gotland\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fredric Bolling\",\n      \"jobTitle\": \"Customs Officer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Broander\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carin Matilda Margareta Betz\",\n      \"marriageDate\": \"1928\"\n    }\n  ],\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Marianne Bolling\",\n    \"birthDate\": \"1933\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"educationLevel\": \"secondary school\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gävle\"\n      },\n      \"endDate\": \"1913\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Captain\",\n    \"Advertising Manager\"\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish American Line\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Navy Reserve\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"null\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg traffic service\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1944\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Swedish Order of the Sword\",\n      \"category\": \"military\",\n      \"awardDate\": \"null\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"New Swedish Times medal\",\n      \"category\": \"journalism\",\n      \"awardDate\": \"null\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"Shooting Gold Medal\",\n      \"category\": \"sports\",\n      \"awardDate\": \"null\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Eric Bolling",
+        "birthDate": "1895-09-26",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Ljugarn",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gotland"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Fredric Bolling",
+                "jobTitle": "Customs Officer"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Broander"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Carin Matilda Margareta Betz",
+                "marriageDate": "1928"
+            }
+        ],
+        "children": {
+            "@type": "Person",
+            "name": "Marianne Bolling",
+            "birthDate": "1933"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "educationLevel": "secondary school",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Gävle"
+                },
+                "endDate": "1913"
+            }
+        ],
+        "jobTitle": [
+            "Captain",
+            "Advertising Manager"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish American Line"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Navy Reserve",
+                "startDate": "1939",
+                "endDate": "null"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg traffic service",
+                "startDate": "1941",
+                "endDate": "1944"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Swedish Order of the Sword",
+                "category": "military",
+                "awardDate": "null"
+            },
+            {
+                "@type": "Medal",
+                "name": "New Swedish Times medal",
+                "category": "journalism",
+                "awardDate": "null"
+            },
+            {
+                "@type": "Medal",
+                "name": "Shooting Gold Medal",
+                "category": "sports",
+                "awardDate": "null"
+            }
+        ]
+    }
+}

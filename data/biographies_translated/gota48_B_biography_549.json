@@ -1,0 +1,86 @@
+{
+    "original": "Bring, Bo Göte, kommendörkapten, Göteborg, f. 29/4/02 i Häfeingborg av dir. Sigfrid B. o. Anna Lindström. G. 35 m. Ingrid Hjertstrand. Barn: Bodil f. 38, Marika 43, Ulrika 45. — Stud. v. lärov., Schartaus hand:inst. o. marinintend :sk. Marinintend :eilev 20-21, asp. 21-23, marinund :intend. 23, marinintend. av 2. gr. 26, kapt. v. marinintend :kåren 36, kommendör-kapt. av 2. gr. i marinintend :kåren 43. RVO.",
+    "translated": "Bring, Bo Göte, Commander Captain, Gothenburg, b. 29/4/02 in Häfeingborg to Director Sigfrid B. and Anna Lindström. Married in 1935 to Ingrid Hjertstrand. Children: Bodil b. 1938, Marika b. 1943, Ulrika b. 1945. - Studied at a secondary school, Schartaus Business Institute, and Naval Academy. Naval Academy graduate in 1920-21, a naval cadet from 1921-23, naval lieutenant in 1923, naval lieutenant of the 2nd degree in 1926, captain of the naval corps in 1936, Commander Captain of the 2nd degree in the naval corps in 1943. Received the Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Bo Göte Bring\",\n  \"birthPlace\": \"Häfeingborg\",\n  \"birthDate\": \"1902-04-29\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Hjertstrand\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bodil Bring\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marika Bring\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulrika Bring\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigfrid B. Bring\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Lindström\"\n    }\n  ],\n  \"jobTitle\": \"Commander Captain\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Schartaus Business Institute\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Naval Academy\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Marinintend\"\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Order of Vasa\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Schartaus Business Institute\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Naval Academy\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Naval Academy\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Naval corps\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Naval lieutenant\",\n      \"startDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Captain of the naval corps\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Commander Captain of the 2nd degree in the naval corps\",\n      \"startDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Bo Göte Bring",
+        "birthPlace": "Häfeingborg",
+        "birthDate": "1902-04-29",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Hjertstrand",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bodil Bring",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Marika Bring",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulrika Bring",
+                "birthDate": "1945"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Sigfrid B. Bring",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Lindström"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "Role",
+                "name": "Naval lieutenant",
+                "startDate": "1923"
+            },
+            {
+                "@type": "Role",
+                "name": "Captain of the naval corps",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Role",
+                "name": "Commander Captain of the 2nd degree in the naval corps",
+                "startDate": "1943"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Naval Academy"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "Naval corps"
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "Order of Vasa"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Schartaus Business Institute"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Naval Academy"
+            }
+        ]
+    }
+}

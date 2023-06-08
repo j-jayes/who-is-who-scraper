@@ -1,0 +1,86 @@
+{
+    "original": "Björklund, Nils Axel, praktiserande läkare, Motala, f. 28/9/03 i Smedjebacken, Kopparb. 1., av prov:läk. Karl Axel B. o. Ellen Kroll. G. 37 m. Iris Engqvist. Barn: Gunilla f. 40, Lennart 42. — Stud:ex. 22, med. kand. 29 o. med. lic. 36, allt i Upps. E. o. aman. v. Sthlms vanföreanst. 37, assist :läk. v. Akad. sjukh. kir. avd. 37-38, e. läk. samt tf. andre und:läk. v. Vadstena las. 38, ord. dito 39, förste und:läk. där 41-44, priv:prakt. o. läk. v. A-B Motala Verkst. sed. 45.",
+    "translated": "Björklund, Nils Axel, practicing physician, Motala, born September 28th, 1903 in Smedjebacken, Kopparberg County, the first child of the examining physician Karl Axel B. and Ellen Kroll. Married in 1937 to Iris Engqvist, they have two children: Gunilla born in 1940, and Lennart born in 1942. Nils Axel earned his high school diploma in 1922, his Bachelor of Medicine in 1929, and his medical license in 1936, all from Uppsala University. He served as an assistant physician at the Stockholm Institution for Deformed Children in 1937, an assisting physician at the surgical department of the Academic Hospital in 1937-38, a resident doctor, and acting second assistant physician at Vadstena Hospital in 1938, and a permanent first assistant physician there from 1941 to 1944. He has been in private practice, practicing medicine at AB Motala Verkstäder since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Axel Björklund\",\n  \"jobTitle\": \"Practicing physician\",\n  \"birthDate\": \"1903-09-28\",\n  \"birthPlace\": \"Smedjebacken, Kopparberg County\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Axel B.\",\n      \"jobTitle\": \"Examining physician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Kroll\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Iris Engqvist\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Uppsala University\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\"\n    },\n    \"startDate\": \"1922\",\n    \"endDate\": \"1936\",\n    \"degree\": {\n      \"@type\": \"EducationalDegree\",\n      \"name\": \"Bachelor of Medicine\"\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm Institution for Deformed Children\",\n      \"memberStartDate\": \"1937\",\n      \"memberEndDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Academic Hospital\",\n      \"memberStartDate\": \"1937\",\n      \"memberEndDate\": \"1938\",\n      \"roleName\": \"Assisting physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vadstena Hospital\",\n      \"memberStartDate\": \"1938\",\n      \"memberEndDate\": \"1944\",\n      \"roleName\": \"Permanent first assistant physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Motala Verkstäder\",\n      \"memberStartDate\": \"1945\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Motala\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Axel Björklund",
+        "jobTitle": "Practicing physician",
+        "birthDate": "1903-09-28",
+        "birthPlace": "Smedjebacken, Kopparberg County",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Karl Axel B.",
+                "jobTitle": "Examining physician"
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Kroll"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Iris Engqvist",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Uppsala University",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University"
+            },
+            "startDate": "1922",
+            "endDate": "1936",
+            "degree": {
+                "@type": "EducationalDegree",
+                "name": "Bachelor of Medicine"
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Stockholm Institution for Deformed Children",
+                "memberStartDate": "1937",
+                "memberEndDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Academic Hospital",
+                "memberStartDate": "1937",
+                "memberEndDate": "1938",
+                "roleName": "Assisting physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vadstena Hospital",
+                "memberStartDate": "1938",
+                "memberEndDate": "1944",
+                "roleName": "Permanent first assistant physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Motala Verkstäder",
+                "memberStartDate": "1945"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Motala"
+        }
+    }
+}

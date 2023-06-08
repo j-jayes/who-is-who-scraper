@@ -1,0 +1,67 @@
+{
+    "original": "Behm, Kurt Vilhelm, leg. läkare, Falköping, f. 1/8/00 i Sthlm av ögon-läk. Albrecht B. o, Emy Ekengren. G. 42 m. Märta Nordström. — Stud:-ex. i Gbg 21, med. kand. i Upps. 25, med. hc. v. Karol. inst. i Sthlm 38. Assist :läk. v. Garn:sjukh. i Boden 38-46, tf. prov:läk. i Falköping fr. 47.",
+    "translated": "Behm, Kurt Vilhelm, licensed doctor, Falköping, born on August 1, 1900 in Stockholm to ophthalmologist Albrecht B. Behm and Emy Ekengren. Married in 1942 to Märta Nordström. He graduated from high school in Gothenburg in 1921, received a Bachelor's degree in medicine from Uppsala in 1925 and a Master's degree from Karolinska Institute in Stockholm in 1938. He worked as an assistant physician at the Garrison Hospital in Boden from 1938 to 1946 and as a temporary medical examiner in Falköping from 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Kurt Vilhelm Behm\",\n  \"jobTitle\": \"Licensed Doctor\",\n  \"birthDate\": \"1900-08-01\",\n  \"birthPlace\": \"Stockholm\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albrecht B. Behm\",\n      \"jobTitle\": \"Ophthalmologist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emy Ekengren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta Nordström\",\n    \"marriageDate\": \"1942\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"studex\",\n      \"educationalLevel\": \"High School\",\n      \"issuer\": \"Gothenburg\",\n      \"awardDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medkand\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"issuer\": \"Uppsala\",\n      \"awardDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medhc\",\n      \"educationalLevel\": \"Master's degree\",\n      \"issuer\": \"Karolinska Institute in Stockholm\",\n      \"awardDate\": \"1938\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Garrison Hospital in Boden\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Falköping\",\n      \"jobTitle\": \"Temporary Medical Examiner\",\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kurt Vilhelm Behm",
+        "jobTitle": "Licensed Doctor",
+        "birthDate": "1900-08-01",
+        "birthPlace": "Stockholm",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Albrecht B. Behm",
+                "jobTitle": "Ophthalmologist"
+            },
+            {
+                "@type": "Person",
+                "name": "Emy Ekengren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Nordström",
+            "marriageDate": "1942"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "studex",
+                "educationalLevel": "High School",
+                "issuer": "Gothenburg",
+                "awardDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medkand",
+                "educationalLevel": "Bachelor's degree",
+                "issuer": "Uppsala",
+                "awardDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medhc",
+                "educationalLevel": "Master's degree",
+                "issuer": "Karolinska Institute in Stockholm",
+                "awardDate": "1938"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Garrison Hospital in Boden",
+                "jobTitle": "Assistant Physician",
+                "startDate": "1938",
+                "endDate": "1946"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Falköping",
+                "jobTitle": "Temporary Medical Examiner",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

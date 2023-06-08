@@ -1,0 +1,77 @@
+{
+    "original": "Cederberg, Ernst Gunnar, tandläkare, Skara, f. 4/10/01 i Ystad av urmak. Anders C. o. Karin Pehrsson. G. 29 m. farm. kand. Greta Bergqvist. Barn: Ake f. 30, Lars 33. — Stud:ex. i Ys’tad 20, farm. kand. 24, tandl :kand. 25, tandl. 28. Aman. o. assist, v. tandl linst. tandfylln :avd. 27-28, prakt, i Skara sed. 28.",
+    "translated": "Cederberg, Ernst Gunnar, dentist, Skara, b. 4/10/01 in Ystad to clockmaker Anders C. and Karin Pehrsson. Married in 1929 to agronomy student Greta Bergqvist. Children: Ake born in 1930, Lars in 1933. He graduated high school in Ystad in 1920, became a graduate of agronomy in 1924, and a graduate of dentistry in 1925, then practiced as an apprentice and assistant in the dental filling department from 1927-1928. He began his own practice in Skara in 1928.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Gunnar Cederberg\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Ystad\",\n  \"birthDate\": \"1901-10-04\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders C.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Pehrsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Bergqvist\",\n    \"jobTitle\": \"Agronomy student\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ake\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Ys’tad\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Farm. kand.\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandl :kand.\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tandl linst. tandfylln :avd.\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Skara\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Own practice\",\n    \"startDate\": \"1928\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Gunnar Cederberg",
+        "jobTitle": "Dentist",
+        "birthPlace": "Ystad",
+        "birthDate": "1901-10-04",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anders C."
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Pehrsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Bergqvist",
+            "jobTitle": "Agronomy student"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ake",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Ys’tad",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Farm. kand.",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl :kand.",
+                "endDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Tandl linst. tandfylln :avd.",
+                "startDate": "1927",
+                "endDate": "1928"
+            }
+        ],
+        "workLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Skara"
+            }
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Own practice",
+            "startDate": "1928"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "original": "Erlandsson, Nils Erland, läroverksadjunkt, K^limiar, f. 20/10/99 i Öja, Mallmöh. 1,, av Per. E, O:. foilkisik :illär. Augusta Sunesson. G. 32 m. farm. kand. Anna Ekström. Barn: Bo f. 37. — Stud:ex. i Ystad 18, ^fil. kand. i Lund 24, fil. mag. 30, provår v. Sthlms folksk:sem. 34. Värnpl. löjtn. Lär. i Ystad 30, Katrineholm 31, åter i Ystad 31, e. o. där 32-40, adj. i geogr. o. biol. m. hälsolära v. Kalmar h. a. 1. sed. 40.",
+    "translated": "Erlandsson, Nils Erland, high school teacher, born on October 20th, 1899 in Öja, Malmo, son of Per E. O. Erlandsson and Augusta Sunesson. Married in 1932 to Anna Ekström, a graduate in pharmacy. They had one child, Bo, born in 1937. Erlandsson received his high school diploma in Ystad in 1918, completed his Bachelor of Arts degree in Lund in 1924, and earned his Master of Arts degree in 1930. He completed a teaching internship at Stockholm's public school in 1934. He served as a second lieutenant for military service. Erlandsson taught in Ystad in 1930 and in Katrineholm in 1931. He returned to Ystad in 1931, served as a substitute there from 1932-1940 and was an adjunct professor of geography, biology, and hygiene at Kalmar University from 1940 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Erland Erlandsson\",\n  \"birthDate\": \"1899-10-20\",\n  \"birthPlace\": \"Öja, Malmo\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per E. O. Erlandsson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Sunesson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Ekström\",\n    \"gender\": \"female\",\n    \"jobTitle\": \"Graduate in Pharmacy\",\n    \"education\": \"Degree in Pharmacy\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bo\",\n    \"birthDate\": \"1937\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"educationLevel\": \"Graduate\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts degree\",\n      \"educationLevel\": \"Degree\",\n      \"awardDate\": \"1924\",\n      \"educationalCredentialAwarded\": \"Bachelor of Arts\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts degree\",\n      \"educationLevel\": \"Degree\",\n      \"awardDate\": \"1930\",\n      \"educationalCredentialAwarded\": \"Master of Arts\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"MilitaryService\",\n      \"jobTitle\": \"Second lieutenant\",\n      \"startDate\": \"TBD\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"jobTitle\": \"High School Teacher\",\n      \"name\": \"Ystad High School\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"jobTitle\": \"High School Teacher\",\n      \"name\": \"Katrineholm High School\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"TBD\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"name\": \"Ystad High School\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"jobTitle\": \"Adjunct Professor\",\n      \"name\": \"Kalmar University\",\n      \"field\": \"Geography, Biology, and Hygiene\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"TBD\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Erland Erlandsson",
+        "birthDate": "1899-10-20",
+        "birthPlace": "Öja, Malmo",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Per E. O. Erlandsson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Sunesson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Ekström",
+            "gender": "female",
+            "jobTitle": "Graduate in Pharmacy",
+            "education": "Degree in Pharmacy"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bo",
+            "birthDate": "1937"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "educationLevel": "Graduate"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts degree",
+                "educationLevel": "Degree",
+                "awardDate": "1924",
+                "educationalCredentialAwarded": "Bachelor of Arts"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts degree",
+                "educationLevel": "Degree",
+                "awardDate": "1930",
+                "educationalCredentialAwarded": "Master of Arts"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "MilitaryService",
+                "jobTitle": "Second lieutenant",
+                "startDate": "TBD"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "jobTitle": "High School Teacher",
+                "name": "Ystad High School",
+                "startDate": "1930",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "jobTitle": "High School Teacher",
+                "name": "Katrineholm High School",
+                "startDate": "1931",
+                "endDate": "TBD"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "jobTitle": "Substitute Teacher",
+                "name": "Ystad High School",
+                "startDate": "1932",
+                "endDate": "1940"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "jobTitle": "Adjunct Professor",
+                "name": "Kalmar University",
+                "field": "Geography, Biology, and Hygiene",
+                "startDate": "1940",
+                "endDate": "TBD"
+            }
+        ]
+    }
+}

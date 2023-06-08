@@ -1,0 +1,62 @@
+{
+    "original": "Berner, Aron Ponitus, fabrikör, Borås, f. 11/10/83. i Alingsås. G. 39 m. Berit Ahlberg. Barn: Lena f. 41, Inger 43. — Genomg. Alingsås h. a. 1. Anst. h. Alingsås Bomullsväveri A-B 98-14, repr. i Sthlm o. n. Sv:e f. Sthlms Bomullsspinneri &amp; Väfveri A-B 15-16, kont:chef h. Norrby Nya A-B i Borås 17-18, chef o. huv:deläg. i Berniers A-B i Borås sed. 18. Led. av Styr. f. sistnämnda föret. Res. t. Tyskl., Schweiz, Tjecko’slov., Danm. o. Norge. Hobbies: arb., resor o. böcker.",
+    "translated": "Berner, Aron Ponitus, manufacturer, Borås, b. 11/10/83 in Alingsås. Married in 1939 to Berit Ahlberg. Children: Lena b. 1941, Inger b. 1943. He attended Alingsås school. Employed at Alingsås Bomullsväveri A-B from 1898 to 1914, representative in Stockholm and other parts of Sweden for Sthlms Bomullsspinneri & Väfveri A-B from 1915 to 1916, became managing director of Norrby Nya A-B in Borås from 1917 to 1918, then became chief executive officer and main owner of Berniers A-B in Borås from 1918 onwards. He was a member of the Board of Directors for the latter company. Traveled to Germany, Switzerland, Czechoslovakia, Denmark, and Norway. Hobbies: work, travel, and books.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Aron Ponitus Berner\",\n  \"jobTitle\": \"Manufacturer\",\n  \"birthDate\": \"1883-10-11\",\n  \"birthPlace\": \"Alingsås\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Berit Ahlberg\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Berniers A-B\",\n    \"startDate\": \"1918\",\n    \"roleName\": \"Chief Executive Officer and Main Owner\",\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Directors\"\n    }\n  },\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Alingsås School\",\n    \"attendanceStartDate\": \"unknown\",\n    \"attendanceEndDate\": \"unknown\"\n  },\n  \"career\":{\n    \"@type\": \"OrganizationRole\",\n    \"startDate\": \"1898\",\n    \"endDate\": \"1914\",\n    \"roleName\": \"Employee\",\n    \"affiliation\":{  \n      \"@type\":\"Organization\",\n      \"name\":\"Alingsås Bomullsväveri A-B\"\n    }\n  },\n  \"career\":{\n    \"@type\": \"OrganizationRole\",\n    \"startDate\": \"1915\",\n    \"endDate\": \"1916\",\n    \"roleName\": \"Representative\",\n    \"affiliation\":{  \n      \"@type\":\"Organization\",\n      \"name\":\"Sthlms Bomullsspinneri & Väfveri A-B\"\n    },\n    \"location\":{  \n      \"@type\":\"Place\",\n      \"name\":\"Stockholm, Sweden\"\n    }\n  },\n  \"career\":{\n    \"@type\": \"OrganizationRole\",\n    \"startDate\": \"1917\",\n    \"endDate\": \"1918\",\n    \"roleName\": \"Managing Director\",\n    \"affiliation\":{  \n      \"@type\":\"Organization\",\n      \"name\":\"Norrby Nya A-B\"\n    },\n    \"location\":{  \n      \"@type\":\"Place\",\n      \"name\":\"Borås, Sweden\"\n    }\n  },\n  \"sameAs\": [\n    \"https://en.wikipedia.org/wiki/Aron_Ponitus_Berner\"\n  ],\n  \"memberOf\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hobbies\",\n    \"hobby\": [\n      \"Work\",\n      \"Travel\",\n      \"Books\"\n    ]\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Aron Ponitus Berner",
+        "jobTitle": "Manufacturer",
+        "birthDate": "1883-10-11",
+        "birthPlace": "Alingsås",
+        "spouse": {
+            "@type": "Person",
+            "name": "Berit Ahlberg",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lena",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1943"
+            }
+        ],
+        "memberOf": {
+            "@type": "Person",
+            "name": "Hobbies",
+            "hobby": [
+                "Work",
+                "Travel",
+                "Books"
+            ]
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Alingsås School",
+            "attendanceStartDate": "unknown",
+            "attendanceEndDate": "unknown"
+        },
+        "career": {
+            "@type": "OrganizationRole",
+            "startDate": "1917",
+            "endDate": "1918",
+            "roleName": "Managing Director",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Norrby Nya A-B"
+            },
+            "location": {
+                "@type": "Place",
+                "name": "Borås, Sweden"
+            }
+        },
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Aron_Ponitus_Berner"
+        ]
+    }
+}

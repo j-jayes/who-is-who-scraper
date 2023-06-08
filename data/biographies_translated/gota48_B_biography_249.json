@@ -1,0 +1,86 @@
+{
+    "original": "Bernstone, Sture, advokat, Vänersborg, f. 6/1/04 i Landskrona av dir. Zander B. o. Maria Knutsson. G. 35 m. Elsa Frändén. Barn: Christina f. 36, Olof 39. — Stud:ex. i Landskr. 24, jur. kand. i Lund 31. Tingstjg. i Nordals, Sundals o. Valbo doms. 31-34, e. länsbokh. i Älvsb. län 34-36, egen adv :verks’amh. i Vänersb. sed. 36. Led. av Sv:es adv:samf. ’Sed. 38. Ordf. i Trollhättans hyresnd sed. 42.",
+    "translated": "Bernstone, Sture, lawyer, Vänersborg, born January 6th, 1904 in Landskrona to director Zander B. and Maria Knutsson. Married in 1935 to Elsa Frändén with two children: Christina, born in 1936, and Olof, born in 1939. He completed his secondary education in Landskrona in 1924 and received his Bachelor of Law degree from Lund University in 1931. He served as a court clerk in Nordals, Sundals, and Valbo from 1931-1934, as a county auditor in Älvsborg County from 1934-1936, and has since practiced as a self-employed lawyer in Vänersborg since 1936. He is a member of the Swedish Bar Association since 1938 and has served as chairman of the Trollhättan housing committee since 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sture Bernstone\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1904-01-06\",\n  \"birthPlace\": \"Landskrona, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Zander B. Bernstone\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Knutsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Frändén\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Bernstone\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Bernstone\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary education\",\n      \"educationalLevel\": \"Secondary school\",\n      \"awardingOrganization\": \"Landskrona\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"awardingOrganization\": \"Lund University\",\n      \"endDate\": \"1931\",\n      \"major\": \"Law\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"CourtClerk\",\n      \"name\": \"Nordals\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"CountyAuditor\",\n      \"name\": \"Älvsborg County\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"SelfEmployed\",\n      \"name\": \"Vänersborg\",\n      \"startDate\": \"1936\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"startDate\": \"1938\"\n  },\n  \"chairmanOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Trollhättan housing committee\",\n    \"startDate\": \"1942\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sture Bernstone",
+        "jobTitle": [
+            {
+                "@type": "CourtClerk",
+                "name": "Nordals",
+                "startDate": "1931",
+                "endDate": "1934"
+            },
+            {
+                "@type": "CountyAuditor",
+                "name": "Älvsborg County",
+                "startDate": "1934",
+                "endDate": "1936"
+            },
+            {
+                "@type": "SelfEmployed",
+                "name": "Vänersborg",
+                "startDate": "1936"
+            }
+        ],
+        "birthDate": "1904-01-06",
+        "birthPlace": "Landskrona, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Zander B. Bernstone",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Knutsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Frändén",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christina Bernstone",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof Bernstone",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary education",
+                "educationalLevel": "Secondary school",
+                "awardingOrganization": "Landskrona",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Bachelor's degree",
+                "awardingOrganization": "Lund University",
+                "endDate": "1931",
+                "major": "Law"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "startDate": "1938"
+        },
+        "chairmanOf": {
+            "@type": "Organization",
+            "name": "Trollhättan housing committee",
+            "startDate": "1942"
+        }
+    }
+}

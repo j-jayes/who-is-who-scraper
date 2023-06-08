@@ -1,0 +1,92 @@
+{
+    "original": "Ekman, Tage, tandläkare, Halmstad, f. 17/12/94 i Halmstad av Hjalmar E. o. Charlotte Wulff. G. m. Rosa Brei-mer. Barn: Nina f. 35. — Stud:ex. i Halmstad 15, tandl :kand. 17, tandl. 19. Prakt, i Piteå 19-31, i Halmstad sed. 31. Hobbies: jakt o. fiske.",
+    "translated": "Ekman, Tage, dentist, Halmstad, b. December 17, 1894 in Halmstad to Hjalmar E. and Charlotte Wulff. Married to Rosa Brei-mer in an unknown year. Children: Nina b. 1935. Studied at Halmstad high school in 1915, dental school in 1917, and graduated as a dentist in 1919. Practiced in Piteå from 1919 to 1931, then returned to Halmstad. Hobbies include hunting and fishing.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Tage Ekman\",\n   \"jobTitle\": \"Dentist\",\n   \"birthPlace\": \"Halmstad\",\n   \"birthDate\": \"1894-12-17\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Hjalmar E. Ekman\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Charlotte Wulff\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Rosa Brei-mer\"\n   },\n   \"children\": {\n      \"@type\": \"Person\",\n      \"name\": \"Nina\",\n      \"birthDate\": \"1935\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": {\n            \"@type\": \"DefinedTerm\",\n            \"name\": \"Stud:ex.\"\n         },\n         \"educationalLevel\": {\n            \"@type\": \"DefinedTerm\",\n            \"name\": \"high school\"\n         },\n         \"educationalCredentialAwarded\": \"Halmstad\",\n         \"educationalSpecialization\": \"Unknown\",\n         \"startDate\": \"1915\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": {\n            \"@type\": \"DefinedTerm\",\n            \"name\": \"tandl:kand.\"\n         },\n         \"educationalLevel\": \"Dental School\",\n         \"educationalCredentialAwarded\": \"Unknown\",\n         \"educationalSpecialization\": \"Unknown\",\n         \"startDate\": \"1917\",\n         \"endDate\": \"1919\"\n      },\n      {\n         \"@type\": \"OccupationalCredential\",\n         \"credentialCategory\": {\n            \"@type\": \"DefinedTerm\",\n            \"name\": \"tandl.\"\n         },\n         \"educationalLevel\": \"Dentistry\",\n         \"educationalCredentialAwarded\": \"Unknown\",\n         \"educationalSpecialization\": \"Unknown\",\n         \"startDate\": \"1919\"\n      }\n   ],\n   \"affiliation\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Piteå\",\n         \"startDate\": \"1919\",\n         \"endDate\": \"1931\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Halmstad\",\n         \"startDate\": \"1931\"\n      }\n   ],\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Unknown\"\n   },\n   \"hobbies\": [\n        \"hunting\",\n        \"fishing\"\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Tage Ekman",
+        "jobTitle": "Dentist",
+        "birthPlace": "Halmstad",
+        "birthDate": "1894-12-17",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hjalmar E. Ekman"
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotte Wulff"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Rosa Brei-mer"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Nina",
+            "birthDate": "1935"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": {
+                    "@type": "DefinedTerm",
+                    "name": "Stud:ex."
+                },
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "high school"
+                },
+                "educationalCredentialAwarded": "Halmstad",
+                "educationalSpecialization": "Unknown",
+                "startDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": {
+                    "@type": "DefinedTerm",
+                    "name": "tandl:kand."
+                },
+                "educationalLevel": "Dental School",
+                "educationalCredentialAwarded": "Unknown",
+                "educationalSpecialization": "Unknown",
+                "startDate": "1917",
+                "endDate": "1919"
+            },
+            {
+                "@type": "OccupationalCredential",
+                "credentialCategory": {
+                    "@type": "DefinedTerm",
+                    "name": "tandl."
+                },
+                "educationalLevel": "Dentistry",
+                "educationalCredentialAwarded": "Unknown",
+                "educationalSpecialization": "Unknown",
+                "startDate": "1919"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Piteå",
+                "startDate": "1919",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halmstad",
+                "startDate": "1931"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Unknown"
+        },
+        "hobbies": [
+            "hunting",
+            "fishing"
+        ]
+    }
+}

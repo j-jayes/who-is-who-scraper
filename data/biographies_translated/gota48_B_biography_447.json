@@ -1,0 +1,124 @@
+{
+    "original": "Bohman, Åke, advokat, Kalmar, f.-11/7/06 i Gamleby, Kalmar 1., av disp. John B. o. Gerda Svensson. G. 36 m. Gerd Wikström. Barm Gunilla f. 37, Jan-Ake 40, Sverker 44. — Studiex. i Norrköp. 25, jur. kand. i Lund 31. Tingstjg. i Medelsta doms. 311-34, tf. borgmäst. i Ronneby 34, bitr. jur. å Ragnar Allmérs Advibyrå i Kalmar 35-38, deläg, i Advifirman Allmér o. Bobman sed. 38. Led. av Svies advi-samf. 38.",
+    "translated": "Bohman, Åke, lawyer, Kalmar, b. 11/7/06 in Gamleby, Kalmar 1st district, son of clerk John B. and Gerda Svensson. Married 1936 to Gerd Wikström. Children: Gunilla b. 1937, Jan-Ake b. 1940, Sverker b. 1944. Åke completed his studies in Norrköping in 1925 and obtained a law degree from Lund University in 1931. He served as a court clerk in Medelsta district from 1931 to 1934, acting as the city mayor of Ronneby in 1934, and worked as an assistant lawyer at the Ragnar Allmér's law firm in Kalmar from 1935 to 1938. Since 1938, he became a co-owner of the Allmér & Bohman law firm. In 1938, he became a member of the Swedish Bar Association.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Åke Bohman\",\n   \"jobTitle\": \"Lawyer\",\n   \"birthPlace\": {\n       \"@type\": \"City\",\n       \"name\": \"Gamleby\",\n       \"address\": {\n           \"@type\": \"PostalAddress\",\n           \"addressLocality\": \"Gamleby\",\n           \"addressRegion\": \"Kalmar\",\n           \"postalCode\": \"59450\",\n           \"addressCountry\": \"Sweden\"\n       }\n   },\n   \"birthDate\": \"1906-11-07\",\n   \"father\": {\n       \"@type\": \"Person\",\n       \"name\": \"John B. Bohman\",\n       \"jobTitle\": \"Clerk\"\n   },\n   \"mother\": {\n       \"@type\": \"Person\",\n       \"name\": \"Gerda Svensson\",\n       \"jobTitle\": \"\"\n   },\n   \"spouse\": {\n       \"@type\": \"Person\",\n       \"name\": \"Gerd Wikström\",\n       \"birthDate\": \"\",\n       \"jobTitle\": \"\"\n   },\n   \"children\": [\n       {\n           \"@type\": \"Person\",\n           \"name\": \"Gunilla Bohman\",\n           \"birthDate\": \"1937\",\n           \"jobTitle\": \"\"\n       },\n       {\n           \"@type\": \"Person\",\n           \"name\": \"Jan-Ake Bohman\",\n           \"birthDate\": \"1940\",\n           \"jobTitle\": \"\"\n       },\n       {\n           \"@type\": \"Person\",\n           \"name\": \"Sverker Bohman\",\n           \"birthDate\": \"1944\",\n           \"jobTitle\": \"\"\n       }\n   ],\n   \"alumniOf\": [\n       {\n           \"@type\": \"EducationalOrganization\",\n           \"name\": \"Norrköping\",\n           \"endDate\": \"1925\"\n       },\n       {\n           \"@type\": \"EducationalOrganization\",\n           \"name\": \"Lund University\",\n           \"endDate\": \"1931\"\n       }\n   ],\n   \"jobTitle\": [\n       {\n           \"@type\": \"GovernmentOffice\",\n           \"name\": \"Court Clerk\",\n           \"startDate\": \"1931\",\n           \"endDate\": \"1934\",\n           \"workLocation\": {\n               \"@type\": \"City\",\n               \"name\": \"Medelsta district\"\n           }\n       },\n       {\n           \"@type\": \"GovernmentOffice\",\n           \"name\": \"City Mayor\",\n           \"startDate\": \"1934\",\n           \"endDate\": \"1934\",\n           \"workLocation\": {\n               \"@type\": \"City\",\n               \"name\": \"Ronneby\"\n           }\n       },\n       {\n           \"@type\": \"OrganizationRole\",\n           \"name\": \"Assistant Lawyer\",\n           \"startDate\": \"1935\",\n           \"endDate\": \"1938\",\n           \"roleName\": {\n               \"@type\": \"Organization\",\n               \"name\": \"Ragnar Allmérs Advibyrå\"\n           },\n           \"workLocation\": {\n               \"@type\": \"City\",\n               \"name\": \"Kalmar\"\n           }\n       },\n       {\n           \"@type\": \"OrganizationRole\",\n           \"name\": \"Co-Owner\",\n           \"startDate\": \"1938\",\n           \"roleName\": {\n               \"@type\": \"Organization\",\n               \"name\": \"Allmér & Bohman\"\n           },\n           \"workLocation\": {\n               \"@type\": \"City\",\n               \"name\": \"Kalmar\"\n           }\n       }\n   ],\n   \"memberOf\": {\n       \"@type\": \"Organization\",\n       \"name\": \"Swedish Bar Association\",\n       \"startDate\": \"1938\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Åke Bohman",
+        "jobTitle": [
+            {
+                "@type": "GovernmentOffice",
+                "name": "Court Clerk",
+                "startDate": "1931",
+                "endDate": "1934",
+                "workLocation": {
+                    "@type": "City",
+                    "name": "Medelsta district"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "City Mayor",
+                "startDate": "1934",
+                "endDate": "1934",
+                "workLocation": {
+                    "@type": "City",
+                    "name": "Ronneby"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "name": "Assistant Lawyer",
+                "startDate": "1935",
+                "endDate": "1938",
+                "roleName": {
+                    "@type": "Organization",
+                    "name": "Ragnar Allmérs Advibyrå"
+                },
+                "workLocation": {
+                    "@type": "City",
+                    "name": "Kalmar"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "name": "Co-Owner",
+                "startDate": "1938",
+                "roleName": {
+                    "@type": "Organization",
+                    "name": "Allmér & Bohman"
+                },
+                "workLocation": {
+                    "@type": "City",
+                    "name": "Kalmar"
+                }
+            }
+        ],
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gamleby",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gamleby",
+                "addressRegion": "Kalmar",
+                "postalCode": "59450",
+                "addressCountry": "Sweden"
+            }
+        },
+        "birthDate": "1906-11-07",
+        "father": {
+            "@type": "Person",
+            "name": "John B. Bohman",
+            "jobTitle": "Clerk"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Gerda Svensson",
+            "jobTitle": ""
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Gerd Wikström",
+            "birthDate": "",
+            "jobTitle": ""
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla Bohman",
+                "birthDate": "1937",
+                "jobTitle": ""
+            },
+            {
+                "@type": "Person",
+                "name": "Jan-Ake Bohman",
+                "birthDate": "1940",
+                "jobTitle": ""
+            },
+            {
+                "@type": "Person",
+                "name": "Sverker Bohman",
+                "birthDate": "1944",
+                "jobTitle": ""
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norrköping",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "endDate": "1931"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "startDate": "1938"
+        }
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "original": "Brunnander, Theodor Adolf, kyrko-berde, Svanesund, f. 11/8/96 i Öh-remma, Älvsb. 1. G. 26 m. Käthe Maria Josume. Barn: Sven f. 29, Inger 30, Birgit 32. — Stud:ex. 14, teol. kand. 17. Kommin. i Fagereds past. 22, kyrkoh. i Myckleby fr. 34. Ordf. i Källsjö komm rstämma 25-35, i kyr-kost. o. skolråd 32-35, i Myckleby o. Torps kyrkost., i skolstyr.",
+    "translated": "Brunnander, Theodor Adolf, church clerk, Svanesund, b. 11/8/96 in Öh-remma, Älvsborg. Married 26 in partnership with Käthe Maria Josume. Children: Sven b. 29, Inger b. 30, Birgit b. 32. - Studied: graduation exam 14, theology candidate 17. Curate in Fagereds parish 22, vicar in Myckleby from 34. Chairman of Källsjö commune council from 25-35, in the church council and school council from 32-35, in the church council of Myckleby and Torp, and on the school board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Theodor Adolf Brunnander\",\n  \"birthDate\": \"1896-11-08\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Öh-remma\",\n      \"addressRegion\": \"Älvsborg\"\n    }\n  },\n  \"jobTitle\": \"Church Clerk\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Svanesund\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Käthe Maria Josume\",\n    \"marriageDate\": \"1926\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduation exam\",\n      \"educationalLevel\": \"Stud\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"theology candidate\",\n      \"educationalLevel\": \"Teol. kand.\",\n      \"earnedBy\": \"University\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1922-01-01\",\n      \"endDate\": \"1934-01-01\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Fagereds parish\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1934-01-01\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Myckleby\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Källsjö commune council\",\n      \"startDate\": \"1925-01-01\",\n      \"endDate\": \"1935-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School council\",\n      \"startDate\": \"1932-01-01\",\n      \"endDate\": \"1935-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Myckleby church council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Torp church council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School board\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Theodor Adolf Brunnander",
+        "birthDate": "1896-11-08",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Öh-remma",
+                "addressRegion": "Älvsborg"
+            }
+        },
+        "jobTitle": [
+            {
+                "@type": "JobTitle",
+                "name": "Curate",
+                "startDate": "1922-01-01",
+                "endDate": "1934-01-01",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Fagereds parish"
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Vicar",
+                "startDate": "1934-01-01",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Myckleby"
+                }
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Svanesund"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Käthe Maria Josume",
+            "marriageDate": "1926"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduation exam",
+                "educationalLevel": "Stud"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "theology candidate",
+                "educationalLevel": "Teol. kand.",
+                "earnedBy": "University"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Källsjö commune council",
+                "startDate": "1925-01-01",
+                "endDate": "1935-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church council"
+            },
+            {
+                "@type": "Organization",
+                "name": "School council",
+                "startDate": "1932-01-01",
+                "endDate": "1935-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Myckleby church council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Torp church council"
+            },
+            {
+                "@type": "Organization",
+                "name": "School board"
+            }
+        ]
+    }
+}

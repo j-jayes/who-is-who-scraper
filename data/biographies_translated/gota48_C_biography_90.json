@@ -1,0 +1,72 @@
+{
+    "original": "Cervin, Gunnar, kyrkoherde, Gravarne, f. 13/3/93 i Okome, Hall. I, av prosten Reinhold C. o. Maria Cullberg. G. 25 m. Greta Olsson. Barn: Ingvar f. 27, Torsten 34. — Stud:ex. i Halmstad 12, teol. fil. ex. 13, teol. kand. 16, prästv. f. Gbgs stift 17. Pastors-adj. i Västra Frölunda 17, kyrkoh. i Kungshamn sed. 23.",
+    "translated": "Cervin, Gunnar, clergyman, Gravarne, b. March 13, 1893 in Okome, Halland. Son of the dean Reinhold C. and Maria Cullberg. Married on August 25, 19xx to Greta Olsson. Children: Ingvar, b. 1927 and Torsten, b. 1934. He graduated from high school in Halmstad in 1912, earned a Bachelor of Theology degree in 1913, a Master of Theology degree in 1916, and was ordained as a priest for the Gothenburg Diocese in 1917. He served as a pastor's assistant in Västra Frölunda in 1917 before becoming the vicar of Kungshamn in 1923.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Cervin\",\n  \"jobTitle\": \"Clergyman\",\n  \"birthDate\": \"1893-03-13\",\n  \"birthPlace\": \"Okome, Halland\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Reinhold Cervin\",\n    \"jobTitle\": \"Dean\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maria Cullberg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Olsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar Cervin\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torsten Cervin\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Halmstad High School\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Undisclosed University\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Bachelor of Theology\",\n        \"dateAwarded\": \"1913\"\n      }\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Undisclosed University\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Master of Theology\",\n        \"dateAwarded\": \"1916\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Diocese\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kungshamn Church\",\n    \"jobTitle\": \"Vicar\",\n    \"startDate\": \"1923\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Cervin",
+        "jobTitle": "Clergyman",
+        "birthDate": "1893-03-13",
+        "birthPlace": "Okome, Halland",
+        "father": {
+            "@type": "Person",
+            "name": "Reinhold Cervin",
+            "jobTitle": "Dean"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Maria Cullberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Olsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingvar Cervin",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Torsten Cervin",
+                "birthDate": "1934"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Halmstad High School"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Undisclosed University",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor of Theology",
+                    "dateAwarded": "1913"
+                }
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Undisclosed University",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Master of Theology",
+                    "dateAwarded": "1916"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Gothenburg Diocese"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Kungshamn Church",
+            "jobTitle": "Vicar",
+            "startDate": "1923"
+        }
+    }
+}

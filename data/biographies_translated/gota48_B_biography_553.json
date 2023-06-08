@@ -1,0 +1,113 @@
+{
+    "original": "Brinkenberg, Gustaf Victor Hugo, komminister, Lerdala, f. 10/6/97 i Vassända-Naglum, Älvsb. 1. G. 21 m. Sigrid Andersson. Barn: Bengt f. 22, Lars 25, Gunnar 33, Ulla 35, Lena 42. —• Stud:ex. i Vänersb. 18, teol. fil. ex. 27, teol. kand., prakt. teol. prov 31, prästv. f. Skara stift 32. V. kommin. i Rångedala 32, vakanskommin. där 34, kommin. i Berg 35, mil:pastor 39. Tj :man i vattenf :styr. 20-24, priv :lär. 24-30. V. ordf. i skolstyr., led. av komm:fullm. o. av barnav:nd. Skr.: dikter, mysteriespel, avhandl. om kyrkoläran m. m. Hobbies: hist. o. nat:-ekon. stud.",
+    "translated": "Brinkenberg, Gustaf Victor Hugo, assistant minister, Lerdala, born on June 10th, 1897 in Vassända-Naglum, Älvsborg county. Married once in 1921 to Sigrid Andersson, with whom he had five children: Bengt born in 1922, Lars born in 1925, Gunnar born in 1933, Ulla born in 1935, and Lena born in 1942. Brinkenberg passed his high school exam in Vänersborg in 1918, his Bachelor of Divinity in 1927, and his practical theology exam in 1931. He was ordained in the diocese of Skara in 1932 and worked as an assistant minister in Rångedala from 1932 to 1934, interim assistant minister there in 1934, minister in Berg from 1935, and a military pastor from 1939. He served as a staff member of the Water Authority from 1920 to 1924 and as a private teacher from 1924 to 1930. He was the vice-chairman of the school board, a member of the municipal council, and a member of the child welfare committee. He wrote poetry, mystery plays, and treatises on church doctrine. He enjoyed studying history and ecology.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Gustaf Victor Hugo\",\n  \"familyName\": \"Brinkenberg\",\n  \"birthDate\": \"1897-06-10\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Vassända-Naglum\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressCountry\": \"SE\",\n      \"addressRegion\": \"Älvsborg\"\n    }\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sigrid Andersson\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [{\n      \"@type\": \"Person\",\n      \"givenName\": \"Bengt\",\n      \"birthDate\": \"1922\"\n    }, {\n      \"@type\": \"Person\",\n      \"givenName\": \"Lars\",\n      \"birthDate\": \"1925\"\n    }, {\n      \"@type\": \"Person\",\n      \"givenName\": \"Gunnar\",\n      \"birthDate\": \"1933\"\n    }, {\n      \"@type\": \"Person\",\n      \"givenName\": \"Ulla\",\n      \"birthDate\": \"1935\"\n    }, {\n      \"@type\": \"Person\",\n      \"givenName\": \"Lena\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"alumniOf\": [{\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Vänersb High School\",\n      \"location\": \"Vänersborg\",\n      \"startDate\": \"1918\"\n    },{\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Bachelor of Divinity\",\n      \"location\": \"\",\n      \"startDate\": \"1927\"\n    },{\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Practical Theology\",\n      \"location\": \"\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"memberOf\": [\n    {\"@type\": \"ReligiousOrganization\", \"name\": \"Diocese of Skara\", \"startDate\": \"1932\"},\n    {\"@type\": \"GovernmentOrganization\", \"name\": \"Water Authority\", \"startDate\": \"1920\", \"endDate\": \"1924\"}\n  ],\n  \"jobTitle\": [\n    \"Assistant Minister\",\n    \"Interim Assistant Minister\",\n    \"Minister\",\n    \"Military Pastor\",\n    \"Private Teacher\"\n  ],\n  \"worksFor\": {\n    \"@type\": \"ReligiousOrganization\",\n    \"name\": \"Berg\"\n  },\n  \"affiliation\": [\n    {\"@type\": \"EducationalOrganization\", \"name\": \"School Board\", \"roleName\": \"Vice-chairman\"},\n    {\"@type\": \"GovernmentOrganization\", \"name\": \"Municipal Council\"},\n    {\"@type\": \"GovernmentOrganization\", \"name\": \"Child Welfare Committee\"}\n  ],\n  \"description\": \"Gustaf Victor Hugo Brinkenberg was a Swedish assistant minister, born in Vassända-Naglum on June 10th, 1897. He was married to Sigrid Andersson in 1921, and they had five children. Brinkenberg passed his high school exam in Vänersborg in 1918, his Bachelor of Divinity in 1927, and his practical theology exam in 1931. He was ordained in the diocese of Skara in 1932. Brinkenberg worked as an assistant minister and interim assistant minister in Rångedala, as a minister in Berg, and as a military pastor. He also served as a staff member of the Water Authority and as a private teacher. Brinkenberg was the vice-chairman of the school board, a member of the municipal council, and a member of the child welfare committee. He wrote poetry, mystery plays, and treatises on church doctrine. He enjoyed studying history and ecology.\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "givenName": "Gustaf Victor Hugo",
+        "familyName": "Brinkenberg",
+        "birthDate": "1897-06-10",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Vassända-Naglum",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "SE",
+                "addressRegion": "Älvsborg"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Sigrid Andersson",
+            "marriageDate": "1921"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Bengt",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Lars",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Gunnar",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ulla",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Lena",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Vänersb High School",
+                "location": "Vänersborg",
+                "startDate": "1918"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Bachelor of Divinity",
+                "location": "",
+                "startDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Practical Theology",
+                "location": "",
+                "startDate": "1931"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "ReligiousOrganization",
+                "name": "Diocese of Skara",
+                "startDate": "1932"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Water Authority",
+                "startDate": "1920",
+                "endDate": "1924"
+            }
+        ],
+        "jobTitle": [
+            "Assistant Minister",
+            "Interim Assistant Minister",
+            "Minister",
+            "Military Pastor",
+            "Private Teacher"
+        ],
+        "worksFor": {
+            "@type": "ReligiousOrganization",
+            "name": "Berg"
+        },
+        "affiliation": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "School Board",
+                "roleName": "Vice-chairman"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Municipal Council"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Child Welfare Committee"
+            }
+        ],
+        "description": "Gustaf Victor Hugo Brinkenberg was a Swedish assistant minister, born in Vassända-Naglum on June 10th, 1897. He was married to Sigrid Andersson in 1921, and they had five children. Brinkenberg passed his high school exam in Vänersborg in 1918, his Bachelor of Divinity in 1927, and his practical theology exam in 1931. He was ordained in the diocese of Skara in 1932. Brinkenberg worked as an assistant minister and interim assistant minister in Rångedala, as a minister in Berg, and as a military pastor. He also served as a staff member of the Water Authority and as a private teacher. Brinkenberg was the vice-chairman of the school board, a member of the municipal council, and a member of the child welfare committee. He wrote poetry, mystery plays, and treatises on church doctrine. He enjoyed studying history and ecology."
+    }
+}

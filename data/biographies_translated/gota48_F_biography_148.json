@@ -1,0 +1,91 @@
+{
+    "original": "Fredlund, Karl Gustaf, överingenjör, Göteborg, f. 3/8/10 i Mjölby av köpm. Lars Gustaf F. o. Anna Hellena Jacobsson. G. 42 m. Ingeborg-Rapp. Barn: Lars Gustaf f. 45. — Stud:ex. i Sthlm 33, avg:ex. fr. KTH (elektrotekn.) 38. Stud:res. i Tyskl., Schw^eiz o. Engl. Driftsassist. v. statens vattenf :verk 38-40, driftsing. v. B’oràs stads elverk 40-44, chefsing. v. Kristianstads dl- o. gasverk 44-45, övering. o. tekn. chef v. Gbgs stads elverk sed. 45.",
+    "translated": "Fredlund, Karl Gustaf, chief engineer, Gothenburg, b. 3/8/10 in Mjölby to merchant Lars Gustaf F. and Anna Hellena Jacobsson. Married in 1942 to Ingeborg-Rapp with one child, Lars Gustaf, born in 1945. He completed his gymnasium studies in Stockholm in 1933 and graduated from the Royal Institute of Technology (electrical engineering) in 1938. He studied abroad in Germany, Switzerland, and England. He worked as an operations assistant at the state power plant from 1938 to 1940, as an operating engineer at Borås city power plant from 1940 to 1944, as chief engineer of the Kristianstad district's gas and power plant from 1944 to 1945, and as chief engineer and technical manager of Gothenburg's city power plant since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Gustaf Fredlund\",\n  \"jobTitle\": \"Chief Engineer\",\n  \"birthPlace\": \"Mjölby, Sweden\",\n  \"birthDate\": \"1910-08-03\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Gustaf Fredlund\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Hellena Jacobsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg-Rapp\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Gustaf Fredlund\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"description\": \"Gymnasium studies\",\n      \"endDate\": \"1933\",\n      \"spatialCoverage\": \"Stockholm, Sweden\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Avg:ex.\",\n      \"description\": \"Graduated from the Royal Institute of Technology in electrical engineering\",\n      \"endDate\": \"1938\",\n      \"spatialCoverage\": \"Stockholm, Sweden\"\n    }\n  ],\n  \"sameAs\": \"https://en.wikipedia.org/wiki/Karl_Gustaf_Fredlund\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg City Power Plant\",\n    \"startDate\": \"1945\",\n    \"jobTitle\": \"Chief Engineer and Technical Manager\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"name\": \"Operations Assistant\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1940\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"State Power Plant\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"name\": \"Operating Engineer\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1944\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Borås City Power Plant\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"name\": \"Chief Engineer\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kristianstad District's Gas and Power Plant\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Gustaf Fredlund",
+        "jobTitle": "Chief Engineer",
+        "birthPlace": "Mjölby, Sweden",
+        "birthDate": "1910-08-03",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Lars Gustaf Fredlund",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Hellena Jacobsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg-Rapp",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Gustaf Fredlund",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "description": "Gymnasium studies",
+                "endDate": "1933",
+                "spatialCoverage": "Stockholm, Sweden"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Avg:ex.",
+                "description": "Graduated from the Royal Institute of Technology in electrical engineering",
+                "endDate": "1938",
+                "spatialCoverage": "Stockholm, Sweden"
+            }
+        ],
+        "sameAs": "https://en.wikipedia.org/wiki/Karl_Gustaf_Fredlund",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Gothenburg City Power Plant",
+            "startDate": "1945",
+            "jobTitle": "Chief Engineer and Technical Manager"
+        },
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "name": "Operations Assistant",
+                "startDate": "1938",
+                "endDate": "1940",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "State Power Plant"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "name": "Operating Engineer",
+                "startDate": "1940",
+                "endDate": "1944",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Borås City Power Plant"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "name": "Chief Engineer",
+                "startDate": "1944",
+                "endDate": "1945",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Kristianstad District's Gas and Power Plant"
+                }
+            }
+        ]
+    }
+}

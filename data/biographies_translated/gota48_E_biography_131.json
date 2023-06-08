@@ -1,0 +1,95 @@
+{
+    "original": "Eklund, Karl Gunnar Valfrid, praktiserande läkare, Göteborg, f. 26/4/04 i Gbg av telegr :kontr. Fredrik E. o. Maria Hjertberg. G. m. Inger Hultén. Barn: Birgit f. 40. — Stud:ex. i Gbg 23, med. kand. i Upps. 27 o. med. lic. där 32. Assist :läk. v. Sahlgr. sjukh. kir. avd. 30, tf. und :läk. v. Gbgs vanföreanst. samt e. läk. v. Var-bergs las. 32-33, tf. und:läk. v. Renströmska sjukh. kort. tider 33, prakt, läk. i Gbg sed. 34.",
+    "translated": "Eklund, Karl Gunnar Valfrid, practicing physician, Gothenburg, born April 26, 1904 in Gothenburg to telegraph inspector Fredrik E. and Maria Hjertberg. Married to Inger Hultén in 19xx. Children: Birgit born in 1940. He passed his upper secondary school exam in Gothenburg in 1923, received his Bachelor of Medicine degree in Uppsala in 1927, and his medical license there in 1932. He worked as an assistant physician at Sahlgr. Hospital's surgical department in 1930, a temporary substitute physician at Gothenburg's disability hospital, and a resident physician at Varberg's Hospital from 1932-1933. He also worked as a temporary substitute physician at Renströmska Hospital for short periods in 1933, and as a practicing physician in Gothenburg since 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Gunnar Valfrid Eklund\",\n  \"birthDate\": \"1904-04-26\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"practicing physician\",\n  \"memberOf\": {\n    \"@type\": \"MedicalOrganization\",\n    \"name\": \"Swedish Medical Association\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala, Sweden\",\n      \"course\": [\n        {\n          \"@type\": \"Course\",\n          \"name\": \"Bachelor of Medicine\",\n          \"startDate\": \"1923\",\n          \"endDate\": \"1927\"\n        }\n      ]\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Hospital\",\n    \"name\": \"Sahlgr. Hospital\",\n    \"department\": {\n      \"@type\": \"MedicalDepartment\",\n      \"name\": \"Surgical Department\"\n    },\n    \"jobTitle\": \"Assistant Physician\",\n    \"startDate\": \"1930\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Gothenburg's disability hospital\",\n      \"jobTitle\": \"Temporary Substitute Physician\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Varberg's Hospital\",\n      \"jobTitle\": \"Resident Physician\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Renströmska Hospital\",\n      \"jobTitle\": \"Temporary Substitute Physician\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private practice\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1934\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inger Hultén\",\n    \"gender\": \"Female\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgit Eklund\",\n    \"birthDate\": \"1940\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fredrik Eklund\",\n      \"gender\": \"Male\",\n      \"jobTitle\": \"Telegraph Inspector\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Hjertberg\",\n      \"gender\": \"Female\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Gunnar Valfrid Eklund",
+        "birthDate": "1904-04-26",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "occupation": "practicing physician",
+        "memberOf": {
+            "@type": "MedicalOrganization",
+            "name": "Swedish Medical Association"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "location": "Uppsala, Sweden",
+                "course": [
+                    {
+                        "@type": "Course",
+                        "name": "Bachelor of Medicine",
+                        "startDate": "1923",
+                        "endDate": "1927"
+                    }
+                ]
+            }
+        ],
+        "worksFor": {
+            "@type": "Hospital",
+            "name": "Sahlgr. Hospital",
+            "department": {
+                "@type": "MedicalDepartment",
+                "name": "Surgical Department"
+            },
+            "jobTitle": "Assistant Physician",
+            "startDate": "1930"
+        },
+        "affiliation": [
+            {
+                "@type": "Hospital",
+                "name": "Gothenburg's disability hospital",
+                "jobTitle": "Temporary Substitute Physician",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Varberg's Hospital",
+                "jobTitle": "Resident Physician",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Renströmska Hospital",
+                "jobTitle": "Temporary Substitute Physician",
+                "startDate": "1933",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Private practice",
+                "jobTitle": "Practicing Physician",
+                "startDate": "1934"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inger Hultén",
+            "gender": "Female"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Birgit Eklund",
+            "birthDate": "1940"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Fredrik Eklund",
+                "gender": "Male",
+                "jobTitle": "Telegraph Inspector"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Hjertberg",
+                "gender": "Female"
+            }
+        ]
+    }
+}

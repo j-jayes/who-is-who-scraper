@@ -1,0 +1,117 @@
+{
+    "original": "Eklundh, Gunnar Ernst Olof, taxeringsintendent, Karlskrona, f. 30/12/99 i Sthlm av lantbr. Ernst M. E. o. Hilma Eklundh. G. 38 m. Thyra Andersson. Barn: Claès f. 39, Bengt 43. — Stud:-ex. v. Västerås h. a. 1. 18. E. o. lands-kont. i Västmanl. 1. 22, taxrrev. där 36, tax:intend. i Blek. 1. sed. 44. Ordf. o. kronoomb. i taxindr i Västmanl. 1. 25-35, rev. i centr :sjukkassor i Västerås 33-36 o. 43-44.",
+    "translated": "Eklundh, Gunnar Ernst Olof, tax inspector, Karlskrona, born 30/12/99 in Stockholm to farmer Ernst M.E. and Hilma Eklundh. Married in 1938 to Thyra Andersson. Children: Claès born in 1939, Bengt in 1943. Graduated from Västerås high school with honors in 1918. Started working as assistant clerk in Westmanland in 1922, became tax collector there in 1936 and tax inspector in Blekinge in 1944. Served as chairman and crown auditor in the tax industry in Westmanland from 1925 to 1935, as well as auditor in central health insurance funds in Västerås from 1933 to 1936 and again from 1943 to 1944.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Gunnar Ernst Olof Eklundh\",\n   \"jobTitle\": \"Tax Inspector\",\n   \"birthDate\": \"1899-12-30\",\n   \"birthPlace\": \"Stockholm\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ernst M.E. Eklundh\",\n         \"jobTitle\": \"Farmer\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Hilma Eklundh\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Thyra Andersson\",\n      \"marriageDate\": \"1938\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Claès\",\n         \"birthDate\": \"1939\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Bengt\",\n         \"birthDate\": \"1943\"\n      }\n   ],\n   \"education\": {\n      \"@type\": \"EducationEvent\",\n      \"name\": \"Västerås High School\",\n      \"attendee\": {\n         \"@type\": \"Person\",\n         \"name\": \"Gunnar Ernst Olof Eklundh\"\n      },\n      \"startDate\": \"1918\",\n      \"award\": {\n         \"@type\": \"Scholarship\",\n         \"name\": \"Honors\"\n      }\n   },\n   \"employmentHistory\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1936\",\n         \"roleName\": \"Assistant Clerk\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Westmanland\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1936\",\n         \"endDate\": \"1944\",\n         \"roleName\": \"Tax Collector\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Westmanland\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1944\",\n         \"roleName\": \"Tax Inspector\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Blekinge\"\n         }\n      }\n   ],\n   \"auditor\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1925\",\n         \"endDate\": \"1935\",\n         \"roleName\": \"Chairman and Crown Auditor\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Tax Industry in Westmanland\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1933\",\n         \"endDate\": \"1936\",\n         \"roleName\": \"Auditor\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Central Health Insurance Funds in Västerås\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1943\",\n         \"endDate\": \"1944\",\n         \"roleName\": \"Auditor\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Central Health Insurance Funds in Västerås\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Ernst Olof Eklundh",
+        "jobTitle": "Tax Inspector",
+        "birthDate": "1899-12-30",
+        "birthPlace": "Stockholm",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ernst M.E. Eklundh",
+                "jobTitle": "Farmer"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Eklundh"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Thyra Andersson",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Claès",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1943"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "name": "Västerås High School",
+            "attendee": {
+                "@type": "Person",
+                "name": "Gunnar Ernst Olof Eklundh"
+            },
+            "startDate": "1918",
+            "award": {
+                "@type": "Scholarship",
+                "name": "Honors"
+            }
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1922",
+                "endDate": "1936",
+                "roleName": "Assistant Clerk",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Westmanland"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "endDate": "1944",
+                "roleName": "Tax Collector",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Westmanland"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "roleName": "Tax Inspector",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Blekinge"
+                }
+            }
+        ],
+        "auditor": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1925",
+                "endDate": "1935",
+                "roleName": "Chairman and Crown Auditor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Tax Industry in Westmanland"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1933",
+                "endDate": "1936",
+                "roleName": "Auditor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Central Health Insurance Funds in Västerås"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1943",
+                "endDate": "1944",
+                "roleName": "Auditor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Central Health Insurance Funds in Västerås"
+                }
+            }
+        ]
+    }
+}

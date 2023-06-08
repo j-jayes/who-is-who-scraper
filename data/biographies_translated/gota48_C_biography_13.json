@@ -1,0 +1,97 @@
+{
+    "original": "Campbell, Sigurd Emil, distrikts-lantmätare, Visby, f. 30/11/84 i Linköp. — Mog:ex. 04, lantmät:ex. 09, kultur-tekn. ex. 21. Anst. i Smål. Ensk. Bank i Jönköp. 04-05, aman, i lant-mät:styr. 21-23, distr :l2tntmät. i Gotl. norra distr. sed. 24. Res. i litt. o. konstn. ’syfte i de nord. länderna, Tyskl, Engl., Frankr., Span., Ital, Marocko, Algeriet o. Tunisien 15-34. Skr.: upps. i folklor. o. arkeolog, publ RVO.",
+    "translated": "Campbell, Sigurd Emil, district surveyor, Visby, born November 30, 1884 in Linköping. Completed secondary school in 1904, completed land surveyor training in 1909, completed cultural technology training in 1921. Employed at Smålands Enskilda Bank in Jönköping from 1904 to 1905, assistant in the land surveying board from 1921 to 1923, district surveyor in northern Gotland district since 1924. Traveled for literary and artistic purposes in the Nordic countries, Germany, England, France, Spain, Italy, Morocco, Algeria, and Tunisia from 1915 to 1934. Authored several papers in folklore and archaeology, published by the Royal Swedish Academy of Sciences. Married at an undisclosed year.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Sigurd Emil Campbell\",\n  \"jobTitle\": \"District Surveyor\",\n  \"birthPlace\": \"Linköping, Sweden\",\n  \"birthDate\": \"1884-11-30\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondarySchool\",\n      \"educationalLevel\": \"Secondary school\",\n      \"endDate\": \"1904\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"landSurveyorTraining\",\n      \"educationalLevel\": \"Land surveyor training\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"culturalTechnologyTraining\",\n      \"educationalLevel\": \"Cultural technology training\",\n      \"endDate\": \"1921\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Smålands Enskilda Bank\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Land Surveying Board\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\",\n      \"jobTitle\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Northern Gotland District\",\n      \"startDate\": \"1924\",\n      \"jobTitle\": \"District surveyor\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Author\",\n      \"specialization\": \"Folklore\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Author\",\n      \"specialization\": \"Archaeology\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Royal Swedish Academy of Sciences\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Undisclosed\",\n    \"dateOfBirth\": \"Unknown\",\n    \"dateOfMarriage\": \"Unknown\"\n  },\n  \"hasTravelled\": [\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"Nordic Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"German Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"British Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"French Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"Spanish Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"Italian Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"Moroccan Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"Algerian Travel Agency\"\n    },\n    {\n      \"@type\": \"TravelAgency\",\n      \"name\": \"Tunisian Travel Agency\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Sigurd Emil Campbell",
+        "jobTitle": "District Surveyor",
+        "birthPlace": "Linköping, Sweden",
+        "birthDate": "1884-11-30",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondarySchool",
+                "educationalLevel": "Secondary school",
+                "endDate": "1904"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "landSurveyorTraining",
+                "educationalLevel": "Land surveyor training",
+                "endDate": "1909"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "culturalTechnologyTraining",
+                "educationalLevel": "Cultural technology training",
+                "endDate": "1921"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Smålands Enskilda Bank"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Royal Swedish Academy of Sciences"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Author",
+                "specialization": "Folklore"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Author",
+                "specialization": "Archaeology"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Undisclosed",
+            "dateOfBirth": "Unknown",
+            "dateOfMarriage": "Unknown"
+        },
+        "hasTravelled": [
+            {
+                "@type": "TravelAgency",
+                "name": "Nordic Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "German Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "British Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "French Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "Spanish Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "Italian Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "Moroccan Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "Algerian Travel Agency"
+            },
+            {
+                "@type": "TravelAgency",
+                "name": "Tunisian Travel Agency"
+            }
+        ]
+    }
+}

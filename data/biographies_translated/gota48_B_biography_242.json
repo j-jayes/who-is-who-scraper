@@ -1,0 +1,159 @@
+{
+    "original": "Bernler, Knut Oskar Brynolf, navigationsskoleadjunkt, sjökapten, Göteborg, f. 13/1/00 i Klädesholmen, Gbgs o. Boh. 1. G. 30 m. Berta Lindh. Barn: Gunnar f. 30, Gunnel 37. — Stud :ex. i Lund 25, styrm :ex. 27, sjö-kapt:ex. i Gbg 28, navig :’sk :lär :ex. i Sthlm 35. Stud:res. t. Danm. 46, t. Engl. 47. Styrm. i oceanfart 28-30, nordsjöfart 31-35, befälh. 36-37. Adj. v. navig :’sk. i Sthlm 37-46, i Gbg fr. 47.",
+    "translated": "Bernler, Knut Oskar Brynolf, navigation school adjunct, sea captain, Gothenburg, born January 13th 1900 in Klädesholmen, Gothenburg and Bohuslän. Married for the first time in 1930 to Berta Lindh with whom he had two children: Gunnar, born in 1930, and Gunnel, born in 1937. Studied in Lund and received his navigation degree in 1925, his pilot's degree in 1927, his sea captain degree in Gothenburg in 1928, and his navigation school teacher's degree in Stockholm in 1935. He traveled to Denmark in 1946 and to England in 1947. He worked as a pilot on ocean freighters from 1928-1930 and in the North Sea from 1931-1935. He served as a commanding officer in 1936-37. He worked as an adjunct at a navigation school in Stockholm from 1937-46, and then in Gothenburg from 1947 onwards.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org/\",\n   \"@type\":\"Person\",\n   \"name\":\"Knut Oskar Brynolf Bernler\",\n   \"birthdate\":\"1900-01-13\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Klädesholmen\",\n      \"address\":{\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Gothenburg and Bohuslän\",\n         \"addressCountry\":\"Sweden\"\n      }\n   },\n   \"jobTitle\":[\n      \"Navigation School Adjunct\",\n      \"Sea Captain\"\n   ],\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Gothenburg\",\n      \"addressCountry\":\"Sweden\"\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Berta Lindh\",\n      \"marriageDate\":\"1930\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Gunnar\",\n         \"birthdate\":\"1930\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Gunnel\",\n         \"birthdate\":\"1937\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"Degree\",\n         \"name\":\"Navigation Degree\",\n         \"educationalLevel\":\"Undergraduate\",\n         \"awardingInstitution\":\"Lund\",\n         \"dateEarned\":\"1925\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"Degree\",\n         \"name\":\"Pilot's Degree\",\n         \"educationalLevel\":\"Undergraduate\",\n         \"awardingInstitution\":\"\",\n         \"dateEarned\":\"1927\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"Degree\",\n         \"name\":\"Sea Captain Degree\",\n         \"educationalLevel\":\"Undergraduate\",\n         \"awardingInstitution\":\"Gothenburg\",\n         \"dateEarned\":\"1928\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"Degree\",\n         \"name\":\"Navigation School Teacher's Degree\",\n         \"educationalLevel\":\"Graduate\",\n         \"awardingInstitution\":\"Stockholm\",\n         \"dateEarned\":\"1935\"\n      }\n   ],\n   \"employment\":[\n      {\n         \"@type\":\"OrganizationRole\",\n         \"roleName\":\"Pilot\",\n         \"startDate\":\"1928\",\n         \"endDate\":\"1930\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Ocean Freighters\"\n         },\n         \"location\":\"\"\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"roleName\":\"Pilot\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"1935\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"North Sea\"\n         },\n         \"location\":\"\"\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"roleName\":\"Commanding Officer\",\n         \"startDate\":\"1936\",\n         \"endDate\":\"1937\",\n         \"employer\":\"\"\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"roleName\":\"Navigation School Adjunct\",\n         \"startDate\":\"1937\",\n         \"endDate\":\"1946\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Stockholm Navigation School\"\n         },\n         \"location\":\"Stockholm\"\n      },\n      {\n         \"@type\":\"OrganizationRole\",\n         \"roleName\":\"Navigation School Adjunct\",\n         \"startDate\":\"1947\",\n         \"endDate\":\"present\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Gothenburg Navigation School\"\n         },\n         \"location\":\"Gothenburg\"\n      }\n   ],\n   \"travelHistory\":[\n      {\n         \"@type\":\"TravelAction\",\n         \"fromLocation\":{\n            \"@type\":\"Place\",\n            \"name\":\"Sweden\"\n         },\n         \"toLocation\":{\n            \"@type\":\"Place\",\n            \"name\":\"Denmark\"\n         },\n         \"startDate\":\"1946\"\n      },\n      {\n         \"@type\":\"TravelAction\",\n         \"fromLocation\":{\n            \"@type\":\"Place\",\n            \"name\":\"Sweden\"\n         },\n         \"toLocation\":{\n            \"@type\":\"Place\",\n            \"name\":\"England\"\n         },\n         \"startDate\":\"1947\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Knut Oskar Brynolf Bernler",
+        "birthdate": "1900-01-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Klädesholmen",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg and Bohuslän",
+                "addressCountry": "Sweden"
+            }
+        },
+        "jobTitle": [
+            "Navigation School Adjunct",
+            "Sea Captain"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Berta Lindh",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthdate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnel",
+                "birthdate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "name": "Navigation Degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "Lund",
+                "dateEarned": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "name": "Pilot's Degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "",
+                "dateEarned": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "name": "Sea Captain Degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "Gothenburg",
+                "dateEarned": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "name": "Navigation School Teacher's Degree",
+                "educationalLevel": "Graduate",
+                "awardingInstitution": "Stockholm",
+                "dateEarned": "1935"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pilot",
+                "startDate": "1928",
+                "endDate": "1930",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Ocean Freighters"
+                },
+                "location": ""
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pilot",
+                "startDate": "1931",
+                "endDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "North Sea"
+                },
+                "location": ""
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Commanding Officer",
+                "startDate": "1936",
+                "endDate": "1937",
+                "employer": ""
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Navigation School Adjunct",
+                "startDate": "1937",
+                "endDate": "1946",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Stockholm Navigation School"
+                },
+                "location": "Stockholm"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Navigation School Adjunct",
+                "startDate": "1947",
+                "endDate": "present",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Navigation School"
+                },
+                "location": "Gothenburg"
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Denmark"
+                },
+                "startDate": "1946"
+            },
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "England"
+                },
+                "startDate": "1947"
+            }
+        ]
+    }
+}

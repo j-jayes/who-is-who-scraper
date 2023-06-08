@@ -1,0 +1,93 @@
+{
+    "original": "Eländer, Herman Gustav Julius, kyrkoherde. Kisa, f. 26/2/93 i Töiasjö, Älvsb. 1. G. 41 m. Solvig Sjöhammar. Barn: Gudrun f. 43. — Stud:ex. i Gbg 18, fil. kand. 22, teol. kand., prakt, teol. prov samt prästv. f. Linköp. stift 26, stud. i Kiel 41. Res. t. Tyskl., Frankr., Schweiz, Holl., Belg., Danm. o. Norge. Tjg. s. v. pastor i Klock-rike, kommin. i Vadstena samt pred. v. Östergötl. 1. sjukhem i Vadstena, kyrkoh. i Kisa sed. 43, las :pred. där 43. Insp. f. Kisa h. folksk. 44. Skr.: Vadstena marsch, upps. i redig. o. andra ämnen samt reseskildr.",
+    "translated": "Eländer, Herman Gustav Julius, clergyman. Born on February 26th, 1893 in Töiasjö, Älvsborg. Married for the first time in 1941 to Solvig Sjöhammar. They had one child, Gudrun born in 1943. Eländer completed his secondary education in Gothenburg in 1918, obtained a Bachelor of Arts in 1922, Bachelor of Theology degree, practical theology test, and ordained as a priest for the Linköping diocese in 1926. He studied in Kiel in 1941 and traveled to Germany, France, Switzerland, the Netherlands, Denmark, and Norway. Eländer served as a minister in Klockrike and Vadstena, and as a preacher at the Östergötland 1st Hospital in Vadstena. He was appointed as a clergyman in Kisa in 1943 and served as a pastor there until 1945. He was also the inspector for Kisa's elementary schools in 1944. Eländer authored a several works, including \"Vadstena March\" and wrote on various other topics, as well as travel accounts.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Herman Gustav Julius Eländer\",\n   \"birthDate\": \"1893-02-26\",\n   \"birthPlace\": {\n      \"@type\": \"City\",\n      \"name\": \"Töiasjö\",\n      \"address\": {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Älvsborg\"\n      }\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Solvig Sjöhammar\",\n      \"marriageDate\": \"1941\"\n   },\n   \"children\": {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun\",\n      \"birthDate\": \"1943\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"SecondaryEducation\",\n         \"educationalCredentialAwarded\": \"Stud:ex. i Gbg 18\",\n         \"educationalInstitution\": \"Gothenburg\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"Bachelor'sDegree\",\n         \"educationalCredentialAwarded\": \"Fil. kand. 22\",\n         \"educationalInstitution\": \"\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"Bachelor'sDegree\",\n         \"educationalCredentialAwarded\": \"Teol. kand.\",\n         \"educationalInstitution\": \"\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalCredentialAwarded\": \"Prakt, teol. prov\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalCredentialAwarded\": \"Prästv. f. Linköp. stift 26\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalInstitution\": \"Kiel\",\n         \"educationalCredentialAwarded\": \"Stud. i Kiel 41\"\n      }\n   ],\n   \"jobTitle\": \"Clergyman\",\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Church of Sweden\"\n      }\n   ],\n   \"workLocation\": {\n      \"@type\": \"Country\",\n      \"name\": \"Sweden\"\n   },\n    \"deathDate\": \"Unknown\",\n   \"hasOccupation\": [\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Pastor\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Minister\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Preacher\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Clergyman\"\n      }\n   ],\n   \"description\": \"Herman Gustav Julius Eländer was a Swedish clergyman and author. He studied in Gothenburg, Kiel, and passed practical theology tests in Linköping. He served as a pastor in Klockrike, Vadstena, and Kisa. He also worked as a preacher at the Östergötland 1st Hospital in Vadstena and was an inspector for Kisa's elementary schools. He authored a few works, including \\\"Vadstena March\\\" and wrote on various other topics, as well as travel accounts.\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Herman Gustav Julius Eländer",
+        "birthDate": "1893-02-26",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Töiasjö",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborg"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Solvig Sjöhammar",
+            "marriageDate": "1941"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Gudrun",
+            "birthDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:ex. i Gbg 18",
+                "educationalInstitution": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor'sDegree",
+                "educationalCredentialAwarded": "Fil. kand. 22",
+                "educationalInstitution": ""
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor'sDegree",
+                "educationalCredentialAwarded": "Teol. kand.",
+                "educationalInstitution": ""
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "Prakt, teol. prov"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "Prästv. f. Linköp. stift 26"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalInstitution": "Kiel",
+                "educationalCredentialAwarded": "Stud. i Kiel 41"
+            }
+        ],
+        "jobTitle": "Clergyman",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church of Sweden"
+            }
+        ],
+        "workLocation": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "deathDate": "Unknown",
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Pastor"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Minister"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Preacher"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Clergyman"
+            }
+        ],
+        "description": "Herman Gustav Julius Eländer was a Swedish clergyman and author. He studied in Gothenburg, Kiel, and passed practical theology tests in Linköping. He served as a pastor in Klockrike, Vadstena, and Kisa. He also worked as a preacher at the Östergötland 1st Hospital in Vadstena and was an inspector for Kisa's elementary schools. He authored a few works, including \"Vadstena March\" and wrote on various other topics, as well as travel accounts."
+    }
+}

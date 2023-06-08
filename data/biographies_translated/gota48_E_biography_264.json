@@ -1,0 +1,96 @@
+{
+    "original": "Engelmann, Johan, fabrikör, Kinna-hult, f. 7/11/87 i Runnburg, Böhm., av tegelmäst. Josef E. o. Franciska Kumpf. G. 09m. Anna Frühauf. Barn: Gerhard f. 09, Lotte 12, Fritz 22. — Borg:sk. i Runnburg 01. Anst. v. olika färgerier i Tyskl. 04-20, färgmäst. v. Färgeri A-B Lind &amp; Co. i Borås 20-37, grund. o. inneh. av Sjuhärads-bygdens Färgeri i Kinnahult sed. 37. Ordf. i Tyska fören. i Borås 33-37. Medl. av Odd Fellow. Hobby: trädg:-odling.",
+    "translated": "Engelmann, Johan, factory owner, Kinna-hult, b. 7/11/87 in Runnburg, Bohemia, son of brickmaster Josef E. and Franciska Kumpf. Married in 1909 to Anna Frühauf. Children: Gerhard b. 1909, Lotte b. 1912, Fritz b. 1922. Became a citizen of Runnburg in 1901. Employed at various dyeing companies in Germany from 1904-1920, became a master dyer at Dyeing A-B Lind & Co. in Borås from 1920-1937, and founded and owned Sjuhärads-bygdens Dyeing in Kinnahult since 1937. Served as chairman of the German Association in Borås from 1933-1937. Member of Odd Fellow. Hobby: gardening.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Engelmann\",\n  \"birthDate\": \"1887-11-07\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Runnburg\",\n    \"addressRegion\": \"Bohemia\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Josef E. Engelmann\",\n      \"jobTitle\": \"Brickmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Franciska Kumpf\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Frühauf\",\n    \"marriageDate\": \"1909\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerhard Engelmann\",\n      \"birthDate\": \"1909\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lotte Engelmann\",\n      \"birthDate\": \"1912\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fritz Engelmann\",\n      \"birthDate\": \"1922\"\n    }\n  ],\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"German Association in Borås\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1937\",\n      \"jobTitle\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellow\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Factory owner\",\n    \"Dye master\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sjuhärads-bygdens Dyeing\",\n      \"startDate\": \"1937\",\n      \"jobTitle\": \"Founder and owner\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dyeing A-B Lind & Co.\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1937\",\n      \"jobTitle\": \"Master dyer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Various dyeing companies in Germany\",\n      \"startDate\": \"1904\",\n      \"endDate\": \"1920\",\n      \"jobTitle\": \"Employee\"\n    }\n  ],\n  \"sameAs\": \"http://example.com/person/johan-engelmann\",\n  \"knowsAbout\": \"Swedish family history and Schema.org/Person format\",\n  \"knowsLanguage\": [\n    {\n      \"@type\": \"Language\",\n      \"name\": \"Swedish\"\n    },\n    {\n      \"@type\": \"Language\",\n      \"name\": \"English\"\n    },\n    {\n      \"@type\": \"Language\",\n      \"name\": \"German\"\n    }\n  ],\n  \"hobby\": \"Gardening\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Engelmann",
+        "birthDate": "1887-11-07",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Runnburg",
+            "addressRegion": "Bohemia"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Josef E. Engelmann",
+                "jobTitle": "Brickmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Franciska Kumpf"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Frühauf",
+            "marriageDate": "1909"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gerhard Engelmann",
+                "birthDate": "1909"
+            },
+            {
+                "@type": "Person",
+                "name": "Lotte Engelmann",
+                "birthDate": "1912"
+            },
+            {
+                "@type": "Person",
+                "name": "Fritz Engelmann",
+                "birthDate": "1922"
+            }
+        ],
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Sjuhärads-bygdens Dyeing",
+                "startDate": "1937",
+                "jobTitle": "Founder and owner"
+            },
+            {
+                "@type": "Organization",
+                "name": "Dyeing A-B Lind & Co.",
+                "startDate": "1920",
+                "endDate": "1937",
+                "jobTitle": "Master dyer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Various dyeing companies in Germany",
+                "startDate": "1904",
+                "endDate": "1920",
+                "jobTitle": "Employee"
+            }
+        ],
+        "jobTitle": [
+            "Factory owner",
+            "Dye master"
+        ],
+        "sameAs": "http://example.com/person/johan-engelmann",
+        "knowsAbout": "Swedish family history and Schema.org/Person format",
+        "knowsLanguage": [
+            {
+                "@type": "Language",
+                "name": "Swedish"
+            },
+            {
+                "@type": "Language",
+                "name": "English"
+            },
+            {
+                "@type": "Language",
+                "name": "German"
+            }
+        ],
+        "hobby": "Gardening"
+    }
+}

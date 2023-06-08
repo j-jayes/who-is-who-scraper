@@ -1,0 +1,63 @@
+{
+    "original": "Blidberg, Björn Allan David, skeppsmäklare, Göteborg, f. 11/12/95 i Gbg av skeppsmäkl. David B. o. Augusta Pedersen. G. 22 m. Nancy Crowley. Barn: Vicki f. 27. — Ex. fr. Gbgs hand:inst. 14. Fänrik i trängen 17, kapt. i res. 40. Anst. h.",
+    "translated": "Blidberg, Björn Allan David, shipbroker, Gothenburg, b. 11/12/95 in Gothenburg to shipbroker David B. and Augusta Pedersen. Married on 22/xx to Nancy Crowley. Children: Vicki b. 1927. Graduated from Gothenburg Commercial Institute in 1914. Enlisted as a second lieutenant in the Logistics Corps in 1917, promoted to captain in the reserves in 1940. Employed at h. (unknown abbreviation).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Björn Allan David Blidberg\",\n  \"birthDate\": \"1895-12-11\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"David B. Blidberg\",\n      \"jobTitle\": \"Shipbroker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Pedersen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Nancy Crowley\",\n    \"marriageDate\": \"22/xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vicki\",\n      \"birthDate\": \"1927\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Gothenburg Commercial Institute\",\n    \"endDate\": \"1914\"\n  },\n  \"militaryService\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Logistics Corps\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1940\",\n      \"rank\": \"Second Lieutenant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Reserves\",\n      \"startDate\": \"1940\",\n      \"rank\": \"Captain\"\n    }\n  ],\n  \"jobTitle\": \"Shipbroker\",\n  \"employer\": {\n    \"@type\": \"Organization\",\n    \"name\": \"H.\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Björn Allan David Blidberg",
+        "birthDate": "1895-12-11",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "David B. Blidberg",
+                "jobTitle": "Shipbroker"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Pedersen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Nancy Crowley",
+            "marriageDate": "22/xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Vicki",
+                "birthDate": "1927"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Gothenburg Commercial Institute",
+            "endDate": "1914"
+        },
+        "militaryService": [
+            {
+                "@type": "Organization",
+                "name": "Logistics Corps",
+                "startDate": "1917",
+                "endDate": "1940",
+                "rank": "Second Lieutenant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Reserves",
+                "startDate": "1940",
+                "rank": "Captain"
+            }
+        ],
+        "jobTitle": "Shipbroker",
+        "employer": {
+            "@type": "Organization",
+            "name": "H."
+        }
+    }
+}

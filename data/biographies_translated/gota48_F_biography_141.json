@@ -1,0 +1,56 @@
+{
+    "original": "Fransson, Oskar Gerhard Åke, distriktslantmätare, Jönköping, f. 31/10/ 07 i Jönköping av Oskar F. och Greta Johansson. G. 44 m. Greta Bergström. — Stud:ex. i Jönköp. 27, lant-mät:ex. 30’. Distriktslantmät. i Gisla-veds distr. 45, i Värnamo dis&gt;tr. fr. 48.",
+    "translated": "Fransson, Oskar Gerhard Åke, district surveyor, Jönköping, born on October 31, 1907 in Jönköping to Oskar F. and Greta Johansson. He married Greta Bergström in 1944. He completed his student exam in Jönköping in 1927 and his surveyor's exam in 1930. He worked as a district surveyor in the Gislaved district starting in 1945 and in the Värnamo district starting in 1948.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Oskar Gerhard Åke Fransson\",\n  \"birthDate\": \"1907-10-31\",\n  \"birthPlace\": \"Jönköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oskar F. Fransson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Greta Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Bergström\",\n    \"weddingDate\": \"1944\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationInstitution\": \"Jönköp\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalCredentialAwarded\": \"Lant-mät:ex.\",\n      \"educationInstitution\": \"Unknown\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"jobTitle\": \"District Surveyor\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gislaved District\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1948\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Värnamo District\",\n      \"startDate\": \"1948\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Oskar Gerhard Åke Fransson",
+        "birthDate": "1907-10-31",
+        "birthPlace": "Jönköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oskar F. Fransson"
+            },
+            {
+                "@type": "Person",
+                "name": "Greta Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Bergström",
+            "weddingDate": "1944"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationInstitution": "Jönköp",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalCredentialAwarded": "Lant-mät:ex.",
+                "educationInstitution": "Unknown",
+                "endDate": "1930"
+            }
+        ],
+        "jobTitle": "District Surveyor",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Gislaved District",
+                "startDate": "1945",
+                "endDate": "1948"
+            },
+            {
+                "@type": "Organization",
+                "name": "Värnamo District",
+                "startDate": "1948"
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "original": "Eklund, Sven Ake, tandläkare, Trollhättan, f. 8/5/03 i Karlskoga av köpm. Adrian E. o. Eufemia Persson. G. 31 m. Dagny Florence Andersson. Barn: Sven Gunnar f. 33, Florence Margareta 37, Lars Ake 45. — Stud:-ex. i Karlstad 23, med. kand. i Upps. 28, tandl. 31. Assist, i Växjö 31, i Kramfors 32, prakt, i Sthlm tills. m. tandl., med. lic. B. Dahlberg 31-32, egen prakt, i Trollhättan sed. 32.",
+    "translated": "Eklund, Sven Ake, dentist, Trollhättan, born on May 8th, 1903 in Karlskoga to merchant Adrian E. and Eufemia Persson. Married on July 31st, 19xx to Dagny Florence Andersson. Children: Sven Gunnar b. 1933, Florence Margareta b. 1937, Lars Ake b. 1945. Studied in Karlstad, passed the high school exam in 1923. Completed medical studies at Uppsala in 1928, and dentistry in 1931. Worked as an assistant in Växjö in 1931, in Kramfors in 1932, as well as with dentist and doctor B. Dahlberg in Stockholm from 1931-1932. Started his own practice in Trollhättan in 1932.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Ake Eklund\",\n  \"birthDate\": \"1903-05-08\",\n  \"birthPlace\": \"Karlskoga, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Trollhättan\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagny Florence Andersson\",\n    \"dateMarried\": \"19xx-07-31\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Gunnar Eklund\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Florence Margareta Eklund\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Ake Eklund\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"educationalLevel\": \"High School\",\n      \"awardingInstitution\": \"Karlstad\",\n      \"dateAwarded\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medical Degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardingInstitution\": \"Uppsala\",\n      \"dateAwarded\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental Degree\",\n      \"educationalLevel\": \"Graduate\",\n      \"awardingInstitution\": \"Unknown\",\n      \"dateAwarded\": \"1931\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Assistant in Växjö (1931)\",\n    \"Assistant in Kramfors (1932)\",\n    \"Private practice in Trollhättan (since 1932)\",\n    \"Assistant for Dentist and Doctor B. Dahlberg in Stockholm (1931-1932)\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Ake Eklund",
+        "birthDate": "1903-05-08",
+        "birthPlace": "Karlskoga, Sweden",
+        "nationality": "Swedish",
+        "occupation": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Trollhättan",
+            "addressCountry": "Sweden"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagny Florence Andersson",
+            "dateMarried": "19xx-07-31"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Gunnar Eklund",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Florence Margareta Eklund",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Ake Eklund",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "educationalLevel": "High School",
+                "awardingInstitution": "Karlstad",
+                "dateAwarded": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medical Degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "Uppsala",
+                "dateAwarded": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental Degree",
+                "educationalLevel": "Graduate",
+                "awardingInstitution": "Unknown",
+                "dateAwarded": "1931"
+            }
+        ],
+        "jobTitle": [
+            "Assistant in Växjö (1931)",
+            "Assistant in Kramfors (1932)",
+            "Private practice in Trollhättan (since 1932)",
+            "Assistant for Dentist and Doctor B. Dahlberg in Stockholm (1931-1932)"
+        ]
+    }
+}

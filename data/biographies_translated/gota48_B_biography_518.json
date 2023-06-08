@@ -1,0 +1,96 @@
+{
+    "original": "Bouvin, Erik Oskar, läroverksadjunkt, Halmstad, f. 12/5/99 i Lilla Malma, Södermani. 1., av trädg :mäst. Gust. B. o. Karin Lundell. — Stud:-ex. 16, fil. mag. 25, provår v. Gbgs folksk :sem. 28. Res. t. Norge 20, Danm., Tyskl. o. Österr. 28 o. 31, Engl. 37 o. 39. E. lär. i Växjö 26-28, Karlstad 29-30, Vasa realsk. i Sthlm 30-37, adj. i moder sm. o. eng. v. Halmstads h. a. 1. sed. 37.",
+    "translated": "Bouvin, Erik Oskar, high school teacher, from Halmstad, born on May 12, 1899 in Lilla Malma, Södermani. His parents were Gust. B., who worked as a head gardener, and Karin Lundell. He passed his high school exams in 1916, received his Bachelor of Arts in 1925, and completed a probationary year at the Gothenburg public school seminar in 1928. He travelled to Norway in 1920 and to Denmark, Germany, and Austria in 1928 and 1931. He also travelled to England in 1937 and 1939. He worked as a teacher in Växjö from 1926 to 1928, in Karlstad from 1929 to 1930, and at Vasa Secondary School in Stockholm from 1930 to 1937. He worked as a teacher in his hometown and in English at Halmstad's high school from 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Oskar Bouvin\",\n  \"jobTitle\": \"High School Teacher\",\n  \"birthDate\": \"1899-05-12\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Lilla Malma\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Södermani\",\n      \"addressCountry\": \"SE\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gust. B.\",\n      \"jobTitle\": \"Head Gardener\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Lundell\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"highSchool\",\n      \"awardingOrganization\": \"Unknown\",\n      \"dateIssued\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Bachelor of Arts\"\n      },\n      \"awardingOrganization\": \"Unknown\",\n      \"dateIssued\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"probationaryYear\",\n      \"awardingOrganization\": \"Gothenburg public school seminar\",\n      \"dateIssued\": \"1928\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vasa Secondary School\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Halmstad's High School\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"jobTitle\": \"Teacher\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlstad\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Teacher\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vasa Secondary School\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1937\",\n      \"jobTitle\": \"Teacher\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Halmstad's High School\",\n      \"startDate\": \"1937\",\n      \"jobTitle\": \"Teacher (Mother Tongue and English)\"\n    }\n  ],\n  \"sameAs\": \"http://some.link.to/erik-oskar-bouvin\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Oskar Bouvin",
+        "jobTitle": "High School Teacher",
+        "birthDate": "1899-05-12",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Lilla Malma",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Södermani",
+                "addressCountry": "SE"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gust. B.",
+                "jobTitle": "Head Gardener"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Lundell"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "highSchool",
+                "awardingOrganization": "Unknown",
+                "dateIssued": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor of Arts"
+                },
+                "awardingOrganization": "Unknown",
+                "dateIssued": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "probationaryYear",
+                "awardingOrganization": "Gothenburg public school seminar",
+                "dateIssued": "1928"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Vasa Secondary School"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halmstad's High School"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Växjö",
+                "startDate": "1926",
+                "endDate": "1928",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlstad",
+                "startDate": "1929",
+                "endDate": "1930",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vasa Secondary School",
+                "startDate": "1930",
+                "endDate": "1937",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halmstad's High School",
+                "startDate": "1937",
+                "jobTitle": "Teacher (Mother Tongue and English)"
+            }
+        ],
+        "sameAs": "http://some.link.to/erik-oskar-bouvin"
+    }
+}

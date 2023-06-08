@@ -1,0 +1,95 @@
+{
+    "original": "Bjarnegård, Gustaf Birger, komminister, Gökalund, f. 9/5/07 i Kalmar. G. 35 m. lär. Anna-Greta Sjöblom. Barn: Lars-Ingmar f. 36, Viveka 39, Stefan 43, Göran 47. — Stud:ex. i Kalm. 26, teol. fil. ex. i Lund 29, teol. kand. 32, prakt. teol. prov samt prästv. f. Växjö stift 33. Tjg. s. e. o. prästman i Korsberga, Lemnhult, Ljuder o. Norrahammar, kommin. i Söderåkra sed. 37. Stiftsrådets ombud.",
+    "translated": "Bjarnegård, Gustaf Birger, vicar, Gökalund, b. 9/5/07 in Kalmar. Married in 1935 to teacher Anna-Greta Sjöblom. Children: Lars-Ingmar b. 1936, Viveka b. 1939, Stefan b. 1943, Göran b. 1947. — Completed gymnasium (secondary school) in Kalmar in 1926, theological fil. exam in Lund 1929, theological kand. (licentiate) in 1932, practical theological exam and ordained a minister of Växjö diocese in 1933. Served as assistant and curate in Korsberga, Lemnhult, Ljuder, and Norrahammar, and as a vicar in Söderåkra from 1937. Delegate of the diocesan board of Växjö.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org/\",\n    \"@type\": \"Person\",\n    \"givenName\": \"Gustaf Birger\",\n    \"familyName\": \"Bjarnegård\",\n    \"jobTitle\": \"Vicar\",\n    \"birthPlace\": \"Kalmar\",\n    \"birthDate\": \"1907-09-05\",\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Anna-Greta Sjöblom\",\n        \"jobTitle\": \"Teacher\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"givenName\": \"Lars-Ingmar\",\n            \"birthDate\": \"1936\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"givenName\": \"Viveka\",\n            \"birthDate\": \"1939\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"givenName\": \"Stefan\",\n            \"birthDate\": \"1943\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"givenName\": \"Göran\",\n            \"birthDate\": \"1947\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"gymnasium\",\n            \"awardingOrganization\": \"Kalmar\",\n            \"issuedDate\": \"1926\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"theological fil. exam\",\n            \"awarder\": \"Lund\",\n            \"issuedDate\": \"1929\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"theological kand. (licentiate)\",\n            \"issuedDate\": \"1932\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"practical theological exam\",\n            \"issuedDate\": \"1933\"\n        }\n    ],\n    \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Växjö diocese\",\n        \"memberType\": \"Delegate\",\n        \"startDate\": \"1933\"\n    },\n    \"workLocation\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Korsberga\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Lemnhult\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Ljuder\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Norrahammar\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Söderåkra\",\n            \"jobTitle\": \"Vicar\",\n            \"startDate\": \"1937\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "givenName": "Gustaf Birger",
+        "familyName": "Bjarnegård",
+        "jobTitle": "Vicar",
+        "birthPlace": "Kalmar",
+        "birthDate": "1907-09-05",
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Greta Sjöblom",
+            "jobTitle": "Teacher"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Lars-Ingmar",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Viveka",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Stefan",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Göran",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "gymnasium",
+                "awardingOrganization": "Kalmar",
+                "issuedDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "theological fil. exam",
+                "awarder": "Lund",
+                "issuedDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "theological kand. (licentiate)",
+                "issuedDate": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "practical theological exam",
+                "issuedDate": "1933"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Växjö diocese",
+            "memberType": "Delegate",
+            "startDate": "1933"
+        },
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Korsberga"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lemnhult"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ljuder"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrahammar"
+            },
+            {
+                "@type": "Organization",
+                "name": "Söderåkra",
+                "jobTitle": "Vicar",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

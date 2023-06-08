@@ -1,0 +1,108 @@
+{
+    "original": "Bjarne, Gulli Herta, ämneslärarinna, fru, Laholm, f. 6/3/93 i Gbg av L. Bergqvist o. Hilda Nilsson. G. 19 m. lärov :adj. N. J. O. Bjarne. Barn: ■Ingrid f. 20, g. m. grossh. Sven Ahl-ström, Jönköp., Ulla 21, g. m. arkit. Lennart Billgren, Sthlm. — Utex. fr. priv. h. il är :nesiem. i Gbg 13. Lär. v. priv. samisk, i Laholm s: å., e. o. ämne sdär. v. komm. mcMansik. där 15, ord. 18, ämneslär. v. sämre al sk. i Laholim 31.",
+    "translated": "Bjarne, Gulli Herta, subject teacher, Mrs., Laholm, b. 6/3/93 in Gothenburg to L. Bergqvist and Hilda Nilsson. Married in 1919 to schoolteacher N.J.O. Bjarne. Children: Ingrid b. 1920, married to wholesaler Sven Ahlström, Jönköping, Ulla b. 1921, married to architect Lennart Billgren, Stockholm. Graduated from a private high school in Gothenburg in 1913. Taught at a private Sami school in Laholm, served as acting subject teacher in 1915 and became a regular subject teacher at a lower secondary school in Laholim in 1931.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Gulli Herta Bjarne\",\n  \"givenName\": \"Gulli Herta\",\n  \"familyName\": \"Bjarne\",\n  \"birthDate\": \"1893-06-03\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"L. Bergqvist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Nilsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"N.J.O. Bjarne\",\n    \"jobTitle\": \"Schoolteacher\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Ahlström\",\n      \"birthDate\": \"1920\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Ahlström\",\n        \"jobTitle\": \"Wholesaler\"\n      },\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Jönköping\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Billgren\",\n      \"birthDate\": \"1921\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Lennart Billgren\",\n        \"jobTitle\": \"Architect\"\n      },\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      }\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Private high school graduation\",\n    \"credentialLevel\": \"High school diploma\",\n    \"educationalLevel\": \"Secondary education\",\n    \"credentialIssuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Private high school in Gothenburg\"\n    },\n    \"startDate\": \"1913\"\n  },\n  \"jobTitle\": \"Subject teacher\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private Sami school in Laholm\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Laholm\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Occupation\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1918\",\n      \"name\": \"Acting subject teacher\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Laholm municipality\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1931\",\n      \"name\": \"Regular subject teacher\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lower secondary school in Laholim\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gulli Herta Bjarne",
+        "givenName": "Gulli Herta",
+        "familyName": "Bjarne",
+        "birthDate": "1893-06-03",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "L. Bergqvist"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Nilsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "N.J.O. Bjarne",
+            "jobTitle": "Schoolteacher"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingrid Ahlström",
+                "birthDate": "1920",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Sven Ahlström",
+                    "jobTitle": "Wholesaler"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Jönköping"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Billgren",
+                "birthDate": "1921",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Lennart Billgren",
+                    "jobTitle": "Architect"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Private high school graduation",
+            "credentialLevel": "High school diploma",
+            "educationalLevel": "Secondary education",
+            "credentialIssuer": {
+                "@type": "Organization",
+                "name": "Private high school in Gothenburg"
+            },
+            "startDate": "1913"
+        },
+        "jobTitle": "Subject teacher",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Private Sami school in Laholm"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Laholm"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Occupation",
+                "startDate": "1915",
+                "endDate": "1918",
+                "name": "Acting subject teacher",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Laholm municipality"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "startDate": "1918",
+                "endDate": "1931",
+                "name": "Regular subject teacher",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Lower secondary school in Laholim"
+                }
+            }
+        ]
+    }
+}

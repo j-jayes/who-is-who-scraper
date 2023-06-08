@@ -1,0 +1,118 @@
+{
+    "original": "Ekberg, John Birger, advokat, Jönköping, f. 25/10/02 i Kristianstad av tygverkmäst. Wilhelm E. o. h. h. f. Malmros. G. 31 m. Gunvor Sohlberg. Adopt ibarn: Tuulikki f. 39. — Stud:-ex. i Kristianstad 21, jur. kand. i Lund 27. E. o. not. i Göta hovr. 27, tingstjg. i östbo o. Västbo doms. 27-29, e. o. aman. v. Söderbygdens vat-tendomst. 29-30, e. o. not, i Sthlms rådhusr. samma tid, bitr. jur. å G. Holms Jur. Byrå i Jönköp. 31-39, del-äg. i Adv rfirman Ekberg &amp; Tham i Jönköp. sed. 40. Led. av Svres adv:-samf. sed. 33.",
+    "translated": "Ekberg, John Birger, lawyer, Jönköping, born October 25th, 1902 in Kristianstad to textile master Wilhelm E. and his wife Malmros. Married in 1931 to Gunvor Sohlberg. Adopted child: Tuulikki born 1939. Studied in Kristianstad, graduated in 1921, received a law degree in Lund in 1927. Worked as a clerk at Göta Court of Appeal in 1927, as a legal clerk in Östbo and Västbo District Courts from 1927 to 1929, as an assistant magistrate in Söderbygdens water court from 1929 to 1930, as an acting notary at Stockholm City Court during the same time, and as a legal assistant at G. Holms Juridical Firm in Jönköping from 1931 to 1939. He became a part-owner of the law firm Ekberg & Tham in Jönköping in 1940. He was a member of the Swedish Bar Association since 1933.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Birger Ekberg\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1902-10-25\",\n  \"birthPlace\": \"Kristianstad, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilhelm E. Ekberg\",\n      \"jobTitle\": \"Textile Master\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Malmros Ekberg\",\n      \"jobTitle\": \"Housewife\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunvor Sohlberg\",\n    \"marriageDate\": \"1931\"\n  },\n  \"child\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tuulikki Ekberg\",\n    \"birthDate\": \"1939\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Studied in Kristianstad\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Received law degree from Lund University\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"roleName\": \"Clerk\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Göta Court of Appeal\"\n      },\n      \"areaServed\": [\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Östbo District Court\"\n        },\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Västbo District Court\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\",\n      \"roleName\": \"Assistant Magistrate\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Söderbygdens Water Court\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1939\",\n      \"roleName\": \"Legal Assistant\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"G. Holms Juridical Firm\"\n      },\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Jönköping, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1940\",\n      \"roleName\": \"Part-owner\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ekberg & Tham Law Firm\"\n      },\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Jönköping, Sweden\"\n      }\n    }\n  ],\n  \"membership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ekberg & Tham Law Firm\",\n      \"startDate\": \"1940\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Birger Ekberg",
+        "jobTitle": "Lawyer",
+        "birthDate": "1902-10-25",
+        "birthPlace": "Kristianstad, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Wilhelm E. Ekberg",
+                "jobTitle": "Textile Master"
+            },
+            {
+                "@type": "Person",
+                "name": "Malmros Ekberg",
+                "jobTitle": "Housewife"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunvor Sohlberg",
+            "marriageDate": "1931"
+        },
+        "child": {
+            "@type": "Person",
+            "name": "Tuulikki Ekberg",
+            "birthDate": "1939"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Studied in Kristianstad",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Received law degree from Lund University",
+                "endDate": "1927"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": "1929",
+                "roleName": "Clerk",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Göta Court of Appeal"
+                },
+                "areaServed": [
+                    {
+                        "@type": "AdministrativeArea",
+                        "name": "Östbo District Court"
+                    },
+                    {
+                        "@type": "AdministrativeArea",
+                        "name": "Västbo District Court"
+                    }
+                ]
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": "1930",
+                "roleName": "Assistant Magistrate",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Söderbygdens Water Court"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "endDate": "1939",
+                "roleName": "Legal Assistant",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "G. Holms Juridical Firm"
+                },
+                "location": {
+                    "@type": "Place",
+                    "name": "Jönköping, Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1940",
+                "roleName": "Part-owner",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Ekberg & Tham Law Firm"
+                },
+                "location": {
+                    "@type": "Place",
+                    "name": "Jönköping, Sweden"
+                }
+            }
+        ],
+        "membership": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ekberg & Tham Law Firm",
+                "startDate": "1940"
+            }
+        ]
+    }
+}

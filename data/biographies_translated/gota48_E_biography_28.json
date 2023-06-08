@@ -1,0 +1,107 @@
+{
+    "original": "Edlund, Helmer Os^sian, läroverksadjunkt, Borås, f. 7/9/03 i Vännäs, Västerb. 1., av faktor Carl E. o. Kristina Norén. — Stud:ex. i Umeå 23, fil. mag. 33, provår i Gbg 40. Ind:-prakt. o. journalist 24-26 o. 27-28, e. o. lär. i Umeå 33 o. 34-40, e. adj. i Falun 41-42, Karlstad 42-43, adj. i mo-dersm. o. latin v. Borås h. a. 1. sed. 43.",
+    "translated": "Edlund, Helmer Os^sian, high school teacher, Borås, born on September 7, 1903 in Vännäs, Västerbotten County, son of factor Carl E. and Kristina Norén. He passed his studentexamen (university entrance examination) in Umeå in 1923, received a Bachelor of Arts degree in 1933, and completed his probation in Gothenburg in 1940. He worked as a teacher's assistant and journalist from 1924-1926 and 1927-1928, and was a temporary teacher in Umeå from 1933-1934 and 1934-1940. He was a permanent teacher in Falun from 1941-1942, Karlstad from 1942-1943, and a teacher in Swedish language and Latin at the high school in Borås from 1943. He married in 19xx.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Helmer Os^sian Edlund\",\n    \"birthDate\": \"1903-09-07\",\n    \"birthPlace\": {\n        \"@type\": \"City\",\n        \"name\": \"Vännäs\"\n    },\n    \"nationality\": \"Swedish\",\n    \"parents\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Carl E. Edlund\",\n            \"jobTitle\": \"Factor\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Kristina Norén\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Studentexamen\",\n            \"educationalLevel\": \"University\",\n            \"dateIssued\": \"1923\",\n            \"recognizedBy\": {\n                \"@type\": \"CollegeOrUniversity\",\n                \"name\": \"Umeå\"\n            }\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Bachelor of Arts\",\n            \"educationLevel\": \"Undergraduate\",\n            \"dateIssued\": \"1933\"\n        }\n    ],\n    \"profession\": [\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Teacher's assistant\",\n            \"startDate\": \"1924\",\n            \"endDate\": \"1926\"\n        },\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Journalist\",\n            \"startDate\": \"1927\",\n            \"endDate\": \"1928\"\n        },\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Temporary teacher\",\n            \"startDate\": \"1933\",\n            \"endDate\": \"1940\",\n            \"location\": {\n                \"@type\": \"Place\",\n                \"name\": \"Umeå\"\n            }\n        },\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Permanent teacher\",\n            \"startDate\": \"1941\",\n            \"endDate\": \"1942\",\n            \"location\": {\n                \"@type\": \"Place\",\n                \"name\": \"Falun\"\n            }\n        },\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Permanent teacher\",\n            \"startDate\": \"1942\",\n            \"endDate\": \"1943\",\n            \"location\": {\n                \"@type\": \"Place\",\n                \"name\": \"Karlstad\"\n            }\n        },\n        {\n            \"@type\": \"Occupation\",\n            \"name\": \"Teacher\",\n            \"startDate\": \"1943\",\n            \"location\": {\n                \"@type\": \"Place\",\n                \"name\": \"Borås High School\",\n                \"subOrganization\": {\n                    \"@type\": \"School\",\n                    \"name\": \"Borås\"\n                }\n            }\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"NAME OF SPOUSE\",\n        \"dateOfMarriage\": \"19xx\"\n    }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Helmer Os^sian Edlund",
+        "birthDate": "1903-09-07",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Vännäs"
+        },
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl E. Edlund",
+                "jobTitle": "Factor"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Norén"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen",
+                "educationalLevel": "University",
+                "dateIssued": "1923",
+                "recognizedBy": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Umeå"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "educationLevel": "Undergraduate",
+                "dateIssued": "1933"
+            }
+        ],
+        "profession": [
+            {
+                "@type": "Occupation",
+                "name": "Teacher's assistant",
+                "startDate": "1924",
+                "endDate": "1926"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Journalist",
+                "startDate": "1927",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary teacher",
+                "startDate": "1933",
+                "endDate": "1940",
+                "location": {
+                    "@type": "Place",
+                    "name": "Umeå"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Permanent teacher",
+                "startDate": "1941",
+                "endDate": "1942",
+                "location": {
+                    "@type": "Place",
+                    "name": "Falun"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Permanent teacher",
+                "startDate": "1942",
+                "endDate": "1943",
+                "location": {
+                    "@type": "Place",
+                    "name": "Karlstad"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Teacher",
+                "startDate": "1943",
+                "location": {
+                    "@type": "Place",
+                    "name": "Borås High School",
+                    "subOrganization": {
+                        "@type": "School",
+                        "name": "Borås"
+                    }
+                }
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "NAME OF SPOUSE",
+            "dateOfMarriage": "19xx"
+        }
+    }
+}

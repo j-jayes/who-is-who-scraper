@@ -1,0 +1,122 @@
+{
+    "original": "Elmstedt, Thor Natanael, major, Linköping, f. 7/7/92 i Ronneby av nämndeman Herman E. o. Ida Mattsson. G. 16 m. Olga Söderlund. Barn: Astrid f. 16, g. m. löjtn. N. Torpare, Carin 24, korresp. — Off :ex. 16, mät-kurs 22, AIHS (hk) 22-24, gaskurs 26. Fänrik v. Bodens art:reg. 16, löjtn. 18, kapt. v. Karlsborgs luftv:reg. 30, major v. luftv. 39, major v. Ostgöta luftv:re.g. i Linköp. sed. 42. Ordf. i KafLsborgs garnisons idr:fören. 34-37. Hoibby: idrott. RSO, Skyttem.",
+    "translated": "Elmstedt, Thor Natanael, Major, Linköping, Born on 7th July 1892 in Ronneby to juror Herman E. and Ida Mattsson. Married to Olga Söderlund in 1916. Children: Astrid, born in 1916, married to Lieutenant N. Torpare, Carin, born in 1924, Correspondent. Military: Officer's examination in 1916, Survey course in 1922, Aeroplane Engineer Officer Course in 1922-1924, Gas Course in 1926. Promoted to Second Lieutenant in 1916, Lieutenant in 1918, Captain in Karlsborg Aerial Regiment in 1930, Major in 1939, Major in Ostgöta Aerial Regiment in Linköping since 1942. Chairman of the Karlsborg Garrison Sports Association from 1934-1937. Hobby: Sports. Awarded the Order of the Sword (RSO), Shooter's Medal.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Thor Natanael Elmstedt\",\n   \"jobTitle\": \"Major\",\n   \"gender\": \"Male\",\n   \"birthDate\": \"1892-07-07\",\n   \"birthPlace\": \"Ronneby\",\n   \"nationality\": \"Swedish\",\n   \"parents\": {\n      \"@type\": \"Person\",\n      \"father\": {\n         \"@type\": \"Person\",\n         \"name\": \"Herman E.\",\n         \"occupation\": \"Juror\"\n      },\n      \"mother\": {\n         \"@type\": \"Person\",\n         \"name\": \"Ida Mattsson\"\n      }\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Olga Söderlund\",\n      \"marriageDate\": \"1916\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Astrid\",\n         \"birthDate\": \"1916\",\n         \"spouse\": {\n            \"@type\": \"Person\",\n            \"name\": \"Lieutenant N. Torpare\"\n         }\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Carin\",\n         \"birthDate\": \"1924\",\n         \"occupation\": \"Correspondent\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Karlsborg Garrison Sports Association\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1937\",\n         \"position\": \"Chairman\"\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"MilitaryRank\",\n         \"name\": \"Second Lieutenant\",\n         \"startDate\": \"1916\"\n      },\n      {\n         \"@type\": \"MilitaryRank\",\n         \"name\": \"Lieutenant\",\n         \"startDate\": \"1918\"\n      },\n      {\n         \"@type\": \"MilitaryRank\",\n         \"name\": \"Captain\",\n         \"startDate\": \"1930\",\n         \"affiliation\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Karlsborg Aerial Regiment\"\n         }\n      },\n      {\n         \"@type\": \"MilitaryRank\",\n         \"name\": \"Major\",\n         \"startDate\": \"1939\",\n         \"affiliation\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Ostgöta Aerial Regiment\",\n            \"location\": \"Linköping\"\n         }\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationEvent\",\n         \"name\": \"Officer's Examination\",\n         \"startDate\": \"1916\"\n      },\n      {\n         \"@type\": \"EducationEvent\",\n         \"name\": \"Survey Course\",\n         \"startDate\": \"1922\"\n      },\n      {\n         \"@type\": \"EducationEvent\",\n         \"name\": \"Aeroplane Engineer Officer Course\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1924\"\n      },\n      {\n         \"@type\": \"EducationEvent\",\n         \"name\": \"Gas Course\",\n         \"startDate\": \"1926\"\n      }\n   ],\n   \"hobby\": \"Sports\",\n   \"awards\": [\n      {\n         \"@type\": \"Order\",\n         \"name\": \"The Order of the Sword (RSO)\"\n      },\n      {\n         \"@type\": \"Medal\",\n         \"name\": \"Shooter's Medal\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Thor Natanael Elmstedt",
+        "jobTitle": [
+            {
+                "@type": "MilitaryRank",
+                "name": "Second Lieutenant",
+                "startDate": "1916"
+            },
+            {
+                "@type": "MilitaryRank",
+                "name": "Lieutenant",
+                "startDate": "1918"
+            },
+            {
+                "@type": "MilitaryRank",
+                "name": "Captain",
+                "startDate": "1930",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Karlsborg Aerial Regiment"
+                }
+            },
+            {
+                "@type": "MilitaryRank",
+                "name": "Major",
+                "startDate": "1939",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Ostgöta Aerial Regiment",
+                    "location": "Linköping"
+                }
+            }
+        ],
+        "gender": "Male",
+        "birthDate": "1892-07-07",
+        "birthPlace": "Ronneby",
+        "nationality": "Swedish",
+        "parents": {
+            "@type": "Person",
+            "father": {
+                "@type": "Person",
+                "name": "Herman E.",
+                "occupation": "Juror"
+            },
+            "mother": {
+                "@type": "Person",
+                "name": "Ida Mattsson"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Olga Söderlund",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Astrid",
+                "birthDate": "1916",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Lieutenant N. Torpare"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Carin",
+                "birthDate": "1924",
+                "occupation": "Correspondent"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Karlsborg Garrison Sports Association",
+                "startDate": "1934",
+                "endDate": "1937",
+                "position": "Chairman"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "name": "Officer's Examination",
+                "startDate": "1916"
+            },
+            {
+                "@type": "EducationEvent",
+                "name": "Survey Course",
+                "startDate": "1922"
+            },
+            {
+                "@type": "EducationEvent",
+                "name": "Aeroplane Engineer Officer Course",
+                "startDate": "1922",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationEvent",
+                "name": "Gas Course",
+                "startDate": "1926"
+            }
+        ],
+        "hobby": "Sports",
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "The Order of the Sword (RSO)"
+            },
+            {
+                "@type": "Medal",
+                "name": "Shooter's Medal"
+            }
+        ]
+    }
+}

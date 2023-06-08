@@ -1,0 +1,73 @@
+{
+    "original": "Berthner, Hugo Konrad Brynolf, tandläkare, Linköping, f. 4/3/89 i Malmö. G. 19-36 m. Vilma Mary Lindén. Barn: Ake f. 21, ing., Trollhättan, Stig 30. — Studiex. i Kalmar 11, tandl:-kand. 14, tandl. 16, stip. f. stud. av käkskador i Heidelberg 17. Egen prakt, i Linköping sed. 16.",
+    "translated": "Berthner, Hugo Konrad Brynolf, dentist, from Linköping. Born March 4th, 1889 in Malmö. Married in 1919 to Vilma Mary Lindén. They had two sons, Ake (born 1921), engineer from Trollhättan, and Stig (born 1930). He passed his exam in Kalmar in 1911, became a dental candidate in 1914, and a qualified dentist in 1916. He received a scholarship to study jaw injuries in Heidelberg in 1917. He has had his own practice in Linköping since 1916.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Hugo Konrad Brynolf Berthner\",\n   \"jobTitle\": \"Dentist\",\n   \"birthDate\": \"1889-03-04\",\n   \"birthPlace\": \"Malmö\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Linköping\"\n   },\n   \"spouse\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Vilma Mary Lindén\",\n         \"dateMarriage\": \"1919\",\n         \"dateDivorce\": \"1936\"\n      }\n   ],\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ake Berthner\",\n         \"birthDate\": \"1921\",\n         \"jobTitle\": \"Engineer\",\n         \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Trollhättan\"\n         }\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Stig Berthner\",\n         \"birthDate\": \"1930\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"HighSchool\",\n         \"dateReceived\": \"1911\",\n         \"description\": \"Passed exam in Kalmar\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"DentalCandidate\",\n         \"dateReceived\": \"1914\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"educationalLevel\": \"QualifiedDentist\",\n         \"dateReceived\": \"1916\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"description\": \"Scholarship to study jaw injuries in Heidelberg\",\n         \"startDate\": \"1917\",\n         \"endDate\": \"1917\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Own practice in Linköping\",\n         \"startDate\": \"1916\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hugo Konrad Brynolf Berthner",
+        "jobTitle": "Dentist",
+        "birthDate": "1889-03-04",
+        "birthPlace": "Malmö",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Vilma Mary Lindén",
+                "dateMarriage": "1919",
+                "dateDivorce": "1936"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ake Berthner",
+                "birthDate": "1921",
+                "jobTitle": "Engineer",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Trollhättan"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Stig Berthner",
+                "birthDate": "1930"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "HighSchool",
+                "dateReceived": "1911",
+                "description": "Passed exam in Kalmar"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "DentalCandidate",
+                "dateReceived": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "QualifiedDentist",
+                "dateReceived": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Scholarship to study jaw injuries in Heidelberg",
+                "startDate": "1917",
+                "endDate": "1917"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Own practice in Linköping",
+                "startDate": "1916"
+            }
+        ]
+    }
+}

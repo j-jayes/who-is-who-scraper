@@ -1,0 +1,100 @@
+{
+    "original": "Bergstrand, Manne Walter, komminister, Gryt, f. 15/12/12 i Säby, Jön-köp. 1. G. 42 m. Gull Forssman. Barn: Göran f. 43, Sten 46. — Stud:-ex. 33, teol. fil. ex. 34, teol. kand. 39, prästex. 39. Res. t. Tyskl. 38 o. 39. Past:adj. i Norrköp. Ö. Eneby förs. 39, v. kommin. i Tidersrum 42, kom-min. i Gryt sed. 42. Ordf. i barnav:-nd sed. 43, v. ordf. i folksk:styr. sed. 43.",
+    "translated": "Bergstrand, Manne Walter, vicar, Gryt, born on December 15th, 1912 in Säby, Jönköping. Married in 1942 to Gull Forssman. Children: Göran born in 1943, Sten in 1946. He received his high school diploma in 1933, his Bachelor of Arts in Theology in 1934, and his Master of Arts in Theology in 1939. He completed his ministerial exam in 1939, and traveled to Germany in 1938 and 1939. He was a pastoral assistant in Norrköping Ö. Eneby parish in 1939, a deputy vicar in Tidersrum in 1942, and a vicar in Gryt from the same year. He was the chairman of the Child Welfare Committee from 1943 and deputy chairman of the Public School Board from 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Manne Walter Bergstrand\",\n  \"jobTitle\": \"Vicar\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Säby, Jönköping\"\n  },\n  \"birthDate\": \"1912-12-15\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gull Forssman\",\n    \"dateMarried\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sten\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:-ex.\",\n      \"dateEarned\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. fil. ex.\",\n      \"dateEarned\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. kand.\",\n      \"dateEarned\": \"1939\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Prästex.\",\n      \"dateEarned\": \"1939\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Res. t. Tyskl.\",\n      \"dateEarned\": [\"1938\", \"1939\"]\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Ö. Eneby parish\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1942\",\n      \"roleName\": \"Pastoral assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tidersrum\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"\",\n      \"roleName\": \"Deputy vicar\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gryt\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"\",\n      \"roleName\": \"Vicar\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Child Welfare Committee\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Public School Board\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"\",\n      \"roleName\": \"Deputy chairman\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Manne Walter Bergstrand",
+        "jobTitle": "Vicar",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Säby, Jönköping"
+        },
+        "birthDate": "1912-12-15",
+        "spouse": {
+            "@type": "Person",
+            "name": "Gull Forssman",
+            "dateMarried": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Sten",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:-ex.",
+                "dateEarned": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex.",
+                "dateEarned": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "dateEarned": "1939"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Prästex.",
+                "dateEarned": "1939"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Res. t. Tyskl.",
+                "dateEarned": [
+                    "1938",
+                    "1939"
+                ]
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Norrköping Ö. Eneby parish",
+                "startDate": "1939",
+                "endDate": "1942",
+                "roleName": "Pastoral assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tidersrum",
+                "startDate": "1942",
+                "endDate": "",
+                "roleName": "Deputy vicar"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gryt",
+                "startDate": "1942",
+                "endDate": "",
+                "roleName": "Vicar"
+            },
+            {
+                "@type": "Organization",
+                "name": "Child Welfare Committee",
+                "startDate": "1943",
+                "endDate": "",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Public School Board",
+                "startDate": "1943",
+                "endDate": "",
+                "roleName": "Deputy chairman"
+            }
+        ]
+    }
+}

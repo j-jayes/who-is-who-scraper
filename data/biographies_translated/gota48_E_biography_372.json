@@ -1,0 +1,96 @@
+{
+    "original": "Estner, Karl Sören, prakt, ’läkare, Gislaved, f. 30/3/04 i Växjö. G. 37 m. Agnes Astrid Dagmar Haneli. Barn: Björni f. 38, Bo 42. — Stud :ex. 22, med. kand. 28 o. med. iic. 36 i Lund. Asisist:-iäk. v. med. klin. i Lund 36, andre läk. oi. tider v. S :ta Maria -sjukh. 32-35, und:iäk. v. Hälsingb. ’stads BB 36-37, ibadläk. v. Götarps brunn 38, numera prakt. iàk. i Gisiaved.",
+    "translated": "Estner, Karl Sören, practitioner, physician, from Gislaved, born on March 30th, 1904 in Växjö. Married for 37 years to Agnes Astrid Dagmar Haneli. Children: Björni born in 1938, Bo born in 1942. He obtained his degree in 1922, his Bachelor of Medicine in 1928, and his Master of Medicine in 1936, all from Lund University. He worked as an assistant physician in the medical clinic at Lund in 1936, second physician at S:ta Maria hospital from 1932-1935, assistant physician at Hälsingborg city maternity hospital from 1936-1937, and local physician at Götarps brunn in 1938, and currently practices as a physician in Gislaved.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Sören Estner\",\n  \"birthDate\": \"1904-03-30\",\n  \"birthPlace\": \"Växjö\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": [\"Practitioner\", \"Physician\"],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gislaved\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agnes Astrid Dagmar Haneli\",\n    \"marriageDate\": \"YYYY-MM-DD\",\n    \"endDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björni\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Lund University\",\n    \"alumniType\": \"Medicine\",\n    \"endDate\": \"1936\"\n  },\n  \"medicalSpecialty\": \"Medicine\",\n  \"hasOccupation\": [\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"name\": \"Assistant Physician\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\",\n      \"employer\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"Lund Medical Clinic\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"name\": \"Second Physician\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1935\",\n      \"employer\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"S:ta Maria Hospital\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"name\": \"Assistant Physician\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\",\n      \"employer\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"Hälsingborg City Maternity Hospital\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"name\": \"Local Physician\",\n      \"startDate\": \"1938\",\n      \"employer\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"Götarps Brunn\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"name\": \"Practitioner\",\n      \"startDate\": \"YYYY-MM-DD\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gislaved\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Sören Estner",
+        "birthDate": "1904-03-30",
+        "birthPlace": "Växjö",
+        "nationality": "Swedish",
+        "jobTitle": [
+            "Practitioner",
+            "Physician"
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Gislaved"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Astrid Dagmar Haneli",
+            "marriageDate": "YYYY-MM-DD",
+            "endDate": "YYYY-MM-DD"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björni",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Lund University",
+            "alumniType": "Medicine",
+            "endDate": "1936"
+        },
+        "medicalSpecialty": "Medicine",
+        "hasOccupation": [
+            {
+                "@type": "MedicalOccupation",
+                "name": "Assistant Physician",
+                "startDate": "1936",
+                "endDate": "1936",
+                "employer": {
+                    "@type": "Hospital",
+                    "name": "Lund Medical Clinic"
+                }
+            },
+            {
+                "@type": "MedicalOccupation",
+                "name": "Second Physician",
+                "startDate": "1932",
+                "endDate": "1935",
+                "employer": {
+                    "@type": "Hospital",
+                    "name": "S:ta Maria Hospital"
+                }
+            },
+            {
+                "@type": "MedicalOccupation",
+                "name": "Assistant Physician",
+                "startDate": "1936",
+                "endDate": "1937",
+                "employer": {
+                    "@type": "Hospital",
+                    "name": "Hälsingborg City Maternity Hospital"
+                }
+            },
+            {
+                "@type": "MedicalOccupation",
+                "name": "Local Physician",
+                "startDate": "1938",
+                "employer": {
+                    "@type": "Hospital",
+                    "name": "Götarps Brunn"
+                }
+            },
+            {
+                "@type": "MedicalOccupation",
+                "name": "Practitioner",
+                "startDate": "YYYY-MM-DD",
+                "location": {
+                    "@type": "City",
+                    "name": "Gislaved"
+                }
+            }
+        ]
+    }
+}

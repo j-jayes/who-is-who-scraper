@@ -1,0 +1,73 @@
+{
+    "original": "Buren, Carl Daniel, fd. disponent, Grytgö,!, f. 6/4/75 i Hälles:tad, östergötl. I., av brukspatron Adolf B. o. Adma Mokinder. G. 08 m. M^aria Munck af Fulkila. Barn: Carl AdoKf f. 09, Olof II. — Stud. v. Fiilipsitads bergssk. 94-95. Ing. v. Grytgöls Bruks A-B 95, i USA 98-99, fd. disp. o. verkst. dir. i A-B Garphytte Bruk, anst. i A-B Gbgs Bank 30. Led. av styr. f. Grytgöls Bruks’ A-B m. fl bol Hobby: fologr.",
+    "translated": "Buren, Carl Daniel, former manager, Grytgö, born on April 6th, 1875 in Hällestads parish, Östergötland County, Sweden, to industrialist Adolf B. and Adma Mokinder. Married in 1908 to Maria Munck from Fulkila. Children: Carl Adolf, born in 1909, Olof II. He studied at Filipstad's Bergsskola from 1894-1895, worked as an engineer at Grytgöls Bruks A-B in 1895 and went to the United States in 1898-1899. He was a former manager and executive director at A-B Garphytte Bruk and employed at A-B Gbgs Bank in 1930. He was a member of the board of directors for Grytgöls Bruks A-B among other companies. His hobby was photography.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Carl Daniel Buren\",\n   \"birthDate\": \"1875-04-06\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Hällestads parish, Östergötland County, Sweden\"\n   },\n   \"nationality\": \"Swedish\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Munck\",\n      \"birthPlace\": {\n         \"@type\": \"Place\",\n         \"name\": \"Fulkila\"\n      }\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Carl Adolf Buren\",\n         \"birthDate\": \"1909\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Olof Buren II\"\n      }\n   ],\n   \"jobTitle\": \"Former Manager, Executive Director\",\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Grytgöls Bruks A-B\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Garphytte Bruk\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Gbgs Bank\"\n      }\n   ],\n   \"education\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Filipstad's Bergsskola\",\n      \"endDate\": \"1895\"\n   },\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Grytgöls Bruks A-B\",\n         \"startDate\": \"1895\",\n         \"endDate\": \"1898\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Garphytte Bruk\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"A-B Gbgs Bank\",\n         \"startDate\": \"1930\"\n      }\n   ],\n   \"hobby\": \"Photography\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl Daniel Buren",
+        "birthDate": "1875-04-06",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Hällestads parish, Östergötland County, Sweden"
+        },
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Maria Munck",
+            "birthPlace": {
+                "@type": "Place",
+                "name": "Fulkila"
+            }
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl Adolf Buren",
+                "birthDate": "1909"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof Buren II"
+            }
+        ],
+        "jobTitle": "Former Manager, Executive Director",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Grytgöls Bruks A-B"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Garphytte Bruk"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Gbgs Bank"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Filipstad's Bergsskola",
+            "endDate": "1895"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Grytgöls Bruks A-B",
+                "startDate": "1895",
+                "endDate": "1898"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Garphytte Bruk"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Gbgs Bank",
+                "startDate": "1930"
+            }
+        ],
+        "hobby": "Photography"
+    }
+}

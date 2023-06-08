@@ -1,0 +1,75 @@
+{
+    "original": "Erkell, Harry, fil. mag., Göteborg, f. 22/7/11 i Malmö. G. 43 m. Karin Bernhard. Barn: Susanne f. 44. — Stud:ex. i Sthlm 29, fil. mag. i Upps. 35, provår i Sthlm 42. Lektor i sv. språket v. Roms univ. 37-40, div. vik., ord. ämneslär. i modersm. o. tyska v. Gbgs prakt, mellansk. sed. 43.",
+    "translated": "Erkell, Harry, BA, Gothenburg, b. July 22nd, 1911 in Malmö. Married in 1943 to Karin Bernhard. They have one child, Susanne, born in 1944. Harry graduated from high school in Stockholm in 1929 and received a BA from Uppsala University in 1935. He completed his teaching certification in Stockholm in 1942. Harry worked as a Swedish language lecturer at the University of Rome from 1937-1940. He has also worked as a substitute teacher and a permanent teacher in Swedish and German at the Gothenburg vocational school since 1943.",
+    "structured_raw": "{\n\t\"@context\": \"http://schema.org/\",\n\t\"@type\": \"Person\",\n\t\"name\": \"Harry Erkell\",\n\t\"birthDate\": \"1911-07-22\",\n\t\"birthPlace\": {\n\t\t\"@type\": \"Place\",\n\t\t\"name\": \"Malmö\"\n\t},\n\t\"spouse\": {\n\t\t\"@type\": \"Person\",\n\t\t\"name\": \"Karin Bernhard\",\n\t\t\"marriageDate\": \"1943\"\n\t},\n\t\"children\": {\n\t\t\"@type\": \"Person\",\n\t\t\"name\": \"Susanne\",\n\t\t\"birthDate\": \"1944\"\n\t},\n\t\"alumniOf\": [\n\t\t{\n\t\t\t\"@type\": \"EducationalOrganization\",\n\t\t\t\"name\": \"Uppsala University\",\n\t\t\t\"location\": \"Uppsala\",\n\t\t\t\"startDate\": \"1935\",\n\t\t\t\"endDate\": \"1935\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"EducationalOrganization\",\n\t\t\t\"name\": \"Stockholm High School\",\n\t\t\t\"location\": \"Stockholm\",\n\t\t\t\"startDate\": \"1929\",\n\t\t\t\"endDate\": \"1929\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"EducationalOrganization\",\n\t\t\t\"name\": \"Stockholm Teacher Certification\",\n\t\t\t\"location\": \"Stockholm\",\n\t\t\t\"startDate\": \"1942\",\n\t\t\t\"endDate\": \"1942\"\n\t\t}\n\t],\n\t\"jobTitle\": [\n\t\t{\n\t\t\t\"@type\": \"DefinedTerm\",\n\t\t\t\"name\": \"Swedish Language Lecturer\",\n\t\t\t\"startDate\": \"1937\",\n\t\t\t\"endDate\": \"1940\",\n\t\t\t\"inLanguage\": \"Swedish\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"DefinedTerm\",\n\t\t\t\"name\": \"Substitute Teacher\",\n\t\t\t\"location\": \"Gothenburg\",\n\t\t\t\"startDate\": \"1943\",\n\t\t\t\"endDate\": \"1943\",\n\t\t\t\"inLanguage\": \"Swedish\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"DefinedTerm\",\n\t\t\t\"name\": \"Permanent Teacher\",\n\t\t\t\"location\": \"Gothenburg\",\n\t\t\t\"startDate\": \"1943\",\n\t\t\t\"inLanguage\": [\"Swedish\", \"German\"]\n\t\t}\n\t]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Harry Erkell",
+        "birthDate": "1911-07-22",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Malmö"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Bernhard",
+            "marriageDate": "1943"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Susanne",
+            "birthDate": "1944"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "location": "Uppsala",
+                "startDate": "1935",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm High School",
+                "location": "Stockholm",
+                "startDate": "1929",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm Teacher Certification",
+                "location": "Stockholm",
+                "startDate": "1942",
+                "endDate": "1942"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Swedish Language Lecturer",
+                "startDate": "1937",
+                "endDate": "1940",
+                "inLanguage": "Swedish"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Substitute Teacher",
+                "location": "Gothenburg",
+                "startDate": "1943",
+                "endDate": "1943",
+                "inLanguage": "Swedish"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Permanent Teacher",
+                "location": "Gothenburg",
+                "startDate": "1943",
+                "inLanguage": [
+                    "Swedish",
+                    "German"
+                ]
+            }
+        ]
+    }
+}

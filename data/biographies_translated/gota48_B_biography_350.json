@@ -1,0 +1,82 @@
+{
+    "original": "Björkman, Stig Evald Klasson, praktiserande läkare, Göteborg, f. 5/6/00 i Gbg av med. lic. Klas B. o. Ida Dorotea Janzon. G. 31 m. Ingrid Mattsson. — Stud:ex. i Gbg 20, med. kand. i Upps. 25, med. lic. där 30. E. il’äk. v. Sätra btrunin isiomT. 25 o. 26, dito v. Helsjöns badanst. somm. 30, läk. där 31, 32 o. 34, prakt. läk. i Gbg sed. 30.",
+    "translated": "Björkman, Stig Evald Klasson was a practicing doctor in Göteborg. He was born on June 5th, 1900 in Göteborg to Klas B. who was a medical graduate and Ida Dorotea Janzon. He got married in 1931 to Ingrid Mattsson and had been a student in Göteborg from 1920 where he passed his exams. He completed his medical degree in Uppsala in 1925 and became a licensed doctor there in 1930. He practiced medicine in Sätra in 1925 and 1926, and also at Helsjöns badanst during summer in 1930. He was a doctor there in 1931, 1932, and 1934. From 1930, he worked as a practicing doctor in Göteborg.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Stig Evald Klasson Björkman\",\n   \"birthDate\": \"1900-06-05\",\n   \"birthPlace\": \"Göteborg\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Klas B.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ida Dorotea Janzon\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Mattsson\",\n      \"marriageDate\": \"1931\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Stud:ex.\",\n         \"educationLevel\": \"Gymnasium\",\n         \"educationalProgramType\": \"SecondaryEducation\",\n         \"educationalSubject\": \"General\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Med. kand.\",\n         \"educationLevel\": \"Undergraduate\",\n         \"educationalProgramType\": \"HigherEducation\",\n         \"educationalSubject\": \"Medicine\",\n         \"educationCredentialAwarded\": \"Uppsala University\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Med. lic.\",\n         \"educationLevel\": \"Graduate\",\n         \"educationalProgramType\": \"HigherEducation\",\n         \"educationalSubject\": \"Medicine\",\n         \"educationCredentialAwarded\": \"Uppsala University\",\n         \"educationalSpecialization\": \"General Practitioner\"\n      }\n   ],\n   \"occupation\": [\n      {\n         \"@type\": \"MedicalOrganization\",\n         \"name\": \"Sätra\",\n         \"startDate\": \"1925\",\n         \"endDate\": \"1926\",\n         \"medicalSpecialty\": \"General Practice\"\n      },\n      {\n         \"@type\": \"MedicalOrganization\",\n         \"name\": \"Helsjöns badanst\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1930\",\n         \"medicalSpecialty\": \"General Practice\"\n      },\n      {\n         \"@type\": \"MedicalOrganization\",\n         \"name\": \"Helsjöns badanst\",\n         \"startDate\": \"1931\",\n         \"endDate\": \"1934\",\n         \"medicalSpecialty\": \"General Practice\"\n      },\n      {\n         \"@type\": \"MedicalOrganization\",\n         \"name\": \"Göteborg\",\n         \"startDate\": \"1930\",\n         \"medicalSpecialty\": \"General Practice\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Stig Evald Klasson Björkman",
+        "birthDate": "1900-06-05",
+        "birthPlace": "Göteborg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Klas B."
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Dorotea Janzon"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Mattsson",
+            "marriageDate": "1931"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationLevel": "Gymnasium",
+                "educationalProgramType": "SecondaryEducation",
+                "educationalSubject": "General"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. kand.",
+                "educationLevel": "Undergraduate",
+                "educationalProgramType": "HigherEducation",
+                "educationalSubject": "Medicine",
+                "educationCredentialAwarded": "Uppsala University"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. lic.",
+                "educationLevel": "Graduate",
+                "educationalProgramType": "HigherEducation",
+                "educationalSubject": "Medicine",
+                "educationCredentialAwarded": "Uppsala University",
+                "educationalSpecialization": "General Practitioner"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sätra",
+                "startDate": "1925",
+                "endDate": "1926",
+                "medicalSpecialty": "General Practice"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Helsjöns badanst",
+                "startDate": "1930",
+                "endDate": "1930",
+                "medicalSpecialty": "General Practice"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Helsjöns badanst",
+                "startDate": "1931",
+                "endDate": "1934",
+                "medicalSpecialty": "General Practice"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Göteborg",
+                "startDate": "1930",
+                "medicalSpecialty": "General Practice"
+            }
+        ]
+    }
+}

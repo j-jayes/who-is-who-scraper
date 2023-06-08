@@ -1,0 +1,79 @@
+{
+    "original": "Berner, Erling, civilingenjör, Göteborg, f. 18/6/12 i Gbg av grosshandl. Christian B. o. Isoide Johanna Margadant. G. 38 m. Hjördds Christian-sen. Barn: Christian f. 40, Rolf 44. — Stud:ex. v. h. real i Gbg 31, avg:-ex. fr. CTI (VoV) 35. Konstruktör h. arkitekt E. Torulf i Gbg 35-36, anst. h. firma Christian Berner i Gbg sed. 37. Led. av Sv. tekn:fören. sed. 35.",
+    "translated": "Berner, Erling, engineer, Gothenburg, b. 18/6/12 in Gothenburg to merchant Christian B. and Isoide Johanna Margadant. Married in 1938 to Hjördis Christiansen. Children: Christian b. 1940, Rolf b. 1944. Graduated from high school in science in Gothenburg in 1931, and from the Technical College of Gothenburg (VoV) in 1935. Worked as a designer at architect E. Torulf's office in Gothenburg from 1935-1936, and has been employed at the Christian Berner firm in Gothenburg since 1937. Member of the Swedish Society of Engineers since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erling Berner\",\n  \"jobTitle\": \"Engineer\",\n  \"birthPlace\": \"Gothenburg\",\n  \"birthDate\": \"1912-06-18\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christian Berner\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Isoide Johanna Margadant\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hjördis Christiansen\",\n    \"dateMarried\": \"1938\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christian Berner\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Berner\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma in Science\",\n      \"educationLevel\": \"HighSchool\",\n      \"issuedBy\": \"Gothenburg\",\n      \"dateIssued\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Technical College Degree\",\n      \"educationLevel\": \"College\",\n      \"issuedBy\": \"Technical College of Gothenburg (VoV)\",\n      \"dateIssued\": \"1935\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"E. Torulf's Office\",\n      \"jobTitle\": \"Designer\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Christian Berner Firm\",\n      \"jobTitle\": \"Employee\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Society of Engineers\",\n    \"startDate\": \"1935\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erling Berner",
+        "jobTitle": "Engineer",
+        "birthPlace": "Gothenburg",
+        "birthDate": "1912-06-18",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Christian Berner",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Isoide Johanna Margadant"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hjördis Christiansen",
+            "dateMarried": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christian Berner",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf Berner",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma in Science",
+                "educationLevel": "HighSchool",
+                "issuedBy": "Gothenburg",
+                "dateIssued": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Technical College Degree",
+                "educationLevel": "College",
+                "issuedBy": "Technical College of Gothenburg (VoV)",
+                "dateIssued": "1935"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "E. Torulf's Office",
+                "jobTitle": "Designer",
+                "location": "Gothenburg",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Christian Berner Firm",
+                "jobTitle": "Employee",
+                "location": "Gothenburg",
+                "startDate": "1937"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Society of Engineers",
+            "startDate": "1935"
+        }
+    }
+}

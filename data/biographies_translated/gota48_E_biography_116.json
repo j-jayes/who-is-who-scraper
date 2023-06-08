@@ -1,0 +1,112 @@
+{
+    "original": "Ekeroth, Gustav Fredrik, ilärovierks-adjunkt, Göteborg, f. 16/5/85 i Fjärås, HaW. 1., av kyrkoh. Anders Gust. E. o. Svea Larsson. G. 15 m. Elsa Wåh-Hn. Barn: Siv f. 17, d. s. å. — Stud:-ex. i Skara 04, fil. mag. 12, provår v. Gbgs h. latin 13. E. o. lär. i Hälsingb. 14-22, e. lär. i Malmö 22-26, adj. i Uddevalla 26-37, adj. i tyska o. eng. v. Hvitfeldtska h. a. 1. i Gbg sed. 37. Res. t. Tyskl. o. Frankr. RVO 46.",
+    "translated": "Ekeroth, Gustav Fredrik, lower secondary school teacher, Gothenburg, born on May 16th, 1885 in Fjärås, Hallands län. Son of parish priest Anders Gust. E. and Svea Larsson. Married to Elsa Wåh-Hn in 1915. They had one child, Siv, who was born in 1917 and died the same year. Ekeroth completed his secondary school studies in Skara in 1904, received his Bachelor of Arts degree in 1912, and spent a probationary year teaching Latin in Gothenburg in 1913. He worked as a lower secondary school teacher in Hälsingborg from 1914 to 1922, in Malmö from 1922 to 1926, and as an adjunkt at a school in Uddevalla from 1926 to 1937. He then took on the position of adjunkt in German and English at Hvitfeldtska upper secondary school in Gothenburg, where he worked until his resignation in 1946. He travelled to Germany and France during his career. He was awarded the RVO (Royal Victorian Order) in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustav Fredrik Ekeroth\",\n  \"givenName\": \"Gustav Fredrik\",\n  \"familyName\": \"Ekeroth\",\n  \"birthDate\": \"1885-05-16\",\n  \"birthPlace\": \"Fjärås, Hallands län\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Gust. E.\",\n      \"jobTitle\": \"Parish Priest\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Svea Larsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Wåh-Hn\",\n    \"marriageDate\": \"1915\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Siv Ekeroth\",\n      \"birthDate\": \"1917\",\n      \"deathDate\": \"1917\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:-ex. i Skara\",\n      \"credentialCategory\": \"Secondary school studies\",\n      \"startDate\": \"1904\",\n      \"endDate\": \"1904\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts degree\",\n      \"credentialCategory\": \"Higher education\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Probationary year teaching Latin in Gothenburg\",\n      \"credentialCategory\": \"Teaching\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1913\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Lower secondary school teacher\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1922\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hälsingborg\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Lower secondary school teacher\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1926\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Adjunkt\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1937\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uddevalla\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Adjunkt in German and English\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1946\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hvitfeldtska upper secondary school\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Hvitfeldtska upper secondary school\",\n    \"startDate\": \"1937\",\n    \"endDate\": \"1946\"\n  },\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Victorian Order\",\n    \"dateReceived\": \"1946\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Country\",\n    \"name\": \"Germany\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Country\",\n    \"name\": \"France\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustav Fredrik Ekeroth",
+        "givenName": "Gustav Fredrik",
+        "familyName": "Ekeroth",
+        "birthDate": "1885-05-16",
+        "birthPlace": "Fjärås, Hallands län",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Anders Gust. E.",
+                "jobTitle": "Parish Priest"
+            },
+            {
+                "@type": "Person",
+                "name": "Svea Larsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Wåh-Hn",
+            "marriageDate": "1915"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Siv Ekeroth",
+                "birthDate": "1917",
+                "deathDate": "1917"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:-ex. i Skara",
+                "credentialCategory": "Secondary school studies",
+                "startDate": "1904",
+                "endDate": "1904"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts degree",
+                "credentialCategory": "Higher education",
+                "startDate": "1912",
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Probationary year teaching Latin in Gothenburg",
+                "credentialCategory": "Teaching",
+                "startDate": "1913",
+                "endDate": "1913"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "Occupation",
+                "name": "Lower secondary school teacher",
+                "startDate": "1914",
+                "endDate": "1922",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Hälsingborg"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Lower secondary school teacher",
+                "startDate": "1922",
+                "endDate": "1926",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Malmö"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Adjunkt",
+                "startDate": "1926",
+                "endDate": "1937",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Uddevalla"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Adjunkt in German and English",
+                "startDate": "1937",
+                "endDate": "1946",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Hvitfeldtska upper secondary school"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Country",
+            "name": "France"
+        },
+        "awards": {
+            "@type": "Order",
+            "name": "Royal Victorian Order",
+            "dateReceived": "1946"
+        }
+    }
+}

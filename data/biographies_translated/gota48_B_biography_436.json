@@ -1,0 +1,141 @@
+{
+    "original": "Bohlin, Card Gösta, läroverksadjunkt, Borås, f. 18/2/06 i Borås av iläro-v:adj. Hans Otto B. o. Frida Maria Engman. G. 36 m. Märta von Fniesen. Barn: Margareta f. 37, Otto 43. — Stud:ex. i Borås 24, fil. kand. 30, fil. mag. 31, provår v. Gbgs folksk:sem. 33. E. o. lär. i Borås 30-31, Huskvarna 32, Borås 34-35, ord. ämneslär. i Kinna 36, adj. i matematik, fysik o. kemi v. Kinna is’amreal.s.k. 45-47, rektor v. Kinna kommuns yrkessk. 43-46, adj. i matem. o. fys. v. Borås h. a. 1. sed. 47.",
+    "translated": "Bohlin, Card Gösta, high school teacher, Borås, b. 18/2/06 in Borås, son of elementary school teacher-vice principal Hans Otto B. and Frida Maria Engman. Married in 1936 to Märta von Fniesen. Children: Margareta b. 1937, Otto b. 1943. Studied at high school in Borås (graduated 1924), received a Bachelor of Arts degree in 1930, Master of Arts degree in 1931, worked as a trainee at Gothenburg's People's College in 1933. Acting teacher in Borås in 1930-31, Huskvarna in 1932, Borås in 1934-35. Regular subject teacher in Kinna in 1936, mathematics, physics and chemistry teacher at Kinna's secondary school in 1945-47, principal of Kinna's vocational school in 1943-46, adjunct professor of mathematics and physics at Borås High School from 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Card Gösta Bohlin\",\n  \"birthDate\": \"1906-02-18\",\n  \"birthPlace\": \"Borås\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Otto B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Frida Maria Engman\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Märta von Fniesen\",\n      \"marriageDate\": \"1936\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Otto\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"High School in Borås\",\n      \"endDate\": \"1924\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"educationLevel\": \"Bachelor's degree\",\n      \"earnedFrom\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown\"\n      },\n      \"dateAwarded\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts\",\n      \"educationLevel\": \"Master's degree\",\n      \"earnedFrom\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown\"\n      },\n      \"dateAwarded\": \"1931\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Teacher\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Borås\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Teacher\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Huskvarna\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Teacher\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Borås\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Subject Teacher\",\n      \"startDate\": \"1936\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Kinna\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Adjunct Professor\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1947\",\n      \"specialty\": \"Mathematics, Physics, and Chemistry\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Kinna Secondary School\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Principal\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1946\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Kinna Vocational School\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Adjunct Professor\",\n      \"startDate\": \"1947\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Borås High School\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Card Gösta Bohlin",
+        "birthDate": "1906-02-18",
+        "birthPlace": "Borås",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hans Otto B."
+            },
+            {
+                "@type": "Person",
+                "name": "Frida Maria Engman"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Märta von Fniesen",
+                "marriageDate": "1936"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Otto",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "High School in Borås",
+                "endDate": "1924"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "educationLevel": "Bachelor's degree",
+                "earnedFrom": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown"
+                },
+                "dateAwarded": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts",
+                "educationLevel": "Master's degree",
+                "earnedFrom": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown"
+                },
+                "dateAwarded": "1931"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "title": "Acting Teacher",
+                "startDate": "1930",
+                "endDate": "1931",
+                "location": {
+                    "@type": "Place",
+                    "name": "Borås"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Acting Teacher",
+                "startDate": "1932",
+                "endDate": "1932",
+                "location": {
+                    "@type": "Place",
+                    "name": "Huskvarna"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Acting Teacher",
+                "startDate": "1934",
+                "endDate": "1935",
+                "location": {
+                    "@type": "Place",
+                    "name": "Borås"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Subject Teacher",
+                "startDate": "1936",
+                "location": {
+                    "@type": "Place",
+                    "name": "Kinna"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Adjunct Professor",
+                "startDate": "1945",
+                "endDate": "1947",
+                "specialty": "Mathematics, Physics, and Chemistry",
+                "location": {
+                    "@type": "Place",
+                    "name": "Kinna Secondary School"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Principal",
+                "startDate": "1943",
+                "endDate": "1946",
+                "location": {
+                    "@type": "Place",
+                    "name": "Kinna Vocational School"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Adjunct Professor",
+                "startDate": "1947",
+                "location": {
+                    "@type": "Place",
+                    "name": "Borås High School"
+                }
+            }
+        ]
+    }
+}

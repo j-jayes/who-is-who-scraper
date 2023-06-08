@@ -1,0 +1,94 @@
+{
+    "original": "Bolmsö, Jönköp. 1. av P. N. Andersson o. Alma Johansson. G. 39 m. Ellen Johansson. — Stud:ex. i Lund 23, fil. kand. där 28, teol. kand., prakt, teol. prov o. prästv. f. Växjö stift 32. Tjg. s. past:adj. i Kärda o. Båraryd, s. kommin. i Våthult o. Bosebo, kyr-koh. i Tofteryd sed. 42. I Våthult bl. a. ordf. i kyrkostämma, skolråd o. ■barnavrnd samt ombud f. stiftsrådet, oi-df. i Tofteryds kyrkofulim.",
+    "translated": "Bolmsö, Jönköping. 1st child of P.N. Andersson and Alma Johansson. Married in 1939 to Ellen Johansson. — Attended high school in Lund in 1923, obtained a Bachelor of Arts degree there in 1928, a theology degree and practical theology certificate, and became ordained as a priest in the Växjö diocese in 1932. Served as an assistant pastor in Kärda and Båraryd, a curate in Våthult and Bosebo, and as a vicar at Tofteryd since 1942. In Våthult, among other things, served as chairman of the church council, the school board and the child protection committee, as a delegate to the diocesan council, and as the representative of Tofteryd's cemetery committee.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bolmsö\",\n  \"birthPlace\": \"Jönköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"P.N. Andersson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Johansson\",\n    \"marriageDate\": \"1939\"\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant pastor\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1942\",\n      \"memberOf\": \"Kärda and Båraryd\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"\",\n      \"memberOf\": \"Våthult and Bosebo\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"\",\n      \"memberOf\": \"Tofteryd\",\n      \"description\": \"Served as the representative of Tofteryd's cemetery committee.\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": \"Lund\",\n      \"degree\": \"Stud:ex.\",\n      \"dateReceived\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": \"Lund\",\n      \"degree\": \"Bachelor of Arts\",\n      \"dateReceived\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": \"Växjö diocese\",\n      \"degree\": \"Theology degree\",\n      \"dateReceived\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": \"Växjö diocese\",\n      \"degree\": \"Practical theology certificate\",\n      \"dateReceived\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": \"Växjö diocese\",\n      \"degree\": \"Ordination as a priest\",\n      \"dateReceived\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Våthult\",\n      \"position\": \"Chairman of the church council, the school board and the child protection committee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tofteryd\",\n      \"position\": \"Ordf. in kyrkostämma\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bolmsö",
+        "birthPlace": "Jönköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "P.N. Andersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Johansson",
+            "marriageDate": "1939"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Assistant pastor",
+                "startDate": "1932",
+                "endDate": "1942",
+                "memberOf": "Kärda and Båraryd"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Curate",
+                "startDate": "1942",
+                "endDate": "",
+                "memberOf": "Våthult and Bosebo"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Vicar",
+                "startDate": "1942",
+                "endDate": "",
+                "memberOf": "Tofteryd",
+                "description": "Served as the representative of Tofteryd's cemetery committee."
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "institution": "Lund",
+                "degree": "Stud:ex.",
+                "dateReceived": "1923"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": "Lund",
+                "degree": "Bachelor of Arts",
+                "dateReceived": "1928"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": "Växjö diocese",
+                "degree": "Theology degree",
+                "dateReceived": "1932"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": "Växjö diocese",
+                "degree": "Practical theology certificate",
+                "dateReceived": "1932"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": "Växjö diocese",
+                "degree": "Ordination as a priest",
+                "dateReceived": "1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Våthult",
+                "position": "Chairman of the church council, the school board and the child protection committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tofteryd",
+                "position": "Ordf. in kyrkostämma"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "original": "Carstens, Ernst Otto, civilingenjör, Jönköping, f. 1/8/09 i Nürnberg av Ernst C. o. Viktoria Carstens. G. 34 m. Ragnhiid Holst. Barn: Inge-björg f. 36, Birgit 38, Maj Kristina 42. — Reailgymin. i Nürnberig 25, inig:-ex. i Miittv^eida 30, tefcn. högsk. i Dre sid en 30. Föret, resor t. de fl eur. länder samt t. USA. Anst. h. Siemens 27, inneh. av f :a Ernst Carstens Specialmaskiner i Jönköp. sed. 40. Skr.: tekn. art. om specialmask. f. träbearbetn. sed. 32.",
+    "translated": "Carstens, Ernst Otto, engineer, Jönköping, born August 1st, 1909 in Nuremberg to Ernst C. and Viktoria Carstens. Married Ragnhild Holst in 1934. Children: Inge-björg born in 1936, Birgit in 1938, and Maj Kristina in 1942. Graduated from high school in Nuremberg in 1925, graduated from university in Mittweida in 1930, and from technical college in Dresden in 1930. Made business trips to several European countries and the United States. Employed at Siemens in 1927. Became owner of Ernst Carstens Special Machines in Jönköping in 1940. Wrote technical articles about special machines for woodworking since 1932.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Otto Carstens\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1909-08-01\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Nuremberg\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ernst C. Carstens\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Viktoria Carstens\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ragnhild Holst\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inge-björg\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maj Kristina\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"High School of Nuremberg\",\n      \"startDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University of Mittweida\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Technical College of Dresden\",\n      \"startDate\": \"1930\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"jobTitle\",\n      \"name\": \"Railway Engineer\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"jobTitle\",\n      \"name\": \"Owner of Ernst Carstens Special Machines\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"jobTitle\",\n      \"name\": \"Siemens Employee\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1940\"\n    }\n  ],\n  \"article\": [\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Technical Articles on Special Machines for Woodworking\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Ernst Carstens Special Machines\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Ernst Otto Carstens",
+        "jobTitle": [
+            {
+                "@type": "jobTitle",
+                "name": "Railway Engineer",
+                "startDate": "1925",
+                "endDate": "1930"
+            },
+            {
+                "@type": "jobTitle",
+                "name": "Owner of Ernst Carstens Special Machines",
+                "startDate": "1940"
+            },
+            {
+                "@type": "jobTitle",
+                "name": "Siemens Employee",
+                "startDate": "1927",
+                "endDate": "1940"
+            }
+        ],
+        "birthDate": "1909-08-01",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Nuremberg"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ernst C. Carstens",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Viktoria Carstens",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ragnhild Holst",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inge-björg",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Maj Kristina",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "High School of Nuremberg",
+                "startDate": "1925"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Mittweida",
+                "startDate": "1930"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Technical College of Dresden",
+                "startDate": "1930"
+            }
+        ],
+        "article": [
+            {
+                "@type": "Article",
+                "name": "Technical Articles on Special Machines for Woodworking",
+                "startDate": "1932"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Ernst Carstens Special Machines"
+        }
+    }
+}

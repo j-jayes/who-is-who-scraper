@@ -1,0 +1,67 @@
+{
+    "original": "Ek, Ejnar Karl Axel, civilingenjör, Visby, f. 2/2/14 i Nyköping. G. 36 m. Anna Lisa Gustafsson. Barn: Torsten f. 36, Torbjörn 40, Lennart 42. — Stud:ex. i Nyköp. 35, civ:ing:ex. v. KTH 39. E. bitr. ing. v. väg- o. vat-tenbyggn :styr. 39-43, ing. v. vägför-valtn. i Gotl. 1. sed. 44. Hobby: musik (piano).",
+    "translated": "Ek, Ejnar Karl Axel, engineer, Visby, b. February 2, 1914 in Nyköping. Married in 1936 to Anna Lisa Gustafsson. Children: Torsten b. 1936, Torbjörn b. 1940, Lennart b. 1942. - Received a high school diploma in Nyköping in 1935, a engineering diploma from KTH in 1939. Worked as assistant engineer for the Road and Water Construction Board from 1939-1943, and as an engineer for the Road Administration in Gotland since 1944. Hobby: music (piano).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ejnar Karl Axel Ek\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthPlace\": \"Nyköping\",\n  \"birthDate\": \"1914-02-02\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Visby\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Lisa Gustafsson\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torsten Ek\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torbjörn Ek\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Ek\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\":\"EducationalOrganization\",\n      \"name\":\"KTH\",\n      \"location\":\"Stockholm\",\n      \"degree\": {\n        \"@type\":\"EducationalDegree\",\n        \"name\":\"Civil engineering degree\",\n        \"dateAwarded\":\"1939\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\":\"Organization\",\n      \"name\":\"Road and Water Construction Board\",\n      \"startDate\":\"1939\",\n      \"endDate\":\"1943\",\n      \"jobTitle\":\"Assistant Engineer\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\":\"Road Administration in Gotland\",\n      \"startDate\":\"1944\",\n      \"jobTitle\":\"Engineer\"\n    }\n  ],\n  \"knowsAbout\": \"music (piano)\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ejnar Karl Axel Ek",
+        "jobTitle": "Civil Engineer",
+        "birthPlace": "Nyköping",
+        "birthDate": "1914-02-02",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Visby"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Lisa Gustafsson",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Torsten Ek",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Torbjörn Ek",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Ek",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "KTH",
+                "location": "Stockholm",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Civil engineering degree",
+                    "dateAwarded": "1939"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Road and Water Construction Board",
+                "startDate": "1939",
+                "endDate": "1943",
+                "jobTitle": "Assistant Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Road Administration in Gotland",
+                "startDate": "1944",
+                "jobTitle": "Engineer"
+            }
+        ],
+        "knowsAbout": "music (piano)"
+    }
+}

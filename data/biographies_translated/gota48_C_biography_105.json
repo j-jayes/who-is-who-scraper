@@ -1,0 +1,87 @@
+{
+    "original": "Christofferson, Emil Alfred Bertil, tandläkare, Norrköping, f. 22/7/01 i Sköllersla, Örebro 1., av stat:mäst. Emil C. o. Helène Nilsson. G. 33 m. Märta Törnblom. Barn: Margareta f. 34, Gunnar 37, Kerstin 42. — Stud:-ex. i Upps. 20, stud. v. Berlins tandl:-inst. 21-22, tandhkand. 23, tandl. 25. Prakt, i Norrköp. sed. 25. Hobbies: jakt o. fiske.",
+    "translated": "Christofferson, Emil Alfred Bertil, dentist, Norrköping, born on July 22, 1901 in Sköllersla, Örebro 1st district, son of civil servant Emil C. and Helène Nilsson. Married in 1933 to Märta Törnblom. Children: Margareta born in 1934, Gunnar born in 1937, Kerstin born in 1942. He passed his high school exam in Uppsala in 1920, was a student at the Berlin Dental Institute from 1921 to 1922, graduated with a degree in dental medicine in 1923, and became a licensed dentist in 1925. He has been practicing in Norrköping since 1925. His hobbies are hunting and fishing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Emil Alfred Bertil Christofferson\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping\"\n  },\n  \"birthDate\": \"1901-07-22\",\n  \"birthPlace\": \"Sköllersla, Örebro 1st district\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emil C.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helène Nilsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta Törnblom\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school exam\",\n      \"offeredBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala\"\n      },\n      \"startDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree in dental medicine\",\n      \"offeredBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Berlin Dental Institute\"\n      },\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"title\": \"Dentist\"\n  },\n  \"dateLicensed\": \"1925\",\n  \"location\": {\n    \"@type\": \"Place\",\n    \"name\": \"Norrköping\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Dental Association\"\n  },\n  \"hobbies\": [\n    \"hunting\",\n    \"fishing\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Emil Alfred Bertil Christofferson",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
+        },
+        "birthDate": "1901-07-22",
+        "birthPlace": "Sköllersla, Örebro 1st district",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Emil C."
+            },
+            {
+                "@type": "Person",
+                "name": "Helène Nilsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Törnblom",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school exam",
+                "offeredBy": {
+                    "@type": "Organization",
+                    "name": "Uppsala"
+                },
+                "startDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree in dental medicine",
+                "offeredBy": {
+                    "@type": "Organization",
+                    "name": "Berlin Dental Institute"
+                },
+                "startDate": "1921",
+                "endDate": "1923"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "title": "Dentist"
+        },
+        "dateLicensed": "1925",
+        "location": {
+            "@type": "Place",
+            "name": "Norrköping"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Association"
+        },
+        "hobbies": [
+            "hunting",
+            "fishing"
+        ]
+    }
+}

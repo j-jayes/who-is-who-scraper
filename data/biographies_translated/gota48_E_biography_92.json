@@ -1,0 +1,121 @@
+{
+    "original": "Ekberg, Lars Leonard, om’budsman, Skara, f. 10/12/93 i Bjärka, Skarab. 1., av godsäg. Lars A. o. Hanna Engström. G. 1. 20 m. Lisa Andréen; 2. 45 m. Brita Bern. Barn: Anna-Lisa f. 23, Kerstin 25, Lars-Erik 29. — Stud. v. lärov. o. lantmrsk. Anst. v. Sv. lantmännens riksförb. 17-19, egen aff :rör. 20-21, inneh. Grunnevads säteri 22-34, sekr. o. kommiss. f. försia allm. sv. distr :lantbr :mötet på Axva’ll 1935 33-36, omb :man i Skarab. 1. ha-gelförsäkr :fören. sed. 37, dito f. För-säkrrfören. mot mjältbrand i Skarab. 1. sed. 39. Skr.: Berätt. över första allm. sv. distr ilantbr :mötet på Axvall 1935 (36). RVO.",
+    "translated": "Ekberg, Lars Leonard, agent, from Skara, born on December 10th, 1893 in Bjärka, Skaraborg County. Son of landowner Lars A. and Hanna Engström. Married 1st to Lisa Andréen in 1920 and had three children: Anna-Lisa born in 1923, Kerstin born in 1925, and Lars-Erik born in 1929. Married 2nd to Brita Bern in 1945. \n\nStudied at school and agricultural school. Worked for the Swedish Farmers' National Association from 1917 to 1919, had his own business from 1920 to 1921, owned Grunnevads estate from 1922 to 1934, was secretary and commissioner for the first general Swedish district farmers' meeting in Axvall from 1933 to 1936, and was an agent for the Skaraborg County livestock insurance association from 1937 and for the insurance association against anthrax in Skaraborg County from 1939. Authored the report on the first general Swedish district farmers' meeting in Axvall in 1935. Received the Royal Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Leonard Ekberg\",\n  \"birthDate\": \"1893-12-10\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Bjärka\",\n    \"addressRegion\": \"Skaraborg County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars A. Ekberg\",\n      \"jobTitle\": \"Landowner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Engström\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lisa Andréen\",\n      \"marriageDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Bern\",\n      \"marriageDate\": \"1945\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Lisa Ekberg\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Ekberg\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Erik Ekberg\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"jobTitle\": \"Agent\",\n  \"address\": {\n    \"@type\": \"City\",\n    \"name\": \"Skara\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Studied at school and agricultural school\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Farmers' National Association\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skaraborg County Livestock Insurance Association\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Insurance Association Against Anthrax in Skaraborg County\",\n      \"startDate\": \"1939\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Place\",\n    \"name\": \"Grunnevads estate\",\n    \"startDate\": \"1922\",\n    \"endDate\": \"1934\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Farmers' National Association\",\n    \"startDate\": \"1917\",\n    \"endDate\": \"1919\"\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Secretary and Commissioner for the First General Swedish District Farmers' Meeting in Axvall\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Agent for Skaraborg County Livestock Insurance Association\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Agent for Insurance Association Against Anthrax in Skaraborg County\",\n      \"startDate\": \"1939\"\n    }\n  ],\n  \"hasCredential\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Authored the report on the first general Swedish district farmers' meeting in Axvall in 1935\"\n  },\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of Vasa\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Leonard Ekberg",
+        "birthDate": "1893-12-10",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Bjärka",
+            "addressRegion": "Skaraborg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Lars A. Ekberg",
+                "jobTitle": "Landowner"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Engström"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Lisa Andréen",
+                "marriageDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Brita Bern",
+                "marriageDate": "1945"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anna-Lisa Ekberg",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Ekberg",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars-Erik Ekberg",
+                "birthDate": "1929"
+            }
+        ],
+        "jobTitle": "Agent",
+        "address": {
+            "@type": "City",
+            "name": "Skara"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Studied at school and agricultural school"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Farmers' National Association",
+                "startDate": "1917",
+                "endDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skaraborg County Livestock Insurance Association",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Insurance Association Against Anthrax in Skaraborg County",
+                "startDate": "1939"
+            }
+        ],
+        "owns": {
+            "@type": "Place",
+            "name": "Grunnevads estate",
+            "startDate": "1922",
+            "endDate": "1934"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish Farmers' National Association",
+            "startDate": "1917",
+            "endDate": "1919"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Secretary and Commissioner for the First General Swedish District Farmers' Meeting in Axvall",
+                "startDate": "1933",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Agent for Skaraborg County Livestock Insurance Association",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Agent for Insurance Association Against Anthrax in Skaraborg County",
+                "startDate": "1939"
+            }
+        ],
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Authored the report on the first general Swedish district farmers' meeting in Axvall in 1935"
+        },
+        "award": {
+            "@type": "Order",
+            "name": "Royal Order of Vasa"
+        }
+    }
+}

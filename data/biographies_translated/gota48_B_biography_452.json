@@ -1,0 +1,91 @@
+{
+    "original": "Bolander, Eric Ghristopher, stadskamrer, Kalmar, f. 25/7/10 i Skön, Västernorrl. 1., av Karl o. Anna B. G. 36 m. Maja Berghoiltz. Barn: Björn f. 37, Leif 38. — Hand:gymn. 28, soc:-inst. i Sthlm 33. Komm :bokhåll. 29-35, istadskamrer i Vadstena 35-43, i Kalmar fr. 43.",
+    "translated": "Bolander, Eric Ghristopher, city accountant, Kalmar, b. July 25th, 1910 in Skön, Västernorrl. Co. 1st, of Karl and Anna B. G. Married in 1936 to Maja Berghoiltz. Children: Björn b. 1937, Leif b. 1938. Education: Hand:gymn. in 1928, soc:-inst. in Stockholm in 1933. Career: bookkeeper from 1929-1935, city accountant in Vadstena from 1935-1943, and in Kalmar from 1943 onwards.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Eric Ghristopher Bolander\",\n  \"jobTitle\": \"City Accountant\",\n  \"birthDate\": \"1910-07-25\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Skön\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"familyName\": \"Bolander\",\n  \"givenName\": \"Eric Ghristopher\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Bolander\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna B.G. Bolander\"\n    }\n  ],\n  \"gender\": {\n    \"@type\": \"GenderType\",\n    \"name\": \"Male\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maja Berghoiltz\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn Bolander\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif Bolander\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Handelsgymnasium\",\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Social Institute\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Bookkeeper\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"City Accountant\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1943\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Vadstena\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"City Accountant\",\n      \"startDate\": \"1943\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Kalmar\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Eric Ghristopher Bolander",
+        "jobTitle": [
+            {
+                "@type": "Occupation",
+                "name": "Bookkeeper",
+                "startDate": "1929",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Occupation",
+                "name": "City Accountant",
+                "startDate": "1935",
+                "endDate": "1943",
+                "location": {
+                    "@type": "City",
+                    "name": "Vadstena"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "City Accountant",
+                "startDate": "1943",
+                "location": {
+                    "@type": "City",
+                    "name": "Kalmar"
+                }
+            }
+        ],
+        "birthDate": "1910-07-25",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Skön"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "familyName": "Bolander",
+        "givenName": "Eric Ghristopher",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Bolander"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna B.G. Bolander"
+            }
+        ],
+        "gender": {
+            "@type": "GenderType",
+            "name": "Male"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Maja Berghoiltz",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn Bolander",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Leif Bolander",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Handelsgymnasium",
+                "startDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Social Institute",
+                "startDate": "1933"
+            }
+        ]
+    }
+}

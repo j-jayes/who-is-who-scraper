@@ -1,0 +1,134 @@
+{
+    "original": "Björklund, Karl Vilhelm, civilingenjör, byggnadschef, Jönköping, f. 20/9/00 i Gbg av fastigh:äg. Carl B. o. Hilda Mattsson. G. 31 m. Ina Sahlin. — Stud:ex. v. Gbgs h. real 19, stud. v. CTI (V) 19-23. Ritare o. konstr. v. Northern Electric Co. Ltd i Montreal, Kanada, 24-25, konstr. v. Parsons Klapp, Brinckerhoff &amp; Douglas i New York 25-31, därund. projekt, bl. a. Elmer J. West Station i Sacandaga River o. Spier Falls Station i Hudson River, egen fastigh :-förvaltn. i New York 31-32, arb :chef v. Kalmar stads byggn :kont. 33-35,’ stadsing. i Ronneby 35, byggn :chef i Kristinehamn 39-42, dito i Jönköp. sed. 42. Assoc. member of Amer. Soc. of Civil Engineers 30, led. av Sv. tekn:f’ören. 34.",
+    "translated": "Björklund, Karl Vilhelm, civil engineer, construction manager, Jönköping, b. 20/9/00 in Gothenburg to property owner Carl B. and Hilda Mattsson. Married Ina Sahlin in 1931. - Graduated from Gothenburg high school in 1919, studied at CTI (V) from 1919 to 1923. Draftsman and designer at Northern Electric Co. Ltd in Montreal, Canada, from 1924 to 1925, designer at Parsons Klapp, Brinckerhoff &amp; Douglas in New York from 1925 to 1931, where he worked on projects such as Elmer J. West Station on the Sacandaga River and Spier Falls Station on the Hudson River. Managed own properties in New York from 1931 to 1932, worked as a construction manager at Kalmar City Building Office from 1933 to 1935, city engineer in Ronneby in 1935, construction manager in Kristinehamn from 1939 to 1942, and in Jönköping since 1942. Associate member of the American Society of Civil Engineers since 1930, member of the Swedish Technical Association since 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Vilhelm Björklund\",\n  \"birthDate\": \"1900-09-20\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl B. Björklund\",\n      \"jobTitle\": \"property owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Mattsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ina Sahlin\",\n    \"marriageDate\": \"1931\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gothenburg\"\n      },\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Chalmers University of Technology\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gothenburg\"\n      },\n      \"startDate\": \"1919\",\n      \"endDate\": \"1923\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Civil Engineer\",\n    \"Construction Manager\",\n    \"City Engineer\"\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Montreal\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Northern Electric Co. Ltd\"\n      },\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"New York\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Parsons Klapp, Brinckerhoff, and Douglas\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1931\",\n      \"projects\": [\n        \"Elmer J. West Station on the Sacandaga River\",\n        \"Spier Falls Station on the Hudson River\"\n      ]\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"New York\",\n      \"jobTitle\": \"Property Manager\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Kalmar\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar City Building Office\"\n      },\n      \"jobTitle\": \"Construction Manager\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Ronneby\",\n      \"jobTitle\": \"City Engineer\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Kristinehamn\",\n      \"jobTitle\": \"Construction Manager\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Jönköping\",\n      \"jobTitle\": \"Construction Manager\",\n      \"startDate\": \"1942\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"American Society of Civil Engineers\",\n      \"status\": \"Associate Member\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\",\n      \"status\": \"Member\",\n      \"startDate\": \"1934\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Vilhelm Björklund",
+        "birthDate": "1900-09-20",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl B. Björklund",
+                "jobTitle": "property owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Mattsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ina Sahlin",
+            "marriageDate": "1931"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg"
+                },
+                "endDate": "1919"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Chalmers University of Technology",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg"
+                },
+                "startDate": "1919",
+                "endDate": "1923"
+            }
+        ],
+        "jobTitle": [
+            "Civil Engineer",
+            "Construction Manager",
+            "City Engineer"
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Montreal",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Northern Electric Co. Ltd"
+                },
+                "startDate": "1924",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Place",
+                "name": "New York",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Parsons Klapp, Brinckerhoff, and Douglas"
+                },
+                "startDate": "1925",
+                "endDate": "1931",
+                "projects": [
+                    "Elmer J. West Station on the Sacandaga River",
+                    "Spier Falls Station on the Hudson River"
+                ]
+            },
+            {
+                "@type": "Place",
+                "name": "New York",
+                "jobTitle": "Property Manager",
+                "startDate": "1931",
+                "endDate": "1932"
+            },
+            {
+                "@type": "Place",
+                "name": "Kalmar",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Kalmar City Building Office"
+                },
+                "jobTitle": "Construction Manager",
+                "startDate": "1933",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Place",
+                "name": "Ronneby",
+                "jobTitle": "City Engineer",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Place",
+                "name": "Kristinehamn",
+                "jobTitle": "Construction Manager",
+                "startDate": "1939",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Place",
+                "name": "Jönköping",
+                "jobTitle": "Construction Manager",
+                "startDate": "1942"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "American Society of Civil Engineers",
+                "status": "Associate Member",
+                "startDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "status": "Member",
+                "startDate": "1934"
+            }
+        ]
+    }
+}

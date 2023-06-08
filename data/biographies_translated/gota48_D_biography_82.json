@@ -1,0 +1,141 @@
+{
+    "original": "Davidsson, Edith Maria Augusta, rektor, Borås, f. 20/10/00 i Everöd, Krist. 1., av kyrkoh. August D. o. Jenny Liedholm. Stud :ex. i Lund 20, av-g:€x. fr. Kjellbergska h. lär:nesem. i Gbg 23, fil. kand. i Gbg 35. Stud. i ,psyk. i Wien 35. Ord. ämneslär. v. komm. flioksk. i Boråsi 23-46, rektor där fr. 47. Styr :led. i Fredr. Bremer-förb. Boråskrets, i Boråsavd. av Riks-fören. f. svenskh. bev. i uti., medl. av centr:styr. f. flick- o. •samsk:lär. riks-förb., l’ed. iav ’styr. f. Älvsb. 1. folk-högsk. i Fristad. Nämndeman.",
+    "translated": "Davidsson, Edith Maria Augusta, principal, Borås, born on October 20, 1900 in Everöd, Kristianstad County, daughter of the vicar August D. and Jenny Liedholm. She studied at Lund University, graduated in 1920, and completed her teacher training at Kjellbergska högre lärnäsem in Gothenburg in 1923. She obtained a Bachelor of Arts degree in Gothenburg in 1935, and studied psychology in Vienna in the same year. She worked as a subject teacher at a municipal girls' school in Borås from 1923 to 1946, and has been the principal there since 1947. She serves as a board member of the Fredrika Bremer Association, Borås chapter, and of the Borås division of the National Association for Swedish Neutrality in Foreign Affairs. She is a member of the central board for the National Association of Girls' and Mixed Schools, and is a member of the board of the People's High School in Älvsborg 1, in Fristad. She is also a lay judge.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Edith Maria Augusta Davidsson\",\n  \"jobTitle\": \"Principal\",\n  \"birthDate\": \"1900-10-20\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Everöd\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Kristianstad County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August D.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jenny Liedholm\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"endDate\": \"1920\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Kjellbergska högre lärnäsem\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gothenburg\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Gothenburg University\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gothenburg\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"degree\": {\n        \"@type\": \"BachelorDegree\",\n        \"name\": \"Bachelor of Arts\"\n      },\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"University of Vienna\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Vienna\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Vienna\",\n          \"addressCountry\": \"Austria\"\n        }\n      },\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Municipal girls' school\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Borås\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Borås\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1923\",\n      \"endDate\": \"1946\",\n      \"description\": \"Subject teacher\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Municipal girls' school\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Borås\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Borås\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1947\",\n      \"description\": \"Principal\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fredrika Bremer Association, Borås chapter\",\n      \"description\": \"Board member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"National Association for Swedish Neutrality in Foreign Affairs, Borås division\",\n      \"description\": \"Board member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"National Association of Girls' and Mixed Schools\",\n      \"description\": \"Central board member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"People's High School in Älvsborg 1, Fristad\",\n      \"description\": \"Board member\"\n    }\n  ],\n  \"jobTitle\": \"Lay judge\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Edith Maria Augusta Davidsson",
+        "jobTitle": "Lay judge",
+        "birthDate": "1900-10-20",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Everöd",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kristianstad County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "August D."
+            },
+            {
+                "@type": "Person",
+                "name": "Jenny Liedholm"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "endDate": "1920"
+            }
+        ],
+        "education": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Kjellbergska högre lärnäsem",
+                "location": {
+                    "@type": "City",
+                    "name": "Gothenburg",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "endDate": "1923"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Gothenburg University",
+                "location": {
+                    "@type": "City",
+                    "name": "Gothenburg",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "degree": {
+                    "@type": "BachelorDegree",
+                    "name": "Bachelor of Arts"
+                },
+                "endDate": "1935"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Vienna",
+                "location": {
+                    "@type": "City",
+                    "name": "Vienna",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Vienna",
+                        "addressCountry": "Austria"
+                    }
+                },
+                "endDate": "1935"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Municipal girls' school",
+                "location": {
+                    "@type": "City",
+                    "name": "Borås",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Borås",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1923",
+                "endDate": "1946",
+                "description": "Subject teacher"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Municipal girls' school",
+                "location": {
+                    "@type": "City",
+                    "name": "Borås",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Borås",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1947",
+                "description": "Principal"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Fredrika Bremer Association, Borås chapter",
+                "description": "Board member"
+            },
+            {
+                "@type": "Organization",
+                "name": "National Association for Swedish Neutrality in Foreign Affairs, Borås division",
+                "description": "Board member"
+            },
+            {
+                "@type": "Organization",
+                "name": "National Association of Girls' and Mixed Schools",
+                "description": "Central board member"
+            },
+            {
+                "@type": "Organization",
+                "name": "People's High School in Älvsborg 1, Fristad",
+                "description": "Board member"
+            }
+        ]
+    }
+}

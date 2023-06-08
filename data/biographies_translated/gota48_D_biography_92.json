@@ -1,0 +1,104 @@
+{
+    "original": "Dellborg, Johannes Georg, advokat, Göteborg, f. 27/6/97 i Gbg. G. 28 m. Dagmar Hariette Kjällman. Barn: Rolf f. 29, Stig 35. — Stud:ex. v. Gbgs latin 17, jur. kand. i Upps. 22. Tings-tjg. i Flundre, Väne o. Bjärke doms. 22-25, egen adv rverksamh. sed. 25, bitr. jur. i adv:firman Drakenberg &amp; von Sneidern i Gbg 25-40, deläg. där sed. 40. Ordf. i Gbgs distr :idr :förb., led. av Sv. skidförb, styr. sed. 42, ordf. i Skidfrämj. Gbgs-avd. sed. 43. Led. av Sv:es adv:samf. sed. 29.",
+    "translated": "Dellborg, Johannes Georg, lawyer, Gothenburg, born on 27/6/97 in Gothenburg. Married in 1928 to Dagmar Hariette Kjällman. Children: Rolf born in 1929, Stig born in 1935. He graduated from Gothenburg Latin School in 1917 and from Uppsala University with a law degree in 1922. He worked as a court clerk in Flundre, Väne and Bjärke from 1922-1925, then started his own law firm in 1925. From 1925-1940, he worked as a deputy lawyer in the law firm Drakenberg & von Sneidern in Gothenburg and became a co-owner in 1940. He was chairman of the Gothenburg district sports association and a board member of the Swedish Ski Association from 1942. He was also chairman of the Ski Promotion Gothenburg division from 1943. He became a member of the Swedish Bar Association in 1929.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Johannes Georg Dellborg\",\n   \"jobTitle\": \"Lawyer\",\n   \"birthDate\": \"1897-06-27\",\n   \"birthPlace\": \"Gothenburg, Sweden\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Dagmar Hariette Kjällman\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Rolf\",\n         \"birthDate\": \"1929\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Stig\",\n         \"birthDate\": \"1935\"\n      }\n   ],\n   \"education\": {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Uppsala University\"\n      },\n      \"startDate\": \"1917\",\n      \"endDate\": \"1922\"\n   },\n   \"employmentHistory\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1925\",\n         \"roleName\": \"Court Clerk\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Flundre, Väne and Bjärke courts\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1925\",\n         \"roleName\": \"Owner\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Law firm - Johannes Georg Dellborg\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1925\",\n         \"endDate\": \"1940\",\n         \"roleName\": \"Deputy Lawyer\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Drakenberg & von Sneidern law firm, Gothenburg\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1940\",\n         \"roleName\": \"Co-Owner\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Drakenberg & von Sneidern law firm, Gothenburg\"\n         }\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg district sports association\",\n         \"roleName\": \"Chairman\",\n         \"startDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Swedish Ski Association\",\n         \"roleName\": \"Board member\",\n         \"startDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Ski Promotion Gothenburg division\",\n         \"roleName\": \"Chairman\",\n         \"startDate\": \"1943\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Swedish Bar Association\",\n         \"roleName\": \"Member\",\n         \"startDate\": \"1929\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johannes Georg Dellborg",
+        "jobTitle": "Lawyer",
+        "birthDate": "1897-06-27",
+        "birthPlace": "Gothenburg, Sweden",
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagmar Hariette Kjällman"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rolf",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig",
+                "birthDate": "1935"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "institution": {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University"
+            },
+            "startDate": "1917",
+            "endDate": "1922"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1922",
+                "endDate": "1925",
+                "roleName": "Court Clerk",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Flundre, Väne and Bjärke courts"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1925",
+                "roleName": "Owner",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Law firm - Johannes Georg Dellborg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1925",
+                "endDate": "1940",
+                "roleName": "Deputy Lawyer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Drakenberg & von Sneidern law firm, Gothenburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1940",
+                "roleName": "Co-Owner",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Drakenberg & von Sneidern law firm, Gothenburg"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg district sports association",
+                "roleName": "Chairman",
+                "startDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Ski Association",
+                "roleName": "Board member",
+                "startDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ski Promotion Gothenburg division",
+                "roleName": "Chairman",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "roleName": "Member",
+                "startDate": "1929"
+            }
+        ]
+    }
+}

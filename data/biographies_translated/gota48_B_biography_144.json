@@ -1,0 +1,97 @@
+{
+    "original": "Berggren, Carl Erik Ragnar, stads-ingenjör, Oskarshamn, f. 10/6/94 i När, Gotl. h, av fyrmäst. Victor B. o. Eleonora Krokstedt. G. 21 m. Gurli Söderberg. Barn: Britt-Marie f. 28. — Realsk:ex. v. Visby h. a. 1. 11, civ:ing:ex. v. CTH (VoV) 18. Res. t. Engl., Balticum 14. Anst. v. hamn-styr. i Gbg 18-20, v. stadsing :kont. där 20-26, stadsingenjör i Oskarshamn fr. 26. V. ordf. i renhålln :styr., i stift. Solgårdar, led. av brandstyr. Medl. av Odd Feilov^, S :t Johanneslog. Ori-on. Hobby: båtbyggeri.",
+    "translated": "Berggren, Carl Erik Ragnar was a city engineer in Oskarshamn. He was born on June 10th, 1894 in När, Gotland to lighthouse master Victor B. Berggren and Eleonora Krokstedt. He married Gurli Söderberg in 1921 and they had a daughter named Britt-Marie, born in 1928. Carl Erik graduated from high school in Visby in 1911 and from Chalmers University of Technology in 1918. He traveled to England and the Baltic countries in 1914. He was employed at the port authority in Gothenburg from 1918-1920, then worked at the city engineering office there from 1920-1926. He became the city engineer in Oskarshamn in 1926. He was the vice chairman of the sanitation board and a member of the fire brigade. He was also a member of the Odd Fellows and St. John's Lodge Ori-on. His hobby was boat building.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Erik Ragnar Berggren\",\n  \"birthDate\": \"1894-06-10\",\n  \"birthPlace\": \"När, Gotland\",\n  \"occupation\": \"City Engineer\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Victor B. Berggren\",\n      \"jobTitle\": \"Lighthouse Master\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eleonora Krokstedt\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gurli Söderberg\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Britt-Marie Berggren\",\n    \"birthDate\": \"1928\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High School\",\n      \"dateIssued\": \"1911\",\n      \"issuer\": \"Visby High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Civil Engineering\",\n      \"dateIssued\": \"1918\",\n      \"issuer\": \"Chalmers University of Technology\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellows\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"St. John's Lodge Ori-on\"\n    }\n  ],\n  \"hobby\": \"Boat building\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Port Authority of Gothenburg\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1920\",\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Engineering Office, Gothenburg\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Oskarshamn Municipality\",\n      \"startDate\": \"1926\",\n      \"jobTitle\": \"City Engineer\"\n    }\n  ],\n  \"boardMember\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sanitation Board\",\n      \"roleName\": \"Vice Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Solgårdar Foundation\"\n    }\n  ],\n  \"memberOfService\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Fire Brigade\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Erik Ragnar Berggren",
+        "birthDate": "1894-06-10",
+        "birthPlace": "När, Gotland",
+        "occupation": "City Engineer",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Victor B. Berggren",
+                "jobTitle": "Lighthouse Master"
+            },
+            {
+                "@type": "Person",
+                "name": "Eleonora Krokstedt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gurli Söderberg",
+            "marriageDate": "1921"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Britt-Marie Berggren",
+            "birthDate": "1928"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High School",
+                "dateIssued": "1911",
+                "issuer": "Visby High School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Civil Engineering",
+                "dateIssued": "1918",
+                "issuer": "Chalmers University of Technology"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Odd Fellows"
+            },
+            {
+                "@type": "Organization",
+                "name": "St. John's Lodge Ori-on"
+            }
+        ],
+        "hobby": "Boat building",
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Port Authority of Gothenburg",
+                "startDate": "1918",
+                "endDate": "1920",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "City Engineering Office, Gothenburg",
+                "startDate": "1920",
+                "endDate": "1926",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Oskarshamn Municipality",
+                "startDate": "1926",
+                "jobTitle": "City Engineer"
+            }
+        ],
+        "boardMember": [
+            {
+                "@type": "Organization",
+                "name": "Sanitation Board",
+                "roleName": "Vice Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Solgårdar Foundation"
+            }
+        ],
+        "memberOfService": {
+            "@type": "Organization",
+            "name": "Fire Brigade"
+        }
+    }
+}

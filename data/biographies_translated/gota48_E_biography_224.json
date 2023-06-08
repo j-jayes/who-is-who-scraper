@@ -1,0 +1,60 @@
+{
+    "original": "Elmsjö, Rut Ingeborg, tandläkare, Ulricehamn, f. 22/3/97 i N. Solberga, Jönköp. 1. — Stud:ex. v. Palmgr. samsk. i Sthlm 22, med. kand. v. Ka-rol. inst. i Sthlm 29, tandl. 31. Vik. i Vetlanda 31, prakt, i Ulricehamn sed. 32, även skoltandl. där.",
+    "translated": "Elmsjö, Rut Ingeborg, dentist, Ulricehamn, b. March 22, 1897 in N. Solberga, Jönköping. Graduated from Palmgrenska samrealskolan in Stockholm in 1922 and earned a Bachelor of Medicine from the Karolinska Institute in Stockholm in 1929. Became a dentist in 1931. Worked as a temporary dentist in Vetlanda in 1931 and opened a dental practice in Ulricehamn in 1932. Also worked as a school dentist there.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rut Ingeborg Elmsjö\",\n  \"birthDate\": \"1897-03-22\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"N. Solberga\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"occupation\": {\n    \"@type\": \"Dentist\",\n    \"name\": \"Dentist\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. v. Palmgr. samsk. i Sthlm\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. kand. v. Karol. inst. i Sthlm\",\n      \"educationalLevel\": \"BachelorsDegree\",\n      \"awardDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandl\",\n      \"educationalLevel\": \"ProfessionalDegree\",\n      \"awardDate\": \"1931\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Vik. i Vetlanda\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Prakt, i Ulricehamn\",\n      \"startDate\": \"1932\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Även skoltandl. där\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rut Ingeborg Elmsjö",
+        "birthDate": "1897-03-22",
+        "birthPlace": {
+            "@type": "City",
+            "name": "N. Solberga"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "occupation": {
+            "@type": "Dentist",
+            "name": "Dentist"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. v. Palmgr. samsk. i Sthlm",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. kand. v. Karol. inst. i Sthlm",
+                "educationalLevel": "BachelorsDegree",
+                "awardDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl",
+                "educationalLevel": "ProfessionalDegree",
+                "awardDate": "1931"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Vik. i Vetlanda",
+                "startDate": "1931",
+                "endDate": "1931"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Prakt, i Ulricehamn",
+                "startDate": "1932"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Även skoltandl. där"
+            }
+        ]
+    }
+}

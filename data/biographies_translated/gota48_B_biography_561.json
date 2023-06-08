@@ -1,0 +1,107 @@
+{
+    "original": "Broberg, Nils, major, Oskarshamn, f. 12/!l0i/84 i Malmö av Gustaf B. o. Anna Frick. — Stud :ex. 06, off:ex. 08, stud. i Ryssland 11-13. Und:löjtn. v. Kalm. reg. 08, löjtn. 14, kapten 23, chefinstruktör f. Kalm. landst:förb. 26-34, major i armén 36, i Jönköp.-Kalm. reg. res. s. å., chefinstr. i Kaim. :1. (luftskifÖTb. sed. 38. RSO, RVO, RFrHL, Landst :GM, Nordö. Smål. landst:förb. GM.",
+    "translated": "Broberg, Nils, Major, Oskarshamn, b. 12/11/1884 in Malmö to Gustaf B. and Anna Frick. He passed his studentexamen in 1906, officersexamen in 1908 and pursued his studies in Russia from 1911 to 1913. He was appointed as a second lieutenant in the Kalm. regiment in 1908, became a lieutenant in 1914, a captain in 1923 and served as the chief instructor for Kalm. landsting’s medical association from 1926 to 1934. He was also appointed as a major in the army in 1936 and in the Jönköping-Kalmar regiment the same year. He served as the chief instructor for Kaim. 1st airship division since 1938. He was awarded RSO, RVO, RFrHL, Landst: GM, Nordö. Smål. landsting’s medical association GM. He got married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Broberg\",\n  \"birthDate\": \"1884-11-12\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Malmö\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf B. Broberg\",\n      \"sameAs\": \"urn:lsid:ris.bibsys.no:authority:90165811\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Frick\",\n      \"sameAs\": \"urn:lsid:ris.bibsys.no:authority:90169065\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studentexamen\",\n      \"description\": \"Passed in 1906\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Officersexamen\",\n      \"description\": \"Passed in 1908\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied abroad\",\n      \"description\": \"Studied in Russia from 1911 to 1913\"\n    }\n  ],\n  \"jobTitle\": \"Major\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalm. regiment\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalm. landsting's medical association\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1934\",\n      \"jobTitle\": \"Chief Instructor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Army\",\n      \"jobTitle\": \"Major\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping-Kalmar regiment\",\n      \"jobTitle\": \"Major\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kaim. 1st airship division\",\n      \"jobTitle\": \"Chief Instructor\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"RSO\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"RVO\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"RFrHL\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Landst: GM\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Nordö. Smål. landsting’s medical association GM\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"\",\n    \"sameAs\": \"\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Broberg",
+        "birthDate": "1884-11-12",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Malmö"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf B. Broberg",
+                "sameAs": "urn:lsid:ris.bibsys.no:authority:90165811"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Frick",
+                "sameAs": "urn:lsid:ris.bibsys.no:authority:90169065"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen",
+                "description": "Passed in 1906"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Officersexamen",
+                "description": "Passed in 1908"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied abroad",
+                "description": "Studied in Russia from 1911 to 1913"
+            }
+        ],
+        "jobTitle": "Major",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Kalm. regiment"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalm. landsting's medical association",
+                "startDate": "1926",
+                "endDate": "1934",
+                "jobTitle": "Chief Instructor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Army",
+                "jobTitle": "Major",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping-Kalmar regiment",
+                "jobTitle": "Major",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kaim. 1st airship division",
+                "jobTitle": "Chief Instructor",
+                "startDate": "1938"
+            }
+        ],
+        "award": [
+            {
+                "@type": "Order",
+                "name": "RSO"
+            },
+            {
+                "@type": "Order",
+                "name": "RVO"
+            },
+            {
+                "@type": "Order",
+                "name": "RFrHL"
+            },
+            {
+                "@type": "Order",
+                "name": "Landst: GM"
+            },
+            {
+                "@type": "Order",
+                "name": "Nordö. Smål. landsting’s medical association GM"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "",
+            "sameAs": ""
+        }
+    }
+}

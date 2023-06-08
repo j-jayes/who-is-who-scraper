@@ -1,0 +1,184 @@
+{
+    "original": "Christiansson, Martin Hugo, läroverksadjunkt, Göteborg, f. 3/9/95 i Ystad av Magnus C. o. Hanna Jönsson. — Stud:ex. i Ystad 15, teol. fil. ex. i Lund 18, teol. kand. 21, särsk. prövn: f. fil. ämb:ex. 39. ’ Vik. adj. v. Gbgs västra real 21, extralär. v. Falu h. a. (k 24-26, v. Vänersb. h. a. ’1. 27-28, vik. adj. v. Norrköp. h. a. 1.- 30-31, extralär. v. Ystads h. a. 1. 32-37, vik. ämneslär. v. Norrköp. ’komm. mel-lansk. 37-38, timlär. v. Gbgs östra real 39, vik. adj. där ’s. å., adj. där sed. 40.",
+    "translated": "Christiansson, Martin Hugo, high school teacher, Gothenburg, born September 3, 1895 in Ystad to Magnus C. and Hanna Jönsson. He graduated from high school in Ystad in 1915, received his bachelor's degree in theology from Lund University in 1918, became a theological candidate in 1921, and passed a special examination for a teaching degree in 1939. He was a substitute teacher at Gothenburg's West Real School in 1921, an extra teacher at Falun High School from 1924-1926, West Vannersborg High School from 1927-1928, a substitute teacher at Norrköping High School from 1930-1931, an extra teacher at Ystad High School from 1932-1937, a substitute subject teacher at the Norrköping comm. middle school from 1937-1938, a hourly teacher at Gothenburg East Real School in 1939, and a substitute teacher there the same year. He became a teacher there in 1940.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Martin Hugo Christiansson\",\n   \"birthDate\": \"1895-09-03\",\n   \"birthPlace\": \"Ystad\",\n   \"nationality\": \"Swedish\",\n   \"jobTitle\": \"High School Teacher\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg High School\"\n   },\n   \"alumniOf\": [\n      {\n         \"@type\": \"CollegeOrUniversity\",\n         \"name\": \"Lund University\",\n         \"location\": \"Lund, Sweden\",\n         \"degree\": {\n            \"@type\": \"EducationalDegree\",\n            \"name\": \"Bachelor\",\n            \"description\": \"Bachelor's degree in Theology\"\n         },\n         \"endDate\": \"1918\"\n      }\n   ],\n   \"educationCredential\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Teaching Degree\",\n         \"description\": \"Special examination for teaching degree\",\n         \"validFor\": {\n            \"@type\": \"Duration\",\n            \"duration\": \"P1Y\"\n         },\n         \"issuedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Unknown Institution\"\n         },\n         \"credentialCategory\": \"Teaching\",\n         \"earnedBy\": {\n            \"@type\": \"Person\",\n            \"name\": \"Martin Hugo Christiansson\"\n         },\n         \"credentialOffered\": {\n            \"@type\": \"Degree\",\n            \"name\": \"Teaching Degree\"\n         },\n         \"dateIssued\": \"1939\"\n      }\n   ],\n   \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg East Real School\",\n      \"location\": \"Gothenburg, Sweden\"\n   },\n   \"jobStartDate\": \"1940\",\n   \"hasOccupation\": [\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Substitute Teacher\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1921\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"Gothenburg West Real School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"Gothenburg\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Extra Teacher\",\n         \"startDate\": \"1924\",\n         \"endDate\": \"1926\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"Falun High School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"Falun\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Extra Teacher\",\n         \"startDate\": \"1927\",\n         \"endDate\": \"1928\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"West Vannersborg High School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"West Vannersborg\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Substitute Teacher\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1931\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"Norrköping High School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"Norrköping\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Extra Teacher\",\n         \"startDate\": \"1932\",\n         \"endDate\": \"1937\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"Ystad High School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"Ystad\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Substitute Subject Teacher\",\n         \"startDate\": \"1937\",\n         \"endDate\": \"1938\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"Norrköping Comm. Middle School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"Norrköping\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Hourly Teacher\",\n         \"startDate\": \"1939\",\n         \"endDate\": \"1939\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"Gothenburg East Real School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"Gothenburg\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Substitute Teacher\",\n         \"startDate\": \"1939\",\n         \"endDate\": \"1940\",\n         \"location\": {\n            \"@type\": \"Place\",\n            \"name\": \"Gothenburg East Real School\",\n            \"address\": {\n               \"@type\": \"PostalAddress\",\n               \"addressLocality\": \"Gothenburg\",\n               \"addressCountry\": \"Sweden\"\n            }\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Martin Hugo Christiansson",
+        "birthDate": "1895-09-03",
+        "birthPlace": "Ystad",
+        "nationality": "Swedish",
+        "jobTitle": "High School Teacher",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Gothenburg High School"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "location": "Lund, Sweden",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor",
+                    "description": "Bachelor's degree in Theology"
+                },
+                "endDate": "1918"
+            }
+        ],
+        "educationCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teaching Degree",
+                "description": "Special examination for teaching degree",
+                "validFor": {
+                    "@type": "Duration",
+                    "duration": "P1Y"
+                },
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown Institution"
+                },
+                "credentialCategory": "Teaching",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Martin Hugo Christiansson"
+                },
+                "credentialOffered": {
+                    "@type": "Degree",
+                    "name": "Teaching Degree"
+                },
+                "dateIssued": "1939"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg East Real School",
+            "location": "Gothenburg, Sweden"
+        },
+        "jobStartDate": "1940",
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Substitute Teacher",
+                "startDate": "1921",
+                "endDate": "1921",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg West Real School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Extra Teacher",
+                "startDate": "1924",
+                "endDate": "1926",
+                "location": {
+                    "@type": "Place",
+                    "name": "Falun High School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Falun",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Extra Teacher",
+                "startDate": "1927",
+                "endDate": "1928",
+                "location": {
+                    "@type": "Place",
+                    "name": "West Vannersborg High School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "West Vannersborg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Substitute Teacher",
+                "startDate": "1930",
+                "endDate": "1931",
+                "location": {
+                    "@type": "Place",
+                    "name": "Norrköping High School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Norrköping",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Extra Teacher",
+                "startDate": "1932",
+                "endDate": "1937",
+                "location": {
+                    "@type": "Place",
+                    "name": "Ystad High School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Ystad",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Substitute Subject Teacher",
+                "startDate": "1937",
+                "endDate": "1938",
+                "location": {
+                    "@type": "Place",
+                    "name": "Norrköping Comm. Middle School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Norrköping",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Hourly Teacher",
+                "startDate": "1939",
+                "endDate": "1939",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg East Real School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Substitute Teacher",
+                "startDate": "1939",
+                "endDate": "1940",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg East Real School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ]
+    }
+}

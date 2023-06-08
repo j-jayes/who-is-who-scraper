@@ -1,0 +1,61 @@
+{
+    "original": "Engdahl, Folke, tandläkare, Norrköping, f. 19/4/13 i Kristinehamn av pastor Adolf E. o. Emma Nilsson. G. m. Margareta Nilsson. Barn: Harriet f. 45. — Stud:ex. i Karlstad 32, med. stud. v. Karol. inst., tandl :kand. 34, tandl. 36. Prakt, i Norrköp. sed. 37. Hobby: segling.",
+    "translated": "Engdahl, Folke, dentist, Norrköping, born on April 19th, 1913 in Kristinehamn to pastor Adolf E. and Emma Nilsson. Married to Margareta Nilsson since an unknown year. Children: Harriet born in 1945. He passed his studentexamen in Karlstad in 1932, and studied medicine at Karolinska institutet. He completed his dental studies in 1934 and became a licensed dentist in 1936. He started his practice in Norrköping in 1937. His hobby is sailing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Folke Engdahl\",\n  \"jobTitle\": \"dentist\",\n  \"birthDate\": \"1913-04-19\",\n  \"birthPlace\": \"Kristinehamn, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Adolf E. Engdahl\",\n      \"jobTitle\": \"pastor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Nilsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Nilsson\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Harriet\",\n    \"birthDate\": \"1945\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Studentexamen\",\n      \"educationalCredentialAwarded\": \"Karlstaad 1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Medicine\",\n      \"educationalCredentialAwarded\": \"Karol. inst.\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Dental studies\",\n      \"educationalCredentialAwarded\": \"1934\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Dental Association\"\n  },\n  \"sameAs\": \"http://en.wikipedia.org/wiki/Folke_Engdahl\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping, Sweden\"\n  },\n  \"startDate\": \"1937-01-01\",\n  \"hobbies\": \"Sailing\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Engdahl",
+        "jobTitle": "dentist",
+        "birthDate": "1913-04-19",
+        "birthPlace": "Kristinehamn, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Adolf E. Engdahl",
+                "jobTitle": "pastor"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Nilsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Nilsson"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Harriet",
+            "birthDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Studentexamen",
+                "educationalCredentialAwarded": "Karlstaad 1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Medicine",
+                "educationalCredentialAwarded": "Karol. inst."
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Dental studies",
+                "educationalCredentialAwarded": "1934"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Association"
+        },
+        "sameAs": "http://en.wikipedia.org/wiki/Folke_Engdahl",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping, Sweden"
+        },
+        "startDate": "1937-01-01",
+        "hobbies": "Sailing"
+    }
+}

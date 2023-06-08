@@ -1,0 +1,109 @@
+{
+    "original": "Collin, Erik Gustaf, notarie, Kinna, f. 5/10/00 i Skara av köpm. Gustaf C. o. Anna Odhner. G. 40 m. Ingrid Andersson. Barn: Bo f. 46. — Stud:-ex. i Skara 19, DHS, kansliex. v. Sthlms högsk. Anst. h. adv. Gunnar Coll-in i Lidköp., v. A-B Gbgs Hand:-bank i Borås, dir. f. N. Marks Egna-hem^s A-B i Kinna sed. 45, inneh. av Kinna Juridiska Byrå sed. 36. Led. av istyr. f. A-B Gbgs Bank i Kinna, ordf. i hyresnd i Kinna 42, Skene 42, Fritsla 44 o. Seglora 44.",
+    "translated": "Collin, Erik Gustaf, clerk, Kinna, born on October 5th, 1900 in Skara to merchant Gustaf C. and Anna Odhner. Married in 1940 to Ingrid Andersson. They had a son named Bo, born in 1946. He completed his high school studies in Skara in 1919, obtained a DHS degree, and a clerkship at Stockholm University. He was employed by lawyer Gunnar Coll-in in Lidköp., A-B Gbgs Hand:-bank in Borås, N. Marks Egna-hem^s A-B in Kinna from 1945, and became the owner of Kinna Juridiska Byrå since 1936. He was a board member of A-B Gbgs Bank in Kinna, chairman of the rental board in Kinna (1942), Skene (1942), Fritsla (1944) and Seglora (1944).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Gustaf Collin\",\n  \"jobTitle\": \"Clerk\",\n  \"birthPlace\": \"Skara, Sweden\",\n  \"birthDate\": \"1900-10-05\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf C Collin\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Odhner\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Andersson\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bo Collin\",\n    \"birthDate\": \"1946\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:-ex\",\n      \"credentialCategory\": \"High School\",\n      \"educationLevel\": \"High School Diploma\",\n      \"alumniOf\": \"Skara\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"DHS\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"University Degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Kansliex\",\n      \"credentialCategory\": \"Clerkship\",\n      \"employer\": \"Stockholm University\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Gbgs Hand-Bank\",\n      \"position\": \"Employee\",\n      \"location\": \"Borås, Sweden\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"N. Marks Egna-Hems A-B\",\n      \"position\": \"Owner\",\n      \"location\": \"Kinna, Sweden\",\n      \"startDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kinna Juridiska Byrå\",\n      \"position\": \"Owner\",\n      \"location\": \"Kinna, Sweden\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Gbgs Bank\",\n      \"position\": \"Board Member\",\n      \"location\": \"Kinna, Sweden\"\n    }\n  ],\n  \"chairmanOf\": [\n    {\n      \"@type\": \"Intangible\",\n      \"name\": \"Rental Board\",\n      \"location\": \"Kinna, Sweden\",\n      \"startDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Intangible\",\n      \"name\": \"Rental Board\",\n      \"location\": \"Skene, Sweden\",\n      \"startDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Intangible\",\n      \"name\": \"Rental Board\",\n      \"location\": \"Fritsla, Sweden\",\n      \"startDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Intangible\",\n      \"name\": \"Rental Board\",\n      \"location\": \"Seglora, Sweden\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Gustaf Collin",
+        "jobTitle": "Clerk",
+        "birthPlace": "Skara, Sweden",
+        "birthDate": "1900-10-05",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf C Collin",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Odhner"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Andersson",
+            "marriageDate": "1940"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bo Collin",
+            "birthDate": "1946"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:-ex",
+                "credentialCategory": "High School",
+                "educationLevel": "High School Diploma",
+                "alumniOf": "Skara"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "DHS",
+                "credentialCategory": "Degree",
+                "educationalLevel": "University Degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Kansliex",
+                "credentialCategory": "Clerkship",
+                "employer": "Stockholm University"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A-B Gbgs Hand-Bank",
+                "position": "Employee",
+                "location": "Borås, Sweden"
+            },
+            {
+                "@type": "Organization",
+                "name": "N. Marks Egna-Hems A-B",
+                "position": "Owner",
+                "location": "Kinna, Sweden",
+                "startDate": "1945"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kinna Juridiska Byrå",
+                "position": "Owner",
+                "location": "Kinna, Sweden",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Gbgs Bank",
+                "position": "Board Member",
+                "location": "Kinna, Sweden"
+            }
+        ],
+        "chairmanOf": [
+            {
+                "@type": "Intangible",
+                "name": "Rental Board",
+                "location": "Kinna, Sweden",
+                "startDate": "1942"
+            },
+            {
+                "@type": "Intangible",
+                "name": "Rental Board",
+                "location": "Skene, Sweden",
+                "startDate": "1942"
+            },
+            {
+                "@type": "Intangible",
+                "name": "Rental Board",
+                "location": "Fritsla, Sweden",
+                "startDate": "1944"
+            },
+            {
+                "@type": "Intangible",
+                "name": "Rental Board",
+                "location": "Seglora, Sweden",
+                "startDate": "1944"
+            }
+        ]
+    }
+}

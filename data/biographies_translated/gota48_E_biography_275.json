@@ -1,0 +1,63 @@
+{
+    "original": "Engquist, Nils Oscar, ’distriktsveterinär, Högsby, f. 31/5/05 i St. Malm, Södermani. 1., av O^scar E. o. Ester Petters-son. G. 39 m. Greta Jonsson. Barn: Björn Eric f. 45. — Stud :ex. v. norra real i Sthlm 27, veter:ex. 33. Diis’tr :veter. i Bredbyn 40-46, à Högis-by fr. 46. Hobbies: jakt, fiske.",
+    "translated": "Engquist, Nils Oscar, 'District veterinarian, Högsby', born May 31, 1905 in St. Malm, Södermani. First child of Oscar E. and Ester Pettersson. Married in 1939 to Greta Jonsson. They have one child: Björn Eric, born in 1945. Engquist completed his high school education at Norra Real in Stockholm in 1927, and his veterinary education in 1933. He worked as a district veterinarian in Bredbyn from 1940-1946 before moving to Högsby in 1946. His hobbies include hunting and fishing.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Oscar Engquist\",\n  \"birthDate\": \"1905-05-31\",\n  \"birthPlace\": \"St. Malm, Södermani\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oscar E. Engquist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Pettersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Jonsson\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Björn Eric Engquist\",\n    \"birthDate\": \"1945\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norra Real\",\n      \"location\": \"Stockholm\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Veterinary School\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"jobTitle\": \"District veterinarian\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Bredbyn\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Högsby\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"SportsTeam\",\n    \"name\": \"Hunting and fishing club\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Oscar Engquist",
+        "birthDate": "1905-05-31",
+        "birthPlace": "St. Malm, Södermani",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Oscar E. Engquist"
+            },
+            {
+                "@type": "Person",
+                "name": "Ester Pettersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Jonsson",
+            "marriageDate": "1939"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Björn Eric Engquist",
+            "birthDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norra Real",
+                "location": "Stockholm",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Veterinary School",
+                "endDate": "1933"
+            }
+        ],
+        "jobTitle": "District veterinarian",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Bredbyn",
+                "startDate": "1940",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Place",
+                "name": "Högsby",
+                "startDate": "1946"
+            }
+        ],
+        "memberOf": {
+            "@type": "SportsTeam",
+            "name": "Hunting and fishing club"
+        }
+    }
+}

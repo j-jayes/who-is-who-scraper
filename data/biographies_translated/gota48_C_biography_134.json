@@ -1,0 +1,92 @@
+{
+    "original": "Collin, Gustaf Gunnar, advokat, Lidköping, f. 10/10/97 i Skara av dir. Gustaf C. o. Anna Odhner. G. 31 m. Irma Albinson. — Stud:ex. i Skara 16, jur. kand. i Upps. 26. Tingstjg. i Vadsbo norra doms. 26-28, egen adv:-byrå i Lidköp. sed. 29, ombudsman i Lidköp. köpmrfören., ombud f. Norrköp. köpm:fören., konsult, jurist i Skarab. 1. jaktv ifören., jur. ombud f. KAK o. Motormännens riksförb. m. m. Led. av Sv:es adv:samf. sed. 35.",
+    "translated": "Collin, Gustaf Gunnar, lawyer, Lidköping, born on October 10, 1897 in Skara to director Gustaf C. and Anna Odhner. Married on July 31 to Irma Albinson. Graduated from Skara high school in 1916, obtained a law degree from Uppsala in 1926. Served as a court assessor in the northern district court of Vadsbo from 1926-1928, ran his own law firm in Lidköping since 1929, and served as a representative for the Lidköping merchants association and the Norrköping merchants association. Also worked as a consultant and lawyer in Skaraborg. Member of the Swedish Bar Association since 1935. Also a member of the hunting association and acted as a legal representative for the Consumers' Association of Sweden and the Swedish Automobile Association among others.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Gunnar Collin\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthPlace\": \"Skara, Sweden\",\n  \"birthDate\": \"1897-10-10\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Collin\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Odhner\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Irma Albinson\",\n    \"marriageDate\": \"1931-07-31\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": \"High School\",\n    \"issuedBy\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara High School\"\n    },\n    \"endDate\": \"1916\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Uppsala University\",\n    \"endDate\": \"1926\"\n  },\n  \"jobTitle\": \"Lawyer\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Northern District Court of Vadsbo\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"jobTitle\": \"Court Assessor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lidköping Merchants Association\",\n      \"jobTitle\": \"Representative\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Merchants Association\",\n      \"jobTitle\": \"Representative\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Consumers' Association of Sweden\",\n      \"jobTitle\": \"Legal Representative\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Automobile Association\",\n      \"jobTitle\": \"Legal Representative\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hunting Association\",\n      \"jobTitle\": \"Member\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gustaf Gunnar Collin Law Firm\",\n    \"startDate\": \"1929\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Lidköping\",\n    \"addressCountry\": \"Sweden\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Gunnar Collin",
+        "jobTitle": "Lawyer",
+        "birthPlace": "Skara, Sweden",
+        "birthDate": "1897-10-10",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Collin",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Odhner"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Irma Albinson",
+            "marriageDate": "1931-07-31"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "High School",
+            "issuedBy": {
+                "@type": "Organization",
+                "name": "Skara High School"
+            },
+            "endDate": "1916"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Uppsala University",
+            "endDate": "1926"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Northern District Court of Vadsbo",
+                "startDate": "1926",
+                "endDate": "1928",
+                "jobTitle": "Court Assessor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lidköping Merchants Association",
+                "jobTitle": "Representative"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Merchants Association",
+                "jobTitle": "Representative"
+            },
+            {
+                "@type": "Organization",
+                "name": "Consumers' Association of Sweden",
+                "jobTitle": "Legal Representative"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Automobile Association",
+                "jobTitle": "Legal Representative"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hunting Association",
+                "jobTitle": "Member"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gustaf Gunnar Collin Law Firm",
+            "startDate": "1929"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lidköping",
+            "addressCountry": "Sweden"
+        }
+    }
+}

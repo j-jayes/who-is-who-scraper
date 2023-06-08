@@ -1,0 +1,97 @@
+{
+    "original": "Crona, John Richard, major, Eksjö, f. 30/12/89 å Gyllenfors Bruk, Anders-torps s:n, Jönköp. L, av fd. bruksäg. Frans August C. o. Ew^a Aurora Hedvig Fredrika Planting-Gyllenbåga. G. 18 m. Gunhild Francke. Barn: Nils f. 21. — Stud:ex. i Gävle 08, off:ex. 10, GCI 16-18. Und:löjtn. v. Kalmar reg. 10, löjtn. 15, kapt. i reg. 25, v. Jönköp.-Kalmar reg. 28, major i Jönköp.-Kalmar reg. res. 41. RSO, SkytteM.",
+    "translated": "Crona, John Richard, Major, Eksjö, born on December 30, 1889 at Gyllenfors Bruk, Anders-torp parish, Jönköping County. Son of former owner of the ironworks Frans August C. and Ew^a Aurora Hedvig Fredrika Planting-Gyllenbåga. Married Gunhild Francke in 1918 and had a son named Nils, born in 1921. Studied for university entrance qualification in Gävle in 1908, graduated from officer's school in 1910, and attended the General Staff Course at the Military Staff College in 1916-1918. Served as a second lieutenant in the Kalmar regiment in 1910, promoted to lieutenant in 1915, appointed as captain in 1925, transferred to the Jönköping-Kalmar regiment in 1928, and retired as major in the Jönköping-Kalmar regiment in 1941. Awarded RSO (the Royal Order of the Sword) and SkytteM.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Richard Crona\",\n  \"birthDate\": \"1889-12-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gyllenfors Bruk, Anders-torp parish, Jönköping County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Frans August C.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ew^a Aurora Hedvig Fredrika Planting-Gyllenbåga\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunhild Francke\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Crona\",\n      \"birthDate\": \"1921\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"University entrance qualification\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"1908\",\n      \"recognizedBy\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gävle\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Officer's school graduation\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"General Staff Course completion\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1918\",\n      \"recognizedBy\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Military Staff College\"\n      }\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar regiment\",\n      \"jobTitle\": \"Second Lieutenant\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar regiment\",\n      \"jobTitle\": \"Captain\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping-Kalmar regiment\",\n      \"jobTitle\": \"Major\",\n      \"startDate\": \"1941\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the Sword\"\n    },\n    {\n      \"@type\": \"OrderOfMerit\",\n      \"name\": \"SkytteM\"\n    }\n  ],\n  \"@id\": \"https://example.com/persons/1234\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Richard Crona",
+        "birthDate": "1889-12-30",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gyllenfors Bruk, Anders-torp parish, Jönköping County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Frans August C."
+            },
+            {
+                "@type": "Person",
+                "name": "Ew^a Aurora Hedvig Fredrika Planting-Gyllenbåga"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunhild Francke"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Nils Crona",
+                "birthDate": "1921"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "University entrance qualification",
+                "startDate": "1908",
+                "endDate": "1908",
+                "recognizedBy": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gävle"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Officer's school graduation",
+                "startDate": "1910",
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "General Staff Course completion",
+                "startDate": "1916",
+                "endDate": "1918",
+                "recognizedBy": {
+                    "@type": "EducationalOrganization",
+                    "name": "Military Staff College"
+                }
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Kalmar regiment",
+                "jobTitle": "Second Lieutenant",
+                "startDate": "1910",
+                "endDate": "1915"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalmar regiment",
+                "jobTitle": "Captain",
+                "startDate": "1925",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping-Kalmar regiment",
+                "jobTitle": "Major",
+                "startDate": "1941"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the Sword"
+            },
+            {
+                "@type": "OrderOfMerit",
+                "name": "SkytteM"
+            }
+        ],
+        "@id": "https://example.com/persons/1234"
+    }
+}

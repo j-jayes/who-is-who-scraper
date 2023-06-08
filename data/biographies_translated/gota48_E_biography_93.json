@@ -1,0 +1,138 @@
+{
+    "original": "Ekberg, Nils, stiftsjägmästare, Göteborg, f. 20/6/96 i Kärna, Östergötl. 1, av kontr :prost. Axel E. o. Hilda Olsson. G. 35 m. Ingrid Berglind. Barn: Lars f. 40. — Studiex. i Linköp. 15, utex. fr. skogshögsk. 23. Assist, h. skogsv istyr. i Goitl. ’1. 23-33, e. jäg-mäst. i ’domänv. 29, assist, å S. Sor-sele revir 29, ’stiftsjägmäst. i Vrsby 33-34, istiftsjägmäst. i Gbg sed. 44. Led. av o. sekr. i sällisk. D. B. V:-s trädgrstyr. i Visby 35-44 samt tiiMsyn:-man i botan. trädg. där, led. av kris-tidsslyr. i GotH. 1. 40-44, led. av styr. f. Gotl. hembygdsförb. 41-44, led. av Sv. naturskyddsfören. Gbgs-komm. sed. 44, uppdr. av VAs naturskydds-komni. m. fl. f. utredn. av olika na-turv:frågor. Sv. naturskyddsfören. för-tjiplak. 43.",
+    "translated": "Ekberg, Nils, county forest ranger, Gothenburg, born June 20th, 1896 in Kärna, Östergötland, son of district pastor Axel E. and Hilda Olsson. Married in 1935 to Ingrid Berglind, with one child: Lars, born in 1940. Completed his studies in Linköping in 1915 and graduated from the Forestry College in 1923. Worked as an assistant at the forestry inspectorate in Gothenburg from 1923 to 1933, followed by a position as gamekeeper at the royal domains in 1929, and assistant at the South Sor-sele hunting area in 1929. Served as county forest ranger in Värsby from 1933 to 1934 and in Gothenburg from 1944 onwards. Was a member and secretary of the society \"D. B. V:-s trädgrstyr.\" in Visby from 1935 to 1944, as well as inspector in the botanical gardens there, member of the crisis time employment committee in Gotland from 1940 to 1944, member of the board of the Gotland's local heritage association from 1941 to 1944, and member of the Swedish Society for Nature Conservation Gothenburg committee from 1944. Was entrusted with various nature-related tasks by the Swedish Nature Conservation Society and the Royal Swedish Academy of Sciences. Honorary member of the Swedish Society for Nature Conservation, awarded in 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Ekberg\",\n  \"birthDate\": \"1896-06-20\",\n  \"birthPlace\": \"Kärna, Östergötland\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"County forest ranger\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"D.B.V.'s trädgrstyr\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1944\",\n      \"roleName\": \"Secretary\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Society for Nature Conservation\",\n      \"startDate\": \"1944\",\n      \"roleName\": \"Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland's Local Heritage Association\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1944\",\n      \"roleName\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Crisis Time Employment Committee in Gotland\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1944\",\n      \"roleName\": \"Member\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel E.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Olsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Berglind\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Ekberg\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Forestry College\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Studiex\",\n      \"endDate\": \"1915\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1933\",\n      \"roleName\": \"Assistant\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Forestry Inspectorate in Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1933\",\n      \"roleName\": \"Gamekeeper\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Royal Domains\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": null,\n      \"roleName\": \"Assistant\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"South Sor-sele Hunting Area\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\",\n      \"roleName\": \"County forest ranger\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Värsby\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1944\",\n      \"endDate\": null,\n      \"roleName\": \"County forest ranger\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      }\n    }\n  ],\n  \"additionalProperty\": [\n    {\n      \"@type\": \"PropertyValue\",\n      \"propertyID\": \"Swedish Society for Nature Conservation Honorary Membership\",\n      \"value\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Ekberg",
+        "birthDate": "1896-06-20",
+        "birthPlace": "Kärna, Östergötland",
+        "nationality": "Swedish",
+        "jobTitle": "County forest ranger",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "D.B.V.'s trädgrstyr",
+                "startDate": "1935",
+                "endDate": "1944",
+                "roleName": "Secretary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Society for Nature Conservation",
+                "startDate": "1944",
+                "roleName": "Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland's Local Heritage Association",
+                "startDate": "1941",
+                "endDate": "1944",
+                "roleName": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Crisis Time Employment Committee in Gotland",
+                "startDate": "1940",
+                "endDate": "1944",
+                "roleName": "Member"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Axel E."
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Olsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Berglind",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Ekberg",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Forestry College",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Studiex",
+                "endDate": "1915"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1923",
+                "endDate": "1933",
+                "roleName": "Assistant",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Forestry Inspectorate in Gothenburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": "1933",
+                "roleName": "Gamekeeper",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Royal Domains"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": null,
+                "roleName": "Assistant",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "South Sor-sele Hunting Area"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1933",
+                "endDate": "1934",
+                "roleName": "County forest ranger",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Värsby"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "endDate": null,
+                "roleName": "County forest ranger",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                }
+            }
+        ],
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "propertyID": "Swedish Society for Nature Conservation Honorary Membership",
+                "value": "1943"
+            }
+        ]
+    }
+}

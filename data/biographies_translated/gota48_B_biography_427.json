@@ -1,0 +1,106 @@
+{
+    "original": "Bodinson, Gustaf Adolf, distriktsveterinär, Mellerud, f. 27/2/04 i Enång-er, Gävleb. 1. Fosterföräldr.: kontr :-prost W. Gustavsson o. h. h. f. Bodinson. G. 42 m. Brita Brolinson. Barn: Kristina f. 43, Karl-Gustav 46. — Stud:ex. i Upps. 23, veter:ex. 31. Distr :veter. i Föllinge 36-43, i Melle-rud fr. 43, besiktn :veter. fr. 43. Hob-bics: jakt, skytte. SkytteSm.",
+    "translated": "Bodinson, Gustaf Adolf, district veterinarian, Mellerud, born on February 27, 1904 in Enånger, Gävleborg County. Adoptive parents: chaplain W. Gustavsson and his wife, h. h. f. Bodinson. Married in 1942 to Brita Brolinson. Children: Kristina, born in 1943, and Karl-Gustav, born in 1946. Gustaf passed his student exam in Uppsala in 1923, and his veterinary exam in 1931. He worked as a district veterinarian in Föllinge from 1936 to 1943, and in Mellerud from 1943, also inspecting animals from 1943. His hobbies were hunting and shooting. He was a member of the Shooting Sports.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Adolf Bodinson\",\n  \"birthDate\": \"1904-02-27\",\n  \"birthPlace\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Enånger\",\n    \"addressRegion\": \"Gävleborg County\"\n  },\n  \"adoptiveParents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"W. Gustavsson\",\n      \"jobTitle\": \"Chaplain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"H. H. F. Bodinson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Brolinson\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Gustav\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Student Exam\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"issuedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"dateIssued\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Veterinary Exam\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      },\n      \"issuedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      },\n      \"dateIssued\": \"1931\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Shooting Sports\"\n  },\n  \"jobTitle\": [\n    \"District Veterinarian\"\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Föllinge\",\n      \"addressRegion\": \"Unknown\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Mellerud\",\n      \"addressRegion\": \"Unknown\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"knowsAbout\": [\n    \"Hunting\",\n    \"Shooting\"\n  ],\n  \"performerIn\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Adolf Bodinson",
+        "birthDate": "1904-02-27",
+        "birthPlace": {
+            "@type": "PostalAddress",
+            "addressLocality": "Enånger",
+            "addressRegion": "Gävleborg County"
+        },
+        "adoptiveParents": [
+            {
+                "@type": "Person",
+                "name": "W. Gustavsson",
+                "jobTitle": "Chaplain"
+            },
+            {
+                "@type": "Person",
+                "name": "H. H. F. Bodinson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Brolinson",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kristina",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl-Gustav",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Student Exam",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                },
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                },
+                "dateIssued": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Veterinary Exam",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                },
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                },
+                "dateIssued": "1931"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Shooting Sports"
+        },
+        "jobTitle": [
+            "District Veterinarian"
+        ],
+        "workLocation": [
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Föllinge",
+                "addressRegion": "Unknown",
+                "startDate": "1936",
+                "endDate": "1943"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Mellerud",
+                "addressRegion": "Unknown",
+                "startDate": "1943"
+            }
+        ],
+        "knowsAbout": [
+            "Hunting",
+            "Shooting"
+        ],
+        "performerIn": [
+            {
+                "@type": "Organization",
+                "name": "Unknown"
+            }
+        ]
+    }
+}

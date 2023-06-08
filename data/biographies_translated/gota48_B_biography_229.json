@@ -1,0 +1,120 @@
+{
+    "original": "Berlin, Axel Gunnar, civilingenjör, direktörsassistent, Trollihättan, f. 23/ 3/92 i Stora Köpinge, Malmöh. 1., av handl. Ingvar B. o. Hanna Nilsson. G. 23 m. Karin Sjöberg. Barn: Lars f. 27, Harald 32. — Studrex. i Lund 11, stud. v. CTI (E) 12-15. Res. t. Tyskl. o. Österr. 21, Finl. 23. Anst. v. Nya Fören. Elektr. A-B i Ludvika 16, v. statens vattenf :verk sed. 16, därav und :ing. v. Älvkarleby kraftv. i Hedemora 16-19, distr rassist. där 19-22, ing. v. Porjus kraftv. i Luleå 22-25, distr :ing. där 25-31, distr :ing. v. Norrfors kraftv. i Umeå 31-34, dir:-assist. v. Norrländska kraftv. i Umeå 34-36, dito v. Trollhätte kraftv. sed. 36. RVO.",
+    "translated": "Berlin, Axel Gunnar, Civil Engineer, Director's Assistant, Trollhättan, born on March 23, 1892 in Stora Köpinge, Malmöhus County, Sweden. 1st child of merchant Ingvar B. and Hanna Nilsson. Married to Karin Sjöberg in 1923, with two children: Lars, born in 1927, and Harald, born in 1932. \n\nStudied at Lund University in 1911, and a student at CTI (E) from 1912-1915. Traveled to Germany and Austria in 1921, and to Finland in 1923. \n\nWas employed by Nya Fören. Elektr. A-B in Ludvika from 1916. Worked at the National Waterworks from 1916, including as Assistant Engineer at Älvkarleby power station in Hedemora from 1916-1919, District Race Tree from 1919-1922, and as an Engineer at Porjus power station in Luleå from 1922-1925. He served as the District Engineer in Norrfors power station in Umeå from 1931-1934, and Director's Assistant at Norrland's power station in Umeå from 1934-1936, and later at Trollhättan power station from 1936. He was awarded the RVO.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Gunnar Berlin\",\n  \"birthdate\": \"1892-03-23\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Stora Köpinge\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressCountry\": \"Sweden\",\n      \"addressRegion\": \"Malmöhus County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Nilsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Sjöberg\",\n    \"marriageDate\": \"1923\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthdate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harald\",\n      \"birthdate\": \"1932\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Civil Engineer\",\n    \"Director's Assistant\"\n  ],\n  \"nationality\": \"Swedish\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"N/A\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"CTI (E)\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1915\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"EmploymentOrganization\",\n    \"name\": \"Nya Fören. Elektr. A-B\",\n    \"startDate\": \"1916\",\n    \"endDate\": \"N/A\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"National Waterworks\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"N/A\",\n      \"jobTitle\": \"Assistant Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älvkarleby power station\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1919\",\n      \"jobTitle\": \"Assistant Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Porjus power station\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1925\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrfors power station\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\",\n      \"jobTitle\": \"District Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrland's power station\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1936\",\n      \"jobTitle\": \"Director's Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättan power station\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"N/A\",\n      \"jobTitle\": \"Director's Assistant\"\n    }\n  ],\n  \"memberOfAward\": {\n    \"@type\": \"Achievement\",\n    \"name\": \"RVO\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Axel Gunnar Berlin",
+        "birthdate": "1892-03-23",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Stora Köpinge",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Sweden",
+                "addressRegion": "Malmöhus County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ingvar B."
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Nilsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Sjöberg",
+            "marriageDate": "1923"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthdate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Harald",
+                "birthdate": "1932"
+            }
+        ],
+        "jobTitle": [
+            "Civil Engineer",
+            "Director's Assistant"
+        ],
+        "nationality": "Swedish",
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "startDate": "1911",
+                "endDate": "N/A"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "CTI (E)",
+                "startDate": "1912",
+                "endDate": "1915"
+            }
+        ],
+        "memberOf": {
+            "@type": "EmploymentOrganization",
+            "name": "Nya Fören. Elektr. A-B",
+            "startDate": "1916",
+            "endDate": "N/A"
+        },
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "National Waterworks",
+                "startDate": "1916",
+                "endDate": "N/A",
+                "jobTitle": "Assistant Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvkarleby power station",
+                "startDate": "1916",
+                "endDate": "1919",
+                "jobTitle": "Assistant Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Porjus power station",
+                "startDate": "1922",
+                "endDate": "1925",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrfors power station",
+                "startDate": "1931",
+                "endDate": "1934",
+                "jobTitle": "District Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrland's power station",
+                "startDate": "1934",
+                "endDate": "1936",
+                "jobTitle": "Director's Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Trollhättan power station",
+                "startDate": "1936",
+                "endDate": "N/A",
+                "jobTitle": "Director's Assistant"
+            }
+        ],
+        "memberOfAward": {
+            "@type": "Achievement",
+            "name": "RVO"
+        }
+    }
+}

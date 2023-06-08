@@ -1,0 +1,103 @@
+{
+    "original": "Brenke, Eskil Gottfrid, civilingenjör, Nässjö, f. 15/12/06 i Säby, Jönköp. 1. G. 36 m. Margit Kjellin. B’arn: Christer f. 39, UMa-Briitt 44. — Stud:ex. i Eksjö 26, avg:ex. fr. KTH (E) 33. Anst. v. Smål. Kraft A-B i Nässjö 33-34, v. SJs elektrifier. i Näs’sjö 35-36, bitr. ing. v. Nässjö stads elverk 35-36, driftsing. v. Smålands Kraft A-B sed. 36. Suppl. i styr. Led. av brandstyr. Led. av Sv. tekn:-fören. fr. 34, medl. av KFUM. Hob-bie’s: arbetet, friluftsliv.",
+    "translated": "Brenke, Eskil Gottfrid, civil engineer, Nässjö, born December 15, 1906 in Säby, Jönköping. Married once in 1936 to Margit Kjellin. Children: Christer, born in 1939, and UMa-Briitt, born in 1944. Graduated from Eksjö in 1926 and KTH (E) in 1933. Employed by Smål. Kraft A-B in Nässjö from 1933-34, assisted with electrification of SJs in Nässjö from 1935-36, assistant engineer at Nässjö city power plant from 1935-36, and then chief engineer of Smålands Kraft A-B since 1936. Serves as a member of the fire department board and the Swedish Technical Association since 1934, and is a member of KFUM. Hobbies include work and outdoor activities.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Eskil Gottfrid Brenke\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthDate\": \"1906-12-15\",\n  \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Säby, Jönköping\"\n  },\n  \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Kjellin\",\n      \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n      {\n          \"@type\": \"Person\",\n          \"name\": \"Christer\",\n          \"birthDate\": \"1939\"\n      },\n      {\n          \"@type\": \"Person\",\n          \"name\": \"UMa-Briitt\",\n          \"birthDate\": \"1944\"\n      }\n  ],\n  \"education\": [\n      {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"name\": \"Stud:ex.\",\n          \"educationalLevel\": \"SecondaryEducation\",\n          \"issuer\": {\n              \"@type\": \"Organization\",\n              \"name\": \"Eksjö\"\n          },\n          \"endDate\": \"1926\"\n      },\n      {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"name\": \"Avg:ex.\",\n          \"educationalLevel\": \"HigherEducation\",\n          \"issuer\": {\n              \"@type\": \"Organization\",\n              \"name\": \"KTH (E)\"\n          },\n          \"endDate\": \"1933\"\n      }\n  ],\n  \"worksFor\": [\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"Smål. Kraft A-B\",\n          \"startDate\": \"1933-01-01\",\n          \"endDate\": \"1934-12-31\"\n      },\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"SJs\",\n          \"department\": \"Electrification\",\n          \"location\": \"Nässjö\",\n          \"startDate\": \"1935\",\n          \"endDate\": \"1936\"\n      },\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"Nässjö City Power Plant\",\n          \"jobTitle\": \"Assistant Engineer\",\n          \"location\": \"Nässjö\",\n          \"startDate\": \"1935\",\n          \"endDate\": \"1936\"\n      },\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"Smålands Kraft A-B\",\n          \"jobTitle\": \"Chief Engineer\",\n          \"location\": \"Nässjö\",\n          \"startDate\": \"1936\"\n      }\n  ],\n  \"memberOf\": [\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"Fire Department Board\",\n          \"startDate\": \"1934\"\n      },\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"Swedish Technical Association\",\n          \"startDate\": \"1934\"\n      },\n      {\n          \"@type\": \"Organization\",\n          \"name\": \"KFUM\"\n      }\n  ],\n  \"sameAs\": \"\"  \n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Eskil Gottfrid Brenke",
+        "jobTitle": "Civil Engineer",
+        "birthDate": "1906-12-15",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Säby, Jönköping"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Kjellin",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christer",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "UMa-Briitt",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "SecondaryEducation",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Eksjö"
+                },
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Avg:ex.",
+                "educationalLevel": "HigherEducation",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "KTH (E)"
+                },
+                "endDate": "1933"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Smål. Kraft A-B",
+                "startDate": "1933-01-01",
+                "endDate": "1934-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "SJs",
+                "department": "Electrification",
+                "location": "Nässjö",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nässjö City Power Plant",
+                "jobTitle": "Assistant Engineer",
+                "location": "Nässjö",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Smålands Kraft A-B",
+                "jobTitle": "Chief Engineer",
+                "location": "Nässjö",
+                "startDate": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Fire Department Board",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "KFUM"
+            }
+        ],
+        "sameAs": ""
+    }
+}

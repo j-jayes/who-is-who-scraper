@@ -1,0 +1,92 @@
+{
+    "original": "Bjartmar, Carl Gunnar Harald, tandläkare, Linköping, f. 31/3/07 i Hudiksvall. G. 34 m. tandl. Inez Boi-vie. Barn: Ulf Harald f. 35, Christina 37, Agneta 41, Ulla 45. — Stud:ex. v. Sthlm-s samgymn. 27, Cand. med. dent. i Freiburg im Breisgau 30, tysk tandl. där 32, sv. dito 34. Assist, o. vik. i Nynäshamn, Karlstad o. Södertälje 34-35, i Sthlm 35-37, prakt, i Linköping sed. 37.",
+    "translated": "Bjartmar, Carl Gunnar Harald, dentist, Linköping, born March 31, 1907 in Hudiksvall. Married in 1934 to dentist Inez Boi-vie. Children: Ulf Harald born 1935, Christina born 1937, Agneta born 1941, Ulla born 1945. Education: graduated from Sthlm-s samgymn in 1927, received a degree in dental medicine from Freiburg im Breisgau in 1930, worked as a German dentist there in 1932 and as a Swedish dentist in 1934. Worked as an assistant and substitute dentist in Nynäshamn, Karlstad, and Södertälje from 1934-1935, and in Stockholm from 1935-1937. Practiced dentistry in Linköping from 1937 onwards.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Carl Gunnar Harald Bjartmar\",\n   \"birthDate\": \"1907-03-31\",\n   \"birthPlace\": \"Hudiksvall, Sweden\",\n   \"jobTitle\": \"Dentist\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Linköping, Sweden\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Inez Boi-vie\",\n      \"jobTitle\": \"Dentist\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ulf Harald\",\n         \"birthDate\": \"1935\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Christina\",\n         \"birthDate\": \"1937\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Agneta\",\n         \"birthDate\": \"1941\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ulla\",\n         \"birthDate\": \"1945\"\n      }\n   ],\n   \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Sthlm-s samgymn\",\n      \"location\": \"Stockholm, Sweden\",\n      \"endDate\": \"1927\"\n   },\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Freiburg University\",\n         \"location\": \"Freiburg im Breisgau, Germany\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Swedish Dental Association\"\n      }\n   ],\n   \"workExperience\": [\n      {\n         \"@type\": \"Dentist\",\n         \"name\": \"Nynäshamn Dental Clinic\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1935\"\n      },\n      {\n         \"@type\": \"Dentist\",\n         \"name\": \"Karlstad Dental Clinic\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1935\"\n      },\n      {\n         \"@type\": \"Dentist\",\n         \"name\": \"Södertälje Dental Clinic\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1935\"\n      },\n      {\n         \"@type\": \"Dentist\",\n         \"name\": \"Stockholm Dental Clinic\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1937\"\n      },\n      {\n         \"@type\": \"Dentist\",\n         \"name\": \"Linköping Dental Clinic\",\n         \"startDate\": \"1937\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl Gunnar Harald Bjartmar",
+        "birthDate": "1907-03-31",
+        "birthPlace": "Hudiksvall, Sweden",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping, Sweden"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Inez Boi-vie",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf Harald",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Christina",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Sthlm-s samgymn",
+            "location": "Stockholm, Sweden",
+            "endDate": "1927"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Freiburg University",
+                "location": "Freiburg im Breisgau, Germany"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Dental Association"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Dentist",
+                "name": "Nynäshamn Dental Clinic",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Dentist",
+                "name": "Karlstad Dental Clinic",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Dentist",
+                "name": "Södertälje Dental Clinic",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Dentist",
+                "name": "Stockholm Dental Clinic",
+                "startDate": "1935",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Dentist",
+                "name": "Linköping Dental Clinic",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

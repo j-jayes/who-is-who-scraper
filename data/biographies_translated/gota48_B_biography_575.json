@@ -1,0 +1,94 @@
+{
+    "original": "Brohed, Nils Natanael, komminister, Göteborg, f. 27/2/01 i Lysekil av Adolf Hansson o. Julia Johansson. G. 33 m. folkskoll. Ingegerd Jacobsson. Barn: Ulla f. 35, Birgitta 36, I niger o. Gerd 37, Inigrnjar o. Lennart 40. — Stud :ex. i Uppis. 26, teol. fil. ex. 27, teol. kand. samt prakt. teol. prov 29, prästv. f. Gbgs stift 30. Varit pastorsadj. o. v. pastor i Laholm samt kyrkoadj. i Gamles.tads förs. i Gbg, kommin. i sistnämnda förs. sed. 37. Led. av Gbgs kyrkofullm. sed. 38, sekr. o. kassaförv. i styr. f. Gbgs Gamlestadsförs. barnkoloni.",
+    "translated": "Brohed, Nils Natanael, vicar, Gothenburg, b. February 27th, 1901 in Lysekil to Adolf Hansson and Julia Johansson. Married in 1933 to a primary school teacher named Ingegerd Jacobsson. They had five children: Ulla (born 1935), Birgitta (born 1936), Inger and Gerd (born 1937), Ingrid and Lennart (born 1940). Nils received his general qualification for university entrance in Uppsala in 1926, completed his degree in theology in 1927, and passed his practical theology exam in 1929. He was ordained as a priest for the Gothenburg diocese in 1930. He has worked as an assistant pastor and assistant vicar in Laholm and Gamlestaden parish in Gothenburg. Since 1937, he has been a vicar at the latter parish. He has been a member of the Gothenburg Church Council since 1938 and the secretary and treasurer of the board of the Gamlestaden parish children's colony.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Nils Natanael Brohed\",\n    \"birthDate\": \"1901-02-27\",\n    \"birthPlace\": \"Lysekil, Sweden\",\n    \"parents\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Adolf Hansson\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Julia Johansson\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Ingegerd Jacobsson\",\n        \"jobTitle\": \"Primary School Teacher\",\n        \"dateMarried\": \"1933\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Ulla\",\n            \"birthDate\": \"1935\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Birgitta\",\n            \"birthDate\": \"1936\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Inger\",\n            \"birthDate\": \"1937\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Gerd\",\n            \"birthDate\": \"1937\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Ingrid\",\n            \"birthDate\": \"1940\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Lennart\",\n            \"birthDate\": \"1940\"\n        }\n    ],\n    \"alumniOf\": [\n        {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Uppsala University\"\n        }\n    ],\n    \"jobTitle\": \"Vicar\",\n    \"workLocation\": \"Gothenburg, Sweden\",\n    \"employmentHistory\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Laholm Parish\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gamlestaden Parish\"\n        }\n    ],\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg Church Council\",\n            \"startDate\": \"1938\"\n        }\n    ],\n    \"affiliation\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Gamlestaden Parish Children's Colony\",\n            \"jobTitle\": \"Secretary and Treasurer\",\n            \"startDate\": \"1933\"\n        }\n    ],\n    \"sameAs\": \"https://example.com/nils-natanael-brohed\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Natanael Brohed",
+        "birthDate": "1901-02-27",
+        "birthPlace": "Lysekil, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Adolf Hansson"
+            },
+            {
+                "@type": "Person",
+                "name": "Julia Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingegerd Jacobsson",
+            "jobTitle": "Primary School Teacher",
+            "dateMarried": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Gerd",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart",
+                "birthDate": "1940"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University"
+            }
+        ],
+        "jobTitle": "Vicar",
+        "workLocation": "Gothenburg, Sweden",
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Laholm Parish"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gamlestaden Parish"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Church Council",
+                "startDate": "1938"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Gamlestaden Parish Children's Colony",
+                "jobTitle": "Secretary and Treasurer",
+                "startDate": "1933"
+            }
+        ],
+        "sameAs": "https://example.com/nils-natanael-brohed"
+    }
+}

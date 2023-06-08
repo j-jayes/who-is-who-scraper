@@ -1,0 +1,100 @@
+{
+    "original": "Edwijn, Thorsten Edvin, direktör, Göteborg, f. 1/6/95 i Gbg av sjökapt. Edv. Bengtson o. Theresia Lörqvist. G. 23 m. Sigrid Hjärne. Barn: Ulla Margareta f. 24, g. m. adv. Gunnar La-berlöw, Gbg, Ingegerd Guniillia 219, Ingela Birgitta 33. — Realex. 11. Anst. v. Rederi A-B Transatlantic sed. 11, andre v. verks t. dir. där »ed. 33. Led. av ’Styr. f. Rederi A-B Transoil, Transmark o. Transkonc. bost :’Stift., suppl. i Styr. f. Rederi A-B Transatlantic, Rederi A-B Transpacific o. Förvaltn. A-B RABT.",
+    "translated": "Edwijn, Thorsten Edvin, Director, Gothenburg, born June 1st, 1895 in Gothenburg to Captain Edv. Bengtson and Theresia Lörqvist. Married to Sigrid Hjärne in 1923. Children: Ulla Margareta, born in 1924, married to lawyer Gunnar La-berlöw in Gothenburg, Ingegerd Guniillia born in 1921, and Ingela Birgitta born in 1933. Completed secondary education at age 11. Employed by the shipping company Rederi A-B Transatlantic since 1911, serving as assistant to the managing director from 1933. Member of the board for Rederi A-B Transoil, Transmark and Transkonc., residing at 'Stift.' and serving as a substitute board member for Rederi A-B Transatlantic, Rederi A-B Transpacific, and Förvaltn. A-B RABT.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Thorsten Edvin Edwijn\",\n  \"birthDate\": \"1895-06-01\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Edv. Bengtson\",\n      \"jobTitle\": \"Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Theresia Lörqvist\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sigrid Hjärne\",\n    \"marriageDate\": \"1923\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Margareta\",\n      \"birthDate\": \"1924\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Gunnar La-berlöw\",\n        \"jobTitle\": \"Lawyer\",\n        \"location\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd Guniillia\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingela Birgitta\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary Education\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1909\"\n    }\n  ],\n  \"jobTitle\": \"Director\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transatlantic\",\n      \"startDate\": \"1911\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transoil\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transmark\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transkonc.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stift.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transatlantic\",\n      \"position\": \"Substitute Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transpacific\",\n      \"position\": \"Substitute Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Förvaltn. A-B RABT\",\n      \"position\": \"Substitute Board Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Thorsten Edvin Edwijn",
+        "birthDate": "1895-06-01",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Edv. Bengtson",
+                "jobTitle": "Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Theresia Lörqvist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sigrid Hjärne",
+            "marriageDate": "1923"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla Margareta",
+                "birthDate": "1924",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Gunnar La-berlöw",
+                    "jobTitle": "Lawyer",
+                    "location": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Ingegerd Guniillia",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingela Birgitta",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary Education",
+                "startDate": "1906",
+                "endDate": "1909"
+            }
+        ],
+        "jobTitle": "Director",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transatlantic",
+                "startDate": "1911"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transoil"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transmark"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transkonc."
+            },
+            {
+                "@type": "Organization",
+                "name": "Stift."
+            },
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transatlantic",
+                "position": "Substitute Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transpacific",
+                "position": "Substitute Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Förvaltn. A-B RABT",
+                "position": "Substitute Board Member"
+            }
+        ]
+    }
+}

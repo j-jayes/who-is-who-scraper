@@ -1,0 +1,59 @@
+{
+    "original": "Berghammer, Emil Teodor, direktör, Norrköping, f. 2/9/83 i Norrköp. G. 10 m. Heldis Göransson. Barn: May Britt f. 13, Inga Britt Margareta 20. — Dir. i östergötl. Dagblads A-B sed. 09. Medl. av Tidn:utgiv:-fören., v. styr :ordf. i dess A-sekt. 28, styr :led. i Sv. publ. pens :’kassa 33, medl. av Publ :kiubben.",
+    "translated": "Berghammer, Emil Teodor, director, Norrköping, b. September 2, 1883 in Norrköping. Married on October 10 with Heldis Göransson. Children: May Britt b. 1913, Inga Britt Margareta b. 1920. Director at Östergötland's Dagblad AB since 1909. Member of the Newspaper Publishers' Association and chairman of its A-section in 1928, board member of the Swedish public pension fund in 1933, and member of the Public Club.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Emil Teodor Berghammer\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1883-09-02\",\n  \"birthPlace\": \"Norrköping\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Heldis Göransson\",\n    \"marriageDate\": \"1919-10-10\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"May Britt\",\n      \"birthDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga Britt Margareta\",\n      \"birthDate\": \"1920\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Östergötland's Dagblad AB\",\n    \"startDate\": \"1909\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Newspaper Publishers' Association\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Swedish Public Pension Fund\",\n          \"startDate\": \"1933\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Public Club\"\n        }\n      ],\n      \"chair\": [\n        {\n          \"@type\": \"Person\",\n          \"name\": \"Emil Teodor Berghammer\",\n          \"startDate\": \"1928\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Emil Teodor Berghammer",
+        "jobTitle": "Director",
+        "birthDate": "1883-09-02",
+        "birthPlace": "Norrköping",
+        "spouse": {
+            "@type": "Person",
+            "name": "Heldis Göransson",
+            "marriageDate": "1919-10-10"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "May Britt",
+                "birthDate": "1913"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga Britt Margareta",
+                "birthDate": "1920"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Östergötland's Dagblad AB",
+            "startDate": "1909"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Newspaper Publishers' Association",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Swedish Public Pension Fund",
+                        "startDate": "1933"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Public Club"
+                    }
+                ],
+                "chair": [
+                    {
+                        "@type": "Person",
+                        "name": "Emil Teodor Berghammer",
+                        "startDate": "1928"
+                    }
+                ]
+            }
+        ]
+    }
+}

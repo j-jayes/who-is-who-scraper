@@ -1,0 +1,92 @@
+{
+    "original": "Enewald, Nils, lektor, Linköping, f. 16/11/88 i Tryde, Krist. 1. G. 32 m. Martha Stenberg. — Stud:ex. i Lund 09, fil. kand. där 12, fil. mag. 13, foliksk:lär:ex. 14, fil. lic. 18, fil. dr 21, provår i Sthlm 16. Stud:res. t. Danm., Norge o. Tyskl. Vik. adj. i Växjö 14-15 o. 17, e. o. lektor i Eksjö 17-22, adj. i Hälsingborg 21, lär. i sv. v. Hälsingborgs hand:gymn. 22-25, lektor i hist. o. modersm. v. Linköp. h. a. 1. sed. 25. RNO.",
+    "translated": "Enewald, Nils, lecturer, Linköping, born November 16th, 1888 in Tryde, Kristianstad. Married in 1932 to Martha Stenberg. He graduated from Lund with a high school diploma in 1909 and a Bachelor of Arts degree in 1912, followed by a Master of Arts degree in 1913, teaching certificate in 1914, a licentiate degree in 1918, and a doctorate in 1921. He spent a probationary year in Stockholm in 1916 and studied abroad in Denmark, Norway, and Germany. He served as a temporary assistant in Växjö from 1914-1915 and 1917, and an acting lecturer in Eksjö from 1917-1922. He was an assistant teacher in Hälsingborg in 1921 and a teacher of Swedish and physical education at Hälsingborg's Handelsgymnasium from 1922-1925. He has been a lecturer in history and Swedish language at Linköping since 1925. He is a member of the Royal Order of the North Star.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Enewald\",\n  \"birthDate\": \"1888-11-16\",\n  \"birthPlace\": \"Tryde, Kristianstad\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Martha Stenberg\",\n    \"marriageDate\": \"1932\"\n  },\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"educationalLevel\": [\"HighSchool\", \"Bachelor's Degree\", \"Master's Degree\", \"Teaching Certificate\", \"Licentiate Degree\", \"Doctorate\"],\n    \"institution\": [\n      {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Lund\",\n        \"location\": \"Lund\",\n        \"startDate\": \"1909\",\n        \"endDate\": \"1921\"\n      }\n    ]\n  },\n  \"nationality\": \"Swedish\",\n  \"employmentHistory\": [\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Temporary Assistant\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1915\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Växjö\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Acting Lecturer\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1922\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Eksjö\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Assistant Teacher\",\n      \"startDate\": \"1921\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Hälsingborg\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Swedish and Physical Education Teacher\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1925\",\n      \"location\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hälsingborg's Handelsgymnasium\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Lecturer\",\n      \"startDate\": \"1925\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Linköping\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Royal Order of the North Star\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Enewald",
+        "birthDate": "1888-11-16",
+        "birthPlace": "Tryde, Kristianstad",
+        "spouse": {
+            "@type": "Person",
+            "name": "Martha Stenberg",
+            "marriageDate": "1932"
+        },
+        "education": {
+            "@type": "EducationEvent",
+            "educationalLevel": [
+                "HighSchool",
+                "Bachelor's Degree",
+                "Master's Degree",
+                "Teaching Certificate",
+                "Licentiate Degree",
+                "Doctorate"
+            ],
+            "institution": [
+                {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund",
+                    "location": "Lund",
+                    "startDate": "1909",
+                    "endDate": "1921"
+                }
+            ]
+        },
+        "nationality": "Swedish",
+        "employmentHistory": [
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Temporary Assistant",
+                "startDate": "1914",
+                "endDate": "1915",
+                "location": {
+                    "@type": "City",
+                    "name": "Växjö"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Acting Lecturer",
+                "startDate": "1917",
+                "endDate": "1922",
+                "location": {
+                    "@type": "City",
+                    "name": "Eksjö"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Assistant Teacher",
+                "startDate": "1921",
+                "location": {
+                    "@type": "City",
+                    "name": "Hälsingborg"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Swedish and Physical Education Teacher",
+                "startDate": "1922",
+                "endDate": "1925",
+                "location": {
+                    "@type": "Organization",
+                    "name": "Hälsingborg's Handelsgymnasium"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Lecturer",
+                "startDate": "1925",
+                "location": {
+                    "@type": "City",
+                    "name": "Linköping"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Royal Order of the North Star"
+        }
+    }
+}

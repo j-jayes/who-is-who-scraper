@@ -1,0 +1,136 @@
+{
+    "original": "Blomqvist, Per Gösta Björn Fritjof, praktiserande läkare. Nys. Varvet, f. 3/2/9:3 i Gbg av folksk :lär. o. kantorn Karl Fredrik B. o. Charlotta Meta Jacobina Ruge. G. 28 m. Valborg Björk. Barn: Jan o. Elsa ff. 29, Anita 31, Ralf 36. — Stud:ex. i Gbg 12, med. kand. i Lund 17 o. med. lic. där 25. E. läk. v. Gbgs hosp. 19 o. 21, dito i Åmål 22-23, assist :läk. v. Sahlgr. sjukh. kir. avd. 24-25, tf. und :läk. v. Gbgs epid:sjukh. 25, tf. prov:läk. i Gbgs distr. 26-28, tf. bitr. förste prov:-läk. i Gbgs o. Boh. 1. samma tid, prakt, läk. först i Gbg o. därefter i V. Frölunda.",
+    "translated": "Blomqvist, Per Gösta Björn Fritjof, practicing physician. Born on February 3, 1893 in Gothenburg to a primary school teacher and cantor named Karl Fredrik B. and Charlotta Meta Jacobina Ruge. Married Valborg Björk in 1928. Children: Jan and Elsa born in 1929, Anita in 1931, and Ralf in 1936. He obtained his high school diploma in Gothenburg in 1912, his Bachelor of Medicine degree in Lund in 1917, and his Doctor of Medicine degree there in 1925. He worked as a resident physician at Gothenburg Hospital in 1919 and 1921, at Åmål in 1922-23, as an assistant physician at Sahlgr. Hospital surgical department in 1924-25, acting physician at Gothenburg Epidemic Hospital in 1925, acting examiner of public health in the Gothenburg district in 1926-28, and acting deputy chief examiner of public health in Gothenburg and Bohuslän at the same time. He was first a practicing physician in Gothenburg and then later in Västra Frölunda.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Per Gösta Björn Fritjof Blomqvist\",\n   \"birthDate\": \"1893-02-03\",\n   \"birthPlace\": \"Gothenburg\",\n   \"nationality\": \"Swedish\",\n   \"jobTitle\": \"Practicing physician\",\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"dateEarned\": \"1912\",\n         \"educationalLevel\": \"High school diploma\",\n         \"recognizedBy\": \"Gothenburg\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"dateEarned\": \"1917\",\n         \"educationalLevel\": \"Bachelor of Medicine\",\n         \"recognizedBy\": \"Lund\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"dateEarned\": \"1925\",\n         \"educationalLevel\": \"Doctor of Medicine\",\n         \"recognizedBy\": \"Lund\"\n      }\n   ],\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Karl Fredrik B.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Charlotta Meta Jacobina Ruge\"\n      }\n   ],\n   \"spouse\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Valborg Björk\",\n         \"dateMarried\": \"1928\"\n      }\n   ],\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Jan Blomqvist\",\n         \"birthDate\": \"1929\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Elsa Blomqvist\",\n         \"birthDate\": \"1929\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anita Blomqvist\",\n         \"birthDate\": \"1931\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ralf Blomqvist\",\n         \"birthDate\": \"1936\"\n      }\n   ],\n   \"hasOccupation\": [\n      {\n         \"@type\": \"MedicalSpecialty\",\n         \"name\": \"General Practice\"\n      }\n   ],\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg Hospital\",\n         \"startDate\": \"1919\",\n         \"endDate\": \"1921\",\n         \"jobTitle\": \"Resident Physician\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Åmål\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1923\",\n         \"jobTitle\": \"Resident Physician\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Sahlgr. Hospital\",\n         \"startDate\": \"1924\",\n         \"endDate\": \"1925\",\n         \"jobTitle\": \"Assistant Physician\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg Epidemic Hospital\",\n         \"startDate\": \"1925\",\n         \"jobTitle\": \"Acting Physician\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg District\",\n         \"startDate\": \"1926\",\n         \"endDate\": \"1928\",\n         \"jobTitle\": \"Acting Examiner of Public Health\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg and Bohuslän\",\n         \"startDate\": \"1926\",\n         \"endDate\": \"1928\",\n         \"jobTitle\": \"Acting Deputy Chief Examiner of Public Health\"\n      }\n   ],\n   \"address\": [\n      {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Gothenburg\",\n         \"addressRegion\": \"Västra Götaland\",\n         \"addressCountry\": \"Sweden\"\n      },\n      {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Västra Frölunda\",\n         \"addressRegion\": \"Västra Götaland\",\n         \"addressCountry\": \"Sweden\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Gösta Björn Fritjof Blomqvist",
+        "birthDate": "1893-02-03",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "jobTitle": "Practicing physician",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "dateEarned": "1912",
+                "educationalLevel": "High school diploma",
+                "recognizedBy": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "dateEarned": "1917",
+                "educationalLevel": "Bachelor of Medicine",
+                "recognizedBy": "Lund"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "dateEarned": "1925",
+                "educationalLevel": "Doctor of Medicine",
+                "recognizedBy": "Lund"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Fredrik B."
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotta Meta Jacobina Ruge"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Valborg Björk",
+                "dateMarried": "1928"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan Blomqvist",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Blomqvist",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Anita Blomqvist",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Ralf Blomqvist",
+                "birthDate": "1936"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "General Practice"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Hospital",
+                "startDate": "1919",
+                "endDate": "1921",
+                "jobTitle": "Resident Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Åmål",
+                "startDate": "1922",
+                "endDate": "1923",
+                "jobTitle": "Resident Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sahlgr. Hospital",
+                "startDate": "1924",
+                "endDate": "1925",
+                "jobTitle": "Assistant Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Epidemic Hospital",
+                "startDate": "1925",
+                "jobTitle": "Acting Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg District",
+                "startDate": "1926",
+                "endDate": "1928",
+                "jobTitle": "Acting Examiner of Public Health"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg and Bohuslän",
+                "startDate": "1926",
+                "endDate": "1928",
+                "jobTitle": "Acting Deputy Chief Examiner of Public Health"
+            }
+        ],
+        "address": [
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg",
+                "addressRegion": "Västra Götaland",
+                "addressCountry": "Sweden"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Västra Frölunda",
+                "addressRegion": "Västra Götaland",
+                "addressCountry": "Sweden"
+            }
+        ]
+    }
+}

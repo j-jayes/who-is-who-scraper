@@ -1,0 +1,96 @@
+{
+    "original": "Eklund, Hans Johan Henrik Teodor, stadssekreterare, Norrköping, f. 7/2/99 i Sthlm av grosshandi. Allan E. o. Hedvig Jo*hnsson. G. 26 m. Sigrid Gartz. Barn: Birgitta f. 27, Hans 29, Marianne 34, Louise 47. — Stud :ex. 16, jur. kand. 20. Andre not. i Sevede o. Tunaläns^ härads dom-s. 21-22, förste not. där 22, förste not. i Norra o. Södra Tjusts härads doms. 26-27, stadsomb :man i Västervik 22-35, ’stads-sekr. i Norrköp. sed. 35.",
+    "translated": "Eklund, Hans Johan Henrik Teodor, city secretary, Norrköping, b. February 7th, 1899 in Stockholm to merchant Allan E. and Hedvig Johansson. Married on June 26th to Sigrid Gartz. Children: Birgitta (born) 1927, Hans 1929, Marianne 1934, Louise 1947. Graduated high school in 1916 and received a law degree in 1920. Second notary in Sevede and Tunaläns district court from 1921-1922, first notary there in 1922, first notary in North and South Tjust district court from 1926-1927. City council member in Västervik from 1922-1935, city secretary in Norrköping since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hans Johan Henrik Teodor Eklund\",\n  \"birthDate\": \"1899-02-07\",\n  \"birthPlace\": \"Stockholm\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Allan E.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hedvig Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sigrid Gartz\",\n    \"marriageDate\": \"1926-06-26\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Louise\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"jobTitle\": \"City Secretary\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Norrköping\"\n  },\n  \"study\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Graduate\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"unspecified\",\n        \"location\": \"Sweden\"\n      },\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Law Degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"unspecified\",\n        \"location\": \"Sweden\"\n      },\n      \"endDate\": \"1920\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sevede and Tunaläns District Court\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"North and South Tjust District Court\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västervik City Council\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1935\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hans Johan Henrik Teodor Eklund",
+        "birthDate": "1899-02-07",
+        "birthPlace": "Stockholm",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Allan E."
+            },
+            {
+                "@type": "Person",
+                "name": "Hedvig Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sigrid Gartz",
+            "marriageDate": "1926-06-26"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Louise",
+                "birthDate": "1947"
+            }
+        ],
+        "jobTitle": "City Secretary",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Norrköping"
+        },
+        "study": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Graduate",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "unspecified",
+                    "location": "Sweden"
+                },
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Law Degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "unspecified",
+                    "location": "Sweden"
+                },
+                "endDate": "1920"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Sevede and Tunaläns District Court",
+                "startDate": "1921",
+                "endDate": "1922"
+            },
+            {
+                "@type": "Organization",
+                "name": "North and South Tjust District Court",
+                "startDate": "1926",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västervik City Council",
+                "startDate": "1922",
+                "endDate": "1935"
+            }
+        ]
+    }
+}

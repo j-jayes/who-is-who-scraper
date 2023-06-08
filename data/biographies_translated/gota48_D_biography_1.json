@@ -1,0 +1,100 @@
+{
+    "original": "Dafgård, Thor Fredrik, fd. förste trafikinspektör, Norrköping, f. 28/6/79 i Fristad, Älvsb. 1., av kronolänsm. Olof Fredrik D. o. Emma Wahlin. G. 10 m. Elsa Wallin. Barn: Einar f. 11, Olof 13. — Mog:ex. 97, trafikkurs v. SJ 11-13. Anst. v. SJ fr. 98 t. pens., stat:skriv. 00, förste dito 11, byråas-sist. 13, stat :insp. i Karlstad 23-30, förste trafikinsp. i Ånge 31, Bollnäs 35 o. i Norrköp. 41-44. RVO 36.",
+    "translated": "Dafgård, Thor Fredrik, former chief traffic inspector, Norrköping, born on June 28, 1879 in Fristad, Älvsborg county. Son of Crown District Manager Olof Fredrik D. and Emma Wahlin. Married to Elsa Wallin in 1910. They have two children: Einar, born in 1911, and Olof, born in 1913. After graduating from high school in 1897, he attended a traffic course at SJ from 1911 to 1913. Employed by SJ from 1898 until retirement. Became a state secretary in 1900, first class in 1911, bureau assistant in 1913, state inspector in Karlstad from 1923 to 1930, chief traffic inspector in Ånge in 1931, Bollnäs in 1935 and in Norrköping from 1941 to 1944. Awarded RVO in 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Thor Fredrik Dafgård\",\n  \"birthDate\": \"1879-06-28\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Fristad\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Älvsborg County\"\n    }\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Olof Fredrik Dafgård\",\n    \"jobTitle\": \"Crown District Manager\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emma Wahlin\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Wallin\",\n    \"marriageDate\": \"1910\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Einar Dafgård\",\n      \"birthDate\": \"1911\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Dafgård\",\n      \"birthDate\": \"1913\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Mog:ex.\",\n      \"dateEarned\": \"1897\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Traffic Course\",\n      \"startDate\": \"1911-01-01\",\n      \"endDate\": \"1913-01-01\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"SJ\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    \"Chief Traffic Inspector\",\n    \"State Secretary\",\n    \"State Inspector\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SJ\",\n      \"startDate\": \"1898\",\n      \"endDate\": \"retirement\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stat:skriv.\",\n      \"startDate\": \"1900\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bollnäs\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1944\"\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"RVO\",\n      \"dateReceived\": \"1936\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Thor Fredrik Dafgård",
+        "birthDate": "1879-06-28",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Fristad",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborg County"
+            }
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Olof Fredrik Dafgård",
+            "jobTitle": "Crown District Manager"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Emma Wahlin"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Wallin",
+            "marriageDate": "1910"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Einar Dafgård",
+                "birthDate": "1911"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof Dafgård",
+                "birthDate": "1913"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Mog:ex.",
+                "dateEarned": "1897"
+            },
+            {
+                "@type": "Course",
+                "name": "Traffic Course",
+                "startDate": "1911-01-01",
+                "endDate": "1913-01-01",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "SJ"
+                }
+            }
+        ],
+        "jobTitle": [
+            "Chief Traffic Inspector",
+            "State Secretary",
+            "State Inspector"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "SJ",
+                "startDate": "1898",
+                "endDate": "retirement"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stat:skriv.",
+                "startDate": "1900",
+                "endDate": "1911"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bollnäs",
+                "startDate": "1935",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping",
+                "startDate": "1941",
+                "endDate": "1944"
+            }
+        ],
+        "award": [
+            {
+                "@type": "Order",
+                "name": "RVO",
+                "dateReceived": "1936"
+            }
+        ]
+    }
+}

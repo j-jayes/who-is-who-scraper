@@ -1,0 +1,104 @@
+{
+    "original": "Borg, Bror Eric Alfred, textilingen-jör, Kinnahult, f. 11/11/03 i Örby, Älvsb. L, av fabr. Alfr. J :son B. o. Ester Isberg. G. 33 m. Stina Nilsander. Barn : Nils Eric f. 34, Kristina o. Birgitta 38. — Realex. v. Gbgs h. latin 22, Filip Holmqvists hand :inst. 23, avg:ex. v. Borås tekn. vävsk. 27, Sachsische Höhere Webschule für Textilind. i Chemnitz, Tyskl. Studires. t. Tyskl., Schweiz, ItaL, Frankr., Tjeckoslov. o. Österr. Ing. v. A. J. Borgs Väfveri A-B i Kinnahult sed. 29, deläg. i detta föret. Led. av styr. f. A. J. Borgs Väfveri A-B, kassör i Örby hemvärn sed. 45. Hobbies: tennis, ’skytte.",
+    "translated": "Borg, Bror Eric Alfred, textile engineer, from Kinnahult, born on November 11th, 1903 in Örby, Älvsborg County, son of manufacturer Alfr. J: son B. and Ester Isberg. Married in 1933 to Stina Nilsander, with whom he had three children: Nils Eric born in 1934, Kristina and Birgitta both born in 1938. He graduated from Realexamen in Gothenburg and studying at Filip Holmqvists Handelsskola in 1923, and later passed his Bachelor of Science in Engineering from Borås Technical Weaving School in 1927. He also studied in various locations in Germany, Switzerland, Italy, France, Czechoslovakia, and Austria. He worked as an engineer at A.J. Borgs Väfveri A-B in Kinnahult since 1929, and became a partner in the company. He was a member of the board of directors for A. J. Borgs Väfveri A-B and treasurer in the Örby Home Guard since 1945. His hobbies included tennis and shooting.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Eric Alfred Borg\",\n  \"jobTitle\": \"Textile Engineer\",\n  \"birthDate\": \"1903-11-11\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Örby\",\n      \"addressRegion\": \"Älvsborg County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alfr. J:son B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Isberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Nilsander\",\n    \"dateOfBirth\": \"1900\",\n    \"dateOfMarriage\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Eric\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"Realexamen\",\n      \"dateCompleted\": \"1922\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"Filip Holmqvists Handelsskola\",\n      \"dateCompleted\": \"1923\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"Bachelor of Science in Engineering\",\n      \"dateCompleted\": \"1927\",\n      \"location\": \"Borås Technical Weaving School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"Studied in various locations in Germany, Switzerland, Italy, France, Czechoslovakia, and Austria\",\n      \"dateCompleted\": \"1927-1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A.J. Borgs Väfveri A-B\",\n      \"position\": \"Partner\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örby Home Guard\",\n      \"position\": \"Treasurer\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://en.wikipedia.org/wiki/Bror_Borg\"\n  ],\n  \"gender\": \"Male\",\n  \"nationality\": \"Swedish\",\n  \"hobbies\": [\n    \"tennis\",\n    \"shooting\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Eric Alfred Borg",
+        "jobTitle": "Textile Engineer",
+        "birthDate": "1903-11-11",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Örby",
+                "addressRegion": "Älvsborg County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Alfr. J:son B."
+            },
+            {
+                "@type": "Person",
+                "name": "Ester Isberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Nilsander",
+            "dateOfBirth": "1900",
+            "dateOfMarriage": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Nils Eric",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Realexamen",
+                "dateCompleted": "1922",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Filip Holmqvists Handelsskola",
+                "dateCompleted": "1923",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Bachelor of Science in Engineering",
+                "dateCompleted": "1927",
+                "location": "Borås Technical Weaving School"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Studied in various locations in Germany, Switzerland, Italy, France, Czechoslovakia, and Austria",
+                "dateCompleted": "1927-1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A.J. Borgs Väfveri A-B",
+                "position": "Partner",
+                "startDate": "1929",
+                "endDate": ""
+            },
+            {
+                "@type": "Organization",
+                "name": "Örby Home Guard",
+                "position": "Treasurer",
+                "startDate": "1945",
+                "endDate": ""
+            }
+        ],
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/Bror_Borg"
+        ],
+        "gender": "Male",
+        "nationality": "Swedish",
+        "hobbies": [
+            "tennis",
+            "shooting"
+        ]
+    }
+}

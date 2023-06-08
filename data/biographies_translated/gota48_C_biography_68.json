@@ -1,0 +1,98 @@
+{
+    "original": "Cederblom, Nils Gösta Torsten, tandläkare, Mölndal, f. 28/3/04 i Gbg av Johan C. o. Josefina Carlsdotter. G. 41 m. Margareta Johnson. Barn: Anita f. 42, Henriette 45. — Studrex. v. Gbgs h. real 26, med. kand. i Lund 30, tandl. 33. Tjg. i Skövde o. Örebro 34, Trollhättan 35, Borås 35-36, prakt, i Gbg 37-41, distritandl. i Tibro 41-44, dito i Kungsbacka 44-45, i Mölndal sed. 45.",
+    "translated": "Cederblom, Nils Gösta Torsten, dentist, Mölndal, born on March 28, 1904 in Gothenburg to Johan C. and Josefina Carlsdotter. He married Margareta Johnson in 1941 and they had two children: Anita (born in 1942) and Henriette (born in 1945). Nils studied at Gothenburg's higher real school until 1926, received his medical degree from Lund University in 1930, and became a dentist in 1933. He worked in Skövde and Örebro in 1934, Trollhättan in 1935, Borås from 1935 to 1936, a private practice in Gothenburg from 1937 to 1941, as a district dentist in Tibro from 1941 to 1944, in Kungsbacka from 1944 to 1945, and in Mölndal from 1945 onward.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gösta Torsten Cederblom\",\n  \"birthDate\": \"1904-03-28\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Cederblom\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Josefina Carlsdotter\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Johnson\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anita Cederblom\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henriette Cederblom\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalCredential\",\n      \"name\": \"Med. Kand.\",\n      \"educationalLevel\": \"bachelor's degree\",\n      \"awardDate\": \"1930\",\n      \"awardingInstitution\": \"Lund University\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Skövde\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Örebro\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Trollhättan\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Borås\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Tibro\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Kungsbacka\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Mölndal\",\n      \"startDate\": \"1945\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Gösta Torsten Cederblom",
+        "birthDate": "1904-03-28",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Cederblom"
+            },
+            {
+                "@type": "Person",
+                "name": "Josefina Carlsdotter"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Johnson",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anita Cederblom",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Henriette Cederblom",
+                "birthDate": "1945"
+            }
+        ],
+        "educationalCredentialAwarded": [
+            {
+                "@type": "EducationalCredential",
+                "name": "Med. Kand.",
+                "educationalLevel": "bachelor's degree",
+                "awardDate": "1930",
+                "awardingInstitution": "Lund University"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1933"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Skövde"
+            },
+            {
+                "@type": "Place",
+                "name": "Örebro"
+            },
+            {
+                "@type": "Place",
+                "name": "Trollhättan"
+            },
+            {
+                "@type": "Place",
+                "name": "Borås",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Place",
+                "name": "Gothenburg",
+                "startDate": "1937",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Place",
+                "name": "Tibro",
+                "startDate": "1941",
+                "endDate": "1944"
+            },
+            {
+                "@type": "Place",
+                "name": "Kungsbacka",
+                "startDate": "1944",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Place",
+                "name": "Mölndal",
+                "startDate": "1945"
+            }
+        ]
+    }
+}

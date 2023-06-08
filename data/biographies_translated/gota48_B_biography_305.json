@@ -1,0 +1,122 @@
+{
+    "original": "Bjurman, Fritz Adolf, tandläkare, Göteborg, f. 3/9/91 i Falun av fabr. A. G. B. o. Anna Kristina Johansson. G. 27 m. Elin Ausell. — Stud:ex. i Falun 10, ex. v. Gbgs hand:inst. 11, tandl:kand. 14, tandl. 17. Stud:resa t. Berlin 22. Anst. v. Höganäs-Billes-holms A-B huv:kont. i Hälsingborg 11-13, tandl :prakt. i Huskvarna 18-19, Hadiksvall 19-22, Ljungby 22-24, To-rup 24-26, Malmö 26-36 o. i Gbg sed. 36.",
+    "translated": "Bjurman, Fritz Adolf was a dentist from Gothenburg, born on September 3rd, 1891, in Falun to factory worker A.G.B. and Anna Kristina Johansson. He married Elin Ausell in 1927. He completed his studies in Falun in 1910, got his certificate from Gothenburg Commercial Institute in 1911, became a dental student in 1914, and qualified as a dentist in 1917. He took a study trip to Berlin in 1922. He worked at Höganäs-Billesholms A-B in Helsingborg from 1911-1913, practiced dentistry in Huskvarna from 1918-1919, in Härnösand from 1919-1922, in Ljungby from 1922-1924, in Torup from 1924-1926, in Malmö from 1926-1936, and then in Gothenburg from 1936 onwards.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Fritz Adolf Bjurman\",\n   \"birthDate\": \"1891-09-03\",\n   \"birthPlace\": \"Falun, Sweden\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"A.G.B. (Factory Worker)\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anna Kristina Johansson\"\n      }\n   ],\n   \"spouse\": \"Elin Ausell\",\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Stud:ex. (High School Diploma)\",\n         \"dateIssued\": \"1910\",\n         \"recognizedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Falun School\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Certificate from Gothenburg Commercial Institute\",\n         \"dateIssued\": \"1911\",\n         \"recognizedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg Commercial Institute\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Tandl:kand. (Dental Student)\",\n         \"dateIssued\": \"1914\",\n         \"recognizedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Swedish Dental Association\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Qualified as Dentist\",\n         \"dateIssued\": \"1917\",\n         \"recognizedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Swedish Dental Association\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Study trip to Berlin\",\n         \"dateIssued\": \"1922\",\n         \"recognizedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Berlin University\"\n         }\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Höganäs-Billesholms A-B\",\n         \"startDate\": \"1911\",\n         \"endDate\": \"1913\",\n         \"jobTitle\": \"Office Staff\"\n      }\n   ],\n   \"hasOccupation\": [\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dentist\",\n         \"startDate\": \"1918\",\n         \"endDate\": \"1919\",\n         \"location\": \"Huskvarna\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dentist\",\n         \"startDate\": \"1919\",\n         \"endDate\": \"1922\",\n         \"location\": \"Härnösand\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dentist\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1924\",\n         \"location\": \"Ljungby\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dentist\",\n         \"startDate\": \"1924\",\n         \"endDate\": \"1926\",\n         \"location\": \"Torup\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dentist\",\n         \"startDate\": \"1926\",\n         \"endDate\": \"1936\",\n         \"location\": \"Malmö\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Dentist\",\n         \"startDate\": \"1936\",\n         \"location\": \"Gothenburg\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Fritz Adolf Bjurman",
+        "birthDate": "1891-09-03",
+        "birthPlace": "Falun, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "A.G.B. (Factory Worker)"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Kristina Johansson"
+            }
+        ],
+        "spouse": "Elin Ausell",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. (High School Diploma)",
+                "dateIssued": "1910",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Falun School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Certificate from Gothenburg Commercial Institute",
+                "dateIssued": "1911",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Commercial Institute"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl:kand. (Dental Student)",
+                "dateIssued": "1914",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Swedish Dental Association"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Qualified as Dentist",
+                "dateIssued": "1917",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Swedish Dental Association"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Study trip to Berlin",
+                "dateIssued": "1922",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Berlin University"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Höganäs-Billesholms A-B",
+                "startDate": "1911",
+                "endDate": "1913",
+                "jobTitle": "Office Staff"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1918",
+                "endDate": "1919",
+                "location": "Huskvarna"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1919",
+                "endDate": "1922",
+                "location": "Härnösand"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1922",
+                "endDate": "1924",
+                "location": "Ljungby"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1924",
+                "endDate": "1926",
+                "location": "Torup"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1926",
+                "endDate": "1936",
+                "location": "Malmö"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1936",
+                "location": "Gothenburg"
+            }
+        ]
+    }
+}

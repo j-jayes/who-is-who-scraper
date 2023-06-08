@@ -1,0 +1,69 @@
+{
+    "original": "Bergstrand, Carl-Erik, leg. läkare, Borås, f. 25/12/14 i Göteborg av lä-roviadj. Erik B. o. Elsa Witte. — Studiex. i Skara 33, med. kand. i Upps. 37, med. lic. i Sthlm 43. Tf. und iläk. v. Visby las. 43-44, v. med. avd. å Umeå las. 44-46, und iläk. v. med. avd. å centr ilas. i Borås fr. 46.",
+    "translated": "Bergstrand, Carl-Erik, licensed physician, Borås, b. 25/12/14 in Gothenburg to clergyman Erik B. and Elsa Witte. - Studied in Skara until 1933, received Bachelor of Medicine from Uppsala University in 1937, and licensed as a physician in Stockholm in 1943. Served as acting assistant physician at Visby Hospital from 1943-1944, medical department assistant at Umeå Hospital from 1944-1946, and acting assistant physician at the medical department of Borås Central Hospital since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Erik Bergstrand\",\n  \"jobTitle\": \"Licensed physician\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1914-12-25\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik B. Bergstrand\",\n      \"jobTitle\": \"Clergyman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Witte\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studiex.\",\n      \"description\": \"Studiex. in Skara\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. kand.\",\n      \"description\": \"Bachelor of Medicine from Uppsala University\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. lic.\",\n      \"description\": \"Licensed as a physician in Stockholm\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Visby Hospital\",\n      \"jobTitle\": \"Acting assistant physician\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Umeå Hospital\",\n      \"jobTitle\": \"Medical department assistant\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Central Hospital\",\n      \"jobTitle\": \"Acting assistant physician\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl-Erik Bergstrand",
+        "jobTitle": "Licensed physician",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "birthDate": "1914-12-25",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik B. Bergstrand",
+                "jobTitle": "Clergyman"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Witte"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studiex.",
+                "description": "Studiex. in Skara",
+                "startDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. kand.",
+                "description": "Bachelor of Medicine from Uppsala University",
+                "startDate": "1937"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. lic.",
+                "description": "Licensed as a physician in Stockholm",
+                "startDate": "1943"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Visby Hospital",
+                "jobTitle": "Acting assistant physician",
+                "startDate": "1943",
+                "endDate": "1944"
+            },
+            {
+                "@type": "Organization",
+                "name": "Umeå Hospital",
+                "jobTitle": "Medical department assistant",
+                "startDate": "1944",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Central Hospital",
+                "jobTitle": "Acting assistant physician",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

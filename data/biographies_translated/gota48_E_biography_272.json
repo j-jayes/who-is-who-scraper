@@ -1,0 +1,117 @@
+{
+    "original": "Englund, Otto Albin, konsul. Var-berg, f. 11/1/75 i Ljushult, Älvsb. 1., av Anders E. o. Anna Davidsdotter. — Res. t. Tyskl., Österr., Ital. o. Frankr. Grund. A-B Kinna Yllefabr. 12, dir. där 12-21, grund. Varbergs Tricotfabr. A-B, verkst. dir. där 22-33, deläg. i Englo A-B i Varberg sed. 46. Ordf. i styr. f. detta föret. sed. 46, ordf. i lokalstyr. f. Smål. Ensk. Bank 23-30, var. mångårig led. av hamnstyr. i Varberg. Medl. av Odd Fellow. Hobbies: bilresor, fiske. RPrRÖO.",
+    "translated": "Englund, Otto Albin, consul. Varberg, b. 11/1/75 in Ljushult, Älvsborgs län, son of Anders E. and Anna Davidsdotter. - Traveled to Germany, Austria, Italy, and France. Founder of AB Kinna Yllefabrik in 1912, director there from 1912-1921, founder of Varbergs Tricotfabrik AB, executive director there from 1922-1933, co-owner of Englo AB in Varberg since 1946. Chairman of the board of directors for Englo AB since 1946, chairman of the local board of Smålands Enskilda Bank from 1923-1930, and served as a long-time board member of the Varberg port authority. Member of the Odd Fellows organization. Hobbies: car trips and fishing. Knight of the Royal Order of the Polar Star. Note: Marriage date not specified.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Otto Albin Englund\",\n   \"jobTitle\": \"Consul\",\n   \"birthDate\": \"1875-01-11\",\n   \"birthPlace\": \"Ljushult, Älvsborgs län, Sweden\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders E. Englund\",\n         \"gender\": \"male\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anna Davidsdotter\",\n         \"gender\": \"female\"\n      }\n   ],\n   \"nationality\": \"Swedish\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellow\"\n   },\n   \"hobbies\": [\n      \"car trips\",\n      \"fishing\"\n   ],\n   \"award\": {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the Polar Star\",\n      \"awardDate\": \"not specified\"\n   },\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"AB Kinna Yllefabrik\",\n         \"foundingDate\": \"1912\",\n         \"founders\": [\n            {\n               \"@type\": \"Person\",\n               \"name\": \"Otto Albin Englund\"\n            }\n         ],\n         \"director\": {\n            \"@type\": \"Person\",\n            \"name\": \"Otto Albin Englund\",\n            \"startDate\": \"1912\",\n            \"endDate\": \"1921\"\n         }\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Varbergs Tricotfabrik AB\",\n         \"foundingDate\": \"1922\",\n         \"founders\": [\n            {\n               \"@type\": \"Person\",\n               \"name\": \"Otto Albin Englund\"\n            }\n         ],\n         \"executiveDirector\": {\n            \"@type\": \"Person\",\n            \"name\": \"Otto Albin Englund\",\n            \"startDate\": \"1922\",\n            \"endDate\": \"1933\"\n         }\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Englo AB\",\n         \"foundingDate\": \"1946\",\n         \"founders\": [\n            {\n               \"@type\": \"Person\",\n               \"name\": \"Otto Albin Englund\"\n            }\n         ],\n         \"coOwner\": {\n            \"@type\": \"Person\",\n            \"name\": \"Otto Albin Englund\",\n            \"startDate\": \"1946\"\n         },\n         \"chairman\": {\n            \"@type\": \"Person\",\n            \"name\": \"Otto Albin Englund\",\n            \"startDate\": \"1946\"\n         }\n      }\n   ],\n   \"boardMember\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Smålands Enskilda Bank\",\n         \"startDate\": \"1923\",\n         \"endDate\": \"1930\",\n         \"localBoardChairman\": {\n            \"@type\": \"Person\",\n            \"name\": \"Otto Albin Englund\"\n         }\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Varberg Port Authority\",\n         \"boardMember\": {\n            \"@type\": \"Person\",\n            \"name\": \"Otto Albin Englund\"\n         },\n         \"duration\": \"long-time\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Otto Albin Englund",
+        "jobTitle": "Consul",
+        "birthDate": "1875-01-11",
+        "birthPlace": "Ljushult, Älvsborgs län, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Anders E. Englund",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Davidsdotter",
+                "gender": "female"
+            }
+        ],
+        "nationality": "Swedish",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Odd Fellow"
+        },
+        "hobbies": [
+            "car trips",
+            "fishing"
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "Royal Order of the Polar Star",
+            "awardDate": "not specified"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "AB Kinna Yllefabrik",
+                "foundingDate": "1912",
+                "founders": [
+                    {
+                        "@type": "Person",
+                        "name": "Otto Albin Englund"
+                    }
+                ],
+                "director": {
+                    "@type": "Person",
+                    "name": "Otto Albin Englund",
+                    "startDate": "1912",
+                    "endDate": "1921"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Varbergs Tricotfabrik AB",
+                "foundingDate": "1922",
+                "founders": [
+                    {
+                        "@type": "Person",
+                        "name": "Otto Albin Englund"
+                    }
+                ],
+                "executiveDirector": {
+                    "@type": "Person",
+                    "name": "Otto Albin Englund",
+                    "startDate": "1922",
+                    "endDate": "1933"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Englo AB",
+                "foundingDate": "1946",
+                "founders": [
+                    {
+                        "@type": "Person",
+                        "name": "Otto Albin Englund"
+                    }
+                ],
+                "coOwner": {
+                    "@type": "Person",
+                    "name": "Otto Albin Englund",
+                    "startDate": "1946"
+                },
+                "chairman": {
+                    "@type": "Person",
+                    "name": "Otto Albin Englund",
+                    "startDate": "1946"
+                }
+            }
+        ],
+        "boardMember": [
+            {
+                "@type": "Organization",
+                "name": "Smålands Enskilda Bank",
+                "startDate": "1923",
+                "endDate": "1930",
+                "localBoardChairman": {
+                    "@type": "Person",
+                    "name": "Otto Albin Englund"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Varberg Port Authority",
+                "boardMember": {
+                    "@type": "Person",
+                    "name": "Otto Albin Englund"
+                },
+                "duration": "long-time"
+            }
+        ]
+    }
+}

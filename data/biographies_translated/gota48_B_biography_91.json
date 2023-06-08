@@ -1,0 +1,76 @@
+{
+    "original": "Bergh, Gunnar Elias Severin, advokat, Göteborg, f. 28/9/87 i Stenberga, Jönköp. 1. G. 16 m. Hedvig Yngve. Barn: Gunvor, Lillemor, Märta, Lars-Gunnar, civrimg. — Stud:ex. i Växjö 05, jur. kand. i Lund 08. Efter anst. å domarekansH o. skilda adv :kont. adv. i Gbg sed. 12 o. inneh. av Gunnar Berghs Adv:byrà där. Led. av Sv:es advrsamf. sed. 17.",
+    "translated": "Bergh, Gunnar Elias Severin, lawyer, Gothenburg, b. 28/9/87 in Stenberga, Jönköping. Married once, to Hedvig Yngve in 1916. Children: Gunvor, Lillemor, Märta, Lars-Gunnar, who is a civil engineer. He graduated from high school in Växjö in 1905 and earned a law degree from Lund University in 1908. After working as a clerk at various courts and law firms, he became a lawyer in Gothenburg in 1912 and took over the law firm of Gunnar Bergh. He has been a member of the Swedish Bar Association since 1917.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Elias Severin Bergh\",\n  \"birthDate\": \"1887-09-28\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Stenberga, Jönköping\"\n  },\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Lawyer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Växjö\"\n      },\n      \"endDate\": \"1905\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Jur. kand.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1908\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hedvig Yngve\",\n    \"marriageDate\": \"1916\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunvor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lillemor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Märta\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Gunnar\",\n      \"jobTitle\": \"Civil engineer\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gunnar Berghs Adv:byrà\"\n  },\n  \"startDate\": \"1912\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Elias Severin Bergh",
+        "birthDate": "1887-09-28",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stenberga, Jönköping"
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Lawyer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Växjö"
+                },
+                "endDate": "1905"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Jur. kand.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "endDate": "1908"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hedvig Yngve",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunvor"
+            },
+            {
+                "@type": "Person",
+                "name": "Lillemor"
+            },
+            {
+                "@type": "Person",
+                "name": "Märta"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars-Gunnar",
+                "jobTitle": "Civil engineer"
+            }
+        ],
+        "workLocation": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gunnar Berghs Adv:byrà"
+        },
+        "startDate": "1912"
+    }
+}

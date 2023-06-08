@@ -1,0 +1,50 @@
+{
+    "original": "Clason, Bengt Erik, agronom, Visby, f. 9/9/10 i Kalmar förs., Upps. 1. — Stud:ex. 34, agronomex. 41. Assist, v. stat. försöksgård Ugerup 41, v. eg-nah :ndn i Gotl. 1. 41, jordbr :konsuleiit v. Gotl. 1. hushisällsk. sed. 42.",
+    "translated": "Clason, Bengt Erik, agronom, Visby, born September 9th, 1910 in Kalmar parish. Graduated from Uppsala: Studentexamen in 1934, Agronomexamen in 1941. Assistant at the State Experimental Farm Ugerup in 1941, at the private estate in Gotland in 1941, Agricultural Consultant at the Gotland Household Association since 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Erik Clason\",\n  \"jobTitle\": \"Agronomist\",\n  \"birthPlace\": \"Kalmar parish\",\n  \"birthDate\": \"1910-09-09\",\n  \"nationality\": \"Swedish\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"State Experimental Farm Ugerup\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1941\",\n      \"jobTitle\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private estate in Gotland\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1941\",\n      \"jobTitle\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland Household Association\",\n      \"startDate\": \"1942\",\n      \"jobTitle\": \"Agricultural Consultant\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studentexamen\",\n      \"earnedBy\": \"Uppsala\",\n      \"dateEarned\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Agronomexamen\",\n      \"earnedBy\": \"Uppsala\",\n      \"dateEarned\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Bengt Erik Clason",
+        "jobTitle": "Agronomist",
+        "birthPlace": "Kalmar parish",
+        "birthDate": "1910-09-09",
+        "nationality": "Swedish",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "State Experimental Farm Ugerup",
+                "startDate": "1941",
+                "endDate": "1941",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Private estate in Gotland",
+                "startDate": "1941",
+                "endDate": "1941",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland Household Association",
+                "startDate": "1942",
+                "jobTitle": "Agricultural Consultant"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen",
+                "earnedBy": "Uppsala",
+                "dateEarned": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Agronomexamen",
+                "earnedBy": "Uppsala",
+                "dateEarned": "1941"
+            }
+        ]
+    }
+}

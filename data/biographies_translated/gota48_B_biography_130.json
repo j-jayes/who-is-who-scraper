@@ -1,0 +1,92 @@
+{
+    "original": "Bergentz, Otto Samuel, läroverksadjunkt, Halmstad, f. 8/6/85 i Häst-veda, Krist. 1. G. 11 m. Tora Hainer. Barn: Sven f. 13, civ:ing., löjtn. i res., g. m. Margit Andersson, Ingrid 16, Röda Kors-syster, g. m. kapt. v. flygv. Gösta Heldström, Sthlm, Kerstin 18, postexp., g. m. chefsaissiist., kapi. i kustart. res. J. O. Lysell, Sthlm. — Stud:ex. i Lund 07, fil. mag. 10. Vik. adj. i Östersund 10, Kristianstad 11-13, Växjö 14, adj. i matem., fysik o. kemi v. Halmstads h. a. 1. sed. 14. Skolöverstyr. omb. v. realex. i Åstorp, Laholm, 22-27, lär. v. Halm’stads tekn. yrkessk. 22-27. Led. av kyrkofullm. RVO.",
+    "translated": "Bergentz, Otto Samuel, high school teacher, Halmstad, born on June 8, 1885 in Hästveda, Krist. 1. Married in 1911 to Tora Hainer. Children: Sven, born in 1913, civil engineer, lieutenant in reserve, married to Margit Andersson; Ingrid, born in 1916, Red Cross nurse, married to Captain Gösta Heldström of the Air Force in Stockholm; Kerstin, born in 1918, post office employee, married to Chief Petty Officer in the coastal artillery reserve, J.O. Lysell, Stockholm. Otto Samuel obtained his high school diploma in Lund in 1907 and his Bachelor of Arts in 1910. He worked as a substitute teacher in Östersund in 1910 and in Kristianstad from 1911 to 1913, and in Växjö in 1914. In 1914, he became a teacher of mathematics, physics, and chemistry at Halmstad's high school. He was also appointed as the headmaster of the real school in Åstorp and Laholm from 1922 to 1927, and he taught at Halmstad's technical vocational school from 1922 to 1927. Additionally, he was a member of the church council and a recipient of the Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Otto Samuel Bergentz\",\n  \"birthDate\": \"1885-06-08\",\n  \"birthPlace\": \"Hästveda, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tora Hainer\",\n    \"marriageDate\": \"1911\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Bergentz\",\n      \"birthDate\": \"1913\",\n      \"description\": \"Civil engineer, lieutenant in reserve, married to Margit Andersson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Bergentz\",\n      \"birthDate\": \"1916\",\n      \"description\": \"Red Cross nurse, married to Captain Gösta Heldström of the Air Force in Stockholm\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Bergentz\",\n      \"birthDate\": \"1918\",\n      \"description\": \"Post office employee, married to Chief Petty Officer in the coastal artillery reserve, J.O. Lysell, Stockholm\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"location\": \"Lund, Sweden\",\n      \"endDate\": \"1910\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Bachelor of Arts\"\n      }\n    }\n  ],\n  \"jobTitle\": \"High school teacher\",\n  \"employmentHistory\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halmstad High School\"\n      },\n      \"jobTitle\": \"Teacher of Mathematics, Physics and Chemistry\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Åstorp and Laholm Real Schools\"\n      },\n      \"jobTitle\": \"Headmaster\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halmstad Technical Vocational School\"\n      },\n      \"jobTitle\": \"Teacher\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Church Council\"\n  },\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Order of Vasa\",\n    \"description\": \"Recipient of Order of Vasa\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Otto Samuel Bergentz",
+        "birthDate": "1885-06-08",
+        "birthPlace": "Hästveda, Sweden",
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Tora Hainer",
+            "marriageDate": "1911"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Bergentz",
+                "birthDate": "1913",
+                "description": "Civil engineer, lieutenant in reserve, married to Margit Andersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Bergentz",
+                "birthDate": "1916",
+                "description": "Red Cross nurse, married to Captain Gösta Heldström of the Air Force in Stockholm"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Bergentz",
+                "birthDate": "1918",
+                "description": "Post office employee, married to Chief Petty Officer in the coastal artillery reserve, J.O. Lysell, Stockholm"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "location": "Lund, Sweden",
+                "endDate": "1910",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor of Arts"
+                }
+            }
+        ],
+        "jobTitle": "High school teacher",
+        "employmentHistory": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Halmstad High School"
+                },
+                "jobTitle": "Teacher of Mathematics, Physics and Chemistry",
+                "startDate": "1914",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Åstorp and Laholm Real Schools"
+                },
+                "jobTitle": "Headmaster",
+                "startDate": "1922",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Halmstad Technical Vocational School"
+                },
+                "jobTitle": "Teacher",
+                "startDate": "1922",
+                "endDate": "1927"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Church Council"
+        },
+        "awards": {
+            "@type": "Order",
+            "name": "Order of Vasa",
+            "description": "Recipient of Order of Vasa"
+        }
+    }
+}

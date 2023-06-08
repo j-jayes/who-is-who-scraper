@@ -1,0 +1,80 @@
+{
+    "original": "Eneroth, Tore, assessor, Göteborg, f. 23/10/98 i Gbg av ing. Axel E. o. Ida Wohlfahrt. G. 29 m. Astri Caval-li-Björkman. Barn: Berndt f. 31, Gunn 33, Margareta 36. — Stud:ex. v. Gbgs latin 17, jur. kand. i Upps. 22. Tingstjg. i Norrvikens doms. 22-25, därefter anst. kort. tid å adv:byrå, tjg. i Gbgs rådhusr. fr. 26, assessor där sed. 36. Ordf. i tax:nd i Gbg samt i hyresnd i Partilile o. Sävedafe mu-nic: samhällen.",
+    "translated": "Eneroth, Tore, assessor, Gothenburg, b. 23/10/98 in Gothenburg to engineer Axel E. and Ida Wohlfahrt. Married in 1929 to Astri Cavalli-Björkman. Children: Berndt b. 1931, Gunn b. 1933, Margareta b. 1936. Completed secondary education at Gothenburg Latin School in 1917, earned a degree in jurisprudence from Uppsala University in 1922. Served at Norrviken's District Court from 1922-1925, worked for a short time at a law firm and then served at Gothenburg City Hall from 1926. Became an assessor there in 1936. Chairman of the tax board in Gothenburg, as well as the rent tribunal in the municipalities of Partille and Sävedalen.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tore Eneroth\",\n  \"birthDate\": \"1898-10-23\",\n  \"birthPlace\": \"Gothenburg\",\n  \"deathDate\": \"Unknown\",\n  \"deathPlace\": \"Unknown\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astri Cavalli-Björkman\",\n    \"marriageDate\": \"1929\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berndt Eneroth\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunn Eneroth\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Eneroth\",\n      \"birthDate\": \"1936\"\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Assessor\",\n  \"worksFor\": \"Gothenburg City Hall\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary Education\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"awardingInstitution\": \"Gothenburg Latin School\",\n      \"dateAwarded\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree in Jurisprudence\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardingInstitution\": \"Uppsala University\",\n      \"dateAwarded\": \"1922\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrviken's District Court\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1925\",\n      \"memberOf\": \"Judicial System\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg City Hall\",\n      \"startDate\": \"1926\",\n      \"memberOf\": \"Government\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tax Board of Gothenburg\",\n      \"memberOf\": \"Government\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rent Tribunal of Partille and Sävedalen municipalities\",\n      \"memberOf\": \"Government\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tore Eneroth",
+        "birthDate": "1898-10-23",
+        "birthPlace": "Gothenburg",
+        "deathDate": "Unknown",
+        "deathPlace": "Unknown",
+        "spouse": {
+            "@type": "Person",
+            "name": "Astri Cavalli-Björkman",
+            "marriageDate": "1929"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Berndt Eneroth",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunn Eneroth",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta Eneroth",
+                "birthDate": "1936"
+            }
+        ],
+        "nationality": "Swedish",
+        "jobTitle": "Assessor",
+        "worksFor": "Gothenburg City Hall",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary Education",
+                "educationalLevel": "SecondaryEducation",
+                "awardingInstitution": "Gothenburg Latin School",
+                "dateAwarded": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in Jurisprudence",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "Uppsala University",
+                "dateAwarded": "1922"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Norrviken's District Court",
+                "startDate": "1922",
+                "endDate": "1925",
+                "memberOf": "Judicial System"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg City Hall",
+                "startDate": "1926",
+                "memberOf": "Government"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tax Board of Gothenburg",
+                "memberOf": "Government"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rent Tribunal of Partille and Sävedalen municipalities",
+                "memberOf": "Government"
+            }
+        ]
+    }
+}

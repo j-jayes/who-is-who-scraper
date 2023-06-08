@@ -1,0 +1,79 @@
+{
+    "original": "Fredin, Carl Gustaf Harald, bankdirektör, Tidahorm, f. 30/7/91 i Skövde av G. A. F. o. Mathilda Löf. G. 18 m. Torborg Silfwerhielm. Barn: Ake f. 19. — Ex. v. Schartaus hand:-inst. 09. Tj :man’ i Skarab. Ensk. Bank i Skövde 09, kamr. i Grästorp 18, dir. v. avd :kont. i Tidaholm sed. 32. Ordf. i styr. f. Skarab. Ensk. Banks kvd:-kont. i Tidaholm sed. 32, insp. f. landstingets centr. verkstisk.",
+    "translated": "Fredin, Carl Gustaf Harald, bank director, born on July 30, 1891 in Skövde to G. A. F. and Mathilda Löf. Married on August 18th to Torborg Silfwerhielm. Children: Ake born in 1919. Graduated from Schartau's Business School in 1909. Worked as a clerk at Skaraborgs Enskilda Bank in Skövde in 1909, clerk in Grästorp in 1918, and director of the department in Tidaholm since 1932. He was the chairman of the board of Skaraborgs Enskilda Bank's women's department in Tidaholm since 1932, and inspector for the county's central machinery workshop.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Harald Fredin\",\n  \"birthDate\": \"1891-07-30\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Skövde\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"G. A. F.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mathilda Löf\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Torborg Silfwerhielm\",\n    \"marriageDate\": \"1918-08-18\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ake\",\n      \"birthDate\": \"1919\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Schartau's Business School\",\n    \"endDate\": \"1909\"\n  },\n  \"jobTitle\": \"Bank Director\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skaraborgs Enskilda Bank\",\n      \"subOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Women's department\",\n        \"foundingDate\": \"1932\"\n      },\n      \"foundingDate\": \"1909\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Grästorp\",\n      \"foundingDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tidaholm\",\n      \"subOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Department\",\n        \"foundingDate\": \"1932\"\n      },\n      \"foundingDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Landstinget\"\n    }\n  ],\n  \"jobStartDate\": \"1909\",\n  \"inspectorOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"County's central machinery workshop\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Carl Gustaf Harald Fredin",
+        "birthDate": "1891-07-30",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Skövde"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "G. A. F."
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Löf"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Torborg Silfwerhielm",
+            "marriageDate": "1918-08-18"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ake",
+                "birthDate": "1919"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Schartau's Business School",
+            "endDate": "1909"
+        },
+        "jobTitle": "Bank Director",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skaraborgs Enskilda Bank",
+                "subOrganization": {
+                    "@type": "Organization",
+                    "name": "Women's department",
+                    "foundingDate": "1932"
+                },
+                "foundingDate": "1909"
+            },
+            {
+                "@type": "Organization",
+                "name": "Grästorp",
+                "foundingDate": "1918"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tidaholm",
+                "subOrganization": {
+                    "@type": "Organization",
+                    "name": "Department",
+                    "foundingDate": "1932"
+                },
+                "foundingDate": "1932"
+            },
+            {
+                "@type": "Organization",
+                "name": "Landstinget"
+            }
+        ],
+        "jobStartDate": "1909",
+        "inspectorOf": {
+            "@type": "Organization",
+            "name": "County's central machinery workshop"
+        }
+    }
+}

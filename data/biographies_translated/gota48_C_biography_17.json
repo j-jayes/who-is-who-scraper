@@ -1,0 +1,98 @@
+{
+    "original": "Carlander, Gudmund Rolfsson, ci-vidinigenjöir, Göteborg, f. 6/12/11 i Qbg av ryttmäst. Rolf C. o. Signe Svensson. G. 39 m. Solveig Johansson. Barn: Margareta f. 41, Björn 45. — Studrex. v. Gbgs real 30, ex. v. CTH (V) 34. Res. t. Engl. 33 o. 35, Tyskl. 36, Danm. 33, 36 o. 39, Norge 33 o. 39. Anst. v. väg- o. vattenbyggn :styr. hamnbyrå 34-37, arb :chef v. Skånska Cements Gbgs-filial sed. 38. Medl. av ÖIS o. Odd Fellow. Hobbies: sport, skönlitteratur.",
+    "translated": "Carlander, Gudmund Rolfsson, civil engineer, Gothenburg, born December 6th, 1911 in Qbg (presumably abbreviation for a place name) to Rolf C. (a cavalry captain) and Signe Svensson. Married in 1939 to Solveig Johansson, with two children: Margareta, born in 1941, and Björn, born in 1945. He attended Gothenburg Realgymnasium, graduating in 1930, and passed his exam at Chalmers University of Technology in 1934 (V likely stands for \"Vattenbyggnadskår,\" or Waterbuilding Corps). He traveled to England in 1933 and 1935, Germany in 1936, Denmark in 1933, 1936, and 1939, and Norway in 1933 and 1939. He was employed by the Road and Water Building Board from 1934 to 1937, and was a chief executive at the Gothenburg branch of Skånska Cement from 1938 onward. He was a member of ÖIS (Örgryte Idrottssällskap, a sports club) and the Odd Fellow. His hobbies included sports and fiction literature.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gudmund Rolfsson Carlander\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthDate\": \"1911-12-06\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf C. Carlander\",\n      \"jobTitle\": \"Cavalry Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Solveig Johansson\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Carlander\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn Carlander\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Realgymnasium\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Chalmers University of Technology\",\n      \"endDate\": \"1934\",\n      \"additionalName\": \"Vattenbyggnadskår\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örgryte Idrottssällskap\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellow\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\",\n      \"addressRegion\": \"SE\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Road and Water Building Board\",\n        \"startDate\": \"1934\",\n        \"endDate\": \"1937\"\n      },\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\",\n      \"addressRegion\": \"SE\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skånska Cement\",\n        \"startDate\": \"1938\"\n      },\n      \"jobTitle\": \"Chief Executive\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://sv.wikipedia.org/wiki/Gudmund_Carlander\"\n  ],\n  \"knowsAbout\": [\n    \"Swedish family history\"\n  ],\n  \"additionalName\": [\n    \"sport\",\n    \"skönlitteratur\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gudmund Rolfsson Carlander",
+        "jobTitle": [
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg",
+                "addressRegion": "SE",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Road and Water Building Board",
+                    "startDate": "1934",
+                    "endDate": "1937"
+                },
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg",
+                "addressRegion": "SE",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Skånska Cement",
+                    "startDate": "1938"
+                },
+                "jobTitle": "Chief Executive"
+            }
+        ],
+        "birthDate": "1911-12-06",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Rolf C. Carlander",
+                "jobTitle": "Cavalry Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Solveig Johansson",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta Carlander",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn Carlander",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Realgymnasium",
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Chalmers University of Technology",
+                "endDate": "1934",
+                "additionalName": "Vattenbyggnadskår"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Örgryte Idrottssällskap"
+            },
+            {
+                "@type": "Organization",
+                "name": "Odd Fellow"
+            }
+        ],
+        "sameAs": [
+            "https://sv.wikipedia.org/wiki/Gudmund_Carlander"
+        ],
+        "knowsAbout": [
+            "Swedish family history"
+        ],
+        "additionalName": [
+            "sport",
+            "skönlitteratur"
+        ]
+    }
+}

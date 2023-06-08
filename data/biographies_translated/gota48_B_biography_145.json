@@ -1,0 +1,140 @@
+{
+    "original": "Berggren, John Olof Sigurd, läroverksadjunkt, Trollhättan, f. 15/4/90 i Östmark, Värml. 1., av här:dom. C. J. B. o. Anna Östling. G. 30 m. Anna Bäckström. Barn: John Olof f. 30, Henry 32, Gudrun 38. — Stud :ex. i Karlstad 09, fil. mag. i Upps. 15, prov-år 20. Vik. adj. i Falun 16, förest, f.^ Torsby priv. samsk. 17-18, vik. adj. i Amål 18-19, e. lär. i Mora 19, vik. adj. i Västerås 21, e. lär. i Karlshamn 21-24, v. Sthlms komm. mellansk. .24-32, adj. i matem. o. fysik v. Trollhättans samrealsk. sed. 32.",
+    "translated": "Berggren, John Olof Sigurd, high school teacher, Trollhättan, born on April 15th, 1890 in Östmark, Värmland. 1st of the family: son of county governor C. J. B. and Anna Östling. Married in 1930 to Anna Bäckström. Children: John Olof (born 1930), Henry (born 1932), Gudrun (born 1938). Studied for the teaching degree in Karlstad in 1909, graduated with a Master of Philosophy degree from Uppsala University in 1915, and had a one-year teaching probationary period in 1920. Worked as a substitute teacher in Falun in 1916, head of Torsby private school in 1917-1918, substitute teacher in Amål in 1918-1919, permanent teacher in Mora in 1919, substitute teacher in Västerås in 1921, permanent teacher in Karlshamn in 1921-1924, deputy in mathematics and physics at Trollhättan's secondary school since 1932.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Olof Sigurd Berggren\",\n  \"birthDate\": \"1890-04-15\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Östmark, Värmland\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.J.B Berggren\",\n      \"jobTitle\": \"County Governor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Östling\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Bäckström\",\n    \"marriageDate\": \"1930\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John Olof Berggren\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henry Berggren\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun Berggren\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"jobTitle\": \"High School Teacher\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Trollhättan's Secondary School\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Karlstad\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"endDate\": \"1915\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Master of Philosophy\"\n      }\n    }\n  ],\n  \"jobHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute Teacher\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Falun\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Torsby Private School\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1918\",\n      \"jobTitle\": \"Head of School\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute Teacher\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Amål\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Permanent Teacher\",\n      \"startDate\": \"1919\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Mora\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute Teacher\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1921\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Västerås\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Permanent Teacher\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1924\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Karlshamn\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Deputy\",\n      \"startDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Trollhättan's Secondary School\"\n      },\n      \"specialty\": [\n        \"Mathematics\",\n        \"Physics\"\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "John Olof Sigurd Berggren",
+        "birthDate": "1890-04-15",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Östmark, Värmland"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C.J.B Berggren",
+                "jobTitle": "County Governor"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Östling"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Bäckström",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "John Olof Berggren",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Henry Berggren",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Gudrun Berggren",
+                "birthDate": "1938"
+            }
+        ],
+        "jobTitle": "High School Teacher",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Trollhättan's Secondary School"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Karlstad",
+                "endDate": "1909"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "endDate": "1915",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Master of Philosophy"
+                }
+            }
+        ],
+        "jobHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Substitute Teacher",
+                "startDate": "1916",
+                "endDate": "1916",
+                "location": {
+                    "@type": "Place",
+                    "name": "Falun"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Torsby Private School",
+                "startDate": "1917",
+                "endDate": "1918",
+                "jobTitle": "Head of School"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Substitute Teacher",
+                "startDate": "1918",
+                "endDate": "1919",
+                "location": {
+                    "@type": "Place",
+                    "name": "Amål"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Permanent Teacher",
+                "startDate": "1919",
+                "location": {
+                    "@type": "Place",
+                    "name": "Mora"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Substitute Teacher",
+                "startDate": "1921",
+                "endDate": "1921",
+                "location": {
+                    "@type": "Place",
+                    "name": "Västerås"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Permanent Teacher",
+                "startDate": "1921",
+                "endDate": "1924",
+                "location": {
+                    "@type": "Place",
+                    "name": "Karlshamn"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Deputy",
+                "startDate": "1932",
+                "location": {
+                    "@type": "Place",
+                    "name": "Trollhättan's Secondary School"
+                },
+                "specialty": [
+                    "Mathematics",
+                    "Physics"
+                ]
+            }
+        ]
+    }
+}

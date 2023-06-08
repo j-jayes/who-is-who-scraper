@@ -1,0 +1,163 @@
+{
+    "original": "Esbjörnsson, Torsten Valdemar, apotekare, Norrköping, f. 27/9/95 i Benestad, Krist. 1., av Hans Nils E. o. Mathilda Jönsson. G. 29 m. Maud Törnsten. Barn: Margareta f. 29. — Stud:ex. i Lund 19, farm. kand. 23, apot :ex. 27, Elev v. apot. Svanen i Gbg 20-22, anst. där 23-25 o. 27-30, v. Kronan i Gbg, Enhörningen i Gbg 31-45, därav en längre tid s. förest., priv. å apot. Vesslan i Norrköp. sed. 45. Led. av styr. f. Sthlms-kretsen av Sv. farm:förb. o. fullm. f. densamma 26-27, dito i Gbgskretsen 31-33, led. av styr. f. Farm. sjukkassa 33, ordf. i farm. inst. stud:kår 25-27, ’Sekr. i Öst-igötakrets. av Sv:es apot:förb. 47. Hobby: ’segling.",
+    "translated": "Esbjörnsson, Torsten Valdemar, pharmacist, Norrköping, born September 27th, 1895 in Benestad, Kristianstad County, son of Hans Nils E. and Mathilda Jönsson. Married Maud Törnsten in 1929. Children: Margareta (born in 1929). He completed his secondary education in Lund in 1919, received a pharmaceutical degree in 1923, and a pharmacy degree in 1927. He was a trainee at Apoteket Svanen in Gothenburg from 1920 to 1922, worked there from 1923 to 1925 and from 1927 to 1930, worked at Apoteket Kronan in Gothenburg and Apoteket Enhörningen in Gothenburg from 1931 to 1945, serving as manager for a long time at the latter. He was also in private practice at Apoteket Vesslan in Norrköping from 1945. He was a member of the board for the Stockholm branch of the Swedish Pharmaceutical Association and its representative from 1926 to 1927, also serving as a member of the board for the Gothenburg branch from 1931 to 1933, a member of the board for the Pharmaceutical Sickness Fund in 1933, chairman of the student body of the Pharmaceutical Institute from 1925 to 1927, and secretary in the East-Götaland branch of the Swedish Pharmacy Association in 1947. His hobby was sailing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Torsten Valdemar Esbjörnsson\",\n  \"jobTitle\": \"Pharmacist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping\"\n  },\n  \"birthDate\": \"1895-09-27\",\n  \"birthPlace\": \"Benestad, Kristianstad County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Hans Nils\",\n      \"familyName\": \"Esbjörnsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Mathilda\",\n      \"familyName\": \"Jönsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maud Törnsten\",\n    \"weddingDate\": \"1929\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary Education\",\n      \"educationalLevel\": \"Secondary\",\n      \"awardingInstitution\": \"Lund\",\n      \"yearAwarded\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Pharmaceutical Degree\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"awardingInstitution\": \"Unknown\",\n      \"yearAwarded\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Pharmacy Degree\",\n      \"educationalLevel\": \"Master's Degree\",\n      \"awardingInstitution\": \"Unknown\",\n      \"yearAwarded\": \"1927\"\n    }\n  ],\n  \"trainee\": [\n    {\n      \"@type\": \"TrainingEvent\",\n      \"name\": \"Apoteket Svanen\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1922\",\n      \"location\": \"Gothenburg\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Apoteket Svanen\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1925\",\n      \"affiliation\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Apoteket Svanen\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\",\n      \"affiliation\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Apoteket Kronan\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1945\",\n      \"affiliation\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Apoteket Enhörningen\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1945\",\n      \"affiliation\": \"Gothenburg\",\n      \"description\": \"Served as manager for a long time.\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Apoteket Vesslan\",\n      \"startDate\": \"1945\",\n      \"affiliation\": \"Norrköping\",\n      \"description\": \"Served in private practice.\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Pharmaceutical Association\",\n      \"member\": [\n        {\n          \"@type\": \"OrganizationRole\",\n          \"roleName\": \"Board Member\",\n          \"startDate\": \"1926\",\n          \"endDate\": \"1927\",\n          \"affiliation\": \"Stockholm Branch\"\n        },\n        {\n          \"@type\": \"OrganizationRole\",\n          \"roleName\": \"Board Member\",\n          \"startDate\": \"1931\",\n          \"endDate\": \"1933\",\n          \"affiliation\": \"Gothenburg Branch\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Pharmaceutical Sickness Fund\",\n      \"member\": {\n        \"@type\": \"OrganizationRole\",\n        \"roleName\": \"Board Member\",\n        \"startDate\": \"1933\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Pharmaceutical Institute\",\n      \"member\": {\n        \"@type\": \"OrganizationRole\",\n        \"roleName\": \"Chairman\",\n        \"startDate\": \"1925\",\n        \"endDate\": \"1927\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Pharmacy Association\",\n      \"member\": {\n        \"@type\": \"OrganizationRole\",\n        \"roleName\": \"Secretary\",\n        \"startDate\": \"1947\",\n        \"affiliation\": \"East-Götaland Branch\"\n      }\n    }\n  ],\n  \"hobby\": \"Sailing\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Torsten Valdemar Esbjörnsson",
+        "jobTitle": "Pharmacist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
+        },
+        "birthDate": "1895-09-27",
+        "birthPlace": "Benestad, Kristianstad County",
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Hans Nils",
+                "familyName": "Esbjörnsson"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Mathilda",
+                "familyName": "Jönsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maud Törnsten",
+            "weddingDate": "1929"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1929"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary Education",
+                "educationalLevel": "Secondary",
+                "awardingInstitution": "Lund",
+                "yearAwarded": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Pharmaceutical Degree",
+                "educationalLevel": "Bachelor's Degree",
+                "awardingInstitution": "Unknown",
+                "yearAwarded": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Pharmacy Degree",
+                "educationalLevel": "Master's Degree",
+                "awardingInstitution": "Unknown",
+                "yearAwarded": "1927"
+            }
+        ],
+        "trainee": [
+            {
+                "@type": "TrainingEvent",
+                "name": "Apoteket Svanen",
+                "startDate": "1920",
+                "endDate": "1922",
+                "location": "Gothenburg"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Apoteket Svanen",
+                "startDate": "1923",
+                "endDate": "1925",
+                "affiliation": "Gothenburg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Apoteket Svanen",
+                "startDate": "1927",
+                "endDate": "1930",
+                "affiliation": "Gothenburg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Apoteket Kronan",
+                "startDate": "1931",
+                "endDate": "1945",
+                "affiliation": "Gothenburg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Apoteket Enhörningen",
+                "startDate": "1931",
+                "endDate": "1945",
+                "affiliation": "Gothenburg",
+                "description": "Served as manager for a long time."
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Apoteket Vesslan",
+                "startDate": "1945",
+                "affiliation": "Norrköping",
+                "description": "Served in private practice."
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Pharmaceutical Association",
+                "member": [
+                    {
+                        "@type": "OrganizationRole",
+                        "roleName": "Board Member",
+                        "startDate": "1926",
+                        "endDate": "1927",
+                        "affiliation": "Stockholm Branch"
+                    },
+                    {
+                        "@type": "OrganizationRole",
+                        "roleName": "Board Member",
+                        "startDate": "1931",
+                        "endDate": "1933",
+                        "affiliation": "Gothenburg Branch"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Pharmaceutical Sickness Fund",
+                "member": {
+                    "@type": "OrganizationRole",
+                    "roleName": "Board Member",
+                    "startDate": "1933"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Pharmaceutical Institute",
+                "member": {
+                    "@type": "OrganizationRole",
+                    "roleName": "Chairman",
+                    "startDate": "1925",
+                    "endDate": "1927"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Pharmacy Association",
+                "member": {
+                    "@type": "OrganizationRole",
+                    "roleName": "Secretary",
+                    "startDate": "1947",
+                    "affiliation": "East-Götaland Branch"
+                }
+            }
+        ],
+        "hobby": "Sailing"
+    }
+}

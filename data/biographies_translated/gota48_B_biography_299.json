@@ -1,0 +1,87 @@
+{
+    "original": "Bjuke, Carl Gustaf, civilingenjör, kapten, Göteborg, f. 21/5/91 i Gävle. G. 21 m. Tyra Almén. Barn: Ragnar f. 23, ing. v. A-B Skånska Cement-gjut. i Gbg, Magnus 27, stud., Carin 32. — Stud:ex. 10, avg:ex. fr. KTH (VoV) 16. Löjtn. VVK 20, kapt. 29. Ing. h. kanalkomm. 17, i vattenf :-styr. 17-21, v. Merced &amp; Turlock Ir-rigation District’s damm- o. kraftstat :byggn. v. Exchequer o. Don Pedro i Californ., USA, 22, assist, super- int. h.. Lindgren &amp; Swinerton, Inc.",
+    "translated": "Bjuke, Carl Gustaf, engineer, captain, Gothenburg, born May 21, 1891 in Gävle. Married in 1921 to Tyra Almén. Children: Ragnar, born in 1923, engineer at Skånska Cement-gjut. in Gothenburg; Magnus, born in 1927, student; Carin, born in 1932. Graduated from high school in 1910 and completed his studies at the Royal Institute of Technology (VoV) in 1916. Lieutenant in the Swedish Military 1920, captain in 1929. Engineer for canal commission in 1917 and in water power control from 1917-1921. Worked on the construction of the Exchequer and Don Pedro dams and power stations in California, USA in 1922 and served as an assistant superintendent for Lindgren & Swinerton, Inc.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Bjuke\",\n  \"jobTitle\": \"Engineer\",\n  \"nationality\": \"Swedish\",\n  \"birthDate\": \"1891-05-21\",\n  \"birthPlace\": \"Gävle, Sweden\",\n  \"deathDate\": \"\",\n  \"deathPlace\": \"\",\n  \"memberOf\": \"Swedish Military\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"High School\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"Royal Institute of Technology\",\n      \"fieldOfStudy\": \"VoV\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tyra Almén\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnar Bjuke\",\n      \"birthDate\": \"1923\",\n      \"jobTitle\": \"Engineer\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skånska Cement-gjut, Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Magnus Bjuke\",\n      \"birthDate\": \"1927\",\n      \"jobTitle\": \"Student\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carin Bjuke\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Canal Commission\",\n      \"jobTitle\": \"Engineer\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Water Power Control\",\n      \"jobTitle\": \"Engineer\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lindgren & Swinerton, Inc.\",\n      \"jobTitle\": \"Assistant Superintendent\",\n      \"startDate\": \"1922\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Military\",\n      \"jobTitle\": \"Lieutenant\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1929\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Gustaf Bjuke",
+        "jobTitle": "Engineer",
+        "nationality": "Swedish",
+        "birthDate": "1891-05-21",
+        "birthPlace": "Gävle, Sweden",
+        "deathDate": "",
+        "deathPlace": "",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Military",
+                "jobTitle": "Lieutenant",
+                "startDate": "1920",
+                "endDate": "1929"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "High School",
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Royal Institute of Technology",
+                "fieldOfStudy": "VoV",
+                "endDate": "1916"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Tyra Almén",
+            "marriageDate": "1921"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ragnar Bjuke",
+                "birthDate": "1923",
+                "jobTitle": "Engineer",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Skånska Cement-gjut, Gothenburg"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Magnus Bjuke",
+                "birthDate": "1927",
+                "jobTitle": "Student"
+            },
+            {
+                "@type": "Person",
+                "name": "Carin Bjuke",
+                "birthDate": "1932"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Canal Commission",
+                "jobTitle": "Engineer",
+                "startDate": "1917"
+            },
+            {
+                "@type": "Organization",
+                "name": "Water Power Control",
+                "jobTitle": "Engineer",
+                "startDate": "1917",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lindgren & Swinerton, Inc.",
+                "jobTitle": "Assistant Superintendent",
+                "startDate": "1922"
+            }
+        ]
+    }
+}

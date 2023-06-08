@@ -1,0 +1,69 @@
+{
+    "original": "Brette, Nils Verner, landsfiskal, Åmål, f. 21/9/99 i Örebro av tandl. G. A. F. Karlsson o. Vilma Molin. G. 29 m. Karin Wetterwik. Barn: Anders f. 30, Kerstin 34, Carl-Axel 35. — Lands fiskals ex. 25. Tf. landsfiskal i Högsäter 31, ord. där 36, landsfiskal i Amål sed. 41.",
+    "translated": "Brette, Nils Verner, district prosecutor, born September 21, 1899 in Örebro to dentist G. A. F. Karlsson and Vilma Molin. Married Karin Wetterwik in 1929. Children: Anders (born 1930), Kerstin (born 1934), and Carl-Axel (born 1935). Passed the district prosecutor exam in 1925. Acting district prosecutor in Högsäter in 1931, appointed there in 1936, district prosecutor in Åmål from 1941 onwards.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Verner Brette\",\n  \"birthDate\": \"1899-09-21\",\n  \"birthPlace\": \"Örebro\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"G. A. F. Karlsson\",\n      \"jobTitle\": \"Dentist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vilma Molin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Wetterwik\",\n    \"marriageDate\": \"1929\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl-Axel\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"jobTitle\": \"District Prosecutor\",\n  \"memberOf\": [\n    {\n     \"@type\": \"Organization\",\n     \"name\": \"Högsäter\",\n     \"jobTitle\": \"Acting District Prosecutor\",\n     \"startDate\": \"1931\",\n     \"endDate\": \"1936\"\n    },\n    {\n     \"@type\": \"Organization\",\n     \"name\": \"Åmål\",\n     \"jobTitle\": \"District Prosecutor\",\n     \"startDate\": \"1941\"\n    }\n   ],\n  \"education\": [\n    {\n      \"@type\" : \"EducationalOccupationalCredential\",\n      \"description\" : \"District Prosecutor Exam\",\n      \"earnedBy\" : \"Nils Verner Brette\",\n      \"dateIssued\": \"1925\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Verner Brette",
+        "birthDate": "1899-09-21",
+        "birthPlace": "Örebro",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "G. A. F. Karlsson",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "Person",
+                "name": "Vilma Molin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Wetterwik",
+            "marriageDate": "1929"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Carl-Axel",
+                "birthDate": "1935"
+            }
+        ],
+        "jobTitle": "District Prosecutor",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Högsäter",
+                "jobTitle": "Acting District Prosecutor",
+                "startDate": "1931",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Åmål",
+                "jobTitle": "District Prosecutor",
+                "startDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "District Prosecutor Exam",
+                "earnedBy": "Nils Verner Brette",
+                "dateIssued": "1925"
+            }
+        ]
+    }
+}

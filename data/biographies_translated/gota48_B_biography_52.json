@@ -1,0 +1,77 @@
+{
+    "original": "Bengtsson, Bengt Algot, skeppsmäklare, Göteborg, f. 30/1/84 i F:i’s-kebäckskil, Gbgs o. Boh. 1. G. 17 m. Magdalena Parelius. Barn: Åke f. 17, fil. kand., Upps., Kerstin 21, fil. kand., g. m. di’sp. Göran Z. Häggström, Uppis. — Res. t. Engl. o. Tyskl. uppr. ggr. Dir. f. A-B Herman Holmberg i Gbg sed. 20. Led. av styr. f. Bogströms Stuveri A-B m. fl. Hobbies: segl., fiske, konst O’. 1’itteratur.",
+    "translated": "Bengt Algot Bengtsson was a ship broker from Gothenburg. He was born on January 30, 1884, in Fiskebäckskil, Gothenburg and Bohuslän. He was married to Magdalena Parelius for 17 years and they had two children - Åke, born in 1917, who had a degree in philosophy from Uppsala University, and Kerstin, born in 1921, who had a degree in philosophy and was married to di'sp. Göran Z. Häggström from Uppsala. Bengtsson travelled to England and Germany multiple times. He was the director of A-B Herman Holmberg in Gothenburg since 1920 and a member of the board of Bogströms Stuveri A-B and others. His hobbies included sailing, fishing, art, and literature.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Algot Bengtsson\",\n  \"birthDate\": \"1884-01-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Fiskebäckskil, Gothenburg and Bohuslän\"\n  },\n  \"jobTitle\": \"Ship Broker\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Magdalena Parelius\",\n    \"marriageDate\": \"unknown\",\n    \"divorceDate\": \"unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åke\",\n      \"birthDate\": \"1917\",\n      \"education\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"alumniOf\": \"Uppsala University\",\n        \"degree\": {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"name\": \"Philosophy\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1921\",\n      \"education\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown\",\n        \"alumniOf\": \"Unknown\",\n        \"degree\": {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"name\": \"Philosophy\"\n        }\n      },\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Göran Z. Häggström\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Herman Holmberg\",\n      \"startDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bogströms Stuveri A-B\"\n    }\n  ],\n  \"hobbies\": [\n    \"Sailing\",\n    \"Fishing\",\n    \"Art\",\n    \"Literature\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Algot Bengtsson",
+        "birthDate": "1884-01-30",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Fiskebäckskil, Gothenburg and Bohuslän"
+        },
+        "jobTitle": "Ship Broker",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Magdalena Parelius",
+            "marriageDate": "unknown",
+            "divorceDate": "unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Åke",
+                "birthDate": "1917",
+                "education": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "alumniOf": "Uppsala University",
+                    "degree": {
+                        "@type": "EducationalOccupationalCredential",
+                        "name": "Philosophy"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1921",
+                "education": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown",
+                    "alumniOf": "Unknown",
+                    "degree": {
+                        "@type": "EducationalOccupationalCredential",
+                        "name": "Philosophy"
+                    }
+                },
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Göran Z. Häggström"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A-B Herman Holmberg",
+                "startDate": "1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bogströms Stuveri A-B"
+            }
+        ],
+        "hobbies": [
+            "Sailing",
+            "Fishing",
+            "Art",
+            "Literature"
+        ]
+    }
+}

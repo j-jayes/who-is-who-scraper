@@ -1,0 +1,111 @@
+{
+    "original": "Bjurulf, Sven Johan, rektor, Jönköping, f. 4/1/91 i Ringamåla, Blek. 1. G. 28 m. Stina Lizell. Barn: Sven f. 36, Anna-Stina 41. — Stud:ex. i Jön-köp. 09, folkskolhex. i Växjö 12, fil. kand. 24. Tjg. v. Sv:es geol. under-sökn. 21-23, 27-34 o. 36, lär. v. Eskilstuna folksk. 12-13, Jönköp. folksk. 13-15, Jönköp. h. folksk. 16-17, ord. ämnesilär. -där 17 o. rektor 26, ord. ämn:lär. o. rektor v. Jönköp. prakt, m^ellansk. ised. 37.",
+    "translated": "Bjurulf, Sven Johan, principal, Jönköping, b. 4/1/1891 in Ringamåla, Blekinge. 1st Marriage: Married in 1928 to Stina Lizell. Children: Sven b. 1936, Anna-Stina b. 1941. Education: Studied for a high school diploma in Jönköping in 1909, trained as a primary school teacher in Växjö in 1912, earned a bachelor's degree in 1924. Work: Worked at the Swedish Geological Survey from 1921-1923, 1927-1934, and 1936, taught at Eskilstuna primary school in 1912-1913, Jönköping primary school in 1913-1915, Jönköping high school in 1916-1917, and then became a regular subject teacher in Jönköping and a principal at a practical middle school in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Johan Bjurulf\",\n  \"jobTitle\": \"Principal\",\n  \"birthDate\": \"1891-01-04\",\n  \"birthPlace\": \"Ringamåla, Blekinge\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Lizell\",\n    \"marriageDate\": \"1928\"\n  },\n  \"children\": [{\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Stina\",\n      \"birthDate\": \"1941\"\n    }],\n  \"education\": [{\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied for high school diploma\",\n      \"educationLevel\": \"High school diploma\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"Unknown\",\n      \"awardedBy\": \"Jönköping\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Trained as a primary school teacher\",\n      \"educationLevel\": \"Primary school teacher\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"Unknown\",\n      \"awardedBy\": \"Växjö\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor's degree\",\n      \"educationLevel\": \"Bachelor's degree\",\n      \"startDate\": \"Unknown\",\n      \"endDate\": \"1924\"\n    }\n  ],\n  \"work\": [{\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1913\",\n      \"roleName\": \"Teacher\",\n      \"namedPosition\": \"Eskilstuna primary school\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1915\",\n      \"roleName\": \"Teacher\",\n      \"namedPosition\": \"Jönköping primary school\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1917\",\n      \"roleName\": \"Principal\",\n      \"namedPosition\": \"Jönköping high school\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1937\",\n      \"roleName\": \"Subject teacher\",\n      \"namedPosition\": \"Jönköping\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1937\",\n      \"roleName\": \"Principal\",\n      \"namedPosition\": \"Practical middle school in Jönköping\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\",\n      \"roleName\": \"Employee\",\n      \"namedPosition\": \"Swedish Geological Survey\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1934\",\n      \"roleName\": \"Employee\",\n      \"namedPosition\": \"Swedish Geological Survey\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"roleName\": \"Employee\",\n      \"namedPosition\": \"Swedish Geological Survey\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Johan Bjurulf",
+        "jobTitle": "Principal",
+        "birthDate": "1891-01-04",
+        "birthPlace": "Ringamåla, Blekinge",
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Lizell",
+            "marriageDate": "1928"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Stina",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied for high school diploma",
+                "educationLevel": "High school diploma",
+                "startDate": "1909",
+                "endDate": "Unknown",
+                "awardedBy": "Jönköping"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Trained as a primary school teacher",
+                "educationLevel": "Primary school teacher",
+                "startDate": "1912",
+                "endDate": "Unknown",
+                "awardedBy": "Växjö"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree",
+                "educationLevel": "Bachelor's degree",
+                "startDate": "Unknown",
+                "endDate": "1924"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1912",
+                "endDate": "1913",
+                "roleName": "Teacher",
+                "namedPosition": "Eskilstuna primary school"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1913",
+                "endDate": "1915",
+                "roleName": "Teacher",
+                "namedPosition": "Jönköping primary school"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1916",
+                "endDate": "1917",
+                "roleName": "Principal",
+                "namedPosition": "Jönköping high school"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "1937",
+                "roleName": "Subject teacher",
+                "namedPosition": "Jönköping"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1937",
+                "roleName": "Principal",
+                "namedPosition": "Practical middle school in Jönköping"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1921",
+                "endDate": "1923",
+                "roleName": "Employee",
+                "namedPosition": "Swedish Geological Survey"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": "1934",
+                "roleName": "Employee",
+                "namedPosition": "Swedish Geological Survey"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "roleName": "Employee",
+                "namedPosition": "Swedish Geological Survey"
+            }
+        ]
+    }
+}

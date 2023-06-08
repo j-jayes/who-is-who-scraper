@@ -1,0 +1,56 @@
+{
+    "original": "Billig, Gustaf Adolf, ingenjör, Borås, f. 24/10/99 i Borås av fabr. Karl B. o. Emma Götz. G. 22 m. Ingrid Thomsen. Barn: Rolf f. 25, Brita 27. — Genomg. Borås h. a. 1. o. tekn. gymn. Ing. v. A-B Borås Appretur-medelfabr. sed. 18. Led. av styr. f. detta föret.",
+    "translated": "Billig, Gustaf Adolf, engineer, Borås, born on October 24th, 1899 in Borås to factory owner Karl B. and Emma Götz. Married in 1922 to Ingrid Thomsen with whom he had two children: Rolf born in 1925 and Brita born in 1927. Gustaf Adolf attended Borås högre allmänna läroverk and technical gymnasium before becoming an engineer at A-B Borås Appretur-medelfabr. in 1918. He later became a member of the board of directors for the company.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Adolf Billig\",\n  \"birthDate\": \"1899-10-24\",\n  \"birthPlace\": \"Borås\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Engineer\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl B.\",\n      \"jobTitle\": \"Factory Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Götz\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Thomsen\",\n    \"marriageDate\": \"1922\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Billig\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Billig\",\n      \"birthDate\": \"1927\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Borås högre allmänna läroverk\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Technical gymnasium\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Borås Appretur-medelfabr.\",\n    \"startDate\": \"1918\",\n    \"jobTitle\": \"Engineer\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Board of Directors for A-B Borås Appretur-medelfabr.\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Adolf Billig",
+        "birthDate": "1899-10-24",
+        "birthPlace": "Borås",
+        "nationality": "Swedish",
+        "jobTitle": "Engineer",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl B.",
+                "jobTitle": "Factory Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Götz"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Thomsen",
+            "marriageDate": "1922"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rolf Billig",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Brita Billig",
+                "birthDate": "1927"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borås högre allmänna läroverk"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Technical gymnasium"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Board of Directors for A-B Borås Appretur-medelfabr."
+        }
+    }
+}

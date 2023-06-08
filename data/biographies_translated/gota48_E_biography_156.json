@@ -1,0 +1,135 @@
+{
+    "original": "Ekseli, Carl Åke Bertil, tandläkare, Aneby, f. 4/3/02 i Säby, Jönköp. 1., av köpm. Carl Axel E. o. Eirsabeth Zetterberg. G. 31 m. Elisabeth Slama. Barn: Jan f. 33, Gun 34. •— Stud :ex. i Linköp. 22, tandl :kand. 28, tandläk. 31. Assist, i Tranås 31, praktik i Aneby sed. s. å., skoltandl. i Bredestads kommun sed. 36, i Marbäcks o. Fiisby sed. 37 o. i Lommaryds ised. 38, distr:-tandläk. i Aneby sed. 40. Sv. Jägar-förb. hed:tS.",
+    "translated": "Ekseli, Carl Åke Bertil, Dentist, Aneby, born on March 4th, 1902 in Säby, Jönköp. 1st son of merchant Carl Axel E. and Eirsabeth Zetterberg. Married on March 1931 to Elisabeth Slama. They have two children: Jan, born in 1933, and Gun, born in 1934. Carl Åke passed his high-school exam in Linköping in 1922, qualified as a dental student in 1928, and became a dentist in 1931. He worked as an assistant in Tranås in 1931, started his practice in Aneby in the same year, and worked as a school dentist in Bredestads municipality from 1936. He worked as a district dentist in Aneby from 1940. He was a member of the Swedish Hunter Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Åke Bertil Ekseli\",\n  \"birthDate\": \"1902-03-04\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Säby, Jönköping\"\n  },\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Aneby\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Axel Ekseli\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eirsabeth Zetterberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabeth Slama\",\n    \"marriageDate\": \"1931-03\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan Ekseli\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gun Ekseli\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School exam\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping\"\n      },\n      \"credentialCategory\": \"diploma\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1922\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental student qualification\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1928\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dentist qualification\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1931\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Hunter Association\"\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"School Dentist\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"District Dentist\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Tranås\",\n      \"validThrough\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1931\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Bredestads municipality\",\n      \"validFrom\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1936\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Marbäcks & Fiisby\",\n      \"validFrom\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1937\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Lommaryds\",\n      \"validFrom\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1938\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Aneby\",\n      \"validFrom\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1940\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Åke Bertil Ekseli",
+        "birthDate": "1902-03-04",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Säby, Jönköping"
+        },
+        "nationality": "Swedish",
+        "jobTitle": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "School Dentist"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "District Dentist"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Aneby"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl Axel Ekseli",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Eirsabeth Zetterberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabeth Slama",
+            "marriageDate": "1931-03"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan Ekseli",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Gun Ekseli",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School exam",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Linköping"
+                },
+                "credentialCategory": "diploma",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1922"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental student qualification",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1928"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dentist qualification",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1931"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Hunter Association"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Tranås",
+                "validThrough": {
+                    "@type": "Duration",
+                    "name": "1931"
+                }
+            },
+            {
+                "@type": "Place",
+                "name": "Bredestads municipality",
+                "validFrom": {
+                    "@type": "Duration",
+                    "name": "1936"
+                }
+            },
+            {
+                "@type": "Place",
+                "name": "Marbäcks & Fiisby",
+                "validFrom": {
+                    "@type": "Duration",
+                    "name": "1937"
+                }
+            },
+            {
+                "@type": "Place",
+                "name": "Lommaryds",
+                "validFrom": {
+                    "@type": "Duration",
+                    "name": "1938"
+                }
+            },
+            {
+                "@type": "Place",
+                "name": "Aneby",
+                "validFrom": {
+                    "@type": "Duration",
+                    "name": "1940"
+                }
+            }
+        ]
+    }
+}

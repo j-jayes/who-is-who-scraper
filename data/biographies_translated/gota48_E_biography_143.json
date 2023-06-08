@@ -1,0 +1,125 @@
+{
+    "original": "Ekman, Claes Emil Percival, konsul, direktör, Göteborg, f. 22/12/98 i Gbg av kapt. Emil E. o. Alice Sinclair. G. 28 m. Else Sternhagen. Barn: Gunilla f. 29, Alice Eleonore 31, Lilian 36, Peter 44. — Stud:ex., kansliex. i Upps. 25. Fänrik v. Kronpr. hus :-reg. 21, und:löjtn. 23, löjtn. 27, rytt-mäst. i res. Verkst. dir. i A-B Fos-seHus &amp; Alpen i Gbg. Nederländ. konsul i Gbg sed. 36.",
+    "translated": "Ekman, Claes Emil Percival, consul, director, Gothenburg, born December 22, 1898 in Gothenburg to Captain Emil E. and Alice Sinclair. Married on the 28th of an unknown month in 19xx to Else Sternhagen. Children: Gunilla born in 1929, Alice Eleonore in 1931, Lilian in 1936, Peter in 1944. He completed his studies in Uppsala and worked as a clerk. He served as a lieutenant in the Crown Prince's Household Regiment, rising to the rank of captain in the reserve. He worked as a managing director at A-B Fossehus & Alpen in Gothenburg and served as the Dutch consul in Gothenburg from 1936 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Claes Emil Percival Ekman\",\n  \"birthDate\": \"1898-12-22\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": [\"Consul\", \"Director\"],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B FosseHus & Alpen\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emil E. Ekman\",\n      \"jobTitle\": \"Captain\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Alice Sinclair\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alice Sinclair\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Else Sternhagen\",\n    \"marriageDate\": \"19xx-xx-28\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Ekman\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alice Eleonore Ekman\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lilian Ekman\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Peter Ekman\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Kansliex.\",\n      \"educationalLevel\": \"University\",\n      \"educationalProgramType\": \"undergraduate-program\",\n      \"educationPlace\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Uppsala\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"SportsTeam\",\n      \"name\": \"Crown Prince's Household Regiment\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Fänrik\",\n      \"inDefinedTermSet\": \"MilitaryRank\"\n    },\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Und:löjtn.\",\n      \"inDefinedTermSet\": \"MilitaryRank\"\n    },\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Löjtn.\",\n      \"inDefinedTermSet\": \"MilitaryRank\"\n    },\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Rytt-mäst\",\n      \"inDefinedTermSet\": \"MilitaryRank\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Nederländ. Konsul i Gbg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Claes Emil Percival Ekman",
+        "birthDate": "1898-12-22",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "jobTitle": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Fänrik",
+                "inDefinedTermSet": "MilitaryRank"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Und:löjtn.",
+                "inDefinedTermSet": "MilitaryRank"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Löjtn.",
+                "inDefinedTermSet": "MilitaryRank"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Rytt-mäst",
+                "inDefinedTermSet": "MilitaryRank"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B FosseHus & Alpen",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Emil E. Ekman",
+                "jobTitle": "Captain",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Alice Sinclair"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Alice Sinclair"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Else Sternhagen",
+            "marriageDate": "19xx-xx-28"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla Ekman",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Alice Eleonore Ekman",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Lilian Ekman",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter Ekman",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex."
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Kansliex.",
+                "educationalLevel": "University",
+                "educationalProgramType": "undergraduate-program",
+                "educationPlace": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Uppsala",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "SportsTeam",
+                "name": "Crown Prince's Household Regiment"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "hasOccupation": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Nederländ. Konsul i Gbg"
+            }
+        ]
+    }
+}

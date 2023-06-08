@@ -1,0 +1,90 @@
+{
+    "original": "Bergman, Karl Axel Gunnar, bankdirektör, Vänersborg, f. 30/1/99 i Ljusnarsberg, Örebro 1., av A. B. o. Sofie Bohm. G. 23 m. Agda Holmberg. Barn: Olof f. 24, Eva 25, Ingrid 29. — Stud:ex. i Falun 18. Anst. v. A-B Sv. Hand:bankens (dåv. Sthlms Hand:banks) avd:kont. i Falun 18, kamr. där 26, avd :kamr. i Umeå 30, avd:dir. o. styr :led. där 35, dito i Vänersborg sed. 43.",
+    "translated": "Bergman, Karl Axel Gunnar, bank director, Vänersborg, b. 30/1/99 in Ljusnarsberg, Örebro 1st district, son of A.B. and Sofie Bohm. Married on 23rd with Agda Holmberg. Children: Olof b. 24, Eva b. 25, Ingrid b. 29. - Graduated from high school in Falun in 1918. Employed at AB Swedish Handelsbankens (then Stockholm Handelsbanks) branch office in Falun in 1918, clerk there in 1926, department clerk in Umeå in 1930, department director and board member there in 1935. Same positions held in Vänersborg since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Axel Gunnar Bergman\",\n  \"birthDate\": \"1899-01-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Ljusnarsberg, Örebro, Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"A.B. Bohm\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofie Bohm\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agda Holmberg\",\n    \"marriageDate\": \"1923-01-23\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Bergman\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Bergman\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Bergman\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"jobTitle\": \"Bank Director\",\n  \"affiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Handelsbanken\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex.\",\n    \"educationalLevel\": \"High School\",\n    \"educationalCredentialAwarded\": \"Stud:ex.\",\n    \"educationalSpecialization\": \"Falun\",\n    \"dateIssued\": \"1918\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Falun\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Clerk\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Umeå\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1943\",\n      \"jobTitle\": \"Department Clerk\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Handelsbanken\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Vänersborg\",\n      \"startDate\": \"1943\",\n      \"jobTitle\": \"Department Director and Board Member\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Handelsbanken\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Karl Axel Gunnar Bergman",
+        "birthDate": "1899-01-30",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Ljusnarsberg, Örebro, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "A.B. Bohm"
+            },
+            {
+                "@type": "Person",
+                "name": "Sofie Bohm"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agda Holmberg",
+            "marriageDate": "1923-01-23"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Olof Bergman",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Bergman",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Bergman",
+                "birthDate": "1929"
+            }
+        ],
+        "jobTitle": "Bank Director",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Swedish Handelsbanken"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex.",
+            "educationalLevel": "High School",
+            "educationalCredentialAwarded": "Stud:ex.",
+            "educationalSpecialization": "Falun",
+            "dateIssued": "1918"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Falun",
+                "startDate": "1918",
+                "endDate": "1926",
+                "jobTitle": "Clerk"
+            },
+            {
+                "@type": "Place",
+                "name": "Umeå",
+                "startDate": "1930",
+                "endDate": "1943",
+                "jobTitle": "Department Clerk",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Handelsbanken"
+                }
+            },
+            {
+                "@type": "Place",
+                "name": "Vänersborg",
+                "startDate": "1943",
+                "jobTitle": "Department Director and Board Member",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Handelsbanken"
+                }
+            }
+        ]
+    }
+}

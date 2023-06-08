@@ -1,0 +1,116 @@
+{
+    "original": "Bohlin, Per Sigvard, stadsarkitekt, Lidköping, numera Västerås, f. 29/6/ 08 i Borås av lärov:adj. H. O. B. o. Frida Engman. G. 35 m. Ingrid Dahlberg. Barn: Per-Hans f. 37, Ann-Kri-stin 39. — Studiex. v. Borå® h. a. k 27, arkit:.ex. v. KTH 32, KKH 46. Res. t. Tyskk, Tjeckoislov., Ital., Schwieiz 32. Stadsarkit. i Arboga 34-35, länsarkit:-assist. i Härnöisand 36-38, stadsplane-arkit. i Upps. 38-45, stadsarkit. i Lidköp. 45-47, s’tadsarkit. i Västerås sed. 47, eg. arkit :verksamh. Led. av SAR.",
+    "translated": "Bohlin, Per Sigvard, city architect, born on June 29, 1908 in Borås to teacher's son H.O.B. and Frida Engman. Married in 1935 to Ingrid Dahlberg with two children: Per-Hans born in 1937 and Ann-Kri-stin born in 1939. He obtained his high school diploma in Borås in 1927, graduated in architecture from KTH in 1932 and KKH in 1946. He traveled to Germany, Czechoslovakia, Italy, and Switzerland in 1932. He served as a city architect in Arboga in 1934-35, county architect-assistant in Härnösand in 1936-38, city planner-architect in Uppsala in 1938-45, city architect in Lidköping in 1945-47, and city architect in Västerås since 1947. He is also an active architect. He is a member of SAR.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Per Sigvard Bohlin\",\n   \"birthDate\": \"1908-06-29\",\n   \"birthPlace\": \"Borås\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"H.O.B.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Frida Engman\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Dahlberg\",\n      \"marriageDate\": \"1935\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Per-Hans\",\n         \"birthDate\": \"1937\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ann-Kri-stin\",\n         \"birthDate\": \"1939\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"High school diploma\",\n         \"educationalLevel\": \"HighSchool\",\n         \"educationalCredentialAwarded\": \"Secondary school graduation certificate\",\n         \"awardDate\": \"1927\",\n         \"awardingInstitution\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Borås high school\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Architectural degree\",\n         \"educationalLevel\": \"Undergraduate\",\n         \"educationalCredentialAwarded\": \"Architecture degree\",\n         \"awardDate\": \"1932\",\n         \"awardingInstitution\": {\n            \"@type\": \"Organization\",\n            \"name\": \"KTH\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Architectural degree\",\n         \"educationalLevel\": \"Graduate\",\n         \"educationalCredentialAwarded\": \"Architecture degree\",\n         \"awardDate\": \"1946\",\n         \"awardingInstitution\": {\n            \"@type\": \"Organization\",\n            \"name\": \"KKH\"\n         }\n      }\n   ],\n   \"jobTitle\": [\n      \"City architect\",\n      \"Active architect\"\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"SAR\"\n      }\n   ],\n   \"hasOccupation\": [\n      {\n         \"@type\": \"CityArchitect\",\n         \"name\": \"Arboga\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1935\"\n      },\n      {\n         \"@type\": \"CountyArchitectAssistant\",\n         \"name\": \"Härnösand\",\n         \"startDate\": \"1936\",\n         \"endDate\": \"1938\"\n      },\n      {\n         \"@type\": \"CityPlannerArchitect\",\n         \"name\": \"Uppsala\",\n         \"startDate\": \"1938\",\n         \"endDate\": \"1945\"\n      },\n      {\n         \"@type\": \"CityArchitect\",\n         \"name\": \"Lidköping\",\n         \"startDate\": \"1945\",\n         \"endDate\": \"1947\"\n      },\n      {\n         \"@type\": \"CityArchitect\",\n         \"name\": \"Västerås\",\n         \"startDate\": \"1947\"\n      }\n   ],\n   \"nationality\": \"Swedish\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Sigvard Bohlin",
+        "birthDate": "1908-06-29",
+        "birthPlace": "Borås",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "H.O.B."
+            },
+            {
+                "@type": "Person",
+                "name": "Frida Engman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Dahlberg",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per-Hans",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Kri-stin",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Secondary school graduation certificate",
+                "awardDate": "1927",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "Borås high school"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Architectural degree",
+                "educationalLevel": "Undergraduate",
+                "educationalCredentialAwarded": "Architecture degree",
+                "awardDate": "1932",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "KTH"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Architectural degree",
+                "educationalLevel": "Graduate",
+                "educationalCredentialAwarded": "Architecture degree",
+                "awardDate": "1946",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "KKH"
+                }
+            }
+        ],
+        "jobTitle": [
+            "City architect",
+            "Active architect"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "SAR"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "CityArchitect",
+                "name": "Arboga",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "CountyArchitectAssistant",
+                "name": "Härnösand",
+                "startDate": "1936",
+                "endDate": "1938"
+            },
+            {
+                "@type": "CityPlannerArchitect",
+                "name": "Uppsala",
+                "startDate": "1938",
+                "endDate": "1945"
+            },
+            {
+                "@type": "CityArchitect",
+                "name": "Lidköping",
+                "startDate": "1945",
+                "endDate": "1947"
+            },
+            {
+                "@type": "CityArchitect",
+                "name": "Västerås",
+                "startDate": "1947"
+            }
+        ],
+        "nationality": "Swedish"
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "original": "Ekberg, Henrik Adolf, komminister, Jönköping, f. 4/5/95 i Sthlm av Ernst E. o. Nanny Olsson. G. 23 m. Viva Jobansson. Barn: Harald f. 24, Karl-Henrik 26, Torsten 29, Birgitta 32. — Stud:ex. i Kalmar 14, teol. fil. ex. i Lund 15, teol. kand. där 17, prakt, teol. prov samt prästv. f. Växjö stift 18. Stud:res. t. TyskL o. Ital. 37. Tjg. s. v. kommin. i Hånger o. past&gt; adj. i Jönköp., kommin. i Kristina förs. i Jönköp. sed. 21, pred. v. Jönköp. stads ålderd :hem 19-34, v. Ryhovs sjukh. sed. 34.",
+    "translated": "Ekberg, Henrik Adolf, vicar, Jönköping, born on May 4th, 1895 in Stockholm to Ernst E. and Nanny Olsson. Married on the 23rd (of a month not specified) to Viva Jobansson. Children: Harald born in 1924, Karl-Henrik in 1926, Torsten in 1929, Birgitta in 1932. He graduated from Kalmar in 1914, received a degree in theology from Lund in 1915, became a candidate of theology there in 1917, and passed a practical theology exam and was ordained as a priest for the Växjö diocese in 1918. He studied in Germany and Italy in 1937. He served as a vicar in Hånger and assistant pastor in Jönköping, became vicar of Kristina Parish in Jönköping in 1921, preached at the Jönköping elderly home from 1919 to 1934, and at Ryhov Hospital from 1934 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Henrik Adolf Ekberg\",\n  \"jobTitle\": \"Vicar\",\n  \"birthDate\": \"1895-05-04\",\n  \"birthPlace\": \"Stockholm\",\n  \"parents\": {\n    \"@type\": \"Person\",\n    \"father\": \"Ernst E Ekberg\",\n    \"mother\": \"Nanny Olsson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Viva Jobansson\",\n    \"marriageDate\": \"Unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harald Ekberg\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Henrik Ekberg\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torsten Ekberg\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Ekberg\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Kalmar\",\n      \"alumniOf\": \"stud:ex.\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"alumniOf\": \"teol. fil. ex.\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"alumniOf\": \"teol. kand.\",\n      \"endDate\": \"1917\"\n    }\n  ],\n  \"practicalExam\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"description\": \"Practical theology exam\",\n    \"dateIssued\": \"1918\"\n  },\n  \"ordainedBy\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Växjö diocese\",\n    \"description\": \"Ordained as priest\",\n    \"startDate\": \"1918\"\n  },\n  \"hasStudy\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Germany\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Italy\",\n      \"endDate\": \"1937\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hånger\",\n      \"description\": \"Vicar\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping\",\n      \"description\": \"Assistant Pastor\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kristina Parish\",\n      \"description\": \"Vicar\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping Elderly Home\",\n      \"description\": \"Preacher\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ryhov Hospital\",\n      \"description\": \"Preacher\",\n      \"startDate\": \"1934\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Henrik Adolf Ekberg",
+        "jobTitle": "Vicar",
+        "birthDate": "1895-05-04",
+        "birthPlace": "Stockholm",
+        "parents": {
+            "@type": "Person",
+            "father": "Ernst E Ekberg",
+            "mother": "Nanny Olsson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Viva Jobansson",
+            "marriageDate": "Unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Harald Ekberg",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl-Henrik Ekberg",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Torsten Ekberg",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Ekberg",
+                "birthDate": "1932"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Kalmar",
+                "alumniOf": "stud:ex.",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "alumniOf": "teol. fil. ex.",
+                "endDate": "1915"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "alumniOf": "teol. kand.",
+                "endDate": "1917"
+            }
+        ],
+        "practicalExam": {
+            "@type": "EducationalOccupationalCredential",
+            "description": "Practical theology exam",
+            "dateIssued": "1918"
+        },
+        "ordainedBy": {
+            "@type": "Organization",
+            "name": "Växjö diocese",
+            "description": "Ordained as priest",
+            "startDate": "1918"
+        },
+        "hasStudy": [
+            {
+                "@type": "Place",
+                "name": "Germany",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Place",
+                "name": "Italy",
+                "endDate": "1937"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Hånger",
+                "description": "Vicar",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping",
+                "description": "Assistant Pastor",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kristina Parish",
+                "description": "Vicar",
+                "startDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping Elderly Home",
+                "description": "Preacher",
+                "startDate": "1919",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ryhov Hospital",
+                "description": "Preacher",
+                "startDate": "1934"
+            }
+        ]
+    }
+}

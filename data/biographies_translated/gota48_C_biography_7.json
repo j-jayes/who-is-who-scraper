@@ -1,0 +1,50 @@
+{
+    "original": "Callin, Nils Arvid Henry, tandläkare, Karlskrona, f. 28/3’/0ll i Landskrona av H. C. o. Amina Christensson. G. 30 m. Inga Erlandsson. Barn: Birgitta f. 34. — Studiex. i Hälsingborg 21, med. kand., tandläkare 29. Praktik i Karlskrona sed. 29.",
+    "translated": "Callin, Nils Arvid Henry, dentist, Karlskrona, born 28/3/1911 in Landskrona to H.C. and Amina Christensson. Married in 1930 to Inga Erlandsson. Children: Birgitta (born) 1934. He graduated from Hälsingborg in 1921, became a medical candidate, and finished dentistry in 1929. He practiced in Karlskrona since 1929.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Nils Arvid Henry\",\n  \"familyName\": \"Callin\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1911-03-28\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Landskrona\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"H.C. Christensson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amina Christensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga Erlandsson\",\n    \"marriageDate\": \"1930\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Birgitta\",\n    \"birthDate\": \"1934\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Hälsingborg\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"City\",\n    \"name\": \"Karlskrona\"\n  },\n  \"startDate\": \"1929\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Nils Arvid Henry",
+        "familyName": "Callin",
+        "jobTitle": "Dentist",
+        "birthDate": "1911-03-28",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Landskrona"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "H.C. Christensson"
+            },
+            {
+                "@type": "Person",
+                "name": "Amina Christensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga Erlandsson",
+            "marriageDate": "1930"
+        },
+        "children": {
+            "@type": "Person",
+            "givenName": "Birgitta",
+            "birthDate": "1934"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Hälsingborg",
+                "startDate": "1921",
+                "endDate": "1929"
+            }
+        ],
+        "workLocation": {
+            "@type": "City",
+            "name": "Karlskrona"
+        },
+        "startDate": "1929"
+    }
+}

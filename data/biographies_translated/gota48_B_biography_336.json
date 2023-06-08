@@ -1,0 +1,123 @@
+{
+    "original": "Björklund, Sven Axel, provimsdalilä-kare, Hälleviksstrand, f. 7/5/10 i Ljus-narsberg, Örebro 1., av prov:läk. Karl Axel B. o. Ellen Kroll. G. 38 m. Majken Ryman, dtr t. gen :maj. Sven R. o. h. h. f. Renström. — Stud :!ex. 28, m^ed. kand. 33 o. med. lic. 38 li Upps. E. läk. v. Norrköp. las. barnbördsavd. 38, tf. und :läk. v. Östersunds las. rönt-genavd. 39, aisisàst :läk. o. tf. und :iläk. v. Akad. isjukh. i Upps. kir. avd. 39 o. 40, und:läk. v. das. i Finspång 41-43, v. centr :’las. i Umeå kir. avd. 44-45, prov:-läk. i Hällevik S’S t rands drstr. sed. 46.",
+    "translated": "Björklund, Sven Axel, county physician, Hälleviksstrand, born May 7th, 1910 in Ljusnarsberg, Örebro County, Sweden, son of county doctor Karl Axel B. and Ellen Kroll. He married Majken Ryman, daughter of General Major Sven R. and his wife Renström, in 1938. He passed his high school exam in 1928, graduated with a Bachelor of Medicine in 1933, and obtained a medical license in 1938, all from Uppsala University. He worked as a medical intern at Norrköping Hospital's maternity ward in 1938, acting chief physician at the Östersund Hospital radiology ward in 1939, assistant physician and acting chief physician at the University Hospital's surgical ward in Uppsala in 1939-1940, acting chief physician at the Finspång hospital between 1941 and 1943, and at Umeå Hospital's surgical ward from 1944 to 1945. He worked as a county physician in Hällevik's beach area from 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Axel Björklund\",\n  \"birthDate\": \"1910-05-07\",\n  \"birthPlace\": \"Ljusnarsberg, Örebro County, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"County Physician\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Hospital\",\n      \"department\": \"Maternity Ward\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\",\n      \"jobTitle\": \"Medical Intern\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östersund Hospital\",\n      \"department\": \"Radiology Ward\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\",\n      \"jobTitle\": \"Acting Chief Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uppsala University Hospital\",\n      \"department\": \"Surgical Ward\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1940\",\n      \"jobTitle\": \"Assistant Physician and Acting Chief Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finspång Hospital\",\n      \"department\": null,\n      \"startDate\": \"1941\",\n      \"endDate\": \"1943\",\n      \"jobTitle\": \"Acting Chief Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Umeå Hospital\",\n      \"department\": \"Surgical Ward\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\",\n      \"jobTitle\": \"Acting Chief Physician\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hällevik's beach area\",\n      \"department\": null,\n      \"startDate\": \"1946\",\n      \"endDate\": null,\n      \"jobTitle\": \"County Physician\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Axel Björklund\",\n      \"jobTitle\": \"County Doctor\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Örebro County\",\n        \"jobTitle\": null\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Kroll\",\n      \"jobTitle\": null,\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Örebro County\",\n        \"jobTitle\": null\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Majken Ryman\",\n      \"jobTitle\": null,\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"General Major Sven R.\",\n        \"jobTitle\": null\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Renström\",\n      \"jobTitle\": \"Housewife\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"General Major Sven R.\",\n        \"jobTitle\": null\n      }\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Bachelor's degree\",\n    \"educationalLevel\": \"Bachelor of Medicine\",\n    \"educationalProgram\": {\n      \"@type\": \"EducationalOccupationalProgram\",\n      \"name\": \"Medicine\",\n      \"numberOfCredits\": null,\n      \"occupationalCategory\": null\n    },\n    \"awardedBy\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Uppsala University\"\n    },\n    \"startDate\": \"1928\",\n    \"endDate\": \"1933\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Axel Björklund",
+        "birthDate": "1910-05-07",
+        "birthPlace": "Ljusnarsberg, Örebro County, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": "County Physician",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Norrköping Hospital",
+                "department": "Maternity Ward",
+                "startDate": "1938",
+                "endDate": "1938",
+                "jobTitle": "Medical Intern"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östersund Hospital",
+                "department": "Radiology Ward",
+                "startDate": "1939",
+                "endDate": "1939",
+                "jobTitle": "Acting Chief Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Uppsala University Hospital",
+                "department": "Surgical Ward",
+                "startDate": "1939",
+                "endDate": "1940",
+                "jobTitle": "Assistant Physician and Acting Chief Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Finspång Hospital",
+                "department": null,
+                "startDate": "1941",
+                "endDate": "1943",
+                "jobTitle": "Acting Chief Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Umeå Hospital",
+                "department": "Surgical Ward",
+                "startDate": "1944",
+                "endDate": "1945",
+                "jobTitle": "Acting Chief Physician"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hällevik's beach area",
+                "department": null,
+                "startDate": "1946",
+                "endDate": null,
+                "jobTitle": "County Physician"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Karl Axel Björklund",
+                "jobTitle": "County Doctor",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Örebro County",
+                    "jobTitle": null
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Kroll",
+                "jobTitle": null,
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Örebro County",
+                    "jobTitle": null
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Majken Ryman",
+                "jobTitle": null,
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "General Major Sven R.",
+                    "jobTitle": null
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Renström",
+                "jobTitle": "Housewife",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "General Major Sven R.",
+                    "jobTitle": null
+                }
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Bachelor's degree",
+            "educationalLevel": "Bachelor of Medicine",
+            "educationalProgram": {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Medicine",
+                "numberOfCredits": null,
+                "occupationalCategory": null
+            },
+            "awardedBy": {
+                "@type": "Organization",
+                "name": "Uppsala University"
+            },
+            "startDate": "1928",
+            "endDate": "1933"
+        }
+    }
+}

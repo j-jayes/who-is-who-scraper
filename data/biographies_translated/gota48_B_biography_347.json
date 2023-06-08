@@ -1,0 +1,59 @@
+{
+    "original": "Björkman, Kerstin Matilda Sofia Julia, tandläkare, Göteborg, f. 4/4/91 i Gbg av arkit. Emil Billing o. Ida Maria von Wowern. G. 16 m. tandl. Fridolf Björkman. Barn: Margit f. 21, Inger 25. — Stud :ex. v. Gbgs gymn. f. fl. 11, tandl :kand. 13, tandl. 15. Tjg. v. Gbgs folksk. tandpoliklinik 15-18.",
+    "translated": "Björkman, Kerstin Matilda Sofia Julia, dentist, Gothenburg, born on April 4th, 1891 in Gothenburg to architect Emil Billing and Ida Maria von Wowern. Married to dentist Fridolf Björkman in 1916. Children: Margit (born) in 1921, Inger (born) in 1925. She passed her final exams at Gothenburg gymnasium and went on to study dentistry, graduate in 1913 and become a dentist in 1915. Worked at the Gothenburg public school dental clinic from 1915 to 1918.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Kerstin Matilda Sofia Julia Björkman\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Gothenburg\",\n  \"birthDate\": \"1891-04-04\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emil Billing\",\n    \"jobTitle\": \"Architect\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ida Maria von Wowern\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Fridolf Björkman\",\n    \"jobTitle\": \"Dentist\",\n    \"marriageDate\": \"1916\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Björkman\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Björkman\",\n      \"birthDate\": \"1925\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dentistry\",\n      \"issuedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg gymnasium\"\n      },\n      \"dateIssued\": \"1913\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1918\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kerstin Matilda Sofia Julia Björkman",
+        "jobTitle": "Dentist",
+        "birthPlace": "Gothenburg",
+        "birthDate": "1891-04-04",
+        "father": {
+            "@type": "Person",
+            "name": "Emil Billing",
+            "jobTitle": "Architect"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Ida Maria von Wowern"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Fridolf Björkman",
+            "jobTitle": "Dentist",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margit Björkman",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger Björkman",
+                "birthDate": "1925"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentistry",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Gothenburg gymnasium"
+                },
+                "dateIssued": "1913"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1915",
+                "endDate": "1918"
+            }
+        ]
+    }
+}

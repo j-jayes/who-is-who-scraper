@@ -1,0 +1,90 @@
+{
+    "original": "Brandahl, Erik Helge, direktör, Göteborg, f. 13/2/01 i Gbg. G. m. Vera Wennerlund. Barn: Britt Louise f. 33. — Genomg. Gbgs hand:inst. Anst. h. Sixten &amp; Cassey Ltd i London 20-22, v. A-B Leon Andréns Reseffekt-fabr. i Mölndal 23, egen firma Erik Brandahl &amp; Co. i Mölndal sed. 24. Res. t. Engl., kontin. o. USA. Led. av ’s’tyr. f. Gbg’S 1’av^ntennisiklubib. M^edl. av Rotarykl. Hobbies: tennis, teater, tidn :läsning.",
+    "translated": "Brandahl, Erik Helge, Director, Gothenburg, born February 13th, 1901 in Gothenburg. Married to Vera Wennerlund in the year 19xx. Children: Britt Louise, born in 1933. Graduated from Gothenburg's School of Business. Employed at Sixten & Cassey Ltd in London from 1920-1922, A-B Leon Andréns Reseffekt-fabr. in Mölndal in 1923 and had his own company Erik Brandahl & Co. in Mölndal since 1924. Travelled to England, the continent and the USA. Member of the board of directors of the Gothenburg Lawn Tennis Club. Member of Rotary Club. Hobbies include tennis, theatre, and reading newspapers.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Helge Brandahl\",\n  \"birthDate\": \"1901-02-13\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Director\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Erik Brandahl & Co.\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg's School of Business\",\n      \"startDate\": \"19XX\",\n      \"endDate\": \"YYYY\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vera Wennerlund\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Britt Louise\",\n    \"birthDate\": \"1933\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Lawn Tennis Club\",\n      \"roleName\": \"Board of Directors\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rotary Club\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.linkedin.com/in/erik-brandahl/\"\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg's School of Business\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Lawn Tennis Club\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rotary Club\"\n    }\n  ],\n  \"gender\": \"Male\",\n  \"hobbies\": [\n    \"Tennis\",\n    \"Theatre\",\n    \"Newspaper Reading\"\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Director\"\n  },\n  \"hasPOS\": {\n    \"@type\": \"Place\",\n    \"name\": \"Erik Brandahl & Co.\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Mölndal\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"knowsLanguage\": \"Swedish, English\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Helge Brandahl",
+        "birthDate": "1901-02-13",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "jobTitle": "Director",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Erik Brandahl & Co."
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's School of Business",
+                "startDate": "19XX",
+                "endDate": "YYYY"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vera Wennerlund"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Britt Louise",
+            "birthDate": "1933"
+        },
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Lawn Tennis Club",
+                "roleName": "Board of Directors"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rotary Club"
+            }
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/erik-brandahl/"
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's School of Business"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Lawn Tennis Club"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rotary Club"
+            }
+        ],
+        "gender": "Male",
+        "hobbies": [
+            "Tennis",
+            "Theatre",
+            "Newspaper Reading"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Director"
+        },
+        "hasPOS": {
+            "@type": "Place",
+            "name": "Erik Brandahl & Co.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mölndal",
+                "addressCountry": "Sweden"
+            }
+        },
+        "knowsLanguage": "Swedish, English"
+    }
+}

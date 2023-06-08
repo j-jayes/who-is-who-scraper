@@ -1,0 +1,72 @@
+{
+    "original": "Fredin, Nils Gustaf Kristoffer, tandläkare, Västervik, f. 22/4/95 i Sthlm av bruksäg. Nils F. o. Emma Gull-berg. G. 27 m. Runa Anna Margareta Lindberg. Barn: Göran Nils Folke f. 35. — Studiex. i Sthlm, Chirurg. dent. i Strasbourg 31, tandil. 37. Prakt, i Smål. Rydaholm samt skoltandl. i Ry-daholms s:n 38, prakt, i Västervik sed. 38.",
+    "translated": "Fredin, Nils Gustaf Kristoffer, dentist, Västervik, born on April 22, 1895 in Stockholm to mill owner Nils F. and Emma Gullberg. Married on 1927 to Runa Anna Margareta Lindberg. Children: Göran Nils Folke born in 1935. He graduated from high school in Stockholm and received his Chirurg. dent. degree in Strasbourg in 1931. He became a practicing dentist in Rydaholm in Småland county and a school dentist in Rydaholm parish in 1938. He started practicing dentistry in Västervik in 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gustaf Kristoffer Fredin\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1895-04-22\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Stockholm\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils F. Fredin\",\n      \"jobTitle\": \"Mill Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Gullberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Runa Anna Margareta Lindberg\",\n    \"marriageDate\": \"1927\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Nils Folke\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Chirurg. dent.\",\n      \"educationalLevel\": \"CollegeOrUniversity\",\n      \"educationalProgram\": \"Dentistry\",\n      \"awardDate\": \"1931\",\n      \"awardingInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"University of Strasbourg\"\n      }\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Småland county\",\n      \"jobTitle\": \"Practicing Dentist\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rydaholm parish\",\n      \"jobTitle\": \"School Dentist\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västervik\",\n      \"jobTitle\": \"Practicing Dentist\",\n      \"startDate\": \"1938\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nils Gustaf Kristoffer Fredin",
+        "jobTitle": "Dentist",
+        "birthDate": "1895-04-22",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stockholm"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils F. Fredin",
+                "jobTitle": "Mill Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Gullberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Runa Anna Margareta Lindberg",
+            "marriageDate": "1927"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Nils Folke",
+                "birthDate": "1935"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Chirurg. dent.",
+                "educationalLevel": "CollegeOrUniversity",
+                "educationalProgram": "Dentistry",
+                "awardDate": "1931",
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Strasbourg"
+                }
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Småland county",
+                "jobTitle": "Practicing Dentist",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rydaholm parish",
+                "jobTitle": "School Dentist",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västervik",
+                "jobTitle": "Practicing Dentist",
+                "startDate": "1938"
+            }
+        ]
+    }
+}

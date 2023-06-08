@@ -1,0 +1,105 @@
+{
+    "original": "Boden, Georg Vilhelm, direktör, Göteborg, f. 25/10/87 i Lilla Edet, Fuxerna, Älvsb. 1., av köpm. Emil B. o. Alma Månsson. G. 29 m. Elsa Freding. — Stud:ex. i Gbg 06, jur. kand. i Upps. 11. Bitr. jur. å adv:-kont. 14-26, deläg. i adv:firman Holmgren, Boden o. Gidén 26-38, verkst. dir. i A-B Gbgs-Systemet sed. 38. Ordf. i styr. f. A-B Fodervävnader, led. av styr. f. A-B Gbgs-Systemet, Västsveriges Allm, Rest. A-B m. fl. Led. av Sv.es adv.samf. 17, led. av styr. där 26-38, ordf. i ^styr. f. des’s västra avd. 37-38. RVO 34.",
+    "translated": "Boden, Georg Vilhelm, director, Gothenburg, born on October 25, 1887 in Lilla Edet, Fuxerna, Älvsborg county, son of merchant Emil B. and Alma Månsson. Married Elsa Freding in 1929. He graduated from high school in Gothenburg in 1906 and with a law degree from Uppsala in 1911. He worked as an assistant lawyer at a law firm from 1914-1926, was a co-owner of the law firm Holmgren, Boden and Gidén from 1926-1938, and was managing director of the Gothenburg System Ltd since 1938. He was chairman of the board for Feed Fabric Ltd, a board member of the Gothenburg System Ltd, Västsveriges Allm, Restaurant Ltd, and more. He was a member of the Swedish Bar Association from 1917, a board member from 1926-1938, and chairman of the board for the Western Division from 1937-1938. He was awarded the Order of Vasa in 1934.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org/\",\n   \"@type\":\"Person\",\n   \"name\":\"Georg Vilhelm Boden\",\n   \"jobTitle\":\"Director\",\n   \"birthDate\":\"1887-10-25\",\n   \"birthPlace\":{\n      \"@type\":\"Place\",\n      \"address\":{\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Lilla Edet\",\n         \"addressRegion\":\"Älvsborg\",\n         \"addressCountry\":\"Sweden\"\n      }\n   },\n   \"parent\":{\n      \"@type\":\"Person\",\n      \"name\":\"Emil B.\"\n   },\n   \"parent2\":{\n      \"@type\":\"Person\",\n      \"name\":\"Alma Månsson\"\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Elsa Freding\",\n      \"marriageDate\":\"1929\"\n   },\n   \"education\":{\n      \"@type\":\"EducationalOrganization\",\n      \"name\":\"Uppsala University\",\n      \"location\":{\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Uppsala\",\n         \"addressCountry\":\"Sweden\"\n      },\n      \"startDate\":\"1906\",\n      \"endDate\":\"1911\",\n      \"alumniOf\":\"Uppsala University\"\n   },\n   \"profession\":{\n      \"@type\":\"LegalService\",\n      \"name\":\"Advocate\"\n   },\n   \"affiliation\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Holmgren, Boden and Gidén\",\n      \"startDate\":\"1926\",\n      \"endDate\":\"1938\"\n   },\n   \"work\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Gothenburg System Ltd\",\n      \"startDate\":\"1938\",\n      \"position\":\"Managing Director\"\n   },\n   \"boards\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Feed Fabric Ltd\",\n         \"position\":\"Chairman of the Board\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Gothenburg System Ltd\",\n         \"position\":\"Board Member\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Västsveriges Allm\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Restaurant Ltd\"\n      }\n   ],\n   \"membership\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Swedish Bar Association\",\n         \"startDate\":\"1917\",\n         \"endDate\":\"1938\",\n         \"position\":\"Board Member\",\n         \"memberOf\":\"Swedish Bar Association\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Swedish Bar Association\",\n         \"position\":\"Chairman of the Board for the Western Division\",\n         \"startDate\":\"1937\",\n         \"endDate\":\"1938\",\n         \"memberOf\":\"Swedish Bar Association\"\n      }\n   ],\n   \"award\":{\n      \"@type\":\"Order\",\n      \"name\":\"Order of Vasa\",\n      \"dateAwarded\":\"1934\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Georg Vilhelm Boden",
+        "jobTitle": "Director",
+        "birthDate": "1887-10-25",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lilla Edet",
+                "addressRegion": "Älvsborg",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": {
+            "@type": "Person",
+            "name": "Emil B."
+        },
+        "parent2": {
+            "@type": "Person",
+            "name": "Alma Månsson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Freding",
+            "marriageDate": "1929"
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Uppsala University",
+            "location": {
+                "@type": "PostalAddress",
+                "addressLocality": "Uppsala",
+                "addressCountry": "Sweden"
+            },
+            "startDate": "1906",
+            "endDate": "1911",
+            "alumniOf": "Uppsala University"
+        },
+        "profession": {
+            "@type": "LegalService",
+            "name": "Advocate"
+        },
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Holmgren, Boden and Gidén",
+            "startDate": "1926",
+            "endDate": "1938"
+        },
+        "work": {
+            "@type": "Organization",
+            "name": "Gothenburg System Ltd",
+            "startDate": "1938",
+            "position": "Managing Director"
+        },
+        "boards": [
+            {
+                "@type": "Organization",
+                "name": "Feed Fabric Ltd",
+                "position": "Chairman of the Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg System Ltd",
+                "position": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västsveriges Allm"
+            },
+            {
+                "@type": "Organization",
+                "name": "Restaurant Ltd"
+            }
+        ],
+        "membership": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1917",
+                "endDate": "1938",
+                "position": "Board Member",
+                "memberOf": "Swedish Bar Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "position": "Chairman of the Board for the Western Division",
+                "startDate": "1937",
+                "endDate": "1938",
+                "memberOf": "Swedish Bar Association"
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "Order of Vasa",
+            "dateAwarded": "1934"
+        }
+    }
+}

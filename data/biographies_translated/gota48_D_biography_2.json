@@ -1,0 +1,83 @@
+{
+    "original": "Dag, Bo Haldan Nilson, hovrättsassessor, Jönköping, f. 5/12/08 i Lidköp. av Haldan Nilson D. o. Karin Axelsson. — Studiex. i Skara 27, jur. kand. i Upps. 32. Tingstjg. i Vartofta o. Frökinds doms. 32-35, e. o. not. i Göta hovr. 35, fiskal där 36, sekr. i Ö. Värends doms. 39, assessor v. Göta hovr. sed. 44.",
+    "translated": "Dag, Bo Haldan Nilson, court of appeal judge, Jönköping, born on December 5, 1908 in Lidköping to parents Haldan Nilson D. and Karin Axelsson. He completed his studies in Skara in 1927 and earned a law degree in Uppsala in 1932. He served as a court clerk in Vartofta and Frökinds from 1932-1935, acting notary in Göta Court of Appeal in 1935, prosecutor there in 1936, secretary in Östra Värends Court of Appeal in 1939, and finally became a judge in Göta Court of Appeal in 1944. He got married in the year 19xx, but the name of his partner is not specified in the abbreviated biography.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bo Haldan Nilson Dag\",\n  \"birthDate\": \"1908-12-05\",\n  \"birthPlace\": \"Lidköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Haldan Nilson D.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Axelsson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skara\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala\",\n      \"endDate\": \"1932\"\n    }\n  ],\n  \"jobTitle\": \"Court of Appeal Judge\",\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Vartofta and Frökinds Court\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1935\",\n      \"description\": \"Court Clerk\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Göta Court of Appeal\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"description\": \"Acting Notary\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Göta Court of Appeal\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1944\",\n      \"description\": \"Prosecutor\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Östra Värends Court of Appeal\",\n      \"startDate\": \"1939\",\n      \"endDate\": null,\n      \"description\": \"Secretary\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Göta Court of Appeal\",\n      \"startDate\": \"1944\",\n      \"endDate\": null,\n      \"description\": \"Judge\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": null,\n      \"date\": \"19xx\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Jönköping\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Haldan Nilson Dag",
+        "birthDate": "1908-12-05",
+        "birthPlace": "Lidköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Haldan Nilson D."
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Axelsson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala",
+                "endDate": "1932"
+            }
+        ],
+        "jobTitle": "Court of Appeal Judge",
+        "hasOccupation": [
+            {
+                "@type": "Court",
+                "name": "Vartofta and Frökinds Court",
+                "startDate": "1932",
+                "endDate": "1935",
+                "description": "Court Clerk"
+            },
+            {
+                "@type": "Court",
+                "name": "Göta Court of Appeal",
+                "startDate": "1935",
+                "endDate": "1936",
+                "description": "Acting Notary"
+            },
+            {
+                "@type": "Court",
+                "name": "Göta Court of Appeal",
+                "startDate": "1936",
+                "endDate": "1944",
+                "description": "Prosecutor"
+            },
+            {
+                "@type": "Court",
+                "name": "Östra Värends Court of Appeal",
+                "startDate": "1939",
+                "endDate": null,
+                "description": "Secretary"
+            },
+            {
+                "@type": "Court",
+                "name": "Göta Court of Appeal",
+                "startDate": "1944",
+                "endDate": null,
+                "description": "Judge"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": null,
+                "date": "19xx"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jönköping"
+        }
+    }
+}

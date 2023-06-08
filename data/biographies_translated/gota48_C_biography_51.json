@@ -1,0 +1,69 @@
+{
+    "original": "Carrick, Curt ’ Herbert, direktör, Kalmar, f. 16/2/14 i Sthlm av kons. H. A. C. o. Naèma Regnänder. G. 43 m. Margery Errington Hansen. Barn: Rolf f. 43. — Stud:ex. v. Lundsbergs sk. 34, hand:inst. 37-38. Res. t. Frankr. 35-37. Dir. i Kalmar Stufveri A-B o. Sthlms Rederi A-B Svea, Kal-markont. fr. 46.",
+    "translated": "Carrick, Curt 'Herbert, director, Kalmar, b. 16/2/14 in Stockholm to Consul H.A.C. and Naèma Regnänder. Married in 1943 to Margery Errington Hansen. Children: Rolf b. 1943. - Graduated from Lundsbergs school in 1934, studied commerce from 1937-1938. Traveled to France from 1935-1937. Director of Kalmar Stufveri AB and Stockholm Rederi AB Svea, Kalmar accountant from 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Curt 'Herbert Carrick\",\n  \"birthDate\": \"1914-02-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Stockholm\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Consul H.A.C.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Naèma Regnänder\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margery Errington Hansen\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rolf Carrick\",\n    \"birthDate\": \"1943\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Lundsbergs sk.\",\n      \"credentialCategory\": \"stud:ex\",\n      \"educationalLevel\": \"secondary school graduation\",\n      \"dateIssued\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"hand:inst.\",\n      \"educationalLevel\": \"commerce\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar Stufveri A-B\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm Rederi A-B Svea\",\n      \"jobTitle\": \"Director\"\n    }\n  ],\n  \"accountablePerson\": {\n    \"@type\": \"Person\",\n    \"name\": \"Curt 'Herbert Carrick\",\n    \"jobTitle\": \"Kalmar accountant\",\n    \"startDate\": \"1946\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Curt 'Herbert Carrick",
+        "birthDate": "1914-02-16",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stockholm"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Consul H.A.C."
+            },
+            {
+                "@type": "Person",
+                "name": "Naèma Regnänder"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margery Errington Hansen",
+            "marriageDate": "1943"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Rolf Carrick",
+            "birthDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Lundsbergs sk.",
+                "credentialCategory": "stud:ex",
+                "educationalLevel": "secondary school graduation",
+                "dateIssued": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "hand:inst.",
+                "educationalLevel": "commerce",
+                "startDate": "1937",
+                "endDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Kalmar Stufveri A-B",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stockholm Rederi A-B Svea",
+                "jobTitle": "Director"
+            }
+        ],
+        "accountablePerson": {
+            "@type": "Person",
+            "name": "Curt 'Herbert Carrick",
+            "jobTitle": "Kalmar accountant",
+            "startDate": "1946"
+        }
+    }
+}

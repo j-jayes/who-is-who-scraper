@@ -1,0 +1,86 @@
+{
+    "original": "Björkman, Per Erik Thorsten, telegrafkommissarie, Norrköping, f. 1/11/ 81 i Lista, Södermani. 1., av kontr:-prosten Erik B. o. Sigrid Segerbrand. G. 11 m. Vera Johansson. Barn: Erik f. 12, Karin 15. — Mog:ex. 01, ex. v. telegr:v. und :visn :anst. 02. Telegr:-assist. i Eskilstuna 04, kontrollör i Norrköp. 19, telegr :komm. i Hudiksvall 29, i Västerås 37 o. i Norrköp. 41-46, pens. 46. RVO.",
+    "translated": "Björkman, Per Erik Thorsten was a telegraph commissioner born on November 1st, 1881 in Lista, Södermani. He was the first child of the contract-provost Erik B. and Sigrid Segerbrand. He was married to Vera Johansson in 1911 and they had two children: Erik, born in 1912, and Karin, born in 1915. Björkman began working as a telegraph operator in 1901 and continued in the field, eventually becoming a telegraph commissioner. He worked as a telegraph assistant in Eskilstuna in 1904, a controller in Norrköping from 1919, a telegraph commissioner in Hudiksvall in 1929 and in Västerås in 1937. He returned to Norrköping as a telegraph commissioner from 1941 until his retirement in 1946. Björkman received the Royal Patriotic Society's Medal (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Erik Thorsten Björkman\",\n  \"birthDate\": \"1881-11-01\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Lista\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Södermani\",\n      \"addressCountry\": \"SE\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik B. Björkman\",\n      \"jobTitle\": \"contract-provost\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Segerbrand\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vera Johansson\",\n    \"marriageDate\": \"1911-11-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Björkman\",\n      \"birthDate\": \"1912-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Björkman\",\n      \"birthDate\": \"1915-01-01\"\n    }\n  ],\n  \"jobTitle\": [\n    \"telegraph operator\",\n    \"telegraph assistant\",\n    \"controller\",\n    \"telegraph commissioner\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eskilstuna\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping\",\n      \"startDate\": \"1919-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hudiksvall\",\n      \"startDate\": \"1929-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västerås\",\n      \"startDate\": \"1937-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping\",\n      \"startDate\": \"1941-01-01\",\n      \"endDate\": \"1946-01-01\"\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Medal\",\n    \"name\": \"Royal Patriotic Society's Medal\",\n    \"description\": \"RVO\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Erik Thorsten Björkman",
+        "birthDate": "1881-11-01",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Lista",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Södermani",
+                "addressCountry": "SE"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Erik B. Björkman",
+                "jobTitle": "contract-provost"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Segerbrand"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vera Johansson",
+            "marriageDate": "1911-11-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Erik Björkman",
+                "birthDate": "1912-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Björkman",
+                "birthDate": "1915-01-01"
+            }
+        ],
+        "jobTitle": [
+            "telegraph operator",
+            "telegraph assistant",
+            "controller",
+            "telegraph commissioner"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Eskilstuna"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping",
+                "startDate": "1919-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hudiksvall",
+                "startDate": "1929-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västerås",
+                "startDate": "1937-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping",
+                "startDate": "1941-01-01",
+                "endDate": "1946-01-01"
+            }
+        ],
+        "award": {
+            "@type": "Medal",
+            "name": "Royal Patriotic Society's Medal",
+            "description": "RVO"
+        }
+    }
+}

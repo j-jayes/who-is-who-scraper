@@ -1,0 +1,133 @@
+{
+    "original": "Bomgren, Carl Erik, tandläkare, Göteborg, f. 4/12/75 i Pjätteryd, Kro-nob. 1., av kommin. Carl Anders B. o. Emelie Maria Elisabet Hultbring. G. 01 m. Elsa Fernholm. Barn: Gunnar f. 02, adv., Gbg, Bengt 05, förvalt. på Stenhammar. — Mog:ex. v. södra latin i Sthlm 94, elev h. tandl. H. Boström i Sthlm s. å., tandl :kand. 96, tandl. 97. Prakt, i Nora 97-22, i Gbg sed. 23. Skoltandl. i Nora 10’-20, mil:-tandl. v. Göta art:reg. sed. 23. Var i Nora ikd. av ^tadsfuHim., hälisov:nd, samsk:styr. o. folksk:styr.",
+    "translated": "Bomgren, Carl Erik, dentist, Gothenburg, born December 4th, 1875 in Pjätteryd, Kronoberg County, son of Vicar Carl Anders B. and Emelie Maria Elisabet Hultbring. Married in 1901 to Elsa Fernholm. Children: Gunnar, born 1902, lawyer, in Gothenburg, Bengt, born 1905, manager at Stenhammar estate. Graduated from South Latin School in Stockholm in 1894, worked as a dental assistant under H. Boström in Stockholm that same year, finished dental studies in 1896, graduated as a dentist in 1897. Worked as a dentist in Nora from 1897 to 1922, then in Gothenburg from 1923. He was a school dentist in Nora from 1910-1920 and a military dentist in the Gotha Artillery Regiment from 1923. He was also involved in local government in Nora and served as a member of the health committee, the social welfare and school boards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Erik Bomgren\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1875-12-04\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Pjätteryd, Kronoberg County, Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Anders B.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emelie Maria Elisabet Hultbring\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Fernholm\",\n    \"marriageDate\": \"1901\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Bomgren\",\n      \"jobTitle\": \"Lawyer\",\n      \"birthDate\": \"1902\",\n      \"birthPlace\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gothenburg, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Bomgren\",\n      \"jobTitle\": \"Manager\",\n      \"birthDate\": \"1905\",\n      \"birthPlace\": {\n        \"@type\": \"Place\",\n        \"name\": \"Stenhammar estate, Sweden\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"South Latin School\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Stockholm, Sweden\"\n      },\n      \"endDate\": \"1894\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"H. Boström Dental Practice\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Stockholm, Sweden\"\n      },\n      \"startDate\": \"1894\",\n      \"endDate\": \"1896\",\n      \"jobTitle\": \"Dental Assistant\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental School\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"startDate\": \"1896\",\n      \"endDate\": \"1897\",\n      \"jobTitle\": \"Dentist\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nora City Council\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"unknown\",\n      \"jobTitle\": [\n        \"Member of Health Committee\",\n        \"Member of Social Welfare Board\",\n        \"Member of School Board\"\n      ]\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dental Practice in Nora\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Nora, Sweden\"\n      },\n      \"startDate\": \"1897\",\n      \"endDate\": \"1922\",\n      \"jobTitle\": \"Dentist\",\n      \"description\": \"Worked as a school dentist from 1910-1920\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göta Artillery Regiment\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"startDate\": \"1923\",\n      \"jobTitle\":\"Military Dentist\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dental Practice in Gothenburg\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gothenburg, Sweden\"\n      },\n      \"startDate\": \"1923\",\n      \"jobTitle\": \"Dentist\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Erik Bomgren",
+        "jobTitle": "Dentist",
+        "birthDate": "1875-12-04",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Pjätteryd, Kronoberg County, Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl Anders B."
+            },
+            {
+                "@type": "Person",
+                "name": "Emelie Maria Elisabet Hultbring"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Fernholm",
+            "marriageDate": "1901"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar Bomgren",
+                "jobTitle": "Lawyer",
+                "birthDate": "1902",
+                "birthPlace": {
+                    "@type": "Place",
+                    "name": "Gothenburg, Sweden"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Bomgren",
+                "jobTitle": "Manager",
+                "birthDate": "1905",
+                "birthPlace": {
+                    "@type": "Place",
+                    "name": "Stenhammar estate, Sweden"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "South Latin School",
+                "location": {
+                    "@type": "Place",
+                    "name": "Stockholm, Sweden"
+                },
+                "endDate": "1894"
+            },
+            {
+                "@type": "Organization",
+                "name": "H. Boström Dental Practice",
+                "location": {
+                    "@type": "Place",
+                    "name": "Stockholm, Sweden"
+                },
+                "startDate": "1894",
+                "endDate": "1896",
+                "jobTitle": "Dental Assistant"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental School",
+                "location": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "startDate": "1896",
+                "endDate": "1897",
+                "jobTitle": "Dentist"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Nora City Council",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "jobTitle": [
+                    "Member of Health Committee",
+                    "Member of Social Welfare Board",
+                    "Member of School Board"
+                ]
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Dental Practice in Nora",
+                "location": {
+                    "@type": "Place",
+                    "name": "Nora, Sweden"
+                },
+                "startDate": "1897",
+                "endDate": "1922",
+                "jobTitle": "Dentist",
+                "description": "Worked as a school dentist from 1910-1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "Göta Artillery Regiment",
+                "location": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "startDate": "1923",
+                "jobTitle": "Military Dentist"
+            },
+            {
+                "@type": "Organization",
+                "name": "Dental Practice in Gothenburg",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg, Sweden"
+                },
+                "startDate": "1923",
+                "jobTitle": "Dentist"
+            }
+        ]
+    }
+}

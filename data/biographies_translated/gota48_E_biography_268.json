@@ -1,0 +1,58 @@
+{
+    "original": "Englert, Nils, advokat, Näs:sjö, f. 3/ 11/99 i Röke, Krist. 1. G. 26 m. Signe Åkesson. Barn: Siv f. 28, Stig 37. — Stud:ex. i Lund 19, jur. kand. 27. Förest. f. G. Malmros jur. byrås avd:-kont. i Nässjö 28-30. Egen adv :verks. i Nässjö sed. 30. Led. av Sv:es adv:-tsamf. sed. 34.",
+    "translated": "Englert, Nils, lawyer, Näs:sjö, b. 3/11/99 in Röke, Kristianstad. Married on 26/married in 1926 to Signe Åkesson. Children: Siv b. 28 and Stig b. 37. Studied at Lund University, graduated in 1919, completed a degree in law in 1927. Worked at G. Malmros' law firm in Nässjö from 1928-1930. Established his own law business in Nässjö in 1930. Member of the Swedish Bar Association since 1934.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Englert\",\n  \"birthDate\": \"1899-11-03\",\n  \"birthPlace\": \"Röke, Kristianstad\",\n  \"occupation\": \"Lawyer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Åkesson\",\n    \"marriageDate\": \"1926-03-26\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Siv Englert\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig Englert\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Lund University\",\n    \"alumniOf\": {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Englert\",\n      \"alumniOf\": \"Lund University\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1927\"\n    }\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"G. Malmros' law firm\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Own law business\",\n      \"startDate\": \"1930\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Englert",
+        "birthDate": "1899-11-03",
+        "birthPlace": "Röke, Kristianstad",
+        "occupation": "Lawyer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Åkesson",
+            "marriageDate": "1926-03-26"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Siv Englert",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig Englert",
+                "birthDate": "1937"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Lund University",
+            "alumniOf": {
+                "@type": "Person",
+                "name": "Nils Englert",
+                "alumniOf": "Lund University",
+                "startDate": "1919",
+                "endDate": "1927"
+            }
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "G. Malmros' law firm",
+                "startDate": "1928",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Own law business",
+                "startDate": "1930"
+            }
+        ]
+    }
+}

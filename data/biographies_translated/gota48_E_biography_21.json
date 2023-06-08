@@ -1,0 +1,71 @@
+{
+    "original": "Edgren, Folke Georg Vilhelm, civilingenjör, vicekonsul, Kalmar, f. 23/10/ 10 i Kalmar av konsul A. E. o. Kristina Lundqvist. G. 36 m. Britta Sandgren. Barn: Göran f. 43. — Civiling:-ex. v. CTH (kemi o. kem. teknol.). Driftsing. v. A-B Kalmar chokladfabr. 36-41, fabr.-chef o. dir. sed. 41. Po-kns vicekonsul fr. 44.",
+    "translated": "Edgren, Folke Georg Vilhelm, engineer, vice-consul, Kalmar, b. 23/10/1910 in Kalmar to consul A. E. and Kristina Lundqvist. Married in 1936 to Britta Sandgren. Children: Göran b. 1943. Graduated as an engineer from Chalmers University of Technology (chemistry and chemical technology). Worked as an operating engineer at A-B Kalmar chocolate factory from 1936-1941, then became factory manager and director from 1941 onwards. Appointed as vice-consul in 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Folke Georg Vilhelm Edgren\",\n  \"jobTitle\": \"Civilingenjör, Vicekonsul\",\n  \"birthDate\": \"1910-10-23\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kalmar\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"A. E. Lundqvist\",\n      \"jobTitle\": \"Consul\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Lundqvist\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Britta Sandgren\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Edgren\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Chalmers University of Technology\",\n    \"alumniOf\": \"Chemistry and Chemical Technology\",\n    \"startDate\": \"unknown\",\n    \"endDate\": \"unknown\",\n    \"attendee\": {\n      \"@type\": \"Person\",\n      \"name\": \"Folke Georg Vilhelm Edgren\"\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Kalmar chocolate factory\",\n      \"jobTitle\": \"Operating Engineer\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Kalmar chocolate factory\",\n      \"jobTitle\": \"Factory Manager and Director\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Consulate\",\n      \"jobTitle\": \"Vice-consul\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Georg Vilhelm Edgren",
+        "jobTitle": "Civilingenjör, Vicekonsul",
+        "birthDate": "1910-10-23",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kalmar"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "A. E. Lundqvist",
+                "jobTitle": "Consul"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Lundqvist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Britta Sandgren",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Edgren",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Chalmers University of Technology",
+            "alumniOf": "Chemistry and Chemical Technology",
+            "startDate": "unknown",
+            "endDate": "unknown",
+            "attendee": {
+                "@type": "Person",
+                "name": "Folke Georg Vilhelm Edgren"
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A-B Kalmar chocolate factory",
+                "jobTitle": "Operating Engineer",
+                "startDate": "1936",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Kalmar chocolate factory",
+                "jobTitle": "Factory Manager and Director",
+                "startDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Consulate",
+                "jobTitle": "Vice-consul",
+                "startDate": "1944"
+            }
+        ]
+    }
+}
