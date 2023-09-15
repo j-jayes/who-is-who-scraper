@@ -22,20 +22,24 @@ jobs:
         python -m pip install --upgrade pip
         pip install openai pyyaml
 
+    - name: Pull latest changes
+      run: |
+        git pull origin main
+
     - name: Run the script
       env:
         OPEN_AI_KEY: ${{ secrets.OPEN_AI_KEY }}
       run: python src/translate-biographies.py
 
-    # Add new files to the data folder and commit
-    - name: Commit and push data folder changes
+    - name: commit files
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add data/*
-        git commit -m "Update data files" || echo "No changes to commit"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "updated files" --allow-empty)
 
-
+    - name: push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
