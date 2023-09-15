@@ -22,28 +22,20 @@ jobs:
         python -m pip install --upgrade pip
         pip install openai pyyaml
 
-    - name: Pull latest changes
-      run: |
-        git pull origin main
-
     - name: Run the script
       env:
         OPEN_AI_KEY: ${{ secrets.OPEN_AI_KEY }}
       run: python src/translate-biographies.py
 
-    - name: Set Git Remote using PAT
-      run: |
-        git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/j-jayes/who-is-who-scraper.git
-
-    - name: Commit and push updates
+    # Add new files to the data folder and commit
+    - name: Commit and push data folder changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add -A
-        git commit -m "Update files after API interaction" || echo "No changes to commit"
+        git add data/*
+        git commit -m "Update data files" || echo "No changes to commit"
         git push
       env:
-        REPO_KEY: ${{secrets.PERSONAL_ACCESS_TOKEN}}
-        username: github-actions
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
