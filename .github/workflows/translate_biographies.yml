@@ -1,0 +1,40 @@
+name: Run Python Script with API Interaction
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install openai pyyaml
+
+    - name: Pull latest changes
+      run: |
+        git pull origin main
+
+    - name: Run the script
+      env:
+        API_SECRET_KEY: ${{ secrets.OPEN_AI_KEY }}
+      run: python src/translate_biographies.py
+
+    - name: Commit and push updates
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "Update files after API interaction" || echo "No changes to commit"
+        git push
