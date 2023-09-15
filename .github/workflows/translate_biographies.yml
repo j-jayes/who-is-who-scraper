@@ -31,11 +31,15 @@ jobs:
         OPEN_AI_KEY: ${{ secrets.OPEN_AI_KEY }}
       run: python src/translate-biographies.py
 
+    - name: Set Git Remote using PAT
+      run: |
+        git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/j-jayes/who-is-who-scraper.git
+
     - name: Commit and push updates
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git remote add origin_https https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/j-jayes/who-is-who-scraper.git
         git add -A
         git commit -m "Update files after API interaction" || echo "No changes to commit"
-        git push origin_https
+        git push
+
