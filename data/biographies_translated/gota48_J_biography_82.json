@@ -1,0 +1,94 @@
+{
+    "original": "Joabson, Knut Henning, kommunalborgmästare, Troldhättan, f. 3/3/99 i Hovmantorp, Kronob. 1., av trävaru-handl. Axel J. o. Kristina Andersson. G. 30 m. Viola Lücklig. Barn: Lars Henning f. 31, Ann-Christine 35. — Stud:ex. i Växjö 20, jur. kand. i Lund 26. Andre rådm. i 0’skarshamn 30, tf. förste rådm. där 33-37, komm:-borgmäst. i Trollhättan sed. 38. Huv:-man i Trollhättans Sparbank, led. av styr. f. TroiHhättans samrealsk. o. f. västra distr. dövstum’skolor.",
+    "translated": "Joabson, Knut Henning, municipal mayor, Troldhättan, b. 3/3/99 in Hovmantorp, Kronoberg County, 1st child of timber merchant Axel J. and Kristina Andersson. Married on 30 in m. Viola Lücklig. Children: Lars Henning b. 31, Ann-Christine b. 35. — Studied:ex. in Växjö in 20, law degree in Lund in 26. Second judge in Oskarshamn in 30, acting first judge there from 33-37, municipal mayor in Trollhättan since 38. Principal of Trollhättans Savings Bank, board member of Trollhättan Secondary School and the Western District Deaf and Dumb Schools.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Knut Henning\",\n  \"familyName\": \"Joabson\",\n  \"birthDate\": \"1899-03-03\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Hovmantorp\"\n  },\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Axel J.\",\n      \"familyName\": \"Joabson\",\n      \"occupation\": \"Timber merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Kristina\",\n      \"familyName\": \"Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Viola\",\n    \"familyName\": \"Lücklig\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Lars Henning\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Ann-Christine\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationLevel\": \"High school diploma\",\n      \"educationalLevel\": \"Stud:ex.\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Växjö\"\n      },\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationLevel\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Jur. kand.\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund\"\n      },\n      \"endDate\": \"1926\"\n    }\n  ],\n  \"jobTitle\": \"Municipal Mayor\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Troldhättan\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättans Sparbank\"\n    }\n  ],\n  \"boardMember\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättans Secondary School\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Western District Deaf and Dumb Schools\"\n    }\n  ],\n  \"domicile\": {\n    \"@type\": \"Place\",\n    \"name\": \"Troldhättan\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Knut Henning",
+        "familyName": "Joabson",
+        "birthDate": "1899-03-03",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Hovmantorp"
+        },
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Axel J.",
+                "familyName": "Joabson",
+                "occupation": "Timber merchant"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Kristina",
+                "familyName": "Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Viola",
+            "familyName": "Lücklig"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Lars Henning",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ann-Christine",
+                "birthDate": "1935"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": "High school diploma",
+                "educationalLevel": "Stud:ex.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Växjö"
+                },
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": "Bachelor's degree",
+                "educationalLevel": "Jur. kand.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund"
+                },
+                "endDate": "1926"
+            }
+        ],
+        "jobTitle": "Municipal Mayor",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Troldhättan"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Trollhättans Sparbank"
+            }
+        ],
+        "boardMember": [
+            {
+                "@type": "Organization",
+                "name": "Trollhättans Secondary School"
+            },
+            {
+                "@type": "Organization",
+                "name": "Western District Deaf and Dumb Schools"
+            }
+        ],
+        "domicile": {
+            "@type": "Place",
+            "name": "Troldhättan"
+        }
+    }
+}
