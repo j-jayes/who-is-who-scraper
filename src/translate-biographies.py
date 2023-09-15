@@ -4,8 +4,10 @@ import json
 import yaml
 from pathlib import Path
 
-root_dir = 'C:/Users/User/Documents/Recon/who-is-who-scraper'
-data_dir = Path(root_dir) / "data"
+# Get the current working directory (root directory of the project)
+root_dir = Path.cwd()
+data_dir = root_dir / "data"
+
 
 # Check if script is running within GitHub Actions
 if os.environ.get("GITHUB_ACTIONS") == "true":
@@ -20,7 +22,7 @@ else:
 
 openai.api_key = openai_api_key
 
-FILE_RANGE = [3035, 4000]
+FILE_RANGE = [3038, 3045]
 
 def translate_and_structure_text(swedish_text):
     try:

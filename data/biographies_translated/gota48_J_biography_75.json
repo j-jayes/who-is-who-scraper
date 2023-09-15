@@ -1,15 +1,14 @@
 {
     "original": "Jerndal, Ebbe, tandläkare, Göteborg, f. 23/3/08 i Gbg av disp. Harald August J. o. Sigrid Mathidda Artelius. iG. 33 m. Ingräd Forsberg. Barn: Jens f. 34, Tord 36, Rigmor 42. — Stud:ex. v. Gbgs h. real 27, Cand. med. dent. i Leipzig 29, tysk tandl. där 31, sv. dito 32. Prakt, i Gbg o. Kungälv sed. 32.",
-    "translated": "Jerndal, Ebbe, dentist, Gothenburg, b. 23/3/08 in Gothenburg, to parents Harald August J. and Sigrid Mathidda Artelius. Married to Ingräd Forsberg in 1933. Children: Jens b. 1934, Tord b. 1936, Rigmor b. 1942. Education: graduated from Gothenburg high school in 1927, graduated as a Doctor of Dental Medicine in Leipzig in 1929, practiced as a German dentist there in 1931, and as a Swedish dentist in 1932. Worked as a dentist in Gothenburg and Kungälv since 1932.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ebbe Jerndal\",\n  \"birthDate\": \"1908-03-23\",\n  \"birthPlace\": \"Gothenburg\",\n  \"description\": \"Dentist from Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harald August Jerndal\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Mathidda Artelius\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingräd Forsberg\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jens Jerndal\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tord Jerndal\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rigmor Jerndal\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. v. Gbgs h. real\",\n      \"awardDate\": \"1927\",\n      \"awardingInstitution\": \"Gothenburg High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Cand. med. dent. i Leipzig\",\n      \"awardDate\": \"1929\",\n      \"awardingInstitution\": \"Leipzig University\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"German dentist\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\",\n      \"location\": \"Leipzig\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Swedish dentist\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"workLocation\": [\n    \"Gothenburg\",\n    \"Kungälv\"\n  ]\n}",
+    "translated": "Jerndal, Ebbe, dentist, Gothenburg, b. 23/3/08 in Gothenburg to unmarried parents Harald August J. and Sigrid Mathidda Artelius. Married to Ingräd Forsberg in 1933. Children: Jens b. 1934, Tord b. 1936, Rigmor b. 1942. Education: graduated from Gothenburg's high school of science in 1927, received a dental degree in Leipzig in 1929, practiced as a German dentist there in 1931, and as a Swedish dentist in 1932. Worked as a dentist in Gothenburg and Kungälv since 1932.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ebbe Jerndal\",\n  \"birthDate\": \"1908-03-23\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harald August Jerndal\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Mathidda Artelius\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingräd Forsberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jens Jerndal\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tord Jerndal\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rigmor Jerndal\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. v. Gbgs h. real\",\n      \"dateAwarded\": \"1927\",\n      \"educationLevel\": \"HighSchool\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Cand. med. dent. i Leipzig\",\n      \"dateAwarded\": \"1929\",\n      \"educationLevel\": \"DentalDegree\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"German dentist\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Leipzig\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Swedish dentist\",\n      \"startDate\": \"1932\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Swedish dentist\",\n      \"startDate\": \"1932\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Kungälv\"\n      }\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Ebbe Jerndal",
         "birthDate": "1908-03-23",
         "birthPlace": "Gothenburg",
-        "description": "Dentist from Gothenburg",
-        "parent": [
+        "parents": [
             {
                 "@type": "Person",
                 "name": "Harald August Jerndal"
@@ -21,8 +20,7 @@
         ],
         "spouse": {
             "@type": "Person",
-            "name": "Ingräd Forsberg",
-            "marriageDate": "1933"
+            "name": "Ingräd Forsberg"
         },
         "children": [
             {
@@ -41,43 +39,49 @@
                 "birthDate": "1942"
             }
         ],
-        "educationalCredentialAwarded": [
+        "education": [
             {
                 "@type": "EducationalOccupationalCredential",
                 "name": "Stud:ex. v. Gbgs h. real",
-                "awardDate": "1927",
-                "awardingInstitution": "Gothenburg High School"
+                "dateAwarded": "1927",
+                "educationLevel": "HighSchool"
             },
             {
                 "@type": "EducationalOccupationalCredential",
                 "name": "Cand. med. dent. i Leipzig",
-                "awardDate": "1929",
-                "awardingInstitution": "Leipzig University"
-            },
+                "dateAwarded": "1929",
+                "educationLevel": "DentalDegree"
+            }
+        ],
+        "work": [
             {
-                "@type": "Occupation",
+                "@type": "MedicalOrganization",
                 "name": "German dentist",
                 "startDate": "1931",
-                "endDate": "1931",
-                "location": "Leipzig"
+                "endDate": "1932",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Leipzig"
+                }
             },
             {
-                "@type": "Occupation",
+                "@type": "MedicalOrganization",
                 "name": "Swedish dentist",
                 "startDate": "1932",
-                "endDate": "1932"
-            }
-        ],
-        "occupation": [
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            },
             {
-                "@type": "Occupation",
-                "name": "Dentist",
-                "startDate": "1932"
+                "@type": "MedicalOrganization",
+                "name": "Swedish dentist",
+                "startDate": "1932",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Kungälv"
+                }
             }
-        ],
-        "workLocation": [
-            "Gothenburg",
-            "Kungälv"
         ]
     }
 }
