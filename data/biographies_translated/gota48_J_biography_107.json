@@ -1,0 +1,90 @@
+{
+    "original": "Johanson, Carl Gustaf Hialmar Valfrid, direktör, Sandared, f. 25/11/88 i Örby, Älvsb. 1., av Karl J. o. Augusta Pettersson. G, 14 m. Bärna Rehn. Barn: Björn f. 15, Per 17, Bengt 20, Ulla 22. — Realex. 04. Anst. v. Wis-kastrands Wäfveri A-B 05-16, disp. v. Linne Industri A-B 16-31, grund, av o. verkst. dir. f. A-B Libo Konfektion i Borås 32. Medl. av Par Bricole.",
+    "translated": "Johanson, Carl Gustaf Hialmar Valfrid, director, Sandared, b. 25/11/88 in Örby, Älvsborgs län, son of Karl J. and Augusta Pettersson. Married for 14 years to Bärna Rehn. Children: Björn b. 15, Per b. 17, Bengt b. 20, Ulla b. 22. Completed secondary school in 1904. Employed by Wis-kastrand's Weaving Company Ltd. from 1905-1916, then served as a manager at Linne Industri AB from 1916-1931, and finally founded and served as managing director for AB Libo Clothing in Borås in 1932. Member of the Par Bricole society.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Hialmar Valfrid Johanson\",\n  \"jobTitle\": \"Director\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Örby\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Älvsborgs län\",\n      \"addressRegion\": \"Sweden\"\n    }\n  },\n  \"birthDate\": \"1888-11-25\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl J. Pettersson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Pettersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bärna Rehn\",\n    \"marriageDuration\": \"P14Y\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn Johanson\",\n      \"birthDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Johanson\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Johanson\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Johanson\",\n      \"birthDate\": \"1922\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"secondary school\",\n    \"educationalLevel\": \"Realex\",\n    \"yearOfGraduation\": \"1904\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Par Bricole\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Wis-kastrands Wäfveri A-B\",\n      \"jobTitle\": \"Employee\",\n      \"startDate\": \"1905\",\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linne Industri A-B\",\n      \"jobTitle\": \"Manager\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Libo Konfektion\",\n      \"jobTitle\": \"Managing Director\",\n      \"startDate\": \"1932\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Gustaf Hialmar Valfrid Johanson",
+        "jobTitle": "Director",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Örby",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborgs län",
+                "addressRegion": "Sweden"
+            }
+        },
+        "birthDate": "1888-11-25",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Karl J. Pettersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Pettersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Bärna Rehn",
+            "marriageDuration": "P14Y"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn Johanson",
+                "birthDate": "1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Johanson",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Johanson",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Johanson",
+                "birthDate": "1922"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "secondary school",
+            "educationalLevel": "Realex",
+            "yearOfGraduation": "1904"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Par Bricole"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Wis-kastrands Wäfveri A-B",
+                "jobTitle": "Employee",
+                "startDate": "1905",
+                "endDate": "1916"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linne Industri A-B",
+                "jobTitle": "Manager",
+                "startDate": "1916",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Libo Konfektion",
+                "jobTitle": "Managing Director",
+                "startDate": "1932"
+            }
+        ]
+    }
+}

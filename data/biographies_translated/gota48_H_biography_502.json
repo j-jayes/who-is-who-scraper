@@ -1,0 +1,50 @@
+{
+    "original": "Holmstrand, Torsten Ludvig Valdemar, disponent, Göteborg, f. 20/7/91 i Gbg. G. 17 m. Sigrid Larsson. — Stud. Y. Filip Holmqvists hand :inst. i Gbg. Ans t. v. Gbgs Remfabr. A-B 07-35, inneh. av samt l’ed. av ,styr. f. samma bok sed. 36. Me dl. av Göta Goldinu-Orden.",
+    "translated": "Holmstrand, Torsten Ludvig Valdemar, manager, Gothenburg, b. July 20th, 1891 in Gothenburg. Married in 1917 to Sigrid Larsson. - Studied at Y. Filip Holmqvist's institute in Gothenburg. Employed at Goteborgs Remfabr. A-B from 1907 to 1935, serving as both a member and chairman of the board from 1936 onwards. Awarded the Göta Goldinu Orden.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Torsten Ludvig Valdemar Holmstrand\",\n  \"birthDate\": \"1891-07-20\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sigrid Larsson\",\n    \"dateMarried\": \"1917\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Y. Filip Holmqvist's institute\",\n    \"location\": \"Gothenburg\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Goteborgs Remfabr. A-B\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"startDate\": \"1907\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Goteborgs Remfabr. A-B\",\n      \"startDate\": \"1936\",\n      \"roleName\": \"Chairman of the Board\"\n    }\n  ],\n  \"description\": \"Torsten Ludvig Valdemar Holmstrand was a Swedish manager born on July 20th, 1891 in Gothenburg. He studied at Y. Filip Holmqvist's institute in Gothenburg and was employed at Goteborgs Remfabr. A-B from 1907 to 1935. In 1917, he married Sigrid Larsson. He later served as a member and chairman of the board for Goteborgs Remfabr. A-B from 1936 onwards. He was awarded the Göta Goldinu Orden.\",\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Göta Goldinu Orden\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Torsten Ludvig Valdemar Holmstrand",
+        "birthDate": "1891-07-20",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Sigrid Larsson",
+            "dateMarried": "1917"
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Y. Filip Holmqvist's institute",
+            "location": "Gothenburg"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Goteborgs Remfabr. A-B",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "startDate": "1907",
+                "endDate": "1935"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Goteborgs Remfabr. A-B",
+                "startDate": "1936",
+                "roleName": "Chairman of the Board"
+            }
+        ],
+        "description": "Torsten Ludvig Valdemar Holmstrand was a Swedish manager born on July 20th, 1891 in Gothenburg. He studied at Y. Filip Holmqvist's institute in Gothenburg and was employed at Goteborgs Remfabr. A-B from 1907 to 1935. In 1917, he married Sigrid Larsson. He later served as a member and chairman of the board for Goteborgs Remfabr. A-B from 1936 onwards. He was awarded the Göta Goldinu Orden.",
+        "award": {
+            "@type": "Order",
+            "name": "Göta Goldinu Orden"
+        }
+    }
+}

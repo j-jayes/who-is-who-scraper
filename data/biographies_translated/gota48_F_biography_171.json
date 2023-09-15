@@ -1,0 +1,75 @@
+{
+    "original": "Friberg, Margit Elisabet Lindroth-, tandläkare, Vaggeryd, f. 24/10/09 i Upps. av J. E. Lindroth o. Hilda Andersson. G. 37 m. prov:läk. Bertil Friberg. Barn: se denne. — Stud:ex. i Upps. 27, Cand. med. dent. i Mar-burg an der Lahn 29, tandl :kand. s. å., tandläk. 31. Assist, i Sthlm 31, praktik först i Enköping o. numera i Vaggeryd.",
+    "translated": "Friberg, Margit Elisabet Lindroth-, dentist, Vaggeryd, born on 24/10/09 in Uppsala to J. E. Lindroth and Hilda Andersson. She married physician Bertil Friberg in 1937, and they had children together (see him for details). Margit completed her secondary education in Uppsala in 1927, earned her degree in dental medicine from Marburg an der Lahn in 1929, became a candidate for dental examination that same year, and became a licensed dentist in 1931 after working as an assistant in Stockholm in 1931. She practiced first in Enköping and currently in Vaggeryd.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Margit Elisabet Lindroth-Friberg\",\n  \"birthDate\": \"1909-10-24\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Uppsala\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J. E. Lindroth\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bertil Friberg\",\n    \"jobTitle\": \"Physician\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Details of children\"\n  },\n  \"jobTitle\": \"Dentist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Vaggeryd\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala\",\n      \"educationalCredentialAwarded\": \"Secondary education\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Marburg an der Lahn\",\n      \"educationalCredentialAwarded\": \"Dental medicine degree\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Marburg an der Lahn\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm\",\n      \"jobTitle\": \"Assistant\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Enköping\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"Present\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Margit Elisabet Lindroth-Friberg",
+        "birthDate": "1909-10-24",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Uppsala"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "J. E. Lindroth"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Bertil Friberg",
+            "jobTitle": "Physician"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Details of children"
+        },
+        "jobTitle": "Dentist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Vaggeryd"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala",
+                "educationalCredentialAwarded": "Secondary education",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Marburg an der Lahn",
+                "educationalCredentialAwarded": "Dental medicine degree",
+                "endDate": "1929"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Marburg an der Lahn"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Stockholm",
+                "jobTitle": "Assistant",
+                "startDate": "1931",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Enköping",
+                "jobTitle": "Dentist",
+                "startDate": "1931",
+                "endDate": "Present"
+            }
+        ]
+    }
+}

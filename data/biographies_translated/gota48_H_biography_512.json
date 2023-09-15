@@ -1,0 +1,114 @@
+{
+    "original": "Holters, Gösta Bertil, prakt, läkare, Kalmar, f. 3/4/95 i Kläckeberga, Kalm. 1. G. 21 m. Ragny Höglund. Barn: Britta Maria f. 22, g. m. lantmät. Olle Björkgren, Kalmar. — Studiex. i Kalm. 14, med. kand. 18 o. med. lic. 25 i Sthlm. Assist :läk. v. Kalm. las. 19, tf. e. provrläk. i Nybro distr. 22, assist :läk. v. Prov. sjukh. i Sthlm 23, ett flert. prov :läk :förordn. 23-25, prakt. läk. i Eskilstuna 25-29, i Kalm. sed. 29, badläk. v. Hällby brunn 28 o. 29, tf. förste o. andre stadsläk. i Kalm. elva mån. 30-40 samt per :vis tf. bitr. förste prov :iäk. i Kalm. 1.",
+    "translated": "Holters, Gösta Bertil, physician, Kalmar, b. 3/4/95 in Kläckeberga, Kalm. First marriage in 1921 with Ragny Höglund. Children: Britta Maria b. 1922, married to land surveyor Olle Björkgren, Kalmar. He completed his Bachelors in Kalm. in 1914, his Bachelor in Medicine in 1918, and his Medical License in 1925 in Stockholm. He was an assistant physician at Kalm. hospital in 1919, temporary district physician in Nybro in 1922, assistant physician at the Provincial Hospital in Stockholm in 1923, served as several temporary physician positions from 1923-1925, was a practicing physician in Eskilstuna from 1925-1929, and has been practicing in Kalm. since 1929. He was also a spa physician at Hällby brunn in 1928 and 1929, temporary first and second city physician in Kalm. for eleven months from 1930-1940, and periodically temporary assistant first district physician in Kalm. 1.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Bertil Holters\",\n  \"birthDate\": \"1895-04-03\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Kläckeberga\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Kalm\"\n    }\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragny Höglund\",\n      \"marriageDate\": \"1921\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britta Maria\",\n      \"birthDate\": \"1922\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Olle Björkgren\",\n        \"jobTitle\": \"Land Surveyor\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Kalmar\"\n        }\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"name\": \"Kalm\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medical License\",\n      \"name\": \"Stockholm\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"jobTitle\": \"Physician\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kalmar\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Kalm. hospital\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Nybro distr.\",\n      \"jobTitle\": \"Temporary District Physician\",\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Provincial Hospital\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"startDate\": \"1923\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Eskilstuna\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Kalm.\",\n      \"jobTitle\": \"Temporary First and Second City Physician\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1940\"\n    }\n  ],\n  \"extra\": [\n    {\n      \"jobTitle\": \"Spa Physician\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hällby brunn\"\n      },\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"jobTitle\": \"Temporary Assistant First District Physician\",\n      \"worksFor\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Kalm. 1\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gösta Bertil Holters",
+        "birthDate": "1895-04-03",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Kläckeberga",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kalm"
+            }
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Ragny Höglund",
+                "marriageDate": "1921"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Britta Maria",
+                "birthDate": "1922",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Olle Björkgren",
+                    "jobTitle": "Land Surveyor",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Kalmar"
+                    }
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "name": "Kalm",
+                "startDate": "1914",
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medical License",
+                "name": "Stockholm",
+                "startDate": "1925"
+            }
+        ],
+        "jobTitle": "Physician",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Kalmar"
+        },
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Kalm. hospital",
+                "jobTitle": "Assistant Physician",
+                "startDate": "1919"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Nybro distr.",
+                "jobTitle": "Temporary District Physician",
+                "startDate": "1922"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Provincial Hospital",
+                "jobTitle": "Assistant Physician",
+                "startDate": "1923"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Eskilstuna",
+                "jobTitle": "Practicing Physician",
+                "startDate": "1925",
+                "endDate": "1929"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Kalm.",
+                "jobTitle": "Temporary First and Second City Physician",
+                "startDate": "1930",
+                "endDate": "1940"
+            }
+        ],
+        "extra": [
+            {
+                "jobTitle": "Spa Physician",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Hällby brunn"
+                },
+                "startDate": "1928",
+                "endDate": "1929"
+            },
+            {
+                "jobTitle": "Temporary Assistant First District Physician",
+                "worksFor": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Kalm. 1"
+                }
+            }
+        ]
+    }
+}

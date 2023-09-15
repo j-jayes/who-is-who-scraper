@@ -1,0 +1,67 @@
+{
+    "original": "Hultstrand, Karl Paul Samuel, bankdirektör, Tranås, f. 23/7/87 i Kråkshult, Jönköp. 1., av folkskollär. Otto H. o. Kristina Jonsson. G. 16 m. Karin Palmqvist. Barn: Karl Åke f. 19, Lars Olov 21, Nils Magnus 28. — Mogiex. 06, språk- o. bankstud. i Tyskl. 07-08. Anst. v. östergötl. Ensk. Bank sed. 06, tj :man v. dess kont. i Linköp. 06, kamrer i Norrköp. 16, i Sthlm 22, åter i Norrköp. som kassa-dir. 33, verkst. dir. f. bankens kont. i Tranås sed. 44.",
+    "translated": "Hultstrand, Karl Paul Samuel, bank director, Tranås, born July 23, 1887 in Kråkshult, Jönköping county. Son of elementary school teacher Otto H. and Kristina Jonsson. Married to Karin Palmqvist in 1916. Children: Karl Åke born in 1919, Lars Olov in 1921, Nils Magnus in 1928. Studied language and banking in Germany from 1906-1908. Employed by Östergötland Enskilda Bank since 1906, worked at its branch in Linköping in 1906, promoted to accountant in Norrköping in 1916, moved to Stockholm in 1922, returned to Norrköping as cashier in 1933, and became executive director of the bank's branch in Tranås in 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Paul Samuel Hultstrand\",\n  \"jobTitle\": \"Bank Director\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kråkshult, Jönköping County, Sweden\"\n  },\n  \"birthDate\": \"1887-07-23\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Otto H. Hultstrand\",\n      \"jobTitle\": \"Elementary School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Jonsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Palmqvist\",\n    \"marriageDate\": \"1916\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Åke\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Olov\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Magnus\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalProgram\",\n    \"name\": \"Language and Banking\",\n    \"startDate\": \"1906\",\n    \"endDate\": \"1908\",\n    \"location\": \"Tyskl\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Bank\",\n    \"name\": \"Östergötland Enskilda Bank\",\n    \"startDate\": \"1906\"\n  },\n  \"memberOf\": {\n    \"@type\": \"BankAccount\",\n    \"name\": \"Östergötland Enskilda Bank in Linköping\",\n    \"startDate\": \"1906\",\n    \"endDate\": \"1916\",\n    \"jobTitle\": \"Accountant\"\n  },\n  \"jobTitle\": \"Kamrer\",\n  \"memberOf\": {\n    \"@type\": \"BankAccount\",\n    \"name\": \"Östergötland Enskilda Bank in Norrköping\",\n    \"startDate\": \"1916\",\n    \"endDate\": \"1922\",\n    \"jobTitle\": \"Cashier\"\n  },\n  \"memberOf\": {\n    \"@type\": \"BankAccount\",\n    \"name\": \"Tranås Bank\",\n    \"startDate\": \"1944\",\n    \"jobTitle\": \"Executive Director\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Karl Paul Samuel Hultstrand",
+        "jobTitle": "Kamrer",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kråkshult, Jönköping County, Sweden"
+        },
+        "birthDate": "1887-07-23",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Otto H. Hultstrand",
+                "jobTitle": "Elementary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Jonsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Palmqvist",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karl Åke",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Olov",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Nils Magnus",
+                "birthDate": "1928"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalProgram",
+            "name": "Language and Banking",
+            "startDate": "1906",
+            "endDate": "1908",
+            "location": "Tyskl"
+        },
+        "worksFor": {
+            "@type": "Bank",
+            "name": "Östergötland Enskilda Bank",
+            "startDate": "1906"
+        },
+        "memberOf": {
+            "@type": "BankAccount",
+            "name": "Tranås Bank",
+            "startDate": "1944",
+            "jobTitle": "Executive Director"
+        }
+    }
+}

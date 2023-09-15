@@ -1,0 +1,89 @@
+{
+    "original": "Johansson, Gösta Sven August, tandläkare, Falköping, f. 2/4/09 i Sä-tuna, Skarab. 1., av Gustaf Adolf J. o. Emma Carlsson. G. 35 m. Irene Härdner. Barn: Ulf f. 36, Per 37, Birgitta 39. — Stud:ex. i Skara 30, med. stud. i Upps. 31-32, tandhkand. 33, tandl. 35. Prakt, i Falköp. sed. 35.",
+    "translated": "Johansson, Gösta Sven August, dentist, Falköping, b. 2/4/09 in Sätuna, Skaraborg County, son of Gustaf Adolf J. and Emma Carlsson. Married in 1935 to Irene Härdner and they have three children: Ulf b. 1936, Per b. 1937, Birgitta b. 1939. He graduated from Skara High School in 1930, studied medicine at Uppsala University from 1931-1932, graduated from dental school in 1933, and became a licensed dentist in 1935. He has been practicing dentistry in Falköping since then.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Sven August Johansson\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1909-04-02\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Sätuna\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Skaraborg County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Adolf Johansson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Carlsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Irene Härdner\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Johansson\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Johansson\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Johansson\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skara High School\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Skara\"\n      },\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Uppsala\"\n      },\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Dental School\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Unknown\"\n      },\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Private Practice in Falköping\"\n  },\n  \"startDate\": \"1935\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gösta Sven August Johansson",
+        "gender": "Male",
+        "birthDate": "1909-04-02",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Sätuna",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Skaraborg County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Adolf Johansson"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Carlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Irene Härdner",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf Johansson",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Johansson",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Johansson",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara High School",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Skara"
+                },
+                "endDate": "1930"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Uppsala"
+                },
+                "startDate": "1931",
+                "endDate": "1932"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Dental School",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Unknown"
+                },
+                "startDate": "1933",
+                "endDate": "1935"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Private Practice in Falköping"
+        },
+        "startDate": "1935"
+    }
+}

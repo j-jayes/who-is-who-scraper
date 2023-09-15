@@ -1,0 +1,41 @@
+{
+    "original": "Johnsson, Erik Wilhelm Gunnar, tandläkare, Eksjö, f. 17/6/96 i Åseda, Kronob. 1. — Stud:ex. i Växjö 17, tandl. 23. Prakt, i Storvik 23-29, därefter i Emmabo.da o. num. i Eksjö.",
+    "translated": "Johnsson, Erik Wilhelm Gunnar, dentist, Eksjö, b. June 17, 1896 in Åseda, Kronob. - Graduated from Växjö high school in 1917, graduated from dental school in 1923. Worked as a dental practitioner in Storvik from 1923-1929, and then in Emmabo. Married in unknown year and partner's name. Continued working as a dental practitioner in Eksjö.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Wilhelm Gunnar Johnsson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Åseda, Kronob\",\n  \"birthDate\": \"1896-06-17\",\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"institution\": \"Växjö High School\",\n    \"endDate\": \"1917\"\n  },\n  \"occupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dental Practitioner\",\n    \"startDate\": \"1923\",\n    \"endDate\": \"1929\",\n    \"location\": {\n      \"@type\": \"Place\",\n      \"name\": \"Storvik\"\n    }\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Emmabo\",\n    \"jobTitle\": \"Dental Practitioner\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Eksjö\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Wilhelm Gunnar Johnsson",
+        "jobTitle": "Dentist",
+        "birthPlace": "Åseda, Kronob",
+        "birthDate": "1896-06-17",
+        "education": {
+            "@type": "EducationEvent",
+            "institution": "Växjö High School",
+            "endDate": "1917"
+        },
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Dental Practitioner",
+            "startDate": "1923",
+            "endDate": "1929",
+            "location": {
+                "@type": "Place",
+                "name": "Storvik"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Emmabo",
+            "jobTitle": "Dental Practitioner"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Eksjö"
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "original": "Hultqvist, Axel Josef, kyrkoherde, Åtvidaberg, f. 22/12/79 i Eksjö av Sven Magnus H. o. Albertina Johansson. G. 08 m. EHsabeth Sjöstedt. Barn: Sven Axelsson f. 09, kommin., Signe Axelsdotter 12, g. m. Daniel Wiksten, Stig Axelsson, jur. kand., adv., omib :-man. — Mog:ex. i Jöniköp. 00, fil. kand. 03, teol. kand. samt prakt, teoil. prov 06, prästv. f. Linköp. stift 07, dövstum-präst i andra dövstumskoldistr. 08-13, i första dito 13-27, kyrkoh. i Atvid sed. 27. Skr.: art. särsk. i frågor rör. dövstumma i tidn. o. tidskr.",
+    "translated": "Hultqvist, Axel Josef, clergyman, Åtvidaberg, born on December 22nd, 1879 in Eksjö to Sven Magnus H. and Albertina Johansson. Married in 1908 to EHsabeth Sjöstedt. Children: Sven Axelsson born in 1909, curate, Signe Axelsdotter born in 1912, married to Daniel Wiksten, Stig Axelsson, juris kand., lawyer, deceased. Education: Mog:ex. in Jönköping in 1900, degree in philosophy in 1903, theology graduate and passed theological examination in 1906, ordained for Linköping diocese in 1907, deaf and dumb priest in another deaf and dumb school district from 1908 to 1913, in the first deaf and dumb school district from 1913 to 1927, parish priest in Åtvidaberg since 1927. Writings: specific articles on deaf and dumb issues in newspapers and journals.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Josef Hultqvist\",\n  \"birthDate\": \"1879-12-22\",\n  \"birthPlace\": \"Eksjö, Sweden\",\n  \"deathDate\": null,\n  \"deathPlace\": null,\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Clergyman\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"EHsabeth Sjöstedt\",\n    \"marriageDate\": \"1908\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Axelsson\",\n      \"birthDate\": \"1909\",\n      \"occupation\": \"Curate\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Axelsdotter\",\n      \"birthDate\": \"1912\",\n      \"occupation\": null,\n      \"spouse\": {\n        \"@type\": \"person\",\n        \"name\": \"Daniel Wiksten\",\n        \"marriageDate\": null\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig Axelsson\",\n      \"birthDate\": null,\n      \"deathDate\": null,\n      \"occupation\": \"Jurist, lawyer\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": \"Mog:ex, Jönköping\",\n      \"attendanceStartDate\": \"1900\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"degreeName\": \"Philosophy\",\n      \"attendanceStartDate\": \"1903\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"degreeName\": \"Theology\",\n      \"attendanceStartDate\": \"1906\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Ordination for Linköping diocese\",\n      \"startDate\": \"1907\"\n    }\n  ],\n  \"works\": \"Specific articles on deaf and dumb issues in newspapers and journals.\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Åtvidaberg Parish\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Diocese\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Axel Josef Hultqvist",
+        "birthDate": "1879-12-22",
+        "birthPlace": "Eksjö, Sweden",
+        "deathDate": null,
+        "deathPlace": null,
+        "nationality": "Swedish",
+        "occupation": "Clergyman",
+        "spouse": {
+            "@type": "Person",
+            "name": "EHsabeth Sjöstedt",
+            "marriageDate": "1908"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Axelsson",
+                "birthDate": "1909",
+                "occupation": "Curate"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Axelsdotter",
+                "birthDate": "1912",
+                "occupation": null,
+                "spouse": {
+                    "@type": "person",
+                    "name": "Daniel Wiksten",
+                    "marriageDate": null
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Stig Axelsson",
+                "birthDate": null,
+                "deathDate": null,
+                "occupation": "Jurist, lawyer"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "institution": "Mog:ex, Jönköping",
+                "attendanceStartDate": "1900"
+            },
+            {
+                "@type": "EducationEvent",
+                "degreeName": "Philosophy",
+                "attendanceStartDate": "1903"
+            },
+            {
+                "@type": "EducationEvent",
+                "degreeName": "Theology",
+                "attendanceStartDate": "1906"
+            },
+            {
+                "@type": "Event",
+                "name": "Ordination for Linköping diocese",
+                "startDate": "1907"
+            }
+        ],
+        "works": "Specific articles on deaf and dumb issues in newspapers and journals.",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Åtvidaberg Parish"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping Diocese"
+            }
+        ]
+    }
+}

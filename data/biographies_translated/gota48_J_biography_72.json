@@ -1,0 +1,97 @@
+{
+    "original": "Jern, Erik, civilingenjör, Göteborg, f. 22/11/04 i Gävle av fabr. Emil Alfred J. o. Maria Ulrika Mattsson. G. 32 m. Kerstin Ahlqvist, d. 44. Barn: Jan-Erik f. 36, Margareta 40. — Stud:ex. i Gävle 23, KTH (M) 24- 28. Stud :resa s. KTH stip. t. USA 34. Konstr. v. J. &amp; C. G. Bolinders Mek. Verkst. A-B i Sthlm 28-30, v. A-B Volvo i Gbg sed. 30, chefkonstr. f. personvagnar där sed. 43. Led. av Sv. tekn :fören.",
+    "translated": "Jern, Erik, civil engineer, Gothenburg, b. 22/11/04 in Gävle to factory worker Emil Alfred J. and Maria Ulrika Mattsson. Married in 1932 to Kerstin Ahlqvist, deceased in 1944. Children: Jan-Erik, born in 1936, Margareta, born in 1940. Completed high school in Gävle in 1923, attended the Royal Institute of Technology (Mechanical Engineering) from 1924 to 1928. Received a scholarship to travel to the United States in 1934. Worked as a designer at J. & C. G. Bolinders Mek. Verkst. AB in Stockholm from 1928 to 1930, and at AB Volvo in Gothenburg from 1930, where he became the chief designer for passenger cars in 1943. He was a member of the Swedish Society of Technical Engineers.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Jern\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1904-11-22\",\n  \"birthPlace\": \"Gävle\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emil Alfred Jern\",\n      \"jobTitle\": \"Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Ulrika Mattsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kerstin Ahlqvist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan-Erik Jern\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Jern\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1928\",\n      \"institution\": {\n        \"@type\": \"School\",\n        \"name\": \"Royal Institute of Technology\"\n      },\n      \"studyProgram\": \"Mechanical Engineering\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1923\",\n      \"institution\": {\n        \"@type\": \"School\",\n        \"name\": \"Gävle High School\"\n      }\n    }\n  ],\n  \"scholarship\": {\n    \"@type\": \"Scholarship\",\n    \"awardDate\": \"1934\"\n  },\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"J. & C. G. Bolinders Mek. Verkst. AB\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"jobTitle\": \"Designer\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Volvo\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"jobTitle\": \"Chief Designer for Passenger Cars\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1944\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Society of Technical Engineers\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Jern",
+        "jobTitle": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1904-11-22",
+        "birthPlace": "Gävle",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Emil Alfred Jern",
+                "jobTitle": "Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Ulrika Mattsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Ahlqvist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan-Erik Jern",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta Jern",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "startDate": "1924",
+                "endDate": "1928",
+                "institution": {
+                    "@type": "School",
+                    "name": "Royal Institute of Technology"
+                },
+                "studyProgram": "Mechanical Engineering"
+            },
+            {
+                "@type": "EducationEvent",
+                "startDate": "1923",
+                "endDate": "1923",
+                "institution": {
+                    "@type": "School",
+                    "name": "Gävle High School"
+                }
+            }
+        ],
+        "scholarship": {
+            "@type": "Scholarship",
+            "awardDate": "1934"
+        },
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "J. & C. G. Bolinders Mek. Verkst. AB",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "jobTitle": "Designer",
+                "startDate": "1928",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Volvo",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "jobTitle": "Chief Designer for Passenger Cars",
+                "startDate": "1930",
+                "endDate": "1944"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Society of Technical Engineers"
+        }
+    }
+}

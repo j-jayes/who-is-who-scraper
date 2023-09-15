@@ -1,0 +1,101 @@
+{
+    "original": "Inghammar, Nils Evald Napoleon, komminister, Lindome, f. 6/11/06 i 6ibbarp, Hall. I. G. 39 m. Marta Kal-iiin. Barn: Bengt f. 40, Eva 42, Lars 44, Lena 47. — Stud :ex. i Halmstad 26, teo’l. fil. ex. 27, teod. kand. 31, prästv. f. Gbgs stift 32. V. kommin. i Skallsjö o. Stafsinge 32, past:adj. i Starrkärr 33, i Mölndal 34, kyrkoadj. där s. å., kommin. i Lindomie sed. 41.",
+    "translated": "Inghammar, Nils Evald Napoleon, vicar, Lindome, b. 6/11/06 in 6ibbarp, Halland. Married to Marta Kal-iiin in 1939. Children: Bengt b. 1940, Eva b. 1942, Lars b. 1944, Lena b. 1947. Education: graduated from Halmstad in 1926, theology degree in 1927, theology candidate in 1931, ordained priest in Gothenburg diocese in 1932. Vice vicar in Skallsjö and Stafsinge in 1932, assistant pastor in Starrkärr in 1933, in Mölndal in 1934, church assistant there the same year, vicar in Lindome since 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Evald Napoleon Inghammar\",\n  \"givenName\": \"Nils\",\n  \"familyName\": \"Inghammar\",\n  \"jobTitle\": \"Vicar\",\n  \"birthDate\": \"1906-11-06\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"6ibbarp, Halland\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Marta Kal-iiin\",\n    \"dateModified\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied at Halmstad\",\n      \"credentialCategory\": \"Examination\",\n      \"dateModified\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theology degree\",\n      \"credentialCategory\": \"Degree\",\n      \"dateModified\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theology candidate\",\n      \"credentialCategory\": \"Candidate\",\n      \"dateModified\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ordained priest in Gothenburg diocese\",\n      \"credentialCategory\": \"Ordination\",\n      \"dateModified\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg diocese\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skallsjö and Stafsinge\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Starrkärr\",\n      \"jobTitle\": \"Assistant pastor\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mölndal\",\n      \"jobTitle\": \"Assistant pastor\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lindome\",\n      \"jobTitle\": \"Vicar\",\n      \"startDate\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Evald Napoleon Inghammar",
+        "givenName": "Nils",
+        "familyName": "Inghammar",
+        "jobTitle": "Vicar",
+        "birthDate": "1906-11-06",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "6ibbarp, Halland"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Marta Kal-iiin",
+            "dateModified": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Lena",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied at Halmstad",
+                "credentialCategory": "Examination",
+                "dateModified": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theology degree",
+                "credentialCategory": "Degree",
+                "dateModified": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theology candidate",
+                "credentialCategory": "Candidate",
+                "dateModified": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ordained priest in Gothenburg diocese",
+                "credentialCategory": "Ordination",
+                "dateModified": "1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg diocese"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Skallsjö and Stafsinge"
+            },
+            {
+                "@type": "Organization",
+                "name": "Starrkärr",
+                "jobTitle": "Assistant pastor",
+                "startDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mölndal",
+                "jobTitle": "Assistant pastor",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lindome",
+                "jobTitle": "Vicar",
+                "startDate": "1941"
+            }
+        ]
+    }
+}

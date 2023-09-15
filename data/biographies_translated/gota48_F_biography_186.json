@@ -1,0 +1,104 @@
+{
+    "original": "Friedrichsen, Sven Edvard Henning, tandläkare, Göteborg, f. 20/2/04 i Hallsberg, Örebro 1., av förvalt. Ail-bin F. o. Sigrid Avall. G. 35 m. Märta Adén. Barn: Margit o. Birgitta ff. 38, Stefan 40. — Stud:ex. i Skövde 23, Cand. med. dent. i Rostock 31, tysk tandl. i Leipzig 32, sv. dito 34. Assist, i Huskvarna 34-35, prakt. o. skoltandl. i Emmaboda 35, num. prakt, i Gbg.",
+    "translated": "Friedrichsen, Sven Edvard Henning, dentist, Gothenburg, born on 20 February 1904 in Hallsberg, Örebro county, son of the administrator Ail-bin F. and Sigrid Avall. He married Märta Adén in 1935 and they had three children: Margit and Birgitta, born in 1938, and Stefan, born in 1940. \n\nHe graduated from high school in Skövde in 1923 and earned a degree in dental medicine from Rostock in 1931. He also studied German dentistry in Leipzig in 1932 and Swedish dentistry in 1934. He worked as an assistant dentist in Huskvarna from 1934 to 1935, as a dentist in both practical and school settings in Emmaboda in 1935, and eventually became a certified dentist in Gothenburg.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Edvard Henning Friedrichsen\",\n  \"birthDate\": \"1904-02-20\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Hallsberg, Örebro, Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ail-bin F.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Avall\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta Adén\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stefan\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"endDate\": \"1923\",\n      \"educationalLevel\": \"high school\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Cand. med. dent.\",\n      \"endDate\": \"1931\",\n      \"educationCredentialAwarded\": \"Dental Medicine Degree\",\n      \"educationalLevel\": \"university\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"German dentistry\",\n      \"endDate\": \"1932\",\n      \"educationalLevel\": \"university\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Swedish dentistry\",\n      \"endDate\": \"1934\",\n      \"educationalLevel\": \"university\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant dentist\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Huskvarna Dental Clinic\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1935\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Emmaboda Dental Clinic\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Certified dentist\",\n      \"startDate\": \"1935\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Dental Clinic\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Edvard Henning Friedrichsen",
+        "birthDate": "1904-02-20",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Hallsberg, Örebro, Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ail-bin F."
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Avall"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Adén",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margit",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Stefan",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "endDate": "1923",
+                "educationalLevel": "high school"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Cand. med. dent.",
+                "endDate": "1931",
+                "educationCredentialAwarded": "Dental Medicine Degree",
+                "educationalLevel": "university"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "German dentistry",
+                "endDate": "1932",
+                "educationalLevel": "university"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Swedish dentistry",
+                "endDate": "1934",
+                "educationalLevel": "university"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Assistant dentist",
+                "startDate": "1934",
+                "endDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Huskvarna Dental Clinic"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist",
+                "startDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Emmaboda Dental Clinic"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Certified dentist",
+                "startDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Dental Clinic"
+                }
+            }
+        ]
+    }
+}

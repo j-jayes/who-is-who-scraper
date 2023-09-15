@@ -1,0 +1,105 @@
+{
+    "original": "Jungerfelt, Gustaf Georg, telegraf-kommrsisarie, Uddevalla, f. 13/111/97 i Ör, Älvsb. 1. G. 22 m. Elsa Nilsén. Barn: Birgit f. 23, Kerstin 26, Bengt 31. — Majornas lärov. i Gbg 15, te-legr:kurs 16, högre dito 36. E. o. telegr :as’sist. i Gbg 16-18, ord. där 19-33, telegr :komm :ie i Ånge 34-36, i Ronneiby 37, i Falköp. 37-47, i Uddevall|a sed. 47. Led. av styr. f. Sv. telegr :tj :männens: fören. andra krets sed. 45, led. av -stiadsfullm. i Falkiöp. 44-47, av kyrkofullm. 43-46, av drätsielkamm. 41-47, av lönend 43-47 o. av trafik-ndn 43-47. Hobbies: friluftsliv, fotografering.",
+    "translated": "Jungerfelt, Gustaf Georg, telegraph commissionaire, Uddevalla, b. 13/11/1897 in Ör, Älvsborg. Married on 22/xx/xxxx to Elsa Nilsén. Children: Birgit b. 1923, Kerstin b. 1926, Bengt b. 1931. Educated at Majornas lärov in Gothenburg in 1915, completed telegraph education in 1916, advanced telegraph education in 1936. Was a deputy telegraph assistant in Gothenburg from 1916-1918, and an ordinary telegraph employee there from 1919-1933. Worked as a telegraph commissionaire in Ånge from 1934-1936, in Ronneby in 1937, in Falköping from 1937-1947, and in Uddevalla since 1947. Member of the board for the Swedish Telegraph Workers' Association since 1945, member of the city council in Falköping from 1944-1947, member of the church council from 1943-1946, member of the financial committee from 1941-1947, member of the employee association from 1943-1947, and member of the traffic commission from 1943-1947. Hobbies include outdoor activities and photography.",
+    "structured_raw": "{\n  \"@context\" : \"https://schema.org\",\n  \"@type\" : \"Person\",\n  \"name\" : \"Gustaf Georg Jungerfelt\",\n  \"birthDate\" : \"1897-11-13\",\n  \"birthPlace\" : \"Ör, Älvsborg, Sweden\",\n  \"spouse\" : {\n    \"@type\" : \"Person\",\n    \"name\" : \"Elsa Nilsén\",\n    \"marriageDate\" : \"xxxx-xx-22\"\n  },\n  \"children\" : [\n    {\n      \"@type\" : \"Person\",\n      \"name\" : \"Birgit Jungerfelt\",\n      \"birthDate\" : \"1923\"\n    },\n    {\n      \"@type\" : \"Person\",\n      \"name\" : \"Kerstin Jungerfelt\",\n      \"birthDate\" : \"1926\"\n    },\n    {\n      \"@type\" : \"Person\",\n      \"name\" : \"Bengt Jungerfelt\",\n      \"birthDate\" : \"1931\"\n    }\n  ],\n  \"education\" : [\n    {\n      \"@type\" : \"EducationalOrganization\",\n      \"name\" : \"Majornas lärov\",\n      \"location\" : \"Gothenburg, Sweden\",\n      \"endDate\" : \"1915\"\n    },\n    {\n      \"@type\" : \"EducationalOccupationalProgram\",\n      \"name\" : \"Telegraph course\",\n      \"endDate\" : \"1916\"\n    },\n    {\n      \"@type\" : \"EducationalOccupationalProgram\",\n      \"name\" : \"Advanced telegraph course\",\n      \"endDate\" : \"1936\"\n    }\n  ],\n  \"jobTitle\" : \"Telegraph commissionaire\",\n  \"memberOf\" : [\n    {\n      \"@type\" : \"Organization\",\n      \"name\" : \"Swedish Telegraph Workers' Association\",\n      \"startDate\" : \"1945\"\n    },\n    {\n      \"@type\" : \"Organization\",\n      \"name\" : \"City council of Falköping\",\n      \"startDate\" : \"1944\",\n      \"endDate\" : \"1947\"\n    },\n    {\n      \"@type\" : \"Organization\",\n      \"name\" : \"Church council\",\n      \"startDate\" : \"1943\",\n      \"endDate\" : \"1946\"\n    },\n    {\n      \"@type\" : \"Organization\",\n      \"name\" : \"Financial committee\",\n      \"startDate\" : \"1941\",\n      \"endDate\" : \"1947\"\n    },\n    {\n      \"@type\" : \"Organization\",\n      \"name\" : \"Employee association\",\n      \"startDate\" : \"1943\",\n      \"endDate\" : \"1947\"\n    },\n    {\n      \"@type\" : \"Organization\",\n      \"name\" : \"Traffic commission\",\n      \"startDate\" : \"1943\",\n      \"endDate\" : \"1947\"\n    }\n  ],\n  \"hobbies\" : [\n    \"Outdoor activities\",\n    \"Photography\"\n  ],\n  \"address\" : {\n    \"@type\" : \"PostalAddress\",\n    \"addressLocality\" : \"Uddevalla\",\n    \"addressCountry\" : \"Sweden\"\n  },\n  \"worksFor\" : {\n    \"@type\" : \"Organization\",\n    \"name\" : \"Swedish Telegraph\",\n    \"employeeStartDate\" : \"1916\",\n    \"employeeEndDate\" : \"1947\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Georg Jungerfelt",
+        "birthDate": "1897-11-13",
+        "birthPlace": "Ör, Älvsborg, Sweden",
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Nilsén",
+            "marriageDate": "xxxx-xx-22"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgit Jungerfelt",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Jungerfelt",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Jungerfelt",
+                "birthDate": "1931"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Majornas lärov",
+                "location": "Gothenburg, Sweden",
+                "endDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Telegraph course",
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalProgram",
+                "name": "Advanced telegraph course",
+                "endDate": "1936"
+            }
+        ],
+        "jobTitle": "Telegraph commissionaire",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Telegraph Workers' Association",
+                "startDate": "1945"
+            },
+            {
+                "@type": "Organization",
+                "name": "City council of Falköping",
+                "startDate": "1944",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church council",
+                "startDate": "1943",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Financial committee",
+                "startDate": "1941",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Employee association",
+                "startDate": "1943",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Traffic commission",
+                "startDate": "1943",
+                "endDate": "1947"
+            }
+        ],
+        "hobbies": [
+            "Outdoor activities",
+            "Photography"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Uddevalla",
+            "addressCountry": "Sweden"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish Telegraph",
+            "employeeStartDate": "1916",
+            "employeeEndDate": "1947"
+        }
+    }
+}

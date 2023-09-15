@@ -1,0 +1,70 @@
+{
+    "original": "Hägerdal, Erik Albin, advokat, Kalmar, f. 15/7/99 i Kristdala, Kalmar 1. G. 29 m. Ingrid Gleisner. Barn: Lars f. 3i3, Staffan 36, Amders 45. — Stud:-ex. v. Lunds priv. elemisk. 18, jur. kand: i Uppis. 2I3l Tàngstjg. d Aspelands o. Handbörds döm’s. 23-27, anst. i adv:-firman Allmér &amp; 01 din i Kalmar 27-3il, inneh. av Kalmar Jur. Byrå sed. 3ll. Led. av stadsifullm. sed. 38, omb :man Skancl. Bankens avd :kont. i Kalmar samt v. S. Småsl. Stadshypoteksfören. Led. av Sv:es advisamf. sed. 34.",
+    "translated": "Hägerdal, Erik Albin, lawyer, Kalmar, born on July 15, 1899, in Kristdala, Kalmar. Married once, on May 29, with Ingrid Gleisner. Children: Lars, born in 1931, Staffan in 1936, and Anders in 1945. He graduated from Lund's private elementary school in 1918 and received his law degree from Uppsala University in 1921. He worked as a clerk at the courts of Aspelands and Handbörds from 1923 to 1927. He worked at the law firm Allmér &amp; Oldin in Kalmar from 1927 to 1931, before becoming the owner of Kalmar Jur. Byrå. He was a member of the city council from 1938 and a representative for Skandia Bank's branch office in Kalmar as well as a member of the South Småland Mortgage Association. He also became a member of Sweden's Advisory Committee in 1934.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Erik Albin Hägerdal\",\n   \"birthDate\": \"1899-07-15\",\n   \"birthPlace\": \"Kristdala, Kalmar, Sweden\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Lund's Private Elementary School\",\n      \"startDate\": \"1918\"\n   },\n   \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Juris Doctor\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"educationalProgramMode\": \"Full-time\",\n      \"educationalSpecialization\": \"Law\",\n      \"name\": \"Uppsala University\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1921\"\n   },\n   \"jobTitle\": \"Lawyer\",\n   \"memberOf\": {\n      \"@type\": \"ProfessionalAssociation\",\n      \"name\": \"Swedish Advisory Committee\",\n      \"startDate\": \"1934\"\n   },\n   \"affiliation\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Allmér & Oldin Law Firm\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1931\"\n   },\n   \"owns\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar Jur. Byrå\",\n      \"startDate\": \"1931\"\n   },\n   \"memberOf\": {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"City Council\",\n      \"startDate\": \"1938\"\n   },\n   \"representativeOf\": {\n      \"@type\": \"Brand\",\n      \"name\": \"Skandia Bank\",\n      \"branchOf\": {\n         \"@type\": \"Organization\",\n         \"name\": \"South Småland Mortgage Association\"\n      },\n      \"startDate\": \"unknown\"\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Gleisner\",\n      \"marriageDate\": \"1929-05-29\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Lars Hägerdal\",\n         \"birthDate\": \"1931-03-13\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Staffan Hägerdal\",\n         \"birthDate\": \"1936\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders Hägerdal\",\n         \"birthDate\": \"1945\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Albin Hägerdal",
+        "birthDate": "1899-07-15",
+        "birthPlace": "Kristdala, Kalmar, Sweden",
+        "memberOf": {
+            "@type": "GovernmentOrganization",
+            "name": "City Council",
+            "startDate": "1938"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Juris Doctor",
+            "educationalLevel": "Bachelor's Degree",
+            "educationalProgramMode": "Full-time",
+            "educationalSpecialization": "Law",
+            "name": "Uppsala University",
+            "startDate": "1918",
+            "endDate": "1921"
+        },
+        "jobTitle": "Lawyer",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Allmér & Oldin Law Firm",
+            "startDate": "1927",
+            "endDate": "1931"
+        },
+        "owns": {
+            "@type": "Organization",
+            "name": "Kalmar Jur. Byrå",
+            "startDate": "1931"
+        },
+        "representativeOf": {
+            "@type": "Brand",
+            "name": "Skandia Bank",
+            "branchOf": {
+                "@type": "Organization",
+                "name": "South Småland Mortgage Association"
+            },
+            "startDate": "unknown"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Gleisner",
+            "marriageDate": "1929-05-29"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Hägerdal",
+                "birthDate": "1931-03-13"
+            },
+            {
+                "@type": "Person",
+                "name": "Staffan Hägerdal",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Hägerdal",
+                "birthDate": "1945"
+            }
+        ]
+    }
+}

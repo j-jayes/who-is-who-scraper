@@ -1,0 +1,81 @@
+{
+    "original": "Hallander, Adolf Richard, distrikts-lantmätare, Motala, f. 28/10/86 i Köla, Värmk 1., av kommissionsilantmät. Gustaf H. o. Thora Haillgren. G. 17 m. Anna Ericson. Barn: Margit f. 22. ~ Stud:ex. 06, lantmät:ex. 09. Lantmät :auskultant 09-20, e. o. lant-mät. i Värml. 20-21, ord. distr :lantmät. i Motala sed. 21. RVO 37.",
+    "translated": "Hallander, Adolf Richard was a district land surveyor in Motala. He was born on October 28th, 1886 in Köla, Värmland County. His parents were commission land surveyor Gustaf H. and Thora Haillgren. He married Anna Ericson in 1917, and they had one child, Margit, who was born in 1922. Adolf Richard passed the student's exam in 1906 and the land surveyor's exam in 1909. He worked as a trainee land surveyor from 1909 to 1920, became an assistant land surveyor in Värmland County from 1920 to 1921, and finally became an official district land surveyor in Motala from 1921 onwards. He was awarded the Royal Order of Vasa in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Adolf Richard Hallander\",\n  \"birthDate\": \"1886-10-28\",\n  \"birthPlace\": \"Köla, Värmland County\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"District Land Surveyor\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Motala\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf H. Hallander\",\n      \"jobTitle\": \"Commission Land Surveyor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thora Haillgren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Ericson\",\n    \"marriageDate\": \"1917\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit\",\n      \"birthDate\": \"1922\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"student's exam\",\n      \"dateEarned\": \"1906\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"land surveyor's exam\",\n      \"dateEarned\": \"1909\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"LandSurveyor\",\n      \"jobTitle\": \"Trainee Land Surveyor\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"LandSurveyor\",\n      \"jobTitle\": \"Assistant Land Surveyor\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1921\",\n      \"region\": \"Värmland County\"\n    },\n    {\n      \"@type\": \"LandSurveyor\",\n      \"jobTitle\": \"Official District Land Surveyor\",\n      \"startDate\": \"1921\",\n      \"region\": \"Motala\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\",\n      \"dateReceived\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Adolf Richard Hallander",
+        "birthDate": "1886-10-28",
+        "birthPlace": "Köla, Värmland County",
+        "nationality": "Swedish",
+        "jobTitle": "District Land Surveyor",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Motala"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf H. Hallander",
+                "jobTitle": "Commission Land Surveyor"
+            },
+            {
+                "@type": "Person",
+                "name": "Thora Haillgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Ericson",
+            "marriageDate": "1917"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margit",
+                "birthDate": "1922"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "student's exam",
+                "dateEarned": "1906"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "land surveyor's exam",
+                "dateEarned": "1909"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "LandSurveyor",
+                "jobTitle": "Trainee Land Surveyor",
+                "startDate": "1909",
+                "endDate": "1920"
+            },
+            {
+                "@type": "LandSurveyor",
+                "jobTitle": "Assistant Land Surveyor",
+                "startDate": "1920",
+                "endDate": "1921",
+                "region": "Värmland County"
+            },
+            {
+                "@type": "LandSurveyor",
+                "jobTitle": "Official District Land Surveyor",
+                "startDate": "1921",
+                "region": "Motala"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa",
+                "dateReceived": "1937"
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "original": "Johansson, Eric Theodor, advokat, Nässjö, f. 13/10/97 i Floby, Skarab. 1., av Theodor J. o. Augusta Andersson. G. 37 m. Edit Broling. — Stud:-ex. i Skara 19, jur. kand. i Upps. 28, DHS. Tingstjg. i Tössbo o. Vedbo här. doms. 28-31, inneh. av Smål. Jur. Byrå i Nässjö sed. 31. Led. av Sv res adv:’samf. sed. 35.",
+    "translated": "Johansson, Eric Theodor, lawyer, from Nässjö, born on October 13, 1897 in Floby, Skaraborg County, the first child of Theodor J. and Augusta Andersson. Married in 1937 to Edit Broling. He completed his secondary school education in Skara in 1919, graduated with a law degree from Uppsala University in 1928, and completed his clerkship at the Tingstjg. (district court) in Tössbo and Vedbo in 1928-1931. He became the owner of the law firm Smål. Jur. Byrå in Nässjö in 1931 and has been a member of the Swedish Bar Association since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Eric Theodor Johansson\",\n  \"birthDate\": \"1897-10-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Floby, Skaraborg County\"\n  },\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Lawyer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Theodor J. Johansson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edit Broling\",\n    \"marriageDate\": \"1937\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school education\",\n      \"educationalLevel\": \"completed\",\n      \"educationalProgram\": \"Skara\",\n      \"educationalCredentialAwarded\": \"Stud:-ex.\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"law degree\",\n      \"educationalLevel\": \"completed\",\n      \"educationalProgram\": \"Uppsala University\",\n      \"educationalCredentialAwarded\": \"jur. kand.\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"WorkExperience\",\n      \"position\": \"Tingstjg.\",\n      \"organization\": \"district court\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Tössbo and Vedbo\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Smål. Jur. Byrå\",\n      \"position\": \"owner\",\n      \"startDate\": \"1931\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Nässjö\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Eric Theodor Johansson",
+        "birthDate": "1897-10-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Floby, Skaraborg County"
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Lawyer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Theodor J. Johansson"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Edit Broling",
+            "marriageDate": "1937"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school education",
+                "educationalLevel": "completed",
+                "educationalProgram": "Skara",
+                "educationalCredentialAwarded": "Stud:-ex.",
+                "startDate": "1919",
+                "endDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "law degree",
+                "educationalLevel": "completed",
+                "educationalProgram": "Uppsala University",
+                "educationalCredentialAwarded": "jur. kand.",
+                "startDate": "1928",
+                "endDate": "1928"
+            }
+        ],
+        "work": [
+            {
+                "@type": "WorkExperience",
+                "position": "Tingstjg.",
+                "organization": "district court",
+                "startDate": "1928",
+                "endDate": "1931",
+                "location": {
+                    "@type": "Place",
+                    "name": "Tössbo and Vedbo"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Smål. Jur. Byrå",
+                "position": "owner",
+                "startDate": "1931",
+                "location": {
+                    "@type": "Place",
+                    "name": "Nässjö"
+                }
+            }
+        ]
+    }
+}

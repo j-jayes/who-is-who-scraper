@@ -1,0 +1,112 @@
+{
+    "original": "Jacobsson, Johan Henning, civilingenjör, Göteborg, f. 3/7/02 i Långsele, Västernorrl. 1., av Jakob Olof J. o. Matilda Margareta Fagerström. G. 37 m. Hertha Storm. — Stud:ex. i Upps. 22, KTH (E) 23-27. Anst. v. ing:firman Bergman &amp; Co. A-B i Sthlm 27-29, v. Södra Svies Angpan- nefören. i Malmö 29-33, driftsing. v. Gbgs Konfektions A-B 33, num. driftschef där. Ordf. i KTH stud:kår 26. Led. av Sv. teknifören. samt flera ordens säll sk.",
+    "translated": "Jacobsson, Johan Henning, Civil Engineer, Gothenburg, born on 3/7/02 in Långsele, Västernorrl. 1., to Jakob Olof J. and Matilda Margareta Fagerström. Married in 1937 to Hertha Storm. He took his final exam in Uppsala in 1922 and studied at KTH (E) from 1923 to 1927. He was employed by engineering firm Bergman & Co. A-B in Stockholm from 1927 to 1929 and then by Södra Svies Angpan- nefören. in Malmö from 1929 to 1933 as a managing engineer before becoming a managing director at Gbgs Konfektions A-B in 1933. He was also the chairman of the KTH student union in 1926 and a member of Sv. teknifören. as well as several other civic organizations.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Henning Jacobsson\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthDate\": \"1902-07-03\",\n  \"birthPlace\": \"Långsele, Västernorrl\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jakob Olof J.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Matilda Margareta Fagerström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hertha Storm\",\n    \"marriageDate\": \"1937\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"exam\",\n      \"name\": \"Final Exam\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Johan Henning Jacobsson\"\n      },\n      \"educationLevel\": \"Stud:ex\",\n      \"educationalCredentialAwarded\": \"Stud:ex\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"Completion of degree requirements\"\n      },\n      \"validIn\": {\n        \"@type\": \"AdministrativeArea\",\n        \"name\": \"Uppsala\"\n      },\n      \"dateIssued\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Civil Engineering\",\n      \"description\": \"Studied at KTH (E) from 1923 to 1927\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"KTH Royal Institute of Technology\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"Completion of degree requirements\"\n      },\n      \"dateEarned\": \"1927\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"KTH student union\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Society of Engineers\",\n      \"membershipStartDate\": \"unknown\",\n      \"membershipEndDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Other civic organizations\",\n      \"membershipStartDate\": \"unknown\",\n      \"membershipEndDate\": \"unknown\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bergman & Co. A-B\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Södra Svies Angpan- nefören.\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1933\",\n      \"jobTitle\": \"Managing Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gbgs Konfektions A-B\",\n      \"startDate\": \"1933\",\n      \"jobTitle\": \"Managing Director\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Henning Jacobsson",
+        "jobTitle": "Civil Engineer",
+        "birthDate": "1902-07-03",
+        "birthPlace": "Långsele, Västernorrl",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Jakob Olof J."
+            },
+            {
+                "@type": "Person",
+                "name": "Matilda Margareta Fagerström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hertha Storm",
+            "marriageDate": "1937"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "exam",
+                "name": "Final Exam",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Johan Henning Jacobsson"
+                },
+                "educationLevel": "Stud:ex",
+                "educationalCredentialAwarded": "Stud:ex",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "Completion of degree requirements"
+                },
+                "validIn": {
+                    "@type": "AdministrativeArea",
+                    "name": "Uppsala"
+                },
+                "dateIssued": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Civil Engineering",
+                "description": "Studied at KTH (E) from 1923 to 1927",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "KTH Royal Institute of Technology"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "Completion of degree requirements"
+                },
+                "dateEarned": "1927"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "KTH student union",
+                "startDate": "1926",
+                "endDate": "1926",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Society of Engineers",
+                "membershipStartDate": "unknown",
+                "membershipEndDate": "unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Other civic organizations",
+                "membershipStartDate": "unknown",
+                "membershipEndDate": "unknown"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Bergman & Co. A-B",
+                "startDate": "1927",
+                "endDate": "1929",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Södra Svies Angpan- nefören.",
+                "startDate": "1929",
+                "endDate": "1933",
+                "jobTitle": "Managing Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gbgs Konfektions A-B",
+                "startDate": "1933",
+                "jobTitle": "Managing Director"
+            }
+        ]
+    }
+}

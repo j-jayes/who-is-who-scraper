@@ -1,0 +1,79 @@
+{
+    "original": "Holmgren, Johan Einar, distriktslantmätare, Tranås, f. 5/5/85 i Vaxholm av civ:ing. John Reinhold H. o. Maria Kristina Andrietta (Jetten) Åsberg. G. 24 m. Elsa Wåhlin. Barn: Ingrid f. 29. — Stud:ex. 06, lantmät:-ex. 12. Distr :lantmät. i Torsby distr. 24, i Tranås distr. sed. 31. Mätn :man i Tranås sed. 31. RVO 39.",
+    "translated": "Holmgren, Johan Einar was a district land surveyor in Tranås. He was born on May 5th, 1885 in Vaxholm to civil engineer John Reinhold H. and Maria Kristina Andrietta (Jetten) Åsberg. He married Elsa Wåhlin in 1924 and they had a daughter named Ingrid, born in 1929. Johan passed his studentexamen (equivalent to high school) in 1906 and his lantmäteri-examen (land surveyor exam) in 1912. He worked as a district land surveyor in Torsby district from 1924 until he moved to Tranås in 1931, where he also worked as a surveyor. He was awarded the Royal Order of the Seraphim in 1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Einar Holmgren\",\n  \"birthDate\": \"1885-05-05\",\n  \"birthPlace\": \"Vaxholm, Sweden\",\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Studentexamen\",\n      \"location\": \"Sweden\",\n      \"endDate\": \"1906\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lantmäteri-examen\",\n      \"location\": \"Sweden\",\n      \"endDate\": \"1912\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John Reinhold H. Holmgren\",\n      \"jobTitle\": \"Civil Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Kristina Andrietta Åsberg\",\n      \"jobTitle\": \"Unknown\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Wåhlin\",\n    \"marriageDate\": \"1924\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Holmgren\",\n    \"birthDate\": \"1929\"\n  },\n  \"jobTitle\": [\n    \"District Land Surveyor\"\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"District Land Surveyor\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Surveyor\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Torsby District\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tranås District\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of the Seraphim\",\n    \"dateAwarded\": \"1939\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Einar Holmgren",
+        "birthDate": "1885-05-05",
+        "birthPlace": "Vaxholm, Sweden",
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Studentexamen",
+                "location": "Sweden",
+                "endDate": "1906"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lantmäteri-examen",
+                "location": "Sweden",
+                "endDate": "1912"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "John Reinhold H. Holmgren",
+                "jobTitle": "Civil Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Kristina Andrietta Åsberg",
+                "jobTitle": "Unknown"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Wåhlin",
+            "marriageDate": "1924"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Ingrid Holmgren",
+            "birthDate": "1929"
+        },
+        "jobTitle": [
+            "District Land Surveyor"
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "District Land Surveyor"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Surveyor"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Torsby District",
+                "startDate": "1924",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tranås District",
+                "startDate": "1931"
+            }
+        ],
+        "awards": {
+            "@type": "Order",
+            "name": "Royal Order of the Seraphim",
+            "dateAwarded": "1939"
+        }
+    }
+}

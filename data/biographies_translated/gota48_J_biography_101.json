@@ -1,0 +1,118 @@
+{
+    "original": "Johanson, Erik Bertil, stads distriktsläkare, Göteborg, f. 10/10/00 i Borås av grosshandl. Albert J. o. Ade-lina Svensson. G. 40 m. Röda korssystern Ingegärd Linnaeus. — Stud:-ex. i Borås 19, med. kand. i Upps. 23, med. lic. i Sthlm 28. Tf. und:läk. v. Svenshögens o. Löts sanat. 28, assist :läk. v. Sahlgr. sjukh. med. avd. 28-219, förordn’. s. e. lläk. v. Sjö-Gun-narsbo’ san. 219-30, imd :läk. v. Ren-s’tröimjska sjukh. 30-32, e. läk. v. Uddevalla las. m^d. avd. 32, tf. und:läk. där 32-3131, und’:läk. v. ’samma avd. 33-316, tf. stads distr :läk. i Gbg 36 o. num. stadsdistr :läk. där, bitr. dispen-särläk. sed. 37.",
+    "translated": "Johanson, Erik Bertil, city district doctor, Gothenburg, born on October 10th, 1900 in Borås to the merchant Albert J. and Adelina Svensson. Married in 1940 to the Red Cross nurse Ingegärd Linnaeus. He graduated from high school in Borås in 1919, received his Bachelor of Medicine degree from Uppsala University in 1923, and his medical license from Stockholm in 1928. He served as a temporary assistant physician at Svenshögen and Löts sanatoriums in 1928, an assistant doctor at Sahlgr. Hospital's medical department from 1928-1929, appointed as a trainee doctor at Sjö-Gunnarsbo sanatorium from 1929-1930, an assistant doctor at Rensströmska Hospital from 1930-1932, a resident doctor at Uddevalla Hospital's medical department in 1932, a temporary assistant doctor there from 1932-1933, a permanent assistant doctor from 1933-1936, and a temporary city district doctor in Gothenburg in 1936. He was appointed as the official city district doctor there and served as a dispensary doctor from 1937 onwards.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Erik Bertil Johanson\",\n   \"birthDate\": \"1900-10-10\",\n   \"birthPlace\": \"Borås, Sweden\",\n   \"nationality\": \"Swedish\",\n   \"profession\": \"City District Doctor\",\n   \"alumniOf\": [\n       {\n           \"@type\": \"CollegeOrUniversity\",\n           \"name\": \"Uppsala University\",\n           \"location\": \"Uppsala, Sweden\",\n           \"startDate\": \"1919\",\n           \"endDate\": \"1923\"\n       }\n   ],\n   \"spouse\": {\n       \"@type\": \"Person\",\n       \"name\": \"Ingegärd Linnaeus\"\n   },\n   \"parents\": [\n       {\n           \"@type\": \"Person\",\n           \"name\": \"Albert J. Johanson\"\n       },\n       {\n           \"@type\": \"Person\",\n           \"name\": \"Adelina Svensson\"\n       }\n   ],\n   \"worksFor\": {\n       \"@type\": \"Organization\",\n       \"name\": \"Gothenburg City District\"\n   },\n   \"medicalSpecialty\": \"General Medicine\",\n   \"experience\": [\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Svenshögen Sanatorium\",\n           \"title\": \"Temporary Assistant Physician\",\n           \"startDate\": \"1928\",\n           \"endDate\": \"1928\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Löts Sanatorium\",\n           \"title\": \"Temporary Assistant Physician\",\n           \"startDate\": \"1928\",\n           \"endDate\": \"1928\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Sahlgr. Hospital\",\n           \"department\": \"Medical Department\",\n           \"title\": \"Assistant Doctor\",\n           \"startDate\": \"1928\",\n           \"endDate\": \"1929\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Sjö-Gunnarsbo Sanatorium\",\n           \"title\": \"Trainee Doctor\",\n           \"startDate\": \"1929\",\n           \"endDate\": \"1930\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Rensströmska Hospital\",\n           \"department\": \"Medical Department\",\n           \"title\": \"Assistant Doctor\",\n           \"startDate\": \"1930\",\n           \"endDate\": \"1932\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Uddevalla Hospital\",\n           \"department\": \"Medical Department\",\n           \"title\": \"Resident Doctor\",\n           \"startDate\": \"1932\",\n           \"endDate\": \"1933\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Uddevalla Hospital\",\n           \"department\": \"Medical Department\",\n           \"title\": \"Temporary Assistant Doctor\",\n           \"startDate\": \"1932\",\n           \"endDate\": \"1933\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Uddevalla Hospital\",\n           \"department\": \"Medical Department\",\n           \"title\": \"Assistant Doctor\",\n           \"startDate\": \"1933\",\n           \"endDate\": \"1936\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Gothenburg City District\",\n           \"title\": \"Temporary City District Doctor\",\n           \"startDate\": \"1936\",\n           \"endDate\": \"1937\"\n       },\n       {\n           \"@type\": \"MedicalOrganization\",\n           \"name\": \"Gothenburg City District\",\n           \"title\": \"City District Doctor\",\n           \"startDate\": \"1937\"\n       }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Bertil Johanson",
+        "birthDate": "1900-10-10",
+        "birthPlace": "Borås, Sweden",
+        "nationality": "Swedish",
+        "profession": "City District Doctor",
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "location": "Uppsala, Sweden",
+                "startDate": "1919",
+                "endDate": "1923"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingegärd Linnaeus"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Albert J. Johanson"
+            },
+            {
+                "@type": "Person",
+                "name": "Adelina Svensson"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg City District"
+        },
+        "medicalSpecialty": "General Medicine",
+        "experience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Svenshögen Sanatorium",
+                "title": "Temporary Assistant Physician",
+                "startDate": "1928",
+                "endDate": "1928"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Löts Sanatorium",
+                "title": "Temporary Assistant Physician",
+                "startDate": "1928",
+                "endDate": "1928"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgr. Hospital",
+                "department": "Medical Department",
+                "title": "Assistant Doctor",
+                "startDate": "1928",
+                "endDate": "1929"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sjö-Gunnarsbo Sanatorium",
+                "title": "Trainee Doctor",
+                "startDate": "1929",
+                "endDate": "1930"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Rensströmska Hospital",
+                "department": "Medical Department",
+                "title": "Assistant Doctor",
+                "startDate": "1930",
+                "endDate": "1932"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Uddevalla Hospital",
+                "department": "Medical Department",
+                "title": "Resident Doctor",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Uddevalla Hospital",
+                "department": "Medical Department",
+                "title": "Temporary Assistant Doctor",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Uddevalla Hospital",
+                "department": "Medical Department",
+                "title": "Assistant Doctor",
+                "startDate": "1933",
+                "endDate": "1936"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg City District",
+                "title": "Temporary City District Doctor",
+                "startDate": "1936",
+                "endDate": "1937"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg City District",
+                "title": "City District Doctor",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

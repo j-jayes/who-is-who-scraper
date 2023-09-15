@@ -1,0 +1,88 @@
+{
+    "original": "Friström, Nils Erik Bruno, tandläkare, Göteborg, f. 29/3/10 i Sthlm av Victor F. o. May Wirén. G. m. Rose Bliasson. Barn: Bobbie. — Stud:ex. i Berlin 31, Cand. med. dent. där 32, tysk tandü. i Greifswald 34, sv. dito 38. Aman. h. prof. Schröder i Berlin 31-32, assist, i Berlin 34 o. 35, i Sthlm 38, i Gbg 39, egen prakt, där sed. 43.",
+    "translated": "Friström, Nils Erik Bruno, dentist, Gothenburg, b. March 29, 1910, in Stockholm to Victor F. and May Wirén. Married to Rose Bliasson in an unknown year. They have one child, Bobbie. He earned his high school degree in Berlin in 1931, his dental degree in Berlin in 1932, and his German dental qualification in Greifswald in 1934. He earned his Swedish dental qualification in 1938. He was an assistant to Professor Schröder in Berlin from 1931-1932, an assistant in Berlin in 1934 and 1935, worked in Stockholm in 1938 and Gothenburg in 1939. He has had his own practice in Gothenburg since 1943.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Nils Erik Bruno Friström\",\n   \"jobTitle\": \"Dentist\",\n   \"birthDate\": \"1910-03-29\",\n   \"birthPlace\": \"Stockholm\",\n   \"nationality\": \"Swedish\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Rose Bliasson\"\n   },\n   \"children\": {\n      \"@type\": \"Person\",\n      \"name\": \"Bobbie Friström\"\n   },\n   \"alumniOf\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Unknown High School\",\n         \"location\": \"Berlin\",\n         \"startDate\": \"1931\",\n         \"endDate\": \"1931\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Berlin Dental School\",\n         \"location\": \"Berlin\",\n         \"startDate\": \"1932\",\n         \"endDate\": \"1932\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Greifswald Dental School\",\n         \"location\": \"Greifswald\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1934\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Swedish Dental School\",\n         \"location\": \"Sweden\",\n         \"startDate\": \"1938\",\n         \"endDate\": \"1938\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Professor Schröder's dental clinic\",\n         \"startDate\": \"1931\",\n         \"endDate\": \"1932\",\n         \"jobTitle\": \"Assistant\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Unknown Dental Clinic\",\n         \"startDate\": \"1934\",\n         \"endDate\": \"1935\",\n         \"jobTitle\": \"Assistant\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Stockholm Dental Clinic\",\n         \"startDate\": \"1938\",\n         \"endDate\": \"1938\",\n         \"jobTitle\": \"Assistant\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg Dental Clinic\",\n         \"startDate\": \"1939\",\n         \"endDate\": \"1943\",\n         \"jobTitle\": \"Assistant\"\n      }\n   ],\n   \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Nils Friström Dental Practice\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1943\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Erik Bruno Friström",
+        "jobTitle": "Dentist",
+        "birthDate": "1910-03-29",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Rose Bliasson"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bobbie Friström"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Unknown High School",
+                "location": "Berlin",
+                "startDate": "1931",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Berlin Dental School",
+                "location": "Berlin",
+                "startDate": "1932",
+                "endDate": "1932"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Greifswald Dental School",
+                "location": "Greifswald",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Swedish Dental School",
+                "location": "Sweden",
+                "startDate": "1938",
+                "endDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Professor Schröder's dental clinic",
+                "startDate": "1931",
+                "endDate": "1932",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Unknown Dental Clinic",
+                "startDate": "1934",
+                "endDate": "1935",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stockholm Dental Clinic",
+                "startDate": "1938",
+                "endDate": "1938",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Dental Clinic",
+                "startDate": "1939",
+                "endDate": "1943",
+                "jobTitle": "Assistant"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nils Friström Dental Practice",
+            "location": "Gothenburg",
+            "startDate": "1943"
+        }
+    }
+}

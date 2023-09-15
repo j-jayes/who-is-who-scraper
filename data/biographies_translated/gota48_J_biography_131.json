@@ -1,0 +1,99 @@
+{
+    "original": "Johansson, Harry Ludvig, lektor, Norrköping, f. 10/9/07 i Upps. av Ludvig J. o. Ida Pettersson. G. 38 m. Maj Ternsitedt. Barn: Karin f. 44. — Stud:ex. i Upps. 27, fil. kand. där 31, fil. mag. 32, fil. lic. 39, fil. dr 42, prov-år 43, doc. v. Upps. univ. Vik. adj. i Västerås 32-33, e. adj. i Upps. 37-38, timlär. där 38-39, v. Försv. lärov. där 44, v. Norrköp. tekn. gymn. 42, lektor i matem. o. mek. där sed. 44. Skr.: An investigation into the scattering of radiation by hydrogen-like atoms (grad:avh. 42).",
+    "translated": "Johansson, Harry Ludvig, lecturer, Norrköping, born September 10th, 1907 in Uppsala to Ludvig J. and Ida Pettersson. Married in 1938 to Maj Ternsitedt, with one child, Karin, born in 1944. Harry Ludvig completed his high school education in Uppsala in 1927. He obtained his Bachelor's degree there in 1931, Master's degree in 1932, Licentiate degree in 1939, and his Doctoral degree in 1942, where he focused on An investigation into the scattering of radiation by hydrogen-like atoms. During his academic career, he served as a substitute teacher in Västerås from 1932-1933, assistant professor in Uppsala from 1937-1938, part-time teacher there from 1938-1939, and a Research Assistant at the University of Uppsala from 1943-1944. He also taught at the Norrköping Technical Gymnasium from 1942 and became a lecturer in Mathematics and Mechanics in Norrköping from 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Harry Ludvig Johansson\",\n  \"jobTitle\": \"Lecturer\",\n  \"birthDate\": \"1907-09-10\",\n  \"birthPlace\": \"Uppsala\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ludvig J. Johansson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Pettersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maj Ternsitedt\",\n    \"marriageDate\": \"1938\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin\",\n    \"birthDate\": \"1944\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Uppsala University\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala High School\"\n    },\n    \"studyType\": [\n      \"Stud:ex\",\n      \"Bachelor\",\n      \"Master\",\n      \"Licentiate\",\n      \"Doctoral\"\n    ],\n    \"startDate\": [\n      \"1927\",\n      \"1931\",\n      \"1932\",\n      \"1939\",\n      \"1942\"\n    ]\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"QuantitativeValue\",\n      \"value\": \"Substitute Teacher\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"QuantitativeValue\",\n      \"value\": \"Assistant Professor\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"QuantitativeValue\",\n      \"value\": \"Part-time Teacher\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"QuantitativeValue\",\n      \"value\": \"Research Assistant\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1944\",\n      \"employer\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Uppsala University\"\n      }\n    },\n    {\n      \"@type\": \"QuantitativeValue\",\n      \"value\": \"Lecturer in Mathematics and Mechanics\",\n      \"startDate\": \"1944\",\n      \"employer\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Norrköping Technical Gymnasium\"\n      }\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Norrköping Technical Gymnasium\"\n  },\n  \"hasOccupation\": \"Mathematics and Mechanics\",\n  \"description\": \"Harry Ludvig Johansson was a Swedish lecturer who was born in Uppsala in 1907. He obtained his Bachelor's degree, Master's degree, and Licentiate degree from Uppsala University before earning his Doctoral degree in 1942. He focused his research on the scattering of radiation by hydrogen-like atoms. He served as a substitute teacher, part-time teacher, and assistant professor at Uppsala University and as a lecturer in Mathematics and Mechanics at Norrköping Technical Gymnasium. Harry Ludvig married Maj Ternsitedt in 1938 and they had one child, Karin, in 1944.\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Harry Ludvig Johansson",
+        "jobTitle": [
+            {
+                "@type": "QuantitativeValue",
+                "value": "Substitute Teacher",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "QuantitativeValue",
+                "value": "Assistant Professor",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "QuantitativeValue",
+                "value": "Part-time Teacher",
+                "startDate": "1938",
+                "endDate": "1939"
+            },
+            {
+                "@type": "QuantitativeValue",
+                "value": "Research Assistant",
+                "startDate": "1943",
+                "endDate": "1944",
+                "employer": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Uppsala University"
+                }
+            },
+            {
+                "@type": "QuantitativeValue",
+                "value": "Lecturer in Mathematics and Mechanics",
+                "startDate": "1944",
+                "employer": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Norrköping Technical Gymnasium"
+                }
+            }
+        ],
+        "birthDate": "1907-09-10",
+        "birthPlace": "Uppsala",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ludvig J. Johansson"
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Pettersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj Ternsitedt",
+            "marriageDate": "1938"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Karin",
+            "birthDate": "1944"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Uppsala University",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala High School"
+            },
+            "studyType": [
+                "Stud:ex",
+                "Bachelor",
+                "Master",
+                "Licentiate",
+                "Doctoral"
+            ],
+            "startDate": [
+                "1927",
+                "1931",
+                "1932",
+                "1939",
+                "1942"
+            ]
+        },
+        "worksFor": {
+            "@type": "CollegeOrUniversity",
+            "name": "Norrköping Technical Gymnasium"
+        },
+        "hasOccupation": "Mathematics and Mechanics",
+        "description": "Harry Ludvig Johansson was a Swedish lecturer who was born in Uppsala in 1907. He obtained his Bachelor's degree, Master's degree, and Licentiate degree from Uppsala University before earning his Doctoral degree in 1942. He focused his research on the scattering of radiation by hydrogen-like atoms. He served as a substitute teacher, part-time teacher, and assistant professor at Uppsala University and as a lecturer in Mathematics and Mechanics at Norrköping Technical Gymnasium. Harry Ludvig married Maj Ternsitedt in 1938 and they had one child, Karin, in 1944."
+    }
+}

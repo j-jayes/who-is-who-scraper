@@ -1,0 +1,137 @@
+{
+    "original": "Jansson, Aron, kyrkoherde, kontraktsprost, örslösa, f. 11/11/77 i Borås. G. 10 ni. Eliisabet Johnsson. Barn: Brita f. 14, Herbert 19. — Stud:ex. i Gbg 99, teol. fil. ex. 00, ’teor. teol. ex. i Lund 03, prakt. teol. ex. s. å. Koimimin. i örslösa 11, kyrkoh. fr. 40. Ordf. i kyrkoråd, i örslösa,, Söne o. Väla kyrkostämma. Kontraktspro^st i Kållands kontr. fr. 44. LVO 43.",
+    "translated": "Jansson, Aron, clergyman, dean, Orslösa, b. 11/11/77 in Borås. Married 10 Nov. to Elisabet Johnsson. Children: Brita b. 14, Herbert b. 19. — Graduated from high school in Gothenburg 99, theology degree 00, theoretical theology degree in Lund 03, practical theology degree same year. Vicar in Orslösa 11, parish priest from 40. Chairman of church council in Orslösa, Söne and Väla parish meetings. Dean of Kålland district from 44. LVO award in 43.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Aron Jansson\",\n  \"birthDate\": \"1877-11-11\",\n  \"birthPlace\": \"Borås, Sweden\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabet Johnsson\",\n    \"marriageDate\": \"190X-11-10\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Jansson\",\n      \"birthDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Herbert Jansson\",\n      \"birthDate\": \"1919\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"educationLevel\": \"HighSchool\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Aron Jansson\"\n      },\n      \"dateIssued\": \"1899\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Theology\",\n      \"educationLevel\": \"BachelorDegree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Aron Jansson\"\n      },\n      \"dateIssued\": \"1900\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Theology\",\n      \"educationLevel\": \"MasterDegree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Aron Jansson\"\n      },\n      \"dateIssued\": \"1903\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical Theology Degree\",\n      \"educationLevel\": \"Degree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Aron Jansson\"\n      },\n      \"dateIssued\": \"1903\"\n    }\n  ],\n  \"description\": \"Swedish clergyman and dean\",\n  \"profession\": \"Clergyman\",\n  \"nationality\": \"Swedish\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Orslösa\",\n    \"addressRegion\": \"Sweden\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Orslösa Church Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Söne Church Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Väla Church Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kålland District\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Award\",\n      \"name\": \"LVO\",\n      \"awardDate\": \"1943\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1940\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Orslösa\",\n        \"addressRegion\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Parish Priest\",\n      \"startDate\": \"1940\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Orslösa\",\n        \"addressRegion\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dean\",\n      \"startDate\": \"1944\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Kålland\",\n        \"addressRegion\": \"Sweden\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aron Jansson",
+        "birthDate": "1877-11-11",
+        "birthPlace": "Borås, Sweden",
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabet Johnsson",
+            "marriageDate": "190X-11-10"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Brita Jansson",
+                "birthDate": "1914"
+            },
+            {
+                "@type": "Person",
+                "name": "Herbert Jansson",
+                "birthDate": "1919"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationLevel": "HighSchool",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Aron Jansson"
+                },
+                "dateIssued": "1899"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Theology",
+                "educationLevel": "BachelorDegree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Aron Jansson"
+                },
+                "dateIssued": "1900"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Theology",
+                "educationLevel": "MasterDegree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Aron Jansson"
+                },
+                "dateIssued": "1903"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Practical Theology Degree",
+                "educationLevel": "Degree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Aron Jansson"
+                },
+                "dateIssued": "1903"
+            }
+        ],
+        "description": "Swedish clergyman and dean",
+        "profession": "Clergyman",
+        "nationality": "Swedish",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Orslösa",
+            "addressRegion": "Sweden"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Orslösa Church Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Söne Church Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Väla Church Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kålland District"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Award",
+                "name": "LVO",
+                "awardDate": "1943"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Vicar",
+                "startDate": "1911",
+                "endDate": "1940",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Orslösa",
+                    "addressRegion": "Sweden"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Parish Priest",
+                "startDate": "1940",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Orslösa",
+                    "addressRegion": "Sweden"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dean",
+                "startDate": "1944",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Kålland",
+                    "addressRegion": "Sweden"
+                }
+            }
+        ]
+    }
+}

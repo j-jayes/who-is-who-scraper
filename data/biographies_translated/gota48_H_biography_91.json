@@ -1,0 +1,56 @@
+{
+    "original": "Hallert, Nils Tore Eugen, tandläkare, Linköping, f. 4/7/12 i S. Sodberga, Jönköp. 1. G. 44 m. Margareta Johansson. Barn: Claes-Joel f. 45. — Stud:ex. i Linköp. 31, tandhkand. 33, tandl. 36. Prakt, i Linköp. ,sed. 37.",
+    "translated": "Hallert, Nils Tore Eugen, dentist, Linköping, born on July 4th, 1912 in Södra Söderberga, Jönköping County. Married for the first time in 1944 to Margareta Johansson. They had one child, Claes-Joel, born in 1945. Nils passed his high school exam (stud:ex.) in Linköping in 1931, graduated from dental school in 1933, and became a licensed dentist in 1936. He began his professional practice in Linköping in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Tore Eugen Hallert\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1912-07-04\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Södra Söderberga, Jönköping County\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Linköping Dental Association\"\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Johansson\",\n      \"marriageDate\": \"1944\"\n    }\n  ],\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Claes-Joel\",\n    \"birthDate\": \"1945\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school\",\n      \"name\": \"Linköping High School\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental school\",\n      \"name\": \"\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1936\",\n    \"endDate\": \"\",\n    \"location\": {\n      \"@type\": \"Place\",\n      \"name\": \"Linköping\"\n    }\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Tore Eugen Hallert",
+        "jobTitle": "Dentist",
+        "birthDate": "1912-07-04",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Södra Söderberga, Jönköping County"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Linköping Dental Association"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Margareta Johansson",
+                "marriageDate": "1944"
+            }
+        ],
+        "children": {
+            "@type": "Person",
+            "name": "Claes-Joel",
+            "birthDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school",
+                "name": "Linköping High School",
+                "startDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental school",
+                "name": "",
+                "startDate": "1933"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1936",
+            "endDate": "",
+            "location": {
+                "@type": "Place",
+                "name": "Linköping"
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "original": "Isaksson, Anna Viktoria, fil. mag., läroverksadjunkt, Karlskrona, f. 31/5/ 01 i Karlskrona av flaggund :off. L L 0. h. h. f. Hansson. — Stud:ex. i Karlskrona 21, fil. kand. i Lund 26, fil. mag. 29, provår v. norra real i Sthlm 36-37. Res. t. Tyskl. 23, 28 o. 36, Engl. 30, 34, 38 o. 46. Lär. v. Blek. 1. folkhögsk. 29, v. Karlskrona h. lä-rov. f. fl. 29-30, i Sollefteå 30, v. Älvsb. 1. landstings småsk:sem. i Borås 31, v. Karlskrona h. a. 1. 31-36 o. 37-43, adj. i tyska o. eng. där sed. 43.",
+    "translated": "Isaksson, Anna Viktoria, MA, high school teacher, Karlskrona, born on May 31, 1901 in Karlskrona to the flag lieutenant LLOHHF Hansson. She graduated from high school in Karlskrona in 1921, received her Bachelor of Arts at Lund University in 1926, and her Master of Arts in 1929. She did her probationary year at Norra Real in Stockholm from 1936-1937. She traveled to Germany in 1923, 1928, and 1936, and to England in 1930, 1934, 1938, and 1946. She taught at Blekinge folk high school in 1929, at Karlskrona girls' high school from 1929-1930, in Sollefteå in 1930, at Älvsborg County's small school teacher's seminar in Borås in 1931, at Karlskrona high school for girls from 1931-1936 and 1937-1943, and as a teacher of German and English there from 1943.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Anna Viktoria Isaksson\",\n   \"birthDate\":\"1901-05-31\",\n   \"nationality\":\"Swedish\",\n   \"jobTitle\":\"High School Teacher\",\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Karlskrona\"\n   },\n   \"parent\":{\n      \"@type\":\"Person\",\n      \"name\":\"LLOHHF Hansson\"\n   },\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"educationalLevel\":\"High School Diploma\",\n         \"awardingInstitution\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Karlskrona High School\"\n         },\n         \"endDate\":\"1921\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"educationalLevel\":\"Bachelor of Arts\",\n         \"awardingInstitution\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Lund University\"\n         },\n         \"endDate\":\"1926\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"educationalLevel\":\"Master of Arts\",\n         \"awardingInstitution\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Unknown\"\n         },\n         \"endDate\":\"1929\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"educationalLevel\":\"Probationary Year\",\n         \"startDate\":\"1936\",\n         \"endDate\":\"1937\",\n         \"instructor\":{\n            \"@type\":\"Person\",\n            \"name\":\"Unknown\"\n         },\n         \"educationalProgram\":{\n            \"@type\":\"EducationalOccupationalProgram\",\n            \"name\":\"Teaching\"\n         }\n      }\n   ],\n   \"url\":\"Unknown\",\n   \"knowsLanguage\":[\n      {\n         \"@type\":\"Language\",\n         \"name\":\"English\"\n      },\n      {\n         \"@type\":\"Language\",\n         \"name\":\"German\"\n      }\n   ],\n   \"memberOf\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Blekinge Folk High School\",\n         \"startDate\":\"1929\",\n         \"endDate\":\"Unknown\",\n         \"jobTitle\":\"Teacher\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Karlskrona Girls' High School\",\n         \"startDate\":\"1929\",\n         \"endDate\":\"1930\",\n         \"jobTitle\":\"Teacher\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Sollefteå\",\n         \"startDate\":\"1930\",\n         \"endDate\":\"Unknown\",\n         \"jobTitle\":\"Teacher\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Älvsborg County's Small School Teacher's Seminar\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"Unknown\",\n         \"jobTitle\":\"Teacher\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Karlskrona High School\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"Unknown\",\n         \"jobTitle\":\"Teacher\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anna Viktoria Isaksson",
+        "birthDate": "1901-05-31",
+        "nationality": "Swedish",
+        "jobTitle": "High School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlskrona"
+        },
+        "parent": {
+            "@type": "Person",
+            "name": "LLOHHF Hansson"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High School Diploma",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Karlskrona High School"
+                },
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor of Arts",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Master of Arts",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Probationary Year",
+                "startDate": "1936",
+                "endDate": "1937",
+                "instructor": {
+                    "@type": "Person",
+                    "name": "Unknown"
+                },
+                "educationalProgram": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Teaching"
+                }
+            }
+        ],
+        "url": "Unknown",
+        "knowsLanguage": [
+            {
+                "@type": "Language",
+                "name": "English"
+            },
+            {
+                "@type": "Language",
+                "name": "German"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Blekinge Folk High School",
+                "startDate": "1929",
+                "endDate": "Unknown",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlskrona Girls' High School",
+                "startDate": "1929",
+                "endDate": "1930",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sollefteå",
+                "startDate": "1930",
+                "endDate": "Unknown",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvsborg County's Small School Teacher's Seminar",
+                "startDate": "1931",
+                "endDate": "Unknown",
+                "jobTitle": "Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlskrona High School",
+                "startDate": "1931",
+                "endDate": "Unknown",
+                "jobTitle": "Teacher"
+            }
+        ]
+    }
+}

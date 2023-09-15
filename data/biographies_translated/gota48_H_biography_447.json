@@ -1,0 +1,100 @@
+{
+    "original": "Holm, Sigrun Karmida (Mimmi) Hiildevig, tandläkare, Älmhult, f. 20/6/ 92 i Malmö av fi-l. jubeldr Nils Lundborg o. Ida Andersson. G. 22 m. dis’tr :-veter. Nils Albert Holm. Barn: Inger f. 25. —- Stud:ex. v. Tekla Åbergs h. f.licklärov. i Malmö 11, stud. v. Lunds univ. 11-12, tandl :kand. 13, tandläk. 16. Skoiltandl. v. Gbgs folksk. tand-klin. 16-19, praktik i Sjöbo 19-22, i Ädmhult sed. 22, skoltandl. v. Älm-hult-s folksk. tandpoXiklin. sed. 31.",
+    "translated": "Holm, Sigrun Karmida (Mimmi) Hiildevig, dentist, Älmhult, born June 20, 1892 in Malmö to civil engineer Nils Lundborg and Ida Andersson. Married in 1922 to district veterinarian Nils Albert Holm. They have one child, Inger, born in 1925. Sigrun graduated from Tekla Åberg girls' school in Malmö in 1911, attended Lund University from 1911 to 1912, received her dental degree in 1913, served as a school dentist at Gothenburg's public school dental clinic from 1916 to 1919, had a private dental practice in Sjöbo from 1919 to 1922, and has been practicing in Älmhult since 1922. She has been a school dentist at Älmhult's public school dental clinic since 1931.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sigrun Karmida (Mimmi) Hiildevig Holm\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1892-06-20\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Malmö\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Lundborg\",\n      \"jobTitle\": \"Civil Engineer\",\n      \"nationality\": \"Swedish\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Nils Albert Holm\",\n    \"jobTitle\": \"District Veterinarian\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1925\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Tekla Åberg Girls' School\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Malmö\"\n      },\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Lund\"\n      },\n      \"startDate\": \"1911\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental degree\",\n      \"startDate\": \"1913\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg's Public School Dental Clinic\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"startDate\": \"1916\",\n      \"endDate\": \"1919\",\n      \"jobTitle\": \"School Dentist\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Private dental practice\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Sjöbo\"\n      },\n      \"startDate\": \"1919\",\n      \"endDate\": \"1922\",\n      \"jobTitle\": \"Dentist\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Älmhult's Public School Dental Clinic\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Älmhult\"\n      },\n      \"startDate\": \"1922\",\n      \"jobTitle\": \"Dentist / School Dentist\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sigrun Karmida (Mimmi) Hiildevig Holm",
+        "jobTitle": "Dentist",
+        "birthDate": "1892-06-20",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Malmö"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Nils Lundborg",
+                "jobTitle": "Civil Engineer",
+                "nationality": "Swedish"
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Nils Albert Holm",
+            "jobTitle": "District Veterinarian"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1925"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Tekla Åberg Girls' School",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Malmö"
+                },
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Lund"
+                },
+                "startDate": "1911",
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental degree",
+                "startDate": "1913"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg's Public School Dental Clinic",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "startDate": "1916",
+                "endDate": "1919",
+                "jobTitle": "School Dentist"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Private dental practice",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Sjöbo"
+                },
+                "startDate": "1919",
+                "endDate": "1922",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Älmhult's Public School Dental Clinic",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Älmhult"
+                },
+                "startDate": "1922",
+                "jobTitle": "Dentist / School Dentist"
+            }
+        ]
+    }
+}

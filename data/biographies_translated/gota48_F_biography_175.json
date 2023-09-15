@@ -1,0 +1,113 @@
+{
+    "original": "Frick, Erik, advokat, Lerum, f. 7/6/ 04 i Gbg av rådm. Ernst F. o. Klara Jagenburg. G. 33 m. Leila Engfeldt. Barn: Birgitta f. 37, Gunilla Christina 39. — Stud:ex. v. Gbgs h. latin 23, jur. kand. i Sthllm 28. Tingstjg. i Marks doms. 28-31, auskult. v. Gbgs ràdhusr. 31-32, h. adv. WiUiam Kri&amp;tensen i Gbg 32, bitr. jurist h. adv. Arvid Schulz o. Gunnar Delllborg i Gbg 32 samt h. Gunnar Deldborgs adv :byrå i Gbg sed. 36. Led. av Sv:es adv:-samf. sed. 36.",
+    "translated": "Frick, Erik, lawyer, Lerum, b. 7/6/04 in Gothenburg to councilor Ernst F. and Klara Jagenburg. Married in 1933 to Leila Engfeldt. Children: Birgitta b. 1937, Gunilla Christina b. 1939. Education: graduated from Gothenburg Latin School in 1923, graduated with a law degree from Stockholm University in 1928. Worked as a court clerk in Marks court from 1928-1931, clerked at Gothenburg City Hall from 1931-1932, worked at William Kristensen's law firm in Gothenburg in 1932, assistant lawyer at Arvid Schulz and Gunnar Dellborg's law firm in Gothenburg in 1932, and at Gunnar Dellborg's law firm in Gothenburg from 1936. Member of the Swedish Bar Association since 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Frick\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthPlace\": \"Gothenburg\",\n  \"birthDate\": \"1904-07-06\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ernst F. Frick\",\n      \"jobTitle\": \"Councilor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Klara Jagenburg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Leila Engfeldt\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Christina\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"credentialEarned\": \"High School Diploma\",\n      \"issuer\": \"Gothenburg Latin School\",\n      \"issueDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"credentialEarned\": \"Law Degree\",\n      \"issuer\": \"Stockholm University\",\n      \"issueDate\": \"1928\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"membershipStartDate\": \"1936\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\",\n      \"roleName\": \"Court Clerk\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Marks Court\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\",\n      \"roleName\": \"Clerk\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg City Hall\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\",\n      \"roleName\": \"Lawyer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"William Kristensen's Law Firm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1936\",\n      \"roleName\": \"Assistant Lawyer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Arvid Schulz and Gunnar Dellborg's Law Firm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"roleName\": \"Lawyer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gunnar Dellborg's Law Firm\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Frick",
+        "jobTitle": "Lawyer",
+        "birthPlace": "Gothenburg",
+        "birthDate": "1904-07-06",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ernst F. Frick",
+                "jobTitle": "Councilor"
+            },
+            {
+                "@type": "Person",
+                "name": "Klara Jagenburg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Leila Engfeldt",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Christina",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "credentialEarned": "High School Diploma",
+                "issuer": "Gothenburg Latin School",
+                "issueDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "credentialEarned": "Law Degree",
+                "issuer": "Stockholm University",
+                "issueDate": "1928"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "membershipStartDate": "1936"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "endDate": "1931",
+                "roleName": "Court Clerk",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Marks Court"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "endDate": "1932",
+                "roleName": "Clerk",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg City Hall"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "endDate": "1932",
+                "roleName": "Lawyer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "William Kristensen's Law Firm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "endDate": "1936",
+                "roleName": "Assistant Lawyer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Arvid Schulz and Gunnar Dellborg's Law Firm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "roleName": "Lawyer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gunnar Dellborg's Law Firm"
+                }
+            }
+        ]
+    }
+}

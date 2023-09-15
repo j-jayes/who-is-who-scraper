@@ -1,0 +1,56 @@
+{
+    "original": "Jönsson, Olga Ellen Maria, tandläkare, Vetlanda, f. 28/9/99 i Uppåkra, Malmöh. 1., av Otto J. o. Maria Persson. — Stud.-ex. v. Lunds fullst. lä-rov. f. fl. 19, med. kand. 24, tandl. 27. Assist, i Vetlanda 27-28, prakt, där sed. 28.",
+    "translated": "Jönsson, Olga Ellen Maria, dentist, Vetlanda, born 28/9/99 in Uppåkra, Malmöhus. First child of Otto J. and Maria Persson. Graduated from Lund's full high school in 1919, completed medical studies in 1924, and became a dentist in 1927. Worked as an assistant in Vetlanda from 1927-28, and has had her own practice there since 1928.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Olga Ellen Maria Jönsson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Uppåkra\",\n      \"addressRegion\": \"Malmöhus\"\n    }\n  },\n  \"birthDate\": \"1899-09-28\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Otto Jönsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Persson\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund's full high school\",\n      \"endDate\": \"1919\"\n    }\n  ],\n  \"medicalSpecialty\": {\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"Dentistry\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"startDate\": \"1927\",\n    \"endDate\": \"1928\",\n    \"name\": \"Assistant\",\n    \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Vetlanda\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Olga Ellen Maria Jönsson dental practice\",\n    \"foundingDate\": \"1928\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Olga Ellen Maria Jönsson",
+        "jobTitle": "Dentist",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Uppåkra",
+                "addressRegion": "Malmöhus"
+            }
+        },
+        "birthDate": "1899-09-28",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Otto Jönsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Persson"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund's full high school",
+                "endDate": "1919"
+            }
+        ],
+        "medicalSpecialty": {
+            "@type": "MedicalSpecialty",
+            "name": "Dentistry"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "startDate": "1927",
+            "endDate": "1928",
+            "name": "Assistant",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Vetlanda"
+            }
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Olga Ellen Maria Jönsson dental practice",
+            "foundingDate": "1928"
+        }
+    }
+}

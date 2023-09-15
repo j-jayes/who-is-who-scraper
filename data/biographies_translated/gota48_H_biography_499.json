@@ -1,0 +1,86 @@
+{
+    "original": "Holmstrand, Bengt Hjalmar, arki- tefct SAR, Lidköpnig, f. 10/2/12 i Ot-terstad, Skarab. 1., av kyrkoh. Hjalmar H. o. Märta Karlén. G. 36 m. Inez Kjellman. Barn: Göran f. 39, Per 41, Olof 43. — Studrex. i Borås 30, ar-kit:ex. v. KTH 35, stud:re,sa t. Danm., Tyskl. o. Tjeckoslov. 35. Anst. på privia arkit:kont. t. 38, assist, v. läns-arkit :kont. i Jönköp. 38-44, stads- o. distr larkit. i Huskvarna samt egen ar-kit:verks-. 44^-47, stadsarkit. i Lidiköp. ’Sied:. 48.",
+    "translated": "Holmstrand, Bengt Hjalmar, architect SAR, Lidköping, born February 10th, 1912 in Otterstad, Skaraborg county, the son of the vicar Hjalmar H. and Märta Karlén. Married in 1936 to Inez Kjellman, with whom he had three children: Göran (born 1939), Per (born 1941), and Olof (born 1943). Bengt studied in Borås in 1930, received a degree in architecture from KTH in 1935, and studied in Denmark, Germany, and Czechoslovakia in 1935. He worked for private architectural firms until 1938, was an assistant at the county architect's office in Jönköping from 1938 to 1944, had his own architectural firm in Huskvarna, and was the city architect of Lidköping from 1947 onwards.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Bengt Hjalmar Holmstrand\",\n   \"birthDate\": \"1912-02-10\",\n   \"birthPlace\": \"Otterstad, Skaraborg, Sweden\",\n   \"nationality\": \"Swedish\",\n   \"education\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Borås\",\n         \"startDate\": \"1930\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"KTH\",\n         \"degree\": \"Degree in Architecture\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1935\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Denmark\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Germany\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Czechoslovakia\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Inez Kjellman\",\n      \"marriageDate\": \"1936\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Göran Holmstrand\",\n         \"birthDate\": \"1939\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Per Holmstrand\",\n         \"birthDate\": \"1941\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Olof Holmstrand\",\n         \"birthDate\": \"1943\"\n      }\n   ],\n   \"jobTitle\": [\n      \"Architect SAR\",\n      \"City Architect of Lidköping\"\n   ],\n   \"worksFor\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Private Architectural Firms\",\n         \"startDate\": \"1930\",\n         \"endDate\": \"1938\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"County Architect's Office in Jönköping\",\n         \"startDate\": \"1938\",\n         \"endDate\": \"1944\",\n         \"roleName\": \"Assistant\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Own Architectural Firm in Huskvarna\",\n         \"startDate\": \"1944\",\n         \"endDate\": \"1947\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Hjalmar Holmstrand",
+        "birthDate": "1912-02-10",
+        "birthPlace": "Otterstad, Skaraborg, Sweden",
+        "nationality": "Swedish",
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borås",
+                "startDate": "1930"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "KTH",
+                "degree": "Degree in Architecture",
+                "startDate": "1935",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Denmark"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Germany"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Czechoslovakia"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inez Kjellman",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Holmstrand",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Per Holmstrand",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof Holmstrand",
+                "birthDate": "1943"
+            }
+        ],
+        "jobTitle": [
+            "Architect SAR",
+            "City Architect of Lidköping"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Private Architectural Firms",
+                "startDate": "1930",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Architect's Office in Jönköping",
+                "startDate": "1938",
+                "endDate": "1944",
+                "roleName": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Own Architectural Firm in Huskvarna",
+                "startDate": "1944",
+                "endDate": "1947"
+            }
+        ]
+    }
+}

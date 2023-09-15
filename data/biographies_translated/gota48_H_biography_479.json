@@ -1,0 +1,114 @@
+{
+    "original": "Holmgren, Gustaf Halvar, prakt, lä|kare, Halmstad, f. 30/5/02 i Jonstorp, Malmöh. 1., av isjökapt. Harald H. o. Hedvig Andersson. G. 30 m. tandl. Fanny Johanson. Barn: Harald f. 33, Gunilla 37, Anders 39, Birgitta 40. — Studiex. i Hälsingborg 22, med. kand. v. Karol. inst. 26 o. med. lic. där 30. Assist :läk. v. Örebro las. kir. avd. 31, v. Varbergs las. s. å., v. Falköp. las. 32, tf. undiläk. där s. å., tf. prov:läk. i Hallstaviks, Målilla, Laholms m. fl. distr. i uppr. repriser 31-36, tf. andre und :läk. v. Halmstads las. tills, sju mån. 33-35, dito v. Karlshamns las. tills, fem mån. 34-35, prakt. läk. i Halmstad sed. 35.",
+    "translated": "Holmgren, Gustaf Halvar, physician, Halmstad, b. 30/5/02 in Jonstorp, Malmöhus County, 1st child of ice captain Harald H. and Hedvig Andersson. Married in 1930 to dentist Fanny Johanson. Children: Harald, b. 1933; Gunilla, b. 1937; Anders, b. 1939; Birgitta, b. 1940. Studied in Hälsingborg, passed exam in 1922. Obtained medical degree from Karolinska Institute in 1926 and a medical license in 1930. Worked as a resident physician at Örebro Hospital surgical department in 1931, Varberg Hospital in the same year, Falköping Hospital in 1932, acting deputy physician at the same place later that year, acting probationary physician in various districts including Hallstavik, Målilla, Laholm and others in 1931-1936, acting second deputy physician at Halmstad Hospital for seven months in 1933-1935, and at Karlshamn Hospital for five months in 1934-1935. Practiced as a medical physician in Halmstad since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Halvar Holmgren\",\n  \"birthDate\": \"1902-05-30\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Jonstorp\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Malmöhus County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harald H. Holmgren\",\n      \"jobTitle\": \"Ice captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hedvig Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Fanny Johanson\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Harald\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"jobTitle\": \"Physician\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical degree\",\n      \"educationalLevel\": \"DoctoralDegree\",\n      \"college\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Karolinska Institute\"\n      },\n      \"startDate\": \"1926\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örebro Hospital\",\n      \"jobTitle\": \"Resident physician\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Varberg Hospital\",\n      \"jobTitle\": \"Resident physician\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Falköping Hospital\",\n      \"jobTitle\": \"Resident physician\",\n      \"startDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Halmstad Hospital\",\n      \"jobTitle\": \"Second deputy physician\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlshamn Hospital\",\n      \"jobTitle\": \"Second deputy physician\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Halmstad Medical Practice\",\n      \"jobTitle\": \"Physician\",\n      \"startDate\": \"1935\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Halvar Holmgren",
+        "birthDate": "1902-05-30",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Jonstorp",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Malmöhus County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Harald H. Holmgren",
+                "jobTitle": "Ice captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Hedvig Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Fanny Johanson",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Harald",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1940"
+            }
+        ],
+        "jobTitle": "Physician",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical degree",
+                "educationalLevel": "DoctoralDegree",
+                "college": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Karolinska Institute"
+                },
+                "startDate": "1926",
+                "endDate": "1930"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Örebro Hospital",
+                "jobTitle": "Resident physician",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Varberg Hospital",
+                "jobTitle": "Resident physician",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Falköping Hospital",
+                "jobTitle": "Resident physician",
+                "startDate": "1932"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halmstad Hospital",
+                "jobTitle": "Second deputy physician",
+                "startDate": "1933",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlshamn Hospital",
+                "jobTitle": "Second deputy physician",
+                "startDate": "1934",
+                "endDate": "1935"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Halmstad Medical Practice",
+                "jobTitle": "Physician",
+                "startDate": "1935"
+            }
+        ]
+    }
+}

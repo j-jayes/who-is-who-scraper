@@ -1,0 +1,101 @@
+{
+    "original": "Hålanda, Älvsb. 1. G. 36 m. Maja Cer-vin. Barn: Sven Anders f. 38, Maths Erik 41, Lars Yngve 45. — Stud :ex. i Gbg 24, fil. kand. 28, teol. kand. samt prakt. teol. prov 31, prästv. f. Gbgs stift 32. Missiv i Slöinge, Gun-narp o. Veinge, v. pastor i Halmstad 34, kommin. i Upphärad sed. 28. Var i Halmstad bl. a. led. av barnav:ndn, v. ordf. i Upphärads barnav:nd, ordf. i kyrkofullm.",
+    "translated": "Hålanda, Älvsb. (Hålanda parish, Älvsborg county). First marriage in 1936 with Maja Cervin. Children: Sven Anders, born in 1938, Maths Erik, born in 1941, Lars Yngve, born in 1945. Studied at the University of Gothenburg, got a degree in Philosophy in 1928, a degree in Theology with practical examination in 1931, and was ordained as a priest in the Gothenburg diocese in 1932. Worked in Slöinge, Gunnarp, and Veinge as a minister, served as an assistant pastor in Halmstad in 1934, and served as a curate in Upphärad since 1928. In Halmstad, he was a member of the child welfare committee and had the position of vice-chairman in the child welfare committee in Upphärad. He was also the chairman of the church council.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Unknown\",\n   \"givenName\":[\"Sven Anders\", \"Maths Erik\", \"Lars Yngve\"],\n   \"birthDate\":[\"1938\", \"1941\", \"1945\"],\n   \"birthPlace\": \"Hålanda parish, Älvsborg county\",\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Maja Cervin\",\n      \"marriageDate\":\"1936\"\n   },\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Philosophy degree\",\n         \"educationalLevel\":\"Bachelor's Degree\",\n         \"educationalProgram\":\"Philosophy\",\n         \"educationalInstitution\":\"University of Gothenburg\",\n         \"startDate\":\"1924\",\n         \"endDate\":\"1928\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Theology degree\",\n         \"educationalLevel\":\"Bachelor's Degree\",\n         \"educationalProgram\":\"Theology\",\n         \"educationalInstitution\":\"University of Gothenburg\",\n         \"startDate\":\"1928\",\n         \"endDate\":\"1931\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Ordained as a priest\",\n         \"certification\":\"Ordination\",\n         \"certifyingOrganization\":\"Gothenburg diocese\",\n         \"startDate\":\"1932\"\n      }\n   ],\n   \"jobTitle\":[\n      \"Minister\", \n      \"Assistant pastor\", \n      \"Curate\"\n   ],\n   \"memberOf\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Child welfare committee\",\n         \"position\":\"Member\",\n         \"startDate\":\"1934\",\n         \"endDate\":\"?\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Child welfare committee\",\n         \"position\":\"Vice-chairman\",\n         \"startDate\":\"1928\",\n         \"endDate\":\"?\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Church council\",\n         \"position\":\"Chairman\"\n      }\n   ],\n   \"address\":[\n      {\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Slöinge\"\n      },\n      {\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Gunnarp\"\n      },\n      {\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Veinge\"\n      },\n      {\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Halmstad\"\n      },\n      {\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Upphärad\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Unknown",
+        "givenName": [
+            "Sven Anders",
+            "Maths Erik",
+            "Lars Yngve"
+        ],
+        "birthDate": [
+            "1938",
+            "1941",
+            "1945"
+        ],
+        "birthPlace": "Hålanda parish, Älvsborg county",
+        "spouse": {
+            "@type": "Person",
+            "name": "Maja Cervin",
+            "marriageDate": "1936"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Philosophy degree",
+                "educationalLevel": "Bachelor's Degree",
+                "educationalProgram": "Philosophy",
+                "educationalInstitution": "University of Gothenburg",
+                "startDate": "1924",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theology degree",
+                "educationalLevel": "Bachelor's Degree",
+                "educationalProgram": "Theology",
+                "educationalInstitution": "University of Gothenburg",
+                "startDate": "1928",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ordained as a priest",
+                "certification": "Ordination",
+                "certifyingOrganization": "Gothenburg diocese",
+                "startDate": "1932"
+            }
+        ],
+        "jobTitle": [
+            "Minister",
+            "Assistant pastor",
+            "Curate"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Child welfare committee",
+                "position": "Member",
+                "startDate": "1934",
+                "endDate": "?"
+            },
+            {
+                "@type": "Organization",
+                "name": "Child welfare committee",
+                "position": "Vice-chairman",
+                "startDate": "1928",
+                "endDate": "?"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church council",
+                "position": "Chairman"
+            }
+        ],
+        "address": [
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Slöinge"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Gunnarp"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Veinge"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Halmstad"
+            },
+            {
+                "@type": "PostalAddress",
+                "addressLocality": "Upphärad"
+            }
+        ]
+    }
+}

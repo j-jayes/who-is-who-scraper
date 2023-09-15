@@ -1,0 +1,90 @@
+{
+    "original": "Ivarsson, Frans Reinhold, överlärare, Göteborg, f. 9/7/97 i Stenkyrka, Gbgs o. Boll. L, av Ivar Rutgersson o. Magdalena Rutgersson. G. 23 m. Ed-len Torborg Samuelsson. Barn: Reinhold f. 25, Tore 31. — Studiex., folk-sk:lär:ex. i Gbg, ex. v. Gbgs hand:-inst. Stud :resa t. Engl. 38. Överlär. i Gbg sed. 40. Ordf. i Gbgs barnav:-nd m. m., ordf. i Gbgs skolresekomm. Skr.: Räknebok f. folksk. överbyggn., Geometri f. dito, Uppsatsskrivn. m. prakt, tillämpn :övn., Sv. språklära f. fodksk. m. fl.",
+    "translated": "Ivarsson, Frans Reinhold, senior teacher, Gothenburg, born July 9th, 1897 in Stenkyrka, Gothenburg and Bohus County, son of Ivar Rutgersson and Magdalena Rutgersson. Married on 23rd (year not specified) to Ed-len Torborg Samuelsson. Children: Reinhold (born in 1925) and Tore (born in 1931). Frans Reinhold Ivarsson earned his degree in mathematics, obtained his teaching degree in Gothenburg, and graduated from Gothenburg Business Institute. He went on a study trip to England in 1938. He worked as a senior teacher in Gothenburg from 1940 and was chairman of the Gothenburg Child Welfare Committee and other organizations. He wrote textbooks such as \"Mathematics for Primary School Students\" and \"Geometry for Primary School Students,\" as well as other practical and applied essays and Swedish grammar textbooks for primary schools.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Frans Reinhold Ivarsson\",\n  \"birthDate\": \"1897-07-09\",\n  \"birthPlace\": \"Stenkyrka, Gothenburg and Bohus County\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ivar Rutgersson\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Magdalena Rutgersson\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ed-len Torborg Samuelsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Reinhold Ivarsson\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tore Ivarsson\",\n      \"birthDate\": \"1931\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Mathematics degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teaching\",\n      \"name\": \"Teaching degree from Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduation\",\n      \"name\": \"Graduated from Gothenburg Business Institute\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Child Welfare Committee\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg School Travel Committee\"\n      }\n    }\n  ],\n  \"works\": [\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Mathematics for Primary School Students\"\n    },\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Geometry for Primary School Students\"\n    },\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Applied Essays\"\n    },\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Swedish grammar textbooks for primary schools\"\n    }\n  ],\n  \"jobTitle\": \"Senior Teacher\",\n  \"workLocation\": \"Gothenburg\",\n  \"startDate\": \"1940-01-01\",\n  \"endDate\": null\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Frans Reinhold Ivarsson",
+        "birthDate": "1897-07-09",
+        "birthPlace": "Stenkyrka, Gothenburg and Bohus County",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ivar Rutgersson",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Magdalena Rutgersson",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ed-len Torborg Samuelsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Reinhold Ivarsson",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Tore Ivarsson",
+                "birthDate": "1931"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Mathematics degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teaching",
+                "name": "Teaching degree from Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduation",
+                "name": "Graduated from Gothenburg Business Institute"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Child Welfare Committee",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg School Travel Committee"
+                }
+            }
+        ],
+        "works": [
+            {
+                "@type": "CreativeWork",
+                "name": "Mathematics for Primary School Students"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Geometry for Primary School Students"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Applied Essays"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Swedish grammar textbooks for primary schools"
+            }
+        ],
+        "jobTitle": "Senior Teacher",
+        "workLocation": "Gothenburg",
+        "startDate": "1940-01-01",
+        "endDate": null
+    }
+}

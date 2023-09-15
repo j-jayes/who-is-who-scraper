@@ -1,0 +1,83 @@
+{
+    "original": "Jahn, Erik Olof Fredrik, direktör, Göteborg, f. 16/4/05 i Västerås. G. 31 m. Maj Andersson. Barn: Mikael f. 33, Katarina 38, Cecilia 42. — Stud:-ex. 23. Anst. v. Davies &amp; Royle Ltd i London 23-24, TExpansion Franco-Scandinave i Paris 25-26, Papierfabr. Sebnitz AG i Sebnitz i Sachsen 27-28, Wargöns Pappersbruk 29-31, Ekman &amp; Co. A-B i Gbg 31-34, inneh. av samt verkst. dir. f. A-B Pumpindustri i Gbg sed. 35.",
+    "translated": "Jahn, Erik Olof Fredrik, director, Gothenburg, born April 16th, 1905 in Västerås. Married in 1931 to Maj Andersson. Children: Mikael born in 1933, Katarina born in 1938, Cecilia born in 1942. - Graduated from high school in 1923. Employed by Davies & Royle Ltd in London from 1923-1924, TExpansion Franco-Scandinave in Paris from 1925-1926, Papierfabr. Sebnitz AG in Sebnitz in Saxony from 1927-1928, Wargön's Paper Mill from 1929-1931, Ekman & Co. AB in Gothenburg from 1931-1934, owner and managing director for AB Pump Industry in Gothenburg since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Olof Fredrik Jahn\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1905-04-16\",\n  \"birthPlace\": \"Västerås, Sweden\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maj Andersson\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mikael Jahn\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Katarina Jahn\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Cecilia Jahn\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"high school diploma\",\n    \"startDate\": \"1923\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Davies & Royle Ltd\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"location\": \"London\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"TExpansion Franco-Scandinave\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\",\n      \"location\": \"Paris\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Papierfabr. Sebnitz AG\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\",\n      \"location\": \"Sebnitz, Saxony\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Wargön's Paper Mill\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ekman & Co. AB\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Pump Industry\",\n      \"startDate\": \"1935\",\n      \"roleName\": \"owner and managing director\",\n      \"location\": \"Gothenburg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Olof Fredrik Jahn",
+        "jobTitle": "Director",
+        "birthDate": "1905-04-16",
+        "birthPlace": "Västerås, Sweden",
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj Andersson",
+            "marriageDate": "1931"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Mikael Jahn",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Katarina Jahn",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Cecilia Jahn",
+                "birthDate": "1942"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "high school diploma",
+            "startDate": "1923"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Davies & Royle Ltd",
+                "startDate": "1923",
+                "endDate": "1924",
+                "location": "London"
+            },
+            {
+                "@type": "Organization",
+                "name": "TExpansion Franco-Scandinave",
+                "startDate": "1925",
+                "endDate": "1926",
+                "location": "Paris"
+            },
+            {
+                "@type": "Organization",
+                "name": "Papierfabr. Sebnitz AG",
+                "startDate": "1927",
+                "endDate": "1928",
+                "location": "Sebnitz, Saxony"
+            },
+            {
+                "@type": "Organization",
+                "name": "Wargön's Paper Mill",
+                "startDate": "1929",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ekman & Co. AB",
+                "startDate": "1931",
+                "endDate": "1934",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Pump Industry",
+                "startDate": "1935",
+                "roleName": "owner and managing director",
+                "location": "Gothenburg"
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "original": "Hökerberg, Gerda, tandläkare, Norrköping, f. 8/6/81 i Örkened, Krist. 1., av köpm. Johan Otto Lindgren o. Hilda Wilhelmina Hultstein. G. 20 m. kont:chefen Karl Gustaf Hökerberg, d. 22. — Mog:ex. v. Tekla Åbergs h. lärov. f. fl. i Malmö 01, tandl:kand. 02, tandl. 06. Prakt, i Norrköp. sed. 06, skoltandl. där ;sed. 24.",
+    "translated": "Hökerberg, Gerda, dentist, from Norrköping, born on June 8, 1881 in Örkened, Kristianstad. Daughter of merchant Johan Otto Lindgren and Hilda Wilhelmina Hultstein. Married since 1920 to the account manager Karl Gustaf Hökerberg, who passed away in 1922. Educated at Tekla Åbergs higher school for girls in Malmö and became a certified dentist in 1906. Worked as a dental practitioner in Norrköping since 1906 and as a school dentist there since 1924.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Gerda Hökerberg\",\n  \"birthDate\": \"1881-06-08\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Örkened\",\n    \"addressRegion\": \"Kristianstad\"\n  },\n  \"deathDate\": \"unknown\",\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Dentist\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Tekla Åbergs higher school for girls\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Malmö\"\n      },\n      \"startDate\": \"01\",\n      \"endDate\": \"02\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Certified Dentist\",\n      \"credentialCategory\": \"Degree\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"duration\": \"P4Y\"\n      },\n      \"startDate\": \"1906\",\n      \"issuedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sweden Board of Dentistry\"\n      }\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karl Gustaf Hökerberg\",\n    \"occupation\": [\n      {\n        \"@type\": \"JobPosting\",\n        \"title\": \"Account Manager\"\n      }\n    ],\n    \"deathDate\": \"1922\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Otto Lindgren\",\n      \"occupation\": [\n        {\n          \"@type\": \"JobPosting\",\n          \"title\": \"Merchant\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Wilhelmina Hultstein\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Norrköping Dental Practice\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norrköping City Schools\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Norrköping\"\n      },\n      \"startDate\": \"1924\",\n      \"endDate\": \"unknown\",\n      \"jobTitle\": \"School Dentist\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gerda Hökerberg",
+        "birthDate": "1881-06-08",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Örkened",
+            "addressRegion": "Kristianstad"
+        },
+        "deathDate": "unknown",
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "occupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Dentist"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Tekla Åbergs higher school for girls",
+                "location": {
+                    "@type": "City",
+                    "name": "Malmö"
+                },
+                "startDate": "01",
+                "endDate": "02"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Certified Dentist",
+                "credentialCategory": "Degree",
+                "validFor": {
+                    "@type": "Duration",
+                    "duration": "P4Y"
+                },
+                "startDate": "1906",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Sweden Board of Dentistry"
+                }
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karl Gustaf Hökerberg",
+            "occupation": [
+                {
+                    "@type": "JobPosting",
+                    "title": "Account Manager"
+                }
+            ],
+            "deathDate": "1922"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Otto Lindgren",
+                "occupation": [
+                    {
+                        "@type": "JobPosting",
+                        "title": "Merchant"
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Wilhelmina Hultstein"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
+        },
+        "worksFor": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Norrköping Dental Practice",
+                "startDate": "1906",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norrköping City Schools",
+                "location": {
+                    "@type": "City",
+                    "name": "Norrköping"
+                },
+                "startDate": "1924",
+                "endDate": "unknown",
+                "jobTitle": "School Dentist"
+            }
+        ]
+    }
+}

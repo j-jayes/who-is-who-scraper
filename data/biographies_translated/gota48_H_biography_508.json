@@ -1,0 +1,105 @@
+{
+    "original": "Holst, Erik Gustav, rådman, Vänersborg, f. 4/9/13 i Sthlm av landsfisk. Erik H. o, Julia Sigmer. G. 45 m. Karin Walander. Barn: Thomas f. 46. — Stud:ex. i Uddevalla 32, jur. kand. i Upps. 38. Not:tjg. i ol. doms. 38-41, fiskal i Göta hoYv. 42-46, därav m. tjg. s. tf. ass’ess. i rådhusr. i Norrköp. 44-46, andre lagfar, rådman v. rådhusr. i Vänersb., tillika stadsfogde fr. 47.",
+    "translated": "Holst, Erik Gustav, councilman, Vänersborg, born on September 4th, 1913 in Stockholm to rural district fisherman Erik H. and Julia Sigmer. Married in 1945 to Karin Walander. Children: Thomas (born in 1946). Studied high school in Uddevalla in 1932 and law in Uppsala in 1938. Worked as a temporary notary in the old court of appeals from 1938 to 1941 and as a deputy judge in Göta Court of Appeal from 1942 to 1946, including serving as a temporary assistant judge in Norrköping city court in 1944-1946. He later became the second judge and councilman of Vänersborg city court, also serving as the city sheriff from 1947.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Erik Gustav Holst\",\n   \"birthDate\": \"1913-09-04\",\n   \"birthPlace\": \"Stockholm\",\n   \"nationality\": \"Swedish\",\n   \"profession\": \"Councilman\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Erik Holst\",\n         \"jobTitle\": \"Rural District Fisherman\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Landsfisk\"\n         }\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Julia Sigmer\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Walander\",\n      \"marriageDate\": \"1945\"\n   },\n   \"child\": {\n      \"@type\": \"Person\",\n      \"name\": \"Thomas Holst\",\n      \"birthDate\": \"1946\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"high school degree\",\n         \"educationalLevel\": \"High School\",\n         \"awardingInstitution\": \"Uddevalla\",\n         \"dateAwarded\": \"1932\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"bachelor's degree\",\n         \"educationalLevel\": \"Undergraduate\",\n         \"awardingInstitution\": \"Uppsala\",\n         \"dateAwarded\": \"1938\"\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"CourtPosition\",\n         \"name\": \"Temporary Notary\",\n         \"startDate\": \"1938\",\n         \"endDate\": \"1941\",\n         \"worksFor\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Old Court of Appeals\"\n         }\n      },\n      {\n         \"@type\": \"CourtPosition\",\n         \"name\": \"Deputy Judge\",\n         \"startDate\": \"1942\",\n         \"endDate\": \"1946\",\n         \"worksFor\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Göta Court of Appeal\"\n         }\n      },\n      {\n         \"@type\": \"CourtPosition\",\n         \"name\": \"Temporary Assistant Judge\",\n         \"startDate\": \"1944\",\n         \"endDate\": \"1946\",\n         \"worksFor\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Norrköping City Court\"\n         }\n      },\n      {\n         \"@type\": \"CourtPosition\",\n         \"name\": \"Second Judge and Councilman\",\n         \"startDate\": \"1946\",\n         \"worksFor\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Vänersborg City Court\"\n         }\n      },\n      {\n         \"@type\": \"AdministrationPosition\",\n         \"name\": \"City Sheriff\",\n         \"startDate\": \"1947\",\n         \"worksFor\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Vänersborg City Court\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Gustav Holst",
+        "birthDate": "1913-09-04",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "profession": "Councilman",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Erik Holst",
+                "jobTitle": "Rural District Fisherman",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Landsfisk"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Julia Sigmer"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Walander",
+            "marriageDate": "1945"
+        },
+        "child": {
+            "@type": "Person",
+            "name": "Thomas Holst",
+            "birthDate": "1946"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school degree",
+                "educationalLevel": "High School",
+                "awardingInstitution": "Uddevalla",
+                "dateAwarded": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "Uppsala",
+                "dateAwarded": "1938"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "CourtPosition",
+                "name": "Temporary Notary",
+                "startDate": "1938",
+                "endDate": "1941",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Old Court of Appeals"
+                }
+            },
+            {
+                "@type": "CourtPosition",
+                "name": "Deputy Judge",
+                "startDate": "1942",
+                "endDate": "1946",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Göta Court of Appeal"
+                }
+            },
+            {
+                "@type": "CourtPosition",
+                "name": "Temporary Assistant Judge",
+                "startDate": "1944",
+                "endDate": "1946",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Norrköping City Court"
+                }
+            },
+            {
+                "@type": "CourtPosition",
+                "name": "Second Judge and Councilman",
+                "startDate": "1946",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Vänersborg City Court"
+                }
+            },
+            {
+                "@type": "AdministrationPosition",
+                "name": "City Sheriff",
+                "startDate": "1947",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Vänersborg City Court"
+                }
+            }
+        ]
+    }
+}

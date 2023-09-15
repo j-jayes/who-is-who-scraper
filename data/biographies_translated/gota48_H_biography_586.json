@@ -1,0 +1,56 @@
+{
+    "original": "Häge, Tord Arnold Natanael, läroverksadjunkt, Karlshamn, f. 27/7/06 i Öja, Malmöh. 1. — Stud:ex. 24, fil. mag. 29 o. teol. kand. 33, allt i Lund, provår v. norra latin i Sthlm 37-38. Vik. adj. i Karlskrona 30, e. o. ämneslär. v. Norrköp. komm. mellansk. 3)3-37, e. adj. i Sölvesborg 36-39, adj. i Västervik 39, adj. i kristend :kunsk. o. hist. m. ’S’am’h:lära v. Karlshamns samrealsk. sed. 46.",
+    "translated": "Häge, Tord Arnold Natanael, high school teacher, Karlshamn, b. July 27, 1906 in Öja, Malmöh. Attended Lund University, graduated with a bachelor's degree in 1929, and earned a candidate degree in theology in 1933. Completed a probationary year at Norra Latin in Stockholm from 1937 to 1938. He had temporary positions as a teacher in Karlskrona in 1930, as a substitute subject teacher in Norrköping in 1933-1937, as a regular teacher in Sölvesborg from 1936 to 1939 and in Västervik in 1939. He became a regular teacher in Christian knowledge, history, and Sami theology at Karlshamn's junior high school from 1946 onwards. He married in the year 19xx.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Tord Arnold Natanael Häge\",\n   \"jobTitle\":\"High school teacher\",\n   \"birthDate\":\"1906-07-27\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Öja\",\n      \"addressRegion\":\"Malmöh\"\n   },\n   \"alumniOf\":{\n      \"@type\":\"CollegeOrUniversity\",\n      \"name\":\"Lund University\"\n   },\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Stud:ex\",\n         \"endDate\":\"1924\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Fil.mag.\",\n         \"startDate\":\"1924\",\n         \"endDate\":\"1927\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Teol. kand.\",\n         \"startDate\":\"1927\",\n         \"endDate\":\"1933\"\n      }\n   ],\n   \"memberOf\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Norra Latin\",\n         \"startDate\":\"1937\",\n         \"endDate\":\"1938\",\n         \"jobTitle\":\"Probationary year\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Karlshamns samrealsk\",\n         \"jobTitle\":\"Regular Teacher\",\n         \"startDate\":\"1946\"\n      }\n   ],\n   \"spouse\":\"[Name of spouse]\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Tord Arnold Natanael Häge",
+        "jobTitle": "High school teacher",
+        "birthDate": "1906-07-27",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Öja",
+            "addressRegion": "Malmöh"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Lund University"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil.mag.",
+                "startDate": "1924",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "startDate": "1927",
+                "endDate": "1933"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Norra Latin",
+                "startDate": "1937",
+                "endDate": "1938",
+                "jobTitle": "Probationary year"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlshamns samrealsk",
+                "jobTitle": "Regular Teacher",
+                "startDate": "1946"
+            }
+        ],
+        "spouse": "[Name of spouse]"
+    }
+}

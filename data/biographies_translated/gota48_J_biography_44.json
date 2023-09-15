@@ -1,0 +1,75 @@
+{
+    "original": "Jansson, Janne Herman, rektor, Kalmar, f. 6/10/07 i V. Sönnarslöv, Krist. 1. G. 39 m. Helene Ohlsson. Barn: Bengt Olle f. 40, Lars Göran 43. — Folks.k:lär:ex. i Lund 29. Folk-sk :lär. i V. Karups skoildistr. 30, Malmö stads skyddshem 31-37, Ö. Spångs skolhem 38-45, rektor v. Gudmunds-gårdens skolhem i Kalmar sed. 45.",
+    "translated": "Jansson, Janne Herman, principal, Kalmar, b. 10/6/1907 in V. Sönnarslöv, Krist. 1. Married in 1939 to Helene Ohlsson. Children: Bengt Olle b. 1940, Lars Göran b. 1943. - Completed teacher training program in Lund in 1929. Worked as a teacher in V. Karup's school district in 1930, Malmö city residential home from 1931-1937, Ö. Spång's school home from 1938-1945, became principal at Gudmundsgården's school home in Kalmar since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Janne Herman Jansson\",\n  \"jobTitle\": \"Principal\",\n  \"birthDate\": \"1907-10-06\",\n  \"birthPlace\": \"V. Sönnarslöv, Krist.\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helene Ohlsson\",\n      \"marriageDate\": \"1939\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Olle\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Göran\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"institution\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Lund University\"\n    },\n    \"attendee\": {\n      \"@type\": \"Person\",\n      \"name\": \"Janne Herman Jansson\"\n    },\n    \"startDate\": \"1929\"\n  },\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1937\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö City Residential Home\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1945\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ö. Spång's School Home\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1945\",\n      \"roleName\": \"Principal\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gudmundsgården's School Home\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Janne Herman Jansson",
+        "jobTitle": "Principal",
+        "birthDate": "1907-10-06",
+        "birthPlace": "V. Sönnarslöv, Krist.",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Helene Ohlsson",
+                "marriageDate": "1939"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt Olle",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Göran",
+                "birthDate": "1943"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "institution": {
+                "@type": "Organization",
+                "name": "Lund University"
+            },
+            "attendee": {
+                "@type": "Person",
+                "name": "Janne Herman Jansson"
+            },
+            "startDate": "1929"
+        },
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1930",
+                "endDate": "1937",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Malmö City Residential Home"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "endDate": "1945",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Ö. Spång's School Home"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1945",
+                "roleName": "Principal",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gudmundsgården's School Home"
+                }
+            }
+        ]
+    }
+}

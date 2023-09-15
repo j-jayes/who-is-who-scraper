@@ -1,0 +1,77 @@
+{
+    "original": "Holm, Lennart Fredrik, disponent, Göteborg, f. 13/3/16 i Gbg av gen:-kons. Holger H. o. Helene Uebel. G. 41 m. Märta von Heidenstam. Barn: Gunnela f. 42, Madeleine 43, Hans 44. — Stud. v. Gbgs h. samsk., ex. v. Gbgs hand :inst. 35. Stud. o. prakt, i Tyskl. 37, i Engl. 38. Disp. v. A-B Dress i Gbg ’fr. 41.",
+    "translated": "Holm, Lennart Fredrik, executive, Gothenburg, b. March 13, 1916 in Gothenburg, son of the consul-general Holger H. and Helene Uebel. Married in 1941 to Märta von Heidenstam. Children: Gunnela b. 1942, Madeleine b. 1943, Hans b. 1944. Studied at Gothenburg high school, graduated from Gothenburg business school in 1935. Studied and worked in Germany in 1937 and in England in 1938. Became executive at A-B Dress in Gothenburg from 1941 onward.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lennart Fredrik Holm\",\n  \"birthDate\": \"1916-03-13\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Holger H. Holm\",\n      \"jobTitle\": \"Consul-General\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helene Uebel\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta von Heidenstam\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnela Holm\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Madeleine Holm\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Holm\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"jobTitle\": \"Executive\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Dress\",\n    \"foundingDate\": \"1941\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n    }\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Business School\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"England\",\n      \"startDate\": \"1938\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lennart Fredrik Holm",
+        "birthDate": "1916-03-13",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Holger H. Holm",
+                "jobTitle": "Consul-General"
+            },
+            {
+                "@type": "Person",
+                "name": "Helene Uebel"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta von Heidenstam",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnela Holm",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Madeleine Holm",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans Holm",
+                "birthDate": "1944"
+            }
+        ],
+        "jobTitle": "Executive",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B Dress",
+            "foundingDate": "1941",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg"
+            }
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Business School",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Germany",
+                "startDate": "1937"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "England",
+                "startDate": "1938"
+            }
+        ]
+    }
+}

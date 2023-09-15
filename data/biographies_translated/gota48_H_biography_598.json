@@ -1,0 +1,112 @@
+{
+    "original": "Häggqvist, Sven Halvar, bankdirektör, Göteborg, f. 21/5/10 i Härnösand av kont:skriv. Gustaf H. o. Malin Molin. G. 36 m. Muriel Wilson. Barn: Christina f. 40, Jan 42, Göran 44. — Stud:ex. i Lund 28. Språk- o. bank-tekn. stud. i Engl. o. Frankr. 35 o. 36. Prakt. h. Hambros Banlk Ltd i London o. Midland Bank Ltd där samt h. Ban-que des Pays du Nord i Paris, anst. i A-B Sv. Hand:banken i Sthlm 29, kamr. 40, bitr. dir. v. kont. i Gbg »ed. 43.",
+    "translated": "Häggqvist, Sven Halvar, bank director, Gothenburg, born May 21, 1910 in Härnösand, son of clerk Gustaf H. and Malin Molin. Married in 1936 to Muriel Wilson. Children: Christina, born in 1940, Jan in 1942, Göran in 1944. Graduated from Lund University in 1928. Studied language and banking techniques in England and France in 1935 and 1936. Worked at Hambros Bank Ltd in London and Midland Bank Ltd there, as well as at Banque des Pays du Nord in Paris. Employed at Svenska Handelsbanken AB in Stockholm in 1929, promoted to cashier in 1940, and appointed assistant director of the Gothenburg branch in 1943.",
+    "structured_raw": "{\n \"@context\": \"https://schema.org/\",\n \"@type\": \"Person\",\n \"name\": \"Sven Halvar Häggqvist\",\n \"jobTitle\": \"Bank Director\",\n \"birthDate\": \"1910-05-21\",\n \"birthPlace\": \"Härnösand, Sweden\",\n \"parent\": [\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Gustaf H.\",\n     \"jobTitle\": \"Clerk\"\n   },\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Malin Molin\"\n   }\n ],\n \"spouse\": {\n   \"@type\": \"Person\",\n   \"name\": \"Muriel Wilson\",\n   \"marriageDate\": \"1936\"\n },\n \"children\": [\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Christina\",\n     \"birthDate\": \"1940\"\n   },\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Jan\",\n     \"birthDate\": \"1942\"\n   },\n   {\n     \"@type\": \"Person\",\n     \"name\": \"Göran\",\n     \"birthDate\": \"1944\"\n   }\n ],\n \"education\": [\n   {\n     \"@type\": \"EducationalOrganization\",\n     \"name\": \"Lund University\",\n     \"location\": \"Lund, Sweden\"\n   },\n   {\n     \"@type\": \"Course\",\n     \"courseName\": \"Language Studies\",\n     \"provider\": {\n       \"@type\": \"EducationalOrganization\",\n       \"name\": \"Unknown\"\n     },\n     \"startDate\": \"1935\",\n     \"endDate\": \"1936\"\n   },\n   {\n     \"@type\": \"Course\",\n     \"courseName\": \"Banking Techniques\",\n     \"provider\": {\n       \"@type\": \"EducationalOrganization\",\n       \"name\": \"Unknown\"\n     },\n     \"startDate\": \"1935\",\n     \"endDate\": \"1936\"\n   }\n ],\n \"workExperience\": [\n   {\n     \"@type\": \"Organization\",\n     \"name\": \"Hambros Bank Ltd\",\n     \"location\": \"London, England\",\n     \"startDate\": \"1936\",\n     \"endDate\": \"Unknown\"\n   },\n   {\n     \"@type\": \"Organization\",\n     \"name\": \"Midland Bank Ltd\",\n     \"location\": \"London, England\",\n     \"startDate\": \"Unknown\",\n     \"endDate\": \"Unknown\"\n   },\n   {\n     \"@type\": \"Organization\",\n     \"name\": \"Banque des Pays du Nord\",\n     \"location\": \"Paris, France\",\n     \"startDate\": \"Unknown\",\n     \"endDate\": \"Unknown\"\n   },\n   {\n     \"@type\": \"Organization\",\n     \"name\": \"Svenska Handelsbanken AB\",\n     \"location\": \"Stockholm, Sweden\",\n     \"startDate\": \"1929\",\n     \"endDate\": \"Unknown\",\n     \"jobTitle\": \"Assistant Director\"\n   }\n ],\n \"memberOf\": {\n   \"@type\": \"Organization\",\n   \"name\": \"Svenska Handelsbanken AB\",\n   \"location\": \"Gothenburg, Sweden\",\n   \"jobTitle\": \"Cashier\",\n   \"startDate\": \"1940\",\n   \"endDate\": \"1943\"\n }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sven Halvar Häggqvist",
+        "jobTitle": "Bank Director",
+        "birthDate": "1910-05-21",
+        "birthPlace": "Härnösand, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf H.",
+                "jobTitle": "Clerk"
+            },
+            {
+                "@type": "Person",
+                "name": "Malin Molin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Muriel Wilson",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christina",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "location": "Lund, Sweden"
+            },
+            {
+                "@type": "Course",
+                "courseName": "Language Studies",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown"
+                },
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Course",
+                "courseName": "Banking Techniques",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown"
+                },
+                "startDate": "1935",
+                "endDate": "1936"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Hambros Bank Ltd",
+                "location": "London, England",
+                "startDate": "1936",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Midland Bank Ltd",
+                "location": "London, England",
+                "startDate": "Unknown",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Banque des Pays du Nord",
+                "location": "Paris, France",
+                "startDate": "Unknown",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Svenska Handelsbanken AB",
+                "location": "Stockholm, Sweden",
+                "startDate": "1929",
+                "endDate": "Unknown",
+                "jobTitle": "Assistant Director"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Svenska Handelsbanken AB",
+            "location": "Gothenburg, Sweden",
+            "jobTitle": "Cashier",
+            "startDate": "1940",
+            "endDate": "1943"
+        }
+    }
+}

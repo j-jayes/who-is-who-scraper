@@ -1,0 +1,71 @@
+{
+    "original": "Jenrik, Oskar Vilhelm Cornelius, advokat, Norrköping, f. 13/12/93 i Malmö. G. 35 m. Anna Hallin. — Stud:ex. i Sthlm 14, jur. kand. i Sthlm 21. E. o. not. i Svea hovr. 21, i Göta hovr. 22, tingstjg. i Hammarkinds, Stegeborgs o. Skärkinds här. doms. 22-24, tf. borgmäst. i Söderköp. somr. 23 o. 24, adv. i Norrköp. sed. 25. Led. av Sv:es adv:samf. sed. 33.",
+    "translated": "Jenrik, Oskar Vilhelm Cornelius, lawyer, Norrköping, born on December 13, 1893 in Malmö. Married in 1935 to Anna Hallin. Completed high school in Stockholm in 1914, graduated with a law degree in Stockholm in 1921. Acted as an associate notary in Svea Court of Appeal in 1921, in Göta Court of Appeal in 1922, served as a court stenographer in Hammarkind, Stegeborg, and Skärkinds districts from 1922 to 1924. Served as interim mayor in Söderköping during the summers of 1923 and 1924, and has been practicing law in Norrköping since 1925. Became a member of the Swedish Bar Association in 1933.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Jenrik, Oskar Vilhelm Cornelius\",\n  \"birthDate\": \"1893-12-13\",\n  \"birthPlace\": \"Malmö\",\n  \"jobTitle\": \"Lawyer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Hallin\",\n    \"dateOfMarriage\": \"1935\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High school\",\n      \"dateReceived\": \"1914\",\n      \"awardingInstitution\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Law degree\",\n      \"dateReceived\": \"1921\",\n      \"awardingInstitution\": \"Stockholm\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Notary\",\n      \"name\": \"Svea Court of Appeal\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Notary\",\n      \"name\": \"Göta Court of Appeal\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"CourtStenographer\",\n      \"name\": \"Hammarkind, Stegeborg, and Skärkinds districts\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"name\": \"Interim Mayor\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"hiringOrganization\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Söderköping\"\n      }\n    },\n    {\n      \"@type\": \"Attorney\",\n      \"name\": \"Norrköping\",\n      \"startDate\": \"1925\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jenrik, Oskar Vilhelm Cornelius",
+        "birthDate": "1893-12-13",
+        "birthPlace": "Malmö",
+        "jobTitle": "Lawyer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Hallin",
+            "dateOfMarriage": "1935"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High school",
+                "dateReceived": "1914",
+                "awardingInstitution": "Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Law degree",
+                "dateReceived": "1921",
+                "awardingInstitution": "Stockholm"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Notary",
+                "name": "Svea Court of Appeal",
+                "startDate": "1921",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Notary",
+                "name": "Göta Court of Appeal",
+                "startDate": "1922",
+                "endDate": "1922"
+            },
+            {
+                "@type": "CourtStenographer",
+                "name": "Hammarkind, Stegeborg, and Skärkinds districts",
+                "startDate": "1922",
+                "endDate": "1924"
+            },
+            {
+                "@type": "JobPosting",
+                "name": "Interim Mayor",
+                "startDate": "1923",
+                "endDate": "1924",
+                "hiringOrganization": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Söderköping"
+                }
+            },
+            {
+                "@type": "Attorney",
+                "name": "Norrköping",
+                "startDate": "1925"
+            }
+        ]
+    }
+}

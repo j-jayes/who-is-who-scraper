@@ -1,0 +1,188 @@
+{
+    "original": "Jenner, Axel, radiokommissarie, Göteborg, f. 16/11/85 i Sthlm._ G. 17 m. Anna Schultz. Barn: Karin f. 18, g. m. Jäk. Axel Marsk, StMm, Sven 19, civ:ekonom, Sthlm, Ulla 21, fil. mag., e. lärov :adj., Borås, Hans 22, stud., Upps., Brita 24, civ:ekonom, Hudiksvall, Eva 28. — Stud:ex. i Sthlm 04. Elev v. telegr :v. 04, e. o. telegr :assist. i Sthlm 05, telegr :assist. i Gävle 07, i Sthlm 08, genomg. telegr :v. radiokomm :iekurs 16, radiokom-m :ie i Boden s. å., i Vaxholm 22 o. i Gbg sed. 35. Lär. i radiotelegrafi v. Gbgs na vig: sk. 37. Led. aiv stadsfullm. i Vaxholm 31-34. RVO.",
+    "translated": "Jenner, Axel, radio inspector, Gothenburg, b. 16/11/85 in Stockholm. Married on 17 with Anna Schultz. Children: Karin b. 18, married to Jäk. Axel Marsk, military officer, Sven 19, economist, Stockholm, Ulla 21, MA, former secondary school teacher, Borås, Hans 22, student, Uppsala, Brita 24, economist, Hudiksvall, Eva 28. Completed secondary school in Stockholm in 1904. Apprentice at the Telegraph Office in 1904, acting telegraph assistant in Stockholm in 1905, telegraph assistant in Gävle in 1907, in Stockholm in 1908, completed telegraph school radio communication course in 1916, radio inspector in Boden the same year, in Vaxholm in 1922, and in Gothenburg since 1935. Teacher in radio telegraphy at Gothenburg's naval school in 1937. Member of the city council in Vaxholm from 1931 to 1934. Received the Royal Order of Vasa (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Axel\",\n  \"familyName\": \"Jenner\",\n  \"birthDate\": \"1885-11-16\",\n  \"birthPlace\": \"Stockholm\",\n  \"jobTitle\": \"Radio Inspector\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Schultz\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Karin\",\n      \"birthDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Sven\",\n      \"birthDate\": \"1919\",\n      \"jobTitle\": \"Economist\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Ulla\",\n      \"birthDate\": \"1921\",\n      \"jobTitle\": \"MA\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Borås\"\n      },\n      \"formerJobTitle\": \"Secondary School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Hans\",\n      \"birthDate\": \"1922\",\n      \"jobTitle\": \"Student\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Uppsala\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Brita\",\n      \"birthDate\": \"1924\",\n      \"jobTitle\": \"Economist\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Hudiksvall\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Eva\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"educationalSubject\": \"Stud:ex.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm\"\n      },\n      \"endDate\": \"1904\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Telegraph Office Apprentice\",\n      \"endDate\": \"1905\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Telegraph Office\"\n      },\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Acting Telegraph Assistant\",\n      \"endDate\": \"1907\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Telegraph Office\"\n      },\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Telegraph Assistant\",\n      \"endDate\": \"1908\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Telegraph Office\"\n      },\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gävle\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Radio Communication Course\",\n      \"endDate\": \"1916\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Telegraph School\"\n      },\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Radio Inspector\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Boden\"\n      },\n      \"startDate\": \"1916\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Radio Inspector\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Vaxholm\"\n      },\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Radio Inspector\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      },\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Naval School\"\n      },\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Vaxholm City Council\",\n    \"startDate\": \"1931\",\n    \"endDate\": \"1934\"\n  },\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of Vasa\",\n    \"description\": \"RVO\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Axel",
+        "familyName": "Jenner",
+        "birthDate": "1885-11-16",
+        "birthPlace": "Stockholm",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Radio Inspector",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Boden"
+                },
+                "startDate": "1916"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Radio Inspector",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Vaxholm"
+                },
+                "startDate": "1922"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Radio Inspector",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                },
+                "startDate": "1935"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Naval School"
+                },
+                "startDate": "1937"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Schultz"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Karin",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Sven",
+                "birthDate": "1919",
+                "jobTitle": "Economist",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ulla",
+                "birthDate": "1921",
+                "jobTitle": "MA",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Borås"
+                },
+                "formerJobTitle": "Secondary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Hans",
+                "birthDate": "1922",
+                "jobTitle": "Student",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Uppsala"
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Brita",
+                "birthDate": "1924",
+                "jobTitle": "Economist",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Hudiksvall"
+                }
+            },
+            {
+                "@type": "Person",
+                "givenName": "Eva",
+                "birthDate": "1928"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "SecondarySchool",
+                "educationalSubject": "Stud:ex.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm"
+                },
+                "endDate": "1904"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Telegraph Office Apprentice",
+                "endDate": "1905",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Telegraph Office"
+                },
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Acting Telegraph Assistant",
+                "endDate": "1907",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Telegraph Office"
+                },
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Telegraph Assistant",
+                "endDate": "1908",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Telegraph Office"
+                },
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gävle"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Radio Communication Course",
+                "endDate": "1916",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Telegraph School"
+                },
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Vaxholm City Council",
+            "startDate": "1931",
+            "endDate": "1934"
+        },
+        "award": {
+            "@type": "Order",
+            "name": "Royal Order of Vasa",
+            "description": "RVO"
+        }
+    }
+}

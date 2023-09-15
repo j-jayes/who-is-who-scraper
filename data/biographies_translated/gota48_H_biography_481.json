@@ -1,0 +1,91 @@
+{
+    "original": "Holmgren, Oswald Hilding, tandläkare, Strömstad, f. 20/9/94 i Arvika av postmäst. Ivan H. o. Valborg Rülcker. G. 31 m. Elila Cardeiil. Barn: Birgitta f. 33. ~ Stud:ex. i Lund 13, tandl :-kand. 14, tandl. 17. Vik. i Karlstad o. Sthlm 17 o. 18, prakt, i Strömstad sed. 18. Ordf. i Strömstad System A-B 31-38.",
+    "translated": "Holmgren, Oswald Hilding, dentist, Strömstad, b. 20/9/94 in Arvika to postmaster Ivan H. and Valborg Rülcker. Married in 1931 to Elila Cardeiil. Children: Birgitta b. 1933. Completed secondary school in Lund in 1913, studied dentistry and graduated in 1914, received dental degree in 1917. Worked temporarily in Karlstad and Stockholm in 1917 and 1918, established a practice in Strömstad thereafter. Chairman of the board of Strömstad System A-B from 1931 to 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Oswald Hilding Holmgren\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Arvika\",\n  \"birthDate\": \"1894-09-20\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ivan H. Holmgren\",\n      \"jobTitle\": \"Postmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Valborg Rülcker\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elila Cardeiil\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgitta Holmgren\",\n    \"birthDate\": \"1933\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary school in Lund\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dentistry\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental degree\",\n      \"educationalLevel\": \"Doctoral degree\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1917\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1918\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlstad\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1918\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1918\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Strömstad\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Strömstad System A-B\"\n  },\n  \"jobTitle\": \"Chairman of the board\",\n  \"startDate\": \"1931\",\n  \"endDate\": \"1938\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Oswald Hilding Holmgren",
+        "jobTitle": "Chairman of the board",
+        "birthPlace": "Arvika",
+        "birthDate": "1894-09-20",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ivan H. Holmgren",
+                "jobTitle": "Postmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Valborg Rülcker"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elila Cardeiil",
+            "marriageDate": "1931"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Birgitta Holmgren",
+            "birthDate": "1933"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary school in Lund",
+                "educationalLevel": "SecondaryEducation",
+                "startDate": "1913",
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dentistry",
+                "educationalLevel": "Bachelor's degree",
+                "startDate": "1913",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental degree",
+                "educationalLevel": "Doctoral degree",
+                "startDate": "1914",
+                "endDate": "1917"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "1918",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Karlstad"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "1918",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1918",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Strömstad"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Strömstad System A-B"
+        },
+        "startDate": "1931",
+        "endDate": "1938"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "original": "Johansson, Karl Enar, jägmästare, Sätrafabriker, f. 26/9/04 i Undenäs, Skarab. 1., av sjökapt. B. C. J. o. Anna Pettersison. G. 43 m. Ulla Linde-mark. Barn: Carl Göran f. 45, Bo Lennart 47. — Stud:ex. i Jönköp. 24, jäg-mäst :ex. v. skogshögisk. 30. Res. t. Bal-ticum 319, Norge 3l2, 38, Danm. 33-. An-st. i domänverket o. skogsv:styr. 30-34, skogschefsassist, v. Skyllbergs bruk 35-41, bruks- o. skogsförv. h. Sätra Bruk A-B fr. 41.",
+    "translated": "Johansson, Karl Enar, forest ranger, Sätrafabriker, b. September 26th, 1904 in Undenäs, Skaraborg County. First son of Captain B. C. J. and Anna Pettersison. Married in 1943 to Ulla Linde-mark. Children: Carl Göran b. 1945, Bo Lennart b. 1947. He completed his high school education in Jönköping in 1924 and received his forest ranger degree from the Swedish University of Agricultural Sciences in 1930. He traveled to the Baltic states in 1931, Norway in 1932 and 1938, and Denmark in 1933. He was employed by the government domain and forest service from 1930 to 1934, and as an assistant forest manager at Skyllbergs Bruk from 1935 to 1941. He worked as a factory and forest supervisor at Sätra Bruk A-B from 1941 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Enar Johansson\",\n  \"jobTitle\": \"Forest Ranger\",\n  \"birthDate\": \"1904-09-26\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Undenäs, Skaraborg County, Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Captain B.C.J.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Pettersison\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ulla Linde-mark\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Göran\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Lennart\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. in Jönköping\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Jägmäst:ex. v. skogshögsk.\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"TravelAction\",\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Baltic States\"\n      },\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Norway\"\n      },\n      \"startDate\": \"1932\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Denmark\"\n      },\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1934\",\n      \"roleName\": \"Government Domain and Forest Service\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1941\",\n      \"roleName\": \"Assistant Forest Manager at Skyllbergs Bruk\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1941\",\n      \"roleName\": \"Factory and Forest Supervisor at Sätra Bruk A-B\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Enar Johansson",
+        "jobTitle": "Forest Ranger",
+        "birthDate": "1904-09-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Undenäs, Skaraborg County, Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Captain B.C.J."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Pettersison"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ulla Linde-mark",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl Göran",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Lennart",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. in Jönköping",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Jägmäst:ex. v. skogshögsk.",
+                "endDate": "1930"
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "TravelAction",
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Baltic States"
+                },
+                "startDate": "1931"
+            },
+            {
+                "@type": "TravelAction",
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Norway"
+                },
+                "startDate": "1932",
+                "endDate": "1938"
+            },
+            {
+                "@type": "TravelAction",
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Denmark"
+                },
+                "startDate": "1933"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1930",
+                "endDate": "1934",
+                "roleName": "Government Domain and Forest Service"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "endDate": "1941",
+                "roleName": "Assistant Forest Manager at Skyllbergs Bruk"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1941",
+                "roleName": "Factory and Forest Supervisor at Sätra Bruk A-B"
+            }
+        ]
+    }
+}

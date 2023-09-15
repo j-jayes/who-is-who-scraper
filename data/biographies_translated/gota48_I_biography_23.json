@@ -1,0 +1,100 @@
+{
+    "original": "Ivarson, Karl-Erik, tandläkare, Huskvarna, f. 28/6/11 i Huskvarna av Ivar Johansson o. Martha Viktoria Pettersson. G. 38 m. Gunvor Strömberg. Barn: Hans f. 41, Lars 43. — Studiex. i Jönköp. 31, farm. stud. 32, tand-l:kand. 34, tandl. 36. Assist, i Gisla-ved 36, prakt, i Huskvarna sed. 37, skoltandl. v. Huskvarna samrealsk. sed. 38. Ordf. i Sv:es tandl :förb. studentsektion 35-36, v. ordf. i Jönköp. 1. tandl :fören.",
+    "translated": "Ivarson, Karl-Erik, dentist, Huskvarna, born on June 28, 1911 in Huskvarna to Ivar Johansson and Martha Viktoria Pettersson. Married in 1938 to Gunvor Strömberg. Children: Hans born in 1941, Lars in 1943. Karl-Erik completed his high school education in Jönköping in 1931, studied pharmacy in 1932, completed his dental studies in 1934 and became a licensed dentist in 1936. He worked as an assistant in Gislaved in 1936, and began his own dental practice in Huskvarna in 1937 and became a school dentist at Huskvarna Samrealskolan in 1938. He was Chairman of the Swedish Dental Association student section from 1935-1936, and Vice Chairman of the Jönköping 1st Dental Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl-Erik Ivarson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1911-06-28\",\n  \"birthPlace\": \"Huskvarna\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ivar Johansson\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Martha Viktoria Pettersson\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunvor Strömberg\",\n    \"gender\": \"Female\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Jönköping High School\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Pharmacy School\",\n      \"startDate\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental School\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1936\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Association Student Section\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping 1st Dental Association\",\n      \"startDate\": \"Unknown\",\n      \"roleName\": \"Vice Chairman\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gislaved\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"Unknown\",\n      \"position\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Own Dental Practice\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"Unknown\",\n      \"position\": \"Dentist\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Huskvarna Samrealskolan\",\n          \"startDate\": \"1938\",\n          \"endDate\": \"Unknown\",\n          \"position\": \"School Dentist\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl-Erik Ivarson",
+        "jobTitle": "Dentist",
+        "birthDate": "1911-06-28",
+        "birthPlace": "Huskvarna",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ivar Johansson",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Martha Viktoria Pettersson",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunvor Strömberg",
+            "gender": "Female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Jönköping High School",
+                "startDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Pharmacy School",
+                "startDate": "1932"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental School",
+                "startDate": "1934",
+                "endDate": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Dental Association Student Section",
+                "startDate": "1935",
+                "endDate": "1936",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping 1st Dental Association",
+                "startDate": "Unknown",
+                "roleName": "Vice Chairman"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Gislaved",
+                "startDate": "1936",
+                "endDate": "Unknown",
+                "position": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Own Dental Practice",
+                "startDate": "1937",
+                "endDate": "Unknown",
+                "position": "Dentist",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Huskvarna Samrealskolan",
+                        "startDate": "1938",
+                        "endDate": "Unknown",
+                        "position": "School Dentist"
+                    }
+                ]
+            }
+        ]
+    }
+}

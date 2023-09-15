@@ -1,0 +1,83 @@
+{
+    "original": "Johanson, Nils Gottfrid, istads-inigenjör, Strömstad, f. 20/8/90i i Sund|svall av byggmäst. Nils Magnus J. o. h. h. f. Källström. G. 24 m. Signe Holm. Barn: Inga f. _ 25, stud., Olde 29, stud. — Ing:ex. i Örebro 15. Anst. inom byggn rbranscben h. fadern samt s. mätn :tekn. h. firma Eggert &amp; Sandström i Sthlm 09-12, bitr. stads-ing. i Lidköp. 15-17, sitadsing. i Strömstad sed. 17. Medl. av Odd Fellow.",
+    "translated": "Johanson, Nils Gottfrid, civil engineer, from Strömstad, born August 20th, 1890 in Sundsvall to builder Nils Magnus J. and his wife Källström. Married to Signe Holm since 1924. Children: Inga, born [unknown date], studying; Olde, born 1929, studying. Graduated from Örebro Technical School in 1915. Worked in the construction industry with his father and as a surveying technician at the firm Eggert & Sandström in Stockholm from 1909-1912, assistant city engineer in Lidköping from 1915-1917, and city engineer in Strömstad since 1917. Member of Odd Fellow.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gottfrid Johanson\",\n  \"birthDate\": \"1890-08-20\",\n  \"birthPlace\": \"Sundsvall, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Civil Engineer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Odd Fellow\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Magnus J.\",\n      \"jobTitle\": \"Builder\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Källström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Holm\",\n    \"marriageDate\": \"1924\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga\",\n      \"birthDate\": \"Unknown\",\n      \"studyProgram\": \"Undisclosed\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olde\",\n      \"birthDate\": \"1929\",\n      \"studyProgram\": \"Undisclosed\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalProgram\",\n    \"educationalCredentialAwarded\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ing:ex.\"\n    },\n    \"educationalLevel\": \"University\",\n    \"institution\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Örebro Technical School\"\n    },\n    \"endDate\": \"1915\"\n  },\n  \"workHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eggert & Sandström\",\n      \"jobTitle\": \"Surveying Technician\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City of Lidköping\",\n      \"jobTitle\": \"Assistant City Engineer\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City of Strömstad\",\n      \"jobTitle\": \"City Engineer\",\n      \"startDate\": \"1917\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Gottfrid Johanson",
+        "birthDate": "1890-08-20",
+        "birthPlace": "Sundsvall, Sweden",
+        "nationality": "Swedish",
+        "occupation": "Civil Engineer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Odd Fellow"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Nils Magnus J.",
+                "jobTitle": "Builder"
+            },
+            {
+                "@type": "Person",
+                "name": "Källström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Holm",
+            "marriageDate": "1924"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inga",
+                "birthDate": "Unknown",
+                "studyProgram": "Undisclosed"
+            },
+            {
+                "@type": "Person",
+                "name": "Olde",
+                "birthDate": "1929",
+                "studyProgram": "Undisclosed"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalProgram",
+            "educationalCredentialAwarded": {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ing:ex."
+            },
+            "educationalLevel": "University",
+            "institution": {
+                "@type": "Organization",
+                "name": "Örebro Technical School"
+            },
+            "endDate": "1915"
+        },
+        "workHistory": [
+            {
+                "@type": "Organization",
+                "name": "Eggert & Sandström",
+                "jobTitle": "Surveying Technician",
+                "startDate": "1909",
+                "endDate": "1912"
+            },
+            {
+                "@type": "Organization",
+                "name": "City of Lidköping",
+                "jobTitle": "Assistant City Engineer",
+                "startDate": "1915",
+                "endDate": "1917"
+            },
+            {
+                "@type": "Organization",
+                "name": "City of Strömstad",
+                "jobTitle": "City Engineer",
+                "startDate": "1917"
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "original": "Håkansson, Herman Ludvig, landskanslist, Karlskrona, f. 21/11/91 i Karlskrona. G. 41 m. Ebba Qvarlan-der. — Länsmansex. 12. Landskanslist sed. 22, kommissionär h. länsstyr. i Blek. län.",
+    "translated": "Håkansson, Herman Ludvig, a civil servant in the County Administrative Board, Karlskrona, born on November 21, 1891 in Karlskrona. Married in 1941 to Ebba Qvarlander. He worked as a constable from 1912 and as a civil servant since 1922. He was a commissioner in the county administrative board of Blekinge county.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Herman Ludvig Håkansson\",\n  \"birthDate\": \"1891-11-21\",\n  \"birthPlace\": \"Karlskrona\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ebba Qvarlander\",\n    \"marriageDate\": \"1941\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"County Administrative Board\"\n  },\n  \"jobTitle\": \"Civil Servant\",\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Constable\",\n      \"startDate\": \"1912\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Commissioner\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Administrative Board of Blekinge county\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Herman Ludvig Håkansson",
+        "birthDate": "1891-11-21",
+        "birthPlace": "Karlskrona",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ebba Qvarlander",
+            "marriageDate": "1941"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "County Administrative Board"
+        },
+        "jobTitle": "Civil Servant",
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Constable",
+                "startDate": "1912"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Commissioner",
+                "startDate": "1922",
+                "endDate": "",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "County Administrative Board of Blekinge county"
+                }
+            }
+        ]
+    }
+}

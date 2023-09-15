@@ -1,0 +1,86 @@
+{
+    "original": "Hallgren, Bror Lennart, tandläkare, Göteborg, f. 28/9/16 i Gbg av fabr. August H. o. Karin Holmgren. G. 41 m. Brit Sv^an. Barn: Kerstin f. 42, Olle 45. ~ Stud:ex. i Gbg 35, tandl :ex. 41. Anst. h. tandl. Göthlén i Kungsbacka 41, v. folktandv :poliklin. i Surte s. å., v. Gbgs kommunala tand-poliklin. 41-43, därefter egen praktik i Gbg.",
+    "translated": "Hallgren, Bror Lennart, dentist, Gothenburg, b. September 28th, 1916 in Gothenburg to factory worker August H. and Karin Holmgren. Married in 1941 to Brit Sv^an. Children: Kerstin (b. 1942), Olle (b. 1945). Graduated from high school in Gothenburg in 1935, graduated from dental school in 1941. Worked for dentist Göthlén in Kungsbacka in 1941, worked at the public dental clinic in Surte the same year, then worked at the municipal dental clinic in Gothenburg from 1941-43, and afterwards opened his own practice in Gothenburg.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Lennart Hallgren\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1916-09-28\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August H. Hallgren\",\n      \"jobTitle\": \"Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Holmgren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brit Sv^an\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Hallgren\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olle Hallgren\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"awardDate\": \"1935\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalProgram\": \"High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Professional Certification\",\n      \"awardDate\": \"1941\",\n      \"credentialAwarded\": \"Dental License\",\n      \"educationalLevel\": \"ProfessionalEducation\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göthlén Dental Clinic\",\n      \"jobTitle\": \"Dental Assistant\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Surte Public Dental Clinic\",\n      \"jobTitle\": \"Dental Assistant\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Municipal Dental Clinic\",\n      \"jobTitle\": \"Dental Assistant\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hallgren Dental Practice\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Lennart Hallgren",
+        "jobTitle": "Dentist",
+        "birthDate": "1916-09-28",
+        "birthPlace": "Gothenburg, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "August H. Hallgren",
+                "jobTitle": "Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Holmgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brit Sv^an",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Hallgren",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Olle Hallgren",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "awardDate": "1935",
+                "educationalLevel": "SecondaryEducation",
+                "educationalProgram": "High School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Certification",
+                "awardDate": "1941",
+                "credentialAwarded": "Dental License",
+                "educationalLevel": "ProfessionalEducation"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Göthlén Dental Clinic",
+                "jobTitle": "Dental Assistant",
+                "startDate": "1941",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Surte Public Dental Clinic",
+                "jobTitle": "Dental Assistant",
+                "startDate": "1941",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Municipal Dental Clinic",
+                "jobTitle": "Dental Assistant",
+                "startDate": "1941",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hallgren Dental Practice",
+                "jobTitle": "Dentist",
+                "startDate": "1943"
+            }
+        ]
+    }
+}

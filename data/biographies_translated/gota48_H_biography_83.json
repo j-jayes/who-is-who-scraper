@@ -1,0 +1,50 @@
+{
+    "original": "Hall, Gotl. 1. — Studiex., teol. fil. ex, i Upps. 31, teol. kand. 35, prakt, teol. prov samt prästv. f. Visby stift 36. Missiv i Othem, Barlingbo, Väst-kinde, Vänge o. Hejde, kommin. i Rone sed. 39.",
+    "translated": "Hall, Gotland 1 - Started studies at Uppsala University in 1931, completed degree in philosophy and theology. Also completed practical theological exam and was ordained as a priest for the Visby diocese in 1936. Served as a minister in various parishes including Othem, Barlingbo, Väst-kinde, Vänge, and Hejde. Became a curate in Rone after 1939. Married in 19xx.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Gotland Hall\",\n   \"birthPlace\": \"Gotland\",\n   \"education\": {\n      \"@type\": \"EducationEvent\",\n      \"educationType\": \"Philosophy and Theology\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1935\",\n      \"institution\": \"Uppsala University\"\n   },\n   \"practicalExam\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical Theological Exam\",\n      \"dateIssued\": \"1936\"\n   },\n   \"ordination\": {\n      \"@type\": \"ReligiousOrganization\",\n      \"name\": \"Visby Diocese\",\n      \"member\": {\n         \"@type\": \"Person\",\n         \"name\": \"Gotland Hall\",\n         \"date\": \"1936\"\n      }\n   },\n   \"jobTitle\": \"Minister, Curate\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Visby Diocese\"\n   },\n   \"employmentHistory\": {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1939\",\n      \"organization\": {\n         \"@type\": \"Organization\",\n         \"name\": \"Rone\"\n      }\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"XXXXXX\",\n      \"dateOfMarriage\": \"19XX\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Gotland Hall",
+        "birthPlace": "Gotland",
+        "education": {
+            "@type": "EducationEvent",
+            "educationType": "Philosophy and Theology",
+            "startDate": "1931",
+            "endDate": "1935",
+            "institution": "Uppsala University"
+        },
+        "practicalExam": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Practical Theological Exam",
+            "dateIssued": "1936"
+        },
+        "ordination": {
+            "@type": "ReligiousOrganization",
+            "name": "Visby Diocese",
+            "member": {
+                "@type": "Person",
+                "name": "Gotland Hall",
+                "date": "1936"
+            }
+        },
+        "jobTitle": "Minister, Curate",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Visby Diocese"
+        },
+        "employmentHistory": {
+            "@type": "OrganizationRole",
+            "startDate": "1939",
+            "organization": {
+                "@type": "Organization",
+                "name": "Rone"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "XXXXXX",
+            "dateOfMarriage": "19XX"
+        }
+    }
+}

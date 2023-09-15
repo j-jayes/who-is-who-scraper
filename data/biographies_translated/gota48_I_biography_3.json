@@ -1,0 +1,167 @@
+{
+    "original": "Ideström, Sven Georg, överläkare, Sävsjö, f. 3/1/02 i Södertälje av fabr. Axel L a. Georgina Gällstedt. G. 32 m. Ulla-Britta Wildung. Barn: Gin-ne f. 33’, Lo 35, Björn 42. — Studiex. i Södertälje 21, med. kand. v. Karol. inst. 25 o. med. lic. där 32. Assist :-läk. v. S :t Eriks sjukh. med. avd. 30-31, e. läk. v. Solbackens sanat. samt tf. undiläk. v. Moheds sanat. 32, und:-läk. v. Spenshults sanat. 32-33, v. Örnsköldsviks las. tub:avd. 33-35, und:-läk. v. med. avd. där^ 36-39, läk. v. epid .’sjukstugan i Örnsköldsvik 35, aman. v. lungklin. i Lund 39, und :läk. där 40, tf. överlàk. där 41, förest, f. stud. t’bc-byrå, lär. f. de propedeutiska kurserna, överläk. v. Sävsjö sanat. sed. 42. Ho’bby: musik.",
+    "translated": "Ideström, Sven Georg, senior physician, from Sävsjö. Born on January 3, 1902 in Södertälje to factory owner Axel L and Georgina Gällstedt. Married Ulla-Britta Wildung in 1932 and had three children: Gin-ne born in 1933, Lo in 1935, and Björn in 1942. He completed his secondary education in Södertälje in 1921, received his medical degree from Karolinska Institute in 1925 and his medical license there in 1932. He worked as an assistant physician at S:t Eriks Hospital's medical department from 1930 to 1931, as a physician at Solbacken Sanatorium and a temporary deputy physician at Moheds Sanatorium in 1932, and as a deputy physician at Spenshult Sanatorium from 1932 to 1933. He served as a physician at the tuberculosis department of Örnsköldsvik County Hospital from 1933 to 1935, deputy physician at the medical department there from 1936 to 1939, and physician at the tuberculosis hospital in Örnsköldsvik in 1935. He became an assistant at the Lung Clinic in Lund in 1939, deputy senior physician there in 1940, senior physician in charge in 1941, head of the student TB clinic, teacher of the preparatory courses and senior physician at the Sävsjö sanatorium since 1942. His hobby was music.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Georg Ideström\",\n  \"birthDate\": \"1902-01-03\",\n  \"birthPlace\": \"Södertälje, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Senior Physician\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Sävsjö\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ulla-Britta Wildung\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gin-ne\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lo\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Karolinska Institute\",\n    \"location\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Stockholm\",\n      \"addressCountry\": \"Sweden\"\n    },\n    \"alumni\": [\n      {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Georg Ideström\",\n        \"alumniOf\": \"Karolinska Institute\",\n        \"studyType\": \"Medical Degree\",\n        \"endDate\": \"1925\"\n      }\n    ]\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"S:t Eriks Hospital\",\n      \"department\": {\n        \"@type\": \"MedicalDepartment\",\n        \"name\": \"Medical Department\",\n        \"physician\": {\n          \"@type\": \"Person\",\n          \"name\": \"Sven Georg Ideström\",\n          \"startDate\": \"1930\",\n          \"endDate\": \"1931\",\n          \"jobTitle\": \"Assistant Physician\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Solbacken Sanatorium\",\n      \"physician\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Georg Ideström\",\n        \"startDate\": \"1932\",\n        \"endDate\": \"1932\",\n        \"jobTitle\": \"Physician\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Moheds Sanatorium\",\n      \"physician\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Georg Ideström\",\n        \"startDate\": \"1932\",\n        \"endDate\": \"1932\",\n        \"jobTitle\": \"Deputy Physician\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Spenshult Sanatorium\",\n      \"physician\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Georg Ideström\",\n        \"startDate\": \"1932\",\n        \"endDate\": \"1933\",\n        \"jobTitle\": \"Deputy Physician\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örnsköldsvik County Hospital\",\n      \"department\": [\n        {\n          \"@type\": \"MedicalDepartment\",\n          \"name\": \"Tuberculosis Department\",\n          \"physician\": {\n            \"@type\": \"Person\",\n            \"name\": \"Sven Georg Ideström\",\n            \"startDate\": \"1933\",\n            \"endDate\": \"1935\",\n            \"jobTitle\": \"Physician\"\n          }\n        },\n        {\n          \"@type\": \"MedicalDepartment\",\n          \"name\": \"Medical Department\",\n          \"physician\": {\n            \"@type\": \"Person\",\n            \"name\": \"Sven Georg Ideström\",\n            \"startDate\": \"1936\",\n            \"endDate\": \"1939\",\n            \"jobTitle\": \"Deputy Physician\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lund University Hospital\",\n      \"department\": {\n        \"@type\": \"MedicalDepartment\",\n        \"name\": \"Lung Clinic\",\n        \"physician\": {\n          \"@type\": \"Person\",\n          \"name\": \"Sven Georg Ideström\",\n          \"startDate\": \"1939\",\n          \"endDate\": \"1941\",\n          \"jobTitle\": \"Deputy Senior Physician\"\n        },\n        \"manages\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Sävsjö Sanatorium\",\n          \"physician\": {\n            \"@type\": \"Person\",\n            \"name\": \"Sven Georg Ideström\",\n            \"startDate\": \"1942\",\n            \"jobTitle\": \"Senior Physician\"\n          }\n        }\n      }\n    }\n  ],\n  \"additionalName\": [\"Axel L\", \"Georgina Gällstedt\"],\n  \"description\": \"Sven Georg Ideström was a Swedish senior physician and expert in tuberculosis. He was born on January 3, 1902 in Södertälje to factory owner Axel L and Georgina Gällstedt. Ideström married Ulla-Britta Wildung in 1932 and had three children: Gin-ne, Lo, and Björn. He completed his secondary education in Södertälje in 1921 and received his medical degree from Karolinska Institute in 1925. Throughout his career, he held various positions at hospitals and sanatoriums across Sweden.\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sven Georg Ideström",
+        "birthDate": "1902-01-03",
+        "birthPlace": "Södertälje, Sweden",
+        "nationality": "Swedish",
+        "occupation": "Senior Physician",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sävsjö",
+            "addressCountry": "Sweden"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ulla-Britta Wildung",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gin-ne",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Lo",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1942"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Karolinska Institute",
+            "location": {
+                "@type": "PostalAddress",
+                "addressLocality": "Stockholm",
+                "addressCountry": "Sweden"
+            },
+            "alumni": [
+                {
+                    "@type": "Person",
+                    "name": "Sven Georg Ideström",
+                    "alumniOf": "Karolinska Institute",
+                    "studyType": "Medical Degree",
+                    "endDate": "1925"
+                }
+            ]
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "S:t Eriks Hospital",
+                "department": {
+                    "@type": "MedicalDepartment",
+                    "name": "Medical Department",
+                    "physician": {
+                        "@type": "Person",
+                        "name": "Sven Georg Ideström",
+                        "startDate": "1930",
+                        "endDate": "1931",
+                        "jobTitle": "Assistant Physician"
+                    }
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Solbacken Sanatorium",
+                "physician": {
+                    "@type": "Person",
+                    "name": "Sven Georg Ideström",
+                    "startDate": "1932",
+                    "endDate": "1932",
+                    "jobTitle": "Physician"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Moheds Sanatorium",
+                "physician": {
+                    "@type": "Person",
+                    "name": "Sven Georg Ideström",
+                    "startDate": "1932",
+                    "endDate": "1932",
+                    "jobTitle": "Deputy Physician"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Spenshult Sanatorium",
+                "physician": {
+                    "@type": "Person",
+                    "name": "Sven Georg Ideström",
+                    "startDate": "1932",
+                    "endDate": "1933",
+                    "jobTitle": "Deputy Physician"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Örnsköldsvik County Hospital",
+                "department": [
+                    {
+                        "@type": "MedicalDepartment",
+                        "name": "Tuberculosis Department",
+                        "physician": {
+                            "@type": "Person",
+                            "name": "Sven Georg Ideström",
+                            "startDate": "1933",
+                            "endDate": "1935",
+                            "jobTitle": "Physician"
+                        }
+                    },
+                    {
+                        "@type": "MedicalDepartment",
+                        "name": "Medical Department",
+                        "physician": {
+                            "@type": "Person",
+                            "name": "Sven Georg Ideström",
+                            "startDate": "1936",
+                            "endDate": "1939",
+                            "jobTitle": "Deputy Physician"
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Lund University Hospital",
+                "department": {
+                    "@type": "MedicalDepartment",
+                    "name": "Lung Clinic",
+                    "physician": {
+                        "@type": "Person",
+                        "name": "Sven Georg Ideström",
+                        "startDate": "1939",
+                        "endDate": "1941",
+                        "jobTitle": "Deputy Senior Physician"
+                    },
+                    "manages": {
+                        "@type": "Organization",
+                        "name": "Sävsjö Sanatorium",
+                        "physician": {
+                            "@type": "Person",
+                            "name": "Sven Georg Ideström",
+                            "startDate": "1942",
+                            "jobTitle": "Senior Physician"
+                        }
+                    }
+                }
+            }
+        ],
+        "additionalName": [
+            "Axel L",
+            "Georgina Gällstedt"
+        ],
+        "description": "Sven Georg Ideström was a Swedish senior physician and expert in tuberculosis. He was born on January 3, 1902 in Södertälje to factory owner Axel L and Georgina Gällstedt. Ideström married Ulla-Britta Wildung in 1932 and had three children: Gin-ne, Lo, and Björn. He completed his secondary education in Södertälje in 1921 and received his medical degree from Karolinska Institute in 1925. Throughout his career, he held various positions at hospitals and sanatoriums across Sweden."
+    }
+}

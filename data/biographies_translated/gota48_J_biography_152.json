@@ -1,0 +1,80 @@
+{
+    "original": "Johansson, Ture Ragnar, kyrkoherde, Garda, f. 26/4/03 i Hinneryd, Kro-nob. 1. G. 34 m. Olga Ström. Barn: Birgitta f. 35, Gunilla 38, Örjan 43. — Stud:ex. i Lund 26, fil. kand. 28, teol. kand., prakt. teol. prov samt prästv. f. Visby stift 33. V. pastor i Sten-kumla 33, kyrkoh. i Garda sed. 34. Ordf. i pastoratets kyrkostämmor, Al-skog-Garda forts :sk :styr. o. skolrådet.",
+    "translated": "Johansson, Ture Ragnar, vicar, Garda, born on April 26, 1903 in Hinneryd, Kronoberg County. Married in 1934 to Olga Ström. Children: Birgitta born in 1935, Gunilla in 1938, Örjan in 1943. He completed his high school education in Lund in 1926, and completed a Bachelor of Arts degree in 1928. He later earned a Bachelor of Theology degree, passed his practical theology exam and was ordained as a minister for the Visby diocese in 1933. He was an assistant pastor in Stenkumla in 1933, and became vicar in Garda the following year. He served as chairman of the parish's church meetings, Alskog-Garda continuing education board and the school council.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ture Ragnar Johansson\",\n  \"birthDate\": \"1903-04-26\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Hinneryd, Kronoberg County\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Olga Ström\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Örjan\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalCredential\",\n      \"description\": \"Stud:ex. i Lund\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalCredential\",\n      \"description\": \"Fil. kand.\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalCredential\",\n      \"description\": \"Teol. kand.\"\n    },\n    {\n      \"@type\": \"EducationalCredential\",\n      \"description\": \"Prakt. teol. prov samt prästv. f. Visby stift\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Vicar\",\n    \"Ordförande i pastoratets kyrkostämmor\",\n    \"Alskog-Garda forts :sk :styr. o. skolrådet\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": [\n        \"Organization\",\n        \"EducationalOrganization\"\n      ],\n      \"name\": \"Visby Diocese\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Assistant pastor\",\n    \"startDate\": \"1933\",\n    \"endDate\": \"1934\",\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Stenkumla\"\n    }\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Vicar\",\n    \"startDate\": \"1934\",\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Garda\"\n    }\n  } \n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ture Ragnar Johansson",
+        "birthDate": "1903-04-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Hinneryd, Kronoberg County"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Olga Ström"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Örjan",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalCredential",
+                "description": "Stud:ex. i Lund",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalCredential",
+                "description": "Fil. kand.",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalCredential",
+                "description": "Teol. kand."
+            },
+            {
+                "@type": "EducationalCredential",
+                "description": "Prakt. teol. prov samt prästv. f. Visby stift",
+                "endDate": "1933"
+            }
+        ],
+        "jobTitle": [
+            "Vicar",
+            "Ordförande i pastoratets kyrkostämmor",
+            "Alskog-Garda forts :sk :styr. o. skolrådet"
+        ],
+        "memberOf": [
+            {
+                "@type": [
+                    "Organization",
+                    "EducationalOrganization"
+                ],
+                "name": "Visby Diocese"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Vicar",
+            "startDate": "1934",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Garda"
+            }
+        }
+    }
+}

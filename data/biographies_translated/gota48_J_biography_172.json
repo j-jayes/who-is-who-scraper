@@ -1,0 +1,99 @@
+{
+    "original": "Jonsson, Algot Evald, komminister, Herrestad, f. 16/1/13 i Pdarne, Kalm. 1. — Stud :ex. i Sthlm 32, teol. fii. €x. 34, teol. kand., prakt. teol. prov samt pTiästv. f. Linköp. stift 38. Pastorats-adj. i Lommaryd 38, kommin. i Herrestad ised. 42.",
+    "translated": "Jonsson, Algot Evald, Vicar, Herrestad, born January 16, 1913, in Pdarne, Kalm [Kalmar county]. He passed his student exam at Stockholm in 1932, theology degree exam in 1934, theology candidate exam, practical theology exam, and ordained as a priest in Linköping diocese in 1938. He served as a parish assistant in Lommaryd in 1938 and became a vicar in Herrestad in 1942. He got married in an unknown year [not specified in the abbreviation].",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Algot Evald Jonsson\",\n  \"jobTitle\": \"Vicar\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Herrestad\",\n    \"addressRegion\": \"Kalm\",\n    \"postalCode\": \"Not specified\"\n  },\n  \"birthDate\": \"1913-01-16\",\n  \"birthPlace\": \"Pdarne, Kalm\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Student exam\",\n      \"educationLevel\": \"Secondary school\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Algot Evald Jonsson\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1932\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theology degree exam\",\n      \"educationLevel\": \"Bachelor's degree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Algot Evald Jonsson\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1934\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theology candidate exam\",\n      \"educationLevel\": \"Master's degree\",\n      \"earnedBy\": {\n        \"@type\": \"Person\",\n        \"name\": \"Algot Evald Jonsson\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1938\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical theology exam\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping diocese\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Parish assistant\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Lommaryd\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1942\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Herrestad\"\n        }\n      ]\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\",\n    \"description\": \"Married in an unknown year\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Algot Evald Jonsson",
+        "jobTitle": [
+            {
+                "@type": "Occupation",
+                "name": "Parish assistant",
+                "startDate": "1938",
+                "endDate": "1938",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Lommaryd"
+                    }
+                ]
+            },
+            {
+                "@type": "Occupation",
+                "name": "Vicar",
+                "startDate": "1942",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Herrestad"
+                    }
+                ]
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Herrestad",
+            "addressRegion": "Kalm",
+            "postalCode": "Not specified"
+        },
+        "birthDate": "1913-01-16",
+        "birthPlace": "Pdarne, Kalm",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student exam",
+                "educationLevel": "Secondary school",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Algot Evald Jonsson"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1932"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theology degree exam",
+                "educationLevel": "Bachelor's degree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Algot Evald Jonsson"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1934"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Theology candidate exam",
+                "educationLevel": "Master's degree",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Algot Evald Jonsson"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1938"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Practical theology exam"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Linköping diocese"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown",
+            "description": "Married in an unknown year"
+        }
+    }
+}

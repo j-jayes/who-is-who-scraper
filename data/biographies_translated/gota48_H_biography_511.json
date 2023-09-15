@@ -1,0 +1,131 @@
+{
+    "original": "Holte, Oskar Vilhelm, distriktsöver-lärare, Linköping, f. 10/7/90 i Oden-sjö, Kronob. 1., av riksd:m., hemm:-äg. J. P. Persson o. Johanna Eriksson. G. 14 m. Naemi Lundquist. Barn: Birgit f. 16, Gunnar 20, Ragnar 27. — Organistex. i Kalmar 06, folksk:lär:-ex. i Gbg 11. E. o. folksk:Iär. i Linköp. 11-14, ord. dito 15, tf. folksk:-insp. f. Linköp. stad 40, distr :överlär. sed. 43. Led. àv drätselkamm. 20-25, stadsfullm. 23-25, styr. f. Broby skyddshem 41, lär rkårens repr. i skol-styr. 38-41.",
+    "translated": "Holte, Oskar Vilhelm, district head teacher, Linköping, born July 10, 1890 in Odensjö, Kronoborgs län (county), son of Member of Parliament, J.P. Persson, and Johanna Eriksson. He married Naemi Lundquist in 1914, and they had three children: Birgit, born 1916, Gunnar, born 1920, and Ragnar, born 1927. Holte graduated as an organist in Kalmar in 1906 and as a primary school teacher in Gothenburg in 1911. He taught elementary school in Linköping from 1911 to 1914, and as a regular teacher from 1915 to 1940. He served as interim elementary school inspector for the city of Linköping from 1940, and as district head teacher from 1943. He was a member of the municipal council from 1923 to 1925 and served on the finance committee from 1920 to 1925. He was also on the board of the Broby shelter home in 1941 and represented the military in the school board from 1938 to 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oskar Vilhelm Holte\",\n  \"birthDate\": \"1890-07-10\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Odensjö, Kronoborgs län, Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J.P. Persson\",\n      \"jobTitle\": \"Member of Parliament\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johanna Eriksson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Naemi Lundquist\",\n    \"marriageDate\": \"1914\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1916\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnar\",\n      \"birthDate\": \"1927\"\n    }\n  ],\n  \"jobTitle\": [\n    \"District Head Teacher\",\n    \"Organist\",\n    \"Primary School Teacher\",\n    \"Elementary School Teacher\",\n    \"Interim Elementary School Inspector\"\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Kalmar\",\n      \"alumniOf\": \"@id\",\n      \"url\": \"http://example.edu/\",\n      \"educationalCredentialAwarded\": \"Organistex.\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg\",\n      \"alumniOf\": \"@id\",\n      \"url\": \"http://example.edu/\",\n      \"educationalCredentialAwarded\": \"Folksk:lär:-ex.\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Council\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finance Committee\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Broby Shelter Home\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Military\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Drätselkamm\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"startDate\": [\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Taught elementary school in Linköping\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Served as regular teacher in Linköping\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Served as interim elementary school inspector for the city of Linköping\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Served as district head teacher\",\n      \"startDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oskar Vilhelm Holte",
+        "birthDate": "1890-07-10",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Odensjö, Kronoborgs län, Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "J.P. Persson",
+                "jobTitle": "Member of Parliament"
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Eriksson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Naemi Lundquist",
+            "marriageDate": "1914"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1916"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Ragnar",
+                "birthDate": "1927"
+            }
+        ],
+        "jobTitle": [
+            "District Head Teacher",
+            "Organist",
+            "Primary School Teacher",
+            "Elementary School Teacher",
+            "Interim Elementary School Inspector"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping",
+            "addressCountry": "Sweden"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Kalmar",
+                "alumniOf": "@id",
+                "url": "http://example.edu/",
+                "educationalCredentialAwarded": "Organistex."
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg",
+                "alumniOf": "@id",
+                "url": "http://example.edu/",
+                "educationalCredentialAwarded": "Folksk:lär:-ex."
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Municipal Council",
+                "startDate": "1923",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Finance Committee",
+                "startDate": "1920",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Board of Broby Shelter Home",
+                "startDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Military",
+                "startDate": "1938",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Drätselkamm",
+                "startDate": "1920",
+                "endDate": "1925"
+            }
+        ],
+        "startDate": [
+            {
+                "@type": "Event",
+                "name": "Taught elementary school in Linköping",
+                "startDate": "1911",
+                "endDate": "1914"
+            },
+            {
+                "@type": "Event",
+                "name": "Served as regular teacher in Linköping",
+                "startDate": "1915",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Event",
+                "name": "Served as interim elementary school inspector for the city of Linköping",
+                "startDate": "1940"
+            },
+            {
+                "@type": "Event",
+                "name": "Served as district head teacher",
+                "startDate": "1943"
+            }
+        ]
+    }
+}

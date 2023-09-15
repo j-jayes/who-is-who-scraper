@@ -1,0 +1,77 @@
+{
+    "original": "Johansson, Eric Johan, tandläkare, Skövde, f. 18/7/87 i Skövde av Johan J. o. Ingeborg Erika Dahlin. G. 13 m. Lisa Nyman, d. 34. Barn: Olof f. 14, Gunnar 16. — Moig:ex. i Skara 06, tandl:kand. 08, tandläk. 10, stud. h. förste hovtandl. J. Sandblom i Sthlm 10, h. prof. Williger i Berlin 13 o. 20 ’samt h. prof. Weski i Berlin 28. Praktik i Skövde sed. 11.",
+    "translated": "Johansson, Eric Johan, dentist, Skövde. Born on July 18, 1887 in Skövde to parents Johan J. and Ingeborg Erika Dahlin. Married to Lisa Nyman in 1913, who died in 1934. They had two children: Olof (born 1914) and Gunnar (born 1916). Graduated from Skara Examen in 1906, completed dental studies in 1910, and was a student under the first court dentist J. Sandblom in Stockholm in 1910. Later studied under Professor Williger in Berlin in 1913 and 1920, as well as under Professor Weski in Berlin in 1928. He has been in practice in Skövde since 1911.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Eric Johan Johansson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1887-07-18\",\n  \"birthPlace\": \"Skövde\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan J. Johansson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingeborg Erika Dahlin\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lisa Nyman\",\n    \"deathDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Johansson\",\n      \"birthDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Johansson\",\n      \"birthDate\": \"1916\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skara Examen\",\n      \"endDate\": \"1906\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm University\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University of Berlin\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University of Berlin\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Dental Association\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Skövde\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"startDate\": \"1911\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Eric Johan Johansson",
+        "jobTitle": "Dentist",
+        "birthDate": "1887-07-18",
+        "birthPlace": "Skövde",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan J. Johansson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingeborg Erika Dahlin",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lisa Nyman",
+            "deathDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Olof Johansson",
+                "birthDate": "1914"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar Johansson",
+                "birthDate": "1916"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara Examen",
+                "endDate": "1906"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm University",
+                "startDate": "1910",
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Berlin",
+                "startDate": "1913",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Berlin",
+                "startDate": "1928",
+                "endDate": "1929"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Association"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skövde",
+            "addressCountry": "Sweden"
+        },
+        "startDate": "1911"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "original": "Jagenburg, Hans Rudolf, ingenjör, Borås, f. 18/8/94 i Kinnarumma, Älvsb. 1., av dir. Rudolf Otto J. o. Ida Pet- 31 tersson. G. 22 m. Gudrun Håkansson. Barn: Siv f. 24, Anine-Beate 28. — Stud:ex. v. Örebro tekn. .sk. 19, stud. i Amerika, Tyskl., Frankr. o. Tjecko-slov. 19-22. Res. t. Amerika 37 o. 46. Ing. v. Borås Wäfveri A-B, avd. tryckeriet, s’ed. 21, avd xhef S’ed. 36. Led. av styr. f. Borås Wäfveri A-B sed. 38. Erövrat ett flert. sv. mästersk. i allm. idr.",
+    "translated": "Jagenburg, Hans Rudolf, engineer, Borås, b. 18/8/94 in Kinnarumma, Älvsb. Co., son of director Rudolf Otto J. and Ida Pettersson. Married on 22 with Gudrun Håkansson. Children: Siv b. 24, Anine-Beate b. 28. - Student from Örebro Technical School in 19, studied in America, Germany, France and Czechoslovakia from 19-22. Traveled to America in 37 and 46. Engineer at Borås Wäfveri A-B, printing department, since 21 and department head since 36. Member of the board for Borås Wäfveri A-B since 38. Won several Swedish championships in sports.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Hans Rudolf Jagenburg\",\n  \"birthDate\": \"1894-08-18\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Kinnarumma\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Älvsborg County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rudolf Otto Jagenburg\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Pettersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gudrun Håkansson\",\n    \"marriageDate\": \"1922-22-22\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Siv Jagenburg\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anine-Beate Jagenburg\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Örebro Technical School\",\n      \"location\": \"Örebro, Sweden\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"N/A\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Unknown\",\n      \"location\": \"America\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Unknown\",\n      \"location\": \"Germany\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Unknown\",\n      \"location\": \"France\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Unknown\",\n      \"location\": \"Czechoslovakia\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"jobTitle\": \"Engineer\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Wäfveri A-B\",\n      \"department\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Printing Department\",\n          \"startDate\": \"1921\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Department Head\",\n          \"startDate\": \"1936\"\n        }\n      ],\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Board of Directors\",\n        \"startDate\": \"1938\"\n      }\n    }\n  ],\n  \"sports\": [\n    {\n      \"@type\": \"SportsActivityLocation\",\n      \"name\": \"Sweden\",\n      \"championships\": [\n        {\n          \"@type\": \"Championship\",\n          \"name\": \"Multiple Swedish Championships\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Unknown\",\n    \"location\": \"America\",\n    \"startDate\": \"1937\",\n    \"endDate\": \"1937\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Hans Rudolf Jagenburg",
+        "birthDate": "1894-08-18",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Kinnarumma",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Älvsborg County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Rudolf Otto Jagenburg",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Pettersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gudrun Håkansson",
+            "marriageDate": "1922-22-22"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Siv Jagenburg",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Anine-Beate Jagenburg",
+                "birthDate": "1928"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Örebro Technical School",
+                "location": "Örebro, Sweden",
+                "startDate": "1919",
+                "endDate": "N/A"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Unknown",
+                "location": "America"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Unknown",
+                "location": "Germany"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Unknown",
+                "location": "France"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Unknown",
+                "location": "Czechoslovakia",
+                "startDate": "1919",
+                "endDate": "1922"
+            }
+        ],
+        "jobTitle": "Engineer",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Borås Wäfveri A-B",
+                "department": [
+                    {
+                        "@type": "Organization",
+                        "name": "Printing Department",
+                        "startDate": "1921"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Department Head",
+                        "startDate": "1936"
+                    }
+                ],
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Board of Directors",
+                    "startDate": "1938"
+                }
+            }
+        ],
+        "sports": [
+            {
+                "@type": "SportsActivityLocation",
+                "name": "Sweden",
+                "championships": [
+                    {
+                        "@type": "Championship",
+                        "name": "Multiple Swedish Championships"
+                    }
+                ]
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Unknown",
+            "location": "America",
+            "startDate": "1937",
+            "endDate": "1937"
+        }
+    }
+}

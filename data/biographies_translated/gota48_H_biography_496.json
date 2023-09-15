@@ -1,0 +1,79 @@
+{
+    "original": "Holmqvist, Stig Ture, hypoteksom-budsman, Visby, f. 27/10/06 i Slite, Gotl. 1., av landsfiskal Thure H. o. Elin Nyström. G. 45 m. Birgit Selmer. — Stud :ex. i Visby 25, jur. kand. i Sthlm 37. Kapt. i kustart. res. 41. Tingstjg. i Gotl. n. dom,s. 37-38, i Gotl. s. doms. 38-39, inneh. förordn. s. stadsfogde o. rådm. i Visby, omb :man h. Gotl. Hypoteksfören. sed. 41.",
+    "translated": "Holmqvist, Stig Ture, mortgage officer, Visby, b. 27/10/06 in Slite, Gotland, son of district governor Thure H. and Elin Nyström. Married in 1945 to Birgit Selmer. - Studied in Visby, graduated in 1925, law degree in Stockholm in 1937. Captain in coastal artillery reserve in 1941. District court judge in Gotland, appointed as city bailiff and councilor in Visby, representative of the Gotland Mortgage Association since 1941.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Stig Ture Holmqvist\",\n   \"jobTitle\":\"Mortgage Officer\",\n   \"birthDate\":\"1906-10-27\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Slite\",\n      \"address\":{\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Gotland\"\n      }\n   },\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Thure H. Holmqvist\",\n         \"jobTitle\":\"District Governor\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Elin Nyström\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Birgit Selmer\",\n      \"marriageDate\":\"1945\"\n   },\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Studied in Visby\",\n         \"startDate\":\"1925\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Law degree from Stockholm\",\n         \"startDate\":\"1937\"\n      }\n   ],\n   \"memberOf\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Gotland Mortgage Association\",\n         \"memberOf\":\"Representative\",\n         \"startDate\":\"1941\"\n      }\n   ],\n   \"jobTitle\":[\n      {\n         \"@type\":\"District Court Judge\",\n         \"name\":\"Gotland\",\n         \"startDate\":\"1937\",\n         \"endDate\":\"1938\"\n      },\n      {\n         \"@type\":\"City Bailiff\",\n         \"name\":\"Visby\",\n         \"startDate\":\"1938\"\n      },\n      {\n         \"@type\":\"Councillor\",\n         \"name\":\"Visby\",\n         \"startDate\":\"1938\"\n      }\n   ],\n   \"sportsTeamMember\":{\n      \"@type\":\"SportsTeam\",\n      \"name\":\"Coastal Artillery Reserve\",\n      \"position\":\"Captain\",\n      \"startDate\":\"1941\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Stig Ture Holmqvist",
+        "jobTitle": [
+            {
+                "@type": "District Court Judge",
+                "name": "Gotland",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "City Bailiff",
+                "name": "Visby",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Councillor",
+                "name": "Visby",
+                "startDate": "1938"
+            }
+        ],
+        "birthDate": "1906-10-27",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Slite",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gotland"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Thure H. Holmqvist",
+                "jobTitle": "District Governor"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Nyström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgit Selmer",
+            "marriageDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied in Visby",
+                "startDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Law degree from Stockholm",
+                "startDate": "1937"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gotland Mortgage Association",
+                "memberOf": "Representative",
+                "startDate": "1941"
+            }
+        ],
+        "sportsTeamMember": {
+            "@type": "SportsTeam",
+            "name": "Coastal Artillery Reserve",
+            "position": "Captain",
+            "startDate": "1941"
+        }
+    }
+}

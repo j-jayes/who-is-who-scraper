@@ -1,0 +1,177 @@
+{
+    "original": "Hollström, Nils Fredrik, riksbanksdirektör, Norrköping, f. 7/12/87 i Ne-derluleå, Norrb. 1., av komm :lantmät. Gustaf H. o. Albertina Elisabeth Holm. G. m. Ellen Wikberg. Barn: Björn f. 17, Stig 18, Gunnar 20. — Stud:ex. 06. Anst. v. riksbankens avd:kont. i Luleå 06, ord. tj :man i registrators- o. bokhåll :gr. i Norrköp. 14, registrator 26, kassör 31, kamr. 40, dir. v. avd :kont. i Norrköp. sed. 43. Led. av styr. f. riksb. avd:kont. i Norrköp. Hobbies: skytte o. skidåkning. iSvgifrfb förtj:GM, Ö’stergö’til. ’skytteförb. förtj :GM, Norrb. idr:förb. förtj:GM, Norrb. skytteförb. förtj :-SM, Skidfrämj. förtj :SM.",
+    "translated": "Hollström, Nils Fredrik, director of the National Bank, Norrköping, born on December 7th, 1887 in Nederluleå, Norrbotten county, son of Gustaf H., a district surveyor, and Albertina Elisabeth Holm. Married to Ellen Wikberg in the year 19xx. Children: Björn born in 1917, Stig in 1918, Gunnar in 1920. He passed his high school exam in 1906 and started working at the National Bank's branch office in Luleå. In 1914, he became an ordinary clerk in the registration and bookkeeping department in Norrköping, then an official registrar in 1926, a treasurer in 1931, an accountant in 1940 and a director of the branch office in Norrköping since 1943. He is a member of the board of the National Bank's branch office in Norrköping. His hobbies are shooting and skiing. He has received the Order of the Sword 1st Class, the Östergötland Shooting Association's Medal of Merit, the Norrbotten Sports Federation's Medal of Merit, the Norrbotten Shooting Association's Medal of Merit, and the Ski Promotion's Medal of Merit.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Fredrik Hollström\",\n  \"birthDate\": \"1887-12-07\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Nederluleå\",\n      \"addressRegion\": \"Norrbotten\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf H.\",\n      \"occupation\": \"District Surveyor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albertina Elisabeth Holm\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Wikberg\",\n    \"dateOfMarriage\": \"19xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig\",\n      \"birthDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1920\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Stud:ex\",\n    \"credentialCategory\": \"High School\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"National Bank\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"National Bank's branch office in Norrköping\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank\"\n      }\n    }\n  ],\n  \"jobTitle\": \"Director\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"National Bank's branch office in Norrköping\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Norrköping\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Ordinary Clerk\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1926\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank's branch office in Norrköping\",\n        \"memberOf\": {\n          \"@type\": \"Organization\",\n          \"name\": \"National Bank\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Official Registrar\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1931\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank's branch office in Norrköping\",\n        \"memberOf\": {\n          \"@type\": \"Organization\",\n          \"name\": \"National Bank\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Treasurer\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1940\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank's branch office in Norrköping\",\n        \"memberOf\": {\n          \"@type\": \"Organization\",\n          \"name\": \"National Bank\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Accountant\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1943\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank's branch office in Norrköping\",\n        \"memberOf\": {\n          \"@type\": \"Organization\",\n          \"name\": \"National Bank\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Director\",\n      \"startDate\": \"1943\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank's branch office in Norrköping\",\n        \"memberOf\": {\n          \"@type\": \"Organization\",\n          \"name\": \"National Bank\"\n        }\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"National Bank's branch office in Norrköping\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank\"\n      }\n    }\n  ],\n  \"gender\": \"Male\",\n  \"hobbies\": [\n    \"Shooting\",\n    \"Skiing\"\n  ],\n  \"awards\": [\n    {\n        \"@type\": \"Order\",\n        \"name\": \"Order of the Sword 1st Class\"\n    },\n    {\n        \"@type\": \"Medal\",\n        \"name\": \"Östergötland Shooting Association's Medal of Merit\"\n    },\n    {\n        \"@type\": \"Medal\",\n        \"name\": \"Norrbotten Sports Federation's Medal of Merit\"\n    },\n    {\n        \"@type\": \"Medal\",\n        \"name\": \"Norrbotten Shooting Association's Medal of Merit\"\n    },\n    {\n        \"@type\": \"Medal\",\n        \"name\": \"Ski Promotion's Medal of Merit\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Fredrik Hollström",
+        "birthDate": "1887-12-07",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Nederluleå",
+                "addressRegion": "Norrbotten",
+                "addressCountry": "Sweden"
+            }
+        },
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf H.",
+                "occupation": "District Surveyor"
+            },
+            {
+                "@type": "Person",
+                "name": "Albertina Elisabeth Holm"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Wikberg",
+            "dateOfMarriage": "19xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1920"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Stud:ex",
+            "credentialCategory": "High School"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "National Bank's branch office in Norrköping",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "National Bank"
+                }
+            }
+        ],
+        "jobTitle": "Director",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "National Bank's branch office in Norrköping",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Norrköping",
+                "addressCountry": "Sweden"
+            }
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Ordinary Clerk",
+                "startDate": "1914",
+                "endDate": "1926",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "National Bank's branch office in Norrköping",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "National Bank"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Official Registrar",
+                "startDate": "1926",
+                "endDate": "1931",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "National Bank's branch office in Norrköping",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "National Bank"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Treasurer",
+                "startDate": "1931",
+                "endDate": "1940",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "National Bank's branch office in Norrköping",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "National Bank"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Accountant",
+                "startDate": "1940",
+                "endDate": "1943",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "National Bank's branch office in Norrköping",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "National Bank"
+                    }
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Director",
+                "startDate": "1943",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "National Bank's branch office in Norrköping",
+                    "memberOf": {
+                        "@type": "Organization",
+                        "name": "National Bank"
+                    }
+                }
+            }
+        ],
+        "gender": "Male",
+        "hobbies": [
+            "Shooting",
+            "Skiing"
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Order of the Sword 1st Class"
+            },
+            {
+                "@type": "Medal",
+                "name": "Östergötland Shooting Association's Medal of Merit"
+            },
+            {
+                "@type": "Medal",
+                "name": "Norrbotten Sports Federation's Medal of Merit"
+            },
+            {
+                "@type": "Medal",
+                "name": "Norrbotten Shooting Association's Medal of Merit"
+            },
+            {
+                "@type": "Medal",
+                "name": "Ski Promotion's Medal of Merit"
+            }
+        ]
+    }
+}

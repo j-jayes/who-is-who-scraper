@@ -1,0 +1,106 @@
+{
+    "original": "Johansson, Axel Vilhelm, ordförande i stadsfullmäktige, Uddevalla, f. 9/ 5/88 i Häs-sleby, Jönköp. 1., av Claes o. Stina Johans’son. G. 09 m. Elna Olsson. Barn: Karin f. 09, Erik 11, Gunnel 23. — Anst. v. Kuriren i Uddevalla fr. 21. Led. av stadsfullm. fr. 16, ordf. fr. 28, landstingsman fr. 18, led. av las:dir. ised. 19, ordf. sed. 37, led. av styr. f. Gräskärrs skolhem (sed. 20, ordlfu sed. 40, led. av landstingets föriv:utsk. o. des’s sjukv :beredn. Styr:iled. i Nya Tryckeri A-B Kuriren fr. 21:, i Uddevalla-Varvet A-B fr. 46.",
+    "translated": "Johansson, Axel Vilhelm, Chairman of the city council in Uddevalla, born on May 9th, 1888 in Hässleby, Jönköping County, son of Claes and Stina Johansson. Married in 1909 to Elna Olsson, with whom he had three children: Karin (born 1909), Erik (born 1911), and Gunnel (born 1923). He was employed by the newspaper Kuriren in Uddevalla from 1921 and became a member of the city council in 1916, serving as its chairman from 1928. He was also a member of the county council from 1918, a member of the board of the las:dir. ised. (possibly a medical institution) from 1919, and its chairman from 1937. Additionally, he served as a board member for Gräskärrs skolhem from 1920, as its chairman from 1940, and as a board member for the county council's föriv:utsk. and its sjukv:beredn. He was also a board member of the Nya Tryckeri A-B Kuriren from 1921 and of the Uddevalla-Varvet A-B from 1946.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Vilhelm Johansson\",\n  \"birthDate\": \"1888-05-09\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Hässleby\",\n      \"addressRegion\": \"Jönköping County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes Johansson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stina Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elna Olsson\",\n    \"marriageDate\": \"1909\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Johansson\",\n      \"birthDate\": \"1909\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Johansson\",\n      \"birthDate\": \"1911\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnel Johansson\",\n      \"birthDate\": \"1923\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kuriren\",\n      \"startDate\": \"1921\" \n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla city council\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1940\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County Council\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Las:dir. ised.\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1937\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gräskärrs skolhem\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1940\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nya Tryckeri A-B Kuriren\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla-Varvet A-B\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Landstingets föriv:utsk.\",\n      \"roleName\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Des’s sjukv:beredn.\",\n      \"roleName\": \"Board Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Axel Vilhelm Johansson",
+        "birthDate": "1888-05-09",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hässleby",
+                "addressRegion": "Jönköping County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Claes Johansson"
+            },
+            {
+                "@type": "Person",
+                "name": "Stina Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elna Olsson",
+            "marriageDate": "1909"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin Johansson",
+                "birthDate": "1909"
+            },
+            {
+                "@type": "Person",
+                "name": "Erik Johansson",
+                "birthDate": "1911"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnel Johansson",
+                "birthDate": "1923"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Kuriren",
+                "startDate": "1921"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Uddevalla city council",
+                "startDate": "1916",
+                "endDate": "1940",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Council",
+                "startDate": "1918"
+            },
+            {
+                "@type": "Organization",
+                "name": "Las:dir. ised.",
+                "startDate": "1919",
+                "endDate": "1937",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gräskärrs skolhem",
+                "startDate": "1920",
+                "endDate": "1940",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nya Tryckeri A-B Kuriren",
+                "startDate": "1921"
+            },
+            {
+                "@type": "Organization",
+                "name": "Uddevalla-Varvet A-B",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Landstingets föriv:utsk.",
+                "roleName": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Des’s sjukv:beredn.",
+                "roleName": "Board Member"
+            }
+        ]
+    }
+}

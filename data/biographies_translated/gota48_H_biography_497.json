@@ -1,0 +1,101 @@
+{
+    "original": "Holmqvist, Thor Henning Filip, överstelöjtnant, Växjö, f. 5/4/95 i Gbg av rektorn Filip H. o. Glara Törn-quist. G. m. Eva Nordenborg, Barn: Inger f. 37. — Stud:ex. i Gbg 16, SS 27, KHS 31-33. Fänr. v. Västg. reg. 19, und:löjtn. 21, löjtn. 21, transp. t. Älvsb. reg. 28, kapt. 34, major 40, öv:-löjtn. v. 1.19 44, transp. t. 1.11 46. Förste lär. v. SS 39-44. RSO, Landst-SM, Älvsb. landstiförb. SM.",
+    "translated": "Holmqvist, Thor Henning Filip, Lieutenant Colonel, Växjö, b. on April 5, 1895, in Gothenburg to the headmaster Filip H. and Glara Törnquist. Married to Eva Nordenborg in the year 19xx. Children: Inger b. 1937. Graduated from secondary school in Gothenburg in 1916, SS in 1927, KHS in 1931-33. Second lieutenant in Västgöta regiment in 1919, lieutenant in 1921, transferred to Älvsborg regiment in 1928, captain in 1934, major in 1940, lieutenant colonel in 1944, transferred to Life Regiment Hussars in 1946. First teacher at SS in 1939-44. Awarded with RSO, Landsting's Medal, and Älvsborg County Federation Medal.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Thor Henning Filip Holmqvist\",\n  \"jobTitle\": \"Lieutenant Colonel\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"birthDate\": \"1895-04-05\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Filip H. Holmqvist\",\n      \"jobTitle\": \"Headmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Glara Törnquist\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eva Nordenborg\",\n    \"birthYear\": \"19xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Holmqvist\",\n      \"birthYear\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"educationalCredentialAwarded\": \"Graduated\",\n      \"educationalInstitution\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"SS\",\n      \"educationalCredentialAwarded\": \"Graduated\",\n      \"educationalInstitution\": \"SS\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"KHS\",\n      \"educationalCredentialAwarded\": \"Graduated\",\n      \"educationalInstitution\": \"KHS\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västgöta regiment\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1928\",\n      \"jobTitle\": \"Second lieutenant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älvsborg regiment\",\n      \"startDate\": \"1928\",\n      \"jobTitle\": \"Lieutenant\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Life Regiment Hussars\",\n      \"startDate\": \"1946\",\n      \"jobTitle\": \"Lieutenant colonel\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SS\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1944\",\n      \"jobTitle\": \"First teacher\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"ReceivedMedal\",\n      \"name\": \"RSO\"\n    },\n    {\n      \"@type\": \"ReceivedMedal\",\n      \"name\": \"Landsting's Medal\"\n    },\n    {\n      \"@type\": \"ReceivedMedal\",\n      \"name\": \"Älvsborg County Federation Medal\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Thor Henning Filip Holmqvist",
+        "jobTitle": "Lieutenant Colonel",
+        "birthPlace": "Gothenburg, Sweden",
+        "birthDate": "1895-04-05",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Filip H. Holmqvist",
+                "jobTitle": "Headmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Glara Törnquist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Eva Nordenborg",
+            "birthYear": "19xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Holmqvist",
+                "birthYear": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "SecondarySchool",
+                "educationalCredentialAwarded": "Graduated",
+                "educationalInstitution": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "SS",
+                "educationalCredentialAwarded": "Graduated",
+                "educationalInstitution": "SS"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "KHS",
+                "educationalCredentialAwarded": "Graduated",
+                "educationalInstitution": "KHS",
+                "startDate": "1931",
+                "endDate": "1933"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Västgöta regiment",
+                "startDate": "1919",
+                "endDate": "1928",
+                "jobTitle": "Second lieutenant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvsborg regiment",
+                "startDate": "1928",
+                "jobTitle": "Lieutenant",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Life Regiment Hussars",
+                "startDate": "1946",
+                "jobTitle": "Lieutenant colonel"
+            },
+            {
+                "@type": "Organization",
+                "name": "SS",
+                "startDate": "1939",
+                "endDate": "1944",
+                "jobTitle": "First teacher"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "ReceivedMedal",
+                "name": "RSO"
+            },
+            {
+                "@type": "ReceivedMedal",
+                "name": "Landsting's Medal"
+            },
+            {
+                "@type": "ReceivedMedal",
+                "name": "Älvsborg County Federation Medal"
+            }
+        ]
+    }
+}

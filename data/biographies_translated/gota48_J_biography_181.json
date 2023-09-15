@@ -1,0 +1,72 @@
+{
+    "original": "Jonsson, Enar Gustaf Nathanael, redaktör, Göteborg, f. 18/5/91 i Gbg av Gustaf J. o. Lovisa Börjesson. — Stud:ex. v. Gbgs h. latin 09. Tj :man i Skand. Kredit A-B 10-12, medarb. i Gbgs-Posten 13-16, i Gbgs Hand:- o. Sjöfartstidn. sed. 16. Medl. av Publ:-kl. o. Sv. journ:fören. Sign.: E. J., Fob m. fl.",
+    "translated": "Jonsson, Enar Gustaf Nathanael, editor, Gothenburg, born May 18th, 1891 in Gothenburg to Gustaf J. and Lovisa Börjesson. He graduated from Gothenburg's Higher Latin School in 1909. He worked as a clerk at Skand. Kredit A-B from 1910-1912 and as a contributor to Gbgs-Posten from 1913-1916, and later at Gbgs Handel- och Sjöfartstidning. He is a member of the Publicist Club and the Swedish Journalist Association. He used the signature E.J., Fob and others. He married in the year 19xx, with the partner's name unknown.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Enar Gustaf Nathanael Jonsson\",\n  \"jobTitle\": \"Editor\",\n  \"birthDate\": \"1891-05-18\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf J. Jonsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lovisa Börjesson\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex.\",\n    \"educationalLevel\": \"v. Gbgs h. latin\",\n    \"educationalCredentialAwarded\": \"09\",\n    \"awardedBy\": \"Gothenburg's Higher Latin School\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skand. Kredit A-B\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1912\",\n      \"jobTitle\": \"Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gbgs-Posten\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1916\",\n      \"jobTitle\": \"Contributor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gbgs Handel- och Sjöfartstidning\",\n      \"startDate\": \"1916\",\n      \"jobTitle\": \"Editor\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Publicist Club\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Journalist Association\"\n    }\n  ],\n  \"signature\": [\n    \"E.J.\",\n    \"Fob\",\n    \"m. fl.\"\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\",\n    \"marriageDate\": \"19xx\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Enar Gustaf Nathanael Jonsson",
+        "jobTitle": "Editor",
+        "birthDate": "1891-05-18",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf J. Jonsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Lovisa Börjesson"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex.",
+            "educationalLevel": "v. Gbgs h. latin",
+            "educationalCredentialAwarded": "09",
+            "awardedBy": "Gothenburg's Higher Latin School"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Skand. Kredit A-B",
+                "startDate": "1910",
+                "endDate": "1912",
+                "jobTitle": "Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gbgs-Posten",
+                "startDate": "1913",
+                "endDate": "1916",
+                "jobTitle": "Contributor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gbgs Handel- och Sjöfartstidning",
+                "startDate": "1916",
+                "jobTitle": "Editor"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Publicist Club"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Journalist Association"
+            }
+        ],
+        "signature": [
+            "E.J.",
+            "Fob",
+            "m. fl."
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown",
+            "marriageDate": "19xx"
+        }
+    }
+}

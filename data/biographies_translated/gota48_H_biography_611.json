@@ -1,0 +1,104 @@
+{
+    "original": "Högberg, Erik, tandläkare, Västervik, f. 12/3/89 i Jönköp. av brygg :äg. Anders Gustaf H. o. Anna Christina Andersdotter. G. 15 m. Anna Wig-sten. Biarn: Birgit f. 17, Vera 19, Else 20. — Stud:ex. i Jönköp. 09, tiandil:-kand. H, tandliäk. 14. Prakt, tandläkare i Västervik 14-43. Hobby: musik.",
+    "translated": "Högberg, Erik, dentist, from Västervik, born March 12, 1889 in Jönköping to dock owner Anders Gustaf H. and Anna Christina Andersdotter. Married on the 15th of an unspecified month to Anna Wigsten. Children: Birgit born 1917, Vera born 1919, and Else born 1920. He graduated high school in Jönköping in 1909, and graduated with a degree in dentistry in 1914. He practiced dentistry in Västervik from 1914-1943. His hobby was music.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Högberg\",\n  \"birthDate\": \"1889-03-12\",\n  \"birthPlace\": \"Jönköping, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Västervik\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Gustaf Högberg\",\n      \"jobTitle\": \"Dock Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Christina Andersdotter\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Wigsten\",\n      \"marriageDate\": \"unspecified month, 15\"\n    }\n  ],\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit Högberg\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vera Högberg\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Else Högberg\",\n      \"birthDate\": \"1920\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Stud:ex\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping High School\"\n      },\n      \"dateIssued\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Degree in Dentistry\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"University\"\n      },\n      \"dateIssued\": \"1914\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Association\"\n    }\n  ],\n  \"article\": {\n    \"@type\": \"Article\",\n    \"name\": \"Erik Högberg, A Passionate Dentist and Musician\",\n    \"author\": {\n      \"@type\": \"Person\",\n      \"name\": \"Your Name\"\n    },\n    \"datePublished\": \"2021-09-22\"\n  },\n  \"hobbies\": \"Music\",\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Västervik\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Private Dental Practice\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Erik Högberg",
+        "birthDate": "1889-03-12",
+        "birthPlace": "Jönköping, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Västervik",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Anders Gustaf Högberg",
+                "jobTitle": "Dock Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Christina Andersdotter"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Anna Wigsten",
+                "marriageDate": "unspecified month, 15"
+            }
+        ],
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Birgit Högberg",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Vera Högberg",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Else Högberg",
+                "birthDate": "1920"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Stud:ex",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Jönköping High School"
+                },
+                "dateIssued": "1909"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Degree in Dentistry",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "University"
+                },
+                "dateIssued": "1914"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Dental Association"
+            }
+        ],
+        "article": {
+            "@type": "Article",
+            "name": "Erik Högberg, A Passionate Dentist and Musician",
+            "author": {
+                "@type": "Person",
+                "name": "Your Name"
+            },
+            "datePublished": "2021-09-22"
+        },
+        "hobbies": "Music",
+        "workLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Västervik",
+                "addressCountry": "Sweden"
+            }
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Private Dental Practice"
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "original": "Frode, Hugo Wiilliam, civilingenjör, Göteborg, f. 18/11/71 i V. Sönnarslöv, Krist. 1. G. 01 m. Amanda Qvarn-ström, d. 42. — Ing:ex. v. CTI 92. Bitr. ing. v. Gbgs stads byggn :kont. o. vattenledn :verk 92, v. hamnstyr. 94, arb :chef v. Gbgs hamnstyr. 05-32, byggn:ndns besiktn :man f. ensk. av-loppsledn. 02-44. Led. av Sv. komm:-tekn. fören. samt av olika komm. 1. avloppsledn :frågor. RVO.",
+    "translated": "Frode, Hugo William, civil engineer, Gothenburg, born November 18, 1871 in V. Sönnarslöv, Krist. 1. Married in 1901 to Amanda Qvarnström, who passed away in 1942. He obtained his engineering degree from CTI in 1892, and worked as Assistant Engineer at Gothenburg City Building and Waterworks Department in 1892, at the Port Authority in 1894, and as Chief Engineer of the Port Authority from 1905-1932. He also served as an inspector for private sewage lines from 1902-1944. He was a member of the Swedish Municipal Engineering Association and various municipal commissions concerning sewage issues. He was awarded the RVO distinction.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org/\",\n    \"@type\": \"Person\",\n    \"name\": \"Hugo William Frode\",\n    \"jobTitle\": \"Civil Engineer\",\n    \"birthDate\": \"1871-11-18\",\n    \"birthPlace\": \"V. Sönnarslöv, Krist.\",\n    \"deathDate\": \"Unknown\",\n    \"nationality\": \"Swedish\",\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Swedish Municipal Engineering Association\"\n        }\n    ],\n    \"spouse\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Amanda Qvarnström\",\n            \"deathDate\": \"1942\"\n        }\n    ],\n    \"education\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"credentialCategory\": \"engineering degree\",\n        \"educationalLevel\": \"College\",\n        \"dateEarned\": \"1892\",\n        \"provider\": {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"CTI\"\n        }\n    },\n    \"workLocation\": [\n        {\n            \"@type\": \"Place\",\n            \"name\": \"Gothenburg\"\n        }\n    ],\n    \"workHistory\": [\n        {\n            \"@type\": \"OrganizationRole\",\n            \"title\": \"Assistant Engineer\",\n            \"startDate\": \"1892\",\n            \"endDate\": \"1894\",\n            \"organization\": {\n                \"@type\": \"Organization\",\n                \"name\": \"Gothenburg City Building and Waterworks Department\"\n            }\n        },\n        {\n            \"@type\": \"OrganizationRole\",\n            \"title\": \"Assistant Engineer\",\n            \"startDate\": \"1894\",\n            \"endDate\": \"1905\",\n            \"organization\": {\n                \"@type\": \"Organization\",\n                \"name\": \"Port Authority\"\n            }\n        },\n        {\n            \"@type\": \"OrganizationRole\",\n            \"title\": \"Chief Engineer\",\n            \"startDate\": \"1905\",\n            \"endDate\": \"1932\",\n            \"organization\": {\n                \"@type\": \"Organization\",\n                \"name\": \"Port Authority\"\n            }\n        },\n        {\n            \"@type\": \"OrganizationRole\",\n            \"title\": \"Inspector for private sewage lines\",\n            \"startDate\": \"1902\",\n            \"endDate\": \"1944\",\n            \"organization\": {\n                \"@type\": \"Organization\",\n                \"name\": \"Unknown\"\n            }\n        }\n    ],\n    \"award\": {\n        \"@type\": \"Order\",\n        \"name\": \"RVO\"\n    }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Hugo William Frode",
+        "jobTitle": "Civil Engineer",
+        "birthDate": "1871-11-18",
+        "birthPlace": "V. Sönnarslöv, Krist.",
+        "deathDate": "Unknown",
+        "nationality": "Swedish",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Municipal Engineering Association"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Amanda Qvarnström",
+                "deathDate": "1942"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "engineering degree",
+            "educationalLevel": "College",
+            "dateEarned": "1892",
+            "provider": {
+                "@type": "CollegeOrUniversity",
+                "name": "CTI"
+            }
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Gothenburg"
+            }
+        ],
+        "workHistory": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant Engineer",
+                "startDate": "1892",
+                "endDate": "1894",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg City Building and Waterworks Department"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant Engineer",
+                "startDate": "1894",
+                "endDate": "1905",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Port Authority"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Chief Engineer",
+                "startDate": "1905",
+                "endDate": "1932",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Port Authority"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Inspector for private sewage lines",
+                "startDate": "1902",
+                "endDate": "1944",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "RVO"
+        }
+    }
+}

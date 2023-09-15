@@ -1,0 +1,81 @@
+{
+    "original": "Hofverberg, Oskar Emanuel, disponent, Norrköping, f. 30/3/87 i S :t Olof, Krist. 1. G. 26 m. Ellen Gustafsson. Barn: Inga f. 27, UMa 29, Bertil 30. — Stud. v. handelsskola 09-10, språkstud. i Hamburg 13-14. Start. Limfirman Hernia i Norrköp. 20. Medil. av Haindielsföiren. i Nornköp, Ro-tary. Frimurarorden, W-’sex m,. fil.",
+    "translated": "Hofverberg, Oskar Emanuel, manager, Norrköping, b. March 30, 1887 in St. Olof, Kristianstad. Married on March 26 to Ellen Gustafsson with three children: Inga, born in 1927, unmarried, Uma, born in 1929, and Bertil, born in 1930. Studied at a commercial school in 1909-1910 and language studies in Hamburg from 1913-1914. Started at Limfirman Hernia in Norrköping in 1920. Member of the Handelsföiren, Rotary, Freemasonry, W-sex m, and holds a degree in philosophy.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Oskar Emanuel Hofverberg\",\n   \"jobTitle\": \"Manager\",\n   \"birthDate\": \"1887-03-30\",\n   \"birthPlace\": {\n      \"@type\": \"City\",\n      \"name\": \"St. Olof\",\n      \"address\": {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Kristianstad\",\n         \"addressCountry\": \"Sweden\"\n      }\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Gustafsson\",\n      \"marriageDate\": \"1913-03-26\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Inga Hofverberg\",\n         \"birthDate\": \"1927\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Uma Hofverberg\",\n         \"birthDate\": \"1929\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Bertil Hofverberg\",\n         \"birthDate\": \"1930\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Commercial school\"\n      },\n      {\n         \"@type\": \"EducationalOrganization\",\n         \"name\": \"Language studies in Hamburg\",\n         \"startDate\": \"1913\",\n         \"endDate\": \"1914\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Handelsföiren\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Rotary\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Frimurarorden\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"W-sex m\"\n      }\n   ],\n   \"degree\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Philosophy degree\"\n   },\n   \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Limfirman Hernia\"\n   }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Oskar Emanuel Hofverberg",
+        "jobTitle": "Manager",
+        "birthDate": "1887-03-30",
+        "birthPlace": {
+            "@type": "City",
+            "name": "St. Olof",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kristianstad",
+                "addressCountry": "Sweden"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Gustafsson",
+            "marriageDate": "1913-03-26"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inga Hofverberg",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Uma Hofverberg",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil Hofverberg",
+                "birthDate": "1930"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Commercial school"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Language studies in Hamburg",
+                "startDate": "1913",
+                "endDate": "1914"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Handelsföiren"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rotary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            },
+            {
+                "@type": "Organization",
+                "name": "W-sex m"
+            }
+        ],
+        "degree": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Philosophy degree"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Limfirman Hernia"
+        }
+    }
+}

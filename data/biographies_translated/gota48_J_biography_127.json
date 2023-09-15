@@ -1,0 +1,86 @@
+{
+    "original": "Johansson, Gustaf Arvid, komminister, Hedekas, f. 21/1/07 i Tanum, Gbgs o. Boh. 1. — Stud:ex. i Lund 27, teol. fil. ex. 29, teol. kand. o. prakt, teol. prov 33, prästv. f. Gb’gs istift 34. Tjg. s. pastorsadj. i Skaftö o. Vinberg ’samt s. past:adj. i Gunnarp, ikommin. i Sanne ised. 41.",
+    "translated": "Johansson, Gustaf Arvid, vicar, Hedekas, born on January 21, 1907 in Tanum, Gothenburg and Bohuslän County. He graduated from Lund University with a degree in theology in 1927 and passed his theology exams in 1929. He completed practical theology training and passed his priestly exam in Gothenburg in 1933, then was ordained as a priest in the Gothenburg diocese in 1934. He served as an assistant pastor in Skaftö, Vinberg and Gunnarp, and was appointed as a vicar in Sanne in 1941. He got married in 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Arvid Johansson\",\n  \"jobTitle\": \"Vicar\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Hedekas\",\n    \"addressRegion\": \"Gothenburg and Bohuslän County\"\n  },\n  \"birthDate\": \"1907-01-21\",\n  \"birthPlace\": \"Tanum\",\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"location\": \"Lund\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"educationCredential\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree in Theology\",\n      \"credentialCategory\": \"teol. fil. ex.\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"issuer\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Lund University\",\n        \"location\": \"Lund\"\n      },\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical Theology Training\",\n      \"credentialCategory\": \"prakt, teol. prov\",\n      \"issuer\": \"Gothenburg\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ordination as Priest\",\n      \"credentialCategory\": \"prästv.\",\n      \"issuer\": \"Gothenburg diocese\",\n      \"startDate\": \"1934\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\",\n    \"dateOfMarriage\": \"19xx\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg diocese\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skaftö\",\n      \"jobTitle\": \"Assistant Pastor\",\n      \"startDate\": \"'samt\",\n      \"endDate\": \"Vinberg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gunnarp\",\n      \"jobTitle\": \"Assistant Pastor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sanne\",\n      \"jobTitle\": \"Vicar\",\n      \"startDate\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Arvid Johansson",
+        "jobTitle": "Vicar",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hedekas",
+            "addressRegion": "Gothenburg and Bohuslän County"
+        },
+        "birthDate": "1907-01-21",
+        "birthPlace": "Tanum",
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "location": "Lund",
+                "endDate": "1927"
+            }
+        ],
+        "educationCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in Theology",
+                "credentialCategory": "teol. fil. ex.",
+                "educationalLevel": "Bachelor's Degree",
+                "issuer": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University",
+                    "location": "Lund"
+                },
+                "startDate": "1927",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Practical Theology Training",
+                "credentialCategory": "prakt, teol. prov",
+                "issuer": "Gothenburg",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ordination as Priest",
+                "credentialCategory": "prästv.",
+                "issuer": "Gothenburg diocese",
+                "startDate": "1934"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown",
+            "dateOfMarriage": "19xx"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg diocese"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Skaftö",
+                "jobTitle": "Assistant Pastor",
+                "startDate": "'samt",
+                "endDate": "Vinberg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gunnarp",
+                "jobTitle": "Assistant Pastor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sanne",
+                "jobTitle": "Vicar",
+                "startDate": "1941"
+            }
+        ]
+    }
+}

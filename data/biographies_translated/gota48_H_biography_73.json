@@ -1,0 +1,291 @@
+{
+    "original": "Hallberg, Otto Edvard Magnus, läroverksadjunkt, Göteborg, f. 5/9/89 i Mollösund, Gbgs o. Boh. 1., av kom-min. Otto H. o. Maria Wallerius. G. 15 m. Märta Johansson. Barn: Peter f. 16, lektor v. univ. i Reykjavik på Island, Anna Maria 18, fil. stud., Gbg, Jan Otto 20, jordbr :elev, Gbg, Karin 20, g. m. banktj :man OMe Ze-derfeldt, Moholm. — Mog:ex. v. Gbgs h. latin 08, teol. fil. ex. i Gbg 09, teol. kand. 11, provår 17, prästex. 21. Univ:stud. i Berhn o. Wien 14 resp. 31. Vik. adj. v. Gbgs h. real 13-15 o. 16, e. lär. i Jönköp. 16-17, vik. adj. v. Lunds folksk:sem. 18-19, e. o. lektor i Uddevalla 19-20, adj. i Västervik 19, ilär. v. Västerviks flicklärov. 21-25, adj. i kristend :kunsk. o. hist. m. samh :lära v. Gbgs flicklärov. sed. 32, lär. v. Gbgs gymn. f. fl. sed. 33. Fäng:pred. i Västervik 21-32 samt prästerl. förordn. i Linköp. stift.",
+    "translated": "Hallberg, Otto Edvard Magnus was a high school teacher in Gothenburg. He was born on September 5th, 1889 in Mollösund, Gothenburg and Bohuslän, Sweden, to the Reverend Otto H. and Maria Wallerius. He married Märta Johansson in 15 and they had four children: Peter, born in 1916, a university lecturer in Reykjavik, Iceland; Anna Maria, born in 1918, a student of philosophy in Gothenburg; Jan Otto, born in 1920, an agriculture student in Gothenburg; and Karin, born in 1920, who married a bank employee named OMe Zederfeldt in Moholm. \n\nHallberg passed his exams for Latin at Gothenburg High School in 1908, studied theology and philosophy in Gothenburg from 1909-1911, completed his theological candidacy in 1917, and passed his priestly examination in 1921. He also studied at universities in Berlin and Vienna in 1914 and 1931, respectively. He worked as a substitute teacher at Gothenburg High School from 1913-1915 and 1916, as a teacher in Jönköping from 1916-1917, as a substitute teacher at Lund People's School from 1918-1919, as a lecturer in Uddevalla from 1919-1920, as a teacher in Västervik in 1919, as a teacher at Västervik Women's School from 1921-1925, as a teacher of Christian Studies, history, and social science at Gothenburg Women's School from 1932, and as a teacher at Gothenburg Gymnasium starting in 1933. He was appointed a prison chaplain in Västervik from 1921-1932 and was also an ordained minister in the Linköping Diocese.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Otto Edvard Magnus Hallberg\",\n  \"birthDate\": \"1889-09-05\",\n  \"birthPlace\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"gender\": \"Male\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta Johansson\",\n    \"marriageDate\": \"1915\"\n  },\n  \"children\": [{\n      \"@type\": \"Person\",\n      \"name\": \"Peter Hallberg\",\n      \"birthDate\": \"1916\",\n      \"jobTitle\": \"University Lecturer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"University of Reykjavik\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressCountry\": \"Iceland\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Maria Hallberg\",\n      \"birthDate\": \"1918\",\n      \"jobTitle\": \"Philosophy Student\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg University\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan Otto Hallberg\",\n      \"birthDate\": \"1920\",\n      \"jobTitle\": \"Agriculture Student\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg University\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Hallberg\",\n      \"birthDate\": \"1920\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"OMe Zederfeldt\",\n        \"jobTitle\": \"Bank Employee\",\n        \"worksFor\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Unknown\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Moholm\"\n          }\n        }\n      }\n    }\n  ],\n  \"parents\": [{\n      \"@type\": \"Person\",\n      \"name\": \"Otto H. Hallberg\",\n      \"jobTitle\": \"Reverend\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Wallerius\"\n    }\n  ],\n  \"jobTitle\": \"High School Teacher\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg High School\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n    }\n  },\n  \"education\": [{\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Completed exams in Latin\",\n      \"educationalLevel\": \"High School\",\n      \"educationalCredentialAwarded\": \"Mogenhetsexamen\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"1908\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg High School\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Studied theology and philosophy\",\n      \"educationalLevel\": \"University\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1911\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg University\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Completed theological candidacy\",\n      \"educationalLevel\": \"Theology\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Passed priestly examination\",\n      \"educationalLevel\": \"Theology\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1921\",\n      \"awardedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Studied at universities in Berlin and Vienna\",\n      \"educationalLevel\": \"University\",\n      \"startDate\": [\"1914\", \"1931\"],\n      \"endDate\": [\"1914\", \"1931\"],\n      \"awardedBy\": [{\n          \"@type\": \"Organization\",\n          \"name\": \"Berlin University\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Vienna University\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": [{\n      \"@type\": \"Organization\",\n      \"name\": \"Lund People's School\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Lund\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla School\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\",\n      \"jobTitle\": \"Lecturer\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Uddevalla\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Women's School\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1925\",\n      \"jobTitle\": \"Teacher\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Women's School\",\n      \"startDate\": \"1932\",\n      \"jobTitle\": \"Teacher\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västervik High School\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1915\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Västervik\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping School\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1917\",\n      \"jobTitle\": \"Teacher\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Jönköping\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla School\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\",\n      \"jobTitle\": \"Lecturer\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Uddevalla\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg High School\",\n      \"startDate\": \"1933\",\n      \"jobTitle\": \"Teacher\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    }\n  ],\n  \"knowsAbout\": [{\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Christian Studies\"\n    },\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"History\"\n    },\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Social Science\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Prison Chaplain\",\n    \"startDate\": \"1921\",\n    \"endDate\": \"1932\",\n    \"employedBy\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Västervik Prison\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Västervik\"\n      }\n    }\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Ordained Minister\",\n    \"employedBy\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Diocese\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\"\n      }\n    }\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Otto Edvard Magnus Hallberg",
+        "birthDate": "1889-09-05",
+        "birthPlace": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "gender": "Male",
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Johansson",
+            "marriageDate": "1915"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Peter Hallberg",
+                "birthDate": "1916",
+                "jobTitle": "University Lecturer",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "University of Reykjavik",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "Iceland"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Maria Hallberg",
+                "birthDate": "1918",
+                "jobTitle": "Philosophy Student",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg University",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Jan Otto Hallberg",
+                "birthDate": "1920",
+                "jobTitle": "Agriculture Student",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg University",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Hallberg",
+                "birthDate": "1920",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "OMe Zederfeldt",
+                    "jobTitle": "Bank Employee",
+                    "worksFor": {
+                        "@type": "Organization",
+                        "name": "Unknown",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Moholm"
+                        }
+                    }
+                }
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Otto H. Hallberg",
+                "jobTitle": "Reverend"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Wallerius"
+            }
+        ],
+        "jobTitle": "High School Teacher",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg High School",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg"
+            }
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Completed exams in Latin",
+                "educationalLevel": "High School",
+                "educationalCredentialAwarded": "Mogenhetsexamen",
+                "startDate": "1908",
+                "endDate": "1908",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Gothenburg High School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Studied theology and philosophy",
+                "educationalLevel": "University",
+                "startDate": "1909",
+                "endDate": "1911",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Gothenburg University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Completed theological candidacy",
+                "educationalLevel": "Theology",
+                "startDate": "1917",
+                "endDate": "1917",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Passed priestly examination",
+                "educationalLevel": "Theology",
+                "startDate": "1921",
+                "endDate": "1921",
+                "awardedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Studied at universities in Berlin and Vienna",
+                "educationalLevel": "University",
+                "startDate": [
+                    "1914",
+                    "1931"
+                ],
+                "endDate": [
+                    "1914",
+                    "1931"
+                ],
+                "awardedBy": [
+                    {
+                        "@type": "Organization",
+                        "name": "Berlin University"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Vienna University"
+                    }
+                ]
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Lund People's School",
+                "startDate": "1918",
+                "endDate": "1919",
+                "jobTitle": "Substitute Teacher",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Lund"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Uddevalla School",
+                "startDate": "1919",
+                "endDate": "1920",
+                "jobTitle": "Lecturer",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Uddevalla"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Women's School",
+                "startDate": "1921",
+                "endDate": "1925",
+                "jobTitle": "Teacher",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Women's School",
+                "startDate": "1932",
+                "jobTitle": "Teacher",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Västervik High School",
+                "startDate": "1913",
+                "endDate": "1915",
+                "jobTitle": "Substitute Teacher",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Västervik"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping School",
+                "startDate": "1916",
+                "endDate": "1917",
+                "jobTitle": "Teacher",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Jönköping"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Uddevalla School",
+                "startDate": "1919",
+                "endDate": "1920",
+                "jobTitle": "Lecturer",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Uddevalla"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg High School",
+                "startDate": "1933",
+                "jobTitle": "Teacher",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            }
+        ],
+        "knowsAbout": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Christian Studies"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "History"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Social Science"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Ordained Minister",
+            "employedBy": {
+                "@type": "Organization",
+                "name": "Linköping Diocese",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping"
+                }
+            }
+        }
+    }
+}

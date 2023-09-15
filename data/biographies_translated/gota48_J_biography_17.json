@@ -1,0 +1,102 @@
+{
+    "original": "Jakobson, Karl Justus, landsfiskal, Klintehamn, f. 13/3/90 i Bäl, Gotl. 1., av C. P. J. o. Julia Foblin. G. 19 m. Marta Flemming. Barn: Bengt f. 20, stud. V. soc:pol inst.,, Sven 22, färghand :bitr. — Reaikx. i Visby 07, lians-mansex. VI. E. ilandskont. 13, land’s-■kont. 17, land;s,fiskal i Klintehamns dii-str. sed. 19. Led. av hamndir., ordf. i tingshusstyr., brandchef.",
+    "translated": "Jakobson, Karl Justus, district prosecutor, Klintehamn, born March 13, 1890 in Bäl, Gotland. Son of C. P. J. and Julia Foblin. Married Marta Flemming in 1919. Children: Bengt, born in 1920, studying at the Social Science Institute, Sven, born in 1922, works as an assistant in a paint store. Graduated from Visby in 1907, served as a deputy sheriff in 1906, district clerk in 1913, district prosecutor in Klintehamn since 1919. Member of the port authorities, chairman of the courthouse board, fire chief.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Justus Jakobson\",\n  \"birthDate\": \"1890-03-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Bäl, Gotland\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. P. J. Jakobson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Julia Foblin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Marta Flemming\",\n    \"marriageDate\": \"1919\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1920\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Social Science Institute\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1922\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Paint Store\",\n        \"jobTitle\": \"Assistant\"\n      }\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Visby\",\n    \"credentialCategory\": \"Graduation\",\n    \"validFor\": {\n      \"@type\": \"Duration\",\n      \"name\": \"1907\"\n    }\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Lawyer\",\n      \"name\": \"Deputy Sheriff\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1906\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Clerk\",\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1913-1918\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Prosecutor\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Klintehamn\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1919-present\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Port Authorities\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Courthouse Board\",\n      \"jobTitle\": \"Chairman\"\n    }\n  ],\n  \"jobTitle\": \"Fire Chief\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Justus Jakobson",
+        "birthDate": "1890-03-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Bäl, Gotland"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "C. P. J. Jakobson"
+            },
+            {
+                "@type": "Person",
+                "name": "Julia Foblin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Marta Flemming",
+            "marriageDate": "1919"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1920",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Social Science Institute"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1922",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Paint Store",
+                    "jobTitle": "Assistant"
+                }
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Visby",
+            "credentialCategory": "Graduation",
+            "validFor": {
+                "@type": "Duration",
+                "name": "1907"
+            }
+        },
+        "employmentHistory": [
+            {
+                "@type": "Lawyer",
+                "name": "Deputy Sheriff",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1906"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Clerk",
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1913-1918"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Prosecutor",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Klintehamn"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1919-present"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Port Authorities"
+            },
+            {
+                "@type": "Organization",
+                "name": "Courthouse Board",
+                "jobTitle": "Chairman"
+            }
+        ],
+        "jobTitle": "Fire Chief"
+    }
+}

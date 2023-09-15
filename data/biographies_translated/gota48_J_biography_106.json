@@ -1,0 +1,144 @@
+{
+    "original": "Johansson, John Carl Eric, postmästare, Vimmerby, f. 8/4/90 i Stora Aby, östergötl. 1., av Anders Johan J. o. Elin Karlsson. G. 16 m. Susanne Bodman. Barn: Anders f. 19, försäkr :tj :man, Sthlm. — Stud :ex. i Linköp. 09. Res’ervpos,texp. i östra disitr. 11, e. postexp. där s. å., post-exp. där 15, i Jönköp. 17, i östra distr. 21, i Oskarshamn 22, i Mjölby 23, post as sist. där 25, förste po^s t assist, i Falun 35, postmäst. i Simrishamn 40, i Vimmerby sed. 44. GM nr.",
+    "translated": "Johansson, John Carl Eric, postmaster in Vimmerby, born 8/4/90 in Stora Aby, East Gothland, son of Anders Johan J. and Elin Karlsson. Married in 1916 to Susanne Bodman. Children: Anders, born in 1919, working as an insurance man in Stockholm. Passed the student exam in Linköping in 1909. Reserve postman in the eastern district in 1911 and regular mailman in the same year. Became a post-expert in 1915 and worked in Jönköping in 1917, in the eastern district in 1921, in Oskarshamn in 1922, and in Mjölby in 1923. Finally, worked as a post-assistant in Falun in 1935, postmaster in Simrishamn in 1940, and postmaster in Vimmerby since 1944. Mentioned in genealogical magazine.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"John Carl Eric Johansson\",\n   \"jobTitle\": \"Postmaster\",\n   \"birthDate\": \"1890-04-08\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Stora Aby, East Gothland, Sweden\"\n   },\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders Johan J.\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Elin Karlsson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Susanne Bodman\",\n      \"marriageDate\": \"1916\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders Johansson\",\n         \"birthDate\": \"1919\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Student Exam\",\n         \"educationLevel\": \"Undergraduate\",\n         \"educationalProgramType\": \"http://data-vocabulary.org/EducationProgram\",\n         \"startDate\": \"1909\",\n         \"endDate\": \"1909\",\n         \"earnedBy\": \"John Carl Eric Johansson\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\"\n      }\n   ],\n   \"workExperience\": [\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Reserve Postman\",\n         \"startDate\": \"1911\",\n         \"endDate\": \"1911\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Eastern District\"\n         }\n      },\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Regular Mailman\",\n         \"startDate\": \"1911\",\n         \"endDate\": \"1915\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Eastern District\"\n         }\n      },\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Post-Expert\",\n         \"startDate\": \"1915\",\n         \"endDate\": \"1921\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Eastern District\"\n         }\n      },\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Post-Expert\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1922\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Oskarshamn\"\n         }\n      },\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Post-Expert\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1923\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Mjölby\"\n         }\n      },\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Post-Assistant\",\n         \"startDate\": \"1935\",\n         \"endDate\": \"1940\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Falun\"\n         }\n      },\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Postmaster\",\n         \"startDate\": \"1940\",\n         \"endDate\": \"1944\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Simrishamn\"\n         }\n      },\n      {\n         \"@type\": \"PostalService\",\n         \"name\": \"Swedish Postal Service\",\n         \"jobTitle\": \"Postmaster\",\n         \"startDate\": \"1944\",\n         \"employedThrough\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Vimmerby\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "John Carl Eric Johansson",
+        "jobTitle": "Postmaster",
+        "birthDate": "1890-04-08",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stora Aby, East Gothland, Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Anders Johan J."
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Susanne Bodman",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anders Johansson",
+                "birthDate": "1919"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student Exam",
+                "educationLevel": "Undergraduate",
+                "educationalProgramType": "http://data-vocabulary.org/EducationProgram",
+                "startDate": "1909",
+                "endDate": "1909",
+                "earnedBy": "John Carl Eric Johansson"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Reserve Postman",
+                "startDate": "1911",
+                "endDate": "1911",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Eastern District"
+                }
+            },
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Regular Mailman",
+                "startDate": "1911",
+                "endDate": "1915",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Eastern District"
+                }
+            },
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Post-Expert",
+                "startDate": "1915",
+                "endDate": "1921",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Eastern District"
+                }
+            },
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Post-Expert",
+                "startDate": "1921",
+                "endDate": "1922",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Oskarshamn"
+                }
+            },
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Post-Expert",
+                "startDate": "1922",
+                "endDate": "1923",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Mjölby"
+                }
+            },
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Post-Assistant",
+                "startDate": "1935",
+                "endDate": "1940",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Falun"
+                }
+            },
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Postmaster",
+                "startDate": "1940",
+                "endDate": "1944",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Simrishamn"
+                }
+            },
+            {
+                "@type": "PostalService",
+                "name": "Swedish Postal Service",
+                "jobTitle": "Postmaster",
+                "startDate": "1944",
+                "employedThrough": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Vimmerby"
+                }
+            }
+        ]
+    }
+}

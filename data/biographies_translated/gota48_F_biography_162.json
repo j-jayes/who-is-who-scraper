@@ -1,0 +1,60 @@
+{
+    "original": "Frenne, Erik Olof Zacheus, advokat, Halmstad, f. 26/1/96 i Hälsingborg. G. 28 m. Lisa Mårtensson. — Stud:ex. v. Hälsingborgs h. a. 1. 14, jur. kand. v. Upps. univ. 24. Informator 14-18, tingstjg. i Halll, mell. doms. 24-27, adv :verksamh. i Halmstad sed. 27. Led. av Sv:es adv:samf. sed. 29.",
+    "translated": "Frenne, Erik Olof Zacheus, lawyer, from Halmstad, born on January 26, 1896 in Hälsingborg. Married in 1928 to Lisa Mårtensson. He completed his high school education in Hälsingborg in 1914 and earned his law degree from Uppsala University in 1924. He worked as a private tutor from 1914-1918, as a court clerk in Halll, mell. doms. from 1924-1927, and has been working as a lawyer in Halmstad since 1927. He has been a member of the Swedish Bar Association since 1929.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Olof Zacheus Frenne\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1896-01-26\",\n  \"birthPlace\": \"Hälsingborg\",\n  \"spouse\": \"Lisa Mårtensson\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardDate\": \"1914\",\n      \"awardingInstitution\": \"Hälsingborgs h. a.\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's Degree in Law\",\n      \"awardDate\": \"1924\",\n      \"awardingInstitution\": \"Uppsala University\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1918\",\n      \"roleName\": \"Private Tutor\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1927\",\n      \"roleName\": \"Court Clerk\",\n      \"ownedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halll, mell. doms.\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"roleName\": \"Lawyer\",\n      \"ownedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halmstad\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"startDate\": \"1929\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Olof Zacheus Frenne",
+        "jobTitle": "Lawyer",
+        "birthDate": "1896-01-26",
+        "birthPlace": "Hälsingborg",
+        "spouse": "Lisa Mårtensson",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1914",
+                "awardingInstitution": "Hälsingborgs h. a."
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's Degree in Law",
+                "awardDate": "1924",
+                "awardingInstitution": "Uppsala University"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1914",
+                "endDate": "1918",
+                "roleName": "Private Tutor"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "endDate": "1927",
+                "roleName": "Court Clerk",
+                "ownedBy": {
+                    "@type": "Organization",
+                    "name": "Halll, mell. doms."
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "roleName": "Lawyer",
+                "ownedBy": {
+                    "@type": "Organization",
+                    "name": "Halmstad"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "startDate": "1929"
+        }
+    }
+}

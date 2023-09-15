@@ -1,0 +1,59 @@
+{
+    "original": "Hallhagen, Arne Holger, tandläkare, Motala, f. 26/1/04 i Borås av folksk:-ilär. J. F. Benjaminsson o. Anna Johan sison. G. 44 m. Röda kors-systeTn Ebba Lundwall. Barn: Lars f. 45. — Stud:ex. v. Borås h. a. ,1. 23, .stud. v. Karol. inst., tandl :kand. 33, tandl. 38. Prakt, i Motala. Hobbies: musik, botanik.",
+    "translated": "Hallhagen, Arne Holger, dentist, from Motala, born on January 26th, 1904 in Borås to a primary school teacher, J. F. Benjaminsson, and Anna Johansson. Married in 1944 to the Red Cross nurse Ebba Lundwall. They had one son named Lars, born in 1945. Arne Holger completed his secondary education in Borås in 1923, studied at the Karolinska Institute and graduated as a dentist in 1933. He practiced dentistry in Motala and had hobbies including music and botany.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Arne Holger Hallhagen\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1904-01-26\",\n  \"birthPlace\": \"Borås, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J. F. Benjaminsson\",\n      \"jobTitle\": \"Primary school teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ebba Lundwall\",\n    \"jobTitle\": \"Red Cross nurse\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lars\",\n    \"birthDate\": \"1945\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Borås Secondary School\",\n      \"location\": \"Borås, Sweden\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karolinska Institute\",\n      \"location\": \"Stockholm, Sweden\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"MedicalOrganization\",\n    \"name\": \"Swedish Dental Association\"\n  },\n  \"worksFor\": {\n    \"@type\": \"MedicalOrganization\",\n    \"name\": \"Motala Dental Clinic\"\n  },\n  \"hobbies\": [\n    \"music\",\n    \"botany\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arne Holger Hallhagen",
+        "jobTitle": "Dentist",
+        "birthDate": "1904-01-26",
+        "birthPlace": "Borås, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "J. F. Benjaminsson",
+                "jobTitle": "Primary school teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ebba Lundwall",
+            "jobTitle": "Red Cross nurse"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Lars",
+            "birthDate": "1945"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borås Secondary School",
+                "location": "Borås, Sweden",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karolinska Institute",
+                "location": "Stockholm, Sweden"
+            }
+        ],
+        "memberOf": {
+            "@type": "MedicalOrganization",
+            "name": "Swedish Dental Association"
+        },
+        "worksFor": {
+            "@type": "MedicalOrganization",
+            "name": "Motala Dental Clinic"
+        },
+        "hobbies": [
+            "music",
+            "botany"
+        ]
+    }
+}

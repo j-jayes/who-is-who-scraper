@@ -1,0 +1,146 @@
+{
+    "original": "Häggström, Knut Olof Johannes, prakt, läkare, Fristad, f. 24/8/07 i Alingsås av grosshandl. Gustaf H. o. Elin Malmgren. G. 34 m. Sara Ro-zell. Barn: Äke f. 36, Barbro 40, Birgitta 41, Ingela 46. — Stud:ex. i Borås 27, med. kand. i Lund 31 o. med. lic. där 36. Assist :läk. v. Mariestads las. 37, tf. undiläk. där o. v. Borgholms las. kort. tider 37 o. 38, tf. und:läk. v. Solhems sjukh. i Borås 38, ord. dito s. å., und :läk. v. kustsanat. Apelviken 40-44, v. ortoped. klin. v. Malmö allm. sjukh. 44-45, prakt. läk. i Borås sed. 46.",
+    "translated": "Häggström, Knut Olof Johannes, physician, born August 24, 1907 in Alingsås to Gustaf H. (a wholesale merchant) and Elin Malmgren. Married Sara Rozell in 1934. Children: Äke (born in 1936), Barbro (1940), Birgitta (1941), and Ingela (1946). He graduated from high school in Borås in 1927, received his Bachelor's degree in medicine from Lund University in 1931 and his medical license in 1936. He worked as an assistant physician at Mariestad Hospital in 1937, temporarily at Borgholm Hospital and Solhems Hospital in Borås. In 1938, he became the resident physician at Solhems Hospital in Borås and continued his work there. He worked as a physician at Apelviken Sanatorium from 1940-1944 and then worked at the orthopedic clinic at Malmö General Hospital from 1944-1945. In 1946, he began working as a practicing physician in Borås.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Knut Olof Johannes Häggström\",\n   \"jobTitle\":\"Physician\",\n   \"birthDate\":\"1907-08-24\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Alingsås\"\n   },\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Gustaf H.\",\n         \"jobTitle\":\"Wholesale Merchant\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Elin Malmgren\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Sara Rozell\",\n      \"marriageDate\":\"1934\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Äke\",\n         \"birthDate\":\"1936\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Barbro\",\n         \"birthDate\":\"1940\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Birgitta\",\n         \"birthDate\":\"1941\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Ingela\",\n         \"birthDate\":\"1946\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Stud:ex.\",\n         \"issuer\":\"Borås\",\n         \"credentialCategory\":\"secondary school diploma\",\n         \"dateIssued\":\"1927\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Bachelor's degree in medicine\",\n         \"issuer\":\"Lund University\",\n         \"credentialCategory\":\"bachelor's degree\",\n         \"dateIssued\":\"1931\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Medical License\",\n         \"issuer\":\"Lund University\",\n         \"credentialCategory\":\"medical license\",\n         \"dateIssued\":\"1936\"\n      }\n   ],\n   \"employment\":[\n      {\n         \"@type\":\"EmploymentEvent\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Mariestads las.\"\n         },\n         \"jobTitle\":\"Assistant Physician\",\n         \"startDate\":\"1937\"\n      },\n      {\n         \"@type\":\"EmploymentEvent\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Borgholms las.\"\n         },\n         \"jobTitle\":\"Temporary Resident Physician\",\n         \"startDate\":\"1937\",\n         \"endDate\":\"1938\"\n      },\n      {\n         \"@type\":\"EmploymentEvent\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Solhems sjukh. i Borås\"\n         },\n         \"jobTitle\":\"Temporary Resident Physician\",\n         \"startDate\":\"1937\",\n         \"endDate\":\"1938\"\n      },\n      {\n         \"@type\":\"EmploymentEvent\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Solhems sjukh. i Borås\"\n         },\n         \"jobTitle\":\"Resident Physician\",\n         \"startDate\":\"1938\"\n      },\n      {\n         \"@type\":\"EmploymentEvent\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Apelviken Sanatorium\"\n         },\n         \"jobTitle\":\"Physician\",\n         \"startDate\":\"1940\",\n         \"endDate\":\"1944\"\n      },\n      {\n         \"@type\":\"EmploymentEvent\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Malmö allm. sjukh.\"\n         },\n         \"jobTitle\":\"Physician\",\n         \"startDate\":\"1944\",\n         \"endDate\":\"1945\"\n      },\n      {\n         \"@type\":\"EmploymentEvent\",\n         \"employer\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Borås\"\n         },\n         \"jobTitle\":\"Practicing Physician\",\n         \"startDate\":\"1946\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Olof Johannes Häggström",
+        "jobTitle": "Physician",
+        "birthDate": "1907-08-24",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Alingsås"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf H.",
+                "jobTitle": "Wholesale Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Malmgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sara Rozell",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Äke",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingela",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "issuer": "Borås",
+                "credentialCategory": "secondary school diploma",
+                "dateIssued": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree in medicine",
+                "issuer": "Lund University",
+                "credentialCategory": "bachelor's degree",
+                "dateIssued": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical License",
+                "issuer": "Lund University",
+                "credentialCategory": "medical license",
+                "dateIssued": "1936"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Mariestads las."
+                },
+                "jobTitle": "Assistant Physician",
+                "startDate": "1937"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Borgholms las."
+                },
+                "jobTitle": "Temporary Resident Physician",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Solhems sjukh. i Borås"
+                },
+                "jobTitle": "Temporary Resident Physician",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Solhems sjukh. i Borås"
+                },
+                "jobTitle": "Resident Physician",
+                "startDate": "1938"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Apelviken Sanatorium"
+                },
+                "jobTitle": "Physician",
+                "startDate": "1940",
+                "endDate": "1944"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Malmö allm. sjukh."
+                },
+                "jobTitle": "Physician",
+                "startDate": "1944",
+                "endDate": "1945"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Borås"
+                },
+                "jobTitle": "Practicing Physician",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

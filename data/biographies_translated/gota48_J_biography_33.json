@@ -1,0 +1,75 @@
+{
+    "original": "Jandier, Carl-Eric, bankkamrer, Skövde, f. 2/11/05 i Värsås, Skarab. t G. m. Birgitta Hökenberg. Barn: Eric f. 38, Bengt 43, Gunnel 46. — Stud:ex. i Skövde 26. Anst. i Skarab. Ensk. Bank A-B 27-36, i Skövde Sparbank fr. 36, kamrer där fr. 47. Medl. av Frimurarorden (skattmast.), Odd Fellov^.",
+    "translated": "Jandier, Carl-Eric, Bank Clerk, Skövde, b. 2/11/05 in Värsås, Skaraborg County, married to Birgitta Hökenberg. Children: Eric b. 1938, Bengt b. 1943, Gunnel b. 1946. Completed high school (Stud:ex.) in Skövde in 1926. Employed at Skaraborgs Enskilda Bank A-B from 1927-1936, and at Skövde Sparbank from 1936, where he became a bank clerk in 1947. Member of Freemasonry (treasurer), Odd Fellows.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Eric Jandier\",\n  \"jobTitle\": \"Bank Clerk\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Skövde\"\n  },\n  \"birthDate\": \"1905-02-11\",\n  \"birthPlace\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Värsås, Skaraborg County\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgitta Hökenberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eric\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnel\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"high school diploma\",\n    \"educationalLevel\": \"SecondaryEducationLevel\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skövde\"\n    },\n    \"endDate\": \"1926\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellows\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skaraborgs Enskilda Bank A-B\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde Sparbank\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl-Eric Jandier",
+        "jobTitle": "Bank Clerk",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skövde"
+        },
+        "birthDate": "1905-02-11",
+        "birthPlace": {
+            "@type": "PostalAddress",
+            "addressLocality": "Värsås, Skaraborg County"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgitta Hökenberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eric",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnel",
+                "birthDate": "1946"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "high school diploma",
+            "educationalLevel": "SecondaryEducationLevel",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Skövde"
+            },
+            "endDate": "1926"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            },
+            {
+                "@type": "Organization",
+                "name": "Odd Fellows"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Skaraborgs Enskilda Bank A-B",
+                "startDate": "1927",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skövde Sparbank",
+                "startDate": "1936",
+                "endDate": "1947"
+            }
+        ]
+    }
+}

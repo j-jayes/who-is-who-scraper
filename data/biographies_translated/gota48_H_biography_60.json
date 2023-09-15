@@ -1,0 +1,84 @@
+{
+    "original": "Hall, Sven; Adolf Sture, komminister, Tidaholm, f. 23/10/13 i Töreboda, Skarab. 1., av Rikard Svensson o. Anna Hall. G. 40 m. Ingrid Ericson. Barn : Lars f. 42, Gudrun 43. — Stud:-ex. i Skara 32, teol. fik ex. i Gbg 33, teol. kand. i Lund 37, prästv. f. Skara stift 38. Pastorsadj. i Trollhättan 38-40, kyrkoadj. där 40’-46, kommin. i Ti-daliolm sed. 46.",
+    "translated": "Hall, Sven; Adolf Sture, minister, Tidaholm, born on October 23rd, 1913 in Töreboda, Skaraborg County, the first child of Rikard Svensson and Anna Hall. Married in 1940 to Ingrid Ericson. Children: Lars born in 1942, Gudrun born in 1943. He passed his final exams at Skara in 1932, received his theological degree in Gothenburg in 1933, obtained a theological candidate degree in Lund in 1937, and was ordained as a pastor in Skara in 1938. He worked as a pastor's assistant in Trollhättan from 1938 to 1940 and as a church assistant from 1940 to 1946, then became a minister in Tidaholm from 1946 onwards.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Sven Hall\",\n   \"givenName\": \"Sven\",\n   \"familyName\": \"Hall\",\n   \"birthDate\": \"1913-10-23\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Töreboda, Skaraborg County\"\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Rikard Svensson\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anna Hall\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Ericson\",\n      \"marriageDate\": \"1940\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Lars\",\n         \"birthDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gudrun\",\n         \"birthDate\": \"1943\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Stud:-ex. i Skara\",\n         \"dateEarned\": \"1932\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Teol. fik ex. i Gbg\",\n         \"dateEarned\": \"1933\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Teol. kand. i Lund\",\n         \"dateEarned\": \"1937\"\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"JobPosting\",\n         \"title\": \"Pastorsadj. i Trollhättan\",\n         \"startDate\": \"1938\",\n         \"endDate\": \"1940\"\n      },\n      {\n         \"@type\": \"JobPosting\",\n         \"title\": \"Kyrkoadj. i Trollhättan\",\n         \"startDate\": \"1940\",\n         \"endDate\": \"1946\"\n      },\n      {\n         \"@type\": \"JobPosting\",\n         \"title\": \"Komminister i Tidaholm\",\n         \"startDate\": \"1946\"\n      }\n   ],\n   \"nationality\": {\n      \"@type\": \"Country\",\n      \"name\": \"Sweden\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Hall",
+        "givenName": "Sven",
+        "familyName": "Hall",
+        "birthDate": "1913-10-23",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Töreboda, Skaraborg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Rikard Svensson"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Hall"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Ericson",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Gudrun",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:-ex. i Skara",
+                "dateEarned": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fik ex. i Gbg",
+                "dateEarned": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand. i Lund",
+                "dateEarned": "1937"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "title": "Pastorsadj. i Trollhättan",
+                "startDate": "1938",
+                "endDate": "1940"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Kyrkoadj. i Trollhättan",
+                "startDate": "1940",
+                "endDate": "1946"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Komminister i Tidaholm",
+                "startDate": "1946"
+            }
+        ],
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        }
+    }
+}

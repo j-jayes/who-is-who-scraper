@@ -1,0 +1,75 @@
+{
+    "original": "Hallhagen, Einar Benjamin, tandläkare, Borås, f. 29/12/99 i Borås. G. 26 m. Süiss Adlerberg. Barn: Kåre f. 26. — Studiex. i Borås 18, avg:ex. v. Gbgs handrinst. 20, tandl :kand. 22, tandläk. 25. Assist, i Falkenberg 24, i Katrineholm 25, vik. i Växjö 25, praktik i Borås sed. 25.",
+    "translated": "Hallhagen, Einar Benjamin, dentist, Borås, born 29/12/99 in Borås. Married in 1926 to Süiss Adlerberg. Children: Kåre born in 1926. He graduated from Borås school in 1918, and from Gothenburg's Hand Institute in 1920. He completed his degree in dentistry in 1922 and became a dentist in 1925. He served as an assistant in Falkenberg in 1924, in Katrineholm in 1925, and worked temporarily in Växjö in 1925. He established his own practice in Borås in the same year.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Einar Benjamin Hallhagen\",\n  \"birthDate\": \"1899-12-29\",\n  \"birthPlace\": \"Borås\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Dentist\",\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Borås school\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg's Hand Institute\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Swedish Dental Institute\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Süiss Adlerberg\",\n    \"marriageDate\": \"1926\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kåre Hallhagen\",\n      \"birthDate\": \"1926\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Falkenberg Dental Association\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\",\n      \"roleName\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Katrineholm Dental Association\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1925\",\n      \"roleName\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö Dental Association\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1925\",\n      \"roleName\": \"Locum\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Dental Association\",\n      \"startDate\": \"1925\",\n      \"roleName\": \"Owner\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Einar Benjamin Hallhagen",
+        "birthDate": "1899-12-29",
+        "birthPlace": "Borås",
+        "nationality": "Swedish",
+        "jobTitle": "Dentist",
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borås school",
+                "startDate": "1918",
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's Hand Institute",
+                "startDate": "1920",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Swedish Dental Institute",
+                "startDate": "1922",
+                "endDate": "1925"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Süiss Adlerberg",
+            "marriageDate": "1926"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kåre Hallhagen",
+                "birthDate": "1926"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Falkenberg Dental Association",
+                "startDate": "1924",
+                "endDate": "1924",
+                "roleName": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Katrineholm Dental Association",
+                "startDate": "1925",
+                "endDate": "1925",
+                "roleName": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Växjö Dental Association",
+                "startDate": "1925",
+                "endDate": "1925",
+                "roleName": "Locum"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Dental Association",
+                "startDate": "1925",
+                "roleName": "Owner"
+            }
+        ]
+    }
+}

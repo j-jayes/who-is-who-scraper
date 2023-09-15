@@ -1,0 +1,62 @@
+{
+    "original": "Jonsson, Verner Alfred, kontorschef, Göteborg, f. 5/7/05 i Stblm av Sven Alfred J. o. Fanny Elvira Heijden-berg. G. 31 m. Mary Agda Margit Violetta Engfeldt. — Realex. v. norra latin i Sthlm. Anst. v. AEG i Sthlm 22-27, v. AEG i Berlin 27-35, v. AEG Dansk Elektr. A/S i Köpenhamn 35-42, kont :chef i AEG i Gbg sed. 42.",
+    "translated": "Jonsson, Verner Alfred, office manager, Gothenburg, born on July 5th, 1905 in Stockholm to Sven Alfred J. and Fanny Elvira Heijden-berg. Married on March 31st to Mary Agda Margit Violetta Engfeldt. Graduated from Norra Latin High School in Stockholm. Worked for AEG in Stockholm from 1922-1927, AEG in Berlin from 1927-1935, and AEG Dansk Elektr. A/S in Copenhagen from 1935-1942. Became office manager at AEG in Gothenburg in 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Verner Alfred Jonsson\",\n  \"jobTitle\": \"Office Manager\",\n  \"birthDate\": \"1905-07-05\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sven Alfred J.\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Fanny Elvira Heijden-berg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mary Agda Margit Violetta Engfeldt\",\n    \"marriageDate\": \"1931-03-31\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Norra Latin High School\",\n    \"location\": \"Stockholm, Sweden\",\n    \"endDate\": \"1922\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AEG\",\n      \"location\": \"Stockholm, Sweden\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AEG\",\n      \"location\": \"Berlin, Germany\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AEG Dansk Elektr. A/S\",\n      \"location\": \"Copenhagen, Denmark\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AEG\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"jobTitle\": \"Office Manager\",\n      \"startDate\": \"1942\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Verner Alfred Jonsson",
+        "jobTitle": "Office Manager",
+        "birthDate": "1905-07-05",
+        "birthPlace": "Stockholm, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Sven Alfred J."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Fanny Elvira Heijden-berg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Mary Agda Margit Violetta Engfeldt",
+            "marriageDate": "1931-03-31"
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Norra Latin High School",
+            "location": "Stockholm, Sweden",
+            "endDate": "1922"
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "AEG",
+                "location": "Stockholm, Sweden",
+                "startDate": "1922",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "AEG",
+                "location": "Berlin, Germany",
+                "startDate": "1927",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "AEG Dansk Elektr. A/S",
+                "location": "Copenhagen, Denmark",
+                "startDate": "1935",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "AEG",
+                "location": "Gothenburg, Sweden",
+                "jobTitle": "Office Manager",
+                "startDate": "1942"
+            }
+        ]
+    }
+}

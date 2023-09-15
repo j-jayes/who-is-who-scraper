@@ -1,0 +1,78 @@
+{
+    "original": "Ilstam, Oskar Bertil, stadsveterinär, Västervik, f. 1/2/09’ i Torsås, Kalmar 1. G. 36 m. Lizzie Larsson. Barn: Lars f. 38, Anders 41. — Stud:ex. v. Kalmar h. a. 1. 28, veter :ex. i Sthlm 34. E. veter. i Halmstad 35-37, förste besiktn :veter. i Arvika 37-38, stads-veter. o. àmp :be’si!ktn :veter. i Västervik 38. Sekr. i fören. av besiktn:veter. v. Siv:es kontr: slakt. 42-47.",
+    "translated": "Ilstam, Oskar Bertil, city veterinarian, Västervik, born February 1st, 1909 in Torsås, Kalmar. Married in 1936 to Lizzie Larsson and had two children: Lars, born in 1938, and Anders, born in 1941. Completed his secondary education at Kalmar high school in 1928, and became a veterinarian in Stockholm in 1934. Worked as a veterinarian in Halmstad from 1935 to 1937, as the chief inspector of inspections for livestock in Arvika from 1937 to 1938, and then as the city veterinarian and inspector of meat inspections in Västervik from 1938. Served as secretary of the association of inspection veterinarians for Sivertsen's contract slaughter from 1942 to 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oskar Bertil Ilstam\",\n  \"birthDate\": \"1909-02-01\",\n  \"birthPlace\": \"Torsås, Kalmar\",\n  \"nationality\": \"Swedish\",\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"secondary education\",\n    \"educationalLevel\": \"secondary\",\n    \"educationalCredentialAwarded\": \"Stud:ex. v. Kalmar h. a. 1. 28, veter :ex. i Sthlm 34\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lizzie Larsson\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Ilstam\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Ilstam\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"City Veterinarian\",\n      \"startDate\": \"1938\",\n      \"endDate\": null,\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Västervik\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Chief Inspector of Inspections for Livestock\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Arvika\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Veterinarian\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1937\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Halmstad\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Secretary\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1947\",\n      \"location\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Association of Inspection Veterinarians for Sivertsen's Contract Slaughter\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oskar Bertil Ilstam",
+        "birthDate": "1909-02-01",
+        "birthPlace": "Torsås, Kalmar",
+        "nationality": "Swedish",
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "secondary education",
+            "educationalLevel": "secondary",
+            "educationalCredentialAwarded": "Stud:ex. v. Kalmar h. a. 1. 28, veter :ex. i Sthlm 34"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Lizzie Larsson",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Ilstam",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Ilstam",
+                "birthDate": "1941"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "City Veterinarian",
+                "startDate": "1938",
+                "endDate": null,
+                "location": {
+                    "@type": "City",
+                    "name": "Västervik"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Chief Inspector of Inspections for Livestock",
+                "startDate": "1937",
+                "endDate": "1938",
+                "location": {
+                    "@type": "City",
+                    "name": "Arvika"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Veterinarian",
+                "startDate": "1935",
+                "endDate": "1937",
+                "location": {
+                    "@type": "City",
+                    "name": "Halmstad"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Secretary",
+                "startDate": "1942",
+                "endDate": "1947",
+                "location": {
+                    "@type": "Organization",
+                    "name": "Association of Inspection Veterinarians for Sivertsen's Contract Slaughter"
+                }
+            }
+        ]
+    }
+}

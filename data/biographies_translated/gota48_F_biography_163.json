@@ -1,0 +1,85 @@
+{
+    "original": "Frenne, Knut Ingvar Gerhard, rektor, Hubsfred, f. 9/10/11 i Lövestad, Malmöh. L, av folkskoll. Ola F. o. Johanna Andersson. G. 43 m. Brita Hall. — Stud:ex. 31, fil. mag. 38 o. provår 43 i Lund. E. o. lär. v. Uddevalla h. folksk. 38-39, vik. ämneslär. i Hällefors 41-43, e. adj. i Eksjö 44, ord. ämneslär. i Hultsfred s. å., rektor v. Komm. mellansk. där sed. 44.",
+    "translated": "Frenne, Knut Ingvar Gerhard, principal, Hubsfred, b. 9/10/11 in Lövestad, Malmöhus County, son of Ola F. and Johanna Andersson, both of whom were involved in primary education. He married Brita Hall in 1943. Frenne passed his high school graduation in 1931 and received his Master's degree in 1938. He completed his probationary teaching year in Lund in 1943. He was an assistant teacher at a high school in Uddevalla in 1938-1939, a substitute subject teacher in Hällefors in 1941-1943, an established teacher in Eksjö in 1944, and a permanent subject teacher in Hultsfred in the same year. He has been the principal of a municipal middle school since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Ingvar Gerhard Frenne\",\n  \"jobTitle\": \"Principal\",\n  \"birthPlace\": \"Lövestad, Malmöhus County\",\n  \"birthDate\": \"1911-10-09\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ola F.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johanna Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Hall\",\n    \"marriageDate\": \"1943\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"identifier\": \"stud-ex\",\n      \"description\": \"High school graduation\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"identifier\": \"fil-mag\",\n      \"description\": \"Masters degree\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"identifier\": \"prob-year\",\n      \"description\": \"Probationary teaching year\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"description\": \"Assistant teacher at a high school\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"employer\": \"Uddevalla High School\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"description\": \"Substitute subject teacher\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1943\",\n      \"employer\": \"Hällefors School\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"description\": \"Established teacher\",\n      \"startDate\": \"1944\",\n      \"endDate\": null,\n      \"employer\": \"Eksjö School\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"description\": \"Permanent subject teacher\",\n      \"startDate\": \"1944\",\n      \"endDate\": null,\n      \"employer\": \"Hultsfred School\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"description\": \"Principal\",\n      \"startDate\": \"1944\",\n      \"endDate\": null,\n      \"employer\": \"Municipal Middle School\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Knut Ingvar Gerhard Frenne",
+        "jobTitle": "Principal",
+        "birthPlace": "Lövestad, Malmöhus County",
+        "birthDate": "1911-10-09",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ola F."
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Hall",
+            "marriageDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "identifier": "stud-ex",
+                "description": "High school graduation",
+                "startDate": "1931"
+            },
+            {
+                "@type": "EducationEvent",
+                "identifier": "fil-mag",
+                "description": "Masters degree",
+                "startDate": "1938"
+            },
+            {
+                "@type": "EducationEvent",
+                "identifier": "prob-year",
+                "description": "Probationary teaching year",
+                "startDate": "1943"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "EmploymentEvent",
+                "description": "Assistant teacher at a high school",
+                "startDate": "1938",
+                "endDate": "1939",
+                "employer": "Uddevalla High School"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "description": "Substitute subject teacher",
+                "startDate": "1941",
+                "endDate": "1943",
+                "employer": "Hällefors School"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "description": "Established teacher",
+                "startDate": "1944",
+                "endDate": null,
+                "employer": "Eksjö School"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "description": "Permanent subject teacher",
+                "startDate": "1944",
+                "endDate": null,
+                "employer": "Hultsfred School"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "description": "Principal",
+                "startDate": "1944",
+                "endDate": null,
+                "employer": "Municipal Middle School"
+            }
+        ]
+    }
+}

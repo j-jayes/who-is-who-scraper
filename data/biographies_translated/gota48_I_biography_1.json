@@ -1,0 +1,86 @@
+{
+    "original": "Ideberg, Tore Edvin, tandläkare, Vänersborg, f. 5/4/01 i Säffle, Värml. I. G. 31 m. Karin Matilda Melin. Barn: Gunnar i. 32, Sven 313’, RoiM 36, Gunnel 43. — Stud:ex. i Vänersborg 19, tandlikand. 21, tandl. 23. Vik. i Borlänge 23, prakt, i Säffle 23-29, i Väners’borg sed. 29. Skattmäst. i Västgöta-Dals tandl :fören. 40-45, ordf. i styr. f. Vänersborgs KFUM scoutkår.",
+    "translated": "Ideberg, Tore Edvin, dentist, Vänersborg, b. April 5th, 1901 in Säffle, Värmland. Married Karin Matilda Melin in 1931. Children: Gunnar b. 1932, Sven b. 1933, RoiM b. 1936, Gunnel b. 1943. Completed secondary school education in Vänersborg in 1919. Completed dental education in 1921 and became a licensed dentist in 1923. Worked temporarily in Borlänge in 1923, practiced dentistry in Säffle from 1923-1929, and has practiced in Vänersborg since. Served as treasurer of the Västgöta-Dals Dental Association from 1940-1945 and served as chairman of the board of the Vänersborg YMCA Scout Corps.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tore Edvin Ideberg\",\n  \"birthDate\": \"1901-04-05\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Säffle, Värmland\"\n  },\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Vänersborg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Matilda Melin\",\n    \"marriageDate\": \"1931-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Ideberg\",\n      \"birthDate\": \"1932-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Ideberg\",\n      \"birthDate\": \"1933-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"RoiM Ideberg\",\n      \"birthDate\": \"1936-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnel Ideberg\",\n      \"birthDate\": \"1943-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary school education\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Stud:ex. i Vänersborg\",\n      \"endDate\": \"1919-01-01\",\n      \"baseSalary\": \"$0\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental education\",\n      \"educationalLevel\": \"Post-secondary non-degree award\",\n      \"educationalCredentialAwarded\": \"Tandlikand. i Vänersborg\",\n      \"endDate\": \"1921-01-01\",\n      \"baseSalary\": \"$0\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Licensed dentist\",\n      \"startDate\": \"1923-01-01\",\n      \"endDate\": \"2022-01-01\",\n      \"baseSalary\": \"$0\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västgöta-Dals Tandl :Fören.\",\n      \"jobTitle\": \"Treasurer\",\n      \"startDate\": \"1940-01-01\",\n      \"endDate\": \"1945-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vänersborgs KFUM Scoutkår\",\n      \"jobTitle\": \"Chairman of the board\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tore Edvin Ideberg",
+        "birthDate": "1901-04-05",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Säffle, Värmland"
+        },
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vänersborg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Matilda Melin",
+            "marriageDate": "1931-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar Ideberg",
+                "birthDate": "1932-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven Ideberg",
+                "birthDate": "1933-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "RoiM Ideberg",
+                "birthDate": "1936-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnel Ideberg",
+                "birthDate": "1943-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary school education",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Stud:ex. i Vänersborg",
+                "endDate": "1919-01-01",
+                "baseSalary": "$0"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental education",
+                "educationalLevel": "Post-secondary non-degree award",
+                "educationalCredentialAwarded": "Tandlikand. i Vänersborg",
+                "endDate": "1921-01-01",
+                "baseSalary": "$0"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Licensed dentist",
+                "startDate": "1923-01-01",
+                "endDate": "2022-01-01",
+                "baseSalary": "$0"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Västgöta-Dals Tandl :Fören.",
+                "jobTitle": "Treasurer",
+                "startDate": "1940-01-01",
+                "endDate": "1945-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vänersborgs KFUM Scoutkår",
+                "jobTitle": "Chairman of the board"
+            }
+        ]
+    }
+}

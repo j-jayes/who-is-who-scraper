@@ -1,0 +1,97 @@
+{
+    "original": "Hällstad, Älvsb. 1. G. 32 m. Lena Sundberg. Barn: Siv. f. 33. — Stud:ex. i Lund 23, teol. fil. ex. i Upps. 25, teol. kand. 27, prakt. teol. prov 27, prästv. i Skara s, å. Pastorsadj. i Ulricehamn 27-29, kommin. i Björsäter 29-33, kyr-koh. i Broddetorp fr. 33. Ordf. i kyrko-o. skolråd, i boställsstyr., barnav:nd o. RK-krets.",
+    "translated": "Hällstad, Älvsborg. First marriage in 1932 with Lena Sundberg. Children: Siv, born in 1933. Education: Bachelor's degree in Lund in 1923, Master of Arts in theology in Uppsala in 1925, Master of Theology in 1927, practical theology exam in 1927, ordained priest in Skara in the same year. Assistant pastor in Ulricehamn from 1927 to 1929, curate in Björsäter from 1929 to 1933, vicar in Broddetorp from 1933. Chairman of church and school council, housing committee, child welfare committee, and RK group.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"\",\n  \"familyName\": \"\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Hällstad, Älvsborg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lena Sundberg\",\n    \"dateMarried\": \"1932\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Siv\",\n    \"birthDate\": \"1933\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Bachelor's degree in Lund in 1923\",\n      \"credentialCategory\": \"bachelor's degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Master of Arts in theology in Uppsala in 1925\",\n      \"credentialCategory\": \"master's degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Master of Theology in 1927\",\n      \"credentialCategory\": \"master's degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Practical theology exam in 1927\",\n      \"credentialCategory\": \"professional certification\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Church\"\n      },\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"roleName\": \"Assistant pastor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Björsäter\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Church\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1933\",\n      \"roleName\": \"Curate\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Broddetorp\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Church\"\n      },\n      \"startDate\": \"1933\",\n      \"roleName\": \"Vicar\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church and school council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Housing committee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Child welfare committee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"RK group\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "",
+        "familyName": "",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Hällstad, Älvsborg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Lena Sundberg",
+            "dateMarried": "1932"
+        },
+        "children": {
+            "@type": "Person",
+            "givenName": "Siv",
+            "birthDate": "1933"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Bachelor's degree in Lund in 1923",
+                "credentialCategory": "bachelor's degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Master of Arts in theology in Uppsala in 1925",
+                "credentialCategory": "master's degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Master of Theology in 1927",
+                "credentialCategory": "master's degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Practical theology exam in 1927",
+                "credentialCategory": "professional certification"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skara",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Church"
+                },
+                "startDate": "1927",
+                "endDate": "1929",
+                "roleName": "Assistant pastor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Björsäter",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Church"
+                },
+                "startDate": "1929",
+                "endDate": "1933",
+                "roleName": "Curate"
+            },
+            {
+                "@type": "Organization",
+                "name": "Broddetorp",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Church"
+                },
+                "startDate": "1933",
+                "roleName": "Vicar"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church and school council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Housing committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Child welfare committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "RK group"
+            }
+        ]
+    }
+}

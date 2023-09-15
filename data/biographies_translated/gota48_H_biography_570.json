@@ -1,0 +1,96 @@
+{
+    "original": "Hågeman, Johan Harry, stads-fiskal, Visby, f. 11/4/11 i Faringe, Sthlms 1. G. 40 m. Greta Björkman. Barn: Per f. 43, Lars 45. — Stud:ex. v. Upps. h. a. 1. 30, jur. kand. i Upps. 36, polischefskurs v. statens polissk. 41-42. Tingstjg. i Mellansys-slets doms. 36-39, förordn. s. e. stadsfiskal i Sthlm 40-41, landsfogdeassist. i Värml. 1. 42 o. 43, kort. förordn. s. landsfogde där, stads.fisk:al i Visby sed. 44, krigs-fiskal v. reg:krigsrätt. v. Gotl. inf:-reg. o. Gotl. art :kår sed. 44.",
+    "translated": "Hågeman, Johan Harry, city prosecutor, Visby, born on April 11th, 1911 in Faringe, Stockholm. Married in 1940 to Greta Björkman, with two children: Per, born in 1943, and Lars, born in 1945. Completed secondary education in Uppsala in 1930, completed law degree in Uppsala in 1936, completed police chief course at the State Police School from 1941-1942. Served as a district court judge in Mellansys-slet from 1936-1939, appointed as city prosecutor in Stockholm from 1940-1941, assistant district judge in Värmland from 1942-1943, and later appointed as a city prosecutor in Visby from 1944. Also served as a war prosecutor at the Gotland Infantry Regiment and Gotland Artillery from 1944 onward.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Harry Hågeman\",\n  \"birthDate\": \"1911-04-11\",\n  \"birthPlace\": \"Faringe, Stockholm\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Björkman\",\n    \"dateOfMarriage\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Hågeman\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Hågeman\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalProgram\": \"Uppsala\",\n      \"dateCompleted\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor\",\n      \"educationalProgram\": \"Law\",\n      \"educationalInstitution\": \"Uppsala\",\n      \"dateCompleted\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Certificate\",\n      \"educationalProgram\": \"Police Chief Course\",\n      \"educationalInstitution\": \"State Police School\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1942\"\n    }\n  ],\n  \"jobTitle\": [\n    \"District Court Judge\",\n    \"City Prosecutor\",\n    \"Assistant District Judge\",\n    \"War Prosecutor\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mellansys-slets doms\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Värmland\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Visby\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland Infantry Regiment\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland Artillery\"\n    }\n  ],\n  \"startDate\": [\n    \"1936-01-01\",\n    \"1940-01-01\",\n    \"1942-01-01\",\n    \"1944-01-01\"\n  ],\n  \"endDate\": [\n    \"1939-12-31\",\n    \"1941-12-31\",\n    \"1943-12-31\",\n    null\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Johan Harry Hågeman",
+        "birthDate": "1911-04-11",
+        "birthPlace": "Faringe, Stockholm",
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Björkman",
+            "dateOfMarriage": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per Hågeman",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Hågeman",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "SecondaryEducation",
+                "educationalProgram": "Uppsala",
+                "dateCompleted": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor",
+                "educationalProgram": "Law",
+                "educationalInstitution": "Uppsala",
+                "dateCompleted": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Certificate",
+                "educationalProgram": "Police Chief Course",
+                "educationalInstitution": "State Police School",
+                "startDate": "1941",
+                "endDate": "1942"
+            }
+        ],
+        "jobTitle": [
+            "District Court Judge",
+            "City Prosecutor",
+            "Assistant District Judge",
+            "War Prosecutor"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Mellansys-slets doms"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stockholm"
+            },
+            {
+                "@type": "Organization",
+                "name": "Värmland"
+            },
+            {
+                "@type": "Organization",
+                "name": "Visby"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland Infantry Regiment"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland Artillery"
+            }
+        ],
+        "startDate": [
+            "1936-01-01",
+            "1940-01-01",
+            "1942-01-01",
+            "1944-01-01"
+        ],
+        "endDate": [
+            "1939-12-31",
+            "1941-12-31",
+            "1943-12-31",
+            null
+        ]
+    }
+}

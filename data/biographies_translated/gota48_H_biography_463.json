@@ -1,0 +1,109 @@
+{
+    "original": "Holmberg, Knut Hjalmar, redaktionssekreterare, Göteborg, f. 9/1/86 i Sthlm av Johan H. o. Kristina Tvär-ling. G. 16 m. Serla Ström. Barn: Eva f. 18, g. m. apot. Inge Ehrlén, Sthlm, Nils- Erik 21, anst. v. Esselte, Gbg. — Mog:ex. v. Fjellstedtska sk. i Upps. ’08, stud. v. Sthlms högsk. 08. Medarb. i Sv. Notisbyrån 08-09, Sthlms-Tidn. 09-10 o. 13-28, Aftontidn. 10-11, Dagen 11-13, andre red. i Af-tombl. 20-32; red:chief o. ansv. utg. i Morgontidn. i Gbg 36, red :sekr. i Gbgs Hand:- o. Sjöfartstidn. sed. 39. Medl. av Publ:kl. sed. 09, led. av diesis styr. 29-33i ’S’ekr. i Sv. journ :föa-€n. Sthtas-krets^ 15-16, ordf. 3a-36, suppl. i nd(n f. statens journ :stip. 19. Sign.: Håge.",
+    "translated": "Holmberg, Knut Hjalmar, editorial secretary, Gothenburg, born January 9, 1886 in Stockholm to Johan H. and Kristina Tvär-ling. Married to Serla Ström in 1916. Children: Eva, born in 1918, married to pharmacist Inge Ehrlén in Stockholm, Nils-Erik, 21 years old, employed by Esselte in Gothenburg. Holmberg graduated from Fjellstedtska school in Uppsala in 1908 and studied at Stockholm University in 1908. He worked as a contributor for the Swedish Notisbyrån from 1908-1909, Stockholm-Tidn. from 1909-1910 and 1913-1928, Aftontidn. from 1910-1911, Dagen from 1911-1913, and was second editor at Aftonbladet from 1920-1932. He served as chief editor and responsible publisher at Morgontidn. in Gothenburg in 1936 and editorial secretary at Gothenburg's Trade and Shipping Journal since 1939. Holmberg became a member of the Publicist Club in 1909 and a member of the Diocese board from 1929-1933. He was the secretary in the Swedish Journalist Association's State Branch from 1915-1916, chairman from 1933-1936, a substitute in the foundation of the state journal scholarship in 1919. Holmberg's signature is Håge.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Hjalmar Holmberg\",\n  \"birthDate\": \"1886-01-09\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Stockholm\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan H.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Tvär-ling\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Serla Ström\",\n    \"marriageDate\": \"1916\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1918\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Inge Ehrlén\",\n        \"profession\": \"Pharmacist\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils-Erik\",\n      \"birthDate\": \"1921\",\n      \"profession\": \"Employee\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Esselte\"\n      },\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Fjellstedtska skolan\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\":\"Uppsala\"\n      },\n      \"endDate\": \"1908\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Stockholm University\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"startDate\": \"1908\",\n      \"endDate\": \"unknown\"\n    }\n  ],\n  \"jobTitle\": \"Editorial Secretary\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg's Trade and Shipping Journal\",\n    \"jobTitle\": \"Editorial Secretary\",\n    \"startDate\": \"1939\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Publicist Club\",\n      \"membershipStartDate\": \"1909\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Diocese board\",\n      \"membershipStartDate\": \"1929\",\n      \"membershipEndDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Journalist Association's State Branch\",\n      \"membershipStartDate\": \"1915\",\n      \"membershipEndDate\": \"1916\",\n      \"jobTitle\": \"Secretary\"\n    }\n  ],\n  \"signature\": \"Håge\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Hjalmar Holmberg",
+        "birthDate": "1886-01-09",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Stockholm"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan H."
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Tvär-ling"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Serla Ström",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1918",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Inge Ehrlén",
+                    "profession": "Pharmacist",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Nils-Erik",
+                "birthDate": "1921",
+                "profession": "Employee",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Esselte"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Fjellstedtska skolan",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Uppsala"
+                },
+                "endDate": "1908"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Stockholm University",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "startDate": "1908",
+                "endDate": "unknown"
+            }
+        ],
+        "jobTitle": "Editorial Secretary",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg's Trade and Shipping Journal",
+            "jobTitle": "Editorial Secretary",
+            "startDate": "1939"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Publicist Club",
+                "membershipStartDate": "1909"
+            },
+            {
+                "@type": "Organization",
+                "name": "Diocese board",
+                "membershipStartDate": "1929",
+                "membershipEndDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Journalist Association's State Branch",
+                "membershipStartDate": "1915",
+                "membershipEndDate": "1916",
+                "jobTitle": "Secretary"
+            }
+        ],
+        "signature": "Håge"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "original": "Johansson, Göte, disponent, Borås, f. 2/2/11 i Borås av dir. Algot J. o. Hildur Johansson. G. 39 m. Brita Torell. Barn: Jan-Algot f. 41, Göte 43, Göran o. Ann 46. — Stud:ex. i Borås 31. Hand:stud. i Tyskl. 32 o. i Engl. 33. Disp. v. Algot Johansson A-B i Borås sed. 37, deläg. där sed. s. å. Led. av styr. f. Algot Johansson A-B sed. 37, Sv:es konfektions-ind:förb. 40, Konfektionsind :fören. o. Sv. konfektionsfabr :fören., suppl. i styr. f. Sv. Hand :bankens. avd :kont. i Borås 46, v. ordf. i Konfektionsnd. imp:fören. 45.",
+    "translated": "Johansson, Göte, manager, Borås, b. 2/2/11 in Borås to director Algot J. and Hildur Johansson. Married in 1939 to Brita Torell. Children: Jan-Algot b. 1941, Göte b. 1943, Göran and Ann b. 1946. Completed secondary school in Borås in 1931. Studied business in Germany in 1932 and in England in 1933. Employed as a manager at Algot Johansson A-B in Borås since 1937 and became a shareholder in the same year. Member of the board of directors for Algot Johansson A-B since 1937, Swedish Garment Manufacturers Association since 1940, Swedish Clothing Manufacturers Association and Swedish Clothing Factory Association. Served as a board member supplement for Swedish Handelsbanken branch office in Borås in 1946 and was vice chair of the Clothing Importers Association in 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Göte Johansson\",\n  \"jobTitle\": \"Manager\",\n  \"birthDate\": \"1911-02-02\",\n  \"birthPlace\": \"Borås\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Algot J. Johansson\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hildur Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Torell\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan-Algot\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göte\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran\",\n      \"birthDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex Borås\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Hand:stud. Tyskl.\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Hand:stud. Engl.\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Algot Johansson A-B\",\n    \"startDate\": \"1937\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Garment Manufacturers Association\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Clothing Manufacturers Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Clothing Factory Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Handelsbanken\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Clothing Importers Association\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"boardMember\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Algot Johansson A-B\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Garment Manufacturers Association\",\n      \"startDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Göte Johansson",
+        "jobTitle": "Manager",
+        "birthDate": "1911-02-02",
+        "birthPlace": "Borås",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Algot J. Johansson",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Hildur Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Torell",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan-Algot",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Göte",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1946"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex Borås",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Hand:stud. Tyskl.",
+                "endDate": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Hand:stud. Engl.",
+                "endDate": "1933"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Algot Johansson A-B",
+            "startDate": "1937"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Garment Manufacturers Association",
+                "startDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Clothing Manufacturers Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Clothing Factory Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Handelsbanken",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Clothing Importers Association",
+                "startDate": "1945"
+            }
+        ],
+        "boardMember": [
+            {
+                "@type": "Organization",
+                "name": "Algot Johansson A-B",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Garment Manufacturers Association",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

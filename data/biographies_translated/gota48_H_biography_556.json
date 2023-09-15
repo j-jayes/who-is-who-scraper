@@ -1,0 +1,70 @@
+{
+    "original": "Hultstrand, Harald Filip Efraim, tandläkare, Vadstena, f. 7/3/91 i Kråkshult, Jönköp. 1., av folks’k :lär. Otto H. o. Kristina Jonsson. G. 20 m. sjuksköt. Gerda Andersson. Barn: Lenah f. 21. — Studiex. i Skara 11, stud. v. Upps. univ. 11-15, tandl :kand. 16, tandl. 18. Prakt, i Vadstena sed. 19, skoltandl. där sed. 26. V. ordf. i kyrkofuHm., kyrkovärd.",
+    "translated": "Hultstrand, Harald Filip Efraim, dentist, Vadstena, b. March 7, 1891 in Kråkshult, Jönköping, son of teacher Otto H. and Kristina Jonsson. Married to nurse Gerda Andersson in 1920, with daughter Lenah born in 1921. Completed his undergraduate studies in Skara in 1911, and studied at Uppsala University from 1911-1915. Graduated with a degree in dentistry in 1918. Practiced dentistry in Vadstena since 1919 and served as a school dentist there since 1926. Vice chairman in the church council and church warden.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Harald Filip Efraim Hultstrand\",\n    \"jobTitle\": \"Dentist\",\n    \"birthDate\": \"1891-03-07\",\n    \"birthPlace\": \"Kråkshult, Jönköping, Sweden\",\n    \"father\": {\n        \"@type\": \"Person\",\n        \"name\": \"Otto Hultstrand\",\n        \"jobTitle\": \"Teacher\"\n    },\n    \"mother\": {\n        \"@type\": \"Person\",\n        \"name\": \"Kristina Jonsson\",\n        \"jobTitle\": \"Teacher\"\n    },\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Gerda Andersson\",\n        \"jobTitle\": \"Nurse\"\n    },\n    \"children\": {\n        \"@type\": \"Person\",\n        \"name\": \"Lenah Hultstrand\",\n        \"birthDate\": \"1921\"\n    },\n    \"alumniOf\": [\n        {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Skara\",\n            \"endDate\": \"1911\"\n        },\n        {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"Uppsala University\",\n            \"startDate\": \"1911\",\n            \"endDate\": \"1915\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"Degree in Dentistry\",\n            \"dateIssued\": \"1918\"\n        }\n    ],\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Vadstena\",\n            \"jobTitle\": \"Practicing Dentist\",\n            \"startDate\": \"1919\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Vadstena\",\n            \"jobTitle\": \"School Dentist\",\n            \"startDate\": \"1926\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Vadstena Church Council\",\n            \"jobTitle\": \"Vice Chairman\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Harald Filip Efraim Hultstrand",
+        "jobTitle": "Dentist",
+        "birthDate": "1891-03-07",
+        "birthPlace": "Kråkshult, Jönköping, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Otto Hultstrand",
+            "jobTitle": "Teacher"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Kristina Jonsson",
+            "jobTitle": "Teacher"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Gerda Andersson",
+            "jobTitle": "Nurse"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Lenah Hultstrand",
+            "birthDate": "1921"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara",
+                "endDate": "1911"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "startDate": "1911",
+                "endDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in Dentistry",
+                "dateIssued": "1918"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Vadstena",
+                "jobTitle": "Practicing Dentist",
+                "startDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vadstena",
+                "jobTitle": "School Dentist",
+                "startDate": "1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vadstena Church Council",
+                "jobTitle": "Vice Chairman"
+            }
+        ]
+    }
+}

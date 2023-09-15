@@ -1,0 +1,128 @@
+{
+    "original": "Johansson, Gustaf Artur, distriktsveterinär, Norrköping, f. 4/3’/94 i Flo, Skarab. 1., av Anders J. o. Johanna Andersson. G. 30 m. Lisa Käck. Barn: Ulla Britta f. 30, Ingrid 32. — Stud:-ex. i Vänersborg 12, veter :kand. 15, veter:ex. 18. Distr:veter. i Arvidsjaur 21, i Öjebyn 22, i Götene 26, i Kvänum 29 o. i Norrköp. sed. 37.",
+    "translated": "Johansson, Gustaf Artur, district veterinarian, Norrköping, born on March 4th, 1894 in Flo, Skaraborg County, son of Anders J. and Johanna Andersson. Married in 1930 to Lisa Käck. Children: Ulla Britta (born 1930) and Ingrid (born 1932). He completed his secondary education in Vänersborg in 1912, received his degree in veterinary science in 1915, and became a licensed veterinarian in 1918. He worked as a district veterinarian in Arvidsjaur starting in 1921, Öjebyn in 1922, Götene in 1926, Kvänum in 1929, and in Norrköping from 1937 onwards.",
+    "structured_raw": "{\n   \"@context\": \"http://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Gustaf Artur Johansson\",\n   \"birthDate\": \"1894-03-04\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Flo, Skaraborg County, Sweden\"\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders J. Johansson\",\n         \"gender\": \"male\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Johanna Andersson\",\n         \"gender\": \"female\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Lisa Käck\",\n      \"marriageDate\": \"1930\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ulla Britta Johansson\",\n         \"birthDate\": \"1930\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ingrid Johansson\",\n         \"birthDate\": \"1932\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Secondary Education\",\n         \"educationalLevel\": \"secondary\",\n         \"earnedBy\": {\n            \"@type\": \"Person\",\n            \"name\": \"Gustaf Artur Johansson\"\n         },\n         \"dateIssued\": \"1912\",\n         \"issuedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Vänersborg Secondary School\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Degree in Veterinary Science\",\n         \"educationalLevel\": \"tertiary\",\n         \"earnedBy\": {\n            \"@type\": \"Person\",\n            \"name\": \"Gustaf Artur Johansson\"\n         },\n         \"dateIssued\": \"1915\",\n         \"issuedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Unknown University\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"License in Veterinary Science\",\n         \"educationalLevel\": \"tertiary\",\n         \"earnedBy\": {\n            \"@type\": \"Person\",\n            \"name\": \"Gustaf Artur Johansson\"\n         },\n         \"dateIssued\": \"1918\",\n         \"issuedBy\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Unknown Licensing Agency\"\n         }\n      }\n   ],\n   \"jobTitle\": \"District Veterinarian\",\n   \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping\"\n   },\n   \"hasOccupation\": {\n      \"@type\": \"Occupation\",\n      \"name\": \"District Veterinarian\"\n   },\n   \"workLocation\": [\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Arvidsjaur\",\n         \"startDate\": \"1921\",\n         \"endDate\": \"1922\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Öjebyn\",\n         \"startDate\": \"1922\",\n         \"endDate\": \"1926\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Götene\",\n         \"startDate\": \"1926\",\n         \"endDate\": \"1929\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Kvänum\",\n         \"startDate\": \"1929\",\n         \"endDate\": \"1937\"\n      },\n      {\n         \"@type\": \"Place\",\n         \"name\": \"Norrköping\",\n         \"startDate\": \"1937\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Artur Johansson",
+        "birthDate": "1894-03-04",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Flo, Skaraborg County, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anders J. Johansson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Andersson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lisa Käck",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla Britta Johansson",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Johansson",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary Education",
+                "educationalLevel": "secondary",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Gustaf Artur Johansson"
+                },
+                "dateIssued": "1912",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Vänersborg Secondary School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in Veterinary Science",
+                "educationalLevel": "tertiary",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Gustaf Artur Johansson"
+                },
+                "dateIssued": "1915",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "License in Veterinary Science",
+                "educationalLevel": "tertiary",
+                "earnedBy": {
+                    "@type": "Person",
+                    "name": "Gustaf Artur Johansson"
+                },
+                "dateIssued": "1918",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown Licensing Agency"
+                }
+            }
+        ],
+        "jobTitle": "District Veterinarian",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Norrköping"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "District Veterinarian"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Arvidsjaur",
+                "startDate": "1921",
+                "endDate": "1922"
+            },
+            {
+                "@type": "Place",
+                "name": "Öjebyn",
+                "startDate": "1922",
+                "endDate": "1926"
+            },
+            {
+                "@type": "Place",
+                "name": "Götene",
+                "startDate": "1926",
+                "endDate": "1929"
+            },
+            {
+                "@type": "Place",
+                "name": "Kvänum",
+                "startDate": "1929",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Place",
+                "name": "Norrköping",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

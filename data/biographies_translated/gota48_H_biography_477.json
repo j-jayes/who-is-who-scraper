@@ -1,0 +1,85 @@
+{
+    "original": "Holmgren, Fanny Maria, tandläkare, Halmstad, f. 9/2/04 i Sthkn av kamr. Fredrik Johanson o. Maria Johansson. G. 30 m. prakt. läk. Halvar Holmgren. Barn: se denne. — Stud:ex. i Djursholm 22, med. kand. 26, tandl. 29. Assist, i Gbg 29, skoltandl. i Halmstad 30-47, v. foillktaindv. i Halms-tad sed,. 47.",
+    "translated": "Holmgren, Fanny Maria, dentist, Halmstad, born February 9, 1904 in Stockholm to the couple Fredrik Johanson and Maria Johansson. Married in 1930 to practicing physician Halvar Holmgren. Children: see him. - Graduated from Djursholm High School in 1922, Medical Bachelor in 1926, Dentistry in 1929. Assistant in Gothenburg in 1929, school dentist in Halmstad from 1930 to 1947, and deputy director of public dental health services in Halmstad since 1947.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Fanny Maria Holmgren\",\n   \"description\": \"Dentist from Halmstad\",\n   \"gender\": \"Female\",\n   \"birthDate\": \"1904-02-09\",\n   \"birthPlace\": \"Stockholm\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Fredrik Johanson\",\n         \"gender\": \"Male\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Maria Johansson\",\n         \"gender\": \"Female\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Halvar Holmgren\",\n      \"gender\": \"Male\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1930\"\n   },\n   \"child\": {\n      \"@type\": \"Person\",\n      \"name\": \"See Halvar Holmgren\",\n      \"gender\": \"Male\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"High School\",\n         \"educationalLevel\": \"SecondaryEducation\",\n         \"name\": \"Djursholm High School\",\n         \"dateReceived\": \"1922\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Bachelor's Degree\",\n         \"educationalLevel\": \"Undergraduate\",\n         \"name\": \"Medical Bachelor\",\n         \"dateReceived\": \"1926\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Professional Certification\",\n         \"educationalLevel\": \"PostsecondaryNondegreeAward\",\n         \"name\": \"Dentistry\",\n         \"dateReceived\": \"1929\"\n      }\n   ],\n   \"jobTitle\": \"Dentist\",\n   \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Halmstad\",\n      \"jobTitle\": \"School Dentist\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1947\"\n   },\n   \"additionalName\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Assistant\",\n         \"jobTitle\": \"Assistant\",\n         \"startDate\": \"1929\",\n         \"endDate\": \"1929\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Deputy Director\",\n         \"jobTitle\": \"Deputy Director of Public Dental Health Services\",\n         \"worksFor\": \"Halmstad\",\n         \"startDate\": \"1947\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Fanny Maria Holmgren",
+        "description": "Dentist from Halmstad",
+        "gender": "Female",
+        "birthDate": "1904-02-09",
+        "birthPlace": "Stockholm",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Fredrik Johanson",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Johansson",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Halvar Holmgren",
+            "gender": "Male",
+            "jobTitle": "Practicing Physician",
+            "startDate": "1930"
+        },
+        "child": {
+            "@type": "Person",
+            "name": "See Halvar Holmgren",
+            "gender": "Male"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School",
+                "educationalLevel": "SecondaryEducation",
+                "name": "Djursholm High School",
+                "dateReceived": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "educationalLevel": "Undergraduate",
+                "name": "Medical Bachelor",
+                "dateReceived": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Certification",
+                "educationalLevel": "PostsecondaryNondegreeAward",
+                "name": "Dentistry",
+                "dateReceived": "1929"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Halmstad",
+            "jobTitle": "School Dentist",
+            "startDate": "1930",
+            "endDate": "1947"
+        },
+        "additionalName": [
+            {
+                "@type": "Person",
+                "name": "Assistant",
+                "jobTitle": "Assistant",
+                "startDate": "1929",
+                "endDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Deputy Director",
+                "jobTitle": "Deputy Director of Public Dental Health Services",
+                "worksFor": "Halmstad",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

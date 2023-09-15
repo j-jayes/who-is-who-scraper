@@ -1,0 +1,67 @@
+{
+    "original": "Ivarsson, John, kyrkoherde, Ves-sigebro, f. 16/10/92 i Ljung, Gbgs o. Boh. 1. — Studiex i Lund 14, teol. kand. 17, prästv. f. Gbgs stift 18. Mis-siv i Fritsla 18, Varberg 19, Kungshamn s. å., Ljushult 23, kyrkoh. i Vessdge sed. 36.",
+    "translated": "Ivarsson, John, clergyman, Vessigebråd, b. 10/16/92 in Ljung, Gothenburg and Bohuslän. Studied at Lund University from 1914, obtained Bachelor of Divinity in 1917, and ordained for the Gothenburg diocese in 1918. Missionary in Fritsla in 1918, Varberg in 1919, Kungshamn same year, Ljushult in 1923, and incumbent in Vessigebråd since 1936. Married in 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"John\",\n  \"familyName\": \"Ivarsson\",\n  \"jobTitle\": \"Clergyman\",\n  \"birthPlace\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Ljung\",\n    \"addressRegion\": \"Gothenburg and Bohuslän\"\n  },\n  \"birthDate\": \"1892-10-16\",\n  \"education\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1917\"\n    }\n  ],\n  \"ordination\": {\n    \"@type\": \"Ordination\",\n    \"ordainedBy\": {\n      \"@type\": \"Person\",\n      \"name\": \"Gothenburg diocese\"\n    },\n    \"date\": \"1918\"\n  },\n  \"missionary\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fritsla\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Varberg\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kungshamn\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ljushult\",\n      \"startDate\": \"1923\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Vessigebråd\"\n  },\n  \"startDate\": \"1936\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Name of Spouse\",\n    \"gender\": \"Female\",\n    \"birthDate\": \"19xx\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "John",
+        "familyName": "Ivarsson",
+        "jobTitle": "Clergyman",
+        "birthPlace": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ljung",
+            "addressRegion": "Gothenburg and Bohuslän"
+        },
+        "birthDate": "1892-10-16",
+        "education": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "startDate": "1914",
+                "endDate": "1917"
+            }
+        ],
+        "ordination": {
+            "@type": "Ordination",
+            "ordainedBy": {
+                "@type": "Person",
+                "name": "Gothenburg diocese"
+            },
+            "date": "1918"
+        },
+        "missionary": [
+            {
+                "@type": "Organization",
+                "name": "Fritsla",
+                "startDate": "1918"
+            },
+            {
+                "@type": "Organization",
+                "name": "Varberg",
+                "startDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kungshamn",
+                "startDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ljushult",
+                "startDate": "1923"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Vessigebråd"
+        },
+        "startDate": "1936",
+        "spouse": {
+            "@type": "Person",
+            "name": "Name of Spouse",
+            "gender": "Female",
+            "birthDate": "19xx"
+        }
+    }
+}

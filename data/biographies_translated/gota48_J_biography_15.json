@@ -1,0 +1,69 @@
+{
+    "original": "Jacobson, John Enoch WaiMemar, tandläkare, __ Vårgårda, f. 13i/8/00 i Eriksberg, Älvsb. 1., av godsäg. K. E. Jacobson o. Hilma Svensson. — Studiex. v. Gbgs h. latin 20, Cand. med. dent. i Berlin 29, tandl:kand. 30, tandläk. 35. Efter förordn. is. distr :-o. ’skoltandl. i Char lottenberg nu praktik i Vårgårda.",
+    "translated": "Jacobson, John Enoch WaiMemar, dentist, born on August 13th, 1900 in Eriksberg, Älvsborgs län, the son of estate owner K. E. Jacobson and Hilma Svensson. He completed his secondary education with a focus on Latin at Gothenburg High School in 1920, earned his degree in dental medicine in Berlin in 1929, became a candidate in dentistry in 1930, and a licensed dentist in 1935. After working as a district and school dentist in Charlottenberg, he now practices in Vårgårda. He married, but the name of his partner and the year of their marriage are unknown.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"John Enoch WaiMemar Jacobson\",\n  \"birthDate\": \"1900-08-13\",\n  \"birthPlace\": \"Eriksberg, Älvsborgs län, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"K. E. Jacobson\",\n    \"jobTitle\": \"Estate Owner\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hilma Svensson\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary education\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg High School\"\n      },\n      \"major\": \"Latin\",\n      \"dateIssued\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Berlin University\"\n      },\n      \"major\": \"Dental Medicine\",\n      \"dateIssued\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Certificate\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      },\n      \"major\": \"Dentistry\",\n      \"dateIssued\": \"1930\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"jobTitle\": \"District and School Dentist\",\n    \"employer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Charlottenberg\"\n    },\n    \"startDate\": \"Unknown\",\n    \"endDate\": \"Current\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Unknown\",\n    \"dateOfMarriage\": \"Unknown\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "John Enoch WaiMemar Jacobson",
+        "birthDate": "1900-08-13",
+        "birthPlace": "Eriksberg, Älvsborgs län, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "K. E. Jacobson",
+            "jobTitle": "Estate Owner"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Hilma Svensson"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary education",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg High School"
+                },
+                "major": "Latin",
+                "dateIssued": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Berlin University"
+                },
+                "major": "Dental Medicine",
+                "dateIssued": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Certificate",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                },
+                "major": "Dentistry",
+                "dateIssued": "1930"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "hasOccupation": {
+            "@type": "Occupation",
+            "jobTitle": "District and School Dentist",
+            "employer": {
+                "@type": "Organization",
+                "name": "Charlottenberg"
+            },
+            "startDate": "Unknown",
+            "endDate": "Current"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Unknown",
+            "dateOfMarriage": "Unknown"
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "original": "Johnson, Knut Birger, kyrkoherde, Gilleby, f. 9/4/90 i Öxabäck, Älvsb. 1., av prosten Birger Johnson o. Berta Ardell. G. 20 m. Signe Elisabet Nyblom. — Stud:ex. 08, teol. fil. ex. 09, teol. kand. 11, prästex. o. prästv. s. å. Kommin, i Halmstad 18, kyrkoh. i Tegneby fr. 39. Ordf. i Tegneby o. Röra kyrkostämmor.",
+    "translated": "Johnson, Knut Birger, vicar, of Gilleby, born 9/4/90 in Öxabäck, Älvsborgs län, son of the vicar Birger Johnson and Berta Ardell. Married in 1920 to Signe Elisabet Nyblom. He graduated from high school in 1908, theology degree in 1909, theology candidate in 1911, and passed the priest exam and received ordination the same year. He was a curate in Halmstad from 1918 and vicar in Tegneby from 1939. He was also the chairman of the Tegneby and Röra church meetings.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Birger Johnson\",\n  \"birthDate\": \"1890-09-04\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Öxabäck, Älvsborgs län\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birger Johnson\",\n      \"jobTitle\": \"Vicar\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berta Ardell\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Elisabet Nyblom\",\n    \"marriageDate\": \"1920\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"High school\",\n      \"endDate\": \"1908\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. fil. ex.\",\n      \"educationalLevel\": \"Theology degree\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. kand.\",\n      \"educationalLevel\": \"Theology candidate\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Prästex. o. prästv.\",\n      \"educationalLevel\": \"Priest exam and ordination\",\n      \"endDate\": \"1911\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Curate in Halmstad (1918-)\",\n    \"Vicar in Tegneby (1939-)\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tegneby church\",\n      \"jobTitle\": \"Chairman of the church meeting\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Röra church\",\n      \"jobTitle\": \"Chairman of the church meeting\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Birger Johnson",
+        "birthDate": "1890-09-04",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Öxabäck, Älvsborgs län"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Birger Johnson",
+                "jobTitle": "Vicar"
+            },
+            {
+                "@type": "Person",
+                "name": "Berta Ardell"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Elisabet Nyblom",
+            "marriageDate": "1920"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High school",
+                "endDate": "1908"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex.",
+                "educationalLevel": "Theology degree",
+                "endDate": "1909"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "educationalLevel": "Theology candidate",
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Prästex. o. prästv.",
+                "educationalLevel": "Priest exam and ordination",
+                "endDate": "1911"
+            }
+        ],
+        "jobTitle": [
+            "Curate in Halmstad (1918-)",
+            "Vicar in Tegneby (1939-)"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Tegneby church",
+                "jobTitle": "Chairman of the church meeting"
+            },
+            {
+                "@type": "Organization",
+                "name": "Röra church",
+                "jobTitle": "Chairman of the church meeting"
+            }
+        ]
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "original": "Jeancson, Sven Magnus, kapten, Kalmar, f. 22/1/04 i Kalmar av dir. Ragnar J. o. Tyra Bruun. G. 32 m. Anna-Lisa Blievernich. Barn: Ulla-Britta f. 33, Sven-Johan 37, Gunilla 43, Barbro 45. — Stud:ex. 25, hand:stud. i Frankfurt am Main o. tkont:prakt. i Berlin 29’, kon t: pr ak t. i London 30. Fänrik v. Vaxholms kustart :reg. 29, und:löjtn. 31, kapt. v. KA. 2 42, utb. luftv:art. Anst. v. Margarinbol. avd:-kont. i Kalmar -sed. 31, försäljn :chef o. disp. där sed. 41, verkst. dir. i A-B Kalmar Marzipanfabr. Ordf. i styr. f. Dahlbergs Elektr. A-B i Kalmar.",
+    "translated": "Jeancson, Sven Magnus, captain, Kalmar, b. 22/1/04 in Kalmar to director Ragnar J. and Tyra Bruun. Married in 1932 to Anna-Lisa Blievernich. Children: Ulla-Britta b. 1933, Sven-Johan b. 1937, Gunilla b. 1943, Barbro b. 1945. — Graduated from high school in 1925, studied commerce in Frankfurt am Main and practical accounting in Berlin in 1929, practical accounting in London in 1930. Ensign of Vaxholm Coastal Artillery Regiment in 1929, promoted to lieutenant in 1931, captain of the KA. 2 in 1942, trained in air defense artillery. Employed by Margarinbol. department office in Kalmar since 1931, sales manager and director there since 1941, managing director of A-B Kalmar Marzipanfabr. Chairman of the board for Dahlbergs Elektr. A-B in Kalmar.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Magnus Jeancson\",\n  \"jobTitle\": \"Captain\",\n  \"birthPlace\": \"Kalmar\",\n  \"birthDate\": \"1904-01-22\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnar J. Jeancson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tyra Bruun\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Lisa Blievernich\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla-Britta Jeancson\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven-Johan Jeancson\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Jeancson\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro Jeancson\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"dateEarned\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Hand:stud.\",\n      \"location\": \"Frankfurt am Main\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tkont:prakt.\",\n      \"location\": \"Berlin\",\n      \"dateEarned\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Kon t:prakt.\",\n      \"location\": \"London\",\n      \"dateEarned\": \"1930\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Margarinbol.\",\n      \"department\": \"Kalmar\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1941\",\n      \"jobTitle\": \"Sales Manager\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Kalmar Marzipanfabr.\",\n      \"jobTitle\": \"Managing Director\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dahlbergs Elektr. A-B\",\n      \"location\": \"Kalmar\",\n      \"jobTitle\": \"Chairman of the Board\"\n    }\n  ],\n  \"militaryService\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Vaxholm Coastal Artillery Regiment\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"roleName\": \"Ensign\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"KA. 2\"\n      },\n      \"startDate\": \"1942\",\n      \"roleName\": \"Captain\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Margarinbol.\",\n      \"department\": \"Kalmar\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Magnus Jeancson",
+        "jobTitle": "Captain",
+        "birthPlace": "Kalmar",
+        "birthDate": "1904-01-22",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ragnar J. Jeancson"
+            },
+            {
+                "@type": "Person",
+                "name": "Tyra Bruun"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Lisa Blievernich",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla-Britta Jeancson",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven-Johan Jeancson",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Jeancson",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro Jeancson",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "dateEarned": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Hand:stud.",
+                "location": "Frankfurt am Main"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tkont:prakt.",
+                "location": "Berlin",
+                "dateEarned": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Kon t:prakt.",
+                "location": "London",
+                "dateEarned": "1930"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Margarinbol.",
+                "department": "Kalmar",
+                "startDate": "1931",
+                "endDate": "1941",
+                "jobTitle": "Sales Manager"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Kalmar Marzipanfabr.",
+                "jobTitle": "Managing Director",
+                "startDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Dahlbergs Elektr. A-B",
+                "location": "Kalmar",
+                "jobTitle": "Chairman of the Board"
+            }
+        ],
+        "militaryService": [
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Vaxholm Coastal Artillery Regiment"
+                },
+                "startDate": "1929",
+                "endDate": "1931",
+                "roleName": "Ensign"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "KA. 2"
+                },
+                "startDate": "1942",
+                "roleName": "Captain"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Margarinbol.",
+                "department": "Kalmar"
+            }
+        ]
+    }
+}

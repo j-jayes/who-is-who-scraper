@@ -1,0 +1,74 @@
+{
+    "original": "Hörsne, Mats, advokat, Kalmar, f. 13/1/97 i Hörsne m. Bara förs., Gotl. 1., av kontr :prost Sigge Jacobson o. Mathilda Nyström. G, 31 m. Elsa Stephani. Barn: Ulf f. 37. — Stud:-ex. i Visby 16, jur. kand. i Upps. 28. Tingstjg. i S. Roslags samt i Gotl n. doms. 28-30, tjg. i Svea hovr. 31, egen adv:rör. i Kalmar sed. 31. Led. av Sv :e s adv: s amf. 36.",
+    "translated": "Hörsne, Mats, lawyer, Kalmar, b. 13/1/97 in Hörsne with Bara parish, Gotland. Son of district pastor Sigge Jacobsson and Mathilda Nyström. Married to Elsa Stephani in 1931. Children: Ulf, b. 1937. Studied at Visby high school, graduated in 1916. Graduated with a law degree from Uppsala University in 1928. Served as a court clerk in South Roslagen and Gotland from 1928-1930, served as a court clerk in Svea Court of Appeals in 1931, established own law firm in Kalmar in 1931. Member of the Swedish Bar Association from 1936 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Mats Hörsne\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1897-01-13\",\n  \"birthPlace\": \"Hörsne, Bara parish, Gotland\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigge Jacobsson\",\n      \"jobTitle\": \"District Pastor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mathilda Nyström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Stephani\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ulf Hörsne\",\n    \"birthDate\": \"1937\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Visby high school\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"programName\": \"Law\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"startDate\": \"1936\"\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"CourtClerk\",\n      \"name\": \"South Roslagen district court\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"CourtClerk\",\n      \"name\": \"Svea Court of Appeals\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Own law firm in Kalmar\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Mats Hörsne",
+        "jobTitle": "Lawyer",
+        "birthDate": "1897-01-13",
+        "birthPlace": "Hörsne, Bara parish, Gotland",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sigge Jacobsson",
+                "jobTitle": "District Pastor"
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Nyström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Stephani",
+            "marriageDate": "1931"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Ulf Hörsne",
+            "birthDate": "1937"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Visby high school",
+                "startDate": "1916",
+                "endDate": "unknown"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "programName": "Law",
+                "startDate": "1928",
+                "endDate": "1928"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "startDate": "1936"
+        },
+        "hasOccupation": [
+            {
+                "@type": "CourtClerk",
+                "name": "South Roslagen district court",
+                "startDate": "1928",
+                "endDate": "1930"
+            },
+            {
+                "@type": "CourtClerk",
+                "name": "Svea Court of Appeals",
+                "startDate": "1931",
+                "endDate": "1931"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Own law firm in Kalmar",
+                "startDate": "1931",
+                "endDate": "unknown"
+            }
+        ]
+    }
+}

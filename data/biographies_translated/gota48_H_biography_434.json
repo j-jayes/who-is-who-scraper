@@ -1,0 +1,106 @@
+{
+    "original": "Hof, Johannes Algot, kyrkoherde, Åsa station, f. 1/1/91 i Bergum, Älvs-b. 1. G. 20’ m. Magda|lena Johnson. Barn: Hans f. 22, Knut 23, Lena 24, Ingrid-Stina 28, Kerstin 30, Gunnel 32. — Studiex. 11, teol. fil. ex. 12, teol. kand. 15, prakt. teol. prov o. prästv. s. å. Kapellpred. i Gullholmen 17, kommin. 23, kyrkoh. i Ölmevalda fr. 28. Ordf. i Ölmevalla o. Landa kyrkostämmor.",
+    "translated": "Hof, Johannes Algot, clergyman, Åsa station, b. 1/1/91 in Bergum, Älvsborg. Married 20 with Magdalena Johnson. Children: Hans b. 22, Knut b. 23, Lena b. 24, Ingrid-Stina b. 28, Kerstin b. 30, Gunnel b. 32. - Examined in 1911, philosophy degree in theology in 1912, theological candidate in 1915, practical theology test and ordained clergyman in the same year. Chapel preacher in Gullholmen 1917, curate in 1923, parish clergyman in Ölmevalda from 1928. Chairman of the Ölmevalla and Landa church meetings.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org/\",\n   \"@type\": \"Person\",\n   \"name\": \"Johannes Algot Hof\",\n   \"jobTitle\": \"Clergyman\",\n   \"birthPlace\": \"Bergum, Älvsborg\",\n   \"birthDate\": \"1891-01-01\",\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Magdalena Johnson\",\n      \"marriageDate\": \"1920\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Hans Hof\",\n         \"birthDate\": \"1922\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Knut Hof\",\n         \"birthDate\": \"1923\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Lena Hof\",\n         \"birthDate\": \"1924\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ingrid-Stina Hof\",\n         \"birthDate\": \"1928\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Kerstin Hof\",\n         \"birthDate\": \"1930\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gunnel Hof\",\n         \"birthDate\": \"1932\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Studiex.\",\n         \"description\": \"Studiexamen\",\n         \"endDate\": \"1911\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Teol. fil. ex.\",\n         \"description\": \"Filosofie kandidatexamen i teologi\",\n         \"endDate\": \"1912\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Teol. kand.\",\n         \"description\": \"Teologisk kandidatexamen\",\n         \"endDate\": \"1915\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Prakt. teol. prov o. prästv. s. å.\",\n         \"description\": \"Praktisk teologisk prov och prästvigning samma år\",\n         \"endDate\": \"1915\"\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Chapel Preacher\",\n         \"startDate\": \"1917\",\n         \"endDate\": \"1923\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Curate\",\n         \"startDate\": \"1923\",\n         \"endDate\": \"1928\"\n      },\n      {\n         \"@type\": \"Occupation\",\n         \"name\": \"Parish Clergyman\",\n         \"startDate\": \"1928\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Ölmevalla Church Meetings\",\n         \"jobTitle\": \"Chairman\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Landa Church Meetings\",\n         \"jobTitle\": \"Chairman\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Johannes Algot Hof",
+        "jobTitle": [
+            {
+                "@type": "Occupation",
+                "name": "Chapel Preacher",
+                "startDate": "1917",
+                "endDate": "1923"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Curate",
+                "startDate": "1923",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Parish Clergyman",
+                "startDate": "1928"
+            }
+        ],
+        "birthPlace": "Bergum, Älvsborg",
+        "birthDate": "1891-01-01",
+        "spouse": {
+            "@type": "Person",
+            "name": "Magdalena Johnson",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hans Hof",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Knut Hof",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Lena Hof",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid-Stina Hof",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Hof",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnel Hof",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studiex.",
+                "description": "Studiexamen",
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fil. ex.",
+                "description": "Filosofie kandidatexamen i teologi",
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand.",
+                "description": "Teologisk kandidatexamen",
+                "endDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Prakt. teol. prov o. prästv. s. å.",
+                "description": "Praktisk teologisk prov och prästvigning samma år",
+                "endDate": "1915"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Ölmevalla Church Meetings",
+                "jobTitle": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Landa Church Meetings",
+                "jobTitle": "Chairman"
+            }
+        ]
+    }
+}

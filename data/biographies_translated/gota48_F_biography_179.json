@@ -1,0 +1,146 @@
+{
+    "original": "Friden, Anders Lennart Sigfrid, komminister, Trollhättan, f. 27/6/98 i Slöta, Skarab. L, av folkskoll. S. N. F. o. Nanny Lithander. G. 26 m. folkskoll. Märta Janson. Barn: Sven f. 28, Margareta 30. — Studrex. i Skara 18, teol. fil. ex. 21, teol. kand. samt prästv. f. Skara stift 25. V. pastor i Finnerödja 26, kommin. i Älgarås 26-32, kyrkoh. n Västra Ny 32-45, kommin. i Trollhättan sed. 45. I Västra Ny bl. a. ordf. i kyrkostämma o. skolstyr. samt sångled. f. Kyrkosång. vänn. i Linköp. stift, led. av Trollhättans hemb :kör. Hobby: botanik.",
+    "translated": "Friden, Anders Lennart Sigfrid, vicar, Trollhättan, born on June 27th, 1898 in Slöta, Skaraborg county, son of a primary school teacher. His mother's name was Nanny Lithander. He married Märta Janson in 1926, who also attended primary school. They have two children: Sven, born in 1928, and Margareta, born in 1930. \n\nAnders studied at Skara college in 1918, received a degree in theology and philosophy in 1921, and was ordained as a minister in 1925 in the Diocese of Skara. He was an assistant pastor in Finnerödja in 1926, a curate in Älgarås from 1926 to 1932, a vicar in Västra Ny from 1932 to 1945, and a curate in Trollhättan since 1945. While in Västra Ny, he was the chairman of the church meeting and the school committee, and also directed the church choir. He was a member of the church choir association in the Diocese of Linköping. His hobby was botany.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Anders Lennart Sigfrid Friden\",\n  \"jobTitle\": \"Vicar\",\n  \"birthDate\": \"1898-06-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Slöta\",\n      \"addressRegion\": \"Skaraborg County\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nanny Lithander\",\n      \"gender\": \"Female\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Unknown father\",\n      \"gender\": \"Male\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta Janson\",\n    \"attended\": \"Primary school\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Friden\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Friden\",\n      \"birthDate\": \"1930\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Skara College\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree in Theology and Philosophy\",\n      \"earnedBy\": \"Skara College\",\n      \"dateIssued\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ordained as Minister\",\n      \"earnedBy\": \"Diocese of Skara\",\n      \"dateIssued\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"ReligiousOrganization\",\n      \"name\": \"Diocese of Skara\"\n    },\n    {\n      \"@type\": \"ReligiousOrganization\",\n      \"name\": \"Diocese of Linköping\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Choir\",\n          \"name\": \"Church Choir Association\"\n        }\n      ]\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Trollhättan\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant Pastor\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Finnerödja\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Älgarås\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1945\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Västra Ny\"\n      },\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Church Meeting\",\n          \"occupation\": \"Chairman\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"School Committee\"\n        }\n      ],\n      \"director\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Church Choir\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1945\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Trollhättan\"\n      }\n    }\n  ],\n  \"knowsAbout\": \"Botany\",\n  \"@id\": \"urn:UUID\"\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Anders Lennart Sigfrid Friden",
+        "jobTitle": "Vicar",
+        "birthDate": "1898-06-27",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Slöta",
+                "addressRegion": "Skaraborg County"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Nanny Lithander",
+                "gender": "Female"
+            },
+            {
+                "@type": "Person",
+                "name": "Unknown father",
+                "gender": "Male"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Janson",
+            "attended": "Primary school"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Friden",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta Friden",
+                "birthDate": "1930"
+            }
+        ],
+        "education": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Skara College",
+                "startDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in Theology and Philosophy",
+                "earnedBy": "Skara College",
+                "dateIssued": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ordained as Minister",
+                "earnedBy": "Diocese of Skara",
+                "dateIssued": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "ReligiousOrganization",
+                "name": "Diocese of Skara"
+            },
+            {
+                "@type": "ReligiousOrganization",
+                "name": "Diocese of Linköping",
+                "memberOf": [
+                    {
+                        "@type": "Choir",
+                        "name": "Church Choir Association"
+                    }
+                ]
+            }
+        ],
+        "workLocation": {
+            "@type": "Place",
+            "name": "Trollhättan"
+        },
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Assistant Pastor",
+                "startDate": "1926",
+                "endDate": "1926",
+                "location": {
+                    "@type": "Place",
+                    "name": "Finnerödja"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Curate",
+                "startDate": "1926",
+                "endDate": "1932",
+                "location": {
+                    "@type": "Place",
+                    "name": "Älgarås"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Vicar",
+                "startDate": "1932",
+                "endDate": "1945",
+                "location": {
+                    "@type": "Place",
+                    "name": "Västra Ny"
+                },
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Church Meeting",
+                        "occupation": "Chairman"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "School Committee"
+                    }
+                ],
+                "director": {
+                    "@type": "Organization",
+                    "name": "Church Choir"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Curate",
+                "startDate": "1945",
+                "location": {
+                    "@type": "Place",
+                    "name": "Trollhättan"
+                }
+            }
+        ],
+        "knowsAbout": "Botany",
+        "@id": "urn:UUID"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "original": "Jakobsson, Christian, distriktsveterinär, Nässjö, f. 7/12/83 i Råå, Malmöh. 1., av sjökapt. Petter J. o. Petronella Jakobsson. G. m. Ingeborg Sofia Martell. Barn: Stina f. 15, Olle 17, Britta 18, Ulla 22. — Stud:ex. 03, ve- terinärex. 07. Distr iveterinär i Nässjö sed. 10. RVO.",
+    "translated": "Jakobsson, Christian, district veterinarian, Nässjö, born on December 7, 1883 in Råå, Malmöhus County, to Captain Petter J. and Petronella Jakobsson. He married Ingeborg Sofia Martell in the year 1915. They have four children: Stina, born in 1915; Olle, born in 1917; Britta, born in 1918; and Ulla, born in 1922. Christian received his high school diploma in 1903 and his veterinary degree in 1907. He has been a district veterinarian in Nässjö since 1910 and was awarded with the Royal Order of the Wasa (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Christian Jakobsson\",\n  \"jobTitle\": \"District Veterinarian\",\n  \"birthDate\": \"1883-12-07\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Råå, Malmöhus County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Petter J. Jakobsson\",\n      \"jobTitle\": \"Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Petronella Jakobsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Sofia Martell\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stina Jakobsson\",\n      \"birthDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olle Jakobsson\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britta Jakobsson\",\n      \"birthDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Jakobsson\",\n      \"birthDate\": \"1922\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"High school diploma\",\n      \"educationalLevel\": \"UpperSecondaryEducation\",\n      \"awardDate\": \"1903\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Veterinary degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"awardDate\": \"1907\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Nässjö District Veterinary Office\",\n    \"startDate\": \"1910\"\n  },\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the Wasa\",\n      \"description\": \"Swedish order of chivalry awarded to Christian Jakobsson\",\n      \"awards\": \"RVO\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Christian Jakobsson",
+        "jobTitle": "District Veterinarian",
+        "birthDate": "1883-12-07",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Råå, Malmöhus County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Petter J. Jakobsson",
+                "jobTitle": "Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Petronella Jakobsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Sofia Martell"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Stina Jakobsson",
+                "birthDate": "1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Olle Jakobsson",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Britta Jakobsson",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Jakobsson",
+                "birthDate": "1922"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "High school diploma",
+                "educationalLevel": "UpperSecondaryEducation",
+                "awardDate": "1903"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Veterinary degree",
+                "educationalLevel": "Bachelor's degree",
+                "awardDate": "1907"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Nässjö District Veterinary Office",
+            "startDate": "1910"
+        },
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the Wasa",
+                "description": "Swedish order of chivalry awarded to Christian Jakobsson",
+                "awards": "RVO"
+            }
+        ]
+    }
+}

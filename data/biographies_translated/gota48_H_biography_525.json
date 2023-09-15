@@ -1,0 +1,100 @@
+{
+    "original": "Huitfeldt, Jean Bernhard Teodor, postmästare, Åtvidaberg, f. 20/4/86 i ödesliög, Östergötl. 1., av fan]. Jean H. o. Hilma Johansson. G. 14 m. Judit Lindfeldt. Barn: Ann-Marie f. 16, Elsa 17, Ivar 20. — Amst. i postv. sed. 06, postexp. i Linköp. 11, postassist. där 25, stat:mäst. där 39, postmäst. i Åtvidaberg sed. 41. GM 5 st.",
+    "translated": "Huitfeldt, Jean Bernhard Teodor, postmaster, Åtvidaberg, born on April 20, 1886 in ödesliög, Östergötland County, son of Jean H. and Hilma Johansson. Married on May 14, 19xx to Judit Lindfeldt. Children: Ann-Marie born in 1916, Elsa in 1917, and Ivar in 1920. He worked as an employee in the postal service from 1906, postal inspector in Linköping from 1911, assistant there from 1925, chief inspector from 1939, and postmaster in Åtvidaberg from 1941. He had 5 children.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Jean Bernhard Teodor Huitfeldt\",\n  \"birthDate\": \"1886-04-20\",\n  \"birthPlace\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"ödesliög\",\n    \"addressRegion\": \"Östergötland County\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jean Huitfeldt\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Judit Lindfeldt\",\n    \"marriageDate\": \"19xx-05-14\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Marie\",\n      \"birthDate\": \"1916\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ivar\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\",\n      \"birthDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"unknown\",\n      \"birthDate\": \"unknown\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Postmaster\"\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Postal Employee\",\n      \"startDate\": \"1906\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Postal Inspector\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1925\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\",\n        \"addressCountry\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Chief Inspector\",\n      \"startDate\": \"1939\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\",\n        \"addressCountry\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Postmaster\",\n      \"startDate\": \"1941\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Åtvidaberg\",\n        \"addressCountry\": \"Sweden\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jean Bernhard Teodor Huitfeldt",
+        "birthDate": "1886-04-20",
+        "birthPlace": {
+            "@type": "PostalAddress",
+            "addressLocality": "ödesliög",
+            "addressRegion": "Östergötland County",
+            "addressCountry": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Jean Huitfeldt"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Judit Lindfeldt",
+            "marriageDate": "19xx-05-14"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann-Marie",
+                "birthDate": "1916"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Ivar",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown",
+                "birthDate": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "unknown",
+                "birthDate": "unknown"
+            }
+        ],
+        "jobTitle": [
+            "Postmaster"
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Postal Employee",
+                "startDate": "1906"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Postal Inspector",
+                "startDate": "1911",
+                "endDate": "1925",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping",
+                    "addressCountry": "Sweden"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Chief Inspector",
+                "startDate": "1939",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping",
+                    "addressCountry": "Sweden"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Postmaster",
+                "startDate": "1941",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Åtvidaberg",
+                    "addressCountry": "Sweden"
+                }
+            }
+        ]
+    }
+}

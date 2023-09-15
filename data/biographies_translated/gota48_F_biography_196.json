@@ -1,0 +1,69 @@
+{
+    "original": "Frising, Per-Gunnar Samuel, leg. läkare, Borås, f. 27/5/11 i Lund av med. dr Gunnar F. o. Marie-Sofie Krakau. G. 44 m. Ebba Sjöström. Barn: Gun-, nar f. 46. — Stud :ex. 33, med. kand. 38 o. med. lic, 44, allt i Lund, Andre und:läk. v. Borås centr :las. kir. avd. sed. 45.",
+    "translated": "Frising, Per-Gunnar Samuel, qualified physician, from Borås, born May 27, 1911 in Lund to Dr. Gunnar F. and Marie-Sofie Krakau. Married to Ebba Sjöström in 1944 and they have a daughter named Gun-. He passed his studentexamen (secondary school leaving exam) in 1933, completed his medical degree in 1938 and got his medical license in 1944, all at Lund University. He served as an assistant physician at the surgical department of Borås Centrallasarett from 1945 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per-Gunnar Samuel Frising\",\n  \"jobTitle\": \"Qualified Physician\",\n  \"birthDate\": \"1911-05-27\",\n  \"birthPlace\": \"Lund\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar F. Frising\",\n      \"jobTitle\": \"Doctor of Medicine\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marie-Sofie Krakau\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ebba Sjöström\",\n    \"marriageDate\": \"1944\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gun-\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalCredential\",\n      \"description\": \"Studentexamen\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"endDate\": \"1933\",\n      \"name\": \"Lund University\"\n    },\n    {\n      \"@type\": \"EducationalCredential\",\n      \"description\": \"Medical Degree\",\n      \"educationalLevel\": \"University\",\n      \"endDate\": \"1938\",\n      \"name\": \"Lund University\"\n    },\n    {\n      \"@type\": \"MedicalLicense\",\n      \"name\": \"Medical License\",\n      \"issuer\": \"Sweden\",\n      \"grantDate\": \"1944\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Borås Centrallasarett\",\n    \"memberOf\": {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Surgical Department\"\n    },\n    \"startDate\": \"1945\"\n  },\n  \"sameAs\": \"\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per-Gunnar Samuel Frising",
+        "jobTitle": "Qualified Physician",
+        "birthDate": "1911-05-27",
+        "birthPlace": "Lund",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gunnar F. Frising",
+                "jobTitle": "Doctor of Medicine"
+            },
+            {
+                "@type": "Person",
+                "name": "Marie-Sofie Krakau"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ebba Sjöström",
+            "marriageDate": "1944"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gun-",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalCredential",
+                "description": "Studentexamen",
+                "educationalLevel": "SecondaryEducation",
+                "endDate": "1933",
+                "name": "Lund University"
+            },
+            {
+                "@type": "EducationalCredential",
+                "description": "Medical Degree",
+                "educationalLevel": "University",
+                "endDate": "1938",
+                "name": "Lund University"
+            },
+            {
+                "@type": "MedicalLicense",
+                "name": "Medical License",
+                "issuer": "Sweden",
+                "grantDate": "1944"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Borås Centrallasarett",
+            "memberOf": {
+                "@type": "MedicalOrganization",
+                "name": "Surgical Department"
+            },
+            "startDate": "1945"
+        },
+        "sameAs": ""
+    }
+}

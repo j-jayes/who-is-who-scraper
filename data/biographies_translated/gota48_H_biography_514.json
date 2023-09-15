@@ -1,0 +1,142 @@
+{
+    "original": "Hommerberg, Lily Andersson-, tandläkare, Skövde, f. 7/6/06 i Höör, Malmöh. 1., av Carl Hommerber^ o. Jenny Broms. G. 36 m. tandl. Tage Andersson. Barn: Thomas f. 38, Mats 44, Berit 45. — Stud:ex. v. Wallinska sk. i Sthlm 25, Cand. med. dent. i Heidelberg 27, tandl :kand. s. å., tand-läk. 30. Assist, i Växjö 30, distr :-tandl. i Tibro 30-36, därefter praktik o. skoltandl. där, nu praktik i Skövde.",
+    "translated": "Hommerberg, Lily Andersson-, dentist, Skövde, b. 7/6/06 in Höör, Malmöhus County, daughter of Carl Hommerberg and Jenny Broms. Married in 1936 to dentist Tage Andersson. Children: Thomas b. 1938, Mats b. 1944, Berit b. 1945. Lily graduated from Wallinska skolan in Stockholm in 1925 and obtained a degree in dentistry from Heidelberg in 1927. She also studied dentistry in Sweden the same year and became a licensed dentist in 1930. She worked as an assistant in Växjö in 1930 and as a district dentist in Tibro from 1930-1936 before starting her own practice and working as a school dentist in Tibro. She now has a practice in Skövde.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lily Andersson-Hommerberg\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1906-06-07\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Höör\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Malmöhus County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Hommerberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jenny Broms\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tage Andersson\",\n      \"jobTitle\": \"Dentist\",\n      \"marriageDate\": \"1936\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thomas\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mats\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berit\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"School\",\n      \"name\": \"Wallinska skolan\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Heidelberg\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"Germany\"\n      },\n      \"endDate\": \"1927\",\n      \"degree\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"Dentistry\"\n      }\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Licensed dentist\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Växjö hospital\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"District dentist\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1936\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Tibro municipality\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist practitioner\",\n      \"startDate\": \"1936\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Tibro municipality\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Skövde municipality\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"School dentist\",\n      \"startDate\": \"1936\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Tibro municipality\"\n        }\n      ]\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Skövde\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lily Andersson-Hommerberg",
+        "jobTitle": "Dentist",
+        "birthDate": "1906-06-07",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Höör",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Malmöhus County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Hommerberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Jenny Broms"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Tage Andersson",
+                "jobTitle": "Dentist",
+                "marriageDate": "1936"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Thomas",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Mats",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Berit",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "School",
+                "name": "Wallinska skolan",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "endDate": "1925"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Heidelberg",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Germany"
+                },
+                "endDate": "1927",
+                "degree": {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Dentistry"
+                }
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Licensed dentist",
+                "startDate": "1927",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Assistant",
+                "startDate": "1930",
+                "endDate": "1930",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Växjö hospital"
+                    }
+                ]
+            },
+            {
+                "@type": "Occupation",
+                "name": "District dentist",
+                "startDate": "1930",
+                "endDate": "1936",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Tibro municipality"
+                    }
+                ]
+            },
+            {
+                "@type": "Occupation",
+                "name": "Dentist practitioner",
+                "startDate": "1936",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Tibro municipality"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Skövde municipality"
+                    }
+                ]
+            },
+            {
+                "@type": "Occupation",
+                "name": "School dentist",
+                "startDate": "1936",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Tibro municipality"
+                    }
+                ]
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skövde"
+        }
+    }
+}

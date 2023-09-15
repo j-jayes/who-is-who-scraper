@@ -1,0 +1,107 @@
+{
+    "original": "Jörgensen, Folke, advokat, Göteborg, f. 25/9/81 i Lund av Fredrik J. o. Maria Palm. G. 10 m. Berta Knapp. Barn: Arne f. 11, adv., Gbg, Rolf 15, adv., Sthlm, Lennart 22, civ:ekonom, Gbg, Birgitta 24, g. m. köpm. Péter de Pàndy, Sthlm. — Mog:ex. v. Lunds h. a. 1. 01, prel:ex. i Lund 02, hovr:-ex. 05. E. o. not. i Svea hovr. 05, tingstjg. 05-08, adv. i Gbg. Led. av Sv:es adv:samf. sed, 10.",
+    "translated": "Jörgensen, Folke, lawyer, Gothenburg, born 25/9/81 in Lund to Fredrik J. and Maria Palm. Married to Berta Knapp in 19xx. Children: Arne born in 1911, lawyer, Gothenburg; Rolf born in 1915, lawyer, Stockholm; Lennart born in 1918, economist, Gothenburg; Birgitta born in 1920, married to merchant Péter de Pàndy in Stockholm. Completed studentexamen at Lund high school in 1901, preliminary law degree in Lund in 1902, passed the royal court exam in 1905. Became a deputy notary in Svea Court of Appeal in 1905, served as a court clerk from 1905-1908, and then became a lawyer in Gothenburg. Been a member of the Swedish Bar Association since 1910.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Folke Jörgensen\",\n  \"birthDate\": \"1881-09-25\",\n  \"birthPlace\": \"Lund\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Lawyer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Berta Knapp\",\n    \"dateOfMarriage\": \"19xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne Jörgensen\",\n      \"birthDate\": \"1911\",\n      \"jobTitle\": \"Lawyer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Bar Association\"\n      },\n      \"parent\": \"Folke Jörgensen\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Jörgensen\",\n      \"birthDate\": \"1915\",\n      \"jobTitle\": \"Lawyer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Bar Association\"\n      },\n      \"parent\": \"Folke Jörgensen\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Jörgensen\",\n      \"birthDate\": \"1918\",\n      \"jobTitle\": \"Economist\",\n      \"parent\": \"Folke Jörgensen\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Jörgensen\",\n      \"birthDate\": \"1920\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Péter de Pàndy\",\n        \"jobTitle\": \"Merchant\"\n      },\n      \"parent\": \"Folke Jörgensen\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studentexamen from Lund high school\",\n      \"dateIssued\": \"1901\",\n      \"educationalLevel\": \"High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Preliminary law degree from Lund University\",\n      \"dateIssued\": \"1902\",\n      \"educationalLevel\": \"Bachelor's Degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Passed the royal court exam\",\n      \"dateIssued\": \"1905\",\n      \"educationalLevel\": \"Professional Certification\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1905\",\n      \"endDate\": \"1908\",\n      \"roleName\": \"Court Clerk\",\n      \"namedPosition\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Svea Court of Appeal\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1905\",\n      \"endDate\": \"present\",\n      \"roleName\": \"Lawyer\",\n      \"namedPosition\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Law Firm in Gothenburg\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Jörgensen",
+        "birthDate": "1881-09-25",
+        "birthPlace": "Lund",
+        "nationality": "Swedish",
+        "jobTitle": "Lawyer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Berta Knapp",
+            "dateOfMarriage": "19xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Arne Jörgensen",
+                "birthDate": "1911",
+                "jobTitle": "Lawyer",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Bar Association"
+                },
+                "parent": "Folke Jörgensen"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf Jörgensen",
+                "birthDate": "1915",
+                "jobTitle": "Lawyer",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Bar Association"
+                },
+                "parent": "Folke Jörgensen"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Jörgensen",
+                "birthDate": "1918",
+                "jobTitle": "Economist",
+                "parent": "Folke Jörgensen"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Jörgensen",
+                "birthDate": "1920",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Péter de Pàndy",
+                    "jobTitle": "Merchant"
+                },
+                "parent": "Folke Jörgensen"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen from Lund high school",
+                "dateIssued": "1901",
+                "educationalLevel": "High School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Preliminary law degree from Lund University",
+                "dateIssued": "1902",
+                "educationalLevel": "Bachelor's Degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Passed the royal court exam",
+                "dateIssued": "1905",
+                "educationalLevel": "Professional Certification"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1905",
+                "endDate": "1908",
+                "roleName": "Court Clerk",
+                "namedPosition": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Svea Court of Appeal"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1905",
+                "endDate": "present",
+                "roleName": "Lawyer",
+                "namedPosition": {
+                    "@type": "Organization",
+                    "name": "Law Firm in Gothenburg"
+                }
+            }
+        ]
+    }
+}

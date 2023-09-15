@@ -1,0 +1,115 @@
+{
+    "original": "Jonasson, Gustaf Folke, egnahemsdirektör, Uddevalla, f. 18/8/85 i Kum-’la av häradsdom. Erik Adolf J. o. Ida Kristina Persson. G. 12 m. Ester Bengtsson. Barn: Brita f. 13, fil. mag., g. m. e. o. adj. Sven Lagerlöf, Gbg, Lisbeth 16, fil. lic., g. m. doc. Nils Fries, Upps. — Agron :ex. 07. Lär. o. insp. v. Kilanda lantbr:sk. 07-11, jordbr:kon- . sulent i Gbgs o. Boh. län 11-40, egna-hemsdir. 40. Ordf. i Gbgs stifts IL boställsdistr. sed. 36, led. av kristids-styr.’ f. Bohusl. sed. 39, länsblocks-deleg. sed. 42. RVO.",
+    "translated": "Jonasson, Gustaf Folke, homestead director, Uddevalla, born on August 18th, 1885 in Kumla of district judge Erik Adolf J. and Ida Kristina Persson. Married for 12 years to Ester Bengtsson. Children: Brita, born in 1913, with a Master of Philosophy, married to a lawyer and assistant judge Sven Lagerlöf from Gothenburg, Lisbeth, born in 1916 with a Licentiate of Philosophy, married to a doctor Nils Fries from Uppsala. Graduated as an agronomist in 1907. Educator and inspector at Kilanda agricultural school from 1907-1911. Agriculture consultant in Gothenburg and Bohuslän counties from 1911-1940, homestead director since 1940. Chairman of the Gothenburg diocese homestead district since 1936, member of the crisis management committee for Bohuslän since 1939, member of the county block delegation since 1942. Awarded the Royal Order of Vasa (RVO).",
+    "structured_raw": "{\n   \"@context\":\"http:\\/\\/schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Gustaf Folke Jonasson\",\n   \"jobTitle\":\"Homestead Director\",\n   \"birthDate\":\"1885-08-18\",\n   \"birthPlace\":\"Kumla\",\n   \"nationality\":\"Swedish\",\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Uddevalla\"\n   },\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Erik Adolf J. Jonasson\",\n         \"jobTitle\":\"District Judge\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Ida Kristina Persson\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Ester Bengtsson\",\n      \"marriageDate\":\"12 years\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Brita Lagerlöf\",\n         \"birthDate\":\"1913\",\n         \"jobTitle\":\"Master of Philosophy\",\n         \"spouse\":{\n            \"@type\":\"Person\",\n            \"name\":\"Sven Lagerlöf\",\n            \"jobTitle\":\"Lawyer and Assistant Judge\",\n            \"address\":{\n               \"@type\":\"PostalAddress\",\n               \"addressLocality\":\"Gothenburg\"\n            }\n         }\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Lisbeth Fries\",\n         \"birthDate\":\"1916\",\n         \"jobTitle\":\"Licentiate of Philosophy\",\n         \"spouse\":{\n            \"@type\":\"Person\",\n            \"name\":\"Nils Fries\",\n            \"jobTitle\":\"Doctor\",\n            \"address\":{\n               \"@type\":\"PostalAddress\",\n               \"addressLocality\":\"Uppsala\"\n            }\n         }\n      }\n   ],\n   \"jobTitle\":\"Agronomist\",\n   \"alumniOf\":{\n      \"@type\":\"EducationalOrganization\",\n      \"name\":\"Kilanda Agricultural School\"\n   },\n   \"workExperience\":[\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Kilanda Agricultural School\",\n         \"jobTitle\":\"Educator and Inspector\",\n         \"startDate\":\"1907\",\n         \"endDate\":\"1911\"\n      },\n      {\n         \"@type\":\"Occupation\",\n         \"name\":\"Agriculture Consultant\",\n         \"startDate\":\"1911\",\n         \"endDate\":\"1940\",\n         \"location\":{\n            \"@type\":\"AdministrativeArea\",\n            \"name\":\"Gothenburg and Bohuslän Counties\"\n         }\n      },\n      {\n         \"@type\":\"Occupation\",\n         \"name\":\"Homestead Director\",\n         \"startDate\":\"1940\"\n      }\n   ],\n   \"memberOf\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Gothenburg Diocese Homestead District\",\n         \"jobTitle\":\"Chairman\",\n         \"startDate\":\"1936\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Crisis Management Committee for Bohuslän\",\n         \"jobTitle\":\"Member\",\n         \"startDate\":\"1939\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"County Block Delegation\",\n         \"jobTitle\":\"Member\",\n         \"startDate\":\"1942\"\n      }\n   ],\n   \"awards\":\"Royal Order of Vasa\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Folke Jonasson",
+        "jobTitle": "Agronomist",
+        "birthDate": "1885-08-18",
+        "birthPlace": "Kumla",
+        "nationality": "Swedish",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Uddevalla"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik Adolf J. Jonasson",
+                "jobTitle": "District Judge"
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Kristina Persson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ester Bengtsson",
+            "marriageDate": "12 years"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Brita Lagerlöf",
+                "birthDate": "1913",
+                "jobTitle": "Master of Philosophy",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Sven Lagerlöf",
+                    "jobTitle": "Lawyer and Assistant Judge",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Lisbeth Fries",
+                "birthDate": "1916",
+                "jobTitle": "Licentiate of Philosophy",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Nils Fries",
+                    "jobTitle": "Doctor",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Uppsala"
+                    }
+                }
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Kilanda Agricultural School"
+        },
+        "workExperience": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Kilanda Agricultural School",
+                "jobTitle": "Educator and Inspector",
+                "startDate": "1907",
+                "endDate": "1911"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Agriculture Consultant",
+                "startDate": "1911",
+                "endDate": "1940",
+                "location": {
+                    "@type": "AdministrativeArea",
+                    "name": "Gothenburg and Bohuslän Counties"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Homestead Director",
+                "startDate": "1940"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Diocese Homestead District",
+                "jobTitle": "Chairman",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Crisis Management Committee for Bohuslän",
+                "jobTitle": "Member",
+                "startDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Block Delegation",
+                "jobTitle": "Member",
+                "startDate": "1942"
+            }
+        ],
+        "awards": "Royal Order of Vasa"
+    }
+}

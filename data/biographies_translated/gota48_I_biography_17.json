@@ -1,0 +1,108 @@
+{
+    "original": "Isaksson, Agne Folke Ahrén, prakt, läkare, Linköping, f. 5/1/05 i Linköp. av Ludvig L o. EmiHa Schwartz. G. 36 m. sjuksköt. Margareta Clason. Barn: Marianne f. 38, Göran 40. — Stud:ex. i Linköp. 25, med. kand, i Upps. 29 o. med. lic. där 34. Kort. förordn. s. prov:läk. i Linköp. distr. 33 o. 37, i Strängnäs distr. 35, förordn. s. assist :läk. samt e. läk, o. und :läk. v. Linköp. las. med. avd. 34-36, prakt, läk. i Linköp. sed. 36.",
+    "translated": "Isaksson, Agne Folke Ahrén, practical doctor, Linköping, born on January 5th, 1905 in Linköping to Ludvig L and EmiHa Schwartz. Married in 1936 to nurse Margareta Clason. They have two children: Marianne (born in 1938) and Göran (born in 1940). Agne finished his high school studies in Linköping in 1925 and got his Bachelor's degree in medicine in Uppsala in 1929, and his medical license there in 1934. He was briefly appointed as a medical assistant in different districts before being appointed as a medical practitioner in Linköping in 1936, where he has been working since, except for short-term appointments in other districts. In 1934-36, he worked as a medical intern and assistant doctor at the medical department of Linköping Hospital.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Agne Folke Ahrén Isaksson\",\n  \"birthDate\": \"1905-01-05\",\n  \"birthPlace\": \"Linköping\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ludvig L Isaksson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"EmiHa Schwartz\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Clason\",\n    \"jobTitle\": \"Nurse\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Isaksson\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Isaksson\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Linköping High School\",\n      \"location\": \"Linköping\",\n      \"alumni\": [\n        {\n          \"@type\": \"Person\",\n          \"name\": \"Agne Folke Ahrén Isaksson\"\n        }\n      ],\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala\",\n      \"alumni\": [\n        {\n          \"@type\": \"Person\",\n          \"name\": \"Agne Folke Ahrén Isaksson\"\n        }\n      ],\n      \"startDate\": \"1925\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"jobTitle\": \"Practical Doctor\",\n  \"hasCredential\": [\n    {\n      \"@type\": \"MedicalLicense\",\n      \"name\": \"Medical License\",\n      \"dateIssued\": \"1934\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      }\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"General Practice\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Linköping Hospital\",\n      \"member\": {\n        \"@type\": \"Person\",\n        \"name\": \"Agne Folke Ahrén Isaksson\"\n      },\n      \"department\": [\n        {\n          \"@type\": \"MedicalDepartment\",\n          \"name\": \"Medical Department\",\n          \"member\": {\n            \"@type\": \"Person\",\n            \"name\": \"Agne Folke Ahrén Isaksson\"\n          },\n          \"startDate\": \"1934\",\n          \"endDate\": \"1936\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Agne Folke Ahrén Isaksson",
+        "birthDate": "1905-01-05",
+        "birthPlace": "Linköping",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ludvig L Isaksson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "EmiHa Schwartz",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Clason",
+            "jobTitle": "Nurse"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Marianne Isaksson",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran Isaksson",
+                "birthDate": "1940"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Linköping High School",
+                "location": "Linköping",
+                "alumni": [
+                    {
+                        "@type": "Person",
+                        "name": "Agne Folke Ahrén Isaksson"
+                    }
+                ],
+                "endDate": "1925"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "location": "Uppsala",
+                "alumni": [
+                    {
+                        "@type": "Person",
+                        "name": "Agne Folke Ahrén Isaksson"
+                    }
+                ],
+                "startDate": "1925",
+                "endDate": "1929"
+            }
+        ],
+        "jobTitle": "Practical Doctor",
+        "hasCredential": [
+            {
+                "@type": "MedicalLicense",
+                "name": "Medical License",
+                "dateIssued": "1934",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                }
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "General Practice"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Linköping Hospital",
+                "member": {
+                    "@type": "Person",
+                    "name": "Agne Folke Ahrén Isaksson"
+                },
+                "department": [
+                    {
+                        "@type": "MedicalDepartment",
+                        "name": "Medical Department",
+                        "member": {
+                            "@type": "Person",
+                            "name": "Agne Folke Ahrén Isaksson"
+                        },
+                        "startDate": "1934",
+                        "endDate": "1936"
+                    }
+                ]
+            }
+        ]
+    }
+}

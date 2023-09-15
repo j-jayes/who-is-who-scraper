@@ -1,0 +1,44 @@
+{
+    "original": "Holmdahl, Jonas Viktor, läroverksadjunkt, Borås, f. 5/3/83 i Tvååker, Hall. 1., av kontr :prosten Svante Julius Edvard H. o. Anna Elisabet Lars-son-Laurell. G. 16 m. Annie Elam. Barn: Anna f. 17, g. m. med. lic. Erik",
+    "translated": "Holmdahl, Jonas Viktor, high school teacher, Borås, born on March 5, 1883 in Tvååker, Halland county, the first child of district parish priest Svante Julius Edvard H. and Anna Elisabet Lars-son-Laurell. Married on 1916 with Annie Elam. They had a daughter named Anna, born in 1917, who married medical doctor Erik.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Jonas Viktor Holmdahl\",\n  \"jobTitle\": \"High school teacher\",\n  \"birthDate\": \"1883-03-05\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Tvååker, Halland county\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Svante Julius Edvard Holmdahl\",\n      \"jobTitle\": \"District parish priest\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Elisabet Lars-son-Laurell\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Annie Elam\",\n    \"marriageDate\": \"1916\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna\",\n      \"birthDate\": \"1917\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Erik\",\n        \"jobTitle\": \"Medical doctor\"\n      }\n    }  \n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jonas Viktor Holmdahl",
+        "jobTitle": "High school teacher",
+        "birthDate": "1883-03-05",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Tvååker, Halland county"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Svante Julius Edvard Holmdahl",
+                "jobTitle": "District parish priest"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Elisabet Lars-son-Laurell"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Annie Elam",
+            "marriageDate": "1916"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anna",
+                "birthDate": "1917",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Erik",
+                    "jobTitle": "Medical doctor"
+                }
+            }
+        ]
+    }
+}

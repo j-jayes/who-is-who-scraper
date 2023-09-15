@@ -1,0 +1,118 @@
+{
+    "original": "Johansson, August Ebbe Sigfrid Natanael, tandläkare, Linköping, f. 5/3/ 02 i Nävelsjö, Jönköp. 1., av kommin. Adolf J. o, Hulda Magnusson. G. 32 m. Anna Maria Samson. — Stud:-ex. i Växjö 21, tandhkand. 23, tandl. 25. Assist, i Jönköp. 25-26, prakt, i Linköp. sed. 26. Sekr. i Odontol. fören. 24-25, skattmäst. i Östergötl. 1. tandl :fören. 34-37, sekr. i Linköp. tandl :fören. 34-37, ordf. där 37-39.",
+    "translated": "Johansson, August Ebbe Sigfrid Natanael, dentist, from Linköping, born on March 5th, 1902 in Nävelsjö, Jönköping county, son of the minister Adolf J. and Hulda Magnusson. Married in 1932 to Anna Maria Samson. Studied at the Växjö Study School and graduated in 1921; received a degree in dental hygiene in 1923 and became a licensed dentist in 1925. Worked as an assistant in Jönköping from 1925-1926 and then started his own practice in Linköping. Served as secretary for the Odontological Association from 1924-1925 and treasurer for the Östergötland Dental Association from 1934-1937, secretary for the Linköping Dental Association from 1934-1937, and was its chairman from 1937-1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"August Ebbe Sigfrid Natanael Johansson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1902-03-05\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Nävelsjö\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Jönköping\",\n      \"postalCode\": \"1\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Adolf J. Johansson\",\n      \"jobTitle\": \"Minister\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hulda Magnusson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Maria Samson\",\n    \"marriageDate\": \"1932\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied at the Växjö Study School\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Received a degree in dental hygiene\",\n      \"credentialCategory\": \"degree\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Became a licensed dentist\",\n      \"credentialCategory\": \"license\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odontological Association\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\",\n      \"jobTitle\": \"Secretary\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östergötland Dental Association\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1937\",\n      \"jobTitle\": \"Treasurer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Dental Association\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1937\",\n      \"jobTitle\": \"Secretary\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Dental Association\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1939\",\n      \"jobTitle\": \"Chairman\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\",\n      \"roleName\": \"Assistant\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1926\",\n      \"roleName\": \"Dentist\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Own Practice\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "August Ebbe Sigfrid Natanael Johansson",
+        "jobTitle": "Dentist",
+        "birthDate": "1902-03-05",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Nävelsjö",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jönköping",
+                "postalCode": "1"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Adolf J. Johansson",
+                "jobTitle": "Minister"
+            },
+            {
+                "@type": "Person",
+                "name": "Hulda Magnusson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Maria Samson",
+            "marriageDate": "1932"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied at the Växjö Study School",
+                "startDate": "1921",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Received a degree in dental hygiene",
+                "credentialCategory": "degree",
+                "startDate": "1923",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Became a licensed dentist",
+                "credentialCategory": "license",
+                "startDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Odontological Association",
+                "startDate": "1924",
+                "endDate": "1925",
+                "jobTitle": "Secretary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östergötland Dental Association",
+                "startDate": "1934",
+                "endDate": "1937",
+                "jobTitle": "Treasurer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping Dental Association",
+                "startDate": "1934",
+                "endDate": "1937",
+                "jobTitle": "Secretary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping Dental Association",
+                "startDate": "1937",
+                "endDate": "1939",
+                "jobTitle": "Chairman"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1925",
+                "endDate": "1926",
+                "roleName": "Assistant",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Jönköping"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1926",
+                "roleName": "Dentist",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Own Practice"
+                }
+            }
+        ]
+    }
+}

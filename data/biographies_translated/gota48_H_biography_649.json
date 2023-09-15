@@ -1,0 +1,99 @@
+{
+    "original": "Höweler, Carll Wilhelm Curt, Dr. rer. pol., disponent, Lidköping, f. 27/6/00 i Ohof, Tyskl. G. m. Ingrid Jernström. — Stud:ex. i Berlin 17, dipl. fr. hand:-högsk. i Berlin, stud. v. univ. i Berlin o. Köln samt tekn. högsk. i Charlot-tenburg. Dr. rer. polL i Köln 23. Verk-mäst., assist, o. driftsled. v. Mell. Sv:es Sockerfabr. A-B fabr. i Lidköp., Linköp. o. Mörbyilånga 24-28, Betriebs-lieiter v. Sü ddeutsche Zuck er A G fabr. i Vvaighäusel o. Frankentlial 29-33, bitr. övering. i MeM. Sv:esi Sockerfabr. A-B 36, övering. där s. å., disp. f. boll. fabr. i Lidköp.",
+    "translated": "Höweler, Carll Wilhelm Curt, Dr. rer. pol., manager, Lidköping, b. 27/6/00 in Ohof, Germany. M. Ingrid Jernström in 19xx. - Received a high school diploma in Berlin in 1917 and a diploma from the School of Commerce in Berlin. Studied at the University of Berlin and Cologne as well as the Technical University in Charlottenburg. Received a Doctorate in Political Science from the University of Cologne in 1923. Worked as a mechanic, assistant, and production manager at Mell. Sv:es Sockerfabr. A-B factories in Lidköp., Linköp., and Mörbyilånga from 1924 to 1928. Was Betriebsleiter at Süddeutsche Zucker AG factories in Waghäusel and Frankentlial from 1929 to 1933. Was assistant superintendent at MeM. Sv:es Sockerfabr. A-B in 1936, became superintendent later that year, and was eventually appointed manager of a ball factory in Lidköp.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carll Wilhelm Curt Höweler\",\n  \"givenName\": \"Carll Wilhelm Curt\",\n  \"familyName\": \"Höweler\",\n  \"birthDate\": \"1900-06-27\",\n  \"birthPlace\": \"Ohof, Germany\",\n  \"nationality\": \"German\",\n  \"jobTitle\": \"Manager\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Mell. Sv:es Sockerfabr. A-B\",\n    \"location\": [\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Lidköp.\"\n      },\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Linköp.\"\n      },\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Mörbyilånga\"\n      }\n    ]\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"School of Commerce\",\n      \"dateIssued\": \"1917\",\n      \"recognizedBy\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Berlin\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Doctorate in Political Science\",\n      \"dateIssued\": \"1923\",\n      \"recognizedBy\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"University of Cologne\"\n      }\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Jernström\"\n  },\n  \"jobTitle\": \"Manager\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Süddeutsche Zucker AG\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Waghäusel\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Frankentlial\"\n        }\n      ],\n      \"jobTitle\": \"Betriebsleiter\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"MeM. Sv:es Sockerfabr. A-B\",\n      \"jobTitle\": \"Superintendent\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ball factory\",\n      \"jobTitle\": \"Manager\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"unknown\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Lidköp.\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carll Wilhelm Curt Höweler",
+        "givenName": "Carll Wilhelm Curt",
+        "familyName": "Höweler",
+        "birthDate": "1900-06-27",
+        "birthPlace": "Ohof, Germany",
+        "nationality": "German",
+        "jobTitle": "Manager",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Mell. Sv:es Sockerfabr. A-B",
+            "location": [
+                {
+                    "@type": "Place",
+                    "name": "Lidköp."
+                },
+                {
+                    "@type": "Place",
+                    "name": "Linköp."
+                },
+                {
+                    "@type": "Place",
+                    "name": "Mörbyilånga"
+                }
+            ]
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "School of Commerce",
+                "dateIssued": "1917",
+                "recognizedBy": {
+                    "@type": "EducationalOrganization",
+                    "name": "Berlin"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Doctorate in Political Science",
+                "dateIssued": "1923",
+                "recognizedBy": {
+                    "@type": "EducationalOrganization",
+                    "name": "University of Cologne"
+                }
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Jernström"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Süddeutsche Zucker AG",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Waghäusel"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Frankentlial"
+                    }
+                ],
+                "jobTitle": "Betriebsleiter",
+                "startDate": "1929",
+                "endDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "MeM. Sv:es Sockerfabr. A-B",
+                "jobTitle": "Superintendent",
+                "startDate": "1936",
+                "endDate": "unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ball factory",
+                "jobTitle": "Manager",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Lidköp."
+                    }
+                ]
+            }
+        ]
+    }
+}

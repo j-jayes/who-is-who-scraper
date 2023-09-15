@@ -1,0 +1,83 @@
+{
+    "original": "Hövenmark, Ivar Henrik, tandläkare, Mjölby, f. 5/8/11 i Vilhelmina, Västerb. 1. G. 36 m. Ann-Marie Pettersson. Barn: Lena f. 37, Inger 40, Görel 44, Ola 47. — Stud: ex. i Umeå 30, tandhkand. 31, tandl:ex. 3i3. Prakt, i Vilhelmina 33-45, skoltandl. v. Volg-sjö skola 38-45, förest, f. distr:tand-vårdspoliklin. i Mjölby sed. 45. Styr:-lied. i Vilhelmina Elektr. Kraft A-B o. i östergötl. 1. tandl :fören.",
+    "translated": "Hövenmark, Ivar Henrik, dentist, from Mjölby. Born on August 5, 1911 in Vilhelmina, Västerbotten. Married for the first time in 1936 to Ann-Marie Pettersson. They had four children: Lena born in 1937, Inger in 1940, Görel in 1944 and Ola in 1947. He studied and graduated from Umeå in 1930 and went on to pursue dentistry. He graduated as a dentist in 1933. He practiced dentistry in Vilhelmina from 1933 to 1945 and worked as a school dentist at Volg-sjö school from 1938 to 1945. He became the district dental care clinic manager in Mjölby in 1945. He was a member of the board of directors at Vilhelmina Elektr. Kraft A-B and in the Östergötl. 1. dental association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ivar Henrik Hövenmark\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Vilhelmina, Västerbotten\",\n  \"birthDate\": \"1911-08-05\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Marie Pettersson\",\n      \"marriageDate\": \"1936\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena Hövenmark\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Hövenmark\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Görel Hövenmark\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ola Hövenmark\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Umeå University\",\n      \"location\": \"Umeå\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Dentistry\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"School Dentist\",\n      \"atLocation\": \"Volg-sjö school\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mjölby District Dental Care Clinic\",\n      \"jobTitle\": \"Manager\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vilhelmina Elektr. Kraft A-B\",\n      \"jobTitle\": \"Board member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östergötl. 1. dental association\",\n      \"jobTitle\": \"Board member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ivar Henrik Hövenmark",
+        "jobTitle": "Dentist",
+        "birthPlace": "Vilhelmina, Västerbotten",
+        "birthDate": "1911-08-05",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Ann-Marie Pettersson",
+                "marriageDate": "1936"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lena Hövenmark",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger Hövenmark",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Görel Hövenmark",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Ola Hövenmark",
+                "birthDate": "1947"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Umeå University",
+                "location": "Umeå",
+                "endDate": "1930"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Dentistry",
+                "startDate": "1933",
+                "endDate": "1945"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "School Dentist",
+                "atLocation": "Volg-sjö school",
+                "startDate": "1938",
+                "endDate": "1945"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mjölby District Dental Care Clinic",
+                "jobTitle": "Manager",
+                "startDate": "1945"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Vilhelmina Elektr. Kraft A-B",
+                "jobTitle": "Board member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östergötl. 1. dental association",
+                "jobTitle": "Board member"
+            }
+        ]
+    }
+}

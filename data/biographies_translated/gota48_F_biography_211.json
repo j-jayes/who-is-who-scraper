@@ -1,0 +1,79 @@
+{
+    "original": "Frödi, Orvar Emil, advokat, Göteborg, f. 14/9/91 i Gbg. G. 17 m. Westa Cederin. — Stud:ex. v. Gbgs latin 10, hand :inst. 11, jur. kand. 16. Anst. à Nills Olsén Advifcyrå i Gbg sed. 19. Led. av Sv:es advisamf. sed. 21. Hob-bies: segling, tennis o. motorsport.",
+    "translated": "Frödi, Orvar Emil, lawyer, Gothenburg, b. 14/9/91 in Gothenburg. Married in 1917 to Westa Cederin. - Graduated from Gothenburg Latin School in 1910, Handicraft Institute in 1911, and obtained a degree in law in 1916. Employed at Nills Olsén Law Firm in Gothenburg since 1919. Member of Sweden's advisory council since 1921. Hobbies include sailing, tennis, and motorsport.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Orvar Emil\",\n  \"familyName\": \"Frödi\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthPlace\": \"Gothenburg\",\n  \"birthDate\": \"1891-09-14\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Sweden's Advisory Council\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Westa Cederin\",\n    \"marriageDate\": \"1917\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Graduated from Gothenburg Latin School\",\n      \"validFor\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Secondary education\"\n      },\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg Latin School\"\n      },\n      \"credentialCategory\": \"diploma\",\n      \"startDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Graduated from Handicraft Institute\",\n      \"validFor\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Craft and technical education\"\n      },\n      \"credentialCategory\": \"diploma\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Handicraft Institute\"\n      },\n      \"startDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Degree in law\",\n      \"validFor\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Law\"\n      },\n      \"credentialCategory\": \"degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown university in Sweden\"\n      },\n      \"startDate\": \"1916\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nills Olsén Law Firm\",\n      \"startDate\": \"1919\"\n    }\n  ],\n  \"hobbies\": [\n    \"Sailing\",\n    \"Tennis\",\n    \"Motorsport\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Orvar Emil",
+        "familyName": "Frödi",
+        "jobTitle": "Lawyer",
+        "birthPlace": "Gothenburg",
+        "birthDate": "1891-09-14",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Sweden's Advisory Council"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Westa Cederin",
+            "marriageDate": "1917"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Graduated from Gothenburg Latin School",
+                "validFor": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Secondary education"
+                },
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg Latin School"
+                },
+                "credentialCategory": "diploma",
+                "startDate": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Graduated from Handicraft Institute",
+                "validFor": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Craft and technical education"
+                },
+                "credentialCategory": "diploma",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Handicraft Institute"
+                },
+                "startDate": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Degree in law",
+                "validFor": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Law"
+                },
+                "credentialCategory": "degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown university in Sweden"
+                },
+                "startDate": "1916"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Nills Olsén Law Firm",
+                "startDate": "1919"
+            }
+        ],
+        "hobbies": [
+            "Sailing",
+            "Tennis",
+            "Motorsport"
+        ]
+    }
+}

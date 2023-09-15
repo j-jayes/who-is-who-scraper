@@ -1,0 +1,65 @@
+{
+    "original": "Fritzell, Karl Johan Erik, bankdirektör, Nässjö, f. 1/4/05 i Ljungby av Johan F. o. Augusta Linder. G. 31 m. Agnes Schölander. Barn: Jan f. 33, Lars 35. — Realex. 21. Anst. i A-B Smålands Bank sed. 21.",
+    "translated": "Fritzell, Karl Johan Erik, Bank Director, Nässjö, born on 1/4/1905 in Ljungby to Johan F. and Augusta Linder. Married on 31/xx/19xx to Agnes Schölander. Children: Jan born in 1933, Lars born in 1935. Completed Realexamination (a type of secondary school examination) at the age of 21. Employed at A-B Smålands Bank since 1921.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Johan Erik Fritzell\",\n  \"jobTitle\": \"Bank Director\",\n  \"birthPlace\": \"Ljungby, Sweden\",\n  \"birthDate\": \"1905-01-04\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan F. Fritzell\",\n      \"jobTitle\": \"Unknown\",\n      \"birthPlace\": \"Unknown\",\n      \"deathDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Linder\",\n      \"jobTitle\": \"Unknown\",\n      \"birthPlace\": \"Unknown\",\n      \"deathDate\": \"Unknown\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agnes Schölander\",\n    \"birthDate\": \"Unknown\",\n    \"deathDate\": \"Unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan Fritzell\",\n      \"birthDate\": \"1933\",\n      \"deathDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Fritzell\",\n      \"birthDate\": \"1935\",\n      \"deathDate\": \"Unknown\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"secondary school examination\",\n    \"name\": \"Realexamination\",\n    \"dateIssued\": \"Unknown\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Smålands Bank\",\n    \"startDate\": \"1921\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Nässjö\",\n    \"addressCountry\": \"Sweden\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Johan Erik Fritzell",
+        "jobTitle": "Bank Director",
+        "birthPlace": "Ljungby, Sweden",
+        "birthDate": "1905-01-04",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan F. Fritzell",
+                "jobTitle": "Unknown",
+                "birthPlace": "Unknown",
+                "deathDate": "Unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Linder",
+                "jobTitle": "Unknown",
+                "birthPlace": "Unknown",
+                "deathDate": "Unknown"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Schölander",
+            "birthDate": "Unknown",
+            "deathDate": "Unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan Fritzell",
+                "birthDate": "1933",
+                "deathDate": "Unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Fritzell",
+                "birthDate": "1935",
+                "deathDate": "Unknown"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "secondary school examination",
+            "name": "Realexamination",
+            "dateIssued": "Unknown"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B Smålands Bank",
+            "startDate": "1921"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nässjö",
+            "addressCountry": "Sweden"
+        }
+    }
+}

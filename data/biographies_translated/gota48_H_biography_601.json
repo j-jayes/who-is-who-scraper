@@ -1,0 +1,125 @@
+{
+    "original": "Häggström, Hugo Robert, arkitekt SAR, Borås, f. 10/4/02 i Borås av Anders Peter H. o. Augusta Kristina Qvist. G. 34 m. Iris Olson. Barn: Matti f. 37, Jonas 41, Steffen 43. — Stud:ex. i Borås 21, avg:ex..fr. KTH 25. Anst. h. arkit. B. Hedvall 26-32, v. Byggn. A-B Ekdahl &amp; Lindner 32-33, h. arkit. S. Wallander v. HSB i Sthlm 33-34, egen arkit :verksamh. i. Borå’S sed. 34, stadsarkit. i Ulricehamn 44-45. Led. av Sv. tekn:fören. sed. 26. Imk. v. tävl rvidilöo: f. Byigge 0. Bo, St him, 25, Katarina Realskola, Sthlm, 28, Tegelbacken, Sthlm, 29. Första pris Borås Sparbank 41.",
+    "translated": "Häggström, Hugo Robert, architect SAR, Borås, b. 10/4/02 in Borås to Anders Peter H. and Augusta Kristina Qvist. Married in 1934 to Iris Olson. Children: Matti b. 1937, Jonas b. 1941, Steffen b. 1943. Obtained high school diploma in Borås in 1921 and graduated from KTH in 1925. Employed by architect B. Hedvall from 1926-1932, by construction company A-B Ekdahl & Lindner from 1932-1933, and as an architect by S. Wallander for HSB in Stockholm from 1933-1934. Established his own architectural practice in Borås in 1934 and served as city architect in Ulricehamn from 1944-1945. Member of Swedish Technical Association since 1926. Awarded first prize by Borås Savings Bank in 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hugo Robert Häggström\",\n  \"jobTitle\": \"Architect SAR\",\n  \"birthDate\": \"1902-04-10\",\n  \"birthPlace\": \"Borås, Sweden\",\n  \"parents\": [\n    {\"name\": \"Anders Peter H.\"},\n    {\"name\": \"Augusta Kristina Qvist\"}\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Iris Olson\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\"@type\": \"Person\", \"name\": \"Matti\", \"birthDate\": \"1937\"},\n    {\"@type\": \"Person\", \"name\": \"Jonas\", \"birthDate\": \"1941\"},\n    {\"@type\": \"Person\", \"name\": \"Steffen\", \"birthDate\": \"1943\"}\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"educationLevel\": \"High School\",\n      \"educationalLevel\": \"Secondary Education\",\n      \"issuer\": {\"name\": \"Borås High School\"},\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"educationLevel\": \"Bachelor's Degree\",\n      \"educationalLevel\": \"Undergraduate Education\",\n      \"issuer\": {\"name\": \"KTH Royal Institute of Technology\"},\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Architect\",\n      \"employer\": {\"name\": \"B. Hedvall\"},\n      \"startDate\": \"1926\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Architect\",\n      \"employer\": {\"name\": \"A-B Ekdahl & Lindner\"},\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Architect\",\n      \"employer\": {\"name\": \"HSB\"},\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"Architect\",\n      \"employer\": {\"name\": \"Hugo Robert Häggström\"},\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"title\": \"City Architect\",\n      \"employer\": {\"name\": \"Ulricehamn\"},\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\",\n      \"startDate\": \"1926\"\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"Achievement\",\n      \"name\": \"First Prize\",\n      \"description\": \"Borås Savings Bank\",\n      \"awardDate\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hugo Robert Häggström",
+        "jobTitle": [
+            {
+                "@type": "WorkExperience",
+                "title": "Architect",
+                "employer": {
+                    "name": "B. Hedvall"
+                },
+                "startDate": "1926",
+                "endDate": "1932"
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Architect",
+                "employer": {
+                    "name": "A-B Ekdahl & Lindner"
+                },
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Architect",
+                "employer": {
+                    "name": "HSB"
+                },
+                "startDate": "1933",
+                "endDate": "1934"
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "Architect",
+                "employer": {
+                    "name": "Hugo Robert Häggström"
+                },
+                "startDate": "1934"
+            },
+            {
+                "@type": "WorkExperience",
+                "title": "City Architect",
+                "employer": {
+                    "name": "Ulricehamn"
+                },
+                "startDate": "1944",
+                "endDate": "1945"
+            }
+        ],
+        "birthDate": "1902-04-10",
+        "birthPlace": "Borås, Sweden",
+        "parents": [
+            {
+                "name": "Anders Peter H."
+            },
+            {
+                "name": "Augusta Kristina Qvist"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Iris Olson",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Matti",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Jonas",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Steffen",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "educationLevel": "High School",
+                "educationalLevel": "Secondary Education",
+                "issuer": {
+                    "name": "Borås High School"
+                },
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "educationLevel": "Bachelor's Degree",
+                "educationalLevel": "Undergraduate Education",
+                "issuer": {
+                    "name": "KTH Royal Institute of Technology"
+                },
+                "endDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "startDate": "1926"
+            }
+        ],
+        "award": [
+            {
+                "@type": "Achievement",
+                "name": "First Prize",
+                "description": "Borås Savings Bank",
+                "awardDate": "1941"
+            }
+        ]
+    }
+}

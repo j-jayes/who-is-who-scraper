@@ -1,0 +1,106 @@
+{
+    "original": "Johansson, John Ture, bankombudsman, Göteborg, f. 27/2/03 i Gbg av John J. o. Therese Björkman. G. 39 m. fil. mag. Karin Hellgren. — Stud:ex. 22, ex. v. Gbgs hand :inst. 24, jur. kand. 33. Anst. å Gbgs stads rättshj :anst. 33-34, e. not. v. drätselkamm. i Gbg 34-35, bitr. jurist å G. Fitgers Advibyrå 35-38, anst. i A-B Gbgs Bank sed. 38. Led. av Sv res advrsamf. 37.",
+    "translated": "Johansson, John Ture, bank official, Gothenburg, born February 27, 1903 in Gothenburg, son of John J. and Therese Björkman. Married in 1939 to Karin Hellgren, who has a degree in philosophy. Completed high school in 1922 and graduated from Gothenburg Commercial Institute in 1924, and later received a degree in law in 1933. Employed at Gothenburg Legal Aid from 1933 to 1934, then as an assistant notary in the finance department of Gothenburg City Council from 1934 to 1935, and a legal assistant at G. Fitgers Law Firm from 1935 to 1938. Employed by the A-B Gothenburg Bank since 1938. Member of the Swedish Association of Lawyers since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"John Ture Johansson\",\n  \"jobTitle\": \"Bank Official\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1903-02-27\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John J. Johansson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Therese Björkman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Hellgren\",\n    \"jobTitle\": \"Philosopher\",\n    \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"bachelor's degree\",\n      \"description\": \"Philosophy\"\n    }\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Commercial Institute\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University of Gothenburg\",\n      \"location\": \"Gothenburg\",\n      \"degree\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"credentialCategory\": \"degree\",\n        \"educationalLevel\": \"bachelor's degree\",\n        \"description\": \"Law\"\n      },\n      \"startDate\": \"1924\",\n      \"endDate\": \"1933\"\n    }\n   ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Employed at Gothenburg Legal Aid\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Legal Aid\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant notary in the finance department of Gothenburg City Council\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg City Council\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Legal assistant at G. Fitgers Law Firm\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1938\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"G. Fitgers Law Firm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Employed by the A-B Gothenburg Bank\",\n      \"startDate\": \"1938\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Gothenburg Bank\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Association of Lawyers\",\n    \"startDate\": \"1937\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "John Ture Johansson",
+        "jobTitle": "Bank Official",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1903-02-27",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John J. Johansson"
+            },
+            {
+                "@type": "Person",
+                "name": "Therese Björkman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Hellgren",
+            "jobTitle": "Philosopher",
+            "education": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "bachelor's degree",
+                "description": "Philosophy"
+            }
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Commercial Institute",
+                "location": "Gothenburg",
+                "startDate": "1922",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "University of Gothenburg",
+                "location": "Gothenburg",
+                "degree": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "degree",
+                    "educationalLevel": "bachelor's degree",
+                    "description": "Law"
+                },
+                "startDate": "1924",
+                "endDate": "1933"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Employed at Gothenburg Legal Aid",
+                "startDate": "1933",
+                "endDate": "1934",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Legal Aid"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant notary in the finance department of Gothenburg City Council",
+                "startDate": "1934",
+                "endDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg City Council"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Legal assistant at G. Fitgers Law Firm",
+                "startDate": "1935",
+                "endDate": "1938",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "G. Fitgers Law Firm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Employed by the A-B Gothenburg Bank",
+                "startDate": "1938",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "A-B Gothenburg Bank"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Association of Lawyers",
+            "startDate": "1937"
+        }
+    }
+}

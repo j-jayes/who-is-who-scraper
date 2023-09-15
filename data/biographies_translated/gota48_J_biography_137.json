@@ -1,0 +1,89 @@
+{
+    "original": "Johanson, John Ingvar, tandläkare, Borås, f. 17/12/08 i Borås av gross-handl. Albert J. o. Adelina Svensson. G. 41 m. Karin Hjelm. Barn: Kristina f. 41, Per 44. — Stud:ex. i Borås 27, tandhkand. 29, tandl. 32. Tandl. v. Borås ’skoltandpoliklinik 33-45, priv:prakt. i Borås ised. 46.",
+    "translated": "Johanson, John Ingvar, dentist, Borås, b. 17/12/08 in Borås to grocer Albert J. and Adelina Svensson. Married in 1941 to Karin Hjelm. Children: Kristina b. 1941, Per b. 1944. He passed his studentexamen in Borås in 1927, graduated from dental school in 1929, and became a licensed dentist in 1932. He worked at the school dental clinic in Borås from 1933-1945, and had a private practice in Borås starting in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"John Ingvar Johanson\",\n  \"birthDate\": \"1908-12-17\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Borås\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert J. Johanson\",\n      \"jobTitle\": \"Grocer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Adelina Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Hjelm\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studentexamen\",\n      \"educationalLevel\": \"UpperSecondaryEducation\",\n      \"earningDate\": \"1927\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Borås\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandhkand.\",\n      \"educationalLevel\": \"Bachelor'sDegree\",\n      \"earningDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandläkare\",\n      \"educationalLevel\": \"MedicalDoctoralDegree\",\n      \"earningDate\": \"1932\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Borås\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Borås School Dental Clinic\",\n        \"startDate\": \"1933\",\n        \"endDate\": \"1945\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Borås\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Private Practice\",\n        \"startDate\": \"1946\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "John Ingvar Johanson",
+        "birthDate": "1908-12-17",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Borås"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Albert J. Johanson",
+                "jobTitle": "Grocer"
+            },
+            {
+                "@type": "Person",
+                "name": "Adelina Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Hjelm",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kristina",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Per",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studentexamen",
+                "educationalLevel": "UpperSecondaryEducation",
+                "earningDate": "1927",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Borås"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandhkand.",
+                "educationalLevel": "Bachelor'sDegree",
+                "earningDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandläkare",
+                "educationalLevel": "MedicalDoctoralDegree",
+                "earningDate": "1932"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Borås",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Borås School Dental Clinic",
+                    "startDate": "1933",
+                    "endDate": "1945"
+                }
+            },
+            {
+                "@type": "Place",
+                "name": "Borås",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Private Practice",
+                    "startDate": "1946"
+                }
+            }
+        ]
+    }
+}

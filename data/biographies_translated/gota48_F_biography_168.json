@@ -1,0 +1,74 @@
+{
+    "original": "Friberg, Henry Fredrik, advokat, Uddevalla, f. 3/6/02 i Uddevalla av Karl Fredrik F. o. Hellevi Berta Charlotta Rydin. G. 35 m. Agnes Valentin. — Stud:ex. i Uddevalla 20, jur. kand. i Lund 27. E. o. not. i Göta hovr. 27, tingstjg. i Orusts o. Tjörns doms. 27-30, adv. i Uddevalla sed. 31, deläg. i Albert MeUins Jur. Byrå där 34. Led. av Sv:es adv:samf. sed. 34.",
+    "translated": "Friberg, Henry Frederick, lawyer, Uddevalla, born on June 3, 1902 in Uddevalla to Karl Fredrik F. and Hellevi Berta Charlotta Rydin. Married for 35 years to Agnes Valentin. Studied for the diploma in Uddevalla in 1920, and a law degree from Lund in 1927. Appointed as a junior clerk in the Göta Court of Appeal in 1927, and served as a court clerk in Orust and Tjörn District Courts from 1927 to 1930. Became a lawyer in Uddevalla in 1931, and became a partner at Albert Mellins Juridiska Byrå in 1934. He has been a member of the Swedish Bar Association since 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Henry Fredrik Friberg\",\n  \"birthDate\": \"1902-06-03\",\n  \"birthPlace\": \"Uddevalla\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Fredrik Friberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hellevi Berta Charlotta Rydin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agnes Valentin\",\n    \"marriageDuration\": \"P35Y\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"educationLevel\": \"High school diploma\",\n      \"educationalCredentialAwarded\": \"Stud:ex\",\n      \"awardingInstitution\": \"Uddevalla\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Jur. kand.\",\n      \"educationLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Jur. kand.\",\n      \"awardingInstitution\": \"Lund\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"jobTitle\": \"Lawyer\",\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göta Court of Appeal\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1927\",\n      \"jobTitle\": \"Junior Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Orust and Tjörn District Courts\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Court Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Albert Mellins Juridiska Byrå\",\n      \"startDate\": \"1934\",\n      \"jobTitle\": \"Partner\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1934\",\n      \"jobTitle\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Henry Fredrik Friberg",
+        "birthDate": "1902-06-03",
+        "birthPlace": "Uddevalla",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Fredrik Friberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Hellevi Berta Charlotta Rydin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Valentin",
+            "marriageDuration": "P35Y"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "educationLevel": "High school diploma",
+                "educationalCredentialAwarded": "Stud:ex",
+                "awardingInstitution": "Uddevalla",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Jur. kand.",
+                "educationLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Jur. kand.",
+                "awardingInstitution": "Lund",
+                "endDate": "1927"
+            }
+        ],
+        "jobTitle": "Lawyer",
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Göta Court of Appeal",
+                "startDate": "1927",
+                "endDate": "1927",
+                "jobTitle": "Junior Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Orust and Tjörn District Courts",
+                "startDate": "1927",
+                "endDate": "1930",
+                "jobTitle": "Court Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Albert Mellins Juridiska Byrå",
+                "startDate": "1934",
+                "jobTitle": "Partner"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1934",
+                "jobTitle": "Member"
+            }
+        ]
+    }
+}

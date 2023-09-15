@@ -1,0 +1,107 @@
+{
+    "original": "Höglund, Tom Artur Hjalmar, ’skeppsmäklare, Kalmar, f. 9/3/09 i Kalmar av skeppsmäklare Hjalmar H. o. Agnes Wikander. G. 41 m. Gunvor Sjöberg. Barn: Leif f. 42, Ann-Louise 45. — Stud:ex. i Kalmar 27. Stud. i Engl. 30-31 o. i Tyskl. 35-36, res. t. Danzig, Polen, Litauen, Lettland o. Finl. Skeppsmäklare i A-B Bröd. Höglund i Kalmar sed. 33, huv:-redare i Rederibol. Grims’kär i Kalmar sed. 47. Led. av styr. f. A-B Bröd. Höglund sed. 33 o. i A-B Motorkraft i Sthlm sed. 35, -sekr. i Kalmar tennis-kl. sed. 44. Hobbies: tennis, bridge, konst.",
+    "translated": "Höglund, Tom Artur Hjalmar, ship broker, Kalmar, born March 9th, 1909 in Kalmar to ship broker Hjalmar H. and Agnes Wikander. Married in 1941 to Gunvor Sjöberg. Children: Leif born in 1942, Ann-Louise born in 1945. He graduated from high school in Kalmar in 1927. He studied in England from 1930-1931 and in Germany from 1935-1936, traveling to Danzig, Poland, Lithuania, Latvia, and Finland. He has worked as a ship broker for A-B Bröd. Höglund in Kalmar since 1933, and as a principal owner of Rederibol. Grims’kär in Kalmar since 1947. He has been a board member of A-B Bröd. Höglund since 1933 and of A-B Motorkraft in Stockholm since 1935. He served as secretary for the Kalmar Tennis Club since 1944. His hobbies include tennis, bridge, and art.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tom Artur Hjalmar Höglund\",\n  \"birthDate\": \"1909-03-09\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kalmar\"\n  },\n  \"jobTitle\": \"Ship Broker\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hjalmar H.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agnes Wikander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunvor Sjöberg\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Louise\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"credentialCategory\": \"diploma\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar\"\n      },\n      \"educationalLevel\": \"High School\",\n      \"issuedDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied in England\",\n      \"credentialCategory\": \"certificate\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"England\"\n      },\n      \"issuedDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied in Germany\",\n      \"credentialCategory\": \"certificate\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Germany\"\n      },\n      \"issuedDate\": \"1936\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Bröd. Höglund\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederibol. Grims’kär\",\n      \"roleName\": \"Principal Owner\",\n      \"startDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Motorkraft\",\n      \"roleName\": \"Board Member\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar Tennis Club\",\n      \"roleName\": \"Secretary\",\n      \"startDate\": \"1944\"\n    }\n  ],\n  \"knowsAbout\": [\n    \"Tennis\",\n    \"Bridge\",\n    \"Art\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tom Artur Hjalmar Höglund",
+        "birthDate": "1909-03-09",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kalmar"
+        },
+        "jobTitle": "Ship Broker",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hjalmar H."
+            },
+            {
+                "@type": "Person",
+                "name": "Agnes Wikander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunvor Sjöberg",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Leif",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Louise",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "credentialCategory": "diploma",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Kalmar"
+                },
+                "educationalLevel": "High School",
+                "issuedDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied in England",
+                "credentialCategory": "certificate",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "England"
+                },
+                "issuedDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied in Germany",
+                "credentialCategory": "certificate",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Germany"
+                },
+                "issuedDate": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A-B Bröd. Höglund",
+                "startDate": "1933"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rederibol. Grims’kär",
+                "roleName": "Principal Owner",
+                "startDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Motorkraft",
+                "roleName": "Board Member",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalmar Tennis Club",
+                "roleName": "Secretary",
+                "startDate": "1944"
+            }
+        ],
+        "knowsAbout": [
+            "Tennis",
+            "Bridge",
+            "Art"
+        ]
+    }
+}

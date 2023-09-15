@@ -1,0 +1,121 @@
+{
+    "original": "Höljer, Bertil, hovrättsassessor, Jönköping, f. 6/4/08 i Rydaholm, Jönköp. I., av prosten Frans H. o. Hildegard Palmgren. G. 39 m. Inez Margareta Hornwall. Barn: Ing-Marie f. 46. — Stud :ex. i Växjö 28, jur. kand. i Lund 32. Tingstjg. i Östbo o. Västbo samt Norra Hälsingl. doms. 32-35, tjg, i Göta hovr. sed. 36, fiskal där 37, sekr. i Vadsbo doms. 39, assessor 46.",
+    "translated": "Höljer, Bertil, Court of Appeals Assessor, Jönköping, born on April 6th, 1908 in Rydaholm, Jönköping County. He is the son of the Pastor Frans H. and Hildegard Palmgren. He married Inez Margareta Hornwall in 1939 and they have one child, Ing-Marie, born in 1946. Bertil passed his student exam in Växjö in 1928 and graduated with a law degree from Lund University in 1932. He worked in various courts including in Östbo and Västbo, as well as Norra Hälsingland district court from 1932-1935, served in Göta Court of Appeals from 1936 onwards, became a Deputy Prosecutor there in 1937, Secretary in Vadsbo district court in 1939 and became an Assessor in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bertil Höljer\",\n  \"birthDate\": \"1908-04-06\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Rydaholm\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Jönköping\",\n      \"addressRegion\": \"Jönköping County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Frans Höljer\",\n      \"jobTitle\": \"Pastor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hildegard Palmgren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inez Margareta Hornwall\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ing-Marie\",\n    \"birthDate\": \"1946\"\n  },\n  \"jobTitle\": \"Court of Appeals Assessor\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"student exam\",\n      \"educationalLevel\": \"secondary education\",\n      \"credentialOffered\": {\n        \"@type\": \"EducationalCredentialAwarded\",\n        \"name\": \"Student Exam\"\n      },\n      \"awardingInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Växjö\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1928\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"law degree\",\n      \"educationalLevel\": \"higher education\",\n      \"credentialOffered\": {\n        \"@type\": \"EducationalCredentialAwarded\",\n        \"name\": \"Law Degree\"\n      },\n      \"awardingInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Lund University\"\n      },\n      \"validFor\": {\n        \"@type\": \"Duration\",\n        \"name\": \"1932\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östbo\",\n      \"jobTitle\": \"Trial judge\",\n      \"validThrough\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västbo\",\n      \"jobTitle\": \"Trial judge\",\n      \"validThrough\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norra Hälsingland district court\",\n      \"jobTitle\": \"Trial judge\",\n      \"validThrough\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göta Court of Appeals\",\n      \"jobTitle\": \"Deputy Prosecutor\",\n      \"validFrom\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vadsbo district court\",\n      \"jobTitle\": \"Secretary\",\n      \"validFrom\": \"1939\",\n      \"validThrough\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göta Court of Appeals\",\n      \"jobTitle\": \"Assessor\",\n      \"validFrom\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bertil Höljer",
+        "birthDate": "1908-04-06",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Rydaholm",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jönköping",
+                "addressRegion": "Jönköping County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Frans Höljer",
+                "jobTitle": "Pastor"
+            },
+            {
+                "@type": "Person",
+                "name": "Hildegard Palmgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inez Margareta Hornwall",
+            "marriageDate": "1939"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Ing-Marie",
+            "birthDate": "1946"
+        },
+        "jobTitle": "Court of Appeals Assessor",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Jönköping"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "student exam",
+                "educationalLevel": "secondary education",
+                "credentialOffered": {
+                    "@type": "EducationalCredentialAwarded",
+                    "name": "Student Exam"
+                },
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Växjö"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1928"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "law degree",
+                "educationalLevel": "higher education",
+                "credentialOffered": {
+                    "@type": "EducationalCredentialAwarded",
+                    "name": "Law Degree"
+                },
+                "awardingInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University"
+                },
+                "validFor": {
+                    "@type": "Duration",
+                    "name": "1932"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Östbo",
+                "jobTitle": "Trial judge",
+                "validThrough": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västbo",
+                "jobTitle": "Trial judge",
+                "validThrough": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norra Hälsingland district court",
+                "jobTitle": "Trial judge",
+                "validThrough": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Göta Court of Appeals",
+                "jobTitle": "Deputy Prosecutor",
+                "validFrom": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vadsbo district court",
+                "jobTitle": "Secretary",
+                "validFrom": "1939",
+                "validThrough": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Göta Court of Appeals",
+                "jobTitle": "Assessor",
+                "validFrom": "1946"
+            }
+        ]
+    }
+}

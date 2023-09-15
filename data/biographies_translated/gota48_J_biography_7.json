@@ -1,0 +1,96 @@
+{
+    "original": "Jacobson, Gunnar, överingenjör, Göteborg, f. 8/8/83 i Gunnarsnäs, Älvsb. 1., av maskinmäst. Carl J. o. Christina Jolmsson. G. 16 m. Astrid Larsson. Barn: Brita f. 17, skolkökslär., Gbg, Anders 19, civ:ing., Södertälje. — Utex. fr. CTI 09. Övering., chefsassist. o. styr :led. i Bohus Mek. Verkst. A-B sed. 3’5. En av init :tag. t. Gbgs friv. motorbåtsilott., led. av Gbgs motorbåtssällsk. o. Dalslands gille. Medl. av Frimurarorden o. Odd Fellow. Hobbies: segling o. motorbåt sport.",
+    "translated": "Jacobson, Gunnar, Chief Engineer, Gothenburg, b. 8/8/1883 in Gunnarsnäs, Älvsborg County, son of Chief Engineer Carl J. and Christina Jolmsson. Married on the 16th with Astrid Larsson. Children: Brita, b. 1917, school kitchen teacher in Gothenburg; Anders, b. 1919, civil engineer in Södertälje. Graduated from CTI in 1909. Chief Engineer, Assistant Manager, and Board Member at Bohus Mechanical Works AB since 1935. Co-founder of the Gothenburg Volunteer Motorboat Pilot Association, member of the Gothenburg Motorboat Club and Dalsland Association. Member of the Freemasons and Odd Fellows. Hobbies: sailing and motorboat sports.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Jacobson\",\n  \"jobTitle\": \"Chief Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1883-08-08\",\n  \"birthPlace\": \"Gunnarsnäs, Älvsborg County\",\n  \"parents\": [\n    {\n      \"name\": \"Carl J. Jacobson\",\n      \"jobTitle\": \"Chief Engineer\"\n    },\n    {\n      \"name\": \"Christina Jolmsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Larsson\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita\",\n      \"birthDate\": \"1917-XX-XX\",\n      \"jobTitle\": \"School Kitchen Teacher\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1919-XX-XX\",\n      \"jobTitle\": \"Civil Engineer\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Södertälje\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"CTI\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Bohus Mechanical Works AB\"\n  },\n  \"jobTitle\": \"Chief Engineer\",\n  \"startDate\": \"1935\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Volunteer Motorboat Pilot Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Motorboat Club\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dalsland Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellow\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Sailing\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Motorboat Sports\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Jacobson",
+        "jobTitle": "Chief Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1883-08-08",
+        "birthPlace": "Gunnarsnäs, Älvsborg County",
+        "parents": [
+            {
+                "name": "Carl J. Jacobson",
+                "jobTitle": "Chief Engineer"
+            },
+            {
+                "name": "Christina Jolmsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Larsson",
+            "marriageDate": "YYYY-MM-DD"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Brita",
+                "birthDate": "1917-XX-XX",
+                "jobTitle": "School Kitchen Teacher",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1919-XX-XX",
+                "jobTitle": "Civil Engineer",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Södertälje"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "CTI"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Bohus Mechanical Works AB"
+        },
+        "startDate": "1935",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Volunteer Motorboat Pilot Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Motorboat Club"
+            },
+            {
+                "@type": "Organization",
+                "name": "Dalsland Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            },
+            {
+                "@type": "Organization",
+                "name": "Odd Fellow"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Sailing"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Motorboat Sports"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "original": "Jörgensen, Arne, advokat, Göteborg, f. 20/7/11 i Gbg av adv. Folke J. o. Berta Knapp. G. 36 m. Maj Olsson. Barn: Lena f. 37, Agneta 40, Charlotte 45. — Stud :ex. v. Gbgs h. sam-sk. 31, jur. kand. i Upps. 35. Tings-tjg. i Upps. 1. s. doms. 35-36, e. o. not. v. Sthlms rådhusr. 36, bitr. jurist h. Adv. Drakenberg &amp; von Sneidern i Gbg sed. 36. Sekr. i GKSS 38-42, v. sekr. 43-44, sekr. 44-46. Led. av Svies adv:samf. sed. 39. Hobbies: segling, skidåkn., golf.",
+    "translated": "Jörgensen, Arne, lawyer, Gothenburg, born July 20th, 1911 in Gothenburg to lawyer Folke J. and Berta Knapp. Married in 1936 to Maj Olsson. Children: Lena born in 1937, Agneta in 1940, and Charlotte in 1945. He graduated from Gothenburg’s Higher Social Science School in 1931 and received his law degree from Uppsala University in 1935. He worked as a judicial clerk in Uppsala from 1935 to 1936 and as an acting notary public at Stockholm's city hall in 1936. From 1936, he worked as an assistant lawyer at Adv. Drakenberg & von Sneidern in Gothenburg. He served as secretary in GKSS from 1938-1942, then as vice secretary in 1943-1944, and afterwards as secretary in 1944-1946. He became a member of the Swedish Bar Association in 1939. His hobbies included sailing, skiing, and golfing.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Arne Jörgensen\",\n    \"jobTitle\": \"Lawyer\",\n    \"birthDate\": \"1911-07-20\",\n    \"birthPlace\": \"Gothenburg\",\n    \"parents\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Folke Jörgensen\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Berta Knapp\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Maj Olsson\",\n        \"marriageDate\": \"1936\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Lena\",\n            \"birthDate\": \"1937\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Agneta\",\n            \"birthDate\": \"1940\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Charlotte\",\n            \"birthDate\": \"1945\"\n        }\n    ],\n    \"alumniOf\": [\n        {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Gothenburg’s Higher Social Science School\",\n            \"endDate\": \"1931\"\n        },\n        {\n            \"@type\": \"EducationalOrganization\",\n            \"name\": \"Uppsala University\",\n            \"endDate\": \"1935\"\n        }\n    ],\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Swedish Bar Association\",\n            \"startDate\": \"1939\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"GKSS\",\n            \"startDate\": \"1938\",\n            \"endDate\": \"1946\",\n            \"roleName\": \"Secretary\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Adv. Drakenberg & von Sneidern\",\n            \"startDate\": \"1936\",\n            \"roleName\": \"Assistant Lawyer\"\n        }\n    ],\n    \"jobStartDate\": \"1935\",\n    \"jobEndDate\": \"1936\",\n    \"jobTitle\": \"Judicial clerk\",\n    \"hobbies\": [\n        \"Sailing\",\n        \"Skiing\",\n        \"Golfing\"\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arne Jörgensen",
+        "jobTitle": "Judicial clerk",
+        "birthDate": "1911-07-20",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Folke Jörgensen"
+            },
+            {
+                "@type": "Person",
+                "name": "Berta Knapp"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj Olsson",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lena",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotte",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg’s Higher Social Science School",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "endDate": "1935"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "GKSS",
+                "startDate": "1938",
+                "endDate": "1946",
+                "roleName": "Secretary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Adv. Drakenberg & von Sneidern",
+                "startDate": "1936",
+                "roleName": "Assistant Lawyer"
+            }
+        ],
+        "jobStartDate": "1935",
+        "jobEndDate": "1936",
+        "hobbies": [
+            "Sailing",
+            "Skiing",
+            "Golfing"
+        ]
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "original": "Howding, Nils Johan (John), överlärare, stadsbibliotekarie, Ljungby, f. 18/11/94 i Hamneda, Kronob. 1. G. 20 m. Elsa Persson. Barn: Maj-Britt f. 21, Inga-Lisa 22. — Folksk :lär :ex. i Linköp. 17. Ord. folksk :lär. i Ljungby sed. 17, överiär. sed. 39, underv. i forts :sk., tiimlär. v. Ljungby samreail-sk. Bibi. v. stadsbibi., v. ordf. i kom-m:nd 27-35, led. av kommifullm. 30-35, stadsfullm. (s) sed. 36, folksk :-styr., byggn:nd o. valnd, överförmynd. f. Ljungby stad, ordf. i S. Finnvedens hembygdsfören.",
+    "translated": "Howding, Nils Johan (John), senior teacher, city librarian, from Ljungby, born on November 18th, 1894 in Hamneda, Kronoberg county. Married once, to Elsa Persson in 1920, with two children: Maj-Britt, born in 1921, and Inga-Lisa, born in 1922. He graduated from the folk school teacher's exam in Linköping in 1917, became a regular folk school teacher in Ljungby in 1917, became a senior teacher in 1939 and taught in continuing education courses, as well as being a part-time teacher at Ljungby community college. He was a member of the city library, vice chairman of the committee from 1927-1935, member of the municipal council from 1930-1935, and municipal councilor (s) since 1936. He also served on the school board for people's schools, was responsible for building and finance issues, and was appointed as the guardian for the city of Ljungby. He served as the chairman of the S. Finnvedens homeland association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Johan Howding\",\n  \"givenName\": \"Nils\",\n  \"familyName\": \"Howding\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1894-11-18\",\n  \"birthPlace\": \"Hamneda, Kronoberg\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Ljungby\"\n  },\n  \"jobTitle\": \"Senior Teacher, City Librarian\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Persson\",\n    \"gender\": \"Female\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maj-Britt Howding\",\n      \"gender\": \"Female\",\n      \"birthDate\": \"1921-00-00\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga-Lisa Howding\",\n      \"gender\": \"Female\",\n      \"birthDate\": \"1922-00-00\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Folk school teacher's exam\",\n    \"educationalLevel\": \"Examination\",\n    \"educationalCredentialAwarded\": \"Folk school teacher's exam\",\n    \"educationalInstitution\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Linköping\"\n    },\n    \"completionDate\": \"1917\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Library\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"S. Finnvedens homeland association\",\n      \"jobTitle\": \"Chairman\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Committee\",\n      \"jobTitle\": \"Vice Chairman\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Council\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Council\",\n      \"jobTitle\": \"Municipal Councillor\",\n      \"startDate\": \"1936\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"People's schools\",\n      \"jobTitle\": \"School Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ljungby community college\",\n      \"jobTitle\": \"Part-time Teacher\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City of Ljungby\",\n      \"jobTitle\": \"Guardian\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Senior Teacher\",\n      \"startDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"City Librarian\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Johan Howding",
+        "givenName": "Nils",
+        "familyName": "Howding",
+        "gender": "Male",
+        "birthDate": "1894-11-18",
+        "birthPlace": "Hamneda, Kronoberg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ljungby"
+        },
+        "jobTitle": "Senior Teacher, City Librarian",
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Persson",
+            "gender": "Female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maj-Britt Howding",
+                "gender": "Female",
+                "birthDate": "1921-00-00"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga-Lisa Howding",
+                "gender": "Female",
+                "birthDate": "1922-00-00"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Folk school teacher's exam",
+            "educationalLevel": "Examination",
+            "educationalCredentialAwarded": "Folk school teacher's exam",
+            "educationalInstitution": {
+                "@type": "EducationalOrganization",
+                "name": "Linköping"
+            },
+            "completionDate": "1917"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "City Library"
+            },
+            {
+                "@type": "Organization",
+                "name": "S. Finnvedens homeland association",
+                "jobTitle": "Chairman"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Committee",
+                "jobTitle": "Vice Chairman",
+                "startDate": "1927",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Council",
+                "startDate": "1930",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Council",
+                "jobTitle": "Municipal Councillor",
+                "startDate": "1936"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "People's schools",
+                "jobTitle": "School Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ljungby community college",
+                "jobTitle": "Part-time Teacher"
+            },
+            {
+                "@type": "Organization",
+                "name": "City of Ljungby",
+                "jobTitle": "Guardian"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Senior Teacher",
+                "startDate": "1939"
+            },
+            {
+                "@type": "Occupation",
+                "name": "City Librarian"
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+{
+    "original": "Isaksson, Ture, tandläkare, Göteborg, f. 29/8/07 i Tanum, Gbgs o. Boh. 1., av Albert L o. Hulda Isaksson. G. 40 m. Alice Kanold. — Stud:ex. i Uddevalla 27, fil. kand. samt tandhkand. 31. tandl. 33. Prakt, i Gravarne 33 0. num. i Gbg.",
+    "translated": "Isaksson, Ture, dentist, Gothenburg, b. August 29, 1907 in Tanum, Gothenburg and Bohuslän County, son of Albert L and Hulda Isaksson. Married in 1940 to Alice Kanold. He passed his final exam in Uddevalla in 1927, and received his Bachelor of Arts and dentistry degree in 1931. He became a licensed dentist in 1933 and had his practice in Gravarne in 1933 before being listed in the register of dentists in Gothenburg.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ture Isaksson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1907-08-29\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Tanum, Gothenburg and Bohuslän County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert L Isaksson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hulda Isaksson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alice Kanold\",\n    \"marriageDate\": \"1940\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"startDate\": \"1927\",\n      \"educationLevel\": \"High school diploma\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uddevalla\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Fil. kand.\",\n      \"startDate\": \"1927\",\n      \"educationLevel\": \"Bachelor's degree\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandhkand.\",\n      \"startDate\": \"1931\",\n      \"educationLevel\": \"Dentistry degree\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandl.\",\n      \"startDate\": \"1933\",\n      \"educationLevel\": \"Licensed dentist\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gravarne\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göteborg\"\n    }\n  ],\n  \"deathDate\": \"Unknown\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ture Isaksson",
+        "jobTitle": "Dentist",
+        "birthDate": "1907-08-29",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Tanum, Gothenburg and Bohuslän County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Albert L Isaksson"
+            },
+            {
+                "@type": "Person",
+                "name": "Hulda Isaksson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Alice Kanold",
+            "marriageDate": "1940"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "startDate": "1927",
+                "educationLevel": "High school diploma",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Uddevalla"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Fil. kand.",
+                "startDate": "1927",
+                "educationLevel": "Bachelor's degree",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandhkand.",
+                "startDate": "1931",
+                "educationLevel": "Dentistry degree",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl.",
+                "startDate": "1933",
+                "educationLevel": "Licensed dentist",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Unknown"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gravarne"
+            },
+            {
+                "@type": "Organization",
+                "name": "Göteborg"
+            }
+        ],
+        "deathDate": "Unknown"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "original": "Jacobsson, Nils Jacob Johannes, advokat, Göteborg, f. 19/11/11 i Oskarshamn av sjökapt. Uno J. o. h. h. G. m. Gunne Larsson. Barn: Christer f. 37, Ann-Christine 39. — Stud :ex. v. Gbgs h. latin 31, jur. kand. i Upps. 3!5. Tings t jg. i Norrvikens doms., därefter ad v :verksamh. i Gbg, verkst. dir. i A-B Fören. Båtvarv. Led. av Sv:es advisamf. sed. 39.",
+    "translated": "Jacobsson, Nils Jacob Johannes, lawyer, Gothenburg, born November 19th, 1911 in Oskarshamn to sea captain Uno J. and his wife Gunne Larsson. Children: Christer born 1937, Ann-Christine born 1939. Education: Studied at Gothenburg high school and latin school, graduated in 1931. Received a law degree at Uppsala University in 1935. Started working as a court clerk in Norrviken, and later worked in an attorney's office in Gothenburg. Became managing director of the company A-B Fören, Båtvarv. Has been a member of the Swedish Bar Association since 1939, and married his partner in the same year.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Jacob Johannes Jacobsson\",\n  \"birthdate\": \"1911-11-19\",\n  \"birthPlace\": \"Oskarshamn\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Lawyer\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Fören, Båtvarv\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christer\",\n      \"birthdate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Christine\",\n      \"birthdate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School and Latin School\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"degree\": \"Law Degree\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"startDate\": \"1939\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"unidentified\",\n    \"marriageDate\": \"1939\"\n  },\n  \"jobHistory\": [\n    {\n      \"@type\": \"CourtClerk\",\n      \"name\": \"Norrvikens Doms\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Attorney\",\n      \"name\": \"Gothenburg Attorney's Office\",\n      \"startDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"Director\",\n      \"name\": \"A-B Fören, Båtvarv\",\n      \"startDate\": \"unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Nils Jacob Johannes Jacobsson",
+        "birthdate": "1911-11-19",
+        "birthPlace": "Oskarshamn",
+        "nationality": "Swedish",
+        "jobTitle": "Lawyer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B Fören, Båtvarv"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christer",
+                "birthdate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Christine",
+                "birthdate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School and Latin School",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "degree": "Law Degree",
+                "endDate": "1935"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "startDate": "1939"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "unidentified",
+            "marriageDate": "1939"
+        },
+        "jobHistory": [
+            {
+                "@type": "CourtClerk",
+                "name": "Norrvikens Doms",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Attorney",
+                "name": "Gothenburg Attorney's Office",
+                "startDate": "unknown"
+            },
+            {
+                "@type": "Director",
+                "name": "A-B Fören, Båtvarv",
+                "startDate": "unknown"
+            }
+        ]
+    }
+}

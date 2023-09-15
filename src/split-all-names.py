@@ -27,9 +27,10 @@ def read_and_split_biographies(file_name, letter):
     with open(file_name, "r", encoding="utf-8") as file:
         text = file.read()
 
-    biographies = re.split(fr'^({letter}[a-zåäöA-ZÅÄÖ]+),\s(?=[A-ZÅÄÖ][a-zåäö]+)', text, flags=re.MULTILINE)[1:]
+    biographies = re.split(fr'^({letter}[a-zåäöA-ZÅÄÖ]+(-[a-zåäöA-ZÅÄÖ]+)?),\s(?=[A-ZÅÄÖ][a-zåäö]+)', text, flags=re.MULTILINE)[1:]
 
     return biographies
+
 
 def create_yaml_biographies(biographies):
     yaml_data = {}

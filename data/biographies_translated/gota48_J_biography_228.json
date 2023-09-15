@@ -1,0 +1,80 @@
+{
+    "original": "Jungkvist, Karl Johan Ragnar, jur. kand., Skövde, f. 30/7/14 i Uppsala av lektor Sigfrid Emanuel J. o. Ester Lindberg. G. m. Sonja Julander. Barn: Karl f. 45. — Stud :ex. v. Skövde h. a. 1. 34, jur. kand. v. Upps. univ. 38. Tingstjg. v. Västerbergslags doms. i Ludvika 39-41, tf. stadsfogde i Skövde fr. 44, ombudsman i Skarab. 1. stads-hyp:fören. fr. 43. Deläg. i jur. kand. o. fil. dr. Sigfrid Jungkvists jur. byrå i Skövde fr. 42.",
+    "translated": "Jungkvist, Karl Johan Ragnar, law graduate, Skövde, born on July 30th, 1914 in Uppsala to lecturer Sigfrid Emanuel J and Ester Lindberg. Married to Sonja Julander in an unknown year. Children: Karl, born in 1945. Studied at Skövde high school, graduated in 1934. Graduated with a law degree from Uppsala University in 1938. Worked as a court clerk at Västerbergslags district court in Ludvika from 1939-1941, then served as temporary city bailiff in Skövde from 1944. Employed as legal representative for Skaraborg 1st city credit association from 1943. Co-owner of law graduate and PhD Sigfrid Jungkvist's law firm in Skövde from 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Johan Ragnar Jungkvist\",\n  \"birthDate\": \"1914-07-30\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Uppsala\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigfrid Emanuel J Jungkvist\",\n      \"jobTitle\": \"Lecturer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Lindberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sonja Julander\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karl Jungkvist\",\n    \"birthDate\": \"1945\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skövde High School\",\n      \"location\": \"Skövde\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Law\"\n      },\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Court Clerk\",\n    \"Temporary City Bailiff\",\n    \"Legal Representative\",\n    \"Co-Owner\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västerbergslags District Court\",\n      \"location\": \"Ludvika\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1941\"\n    },{\n      \"@type\": \"Organization\",\n      \"name\": \"Skaraborg 1st City Credit Association\",\n      \"location\": \"Skövde\",\n      \"startDate\": \"1943\"\n    },{\n      \"@type\": \"Organization\",\n      \"name\": \"Sigfrid Jungkvist's Law Firm\",\n      \"location\": \"Skövde\",\n      \"startDate\": \"1942\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Johan Ragnar Jungkvist",
+        "birthDate": "1914-07-30",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Uppsala"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sigfrid Emanuel J Jungkvist",
+                "jobTitle": "Lecturer"
+            },
+            {
+                "@type": "Person",
+                "name": "Ester Lindberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sonja Julander"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Karl Jungkvist",
+            "birthDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skövde High School",
+                "location": "Skövde",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "location": "Uppsala",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Law"
+                },
+                "endDate": "1938"
+            }
+        ],
+        "jobTitle": [
+            "Court Clerk",
+            "Temporary City Bailiff",
+            "Legal Representative",
+            "Co-Owner"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Västerbergslags District Court",
+                "location": "Ludvika",
+                "startDate": "1939",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skaraborg 1st City Credit Association",
+                "location": "Skövde",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sigfrid Jungkvist's Law Firm",
+                "location": "Skövde",
+                "startDate": "1942"
+            }
+        ]
+    }
+}

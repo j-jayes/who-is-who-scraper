@@ -1,0 +1,82 @@
+{
+    "original": "Huss, Rolf Harald, landsfiskal, Ske-ne, f. 28/4/06 i Uddevalla av bokför. E. W. Huss o. Edith Broberg. G. 33 m. Ingegerd Fredrikson. Barn: Per-Äke f. 35. — Realex. 23, landsfiskals-ex. 30. Tf. o. ord. landskanslist v. länsstyr. i Vänersborg 29-41, lands-fiskalsassist. i Bengtsfors’ distr. 41-45, landsfiskal i Skene distr. sed. 46.",
+    "translated": "Huss, Rolf Harald, district attorney, Skene, born on April 28th, 1906 in Uddevalla to bookkeeper E.W. Huss and Edith Broberg. Married in 1933 to Ingegerd Fredrikson, with one child named Per-Äke, born in 1935. Rolf completed his Realexamen (similar to high school diploma) in 1923, and his district attorney exam in 1930. He was temporarily and then permanently employed as a district clerk at the County Government in Vänersborg from 1929 to 1941. From 1941 to 1945, he worked as a district attorney assistant in the Bengtsfors district, and from 1946 onwards, he was a district attorney in the Skene district.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rolf Harald Huss\",\n  \"jobTitle\": \"District Attorney\",\n  \"birthDate\": \"1906-04-28\",\n  \"birthPlace\": \"Uddevalla\",\n  \"nationality\": \"Swedish\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"E.W. Huss\",\n      \"jobTitle\": \"Bookkeeper\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Edith Broberg\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd Fredrikson\",\n      \"marriageDate\": \"1933\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Äke\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupation\",\n      \"name\": \"Realexamen\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupation\",\n      \"name\": \"District Attorney Exam\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"jobTitleHistory\": [\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"title\": \"District Clerk\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1941\",\n      \"worksFor\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"County Government in Vänersborg\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"title\": \"District Attorney Assistant\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1945\",\n      \"worksFor\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Bengtsfors district\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"title\": \"District Attorney\",\n      \"startDate\": \"1946\",\n      \"worksFor\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Skene district\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rolf Harald Huss",
+        "jobTitle": "District Attorney",
+        "birthDate": "1906-04-28",
+        "birthPlace": "Uddevalla",
+        "nationality": "Swedish",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "E.W. Huss",
+                "jobTitle": "Bookkeeper"
+            },
+            {
+                "@type": "Person",
+                "name": "Edith Broberg"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Ingegerd Fredrikson",
+                "marriageDate": "1933"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per-Äke",
+                "birthDate": "1935"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupation",
+                "name": "Realexamen",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupation",
+                "name": "District Attorney Exam",
+                "endDate": "1930"
+            }
+        ],
+        "jobTitleHistory": [
+            {
+                "@type": "GovernmentOffice",
+                "title": "District Clerk",
+                "startDate": "1929",
+                "endDate": "1941",
+                "worksFor": {
+                    "@type": "GovernmentOrganization",
+                    "name": "County Government in Vänersborg"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "title": "District Attorney Assistant",
+                "startDate": "1941",
+                "endDate": "1945",
+                "worksFor": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Bengtsfors district"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "title": "District Attorney",
+                "startDate": "1946",
+                "worksFor": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Skene district"
+                }
+            }
+        ]
+    }
+}

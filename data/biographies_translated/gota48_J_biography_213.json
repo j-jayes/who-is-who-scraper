@@ -1,0 +1,85 @@
+{
+    "original": "Josefson, Birgit, .stadsbibliotekarie, Falköping, f. 23/5/10 i Borgstena, Älvsb. 1., av grosshandl. Erik J. o. Ingeborg Andersson. — Stud:ex. i Gbg 29, avg:ex. fr. Gbgs hand :inst. 31, fi’1. kand. i Upps. 34, bibhsk. 38. Res. t. Tyskl. 30 o. 38, Schweiz 35, Ital. 38. Bibhassist. v. Sthlms stadsbibi. 39-42, stadsbibi. i Falköp. sed. 42.",
+    "translated": "Josefson, Birgit, city librarian, Falköping, b. May 23, 1910 in Borgstena, Älvsborgs län, daughter of wholesale merchant Erik J. and Ingeborg Andersson. She graduated from high school in Gothenburg in 1929, completed her commerce degree at Gothenburg's School of Economics and Commercial Law in 1931, received a bachelor's degree in Uppsala in 1934, and studied abroad in Germany in 1930 and 1938, Switzerland in 1935, and Italy in 1938. She worked as a library assistant at Stockholm's City Library from 1939 to 1942 and has been the city librarian in Falköping since 1942. There is no information on marital status.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Birgit Josefson\",\n  \"jobTitle\": \"City Librarian\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Falköping\"\n  },\n  \"birthDate\": \"1910-05-23\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Borgstena, Älvsborgs län, Sweden\"\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Erik J. Andersson\",\n    \"jobTitle\": \"Wholesale Merchant\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Andersson\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg High School\"\n      },\n      \"issuedDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Commerce Degree\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg's School of Economics and Commercial Law\"\n      },\n      \"issuedDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"issuedDate\": \"1934\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm's City Library\",\n      \"jobTitle\": \"Library Assistant\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Falköping\",\n      \"jobTitle\": \"City Librarian\",\n      \"startDate\": \"1942\"\n    }\n  ],\n  \"additionalProperty\": [\n    {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Studied Abroad\",\n      \"value\": [\n        \"Germany in 1930\",\n        \"Germany in 1938\",\n        \"Switzerland in 1935\",\n        \"Italy in 1938\"\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Birgit Josefson",
+        "jobTitle": "City Librarian",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Falköping"
+        },
+        "birthDate": "1910-05-23",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Borgstena, Älvsborgs län, Sweden"
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Erik J. Andersson",
+            "jobTitle": "Wholesale Merchant"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Ingeborg Andersson"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg High School"
+                },
+                "issuedDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Commerce Degree",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg's School of Economics and Commercial Law"
+                },
+                "issuedDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "issuedDate": "1934"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Stockholm's City Library",
+                "jobTitle": "Library Assistant",
+                "startDate": "1939",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "Falköping",
+                "jobTitle": "City Librarian",
+                "startDate": "1942"
+            }
+        ],
+        "additionalProperty": [
+            {
+                "@type": "PropertyValue",
+                "name": "Studied Abroad",
+                "value": [
+                    "Germany in 1930",
+                    "Germany in 1938",
+                    "Switzerland in 1935",
+                    "Italy in 1938"
+                ]
+            }
+        ]
+    }
+}

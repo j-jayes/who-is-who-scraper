@@ -1,0 +1,54 @@
+{
+    "original": "Husberg, Martha Lilly Götilda, tandläkare, Oskarshamn, f. 6/11/01 i Växjö av Fridolf H. o. Götilda Olsson. — Studiex. v. Lindebergska flicksk. i Lund 21, tandl :kand. 25, tandläk. 27. Assist, i Karlstad 27, praktik i Oskarshamn sed. s. å., skoltandl. i Oskarshamns distr. 27-45.",
+    "translated": "Husberg, Martha Lilly Götilda, dentist, Oskarshamn, born November 6th, 1901 in Växjö to Fridolf H. and Götilda Olsson. She graduated from the Lindeberg Girls' School in Lund in 1921, completed her dental studies in 1925, and became a licensed dentist in 1927. She worked as an assistant in Karlstad in 1927, and began her own practice in Oskarshamn later that same year. She worked as a school dentist in the Oskarshamn district from 1927-1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Martha Lilly Götilda Husberg\",\n  \"birthDate\": \"1901-11-06\",\n  \"birthPlace\": \"Växjö, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fridolf H.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Götilda Olsson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lindeberg Girls' School\",\n      \"location\": \"Lund, Sweden\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Unknown Dental School\",\n      \"location\": \"\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private practice in Oskarshamn\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School dentist in the Oskarshamn district\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1945\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Oskarshamn, Sweden\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Martha Lilly Götilda Husberg",
+        "birthDate": "1901-11-06",
+        "birthPlace": "Växjö, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Fridolf H."
+            },
+            {
+                "@type": "Person",
+                "name": "Götilda Olsson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lindeberg Girls' School",
+                "location": "Lund, Sweden",
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Unknown Dental School",
+                "location": "",
+                "startDate": "1925"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Private practice in Oskarshamn",
+                "startDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "School dentist in the Oskarshamn district",
+                "startDate": "1927",
+                "endDate": "1945"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Oskarshamn, Sweden"
+        }
+    }
+}

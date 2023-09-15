@@ -1,0 +1,110 @@
+{
+    "original": "Ihlström, Carl Curt Allan, apotekare, Mönsterås, f. 3/6/99 i Stlilm av Carl L o. Hildur G ull b ra ns son. G. 34 m. Lisa Hertha Sofia Wulff. Barn: Kerstin f. 36, Kurt 39, Torsten 41. — Stud:ex. i Gbg 19, farm. kand. 24, apot:ex. 31. Elev v. apot. Lejonet i Gbg 20-23, anst. där 24-27, v. apot. i Kävlinge, Gustavsberg, Kristianstad o. Eslöv, v. det sistn. s. förest., priv. å ’apot. i Mönsterås sed. 46.",
+    "translated": "Ihlström, Carl Curt Allan, pharmacist, born June 3, 1899 in Stlilm, son of Carl L and Hildur Gullbransson. Married in 1934 to Lisa Hertha Sofia Wulff. Children: Kerstin, born 1936, Kurt, born 1939, Torsten, born 1941. He graduated from high school in Gothenburg in 1919, obtained his pharmacy degree in 1924, and his license to practice pharmacy in 1931. He was an apprentice at the pharmacy Lejonet in Gothenburg from 1920 to 1923, and was employed there from 1924 to 1927, as well as at pharmacies in Kävlinge, Gustavsberg, Kristianstad and Eslöv. He was the assistant manager at the latter and had his own private pharmacy in Mönsterås since 1946.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Curt Allan Ihlström\",\n  \"birthDate\": \"1899-06-03\",\n  \"birthPlace\": \"Stlilm, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl L Ihlström\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hildur Gullbransson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lisa Hertha Sofia Wulff\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Ihlström\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kurt Ihlström\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torsten Ihlström\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex in Gothenburg\",\n      \"credentialCategory\": \"high school diploma\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Farm. kand.\",\n      \"credentialCategory\": \"university degree\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Apot:ex.\",\n      \"credentialCategory\": \"professional degree\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Lejonet in Gothenburg\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1923\",\n      \"position\": \"apprentice\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Lejonet in Gothenburg\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1927\",\n      \"position\": \"employee\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Kävlinge\",\n      \"position\": \"assistant\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Gustavsberg\",\n      \"position\": \"assistant\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Kristianstad\",\n      \"position\": \"assistant\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Eslöv\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"1946\",\n      \"position\": \"assistant manager\"\n    },\n    {\n      \"@type\": \"Pharmacy\",\n      \"name\": \"Mönsterås\",\n      \"startDate\": \"1946\",\n      \"position\": \"owner\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl Curt Allan Ihlström",
+        "birthDate": "1899-06-03",
+        "birthPlace": "Stlilm, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl L Ihlström",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Hildur Gullbransson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lisa Hertha Sofia Wulff",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Ihlström",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Kurt Ihlström",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Torsten Ihlström",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex in Gothenburg",
+                "credentialCategory": "high school diploma",
+                "startDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Farm. kand.",
+                "credentialCategory": "university degree",
+                "startDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Apot:ex.",
+                "credentialCategory": "professional degree",
+                "startDate": "1931"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Pharmacy",
+                "name": "Lejonet in Gothenburg",
+                "startDate": "1920",
+                "endDate": "1923",
+                "position": "apprentice"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Lejonet in Gothenburg",
+                "startDate": "1924",
+                "endDate": "1927",
+                "position": "employee"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Kävlinge",
+                "position": "assistant"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Gustavsberg",
+                "position": "assistant"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Kristianstad",
+                "position": "assistant"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Eslöv",
+                "startDate": "unknown",
+                "endDate": "1946",
+                "position": "assistant manager"
+            },
+            {
+                "@type": "Pharmacy",
+                "name": "Mönsterås",
+                "startDate": "1946",
+                "position": "owner"
+            }
+        ]
+    }
+}

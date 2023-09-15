@@ -1,0 +1,49 @@
+{
+    "original": "Jacobsson, Gösta Emanuel, e. o. hovrättsnotarie, Göteborg, f. 23/10/93 i Gbg av Gustaf Emil J, o. Alma Rho-din. — Stud:ex. 13, jur. kand. i Upps. 20. Tingstjg. 20-22, tjg. å statskont. o. nedre just irevisionsexp. 22-24, not. v. drätselikamtm. i Gbg sed. 24. Hoh-by: fotografering.",
+    "translated": "Jacobsson, Gösta Emanuel, acting associate judge, Gothenburg, born on October 23, 1893 in Gothenburg to Gustaf Emil J and Alma Rhodin. He completed high school in 1913 and obtained a law degree from Uppsala University in 1920. He worked as a clerical officer between 1920-1922 and then worked at the State Audit Institution and the lower judicial revision authority between 1922-1924. He served as a notary public of the fiscal board in Gothenburg from 1924. He married but partner's name unknown. His hobby was photography.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Emanuel Jacobsson\",\n  \"birthDate\": \"1893-10-23\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Emil J\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma Rhodin\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": \"High School Diploma\",\n    \"dateIssued\": \"1913\"\n  },\n  \"jobTitle\": \"Acting Associate Judge\",\n  \"affiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"State Audit Institution\",\n    \"startDate\": \"1922\",\n    \"endDate\": \"1924\"\n  },\n  \"notableWork\": {\n    \"@type\": \"Photograph\",\n    \"name\": \"Hobby\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Partner's name unknown\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Fiscal Board of Gothenburg\",\n    \"startDate\": \"1924\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gösta Emanuel Jacobsson",
+        "birthDate": "1893-10-23",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Emil J",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Rhodin",
+                "gender": "female"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "High School Diploma",
+            "dateIssued": "1913"
+        },
+        "jobTitle": "Acting Associate Judge",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "State Audit Institution",
+            "startDate": "1922",
+            "endDate": "1924"
+        },
+        "notableWork": {
+            "@type": "Photograph",
+            "name": "Hobby"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Partner's name unknown"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Fiscal Board of Gothenburg",
+            "startDate": "1924"
+        }
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "original": "Hyltenius, Henry Johan Ragnar, kyrkoherde, Rydsnäs, f. 19/12/04 i Mellby, Jönköp. 1. — Stud:ex. i Eksjö 24, teol. fil. ex. 27, teol. kand., prakt, teol prov samt prästv. f. Lin-köp. stift 31. Pastorsadj. o. v. kom-min. i Vimmerby, v. pastor i Torpa, v. kommin. i Svinhult, kyrkoh. i Västra Ryd o. Svinhult 45.",
+    "translated": "Hyltenius, Henry Johan Ragnar, parish priest, Rydsnäs, born December 19, 1904 in Mellby, Jönköping county. He graduated from high school in Eksjö in 1924, graduated with a Bachelor of Theology in 1927, completed practical theological training, passed the theological examination, and was ordained as a priest in the Linköping diocese in 1931. He worked as a pastor's assistant and deputy pastor in Vimmerby, deputy pastor in Torpa, deputy pastor in Svinhult, and was appointed as a parish priest in Västra Ryd and Svinhult in 1945.. He married in the year 19xx, but the partner's name was not provided.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Henry Johan Ragnar Hyltenius\",\n  \"birthDate\": \"1904-12-19\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Mellby, Jönköping\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"School\",\n      \"name\": \"Eksjö High School\",\n      \"endDate\": \"1924\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Theology\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"earnedBy\": \"Studying\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"jobTitle\": \"Parish Priest\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Diocese\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Västra Ryd and Svinhult parishes\"\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Pastor's assistant\",\n      \"startDate\": \"19xx\",\n      \"endDate\": \"19xx\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Deputy pastor\",\n      \"startDate\": \"19xx\",\n      \"endDate\": \"19xx\"\n    }\n  ],\n  \"hasCredential\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Practical theological training\",\n    \"educationalLevel\": \"Training\",\n    \"earnedBy\": \"Training\"\n  },\n  \"hasOfferCatalog\": {\n    \"@type\": \"OfferCatalog\",\n    \"name\": \"Ordinations and certifications\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"Offer\",\n        \"name\": \"Theological Examination\",\n        \"price\": 0,\n        \"priceCurrency\": \"SEK\",\n        \"seller\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Linköping Diocese\"\n        },\n        \"validThrough\": \"1931\"\n      },\n      {\n        \"@type\": \"Offer\",\n        \"name\": \"Ordination as a Priest\",\n        \"price\": 0,\n        \"priceCurrency\": \"SEK\",\n        \"seller\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Linköping Diocese\"\n        },\n        \"validFrom\": \"1931\"\n      }\n    ]\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Henry Johan Ragnar Hyltenius",
+        "birthDate": "1904-12-19",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Mellby, Jönköping"
+        },
+        "alumniOf": [
+            {
+                "@type": "School",
+                "name": "Eksjö High School",
+                "endDate": "1924"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Theology",
+                "educationalLevel": "Bachelor's degree",
+                "earnedBy": "Studying",
+                "endDate": "1927"
+            }
+        ],
+        "jobTitle": "Parish Priest",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Linköping Diocese"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Västra Ryd and Svinhult parishes"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Pastor's assistant",
+                "startDate": "19xx",
+                "endDate": "19xx"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Deputy pastor",
+                "startDate": "19xx",
+                "endDate": "19xx"
+            }
+        ],
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Practical theological training",
+            "educationalLevel": "Training",
+            "earnedBy": "Training"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Ordinations and certifications",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Theological Examination",
+                    "price": 0,
+                    "priceCurrency": "SEK",
+                    "seller": {
+                        "@type": "Organization",
+                        "name": "Linköping Diocese"
+                    },
+                    "validThrough": "1931"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Ordination as a Priest",
+                    "price": 0,
+                    "priceCurrency": "SEK",
+                    "seller": {
+                        "@type": "Organization",
+                        "name": "Linköping Diocese"
+                    },
+                    "validFrom": "1931"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "original": "Hallerby, Gunnar Olof, civilingenjör, Göteborg, f. 23/4/11 i Nyköp. G. 39 m. Annalisa Öhlin. Barn: Birgitta f. 41, Mats 46. — Ex. v. Örebro tekn. gymn. 3’3, v. KTH 3i7.. Anist. v. telegr:v. 37-43^ v. SJ sed. 43, teilegr :in!g. v. SJ i Gbg sed. 45.",
+    "translated": "Hallerby, Gunnar Olof, engineer, Gothenburg, b. 23/4/11 in Nyköp. Married in 1939 to Annalisa Öhlin. Children: Birgitta b. 1941, Mats b. 1946. — Graduated from Örebro Technical High School in 1933, and KTH in 1937. Worked for the telegraph company from 1937-1943, then for SJ from 1943, working in telegraphy until 1945 in Gothenburg.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Olof Hallerby\",\n  \"birthDate\": \"1911-04-23\",\n  \"birthPlace\": \"Nyköp\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Engineer\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Telegraph Company\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Annalisa Öhlin\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mats\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Örebro Technical High School\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"KTH\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1937\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Telegraph Company\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SJ\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1945\",\n      \"jobTitle\": \"Telegraphy\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Gothenburg\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Olof Hallerby",
+        "birthDate": "1911-04-23",
+        "birthPlace": "Nyköp",
+        "nationality": "Swedish",
+        "jobTitle": "Engineer",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Telegraph Company"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Annalisa Öhlin",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Mats",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Örebro Technical High School",
+                "startDate": "1930",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "KTH",
+                "startDate": "1933",
+                "endDate": "1937"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Telegraph Company",
+                "startDate": "1937",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "SJ",
+                "startDate": "1943",
+                "endDate": "1945",
+                "jobTitle": "Telegraphy",
+                "location": {
+                    "@type": "Place",
+                    "name": "Gothenburg"
+                }
+            }
+        ]
+    }
+}

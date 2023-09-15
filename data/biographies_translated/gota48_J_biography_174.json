@@ -1,0 +1,83 @@
+{
+    "original": "Johnson, August, komimunaltborg-mästare, Nässjö, f. 13/2/86 i Lackalänga, Malmöh. 1, G. 39 m. Gunhild Hallberg. — Kommunalborgmäst. sed. 33, led. av stadsstyr. sed. 21, av häl- sovind o. skolråd 18-33, ordf. i ’bygg-n:nd sed. 34, led. av tax:nd sed. 21, ordf. sed. 36, led. av brandstyr. sed. 21, ordf. sed. 26, led. av länets pröv-n:nd sed. 36, ordf. i dir. f. Nässjö las. sed. -40, överförmyndare 24-33i, skol-kasisör 27-3’3.",
+    "translated": "Johnson, August, municipal town master, Nässjö, born on February 13, 1886 in Lackalänga, Malmöh. Married in 1939 to Gunhild Hallberg. He has been a municipal town master since 1933, a member of the city board since 1921, a member of the health and school council from 1918 to 1933, chairman of the building committee since 1934, a member of the tax council since 1921, chairman since 1936, a member of the fire brigade since 1921, chairman since 1926, a member of the county trial board since 1936, chairman of the board of directors of Nässjö Hospital since 1940, custodian from 1924 to 1933, and school treasurer from 1927 to 1933.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"August Johnson\",\n  \"birthDate\": \"1886-02-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Lackalänga\",\n      \"addressRegion\": \"Malmöh\"\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Board\",\n      \"startDate\": \"1921-01-01\",\n      \"endDate\": \"1933-12-31\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"Health and School Council\",\n      \"startDate\": \"1918-01-01\",\n      \"endDate\": \"1933-12-31\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"Building Committee\",\n      \"startDate\": \"1934-01-01\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"Tax Council\",\n      \"startDate\": \"1921-01-01\",\n      \"chair\":\"August Johnson\",\n      \"chairStartDate\":\"1936-01-01\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"Fire Brigade\",\n      \"startDate\": \"1921-01-01\",\n      \"chair\": \"August Johnson\",\n      \"chairStartDate\":\"1926-01-01\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"County Trial Board\",\n      \"startDate\": \"1936-01-01\",\n      \"chair\": \"August Johnson\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"Board of Directors of Nässjö Hospital\",\n      \"startDate\": \"1940-01-01\",\n      \"chair\": \"August Johnson\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"Custodian\",\n      \"startDate\": \"1924-01-01\",\n      \"endDate\": \"1933-12-31\"\n    },\n    {\n      \"@type\":\"Organization\",\n      \"name\": \"School Treasurer\",\n      \"startDate\": \"1927-01-01\",\n      \"endDate\": \"1933-12-31\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunhild Hallberg\",\n    \"marriageDate\": \"1939-01-01\"\n  },\n  \"jobTitle\": \"Municipal Town Master\",\n  \"startDate\": \"1933-01-01\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "August Johnson",
+        "birthDate": "1886-02-13",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lackalänga",
+                "addressRegion": "Malmöh"
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "City Board",
+                "startDate": "1921-01-01",
+                "endDate": "1933-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "Health and School Council",
+                "startDate": "1918-01-01",
+                "endDate": "1933-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "Building Committee",
+                "startDate": "1934-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Tax Council",
+                "startDate": "1921-01-01",
+                "chair": "August Johnson",
+                "chairStartDate": "1936-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Fire Brigade",
+                "startDate": "1921-01-01",
+                "chair": "August Johnson",
+                "chairStartDate": "1926-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Trial Board",
+                "startDate": "1936-01-01",
+                "chair": "August Johnson"
+            },
+            {
+                "@type": "Organization",
+                "name": "Board of Directors of Nässjö Hospital",
+                "startDate": "1940-01-01",
+                "chair": "August Johnson"
+            },
+            {
+                "@type": "Organization",
+                "name": "Custodian",
+                "startDate": "1924-01-01",
+                "endDate": "1933-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Treasurer",
+                "startDate": "1927-01-01",
+                "endDate": "1933-12-31"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunhild Hallberg",
+            "marriageDate": "1939-01-01"
+        },
+        "jobTitle": "Municipal Town Master",
+        "startDate": "1933-01-01"
+    }
+}

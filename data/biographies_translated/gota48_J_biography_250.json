@@ -1,0 +1,85 @@
+{
+    "original": "Jörnstedt, Karl Arne Williams, byråchef, Norrköping, f. 10/12/08 i Uddevalla. G. 38 m. Gudrun Strauss. Barn: Eva f. 42. — Stud:ex. i Uddevalla 28, fil. kand. i Lund 33, pol. mag. i Sthlm 36. Bedr. forskn. v. Köpenhamns riksd :bibl. 32. Bitr, sekr. h. 36 års uppb :komm. 36-38, e. tj :man v. Statistiska centr :byrån i Sthlm 37-38, aktuarie h. drätselkamm. i Norrköp. 38, chef f. Norrköp. «tads statistiska kont. sed. 45. Prokurator f. Gbgs nat. i Lund 34-36, sekr. i Akad. fören. 35-36, sekr. h. Norrköp :komm. av Sv. Norgehjälpen 42-46 o. h. Norrköp :-komm. av Sv. Europahjälpen sed. 46. RLSF förtj:t. i silver, Pro benignitate humana (finsk med.).",
+    "translated": "Jörnstedt, Karl Arne Williams, office manager, Norrköping, born December 10, 1908 in Uddevalla. Married in 1938 to Gudrun Strauss. Children: Eva (born) in 1942). Studied at Uddevalla (high school graduate) in 1928, received a Bachelor of Arts in Lund in 1933, and a Master's in Political Science in Stockholm in 1936. Conducted research at the Copenhagen Royal Library in 1932. Served as assistant secretary for the 36-year-permanent committee from 1936 to 1938, followed by service as an official at the Statistical Central Bureau in Stockholm from 1937 to 1938. Became an actuary for the Norrköping tax office in 1938 before becoming the chief of Norrköping's statistical office in 1945. Held the position of procurator for Gbgs Nat in Lund from 1934 to 1936 and secretary for the Academy Association from 1935 to 1936. Secretary for the Norrköping Committee of Swedish Norway Aid from 1942 to 1946 and secretary for the Norrköping Committee of Swedish European Aid from 1946. Received the Royal Swedish Academy of Agriculture and Forestry's silver medal and the Pro Benignitate Humana (Finnish).",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Arne Williams Jörnstedt\",\n  \"jobTitle\": \"Office Manager\",\n  \"birthDate\": \"1908-12-10\",\n  \"birthPlace\": \"Uddevalla, Sweden\",\n  \"spouse\": \"Gudrun Strauss\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Jörnstedt\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Uddevalla High School\",\n    \"location\": \"Uddevalla, Sweden\",\n    \"endDate\": \"1928\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Lund University\",\n    \"location\": \"Lund, Sweden\",\n    \"endDate\": \"1933\"\n  },\n  \"award\": {\n    \"@type\": \"Award\",\n    \"name\": \"Royal Swedish Academy of Agriculture and Forestry's Silver Medal\",\n    \"description\": \"Awarded to individuals for significant contributions to agriculture and forestry.\",\n    \"endDate\": \"unknown\"\n  },\n  \"jobHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1938\",\n      \"roleName\": \"Assistant Secretary\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Permanent Committee\",\n        \"location\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\",\n      \"roleName\": \"Official\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Statistical Central Bureau\",\n        \"location\": \"Stockholm, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"unknown\",\n      \"roleName\": \"Actuary\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrköping Tax Office\",\n        \"location\": \"Norrköping, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"unknown\",\n      \"roleName\": \"Chief\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrköping Statistical Office\",\n        \"location\": \"Norrköping, Sweden\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Karl Arne Williams Jörnstedt",
+        "jobTitle": "Office Manager",
+        "birthDate": "1908-12-10",
+        "birthPlace": "Uddevalla, Sweden",
+        "spouse": "Gudrun Strauss",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva Jörnstedt",
+                "birthDate": "1942"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Uddevalla High School",
+            "location": "Uddevalla, Sweden",
+            "endDate": "1928"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Lund University",
+            "location": "Lund, Sweden",
+            "endDate": "1933"
+        },
+        "award": {
+            "@type": "Award",
+            "name": "Royal Swedish Academy of Agriculture and Forestry's Silver Medal",
+            "description": "Awarded to individuals for significant contributions to agriculture and forestry.",
+            "endDate": "unknown"
+        },
+        "jobHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "endDate": "1938",
+                "roleName": "Assistant Secretary",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Permanent Committee",
+                    "location": "Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1937",
+                "endDate": "1938",
+                "roleName": "Official",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Statistical Central Bureau",
+                    "location": "Stockholm, Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "endDate": "unknown",
+                "roleName": "Actuary",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Norrköping Tax Office",
+                    "location": "Norrköping, Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1945",
+                "endDate": "unknown",
+                "roleName": "Chief",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Norrköping Statistical Office",
+                    "location": "Norrköping, Sweden"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "original": "Hjortsjö, Lund, Sven-Gustaf J :son 19, med. lic., Lema 23. — Stud :ex. i Gbg 07, fil. kand. 12, fil. mag. 14, provår v. södra latin i Sthlm 16. Res. t. Norge 03, Danm. 11, 17 o. 21, Tyskl. 22 o. Schv^eiz 23. Vik. adj. v. Gbgs folksk :sem. 09, Gbgs v. realsk. 12-13, vik. adj. i Varberg 13-15, e. lär. v. Gbgs v. realsk. 16-25, adj. i modersm., hist. o. geogr. v. Borås h. a. 1. sed. 24. Timlär. v. Lundénska priv:sk. i Gbg 21-25, v. Borås h. folksk. 26-33. RVO.",
+    "translated": "Hjortsjö, Lund, Sven-Gustaf J :son born in 19xx, with a medical license obtained in 1923. He passed his student examination in Gothenburg in 1907, received a Bachelor of Arts degree in 1912, a Master of Arts degree in 1914, and completed a probationary year at South Latin School in Stockholm in 1916. He traveled to Norway in 1903, Denmark in 1911, 1917, and 1921, Germany in 1922, and Switzerland in 1923. He served as a temporary assistant at Gothenburg's folk high school in 1909, at Gothenburg's secondary school from 1912-1913, temporary assistant in Varberg from 1913-1915, and permanent teacher of Swedish, history, and geography at Borås högre allmänna läroverk from 1916-1925. He also worked as an hourly teacher at Lundénska private school in Gothenburg from 1921-1925 and at Borås högre folkskola from 1926-1933. He was awarded the Royal Order of Vasa. Note that '\\d\\d m. partner's name' means that the person married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven-Gustaf J :son Lund\",\n  \"birthDate\": \"19xx\",\n  \"medicalSpecialty\": \"Medicine\",\n  \"hasCredential\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Medical license\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. in Gothenburg\",\n      \"startDate\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts degree\",\n      \"startDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts degree\",\n      \"startDate\": \"1914\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary assistant at Gothenburg's folk high school\",\n      \"startDate\": \"1909\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary assistant at Gothenburg's secondary school\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary assistant in Varberg\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Permanent teacher of Swedish, history, and geography at Borås högre allmänna läroverk\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Hourly teacher at Lundénska private school in Gothenburg\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Hourly teacher at Borås högre folkskola\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Order of Vasa\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Partner's name\",\n    \"marriageDate\": \"19xx\"\n  },\n  \"travelHistory\": [\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Norway\"\n      },\n      \"startDate\": \"1903\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Denmark\"\n      },\n      \"startDate\": \"1911\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Denmark\"\n      },\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Denmark\"\n      },\n      \"startDate\": \"1921\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Germany\"\n      },\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Switzerland\"\n      },\n      \"startDate\": \"1923\",\n      \"endDate\": \"1923\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven-Gustaf J :son Lund",
+        "birthDate": "19xx",
+        "medicalSpecialty": "Medicine",
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Medical license"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. in Gothenburg",
+                "startDate": "1907"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts degree",
+                "startDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts degree",
+                "startDate": "1914"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "title": "Temporary assistant at Gothenburg's folk high school",
+                "startDate": "1909"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary assistant at Gothenburg's secondary school",
+                "startDate": "1912",
+                "endDate": "1913"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary assistant in Varberg",
+                "startDate": "1913",
+                "endDate": "1915"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Permanent teacher of Swedish, history, and geography at Borås högre allmänna läroverk",
+                "startDate": "1916",
+                "endDate": "1925"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Hourly teacher at Lundénska private school in Gothenburg",
+                "startDate": "1921",
+                "endDate": "1925"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Hourly teacher at Borås högre folkskola",
+                "startDate": "1926",
+                "endDate": "1933"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Royal Order of Vasa"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Partner's name",
+            "marriageDate": "19xx"
+        },
+        "travelHistory": [
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Norway"
+                },
+                "startDate": "1903"
+            },
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Denmark"
+                },
+                "startDate": "1911",
+                "endDate": "1911"
+            },
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Denmark"
+                },
+                "startDate": "1917",
+                "endDate": "1917"
+            },
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Denmark"
+                },
+                "startDate": "1921",
+                "endDate": "1921"
+            },
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Germany"
+                },
+                "startDate": "1922",
+                "endDate": "1922"
+            },
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Place",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Place",
+                    "name": "Switzerland"
+                },
+                "startDate": "1923",
+                "endDate": "1923"
+            }
+        ]
+    }
+}

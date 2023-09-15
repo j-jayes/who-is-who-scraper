@@ -1,0 +1,156 @@
+{
+    "original": "Jeansson, Ivan Hugo, skeppsredare, Kalmar, f. 18/10/95 i Kalmar av Hugo J. o. Gustafva Camp. G. 32 m. Ewy Heintze. Barn: CJaes-Magnus f. 33, Lennart 41, Birgitta 44. — Stud:ex. 16, Schartaus hand :inst. fackkurs f. stud. 18. Anst. h. Blom &amp; Co. Norrköp. Rederi A-B 18-19, John Carlbom &amp; Co. Ltd i LIull 19-21, F. G. Reinhold i Danzig 22-23, N. J. Zachariasen i Rouen 23-24, Leffler &amp; Son i Sthlm 24-27, inneh. av Rederi A-B Norrström i Kalmar sed. 27 o. A-B Sandar sed. 47. Led. av styr. f. Rederi A-B Norrström sed. 27 o. A-B Sandar sed. 47.",
+    "translated": "Jeansson, Ivan Hugo, shipowner, Kalmar, b. 18/10/95 in Kalmar to Hugo J. and Gustafva Camp. Married in 1932 to Ewy Heintze. Children: CJaes-Magnus b. 1933, Lennart 1941, Birgitta 1944. — Graduated from school in 1916, Schartau's Business Institute specialty course for students in 1918. Employed at Blom & Co. in Norrköping 1918-1919, John Carlbom & Co. Ltd in Hull 1919-1921, F. G. Reinhold in Danzig 1922-1923, N. J. Zachariasen in Rouen 1923-1924, Leffler & Son in Stockholm 1924-1927. Owner of Rederi A-B Norrström in Kalmar since 1927 and A-B Sandar since 1947. Member of the board of Rederi A-B Norrström since 1927 and A-B Sandar since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ivan Hugo Jeansson\",\n  \"birthDate\": \"1895-10-18\",\n  \"birthPlace\": \"Kalmar\",\n  \"parents\": [\n    {\n      \"name\": \"Hugo J. Jeansson\"\n    },\n    {\n      \"name\": \"Gustafva Camp\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ewy Heintze\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"CJaes-Magnus Jeansson\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Jeansson\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Jeansson\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"Secondary school\",\n      \"educationalCredentialAwarded\": \"Graduated in 1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Schartaus hand :inst. fackkurs\",\n      \"educationalLevel\": \"Specialty course\",\n      \"educationalCredentialAwarded\": \"Completed in 1918\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\",\n      \"roleName\": \"Employed at Blom & Co.\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Blom & Co.\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Norrköping\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1921\",\n      \"roleName\": \"Employed at John Carlbom & Co. Ltd\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"John Carlbom & Co. Ltd\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Hull\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\",\n      \"roleName\": \"Employed at F. G. Reinhold\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"F. G. Reinhold\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Danzig\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"roleName\": \"Employed at N. J. Zachariasen\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"N. J. Zachariasen\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Rouen\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1927\",\n      \"roleName\": \"Employed at Leffler & Son\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Leffler & Son\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\"\n        }\n      }\n    }\n  ],\n  \"owns\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Norrström\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Kalmar\"\n      },\n      \"ownershipStartDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Sandar\",\n      \"ownershipStartDate\": \"1947\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Norrström\",\n      \"membershipStartDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Sandar\",\n      \"membershipStartDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ivan Hugo Jeansson",
+        "birthDate": "1895-10-18",
+        "birthPlace": "Kalmar",
+        "parents": [
+            {
+                "name": "Hugo J. Jeansson"
+            },
+            {
+                "name": "Gustafva Camp"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ewy Heintze",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "CJaes-Magnus Jeansson",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Jeansson",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Jeansson",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "Secondary school",
+                "educationalCredentialAwarded": "Graduated in 1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Schartaus hand :inst. fackkurs",
+                "educationalLevel": "Specialty course",
+                "educationalCredentialAwarded": "Completed in 1918"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1918",
+                "endDate": "1919",
+                "roleName": "Employed at Blom & Co.",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Blom & Co.",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Norrköping"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1919",
+                "endDate": "1921",
+                "roleName": "Employed at John Carlbom & Co. Ltd",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "John Carlbom & Co. Ltd",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Hull"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1922",
+                "endDate": "1923",
+                "roleName": "Employed at F. G. Reinhold",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "F. G. Reinhold",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Danzig"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1923",
+                "endDate": "1924",
+                "roleName": "Employed at N. J. Zachariasen",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "N. J. Zachariasen",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Rouen"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "endDate": "1927",
+                "roleName": "Employed at Leffler & Son",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Leffler & Son",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm"
+                    }
+                }
+            }
+        ],
+        "owns": [
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Norrström",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Kalmar"
+                },
+                "ownershipStartDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Sandar",
+                "ownershipStartDate": "1947"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Norrström",
+                "membershipStartDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Sandar",
+                "membershipStartDate": "1947"
+            }
+        ]
+    }
+}

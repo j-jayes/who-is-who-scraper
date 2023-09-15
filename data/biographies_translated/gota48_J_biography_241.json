@@ -1,0 +1,82 @@
+{
+    "original": "Jönsson, Emanuel, postmästare. Färjestaden, f. 27/11/91 i Munkaljungby, Kriist. 1., av Sven J. o. Anna Kristina KHnker. G. 23 m. Anna EmiHa Paulina Andersson. — Realex. i Halmstad 10. E. postexp. i västra distr. 13, postexp. där 17, i Höganäs 19, postas-si sit. där 25, i Hälisingb. 34, förste post-as:sis(t i Lidköp. 37, postmiäsl. i Färjestaden sed. 44. GM.",
+    "translated": "Jönsson, Emanuel, postmaster. Färjestaden, born on 27/11/91 in Munkaljungby, Kriist. 1., the son of Sven J. and Anna Kristina KHnker. Married on 23 to Anna EmiHa Paulina Andersson. Completed his secondary education in Halmstad in 1910. Worked as a postal clerk in the western district from 1913, in a post office there from 1917, in Höganäs from 1919, as a postal inspector there from 1925, in Hälisingb. from 1934, first postal inspector in Lidköp. from 1937, and postmaster in Färjestaden since 1944. Married.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Emanuel Jönsson\",\n  \"jobTitle\": \"Postmaster\",\n  \"birthPlace\": \"Munkaljungby, Kristianstad\",\n  \"birthDate\": \"1891-11-27\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Jönsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Kristina KHnker\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna EmiHa Paulina Andersson\",\n    \"marriageDate\": \"1923-XX-XX\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"secondary education\",\n    \"educationalLevel\": \"Realex\",\n    \"educationalCredentialAwarded\": \"Completed secondary education in Halmstad in 1910\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Postal Service\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"PostalClerk\",\n      \"name\": \"Postal clerk in the western district\",\n      \"startDate\": \"1913-XX-XX\",\n      \"endDate\": \"1917-XX-XX\"\n    },\n    {\n      \"@type\": \"PostOffice\",\n      \"name\": \"Post office in western district\",\n      \"startDate\": \"1917-XX-XX\",\n      \"endDate\": \"1919-XX-XX\"\n    },\n    {\n      \"@type\": \"PostOffice\",\n      \"name\": \"Post office in Höganäs\",\n      \"startDate\": \"1919-XX-XX\",\n      \"endDate\": \"1925-XX-XX\"\n    },\n    {\n      \"@type\": \"PostalInspector\",\n      \"name\": \"Postal inspector in Höganäs\",\n      \"startDate\": \"1925-XX-XX\",\n      \"endDate\": \"1934-XX-XX\"\n    },\n    {\n      \"@type\": \"PostalInspector\",\n      \"name\": \"Postal inspector in Hälisingborg\",\n      \"startDate\": \"1934-XX-XX\",\n      \"endDate\": \"1937-XX-XX\"\n    },\n    {\n      \"@type\": \"PostalInspector\",\n      \"name\": \"First postal inspector in Lidköpings\",\n      \"startDate\": \"1937-XX-XX\",\n      \"endDate\": \"1944-XX-XX\"\n    },\n    {\n      \"@type\": \"Postmaster\",\n      \"name\": \"Postmaster in Färjestaden\",\n      \"startDate\": \"1944-XX-XX\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Emanuel Jönsson",
+        "jobTitle": [
+            {
+                "@type": "PostalClerk",
+                "name": "Postal clerk in the western district",
+                "startDate": "1913-XX-XX",
+                "endDate": "1917-XX-XX"
+            },
+            {
+                "@type": "PostOffice",
+                "name": "Post office in western district",
+                "startDate": "1917-XX-XX",
+                "endDate": "1919-XX-XX"
+            },
+            {
+                "@type": "PostOffice",
+                "name": "Post office in Höganäs",
+                "startDate": "1919-XX-XX",
+                "endDate": "1925-XX-XX"
+            },
+            {
+                "@type": "PostalInspector",
+                "name": "Postal inspector in Höganäs",
+                "startDate": "1925-XX-XX",
+                "endDate": "1934-XX-XX"
+            },
+            {
+                "@type": "PostalInspector",
+                "name": "Postal inspector in Hälisingborg",
+                "startDate": "1934-XX-XX",
+                "endDate": "1937-XX-XX"
+            },
+            {
+                "@type": "PostalInspector",
+                "name": "First postal inspector in Lidköpings",
+                "startDate": "1937-XX-XX",
+                "endDate": "1944-XX-XX"
+            },
+            {
+                "@type": "Postmaster",
+                "name": "Postmaster in Färjestaden",
+                "startDate": "1944-XX-XX"
+            }
+        ],
+        "birthPlace": "Munkaljungby, Kristianstad",
+        "birthDate": "1891-11-27",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sven Jönsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Kristina KHnker"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna EmiHa Paulina Andersson",
+            "marriageDate": "1923-XX-XX"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "secondary education",
+            "educationalLevel": "Realex",
+            "educationalCredentialAwarded": "Completed secondary education in Halmstad in 1910"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Postal Service"
+            }
+        ]
+    }
+}

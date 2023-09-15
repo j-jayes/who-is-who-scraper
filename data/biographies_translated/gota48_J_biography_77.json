@@ -1,0 +1,79 @@
+{
+    "original": "Jernheden, Gunnar Richard, direktör, Varberg, f. 7/2/06 i Varberg. G. 32 m. Valborg Johansson. Barn: Sven f. 33. — Realex. i Varberg 22. Res. t. Estl., Lettl, Polen o. Tyskl. 31. Anst. v. Varbergsposten sed. 24, deläg. i o. dir. f. Tidn. A-B Varbergs-pO;Sten sed. 42. Led. av styr. f. Tidn. A-B Varbergsposten sed. 43 o. Bo-stadsfören. Prosten. Medl. av Frimurarorden.",
+    "translated": "Jernheden, Gunnar Richard, director, Varberg, born 7/2/06 in Varberg. Married in 1932 to Valborg Johansson. Children: Sven, born in 1933. Completed Realexamen in Varberg in 1922. Traveled to Estonia, Latvia, Poland, and Germany in 1931. Employed by Varbergsposten since 1924, and became co-owner and director of Tidn. A-B Varbergs-Posten in 1942. Board member of Tidn. A-B Varbergsposten since 1943 and of the Housing Association. Member of the Freemasons.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Richard Jernheden\",\n  \"jobTitle\": \"Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Varberg\"\n  },\n  \"birthDate\": \"1906-02-07\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Valborg Johansson\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sven\",\n    \"birthDate\": \"1933\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Realexamen\",\n    \"issuer\": \"Varberg\"\n  },\n  \"travelHistory\": {\n    \"@type\": \"TravelAction\",\n    \"fromLocation\": \"Varberg\",\n    \"toLocations\": [\"Estonia\", \"Latvia\", \"Poland\", \"Germany\"],\n    \"startDate\": \"1931\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Varbergsposten\"\n      },\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tidn. A-B Varbergs-Posten\"\n      },\n      \"roleName\": \"Co-owner and Director\",\n      \"startDate\": \"1942\"\n    }\n  ],\n  \"membership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tidn. A-B Varbergsposten\",\n      \"roleName\": \"Board member\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Housing Association\",\n      \"roleName\": \"Board member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\",\n      \"roleName\": \"Member\"\n    }\n  ]\n}\n",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Richard Jernheden",
+        "jobTitle": "Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Varberg"
+        },
+        "birthDate": "1906-02-07",
+        "spouse": {
+            "@type": "Person",
+            "name": "Valborg Johansson",
+            "marriageDate": "1932"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Sven",
+            "birthDate": "1933"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Realexamen",
+            "issuer": "Varberg"
+        },
+        "travelHistory": {
+            "@type": "TravelAction",
+            "fromLocation": "Varberg",
+            "toLocations": [
+                "Estonia",
+                "Latvia",
+                "Poland",
+                "Germany"
+            ],
+            "startDate": "1931"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Varbergsposten"
+                },
+                "startDate": "1924"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Tidn. A-B Varbergs-Posten"
+                },
+                "roleName": "Co-owner and Director",
+                "startDate": "1942"
+            }
+        ],
+        "membership": [
+            {
+                "@type": "Organization",
+                "name": "Tidn. A-B Varbergsposten",
+                "roleName": "Board member",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Housing Association",
+                "roleName": "Board member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden",
+                "roleName": "Member"
+            }
+        ]
+    }
+}

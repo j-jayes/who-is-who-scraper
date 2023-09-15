@@ -1,0 +1,87 @@
+{
+    "original": "Johansson, Johan Bernhard, lantbrukare, riksdagsman, förutv. .statsråd, Fredrikslund, Torup, f. 23/9/77 i Torup, Hall. 1., av riksdagsm. Joh :s Bengtsson o. Johanna Johansdtr. G. m. Rut Lundgren. Barn: Ingrid f. 12, Vanja 21. — Statsråd o. chef f. jord-br :dep. 28-30, led. av riksd. försita kamm. fr. 18, ordf. i statsutsk., i sitatisrev. 26, landsitingsm. fr. 07, ordf. fr. 311, led. av förv:utsk. fr. 15, nämndeman 04-26, här:dom. 13-26, ordf. i allm. brand-förs :väs. f. ’byggn. å landet, v. ordf. i styr. f. Vin- o. ^spritcentr. i Sthlm, v. ordf. i Sv. landstingsförb., v. ordf. i styr. f. Sv. Komm:anst. pens :kas’sa, ett flert. komm. uppdr. KNOlkl, KVO Ikl, LLA, 3’ GM.",
+    "translated": "Johansson, Johan Bernhard, farmer, member of parliament, former minister, Fredrikslund, Torup, born September 23, 1877 in Torup, Halland County, son of member of parliament Joh's Bengtsson and Johanna Johansdtr. Married to Rut Lundgren in the year 19xx. Children: Ingrid (born) in 1912, Vanja (born) in 1921. He was a minister and head of the Ministry of Agriculture from 1928-1930, a member of the parliamentary finance committee since 1918, chairman of the State Audit Commission in 1926, county councilor since 1907, chairman since 1931, member of the management committee since 1915, lay judge from 1904-1926, chairman of the general fire insurance for rural buildings, deputy chairman of the board for Wine and Spirits Centre in Stockholm, deputy chairman of the Swedish County Council Association, deputy chairman of the board for the Swedish Municipal Pension Fund, and held several other municipal positions. Awarded the KNO1kl, KVO1kl, LLA, 3'GM.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Bernhard Johansson\",\n  \"birthDate\": \"1877-09-23\",\n  \"birthPlace\": \"Torup, Halland County\",\n  \"parent\": {\n    \"@type\": \"Person\",\n    \"name\": \"Joh's Bengtsson\"\n  },\n  \"parent\": {\n    \"@type\": \"Person\",\n    \"name\": \"Johanna Johansdtr\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rut Lundgren\",\n    \"marriageDate\": \"19xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid\",\n      \"birthDate\": \"1912\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vanja\",\n      \"birthDate\": \"1921\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Farmer\",\n    \"Member of Parliament\",\n    \"Former Minister\"\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Fredrikslund, Torup\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish County Council Association\",\n      \"position\": \"Deputy Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Municipal Pension Fund\",\n      \"position\": \"Deputy Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Wine and Spirits Centre in Stockholm\",\n      \"position\": \"Deputy Chairman\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Minister\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Chairman of the State Audit Commission\",\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"County Councilor\",\n      \"startDate\": \"1907\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Chairman of the County Council\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Member of the Parliamentary Finance Committee\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Lay Judge\",\n      \"startDate\": \"1904\",\n      \"endDate\": \"1926\"\n    }\n   ],\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"General fire insurance for rural buildings\",\n      \"position\": \"Chairman\"\n    },\n    \"award\": [\n      \"KNO1kl\",\n      \"KVO1kl\",\n      \"LLA\",\n      \"3'GM\"\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Bernhard Johansson",
+        "birthDate": "1877-09-23",
+        "birthPlace": "Torup, Halland County",
+        "parent": {
+            "@type": "Person",
+            "name": "Johanna Johansdtr"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Rut Lundgren",
+            "marriageDate": "19xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingrid",
+                "birthDate": "1912"
+            },
+            {
+                "@type": "Person",
+                "name": "Vanja",
+                "birthDate": "1921"
+            }
+        ],
+        "jobTitle": [
+            "Farmer",
+            "Member of Parliament",
+            "Former Minister"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Fredrikslund, Torup"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "General fire insurance for rural buildings",
+            "position": "Chairman"
+        },
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Minister",
+                "startDate": "1928",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Chairman of the State Audit Commission",
+                "startDate": "1926"
+            },
+            {
+                "@type": "Occupation",
+                "name": "County Councilor",
+                "startDate": "1907"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Chairman of the County Council",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Member of the Parliamentary Finance Committee",
+                "startDate": "1918"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Lay Judge",
+                "startDate": "1904",
+                "endDate": "1926"
+            }
+        ],
+        "award": [
+            "KNO1kl",
+            "KVO1kl",
+            "LLA",
+            "3'GM"
+        ]
+    }
+}

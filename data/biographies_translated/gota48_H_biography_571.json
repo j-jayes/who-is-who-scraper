@@ -1,0 +1,83 @@
+{
+    "original": "Håkansson, Enar A’lf, prakt, läkare, Nässjö, f. 27/4/04 i Turinge, StMms 1, av disp. Oscar Ferdinand H. o. Anna Maria Hallborg. G. m. Margit Persson. Barn: Bengt f. 44’, Hans 46. — Stud :ex. i Västervik 24, med. kand. i Lund 33’, med. lic. i Sthlm 39. E. läk. i Nässjö distr. 39, und :läk. v. Säters sjukh. 39-40, v. Växjö las. 40-43, v. san. i Fur samt und :läk. v. las. i Sveg 43, numera prakt. läk. i Nässjö.",
+    "translated": "Håkansson, Enar A’lf, MD, Nässjö, b. April 27, 1904 in Turinge, StMms 1, to parents Oscar Ferdinand H. and Anna Maria Hallborg. Married to Margit Persson. Children: Bengt b. 1944, Hans b. 1946.  Studied for exams in Västervik in 1924, received medical degree (med. kand.) in Lund in 1933, and became a licensed physician (med. lic.) in Stockholm in 1939. Became a resident doctor in the Nässjö district in 1939, and an assistant physician at Säters Hospital from 1939-1940, followed by the Växjö Hospital from 1940-1943. In 1943, he worked as a physician at the Fur sanatorium and as an assistant physician at a hospital in Sveg. Currently he is a practicing physician in Nässjö.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Enar A'lf Håkansson\",\n  \"birthDate\": \"1904-04-27\",\n  \"birthPlace\": \"Turinge, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Västervik\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"exams\"\n      },\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"medical degree\",\n        \"description\": \"med. kand.\"\n      },\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karolinska Institutet\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"medical license\",\n        \"description\": \"med. lic.\"\n      },\n      \"endDate\": \"1939\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Nässjö district\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Persson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"medicalSpecialty\": \"Medicine\",\n  \"memberOf\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sveg Hospital\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Fur Sanatorium\"\n    }\n  ],\n  \"jobTitle\": \"Physician\",\n  \"startDate\": \"1939\",\n  \"endDate\": \"present\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Nässjö\",\n    \"addressCountry\": \"Sweden\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Enar A'lf Håkansson",
+        "birthDate": "1904-04-27",
+        "birthPlace": "Turinge, Sweden",
+        "nationality": "Swedish",
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Västervik",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "exams"
+                },
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "medical degree",
+                    "description": "med. kand."
+                },
+                "endDate": "1933"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karolinska Institutet",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "medical license",
+                    "description": "med. lic."
+                },
+                "endDate": "1939"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nässjö district"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Persson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1946"
+            }
+        ],
+        "medicalSpecialty": "Medicine",
+        "memberOf": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sveg Hospital"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Fur Sanatorium"
+            }
+        ],
+        "jobTitle": "Physician",
+        "startDate": "1939",
+        "endDate": "present",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nässjö",
+            "addressCountry": "Sweden"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "original": "Israelsson, Ida, direktör, Linköping, f. 29/4/78 i Kopparfly, Madesjö s:n, Kalmar 1., av Johannes 1. o. Emma Johansson. — Egen firma v. Flero-hopps bruk 98-08 avd :chef v. Karlstads Strå- &amp; Filthattfabr. kont. i Sthlm 08-19, grund, av samt deläg. o. verkst. dir. i Linköp. Strå- &amp; Filthattfabr. A-B sed. 19, grund. Herrhatt-fabr. A-B Star i Hallsberg 36, styr:-led. där sed. 37, äg. o. beb. egend. Docketorp i Landeryds s:n, östergötl. 1. Föret, ett flert. ink:res. t. uti.",
+    "translated": "Israelsson, Ida, director, Linköping, b. April 29, 1878 in Kopparfly, Madesjö parish, Kalmar county, daughter of Johannes and Emma Johansson. She had her own company at Flero-hopps bruk from 1898-1908 and was a department manager at Karlstad's Strå- &amp; Filthattfabr with a office in Stockholm from 1908-1919. She co-founded and was a managing director at Linköping's Strå- &amp; Filthattfabr. A-B since 1919. She also co-founded Herrhatt-fabr. A-B Star in Hallsberg in 1936 and has been on the board of directors since 1937. She owned and lived on the property in Docketorp in Landeryds parish, Östergötland county. She had several international business trips. She married in 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ida Israelsson\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1878-04-29\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kopparfly, Madesjö parish, Kalmar county\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johannes Israelsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Johansson\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Place\",\n    \"name\": \"Docketorp, Landeryds parish, Östergötland county\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlstaad's Strå- & Filthattfabr.\",\n      \"jobTitle\": \"Department Manager\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping's Strå- & Filthattfabr. A-B\",\n      \"jobTitle\": \"Managing Director\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Herrhatt-fabr. A-B Star\",\n      \"jobTitle\": \"Member of the Board of Directors\",\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"memberOf.name\": \"Flero-hopps bruk\",\n  \"memberOf.jobTitle\": \"Founder, Own Company\",\n  \"memberOf.startDate\": \"1898\",\n  \"memberOf.endDate\": \"1908\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"[Name of spouse]\",\n    \"startDate\": \"19xx\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ida Israelsson",
+        "jobTitle": "Director",
+        "birthDate": "1878-04-29",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kopparfly, Madesjö parish, Kalmar county"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johannes Israelsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Johansson"
+            }
+        ],
+        "owns": {
+            "@type": "Place",
+            "name": "Docketorp, Landeryds parish, Östergötland county"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Karlstaad's Strå- & Filthattfabr.",
+                "jobTitle": "Department Manager",
+                "startDate": "1908",
+                "endDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping's Strå- & Filthattfabr. A-B",
+                "jobTitle": "Managing Director",
+                "startDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Herrhatt-fabr. A-B Star",
+                "jobTitle": "Member of the Board of Directors",
+                "startDate": "1937"
+            }
+        ],
+        "memberOf.name": "Flero-hopps bruk",
+        "memberOf.jobTitle": "Founder, Own Company",
+        "memberOf.startDate": "1898",
+        "memberOf.endDate": "1908",
+        "spouse": {
+            "@type": "Person",
+            "name": "[Name of spouse]",
+            "startDate": "19xx"
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "original": "Johansson, Gunnar Emanuel, prakt, läkare, Göteborg, f. 27/9/99 i Abo, Finl., av grosshandl. Emanuel J. o. Anna Österberg. G. 35 m. Elin Maria Nykvist. Barn: Gunlög f. 36, Barbro 40, Ulla 44. — Stud:ex. i Abo 20, med. kand. i Sthlm 27 o. med. lic. där 34. Tf. prov:läk. i Skönneruds, Orsa, Grönskåra, Högsäters o. Mjölby distr. kort. tider 34 o. 35, prakt. läk. i Gbg sed. 35 o. i Mölndal 35-42:",
+    "translated": "Johansson, Gunnar Emanuel, physician, Gothenburg, born September 27th, 1899 in Abo, Finland, son of merchant Emanuel J. and Anna Österberg. He married Elin Maria Nykvist in 1935 and has three children: Gunlög (born 1936), Barbro (born 1940), and Ulla (born 1944). He passed his student examination in Abo in 1920, obtained his medical degree in Stockholm in 1927, and became a licensed physician there in 1934. He worked as a temporary probationary physician in Skönneruds, Orsa, Grönskåra, Högsäters, and Mjölby districts for brief periods in 1934 and 1935. He has been a practicing physician in Gothenburg since 1935 and in Mölndal from 1935 to 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Emanuel Johansson\",\n  \"jobTitle\": \"Physician\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"birthDate\": \"1899-09-27\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Abo, Finland\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emanuel J.\"\n    },\n    { \n      \"@type\": \"Person\",\n      \"name\": \"Anna Österberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elin Maria Nykvist\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunlög\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Student examination\",\n      \"educationalLevel\": \"High school\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1920\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Abo\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Medical degree\",\n      \"educationalLevel\": \"University\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1927\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Medical license\",\n      \"educationalLevel\": \"Professional\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      }\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Temporary probationary physician\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Skönneruds\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Orsa\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Grönskåra\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Högsäters\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Mjölby\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Physician\",\n      \"startDate\": \"1935\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Gothenburg\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Physician\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1942\",\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Mölndal\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Emanuel Johansson",
+        "jobTitle": "Physician",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "birthDate": "1899-09-27",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Abo, Finland"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Emanuel J."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Österberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elin Maria Nykvist",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunlög",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Student examination",
+                "educationalLevel": "High school",
+                "startDate": "1920",
+                "endDate": "1920",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Abo"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Medical degree",
+                "educationalLevel": "University",
+                "startDate": "1927",
+                "endDate": "1927",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Medical license",
+                "educationalLevel": "Professional",
+                "startDate": "1934",
+                "endDate": "1934",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                }
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Temporary probationary physician",
+                "startDate": "1934",
+                "endDate": "1935",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Skönneruds"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Orsa"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Grönskåra"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Högsäters"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Mjölby"
+                    }
+                ]
+            },
+            {
+                "@type": "Occupation",
+                "name": "Physician",
+                "startDate": "1935",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Gothenburg"
+                    }
+                ]
+            },
+            {
+                "@type": "Occupation",
+                "name": "Physician",
+                "startDate": "1935",
+                "endDate": "1942",
+                "location": [
+                    {
+                        "@type": "Place",
+                        "name": "Mölndal"
+                    }
+                ]
+            }
+        ]
+    }
+}

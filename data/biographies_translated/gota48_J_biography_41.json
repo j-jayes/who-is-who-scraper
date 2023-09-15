@@ -1,0 +1,73 @@
+{
+    "original": "Jansson, Gustaf Emanuel, läroverksadjunkt, Halmstad, f. 14/5/85 i Halmstad. — Stud:ex. i Halimistad 04, fil. kand. i Lund 06. Vik. 1’eiktior i Halmstad 06 o. 07, e. lär. i Falun 09-10, i Halmstad 10-11, vik. adj. där part. 12, e. o. lektor i Eskilstuna 12-14, adj. i fysik o. miatem^. v. Halmsitadis h. a. 1. ■sed. 13.",
+    "translated": "Jansson, Gustaf Emanuel, high school teacher, Halmstad, born on May 14th, 1885 in Halmstad. He completed his high school studies in Halmstad in 1904 and obtained a bachelor's degree in Lund in 1906. He worked as a substitute teacher in Halmstad in 1906 and 1907, and as a regular teacher in Falun from 1909 to 1910, in Halmstad from 1910 to 1911, and as a substitute teacher there in 1912 before becoming a permanent lecturer in Eskilstuna from 1912 to 1914. He taught physics and mathematics at the Halmstad high school from 1913. He got married in 1913.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Emanuel Jansson\",\n  \"birthDate\": \"1885-05-14\",\n  \"birthPlace\": \"Halmstad\",\n  \"jobTitle\": \"High school teacher\",\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Teacher\",\n    \"startDate\": \"1906-00-00\",\n    \"endDate\": \"1914-00-00\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Stud:ex.\",\n    \"educationalLevel\": \"High School\",\n    \"awardedBy\": \"Halmstad\",\n    \"dateIssued\": \"1904-00-00\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Fil. kand.\",\n    \"educationalLevel\": \"Bachelor's Degree\",\n    \"awardedBy\": \"Lund\",\n    \"dateIssued\": \"1906-00-00\"\n  },\n  \"marriage\": {\n    \"@type\": \"LifeEvent\",\n    \"name\": \"Marriage\",\n    \"startDate\": \"1913-00-00\"\n  },\n  \"hasTeachingExperience\": [\n    {\n      \"@type\": \"TeachingExperience\",\n      \"name\": \"Substitute Teacher\",\n      \"location\": \"Halmstad\",\n      \"startDate\": \"1906-00-00\",\n      \"endDate\": \"1907-00-00\"\n    },\n    {\n      \"@type\": \"TeachingExperience\",\n      \"name\": \"Regular Teacher\",\n      \"location\": \"Falun\",\n      \"startDate\": \"1909-00-00\",\n      \"endDate\": \"1910-00-00\"\n    },\n    {\n      \"@type\": \"TeachingExperience\",\n      \"name\": \"Regular Teacher\",\n      \"location\": \"Halmstad\",\n      \"startDate\": \"1910-00-00\",\n      \"endDate\": \"1911-00-00\"\n    },\n    {\n      \"@type\": \"TeachingExperience\",\n      \"name\": \"Substitute Teacher\",\n      \"location\": \"Halmstad\",\n      \"startDate\": \"1912-00-00\",\n      \"endDate\": \"1912-00-00\"\n   }\n  ],\n  \"hasSpecialization\": [\n    {\n      \"@type\": \"Specialization\",\n      \"name\": \"Physics\",\n      \"startDate\": \"1913-00-00\"\n    },\n    {\n      \"@type\": \"Specialization\",\n      \"name\": \"Mathematics\",\n      \"startDate\": \"1913-00-00\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Emanuel Jansson",
+        "birthDate": "1885-05-14",
+        "birthPlace": "Halmstad",
+        "jobTitle": "High school teacher",
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Teacher",
+            "startDate": "1906-00-00",
+            "endDate": "1914-00-00"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Fil. kand.",
+            "educationalLevel": "Bachelor's Degree",
+            "awardedBy": "Lund",
+            "dateIssued": "1906-00-00"
+        },
+        "marriage": {
+            "@type": "LifeEvent",
+            "name": "Marriage",
+            "startDate": "1913-00-00"
+        },
+        "hasTeachingExperience": [
+            {
+                "@type": "TeachingExperience",
+                "name": "Substitute Teacher",
+                "location": "Halmstad",
+                "startDate": "1906-00-00",
+                "endDate": "1907-00-00"
+            },
+            {
+                "@type": "TeachingExperience",
+                "name": "Regular Teacher",
+                "location": "Falun",
+                "startDate": "1909-00-00",
+                "endDate": "1910-00-00"
+            },
+            {
+                "@type": "TeachingExperience",
+                "name": "Regular Teacher",
+                "location": "Halmstad",
+                "startDate": "1910-00-00",
+                "endDate": "1911-00-00"
+            },
+            {
+                "@type": "TeachingExperience",
+                "name": "Substitute Teacher",
+                "location": "Halmstad",
+                "startDate": "1912-00-00",
+                "endDate": "1912-00-00"
+            }
+        ],
+        "hasSpecialization": [
+            {
+                "@type": "Specialization",
+                "name": "Physics",
+                "startDate": "1913-00-00"
+            },
+            {
+                "@type": "Specialization",
+                "name": "Mathematics",
+                "startDate": "1913-00-00"
+            }
+        ]
+    }
+}

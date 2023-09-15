@@ -1,0 +1,110 @@
+{
+    "original": "Hvarfner, Adolf Georg, kyrkoherde, Od, f. 3/7/92 i Varv, Skarab. 1., av Oskar Andersson o. Maria Lindblom. G. 25 m. Anna Karolina Andersson. Barn: Harald, fil. stud., Olle, Torild o. Helena, stud. — Stud:ex. 19, teol. kand. 24, prästex. 24. V. pastor i Hova 24-25-, kommin. i Härlunda 25-36, kyrko- herde i Od fr. 35. Vik. folkskoll. i Härja 20, i Od 40. Ordf. i Molla o. Öra skolråd fr. 35, i stift. Ods för-sam’l:hem fr. 42.",
+    "translated": "Hvarfner, Adolf Georg, clergyman, born on July 3, 1892 in Varv, Skaraborg County. Son of Oskar Andersson and Maria Lindblom. He married Anna Karolina Andersson in 1925 and they had four children: Harald, a student of philosophy, Olle, Torild, and Helena, all students. He passed his high school exam in 1919, his theology degree in 1924, and his ordination exam, also in 1924. He worked as an assistant pastor in Hova from 1924 to 1925, as a curate in Härlunda from 1925 to 1936, and as a clergyman in Od from 1935 onward. He was a substitute teacher in Härja in 1920 and in Od in 1940. He served as chairman in the school board of Molla and Öra from 1935 and in the parish home board of the stift of Od from 1942.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Adolf Georg Hvarfner\",\n   \"birthDate\":\"1892-07-03\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Varv\",\n      \"address\":{\n         \"@type\":\"PostalAddress\",\n         \"addressLocality\":\"Skaraborg County\"\n      }\n   },\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Oskar Andersson\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Maria Lindblom\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Anna Karolina Andersson\",\n      \"marriageDate\":\"1925-01-25\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Harald\",\n         \"education\":{\n            \"@type\":\"EducationalOccupationalCredential\",\n            \"credentialCategory\":\"Philosophy Education\",\n            \"degreeName\":\"Student\"\n         }\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Olle\",\n         \"education\":{\n            \"@type\":\"EducationalOccupationalCredential\",\n            \"credentialCategory\":\"Student\",\n            \"degreeName\":\"Student\"\n         }\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Torild\",\n         \"education\":{\n            \"@type\":\"EducationalOccupationalCredential\",\n            \"credentialCategory\":\"Student\",\n            \"degreeName\":\"Student\"\n         }\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Helena\",\n         \"education\":{\n            \"@type\":\"EducationalOccupationalCredential\",\n            \"credentialCategory\":\"Student\",\n            \"degreeName\":\"Student\"\n         }\n      }\n   ],\n   \"jobTitle\":\"Clergyman\",\n   \"hasOccupation\":{\n      \"@type\":\"Occupation\",\n      \"name\":\"Assistant Pastor\",\n      \"startDate\":\"1924-01-01\",\n      \"endDate\":\"1925-01-01\"\n   },\n   \"hasOccupation\":{\n      \"@type\":\"Occupation\",\n      \"name\":\"Curate\",\n      \"startDate\":\"1925-01-01\",\n      \"endDate\":\"1936-01-01\"\n   },\n   \"hasOccupation\":{\n      \"@type\":\"Occupation\",\n      \"name\":\"Clergyman\",\n      \"startDate\":\"1935-01-01\"\n   },\n   \"education\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"credentialCategory\":\"High School Education\",\n      \"degreeName\":\"High School Diploma\",\n      \"educationLevel\":\"Examination\",\n      \"educationType\":\"Stud\"\n   },\n   \"education\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"credentialCategory\":\"Theology Education\",\n      \"degreeName\":\"Theology Degree\",\n      \"educationLevel\":\"Bachelor's Degree\",\n      \"educationType\":\"Teol. Kand.\"\n   },\n   \"education\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"credentialCategory\":\"Ordination\",\n      \"degreeName\":\"Ordination Exam\",\n      \"educationLevel\":\"Professional Exam\"\n   },\n   \"substituteTeacher\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"educationType\":\"Vik. folkskoll.\",\n      \"organization\":{\n         \"@type\":\"LocalBusiness\",\n         \"name\":\"Härja\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Härja\"\n         }\n      },\n      \"startDate\":\"1920-01-01\"\n   },\n   \"substituteTeacher\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"educationType\":\"Vik. folkskoll.\",\n      \"organization\":{\n         \"@type\":\"LocalBusiness\",\n         \"name\":\"Od\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Od\"\n         }\n      },\n      \"startDate\":\"1940-01-01\"\n   },\n   \"chairman\":{\n      \"@type\":\"OrganizationRole\",\n      \"roleName\":\"Chairman\",\n      \"member\":{\n         \"@type\":\"Organization\",\n         \"name\":\"Molla\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Molla\"\n         }\n      },\n      \"startDate\":\"1935-01-01\"\n   },\n   \"chairman\":{\n      \"@type\":\"OrganizationRole\",\n      \"roleName\":\"Chairman\",\n      \"member\":{\n         \"@type\":\"Organization\",\n         \"name\":\"Öra\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Öra\"\n         }\n      },\n      \"startDate\":\"1935-01-01\"\n   },\n   \"chairman\":{\n      \"@type\":\"OrganizationRole\",\n      \"roleName\":\"Chairman\",\n      \"member\":{\n         \"@type\":\"Organization\",\n         \"name\":\"stift of Od\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Od\"\n         }\n      },\n      \"startDate\":\"1942-01-01\"\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Adolf Georg Hvarfner",
+        "birthDate": "1892-07-03",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Varv",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Skaraborg County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oskar Andersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Lindblom"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Karolina Andersson",
+            "marriageDate": "1925-01-25"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Harald",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Philosophy Education",
+                    "degreeName": "Student"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Olle",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Student",
+                    "degreeName": "Student"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Torild",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Student",
+                    "degreeName": "Student"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Helena",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Student",
+                    "degreeName": "Student"
+                }
+            }
+        ],
+        "jobTitle": "Clergyman",
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Clergyman",
+            "startDate": "1935-01-01"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Ordination",
+            "degreeName": "Ordination Exam",
+            "educationLevel": "Professional Exam"
+        },
+        "substituteTeacher": {
+            "@type": "EducationalOccupationalCredential",
+            "educationType": "Vik. folkskoll.",
+            "organization": {
+                "@type": "LocalBusiness",
+                "name": "Od",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Od"
+                }
+            },
+            "startDate": "1940-01-01"
+        },
+        "chairman": {
+            "@type": "OrganizationRole",
+            "roleName": "Chairman",
+            "member": {
+                "@type": "Organization",
+                "name": "stift of Od",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Od"
+                }
+            },
+            "startDate": "1942-01-01"
+        }
+    }
+}

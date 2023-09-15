@@ -1,0 +1,86 @@
+{
+    "original": "Härnulv, Bengt Holger, tandläkare, Göteborg, f. 12/9/12 i Gbg. G. 42 m. Berit Hammarstrand. Barn: Bengt Göran f. 43. — Stud:ex. v. Gbgs h. real 32, farm. stud. 32-34, tandläk:ex. 38. Vik.- o. assist :tjg. 38-46, privatprakt. i Gbg sed. 46. Led. av styr. f. Gbgs tandläk:sällsk. 44, 45, led. av sällsk:s fortsättn :kursnd 45.",
+    "translated": "Härnulv, Bengt Holger, dentist, Gothenburg, born September 12, 1912 in Gothenburg. Married in 1942 to Berit Hammarstrand. They had one child, Bengt Göran, born in 1943. Bengt Holger graduated from Gothenburg's high school in 1932 and studied pharmacy from 1932 to 1934. He completed his dental degree in 1938. He worked as an intern and assistant from 1938 to 1946 and has been in private practice in Gothenburg since 1946. Bengt Holger served as a board member for the Gothenburg Dental Society in 1944 and 1945, and as a member of the society's advanced course faculty in 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Holger Härnulv\",\n  \"birthDate\": \"1912-09-12\",\n  \"birthPlace\": \"Gothenburg\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Berit Hammarstrand\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bengt Göran\",\n    \"birthDate\": \"1943\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"StudEx\",\n      \"awardedBy\": \"Gothenburg's high school\",\n      \"dateIssued\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Pharmacy\",\n      \"duration\": \"2 years\",\n      \"awardedBy\": \"Unknown\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental degree\",\n      \"awardedBy\": \"Unknown\",\n      \"dateIssued\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Dental Society\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Course\",\n          \"name\": \"Advanced course faculty\",\n          \"startDate\": \"1945\",\n          \"endDate\": \"1945\"\n        }\n      ],\n      \"member\": [\n        {\n          \"@type\": \"Person\",\n          \"name\": \"Bengt Holger Härnulv\",\n          \"memberOf\": \"Gothenburg Dental Society\",\n          \"roleName\": \"Board member\",\n          \"startDate\": \"1944\",\n          \"endDate\": \"1945\"\n        }\n      ]\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"jobTitle\": \"Intern and Assistant\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"jobTitle\": \"Private practice\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Holger Härnulv",
+        "birthDate": "1912-09-12",
+        "birthPlace": "Gothenburg",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Berit Hammarstrand",
+            "marriageDate": "1942"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bengt Göran",
+            "birthDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "StudEx",
+                "awardedBy": "Gothenburg's high school",
+                "dateIssued": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Pharmacy",
+                "duration": "2 years",
+                "awardedBy": "Unknown",
+                "startDate": "1932",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental degree",
+                "awardedBy": "Unknown",
+                "dateIssued": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Dental Society",
+                "memberOf": [
+                    {
+                        "@type": "Course",
+                        "name": "Advanced course faculty",
+                        "startDate": "1945",
+                        "endDate": "1945"
+                    }
+                ],
+                "member": [
+                    {
+                        "@type": "Person",
+                        "name": "Bengt Holger Härnulv",
+                        "memberOf": "Gothenburg Dental Society",
+                        "roleName": "Board member",
+                        "startDate": "1944",
+                        "endDate": "1945"
+                    }
+                ]
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "jobTitle": "Intern and Assistant",
+                "startDate": "1938",
+                "endDate": "1946"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "jobTitle": "Private practice",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

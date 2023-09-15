@@ -1,0 +1,98 @@
+{
+    "original": "Holmer, Åke, tandläkare, Göteborg, f. 22/9/03 i Locketorp, Skarab. 1., av kommin. Anders H. o. Sigrid Bohman. G. 44 m. Gunvor Andersson. Barn: Anders f. 45. — Stud:ex. i Skövde 22, ex. v. Gbgs hand :inst. 23, Cand. med. dent. i Berlin 30, tandl :kand. 30, tandl. 32. Prakt, i Gbg sed. 33.",
+    "translated": "Holmer, Åke, dentist, Gothenburg, born September 22, 1903 in Locketorp, Skaraborg County, the first child of minister Anders H. and Sigrid Bohman. Married in 1944 to Gunvor Andersson. They had one child, Anders, born in 1945. Åke Holmer graduated from Skövde high school in 1922, from Gothenburg's commercial institute in 1923, received his dental degree from Berlin in 1930, and his dental surgery degree in 1932. He worked as a dentist in Gothenburg since 1933.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Holmer\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1903-09-22\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Locketorp, Skaraborg County\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders H.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Bohman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunvor Andersson\",\n    \"marriageDate\": \"1944\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anders Holmer\",\n    \"birthDate\": \"1945\"\n  },\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"high school graduation\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skövde high school\"\n      },\n      \"awardDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"ex. v. Gbgs hand :inst.\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's commercial institute\"\n      },\n      \"awardDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Cand. med. dent.\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Berlin\"\n      },\n      \"awardDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"tandl. kand.\",\n      \"awardDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"tandl. 32\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      },\n      \"awardDate\": \"1932\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\"\n  },\n  \"startDate\": \"1933\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Åke Holmer",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1903-09-22",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Locketorp, Skaraborg County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Anders H."
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Bohman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunvor Andersson",
+            "marriageDate": "1944"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Anders Holmer",
+            "birthDate": "1945"
+        },
+        "educationalCredentialAwarded": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Stud:ex.",
+                "educationalLevel": "high school graduation",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Skövde high school"
+                },
+                "awardDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "ex. v. Gbgs hand :inst.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's commercial institute"
+                },
+                "awardDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Cand. med. dent.",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Berlin"
+                },
+                "awardDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "tandl. kand.",
+                "awardDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "tandl. 32",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                },
+                "awardDate": "1932"
+            }
+        ],
+        "workLocation": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg"
+        },
+        "startDate": "1933"
+    }
+}

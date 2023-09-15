@@ -1,0 +1,73 @@
+{
+    "original": "Johansson, Artur Gösta, civilingenjör, Norrköping, f. 28/5/11 i Lyse, Gbgs o. Boh. 1., av byggmäst. Arthur J. o. Agda Matson. G. m. Gunhild Ericsson. Barn: Åke-Bertil f. 32. — Stud:ex. i Gbg 31, civ:ing:ex. v. CTH 35. Res. t. Norge, Danm., Holl. o. Tyskl. Anst. v. Sv. Radio A-B 36, Telefon A-B L. M. Ericsson 37, armé-förvaltn. tygdep. 41, lab:- o. avd:-chef v. Norrköp. Elektrotekn. Fabr. A-B sed. 42. Led. av Radiotekn. sällsk. o. Sv. tekn:fören. Skr.: Kor-resp rkurser i radiotekn., art. i fack-tidskr. Hobbies: filateli, foto, sport.",
+    "translated": "Johansson, Artur Gösta, engineer, Norrköping, born May 28th, 1911 in Lyse, Gothenburg and Bohus County, 1st child of builder Arthur J. and Agda Matson. Married to Gunhild Ericsson since 19xx. Children: Åke-Bertil born in 1932. Graduated high school in Gothenburg in 1931 and obtained engineering degree from Chalmers University of Technology in 1935. Worked in Norway, Denmark, the Netherlands, and Germany. Employed by Swedish Radio AB in 1936, Telefon AB L.M. Ericsson in 1937, and the army procurement department in 1941. Lab and department head at Norrköping Elektrotekniska Fabrik AB since 1942. Member of Radiotekniska sällskapet (Swedish Radio Society) and the Swedish Technical Association. Authored correspondence courses on radio technology and articles published in professional journals. Hobbies include stamp collecting, photography, and sports.",
+    "structured_raw": "{\n   \"@context\":\"http://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Artur Gösta Johansson\",\n   \"birthDate\":\"1911-05-28\",\n   \"birthPlace\":{\n      \"@type\":\"Place\",\n      \"name\":\"Lyse, Gothenburg and Bohus County\"\n   },\n   \"memberOf\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Radiotekniska sällskapet\"\n   },\n   \"nationality\":\"Swedish\",\n   \"jobTitle\":\"Engineer\",\n   \"worksFor\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Swedish Radio AB\",\n         \"startDate\":\"1936\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Telefon AB L.M. Ericsson\",\n         \"startDate\":\"1937\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Norrköping Elektrotekniska Fabrik AB\",\n         \"startDate\":\"1942\",\n         \"endDate\":\"present\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Army Procurement Department\",\n         \"startDate\":\"1941\",\n         \"endDate\":\"1942\"\n      }\n   ],\n   \"parent\":{\n      \"@type\":\"Person\",\n      \"name\":[\n         \"Arthur J.\",\n         \"Agda Matson\"\n      ],\n      \"memberOf\":{\n         \"@type\":\"Organization\",\n         \"name\":\"Builder\"\n      }\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Gunhild Ericsson\",\n      \"startDate\":\"19xx\"\n   },\n   \"children\":{\n      \"@type\":\"Person\",\n      \"name\":\"Åke-Bertil Johansson\",\n      \"birthDate\":\"1932\"\n   },\n   \"education\":{\n      \"@type\":\"EducationalOrganization\",\n      \"name\":\"Chalmers University of Technology\",\n      \"degree\":\"Engineering\",\n      \"dateCompleted\":\"1935\"\n   },\n   \"description\":\"Arthur Gösta Johansson was a Swedish engineer born on May 28th, 1911 in Lyse, Gothenburg and Bohus County. He was the 1st child of builder Arthur J. and Agda Matson. He was married to Gunhild Ericsson and they had a son named Åke-Bertil, born in 1932. He graduated high school in Gothenburg in 1931 and obtained his engineering degree from Chalmers University of Technology in 1935. He worked in Norway, Denmark, the Netherlands, and Germany, and was employed by Swedish Radio AB in 1936, Telefon AB L.M. Ericsson in 1937, and the army procurement department in 1941. He became lab and department head at Norrköping Elektrotekniska Fabrik AB in 1942, where he worked until his present time. He was a member of Radiotekniska sällskapet (Swedish Radio Society) and the Swedish Technical Association. He authored correspondence courses on radio technology and articles published in professional journals. His hobbies included stamp collecting, photography, and sports.\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Artur Gösta Johansson",
+        "birthDate": "1911-05-28",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Lyse, Gothenburg and Bohus County"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Radiotekniska sällskapet"
+        },
+        "nationality": "Swedish",
+        "jobTitle": "Engineer",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Radio AB",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Telefon AB L.M. Ericsson",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Elektrotekniska Fabrik AB",
+                "startDate": "1942",
+                "endDate": "present"
+            },
+            {
+                "@type": "Organization",
+                "name": "Army Procurement Department",
+                "startDate": "1941",
+                "endDate": "1942"
+            }
+        ],
+        "parent": {
+            "@type": "Person",
+            "name": [
+                "Arthur J.",
+                "Agda Matson"
+            ],
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Builder"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunhild Ericsson",
+            "startDate": "19xx"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Åke-Bertil Johansson",
+            "birthDate": "1932"
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Chalmers University of Technology",
+            "degree": "Engineering",
+            "dateCompleted": "1935"
+        },
+        "description": "Arthur Gösta Johansson was a Swedish engineer born on May 28th, 1911 in Lyse, Gothenburg and Bohus County. He was the 1st child of builder Arthur J. and Agda Matson. He was married to Gunhild Ericsson and they had a son named Åke-Bertil, born in 1932. He graduated high school in Gothenburg in 1931 and obtained his engineering degree from Chalmers University of Technology in 1935. He worked in Norway, Denmark, the Netherlands, and Germany, and was employed by Swedish Radio AB in 1936, Telefon AB L.M. Ericsson in 1937, and the army procurement department in 1941. He became lab and department head at Norrköping Elektrotekniska Fabrik AB in 1942, where he worked until his present time. He was a member of Radiotekniska sällskapet (Swedish Radio Society) and the Swedish Technical Association. He authored correspondence courses on radio technology and articles published in professional journals. His hobbies included stamp collecting, photography, and sports."
+    }
+}

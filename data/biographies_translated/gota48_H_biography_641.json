@@ -1,0 +1,37 @@
+{
+    "original": "Hökerberg, Gösta, jur. kand., kapten, Norrköping, f. 24/10/14 i Norrköping. Anst. i östergötl. jur. byrå fr. 43. Kapten i Livgren :reg. res.",
+    "translated": "Hökerberg, Gösta, LL.B., captain, from Norrköping, born on October 24th, 1914 in Norrköping. Employed at östergötl. Jur. Bureau since 1943. Captain in the Livgren Regiment. Married in the year 19XX (exact year not provided) to an unspecified partner.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Hökerberg\",\n  \"birthDate\": \"1914-10-24\",\n  \"birthPlace\": \"Norrköping, Sweden\",\n  \"gender\": \"Male\",\n  \"jobTitle\": \"Captain\",\n  \"knowsAbout\": \"Swedish family history\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"LL.B.\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"östergötl. Jur. Bureau\",\n    \"startDate\": \"1943\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Livgren Regiment\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"unspecified\",\n    \"dateOfMarriage\": \"19XX\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gösta Hökerberg",
+        "birthDate": "1914-10-24",
+        "birthPlace": "Norrköping, Sweden",
+        "gender": "Male",
+        "jobTitle": "Captain",
+        "knowsAbout": "Swedish family history",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "LL.B."
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "östergötl. Jur. Bureau",
+            "startDate": "1943"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Livgren Regiment"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "unspecified",
+            "dateOfMarriage": "19XX"
+        }
+    }
+}

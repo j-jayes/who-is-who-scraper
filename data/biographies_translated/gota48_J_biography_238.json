@@ -1,0 +1,80 @@
+{
+    "original": "Järneström, Erik Kristoffer, advokat, Västervik, f. 13/10/18 i Härnö-•sand av adv. P. J. o. Hedvig Nordlander. G. 44\" m. Inez Hansson. Barn: Anita f. 46. — Stud:ex. 36, jur. kand. 41. Not. v. Aska, Dals o. Bobergs doms. o. v. Sthlms rådhusr. 41-43, in-neh. av W. Örnös Adv :byrå i Västervik sed. 44. Suppl. i styr. f. Sv. Handibankens kont. i Västervik sed. 46. Hobby: tennis.",
+    "translated": "Järneström, Erik Kristoffer, lawyer, from Västervik, born on October 13, 1918 in Härnösand to lawyer P.J. and Hedvig Nordlander. Married in 1944 to Inez Hansson with a daughter named Anita, born in 1946. Graduated from high school in 1936 and received his degree in law in 1941. Became a notary in Aska, Dals, Boberg's courts, and Stockholm City Court from 1941 to 1943. Established his own law firm at W. Örnös in Västervik in 1944. Appointed as a representative to the board of the Swedish Handelsbanken's office in Västervik since 1946. Enjoys tennis as a hobby.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Kristoffer Järneström\",\n  \"birthDate\": \"1918-10-13\",\n  \"birthPlace\": \"Härnösand\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Lawyer\",\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"High school\",\n      \"location\": \"Sweden\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Law School\",\n      \"location\": \"Sweden\",\n      \"endDate\": \"1941\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"P.J. Nordlander\",\n      \"jobTitle\": \"Lawyer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hedvig Nordlander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inez Hansson\",\n    \"marriageDate\": \"1944\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anita Järneström\",\n    \"birthDate\": \"1946\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Aska, Dals, Boberg's courts\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1943\",\n      \"jobTitle\": \"Notary\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm City Court\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1943\",\n      \"jobTitle\": \"Notary\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"W. Örnös Adv byrå\",\n      \"location\": \"Västervik\",\n      \"startDate\": \"1944\",\n      \"jobTitle\": \"Lawyer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Handelsbanken's office\",\n      \"location\": \"Västervik\",\n      \"startDate\": \"1946\",\n      \"jobTitle\": \"Representative\"\n    }\n  ],\n  \"knowsAbout\": \"Tennis\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Erik Kristoffer Järneström",
+        "birthDate": "1918-10-13",
+        "birthPlace": "Härnösand",
+        "nationality": "Swedish",
+        "jobTitle": "Lawyer",
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "High school",
+                "location": "Sweden",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Law School",
+                "location": "Sweden",
+                "endDate": "1941"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "P.J. Nordlander",
+                "jobTitle": "Lawyer"
+            },
+            {
+                "@type": "Person",
+                "name": "Hedvig Nordlander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inez Hansson",
+            "marriageDate": "1944"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Anita Järneström",
+            "birthDate": "1946"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Aska, Dals, Boberg's courts",
+                "startDate": "1941",
+                "endDate": "1943",
+                "jobTitle": "Notary"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stockholm City Court",
+                "startDate": "1941",
+                "endDate": "1943",
+                "jobTitle": "Notary"
+            },
+            {
+                "@type": "Organization",
+                "name": "W. Örnös Adv byrå",
+                "location": "Västervik",
+                "startDate": "1944",
+                "jobTitle": "Lawyer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Handelsbanken's office",
+                "location": "Västervik",
+                "startDate": "1946",
+                "jobTitle": "Representative"
+            }
+        ],
+        "knowsAbout": "Tennis"
+    }
+}

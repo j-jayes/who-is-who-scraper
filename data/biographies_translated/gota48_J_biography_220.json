@@ -1,0 +1,102 @@
+{
+    "original": "Juhlin, Axel Matteus Emanuel, komminister, Håbol, f. 21/9/88 i Wisconsin, USA, av pastor C. A. J. o. Helena Rydin. — Mog:ex. i Karlstad 08, farm. kand. 11, teol. fil. ex. 16, teol. kand. 22, prakt. teol. prov samt prästv. f. Karlstads stift 25. Tf. kommin. i Nyskoga 26, kommin. i Håbol sed. 28. Ordf. i kyrkostämma, ’skolstyr. o. komm :fullm.",
+    "translated": "Juhlin, Axel Matteus Emanuel, Minister, Håbol, born September 21, 1888, in Wisconsin, USA. Son of pastor C.A.J and Helena Rydin. Completed pharmacy studies in Karlstad in 1908, received a Bachelor of Theology degree in 1916, and completed practical theological training and was ordained as a priest in the Karlstad diocese in 1925. Served as Acting Minister in Nyskoga in 1926, and was appointed Minister in Håbol in 1928. He was also Chairman of the Church Meeting, the School Board, and the Municipal Council. Married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Juhlin, Axel Matteus Emanuel\",\n  \"birthDate\": \"1888-09-21\",\n  \"birthPlace\": \"Wisconsin, USA\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.A.J Juhlin\",\n      \"jobTitle\": \"pastor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helena Rydin\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\" : {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"pharmacy\"\n      },\n      \"educationalLevel\": \"BachelorDegree\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Karlstad\"\n      },\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\" : {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"theology\"\n      },\n      \"educationalLevel\": \"BachelorDegree\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Karlstad\"\n      },\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialAwarded\": {\n        \"@type\": \"Course\",\n        \"name\": \"Practical Theology\",\n        \"description\": \"Practical theological training\"\n      },\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"jobTitle\": \"Minister\",\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlstad diocese\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nyskoga Parish\",\n      \"jobTitle\": \"Acting Minister\",\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Håbol Parish\",\n      \"jobTitle\": \"Minister\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Meeting\",\n      \"jobTitle\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\",\n      \"jobTitle\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Council\",\n      \"jobTitle\": \"Chairman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"gender\": \"Female\",\n    \"name\": \"<insert name of spouse>\",\n    \"endDate\": \"YYYY\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Juhlin, Axel Matteus Emanuel",
+        "birthDate": "1888-09-21",
+        "birthPlace": "Wisconsin, USA",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C.A.J Juhlin",
+                "jobTitle": "pastor"
+            },
+            {
+                "@type": "Person",
+                "name": "Helena Rydin"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": {
+                    "@type": "DefinedTerm",
+                    "name": "pharmacy"
+                },
+                "educationalLevel": "BachelorDegree",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Karlstad"
+                },
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": {
+                    "@type": "DefinedTerm",
+                    "name": "theology"
+                },
+                "educationalLevel": "BachelorDegree",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Karlstad"
+                },
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialAwarded": {
+                    "@type": "Course",
+                    "name": "Practical Theology",
+                    "description": "Practical theological training"
+                },
+                "endDate": "1922"
+            }
+        ],
+        "jobTitle": "Minister",
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Karlstad diocese"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nyskoga Parish",
+                "jobTitle": "Acting Minister",
+                "startDate": "1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Håbol Parish",
+                "jobTitle": "Minister",
+                "startDate": "1928"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church Meeting",
+                "jobTitle": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board",
+                "jobTitle": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Council",
+                "jobTitle": "Chairman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "gender": "Female",
+            "name": "<insert name of spouse>",
+            "endDate": "YYYY"
+        }
+    }
+}

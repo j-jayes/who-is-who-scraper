@@ -1,0 +1,107 @@
+{
+    "original": "Friman, Sven, direktör, Göteborg, f. 1/2/08 i Sthlm av konsul Carl Algot F. o. Elsa Biberg. G. 37 m. Carin Svensson. — Stud:ex. v. Gbgs latin 28, Gbgs hand :inst. 29. Prakt, i Engl., Tyskil., Frankr., Schv^eiz o. Holl. 28-30. Anst. i firma Ivar Müntzing &amp; Co. A-B i Gbg fr. 29, num. deläg. o. styr :-led. Medl. av Örgryte IS, KAK, GKSS o. Frimurarorden. Hobbies: idr., segl., motorsport o. skytte. Mil. idr :m. i guld. Civ. skyttem. i guld.",
+    "translated": "Friman, Sven, director, Gothenburg, born February 1st, 1908 in Stockholm to Consul Carl Algot F. and Elsa Biberg. Married in 1937 to Carin Svensson. Completed secondary education at Gothenburg Latin School in 1928 and Gothenburg School of Business in 1929. Practical training in England, Germany, France, Switzerland and the Netherlands from 1928-1930. Employed at the firm Ivar Müntzing & Co. A-B in Gothenburg from 1929, became a partial owner and board member. Member of Örgryte IS, KAK, GKSS and the Freemasons. Hobbies include sports, sailing, motor racing and shooting. Awarded with a gold medal in military sports and civilian shooting.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Friman\",\n  \"jobTitle\": \"Director\",\n  \"birthPlace\": \"Stockholm\",\n  \"birthDate\": \"1908-02-01\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Algot F.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Biberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Carin Svensson\",\n    \"dateOfMarriage\": \"1937\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Latin School\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg School of Business\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"training\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"England\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Germany\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"France\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Switzerland\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Netherlands\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ivar Müntzing & Co. A-B\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örgryte IS\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"KAK\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"GKSS\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Freemasons\"\n    }\n  ],\n  \"sports\": [\n    {\n      \"@type\": \"SportsActivityLocation\",\n      \"name\": \"Military Sports\",\n      \"award\": \"Gold Medal\"\n    },\n    {\n      \"@type\": \"SportsActivityLocation\",\n      \"name\": \"Civilian Shooting\",\n      \"award\": \"Gold Medal\"\n    }\n  ],\n  \"sameAs\": []\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Sven Friman",
+        "jobTitle": [
+            {
+                "@type": "Organization",
+                "name": "Ivar Müntzing & Co. A-B",
+                "startDate": "1929",
+                "endDate": ""
+            }
+        ],
+        "birthPlace": "Stockholm",
+        "birthDate": "1908-02-01",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Algot F."
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Biberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Carin Svensson",
+            "dateOfMarriage": "1937"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Latin School",
+                "startDate": "1928",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg School of Business",
+                "startDate": "1929",
+                "endDate": "1929"
+            }
+        ],
+        "training": [
+            {
+                "@type": "Organization",
+                "name": "England",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Germany",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "France",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Switzerland",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Netherlands",
+                "endDate": "1930"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Örgryte IS"
+            },
+            {
+                "@type": "Organization",
+                "name": "KAK"
+            },
+            {
+                "@type": "Organization",
+                "name": "GKSS"
+            },
+            {
+                "@type": "Organization",
+                "name": "Freemasons"
+            }
+        ],
+        "sports": [
+            {
+                "@type": "SportsActivityLocation",
+                "name": "Military Sports",
+                "award": "Gold Medal"
+            },
+            {
+                "@type": "SportsActivityLocation",
+                "name": "Civilian Shooting",
+                "award": "Gold Medal"
+            }
+        ],
+        "sameAs": []
+    }
+}

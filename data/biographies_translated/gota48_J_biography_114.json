@@ -1,0 +1,85 @@
+{
+    "original": "Johansson, Erik August, advokat. Mjölby, f. 7/1/01 i Heda, östergötl. 1., av Johan August J. o. Ada Charlotta Hedlund. G. 35 m. Agnes Carlsson. Barn: Catharina f. 42. — Stud:-ex. i Linköp. 20, jur. kand. i Upps. 27. Not. i Mjölby doms. 27-30, prakt, jurist 30-33, inneh. av Mjölby Adv :byrå sed. 33. Led. av Sv:es adv:samf. 41.",
+    "translated": "Johansson, Erik August, lawyer. Born on July 1st, 1901 in Heda, Östergötland County, son of Johan August J. and Ada Charlotta Hedlund. Married in 1935 to Agnes Carlsson. They had one child, Catharina, born in 1942. Johansson completed his high school studies in Linköping in 1920 and graduated with a law degree from Uppsala University in 1927. He worked as a notary in Mjölby District Court from 1927-1930 and as a practicing lawyer from 1930-1933 before acquiring Mjölby Law Firm in 1933. Johansson was a member of the Swedish Bar Association from 1941.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org/\",\n    \"@type\": \"Person\",\n    \"name\": \"Erik August Johansson\",\n    \"birthDate\": \"1901-07-01\",\n    \"birthPlace\": {\n        \"@type\": \"City\",\n        \"name\": \"Heda\"\n    },\n    \"nationality\": {\n        \"@type\": \"Country\",\n        \"name\": \"Sweden\"\n    },\n    \"parents\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Johan August J.\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Ada Charlotta Hedlund\"\n        }\n    ],\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Agnes Carlsson\",\n        \"marriageDate\": \"1935\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Catharina\",\n            \"birthDate\": \"1942\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"high school\",\n            \"name\": \"Stud:-ex.\",\n            \"educationLevel\": \"HighSchool\",\n            \"provider\": {\n                \"@type\": \"CollegeOrUniversity\",\n                \"name\": \"Linköp.\"\n            },\n            \"startDate\": \"1920\",\n            \"endDate\": \"1920\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"law degree\",\n            \"name\": \"jur. kand.\",\n            \"educationLevel\": \"Bachelor\",\n            \"provider\": {\n                \"@type\": \"CollegeOrUniversity\",\n                \"name\": \"Upps.\"\n            },\n            \"startDate\": \"1927\",\n            \"endDate\": \"1927\"\n        }\n    ],\n    \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Bar Association\",\n        \"startDate\": \"1941\"\n    },\n    \"jobTitle\": [\n        \"Notary\",\n        \"Lawyer\",\n        \"Owner of Mjölby Law Firm\"\n    ],\n    \"worksFor\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Mjölby District Court\",\n            \"startDate\": \"1927\",\n            \"endDate\": \"1930\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Erik August Johansson",
+        "birthDate": "1901-07-01",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Heda"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan August J."
+            },
+            {
+                "@type": "Person",
+                "name": "Ada Charlotta Hedlund"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Carlsson",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Catharina",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school",
+                "name": "Stud:-ex.",
+                "educationLevel": "HighSchool",
+                "provider": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Linköp."
+                },
+                "startDate": "1920",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "law degree",
+                "name": "jur. kand.",
+                "educationLevel": "Bachelor",
+                "provider": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Upps."
+                },
+                "startDate": "1927",
+                "endDate": "1927"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "startDate": "1941"
+        },
+        "jobTitle": [
+            "Notary",
+            "Lawyer",
+            "Owner of Mjölby Law Firm"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Mjölby District Court",
+                "startDate": "1927",
+                "endDate": "1930"
+            }
+        ]
+    }
+}

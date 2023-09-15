@@ -1,0 +1,87 @@
+{
+    "original": "Josefsson, Gösta, tandläkare, Göteborg, f. 29/7/08 i Gbg av tillsyn :lär. Johan J, o. Sigrid Jansson. G. 38 m. operationssköt. Olga Andersson. Barn: Kristina f. 42, Ingrid 44. — Stud:ex. v. Gbgs h. latin 28, med. kand. i Lund 32, tandl. 36. Assist, på tandi :inst. barntandv :avd. 36, assist, i Upps. (Ör-sundsbro) 37, prakt, i Gbg sed. 37.",
+    "translated": "Josefsson, Gösta, dentist, Gothenburg, born July 29, 1908 in Gothenburg to teacher Johan J and Sigrid Jansson. Married in 1938 to surgical nurse Olga Andersson. Children: Kristina born in 1942, Ingrid born in 1944. Completed high school education with a Latin focus at Gothenburg high school in 1928, earned his bachelor's degree in medicine at Lund in 1932, and his degree in dentistry in 1936. Worked as an assistant in the child dental care department at the dental institute in 1936, as an assistant in Ör-sundsbro in 1937, and has been practicing in Gothenburg since 1937.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Gösta Josefsson\",\n   \"jobTitle\":\"Dentist\",\n   \"birthDate\":\"1908-07-29\",\n   \"birthPlace\":\"Gothenburg, Sweden\",\n   \"parent\":{\n      \"@type\":\"Person\",\n      \"name\":\"Johan J Josefsson\",\n      \"jobTitle\":\"Teacher\"\n   },\n   \"parent2\":{\n      \"@type\":\"Person\",\n      \"name\":\"Sigrid Jansson\"\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Olga Andersson\",\n      \"jobTitle\":\"Surgical Nurse\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Kristina Josefsson\",\n         \"birthDate\":\"1942\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Ingrid Josefsson\",\n         \"birthDate\":\"1944\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Gothenburg High School\",\n         \"location\":\"Gothenburg, Sweden\",\n         \"startDate\":\"1928\"\n      },\n      {\n         \"@type\":\"CollegeOrUniversity\",\n         \"name\":\"Lund University\",\n         \"location\":\"Lund, Sweden\",\n         \"degree\":\"Bachelor's degree\",\n         \"major\":\"Medicine\",\n         \"startDate\":\"1932\"\n      },\n      {\n         \"@type\":\"CollegeOrUniversity\",\n         \"name\":\"Unknown Dental School\",\n         \"location\":\"Unknown\",\n         \"degree\":\"Degree in Dentistry\",\n         \"startDate\":\"1936\"\n      }\n   ],\n   \"work\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dental Institute\",\n         \"location\":\"Unknown\",\n         \"jobTitle\":\"Assistant\",\n         \"startDate\":\"1936\",\n         \"endDate\":\"1937\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Ör-sundsbro\",\n         \"location\":\"Uppsala, Sweden\",\n         \"jobTitle\":\"Assistant\",\n         \"startDate\":\"1937\",\n         \"endDate\":\"1937\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Unknown Dental Practice\",\n         \"location\":\"Gothenburg, Sweden\",\n         \"jobTitle\":\"Dentist\",\n         \"startDate\":\"1937\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gösta Josefsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1908-07-29",
+        "birthPlace": "Gothenburg, Sweden",
+        "parent": {
+            "@type": "Person",
+            "name": "Johan J Josefsson",
+            "jobTitle": "Teacher"
+        },
+        "parent2": {
+            "@type": "Person",
+            "name": "Sigrid Jansson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Olga Andersson",
+            "jobTitle": "Surgical Nurse"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kristina Josefsson",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Josefsson",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School",
+                "location": "Gothenburg, Sweden",
+                "startDate": "1928"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "location": "Lund, Sweden",
+                "degree": "Bachelor's degree",
+                "major": "Medicine",
+                "startDate": "1932"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Unknown Dental School",
+                "location": "Unknown",
+                "degree": "Degree in Dentistry",
+                "startDate": "1936"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Dental Institute",
+                "location": "Unknown",
+                "jobTitle": "Assistant",
+                "startDate": "1936",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ör-sundsbro",
+                "location": "Uppsala, Sweden",
+                "jobTitle": "Assistant",
+                "startDate": "1937",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Unknown Dental Practice",
+                "location": "Gothenburg, Sweden",
+                "jobTitle": "Dentist",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

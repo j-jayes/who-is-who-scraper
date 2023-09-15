@@ -5,14 +5,21 @@ import yaml
 from pathlib import Path
 
 root_dir = 'C:/Users/User/Documents/Recon/who-is-who-scraper'
-
-# Reference the 'data' directory from the root
 data_dir = Path(root_dir) / "data"
 
-with open("config.yaml", "r") as f:
-    config = yaml.safe_load(f)
+# Check if script is running within GitHub Actions
+if os.environ.get("GITHUB_ACTIONS") == "true":
+    openai_api_key = os.environ.get("API_SECRET_KEY")
+    if not openai_api_key:
+        raise ValueError("No OpenAI API key found in environment variables!")
+else:
+    # Load the API key from the local config.yaml file
+    with open("config.yaml", "r") as f:
+        config = yaml.safe_load(f)
+    openai_api_key = config["default"]["key"]
 
-openai.api_key = config["default"]["key"]
+openai.api_key = openai_api_key
+
 
 def translate_and_structure_text(swedish_text):
     try:
@@ -60,8 +67,8 @@ def main():
     # Get the list of all .txt files in the input directory
     all_files = sorted([f for f in os.listdir(input_directory) if f.endswith(".txt")])
 
-    # Process only the first 10 files
-    for file_name in all_files[600:3000]:
+    # Process a range of files
+    for file_name in all_files[FILE_RANGE[0]:FILE_RANGE[1]]:
         file_path = os.path.join(input_directory, file_name)
 
         try:

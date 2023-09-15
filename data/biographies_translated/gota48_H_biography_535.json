@@ -1,0 +1,92 @@
+{
+    "original": "Hultenius, Alrik Hjalmar, tandläkare, Hultsfred, f. 24/10/02 i Målrlla, Kalm. 1., av Carl August H. o. Hildegard Sofia Bräsch. G. 34 m. Ingeborg Ekelund. Barn: Bo f. 36. — Stud:-ex. i Eksjö 25, Cand. med. dent. i Rostock 28, tysk tandläk. i Bonn 31, sv. tandläk. 33. Praktik i Mörlunda sed. 32 o. i Hultsfred sed. 33, skol-tandl. i Hultsfred s. å.",
+    "translated": "Hultenius, Alrik Hjalmar, dentist, from Hultsfred. Born on October 24th, 1902 in Målrlla, Kalm. Son of Carl August H. and Hildegard Sofia Bräsch. Married in 1934 to Ingeborg Ekelund. They had one child, Bo, born in 1936. Alrik Hjalmar Hultenius earned his high school diploma in Eksjö in 1925, his dental degree in Rostock in 1928, studied German dentistry in Bonn in 1931, and Swedish dentistry in 1933. He practiced in Mörlunda starting in 1932 and in Hultsfred starting in 1933. He served as a school dentist in Hultsfred in the same year.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Alrik Hjalmar Hultenius\",\n   \"birthDate\": \"1902-10-24\",\n   \"birthPlace\": \"Mårla, Kalm\",\n   \"nationality\": \"Swedish\",\n   \"jobTitle\": \"Dentist\",\n   \"description\": \"Swedish dentist from Hultsfred\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Carl August Hultenius\",\n         \"sameAs\": \"#father\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Hildegard Sofia Bräsch\",\n         \"sameAs\": \"#mother\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Ingeborg Ekelund\",\n      \"marriageDate\": \"1934\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Bo Hultenius\",\n         \"birthDate\": \"1936\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"High School Diploma\",\n         \"educationLevel\": \"High school\",\n         \"educationalProgramType\": \"Exam\",\n         \"awardDate\": \"1925\",\n         \"awardingInstitution\": \"Eksjö\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Dental Degree\",\n         \"educationLevel\": \"University\",\n         \"educationalProgramType\": \"Degree\",\n         \"awardDate\": \"1928\",\n         \"awardingInstitution\": \"Rostock\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"German Dentistry Degree\",\n         \"educationLevel\": \"University\",\n         \"educationalProgramType\": \"Degree\",\n         \"awardDate\": \"1931\",\n         \"awardingInstitution\": \"Bonn\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"name\": \"Swedish Dentistry Degree\",\n         \"educationLevel\": \"University\",\n         \"educationalProgramType\": \"Degree\",\n         \"awardDate\": \"1933\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Mörlunda Dental Practice\",\n         \"memberStartDate\": \"1932\",\n         \"memberOf\": \"#practice\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Hultsfred Dental Practice\",\n         \"memberStartDate\": \"1933\",\n         \"memberOf\": \"#practice\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Hultsfred School Dental Program\",\n         \"memberStartDate\": \"1933\",\n         \"memberOf\": \"#program\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alrik Hjalmar Hultenius",
+        "birthDate": "1902-10-24",
+        "birthPlace": "Mårla, Kalm",
+        "nationality": "Swedish",
+        "jobTitle": "Dentist",
+        "description": "Swedish dentist from Hultsfred",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl August Hultenius",
+                "sameAs": "#father"
+            },
+            {
+                "@type": "Person",
+                "name": "Hildegard Sofia Bräsch",
+                "sameAs": "#mother"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Ekelund",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo Hultenius",
+                "birthDate": "1936"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "educationLevel": "High school",
+                "educationalProgramType": "Exam",
+                "awardDate": "1925",
+                "awardingInstitution": "Eksjö"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Degree",
+                "educationLevel": "University",
+                "educationalProgramType": "Degree",
+                "awardDate": "1928",
+                "awardingInstitution": "Rostock"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "German Dentistry Degree",
+                "educationLevel": "University",
+                "educationalProgramType": "Degree",
+                "awardDate": "1931",
+                "awardingInstitution": "Bonn"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Swedish Dentistry Degree",
+                "educationLevel": "University",
+                "educationalProgramType": "Degree",
+                "awardDate": "1933"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Mörlunda Dental Practice",
+                "memberStartDate": "1932",
+                "memberOf": "#practice"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hultsfred Dental Practice",
+                "memberStartDate": "1933",
+                "memberOf": "#practice"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hultsfred School Dental Program",
+                "memberStartDate": "1933",
+                "memberOf": "#program"
+            }
+        ]
+    }
+}
