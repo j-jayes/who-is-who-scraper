@@ -41,6 +41,9 @@ jobs:
         git config --local user.name "GitHub Action"
         git add -A
         git commit -m "Update files after API interaction" || echo "No changes to commit"
-        git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/j-jayes/who-is-who-scraper.git HEAD:main
+        git push
+      env:
+        REPO_KEY: ${{secrets.PERSONAL_ACCESS_TOKEN}}
+        username: github-actions
 
 
