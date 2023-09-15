@@ -29,7 +29,7 @@ jobs:
     - name: Run the script
       env:
         API_SECRET_KEY: ${{ secrets.OPEN_AI_KEY }}
-      run: python src/translate_biographies.py
+      run: python src/translate-biographies.py
 
     - name: Commit and push updates
       run: |
