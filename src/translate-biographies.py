@@ -9,7 +9,7 @@ data_dir = Path(root_dir) / "data"
 
 # Check if script is running within GitHub Actions
 if os.environ.get("GITHUB_ACTIONS") == "true":
-    openai_api_key = os.environ.get("API_SECRET_KEY")
+    openai_api_key = os.environ.get("OPEN_AI_KEY")
     if not openai_api_key:
         raise ValueError("No OpenAI API key found in environment variables!")
 else:
@@ -20,6 +20,7 @@ else:
 
 openai.api_key = openai_api_key
 
+FILE_RANGE = [3035, 4000]
 
 def translate_and_structure_text(swedish_text):
     try:
