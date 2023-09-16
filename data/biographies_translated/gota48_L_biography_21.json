@@ -1,0 +1,64 @@
+{
+    "original": "Laike, Gösta Holger, leg. tandläkare, Kalmar, f. 19/1/09 i Stiby, Krist. 1. — Studrex. i Lund 26, tandl :kand. 28, tandl. 30. Föret. res. t. ett flert. europ. länder före o. efter kriget. Prakt, i Simrishamn 30-43, därefter i Kalmar.",
+    "translated": "Laike, Gösta Holger, professional dentist, Kalmar, born on January 19, 1909 in Stiby, Kristianstad County. Graduated from Lund University in 1926, obtaining a degree in dental medicine in 1928, and completing dental studies in 1930. Undertook several journeys to various European countries before and after the war. Practiced dentistry in Simrishamn from 1930 to 1943, and thereafter in Kalmar. Please note that the abbreviation '\\d\\d m. partners name' signifies that the person got married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Holger Laike\",\n  \"jobTitle\": \"Professional Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Kalmar\"\n  },\n  \"birthDate\": \"1909-01-19\",\n  \"birthPlace\": \"Stiby, Kristianstad County\",\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Lund University\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"Dentistry\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Medicine\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Studies\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"hasPracticedIn\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Simrishamn\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Kalmar\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"NOT_AVAILABLE\",\n    \"startDate\": \"19XX\"\n  },\n  \"additionalProperty\": [\n    {\n      \"@type\": \"Text\",\n      \"name\": \"Undertook several journeys\",\n      \"value\": \"Various European countries before and after the war\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Gösta Holger Laike",
+        "jobTitle": "Professional Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kalmar"
+        },
+        "birthDate": "1909-01-19",
+        "birthPlace": "Stiby, Kristianstad County",
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Lund University"
+        },
+        "hasOccupation": {
+            "@type": "MedicalSpecialty",
+            "name": "Dentistry"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Medicine",
+                "startDate": "1926",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Studies",
+                "startDate": "1928",
+                "endDate": "1930"
+            }
+        ],
+        "hasPracticedIn": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Simrishamn",
+                "startDate": "1930",
+                "endDate": "1943"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Kalmar",
+                "startDate": "1943"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "NOT_AVAILABLE",
+            "startDate": "19XX"
+        },
+        "additionalProperty": [
+            {
+                "@type": "Text",
+                "name": "Undertook several journeys",
+                "value": "Various European countries before and after the war"
+            }
+        ]
+    }
+}

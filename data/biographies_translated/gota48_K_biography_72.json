@@ -1,0 +1,72 @@
+{
+    "original": "Kilian, Josua, kyrkoherde, Bogla, f. 11/9/96 i Femsjö, Jönköp. 1. G. 23 m. Vivan Fogelberg. — Stud:ex. v. Fjedlstedtska sk. i Upps. 19, teol. fil. ex. i Lund 20, teol. kand., prakt. teol. prov samt prästv. f. Växjö stift 23. Tjg. s. v. pastor i Dörby, kommin. i Söraby 23, kyrkoh. i Rogberga sed. 29. Miss:styr. ombud 26-39.",
+    "translated": "Kilian, Josua, clergyman, born on 11/9/1896 in Femsjö, Jönköping. First marriage to Vivan Fogelberg in 1923. Education: graduated from Fjedlstedtska school in Uppsala in 1919, obtained a degree in theology from Lund University in 1920, completed practical theology examinations and ordained as a priest in the Växjö diocese in 1923. Worked as a temporary pastor in Dörby, assistant minister in Söraby in 1923, and became a parish priest in Rogberga since 1929. Represented the Missionary Board as a delegate from 1926 to 1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Josua Kilian\",\n  \"birthDate\": \"1896-11-09\",\n  \"birthPlace\": \"Femsjö, Jönköping\",\n  \"jobTitle\": \"Clergyman\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vivan Fogelberg\",\n    \"marriageDate\": \"1923\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Fjedlstedtska school\",\n      \"location\": \"Uppsala\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"location\": \"Lund\",\n      \"endDate\": \"1920\",\n      \"studyProgram\": \"Theology\"\n    }\n  ],\n  \"profession\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1923\",\n      \"title\": \"Temporary pastor\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dörby\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"startDate\": \"1923\",\n      \"title\": \"Assistant minister\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Söraby\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"startDate\": \"1929\",\n      \"title\": \"Parish priest\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rogberga\"\n      }\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Missionary Board\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1939\",\n      \"roleName\": \"Delegate\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Josua Kilian",
+        "birthDate": "1896-11-09",
+        "birthPlace": "Femsjö, Jönköping",
+        "jobTitle": "Clergyman",
+        "spouse": {
+            "@type": "Person",
+            "name": "Vivan Fogelberg",
+            "marriageDate": "1923"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Fjedlstedtska school",
+                "location": "Uppsala",
+                "endDate": "1919"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "location": "Lund",
+                "endDate": "1920",
+                "studyProgram": "Theology"
+            }
+        ],
+        "profession": [
+            {
+                "@type": "JobPosting",
+                "startDate": "1923",
+                "endDate": "1923",
+                "title": "Temporary pastor",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Dörby"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "startDate": "1923",
+                "title": "Assistant minister",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Söraby"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "startDate": "1929",
+                "title": "Parish priest",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Rogberga"
+                }
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Missionary Board",
+                "startDate": "1926",
+                "endDate": "1939",
+                "roleName": "Delegate"
+            }
+        ]
+    }
+}

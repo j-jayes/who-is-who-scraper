@@ -1,0 +1,83 @@
+{
+    "original": "Klingstedt, Axel Edvard, bankdirektör, Vadstena, f. 7/10/75 i Väckelsång, Kronob. 1. G. 06 m. Ruth Hagberg. Barn: Sigrid f. 07, g. m. apot. David Wägermark, Sthlm, Anna-Lisa 08, Stig 11, e. adj., Upps., Olle 15, tj :man. — Folkskoll :ex. 96, organistex. 00. Verkst. dir. i Vadstenaortens sparb. fr. 45. Medl. av Frimurarorden (IX. gr.), Odd Fellow. GMmf, PatrM.",
+    "translated": "Klingstedt, Axel Edvard, bank director, Vadstena, born October 7, 1875 in Väckelsång, Kronob. 1st marriage in 1906 with Ruth Hagberg. Children: Sigrid born in 1907, married to pharmacist David Wägermark, Stockholm, Anna-Lisa born in 1908, Stig born in 1911, employed as an assistant judge, Uppsala, Olle born in 1915, employed as a waiter. Graduated from primary school in 1896, organist certification in 1900. Became the managing director of Vadstenaortens Sparbank in 1945. Member of the Freemason Order (IX grade) and the Odd Fellow. GMmf, PatrM.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Edvard Klingstedt\",\n  \"jobTitle\": \"Bank Director\",\n  \"birthPlace\": \"Väckelsång, Kronob\",\n  \"birthDate\": \"1875-10-07\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Hagberg\",\n    \"marriageDate\": \"1906\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid\",\n      \"birthDate\": \"1907\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"David Wägermark\",\n        \"jobTitle\": \"Pharmacist\",\n        \"birthPlace\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Lisa\",\n      \"birthDate\": \"1908\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig\",\n      \"birthDate\": \"1911\",\n      \"jobTitle\": \"Assistant Judge\",\n      \"employmentLocation\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olle\",\n      \"birthDate\": \"1915\",\n      \"jobTitle\": \"Waiter\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Primary School\",\n      \"educationalLevel\": \"Graduate\",\n      \"edudationalCredentialAwarded\": \"Folkskoll: ex. 96\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Organist Certification\",\n      \"educationalLevel\": \"Certification\",\n      \"edudationalCredentialAwarded\": \"Organistex. 00\"\n    }\n  ],\n  \"jobTitle\": \"Managing Director\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Vadstenaortens Sparbank\",\n    \"startDate\": \"1945\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\",\n      \"membershipNumber\": \"IX gr.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellow\"\n    }\n  ],\n  \"honorificSuffix\": [\"GMmf\", \"PatrM\"]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Edvard Klingstedt",
+        "jobTitle": "Managing Director",
+        "birthPlace": "Väckelsång, Kronob",
+        "birthDate": "1875-10-07",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Hagberg",
+            "marriageDate": "1906"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sigrid",
+                "birthDate": "1907",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "David Wägermark",
+                    "jobTitle": "Pharmacist",
+                    "birthPlace": "Stockholm"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Lisa",
+                "birthDate": "1908"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig",
+                "birthDate": "1911",
+                "jobTitle": "Assistant Judge",
+                "employmentLocation": "Uppsala"
+            },
+            {
+                "@type": "Person",
+                "name": "Olle",
+                "birthDate": "1915",
+                "jobTitle": "Waiter"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Primary School",
+                "educationalLevel": "Graduate",
+                "edudationalCredentialAwarded": "Folkskoll: ex. 96"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Organist Certification",
+                "educationalLevel": "Certification",
+                "edudationalCredentialAwarded": "Organistex. 00"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Vadstenaortens Sparbank",
+            "startDate": "1945"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden",
+                "membershipNumber": "IX gr."
+            },
+            {
+                "@type": "Organization",
+                "name": "Odd Fellow"
+            }
+        ],
+        "honorificSuffix": [
+            "GMmf",
+            "PatrM"
+        ]
+    }
+}

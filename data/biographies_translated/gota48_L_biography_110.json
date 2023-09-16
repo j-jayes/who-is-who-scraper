@@ -1,0 +1,77 @@
+{
+    "original": "Larsson, John Stig Emanuel, chefveterinär, Västervik, f. 17/4/05 i Malmö av mejeriäg. John L. o. Ida Gul-lander. G. 34 m. Stina Florin. Barn: Stig-Göran f. 35. — Stud:ex. i Lund 24, vet:ex. 36. Assist, v. Statens vet:-medic. anst. 35-36, dito v. Malmöh. läns hush :sällskaps bakteriol. lab. 36-38, chef f. Kalmar läns norra hush :-sällsk. vet:avd. sed. 38.",
+    "translated": "Larsson, John Stig Emanuel, chief veterinarian, Västervik, born on April 17, 1905 in Malmö to dairy owner John L. and Ida Gul-lander. Married in 1934 to Stina Florin. Children: Stig-Göran, born in 1935. Completed high school in Lund in 1924, obtained a veterinary degree in 1936. Worked as an assistant at the State Veterinary Medical Institute from 1935 to 1936, and at the bacteriology laboratory of Malmö County's household society from 1936 to 1938. Became the head of the veterinary department of the northern household society of Kalmar County since 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Stig Emanuel Larsson\",\n  \"jobTitle\": \"Chief Veterinarian\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Västervik\"\n  },\n  \"birthDate\": \"1905-04-17\",\n  \"birthPlace\": \"Malmö\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Gul-lander\"\n    }\n  ],\n  \"spouse\": \"Stina Florin\",\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stig-Göran Larsson\",\n    \"birthDate\": \"1935\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"veterinary degree\",\n      \"educationalLevel\": \"ProfessionalDegree\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"roleName\": \"Assistant\",\n      \"description\": \"State Veterinary Medical Institute\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1938\",\n      \"roleName\": \"Assistant\",\n      \"description\": \"Bacteriology Laboratory, Malmö County's Household Society\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"roleName\": \"Head\",\n      \"description\": \"Veterinary Department, Northern Household Society of Kalmar County\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Stig Emanuel Larsson",
+        "jobTitle": "Chief Veterinarian",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Västervik"
+        },
+        "birthDate": "1905-04-17",
+        "birthPlace": "Malmö",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John L."
+            },
+            {
+                "@type": "Person",
+                "name": "Ida Gul-lander"
+            }
+        ],
+        "spouse": "Stina Florin",
+        "children": {
+            "@type": "Person",
+            "name": "Stig-Göran Larsson",
+            "birthDate": "1935"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "educationalRole": "Student",
+                "startDate": "1924",
+                "endDate": "1924",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "veterinary degree",
+                "educationalLevel": "ProfessionalDegree",
+                "educationalRole": "Student",
+                "startDate": "1936",
+                "endDate": "1936"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "endDate": "1936",
+                "roleName": "Assistant",
+                "description": "State Veterinary Medical Institute"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "endDate": "1938",
+                "roleName": "Assistant",
+                "description": "Bacteriology Laboratory, Malmö County's Household Society"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "roleName": "Head",
+                "description": "Veterinary Department, Northern Household Society of Kalmar County"
+            }
+        ]
+    }
+}

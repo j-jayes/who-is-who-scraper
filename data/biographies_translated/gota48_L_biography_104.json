@@ -1,0 +1,47 @@
+{
+    "original": "Larson, Oscar Arvid, kontorschef, Göteborg, f. 5/9/82 i Gbg. G. 25 m. Ingeborg Swalander. Barn: Kerstin f. 28. — Stud. v. h. allm. lärov. samt han-delssk. Medarb. i firma James Lundgren &amp; Co. i Gbg sed. 20, kontxhef där.",
+    "translated": "Larson, Oscar Arvid, office manager, Gothenburg, b. 9/5/82 in Gothenburg. Married on the 25th of (unknown year) to Ingeborg Swalander. Children: Kerstin b. 28. — Studied at the public school and business school. Employee at the company James Lundgren &amp; Co. in Gothenburg since 1920, office manager there.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oscar Arvid Larson\",\n  \"jobTitle\": \"Office Manager\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1882-09-05\",\n  \"birthPlace\": \"Gothenburg\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Swalander\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1928-00-00\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Public School\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Business School\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"James Lundgren & Co.\"\n  },\n  \"employmentStartDate\": \"1920-00-00\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oscar Arvid Larson",
+        "jobTitle": "Office Manager",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1882-09-05",
+        "birthPlace": "Gothenburg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Swalander"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1928-00-00"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Public School"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Business School"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "James Lundgren & Co."
+        },
+        "employmentStartDate": "1920-00-00",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Gothenburg"
+        }
+    }
+}

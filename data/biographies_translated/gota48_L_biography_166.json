@@ -1,0 +1,101 @@
+{
+    "original": "Levan, Uno Nils Olof, försäljningschef, Vargön, f. 6/4/90 i Östra Frölunda, Älvsb. 1., av godsäg. August L. o. Hilma Hansson. G. m. Dagny Kindstrand. — Stud:ex. 09, Gbgs handiinst. fackkurs 10, stud. i Engl. o. Frankr. 13-14. Bokh. o. korresp. v. Wargöns A-B 10-15, förest, f. pappers- Q. celiuiosaavd. v. Sv. Emissions A-B resp. Transmarina Komp. A-B 15-17, försäljn xhef f. papper o. cellulosa v. Wargöns A-B sed. 17, även f. legeringar sed. 32.",
+    "translated": "Levan, Uno Nils Olof, sales manager, Vargön, b. 6/4/90 in Östra Frölunda, Älvsb. 1st, son of estate owner August L. and Hilma Hansson. Married to Dagny Kindstrand. — Graduated with bachelor's degree 09, specialized course at Gothenburg's Handicraft Institute 10, studied in England and France 13-14. Bookkeeper and correspondent at Wargöns A-B 10-15, head of the paper and cellulose department at Swedish Emissions A-B and Transmarina Komp. A-B 15-17, sales manager for paper and cellulose at Wargöns A-B since 17, also for alloys since 32.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Uno Nils Olof Levan\",\n  \"jobTitle\": \"Sales Manager\",\n  \"birthDate\": \"1890-04-06\",\n  \"birthPlace\": \"Östra Frölunda, Älvsb.\",\n  \"address\": {\n    \"addressLocality\": \"Vargön\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August L. Levan\",\n      \"jobTitle\": \"Estate Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Hansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagny Kindstrand\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationLevel\": \"Bachelor's\",\n      \"educationalProgram\": \"Generai Studies\",\n      \"alumniOf\": \"Östra Frölunda High School\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"Course\",\n      \"name\": \"Specialized Course at Gothenburg's Handicraft Institute\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud.\",\n      \"educationLevel\": \"Not Specified\",\n      \"alumniOf\": \"England and France\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1914\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Bookkeeper and Correspondent\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Wargöns A-B\"\n      },\n      \"startDate\": \"1910\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Head of the Paper and Cellulose Department\",\n      \"hiringOrganization\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Swedish Emissions A-B\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Transmarina Komp. A-B\"\n        }\n      ],\n      \"startDate\": \"1915\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Sales Manager for Paper and Cellulose\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Wargöns A-B\"\n      },\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Sales Manager for Alloys\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Wargöns A-B\"\n      },\n      \"startDate\": \"1932\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Uno Nils Olof Levan",
+        "jobTitle": "Sales Manager",
+        "birthDate": "1890-04-06",
+        "birthPlace": "Östra Frölunda, Älvsb.",
+        "address": {
+            "addressLocality": "Vargön"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "August L. Levan",
+                "jobTitle": "Estate Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Hansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagny Kindstrand"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationLevel": "Bachelor's",
+                "educationalProgram": "Generai Studies",
+                "alumniOf": "Östra Frölunda High School",
+                "endDate": "1909"
+            },
+            {
+                "@type": "Course",
+                "name": "Specialized Course at Gothenburg's Handicraft Institute",
+                "startDate": "1910",
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud.",
+                "educationLevel": "Not Specified",
+                "alumniOf": "England and France",
+                "startDate": "1913",
+                "endDate": "1914"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "title": "Bookkeeper and Correspondent",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Wargöns A-B"
+                },
+                "startDate": "1910",
+                "endDate": "1915"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Head of the Paper and Cellulose Department",
+                "hiringOrganization": [
+                    {
+                        "@type": "Organization",
+                        "name": "Swedish Emissions A-B"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Transmarina Komp. A-B"
+                    }
+                ],
+                "startDate": "1915",
+                "endDate": "1917"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Sales Manager for Paper and Cellulose",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Wargöns A-B"
+                },
+                "startDate": "1917"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Sales Manager for Alloys",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Wargöns A-B"
+                },
+                "startDate": "1932"
+            }
+        ]
+    }
+}

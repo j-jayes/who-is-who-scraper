@@ -1,0 +1,137 @@
+{
+    "original": "Laurin, Ebba, tandläkare. Mariestad, f. 1/2/97 i Malmö av köpm. Fredrik Andersson o. Emma Steneberg. G. 19 med förste prov:läk. Eric Laurin. Barn: se denne. — Stud :ex. 15, med. kand. i Lund 19, tandläk:ex. 31. Proped. o. grundl. tjg. v. Lunds las. åtta mån. 19-20, praktik i Vännäs 31. skoltandl. där 35, tandl. v. Gbgs kommun. tandpoliklin. 44-47. Var i Vännäs bl. a. ordf. i RK-krets o. KBK, v. ordf. i hemhjälpsndn samt styr :led. o. sekr. i majblommekomm.",
+    "translated": "Laurin, Ebba, dentist. Mariestad, b. 1/2/97 in Malmö, daughter of merchant Fredrik Andersson and Emma Steneberg. Married in 19 to first probationary doctor Eric Laurin. Children: see him. - Studied: completed exams in 1915, medical candidate at Lund University in 1919, dental exam in 1931. Propedeutics and basic service at Lund County Hospital for eight months in 1919-1920, practice in Vännäs in 1931. School dentist there from 1935, dentist at Gothenburg municipality dental clinic from 1944 to 1947. In Vännäs, among other things, served as chairman of the Red Cross district and the Women's Temperance Federation, vice chairman of the Home Help Committee, and member and secretary of the Mayflower Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ebba Laurin\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1897-02-01\",\n  \"birthPlace\": \"Malmö, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fredrik Andersson\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Steneberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Laurin\",\n    \"jobTitle\": \"Probationary Doctor\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eric Laurin\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Examination\",\n      \"credentialEarned\": \"Studied\",\n      \"dateEarned\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"credentialEarned\": \"Medical Candidate\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"dateEarned\": \"1919\",\n      \"educationalRole\": \"Lund University\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Examination\",\n      \"credentialEarned\": \"Dental Exam\",\n      \"dateEarned\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Basic Service\",\n      \"dateStarted\": \"1919-01\",\n      \"dateEnd\": \"1919-08\",\n      \"organization\": {\n        \"@type\": \"Hospital\",\n        \"name\": \"Lund County Hospital\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1935\",\n      \"roleName\": \"Dentist\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Vännäs\"\n      },\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Practice\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1947\",\n      \"roleName\": \"Dentist\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gothenburg\"\n      },\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Municipality Dental Clinic\"\n      }\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Chairman\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Red Cross District\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Chairman\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Women's Temperance Federation\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Vice Chairman\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Home Help Committee\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Member\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Mayflower Association\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Secretary\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Mayflower Association\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ebba Laurin",
+        "jobTitle": "Dentist",
+        "birthDate": "1897-02-01",
+        "birthPlace": "Malmö, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Fredrik Andersson",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Steneberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Eric Laurin",
+            "jobTitle": "Probationary Doctor"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Eric Laurin"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Examination",
+                "credentialEarned": "Studied",
+                "dateEarned": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "credentialEarned": "Medical Candidate",
+                "educationalLevel": "Undergraduate",
+                "dateEarned": "1919",
+                "educationalRole": "Lund University"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Examination",
+                "credentialEarned": "Dental Exam",
+                "dateEarned": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Basic Service",
+                "dateStarted": "1919-01",
+                "dateEnd": "1919-08",
+                "organization": {
+                    "@type": "Hospital",
+                    "name": "Lund County Hospital"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "endDate": "1935",
+                "roleName": "Dentist",
+                "location": {
+                    "@type": "City",
+                    "name": "Vännäs"
+                },
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Practice"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "endDate": "1947",
+                "roleName": "Dentist",
+                "location": {
+                    "@type": "City",
+                    "name": "Gothenburg"
+                },
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Municipality Dental Clinic"
+                }
+            }
+        ],
+        "affiliations": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Chairman",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Red Cross District"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Chairman",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Women's Temperance Federation"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Vice Chairman",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Home Help Committee"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Member",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Mayflower Association"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Secretary",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Mayflower Association"
+                }
+            }
+        ]
+    }
+}

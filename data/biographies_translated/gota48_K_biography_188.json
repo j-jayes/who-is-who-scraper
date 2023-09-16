@@ -1,0 +1,109 @@
+{
+    "original": "Kugelberg, Nils Gustaf, kapten, Mantorp, f. 19/2/89 i Allhelgona s :n, östergötl. 1., av kapt. Wilhelm Aug. K. o. Henrietta Helena Maria Ceder-baum. G. 21 m. Ingrid Klara Henrika Elisabet Nisser. Barn: Helena Elisabet f. 22, reklamteckn., Jan Gustaf Wilhelm 24, fänrik v. Livgren :reg., Märta Louise Jacqueline 30, Hedvig-Eva Ulrika 35. — Stud:ex. i Sthlm 09, off:ex. 11. Und :löjtn. v. Första livgren :T«eg. Hl, löjtn. 15, kapt. 26, på Livgren :reg. överig:s’tat 28. Äg. o. bebor Spellinge i V. Harg. Inneh. fl. komm. uppdr. i Harg s :n. RSO, Östergötl. v. landst :förb. GM, Landst :-SM.",
+    "translated": "Kugelberg, Nils Gustaf, captain, Mantorp, b. 19/2/89 in Allhelgona parish, East Gothland province, son of Captain Wilhelm Aug. K. and Henrietta Helena Maria Cederbaum. Married on 21 [year] to Ingrid Klara Henrika Elisabet Nisser. Children: Helena Elisabet, born in 1922, advertising illustrator; Jan Gustaf Wilhelm, born in 1924, ensign in the Livgrenadier Regiment; Märta Louise Jacqueline, born in 1930; Hedvig-Eva Ulrika, born in 1935. Completed student examination in Stockholm in 1909, officer examination in 1911. Lieutenant in the First Life Grenadier Regiment, then lieutenant in 1915, captain in 1926, on the Livgrenadier Regiment staff from 1928. Owner and resident of Spellinge in Västra Harg. Holds several committee positions in Harg parish. Royal Order of the Sword, East Gothland County Council Golden Medal, County Council Silver Medal.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gustaf Kugelberg\",\n  \"birthDate\": \"1889-02-19\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Allhelgona parish, East Gothland province\"\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Wilhelm August Kugelberg\",\n    \"jobTitle\": \"Captain\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Henrietta Helena Maria Cederbaum\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Klara Henrika Elisabet Nisser\",\n    \"marriageDate\": \"1921-01-21\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helena Elisabet\",\n      \"birthDate\": \"1922-XX-XX\",\n      \"jobTitle\": \"Advertising Illustrator\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan Gustaf Wilhelm\",\n      \"birthDate\": \"1924-XX-XX\",\n      \"jobTitle\": \"Ensign in the Livgrenadier Regiment\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Märta Louise Jacqueline\",\n      \"birthDate\": \"1930-XX-XX\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hedvig-Eva Ulrika\",\n      \"birthDate\": \"1935-XX-XX\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud:ex.\",\n      \"educationalLevel\": \"High School\",\n      \"educationalCredentialAwarded\": \"Student Examination\",\n      \"educationalInstitution\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"off:ex.\",\n      \"educationalInstitution\": \"First Life Grenadier Regiment\",\n      \"educationalCredentialAwarded\": \"Officer Examination\"\n    }\n  ],\n  \"career\": [\n    {\n      \"@type\": \"MilitaryRank\",\n      \"name\": \"Lieutenant\",\n      \"memberOf\": \"First Life Grenadier Regiment\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"MilitaryRank\",\n      \"name\": \"Captain\",\n      \"memberOf\": \"Livgrenadier Regiment\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Place\",\n    \"name\": \"Spellinge\",\n    \"locatedIn\": \"Västra Harg\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Harg parish\"\n    }\n  ],\n  \"recognition\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the Sword\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"East Gothland County Council Golden Medal\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"County Council Silver Medal\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Gustaf Kugelberg",
+        "birthDate": "1889-02-19",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Allhelgona parish, East Gothland province"
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Wilhelm August Kugelberg",
+            "jobTitle": "Captain"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Henrietta Helena Maria Cederbaum"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Klara Henrika Elisabet Nisser",
+            "marriageDate": "1921-01-21"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Helena Elisabet",
+                "birthDate": "1922-XX-XX",
+                "jobTitle": "Advertising Illustrator"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan Gustaf Wilhelm",
+                "birthDate": "1924-XX-XX",
+                "jobTitle": "Ensign in the Livgrenadier Regiment"
+            },
+            {
+                "@type": "Person",
+                "name": "Märta Louise Jacqueline",
+                "birthDate": "1930-XX-XX"
+            },
+            {
+                "@type": "Person",
+                "name": "Hedvig-Eva Ulrika",
+                "birthDate": "1935-XX-XX"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex.",
+                "educationalLevel": "High School",
+                "educationalCredentialAwarded": "Student Examination",
+                "educationalInstitution": "Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "off:ex.",
+                "educationalInstitution": "First Life Grenadier Regiment",
+                "educationalCredentialAwarded": "Officer Examination"
+            }
+        ],
+        "career": [
+            {
+                "@type": "MilitaryRank",
+                "name": "Lieutenant",
+                "memberOf": "First Life Grenadier Regiment",
+                "startDate": "1909",
+                "endDate": "1915"
+            },
+            {
+                "@type": "MilitaryRank",
+                "name": "Captain",
+                "memberOf": "Livgrenadier Regiment",
+                "startDate": "1915",
+                "endDate": "1928"
+            }
+        ],
+        "owns": {
+            "@type": "Place",
+            "name": "Spellinge",
+            "locatedIn": "Västra Harg"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Harg parish"
+            }
+        ],
+        "recognition": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the Sword"
+            },
+            {
+                "@type": "Medal",
+                "name": "East Gothland County Council Golden Medal"
+            },
+            {
+                "@type": "Medal",
+                "name": "County Council Silver Medal"
+            }
+        ]
+    }
+}

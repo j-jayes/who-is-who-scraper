@@ -1,0 +1,122 @@
+{
+    "original": "Larson, Per Olof, ingenjör, Linköping, f. 2/6/01 i Sy a, östergötl. 1., av Per Otto o. Erika L. G. 37 m. Margareta Olsson. Barn: Karin f. 40, Bo 42. — Utex. fr. Norrköp. tekn. elem:-skolas mek. linje 22, spec :stud.’v. Ar-mour Inst. of Techn., Sterling-Morton Highschol samt Northwestern Univ. i Chicago, USA, 26-30. Anst. v. olika mek. verkstäder i Chicago 24-26, v. Western Electric Co. arbetsstudie- o. planer :avd., Chicago-Baltimore, 26-32, A-B Bofors metallurg. avd. (rationali-ser.) 36-36, verkst :ing. v. A-B Arboga Mek. Verkst. 36-40, planer :ing. v. A-B Sv. Järnv |verkstäderna i Linköp. 40-46, verkst :ch. å vissa avd. där sed. 46. Stud:resa t. USA 46.",
+    "translated": "Larson, Per Olof, engineer, Linköping, b. 2/6/01 in Sya, Östergötland, 1st child of Per Otto and Erika L. G., married to Margareta Olsson in 1937. Children: Karin b. 1940, Bo b. 1942. — Graduated from Norrköping Technical Elementary School with a mechanical line in 1922, specialized studies at Armour Institute of Technology, Sterling-Morton High School, and Northwestern University in Chicago, USA, 1926-1930. Employed at various mechanical workshops in Chicago from 1924 to 1926, at Western Electric Co. in the work study and planning department in Chicago-Baltimore from 1926 to 1932, at A-B Bofors in the metallurgical department (rationalization) from 1936 to 1936, as a mechanical engineer at A-B Arboga Mekaniska Verkstad from 1936 to 1940, as a planning engineer at A-B Swedish Ironworks in Linköping from 1940 to 1946, and as the head of certain departments there since 1946. Made a study trip to the US in 1946.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Olof Larson\",\n  \"jobTitle\": \"Engineer\",\n  \"birthPlace\": \"Sya, Östergötland\",\n  \"birthDate\": \"1901-06-02\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Otto Larson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erika L. G. Larson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Olsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Larson\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Larson\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norrköping Technical Elementary School\",\n      \"areaOfStudy\": \"Mechanical\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Armour Institute of Technology\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Sterling-Morton High School\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Northwestern University\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Various mechanical workshops in Chicago\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Western Electric Co.\",\n      \"department\": \"Work Study and Planning\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1932\",\n      \"location\": \"Chicago-Baltimore\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Bofors\",\n      \"department\": \"Metallurgical (Rationalization)\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Arboga Mekaniska Verkstad\",\n      \"jobTitle\": \"Mechanical Engineer\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Swedish Ironworks\",\n      \"department\": \"Planning\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1946\",\n      \"location\": \"Linköping\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Swedish Ironworks\",\n      \"department\": \"Head of Certain Departments\",\n      \"startDate\": \"1946\",\n      \"location\": \"Linköping\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Northwestern University\"\n    }\n  ],\n  \"sameAs\": {\n    \"@type\": \"URL\",\n    \"url\": \"URL of the person's web page or profile\"\n  },\n  \"nationality\": \"Swedish\",\n  \"studyTrip\": {\n    \"@type\": \"Trip\",\n    \"name\": \"Study trip to the US\",\n    \"startDate\": \"1946\",\n    \"location\": \"United States\"\n  }\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Per Olof Larson",
+        "jobTitle": "Engineer",
+        "birthPlace": "Sya, Östergötland",
+        "birthDate": "1901-06-02",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Per Otto Larson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Erika L. G. Larson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Olsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin Larson",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Larson",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norrköping Technical Elementary School",
+                "areaOfStudy": "Mechanical"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Armour Institute of Technology"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Sterling-Morton High School"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Northwestern University"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Various mechanical workshops in Chicago",
+                "startDate": "1924",
+                "endDate": "1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Western Electric Co.",
+                "department": "Work Study and Planning",
+                "startDate": "1926",
+                "endDate": "1932",
+                "location": "Chicago-Baltimore"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Bofors",
+                "department": "Metallurgical (Rationalization)",
+                "startDate": "1936",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Arboga Mekaniska Verkstad",
+                "jobTitle": "Mechanical Engineer",
+                "startDate": "1936",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Swedish Ironworks",
+                "department": "Planning",
+                "startDate": "1940",
+                "endDate": "1946",
+                "location": "Linköping"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Swedish Ironworks",
+                "department": "Head of Certain Departments",
+                "startDate": "1946",
+                "location": "Linköping"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Northwestern University"
+            }
+        ],
+        "sameAs": {
+            "@type": "URL",
+            "url": "URL of the person's web page or profile"
+        },
+        "nationality": "Swedish",
+        "studyTrip": {
+            "@type": "Trip",
+            "name": "Study trip to the US",
+            "startDate": "1946",
+            "location": "United States"
+        }
+    }
+}

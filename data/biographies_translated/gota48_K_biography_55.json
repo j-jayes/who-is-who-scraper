@@ -1,0 +1,114 @@
+{
+    "original": "Kempe, Karl Gunnar, advokat, Göteborg, f. 10/11/96 i Bjurholm, Väs-terb. 1., av prov iläk. Sven K. o. Anna O’1’sson. G. 29 m. Hjördis Lindskog. Barn: Ragnhild f. 32, Gunilla 35. — Stud:ex. i Skara 16, jur. kand. i Upps. 22. Tingstjg. i Tveta, Vista o. Mo dom-s, 213-24, va tten rätt saman . i Väs-terbygdenis vattenrätts dom stol 25-27, bitr. jurist å Lemchen &amp; Nordströms Adv:byrå i Jönköp. 27-29, därefter egen adv :verksamh., först i Värnamo o. numera i Gbg. Var i Värnamo bl. a. ordf. i byggn :ndn samt ombudsman v. A-B Skånska Bankens avd :kont. Led. av Sv:es ’adv:’samf. ’sed. 34.",
+    "translated": "Kempe, Karl Gunnar, lawyer, Gothenburg, born on 10th November 1896 in Bjurholm, Västerbotten. Son of physician Sven K. and Anna Olofsson. Married on 29th with Hjördis Lindskog. Children: Ragnhild (born in 1932), Gunilla (born in 1935). \n- Completed secondary school in Skara in 1916, graduated with a law degree from Uppsala University in 1922. \n- Served as a judge in the districts of Tveta, Vista, and Mo from 1921 to 1924, as well as in the Västerbygden Water Court from 1925 to 1927. \n- Assistant lawyer at Lemchen & Nordström's Law Firm in Jönköping from 1927 to 1929, after which he established his own law practice, first in Värnamo and currently in Gothenburg. \n- In Värnamo, he held positions such as chairman of the building committee and representative at the Skånska Bank branch. \n- Member of the Swedish Lawyers Association since 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Gunnar Kempe\",\n  \"jobTitle\": \"Lawyer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1896-11-10\",\n  \"birthPlace\": \"Bjurholm, Västerbotten, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven K. Kempe\",\n      \"jobTitle\": \"Physician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Olofsson\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hjördis Lindskog\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnhild Kempe\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Kempe\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondarySchool\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skara\"\n      },\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"lawDegree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Judge\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1924\",\n      \"location\": [\n        \"Tveta\",\n        \"Vista\",\n        \"Mo\"\n      ]\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Judge\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\",\n      \"location\": \"Västerbygden Water Court\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Lawyer\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"employer\": {\n        \"@type\": \"LegalService\",\n        \"name\": \"Lemchen & Nordström's Law Firm\",\n        \"location\": \"Jönköping\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Lawyer\",\n      \"startDate\": \"1929\",\n      \"description\": \"Established own law practice\",\n      \"location\": [\n        \"Värnamo\",\n        \"Gothenburg\"\n      ]\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Lawyers Association\",\n    \"startDate\": \"1934\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Gunnar Kempe",
+        "jobTitle": "Lawyer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1896-11-10",
+        "birthPlace": "Bjurholm, Västerbotten, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sven K. Kempe",
+                "jobTitle": "Physician"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Olofsson"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Hjördis Lindskog"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ragnhild Kempe",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Kempe",
+                "birthDate": "1935"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondarySchool",
+                "educationalLevel": "SecondarySchool",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skara"
+                },
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "lawDegree",
+                "educationalLevel": "Undergraduate",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "endDate": "1922"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Judge",
+                "startDate": "1921",
+                "endDate": "1924",
+                "location": [
+                    "Tveta",
+                    "Vista",
+                    "Mo"
+                ]
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Judge",
+                "startDate": "1925",
+                "endDate": "1927",
+                "location": "Västerbygden Water Court"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Lawyer",
+                "startDate": "1927",
+                "endDate": "1929",
+                "employer": {
+                    "@type": "LegalService",
+                    "name": "Lemchen & Nordström's Law Firm",
+                    "location": "Jönköping"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Lawyer",
+                "startDate": "1929",
+                "description": "Established own law practice",
+                "location": [
+                    "Värnamo",
+                    "Gothenburg"
+                ]
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Lawyers Association",
+            "startDate": "1934"
+        }
+    }
+}

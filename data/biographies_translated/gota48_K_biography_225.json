@@ -1,0 +1,109 @@
+{
+    "original": "Kärrby, Thorild Emanuel, kyrkoherde, Göteborg, f. 4/9/87 i Gbg. G. 23 m. Karin Christenson. Barn: Göran f. 29, Kurt 30. ~ Mog:ex. i Gbg 08, teol. fil. ex. 10, teol. kand., prakt, teol. prov samt präst v. f. Gbgs stift 16. Tjg. som v. pastor i Sätila o. Ör-gryte, v. komniin. i Gälistad o. Seglo-ra, kyrkoadj. i Partilie o. Oscar Fredriks förs. i Gbg samt pred. v. Förs :-hyddan i Gbg, kommin. i Örgryte 29-47, kyrkoh. där sed. 47. V. ordf. o. v. dirig. i Kyrkosångens vänners Gbgs-krets, led. av kyrkofullm. m. m.",
+    "translated": "Kärrby, Thorild Emanuel, clergyman, Gothenburg, born on 4/9/1887 in Gothenburg. Married on 23/XX with Karin Christenson. Children: Göran, born in 1929, Kurt, born in 1930. Graduated from the Faculty of Theology in Gothenburg in 1908, obtained a Bachelor's degree in Theology in 1910, completed practical theological examinations and served as a priest in the Gothenburg diocese from 1916. Worked as a vicar in Sätila and Örgryte, vicar commissioner in Gälistad and Seglora, church assistant in Partille and Oscar Fredrik's congregation in Gothenburg, and preacher at the Förs:hyddan in Gothenburg. Became a vicar in Örgryte from 1929 to 1947, and has been a parish priest there since 1947. Holds the position of vice chairman and conductor in the Gothenburg section of the Church Song Friends. Also, a member of the church council, and more.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Thorild Emanuel Kärrby\",\n  \"birthDate\": \"1887-09-04\",\n  \"birthPlace\": \"Gothenburg\",\n  \"jobTitle\": \"Clergyman\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Christenson\",\n    \"marriageDate\": \"1923-XX-23\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran\",\n      \"birthDate\": \"1929-XX-XX\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kurt\",\n      \"birthDate\": \"1930-XX-XX\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Faculty of Theology\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1908-XX-XX\",\n      \"endDate\": \"1910-XX-XX\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Bachelor's degree in Theology\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Diocese\"\n      },\n      \"startDate\": \"1916-XX-XX\",\n      \"endDate\": null,\n      \"roleName\": \"Priest\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sätila\"\n      },\n      \"startDate\": \"1916-XX-XX\",\n      \"endDate\": null,\n      \"roleName\": \"Vicar\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Örgryte\"\n      },\n      \"startDate\": \"1929-XX-XX\",\n      \"endDate\": \"1947-XX-XX\",\n      \"roleName\": \"Vicar\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Örgryte\"\n      },\n      \"startDate\": \"1947-XX-XX\",\n      \"endDate\": null,\n      \"roleName\": \"Parish Priest\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg section of the Church Song Friends\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Vice Chairman\"\n        },\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Conductor\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Council\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Thorild Emanuel Kärrby",
+        "birthDate": "1887-09-04",
+        "birthPlace": "Gothenburg",
+        "jobTitle": "Clergyman",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Christenson",
+            "marriageDate": "1923-XX-23"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1929-XX-XX"
+            },
+            {
+                "@type": "Person",
+                "name": "Kurt",
+                "birthDate": "1930-XX-XX"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Faculty of Theology",
+                "location": "Gothenburg",
+                "startDate": "1908-XX-XX",
+                "endDate": "1910-XX-XX",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor's degree in Theology"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Diocese"
+                },
+                "startDate": "1916-XX-XX",
+                "endDate": null,
+                "roleName": "Priest"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Sätila"
+                },
+                "startDate": "1916-XX-XX",
+                "endDate": null,
+                "roleName": "Vicar"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Örgryte"
+                },
+                "startDate": "1929-XX-XX",
+                "endDate": "1947-XX-XX",
+                "roleName": "Vicar"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Örgryte"
+                },
+                "startDate": "1947-XX-XX",
+                "endDate": null,
+                "roleName": "Parish Priest"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg section of the Church Song Friends",
+                "memberOf": [
+                    {
+                        "@type": "Role",
+                        "roleName": "Vice Chairman"
+                    },
+                    {
+                        "@type": "Role",
+                        "roleName": "Conductor"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Church Council"
+            }
+        ]
+    }
+}

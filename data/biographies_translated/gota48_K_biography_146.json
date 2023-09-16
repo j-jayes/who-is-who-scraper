@@ -1,0 +1,71 @@
+{
+    "original": "Koch, Ernst, advokat, Göteborg, f. 20/7/97 i Barmen, Preussen, av fil. dr Karl K. o. EI’ise Braeer. — Stud :ex. v. GbgS’ h. latin 15, jur. kand. i Sthlm 20. E. o. not. i Göta hovr. 20, tings-tjg. i Sevede o. Tunaiäns härads doms. .23, egen adv :verksamh. i Gbg sed. 25. Led. av Sv:e(S adv:samf. sed. 27.",
+    "translated": "Koch, Ernst, lawyer, Gothenburg, born on July 20, 1897 in Barmen, Prussia, son of Dr. Karl K. and Else Braeer. - Completed high school studies at Gothenburg Latin School in 1915, graduated with a law degree in Stockholm in 1920. Became an assistant notary in the Gothenburg Court of Appeal in 1920, served as a court clerk in the Sevede and Tunaiäns district courts in 1923. Established his own law practice in Gothenburg in 1925. Became a member of the Swedish Lawyers' Association in 1927.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Koch\",\n  \"jobTitle\": \"Lawyer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1897-07-20\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Barmen, Prussia\"\n  },\n  \"parent\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dr. Karl K. and Else Braeer\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school\",\n      \"credentialAwarded\": \"Stud:ex. v. GbgS' h. latin 15\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"University\",\n      \"credentialAwarded\": \"Jur. kand. i Sthlm 20\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"LegalService\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Court of Appeal\"\n      },\n      \"startDate\": \"1920\",\n      \"endDate\": \"1923\",\n      \"title\": \"Assistant Notary\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sevede and Tunaiäns District Courts\"\n      },\n      \"startDate\": \"1923\",\n      \"endDate\": \"1925\",\n      \"title\": \"Court Clerk\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Own Law Practice\"\n      },\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Lawyers' Association\"\n  },\n  \"relevantOccupation\": \"Lawyer\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Koch",
+        "jobTitle": "Lawyer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1897-07-20",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Barmen, Prussia"
+        },
+        "parent": {
+            "@type": "Person",
+            "name": "Dr. Karl K. and Else Braeer"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school",
+                "credentialAwarded": "Stud:ex. v. GbgS' h. latin 15"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "University",
+                "credentialAwarded": "Jur. kand. i Sthlm 20"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "LegalService",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Court of Appeal"
+                },
+                "startDate": "1920",
+                "endDate": "1923",
+                "title": "Assistant Notary"
+            },
+            {
+                "@type": "LegalService",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Sevede and Tunaiäns District Courts"
+                },
+                "startDate": "1923",
+                "endDate": "1925",
+                "title": "Court Clerk"
+            },
+            {
+                "@type": "LegalService",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Own Law Practice"
+                },
+                "startDate": "1925"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Lawyers' Association"
+        },
+        "relevantOccupation": "Lawyer"
+    }
+}

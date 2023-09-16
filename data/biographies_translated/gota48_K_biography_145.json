@@ -1,0 +1,88 @@
+{
+    "original": "Koch, Enar Michaél, stadsomibuds-man, Kalmar, f. 29/1/04 i Uddevalia av dir. Henning M :son K. o. Méry Alm-berg. G. 30 m. Astrid Engström. Barn: Arne f. 30, Birgit 34, Bengt 37, Bertil 39. — Stud:ex. i Uddevalda 23, jur. kand. i Upp’S. 33. Stadsombudsman i Kalmar sed. 38. Kapt. i Boll u si. reg. res. 42.",
+    "translated": "Koch, Enar Michaél, city ombudsman, Kalmar, b. 29/1/04 in Uddevalia to director Henning M :son K. and Méry Alm-berg. Married on 30 m. Astrid Engström. Children: Arne b. 30, Birgit b. 34, Bengt b. 37, Bertil b. 39. — Completed high school in Uddevalda in 1923, law degree in Uppsala in 1933. City ombudsman in Kalmar since 1938. Captain in the Boll and Si. reserve regiment in 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Enar Michaél Koch\",\n  \"givenName\": \"Enar\",\n  \"additionalName\": \"Michaél\",\n  \"familyName\": \"Koch\",\n  \"birthDate\": \"1904-01-29\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Uddevalia\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Henning M :son K.\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Méry Almberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Engström\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne\",\n      \"birthDate\": \"1930-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1934-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1937-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil\",\n      \"birthDate\": \"1939-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"High school\",\n      \"educationalProgram\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Uddevalda\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"Juris Doctor\",\n      \"educationalProgram\": \"Jur. kand.\",\n      \"educationalInstitution\": \"Upp'S.\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"jobTitle\": \"City Ombudsman\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kalmar\"\n  },\n  \"startDate\": \"1938\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Boll and Si. reserve regiment\"\n  },\n  \"memberOfStartDate\": \"1942\",\n  \"memberOfEndDate\": \"1942\",\n  \"memberOfJobTitle\": \"Captain\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Enar Michaél Koch",
+        "givenName": "Enar",
+        "additionalName": "Michaél",
+        "familyName": "Koch",
+        "birthDate": "1904-01-29",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Uddevalia"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Henning M :son K.",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Méry Almberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Engström"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Arne",
+                "birthDate": "1930-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1934-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1937-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil",
+                "birthDate": "1939-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": "High school",
+                "educationalProgram": "Stud:ex.",
+                "educationalInstitution": "Uddevalda",
+                "startDate": "1923",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": "Juris Doctor",
+                "educationalProgram": "Jur. kand.",
+                "educationalInstitution": "Upp'S.",
+                "startDate": "1933",
+                "endDate": "1933"
+            }
+        ],
+        "jobTitle": "City Ombudsman",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Kalmar"
+        },
+        "startDate": "1938",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Boll and Si. reserve regiment"
+        },
+        "memberOfStartDate": "1942",
+        "memberOfEndDate": "1942",
+        "memberOfJobTitle": "Captain"
+    }
+}

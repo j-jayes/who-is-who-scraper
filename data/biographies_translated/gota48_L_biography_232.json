@@ -1,0 +1,87 @@
+{
+    "original": "Lindberg, Einar Harald, civilingenjör, Göteborg, f. 16/12/89 i Gbg av M. H. L. o. Maria Särnslröm. G. 18 m. Nanny Lundgren. Barn: Nils f. 19, repr., Birgit 21, Ingela 24. — Mog:ex. 08, civiling:ex. 11. Anst. v. Nya Fören. Elektr. A-B i Ludvika 12-16, STAL i Finspång 16-19, Elektr. A-B Eck i Partille 19-23, egen ing:firma 23-27, chef f. Sv. Elektromek. Ind. A-B filial i Gbg sed. 27.",
+    "translated": "Lindberg, Einar Harald, civil engineer, Gothenburg, born on 16/12/89 in Gothenburg to M. H. L. and Maria Särnslröm. Married in 1918 to Nanny Lundgren. Children: Nils, born in 1919, representative; Birgit, born in 1921; Ingela, born in 1924. Obtained a master's degree in engineering in 1908 and a civil engineering degree in 1911. Employed by Nya Fören. Elektr. A-B in Ludvika from 1912 to 1916, STAL in Finspång from 1916 to 1919, Elektr. A-B Eck in Partille from 1919 to 1923, had his own engineering firm from 1923 to 1927, and became the head of the Swedish Elektromek. Ind. A-B branch in Gothenburg since 1927.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Einar Harald Lindberg\",\n  \"birthDate\": \"1889-12-16\",\n  \"birthPlace\": \"Gothenburg\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Nanny Lundgren\",\n    \"marriageDate\": \"1918\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Lindberg\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit Lindberg\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingela Lindberg\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"master's degree\",\n      \"credentialSubject\": \"Engineering\",\n      \"dateReceived\": \"1908\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"civil engineering degree\",\n      \"credentialSubject\": \"Engineering\",\n      \"dateReceived\": \"1911\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nya Fören. Elektr. A-B\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1916\",\n      \"location\": \"Ludvika\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"STAL\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1919\",\n      \"location\": \"Finspång\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Elektr. A-B Eck\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1923\",\n      \"location\": \"Partille\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Own Engineering Firm\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Elektromek. Ind. A-B\",\n      \"branchOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Elektromek. Ind. A-B\",\n        \"location\": \"Gothenburg\"\n      },\n      \"startDate\": \"1927\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Einar Harald Lindberg",
+        "birthDate": "1889-12-16",
+        "birthPlace": "Gothenburg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Nanny Lundgren",
+            "marriageDate": "1918"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Nils Lindberg",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit Lindberg",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingela Lindberg",
+                "birthDate": "1924"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "master's degree",
+                "credentialSubject": "Engineering",
+                "dateReceived": "1908"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "civil engineering degree",
+                "credentialSubject": "Engineering",
+                "dateReceived": "1911"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Nya Fören. Elektr. A-B",
+                "startDate": "1912",
+                "endDate": "1916",
+                "location": "Ludvika"
+            },
+            {
+                "@type": "Organization",
+                "name": "STAL",
+                "startDate": "1916",
+                "endDate": "1919",
+                "location": "Finspång"
+            },
+            {
+                "@type": "Organization",
+                "name": "Elektr. A-B Eck",
+                "startDate": "1919",
+                "endDate": "1923",
+                "location": "Partille"
+            },
+            {
+                "@type": "Organization",
+                "name": "Own Engineering Firm",
+                "startDate": "1923",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Elektromek. Ind. A-B",
+                "branchOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Elektromek. Ind. A-B",
+                    "location": "Gothenburg"
+                },
+                "startDate": "1927"
+            }
+        ]
+    }
+}

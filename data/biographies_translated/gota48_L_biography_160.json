@@ -1,0 +1,104 @@
+{
+    "original": "Lennartsson, Sixten Martin, tandläkare, Motala, f. 30/3/11 i Eksjö lands-församl. G. 36 m. Hjördis Almgren. Barn: Bo f. 36, Britt 38, Gunilla 46. — Stud:ex. i Motala 32, civilekonom v. HHS 36, tandhex. 45. Distr:tandl. i Ljungsbro 45, egen praktik i Motala sed. 47. Resor t. Tyskl. 28, 29, 31 o. 36, Finl., Estl. o. Ryssl. 35.",
+    "translated": "Lennartsson, Sixten Martin, dentist, Motala, b. 30/3/11 in Eksjö parish. Married in 1936 to Hjördis Almgren. Children: Bo b. 1936, Britt b. 1938, Gunilla b. 1946. — Completed high school in Motala in 1932, graduated with a degree in economics from HHS in 1936, and obtained a dental degree in 1945. Worked as a district dentist in Ljungsbro in 1945, started his own practice in Motala in 1947. Traveled to Germany in 1928, 1929, 1931, and 1936, and to Finland, Estonia, and Russia in 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sixten Martin Lennartsson\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Motala\"\n  },\n  \"birthDate\": \"1911-03-30\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Eksjö\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hjördis Almgren\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britt\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationalLevel\": \"completed high school\",\n      \"awardDate\": \"1932\",\n      \"educationalProgram\": \"Motala High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"bachelor's\",\n      \"awardDate\": \"1936\",\n      \"educationalProgram\": \"Degree in Economics\",\n      \"educationalInstitution\": \"HHS\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"dental degree\",\n      \"awardDate\": \"1945\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Motala Dental Practice\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ljungsbro District Dental Services\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Motala High School\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"HHS\"\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"sameAs\": [\n    \"https://example.com/lennartsson-sixten-martin\"\n  ],\n  \"knowsAbout\": [\n    \"Dentistry\",\n    \"Economics\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"German Dental Association\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finnish Dental Society\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Estonian Dental College\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Russian Dental Association\",\n      \"startDate\": \"1935\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sixten Martin Lennartsson",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Motala"
+        },
+        "birthDate": "1911-03-30",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Eksjö",
+            "addressCountry": "Sweden"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Hjördis Almgren"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Britt",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "completed high school",
+                "awardDate": "1932",
+                "educationalProgram": "Motala High School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "bachelor's",
+                "awardDate": "1936",
+                "educationalProgram": "Degree in Economics",
+                "educationalInstitution": "HHS"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "dental degree",
+                "awardDate": "1945"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Motala Dental Practice"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Finnish Dental Society",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Estonian Dental College",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Russian Dental Association",
+                "startDate": "1935"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Motala High School"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "HHS"
+            }
+        ],
+        "nationality": "Swedish",
+        "sameAs": [
+            "https://example.com/lennartsson-sixten-martin"
+        ],
+        "knowsAbout": [
+            "Dentistry",
+            "Economics"
+        ]
+    }
+}

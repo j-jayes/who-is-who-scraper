@@ -1,0 +1,178 @@
+{
+    "original": "Linde, Erik, praktiserande läkare, Kalmar, f. 18/5/02 i Vellinge, Malmöh. 1., av distr :vet. Magnus L, o. Kerstin Ahlberg. G. 34 m. gymn:dir. Birgit Ohlsson. Barn: Gunilla f. 36, Håkan 39, Krister 42. — Stud:ex. i Malmö 21, med. kand. 26 o. med. hc. 34 i Lund. E. o. aman. v. anatom. inst. i Lund 24-26, aman. där 30, tf. e. prov:- o. järnv:läk. i Kävlinge distr. 31, 33 o. 34, assist :läk. v. Malmö allm. sjukh. med. avd. 32, assist :läk. samt tf. aman. v. pediatr. klin. i Lund, assist :läk. v. med. klin. där samt tf. und:läk. v. Flensburgska barnsjukh. 35, e. läk. samt tf. und:läk. v. epid:- sjukh. i Malmö 35-36, tf. aman. o. und:läk. v. pediatr. klin. i Lund 36, aman. där 37 o. und :läk. 38-41, läk. v. Kalmar epid:sjukh., barnav :centr., folk sk., komm. flicksk. samt å barn-avd. v. Kalmar las. sed. 42.",
+    "translated": "Linde, Erik, practicing doctor, Kalmar, b. 18/5/02 in Vellinge, Malmöhus. 1st child of veterinarian Magnus L and Kerstin Ahlberg. Married in 1934 to physical education director Birgit Ohlsson. Children: Gunilla b. 1936, Håkan b. 1939, Krister b. 1942. — High school graduate in Malmö 1921, Bachelor of Medicine in Lund 1926, and Doctor of Medicine with a specialization in Obstetrics and Gynecology in Lund 1934. Extraordinary assistant and trainee at the Department of Anatomy in Lund 1924-1926, assistant there in 1930, temporary deputy medical officer in the Kävlinge district in 1931, 1933, and 1934, assistant physician at the General Hospital in Malmö, Medical Department in 1932, assistant physician and temporary assistant at the Pediatric Clinic in Lund, assistant physician at the Medical Clinic in Lund, and temporary intern at the Flensburg Children's Hospital in 1935, resident medical officer and temporary intern at the Epidemic Hospital in Malmö in 1935-1936, temporary assistant and intern at the Pediatric Clinic in Lund in 1936, assistant there in 1937, and temporary intern from 1938 to 1941, physician at the Kalmar Epidemic Hospital, Child Welfare Center, Public School, County Girls' School, and Children's Ward at the Kalmar Hospital since 1942.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Linde\",\n  \"birthDate\": \"1902-05-18\",\n  \"birthPlace\": \"Vellinge, Malmöhus\",\n  \"jobTitle\": \"Practicing Doctor\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar Epidemic Hospital\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Child Welfare Center\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Public School\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County Girls' School\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Children's Ward at Kalmar Hospital\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Magnus L\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Ahlberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgit Ohlsson\",\n    \"jobTitle\": \"Physical Education Director\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Linde\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Håkan Linde\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Krister Linde\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"High School\",\n      \"mainEntityOfPage\": \"http://example.com/malmo-high-school\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Med. Kand.\",\n      \"educationalLevel\": \"Bachelor of Medicine\",\n      \"mainEntityOfPage\": \"http://example.com/lund-university\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Med. Hc.\",\n      \"educationalLevel\": \"Doctor of Medicine\",\n      \"specialty\": \"Obstetrics and Gynecology\",\n      \"mainEntityOfPage\": \"http://example.com/lund-university\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"specialty\": \"Anatomy\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund University\",\n        \"department\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Department of Anatomy\"\n        }\n      },\n      \"startDate\": \"1924\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Extraordinary Assistant and Trainee\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"specialty\": \"Pediatrics\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund University\",\n        \"department\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Pediatric Clinic\"\n        }\n      },\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Assistant\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"specialty\": \"Medical Officer\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kävlinge District\"\n      },\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\",\n      \"jobTitle\": \"Temporary Deputy Medical Officer\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"specialty\": \"Medical Officer\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö General Hospital\",\n        \"department\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Medical Department\"\n        }\n      },\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\",\n      \"jobTitle\": \"Assistant Physician\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"specialty\": \"Pediatrics\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund University\",\n        \"department\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Pediatric Clinic\"\n        }\n      },\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\",\n      \"jobTitle\": \"Temporary Intern\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"specialty\": \"Obstetrics and Gynecology\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö Epidemic Hospital\"\n      },\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"jobTitle\": \"Resident Medical Officer and Temporary Intern\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Erik Linde",
+        "birthDate": "1902-05-18",
+        "birthPlace": "Vellinge, Malmöhus",
+        "jobTitle": "Practicing Doctor",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Kalmar Epidemic Hospital"
+            },
+            {
+                "@type": "Organization",
+                "name": "Child Welfare Center"
+            },
+            {
+                "@type": "Organization",
+                "name": "Public School"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Girls' School"
+            },
+            {
+                "@type": "Organization",
+                "name": "Children's Ward at Kalmar Hospital"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Magnus L"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Ahlberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgit Ohlsson",
+            "jobTitle": "Physical Education Director"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla Linde",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Håkan Linde",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Krister Linde",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "High School",
+                "mainEntityOfPage": "http://example.com/malmo-high-school",
+                "startDate": "1921",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Med. Kand.",
+                "educationalLevel": "Bachelor of Medicine",
+                "mainEntityOfPage": "http://example.com/lund-university",
+                "startDate": "1926",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Med. Hc.",
+                "educationalLevel": "Doctor of Medicine",
+                "specialty": "Obstetrics and Gynecology",
+                "mainEntityOfPage": "http://example.com/lund-university",
+                "startDate": "1934",
+                "endDate": "1934"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalSpecialty",
+                "specialty": "Anatomy",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Lund University",
+                    "department": {
+                        "@type": "Organization",
+                        "name": "Department of Anatomy"
+                    }
+                },
+                "startDate": "1924",
+                "endDate": "1926",
+                "jobTitle": "Extraordinary Assistant and Trainee"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "specialty": "Pediatrics",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Lund University",
+                    "department": {
+                        "@type": "Organization",
+                        "name": "Pediatric Clinic"
+                    }
+                },
+                "startDate": "1930",
+                "endDate": "1930",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "specialty": "Medical Officer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Kävlinge District"
+                },
+                "startDate": "1931",
+                "endDate": "1931",
+                "jobTitle": "Temporary Deputy Medical Officer"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "specialty": "Medical Officer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Malmö General Hospital",
+                    "department": {
+                        "@type": "Organization",
+                        "name": "Medical Department"
+                    }
+                },
+                "startDate": "1932",
+                "endDate": "1932",
+                "jobTitle": "Assistant Physician"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "specialty": "Pediatrics",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Lund University",
+                    "department": {
+                        "@type": "Organization",
+                        "name": "Pediatric Clinic"
+                    }
+                },
+                "startDate": "1935",
+                "endDate": "1935",
+                "jobTitle": "Temporary Intern"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "specialty": "Obstetrics and Gynecology",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Malmö Epidemic Hospital"
+                },
+                "startDate": "1935",
+                "endDate": "1936",
+                "jobTitle": "Resident Medical Officer and Temporary Intern"
+            }
+        ]
+    }
+}

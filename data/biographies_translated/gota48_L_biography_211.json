@@ -1,0 +1,89 @@
+{
+    "original": "Lindh, Martha Victoria, ämneslärarinna, Lidköping, f. 11/3/93 i Var-berg av hälsov :insp. Johan Ernst L. o. Sofie Emilia Nilsson. — Fil. mag. 18 o. provår 28-29 i Gbg. Lär. v. Lidköp. elemi-lärov. f. fi. 20-28, vik. ämneslär. v. Lidköp. samrealsk. 29-30, ämneslär. i tyska o. franska samt tillsyn :lär. där 30, bibi. sed. 31, adj. där i tyska, eng. o. franska sed. 47. Res. t. Tyskl., Engl. o. Frankr.",
+    "translated": "Lindh, Martha Victoria, subject teacher, Lidköping, b. 11/3/93 in Varberg to health inspector Johan Ernst L. and Sofie Emilia Nilsson. — Master of Arts 18 and teaching internship 28-29 in Gothenburg. Teacher at Lidköping elementary school 20-28, substitute subject teacher at Lidköping secondary school 29-30, subject teacher in German and French as well as supervisor there 30, librarian since 31, adjunct teacher there in German, English, and French since 47. Traveled to Germany, England, and France.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Martha Victoria Lindh\",\n  \"jobTitle\": \"Subject Teacher\",\n  \"birthDate\": \"1893-03-11\",\n  \"birthPlace\": \"Varberg, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Ernst Lindh\",\n      \"jobTitle\": \"Health Inspector\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofie Emilia Nilsson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"masters\",\n      \"credentialSubject\": \"Arts\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teaching internship\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\",\n      \"recognizedBy\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg\"\n      }\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Lidköping Elementary School\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lidköping Secondary School\",\n      \"roleName\": \"Substitute Subject Teacher\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lidköping Secondary School\",\n      \"roleName\": \"Subject Teacher\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1947\",\n      \"supervisor\": true,\n      \"teaches\": [\"German\", \"French\"]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lidköping Secondary School\",\n      \"roleName\": \"Librarian\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lidköping Secondary School\",\n      \"roleName\": \"Adjunct Teacher\",\n      \"startDate\": \"1947\",\n      \"teaches\": [\"German\", \"English\", \"French\"]\n    }\n  ],\n  \"travelledTo\": [\"Germany\", \"England\", \"France\"]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Martha Victoria Lindh",
+        "jobTitle": "Subject Teacher",
+        "birthDate": "1893-03-11",
+        "birthPlace": "Varberg, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Ernst Lindh",
+                "jobTitle": "Health Inspector"
+            },
+            {
+                "@type": "Person",
+                "name": "Sofie Emilia Nilsson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "masters",
+                "credentialSubject": "Arts",
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teaching internship",
+                "startDate": "1928",
+                "endDate": "1929",
+                "recognizedBy": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg"
+                }
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Lidköping Elementary School"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Lidköping Secondary School",
+                "roleName": "Substitute Subject Teacher",
+                "startDate": "1929",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lidköping Secondary School",
+                "roleName": "Subject Teacher",
+                "startDate": "1930",
+                "endDate": "1947",
+                "supervisor": true,
+                "teaches": [
+                    "German",
+                    "French"
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Lidköping Secondary School",
+                "roleName": "Librarian",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lidköping Secondary School",
+                "roleName": "Adjunct Teacher",
+                "startDate": "1947",
+                "teaches": [
+                    "German",
+                    "English",
+                    "French"
+                ]
+            }
+        ],
+        "travelledTo": [
+            "Germany",
+            "England",
+            "France"
+        ]
+    }
+}

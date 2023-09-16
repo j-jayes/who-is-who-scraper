@@ -1,0 +1,105 @@
+{
+    "original": "Lindedal, Styrbjörn, kapellmästare, Göteborg, f. 5/11/04 i Münster, Tyskl., av språklär. Ammon L. o. Ingrid Ericsson. G. 39 m. skådesp:an Alice Sterner. — Pianostud. f. Knut Bäck, teoret. stud. f. Max Donisch o. Georg Vollerthun i Berlin, dirig. f. Felix von Weingartner i Basel Anst. v. Stora teat. i Gbg som kapellmäst. 27, har som gäst dirig. bl. a. orkester-fören. i Gbg o. Malmö samt framträtt på Kgl. Teat., init :tag. t. Gbgs ja-nitscharorkester o. har m. denna konsert. på Lisebergs nöjesfält o. i radio, står fr. 41 i spetsen f. egen kammarorkester, fr. 47 tills. m. Einar Hjorth led. f. Gbgs sommarteater. Komp. musik t. flera skådespel, bl. a. Gamla Heidelberg, samt bearb. åtskilliga verk.",
+    "translated": "Lindedal, Styrbjörn, conductor, Gothenburg, b. 5/11/04 in Münster, Germany, son of language teacher Ammon L. and Ingrid Ericsson. Married in 1939 to actress Alice Sterner. – Studied piano with Knut Bäck, theoretical studies with Max Donisch and Georg Vollerthun in Berlin, conducted under Felix von Weingartner in Basel. Employed at the Gothenburg Grand Theatre as a conductor since 1927, also conducted as a guest for orchestral associations in Gothenburg and Malmö, as well as performing at the Royal Theatre. Initiated the Gothenburg Yiddish Orchestra and has performed concerts with them at Liseberg Amusement Park and on the radio. Since 1941, leading own chamber orchestra, and since 1947, jointly with Einar Hjorth, leading the Gothenburg Summer Theater. Composed music for several plays, including \"Old Heidelberg,\" and arranged numerous works.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Styrbjörn Lindedal\",\n  \"description\": \"Conductor, Gothenburg\",\n  \"birthDate\": \"1904-11-05\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Münster\",\n      \"addressCountry\": \"Germany\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ammon L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Ericsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alice Sterner\",\n    \"occupation\": \"Actress\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"piano\",\n    \"credential\": \"studied with Knut Bäck\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"MusicConductor\",\n    \"name\": \"Gothenburg Grand Theatre\",\n    \"startDate\": \"1927-01-01\"\n  },\n  \"guestConducting\": [\n    {\n      \"@type\": \"MusicConductor\",\n      \"name\": \"Gothenburg Orchestral Association\"\n    },\n    {\n      \"@type\": \"MusicConductor\",\n      \"name\": \"Malmö Orchestral Association\"\n    },\n    {\n      \"@type\": \"MusicConductor\",\n      \"name\": \"Royal Theatre\"\n    }\n  ],\n  \"founding\": {\n    \"@type\": \"MusicGroup\",\n    \"name\": \"Gothenburg Yiddish Orchestra\"\n  },\n  \"concertPerformances\": [\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Liseberg Amusement Park Concerts\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Radio Concerts\"\n    }\n  ],\n  \"chamberOrchestra\": {\n    \"@type\": \"MusicGroup\",\n    \"name\": \"Styrbjörn Lindedal Chamber Orchestra\",\n    \"startDate\": \"1941-01-01\"\n  },\n  \"gothenburgSummerTheater\": {\n    \"@type\": \"TheaterGroup\",\n    \"name\": \"Gothenburg Summer Theater\",\n    \"leaders\": [\n      {\n        \"@type\": \"Person\",\n        \"name\": \"Styrbjörn Lindedal\"\n      },\n      {\n        \"@type\": \"Person\",\n        \"name\": \"Einar Hjorth\"\n      }\n    ],\n    \"startDate\": \"1947-01-01\"\n  },\n  \"compositions\": [\n    {\n      \"@type\": \"MusicComposition\",\n      \"name\": \"Gamla Heidelberg\"\n    }\n  ],\n  \"arrangements\": [\n    {\n      \"@type\": \"MusicComposition\",\n      \"name\": \"Various Works\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Styrbjörn Lindedal",
+        "description": "Conductor, Gothenburg",
+        "birthDate": "1904-11-05",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Münster",
+                "addressCountry": "Germany"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ammon L."
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Ericsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Alice Sterner",
+            "occupation": "Actress"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "piano",
+            "credential": "studied with Knut Bäck"
+        },
+        "hasOccupation": {
+            "@type": "MusicConductor",
+            "name": "Gothenburg Grand Theatre",
+            "startDate": "1927-01-01"
+        },
+        "guestConducting": [
+            {
+                "@type": "MusicConductor",
+                "name": "Gothenburg Orchestral Association"
+            },
+            {
+                "@type": "MusicConductor",
+                "name": "Malmö Orchestral Association"
+            },
+            {
+                "@type": "MusicConductor",
+                "name": "Royal Theatre"
+            }
+        ],
+        "founding": {
+            "@type": "MusicGroup",
+            "name": "Gothenburg Yiddish Orchestra"
+        },
+        "concertPerformances": [
+            {
+                "@type": "Event",
+                "name": "Liseberg Amusement Park Concerts"
+            },
+            {
+                "@type": "Event",
+                "name": "Radio Concerts"
+            }
+        ],
+        "chamberOrchestra": {
+            "@type": "MusicGroup",
+            "name": "Styrbjörn Lindedal Chamber Orchestra",
+            "startDate": "1941-01-01"
+        },
+        "gothenburgSummerTheater": {
+            "@type": "TheaterGroup",
+            "name": "Gothenburg Summer Theater",
+            "leaders": [
+                {
+                    "@type": "Person",
+                    "name": "Styrbjörn Lindedal"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Einar Hjorth"
+                }
+            ],
+            "startDate": "1947-01-01"
+        },
+        "compositions": [
+            {
+                "@type": "MusicComposition",
+                "name": "Gamla Heidelberg"
+            }
+        ],
+        "arrangements": [
+            {
+                "@type": "MusicComposition",
+                "name": "Various Works"
+            }
+        ]
+    }
+}

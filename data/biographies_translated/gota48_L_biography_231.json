@@ -1,0 +1,82 @@
+{
+    "original": "Lindberg, Carl-Gustav Gabriel, komminister, Linköping, f. 24/3/81 i Björkvik, Södermani. L, av foiksk :lär. Anders Gustaf L. o. Charlotta Brinck. G. 10 m. Jenny Marie-Louise Gustafson. Barn: Sten f. 14, ing. v. SAAB, Linköp., Gertrud 15, g. m. major Henrik Nordström, Gbg. — Stud:ex. i Sthlm 19, prästv. f. Linköp. stift 21. Ständig adj. i S:t-Anna 21-27, kyrkoadj. i Linköp. 27, kommin. där sed. 40.",
+    "translated": "Lindberg, Carl-Gustav Gabriel, clergyman, Linköping, b. 24/3/81 in Björkvik, Södermani. Son of farmer Anders Gustaf L. and Charlotta Brinck. Married on 10/ m. Jenny Marie-Louise Gustafson. Children: Sten b. 14, working at SAAB, Linköping, Gertrud b. 15, married to Major Henrik Nordström, Gothenburg. — High school graduation in Stockholm 19, ordained as a priest for Linköping diocese in 21. Permanent curate in S:t-Anna 21-27, vicarage curate in Linköping 27, serving as curate there since 40.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Carl-Gustav Gabriel\",\n  \"familyName\": \"Lindberg\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1881-03-24\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Björkvik\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Södermani\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Gustaf L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Charlotta Brinck\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jenny Marie-Louise Gustafson\",\n    \"marriageDate\": \"1910-10\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sten\",\n      \"birthDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gertrud\",\n      \"birthDate\": \"1915\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"High school graduation\",\n    \"startDate\": \"1919\",\n    \"location\": \"Stockholm\"\n  },\n  \"occupation\": {\n    \"@type\": \"Person\",\n    \"name\": \"Clergyman\",\n    \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping\"\n    }\n  },\n  \"ordination\": {\n    \"@type\": \"Event\",\n    \"name\": \"Ordination as priest\",\n    \"startDate\": \"1921\",\n    \"location\": \"Linköping Diocese\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Permanent curate in S:t-Anna\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Event\",\n      \"name\": \"Vicarage curate in Linköping\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1940\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Carl-Gustav Gabriel",
+        "familyName": "Lindberg",
+        "gender": "Male",
+        "birthDate": "1881-03-24",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Björkvik",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Södermani"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anders Gustaf L."
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotta Brinck"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Jenny Marie-Louise Gustafson",
+            "marriageDate": "1910-10"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sten",
+                "birthDate": "1914"
+            },
+            {
+                "@type": "Person",
+                "name": "Gertrud",
+                "birthDate": "1915"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "High school graduation",
+            "startDate": "1919",
+            "location": "Stockholm"
+        },
+        "occupation": {
+            "@type": "Person",
+            "name": "Clergyman",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Linköping"
+            }
+        },
+        "ordination": {
+            "@type": "Event",
+            "name": "Ordination as priest",
+            "startDate": "1921",
+            "location": "Linköping Diocese"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Event",
+                "name": "Permanent curate in S:t-Anna",
+                "startDate": "1921",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Event",
+                "name": "Vicarage curate in Linköping",
+                "startDate": "1927",
+                "endDate": "1940"
+            }
+        ]
+    }
+}

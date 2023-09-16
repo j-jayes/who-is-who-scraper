@@ -1,0 +1,98 @@
+{
+    "original": "Lagerlöf, Nils Holger, apotekare, Marstrand, f. 6/8/07 i Kungälv av med. lic. Carl Danied L. o. Elin Röing. G. 35 m. farm. kand. Brita Thörn. Barn: Johan Daniel f. 37, d. 42, Elisabeth 42. — Stud :ex. i Gbg 25, farm. kand. 29, apot:ex. 33. Elev v. apot. Kronan i Gbg 26-28, anst. v. Svanen i Gbg, Hjorten i Gbg 29-31, Vasen i Gbg 33-46, priv. å apot. i Marstrand sed. 46.",
+    "translated": "Lagerlöf, Nils Holger, pharmacist, Marstrand, born on August 6, 1907 in Kungälv, son of medical licentiate Carl Daniel L. and Elin Röing. Married in 1935 to pharmaceutical candidate Brita Thörn. Children: Johan Daniel born in 1937, died in 1942, Elisabeth born in 1942. Education: graduated from Gothenburg University in 1925, pharmaceutical candidate in 1929, pharmacy exam in 1933. Apprentice at Kronan pharmacy in Gothenburg from 1926-1928, employed at Svanen pharmacy in Gothenburg, Hjorten pharmacy in Gothenburg from 1929-1931, Vasen pharmacy in Gothenburg from 1933-1946. Private practice at a pharmacy in Marstrand since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Holger Lagerlöf\",\n  \"birthDate\": \"1907-08-06\",\n  \"birthPlace\": \"Kungälv, Sweden\",\n  \"description\": \"Pharmacist\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Daniel Lagerlöf\",\n      \"license\": \"Medical Licentiate\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Röing\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Thörn\",\n    \"education\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Pharmaceutical Candidate\"\n    }\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Daniel Lagerlöf\",\n      \"birthDate\": \"1937\",\n      \"deathDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabeth Lagerlöf\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg University\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Pharmaceutical Candidate\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Pharmacy Exam\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kronan Pharmacy\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Svanen Pharmacy\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hjorten Pharmacy\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vasen Pharmacy\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1946\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private Pharmacy\",\n      \"startDate\": \"1946\",\n      \"location\": \"Marstrand\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Holger Lagerlöf",
+        "birthDate": "1907-08-06",
+        "birthPlace": "Kungälv, Sweden",
+        "description": "Pharmacist",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Daniel Lagerlöf",
+                "license": "Medical Licentiate"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Röing"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Thörn",
+            "education": {
+                "@type": "EducationalOrganization",
+                "name": "Pharmaceutical Candidate"
+            }
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Johan Daniel Lagerlöf",
+                "birthDate": "1937",
+                "deathDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Elisabeth Lagerlöf",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg University",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Pharmaceutical Candidate",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Pharmacy Exam",
+                "endDate": "1933"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Kronan Pharmacy",
+                "startDate": "1926",
+                "endDate": "1928",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Svanen Pharmacy",
+                "startDate": "1929",
+                "endDate": "1931",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hjorten Pharmacy",
+                "startDate": "1929",
+                "endDate": "1931",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vasen Pharmacy",
+                "startDate": "1933",
+                "endDate": "1946",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Private Pharmacy",
+                "startDate": "1946",
+                "location": "Marstrand"
+            }
+        ]
+    }
+}

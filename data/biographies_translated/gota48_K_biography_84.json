@@ -1,0 +1,85 @@
+{
+    "original": "Kirudd, Elsa Gunborg Kristina, fil. mag., Borås, f. 10/2/08 i Jukkasjärvi, Norrb. 1., av groisshandl. Bror K. o. Sofia Eriksson. — Studiex. i Uddevalla 28, fri. mag. 33, provår i Sthlm 41-42. Res. t. Tyskl. 34, 37 o. 39. E. lär. i Uddevalla 36, Skara 36-41, Norrmalms flicksk. i Sthlm 41-42 o. 42-43, Västerås 43-44, e. o. adj. i Jönköp. 44-45, adj. i modersm. o. tyska v. Borås h. a. 1. sed. 45.",
+    "translated": "Kirudd, Elsa Gunborg Kristina, Master of Arts, Borås, b. 10/2/08 in Jukkasjärvi, Norrbotten County, eldest daughter of wholesale merchant Bror K. and Sofia Eriksson. — Completed upper secondary education in Uddevalla in 1928, graduated with a Master's degree in 1933, spent an additional year studying in Stockholm from 1941-1942. Traveled to Germany in 1934, 1937, and 1939. Employed as a teacher in Uddevalla from 1936, in Skara from 1936-1941, at Norrmalms girls' school in Stockholm from 1941-1942 and 1942-1943, in Västerås from 1943-1944, served as substitute teacher in Jönköping in 1944-1945, and has been a permanent teacher of mother tongue and German at Borås high school since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Elsa Gunborg Kristina Kirudd\",\n  \"birthDate\": \"1908-02-10\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Jukkasjärvi, Norrbotten County, Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bror K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofia Eriksson\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Uddevalla\",\n    \"endDate\": \"1928\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Stockholm\",\n    \"startDate\": \"1941\",\n    \"endDate\": \"1942\"\n  },\n  \"degree\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Master of Arts\",\n    \"dateAwarded\": \"1933\"\n  },\n  \"travelHistory\": [\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Teacher\",\n    \"Adjunct\"\n  ],\n  \"worksFor\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Uddevalla\"\n  },\n  \"worksFor\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Skara\"\n  },\n  \"worksFor\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Norrmalms girls' school\"\n  },\n  \"worksFor\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Västerås\"\n  },\n  \"worksFor\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Jönköping\"\n  },\n  \"worksFor\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Borås high school\"\n  },\n  \"startDate\": [\n    \"1936\",\n    \"1941\",\n    \"1942\",\n    \"1943\",\n    \"1944\",\n    \"1945\"\n  ],\n  \"endDate\": [\n    \"1941\",\n    \"1942\",\n    \"1943\",\n    \"1944\",\n    \"1945\",\n    null\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Elsa Gunborg Kristina Kirudd",
+        "birthDate": "1908-02-10",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Jukkasjärvi, Norrbotten County, Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Bror K."
+            },
+            {
+                "@type": "Person",
+                "name": "Sofia Eriksson"
+            }
+        ],
+        "education": {
+            "@type": "CollegeOrUniversity",
+            "name": "Uddevalla",
+            "endDate": "1928"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Stockholm",
+            "startDate": "1941",
+            "endDate": "1942"
+        },
+        "degree": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Master of Arts",
+            "dateAwarded": "1933"
+        },
+        "travelHistory": [
+            {
+                "@type": "Country",
+                "name": "Germany",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Country",
+                "name": "Germany",
+                "startDate": "1937",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Country",
+                "name": "Germany",
+                "startDate": "1939",
+                "endDate": "1939"
+            }
+        ],
+        "jobTitle": [
+            "Teacher",
+            "Adjunct"
+        ],
+        "worksFor": {
+            "@type": "EducationalOrganization",
+            "name": "Borås high school"
+        },
+        "startDate": [
+            "1936",
+            "1941",
+            "1942",
+            "1943",
+            "1944",
+            "1945"
+        ],
+        "endDate": [
+            "1941",
+            "1942",
+            "1943",
+            "1944",
+            "1945",
+            null
+        ]
+    }
+}

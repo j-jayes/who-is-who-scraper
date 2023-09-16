@@ -1,0 +1,93 @@
+{
+    "original": "Johannesson, Josef Ragnar, tandläkare, Kalmar, f. 3/12/07 i Oskarshamn av virkeshandl. Adolf J. o. Fredrika Lindström. G. 38 m. Wasti Herne. Barn: Håkan f. 39, Bengt 42, Per 45. — Stud:ex. i Kalmar 26, med. kand. i Upps. 31, tandl. 33. Prakt, i Kalmar sed. 34. Sekr. i Kalmar 1. tandl :sälls’k. 36-37. Hobbies: jakt o. fiske.",
+    "translated": "Johannesson, Josef Ragnar, dentist, Kalmar, born on December 3, 1907 in Oskarshamn to timber merchant Adolf J. and Fredrika Lindström. Married in 1938 to Wasti Herne. Children: Håkan born in 1939, Bengt in 1942, Per in 1945. Completed secondary school in Kalmar in 1926, obtained a bachelor's in medicine in Uppsala in 1931, and graduated as a dentist in 1933. Started practicing in Kalmar in 1934. Secretary of the Kalmar Dental Association from 1936-1937. Hobbies: hunting and fishing.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Josef Ragnar Johannesson\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Kalmar\"\n  },\n  \"birthDate\": \"1907-12-03\",\n  \"birthPlace\": \"Oskarshamn\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Adolf J. Johannesson\",\n    \"occupation\": \"Timber Merchant\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Fredrika Lindström\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Wasti Herne\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Håkan\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary school\",\n      \"educationalLevel\": \"Stud:ex. in Kalmar 1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's in medicine\",\n      \"educationalLevel\": \"Med. kand. in Uppsala 1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dentist\",\n      \"educationalLevel\": \"Graduated as a dentist 1933\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1934\",\n      \"endDate\": null,\n      \"roleName\": \"Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Practiced in Kalmar\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\",\n      \"roleName\": \"Secretary\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar Dental Association\"\n      }\n    }\n  ],\n  \"sameAs\": [\n    \"http://example.com/josef-ragnar-johannesson\"\n  ],\n  \"hobbies\": [\n    \"Hunting\",\n    \"Fishing\"\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Josef Ragnar Johannesson",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kalmar"
+        },
+        "birthDate": "1907-12-03",
+        "birthPlace": "Oskarshamn",
+        "father": {
+            "@type": "Person",
+            "name": "Adolf J. Johannesson",
+            "occupation": "Timber Merchant"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Fredrika Lindström"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Wasti Herne"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Håkan",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Per",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary school",
+                "educationalLevel": "Stud:ex. in Kalmar 1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's in medicine",
+                "educationalLevel": "Med. kand. in Uppsala 1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentist",
+                "educationalLevel": "Graduated as a dentist 1933"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1934",
+                "endDate": null,
+                "roleName": "Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Practiced in Kalmar"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "endDate": "1937",
+                "roleName": "Secretary",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Kalmar Dental Association"
+                }
+            }
+        ],
+        "sameAs": [
+            "http://example.com/josef-ragnar-johannesson"
+        ],
+        "hobbies": [
+            "Hunting",
+            "Fishing"
+        ]
+    }
+}

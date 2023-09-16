@@ -1,0 +1,104 @@
+{
+    "original": "Lindblad, Hugo Stefan, arkitekt SAR, Trollhättan, f. 4/7/97 i Bjuv, Malmöh. 1., av bergsing. Robert L. o Agnes Bergström. G. 27 m. Signe Bo-beck. Barn: Inga f. 30, Ann Mari o. Britta 38. — Utex. fr. CTH 19, stud. v. Univ. of Michigan, USA, 26. Anst, v. arkitikont. i USA 20-3’5, egen arkit:-verksamb. sed. 37. Byggn :konsulent i Bengtsfors, Mellerud, Ed o. Bäckefors.",
+    "translated": "Lindblad, Hugo Stefan, architect SAR, Trollhättan, b. 4/7/1897 in Bjuv, Malmöhus County. Firstborn son of miner Robert L. and Agnes Bergström. Married on the 27th of the month \n\nwith Signe Bo-beck. Children: Inga b. 1930, Ann Mari and Britta b. 1938. — Graduated from CTH in 1919, studied at the University of Michigan, USA, 1926. Employed at architectural firms in the USA from 1920-1935, began his own architectural business in 1937. Provided building consultancy services in Bengtsfors, Mellerud, Ed, and Bäckefors.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Hugo Stefan Lindblad\",\n   \"birthDate\":\"1897-07-04\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Bjuv\",\n      \"address\":{\n         \"@type\":\"PostalAddress\",\n         \"addressRegion\":\"Malmöhus County\"\n      }\n   },\n   \"memberOf\":[\n      {\n         \"@type\": \"OrganizationRole\",\n         \"member\": {\n            \"@type\": \"Organization\",\n            \"name\": \"CTH\"\n         },\n         \"startDate\": \"1919\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"member\": {\n            \"@type\": \"Organization\",\n            \"name\": \"University of Michigan\"\n         },\n         \"startDate\": \"1926\"\n      }\n   ],\n   \"occupation\":\"Architect\",\n   \"affiliation\":{\n      \"@type\":\"Organization\",\n      \"name\":\"SAR\"\n   },\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Trollhättan\"\n   },\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Robert L. Bergström\",\n         \"birthDate\":\"unknown\",\n         \"occupation\":\"Miner\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Agnes Bergström\",\n         \"birthDate\":\"unknown\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Signe Bo-beck\",\n      \"marriageDate\":\"unknown\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Inga Lindblad\",\n         \"birthDate\":\"1930\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Ann Mari Lindblad\",\n         \"birthDate\":\"1938\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Britta Lindblad\",\n         \"birthDate\":\"1938\"\n      }\n   ],\n   \"worksFor\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Architectural Firms in USA\",\n         \"startDate\":\"1920\",\n         \"endDate\":\"1935\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Own Architectural Business\",\n         \"startDate\":\"1937\"\n      }\n   ],\n   \"buildingConsultancy\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Building Consultancy Services\",\n      \"areasServed\":[\n         \"Bengtsfors\",\n         \"Mellerud\",\n         \"Ed\",\n         \"Bäckefors\"\n      ]\n   }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hugo Stefan Lindblad",
+        "birthDate": "1897-07-04",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Bjuv",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Malmöhus County"
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "OrganizationRole",
+                "member": {
+                    "@type": "Organization",
+                    "name": "CTH"
+                },
+                "startDate": "1919"
+            },
+            {
+                "@type": "OrganizationRole",
+                "member": {
+                    "@type": "Organization",
+                    "name": "University of Michigan"
+                },
+                "startDate": "1926"
+            }
+        ],
+        "occupation": "Architect",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "SAR"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Trollhättan"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Robert L. Bergström",
+                "birthDate": "unknown",
+                "occupation": "Miner"
+            },
+            {
+                "@type": "Person",
+                "name": "Agnes Bergström",
+                "birthDate": "unknown"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Bo-beck",
+            "marriageDate": "unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inga Lindblad",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann Mari Lindblad",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Britta Lindblad",
+                "birthDate": "1938"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Architectural Firms in USA",
+                "startDate": "1920",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Own Architectural Business",
+                "startDate": "1937"
+            }
+        ],
+        "buildingConsultancy": {
+            "@type": "Organization",
+            "name": "Building Consultancy Services",
+            "areasServed": [
+                "Bengtsfors",
+                "Mellerud",
+                "Ed",
+                "Bäckefors"
+            ]
+        }
+    }
+}

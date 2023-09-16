@@ -1,0 +1,84 @@
+{
+    "original": "Lindberg, Stig Martin, tandläkare, Alingsås, f. 12/7/04 i Kristinehamn av disp. Carl Fredrik L. o. Hilma Söderström. G. 34 m. May Wicknertz. Barn: Barbro f. 35, Margareta 36, Anders o. Stig 40. — Stud:ex. i Malmö 25, tandhkand. 28, tandl. 30. Vik. i Lindesberg 30, prakt, i Alingsås sed. 31. Medl. av Frimurarorden o. Göt. förb.",
+    "translated": "Lindberg, Stig Martin, dentist, Alingsås, b. 12/7/04 in Kristinehamn to unmarried parents Carl Fredrik L. and Hilma Söderström. Married in 1934 to May Wicknertz. Children: Barbro b. 1935, Margareta b. 1936, Anders and Stig b. 1940. — Graduated from Malmö School 1925, dental studies completed in 1928, became a dentist in 1930. Worked temporarily in Lindesberg in 1930, started practicing in Alingsås in 1931. Member of the Freemasonry Order and the Götaland Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Stig Martin Lindberg\",\n  \"birthDate\": \"1904-07-12\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Kristinehamn\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Fredrik Lindberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Söderström\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Dentistry\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Alingsås\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"May Wicknertz\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro Lindberg\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Lindberg\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Lindberg\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig Lindberg\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Malmö School\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"knowsAbout\": [\n    \"Freemasonry\",\n    \"Götaland Association\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göt. förb\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Stig Martin Lindberg",
+        "birthDate": "1904-07-12",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Kristinehamn"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Fredrik Lindberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Söderström"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Dentistry"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Alingsås"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "May Wicknertz",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Barbro Lindberg",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta Lindberg",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Lindberg",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Stig Lindberg",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Malmö School",
+                "startDate": "1925",
+                "endDate": "1928"
+            }
+        ],
+        "knowsAbout": [
+            "Freemasonry",
+            "Götaland Association"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            },
+            {
+                "@type": "Organization",
+                "name": "Göt. förb"
+            }
+        ]
+    }
+}

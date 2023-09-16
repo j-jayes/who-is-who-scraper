@@ -1,0 +1,87 @@
+{
+    "original": "Lilljegren, Rakel Miriam:; ingenjör, Göteborg, f. 18/8/17 i Gbg av Boris o. Agda Scharkowitzh. G. 45 m. civil-ing. SVR Nils Lilljegren. Barn: Leni f. 46. — Realex. 34, Slöjdfören. skola i Gbg 35, ing:ex. v. Gbgs tekn. inst. 44, stud. v. Valands mål:sk. fr. 47. Anst. v. Nestle Scandinavian Comp. 44, Sv. Oljeslag. A-B 45, A-B Flyg-fältsbyrån 46-47. Hobbies: målning, skulptur o. florettfäktning.",
+    "translated": "Lilljegren, Rakel Miriam: engineer, Gothenburg, b. 18/8/17 in Gothenburg to Boris and Agda Scharkowitzh. Married in 1945 to civil engineer Nils Lilljegren. Children: Leni b. 1946. Completed Realexams in 1934, attended Slöjdfören's school in Gothenburg in 1935, graduated with a degree in engineering from Gothenburg Technical Institute in 1944, studied at Valand's painting school from 1947. Employed at Nestle Scandinavian Company in 1944, Svenska Oljeslagning AB in 1945, AB Flygfältsbyrån from 1946 to 1947. Hobbies: painting, sculpture, and fencing with the foil.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Rakel Miriam Lilljegren\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1917-08-18\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Boris Scharkowitzh\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agda Scharkowitzh\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Nils Lilljegren\",\n    \"jobTitle\": \"Civil Engineer\",\n    \"startDate\": \"1945\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leni Lilljegren\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Realexams\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Slöjdfören's school\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Engineering\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1944\",\n      \"institution\": \"Gothenburg Technical Institute\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Valand's painting school\",\n      \"startDate\": \"1947\",\n      \"institution\": \"Valand's painting school\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nestle Scandinavian Company\",\n      \"startDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Svenska Oljeslagning AB\",\n      \"startDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Flygfältsbyrån\",\n      \"startDate\": \"1946\",\n      \"endDate\": \"1947\"\n    }\n  ],\n  \"hobbies\": [\n    \"painting\",\n    \"sculpture\",\n    \"fencing with the foil\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Rakel Miriam Lilljegren",
+        "jobTitle": "Engineer",
+        "birthDate": "1917-08-18",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Boris Scharkowitzh"
+            },
+            {
+                "@type": "Person",
+                "name": "Agda Scharkowitzh"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Nils Lilljegren",
+            "jobTitle": "Civil Engineer",
+            "startDate": "1945"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Leni Lilljegren",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Realexams",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Slöjdfören's school",
+                "startDate": "1935",
+                "endDate": "1935",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Engineering",
+                "startDate": "1944",
+                "endDate": "1944",
+                "institution": "Gothenburg Technical Institute"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Valand's painting school",
+                "startDate": "1947",
+                "institution": "Valand's painting school"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Nestle Scandinavian Company",
+                "startDate": "1944"
+            },
+            {
+                "@type": "Organization",
+                "name": "Svenska Oljeslagning AB",
+                "startDate": "1945"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Flygfältsbyrån",
+                "startDate": "1946",
+                "endDate": "1947"
+            }
+        ],
+        "hobbies": [
+            "painting",
+            "sculpture",
+            "fencing with the foil"
+        ]
+    }
+}

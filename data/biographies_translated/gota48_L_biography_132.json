@@ -1,0 +1,93 @@
+{
+    "original": "Leander, Nils Gösta Vilhelm, advokat, Norrköping, f. 6/3/02 i Hälsingborg av fabr. Wilhelm L. o. Elin Dahlgren. G. m. Elsa Almqvist. Barn: Ulla Britta f. 35, Lars Gustaf 41. ~ Stud:ex. i Norrköp. 21, fil. kand. i Sthlm 24, jur. kand. där 28. Not :tjg. i Bråbygdens o. Finspångaläns doms. 29-31, bitr. jurist å Oscar Jenriks Adv:byrå i Norrköp. 31-33, egen adv:-rör. i Linköp. 33-35, deläg. i v. Hhövd. Ernst Söderqvists Adv :byrå i Norrköp. sed. 35. Led. av Sv:es adv:-samf.",
+    "translated": "Leander, Nils Gösta Vilhelm, lawyer, Norrköping, born on 6/3/02 in Hälsingborg to factory worker Wilhelm L. and Elin Dahlgren. Married to Elsa Almqvist. Children: Ulla Britta, born in 1935, Lars Gustaf, born in 1941. Completed student exam in Norrköping in 1921, Bachelor of Arts in Stockholm in 1924, Bachelor of Laws there in 1928. Note: employed in Bråbygden and Finspångaläns district court from 1929-1931, assistant lawyer at Oscar Jenriks Law Firm in Norrköping from 1931-1933, owned own law firm in Linköping from 1933-1935, co-owner of Ernst Söderqvist Law Firm in Norrköping since 1935. Member of the Swedish Bar Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gösta Vilhelm Leander\",\n  \"givenName\": \"Nils Gösta Vilhelm\",\n  \"familyName\": \"Leander\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1902-03-06\",\n  \"birthPlace\": \"Hälsingborg\",\n  \"nationality\": \"Swedish\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilhelm L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Dahlgren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Almqvist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Britta\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Gustaf\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norrköping\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\",\n      \"description\": \"Student Exam\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1927\",\n      \"description\": \"Bachelor of Arts\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\",\n      \"description\": \"Bachelor of Laws\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\"\n  },\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"roleName\": \"Employed at Bråbygdens and Finspångaläns District Court\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1933\",\n      \"roleName\": \"Assistant Lawyer at Oscar Jenriks Law Firm in Norrköping\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\",\n      \"roleName\": \"Own law firm in Linköping\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"roleName\": \"Co-owner of Ernst Söderqvist Law Firm in Norrköping\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Gösta Vilhelm Leander",
+        "givenName": "Nils Gösta Vilhelm",
+        "familyName": "Leander",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": "1931",
+                "roleName": "Employed at Bråbygdens and Finspångaläns District Court"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "endDate": "1933",
+                "roleName": "Assistant Lawyer at Oscar Jenriks Law Firm in Norrköping"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1933",
+                "endDate": "1935",
+                "roleName": "Own law firm in Linköping"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "roleName": "Co-owner of Ernst Söderqvist Law Firm in Norrköping"
+            }
+        ],
+        "birthDate": "1902-03-06",
+        "birthPlace": "Hälsingborg",
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Wilhelm L."
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Dahlgren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Almqvist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla Britta",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Gustaf",
+                "birthDate": "1941"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norrköping",
+                "startDate": "1921",
+                "endDate": "1922",
+                "description": "Student Exam"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm",
+                "startDate": "1924",
+                "endDate": "1927",
+                "description": "Bachelor of Arts"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm",
+                "startDate": "1928",
+                "endDate": "1931",
+                "description": "Bachelor of Laws"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association"
+        }
+    }
+}

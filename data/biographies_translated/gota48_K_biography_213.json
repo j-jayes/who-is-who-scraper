@@ -1,0 +1,78 @@
+{
+    "original": "Kållberg, Fritz Martin Wilhelm, tandläkare, Hjo, f. 19/5/01 i Toarp, Älvsb. 1., av foliksk:lär. Fritz K. o. Sigrid Andersson. G. 36 m. Astrid Wickberg. Barn: Per f. 41, Nils 44. — Stud:ex. i Borås 21, tandl :kand. 23, tandl. 25. Prakt, i Hjo sed. 25.",
+    "translated": "Kållberg, Fritz Martin Wilhelm, dentist, Hjo, born on May 19th, 1901 in Toarp, Älvsborgs län, son of primary school teacher Fritz K. and Sigrid Andersson. Married in 1936 to Astrid Wickberg. Children: Per, born in 1941, Nils born in 1944. Completed secondary school in Borås in 1921, dental studies in 1923, graduated as a dentist in 1925. Practicing dentistry in Hjo since 1925.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Fritz Martin Wilhelm Kållberg\",\n  \"birthDate\": \"1901-05-19\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Toarp\",\n      \"addressRegion\": \"Älvsborgs län\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fritz Kållberg\",\n      \"jobTitle\": \"Primary School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Wickberg\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Kållberg\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Kållberg\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school\",\n      \"credentialEarned\": \"Stud:ex.\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Borås\"\n      },\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dental studies\",\n      \"credentialEarned\": \"tandl:kand.\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Borås\"\n      },\n      \"startDate\": \"1923\"\n    }\n  ],\n  \"occupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1925\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Hjo\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Fritz Martin Wilhelm Kållberg",
+        "birthDate": "1901-05-19",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Toarp",
+                "addressRegion": "Älvsborgs län"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Fritz Kållberg",
+                "jobTitle": "Primary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Wickberg",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per Kållberg",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Nils Kållberg",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school",
+                "credentialEarned": "Stud:ex.",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Borås"
+                },
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dental studies",
+                "credentialEarned": "tandl:kand.",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Borås"
+                },
+                "startDate": "1923"
+            }
+        ],
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1925"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hjo"
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "original": "Koch, John Erik Ferdinand, tandläkare, Jön|köping, f. 31/2/15 i Uppsaila av prof. John K. o. Ebba af Segerström. G. 43 m. Ulla Sundblad. Barn: Björn f. 44, Elisabet 46. — Stud:ex. v. Lunds priv. elem:sk. 33, med. kand. i Lund 38, tandl :ex. 42. Assist, o. vik. i Norrköp., Sthlm o. Gävle 42 o. 43, egen praktik i Jönköp. sed. 44. Medl. av Sv:es tandl :förb. o. Sv:es tandl :säll!sk. Hobby: Hitteiratur.",
+    "translated": "Koch, John Erik Ferdinand, dentist, Jönköping, born on February 31, 1915 in Uppsaila, son of Prof. John K. and Ebba af Segerström. Married in 1943 to Ulla Sundblad. Children: Björn, born in 1944, Elisabet, born in 1946. \n\nEducation: Completed secondary school at Lund's private elementary school in 1933, obtained a Bachelor's degree in Medicine in Lund in 1938, and became a licensed dentist in 1942. Worked as an assistant and substitute in Norrköping, Stockholm, and Gävle in 1942 and 1943, and established his own dental practice in Jönköping in 1944. \n\nMember of the Swedish Dental Association and the Swedish Dental Society. Hobby: Literature.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Erik Ferdinand Koch\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1915-02-31\",\n  \"birthPlace\": \"Uppsaila\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Prof. John K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba af Segerström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ulla Sundblad\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabet\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"awardingInstitution\": \"Lund's private elementary school\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelors\",\n      \"educationalLevel\": \"Medicine\",\n      \"awardingInstitution\": \"Lund University\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"professional\",\n      \"educationalLevel\": \"Dentistry\",\n      \"awardingInstitution\": \"Lund University\",\n      \"endDate\": \"1942\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Society\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1943\",\n      \"namedPosition\": \"Norrköping\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1943\",\n      \"namedPosition\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1943\",\n      \"namedPosition\": \"Gävle\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Dentist\",\n      \"startDate\": \"1944\",\n      \"namedPosition\": \"Jönköping\"\n    }\n  ],\n  \"hobby\": \"Literature\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Erik Ferdinand Koch",
+        "jobTitle": "Dentist",
+        "birthDate": "1915-02-31",
+        "birthPlace": "Uppsaila",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Prof. John K."
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba af Segerström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ulla Sundblad",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Elisabet",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary",
+                "educationalLevel": "SecondarySchool",
+                "awardingInstitution": "Lund's private elementary school",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelors",
+                "educationalLevel": "Medicine",
+                "awardingInstitution": "Lund University",
+                "endDate": "1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "professional",
+                "educationalLevel": "Dentistry",
+                "awardingInstitution": "Lund University",
+                "endDate": "1942"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Dental Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Dental Society"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant",
+                "startDate": "1942",
+                "endDate": "1943",
+                "namedPosition": "Norrköping"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant",
+                "startDate": "1942",
+                "endDate": "1943",
+                "namedPosition": "Stockholm"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant",
+                "startDate": "1942",
+                "endDate": "1943",
+                "namedPosition": "Gävle"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Dentist",
+                "startDate": "1944",
+                "namedPosition": "Jönköping"
+            }
+        ],
+        "hobby": "Literature"
+    }
+}

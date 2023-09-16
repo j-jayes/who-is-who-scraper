@@ -1,0 +1,138 @@
+{
+    "original": "Leyon, Håkan Georg, läroverksadjunkt, Varberg, f. 29/8/12 i Botilsäter, Värml. 1., av mejrförest. Georg L. o. Anna Andersson. G. 41 m. El se Jo-hannessen. Barnr Liv f. 43, Ann-Katrin 44, Pia 46. — Studrex. i Gbg 31, fil. mag. i Upps_. 35, fil. lic. 39. E. o. aman. v. zool. inst. i LTpps. 36-41 (m. vissa uppehåll), e. ämneslär. v. Älsta folkhögsk. i Fränsta 37-38, e. lär. v. Uddevalla h. folksk. 39, provår 40-41, adj. i biol. m. hälsolära o. kemi v. Varbergs’ samrealsk. sed. 42.",
+    "translated": "Leyon, Håkan Georg, high school teacher, Varberg, born on August 29, 1912, in Botilsäter, Värmland. Son of head foreman Georg L. and Anna Andersson. Married in 1941 to El se Jo-hannessen. Children: Liv, born in 1943, Ann-Katrin in 1944, and Pia in 1946. Education: Studied in Gothenburg until 1931, obtained a Bachelor's degree in Uppsala in 1935, and a Master's degree in 1939. Assistant at the Zoological Institute in Uppsala from 1936 to 1941 (with some interruptions), subject teacher at Älsta Folk High School in Fränsta from 1937 to 1938, teacher at Uddevalla Elementary School in 1939, probationary year from 1940 to 1941, and biology teacher with health science and chemistry at Varberg Secondary School since 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Håkan Georg Leyon\",\n  \"birthDate\": \"1912-08-29\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Botilsäter\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Värmland\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Georg L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"El se Jo-hannessen\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Liv\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Katrin\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Pia\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"jobTitle\": \"High School Teacher\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Varberg\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n     \"@type\": \"EducationalOrganization\",\n     \"name\": \"Uppsala\",\n     \"startDate\": \"1935\",\n     \"endDate\": \"1939\",\n     \"degree\": {\n       \"@type\": \"EducationalDegree\",\n       \"name\": \"Master's\"\n     }\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1935\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Bachelor's\"\n      }\n    }\n  ],\n  \"jobHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant at Zoological Institute\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Subject Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Älsta Folk High School\"\n      },\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uddevalla Elementary School\"\n      },\n      \"startDate\": \"1939\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Probationary Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uddevalla Elementary School\"\n      },\n      \"startDate\": \"1940\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Biology Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Varberg Secondary School\"\n      },\n      \"startDate\": \"1942\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Håkan Georg Leyon",
+        "birthDate": "1912-08-29",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Botilsäter",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Värmland"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Georg L."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "El se Jo-hannessen",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Liv",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Katrin",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Pia",
+                "birthDate": "1946"
+            }
+        ],
+        "jobTitle": "High School Teacher",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Varberg"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala",
+                "startDate": "1935",
+                "endDate": "1939",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Master's"
+                }
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg",
+                "startDate": "1931",
+                "endDate": "1935",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Bachelor's"
+                }
+            }
+        ],
+        "jobHistory": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant at Zoological Institute",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Uppsala"
+                },
+                "startDate": "1936",
+                "endDate": "1941"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Subject Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Älsta Folk High School"
+                },
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Uddevalla Elementary School"
+                },
+                "startDate": "1939"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Probationary Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Uddevalla Elementary School"
+                },
+                "startDate": "1940",
+                "endDate": "1941"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Biology Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Varberg Secondary School"
+                },
+                "startDate": "1942"
+            }
+        ]
+    }
+}

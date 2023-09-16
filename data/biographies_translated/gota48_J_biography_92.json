@@ -1,0 +1,86 @@
+{
+    "original": "Johannsen, Anders Johan Peter, veterinär, Göteborg, f. 15/2/10 i Ham-marlunda, Malmöh. 1., av Peter J. o. Carolina Andersson. G. 40 m. Birgit Liljegren. Barn: Margareta f. 42, Eva 44. — Stud:ex. v. Lunds priv. el:em:’sk. 31, veter:ex. 42. Anst. v. stat. veter :med. anst. 40-45, stadsve-ter. i Gbg fr. 45. Hobbies: hästsport, fotografi.",
+    "translated": "Johannsen, Anders Johan Peter, veterinarian, Gothenburg, b. 15/2/10 in Hammarlunda, Malmöhus County. First child of Peter J. and Carolina Andersson. Married in 1940 to Birgit Liljegren. Children: Margareta b. 1942, Eva b. 1944. Completed high school exams at Lund's private elementary school in 1931, veterinary exams in 1942. Employed at the state veterinary medical institution from 1940 to 1945, city veterinarian in Gothenburg from 1945. Hobbies include equestrian sports and photography.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Anders Johan Peter Johannsen\",\n   \"jobTitle\": \"Veterinarian\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n   },\n   \"birthDate\": \"1910-02-15\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"name\": \"Hammarlunda, Malmöhus County\"\n   },\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Peter J. Johannsen\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Carolina Andersson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit Liljegren\",\n      \"marriageDate\": \"1940\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Margareta Johannsen\",\n         \"birthDate\": \"1942\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Eva Johannsen\",\n         \"birthDate\": \"1944\"\n      }\n   ],\n   \"sameAs\": [\n      \"https://www.example.com/profiles/andersjohannsen\",\n      \"https://www.linkedin.com/in/andersjohannsen\"\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"description\": \"High school exams at Lund's private elementary school\",\n         \"dateIssued\": \"1931\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"description\": \"Veterinary exams\",\n         \"dateIssued\": \"1942\"\n      }\n   ],\n   \"work\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"Employed at the state veterinary medical institution\",\n         \"startDate\": \"1940-01-01\",\n         \"endDate\": \"1945-12-31\"\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"title\": \"City veterinarian in Gothenburg\",\n         \"startDate\": \"1945-01-01\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Swedish Veterinary Association\"\n      }\n   ],\n   \"hobbies\": [\n      \"Equestrian sports\",\n      \"Photography\"\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anders Johan Peter Johannsen",
+        "jobTitle": "Veterinarian",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1910-02-15",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Hammarlunda, Malmöhus County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Peter J. Johannsen"
+            },
+            {
+                "@type": "Person",
+                "name": "Carolina Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgit Liljegren",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta Johannsen",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Johannsen",
+                "birthDate": "1944"
+            }
+        ],
+        "sameAs": [
+            "https://www.example.com/profiles/andersjohannsen",
+            "https://www.linkedin.com/in/andersjohannsen"
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "High school exams at Lund's private elementary school",
+                "dateIssued": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Veterinary exams",
+                "dateIssued": "1942"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Employed at the state veterinary medical institution",
+                "startDate": "1940-01-01",
+                "endDate": "1945-12-31"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "City veterinarian in Gothenburg",
+                "startDate": "1945-01-01"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Veterinary Association"
+            }
+        ],
+        "hobbies": [
+            "Equestrian sports",
+            "Photography"
+        ]
+    }
+}

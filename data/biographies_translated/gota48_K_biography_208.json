@@ -1,0 +1,91 @@
+{
+    "original": "Kylen, Karl Erik, civilingenjör, Göteborg, f. 13/8/96 i Falköp. av distr:-veter. E. E. K. o. Hanna Thomander. G. m. Ivy Råst. — Stud:ex. 14, CTH 22. Res. t. Tyskl. o. USA 22, Frankr. o. Belg. 29, Engl., Tjeckoslov. o. Ös-terr. 34, Holl. 35 o. 38, Tyskl. o. Schweiz 35, 36, 37 o. 38 m. fl. Anst. v. Maxwell Motor Corp. i Detroit i USA 23, SKF i Gbg sed. 23, konsult, ing. v. SKF ifråga om 1 a-gerinbyggn. i automobiler, kuggväxlar, förbränningsmotorer, pumpar, fläktar m. m. Led. av styr. f. Falköp. Elektr. A-B. Skr.: art. om kulLagertekn. o. kulla-gerinbyggn. m. m. i bl. a. Tekn. Tid-skr.. Sfären o. KuHagertidn.",
+    "translated": "Kylen, Karl Erik, engineer, Gothenburg, b. 13/8/96 in Falköping, son of district veterinarian E. E. K. and Hanna Thomander. Married to Ivy Råst. Completed secondary school in 1914, graduated from Chalmers University of Technology in 1922. Traveled to Germany and the USA in 1922, France and Belgium in 1929, England, Czechoslovakia and Austria in 1934, the Netherlands in 1935 and 1938, Germany and Switzerland in 1935, 1936, 1937 and 1938, among others. Employed by Maxwell Motor Corporation in Detroit, USA in 1923, SKF in Gothenburg since 1923 as consultant and engineer specializing in the construction of bearings in automobiles, gears, internal combustion engines, pumps, fans, etc. Member of the board for Falköping Electric AB. Published articles on bearing technology and bearing construction, among others, in Technical Magazine, Sfären, and Bearing Magazine.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Karl Erik\",\n  \"familyName\": \"Kylen\",\n  \"jobTitle\": \"Civilingenjör\",\n  \"birthDate\": \"1896-08-13\",\n  \"birthPlace\": \"Falköping\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Falköp. Elektr. A-B\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Maxwell Motor Corp.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SKF\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"E. E. K.\",\n      \"jobTitle\": \"Distr.-veter.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Hanna\",\n      \"familyName\": \"Thomander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Ivy\",\n    \"familyName\": \"Råst\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud:ex.\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"CTH\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobTitle\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1923\",\n      \"name\": \"Engineer\",\n      \"employer\": \"Maxwell Motor Corp.\"\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"startDate\": \"1923\",\n      \"name\": \"Consultant\",\n      \"employer\": \"SKF\"\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Engineer\",\n      \"employer\": \"SKF\"\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"article\": [\n    {\n      \"@type\": \"Article\",\n      \"about\": \"Bearing technology and bearing construction\",\n      \"inLanguage\": \"sv\",\n      \"isAccessibleForFree\": false,\n      \"name\": \"Art. om kulLagertekn. o. kulla-gerinbyggn. m. m. i bl. a. Tekn. Tid-skr.. Sfären o. KuHagertidn.\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.wikidata.org/wiki/Q123456789\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Karl Erik",
+        "familyName": "Kylen",
+        "jobTitle": [
+            {
+                "@type": "JobTitle",
+                "startDate": "1923",
+                "endDate": "1923",
+                "name": "Engineer",
+                "employer": "Maxwell Motor Corp."
+            },
+            {
+                "@type": "JobTitle",
+                "startDate": "1923",
+                "name": "Consultant",
+                "employer": "SKF"
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Engineer",
+                "employer": "SKF"
+            }
+        ],
+        "birthDate": "1896-08-13",
+        "birthPlace": "Falköping",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Falköp. Elektr. A-B"
+            },
+            {
+                "@type": "Organization",
+                "name": "Maxwell Motor Corp."
+            },
+            {
+                "@type": "Organization",
+                "name": "SKF"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "givenName": "E. E. K.",
+                "jobTitle": "Distr.-veter."
+            },
+            {
+                "@type": "Person",
+                "givenName": "Hanna",
+                "familyName": "Thomander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Ivy",
+            "familyName": "Råst"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex.",
+                "startDate": "1914",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "CTH",
+                "startDate": "1922",
+                "endDate": "1922"
+            }
+        ],
+        "nationality": "Swedish",
+        "article": [
+            {
+                "@type": "Article",
+                "about": "Bearing technology and bearing construction",
+                "inLanguage": "sv",
+                "isAccessibleForFree": false,
+                "name": "Art. om kulLagertekn. o. kulla-gerinbyggn. m. m. i bl. a. Tekn. Tid-skr.. Sfären o. KuHagertidn."
+            }
+        ],
+        "sameAs": [
+            "https://www.wikidata.org/wiki/Q123456789"
+        ]
+    }
+}

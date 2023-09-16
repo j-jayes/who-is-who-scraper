@@ -1,0 +1,85 @@
+{
+    "original": "Johannesson, Gustaf Sigfrid, bankkamrer, Växjö, f. 15/2/99 i Oskarshamn av Adolf J. o. Fredrika Lindström. G. 311 m. Leila Stàhl. Barn: Gustaf-Adolf f. 32, Stefan 34, Christer 37. — Stud:ex. i Kalmar 19. Anst. v. Skand. Bankens avd :kont. i Växjö sed. 19, kamr. o. förest, f. utlànings-avd. där. Led. av styr. f. Sv. bank-mannaförb. i Kronob. 1. 46, v. ordf. i Växjö mrss:förs. 46, rev. i Kronob. 1. miss:förs. 45. Hobbies: .sång o. musik, modellslöjd.",
+    "translated": "Johannesson, Gustaf Sigfrid, bank clerk, Växjö, b. 15/2/99 in Oskarshamn to Adolf J. and Fredrika Lindström. Married on 3/11, to Leila Ståhl. Children: Gustaf-Adolf b. 32, Stefan b. 34, Christer b. 37. — High school graduate in Kalmar in 1919. Employed by Skandinaviska Banken's branch office in Växjö since 1919, as a clerk and supervisor of the lending department. Member of the board for the Swedish Bank Employees Association in Kronoberg since 1946, Vice Chairman of the Växjö Merchant's Association since 1946, auditor for the Kronoberg Mission Society since 1945. Hobbies: singing and music, model crafts.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Sigfrid Johannesson\",\n  \"birthDate\": \"1899-02-15\",\n  \"birthPlace\": \"Oskarshamn\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Adolf J. Johannesson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fredrika Lindström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Leila Ståhl\",\n    \"marriageDate\": \"1931-03-11\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf-Adolf\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stefan\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christer\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"dateAwarded\": \"1919\",\n      \"educationalLevel\": \"high school\",\n      \"educationalProgram\": \"Kalmar High School\"\n    }\n  ],\n  \"jobTitle\": \"Bank Clerk\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Skandinaviska Banken\",\n    \"department\": \"Växjö Branch\",\n    \"startDate\": \"1919\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bank Employees Association\",\n      \"roleName\": \"Board Member\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö Merchant's Association\",\n      \"roleName\": \"Vice Chairman\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kronoberg Mission Society\",\n      \"roleName\": \"Auditor\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"hobbies\": [\n    \"singing\",\n    \"music\",\n    \"model crafts\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Sigfrid Johannesson",
+        "birthDate": "1899-02-15",
+        "birthPlace": "Oskarshamn",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Adolf J. Johannesson"
+            },
+            {
+                "@type": "Person",
+                "name": "Fredrika Lindström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Leila Ståhl",
+            "marriageDate": "1931-03-11"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gustaf-Adolf",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Stefan",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Christer",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "dateAwarded": "1919",
+                "educationalLevel": "high school",
+                "educationalProgram": "Kalmar High School"
+            }
+        ],
+        "jobTitle": "Bank Clerk",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Skandinaviska Banken",
+            "department": "Växjö Branch",
+            "startDate": "1919"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bank Employees Association",
+                "roleName": "Board Member",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Växjö Merchant's Association",
+                "roleName": "Vice Chairman",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kronoberg Mission Society",
+                "roleName": "Auditor",
+                "startDate": "1945"
+            }
+        ],
+        "hobbies": [
+            "singing",
+            "music",
+            "model crafts"
+        ]
+    }
+}

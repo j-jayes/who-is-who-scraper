@@ -1,0 +1,73 @@
+{
+    "original": "Klinte, Karl Gösta, med. lic., provinsialläkare, bataljonsläk. i res., Hova, f. 1/8/98 i Karlstad. G. 26 m. Ama Bogren. Barn: Gunnar f. 32, Peter 43. — Stud:ex. i Karlstad 17, med. kand. 21, med. lic. 26. Batalj :läk. i fältläk :kår. res. 26. ProvinsiaJiläkare i Grundsunda distr. 31, i Hova fr. 40.",
+    "translated": "Klinte, Karl Gösta, M.D. licentiate, district medical officer, battalion physician in reserve, Hova, born on August 1, 1898 in Karlstad. Married on the 26th with Ama Bogren. Children: Gunnar born in 1932, Peter in 1943. \n\nEducation: Graduated from Karlstad secondary school in 1917, medical candidate in 1921, M.D. licentiate in 1926. Battalion physician in field medical corps in reserve starting in 1926. District medical officer in Grundsunda district from 1931, in Hova from 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Gösta Klinte\",\n  \"birthDate\": \"1898-08-01\",\n  \"birthPlace\": \"Karlstad\",\n  \"description\": \"Swedish district medical officer and battalion physician\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school graduation\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardDate\": \"1917\",\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlstad Secondary School\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medical candidate\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"M.D. licentiate\",\n      \"educationalLevel\": \"Graduate\",\n      \"awardDate\": \"1926\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ama Bogren\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Peter\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Grundsunda District Medical Office\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Hova District Medical Office\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Field Medical Corps\",\n      \"roleName\": \"Battalion Physician\",\n      \"startDate\": \"1926\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Gösta Klinte",
+        "birthDate": "1898-08-01",
+        "birthPlace": "Karlstad",
+        "description": "Swedish district medical officer and battalion physician",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school graduation",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1917",
+                "awardingInstitution": {
+                    "@type": "Organization",
+                    "name": "Karlstad Secondary School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medical candidate",
+                "educationalLevel": "Undergraduate",
+                "awardDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "M.D. licentiate",
+                "educationalLevel": "Graduate",
+                "awardDate": "1926"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ama Bogren",
+            "marriageDate": "YYYY-MM-DD"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter",
+                "birthDate": "1943"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Grundsunda District Medical Office",
+                "startDate": "1931",
+                "endDate": "1940"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Hova District Medical Office",
+                "startDate": "1940"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Field Medical Corps",
+                "roleName": "Battalion Physician",
+                "startDate": "1926"
+            }
+        ]
+    }
+}

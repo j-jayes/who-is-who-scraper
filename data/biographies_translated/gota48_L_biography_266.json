@@ -1,0 +1,106 @@
+{
+    "original": "Lindborg, Knut Josef Harry, tandläkare, Trollhättan, f. 17/3/18 i Kristianstad av trävaruhandl. Hjalmar L. o. Dora Persson. G. 45 m. Gunnel Josephson. Barn: Ann f. 46. — Stud:-ex. i Sthlm 36, tandl :kand. 39, tandl :-ex. 42. Assist, i Sthlm 42-43, egen praktik i Örbyhus 44-46, dito i Trollhättan sed. 46.",
+    "translated": "Lindborg, Knut Josef Harry, dentist, Trollhättan, born on March 17, 1918 in Kristianstad to timber merchant Hjalmar L. and Dora Persson. Married in 1945 to Gunnel Josephson. Children: Ann, born in 1946. Graduated from Stockholm University with a Bachelor's degree in Dentistry in 1936, completed Dentistry studies in 1939, and obtained a Dentistry degree in 1942. Worked as an assistant in Stockholm from 1942-1943, had his own practice in Örbyhus from 1944-1946, and has since had a practice in Trollhättan.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Josef Harry Lindborg\",\n  \"givenName\": \"Knut\",\n  \"additionalName\": \"Josef Harry\",\n  \"familyName\": \"Lindborg\",\n  \"birthDate\": \"1918-03-17\",\n  \"birthPlace\": \"Kristianstad\",\n  \"description\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Trollhättan\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hjalmar L. Lindborg\",\n      \"additionalName\": \"Sven Hjalmar\",\n      \"familyName\": \"Lindborg\",\n      \"description\": \"Timber merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dora Persson\",\n      \"description\": \"Persson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunnel Josephson\",\n    \"familyName\": \"Josephson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann Lindborg\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"educationalCrendential\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:-ex.\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"university\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm University\",\n        \"location\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\"\n        },\n        \"startDate\": \"1936\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"tandl :kand.\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"university\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm University\",\n        \"location\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\"\n        },\n        \"startDate\": \"1939\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"tandl :-ex.\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"university\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm University\",\n        \"location\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\"\n        },\n        \"startDate\": \"1942\"\n      }\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättan\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örbyhus\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\"\n    }\n  ],\n  \"sameAs\": \"https://example.com/knut-lindborg\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Josef Harry Lindborg",
+        "givenName": "Knut",
+        "additionalName": "Josef Harry",
+        "familyName": "Lindborg",
+        "birthDate": "1918-03-17",
+        "birthPlace": "Kristianstad",
+        "description": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Trollhättan"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hjalmar L. Lindborg",
+                "additionalName": "Sven Hjalmar",
+                "familyName": "Lindborg",
+                "description": "Timber merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Dora Persson",
+                "description": "Persson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunnel Josephson",
+            "familyName": "Josephson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann Lindborg",
+                "birthDate": "1946"
+            }
+        ],
+        "educationalCrendential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:-ex.",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "university",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm University",
+                    "location": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm"
+                    },
+                    "startDate": "1936"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "tandl :kand.",
+                "credentialCategory": "Degree",
+                "educationalLevel": "university",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm University",
+                    "location": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm"
+                    },
+                    "startDate": "1939"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "tandl :-ex.",
+                "credentialCategory": "Degree",
+                "educationalLevel": "university",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm University",
+                    "location": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm"
+                    },
+                    "startDate": "1942"
+                }
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Trollhättan"
+            },
+            {
+                "@type": "Organization",
+                "name": "Örbyhus",
+                "startDate": "1944",
+                "endDate": "1946"
+            }
+        ],
+        "sameAs": "https://example.com/knut-lindborg"
+    }
+}

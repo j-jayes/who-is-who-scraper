@@ -1,0 +1,170 @@
+{
+    "original": "Kempe, Sven Ragnar, provinsialläkare, Tranås, f. 2/7/95 i Bjurholm, Västerb. 1., av prov :läk. Sven K. o. Anna Olsson. G. 31 m. Gudrun Ericson. Barn: Bertil f. 31, Lars 33, Birgitta 36. — Stud:ex. i Skara 15, med. kand. i Sthlm 19 o. med. lic. där 25. Bitr. läk. v. Östersunds hosp. 22, assist :läk. o. tf. und :läk. v. Högbo sa-nat. 24, tf. järnv:- o. gruvläk. i Malm- berget sex mån. 25 o. 26, tf. prov:-läk. i Gällivare distr. sex mån. samma tid, i Älvsby o. Håby distr. kortare tider 26, andre und :läk. v. Garn :sjukh. i Sthlm kir. avd. 26-28, tf. und:läk. v. Västerås las. kir. avd. 28, v. Eksjö o. ApeJvikens sanat. 29, andre und :läk. v. Karlstads las. kir. avd. 29-30, prov:-läk. o. isjukst :iläk. i Långavs distr. 30-36, prov :iäk. i Tranås distr. sed. 37.",
+    "translated": "Kempe, Sven Ragnar, provincial physician, Tranås, b. 2/7/1895 in Bjurholm, Västerbotten County, son of provincial physician Sven K. and Anna Olsson. Married on 31st to Gudrun Ericson. Children: Bertil b. 1931, Lars b. 1933, Birgitta b. 1936. Education: graduated from Skara in 1915, medical candidate in Stockholm in 1919, and medical doctorate there in 1925. Assistant doctor at Östersund Hospital in 1922, assistant doctor and temporarily acting house physician at Högbo Sanatorium in 1924, temporarily acting doctor for railways and mines in Malmberget for six months in 1925 and 1926, temporarily acting provincial physician in Gällivare district for six months during the same time period, shorter periods in Älvsbyn and Håby districts in 1926, second assistant doctor at Garnison Hospital in Stockholm surgical department from 1926 to 1928, temporarily acting house physician at Västerås Hospital surgical department in 1928, at Eksjö and ApeJviken Sanatorium in 1929, second assistant doctor at Karlstad Hospital surgical department from 1929 to 1930, provincial physician and district medical officer in Långav district from 1930 to 1936, provincial physician in Tranås district since 1937.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Ragnar Kempe\",\n  \"jobTitle\": \"Provincial Physician\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Tranås\"\n  },\n  \"birthDate\": \"1895-07-02\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Bjurholm\",\n      \"addressRegion\": \"Västerbotten County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven K. Kempe\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Olsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gudrun Ericson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1936\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondaryEducationCredential\",\n      \"credentialSubject\": \"Stud:ex.\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skara\"\n      },\n      \"startDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"CollegeOrUniversityCredential\",\n      \"credentialSubject\": \"Med. kand.\",\n      \"educationalLevel\": \"CollegeOrUniversity\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm\"\n      },\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"CollegeOrUniversityCredential\",\n      \"credentialSubject\": \"Med. lic.\",\n      \"educationalLevel\": \"CollegeOrUniversity\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm\"\n      },\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"jobTitleHistory\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Östersunds hospital\",\n      \"startDate\": \"1922\",\n      \"jobTitle\": \"Assistant Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Högbo Sanatorium\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\",\n      \"jobTitle\": \"Assistant Doctor and Temporarily Acting House Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Malmberget\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Temporarily Acting Doctor for Railways and Mines\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gällivare district\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Temporarily Acting Provincial Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Älvsbyn district\",\n      \"startDate\": \"1926\",\n      \"jobTitle\": \"Temporarily Acting Provincial Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Håby district\",\n      \"startDate\": \"1926\",\n      \"jobTitle\": \"Temporarily Acting Provincial Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Garnison Hospital\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"jobTitle\": \"Second Assistant Doctor in Surgical Department\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Västerås Hospital\",\n      \"startDate\": \"1928\",\n      \"jobTitle\": \"Temporarily Acting House Physician in Surgical Department\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Eksjö and ApeJvikens Sanatorium\",\n      \"startDate\": \"1929\",\n      \"jobTitle\": \"Temporarily Acting House Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Karlstad Hospital\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Second Assistant Doctor in Surgical Department\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Långav district\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1936\",\n      \"jobTitle\": \"Provincial Physician and District Medical Officer\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Tranås district\",\n      \"startDate\": \"1937\",\n      \"jobTitle\": \"Provincial Physician\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Sven Ragnar Kempe",
+        "jobTitle": "Provincial Physician",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tranås"
+        },
+        "birthDate": "1895-07-02",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Bjurholm",
+                "addressRegion": "Västerbotten County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sven K. Kempe"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Olsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gudrun Ericson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bertil",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1936"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondaryEducationCredential",
+                "credentialSubject": "Stud:ex.",
+                "educationalLevel": "SecondaryEducation",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skara"
+                },
+                "startDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "CollegeOrUniversityCredential",
+                "credentialSubject": "Med. kand.",
+                "educationalLevel": "CollegeOrUniversity",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm"
+                },
+                "startDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "CollegeOrUniversityCredential",
+                "credentialSubject": "Med. lic.",
+                "educationalLevel": "CollegeOrUniversity",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm"
+                },
+                "startDate": "1925"
+            }
+        ],
+        "jobTitleHistory": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Östersunds hospital",
+                "startDate": "1922",
+                "jobTitle": "Assistant Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Högbo Sanatorium",
+                "startDate": "1924",
+                "endDate": "1924",
+                "jobTitle": "Assistant Doctor and Temporarily Acting House Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Malmberget",
+                "startDate": "1925",
+                "endDate": "1926",
+                "jobTitle": "Temporarily Acting Doctor for Railways and Mines"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gällivare district",
+                "startDate": "1925",
+                "endDate": "1926",
+                "jobTitle": "Temporarily Acting Provincial Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Älvsbyn district",
+                "startDate": "1926",
+                "jobTitle": "Temporarily Acting Provincial Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Håby district",
+                "startDate": "1926",
+                "jobTitle": "Temporarily Acting Provincial Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Garnison Hospital",
+                "startDate": "1926",
+                "endDate": "1928",
+                "jobTitle": "Second Assistant Doctor in Surgical Department"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Västerås Hospital",
+                "startDate": "1928",
+                "jobTitle": "Temporarily Acting House Physician in Surgical Department"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Eksjö and ApeJvikens Sanatorium",
+                "startDate": "1929",
+                "jobTitle": "Temporarily Acting House Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Karlstad Hospital",
+                "startDate": "1929",
+                "endDate": "1930",
+                "jobTitle": "Second Assistant Doctor in Surgical Department"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Långav district",
+                "startDate": "1930",
+                "endDate": "1936",
+                "jobTitle": "Provincial Physician and District Medical Officer"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Tranås district",
+                "startDate": "1937",
+                "jobTitle": "Provincial Physician"
+            }
+        ]
+    }
+}

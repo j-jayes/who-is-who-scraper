@@ -1,0 +1,108 @@
+{
+    "original": "Lindblom, Jonas Torsten, kyrkoherde, Frändefors, f. 1/5/94 i Väse, Värml. 1., av kyrkoh. Jonas L. o. Tekla Beckman. G. 24 m. Cecilia Beselin. Fosterbarn : Ingmar f. 20, Ingegerd 27. ■— Stud:ex. i Karlstad 13, teol. fil. ex. 14, teol. kand., prakt. teol. prov samt prästvigd f. Karlstads stift 19. V. kommin. i Gestad o. Glava 19, kommin. i Grinstad 20, i Brålanda 25, kyrkoh. i Frändefors 33.",
+    "translated": "Lindblom, Jonas Torsten, vicar, Frändefors, b. 1/5/94 in Väse, Värmland. Son of vicar Jonas L. and Tekla Beckman. Married to Cecilia Beselin since 1924. Foster children: Ingmar, b. 1920, Ingegerd, b. 1927. Completed high school in Karlstad in 1913, Bachelor of Theology in 1914, completed practical theology exams and ordained as a priest from the Diocese of Karlstad in 1919. Assistant curate in Gestad and Glava in 1919, assistant curate in Grinstad in 1920, curate in Brålanda in 1925, vicar in Frändefors in 1933.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Jonas Torsten Lindblom\",\n  \"birthDate\": \"1894-05-01\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Väse, Värmland\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jonas Lindblom\",\n      \"jobTitle\": \"vicar\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tekla Beckman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Cecilia Beselin\",\n    \"marriageDate\": \"1924\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingmar\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd\",\n      \"birthDate\": \"1927\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationalLevel\": \"secondary\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Karlstad\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"bachelor\",\n      \"educationalCredentialAwarded\": \"teol. fil. ex.\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"theology degree\",\n      \"educationalLevel\": \"bachelor\",\n      \"educationalCredentialAwarded\": \"teol. kand.\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"practical theology exams\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"priest ordination\",\n      \"educationalLevel\": \"clerical\",\n      \"educationalCredentialAwarded\": \"prästvigd\",\n      \"educationalInstitution\": \"Karlstads stift\",\n      \"endDate\": \"1919\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"vicar\",\n      \"startDate\": \"1933\",\n      \"endDate\": null,\n      \"memberOf\": \"Frändefors\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"curate\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1933\",\n      \"memberOf\": \"Brålanda\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"assistant curate\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1925\",\n      \"memberOf\": \"Grinstad\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"assistant curate\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\",\n      \"memberOf\": \"Gestad, Glava\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Jonas Torsten Lindblom",
+        "birthDate": "1894-05-01",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Väse, Värmland"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Jonas Lindblom",
+                "jobTitle": "vicar"
+            },
+            {
+                "@type": "Person",
+                "name": "Tekla Beckman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Cecilia Beselin",
+            "marriageDate": "1924"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingmar",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingegerd",
+                "birthDate": "1927"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "secondary",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": "Karlstad",
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "bachelor",
+                "educationalCredentialAwarded": "teol. fil. ex.",
+                "endDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "theology degree",
+                "educationalLevel": "bachelor",
+                "educationalCredentialAwarded": "teol. kand."
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "practical theology exams"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "priest ordination",
+                "educationalLevel": "clerical",
+                "educationalCredentialAwarded": "prästvigd",
+                "educationalInstitution": "Karlstads stift",
+                "endDate": "1919"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "vicar",
+                "startDate": "1933",
+                "endDate": null,
+                "memberOf": "Frändefors"
+            },
+            {
+                "@type": "Occupation",
+                "name": "curate",
+                "startDate": "1925",
+                "endDate": "1933",
+                "memberOf": "Brålanda"
+            },
+            {
+                "@type": "Occupation",
+                "name": "assistant curate",
+                "startDate": "1920",
+                "endDate": "1925",
+                "memberOf": "Grinstad"
+            },
+            {
+                "@type": "Occupation",
+                "name": "assistant curate",
+                "startDate": "1919",
+                "endDate": "1920",
+                "memberOf": "Gestad, Glava"
+            }
+        ]
+    }
+}

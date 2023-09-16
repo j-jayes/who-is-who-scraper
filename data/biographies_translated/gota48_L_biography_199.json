@@ -1,0 +1,113 @@
+{
+    "original": "Liljenberg, Arvid Harald, syssloman, Borås, f. 24/1/08 i Lund av uppsyn :-man August L. o. Hulda Karlsson. G. 42 m. Anna-Stina Widerberg. Barn: Hans f. 44. — Studiex. i Lund 28, kansliex. ’37. Kamerala förordn. på statens sinnessjukh. i Lund 37-38, andre resp. förste las ibokhåll. v. Lunds las. 38-43, sj^ssloman v. Solhems sjukh. i Borås sed. 43. Sekr. i Sv. kustsanatoriernas samorg. sed. 45.",
+    "translated": "Liljenberg, Arvid Harald, constable, Borås, b. 24/1/08 in Lund, son of supervisor August L. and Hulda Karlsson. Married in 1942 to Anna-Stina Widerberg. Children: Hans, b. 1944. Completed studies in Lund in 1928, administrative exams in 1937. Appointed as a camera operator at the state mental hospital in Lund from 1937 to 1938, and as second and then first ledger keeper at Lund's hospital from 1938 to 1943. Became constable at Solhem's mental hospital in Borås in 1943. Secretary of the Swedish Coastal Sanatoria Association since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Arvid Harald Liljenberg\",\n  \"birthDate\": \"1908-01-24\",\n  \"birthPlace\": \"Lund\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August L. Liljenberg\",\n      \"jobTitle\": \"Supervisor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hulda Karlsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Stina Widerberg\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor'sDegree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalCredentialAwarded\": \"Studiex.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"timeToComplete\": {\n        \"@type\": \"Duration\",\n        \"value\": \"4\"\n      },\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Certification\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalCredentialAwarded\": \"Kansliex.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Camera Operator\",\n      \"startDate\": \"1937-01-01\",\n      \"endDate\": \"1938-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"State Mental Hospital, Lund\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Second Ledger Keeper\",\n      \"startDate\": \"1938-01-01\",\n      \"endDate\": \"1943-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Lund's Hospital\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"First Ledger Keeper\",\n      \"startDate\": \"1938-01-01\",\n      \"endDate\": \"1943-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Lund's Hospital\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Constable\",\n      \"startDate\": \"1943-01-01\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Solhem's Mental Hospital, Borås\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Secretary\",\n      \"startDate\": \"1945-01-01\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Coastal Sanatoria Association\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arvid Harald Liljenberg",
+        "birthDate": "1908-01-24",
+        "birthPlace": "Lund",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "August L. Liljenberg",
+                "jobTitle": "Supervisor"
+            },
+            {
+                "@type": "Person",
+                "name": "Hulda Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Stina Widerberg",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor'sDegree",
+                "educationalLevel": "Undergraduate",
+                "educationalCredentialAwarded": "Studiex.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "timeToComplete": {
+                    "@type": "Duration",
+                    "value": "4"
+                },
+                "startDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Certification",
+                "educationalLevel": "Undergraduate",
+                "educationalCredentialAwarded": "Kansliex.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "startDate": "1937"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Camera Operator",
+                "startDate": "1937-01-01",
+                "endDate": "1938-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "State Mental Hospital, Lund"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Second Ledger Keeper",
+                "startDate": "1938-01-01",
+                "endDate": "1943-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Lund's Hospital"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "First Ledger Keeper",
+                "startDate": "1938-01-01",
+                "endDate": "1943-12-31",
+                "location": {
+                    "@type": "Place",
+                    "name": "Lund's Hospital"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Constable",
+                "startDate": "1943-01-01",
+                "location": {
+                    "@type": "Place",
+                    "name": "Solhem's Mental Hospital, Borås"
+                }
+            },
+            {
+                "@type": "Occupation",
+                "name": "Secretary",
+                "startDate": "1945-01-01",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Coastal Sanatoria Association"
+                }
+            }
+        ]
+    }
+}

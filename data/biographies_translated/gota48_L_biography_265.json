@@ -1,0 +1,122 @@
+{
+    "original": "Lindbom, Carl-Axel Helge, apotekare, Götene, f. 5/5/03 i Borgsjö, Västern. 1., av pO’stassist. Johan Axel L. 0. h. h., f. Nygren. G. 31 m. farm. kand. Cajsa Rosengren. Barn: Ann-Mari f. 34, Margareta 37, Ragnhild 45. — Stud :ex. i Sthlm 21, farm. kand. 24, apot:ex. 29. Elev v. apot. Moria-nen i Sthlm 21-23, anst. v. apot. i En-köp. 25-27, Kronan i Södertälje, Stenbocken i Sthlm 29-31, Draken i Sthlm 31-46, numera priv. å apot. i Götene.",
+    "translated": "Lindbom, Carl-Axel Helge, pharmacist, Götene, born 5/5/1903 in Borgsjö, Västernorrland. Son of postal assistant Johan Axel L. and his wife, born Nygren. Married on 31st with pharmacy candidate Cajsa Rosengren. Children: Ann-Mari born in 1934, Margareta in 1937, Ragnhild in 1945. \n\nEducation: Studied in Stockholm, graduated in 1921, pharmacy candidate in 1924, pharmacy graduate in 1929. Was an intern at Morianen pharmacy in Stockholm from 1921 to 1923, employed at a pharmacy in Enköping from 1925 to 1927, Kronan pharmacy in Södertälje and Stenbocken pharmacy in Stockholm from 1929 to 1931, Draken pharmacy in Stockholm from 1931 to 1946, currently working privately at a pharmacy in Götene.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Axel Helge Lindbom\",\n  \"jobTitle\": \"Pharmacist\",\n  \"birthDate\": \"1903-05-05\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Borgsjö\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressCountry\": \"Sweden\",\n      \"addressRegion\": \"Västernorrland\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Axel Lindbom\",\n      \"jobTitle\": \"Postal assistant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"wife of Johan Axel Lindbom\",\n      \"birthName\": \"Nygren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Cajsa Rosengren\",\n    \"jobTitle\": \"Pharmacy candidate\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Mari\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnhild\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud\",\n      \"name\": \"Studied in Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"farm. kand.\",\n      \"name\": \"Pharmacy candidate\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"apot:ex.\",\n      \"name\": \"Pharmacy graduate\",\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Morianen Pharmacy\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Pharmacy in Enköping\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kronan Pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Södertälje\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stenbocken Pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Draken Pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"startDate\": \"1931\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private pharmacy in Götene\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl-Axel Helge Lindbom",
+        "jobTitle": "Pharmacist",
+        "birthDate": "1903-05-05",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Borgsjö",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Sweden",
+                "addressRegion": "Västernorrland"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Axel Lindbom",
+                "jobTitle": "Postal assistant"
+            },
+            {
+                "@type": "Person",
+                "name": "wife of Johan Axel Lindbom",
+                "birthName": "Nygren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Cajsa Rosengren",
+            "jobTitle": "Pharmacy candidate"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ann-Mari",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Ragnhild",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud",
+                "name": "Studied in Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "farm. kand.",
+                "name": "Pharmacy candidate",
+                "startDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "apot:ex.",
+                "name": "Pharmacy graduate",
+                "startDate": "1929"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Morianen Pharmacy",
+                "startDate": "1921",
+                "endDate": "1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Pharmacy in Enköping",
+                "startDate": "1925",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kronan Pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Södertälje"
+                },
+                "startDate": "1929",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stenbocken Pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "startDate": "1929",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Draken Pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "startDate": "1931",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Private pharmacy in Götene"
+            }
+        ]
+    }
+}

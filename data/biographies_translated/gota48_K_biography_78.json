@@ -1,0 +1,61 @@
+{
+    "original": "Kindblom, Nils Olof, chefveterinär, Jönköping, f. 20/6/09 i Bysike, Väs-terb. 1., lav apot. S. Hj. K. o. h. h. f. Holst. G. 33 m. Märta Wahlin. Barn : Per Oilof f. 33l — Stud:ex. v. Lunds pri v. eilem: skola 28, vet: ex. 40. Assist, v. stat. veterinärbakt. anst. 39-45, chefvete r. v. Jönfköp. 1. hushålln :sälil!sk. md. 45.",
+    "translated": "Kindblom, Nils Olof, chief veterinarian, Jönköping, b. June 20, 1909 in Bysike, Västerbotten County. Married at the county hospital. Spouse's name: Holst. They had a son named Per Olof born in 1933. Nils Olof graduated from Lund's private school in 1928 and obtained his veterinary degree in 1940. He worked as an assistant at the state veterinary laboratory from 1939 to 1945 and became the chief veterinarian in Jönköping in 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Olof Kindblom\",\n  \"jobTitle\": \"Chief Veterinarian\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Jönköping\"\n  },\n  \"birthDate\": \"1909-06-20\",\n  \"birthPlace\": \"Bysike, Västerbotten County\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Holst\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Olof\",\n      \"birthDate\": \"1933-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"Gymnasium\",\n      \"educationalCredentialAwarded\": \"Stud:ex. v. Lunds priv. elem. skola\",\n      \"awardingInstitution\": \"Lund's private school\",\n      \"awardDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"Doctorate\",\n      \"educationalCredentialAwarded\": \"Vet:ex.\",\n      \"awardingInstitution\": \"Unknown\",\n      \"awardDate\": \"1940\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"State Veterinary Laboratory\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1945\",\n      \"jobTitle\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping County Household Administration\",\n      \"startDate\": \"1945\",\n      \"jobTitle\": \"Chief Veterinarian\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Olof Kindblom",
+        "jobTitle": "Chief Veterinarian",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jönköping"
+        },
+        "birthDate": "1909-06-20",
+        "birthPlace": "Bysike, Västerbotten County",
+        "spouse": {
+            "@type": "Person",
+            "name": "Holst"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per Olof",
+                "birthDate": "1933-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "Gymnasium",
+                "educationalCredentialAwarded": "Stud:ex. v. Lunds priv. elem. skola",
+                "awardingInstitution": "Lund's private school",
+                "awardDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "educationalLevel": "Doctorate",
+                "educationalCredentialAwarded": "Vet:ex.",
+                "awardingInstitution": "Unknown",
+                "awardDate": "1940"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "State Veterinary Laboratory",
+                "startDate": "1939",
+                "endDate": "1945",
+                "jobTitle": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping County Household Administration",
+                "startDate": "1945",
+                "jobTitle": "Chief Veterinarian"
+            }
+        ]
+    }
+}

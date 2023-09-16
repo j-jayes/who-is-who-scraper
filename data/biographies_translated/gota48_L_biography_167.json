@@ -1,0 +1,73 @@
+{
+    "original": "Levander, Ingrid Hilma Elisabet, tandläkare. I\\oTrköping, f. 19/1/11 i Umeå landsförs. av kommin. Georg L. o. Tekla Ödén. — Studiex. i Umeå 29, tandhkand. 3’2, tandläkare 36. Praktik i Vetlanda 36-47, i Norrköp. sed. 47.",
+    "translated": "Levander, Ingrid Hilma Elisabet, dentist. Born on January 19, 1911 in Umeå rural parish to the minister Georg L. and Tekla Ödén. — Completed studies in Umeå in 1929, dental degree in 1932, became a dentist in 1936. Practiced in Vetlanda from 1936 to 1947, and in Norrköping since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ingrid Hilma Elisabet Levander\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1911-01-19\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Umeå\",\n      \"addressRegion\": \"Västerbotten\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Georg L. Levander\",\n      \"jobTitle\": \"Minister\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tekla Ödén\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Umeå University\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Umeå\",\n          \"addressRegion\": \"Västerbotten\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Umeå University\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Dental Degree\"\n      }\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vetlanda Dental Clinic\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Dental Clinic\",\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ingrid Hilma Elisabet Levander",
+        "jobTitle": "Dentist",
+        "birthDate": "1911-01-19",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Umeå",
+                "addressRegion": "Västerbotten",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Georg L. Levander",
+                "jobTitle": "Minister"
+            },
+            {
+                "@type": "Person",
+                "name": "Tekla Ödén"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Umeå University",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Umeå",
+                        "addressRegion": "Västerbotten",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "endDate": "1929"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Umeå University",
+                "startDate": "1929",
+                "endDate": "1932",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Dental Degree"
+                }
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Vetlanda Dental Clinic",
+                "startDate": "1936",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Dental Clinic",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

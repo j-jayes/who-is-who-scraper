@@ -1,0 +1,66 @@
+{
+    "original": "Kolthoff, Axel Hjalmar, ingenjör, Gunneboibruk, f. 13/2/20 i Sunnemo, Värml. 1., av disp. Carl K. o. Carin Weinberg. G. 44 m. Biritta Medberg. — Realex. i Karlstad 36, ing:ex. i Fi-liipstad 44. Anst. v. Gunnebo Bruks A-B, Varbergsverket, 44-47, Gunnebo-bruk sed. 47. Finsk tapperh :Mlkl.",
+    "translated": "Kolthoff, Axel Hjalmar, engineer, Gunneboibruk, b. 13/2/20 in Sunnemo, Värmland, firstborn of the deceased Carl K. and Carin Weinberg. Married in 1944 to Biritta Medberg. Completed Realexamen in Karlstad in 1936, engineering examination in Filipstad in 1944. Employed at Gunnebo Bruks A-B, Varbergsverket, from 1944 to 1947, and at Gunnebo-bruk since 1947. Honored by the Finnish for bravery in 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Hjalmar Kolthoff\",\n  \"jobTitle\": \"Engineer\",\n  \"birthPlace\": \"Sunnemo, Värmland\",\n  \"birthDate\": \"1920-02-13\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl K. Kolthoff\",\n      \"jobTitle\": \"Disponent\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carin Weinberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Biritta Medberg\",\n    \"marriageDate\": \"1944\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Realexamen\",\n      \"educationalLevel\": \"SecondaryEducationLevel\",\n      \"educationalRole\": \"Student\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Karlstad\"\n      },\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Engineering Examination\",\n      \"educationalRole\": \"Student\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Filipstad\"\n      },\n      \"endDate\": \"1944\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gunnebo Bruks A-B, Varbergsverket\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gunnebo-bruk\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"honorificSuffix\": \"Finsk tapperh :Mlkl.\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Hjalmar Kolthoff",
+        "jobTitle": "Engineer",
+        "birthPlace": "Sunnemo, Värmland",
+        "birthDate": "1920-02-13",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl K. Kolthoff",
+                "jobTitle": "Disponent"
+            },
+            {
+                "@type": "Person",
+                "name": "Carin Weinberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Biritta Medberg",
+            "marriageDate": "1944"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Realexamen",
+                "educationalLevel": "SecondaryEducationLevel",
+                "educationalRole": "Student",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Karlstad"
+                },
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Engineering Examination",
+                "educationalRole": "Student",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Filipstad"
+                },
+                "endDate": "1944"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Gunnebo Bruks A-B, Varbergsverket",
+                "startDate": "1944",
+                "endDate": "1947"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gunnebo-bruk",
+                "startDate": "1947"
+            }
+        ],
+        "honorificSuffix": "Finsk tapperh :Mlkl."
+    }
+}

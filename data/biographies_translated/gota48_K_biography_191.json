@@ -1,0 +1,74 @@
+{
+    "original": "Kull, Nils-Gunnar, kyrkoherde, Rönnäng, f. 2/1/14 i Varberg av kyr-koh. Nils K. o. h. h. — Stud:ex. v. Gbgs h. latin, teol. fihex. v. Gbgs högsk. 34, teol. kand. i Lund 38, prästv. f. Gbgs stift 39. Haft oiika missiv I iiTom stiftet, pastorsadj. i Tranemo 42, kyrkoh. i Rönnängs o. Klädesholmens förs. sed. 47.",
+    "translated": "Kull, Nils-Gunnar, parish priest, Rönnäng, b. 2/1/14 in Varberg, son of parish priest Nils K. and his wife. Graduated from Gothenburg High School with a Latin focus, completed theology studies at Gothenburg University in 1934, received a Bachelor's degree in theology from Lund in 1938, and was ordained as a priest in the Gothenburg diocese in 1939. Has served in various positions within the diocese, served as an assistant pastor in Tranemo since 1942, and has been the parish priest for Rönnäng and Klädesholmens congregation since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils-Gunnar Kull\",\n  \"birthDate\": \"1914-01-02\",\n  \"birthPlace\": \"Varberg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Kull\",\n      \"jobTitle\": \"Parish Priest\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Unknown mother\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. v. Gbgs h. latin\",\n      \"educationalLevel\": \"High school\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. fihex. v. Gbgs högsk.\",\n      \"educationalLevel\": \"University\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. kand. i Lund\",\n      \"educationalLevel\": \"Bachelor's degree\"\n    }\n  ],\n  \"ordination\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Prästv. f. Gbgs stift\",\n    \"educationalLevel\": \"Ordained as priest\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant Pastor\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1947\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tranemo\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Tranemo\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Parish Priest\",\n      \"startDate\": \"1947\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rönnäng and Klädesholmens Congregation\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Rönnäng\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils-Gunnar Kull",
+        "birthDate": "1914-01-02",
+        "birthPlace": "Varberg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils Kull",
+                "jobTitle": "Parish Priest"
+            },
+            {
+                "@type": "Person",
+                "name": "Unknown mother"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. v. Gbgs h. latin",
+                "educationalLevel": "High school"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. fihex. v. Gbgs högsk.",
+                "educationalLevel": "University"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teol. kand. i Lund",
+                "educationalLevel": "Bachelor's degree"
+            }
+        ],
+        "ordination": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Prästv. f. Gbgs stift",
+            "educationalLevel": "Ordained as priest"
+        },
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant Pastor",
+                "startDate": "1942",
+                "endDate": "1947",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Tranemo",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Tranemo"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Parish Priest",
+                "startDate": "1947",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Rönnäng and Klädesholmens Congregation",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Rönnäng"
+                    }
+                }
+            }
+        ]
+    }
+}

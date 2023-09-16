@@ -1,0 +1,111 @@
+{
+    "original": "Kylen, Sven Ake Gunnar, distriktsveterinär, Skövde, f. 3/9/01 i Falköping av distr :veter. E. K. o. Hanna Thomander. G. 30 m. Gudrun Eriksson. Barn: Berit f. 31, Åke 34, Barbro 39. — Stud:ex. i Skara 21, veter :kand. 23, veter :ex. 27. Assist, v. veter :med. anst. 26-27, distr iveter. i Axvali 30-37, i Kvänum 37-46, i Skövde fr. 46. Skr.: art. i iacktidfskr. 27-28.",
+    "translated": "Kylen, Sven Ake Gunnar, district veterinarian, Skövde, born on 3/9/1901 in Falköping to district veterinarian E.K. and Hanna Thomander. Married on 30/19XX to Gudrun Eriksson. Children: Berit born in 1931, Åke in 1934, Barbro in 1939. Completed secondary school in Skara in 1921, veterinary degree in 1923, veterinary license in 1927. Worked as an assistant in veterinary medicine from 1926 to 1927, district veterinarian in Axvali from 1930 to 1937, in Kvänum from 1937 to 1946, and in Skövde since 1946. Wrote articles in veterinary journals from 1927 to 1928.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Ake Gunnar Kylen\",\n  \"givenName\": \"Sven\",\n  \"familyName\": \"Kylen\",\n  \"birthDate\": \"1901-09-03\",\n  \"birthPlace\": \"Falköping\",\n  \"nationality\": \"Swedish\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde\"\n    }\n  ],\n  \"jobTitle\": \"District Veterinarian\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gudrun Eriksson\",\n    \"marriedTo\": \"Sven Ake Gunnar Kylen\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berit\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åke\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": [\n      {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Secondary School\"\n      },\n      {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Veterinary Degree\"\n      },\n      {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Veterinary License\"\n      }\n    ],\n    \"alumniOf\": [\n      {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Skara\"\n      }\n    ]\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Assistant in Veterinary Medicine\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"District Veterinarian\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Axvali\"\n      },\n      \"startDate\": \"1930\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"District Veterinarian\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kvänum\"\n      },\n      \"startDate\": \"1937\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"District Veterinarian\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skövde\"\n      },\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"hasOccupation\": \"Veterinarian\",\n  \"citation\": {\n    \"@type\": \"Article\",\n    \"name\": \"Articles in Veterinary Journals\",\n    \"startDate\": \"1927\",\n    \"endDate\": \"1928\"\n  }\n}\n",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Sven Ake Gunnar Kylen",
+        "givenName": "Sven",
+        "familyName": "Kylen",
+        "birthDate": "1901-09-03",
+        "birthPlace": "Falköping",
+        "nationality": "Swedish",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skövde"
+            }
+        ],
+        "jobTitle": "District Veterinarian",
+        "spouse": {
+            "@type": "Person",
+            "name": "Gudrun Eriksson",
+            "marriedTo": "Sven Ake Gunnar Kylen"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Berit",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Åke",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro",
+                "birthDate": "1939"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": [
+                {
+                    "@type": "DefinedTerm",
+                    "name": "Secondary School"
+                },
+                {
+                    "@type": "DefinedTerm",
+                    "name": "Veterinary Degree"
+                },
+                {
+                    "@type": "DefinedTerm",
+                    "name": "Veterinary License"
+                }
+            ],
+            "alumniOf": [
+                {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Skara"
+                }
+            ]
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Assistant in Veterinary Medicine",
+                "startDate": "1926",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "District Veterinarian",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Axvali"
+                },
+                "startDate": "1930",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "District Veterinarian",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Kvänum"
+                },
+                "startDate": "1937",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "District Veterinarian",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Skövde"
+                },
+                "startDate": "1946"
+            }
+        ],
+        "hasOccupation": "Veterinarian",
+        "citation": {
+            "@type": "Article",
+            "name": "Articles in Veterinary Journals",
+            "startDate": "1927",
+            "endDate": "1928"
+        }
+    }
+}

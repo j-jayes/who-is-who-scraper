@@ -1,0 +1,122 @@
+{
+    "original": "Leffler, Sven Arne Alfred Gustaf, tandläkare, Skara, f. 4/8/06 i Södertälje av rektor Gustaf L. o. Svea Egge. G. 35 m. tandl. Dagny Niklasson. Barn: Sven f. 36, Kerstin 38, Cecilia 46. — Stud:ex. i Skara 27, Cand. med. dent. i Greifswald 29, tysk tandläk. där 31, sv. tandläk. 33. Praktik i Grebbestad 33-36, i Skara sed. 36.",
+    "translated": "Leffler, Sven Arne Alfred Gustaf, dentist, Skara, b. 4/8/06 in Södertälje to principal Gustaf L. and Svea Egge. Married in 1935 to dentist Dagny Niklasson. Children: Sven b. 1936, Kerstin b. 1938, Cecilia b. 1946. — High school graduate in Skara in 1927, dental degree from Greifswald in 1929, practicing as a German dentist there in 1931, Swedish dentist in 1933. Practice in Grebbestad from 1933-1936, in Skara since 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Arne Alfred Gustaf Leffler\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Skara\"\n  },\n  \"birthDate\": \"1906-08-04\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Södertälje\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf L.\",\n      \"jobTitle\": \"Principal\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Svea Egge\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagny Niklasson\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Cecilia\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school\",\n      \"educationalLevel\": \"HighSchool\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skara\"\n      },\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental degree\",\n      \"educationalLevel\": \"Doctoral\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Greifswald\"\n      },\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental degree\",\n      \"educationalLevel\": \"Doctoral\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Greifswald\"\n      },\n      \"endDate\": \"1931\",\n      \"description\": \"Practiced as a German dentist in Greifswald\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental degree\",\n      \"educationalLevel\": \"Doctoral\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skara\"\n      },\n      \"endDate\": \"1933\",\n      \"description\": \"Practiced as a Swedish dentist in Skara\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skara\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Greifswald\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Grebbestad\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1936\",\n      \"jobTitle\": \"Dentist\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara\",\n      \"startDate\": \"1936\",\n      \"jobTitle\": \"Dentist\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Arne Alfred Gustaf Leffler",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skara"
+        },
+        "birthDate": "1906-08-04",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Södertälje"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf L.",
+                "jobTitle": "Principal"
+            },
+            {
+                "@type": "Person",
+                "name": "Svea Egge"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagny Niklasson",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Cecilia",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school",
+                "educationalLevel": "HighSchool",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Skara"
+                },
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental degree",
+                "educationalLevel": "Doctoral",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Greifswald"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental degree",
+                "educationalLevel": "Doctoral",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Greifswald"
+                },
+                "endDate": "1931",
+                "description": "Practiced as a German dentist in Greifswald"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental degree",
+                "educationalLevel": "Doctoral",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Skara"
+                },
+                "endDate": "1933",
+                "description": "Practiced as a Swedish dentist in Skara"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Greifswald"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Grebbestad",
+                "startDate": "1933",
+                "endDate": "1936",
+                "jobTitle": "Dentist"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skara",
+                "startDate": "1936",
+                "jobTitle": "Dentist"
+            }
+        ]
+    }
+}

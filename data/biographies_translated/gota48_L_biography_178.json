@@ -1,0 +1,107 @@
+{
+    "original": "Lexner, Carl-Hugo, distriktsveterinär, Nybro, f. 18/10/92 i örsjö, Kalmar 1. G. 22 m. Jen Johansson. Barnr Gerhard f. 24. — Studrex. 13, vet. kand. 17, vetrex. 19, länsvet raspirant-kurs 35. Distr rvet. i Norsjö 22-34, dito samt besiktn rvet. v. köttbesiktn rbyrån i Nybro sed. 34. Resor t. Tyskl., Österr., Ung. o. Ital. 22, Tyskl. 23, Tyskl., Belg. o. Frankr. 28, Finl. o. Sovjet 39. Skr. r Reseberätt. över studrres. (23), Handl. v. upprätt, av deklar. f. läk., vet. o. tandläk. (28).",
+    "translated": "Lexner, Carl-Hugo, district veterinarian, Nybro, b. 18/10/92 in Örsjö, Kalmar 1. M. 22 with Jen Johansson. Child Gerhard b. 24. — Studied at university 13, bachelor of veterinary medicine 17, master of veterinary medicine 19, county veterinary training course 35. District veterinarian in Norsjö 22-34, same and inspection veterinarian at the meat inspection office in Nybro since 34. Travels to Germany, Austria, Hungary, and Italy in 22, Germany in 23, Germany, Belgium, and France in 28, Finland and Soviet Union in 39. Wrote travel report on university travel (23), documents on the establishment of declarations for medical, veterinary, and dental (28).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Hugo Lexner\",\n  \"jobTitle\": \"District Veterinarian\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Nybro\"\n  },\n  \"birthDate\": \"1892-10-18\",\n  \"birthPlace\": \"Örsjö, Kalmar\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jen Johansson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerhard Lexner\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"university\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor\",\n      \"studySubject\": \"veterinary medicine\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"master\",\n      \"studySubject\": \"veterinary medicine\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"county veterinary training course\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District Veterinarian\",\n      \"startDate\": \"1922-01-01\",\n      \"endDate\": \"1934-12-31\",\n      \"namedPosition\": \"Norsjö\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Inspection Veterinarian\",\n      \"startDate\": \"1934\",\n      \"endDate\": null,\n      \"namedPosition\": \"Nybro Meat Inspection Office\"\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Germany, Austria, Hungary, Italy\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Germany, Belgium, France\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Finland, Soviet Union\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\"\n    }\n  ],\n  \"publications\": [\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Travel Report on University Travel\",\n      \"publicationDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Documents on the Establishment of Declarations for Medical, Veterinary, and Dental\",\n      \"publicationDate\": \"1928\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl-Hugo Lexner",
+        "jobTitle": "District Veterinarian",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nybro"
+        },
+        "birthDate": "1892-10-18",
+        "birthPlace": "Örsjö, Kalmar",
+        "spouse": {
+            "@type": "Person",
+            "name": "Jen Johansson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gerhard Lexner",
+                "birthDate": "1924"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "university",
+                "startDate": "1913",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor",
+                "studySubject": "veterinary medicine",
+                "startDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "master",
+                "studySubject": "veterinary medicine",
+                "startDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "county veterinary training course",
+                "startDate": "1935"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "District Veterinarian",
+                "startDate": "1922-01-01",
+                "endDate": "1934-12-31",
+                "namedPosition": "Norsjö"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Inspection Veterinarian",
+                "startDate": "1934",
+                "endDate": null,
+                "namedPosition": "Nybro Meat Inspection Office"
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "Trip",
+                "name": "Germany, Austria, Hungary, Italy",
+                "startDate": "1922",
+                "endDate": "1922"
+            },
+            {
+                "@type": "Trip",
+                "name": "Germany",
+                "startDate": "1923",
+                "endDate": "1923"
+            },
+            {
+                "@type": "Trip",
+                "name": "Germany, Belgium, France",
+                "startDate": "1928",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Trip",
+                "name": "Finland, Soviet Union",
+                "startDate": "1939",
+                "endDate": "1939"
+            }
+        ],
+        "publications": [
+            {
+                "@type": "Article",
+                "name": "Travel Report on University Travel",
+                "publicationDate": "1923"
+            },
+            {
+                "@type": "Article",
+                "name": "Documents on the Establishment of Declarations for Medical, Veterinary, and Dental",
+                "publicationDate": "1928"
+            }
+        ]
+    }
+}

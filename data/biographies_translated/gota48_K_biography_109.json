@@ -1,0 +1,93 @@
+{
+    "original": "Kjällgren, Georg Klas Bernhard, advokat, notarius publicus, Trollhättan, f. 18/4/94 i Härja, Skarab. k, av kontr :prosten Klas K. o. Hedvig Kit-tel. G. 22 m. Elsa Ev^erth. Barn: Karl Georg f. 23, Margareta 25, Rolf 30, Lennart 38. — Stud:ex. i Skara 13, jur. kand. i Upps. 18. Tingstjg. i Skånings, Valle o. Viiske doms. 20-21, adv. i Trollhättan, not. publ. där sed. 27. Ombudsman o. styr :led. i Trollhättans Sparbank, ordf. i styr. f. A-B Gbgs ITandelsbanks avd :kont., ordf. i ’Stadsstyr. 22-37. Led. av Sv:es adv :samf. sed. 23.",
+    "translated": "Kjällgren, Georg Klas Bernhard, lawyer, notary public, Trollhättan, born on April 18, 1894, in Härja, Skaraborg county, son of the vicar Klas K. and Hedvig Kit-tel. Married in 1922 to Elsa Everth. Children: Karl Georg, born in 1923, Margareta, born in 1925, Rolf, born in 1930, Lennart, born in 1938. Completed high school in Skara in 1913, graduated with a law degree from Uppsala University in 1918. Served as a court official in the Skånings, Valle, and Viiske districts from 1920 to 1921. Practiced law in Trollhättan and became a notary public there in 1927. Served as an official and board member of Trollhättans Sparbank. Was the chairman of the board for the division of Gothenburg's Commercial Bank, and chairman of the City Council from 1922 to 1937. A member of the Swedish Bar Association since 1923.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Georg Klas Bernhard Kjällgren\",\n  \"birthDate\": \"1894-04-18\",\n  \"birthPlace\": \"Härja, Skaraborg county\",\n  \"memberOf\": [{\n    \"@type\": \"Organization\",\n    \"name\": \"Trollhättans Sparbank\",\n    \"jobTitle\": \"Ombudsman\"\n    },\n    {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Gbgs Handelsbank\",\n    \"jobTitle\": \"Chairman of the Division\"\n    },\n    {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"jobTitle\": \"Member\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": \"High school diploma\",\n    \"educationalProgram\": \"Stud:ex. in Skara\",\n    \"startDate\": \"1913\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Uppsala University\",\n    \"location\": \"Uppsala\",\n    \"programPrerequisites\": \"Stud:ex. in Skara\",\n    \"endDate\": \"1918\"\n  },\n  \"profession\": \"Lawyer\",\n  \"workLocation\": \"Trollhättan\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Trollhättan\",\n    \"jobTitle\": \"Advocate, Notary Public\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Everth\",\n    \"marriageDate\": \"1922\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Georg\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"event\": {\n    \"@type\": \"CourtAppearance\",\n    \"districts\": [\"Skånings\", \"Valle\", \"Viiske\"],\n    \"startDate\": \"1920\",\n    \"endDate\": \"1921\"\n  },\n  \"governmentalResponsibility\": {\n    \"@type\": \"GovernmentOrganization\",\n    \"name\": \"City Council of Trollhättan\",\n    \"startDate\": \"1922\",\n    \"endDate\": \"1937\",\n    \"jobTitle\": \"Chairman\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Georg Klas Bernhard Kjällgren",
+        "birthDate": "1894-04-18",
+        "birthPlace": "Härja, Skaraborg county",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Trollhättans Sparbank",
+                "jobTitle": "Ombudsman"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Gbgs Handelsbank",
+                "jobTitle": "Chairman of the Division"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "jobTitle": "Member"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "High school diploma",
+            "educationalProgram": "Stud:ex. in Skara",
+            "startDate": "1913"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Uppsala University",
+            "location": "Uppsala",
+            "programPrerequisites": "Stud:ex. in Skara",
+            "endDate": "1918"
+        },
+        "profession": "Lawyer",
+        "workLocation": "Trollhättan",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Trollhättan",
+            "jobTitle": "Advocate, Notary Public"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Everth",
+            "marriageDate": "1922"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karl Georg",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart",
+                "birthDate": "1938"
+            }
+        ],
+        "event": {
+            "@type": "CourtAppearance",
+            "districts": [
+                "Skånings",
+                "Valle",
+                "Viiske"
+            ],
+            "startDate": "1920",
+            "endDate": "1921"
+        },
+        "governmentalResponsibility": {
+            "@type": "GovernmentOrganization",
+            "name": "City Council of Trollhättan",
+            "startDate": "1922",
+            "endDate": "1937",
+            "jobTitle": "Chairman"
+        }
+    }
+}

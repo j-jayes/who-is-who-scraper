@@ -1,0 +1,69 @@
+{
+    "original": "Källoff, Nils, e. o. hovrätts fiskal, Jönköping, f. 29/7/12 i Sthlm av stads-kamr. Ossian K. o. Annie Hultgren. G. 36 m. Iduna Malmström. Barn: Margareta f. 38. — Stud:ex. i Jönköp. 31, jur. kand. i Lund 36. Tingstjg. i Vili-andisi diomis. 36-3(9, e. o. not. i Göta hovr. 39-40, fiskal där 40, tingssekr. i Sunnervikens dom«. 42-46, e. o. fiskal i Göta hovr. 46, adj. led. s. å. Hobby: sv. frimärken.",
+    "translated": "Källoff, Nils, temporary associate judge's fiscal, Jönköping, born on July 29, 1912 in Stockholm to city commissioner Ossian K. and Annie Hultgren. Married in 1936 to Iduna Malmström. Children: Margareta born in 1938. Completed high school in Jönköping in 1931, obtained a law degree in Lund in 1936. Served as a judicial assistant in Vili-andisi diomis from 1936-1939, temporary notary at Göta Court of Appeal in 1939-1940, fiscal there from 1940, court clerk at Sunnerviken district court from 1942-1946, temporary fiscal at Göta Court of Appeal in 1946, adjunct member in the same year. Hobby: Swedish stamps.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Källoff\",\n  \"givenName\": \"Nils\",\n  \"familyName\": \"Källoff\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1912-07-29\",\n  \"birthPlace\": \"Stockholm\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": [\n    {\n      \"@type\": \"Role\",\n      \"endDate\": \"1931\",\n      \"roleName\": \"High School Graduate\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1946\",\n      \"roleName\": \"Temporary Associate Judge's Fiscal\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Jönköping\"\n        }\n      }\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ossian Källoff\",\n      \"gender\": \"Male\",\n      \"jobTitle\": \"City Commissioner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Annie Hultgren\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Iduna Malmström\",\n    \"gender\": \"Female\",\n    \"startDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Källoff\",\n      \"gender\": \"Female\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"hobby\": \"Swedish Stamps\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Källoff",
+        "givenName": "Nils",
+        "familyName": "Källoff",
+        "gender": "Male",
+        "birthDate": "1912-07-29",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "occupation": [
+            {
+                "@type": "Role",
+                "endDate": "1931",
+                "roleName": "High School Graduate",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Jönköping"
+                }
+            },
+            {
+                "@type": "Role",
+                "startDate": "1936",
+                "endDate": "1946",
+                "roleName": "Temporary Associate Judge's Fiscal",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Jönköping",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Jönköping"
+                    }
+                }
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ossian Källoff",
+                "gender": "Male",
+                "jobTitle": "City Commissioner"
+            },
+            {
+                "@type": "Person",
+                "name": "Annie Hultgren",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Iduna Malmström",
+            "gender": "Female",
+            "startDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta Källoff",
+                "gender": "Female",
+                "birthDate": "1938"
+            }
+        ],
+        "hobby": "Swedish Stamps"
+    }
+}

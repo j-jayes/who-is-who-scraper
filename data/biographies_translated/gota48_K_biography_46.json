@@ -1,0 +1,209 @@
+{
+    "original": "Karner, Friedrich (Fritz), praktiserande läkare, Norrköping, f. 3/1/96 i Bleiburg, Österr., av D :r med. Franz K. o. Maria Pitschko. G. 26 m. Karin Lundgren. Barn: Birgitta Edit Maria f. 27, Fritz Göran 30, Anna-Karin Tyra Elisabet 33. — Stud:ex. i Wien 14, D :r med. där 21, med. kand. 23 o. med. lic. 28 i Sthlm. Ho.spitant v. gynekolog, klin. i Wien 19-20 o. 26-27, volontärassist. v. kir. klin. i München 22, tf. undiläk. v. Carlan-derska sjukhemmet 28, assist :läk. v. Växjö las. 28-29, dito ’samt tf. aman. v. Gbgs BB 29, tf. andre und:läk. v. Stora Ekebergs sanat. 29-30, tf. prov:läk. i Borlänge o. Hallstaviks distr. 30, prakt. läk. i Norrköp. sed. 30.",
+    "translated": "Karner, Friedrich (Fritz), practicing physician, Norrköping, b. 3/1/96 in Bleiburg, Austria, son of Dr. med. Franz K. and Maria Pitschko. Married on the 26th of an undisclosed month with Karin Lundgren. Children: Birgitta Edit Maria, born in 1927; Fritz Göran, born in 1930; Anna-Karin Tyra Elisabet, born in 1933. \n\nEducation: Graduated from high school in Vienna in 1914, obtained a medical degree there in 1921, completed a medical candidate degree in 1923, and a medical licentiate degree in Stockholm in 1928. \n\nProfessional experience: Worked as an intern at the gynecology clinic in Vienna from 1919-1920 and 1926-1927, served as a volunteer assistant at the surgical clinic in Munich in 1922, acted as a temporary assistant physician at the Carlanderska Hospital in 1928, worked as an assistant physician at Växjö Hospital from 1928-1929, served as a temporary assistant and trainee at the Gothenburg Maternity Hospital in 1929, worked as a temporary second assistant physician at Stora Ekebergs Sanatorium from 1929-1930, worked as a temporary physician at Borlänge and Hallstavik districts in 1930, and has been practicing as a physician in Norrköping since 1930.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Friedrich (Fritz) Karner\",\n  \"birthDate\": \"1896-01-03\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Bleiburg\",\n      \"addressCountry\": \"Austria\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Franz Karner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Pitschko\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Lundgren\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Edit Maria\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fritz Göran\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Karin Tyra Elisabet\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"studex\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Secondary Education\"\n      },\n      \"issuer\": {\n        \"@type\": \"Person\",\n        \"name\": \"Wien\"\n      },\n      \"issuedOn\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"meddegree\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Doctor of Medicine\"\n      },\n      \"issuer\": {\n        \"@type\": \"Person\",\n        \"name\": \"Wien\"\n      },\n      \"issuedOn\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medcandidate\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Medical Candidate\"\n      },\n      \"issuer\": {\n        \"@type\": \"Person\",\n        \"name\": \"Wien\"\n      },\n      \"issuedOn\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medlicentiate\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Medical Licentiate\"\n      },\n      \"issuer\": {\n        \"@type\": \"Person\",\n        \"name\": \"Stockholm\"\n      },\n      \"issuedOn\": \"1928\"\n    }\n  ],\n  \"jobTitle\": \"Practicing Physician\",\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Norrköping\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gynecology Clinic\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Vienna\",\n        \"addressCountry\": \"Austria\"\n      },\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gynecology Clinic\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Vienna\",\n        \"addressCountry\": \"Austria\"\n      },\n      \"startDate\": \"1926\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Surgical Clinic\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Munich\",\n        \"addressCountry\": \"Germany\"\n      },\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Carlanderska Hospital\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Växjö Hospital\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Växjö\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg Maternity Hospital\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Stora Ekebergs Sanatorium\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Borlänge and Hallstavik Districts\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Borlänge and Hallstavik\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Private Practice\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Norrköping\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1930\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Friedrich (Fritz) Karner",
+        "birthDate": "1896-01-03",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Bleiburg",
+                "addressCountry": "Austria"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Franz Karner"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Pitschko"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Lundgren"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta Edit Maria",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Fritz Göran",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Karin Tyra Elisabet",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "studex",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Secondary Education"
+                },
+                "issuer": {
+                    "@type": "Person",
+                    "name": "Wien"
+                },
+                "issuedOn": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "meddegree",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Doctor of Medicine"
+                },
+                "issuer": {
+                    "@type": "Person",
+                    "name": "Wien"
+                },
+                "issuedOn": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medcandidate",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Medical Candidate"
+                },
+                "issuer": {
+                    "@type": "Person",
+                    "name": "Wien"
+                },
+                "issuedOn": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medlicentiate",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Medical Licentiate"
+                },
+                "issuer": {
+                    "@type": "Person",
+                    "name": "Stockholm"
+                },
+                "issuedOn": "1928"
+            }
+        ],
+        "jobTitle": "Practicing Physician",
+        "workLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Norrköping",
+                "addressCountry": "Sweden"
+            }
+        },
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gynecology Clinic",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Vienna",
+                    "addressCountry": "Austria"
+                },
+                "startDate": "1919",
+                "endDate": "1920"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gynecology Clinic",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Vienna",
+                    "addressCountry": "Austria"
+                },
+                "startDate": "1926",
+                "endDate": "1927"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Surgical Clinic",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Munich",
+                    "addressCountry": "Germany"
+                },
+                "startDate": "1922"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Carlanderska Hospital",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1928"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Växjö Hospital",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Växjö",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1928",
+                "endDate": "1929"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg Maternity Hospital",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1929"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Stora Ekebergs Sanatorium",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1929",
+                "endDate": "1930"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Borlänge and Hallstavik Districts",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Borlänge and Hallstavik",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1930"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Private Practice",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Norrköping",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1930"
+            }
+        ]
+    }
+}

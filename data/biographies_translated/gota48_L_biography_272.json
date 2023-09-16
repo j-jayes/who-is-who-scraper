@@ -1,0 +1,110 @@
+{
+    "original": "Linde, Karl Harry, fil. dr, Göteborg, f. 1/7/05 i Gbg av Frithiof L. o. Gunni Gisselsson. G. 38 m. Linnea Reimer. Barn: Anders f. 44. — Stud:-ex. i Upps. 26, fil. mag. i Gbg 31, fil. lic. 35, fil. dr 36, pro vår v. Gbgs h. latin 37-38, E. o. adj. v. Hvitfeldtska h. a. 1. i Gbg 39. Värnpl. löjtn. 44. Skr.: Stud. till Colummellas nionde bok (grad:avh. 36).",
+    "translated": "Linde, Karl Harry, PhD, Gothenburg, b. 1/7/05 in Gothenburg to Frithiof L. and Gunni Gisselsson. Married in 1938 to Linnea Reimer. Children: Anders b. 1944. — Passed student examination in Uppsala in 1926, Bachelor of Arts in Gothenburg in 1931, licentiate in philosophy in 1935, Doctor of Philosophy in 1936, substitute teacher for spring term at Gothenburg High Latin School from 1937-1938, Acting and assistant teacher at Hvitfeldtska High School from 1939. Second lieutenant in the military in 1944. Writings: Study on Columella's ninth book (dissertation: 1936).",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Karl Harry Linde\",\n   \"birthDate\": \"1905-07-01\",\n   \"birthPlace\": \"Gothenburg\",\n   \"parents\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Frithiof L. Linde\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Gunni Gisselsson\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Linnea Reimer\",\n      \"marriageDate\": \"1938\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anders Linde\",\n         \"birthDate\": \"1944\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Bachelor's degree\",\n         \"educationalLevel\": \"Bachelor of Arts\",\n         \"alumniOf\": {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"University of Gothenburg\",\n            \"location\": \"Gothenburg\"\n         },\n         \"dateAwarded\": \"1931\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Licentiate degree\",\n         \"educationalLevel\": \"Philosophy\",\n         \"alumniOf\": {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"University of Gothenburg\",\n            \"location\": \"Gothenburg\"\n         },\n         \"dateAwarded\": \"1935\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Doctoral degree\",\n         \"educationalLevel\": \"PhD\",\n         \"alumniOf\": {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"University of Gothenburg\",\n            \"location\": \"Gothenburg\"\n         },\n         \"dateAwarded\": \"1936\",\n         \"thesis\": \"Study on Columella's ninth book\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Secondary education\",\n         \"educationalLevel\": \"Student examination\",\n         \"alumniOf\": {\n            \"@type\": \"CollegeOrUniversity\",\n            \"name\": \"Uppsala University\",\n            \"location\": \"Uppsala\"\n         },\n         \"dateAwarded\": \"1926\"\n      }\n   ],\n   \"employmentHistory\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1937\",\n         \"endDate\": \"1938\",\n         \"roleName\": \"Substitute Teacher\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Gothenburg High Latin School\",\n            \"location\": \"Gothenburg\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1939\",\n         \"roleName\": \"Acting and Assistant Teacher\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Hvitfeldtska High School\",\n            \"location\": \"Gothenburg\"\n         }\n      }\n   ],\n   \"militaryService\": {\n      \"@type\": \"Person\",\n      \"serviceType\": \"Second lieutenant\",\n      \"startDate\": \"1944\"\n   },\n   \"additionalType\": \"Biography\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Harry Linde",
+        "birthDate": "1905-07-01",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Frithiof L. Linde"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunni Gisselsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Linnea Reimer",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anders Linde",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Bachelor of Arts",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Gothenburg",
+                    "location": "Gothenburg"
+                },
+                "dateAwarded": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Licentiate degree",
+                "educationalLevel": "Philosophy",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Gothenburg",
+                    "location": "Gothenburg"
+                },
+                "dateAwarded": "1935"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Doctoral degree",
+                "educationalLevel": "PhD",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "University of Gothenburg",
+                    "location": "Gothenburg"
+                },
+                "dateAwarded": "1936",
+                "thesis": "Study on Columella's ninth book"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary education",
+                "educationalLevel": "Student examination",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Uppsala University",
+                    "location": "Uppsala"
+                },
+                "dateAwarded": "1926"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1937",
+                "endDate": "1938",
+                "roleName": "Substitute Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg High Latin School",
+                    "location": "Gothenburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1939",
+                "roleName": "Acting and Assistant Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Hvitfeldtska High School",
+                    "location": "Gothenburg"
+                }
+            }
+        ],
+        "militaryService": {
+            "@type": "Person",
+            "serviceType": "Second lieutenant",
+            "startDate": "1944"
+        },
+        "additionalType": "Biography"
+    }
+}

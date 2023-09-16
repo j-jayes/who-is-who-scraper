@@ -1,0 +1,84 @@
+{
+    "original": "Linde, Lars, bankdirektör, Hjo, f. 13/12/06 i Korsberga, Skarab. 1., av Richard L. o. Berta Abrahamsson. G. 34 m. Elsie Forthmeijer. Barn: Kersti f. 39, Gudrun 43. — Stud. v. h. allm. lärov. Anst. v. Hjo Bank sed. 24, verkst. dir. där sed, 36. Tiilh. Kors-berga IF, sekr. 24-34, sekr. i IFK Hjo 35-43, ordf. där sed. 43. Hobby: idrott. Idr :in., påbyggn :m. i emalj o. guld.",
+    "translated": "Linde, Lars, bank director, Hjo, b. 13/12/06 in Korsberga, Skaraborg County. Son of Richard L. and Berta Abrahamsson. Married in 1934 to Elsie Forthmeijer. Children: Kersti, born in 1939, Gudrun, born in 1943. Lars studied at the general high school and worked at Hjo Bank from 1924, becoming the managing director in 1936. He was also involved in the Korsberga Sports Club as a secretary from 1924 to 1934 and later served as secretary in IFK Hjo from 1935 to 1943, eventually becoming chairman in 1943. His hobby is sports, specifically enamel and gold enhancements.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Linde\",\n  \"birthDate\": \"1906-12-13\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Korsberga\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Hjo\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Richard L. Linde\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berta Abrahamsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsie Forthmeijer\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kersti\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"occupation\": \"Bank Director\",\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Hjo Bank\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1936\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Korsberga IF\",\n      \"roleName\": \"Secretary\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"IFK Hjo\",\n      \"roleName\": \"Secretary\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"IFK Hjo\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"hobbies\": [\n    \"Sports\"\n  ],\n  \"additionalName\": [\n    \"Enamel enhancements\",\n    \"Gold enhancements\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Linde",
+        "birthDate": "1906-12-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Korsberga"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hjo"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Richard L. Linde"
+            },
+            {
+                "@type": "Person",
+                "name": "Berta Abrahamsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsie Forthmeijer",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kersti",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Gudrun",
+                "birthDate": "1943"
+            }
+        ],
+        "occupation": "Bank Director",
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Hjo Bank",
+                "startDate": "1924",
+                "endDate": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Korsberga IF",
+                "roleName": "Secretary",
+                "startDate": "1924",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "IFK Hjo",
+                "roleName": "Secretary",
+                "startDate": "1935",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "IFK Hjo",
+                "roleName": "Chairman",
+                "startDate": "1943"
+            }
+        ],
+        "hobbies": [
+            "Sports"
+        ],
+        "additionalName": [
+            "Enamel enhancements",
+            "Gold enhancements"
+        ]
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "original": "Lampers, Sven Eskil, assessor, Göteborg, f. 3/5/04 i Uddevalla av tulltillsyn :man John Alexis L. o. Mariana Kristina Svensson. G. 40 m. Aina Törnblom. — Stud:ex. i Uddevalla 23, jur. kand. i Sthlm 28. Tingstjg. i Sun-nervikens doms. 28-31, not. v. Gbgs drätselkamm. 32-34, e. not. v. Gbgs magistrat o. rådhusr. 34, fiskalsför-ordn. i Göta hovr. 35, assessor i Gbgs rådhusr. 44. Lär. i alkoholistvård o. skyddsverksamh. v. Gbgs socialinst. sed. 45. Led. av Gbgs bibelsällskaps komm. sed. 35, av domkyrkorådet i Gbg 36-43, suppl. i Gbgs domkap. sed. 43, ordf. i tax:nd sed. 40.",
+    "translated": "Lampers, Sven Eskil, assessor, Gothenburg, b. 3/5/04 in Uddevalla to customs supervisor John Alexis L. and Mariana Kristina Svensson. M. 40 with Aina Törnblom. — High school graduate in Uddevalla 23, law degree in Stockholm 28. Judicial assistant at the court of Sunnerviken 28-31, assistant secretary at the Gothenburg municipal board 32-34, trainee assistant at the Gothenburg magistrate and town hall 34, deputy prosecutor at the Gothenburg court of appeals 35, assessor at the Gothenburg town hall 44. Teacher in alcoholism care and social protection activities at the Gothenburg social institution since 45. Member of the Gothenburg Bible Society's committee since 35, of the cathedral council in Gothenburg 36-43, substitute in the Gothenburg diocese since 43, chairman of tax committee since 40.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Eskil Lampers\",\n  \"birthDate\": \"1904-05-03\",\n  \"birthPlace\": \"Uddevalla\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Assessor\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John Alexis Lampers\",\n      \"jobTitle\": \"Customs Supervisor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mariana Kristina Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Aina Törnblom\",\n    \"marriageDuration\": \"P40Y\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school\",\n      \"institution\": \"Uddevalla\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Law degree\",\n      \"institution\": \"Stockholm\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\",\n      \"roleName\": \"Judicial Assistant\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sunnerviken Court\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\",\n      \"roleName\": \"Assistant Secretary\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Municipal Board\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\",\n      \"roleName\": \"Trainee Assistant\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Magistrate and Town Hall\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\",\n      \"roleName\": \"Deputy Prosecutor\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Court of Appeals\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1944\",\n      \"endDate\": null,\n      \"roleName\": \"Assessor\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Town Hall\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1945\",\n      \"endDate\": null,\n      \"roleName\": \"Teacher\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Social Institution\"\n      }\n    }\n  ],\n  \"memberships\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Bible Society's Committee\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Cathedral Council in Gothenburg\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Diocese\",\n      \"startDate\": \"1943\",\n      \"substitute\": true\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tax Committee\",\n      \"startDate\": \"1940\",\n      \"chairman\": true\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Eskil Lampers",
+        "birthDate": "1904-05-03",
+        "birthPlace": "Uddevalla",
+        "nationality": "Swedish",
+        "jobTitle": "Assessor",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John Alexis Lampers",
+                "jobTitle": "Customs Supervisor"
+            },
+            {
+                "@type": "Person",
+                "name": "Mariana Kristina Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Aina Törnblom",
+            "marriageDuration": "P40Y"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school",
+                "institution": "Uddevalla",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Law degree",
+                "institution": "Stockholm",
+                "endDate": "1928"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "endDate": "1931",
+                "roleName": "Judicial Assistant",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Sunnerviken Court"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "endDate": "1934",
+                "roleName": "Assistant Secretary",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Municipal Board"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1934",
+                "endDate": "1934",
+                "roleName": "Trainee Assistant",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Magistrate and Town Hall"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "endDate": "1935",
+                "roleName": "Deputy Prosecutor",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Court of Appeals"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "endDate": null,
+                "roleName": "Assessor",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Town Hall"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1945",
+                "endDate": null,
+                "roleName": "Teacher",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Social Institution"
+                }
+            }
+        ],
+        "memberships": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Bible Society's Committee",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Cathedral Council in Gothenburg",
+                "startDate": "1936",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Diocese",
+                "startDate": "1943",
+                "substitute": true
+            },
+            {
+                "@type": "Organization",
+                "name": "Tax Committee",
+                "startDate": "1940",
+                "chairman": true
+            }
+        ]
+    }
+}

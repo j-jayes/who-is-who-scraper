@@ -1,0 +1,61 @@
+{
+    "original": "Leijonhufvud, Sten Knut Arthur C :-son, friherre, Norrköping, f. 19/5/16 i Sthlm av frih. Carl S :’Son L. o. Margit Frestadius. G. 41 m. Märtha Ma-thilde Madeleine Koskull. — Stud:ex. i Strängnäs 36, jur. kand. 42. Tings-tjg. v. Bråbygdens o. Finspångaläns doms. i Norrköp. 42-45, anst. v. drät-selkamm. i Norrköp. sed. 45. Hobbies: jakt o. sportfiske.",
+    "translated": "Leijonhufvud, Sten Knut Arthur C :-son, Baron, Norrköping, b. 19/5/16 in Stockholm, son of Baron Carl S. L. and Margit Frestadius. Married in 1941 to Märtha Mathilde Madeleine Koskull. - Completed high school in Strängnäs in 1936, obtained a law degree in 1942. Served as a judicial clerk in Bråbygdens and Finspångaläns district court in Norrköping from 1942 to 1945, employed by the local tax board in Norrköping since 1945. Hobbies: hunting and sport fishing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sten Knut Arthur C Leijonhufvud\",\n  \"givenName\": \"Sten\",\n  \"additionalName\": \"Knut Arthur C\",\n  \"familyName\": \"Leijonhufvud\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1916-05-19\",\n  \"birthPlace\": \"Stockholm\",\n  \"nationality\": \"Swedish\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Carl S\",\n      \"familyName\": \"Leijonhufvud\",\n      \"additionalName\": \"L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Margit\",\n      \"familyName\": \"Frestadius\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Märtha Mathilde Madeleine\",\n    \"familyName\": \"Koskull\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"high school diploma\",\n    \"educationalLevel\": \"high school\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Strängnäs\"\n    },\n    \"startDate\": \"1936\",\n    \"endDate\": \"1936\"\n  },\n  \"work\": [\n    {\n      \"@type\": \"Judge\",\n      \"name\": \"Bråbygdens and Finspångaläns district court\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"name\": \"local tax board in Norrköping\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"interest\": [\n    \"Hunting\",\n    \"Sport fishing\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sten Knut Arthur C Leijonhufvud",
+        "givenName": "Sten",
+        "additionalName": "Knut Arthur C",
+        "familyName": "Leijonhufvud",
+        "gender": "Male",
+        "birthDate": "1916-05-19",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "givenName": "Carl S",
+                "familyName": "Leijonhufvud",
+                "additionalName": "L."
+            },
+            {
+                "@type": "Person",
+                "givenName": "Margit",
+                "familyName": "Frestadius"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Märtha Mathilde Madeleine",
+            "familyName": "Koskull"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "high school diploma",
+            "educationalLevel": "high school",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Strängnäs"
+            },
+            "startDate": "1936",
+            "endDate": "1936"
+        },
+        "work": [
+            {
+                "@type": "Judge",
+                "name": "Bråbygdens and Finspångaläns district court"
+            },
+            {
+                "@type": "JobPosting",
+                "name": "local tax board in Norrköping",
+                "startDate": "1945"
+            }
+        ],
+        "interest": [
+            "Hunting",
+            "Sport fishing"
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "original": "Källsson, Fritjof, befraktare, Lidköping, f. 14/10/07 i Karlskrona av F. J. K. o. Charlotta Ingelsson. G. 43 m. Bojan Nilsson. Barn: UMa f. 45, Inger f. 47. — Hand:sk. Anst. i U. A. Roselius A-B i Karlskrona 29-35, i Erik Thun A-B sed. 35.",
+    "translated": "Källsson, Fritjof, charterer, Lidköping, b. 14/10/07 in Karlskrona to F. J. K. and Charlotta Ingelsson. Married in 1943 to Bojan Nilsson. Children: UMa, b. 1945, Inger, b. 1947. - Occupation: Employed at U. A. Roselius A-B in Karlskrona from 1929 to 1935, and at Erik Thun A-B since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Fritjof Källsson\",\n  \"birthDate\": \"1907-10-14\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Karlskrona\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"F. J. K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Charlotta Ingelsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bojan Nilsson\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"UMa\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Charterer\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1935\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"U. A. Roselius A-B\",\n        \"location\": {\n          \"@type\": \"City\",\n          \"name\": \"Karlskrona\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Charterer\",\n      \"startDate\": \"1935\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Erik Thun A-B\"\n      }\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Lidköping\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Fritjof Källsson",
+        "birthDate": "1907-10-14",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Karlskrona"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "F. J. K."
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotta Ingelsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Bojan Nilsson",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "UMa",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1947"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "JobPosting",
+                "title": "Charterer",
+                "startDate": "1929",
+                "endDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "U. A. Roselius A-B",
+                    "location": {
+                        "@type": "City",
+                        "name": "Karlskrona"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Charterer",
+                "startDate": "1935",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Erik Thun A-B"
+                }
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lidköping"
+        }
+    }
+}

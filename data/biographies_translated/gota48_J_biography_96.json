@@ -1,0 +1,65 @@
+{
+    "original": "Johansson, James Allan, ingenjör, Varberg, f. 17/1/18 i Träslöv, Hall. 1., av Johan J. o. Berta Andersson. G. 44 m. Runa Svantesson. Barn: Eva f. 45. — Realex. i Varberg 35, avg:ex. fr. Borås tekn. elem:sik. 40 o. fr. Borås textilinst. 44. Ing. v. Malmö Yl-lefabr. A-B i Varberg sed. 40. Hobby: fotografering.",
+    "translated": "Johansson, James Allan, engineer, Varberg, born 17/1/18 in Träslöv, Halland, eldest son of Johan J. and Berta Andersson. Married in 1944 to Runa Svantesson. Children: Eva, born in 1945. Completed Realexamen in Varberg in 1935, left Borås Technical Elementary School in 1940, and graduated from Borås Textile Institute in 1944. Worked as an engineer at Malmö Linen Factory AB in Varberg since 1940. Hobbies include photography.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Johansson, James Allan\",\n   \"jobTitle\":\"Engineer\",\n   \"birthPlace\":{\n      \"@type\":\"Place\",\n      \"name\":\"Träslöv, Halland\"\n   },\n   \"birthDate\":\"1918-01-17\",\n   \"parent\":{\n      \"@type\":\"Person\",\n      \"name\":\"Johan J. Andersson\"\n   },\n   \"mother\":{\n      \"@type\":\"Person\",\n      \"name\":\"Berta Andersson\"\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Runa Svantesson\",\n      \"marriageDate\":\"1944\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Eva\",\n         \"birthDate\":\"1945\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Realexamen\",\n         \"location\":\"Varberg\",\n         \"startDate\":\"1935\"\n      },\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Borås Technical Elementary School\",\n         \"location\":\"Borås\",\n         \"endDate\":\"1940\"\n      },\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"Borås Textile Institute\",\n         \"location\":\"Borås\",\n         \"endDate\":\"1944\"\n      }\n   ],\n   \"work\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Malmö Linen Factory AB\",\n      \"location\":\"Varberg\",\n      \"startDate\":\"1940\",\n      \"title\":\"Engineer\"\n   },\n   \"additionalName\":\"Allan\",\n   \"knowsAbout\":\"Photography\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johansson, James Allan",
+        "jobTitle": "Engineer",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Träslöv, Halland"
+        },
+        "birthDate": "1918-01-17",
+        "parent": {
+            "@type": "Person",
+            "name": "Johan J. Andersson"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Berta Andersson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Runa Svantesson",
+            "marriageDate": "1944"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Realexamen",
+                "location": "Varberg",
+                "startDate": "1935"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borås Technical Elementary School",
+                "location": "Borås",
+                "endDate": "1940"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borås Textile Institute",
+                "location": "Borås",
+                "endDate": "1944"
+            }
+        ],
+        "work": {
+            "@type": "Organization",
+            "name": "Malmö Linen Factory AB",
+            "location": "Varberg",
+            "startDate": "1940",
+            "title": "Engineer"
+        },
+        "additionalName": "Allan",
+        "knowsAbout": "Photography"
+    }
+}

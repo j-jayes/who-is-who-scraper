@@ -1,0 +1,97 @@
+{
+    "original": "Levin, Ewert Mauritz, praktiserande läkare, Norrköping, f. 14/10/98 i Malmö av disp. Emanuel L. o. Lina Sofia Hüttner. G. 37 m. Elisabeth Enhörning. Barnr Björn f. 38, Ulla-Britt 42. — Studrex. i Malmö 19, med. kand. i Sthlm 23, med. lic. i Lund 33. Div, förordn. v. Malmö allm. sjukh. 29, e. läk. v. Lyckornas havsbad somr. 31-33, läk. där 34-38, skeppsläk. v. Johnson-linjen 34, prakt. läk. i Gbg 36-38, i Norrköp. sed. 38. Studrresa t. Amerika 34. Hobby r filateh.",
+    "translated": "Levin, Ewert Mauritz, practicing physician, Norrköping, born on October 14th, 1898, in Malmö, to unmarried parents Emanuel L. and Lina Sofia Hüttner. Married in 1937 to Elisabeth Enhörning. Children: Björn, born in 1938, Ulla-Britt, born in 1942. Education: studied at Malmö University until 1919, obtained a Bachelor of Medicine degree in Stockholm in 1923, obtained a medical license in Lund in 1933. Work experience: appointed at Malmö General Hospital in 1929, employed as a doctor at Lyckornas seaside resort from summer 1931 to 1933, worked as a physician there from 1934 to 1938, served as a ship's doctor for Johnson Line in 1934, practiced medicine in Gothenburg from 1936 to 1938, and has been a practicing physician in Norrköping since 1938. Took a study trip to America in 1934. Hobbies include philately.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Levin, Ewert Mauritz\",\n  \"jobTitle\": \"Practicing physician\",\n  \"birthDate\": \"1898-10-14\",\n  \"birthPlace\": \"Malmö\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emanuel L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lina Sofia Hüttner\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabeth Enhörning\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla-Britt\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Medicine\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"educationalCredentialAwarded\": \"Medicine\",\n      \"awardingInstitution\": \"Malmö University\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medical License\",\n      \"educationalLevel\": \"MedicalLicense\",\n      \"educationalCredentialAwarded\": \"Medicine\",\n      \"awardingInstitution\": \"Lund University\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Malmö General Hospital\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Lyckornas seaside resort\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Johnson Line\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Norrköping\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"America\"\n    }\n  ],\n  \"knowsAbout\": \"Philately\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Levin, Ewert Mauritz",
+        "jobTitle": "Practicing physician",
+        "birthDate": "1898-10-14",
+        "birthPlace": "Malmö",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Emanuel L."
+            },
+            {
+                "@type": "Person",
+                "name": "Lina Sofia Hüttner"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabeth Enhörning"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla-Britt",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Medicine",
+                "educationalLevel": "BachelorDegree",
+                "educationalCredentialAwarded": "Medicine",
+                "awardingInstitution": "Malmö University",
+                "startDate": "1919",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medical License",
+                "educationalLevel": "MedicalLicense",
+                "educationalCredentialAwarded": "Medicine",
+                "awardingInstitution": "Lund University",
+                "startDate": "1923",
+                "endDate": "1933"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Malmö General Hospital",
+                "startDate": "1929",
+                "endDate": "1931"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Lyckornas seaside resort",
+                "startDate": "1931",
+                "endDate": "1938"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Johnson Line",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg",
+                "startDate": "1936",
+                "endDate": "1938"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Norrköping",
+                "startDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "America"
+            }
+        ],
+        "knowsAbout": "Philately"
+    }
+}

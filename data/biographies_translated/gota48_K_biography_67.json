@@ -1,0 +1,130 @@
+{
+    "original": "Kihlman, Urban Natanael, advokal, Göteborg, f. 13/11/98 i Gbg av Axel Emanuel K. o. Emma Davida Nifeson. G. 31 m. Inga Charlotta Englund. Barn: Eva Kristina f. 32, Inger 33, Anniika Maria 36. — Stud:ex. i Gbg 17, ex. v. Gbgs handelsimst. 18, jur. kand. i Stlilm 25. Tingstjg. i Askims, Hisings o. Sävedals dom’S. 25-28, bitr. jurist v. Gbgs stads rättshj ramst. 28. Led. av Svies advisamf. sed. 36.",
+    "translated": "Kihlman, Urban Natanael, lawyer, Gothenburg, born November 13, 1898, in Gothenburg to Axel Emanuel K. and Emma Davida Nifeson. Married on March 31, 19xx to Inga Charlotta Englund. Children: Eva Kristina born in 1932, Inger born in 1933, Anniika Maria born in 1936. Completed high school in Gothenburg in 1917, completed his commerce studies at Gothenburg's School of Commerce in 1918, obtained a law degree in Stlilm in 1925. Served as a judge in the courts of Askims, Hisings, and Sävedals from 1925 to 1928, and as an assistant lawyer at Gothenburg's municipal legal aid office from 1928. Became a member of the Swedish Bar Association in 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Urban Natanael Kihlman\",\n  \"birthDate\": \"1898-11-13\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Lawyer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel Emanuel Kihlman\",\n      \"relationship\": \"father\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Davida Nifeson\",\n      \"relationship\": \"mother\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga Charlotta Englund\",\n    \"marriageDate\": \"19xx-03-31\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Kristina\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anniika Maria\",\n      \"birthDate\": \"1936\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg School of Commerce\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stlilm Law School\",\n      \"location\": \"Stlilm\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Court\",\n        \"name\": \"Askims Court\",\n        \"location\": \"Askims, Sweden\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Judge\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Court\",\n        \"name\": \"Hisings Court\",\n        \"location\": \"Hisings, Sweden\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Judge\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Court\",\n        \"name\": \"Sävedals Court\",\n        \"location\": \"Sävedals, Sweden\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Judge\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"LegalService\",\n        \"name\": \"Gothenburg Municipal Legal Aid Office\",\n        \"location\": \"Gothenburg, Sweden\"\n      },\n      \"startDate\": \"1928\",\n      \"roleName\": \"Assistant Lawyer\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"ProfessionalService\",\n        \"name\": \"Swedish Bar Association\"\n      },\n      \"startDate\": \"1936\",\n      \"roleName\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Urban Natanael Kihlman",
+        "birthDate": "1898-11-13",
+        "birthPlace": "Gothenburg, Sweden",
+        "nationality": "Swedish",
+        "occupation": "Lawyer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel Emanuel Kihlman",
+                "relationship": "father"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Davida Nifeson",
+                "relationship": "mother"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga Charlotta Englund",
+            "marriageDate": "19xx-03-31"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva Kristina",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Anniika Maria",
+                "birthDate": "1936"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School",
+                "location": "Gothenburg",
+                "startDate": "1917",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg School of Commerce",
+                "location": "Gothenburg",
+                "startDate": "1918",
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stlilm Law School",
+                "location": "Stlilm",
+                "startDate": "1925",
+                "endDate": "1925"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Court",
+                    "name": "Askims Court",
+                    "location": "Askims, Sweden"
+                },
+                "startDate": "1925",
+                "endDate": "1928",
+                "roleName": "Judge"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Court",
+                    "name": "Hisings Court",
+                    "location": "Hisings, Sweden"
+                },
+                "startDate": "1925",
+                "endDate": "1928",
+                "roleName": "Judge"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Court",
+                    "name": "Sävedals Court",
+                    "location": "Sävedals, Sweden"
+                },
+                "startDate": "1925",
+                "endDate": "1928",
+                "roleName": "Judge"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "LegalService",
+                    "name": "Gothenburg Municipal Legal Aid Office",
+                    "location": "Gothenburg, Sweden"
+                },
+                "startDate": "1928",
+                "roleName": "Assistant Lawyer"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "ProfessionalService",
+                    "name": "Swedish Bar Association"
+                },
+                "startDate": "1936",
+                "roleName": "Member"
+            }
+        ]
+    }
+}

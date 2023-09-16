@@ -1,0 +1,86 @@
+{
+    "original": "Johannesson, Karl August, läroverksadjunkt, Mariestad, f. 4/7/09 i Hälsingborg av August J. o. Karin Petersson. — Stud:ex. i Hälsingborg 28, fil. mag. i Lund 34, disp. fr. provår 44. Univ:lektor i Tübingen 34-38, e. adj. i Söderhamn 38-43, Boden 43-44, e. O’, adj. i Västervik 44, adj. i mo-dersm. o. tysfca v. Mariestads’ samreal-sk. s’ed. 45.",
+    "translated": "Johannesson, Karl August, high school teacher, Mariestad, born on July 4, 1909 in Hälsingborg to August J. and Karin Petersson. — Passed high school exams in Hälsingborg in 1928, received a Bachelor's degree in Lund in 1934, examined after probationary year in 1944. University lecturer in Tübingen from 1934 to 1938, then assistant teacher in Söderhamn from 1938 to 1943, in Boden from 1943 to 1944, and then qualified, assistant teacher in Västervik in 1944. Teacher in Swedish and German languages at Mariestads' secondary school since 1945.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl August Johannesson\",\n  \"birthDate\": \"1909-07-04\",\n  \"birthPlace\": \"Hälsingborg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August J. Johannesson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Petersson\"\n    }\n  ],\n  \"description\": \"High school teacher in Mariestad\",\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex.\",\n    \"educationLevel\": \"Bachelor's degree\",\n    \"educationalSpecialty\": \"Philosophy\",\n    \"awardedBy\": {\n      \"@type\": \"Place\",\n      \"name\": \"Lund University\"\n    },\n    \"dateAwarded\": \"1934\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"University lecturer\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1938\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tübingen University\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant teacher\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1943\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Söderhamn\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant teacher\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1944\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Boden\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Qualified, assistant teacher\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1944\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västervik\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Teacher\",\n      \"startDate\": \"1945\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Mariestads' secondary school\"\n      }\n    }\n  ],\n  \"sameAs\": \"https://example.com/karl-august-johannesson\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Karl August Johannesson",
+        "birthDate": "1909-07-04",
+        "birthPlace": "Hälsingborg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "August J. Johannesson"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Petersson"
+            }
+        ],
+        "description": "High school teacher in Mariestad",
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex.",
+            "educationLevel": "Bachelor's degree",
+            "educationalSpecialty": "Philosophy",
+            "awardedBy": {
+                "@type": "Place",
+                "name": "Lund University"
+            },
+            "dateAwarded": "1934"
+        },
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "University lecturer",
+                "startDate": "1934",
+                "endDate": "1938",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Tübingen University"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant teacher",
+                "startDate": "1938",
+                "endDate": "1943",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Söderhamn"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant teacher",
+                "startDate": "1943",
+                "endDate": "1944",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Boden"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Qualified, assistant teacher",
+                "startDate": "1944",
+                "endDate": "1944",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Västervik"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Teacher",
+                "startDate": "1945",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Mariestads' secondary school"
+                }
+            }
+        ],
+        "sameAs": "https://example.com/karl-august-johannesson"
+    }
+}

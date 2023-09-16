@@ -1,0 +1,120 @@
+{
+    "original": "Kvillner, Erik Gunnar, komminister, Gemla, f. 23/3/02 i Algutsboda, Kro-nob. 1. G. 33 m. Astrid Andersson. Barn: Gudrun f. 34, Gunnar 41, Bo 44. — Stud:ex. i Lund 26, teol. fil. ex. där 28, teol. kand., prakt. teol. prov samt prästv. f. Växjö stift 31. Tjg. som past:adj. i Algutsboda o. Kalvsvik samt som v. kommin. i Föra, kommin. i Öja sed. 34.",
+    "translated": "Kvillner, Erik Gunnar, curate, Gemla, b. 23/3/02 in Algutsboda, Kronoberg county. Married in 1933 to Astrid Andersson. Children: Gudrun b. 1934, Gunnar b. 1941, Bo b. 1944. Completed high school in Lund in 1926, theological bachelor's degree in 1928, theological candidate, practical theological examination, and ordained as a priest in the Diocese of Växjö in 1931. Served as assistant pastor in Algutsboda and Kalvsvik, and as assistant curate in Föra, and curate in Öja since 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Gunnar Kvillner\",\n  \"jobTitle\": \"Curate\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gemla\",\n    \"addressRegion\": \"Kronoberg\"\n  },\n  \"birthDate\": \"1902-03-23\",\n  \"birthPlace\": {\n    \"@type\": \"AdministrativeArea\",\n    \"name\": \"Algutsboda\",\n    \"subdivision\": \"Kronoberg county\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Andersson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"examen\"\n      },\n      \"educationalRole\": \"Lund\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teol. fil. ex.\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"examen\"\n      },\n      \"educationalRole\": \"Lund\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teol. kand.\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"prakt. teol. prov samt prästv.\",\n      \"endDate\": \"1931\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Diocese of Växjö\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Role\",\n      \"title\": \"Pastor assistant\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\",\n      \"supervisor\": {\n        \"@type\": \"Person\",\n        \"name\": \"Algutsboda\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"title\": \"Pastor assistant\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\",\n      \"supervisor\": {\n        \"@type\": \"Person\",\n        \"name\": \"Kalvsvik\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"title\": \"Assistant curate\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"???\",\n      \"supervisor\": {\n        \"@type\": \"Person\",\n        \"name\": \"Föra\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"title\": \"Curate\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"???\",\n      \"supervisor\": {\n        \"@type\": \"Person\",\n        \"name\": \"Öja\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Gunnar Kvillner",
+        "jobTitle": [
+            {
+                "@type": "Role",
+                "title": "Pastor assistant",
+                "startDate": "1931",
+                "endDate": "1934",
+                "supervisor": {
+                    "@type": "Person",
+                    "name": "Algutsboda"
+                }
+            },
+            {
+                "@type": "Role",
+                "title": "Pastor assistant",
+                "startDate": "1931",
+                "endDate": "1934",
+                "supervisor": {
+                    "@type": "Person",
+                    "name": "Kalvsvik"
+                }
+            },
+            {
+                "@type": "Role",
+                "title": "Assistant curate",
+                "startDate": "1934",
+                "endDate": "???",
+                "supervisor": {
+                    "@type": "Person",
+                    "name": "Föra"
+                }
+            },
+            {
+                "@type": "Role",
+                "title": "Curate",
+                "startDate": "1934",
+                "endDate": "???",
+                "supervisor": {
+                    "@type": "Person",
+                    "name": "Öja"
+                }
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gemla",
+            "addressRegion": "Kronoberg"
+        },
+        "birthDate": "1902-03-23",
+        "birthPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Algutsboda",
+            "subdivision": "Kronoberg county"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Andersson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gudrun",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "examen"
+                },
+                "educationalRole": "Lund",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teol. fil. ex.",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "examen"
+                },
+                "educationalRole": "Lund",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teol. kand.",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "prakt. teol. prov samt prästv.",
+                "endDate": "1931",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Diocese of Växjö"
+                }
+            }
+        ]
+    }
+}

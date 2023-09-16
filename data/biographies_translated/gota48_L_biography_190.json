@@ -1,0 +1,145 @@
+{
+    "original": "Lignell, Olof Erik Håkan, tandläkare, BodafoTs, f. 10/7/03 i Lagga, Sthlms 1., av kommin. Erik L. o. Elsa Envail. G. 32 m. Suse Eckelmann. Barn: Ulf f. 33, Peter 35, Margareta 39. — Stud:-ex. v. norra latin i Sthlm 23, med. kand. v. Karolinska inst. 28, tandläkare 31. Praktik i Bodafors sed. 32, skoltandl. där sed. 32 o. i Malmbäck 35-39.",
+    "translated": "Lignell, Olof Erik Håkan, dentist, from BodafoTs. Born on October 7, 1903 in Lagga, Stockholm 1st parish, son of minister Erik L. and Elsa Envail. Married in 1932 to Suse Eckelmann. Children: Ulf (born 1933), Peter (born 1935), Margareta (born 1939). Completed secondary school at Norra Latin in Stockholm in 1923, received Bachelor of Medicine from Karolinska Institute in 1928, and became a dentist in 1931. Practiced dentistry in Bodafors from 1932 onwards, and served as a school dentist there starting in 1932 and in Malmbäck from 1935 to 1939.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Erik Håkan Lignell\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1903-07-10\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Lagga\",\n      \"addressRegion\": \"Stockholm\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik L.\",\n      \"jobTitle\": \"Minister\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Envail\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Suse Eckelmann\",\n    \"marriageDate\": \"1932-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Lignell\",\n      \"birthDate\": \"1933-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Peter Lignell\",\n      \"birthDate\": \"1935-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Lignell\",\n      \"birthDate\": \"1939-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary school\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Stud:-ex. v. norra latin\",\n      \"educationalInstitution\": \"Norra Latin\",\n      \"startDate\": \"1923-01-01\",\n      \"endDate\": \"1923-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"educationalCredentialAwarded\": \"med. kand. v. Karolinska inst.\",\n      \"educationalInstitution\": \"Karolinska Institute\",\n      \"startDate\": \"1928-01-01\",\n      \"endDate\": \"1928-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Professional degree\",\n      \"educationalLevel\": \"ProfessionalQualification\",\n      \"educationalCredentialAwarded\": \"tandläkare\",\n      \"startDate\": \"1931-01-01\",\n      \"endDate\": \"1931-12-31\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"BodafoTs\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"JobRole\",\n      \"startDate\": \"1932-01-01\",\n      \"roleName\": \"Dentist\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Bodafors\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobRole\",\n      \"startDate\": \"1932-01-01\",\n      \"roleName\": \"School Dentist\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Bodafors\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobRole\",\n      \"startDate\": \"1935-01-01\",\n      \"endDate\": \"1939-12-31\",\n      \"roleName\": \"School Dentist\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Malmbäck\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Olof Erik Håkan Lignell",
+        "jobTitle": "Dentist",
+        "birthDate": "1903-07-10",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lagga",
+                "addressRegion": "Stockholm",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Erik L.",
+                "jobTitle": "Minister"
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Envail"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Suse Eckelmann",
+            "marriageDate": "1932-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf Lignell",
+                "birthDate": "1933-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter Lignell",
+                "birthDate": "1935-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta Lignell",
+                "birthDate": "1939-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary school",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:-ex. v. norra latin",
+                "educationalInstitution": "Norra Latin",
+                "startDate": "1923-01-01",
+                "endDate": "1923-12-31",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "BachelorDegree",
+                "educationalCredentialAwarded": "med. kand. v. Karolinska inst.",
+                "educationalInstitution": "Karolinska Institute",
+                "startDate": "1928-01-01",
+                "endDate": "1928-12-31",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional degree",
+                "educationalLevel": "ProfessionalQualification",
+                "educationalCredentialAwarded": "tandläkare",
+                "startDate": "1931-01-01",
+                "endDate": "1931-12-31"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "BodafoTs"
+            }
+        ],
+        "work": [
+            {
+                "@type": "JobRole",
+                "startDate": "1932-01-01",
+                "roleName": "Dentist",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Bodafors",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "JobRole",
+                "startDate": "1932-01-01",
+                "roleName": "School Dentist",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Bodafors",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "JobRole",
+                "startDate": "1935-01-01",
+                "endDate": "1939-12-31",
+                "roleName": "School Dentist",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Malmbäck",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ]
+    }
+}

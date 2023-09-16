@@ -1,0 +1,89 @@
+{
+    "original": "Leffler, Dagny Margareta, tandläkare, Skara, f. 6/7/06 i Hästveda, Krist. 1., av Måns Niklasson o. Nelly Christenson. G. 35 m. tandl. Sven Leffler. Barn: Sven f. 35, Kerstin 38, Cecilia 46. — Stud:ex. i Lund 26, Cand. med. dent. i Greifswald 29, tysk tandl. där 31, sv. tandl. 32. Praktik i Tomelilla 33-35, i Skara sed. 36.",
+    "translated": "Leffler, Dagny Margareta, dentist, Skara, born on 6th July 1906 in Hästveda, Kristianstad County, to parents Måns Niklasson and Nelly Christenson. Married in 1935 to dentist Sven Leffler. Children: Sven, born in 1935, Kerstin in 1938, Cecilia in 1946. Completed high school in Lund in 1926, obtained a dental degree (Cand. med. dent.) in Greifswald in 1929, practiced as a German dentist there in 1931 and as a Swedish dentist in 1932. Worked as an intern in Tomelilla from 1933 to 1935, and in Skara since 1936.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Dagny Margareta Leffler\",\n  \"birthDate\": \"1906-07-06\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Hästveda, Kristianstad County\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Måns Niklasson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nelly Christenson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sven Leffler\",\n    \"occupation\": \"dentist\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Leffler\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Leffler\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Cecilia Leffler\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud:ex\",\n      \"alumniOf\": \"Lund\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Cand. med. dent.\",\n      \"alumniOf\": \"Greifswald\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"OccupationalCredential\",\n      \"credentialCategory\": \"tysk tandl.\",\n      \"awardingOrganization\": \"Greifswald\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"OccupationalCredential\",\n      \"credentialCategory\": \"sv. tandl.\",\n      \"awardingOrganization\": \"Greifswald\",\n      \"endDate\": \"1932\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Tomelilla\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Skara\",\n      \"startDate\": \"1936\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Dagny Margareta Leffler",
+        "birthDate": "1906-07-06",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Hästveda, Kristianstad County"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Måns Niklasson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Nelly Christenson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sven Leffler",
+            "occupation": "dentist",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven Leffler",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Leffler",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Cecilia Leffler",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex",
+                "alumniOf": "Lund",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Cand. med. dent.",
+                "alumniOf": "Greifswald",
+                "endDate": "1929"
+            },
+            {
+                "@type": "OccupationalCredential",
+                "credentialCategory": "tysk tandl.",
+                "awardingOrganization": "Greifswald",
+                "endDate": "1931"
+            },
+            {
+                "@type": "OccupationalCredential",
+                "credentialCategory": "sv. tandl.",
+                "awardingOrganization": "Greifswald",
+                "endDate": "1932"
+            }
+        ],
+        "work": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Tomelilla",
+                "startDate": "1933",
+                "endDate": "1935"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Skara",
+                "startDate": "1936"
+            }
+        ]
+    }
+}

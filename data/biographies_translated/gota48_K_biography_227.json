@@ -1,0 +1,109 @@
+{
+    "original": "Körling, Nils Erik, tandläkare, Karlskrona, f. 5/6/04 i Ystad av v. konsul’ Tancred K. o. Anna Ostberg. G. 30 m. Sigrid Jungmark. Barn: Bengt f. 31, Gunnar 34, Håkan 44. — Stud:ex. i Ystad 22, Cand. med. dent. i Berlin 24, tandl :kand. 25, tandl. 27. Prakt, i Karlskrona sed. 27. Led. av styr. f. Karlskrona tandl :fören. 35, v. ordf. i Blek. tandl :fören. 36.",
+    "translated": "Körling, Nils Erik, dentist, Karlskrona, b. 5/6/04 in Ystad to vice-consul Tancred K. and Anna Ostberg. Married in 1930 to Sigrid Jungmark. Children: Bengt b. 1931, Gunnar b. 1934, Håkan b. 1944. Completed high school in Ystad in 1922, received a Doctor of Dental Medicine degree in Berlin in 1924, dental candidate in 1925, dentist in 1927. Practiced in Karlskrona since 1927. Member of the board of Karlskrona Dental Association since 1935, vice-chairman of Blekinge Dental Association in 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Erik Körling\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1904-06-05\",\n  \"birthPlace\": \"Ystad\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tancred K.\",\n      \"jobTitle\": \"Vice-consul\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Ostberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sigrid Jungmark\",\n    \"marriageDate\": \"1930\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Håkan\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"name\": \"High school\",\n      \"dateIssued\": \"1922\",\n      \"recognizedBy\": \"Ystad\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Cand. med. dent.\",\n      \"name\": \"Doctor of Dental Medicine\",\n      \"dateIssued\": \"1924\",\n      \"recognizedBy\": \"Berlin\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Tandl :kand.\",\n      \"name\": \"Dental candidate\",\n      \"dateIssued\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Tandl.\",\n      \"name\": \"Dentist\",\n      \"dateIssued\": \"1927\"\n    }\n  ],\n  \"workLocation\": \"Karlskrona\",\n  \"workHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"endDate\": null,\n      \"roleName\": \"Practicing Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlskrona\"\n      }\n    }\n  ],\n  \"membership\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"endDate\": null,\n      \"roleName\": \"Board Member\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlskrona Dental Association\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"endDate\": null,\n      \"roleName\": \"Vice Chairman\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Blekinge Dental Association\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Erik Körling",
+        "jobTitle": "Dentist",
+        "birthDate": "1904-06-05",
+        "birthPlace": "Ystad",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Tancred K.",
+                "jobTitle": "Vice-consul"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Ostberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Sigrid Jungmark",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Håkan",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "name": "High school",
+                "dateIssued": "1922",
+                "recognizedBy": "Ystad"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Cand. med. dent.",
+                "name": "Doctor of Dental Medicine",
+                "dateIssued": "1924",
+                "recognizedBy": "Berlin"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Tandl :kand.",
+                "name": "Dental candidate",
+                "dateIssued": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Tandl.",
+                "name": "Dentist",
+                "dateIssued": "1927"
+            }
+        ],
+        "workLocation": "Karlskrona",
+        "workHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": null,
+                "roleName": "Practicing Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Karlskrona"
+                }
+            }
+        ],
+        "membership": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "endDate": null,
+                "roleName": "Board Member",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Karlskrona Dental Association"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "endDate": null,
+                "roleName": "Vice Chairman",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Blekinge Dental Association"
+                }
+            }
+        ]
+    }
+}

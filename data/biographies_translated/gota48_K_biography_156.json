@@ -1,0 +1,107 @@
+{
+    "original": "Kollen, Joel, ingenjör, Hultafors, f. 2/11/82 i Sthlm av ing. Hilmer K. o. Alice Lindgren. G. 05 m. Ester Andersson. Barn: Hilmer f. 08, Arne 09, Ingvar 10, Anna-Maja 12, Bertil 14, Ulla 19, Kurt 21. — Utex. fr. CTI 03. Stud:res. o. ing:prakt. i Tyskl. o. Engl. Inneh. av Sv. Mått- o. Tum-stocksfabr. i Hultafors samt Hultafors kraftv. Komm. rev. sed. 13, led. av tax:ndn sed. 13 o. av komm:fullm. sed. 19, ordf. i styr. f. Borås Banks avd:-kont. i Hultafors.",
+    "translated": "Kollen, Joel, engineer, Hultafors, b. 2/11/82 in Stockholm to engineer Hilmer K. and Alice Lindgren. Married in 1905 to Ester Andersson. Children: Hilmer, b. 1908; Arne, b. 1909; Ingvar, b. 1910; Anna-Maja, b. 1912; Bertil, b. 1914; Ulla, b. 1919; Kurt, b. 1921. — Graduated from CTI in 1903. Studied and worked as an engineer in Germany and England. Owner of Swedish Measurement and Inch-Ruler Factory in Hultafors, and Hultafors power plant. Appointed to the municipal council in 1913 and served as a member of the tax board since 1913. Chairman of the board of directors for Borås Bank's branch office in Hultafors.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Joel Kollen\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1882-11-02\",\n  \"birthPlace\": \"Stockholm\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hilmer Kollen\",\n    \"occupation\": \"Engineer\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alice Lindgren\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ester Andersson\",\n    \"marriageDate\": \"1905\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilmer Kollen\",\n      \"birthDate\": \"1908\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne Kollen\",\n      \"birthDate\": \"1909\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar Kollen\",\n      \"birthDate\": \"1910\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Maja Kollen\",\n      \"birthDate\": \"1912\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil Kollen\",\n      \"birthDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Kollen\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kurt Kollen\",\n      \"birthDate\": \"1921\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"CTI\",\n    \"endDate\": \"1903\"\n  },\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Measurement and Inch-Ruler Factory\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Hultafors\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hultafors power plant\"\n    }\n  ],\n  \"politicalAffiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Municipal Council\",\n    \"startDate\": \"1913\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tax Board\",\n      \"startDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Council\",\n      \"startDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Directors\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"Hultafors branch office\",\n      \"endDate\": \"Borås Bank\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Joel Kollen",
+        "jobTitle": "Engineer",
+        "birthDate": "1882-11-02",
+        "birthPlace": "Stockholm",
+        "father": {
+            "@type": "Person",
+            "name": "Hilmer Kollen",
+            "occupation": "Engineer"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Alice Lindgren"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ester Andersson",
+            "marriageDate": "1905"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hilmer Kollen",
+                "birthDate": "1908"
+            },
+            {
+                "@type": "Person",
+                "name": "Arne Kollen",
+                "birthDate": "1909"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingvar Kollen",
+                "birthDate": "1910"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Maja Kollen",
+                "birthDate": "1912"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil Kollen",
+                "birthDate": "1914"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Kollen",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Kurt Kollen",
+                "birthDate": "1921"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "CTI",
+            "endDate": "1903"
+        },
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Measurement and Inch-Ruler Factory",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Hultafors"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Hultafors power plant"
+            }
+        ],
+        "politicalAffiliation": {
+            "@type": "Organization",
+            "name": "Municipal Council",
+            "startDate": "1913"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Tax Board",
+                "startDate": "1913"
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Council",
+                "startDate": "1913"
+            },
+            {
+                "@type": "Organization",
+                "name": "Board of Directors",
+                "roleName": "Chairman",
+                "startDate": "Hultafors branch office",
+                "endDate": "Borås Bank"
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "original": "Kullgren, Victor Ivar, direktör, Uddevalla, f. 3/9/68 i Uddevalla av konsul Ivar K. o. Therese Kihlberg. G. 96 m. Hilma Uhrberg, d. 41. Barn: Inga f. 07, g. m. red. Tage Ekstedt, Ängby, Gert 09, dir., Uddevalla. — Stud. i Gbg, praktik i Frankr. Verkst. dir. f. Granit A-B C. A. Kullgrens Enka 01. Ordf. i Sv:es granitind. exp:-fören., deleg. f. ärenden ang. inköp av gatsten f. stat. räkn. sed. 42.",
+    "translated": "Kullgren, Victor Ivar, director, Uddevalla, b. 3/9/68 in Uddevalla to consul Ivar K. and Therese Kihlberg. Married in 1896 to Hilma Uhrberg, who passed away in 1941. Children: Inga b. 1907, married to editor Tage Ekstedt, Ängby; Gert b. 1909, director, Uddevalla. Studied in Gothenburg, interned in France. Executive director for Granit AB C. A. Kullgrens Enka since 1901. Chairman of the Swedish granite industry export association, delegate for matters relating to the purchase of cobblestones for state accounting since 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Victor Ivar Kullgren\",\n  \"birthDate\": \"1868-09-03\",\n  \"birthPlace\": \"Uddevalla\",\n  \"jobTitle\": \"Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Uddevalla\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ivar Kullgren\",\n      \"jobTitle\": \"Consul\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Therese Kihlberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hilma Uhrberg\",\n    \"deathDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga\",\n      \"birthDate\": \"1907\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Tage Ekstedt\",\n        \"jobTitle\": \"Editor\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Ängby\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gert\",\n      \"birthDate\": \"1909\",\n      \"jobTitle\": \"Director\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Uddevalla\"\n      }\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Gothenburg\"\n  },\n  \"workLocation\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"France\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Granit AB C. A. Kullgrens Enka\",\n    \"startDate\": \"1901\",\n    \"jobTitle\": \"Executive Director\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Granite Industry Export Association\",\n      \"jobTitle\": \"Chairman\"\n    }\n  ],\n  \"delegateFor\": \"Matters relating to the purchase of cobblestones for state accounting\",\n  \"delegateSince\": \"1942\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Victor Ivar Kullgren",
+        "birthDate": "1868-09-03",
+        "birthPlace": "Uddevalla",
+        "jobTitle": "Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Uddevalla"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ivar Kullgren",
+                "jobTitle": "Consul"
+            },
+            {
+                "@type": "Person",
+                "name": "Therese Kihlberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hilma Uhrberg",
+            "deathDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inga",
+                "birthDate": "1907",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Tage Ekstedt",
+                    "jobTitle": "Editor",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Ängby"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Gert",
+                "birthDate": "1909",
+                "jobTitle": "Director",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Uddevalla"
+                }
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Gothenburg"
+        },
+        "workLocation": {
+            "@type": "PostalAddress",
+            "addressLocality": "France"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Granit AB C. A. Kullgrens Enka",
+            "startDate": "1901",
+            "jobTitle": "Executive Director"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Granite Industry Export Association",
+                "jobTitle": "Chairman"
+            }
+        ],
+        "delegateFor": "Matters relating to the purchase of cobblestones for state accounting",
+        "delegateSince": "1942"
+    }
+}

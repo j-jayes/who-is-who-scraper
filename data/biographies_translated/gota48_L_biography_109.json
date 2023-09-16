@@ -1,0 +1,93 @@
+{
+    "original": "Larsson, Lars Sigvard, civilingenjör, Trollhättan, f. 23/9/08 i Gärdserum, Kalm. ,1., av Karl Gabinus L. o. Hildur Margareta Nilsson. G. 40 m. Karin Jagardt. Barn: Ulf f. 41, Mats 44. — Utex. fr. Örebro tekn. gymn. 28, fr. KTH (M) 34. Chef f. kontr:avd. v. A-B Sv. Järnv :verkstäd. aeroplanavd. i Linköp. 35-37, chef f. serietillverkn :-kontr. v. Sv. Aeroplan A-B där 39-47, chef f. kontr :avd. v. Sv. Aeroplan A-B i Trollhättan sed. 47. Stud:resa t. USA 38.",
+    "translated": "Larsson, Lars Sigvard, Civil Engineer, Trollhättan, b. 23/9/08 in Gärdserum, Kalmar, first child of Karl Gabinus L. and Hildur Margareta Nilsson. Married in 1940 to Karin Jagardt. Children: Ulf b. 1941, Mats b. 1944. \n\nEducation: Graduated from Örebro Technical Gymnasium in 1928, and from the Royal Institute of Technology (Mechanical Engineering) in 1934. \n\nCareer: Head of contracting department at A-B Swedish Iron Workshops' airplane division in Linköping from 1935-1937. Head of series production contracting at Swedish Airplanes A-B from 1939-1947. Head of contracting department at Swedish Airplanes A-B in Trollhättan since 1947. Went on a study trip to the USA in 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Sigvard Larsson\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthPlace\": \"Gärdserum, Kalmar, Sweden\",\n  \"birthDate\": \"1908-09-23\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Gabinus Larsson\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Hildur Margareta Nilsson\"\n      }\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Jagardt\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Larsson\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mats Larsson\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Örebro Technical Gymnasium\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Royal Institute of Technology\",\n      \"courseOfWork\": \"Mechanical Engineering\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Head of Contracting Department\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Swedish Iron Workshops' Airplane Division\",\n        \"location\": \"Linköping\",\n        \"startDate\": \"1935\",\n        \"endDate\": \"1937\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Head of Series Production Contracting\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Airplanes A-B\",\n        \"location\": \"Stockholm\",\n        \"startDate\": \"1939\",\n        \"endDate\": \"1947\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Head of Contracting Department\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Airplanes A-B\",\n        \"location\": \"Trollhättan\",\n        \"startDate\": \"1947\"\n      }\n    }\n  ],\n  \"studyTrip\": {\n    \"@type\": \"Event\",\n    \"name\": \"Study trip to USA\",\n    \"startDate\": \"1938\",\n    \"endDate\": \"1938\",\n    \"location\": \"USA\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Sigvard Larsson",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Head of Contracting Department",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Swedish Iron Workshops' Airplane Division",
+                    "location": "Linköping",
+                    "startDate": "1935",
+                    "endDate": "1937"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Head of Series Production Contracting",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Airplanes A-B",
+                    "location": "Stockholm",
+                    "startDate": "1939",
+                    "endDate": "1947"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Head of Contracting Department",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Airplanes A-B",
+                    "location": "Trollhättan",
+                    "startDate": "1947"
+                }
+            }
+        ],
+        "birthPlace": "Gärdserum, Kalmar, Sweden",
+        "birthDate": "1908-09-23",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Gabinus Larsson",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Hildur Margareta Nilsson"
+                }
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Jagardt",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf Larsson",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Mats Larsson",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Örebro Technical Gymnasium",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Royal Institute of Technology",
+                "courseOfWork": "Mechanical Engineering",
+                "endDate": "1934"
+            }
+        ],
+        "studyTrip": {
+            "@type": "Event",
+            "name": "Study trip to USA",
+            "startDate": "1938",
+            "endDate": "1938",
+            "location": "USA"
+        }
+    }
+}

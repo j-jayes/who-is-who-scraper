@@ -1,0 +1,77 @@
+{
+    "original": "Lagerman, John Alexander, tekn. direktör, Ankarsrum, f. 1/1/09 i Huskvarna av öv:ing. Joh:s L. o. Rose Nygren. G. 39 m. Briquetta Werner. Barn: Pehr f. 41, Eva 44. — Stud:ex. i Jönköp. 27, civ:ing:ex. v. KTH 31. Arb :stud :chef v. Husqvarna Vapen-fabr. A-B 32-35, anst. v. Sv:es ind:-förb., ind:byråns org:avd., 35-39, öv:-ing. 39-44 o. tekn, dir. sed. 44 v. A-B Ankarsrums Bruk.",
+    "translated": "Lagerman, John Alexander, technical director, Ankarsrum, born on January 1, 1909 in Huskvarna to engineer Johannes L. and Rose Nygren. Married in 1939 to Briquetta Werner. Children: Pehr born in 1941, Eva in 1944. Education: high school diploma in Jönköping in 1927, civil engineering diploma from the Royal Institute of Technology in 1931. Work: studied as a manager at Husqvarna Vapenfabrik AB from 1932 to 1935, employed by the Swedish Industrial Federation's organization department from 1935 to 1939, chief engineer from 1939 to 1944 and technical director since 1944 at Ankarsrums Bruk AB.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"John Alexander Lagerman\",\n  \"jobTitle\": \"Technical Director\",\n  \"birthDate\": \"1909-01-01\",\n  \"birthPlace\": \"Huskvarna\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johannes L. Lagerman\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rose Nygren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Briquetta Werner\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Pehr\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"highSchoolDiploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Stud:ex. i Jönköp. 27\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"civilEngineeringDiploma\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"civ:ing:ex. v. KTH 31\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Husqvarna Vapenfabrik AB\",\n      \"jobTitle\": \"Manager\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Industrial Federation\",\n      \"department\": \"Organization Department\",\n      \"jobTitle\": \"Employee\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ankarsrums Bruk AB\",\n      \"jobTitle\": \"Technical Director\",\n      \"startDate\": \"1939\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "John Alexander Lagerman",
+        "jobTitle": "Technical Director",
+        "birthDate": "1909-01-01",
+        "birthPlace": "Huskvarna",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johannes L. Lagerman",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Rose Nygren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Briquetta Werner"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Pehr",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "highSchoolDiploma",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:ex. i Jönköp. 27"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "civilEngineeringDiploma",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "civ:ing:ex. v. KTH 31"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Husqvarna Vapenfabrik AB",
+                "jobTitle": "Manager",
+                "startDate": "1932",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Industrial Federation",
+                "department": "Organization Department",
+                "jobTitle": "Employee",
+                "startDate": "1935",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ankarsrums Bruk AB",
+                "jobTitle": "Technical Director",
+                "startDate": "1939"
+            }
+        ]
+    }
+}

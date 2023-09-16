@@ -1,0 +1,67 @@
+{
+    "original": "Klaening, Nils-Håkan Ludvig, disponent, Boras, f. 18/7/05 i Fivelsta, östergötl. 1., av postmast. Bernhard Kläning o. Märta Lindström. — Stud:-ex. i Malmö 23, Malmö handrgymn. 25. Anst. v. Hellefors Bruks A-B 25-28, v. A-B Svenskt Konstsilke 29-43, disp. i Borås Band- &amp; Hängslefabr. A-B sed. 44.",
+    "translated": "Klaening, Nils-Håkan Ludvig, manager, Boras, born on July 18, 1905 in Fivelsta, östergötl. Son of postmaster Bernhard Kläning and Märta Lindström. - Secondary school diploma in Malmö in 1923, Malmö Handrgymnasium in 1925. Employed at Hellefors Bruks A-B from 1925 to 1928, at A-B Svenskt Konstsilke from 1929 to 1943, manager at Borås Band- & Hängslefabr. A-B since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils-Håkan Ludvig Klaening\",\n  \"birthDate\": \"1905-07-18\",\n  \"birthPlace\": \"Fivelsta, östergötl\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bernhard Kläning\",\n      \"jobTitle\": \"Postmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Märta Lindström\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary school diploma\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö\"\n      },\n      \"dateIssued\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Malmö Handrgymnasium\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö\"\n      },\n      \"dateIssued\": \"1925\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hellefors Bruks A-B\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Svenskt Konstsilke\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Band- & Hängslefabr. A-B\",\n      \"jobTitle\": \"Manager\",\n      \"startDate\": \"1944\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Boras\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils-Håkan Ludvig Klaening",
+        "birthDate": "1905-07-18",
+        "birthPlace": "Fivelsta, östergötl",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Bernhard Kläning",
+                "jobTitle": "Postmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Märta Lindström"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary school diploma",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Malmö"
+                },
+                "dateIssued": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Malmö Handrgymnasium",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Malmö"
+                },
+                "dateIssued": "1925"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Hellefors Bruks A-B",
+                "startDate": "1925",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Svenskt Konstsilke",
+                "startDate": "1929",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Band- & Hängslefabr. A-B",
+                "jobTitle": "Manager",
+                "startDate": "1944"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Boras"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+{
+    "original": "Kilander, Erik Tage Eugen, länsassessor, Växjö, f. 34/7/02 d Ulkne, Skarab. 1., av löjtn. Claes K. o. Maria Jonsson, G. 43 m. Märta Carlsson. Barn: Claes-Olof f. 44, Anders 45. — Stud:ex. 21, jur. kand. 26. Tingstjg. i Askims m. fl. hds doms. 26-28, ans t. v. länsstyr. i Gbgs o. Boh. län 28-44, länsassessor i Växjö sed. 45. Bitr. sekr. i kommunindeln :-komm. 43-45.",
+    "translated": "Kilander, Erik Tage Eugen, county assessor, Växjö, b. July 2nd, 1902, d. Ulkne, Skaraborg County. Son of Lieutenant Claes K. and Maria Jonsson. Married in 1943 to Märta Carlsson. Children: Claes-Olof b. 1944, Anders b. 1945. Completed studentexamen (high school diploma) in 1921, law degree in 1926. Served as legal clerk in various district courts, including Askims, from 1926-1928. Employed at the County Administration Board in Gothenburg and Bohuslän County from 1928-1944. Appointed county assessor in Växjö in 1945. Deputy secretary in the Municipal Division Committee from 1943-1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Tage Eugen Kilander\",\n  \"birthDate\": \"1902-07-02\",\n  \"deathDate\": \"<YYYY-MM-DD>\",\n  \"birthPlace\": \"Växjö\",\n  \"deathPlace\": \"Ulkne, Skaraborg County\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Jonsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta Carlsson\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes-Olof Kilander\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Kilander\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"law degree\",\n      \"startDate\": \"1926\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Courts\",\n      \"subOrganization\": {\n        \"@type\": \"Courthouse\",\n        \"name\": \"Askims District Court\"\n      },\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County Administration Board\",\n      \"location\": \"Gothenburg, Bohuslän County\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Växjö County\",\n      \"startDate\": \"1945\",\n      \"jobTitle\": \"County Assessor\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Municipal Division Committee\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1945\",\n      \"jobTitle\": \"Deputy Secretary\"\n    }\n  ]\n}\n",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Tage Eugen Kilander",
+        "birthDate": "1902-07-02",
+        "deathDate": "<YYYY-MM-DD>",
+        "birthPlace": "Växjö",
+        "deathPlace": "Ulkne, Skaraborg County",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Claes K."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Jonsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Carlsson",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Claes-Olof Kilander",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Kilander",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "law degree",
+                "startDate": "1926"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Courts",
+                "subOrganization": {
+                    "@type": "Courthouse",
+                    "name": "Askims District Court"
+                },
+                "startDate": "1926",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Administration Board",
+                "location": "Gothenburg, Bohuslän County",
+                "startDate": "1928",
+                "endDate": "1944"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Växjö County",
+                "startDate": "1945",
+                "jobTitle": "County Assessor"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Municipal Division Committee",
+                "startDate": "1943",
+                "endDate": "1945",
+                "jobTitle": "Deputy Secretary"
+            }
+        ]
+    }
+}

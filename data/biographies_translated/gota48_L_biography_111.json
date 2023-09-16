@@ -1,0 +1,115 @@
+{
+    "original": "Larsson, Sven Bernhard, riksdagsman, Varberg, f. 11/11/81 i Lindberg, Hall. 1., av Bengt L. o. Mathilda Lars- son. G. 11 in. Anna Bernhardina Johansson. Barn: Orvar (adoptrson) f. 11. — Olika anst. 94-31, förest, f. arb :förmedl. i Varberg 34. Led. av riksd. första ikamm. (s) sed. 35, led. av statsutsk, sed. 35 o. av särsk. utsk. 35 o. 36, landstingsman sed. 23, led. av landstingets förvaltn :utsk. o. av las:direkt. i Varberg, led. av drätsel-kanim. 23-35, led. av styr. f. Varbergs arb :kommun 25 år. GMmf 8 st.",
+    "translated": "Larsson, Sven Bernhard, member of parliament, Varberg, born on November 11th, 1881 in Lindberg, Halland County, the first child of Bengt L. and Mathilda Larsson. Married on November 11th, in an unspecified year, to Anna Bernhardina Johansson. Children: Orvar (adopted son), born on November 11th. - Engaged in various employments from 1894 to 1931, worked as the superintendent of a labor exchange in Varberg in 1934. Member of the First Chamber of Parliament (Social Democrats) since 1935, member of the Committee on Constitutional Affairs since 1935, as well as several special committees in 1935 and 1936. Served as a county councilman since 1923, member of the county council's administration committee and the county hospital board in Varberg. Member of the city council's financial committee from 1923 to 1935, and also served on the board of Varberg's labor commune for 25 years. Married to Anna Bernhardina Johansson with eight children.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Bernhard Larsson\",\n  \"birthDate\": \"1881-11-11\",\n  \"birthPlace\": \"Lindberg, Halland County, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt L.\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mathilda Larsson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Bernhardina Johansson\",\n    \"marriageDate\": \"unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Orvar\",\n      \"birthDate\": \"unknown\",\n      \"isAdopted\": true\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Unknown\",\n      \"startDate\": \"1894\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Varberg Labor Exchange\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"unknown\",\n      \"role\": \"Superintendent\"\n    }\n  ],\n  \"politicalCareer\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"First Chamber of Parliament (Social Democrats)\",\n      \"startDate\": \"1935\",\n      \"role\": \"Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Committee on Constitutional Affairs\",\n      \"startDate\": \"1935\",\n      \"role\": \"Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Special Committees\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"role\": \"Member\"\n    }\n  ],\n  \"countyCouncilMembership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Unknown\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"unknown\",\n      \"role\": \"Councilman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County Council's Administration Committee\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"unknown\",\n      \"role\": \"Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County Hospital Board in Varberg\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"unknown\",\n      \"role\": \"Member\"\n    }\n  ],\n  \"cityCouncilMembership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Financial Committee\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1935\",\n      \"role\": \"Member\"\n    }\n  ],\n  \"laborCommuneMembership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Varberg Labor Commune\",\n      \"startDate\": \"unknown\",\n      \"endDate\": \"unknown\",\n      \"role\": \"Board Member\",\n      \"duration\": \"25 years\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Bernhard Larsson",
+        "birthDate": "1881-11-11",
+        "birthPlace": "Lindberg, Halland County, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Bengt L.",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Larsson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Bernhardina Johansson",
+            "marriageDate": "unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Orvar",
+                "birthDate": "unknown",
+                "isAdopted": true
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Unknown",
+                "startDate": "1894",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Varberg Labor Exchange",
+                "startDate": "1934",
+                "endDate": "unknown",
+                "role": "Superintendent"
+            }
+        ],
+        "politicalCareer": [
+            {
+                "@type": "Organization",
+                "name": "First Chamber of Parliament (Social Democrats)",
+                "startDate": "1935",
+                "role": "Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Committee on Constitutional Affairs",
+                "startDate": "1935",
+                "role": "Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Special Committees",
+                "startDate": "1935",
+                "endDate": "1936",
+                "role": "Member"
+            }
+        ],
+        "countyCouncilMembership": [
+            {
+                "@type": "Organization",
+                "name": "Unknown",
+                "startDate": "1923",
+                "endDate": "unknown",
+                "role": "Councilman"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Council's Administration Committee",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "role": "Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Hospital Board in Varberg",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "role": "Member"
+            }
+        ],
+        "cityCouncilMembership": [
+            {
+                "@type": "Organization",
+                "name": "Financial Committee",
+                "startDate": "1923",
+                "endDate": "1935",
+                "role": "Member"
+            }
+        ],
+        "laborCommuneMembership": [
+            {
+                "@type": "Organization",
+                "name": "Varberg Labor Commune",
+                "startDate": "unknown",
+                "endDate": "unknown",
+                "role": "Board Member",
+                "duration": "25 years"
+            }
+        ]
+    }
+}

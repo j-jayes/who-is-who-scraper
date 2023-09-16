@@ -1,0 +1,90 @@
+{
+    "original": "Krok, Nils Gustav Valentin, prakt, läkare, Mellerud, f. 18/7/96 i Hälsingb. av rektor Nils K. o. Anna Tydeli. G. 24 m. leg. tandläk. Ingeborg Ekmian. Barn: Anne Charlotte f. 25, Ulla Ingeborg 27. — Stud :ex. i Hälsingb. 14, m(ed. kand. 19 o. med. lic. 25 i Lund. E. o. aman. v. med.-kem. ins’t. i Lund 17, ord. amain. där 18 o. 19, asisist:läk. o. tf. und :l:äk. v. Hälsingb. las. 22, tf. prov:läk. i Melleruds distr. v. olika tillf., brunnsliäk. v. Rotstocks brunn 24-38.",
+    "translated": "Krok, Nils Gustav Valentin, profession: doctor, Mellerud, born on 18th July 1896 in Hälsingborg, the son of rector Nils K. and Anna Tydeli. Married on 24th with certified dentist Ingeborg Ekmian. Children: Anne Charlotte, born in 1925, and Ulla Ingeborg, born in 1927. Completed studies in Hälsingborg and received a teaching degree in 1914, a bachelor's degree in 1919, and a medical license in Lund in 1925. Served as an assistant at the medical-chemical institute in Lund from 1917, and became an associate doctor in 1918 and 1919. Worked as an assistant doctor and acting deputy doctor at Hälsingborg hospital in 1922, and served as a temporary district doctor in Mellerud on various occasions. Also worked as a spa doctor at Rotstocks spa from 1924 to 1938.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gustav Valentin Krok\",\n  \"birthDate\": \"1896-07-18\",\n  \"birthPlace\": \"Hälsingborg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Tydeli\"\n    }\n  ],\n  \"jobTitle\": \"Doctor\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Mellerud\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Ekmian\",\n    \"jobTitle\": \"Certified Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne Charlotte\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Ingeborg\",\n      \"birthDate\": \"1927\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teaching Degree\",\n      \"dateEarned\": \"1914\",\n      \"educationalLevel\": \"Bachelor's Degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical License\",\n      \"dateEarned\": \"1925\",\n      \"educationalLevel\": \"License\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Medical-Chemical Institute\",\n      \"location\": \"Lund\",\n      \"position\": \"Assistant\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Hälsingborg Hospital\",\n      \"location\": \"Hälsingborg\",\n      \"position\": \"Associate Doctor\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mellerud District\",\n      \"location\": \"Mellerud\",\n      \"position\": \"Temporary District Doctor\",\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Rotstocks Spa\",\n      \"location\": \"Rotstocks\",\n      \"position\": \"Spa Doctor\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1938\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Gustav Valentin Krok",
+        "birthDate": "1896-07-18",
+        "birthPlace": "Hälsingborg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils K."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Tydeli"
+            }
+        ],
+        "jobTitle": "Doctor",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Mellerud"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Ekmian",
+            "jobTitle": "Certified Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anne Charlotte",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Ingeborg",
+                "birthDate": "1927"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Teaching Degree",
+                "dateEarned": "1914",
+                "educationalLevel": "Bachelor's Degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical License",
+                "dateEarned": "1925",
+                "educationalLevel": "License"
+            }
+        ],
+        "work": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Medical-Chemical Institute",
+                "location": "Lund",
+                "position": "Assistant",
+                "startDate": "1917"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Hälsingborg Hospital",
+                "location": "Hälsingborg",
+                "position": "Associate Doctor",
+                "startDate": "1918",
+                "endDate": "1919"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mellerud District",
+                "location": "Mellerud",
+                "position": "Temporary District Doctor",
+                "startDate": "1922"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Rotstocks Spa",
+                "location": "Rotstocks",
+                "position": "Spa Doctor",
+                "startDate": "1924",
+                "endDate": "1938"
+            }
+        ]
+    }
+}

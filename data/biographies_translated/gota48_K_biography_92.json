@@ -1,0 +1,98 @@
+{
+    "original": "Kjellbo, Nils Alfred, direktör, Göteborg, f. 11/11/94 i Kumla av Erik K. o. Matliilda Lindblom. G. 20 m. Elsa Jonsson. Barn: Birgit f. 21, g. rn. assuranstj :man Sture Tingström, Gbg, Hans-Erik 27, ’Stud. — Stud:ex. i Västerås 13, Gbgs lTan’d:inst. 13-14, res:-offrex. 16. Res. t. Tyskl., Polen, Tjec-koslov. o. Ungern 34, Finl. o. Estl. 35, Engl. 38. Anst. v. Husqvarna Vapen-fabr. A-B 14, chef f. dess sv. försälj-niavd. 19-37, verkst. dir. v. Husqvarna Fabr rlager A-B i Gbg sed. 38. Brand-chef i Husqvarna 24-37. Medl. av Frimurarorden, Par Bricoile m. fl. Hobbv: sikytte. SvmifbGM, SvsibSM, FMM.",
+    "translated": "Kjellbo, Nils Alfred, director, Gothenburg, b. 11/11/94 in Kumla to Erik K. and Matliilda Lindblom. M. since 1920 with Elsa Jonsson. Children: Birgit b. 1921, married to insurance agent Sture Tingström, Gothenburg; Hans-Erik b. 1927, studying. Graduated from Västerås in 1913, Gothenburg Naval Institute in 1913-1914, reserve officer training in 1916. Traveled to Germany, Poland, Czechoslovakia, and Hungary in 1934; Finland and Estonia in 1935; England in 1938. Employed by Husqvarna Vapenfabrik AB in 1914, head of Swedish sales department from 1919-1937, executive director of Husqvarna Fabrik Lager AB in Gothenburg since 1938. Fire chief in Husqvarna from 1924-1937. Member of Freemasonry, Par Bricoile, and others. Hobby: shooting. Has been awarded SvmifbGM, SvsibSM, FMM.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Alfred Kjellbo\",\n  \"birthDate\": \"1894-11-11\",\n  \"birthPlace\": \"Kumla, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Erik Kjellbo\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Matilda Lindblom\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Jonsson\",\n    \"marriageDate\": \"1920\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit Kjellbo\",\n      \"birthDate\": \"1921\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sture Tingström\",\n        \"occupation\": \"Insurance Agent\",\n        \"location\": \"Gothenburg, Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans-Erik Kjellbo\",\n      \"birthDate\": \"1927\",\n      \"education\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"educationalLevel\": \"Studying\",\n        \"graduationDate\": \"1913\",\n        \"alumniOf\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Västerås\"\n        }\n      }\n    }\n  ],\n  \"residence\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg, Sweden\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Husqvarna Vapenfabrik AB\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1938\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Husqvarna Fabrik Lager AB\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1938\",\n      \"jobTitle\": \"Executive Director\"\n    }\n  ],\n  \"fireChiefIn\": {\n    \"@type\": \"Place\",\n    \"name\": \"Husqvarna\",\n    \"startDate\": \"1924\",\n    \"endDate\": \"1937\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Par Bricoile\"\n    }\n  ],\n  \"hobbies\": \"Shooting\",\n  \"awards\": [\n    \"SvmifbGM\",\n    \"SvsibSM\",\n    \"FMM\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Alfred Kjellbo",
+        "birthDate": "1894-11-11",
+        "birthPlace": "Kumla, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Erik Kjellbo"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Matilda Lindblom"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Jonsson",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgit Kjellbo",
+                "birthDate": "1921",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Sture Tingström",
+                    "occupation": "Insurance Agent",
+                    "location": "Gothenburg, Sweden"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Hans-Erik Kjellbo",
+                "birthDate": "1927",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "educationalLevel": "Studying",
+                    "graduationDate": "1913",
+                    "alumniOf": {
+                        "@type": "Organization",
+                        "name": "Västerås"
+                    }
+                }
+            }
+        ],
+        "residence": {
+            "@type": "Place",
+            "name": "Gothenburg, Sweden"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Husqvarna Vapenfabrik AB",
+                "startDate": "1914",
+                "endDate": "1938",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Organization",
+                "name": "Husqvarna Fabrik Lager AB",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1938",
+                "jobTitle": "Executive Director"
+            }
+        ],
+        "fireChiefIn": {
+            "@type": "Place",
+            "name": "Husqvarna",
+            "startDate": "1924",
+            "endDate": "1937"
+        },
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            },
+            {
+                "@type": "Organization",
+                "name": "Par Bricoile"
+            }
+        ],
+        "hobbies": "Shooting",
+        "awards": [
+            "SvmifbGM",
+            "SvsibSM",
+            "FMM"
+        ]
+    }
+}

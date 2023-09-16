@@ -1,0 +1,112 @@
+{
+    "original": "Kjellgren, Eric, civilingenjör, Åmål, f. 26/6/96 i Gävle av sjökapt. Erik K. o. Alma Ullenius. G. 28 m. Erna Smith. — Studrex. i Gävle 16, KTH (Eltekn.) 22. Konstr. v. Gen. Electric Co.^ i Pittsfield, Mass., USA, 24-26, v. Alliis Chalmers Mfg Co. i Midwaukee, Wis., 26-28, konstr. o. konsult, ing. v. A. O. Smith Corp. i Milwaukee 28-38, tekn. chef v. A-B Sv. Elektromagne-ter i Ämål fr. 38. Klubbmäst. i Åmåls Rotarykl. fr. 46. Hobbies :i motorbåtsport, fiske.",
+    "translated": "Kjellgren, Eric, engineer, Åmål, b. 26/6/96 in Gävle to ship captain Erik K. and Alma Ullenius. Married in 1928 to Erna Smith. - Studied in Gävle until 1916, graduated from KTH (Electrical Engineering) in 1922. Worked as a designer at General Electric Co. in Pittsfield, Mass., USA from 1924-1926, and at Allis Chalmers Mfg Co. in Milwaukee, Wis. from 1926-1928. Worked as a designer and consultant engineer at A. O. Smith Corp. in Milwaukee from 1928-1938. Technical manager at A-B Swedish Electromagneters in Åmål from 1938. Clubmaster at Åmål Rotary Club since 1946. Hobbies include motorboat racing and fishing.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Eric Kjellgren\",\n  \"birthDate\": \"1896-06-26\",\n  \"birthPlace\": \"Gävle, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Kjellgren\",\n      \"jobTitle\": \"Ship Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma Ullenius\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Erna Smith\",\n    \"marriageDate\": \"1928\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied in Gävle\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"KTH (Electrical Engineering)\",\n      \"dateAwarded\": \"1922\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1926\",\n      \"roleName\": \"Designer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"General Electric Co.\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Pittsfield\",\n          \"addressRegion\": \"Massachusetts\",\n          \"addressCountry\": \"USA\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Designer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Allis Chalmers Mfg Co.\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Milwaukee\",\n          \"addressRegion\": \"Wisconsin\",\n          \"addressCountry\": \"USA\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1938\",\n      \"roleName\": \"Designer and Consultant Engineer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A. O. Smith Corp.\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Milwaukee\",\n          \"addressRegion\": \"Wisconsin\",\n          \"addressCountry\": \"USA\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"roleName\": \"Technical Manager\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Swedish Electromagneters\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Åmål\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Åmål Rotary Club\",\n    \"startDate\": \"1946\"\n  },\n  \"sameAs\": [\n    \"motorboat racing\",\n    \"fishing\"\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Eric Kjellgren",
+        "birthDate": "1896-06-26",
+        "birthPlace": "Gävle, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik Kjellgren",
+                "jobTitle": "Ship Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Ullenius"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Erna Smith",
+            "marriageDate": "1928"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studied in Gävle"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "KTH (Electrical Engineering)",
+                "dateAwarded": "1922"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "endDate": "1926",
+                "roleName": "Designer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "General Electric Co.",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Pittsfield",
+                        "addressRegion": "Massachusetts",
+                        "addressCountry": "USA"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1926",
+                "endDate": "1928",
+                "roleName": "Designer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Allis Chalmers Mfg Co.",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Milwaukee",
+                        "addressRegion": "Wisconsin",
+                        "addressCountry": "USA"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "endDate": "1938",
+                "roleName": "Designer and Consultant Engineer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A. O. Smith Corp.",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Milwaukee",
+                        "addressRegion": "Wisconsin",
+                        "addressCountry": "USA"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "roleName": "Technical Manager",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Swedish Electromagneters",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Åmål",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Åmål Rotary Club",
+            "startDate": "1946"
+        },
+        "sameAs": [
+            "motorboat racing",
+            "fishing"
+        ]
+    }
+}

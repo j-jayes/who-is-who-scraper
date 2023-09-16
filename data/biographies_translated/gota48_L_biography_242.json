@@ -1,0 +1,80 @@
+{
+    "original": "Lindberg, Karl Fredrik Ivar, postmästare, Halmstad, f. 23/4/83 i Kungsbacka av Carl Oskar L. o. Selma Karolina Levan. G. 13 m. Karin Kulberg. Barn: Gunnar f. 15, annonschef i Nord. Rotogravyr, Einar 17, ing. — Mog :ex. i Gbg 03, stud. v. Gbgs högsk. 04-05. Anst. i postv. sed. 03, postexp. i Gbg 09, postassist. där 25, förste dito i Jönköp. 28, kontr. där 34, post-mäst. i Eksjö 40, i Halmstad sed. 42. Sekr. i Jönköp. sekt. av Posttj :män-nens fören. 32-36. RVO, GM 8 st.",
+    "translated": "Lindberg, Karl Fredrik Ivar, postmaster, Halmstad, born on April 23, 1883 in Kungsbacka to Carl Oskar L. and Selma Karolina Levan. Married on the 13th of m month with Karin Kulberg. Children: Gunnar, born in 1915, advertising manager at Nord. Rotogravyr, Einar, born in 1917, engineer. Formerly married in Gothenburg in 1903, studied at Gothenburg University from 1904-1905. Employed in the postal service since 1903, postal examiner in Gothenburg since 1909, postal assistant there in 1925, first assistant in Jönköping in 1928, controller there in 1934, postmaster in Eksjö in 1940, in Halmstad since 1942. Secretary in the Jönköping section of the Postmen's Association from 1932-1936. Received the Royal Order of Vasa (RVO), married with spouse (GM) 8 times.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Fredrik Ivar Lindberg\",\n  \"birthDate\": \"1883-04-23\",\n  \"birthPlace\": \"Kungsbacka\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Oskar L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Selma Karolina Levan\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Kulberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar\",\n      \"birthDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Einar\",\n      \"birthDate\": \"1917\"\n    }\n  ],\n  \"otherFamily\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Former Spouse\",\n      \"description\": \"married in Gothenburg in 1903\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg University\",\n      \"startDate\": \"1904\",\n      \"endDate\": \"1905\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Postal Service\",\n      \"startDate\": \"1903\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nord. Rotogravyr\",\n      \"position\": \"Advertising Manager\",\n      \"startDate\": \"1915\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Postmen's Association\",\n    \"description\": \"Secretary in the Jönköping section\",\n    \"startDate\": \"1932\",\n    \"endDate\": \"1936\"\n  },\n  \"orders\": [\n    {\n      \"@type\": \"Order\",\n      \"description\": \"Royal Order of Vasa\"\n    }\n  ],\n  \"marriageCount\": 8\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Karl Fredrik Ivar Lindberg",
+        "birthDate": "1883-04-23",
+        "birthPlace": "Kungsbacka",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Oskar L."
+            },
+            {
+                "@type": "Person",
+                "name": "Selma Karolina Levan"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Kulberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar",
+                "birthDate": "1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Einar",
+                "birthDate": "1917"
+            }
+        ],
+        "otherFamily": [
+            {
+                "@type": "Person",
+                "name": "Former Spouse",
+                "description": "married in Gothenburg in 1903"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg University",
+                "startDate": "1904",
+                "endDate": "1905"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Postal Service",
+                "startDate": "1903"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nord. Rotogravyr",
+                "position": "Advertising Manager",
+                "startDate": "1915"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Postmen's Association",
+            "description": "Secretary in the Jönköping section",
+            "startDate": "1932",
+            "endDate": "1936"
+        },
+        "orders": [
+            {
+                "@type": "Order",
+                "description": "Royal Order of Vasa"
+            }
+        ],
+        "marriageCount": 8
+    }
+}

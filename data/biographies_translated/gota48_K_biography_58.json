@@ -1,0 +1,116 @@
+{
+    "original": "Kernell, Carl Eric Oscar Fredric, kyrkoherde, Ulrika, f. 11/4/81 i Horn, Östergötl. 1., av kyrkoh. 0’scar K. o. Sigrid Drotty. G. 14 m. Jane Maulé-on. — Mog:ex. i Linköp. 00, fil. kand. 07, teol. kand., prakt. teol. prov samt prästv, f. Linköp. stift 10. Tjg. som v. kommin. o. pa’St:adj. i Linköp. domkyrkoförs., v. pastor o. v. kommin. i Hult, v. pa-stor o. past :adj. i Högby, v. kommin. i Hogstad samt kommin. i Blackstad, kyrkoh. i. Ulrika sed. 25. Ordf. i kyrko’Stämma, led. av b0iställs’styr.",
+    "translated": "Kernell, Carl Eric Oscar Fredric, clergyman, Ulrika, born on April 11th, 1881 in Horn, Östergötland, first child of clergyman Oscar K. and Sigrid Drotty. Married on August 14th with Jane Maulé-on. Earned a Master's degree in Law from Linköping University in 1900, Bachelor of Philosophy in 1907, Bachelor of Theology, passed practical theological examinations and was ordained as a priest in 1910 in the Linköping Diocese. Served as assistant curate and pastor substitute in Linköping Cathedral Parish, vice pastor and assistant curate in Hult, vice pastor and assistant pastor in Högby, assistant curate in Hogstad, and curate in Blackstad, and appointed as vicar of Ulrika in 1925. Served as Chairman of the Church Assembly and member of the Compensation Committee.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Eric Oscar Fredric Kernell\",\n  \"alternateName\": \"Oscar Kernell\",\n  \"birthDate\": \"1881-04-11\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Horn\",\n      \"addressRegion\": \"Östergötland\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oscar Kernell\",\n      \"jobTitle\": \"Clergyman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Drotty\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jane Maulé-on\",\n    \"marriageDate\": \"1900-08-14\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's degree\",\n      \"educationalLevel\": \"Law\",\n      \"educationalCredentialAwarded\": \"fil. kand.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Linköping University\"\n      },\n      \"dateAwarded\": \"1900\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Philosophy\",\n      \"educationalCredentialAwarded\": \"fil. kand.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Linköping University\"\n      },\n      \"dateAwarded\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Theology\",\n      \"educationalCredentialAwarded\": \"teol. kand.\",\n      \"dateAwarded\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Practical Theology\",\n      \"educationalCredentialAwarded\": \"Practical Theology Certification\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Assistant Curate\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"unknown\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping Cathedral Parish\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Pastor Substitute\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"unknown\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping Cathedral Parish\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Vicar\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"unknown\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ulrika\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Assembly\",\n      \"memberOf\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Compensation Committee\",\n      \"memberOf\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Eric Oscar Fredric Kernell",
+        "alternateName": "Oscar Kernell",
+        "birthDate": "1881-04-11",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Horn",
+                "addressRegion": "Östergötland"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oscar Kernell",
+                "jobTitle": "Clergyman"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Drotty"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Jane Maulé-on",
+            "marriageDate": "1900-08-14"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master's degree",
+                "educationalLevel": "Law",
+                "educationalCredentialAwarded": "fil. kand.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Linköping University"
+                },
+                "dateAwarded": "1900"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Philosophy",
+                "educationalCredentialAwarded": "fil. kand.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Linköping University"
+                },
+                "dateAwarded": "1907"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Theology",
+                "educationalCredentialAwarded": "teol. kand.",
+                "dateAwarded": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Practical Theology",
+                "educationalCredentialAwarded": "Practical Theology Certification"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Assistant Curate",
+                "startDate": "1910",
+                "endDate": "unknown",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Linköping Cathedral Parish"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Pastor Substitute",
+                "startDate": "1910",
+                "endDate": "unknown",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Linköping Cathedral Parish"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Vicar",
+                "startDate": "1925",
+                "endDate": "unknown",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Ulrika"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church Assembly",
+                "memberOf": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Compensation Committee",
+                "memberOf": "Member"
+            }
+        ]
+    }
+}

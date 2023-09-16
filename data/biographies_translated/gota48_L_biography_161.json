@@ -1,0 +1,103 @@
+{
+    "original": "Lennermark, Sven Torgny, komminister, Söderköping, f. 27/2/12 i Gävle av distr :förest. inom Sv. miss :förb. Fritz Axel Larsson o. Kristina Johansson. G. 41 m. Karin Lilja. Barn: Staffan f. 43, Katarina 45. — Stud:ex. i Linköp. 31, teol. fil. ex. i Lund 34, teol. kand. i Upps. 40, prästv. f. Lin-köp. stift 41. Past:adj. samt v. dom-kyrkokommin. i Linköp. 41, kyrkoadj. i Motala 42-45, kommin. i Tåby sed. 45. Hobby: biodling.",
+    "translated": "Lennermark, Sven Torgny, vicar, Söderköping, b. 27/2/12 in Gävle to district supervisor for the Swedish Missionary Association, Fritz Axel Larsson and Kristina Johansson. Married in 1941 to Karin Lilja. Children: Staffan b. 1943, Katarina b. 1945. — Stud:ex. (graduated with distinction) in Linköping 1931, theology bachelor's degree in Lund 1934, theology licentiate degree in Uppsala 1940, ordained priest in Linköping diocese in 1941. Assistant pastor and deputy cathedral curate in Linköping from 1941, church assistant in Motala from 1942-1945, vicar in Tåby since 1945. Hobby: beekeeping.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Torgny Lennermark\",\n  \"birthDate\": \"1912-02-27\",\n  \"birthPlace\": \"Gävle\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Vicar\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Söderköping\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Missionary Association\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fritz Axel Larsson\",\n      \"jobTitle\": \"District Supervisor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Lilja\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Staffan\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Katarina\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Linköping University\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1940\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Diocese\",\n      \"startDate\": \"1941\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Assistant Pastor\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Deputy Cathedral Curate\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Church Assistant\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.example.com/sven-torgny-lennermark\"\n  ],\n  \"hobby\": \"Beekeeping\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Torgny Lennermark",
+        "birthDate": "1912-02-27",
+        "birthPlace": "Gävle",
+        "nationality": "Swedish",
+        "jobTitle": [
+            {
+                "@type": "Role",
+                "name": "Assistant Pastor",
+                "startDate": "1941"
+            },
+            {
+                "@type": "Role",
+                "name": "Deputy Cathedral Curate",
+                "startDate": "1941"
+            },
+            {
+                "@type": "Role",
+                "name": "Church Assistant",
+                "startDate": "1942",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Role",
+                "name": "Vicar",
+                "startDate": "1945"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Söderköping"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish Missionary Association"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Fritz Axel Larsson",
+                "jobTitle": "District Supervisor"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Lilja",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Staffan",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Katarina",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Linköping University",
+                "startDate": "1931",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "startDate": "1940",
+                "endDate": "1940"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Linköping Diocese",
+                "startDate": "1941"
+            }
+        ],
+        "sameAs": [
+            "https://www.example.com/sven-torgny-lennermark"
+        ],
+        "hobby": "Beekeeping"
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "original": "Lagergren, Elsa Matilda, prakt, läkare, Göteborg, f. 1/3/90 i Evanston, 111., USA, av Axel Hjalmar L. o. Tekla Pettersson. Adopt :barn: Bertil (Pelle) f. 31, Anita (Tippan) 36. -Stud :ex. i Gbg 09, med. kand. i Upps. 14, med. lic. i Sthlm 21. Und:läk. v. ett flert. sjukh. 16-22, bitr. läk. v. Gbgs epid:sjukh. 22-23, und:läk. v. Gbgs barnsjukh. med. avd. 23-27, aman. där 24-27, bitr. läk. där 27, läk. v. Chicago Municipal Tuberc. Sanit. barn-avd. 28, prakt. läk. i Gbg sed. 29, läk. v. Gbgs barnav :centr. sed. 30 o. v. Gbgs småbarnssk. 31, skolläk. v. Ma-jornas komm. flicksk. sed. 36 o. v. komm. mellansk. sed. 37.",
+    "translated": "Lagergren, Elsa Matilda, RN, doctor, Gothenburg, b. 1/3/90 in Evanston, Ill., USA, to Axel Hjalmar L. and Tekla Pettersson. Adopted children: Bertil (Pelle), b. 31, Anita (Tippan), 36. - Education: graduated in Gothenburg '09, medical candidate in Uppsala '14, medical licentiate in Stockholm '21. Work experience: nurse at several hospitals '16-22, assistant doctor at Gothenburg epidemic hospital '22-23, nurse at Gothenburg children's hospital medical department '23-27, intern there '24-27, assistant doctor there '27, doctor at Chicago Municipal Tuberculosis Sanitarium children's department '28, practicing doctor in Gothenburg since '29, doctor at Gothenburg children's center since '30 and at Gothenburg preschool since '31, school doctor at Ma-jorna municipality girls' school since '36 and at municipality middle school since '37.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Elsa Matilda Lagergren\",\n  \"birthDate\": \"1890-03-01\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Evanston\",\n      \"addressRegion\": \"Illinois\",\n      \"addressCountry\": \"USA\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel Hjalmar Lagergren\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tekla Pettersson\"\n    }\n  ],\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil (Pelle) Lagergren\",\n      \"birthDate\": \"b. 1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anita (Tippan) Lagergren\",\n      \"birthDate\": \"b. 1936\"\n    }\n  ],\n  \"occupation\": [\n    \"RN\",\n    \"doctor\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"graduate\",\n      \"educationalProgram\": \"Medicine\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Gothenburg University\",\n        \"startDate\": \"1909\",\n        \"endDate\": \"1914\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"licentiate\",\n      \"educationalProgram\": \"Medicine\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Stockholm University\",\n        \"startDate\": \"1914\",\n        \"endDate\": \"1921\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Epidemic Hospital\"\n      },\n      \"startDate\": \"1916\",\n      \"endDate\": \"1922\",\n      \"jobTitle\": \"Nurse\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Epidemic Hospital\"\n      },\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\",\n      \"jobTitle\": \"Assistant Doctor\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Children's Hospital\"\n      },\n      \"startDate\": \"1923\",\n      \"endDate\": \"1927\",\n      \"jobTitle\": \"Nurse\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Children's Hospital\"\n      },\n      \"startDate\": \"1924\",\n      \"endDate\": \"1927\",\n      \"jobTitle\": \"Intern\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Children's Hospital\"\n      },\n      \"startDate\": \"1927\",\n      \"jobTitle\": \"Assistant Doctor\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Chicago Municipal Tuberculosis Sanitarium\"\n      },\n      \"startDate\": \"1928\",\n      \"jobTitle\": \"Doctor\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Chicago\"\n        }\n      }\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      },\n      \"startDate\": \"1929\",\n      \"jobTitle\": \"Practicing Doctor\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Children's Center\"\n      },\n      \"startDate\": \"1930\",\n      \"jobTitle\": \"Doctor\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Preschool\"\n      },\n      \"startDate\": \"1931\",\n      \"jobTitle\": \"Doctor\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ma-jorna Municipality Girls' School\"\n      },\n      \"startDate\": \"1936\",\n      \"jobTitle\": \"School Doctor\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ma-jorna Municipality Middle School\"\n      },\n      \"startDate\": \"1937\",\n      \"jobTitle\": \"School Doctor\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Elsa Matilda Lagergren",
+        "birthDate": "1890-03-01",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Evanston",
+                "addressRegion": "Illinois",
+                "addressCountry": "USA"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Axel Hjalmar Lagergren"
+            },
+            {
+                "@type": "Person",
+                "name": "Tekla Pettersson"
+            }
+        ],
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Bertil (Pelle) Lagergren",
+                "birthDate": "b. 1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Anita (Tippan) Lagergren",
+                "birthDate": "b. 1936"
+            }
+        ],
+        "occupation": [
+            "RN",
+            "doctor"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "graduate",
+                "educationalProgram": "Medicine",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Gothenburg University",
+                    "startDate": "1909",
+                    "endDate": "1914"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "licentiate",
+                "educationalProgram": "Medicine",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Stockholm University",
+                    "startDate": "1914",
+                    "endDate": "1921"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Epidemic Hospital"
+                },
+                "startDate": "1916",
+                "endDate": "1922",
+                "jobTitle": "Nurse"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Epidemic Hospital"
+                },
+                "startDate": "1922",
+                "endDate": "1923",
+                "jobTitle": "Assistant Doctor"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Children's Hospital"
+                },
+                "startDate": "1923",
+                "endDate": "1927",
+                "jobTitle": "Nurse"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Children's Hospital"
+                },
+                "startDate": "1924",
+                "endDate": "1927",
+                "jobTitle": "Intern"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Children's Hospital"
+                },
+                "startDate": "1927",
+                "jobTitle": "Assistant Doctor"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Chicago Municipal Tuberculosis Sanitarium"
+                },
+                "startDate": "1928",
+                "jobTitle": "Doctor",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Chicago"
+                    }
+                }
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                },
+                "startDate": "1929",
+                "jobTitle": "Practicing Doctor"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Children's Center"
+                },
+                "startDate": "1930",
+                "jobTitle": "Doctor"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Preschool"
+                },
+                "startDate": "1931",
+                "jobTitle": "Doctor"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Ma-jorna Municipality Girls' School"
+                },
+                "startDate": "1936",
+                "jobTitle": "School Doctor"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Ma-jorna Municipality Middle School"
+                },
+                "startDate": "1937",
+                "jobTitle": "School Doctor"
+            }
+        ]
+    }
+}

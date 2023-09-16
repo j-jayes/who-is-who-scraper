@@ -1,0 +1,92 @@
+{
+    "original": "Kullberg, Tore Wilhelm, advokat, Norrköping, f. 28/9/99 i Sthlm av distr :lantmät. Martin- August K. o. Augusta Collander. G. 27 m. Birgit Andreen. Barn: Birgitta f. 28, Gunilla 31, Susanne 37. — Stud:ex. v. norra latin i Sthlm 17, jur. kand. v. Sthlmis högsk. 22. Efter tingstjg. bitr. jurist å Sthlms stads rättshj :anst. 26, förest, f. Norrköp. stads dito sed. 29. Led. av Sv:es adv:samf. sed. 37.",
+    "translated": "Kullberg, Tore Wilhelm, lawyer, Norrköping, born on September 28, 1899 in Stockholm to district land surveyor Martin-August Kullberg and Augusta Collander. Married on the 27th of an undisclosed month. Spouse's name: Birgit Andreen. Children: Birgitta, born in 1928, Gunilla, born in 1931, Susanne, born in 1937. Completed upper secondary school at Norra Latin in Stockholm in 1917, obtained a law degree from Stockholm University in 1922. Started working as a junior legal counsel at Stockholm's legal aid office in 1926, became the head of Norrköping's city legal aid office in 1929. Became a member of the Swedish Bar Association in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tore Wilhelm Kullberg\",\n  \"birthDate\": \"1899-09-28\",\n  \"birthPlace\": \"Stockholm\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Lawyer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Martin-August Kullberg\",\n      \"jobTitle\": \"District Land Surveyor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Collander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgit Andreen\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Kullberg\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Kullberg\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Susanne Kullberg\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"upperSecondarySchool\",\n      \"educationalLevel\": \"Stud:ex.\",\n      \"educationalCredentialAwarded\": \"Norra Latin\",\n      \"awardingInstitution\": \"Stockholm\",\n      \"yearAwarded\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Jur. kand.\",\n      \"educationalCredentialAwarded\": \"Stockholm University\",\n      \"awardingInstitution\": \"Stockholm\",\n      \"yearAwarded\": \"1922\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Junior Legal Counsel\",\n      \"hiringOrganization\": {\n        \"@type\": \"LegalService\",\n        \"name\": \"Stockholm's Legal Aid Office\"\n      },\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Head of Norrköping's City Legal Aid Office\",\n      \"hiringOrganization\": {\n        \"@type\": \"LegalService\",\n        \"name\": \"Norrköping's Legal Aid Office\"\n      },\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\"\n  },\n  \"startDate\": \"1937\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tore Wilhelm Kullberg",
+        "birthDate": "1899-09-28",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "jobTitle": "Lawyer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Martin-August Kullberg",
+                "jobTitle": "District Land Surveyor"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Collander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgit Andreen"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta Kullberg",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Kullberg",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Susanne Kullberg",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "upperSecondarySchool",
+                "educationalLevel": "Stud:ex.",
+                "educationalCredentialAwarded": "Norra Latin",
+                "awardingInstitution": "Stockholm",
+                "yearAwarded": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Jur. kand.",
+                "educationalCredentialAwarded": "Stockholm University",
+                "awardingInstitution": "Stockholm",
+                "yearAwarded": "1922"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Junior Legal Counsel",
+                "hiringOrganization": {
+                    "@type": "LegalService",
+                    "name": "Stockholm's Legal Aid Office"
+                },
+                "startDate": "1926"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Head of Norrköping's City Legal Aid Office",
+                "hiringOrganization": {
+                    "@type": "LegalService",
+                    "name": "Norrköping's Legal Aid Office"
+                },
+                "startDate": "1929"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association"
+        },
+        "startDate": "1937"
+    }
+}

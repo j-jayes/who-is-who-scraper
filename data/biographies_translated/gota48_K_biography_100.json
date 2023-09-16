@@ -1,0 +1,133 @@
+{
+    "original": "Kjelliman, Per Joihan, ilandskiamrerare, HaIm!Sta’d, f. 26/11/92 i HaDmsitad av här :skriv. Oscar K. o. Agnes Dahlberg. G. 20 m. Ella Karin Ljungberg. Barn: Folke f. 26, Lars 39. — Stud:-ex. 10, jur. kand. 16. Landskont. i HaLl. I. 18, länsbokhåll. av 1. gr. 19, llänsasse’sisor 30, taxiintemd. 44, l’and’s.-fcamir. 47. Ordf. i tax :nd m. m. Hoibby: fisike. RVO.",
+    "translated": "Kjelliman, Per Joihan, land clerk, HaIm!Sta’d, b. 26/11/92 in HaDmsitad, parents: Oscar K. and Agnes Dahlberg. Married on the 20th with Ella Karin Ljungberg. Children: Folke b. 26, Lars b. 39. Completed high school exams in 1910, graduated with a law degree in 1916. Worked as a county clerk in HaLl. I. from 1918, senior county accountant from 1919, county assessor from 1930, taxi operator since 1944, and land tax officer from 1947. Also served as chairman of the taxi association. Hobbies: fishing. Awarded the Royal Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Joihan Kjelliman\",\n  \"birthDate\": \"1892-11-26\",\n  \"birthPlace\": \"HaDmsitad\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oscar K. Kjelliman\",\n      \"sameAs\": \"<link to Oscar K. Kjelliman's schema.org/Person>\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agnes Dahlberg\",\n      \"sameAs\": \"<link to Agnes Dahlberg's schema.org/Person>\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ella Karin Ljungberg\",\n    \"sameAs\": \"<link to Ella Karin Ljungberg's schema.org/Person>\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Folke Kjelliman\",\n      \"birthDate\": \"19XX-XX-26\",\n      \"birthPlace\": \"<insert place>\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Kjelliman\",\n      \"birthDate\": \"19XX-XX-39\",\n      \"birthPlace\": \"<insert place>\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialAwarded\": \"High school exams\",\n      \"educationalLevel\": \"Secondary\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialAwarded\": \"Law degree\",\n      \"educationalLevel\": \"University\",\n      \"awardDate\": \"1916\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Land Clerk\",\n      \"startDate\": \"XXXX-XX-XX\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"HaIm!Sta’d\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"County Clerk\",\n      \"startDate\": \"1918-XX-XX\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"HaLl. I.\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Senior County Accountant\",\n      \"startDate\": \"1919-XX-XX\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"HaLl. I.\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"County Assessor\",\n      \"startDate\": \"1930-XX-XX\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"HaLl. I.\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Taxi Operator\",\n      \"startDate\": \"1944-XX-XX\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Land Tax Officer\",\n      \"startDate\": \"1947-XX-XX\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Taxi Association\",\n      \"sameAs\": \"<link to the Taxi Association's schema.org/Organization>\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"CreativeWork\",\n    \"name\": \"fishing\"\n  },\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per Joihan Kjelliman",
+        "birthDate": "1892-11-26",
+        "birthPlace": "HaDmsitad",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Oscar K. Kjelliman",
+                "sameAs": "<link to Oscar K. Kjelliman's schema.org/Person>"
+            },
+            {
+                "@type": "Person",
+                "name": "Agnes Dahlberg",
+                "sameAs": "<link to Agnes Dahlberg's schema.org/Person>"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ella Karin Ljungberg",
+            "sameAs": "<link to Ella Karin Ljungberg's schema.org/Person>"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Folke Kjelliman",
+                "birthDate": "19XX-XX-26",
+                "birthPlace": "<insert place>"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Kjelliman",
+                "birthDate": "19XX-XX-39",
+                "birthPlace": "<insert place>"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialAwarded": "High school exams",
+                "educationalLevel": "Secondary"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialAwarded": "Law degree",
+                "educationalLevel": "University",
+                "awardDate": "1916"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "JobPosting",
+                "title": "Land Clerk",
+                "startDate": "XXXX-XX-XX",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "HaIm!Sta’d"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "County Clerk",
+                "startDate": "1918-XX-XX",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "HaLl. I."
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Senior County Accountant",
+                "startDate": "1919-XX-XX",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "HaLl. I."
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "County Assessor",
+                "startDate": "1930-XX-XX",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "HaLl. I."
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Taxi Operator",
+                "startDate": "1944-XX-XX"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Land Tax Officer",
+                "startDate": "1947-XX-XX"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Taxi Association",
+                "sameAs": "<link to the Taxi Association's schema.org/Organization>"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "CreativeWork",
+            "name": "fishing"
+        },
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            }
+        ]
+    }
+}

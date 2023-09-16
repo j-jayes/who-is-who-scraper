@@ -1,0 +1,128 @@
+{
+    "original": "Lindahl, Ivar Vigilius, tandläkare, Virserum, f. 29/12/11 i Aseda, Kro-nob. L, av fabr. August L. o. Hanna Sahlin. G. 40 m. Zinela Wennerström. Barn: Ulf f. 41, Agne 45. — Stud:ex. i Växjö 30, tandl :kand. 33, tandläkare 36. Assist, v. Tandl :inst. protésavd. 36-37, assist, i Enskede 36-38, tjg. v. Röda Korsets ambuler. klinik i Jämtl. 38, praktik i Virserum sed. 39, assist :-tandl. v. Eastmaninst. 40-41. Led. av Virserums munic:fullm. sed. 43.",
+    "translated": "Lindahl, Ivar Vigilius, dentist, Virserum, born on December 29, 1911 in Aseda, Kronoberg County, son of factory worker August L. and Hanna Sahlin. Married in 1940 to Zinela Wennerström. Children: Ulf, born in 1941, Agne, born in 1945. Completed high school in Växjö in 1930, dental studies in 1933, became a dentist in 1936. Worked as an assistant at the Dental Institute's prosthetic department from 1936-1937, in Enskede from 1936-1938, at the Red Cross mobile clinic in Jämtland in 1938, and established a practice in Virserum in 1939. Worked as an assistant dentist at the Eastman Institute from 1940-1941. Became a member of the Virserum municipal council in 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Ivar Vigilius\",\n  \"familyName\": \"Lindahl\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1911-12-29\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Aseda\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August L.\",\n      \"jobTitle\": \"Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Sahlin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Zinela Wennerström\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agne\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Växjö\",\n      \"educationalCredentialAwardedDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"tandl :kand.\",\n      \"educationalLevel\": \"Dental Studies\",\n      \"educationalCredentialAwarded\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"tandläkare\",\n      \"educationalLevel\": \"Dentist\",\n      \"educationalCredentialAwarded\": \"1936\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Assistant\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental Institute\",\n        \"department\": \"Prosthetic Department\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Assistant\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1938\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Enskede\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Assistant\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Red Cross\",\n        \"department\": \"Mobile Clinic in Jämtland\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1939\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Virserum\"\n      }\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"jobTitle\": \"Assistant Dentist\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1941\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Eastman Institute\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Virserum Municipal Council\",\n    \"startDate\": \"1943\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "givenName": "Ivar Vigilius",
+        "familyName": "Lindahl",
+        "jobTitle": "Dentist",
+        "birthDate": "1911-12-29",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Aseda"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "August L.",
+                "jobTitle": "Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Sahlin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Zinela Wennerström",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Agne",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Växjö",
+                "educationalCredentialAwardedDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "tandl :kand.",
+                "educationalLevel": "Dental Studies",
+                "educationalCredentialAwarded": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "tandläkare",
+                "educationalLevel": "Dentist",
+                "educationalCredentialAwarded": "1936"
+            }
+        ],
+        "work": [
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Assistant",
+                "startDate": "1936",
+                "endDate": "1937",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Dental Institute",
+                    "department": "Prosthetic Department"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Assistant",
+                "startDate": "1936",
+                "endDate": "1938",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Enskede"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Assistant",
+                "startDate": "1938",
+                "endDate": "1938",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Red Cross",
+                    "department": "Mobile Clinic in Jämtland"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Dentist",
+                "startDate": "1939",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Virserum"
+                }
+            },
+            {
+                "@type": "WorkExperience",
+                "jobTitle": "Assistant Dentist",
+                "startDate": "1940",
+                "endDate": "1941",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Eastman Institute"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Virserum Municipal Council",
+            "startDate": "1943"
+        }
+    }
+}

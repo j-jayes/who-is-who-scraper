@@ -1,0 +1,111 @@
+{
+    "original": "Karlgren, Nils, auktoriserad revisor, Göteborg, f. 11/8/99 i Söderhamn av kommin. Anton K. o. Esther af Schmidt. G. 25 m. Elisabeth Kekoni-us. Barn: Bo f. 26, stud. v. CTH, Per-Gunnar 29, Sten 33. — Stud:ex. i Sthlm 18, ekon. ex. v. HHS 21, stud. i Engl. o. Frankr. (som Liljevalchs stip.) 22-23. Anst. i bank 21-24, han-delskamm. 25-27, auktor. rev. 25, egen rev:byrå i Gbg sed. 29. Medl. av Bachelors Club. Skr.: Bokföring — handb. f. bokför, o. köpmän (tredje uppl. 38). Hobbies: bridge, jakt, segling.",
+    "translated": "Karlgren, Nils, authorized auditor, Gothenburg, b. August 11, 1899 in Söderhamn to minister Anton K. and Esther af Schmidt. Married on May 25 with Elisabeth Kekoni (maiden name). Children: Bo, b. 1926, studying at CTH (likely a university), Per-Gunnar, b. 1929, Sten, b. 1933. Passed matriculation exam in Stockholm in 1918, economics exam at HHS (likely the Stockholm School of Economics) in 1921, studied in England and France (as a recipient of Liljevalchs scholarship) from 1922-1923. Employed in a bank from 1921-1924, chamber of commerce from 1925-1927, authorized auditor from 1925, own auditing firm in Gothenburg since 1929. Member of the Bachelors Club. Wrote: Bookkeeping - handbook for bookkeepers and merchants (3rd edition, 1938). Hobbies: bridge, hunting, sailing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Karlgren\",\n  \"birthDate\": \"1899-08-11\",\n  \"birthPlace\": \"Söderhamn, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Authorized Auditor\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anton K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Esther af Schmidt\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabeth Kekoni\",\n    \"memberOf\": \"Bachelors Club\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo\",\n      \"birthDate\": \"1926-01-01\",\n      \"education\": \"Studying at CTH\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Gunnar\",\n      \"birthDate\": \"1929-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sten\",\n      \"birthDate\": \"1933-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Matriculation Exam\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      },\n      \"dateIssued\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Economics Exam\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm School of Economics\"\n      },\n      \"dateIssued\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Study Abroad\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"England and France (Liljevalchs Scholarship)\"\n      },\n      \"dateIssued\": \"1923\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bank\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Chamber of Commerce\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Own Auditing Firm\",\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"publication\": {\n    \"@type\": \"CreativeWork\",\n    \"name\": \"Bookkeeping - handbook for bookkeepers and merchants\",\n    \"edition\": \"3rd\",\n    \"datePublished\": \"1938\"\n  },\n  \"hobbies\": [\n    \"Bridge\",\n    \"Hunting\",\n    \"Sailing\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Karlgren",
+        "birthDate": "1899-08-11",
+        "birthPlace": "Söderhamn, Sweden",
+        "nationality": "Swedish",
+        "occupation": "Authorized Auditor",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Anton K."
+            },
+            {
+                "@type": "Person",
+                "name": "Esther af Schmidt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabeth Kekoni",
+            "memberOf": "Bachelors Club"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo",
+                "birthDate": "1926-01-01",
+                "education": "Studying at CTH"
+            },
+            {
+                "@type": "Person",
+                "name": "Per-Gunnar",
+                "birthDate": "1929-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Sten",
+                "birthDate": "1933-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Matriculation Exam",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                },
+                "dateIssued": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Economics Exam",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Stockholm School of Economics"
+                },
+                "dateIssued": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Study Abroad",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "England and France (Liljevalchs Scholarship)"
+                },
+                "dateIssued": "1923"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Bank",
+                "startDate": "1921",
+                "endDate": "1924"
+            },
+            {
+                "@type": "Organization",
+                "name": "Chamber of Commerce",
+                "startDate": "1925",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Own Auditing Firm",
+                "startDate": "1929"
+            }
+        ],
+        "publication": {
+            "@type": "CreativeWork",
+            "name": "Bookkeeping - handbook for bookkeepers and merchants",
+            "edition": "3rd",
+            "datePublished": "1938"
+        },
+        "hobbies": [
+            "Bridge",
+            "Hunting",
+            "Sailing"
+        ]
+    }
+}

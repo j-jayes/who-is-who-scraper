@@ -1,0 +1,81 @@
+{
+    "original": "Karlbrink, Doris, tandläkare, Göteborg, f. 13/2/03 i Umeå av las :överläk. Helge Rödén o. Doris Malmros. G. 3i5 m. adv. Gillis Kar’l!b’rinik. Barn: ’Se denne. — Stud :ex. i Sundlsvalil’ 22, tandl’:kand. 24, tandl. 26. Prakt, i Lindeisberg 26-28,, tjg. v. Sthlms tandl :-fiören. polüklin. 28-3(5, prakt, i Gbg sed. 35.",
+    "translated": "Karlbrink, Doris, dentist, Gothenburg, born 13/2/03 in Umeå to parents: Chief physician Helge Rödén and Doris Malmros. Married on 3/15 to lawyer Gillis Karlbrink. Children: None. Completed studies: High school in Sundsvall '22, dental student '24, dentist '26. Worked in Lindesberg '26-'28, employed by the Stockholm dental association '28-'36, has been practicing in Gothenburg since '35.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Doris Karlbrink\",\n  \"birthDate\": \"1903-02-13\",\n  \"birthPlace\": \"Umeå\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helge Rödén\",\n      \"jobTitle\": \"Chief physician\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Doris Malmros\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gillis Karlbrink\",\n    \"jobTitle\": \"Lawyer\"\n  },\n  \"children\": [],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Place\",\n    \"name\": \"Gothenburg\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"highSchool\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"endDate\": \"1922\",\n      \"schoolName\": \"Sundsvall High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"college\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"endDate\": \"1924\",\n      \"schoolName\": \"Dental School\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Dentist\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lindesberg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1936\",\n      \"roleName\": \"Dentist\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm dental association\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"roleName\": \"Dentist\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Doris Karlbrink",
+        "birthDate": "1903-02-13",
+        "birthPlace": "Umeå",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Helge Rödén",
+                "jobTitle": "Chief physician"
+            },
+            {
+                "@type": "Person",
+                "name": "Doris Malmros"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gillis Karlbrink",
+            "jobTitle": "Lawyer"
+        },
+        "children": [],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Place",
+            "name": "Gothenburg"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "highSchool",
+                "educationalLevel": "SecondaryEducation",
+                "endDate": "1922",
+                "schoolName": "Sundsvall High School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "college",
+                "educationalLevel": "Undergraduate",
+                "endDate": "1924",
+                "schoolName": "Dental School"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1926",
+                "endDate": "1928",
+                "roleName": "Dentist",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Lindesberg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "endDate": "1936",
+                "roleName": "Dentist",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Stockholm dental association"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "roleName": "Dentist",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                }
+            }
+        ]
+    }
+}

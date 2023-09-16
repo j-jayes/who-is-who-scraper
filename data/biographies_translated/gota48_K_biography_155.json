@@ -1,0 +1,79 @@
+{
+    "original": "Kollberg, Karl Hilmer, häradshövding, Kungälv, f. 1/2/96 i Hanhals, Hall. 1., av Carl K. o. Matilda Olsson. — Stud :ex. i Lund 20, jur. kand. i Sthlm 24. Tingstjg. 24-27, tf. fiskal i Svea hovr. 29, adj. led. 32, assessor 34, hovr :råd i hovr. f. Övre Norrl. 37, tf. rev:iS’ekr. 37, rev:sekr. 40, här:-hövd. i Inlands doms. sed. 44. RNO 40.",
+    "translated": "Kollberg, Karl Hilmer, district judge, Kungälv, born on February 1, 1896 in Hanhals, Halland. Son of Carl K. and Matilda Olsson. — Studied in Lund until 1920, obtained a law degree in Stockholm in 1924. Appointed as a court clerk from 1924 to 1927, acting assessor in the Svea Court of Appeals in 1929, deputy member in 1932, appointed as a full member in 1934, appointed as a councilor in the Court of Appeals for Upper Norrland in 1937, acting treasurer of the revenue board in 1937, treasurer of the revenue board in 1940, and district judge in the Inland District Court since 1944. Received the Order of the North Star in 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Hilmer Kollberg\",\n  \"birthDate\": \"1896-02-01\",\n  \"birthPlace\": \"Hanhals, Halland, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Kollberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Matilda Olsson\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lund University\",\n      \"startDate\": \"19XX\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm University\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Svea Court of Appeals\",\n      \"position\": [\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Court Clerk\",\n          \"startDate\": \"1924\",\n          \"endDate\": \"1927\"\n        },\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Acting Assessor\",\n          \"startDate\": \"1929\",\n          \"endDate\": \"1932\"\n        },\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Member\",\n          \"startDate\": \"1932\",\n          \"endDate\": \"1944\"\n        },\n        {\n          \"@type\": \"Role\",\n          \"roleName\": \"Councilor\",\n          \"startDate\": \"1937\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Inland District Court\",\n      \"position\": {\n        \"@type\": \"Role\",\n        \"roleName\": \"District Judge\",\n        \"startDate\": \"1944\"\n      }\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Medal\",\n    \"name\": \"Order of the North Star\",\n    \"dateReceived\": \"1940\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Hilmer Kollberg",
+        "birthDate": "1896-02-01",
+        "birthPlace": "Hanhals, Halland, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl Kollberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Matilda Olsson"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Lund University",
+                "startDate": "19XX",
+                "endDate": "1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stockholm University",
+                "startDate": "1920",
+                "endDate": "1924"
+            },
+            {
+                "@type": "Organization",
+                "name": "Svea Court of Appeals",
+                "position": [
+                    {
+                        "@type": "Role",
+                        "roleName": "Court Clerk",
+                        "startDate": "1924",
+                        "endDate": "1927"
+                    },
+                    {
+                        "@type": "Role",
+                        "roleName": "Acting Assessor",
+                        "startDate": "1929",
+                        "endDate": "1932"
+                    },
+                    {
+                        "@type": "Role",
+                        "roleName": "Member",
+                        "startDate": "1932",
+                        "endDate": "1944"
+                    },
+                    {
+                        "@type": "Role",
+                        "roleName": "Councilor",
+                        "startDate": "1937"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Inland District Court",
+                "position": {
+                    "@type": "Role",
+                    "roleName": "District Judge",
+                    "startDate": "1944"
+                }
+            }
+        ],
+        "award": {
+            "@type": "Medal",
+            "name": "Order of the North Star",
+            "dateReceived": "1940"
+        }
+    }
+}

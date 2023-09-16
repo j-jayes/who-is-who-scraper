@@ -1,0 +1,117 @@
+{
+    "original": "Klefbom, Knut Halvar Nils, -stiftssekreterare, Visby, f. 29/11/04 i Säbrå, Västern. 1., av dövstumlär. Knut K. o. Maria Lindholm. G. 36 m. postexp. Henny Eriksson. Barn: Lennart f. 37, Ingrid 43, Arne 45. — Stud:ex. i Härnösand 23, jur. kand. i Upps. 29. Tingstjg. v. Torneå doms. 30-32, aman. v. domkap. i Luleå 33, stiftsnot. där 37, istiftssekr. v. domkap. i Visby sed. 43.",
+    "translated": "Klefbom, Knut Halvar Nils, - diocesan secretary, Visby, born on November 29, 1904 in Säbrå, Västernorrland County, son of Knut K. and Maria Lindholm, a teacher for the deaf and mute. Married in 1936 to Henny Eriksson, a postal worker. Children: Lennart, born in 1937, Ingrid, born in 1943, Arne, born in 1945.\n\nEducation: Completed high school in Härnösand in 1923, obtained a law degree from Uppsala University in 1929. Served as associate judge at Torneå District Court from 1930 to 1932, assistant to the cathedral chapter in Luleå in 1933, diocesan notary there in 1937, and diocesan secretary of the cathedral chapter in Visby since 1943.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Halvar Nils Klefbom\",\n  \"birthDate\": \"1904-11-29\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Säbrå\",\n      \"addressRegion\": \"Västernorrland County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut K. Klefbom\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Lindholm\"\n    }\n  ],\n  \"occupation\": \"- Diocesan secretary\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Visby Cathedral Chapter\"\n  },\n  \"marriage\": {\n    \"@type\": \"Organization\",\n    \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Henny Eriksson\"\n    },\n    \"dateStarted\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Klefbom\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Klefbom\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne Klefbom\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Härnösand\",\n      \"dateEarned\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Jur. kand.\",\n      \"educationalLevel\": \"University degree\",\n      \"educationalCredentialAwarded\": \"Uppsala University\",\n      \"dateEarned\": \"1929\"\n    }\n  ],\n  \"workHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Associate Judge\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Torneå District Court\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant to Cathedral Chapter\",\n      \"startDate\": \"1933\",\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Luleå Cathedral Chapter\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Diocesan Notary\",\n      \"startDate\": \"1937\",\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Luleå Cathedral Chapter\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Diocesan Secretary\",\n      \"startDate\": \"1943\",\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Visby Cathedral Chapter\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Knut Halvar Nils Klefbom",
+        "birthDate": "1904-11-29",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Säbrå",
+                "addressRegion": "Västernorrland County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Knut K. Klefbom"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Lindholm"
+            }
+        ],
+        "occupation": "- Diocesan secretary",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Visby Cathedral Chapter"
+        },
+        "marriage": {
+            "@type": "Organization",
+            "spouse": {
+                "@type": "Person",
+                "name": "Henny Eriksson"
+            },
+            "dateStarted": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lennart Klefbom",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid Klefbom",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Arne Klefbom",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Härnösand",
+                "dateEarned": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Jur. kand.",
+                "educationalLevel": "University degree",
+                "educationalCredentialAwarded": "Uppsala University",
+                "dateEarned": "1929"
+            }
+        ],
+        "workHistory": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Associate Judge",
+                "startDate": "1930",
+                "endDate": "1932",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Torneå District Court"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant to Cathedral Chapter",
+                "startDate": "1933",
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Luleå Cathedral Chapter"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Diocesan Notary",
+                "startDate": "1937",
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Luleå Cathedral Chapter"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Diocesan Secretary",
+                "startDate": "1943",
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Visby Cathedral Chapter"
+                }
+            }
+        ]
+    }
+}

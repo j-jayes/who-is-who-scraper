@@ -1,0 +1,130 @@
+{
+    "original": "Lindberg, Paul Johannes, kyrkoherde, Nårunga, f. 30/9/99 i Böne, Älvsb. 1., av Gustav L. o. Hilda Petersson. G. 33 m. Brita Helde. Barn: Ulla f. 34, Gert 35, Ann-Sofie 38. — Stud:ex. i Skara 17, teol. fil. ex. 19, teol. kand. samt prakt. teol. prov 27, prästv. f. Skara stift 28. V. pastor i Blidsberg 28, v. kommin. i Borås 30, kyrkoh. i Nårunga sed. 32.",
+    "translated": "Lindberg, Paul Johannes, clergyman, Nårunga, b. 30/9/1899 in Böne, Älvsb. 1., son of Gustav L. and Hilda Petersson. Married in 1933 to Brita Helde. Children: Ulla b. 1934, Gert b. 1935, Ann-Sofie b. 1938. Completed secondary education in Skara in 1917, theological degree in 1919, theological candidate and practical theological examination in 1927. Ordained as priest for the Skara diocese in 1928. Assistant pastor in Blidsberg from 1928, assistant vicar in Borås from 1930, vicar in Nårunga from 1932.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Paul Johannes Lindberg\",\n  \"birthDate\": \"1899-09-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Böne\",\n      \"addressRegion\": \"Älvsb. 1\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustav L. Lindberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Petersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Helde\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gert\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Sofie\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondaryEducation\",\n      \"educationalLevel\": \"senior\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"theologicalDegree\",\n      \"educationalLevel\": \"bachelor\",\n      \"dateEarned\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"theologicalCandidate\",\n      \"educationalLevel\": \"bachelor\",\n      \"dateEarned\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"practicalTheologicalExamination\",\n      \"dateEarned\": \"1927\"\n    }\n  ],\n  \"jobTitle\": \"Clergyman\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Nårunga\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara diocese\"\n    }\n  ],\n  \"ordainedBy\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Skara diocese\"\n  },\n  \"ordainedDate\": \"1928\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skara diocese\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Pastor\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1930\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Blidsberg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Vicar\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Borås\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Vicar\",\n      \"startDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Nårunga\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Paul Johannes Lindberg",
+        "birthDate": "1899-09-30",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Böne",
+                "addressRegion": "Älvsb. 1"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustav L. Lindberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Petersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Helde"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Gert",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Sofie",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondaryEducation",
+                "educationalLevel": "senior"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "theologicalDegree",
+                "educationalLevel": "bachelor",
+                "dateEarned": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "theologicalCandidate",
+                "educationalLevel": "bachelor",
+                "dateEarned": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "practicalTheologicalExamination",
+                "dateEarned": "1927"
+            }
+        ],
+        "jobTitle": "Clergyman",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Nårunga"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skara diocese"
+            }
+        ],
+        "ordainedBy": {
+            "@type": "Organization",
+            "name": "Skara diocese"
+        },
+        "ordainedDate": "1928",
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Pastor",
+                "startDate": "1928",
+                "endDate": "1930",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Blidsberg"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Vicar",
+                "startDate": "1930",
+                "endDate": "1932",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Borås"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Vicar",
+                "startDate": "1932",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Nårunga"
+                    }
+                }
+            }
+        ]
+    }
+}

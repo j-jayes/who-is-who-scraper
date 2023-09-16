@@ -1,0 +1,71 @@
+{
+    "original": "Lindahl, Axel Henrik kyrkoherde, Arneberga, f. 8/5/05 i Jönköping. — Stud:ex. i Jönköp. 25, fil. kand. 28, teol. kand., prakt. teol. prov samt prästv. f. Linköp. ’Stift 32. Tjg. s. past :adj. samt s. v. pastor o. tf. kyrkoh. i Örberga, kyrkoh. i Örberga sed. 38.",
+    "translated": "Lindahl, Axel Henrik, clergyman, Arneberga, b. 8/5/05 in Jönköping. - Graduated from Jönköping High School in 1925, Bachelor of Arts in 1928, Bachelor of Theology, practical theological examination, and ordained as a priest in Linköping Diocese in 1932. Currently serving as deputy pastor and temporary vicar in Örberga, appointed as vicar in Örberga since 1938. Note that \"\\d\\d m. partners name\" indicates that the person got married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Henrik Lindahl\",\n  \"jobTitle\": \"Clergyman\",\n  \"birthPlace\": \"Jönköping\",\n  \"birthDate\": \"1905-08-05\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduation\",\n      \"credentialEarned\": \"High School Diploma\",\n      \"educationalLevel\": \"secondary\",\n      \"educationalProgram\": \"Jönköping High School\",\n      \"dateIssued\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduation\",\n      \"credentialEarned\": \"Bachelor of Arts\",\n      \"educationalLevel\": \"bachelor\",\n      \"educationalProgram\": \"University of Jönköping\",\n      \"dateIssued\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduation\",\n      \"credentialEarned\": \"Bachelor of Theology\",\n      \"educationalLevel\": \"bachelor\",\n      \"educationalProgram\": \"Theology\",\n      \"dateIssued\": \"date unknown\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"examination\",\n      \"credentialEarned\": \"Practical Theological Examination\",\n      \"educationalLevel\": \"examination\",\n      \"educationalProgram\": \"Theology\",\n      \"dateIssued\": \"date unknown\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"ordination\",\n      \"credentialEarned\": \"Ordained Priest\",\n      \"educationalLevel\": \"ordination\",\n      \"educationalProgram\": \"Linköping Diocese\",\n      \"dateIssued\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örberga Church\",\n      \"startDate\": \"date unknown\",\n      \"endDate\": \"present\",\n      \"jobTitle\": \"Deputy Pastor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örberga Church\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"present\",\n      \"jobTitle\": \"Vicar\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Henrik Lindahl",
+        "jobTitle": "Clergyman",
+        "birthPlace": "Jönköping",
+        "birthDate": "1905-08-05",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduation",
+                "credentialEarned": "High School Diploma",
+                "educationalLevel": "secondary",
+                "educationalProgram": "Jönköping High School",
+                "dateIssued": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduation",
+                "credentialEarned": "Bachelor of Arts",
+                "educationalLevel": "bachelor",
+                "educationalProgram": "University of Jönköping",
+                "dateIssued": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduation",
+                "credentialEarned": "Bachelor of Theology",
+                "educationalLevel": "bachelor",
+                "educationalProgram": "Theology",
+                "dateIssued": "date unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "examination",
+                "credentialEarned": "Practical Theological Examination",
+                "educationalLevel": "examination",
+                "educationalProgram": "Theology",
+                "dateIssued": "date unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "ordination",
+                "credentialEarned": "Ordained Priest",
+                "educationalLevel": "ordination",
+                "educationalProgram": "Linköping Diocese",
+                "dateIssued": "1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Örberga Church",
+                "startDate": "date unknown",
+                "endDate": "present",
+                "jobTitle": "Deputy Pastor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Örberga Church",
+                "startDate": "1938",
+                "endDate": "present",
+                "jobTitle": "Vicar"
+            }
+        ]
+    }
+}

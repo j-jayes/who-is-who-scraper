@@ -1,0 +1,100 @@
+{
+    "original": "Levin, Arnold Hjalmar, bankdirektör, Alingsås, f. 3/5/90 i Sexdrega, Älvsb. 1., av köpm. Amatus L. o. Alma Nilsison. G. 1. 17-42 m. Signe Hallberg, 2. 43’ m. Rödakorssystern Inge-horg Nilson. Barn: Bengt-Erik f. 19, Birgitta 27, Olof Gunnar Arnoldson 45. — Privatundervisn. 01-05, Kristinehamns prakt. sk. 06-07. Anst. å en-groskontor i Arvika 07, kamrer i A-B Gbgs Handelsbank i Tranemo 10-17, i Alingsås 17-38, dir. där sed. 39. Styr :led. i Alingsås konstförening sed. 42, medl. av Götiska Förb. Stud:-resa t. Tyskl. 37.",
+    "translated": "Levin, Arnold Hjalmar, bank director, Alingsås, born 3/5/90 in Sexdrega, Älvsborg County, son of merchant Amatus L. and Alma Nilsison. Married 1. in 1917 to Signe Hallberg, 2. in 1943 to Red Cross sister Ingeborg Nilson. Children: Bengt-Erik born in 1919, Birgitta born in 1927, Olof Gunnar Arnoldson born in 1945. \n\nEducation: Private tuition in 1901-1905, Kristinehamn Practical School in 1906-1907. Employed at a wholesale office in Arvika in 1907, cashier at AB Gbgs Handelsbank in Tranemo in 1910-1917, in Alingsås in 1917-1938, director there since 1939. \n\nPositions: Board member of Alingsås Art Association since 1942, member of the Gothic Union. Study trip to Germany in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Levin, Arnold Hjalmar\",\n  \"description\": \"Bank director\",\n  \"birthDate\": \"1890-05-03\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Sexdrega\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Alingsås Art Association\",\n    \"startDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt-Erik\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Gunnar Arnoldson\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Hallberg\",\n      \"marriageDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingeborg Nilson\",\n      \"marriageDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Private Tuition\",\n      \"startDate\": \"1901\",\n      \"endDate\": \"1905\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Kristinehamn Practical School\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1907\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Wholesale Office in Arvika\",\n      \"startDate\": \"1907\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Gbgs Handelsbank\",\n      \"department\": \"Tranemo\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1917\",\n      \"jobTitle\": \"Cashier\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Gbgs Handelsbank\",\n      \"department\": \"Alingsås\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1938\",\n      \"jobTitle\": \"Cashier\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Gbgs Handelsbank\",\n      \"department\": \"Alingsås\",\n      \"startDate\": \"1939\",\n      \"jobTitle\": \"Director\"\n    }\n  ],\n  \"studyTrip\": {\n    \"@type\": \"Event\",\n    \"name\": \"Study Trip to Germany\",\n    \"startDate\": \"1937\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Levin, Arnold Hjalmar",
+        "description": "Bank director",
+        "birthDate": "1890-05-03",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Sexdrega"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Alingsås Art Association",
+            "startDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt-Erik",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof Gunnar Arnoldson",
+                "birthDate": "1945"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Signe Hallberg",
+                "marriageDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingeborg Nilson",
+                "marriageDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Private Tuition",
+                "startDate": "1901",
+                "endDate": "1905"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Kristinehamn Practical School",
+                "startDate": "1906",
+                "endDate": "1907"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Wholesale Office in Arvika",
+                "startDate": "1907",
+                "endDate": "1910"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Gbgs Handelsbank",
+                "department": "Tranemo",
+                "startDate": "1910",
+                "endDate": "1917",
+                "jobTitle": "Cashier"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Gbgs Handelsbank",
+                "department": "Alingsås",
+                "startDate": "1917",
+                "endDate": "1938",
+                "jobTitle": "Cashier"
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Gbgs Handelsbank",
+                "department": "Alingsås",
+                "startDate": "1939",
+                "jobTitle": "Director"
+            }
+        ],
+        "studyTrip": {
+            "@type": "Event",
+            "name": "Study Trip to Germany",
+            "startDate": "1937"
+        }
+    }
+}

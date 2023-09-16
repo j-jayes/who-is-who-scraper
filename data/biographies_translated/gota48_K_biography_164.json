@@ -1,0 +1,88 @@
+{
+    "original": "Krantz, Åke Karl Kristian, direktör, Göteborg, f. 8/1/06 i Gbg av dir. Hugo o. Lisa Krantz. G. 36 m. Gudrun Dyberg. Barn: Eva f. 37, Ingela 39, Hugo 44. — Stud:ex. 24. Praktik på annonsbyrå i London 27 o. 28. Anst. v. Annonsbyrån Hugo Krantz A-B i Gbg fr. 24, dir. där.",
+    "translated": "Krantz, Åke Karl Kristian, director, Gothenburg, b. 8/1/06 in Gothenburg, son of director Hugo and Lisa Krantz. Married in 1936 to Gudrun Dyberg. Children: Eva b. 1937, Ingela b. 1939, Hugo b. 1944. Completed high school in 1924. Internship at an advertising agency in London in 1927 and 1928. Employed at Annonsbyrån Hugo Krantz A-B in Gothenburg from 1924, became the director there.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Karl Kristian Krantz\",\n  \"jobTitle\": \"Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1906-01-08\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hugo Krantz\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lisa Krantz\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gudrun Dyberg\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingela\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hugo\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Annonsbyrån Hugo Krantz A-B\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\"\n        }\n      },\n      \"roleName\": \"Director\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Advertising Agency\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"London\"\n        }\n      },\n      \"roleName\": \"Intern\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åke Karl Kristian Krantz",
+        "jobTitle": "Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1906-01-08",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hugo Krantz",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Lisa Krantz"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gudrun Dyberg",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingela",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Hugo",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex",
+                "startDate": "1924",
+                "endDate": "1924"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Annonsbyrån Hugo Krantz A-B",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    }
+                },
+                "roleName": "Director"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": "1928",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Advertising Agency",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "London"
+                    }
+                },
+                "roleName": "Intern"
+            }
+        ]
+    }
+}

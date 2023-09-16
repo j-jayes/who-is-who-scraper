@@ -1,0 +1,119 @@
+{
+    "original": "Krook, Anders Sigurd, tandiliäkiare, GöteboTg, f. 8/4/01 i Kungsliamn, Gbgs o. Boh. 1., av J. E. Krook o. Berna Berndtsson. G. 30 m. gymn:dir. Aina KarLsoni. Barn: Inger f. 35, Anders 39. — Stud:ex. v. Gbgs h. laitin 20, tandil:-kand. 27, med. kand. s. å., tandliäk. 30. Vik. i Sthltn 30, förest, f. Landsikr. tandpoilikliin,. 31-32, praktik i Lysekil 3t3’-46, i Gbig sed. 4’6. Ordf. i Odonto-log. fören. 29, kilubbmäst. i Bohusl. tiandhsällisik. 38.",
+    "translated": "Krook, Anders Sigurd, dentist, Gothenburg, born 8/4/01 in Kungsliamn, Gothenburg and Bohuslän county, son of J. E. Krook and Berna Berndtsson. Married in 1930 to Aina Karlson, who is a gymnastics director. Children: Inger, born in 1935, Anders, born in 1939. Completed secondary school examination at Gothenburg högre latinläroverk in 1920, dental studies in 1927, medical studies in the same year, and became a dentist in 1930. Worked temporarily in Stockholm in 1930, then became the supervisor at the Dental Polyclinic in Landskrona from 1931 to 1932, practiced in Lysekil from 1933 to 1946, and in Gothenburg since 1946. Chairman of the Odontological Association in 1929, club master of the Bohuslän Dental Society in 1938.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Anders Sigurd Krook\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1901-04-08\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kungsliamn, Gothenburg\"\n  },\n  \"nationality\": \"Swedish\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Aina Karlson\",\n    \"jobTitle\": \"Gymnastics Director\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Krook\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Krook\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary school examination\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg högre latinläroverk\"\n      },\n      \"dateIssued\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental studies\",\n      \"educationalLevel\": \"DentalEducation\",\n      \"dateIssued\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medical studies\",\n      \"educationalLevel\": \"MedicalEducation\",\n      \"dateIssued\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dentist\",\n      \"educationalLevel\": \"ProfessionalEducation\",\n      \"dateIssued\": \"1930\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Supervisor\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Supervisor\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental Polyclinic, Landskrona\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Practitioner\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1946\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lysekil\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Practitioner\",\n      \"startDate\": \"1946\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      }\n    }\n  ],\n  \"affiliations\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odontological Association\",\n      \"startDate\": \"1929\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bohuslän Dental Society\",\n      \"startDate\": \"1938\",\n      \"roleName\": \"Club Master\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Anders Sigurd Krook",
+        "jobTitle": "Dentist",
+        "birthDate": "1901-04-08",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Kungsliamn, Gothenburg"
+        },
+        "nationality": "Swedish",
+        "spouse": {
+            "@type": "Person",
+            "name": "Aina Karlson",
+            "jobTitle": "Gymnastics Director"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Krook",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Krook",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary school examination",
+                "educationalLevel": "SecondaryEducation",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg högre latinläroverk"
+                },
+                "dateIssued": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental studies",
+                "educationalLevel": "DentalEducation",
+                "dateIssued": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medical studies",
+                "educationalLevel": "MedicalEducation",
+                "dateIssued": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentist",
+                "educationalLevel": "ProfessionalEducation",
+                "dateIssued": "1930"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Supervisor",
+                "startDate": "1930",
+                "endDate": "1930",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Supervisor",
+                "startDate": "1931",
+                "endDate": "1932",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Dental Polyclinic, Landskrona"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Practitioner",
+                "startDate": "1933",
+                "endDate": "1946",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Lysekil"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Practitioner",
+                "startDate": "1946",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                }
+            }
+        ],
+        "affiliations": [
+            {
+                "@type": "Organization",
+                "name": "Odontological Association",
+                "startDate": "1929",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bohuslän Dental Society",
+                "startDate": "1938",
+                "roleName": "Club Master"
+            }
+        ]
+    }
+}

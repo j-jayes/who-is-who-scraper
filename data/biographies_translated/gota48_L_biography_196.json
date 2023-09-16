@@ -1,0 +1,80 @@
+{
+    "original": "Liljedahl, Bo Stensson, bankdirektör, Vänersborg, f. 30/11/84 i Boo, Örebro 1., av apot. S. L. o. Eleonore Bark. G. m. Lena Lagerqvist. Barn: Kerstin f. 24, Jan 26, Anna-Stina 32, Margareta 34, — Mog:ex. 04, stud. v. han-delshögsk. i Köln 06-08. Anst. v. Norrköp. Ensk. Bank 04-06, i Tyskl. o. Engl. 08-09, Gbgs Bank 09’-20, därefter v. Ensk. Banken, numera Sv. Handelsbanken i Vänersborg.",
+    "translated": "Liljedahl, Bo Stensson, bank director, Vänersborg, born on 30/11/1884 in Boo, Örebro 1st district, son of pharmacist S. L. and Eleonore Bark. Married to Lena Lagerqvist. Children: Kerstin, born in 1924, Jan, born in 1926, Anna-Stina, born in 1932, Margareta, born in 1934. Divorced in 1904 and studied at the School of Business in Cologne from 1906 to 1908. Employed at Norrköpings Enskilda Bank from 1904 to 1906, in Germany and England from 1908 to 1909, at Gbgs Bank from 1909 to 1920, and then at Enskilda Banken, currently known as Swedbank, in Vänersborg.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Bo Stensson Liljedahl\",\n   \"jobTitle\":\"Bank Director\",\n   \"birthDate\":\"1884-11-30\",\n   \"birthPlace\":\"Boo, Örebro 1st district\",\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"S. L. Liljedahl\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Eleonore Bark\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Lena Lagerqvist\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Kerstin\",\n         \"birthDate\":\"1924\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Jan\",\n         \"birthDate\":\"1926\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Anna-Stina\",\n         \"birthDate\":\"1932\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Margareta\",\n         \"birthDate\":\"1934\"\n      }\n   ],\n   \"divorceDate\":\"1904\",\n   \"education\":[\n      {\n         \"@type\":\"EducationalOrganization\",\n         \"name\":\"School of Business, Cologne\",\n         \"startDate\":\"1906\",\n         \"endDate\":\"1908\"\n      }\n   ],\n   \"employmentHistory\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Norrköpings Enskilda Bank\",\n         \"startDate\":\"1904\",\n         \"endDate\":\"1906\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Gbgs Bank\",\n         \"startDate\":\"1909\",\n         \"endDate\":\"1920\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Enskilda Banken (Swedbank)\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Vänersborg\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Stensson Liljedahl",
+        "jobTitle": "Bank Director",
+        "birthDate": "1884-11-30",
+        "birthPlace": "Boo, Örebro 1st district",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "S. L. Liljedahl"
+            },
+            {
+                "@type": "Person",
+                "name": "Eleonore Bark"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lena Lagerqvist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Stina",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1934"
+            }
+        ],
+        "divorceDate": "1904",
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "School of Business, Cologne",
+                "startDate": "1906",
+                "endDate": "1908"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Norrköpings Enskilda Bank",
+                "startDate": "1904",
+                "endDate": "1906"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gbgs Bank",
+                "startDate": "1909",
+                "endDate": "1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "Enskilda Banken (Swedbank)",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Vänersborg"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "original": "Lindell, Gilbert Oscar Wilhelm, tandläkare, Amål, f. 2/7/05 i Minneapolis, USA, av fabr. Johan L. o. Hanna Råhlin. G. 33 m. Brita Falk. Barn: Per-Oiof f. 35, Birgitta 38, Gunilla 39, Eva 43, Karin 45. — Studrex. v. Vänersborgs h. allm. lärov. 25, tandl :-kand. 30, tandl. 33. Frakt, i Amål sed. 33, skoltandl. 36-45. Hobbies: segling . o. fotografering.",
+    "translated": "Lindell, Gilbert Oscar Wilhelm, dentist, Amål, born on July 2nd, 1905 in Minneapolis, USA, son of factory worker Johan L. and Hanna Råhlin. Married for 33 years to Brita Falk. Children: Per-Oiof, born in 1935, Birgitta in 1938, Gunilla in 1939, Eva in 1943, and Karin in 1945. Studied at Vänersborgs higher secondary school until 1925, dental program until 1930, and became a dentist in 1933. Moved to Amål in 1933, worked as a school dentist from 1936 to 1945. Hobbies include sailing and photography.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gilbert Oscar Wilhelm Lindell\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Minneapolis, USA\",\n  \"birthDate\": \"1905-07-02\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Råhlin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Falk\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Oiof\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Vänersborgs higher secondary school\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental program\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Dental School\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Amål\"\n  },\n  \"startDate\": \"1933\",\n  \"endDate\": \"1945\",\n  \"workLocation\": \"Amål\",\n  \"workTitle\": \"School Dentist\",\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\"\n  },\n  \"hasHobby\": [\n    {\n      \"@type\": \"Hobby\",\n      \"name\": \"Sailing\"\n    },\n    {\n      \"@type\": \"Hobby\",\n      \"name\": \"Photography\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gilbert Oscar Wilhelm Lindell",
+        "jobTitle": "Dentist",
+        "birthPlace": "Minneapolis, USA",
+        "birthDate": "1905-07-02",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan L."
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Råhlin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Falk"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per-Oiof",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Vänersborgs higher secondary school",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental program",
+                "endDate": "1930"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Dental School"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Amål"
+        },
+        "startDate": "1933",
+        "endDate": "1945",
+        "workLocation": "Amål",
+        "workTitle": "School Dentist",
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist"
+        },
+        "hasHobby": [
+            {
+                "@type": "Hobby",
+                "name": "Sailing"
+            },
+            {
+                "@type": "Hobby",
+                "name": "Photography"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "original": "Lagergren, Lars Rudolf Alfred, tandläkare, Göteborg, f. 5/4/01 i Gbg av kamr. John L. o. Anna Lagergrén. G. 38 m. Maria (Maja) Grönwall. Barn: Margareta. — Stud:ex. v. Gbgs h. latin 20, med. stud. v. Upps. univ. 21-23, tandl:kand. 26, tandl. 36. Stud. i Kiel 30-31, genomg. därvid operationskurs. Vik. i Svenljunga 36, prakt, i Gbg sed. 36. Hobby: motorsport.",
+    "translated": "Lagergren, Lars Rudolf Alfred, dentist, Gothenburg, b. 5/4/01 in Gothenburg, son of the late John L. and Anna Lagergrén. Married in 1938 to Maria (Maja) Grönwall. Children: Margareta. — Completed high school education at Gothenburg's Latin School in 1920, studied medicine at Uppsala University from 1921-1923, graduated with a dental degree in 1926, became a licensed dentist in 1936. Continued studies in Kiel from 1930-1931, including completing an operations course. Temporary dentist in Svenljunga in 1936, practicing in Gothenburg since 1936. Hobby: motorsports.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Lars Rudolf Alfred Lagergren\",\n   \"birthDate\": \"1901-05-04\",\n   \"birthPlace\": \"Gothenburg\",\n   \"parent\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"John L. Lagergrén\",\n         \"sameAs\": \"<URL to John L. Lagergrén, if available>\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Anna Lagergrén\",\n         \"sameAs\": \"<URL to Anna Lagergrén, if available>\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Maria (Maja) Grönwall\",\n      \"sameAs\": \"<URL to Maria (Maja) Grönwall, if available>\"\n   },\n   \"children\": {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"sameAs\": \"<URL to Margareta, if available>\"\n   },\n   \"occupation\": \"dentist\",\n   \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n   },\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"stud:ex.\",\n         \"credentialSubject\": {\n            \"@type\": \"EducationalOccupationalProgram\",\n            \"name\": \"Gothenburg's Latin School\"\n         },\n         \"startDate\": \"1920\",\n         \"endDate\": \"1920\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"med. stud.\",\n         \"credentialSubject\": {\n            \"@type\": \"EducationalOccupationalProgram\",\n            \"name\": \"Uppsala University\"\n         },\n         \"startDate\": \"1921\",\n         \"endDate\": \"1923\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"tandl:kand.\",\n         \"startDate\": \"1926\",\n         \"endDate\": \"1926\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"tandl.\",\n         \"startDate\": \"1936\",\n         \"endDate\": \"1936\"\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Stud.\",\n         \"credentialSubject\": {\n            \"@type\": \"EducationalOccupationalProgram\",\n            \"name\": \"Kiel\"\n         },\n         \"startDate\": \"1930\",\n         \"endDate\": \"1931\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Svenljunga\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Gothenburg\"\n      }\n   ],\n   \"hasOccupation\": {\n      \"@type\": \"Specialty\",\n      \"name\": \"Dentistry\"\n   },\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Svenljunga\"\n   },\n   \"alumniOf\": {\n      \"@type\": \"EducationalInstitution\",\n      \"name\": \"Gothenburg's Latin School\"\n   },\n   \"hobby\": \"Motorsport\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Rudolf Alfred Lagergren",
+        "birthDate": "1901-05-04",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "John L. Lagergrén",
+                "sameAs": "<URL to John L. Lagergrén, if available>"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Lagergrén",
+                "sameAs": "<URL to Anna Lagergrén, if available>"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maria (Maja) Grönwall",
+            "sameAs": "<URL to Maria (Maja) Grönwall, if available>"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Margareta",
+            "sameAs": "<URL to Margareta, if available>"
+        },
+        "occupation": "dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex.",
+                "credentialSubject": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Gothenburg's Latin School"
+                },
+                "startDate": "1920",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "med. stud.",
+                "credentialSubject": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Uppsala University"
+                },
+                "startDate": "1921",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "tandl:kand.",
+                "startDate": "1926",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "tandl.",
+                "startDate": "1936",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud.",
+                "credentialSubject": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Kiel"
+                },
+                "startDate": "1930",
+                "endDate": "1931"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Svenljunga"
+        },
+        "hasOccupation": {
+            "@type": "Specialty",
+            "name": "Dentistry"
+        },
+        "alumniOf": {
+            "@type": "EducationalInstitution",
+            "name": "Gothenburg's Latin School"
+        },
+        "hobby": "Motorsport"
+    }
+}

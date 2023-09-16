@@ -1,0 +1,77 @@
+{
+    "original": "Jacobson, Gustaf Adolf, häradsskrivare, Karlskrona, f. 14/12/98 i Karlskrona av Nils J. o. Amanda Nilsson. — Studrex. 16. Anst. v. länsstyr. i Blek. 1. 16, tf. häriskriv. 32, här :skriv. i Karlskrona fögderi sed. 43. Ordf. i Karlskrona sportfiskekl. sed. dess bild. 40, sekr. o. kassaförvalt. i Blek. fiskev :fören. sed. 44, ordf. i Karlskrona stads fiskestyr. sed. 45. Hobbies : sportfiske o. motorbåtsport.",
+    "translated": "Jacobson, Gustaf Adolf, district clerk, Karlskrona, born December 14, 1898 in Karlskrona to Nils J. and Amanda Nilsson. Completed studies at the age of 16. Employed by the county administration in Blekinge from 1916, acting district clerk in 1932, and district clerk in the Karlskrona jurisdiction since 1943. Chairman of the Karlskrona Sportfishing Club since its establishment in 1940, secretary and treasurer of the Blekinge Fishing Association since 1944, chairman of the Karlskrona City Fishing Committee since 1945. Hobbies include sport fishing and motorboat sports.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Adolf Jacobson\",\n  \"jobTitle\": \"District Clerk\",\n  \"birthPlace\": \"Karlskrona\",\n  \"birthDate\": \"1898-12-14\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils J. Jacobson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Nilsson\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Studrex\",\n    \"dateAwarded\": \"1916\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Employment\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Administration in Blekinge\"\n      },\n      \"startDate\": \"1916\"\n    },\n    {\n      \"@type\": \"Employment\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlskrona Jurisdiction\"\n      },\n      \"startDate\": \"1943\",\n      \"jobTitle\": \"District Clerk\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlskrona Sportfishing Club\",\n      \"startDate\": \"1940\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blekinge Fishing Association\",\n      \"startDate\": \"1944\",\n      \"position\": \"Secretary and Treasurer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlskrona City Fishing Committee\",\n      \"startDate\": \"1945\",\n      \"position\": \"Chairman\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"SportsActivity\",\n      \"name\": \"Sport Fishing\"\n    },\n    {\n      \"@type\": \"SportsActivity\",\n      \"name\": \"Motorboat Sports\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Adolf Jacobson",
+        "jobTitle": "District Clerk",
+        "birthPlace": "Karlskrona",
+        "birthDate": "1898-12-14",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils J. Jacobson"
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Nilsson"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Studrex",
+            "dateAwarded": "1916"
+        },
+        "workExperience": [
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "County Administration in Blekinge"
+                },
+                "startDate": "1916"
+            },
+            {
+                "@type": "Employment",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Karlskrona Jurisdiction"
+                },
+                "startDate": "1943",
+                "jobTitle": "District Clerk"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Karlskrona Sportfishing Club",
+                "startDate": "1940",
+                "position": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Blekinge Fishing Association",
+                "startDate": "1944",
+                "position": "Secretary and Treasurer"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlskrona City Fishing Committee",
+                "startDate": "1945",
+                "position": "Chairman"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "SportsActivity",
+                "name": "Sport Fishing"
+            },
+            {
+                "@type": "SportsActivity",
+                "name": "Motorboat Sports"
+            }
+        ]
+    }
+}

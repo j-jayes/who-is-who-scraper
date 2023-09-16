@@ -1,0 +1,65 @@
+{
+    "original": "Karlström, Gustaf Fredrik Vilhelm Henry, tandläkare, Jönköping, f. 13/ 6/97 i Jönköp. av J. W. Karlström o. Emma Johansson. G. 29 m. Iris Wei-mer. Barn: Gösta f. 30, Bertil 34. — Stud :ex. i Lund 19, tandl :kand. 24, tandläk. 26. Praktik i Jönköp. sed. 26.",
+    "translated": "Karlström, Gustaf Fredrik Vilhelm Henry, dentist, Jönköping, b. 13/6/97 in Jönköping, son of J.W. Karlström and Emma Johansson. Married on 29 [date missing] to Iris Wei-mer. Children: Gösta b. 30, Bertil b. 34. Studied examination in Lund in 19, dental candidate in 24, dentist in 26. Practiced in Jönköping since 26.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Fredrik Vilhelm Henry Karlström\",\n  \"birthDate\": \"1897-06-13\",\n  \"birthPlace\": \"Jönköping, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J.W. Karlström\",\n      \"relation\": \"father\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Johansson\",\n      \"relation\": \"mother\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Iris Wei-mer\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gösta Karlström\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil Karlström\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"examination\",\n      \"credentialSubject\": \"Studied in Lund\",\n      \"dateReceived\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dental candidate\",\n      \"credentialSubject\": \"Dental studies\",\n      \"dateReceived\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dentist\",\n      \"credentialSubject\": \"Dental studies\",\n      \"dateReceived\": \"1926\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping Dental Practice\",\n    \"startDate\": \"1926\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Fredrik Vilhelm Henry Karlström",
+        "birthDate": "1897-06-13",
+        "birthPlace": "Jönköping, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "J.W. Karlström",
+                "relation": "father"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Johansson",
+                "relation": "mother"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Iris Wei-mer"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gösta Karlström",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil Karlström",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "examination",
+                "credentialSubject": "Studied in Lund",
+                "dateReceived": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dental candidate",
+                "credentialSubject": "Dental studies",
+                "dateReceived": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dentist",
+                "credentialSubject": "Dental studies",
+                "dateReceived": "1926"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Jönköping Dental Practice",
+            "startDate": "1926"
+        }
+    }
+}

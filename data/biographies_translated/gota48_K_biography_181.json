@@ -1,0 +1,93 @@
+{
+    "original": "Krook, John Fredrik, civilingenjör, Borås, f. 26/12/85 i Malmö av verkst:-chef Fredrik K. o. Johanna Eriksson. G. 18 m. Stina Lagerstedt. Barn: Carl-Gösta f. 20. ■— Stud:ex. i Malmö 06, civ:ing:ex. v. KTH 09. Stud :resa t. USA S’. statsstip. 16-17. Anst. v. Mell. o. N. Sv:es Ångpannefören. 10-16, v. statens kraftstation i Västerås 17-20, v. Sydsv. Kraft A-B i Malmö 20-23, konsult, ing. i Borås sed. 23. Hiss-besiktn :man. Led. av Sv. tekn :fören. sed. 08.",
+    "translated": "Krook, John Fredrik, civil engineer, Borås, b. 26/12/85 in Malmö to industrial manager Fredrik K. and Johanna Eriksson. Married 18 to Stina Lagerstedt. Children: Carl-Gösta b. 20. ■— High school graduation in Malmö 06, engineering degree from KTH in 09. Study trip to the USA on a government scholarship 16-17. Employed by Mell. and N. Swed. Steam Boiler Association 10-16, at the state power station in Västerås 17-20, at South Swed. Power A-B in Malmö 20-23, self-employed engineer in Borås since 23. Certified elevator inspector. Member of the Swedish Technical Association since 08.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"John Fredrik Krook\",\n   \"jobTitle\":\"Civil Engineer\",\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Borås\"\n   },\n   \"birthDate\":\"1885-12-26\",\n   \"birthPlace\":{\n      \"@type\":\"City\",\n      \"name\":\"Malmö\"\n   },\n   \"parents\":[\n      {\n         \"name\":\"Fredrik K.\",\n         \"jobTitle\":\"Industrial Manager\"\n      },\n      {\n         \"name\":\"Johanna Eriksson\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Stina Lagerstedt\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Carl-Gösta\",\n         \"birthDate\":\"1920\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"High school\",\n         \"educationalLevel\":\"SecondaryEducation\",\n         \"issuedBy\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Malmö\"\n         },\n         \"issueDate\":\"1906\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"credentialCategory\":\"Engineering degree\",\n         \"educationalLevel\":\"Bachelor's degree\",\n         \"issuedBy\":{\n            \"@type\":\"Organization\",\n            \"name\":\"KTH\"\n         },\n         \"issueDate\":\"1909\"\n      }\n   ],\n   \"memberOf\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Swedish Technical Association\",\n      \"startDate\":\"1908\"\n   },\n   \"employmentHistory\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Mell. and N. Swed. Steam Boiler Association\",\n         \"startDate\":\"1910\",\n         \"endDate\":\"1916\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"State Power Station in Västerås\",\n         \"startDate\":\"1917\",\n         \"endDate\":\"1920\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"South Swed. Power A-B in Malmö\",\n         \"startDate\":\"1920\",\n         \"endDate\":\"1923\"\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Self-employed engineer\",\n         \"startDate\":\"1923\"\n      }\n   ],\n   \"additionalTitle\":\"Certified elevator inspector\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Fredrik Krook",
+        "jobTitle": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Borås"
+        },
+        "birthDate": "1885-12-26",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Malmö"
+        },
+        "parents": [
+            {
+                "name": "Fredrik K.",
+                "jobTitle": "Industrial Manager"
+            },
+            {
+                "name": "Johanna Eriksson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Lagerstedt"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl-Gösta",
+                "birthDate": "1920"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school",
+                "educationalLevel": "SecondaryEducation",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "Malmö"
+                },
+                "issueDate": "1906"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Engineering degree",
+                "educationalLevel": "Bachelor's degree",
+                "issuedBy": {
+                    "@type": "Organization",
+                    "name": "KTH"
+                },
+                "issueDate": "1909"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Technical Association",
+            "startDate": "1908"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Mell. and N. Swed. Steam Boiler Association",
+                "startDate": "1910",
+                "endDate": "1916"
+            },
+            {
+                "@type": "Organization",
+                "name": "State Power Station in Västerås",
+                "startDate": "1917",
+                "endDate": "1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "South Swed. Power A-B in Malmö",
+                "startDate": "1920",
+                "endDate": "1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Self-employed engineer",
+                "startDate": "1923"
+            }
+        ],
+        "additionalTitle": "Certified elevator inspector"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "original": "Kling, Calla, tandläkare, Göteborg, f. 18/7/09 i Gbg av kont :chefen John Agvald o. Agda Andersson. G. 37 m. tandl. Östen Kling. Barn: Kristina f. 41, Marianne 42, Eva Helena 44. — Stud:ex. v. Gbgs h. samsk. 29, tysk tandl. 33, sv. dito 34. Prakt, i Sten-ungsund o. Gbg sed. 34.",
+    "translated": "Kling, Calla, dentist, Gothenburg, b. 18/7/09 in Gothenburg, daughter of the accountant John Agvald and Agda Andersson. Married in 1937 to dentist Östen Kling. Children: Kristina b. 1941, Marianne b. 1942, Eva Helena b. 1944. — Attended the student exam at Gothenburg high school in 1929, studied German dentistry in 1933, Swedish dentistry in 1934. Practiced in Stenungsund and Gothenburg since 1934.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Calla Kling\",\n  \"jobTitle\": \"Dentist\",\n  \"birthPlace\": \"Gothenburg\",\n  \"birthDate\": \"1909-07-18\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John Agvald\",\n      \"jobTitle\": \"Accountant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agda Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Östen Kling\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Kling\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Kling\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Helena Kling\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Student Exam\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Gothenburg High School\",\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"German Dentistry\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Swedish Dentistry\",\n      \"startDate\": \"1934\"\n    }\n  ],\n  \"workLocation\": [\n    \"Stenungsund\",\n    \"Gothenburg\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stenungsund\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg\"\n    }\n  ],\n  \"startDate\": \"1934\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Calla Kling",
+        "jobTitle": "Dentist",
+        "birthPlace": "Gothenburg",
+        "birthDate": "1909-07-18",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John Agvald",
+                "jobTitle": "Accountant"
+            },
+            {
+                "@type": "Person",
+                "name": "Agda Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Östen Kling",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kristina Kling",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Kling",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Helena Kling",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student Exam",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Gothenburg High School",
+                "startDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "German Dentistry",
+                "startDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Swedish Dentistry",
+                "startDate": "1934"
+            }
+        ],
+        "workLocation": [
+            "Stenungsund",
+            "Gothenburg"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Stenungsund"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg"
+            }
+        ],
+        "startDate": "1934"
+    }
+}

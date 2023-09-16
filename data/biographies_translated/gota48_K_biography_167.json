@@ -1,0 +1,109 @@
+{
+    "original": "Kreij, Sven-Arne, ingenjör, Skövde, f. 25/8/10 i Halmstad av disp. Hugo K. o. Signe Backlund. G. 37 m. Ingrid Jansson. Barn: Gerd f. 38, Sven-Hugo 39, Sven Erik 43, Ing-Britt 44. — Studiex. i Lund 30, maskinfacksk. i Eskilstuna 35. Anst. h. A-B Bolin-der-Munktell 3’5-39, motoring. v. 1.5 40-41, v. P.4 41-46, v. III. milibef istaben fr. 47. Medl. av Skövde tekn. fören, fr. 43, av Skövde motorkl. fr. 45. Hobby: filateli.",
+    "translated": "Kreij, Sven-Arne, engineer, Skövde, b. 25/8/10 in Halmstad to unmarried parents Hugo K. and Signe Backlund. Married in 1937 to Ingrid Jansson. Children: Gerd b. 1938, Sven-Hugo b. 1939, Sven Erik b. 1943, Ing-Britt b. 1944. — Obtained a degree from Lund in 1930, attended a technical school in Eskilstuna from 1935. Employed at A-B Bolin-der-Munktell from 1935 till 1939, worked in motoring from 1940 to 1941, served in military intelligence from 1941 to 1946 and from 1947. Member of Skövde technical association from 1943 and Skövde motoring club from 1945. Hobby: philately.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven-Arne Kreij\",\n  \"jobTitle\": \"Engineer\",\n  \"birthPlace\": \"Halmstad\",\n  \"birthDate\": \"1910-08-25\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hugo K.\",\n      \"jobTitle\": \"Disputed\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Backlund\",\n      \"jobTitle\": \"Disputed\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Jansson\",\n    \"birthDate\": \"Unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerd\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven-Hugo\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Erik\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ing-Britt\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Lund University\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Eskilstuna Technical School\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Bolin-der-Munktell\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Motoring Industry\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Military Intelligence\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Military Intelligence\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde Technical Association\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde Motoring Club\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.example.com/sven-arne-kreij\"\n  ],\n  \"hobby\": \"Philately\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven-Arne Kreij",
+        "jobTitle": "Engineer",
+        "birthPlace": "Halmstad",
+        "birthDate": "1910-08-25",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Hugo K.",
+                "jobTitle": "Disputed"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Backlund",
+                "jobTitle": "Disputed"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Jansson",
+            "birthDate": "Unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gerd",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven-Hugo",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven Erik",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Ing-Britt",
+                "birthDate": "1944"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Lund University"
+        },
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "startDate": "1930"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Eskilstuna Technical School",
+                "startDate": "1935"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A-B Bolin-der-Munktell",
+                "startDate": "1935",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Motoring Industry",
+                "startDate": "1940",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Military Intelligence",
+                "startDate": "1941",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Military Intelligence",
+                "startDate": "1947"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skövde Technical Association",
+                "startDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skövde Motoring Club",
+                "startDate": "1945"
+            }
+        ],
+        "sameAs": [
+            "https://www.example.com/sven-arne-kreij"
+        ],
+        "hobby": "Philately"
+    }
+}

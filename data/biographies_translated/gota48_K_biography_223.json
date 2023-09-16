@@ -1,0 +1,91 @@
+{
+    "original": "Kärnborg, Aina Maria, tandläkare, Göteborg, f. 13/4/04 i Kopparberg, Örebrq 1, av byråas sist. Karl Berg o. Maria Borg. G. 32 m, tandl. Jonas Kärnborg. Barn: Ingela f. 36, Agneta 38, Maria 44, Jonas 46. — Stud:ex. v. Upps. ensk. iärov. o. priv:gymn. 24, med. stud. v. Upps. univ. 24-25, tandl :-kand. 26, tandl. 29. Skoltandl. v. Gbgs folksk. tandpolikiin. -sed, 29.",
+    "translated": "Kärnborg, Aina Maria, dentist, Gothenburg, b. 13/4/04 in Kopparberg, Örebro county, first child of Karl Berg and Maria Borg. Married in 1932 to dentist Jonas Kärnborg. Children: Ingela, b. 1936, Agneta, b. 1938, Maria, b. 1944, Jonas, b. 1946. Completed the upper secondary school examination at Uppsala private secondary school and private gymnasium in 1924. Studied medicine at Uppsala University from 1924 to 1925, dental student from 1926, and became a dentist in 1929. Worked as a school dentist at Gothenburg's public school dental clinic from 1929 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Aina Maria Kärnborg\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1904-04-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Kopparberg\",\n      \"addressRegion\": \"Örebro county\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl Berg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Borg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jonas Kärnborg\",\n    \"jobTitle\": \"Dentist\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingela\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agneta\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jonas\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"educationalBackground\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"upperSecondarySchool\",\n      \"educationalLevel\": \"highSchool\",\n      \"alumniOf\": \"Uppsala private secondary school and private gymnasium\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"university\",\n      \"educationalLevel\": \"bachelor\",\n      \"alumniOf\": \"Uppsala University\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\",\n      \"studyProgram\": \"Medicine\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"university\",\n      \"educationalLevel\": \"bachelor\",\n      \"alumniOf\": \"Uppsala University\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1929\",\n      \"studyProgram\": \"Dentistry\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg's public school dental clinic\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aina Maria Kärnborg",
+        "jobTitle": "Dentist",
+        "birthDate": "1904-04-13",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kopparberg",
+                "addressRegion": "Örebro county"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Berg"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Borg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Jonas Kärnborg",
+            "jobTitle": "Dentist",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingela",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Jonas",
+                "birthDate": "1946"
+            }
+        ],
+        "educationalBackground": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "upperSecondarySchool",
+                "educationalLevel": "highSchool",
+                "alumniOf": "Uppsala private secondary school and private gymnasium",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "university",
+                "educationalLevel": "bachelor",
+                "alumniOf": "Uppsala University",
+                "startDate": "1924",
+                "endDate": "1925",
+                "studyProgram": "Medicine"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "university",
+                "educationalLevel": "bachelor",
+                "alumniOf": "Uppsala University",
+                "startDate": "1926",
+                "endDate": "1929",
+                "studyProgram": "Dentistry"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg's public school dental clinic"
+            }
+        ]
+    }
+}

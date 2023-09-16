@@ -1,0 +1,153 @@
+{
+    "original": "Lindegård, John David, kyrkoherde, Norrköping, f. 7/5/94 i Norrköp. G. 23 m. farm. kand. Ellen Johnsson. Barn: Sven f. 24, teol. kand., V. D. M., past :adj., Bengt 27, odont. kand., med. stud., e. o. aman., Lund, Jan 34, Kerstin 39. Handelsskola och kontorspraktik, stud :ex. i Lund 17, teol. kand. samt prästv. f. Linköp. stift 22. Tjg. som kyrkoadj. o. kommin. i S:t Olai församl. i Norrköp., kyrkoh. där sed. 43. Led. av barnav :ndn sed. 29, ordf. i kyrkostämman, ledare av flera kristl.-soc. inst.",
+    "translated": "Lindegård, John David, parish priest, Norrköping, b. 7/5/94 in Norrköping. Married on the 23rd of a month to Bachelor of Agriculture Ellen Johnsson. Children: Sven, b. 24, Bachelor of Theology, V.D.M., assistant pastor; Bengt, b. 27, Bachelor of Dentistry, medical student, acting assistant; Lund, Jan, b. 34; Kerstin, b. 39. Attended business school and did office internships, graduated from Lund in 1917, Bachelor of Theology, ordained as a priest in the Linköping diocese in 1922. Served as church assistant and curate in the Parish of St. Olai in Norrköping, became parish priest there in 1943. Member of the Child Welfare Society since 1929, chairman of the church assembly, leader of several Christian-social institutions.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John David Lindegård\",\n  \"birthDate\": \"1894-05-07\",\n  \"birthPlace\": \"Norrköping\",\n  \"description\": \"Parish priest in Norrköping\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Johnsson\",\n    \"birthDate\": \"UNKNOWN\",\n    \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"BachelorsDegree\",\n      \"alumniOf\": \"Unknown University\"\n    }\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1924\",\n      \"education\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"credentialCategory\": \"bachelor's degree\",\n        \"educationalLevel\": \"BachelorsDegree\",\n        \"alumniOf\": \"Unknown University\"\n      },\n      \"occupation\": [\n        {\n          \"@type\": \"Role\",\n          \"name\": \"V.D.M.\",\n          \"description\": \"Assistant Pastor\"\n        },\n        {\n          \"@type\": \"Role\",\n          \"name\": \"past :adj.\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1927\",\n      \"education\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"credentialCategory\": \"bachelor's degree\",\n        \"educationalLevel\": \"BachelorsDegree\",\n        \"alumniOf\": \"Unknown University\"\n      },\n      \"occupation\": [\n        {\n          \"@type\": \"Role\",\n          \"name\": \"medical student\",\n          \"description\": \"Acting Assistant\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"business school\",\n      \"educationalLevel\": \"UNKNOWN\",\n      \"alumniOf\": \"Unknown University\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"office internships\",\n      \"educationalLevel\": \"UNKNOWN\",\n      \"alumniOf\": \"Unknown University\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"BachelorsDegree\",\n      \"alumniOf\": \"Lund University\",\n      \"graduationDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"BachelorsDegree\",\n      \"alumniOf\": \"Unknown University\",\n      \"graduationDate\": \"UNKNOWN\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"ordination\",\n      \"educationalLevel\": \"UNKNOWN\",\n      \"alumniOf\": \"Linköping Diocese\",\n      \"graduationDate\": \"1922\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Church Assistant and Curate\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Parish of St. Olai\",\n        \"location\": \"Norrköping\"\n      },\n      \"startDate\": \"UNKNOWN\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Parish Priest\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Parish of St. Olai\",\n        \"location\": \"Norrköping\"\n      },\n      \"startDate\": \"1943\",\n      \"endDate\": \"PRESENT\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Child Welfare Society\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"PRESENT\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Chairman of Church Assembly\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Leader of Christian-social Institutions\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John David Lindegård",
+        "birthDate": "1894-05-07",
+        "birthPlace": "Norrköping",
+        "description": "Parish priest in Norrköping",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Johnsson",
+            "birthDate": "UNKNOWN",
+            "education": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "BachelorsDegree",
+                "alumniOf": "Unknown University"
+            }
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1924",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "bachelor's degree",
+                    "educationalLevel": "BachelorsDegree",
+                    "alumniOf": "Unknown University"
+                },
+                "occupation": [
+                    {
+                        "@type": "Role",
+                        "name": "V.D.M.",
+                        "description": "Assistant Pastor"
+                    },
+                    {
+                        "@type": "Role",
+                        "name": "past :adj."
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1927",
+                "education": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "bachelor's degree",
+                    "educationalLevel": "BachelorsDegree",
+                    "alumniOf": "Unknown University"
+                },
+                "occupation": [
+                    {
+                        "@type": "Role",
+                        "name": "medical student",
+                        "description": "Acting Assistant"
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Jan",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "business school",
+                "educationalLevel": "UNKNOWN",
+                "alumniOf": "Unknown University"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "office internships",
+                "educationalLevel": "UNKNOWN",
+                "alumniOf": "Unknown University"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "BachelorsDegree",
+                "alumniOf": "Lund University",
+                "graduationDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "BachelorsDegree",
+                "alumniOf": "Unknown University",
+                "graduationDate": "UNKNOWN"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "ordination",
+                "educationalLevel": "UNKNOWN",
+                "alumniOf": "Linköping Diocese",
+                "graduationDate": "1922"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "JobPosting",
+                "title": "Church Assistant and Curate",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Parish of St. Olai",
+                    "location": "Norrköping"
+                },
+                "startDate": "UNKNOWN",
+                "endDate": "1943"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Parish Priest",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Parish of St. Olai",
+                    "location": "Norrköping"
+                },
+                "startDate": "1943",
+                "endDate": "PRESENT"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Child Welfare Society",
+                "startDate": "1929",
+                "endDate": "PRESENT"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Role",
+                "name": "Chairman of Church Assembly"
+            },
+            {
+                "@type": "Role",
+                "name": "Leader of Christian-social Institutions"
+            }
+        ]
+    }
+}

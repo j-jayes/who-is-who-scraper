@@ -1,0 +1,138 @@
+{
+    "original": "Lahrin, Nils Hjalmar, kyrkoherde, Vilske-Kleva, f. 30/4/90 i Laske Ve-dum, Skarab. 1. G. 24 m. Franzine Carlsson. Barn: Ingegerd f. 26, Ingemar 32. — Stud:ex. 18, teol. fil. ex. 21, teol. kand. 23, prakt. teol. prov s. å. Res. t. Tyskl. o. Frankr. V. past. i Börstig 23-24, kommin. i S. Ving 24- 30, kyrkoh. i Vilske-Kleva fr. 29. Ordf. i Viiske-Kleva, Ullene o. Bjurums kyrkoråd o. kyrkoistämma fr. 31, led. av komm :ful’lm. 41-45, ordf. i Vilske-Kleva iskolstyr., i Ullene o. Bjurums skolråd o. pastoratets kyrkostämma fr. 31. led. av Vilske-Kleva o. Ullene bar-nav:nd samt Vilske-Kleva n^^kterh:-nd, ordf. i RK-krets. m. m.",
+    "translated": "Lahrin, Nils Hjalmar, priest, Vilske-Kleva, b. 30/4/90 in Laske Ve-dum, Skaraborg. 1st marriage: 24 years with Franzine Carlsson. Children: Ingegerd b. 26, Ingemar b. 32. — Education: graduated high school in 1918, bachelor's degree in theology in 1921, candidate in theology in 1923, practical theology exam same year. Resided in Germany and France. Assistant pastor in Börstig from 1923-1924, curate in S. Ving from 1924-1930, church rector in Vilske-Kleva from 1929. Chairman of Viiske-Kleva, Ullene, and Bjurums church council and church assembly from 1931, member of the municipal council from 1941-1945, chairman of Vilske-Kleva school board, Ullene and Bjurums school council, and the parish church assembly from 1931. Member of Vilske-Kleva and Ullene child welfare committees, as well as Vilske-Kleva unemployment committee, chairman of RK district, and more.",
+    "structured_raw": "{\n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Nils Hjalmar Lahrin\",\n   \"birthDate\": \"1890-04-30\",\n   \"birthPlace\": {\n      \"@type\": \"Place\",\n      \"address\": {\n         \"@type\": \"PostalAddress\",\n         \"addressLocality\": \"Laske Ve-dum\",\n         \"addressRegion\": \"Skaraborg\",\n         \"addressCountry\": \"Sweden\"\n      }\n   },\n   \"occupation\": \"Priest\",\n   \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Vilske-Kleva\",\n      \"memberOf\": [\n         {\n            \"@type\": \"Kyrkoråd\",\n            \"organizationName\": \"Viiske-Kleva\"\n         },\n         {\n            \"@type\": \"Kyrkoråd\",\n            \"organizationName\": \"Ullene\"\n         },\n         {\n            \"@type\": \"Kyrkoråd\",\n            \"organizationName\": \"Bjurums\"\n         }\n      ]\n   },\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Franzine Carlsson\",\n      \"marriageDate\": \"cc:24\"\n   },\n   \"children\": [\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ingegerd\",\n         \"birthDate\": \"1926\"\n      },\n      {\n         \"@type\": \"Person\",\n         \"name\": \"Ingemar\",\n         \"birthDate\": \"1932\"\n      }\n   ],\n   \"education\": [\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"High school diploma\",\n         \"credentialSubject\": {\n            \"@type\": \"EducationalOccupationalProgram\",\n            \"name\": \"Stud:ex.\"\n         },\n         \"credentialAwarded\": {\n            \"@type\": \"EducationalOccupationalAward\",\n            \"name\": \"Graduated high school\",\n            \"dateAwarded\": \"1918\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Bachelor's degree\",\n         \"credentialSubject\": {\n            \"@type\": \"EducationalOccupationalProgram\",\n            \"name\": \"Teol. fil. ex.\"\n         },\n         \"credentialAwarded\": {\n            \"@type\": \"EducationalOccupationalAward\",\n            \"name\": \"Bachelor's degree in theology\",\n            \"dateAwarded\": \"1921\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Candidate in theology\",\n         \"credentialSubject\": {\n            \"@type\": \"EducationalOccupationalProgram\",\n            \"name\": \"Teol. kand.\"\n         },\n         \"credentialAwarded\": {\n            \"@type\": \"EducationalOccupationalAward\",\n            \"name\": \"Candidate in theology\",\n            \"dateAwarded\": \"1923\"\n         }\n      },\n      {\n         \"@type\": \"EducationalOccupationalCredential\",\n         \"credentialCategory\": \"Practical theology exam\",\n         \"credentialSubject\": {\n            \"@type\": \"EducationalOccupationalProgram\",\n            \"name\": \"Prakt. teol. prov\"\n         },\n         \"credentialAwarded\": {\n            \"@type\": \"EducationalOccupationalAward\",\n            \"name\": \"Practical theology exam\",\n            \"dateAwarded\": \"1923\"\n         }\n      }\n   ],\n   \"residence\": [\n      {\n         \"@type\": \"Place\",\n         \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Germany\"\n         }\n      },\n      {\n         \"@type\": \"Place\",\n         \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"France\"\n         }\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"JobTitle\",\n         \"name\": \"Assistant pastor\",\n         \"startDate\": \"1923\",\n         \"endDate\": \"1924\",\n         \"atLocation\": \"Börstig\"\n      },\n      {\n         \"@type\": \"JobTitle\",\n         \"name\": \"Curate\",\n         \"startDate\": \"1924\",\n         \"endDate\": \"1930\",\n         \"atLocation\": \"S. Ving\"\n      },\n      {\n         \"@type\": \"JobTitle\",\n         \"name\": \"Church rector\",\n         \"startDate\": \"1929\",\n         \"atLocation\": \"Vilske-Kleva\"\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Vilske-Kleva kyrkoråd\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Viiske-Kleva\"\n         }\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Ullene kyrkoråd\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Bjurums kyrkoråd\"\n      }\n   ],\n   \"politicalAffiliation\": {\n      \"@type\": \"PoliticalAffiliation\",\n      \"memberOf\": {\n         \"@type\": \"Organization\",\n         \"name\": \"Municipal Council\"\n      },\n      \"startDate\": \"1941\",\n      \"endDate\": \"1945\"\n   },\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Vilske-Kleva school board\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Vilske-Kleva\"\n         }\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Ullene school council\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Bjurums school council\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Parish church assembly\",\n         \"memberOf\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Vilske-Kleva\"\n         }\n      }\n   ],\n   \"memberOf\": [\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Vilske-Kleva child welfare committee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Ullene child welfare committee\"\n      },\n      {\n         \"@type\": \"Organization\",\n         \"name\": \"Vilske-Kleva unemployment committee\"\n      }\n   ],\n   \"jobTitle\": [\n      {\n         \"@type\": \"JobTitle\",\n         \"name\": \"Chairman\",\n         \"atLocation\": \"RK district\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Hjalmar Lahrin",
+        "birthDate": "1890-04-30",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Laske Ve-dum",
+                "addressRegion": "Skaraborg",
+                "addressCountry": "Sweden"
+            }
+        },
+        "occupation": "Priest",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Vilske-Kleva child welfare committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ullene child welfare committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vilske-Kleva unemployment committee"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Franzine Carlsson",
+            "marriageDate": "cc:24"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingegerd",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingemar",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "credentialSubject": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Stud:ex."
+                },
+                "credentialAwarded": {
+                    "@type": "EducationalOccupationalAward",
+                    "name": "Graduated high school",
+                    "dateAwarded": "1918"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "credentialSubject": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Teol. fil. ex."
+                },
+                "credentialAwarded": {
+                    "@type": "EducationalOccupationalAward",
+                    "name": "Bachelor's degree in theology",
+                    "dateAwarded": "1921"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Candidate in theology",
+                "credentialSubject": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Teol. kand."
+                },
+                "credentialAwarded": {
+                    "@type": "EducationalOccupationalAward",
+                    "name": "Candidate in theology",
+                    "dateAwarded": "1923"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Practical theology exam",
+                "credentialSubject": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Prakt. teol. prov"
+                },
+                "credentialAwarded": {
+                    "@type": "EducationalOccupationalAward",
+                    "name": "Practical theology exam",
+                    "dateAwarded": "1923"
+                }
+            }
+        ],
+        "residence": [
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Germany"
+                }
+            },
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "France"
+                }
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "JobTitle",
+                "name": "Chairman",
+                "atLocation": "RK district"
+            }
+        ],
+        "politicalAffiliation": {
+            "@type": "PoliticalAffiliation",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Municipal Council"
+            },
+            "startDate": "1941",
+            "endDate": "1945"
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "original": "Klingspor, Carl-Philip Wilhelm, greve, hovstallmästare. Grönlund, Stråisnäs, f. 8/5/77 i Asbo, östergötl. 1., av hovmarsk., greve Philip K. o. Maria Sjögreen. G. 08 m. Anna Ze-thelius. Barn: Elisabeth f. 10, g. m. Carl Lagercrantz, Marianne 15, g. m. frih. Gabriel Falkenberg. — Stud :ex. i Linköp. 97. Und:löjtn. i Livreg. hus. 99, löjtn. 04, ryttmäst. 10, major på res:stat 24, avsk. 32. Andre adjut. v. IIL arméfördeln. s-tab 03-06, chef f. stud:skv. 19-20, tjg. i tyska armén 13, stallmäst. i K. M :ts hov 25, hovstald’-mäsit. 31. Led. av stadis’fuilil’m. i Slkövde 24-26, ordf. i komim :istäm!ma o. komm:-ful’lm. 31 resp. 35.",
+    "translated": "Klingspor, Carl-Philip Wilhelm, Count, Court Stable Master. Grönlund, Stråisnäs, born on May 8, 1877, in Asbo, Östergötland. Son of Count Philip K. and Maria Sjögreen. Married in 1908 to Anna Ze-thelius. Children: Elisabeth, born in 1910, married to Carl Lagercrantz, Marianne, born in 1915, married to Baron Gabriel Falkenberg. Studied at Linköping University and obtained a degree in 1897. Served as Second Lieutenant in the Life Regiment Hussars in 1899, Lieutenant in 1904, Captain in 1910, Major in the reserve from 1924 and retired in 1932. Also served as Second Adjutant to the III Army Distribution Staff from 1903 to 1906, head of the Study School from 1919 to 1920, served in the German army in 1913, Stall Master at His Majesty's Court in 1925, and Court Stable Master in 1931. Member of the City Council in Skövde from 1924 to 1926, chairman of the local committee and municipal board in 1931 and 1935 respectively.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Philip Wilhelm Klingspor\",\n  \"givenName\": \"Carl-Philip Wilhelm\",\n  \"familyName\": \"Klingspor\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1877-05-08\",\n  \"birthPlace\": \"Asbo, Östergötland\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Court Stable Master\",\n  \"education\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Linköping University\",\n    \"startDate\": \"1897\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Count Philip K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Sjögreen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Ze-thelius\",\n    \"marriageDate\": \"1908\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabeth\",\n      \"birthDate\": \"1910\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Carl Lagercrantz\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1915\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Baron Gabriel Falkenberg\"\n      }\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Second Lieutenant\",\n      \"startDate\": \"1899\",\n      \"endDate\": \"1904\",\n      \"employer\": \"Life Regiment Hussars\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Captain\",\n      \"startDate\": \"1910\",\n      \"employer\": \"Life Regiment Hussars\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Major\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1932\",\n      \"employer\": \"Reserve\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Second Adjutant\",\n      \"startDate\": \"1903\",\n      \"endDate\": \"1906\",\n      \"employer\": \"III Army Distribution Staff\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Head of Study School\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Stall Master\",\n      \"startDate\": \"1925\",\n      \"employer\": \"His Majesty's Court\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Court Stable Master\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council of Skövde\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Local Committee\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Board\",\n      \"startDate\": \"1935\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl-Philip Wilhelm Klingspor",
+        "givenName": "Carl-Philip Wilhelm",
+        "familyName": "Klingspor",
+        "gender": "Male",
+        "birthDate": "1877-05-08",
+        "birthPlace": "Asbo, Östergötland",
+        "nationality": "Swedish",
+        "occupation": "Court Stable Master",
+        "education": {
+            "@type": "CollegeOrUniversity",
+            "name": "Linköping University",
+            "startDate": "1897"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Count Philip K."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Sjögreen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Ze-thelius",
+            "marriageDate": "1908"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Elisabeth",
+                "birthDate": "1910",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Carl Lagercrantz"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne",
+                "birthDate": "1915",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Baron Gabriel Falkenberg"
+                }
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Second Lieutenant",
+                "startDate": "1899",
+                "endDate": "1904",
+                "employer": "Life Regiment Hussars"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Captain",
+                "startDate": "1910",
+                "employer": "Life Regiment Hussars"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Major",
+                "startDate": "1924",
+                "endDate": "1932",
+                "employer": "Reserve"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Second Adjutant",
+                "startDate": "1903",
+                "endDate": "1906",
+                "employer": "III Army Distribution Staff"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Head of Study School",
+                "startDate": "1919",
+                "endDate": "1920"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Stall Master",
+                "startDate": "1925",
+                "employer": "His Majesty's Court"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Court Stable Master",
+                "startDate": "1931"
+            }
+        ],
+        "memberships": [
+            {
+                "@type": "Organization",
+                "name": "City Council of Skövde",
+                "startDate": "1924",
+                "endDate": "1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Local Committee",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Board",
+                "startDate": "1935"
+            }
+        ]
+    }
+}

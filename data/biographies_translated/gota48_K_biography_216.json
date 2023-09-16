@@ -1,0 +1,133 @@
+{
+    "original": "KäMby, Skarab. 1. G. 35 m. Stina Lied-holim. Barn- Odilie f. 36, Åke 39. — Stud:ex. i Skara 12, teol. fil. ex. i Gbg 13, teol. kand. i Upps. 17, prakt. teol. prov o. prästv. i Skara s. å. V. pastor i Bällefors 17, v. stadskommin. i Vä-nersb. 18, las:- o. fäng :pred., kommin. i Halna 19, kyrkoh. i Götlunda fr. 26, kontr :prost i Södra Vads’bo kontr. fr. 39. Ordf. i skolråd, Götlunda o. Fli-stads kyrkostämma, led. av barnav:-nd i Götlunda o. Flistad, omb. f. läns-nykterh:ndn. LVO 45.",
+    "translated": "KäMby, Skaraborg. Born 1st of G. (month abbreviation missing), 35 (year). Married to Stina Lied-holim. Children - Odilie born in 36, Åke in 39. \n\nEducation: High school graduate in Skara in 12, theological philosophy graduate in Gothenburg in 13, theology candidate in Uppsala in 17, practical theology examination and ordained as a priest in Skara the same year. \n\nCareer: Assistant pastor in Bällefors in 17, deputy city dean in Vänersborg in 18, lecturer and prison chaplain, vicar in Halna in 19, parish priest in Götlunda from 26, and dean of the Södra Vads'bo district from 39. Chairman of the school council, Götlunda and Flistad church assembly, member of the children's welfare association in Götlunda and Flistad, delegate for the county temperance board. Awarded LVO (Order of Vasa) in 45.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"KäMby\",\n  \"familyName\": \"Skaraborg\",\n  \"birthDate\": \"1st of G. (month abbreviation missing), 35 (year)\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Lied-holim\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Odilie\",\n      \"birthDate\": \"36 (year)\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åke\",\n      \"birthDate\": \"39 (year)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High school\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skara\"\n      },\n      \"yearCompleted\": 12\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Theological Philosophy\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg\"\n      },\n      \"yearCompleted\": 13\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Theology Candidate\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala\"\n      },\n      \"yearCompleted\": 17\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Assistant Pastor\",\n      \"startDate\": \"17\",\n      \"endDate\": \"17\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bällefors\"\n      }\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Deputy City Dean\",\n      \"startDate\": \"18\",\n      \"endDate\": \"18\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Vänersborg\"\n      }\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Lecturer and Prison Chaplain, Vicar\",\n      \"startDate\": \"19\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halna\"\n      }\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Parish Priest\",\n      \"startDate\": \"26\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Götlunda\"\n      }\n    },\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Dean\",\n      \"startDate\": \"39\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Södra Vads'bo district\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Council, Götlunda\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Flistad Church Assembly\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Children's Welfare Association, Götlunda\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Children's Welfare Association, Flistad\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"County Temperance Board\"\n    }\n  ],\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"LVO\",\n    \"dateAwarded\": \"45\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "KäMby",
+        "familyName": "Skaraborg",
+        "birthDate": "1st of G. (month abbreviation missing), 35 (year)",
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Lied-holim"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Odilie",
+                "birthDate": "36 (year)"
+            },
+            {
+                "@type": "Person",
+                "name": "Åke",
+                "birthDate": "39 (year)"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High school",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skara"
+                },
+                "yearCompleted": 12
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Theological Philosophy",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg"
+                },
+                "yearCompleted": 13
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Theology Candidate",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala"
+                },
+                "yearCompleted": 17
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Clergy",
+                "name": "Assistant Pastor",
+                "startDate": "17",
+                "endDate": "17",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Bällefors"
+                }
+            },
+            {
+                "@type": "Clergy",
+                "name": "Deputy City Dean",
+                "startDate": "18",
+                "endDate": "18",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Vänersborg"
+                }
+            },
+            {
+                "@type": "Clergy",
+                "name": "Lecturer and Prison Chaplain, Vicar",
+                "startDate": "19",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Halna"
+                }
+            },
+            {
+                "@type": "Clergy",
+                "name": "Parish Priest",
+                "startDate": "26",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Götlunda"
+                }
+            },
+            {
+                "@type": "Clergy",
+                "name": "Dean",
+                "startDate": "39",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Södra Vads'bo district"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "School Council, Götlunda"
+            },
+            {
+                "@type": "Organization",
+                "name": "Flistad Church Assembly"
+            },
+            {
+                "@type": "Organization",
+                "name": "Children's Welfare Association, Götlunda"
+            },
+            {
+                "@type": "Organization",
+                "name": "Children's Welfare Association, Flistad"
+            },
+            {
+                "@type": "Organization",
+                "name": "County Temperance Board"
+            }
+        ],
+        "award": {
+            "@type": "Order",
+            "name": "LVO",
+            "dateAwarded": "45"
+        }
+    }
+}

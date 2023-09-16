@@ -1,0 +1,111 @@
+{
+    "original": "Kjellgren, Karl Eric Bernhard, överstelöjtnant, Kalmar, f. 25/2/96 i Skedevi, östergötl. 1., av bruksäg. Otto K. o. Olga Rydström. G. 28 m. Anne-Maj Andensison. — Stud:ex. 16, off:ex. 19, flygförar- o. flygspanarut-bildn. å Mailimsilätt 22. Major 40, öv :-löjtn. 43, plac. v. 1.4 19-22, flygkomp. å MatesLätt 22-26, F.4 26-32, F.3 32-39, F.6 39-43, F.12 sed. 43. RSO, Östergötl. skytteförb. SM.",
+    "translated": "Kjellgren, Karl Eric Bernhard, Lieutenant Colonel, Kalmar, b. 25/2/96 in Skedevi, Östergötland. Son of mining property owner Otto K. and Olga Rydström. Married in 1928 to Anne-Maj Andensison. Completed his secondary education in 1916, officer training in 1919, and pilot and aerial reconnaissance training at Mailimsilätt from 1922. Promoted to Major in 1940, Lieutenant Colonel in 1943. Stationed at various locations from 1919-1922, including an aviation company in Mateslätt from 1922-1926, F4 from 1926-1932, F3 from 1932-1939, F6 from 1939-1943, and F12 from 1943 onwards. Recipient of the Royal Order of the Seraphim (RSO) and Östergötland Shooting Association Championship.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Eric Bernhard Kjellgren\",\n  \"birthDate\": \"1896-02-25\",\n  \"birthPlace\": \"Skedevi, Östergötland\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Lieutenant Colonel\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Kalmar\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Otto Kjellgren\",\n      \"occupation\": \"Mining property owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olga Rydström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anne-Maj Andensison\",\n    \"marriageDate\": \"1928\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary\",\n      \"educationalLevel\": \"Completed\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"officer training\",\n      \"educationalLevel\": \"Completed\",\n      \"startDate\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"pilot and aerial reconnaissance training\",\n      \"educationalLevel\": \"Completed\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Major\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Lieutenant Colonel\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1922\",\n      \"roleName\": \"Aviation company\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1926\",\n      \"roleName\": \"Mateslätt aviation company\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1932\",\n      \"roleName\": \"F4\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1939\",\n      \"roleName\": \"F3\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1943\",\n      \"roleName\": \"F6\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1943\",\n      \"roleName\": \"F12\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the Seraphim\"\n    },\n    {\n      \"@type\": \"SportsEvent\",\n      \"name\": \"Östergötland Shooting Association Championship\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Eric Bernhard Kjellgren",
+        "birthDate": "1896-02-25",
+        "birthPlace": "Skedevi, Östergötland",
+        "nationality": "Swedish",
+        "occupation": "Lieutenant Colonel",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kalmar"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Otto Kjellgren",
+                "occupation": "Mining property owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Olga Rydström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anne-Maj Andensison",
+            "marriageDate": "1928"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary",
+                "educationalLevel": "Completed"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "officer training",
+                "educationalLevel": "Completed",
+                "startDate": "1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "pilot and aerial reconnaissance training",
+                "educationalLevel": "Completed",
+                "startDate": "1922",
+                "endDate": "1922"
+            }
+        ],
+        "work": [
+            {
+                "@type": "JobPosting",
+                "title": "Major",
+                "startDate": "1940"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Lieutenant Colonel",
+                "startDate": "1943"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1919",
+                "endDate": "1922",
+                "roleName": "Aviation company"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1922",
+                "endDate": "1926",
+                "roleName": "Mateslätt aviation company"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1926",
+                "endDate": "1932",
+                "roleName": "F4"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "endDate": "1939",
+                "roleName": "F3"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1939",
+                "endDate": "1943",
+                "roleName": "F6"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1943",
+                "roleName": "F12"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the Seraphim"
+            },
+            {
+                "@type": "SportsEvent",
+                "name": "Östergötland Shooting Association Championship"
+            }
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "original": "Leander, Johan Hilmer, kontraktsprost, Högsäter, f. 11/3/77 i Laxarby, Älvsb. 1. G. 33 m. lär. Sara Svensson. Barn: Halvard f. 37, Sven 38. — Mog:-ex. i Lund 03, teol. kand. 07, prästv. f. Karlstads stift 08. Kommin. i Erik-stad 08, kyrkoh. i Högsäter 39, kontr :-prost i V. Dals kontr. s. å. Hobby: stud. i teologi, hist., filosofi, skönlitt. LVO.",
+    "translated": "Leander, Johan Hilmer, contracted dean, Högsäter, b. 11/3/77 in Laxarby, Älvsb. 1st marriage in 1933 with teacher Sara Svensson. Children: Halvard b. 1937, Sven b. 1938. — Divorced: in Lund in 1903, bachelor of theology in 1907, ordained priest for the Diocese of Karlstad in 1908. Assistant minister in Eriksstad in 1908, parish priest in Högsäter in 1939, contracted dean in Västra Dalarna in the same year. Hobby: studying theology, history, philosophy, and fiction. LVO.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Hilmer Leander\",\n  \"birthDate\": \"1877-03-11\",\n  \"birthPlace\": \"Laxarby, Älvsb\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sara Svensson\",\n      \"marriageDate\": \"1933\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Halvard\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"divorceDate\": \"1903\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor\",\n      \"educationCredentialAwarded\": \"Theology Degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalProgram\": \"Theology\",\n      \"startDate\": \"1903\",\n      \"endDate\": \"1907\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant Minister\",\n      \"endDate\": \"1908\",\n      \"startDate\": \"1908\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Eriksstad\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Parish Priest\",\n      \"endDate\": \"1939\",\n      \"startDate\": \"1939\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Högsäter\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Contracted Dean\",\n      \"endDate\": \"current\",\n      \"startDate\": \"1939\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västra Dalarna\"\n      }\n    }\n  ],\n  \"hobbies\": [\n    \"Studying Theology\",\n    \"History\",\n    \"Philosophy\",\n    \"Fiction\"\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"LVO\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Hilmer Leander",
+        "birthDate": "1877-03-11",
+        "birthPlace": "Laxarby, Älvsb",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Sara Svensson",
+                "marriageDate": "1933"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Halvard",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven",
+                "birthDate": "1938"
+            }
+        ],
+        "divorceDate": "1903",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor",
+                "educationCredentialAwarded": "Theology Degree",
+                "educationalLevel": "Bachelor's degree",
+                "educationalProgram": "Theology",
+                "startDate": "1903",
+                "endDate": "1907"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant Minister",
+                "endDate": "1908",
+                "startDate": "1908",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Eriksstad"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Parish Priest",
+                "endDate": "1939",
+                "startDate": "1939",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Högsäter"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Contracted Dean",
+                "endDate": "current",
+                "startDate": "1939",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Västra Dalarna"
+                }
+            }
+        ],
+        "hobbies": [
+            "Studying Theology",
+            "History",
+            "Philosophy",
+            "Fiction"
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "LVO"
+            }
+        ]
+    }
+}

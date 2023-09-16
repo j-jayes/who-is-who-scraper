@@ -1,0 +1,152 @@
+{
+    "original": "Kinander, Erik Ragnar KnutSSon, lektor, Linköping, f. 29/11/93 i Linköp. av stat :insp. Knut K. o. Sofia Elisabeth Larsson. G. 35 m. Agnes Björklund. Barn: Lars f. 37. — Stud:ex. i Linköp. 12, fiil. ’kand. i Upps. 16, fil. lic. 22, fil. mag. 27, fil. dr 36, provår v. Upps. h. a. 1. 35-36. Res. t. Tyskl. 22-23 o. 24, Engl. 25. Tjg. v. Älvsb. 1. folkhögsk. i Herrljunga 18 o. 19, Upps. folksk :!siem. 24, Fjellistedtska sk. i Uppis. 27-29, Upps. ensk. lärov. o. priv:gymn. 32-38, lektor v. Visby h. a. 1. 37-46, lektor i modersm. v. Linköp. folksk:sem. ised. 46. Företog på upp-dr. av VA unid :sökin. av runinislkr. somr. 41 o. 44. Skr.: Kronob. läns runin-skr. (35). ^",
+    "translated": "Kinander, Erik Ragnar Knutsson, lecturer, Linköping, born on November 29, 1893 in Linköping. Son of inspector Knut K. and Sofia Elisabeth Larsson. Married in 1935 to Agnes Björklund. Children: Lars, born in 1937. Academic degrees: High school diploma in Linköping in 1912, candidate of philosophy in Uppsala in 1916, licentiate of philosophy in 1922, Master of Philosophy in 1927, Doctor of Philosophy in 1936, research year at Uppsala University in 1935-1936. Traveled to Germany in 1922-1923 and 1924, and to England in 1925. Worked at Älvsborg's 1st folk high school in Herrljunga in 1918 and 1919, Uppsala elementary school in 1924, Fjellstedt School in Uppsala from 1927-1929, Uppsala private secondary school and gymnasium from 1932-1938, lecturer at Visby h. a. 1. from 1937-1946, and lecturer in Swedish literature at Linköping Elementary School from 1946. Conducted research on the initiative of the Royal Swedish Academy of Letters, History and Antiquities on runology in the summers of 1941 and 1944. Published: \"Runic Inscriptions of Kronoberg County\" (1935). Note: The abbreviation 'm.' followed by the partner's name indicates the year of marriage in the 19xx format.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Ragnar Knutsson Kinander\",\n  \"birthDate\": \"1893-11-29\",\n  \"birthPlace\": \"Linköping\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Knut K. Kinander\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sofia Elisabeth Larsson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agnes Björklund\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lars\",\n    \"birthDate\": \"1937\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardDate\": \"1912\",\n      \"awardingInstitution\": \"Linköping\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Candidate of Philosophy\",\n      \"educationalLevel\": \"Bachelor\",\n      \"awardDate\": \"1916\",\n      \"awardingInstitution\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Licentiate of Philosophy\",\n      \"educationalLevel\": \"Master\",\n      \"awardDate\": \"1922\",\n      \"awardingInstitution\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Philosophy\",\n      \"educationalLevel\": \"Master\",\n      \"awardDate\": \"1927\",\n      \"awardingInstitution\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Doctor of Philosophy\",\n      \"educationalLevel\": \"Doctorate\",\n      \"awardDate\": \"1936\",\n      \"awardingInstitution\": \"Uppsala\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"FolkHighSchool\",\n      \"name\": \"Älvsborg's 1st folk high school\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\",\n      \"location\": \"Herrljunga\"\n    },\n    {\n      \"@type\": \"ElementarySchool\",\n      \"name\": \"Uppsala elementary school\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"unknown\",\n      \"location\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"School\",\n      \"name\": \"Fjellstedt School\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"location\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"School\",\n      \"name\": \"Uppsala private secondary school and gymnasium\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1938\",\n      \"location\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"School\",\n      \"name\": \"Visby h. a.\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1946\",\n      \"location\": \"Visby\"\n    },\n    {\n      \"@type\": \"ElementarySchool\",\n      \"name\": \"Linköping Elementary School\",\n      \"startDate\": \"1946\",\n      \"endDate\": \"unknown\",\n      \"location\": \"Linköping\"\n    }\n  ],\n  \"research\": [\n    {\n      \"@type\": \"ResearchProject\",\n      \"name\": \"Runology\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1941\",\n      \"description\": \"Research on runology\",\n      \"sponsor\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Royal Swedish Academy of Letters, History and Antiquities\",\n          \"subOrganization\": \"Unknown Department\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"ResearchProject\",\n      \"name\": \"Runology\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1944\",\n      \"description\": \"Research on runology\",\n      \"sponsor\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Royal Swedish Academy of Letters, History and Antiquities\",\n          \"subOrganization\": \"Unknown Department\"\n        }\n      ]\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Runic Inscriptions of Kronoberg County\",\n      \"publicationDate\": \"1935\",\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Unknown Publisher\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Ragnar Knutsson Kinander",
+        "birthDate": "1893-11-29",
+        "birthPlace": "Linköping",
+        "father": {
+            "@type": "Person",
+            "name": "Knut K. Kinander"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Sofia Elisabeth Larsson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Agnes Björklund",
+            "marriageDate": "1935"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Lars",
+            "birthDate": "1937"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1912",
+                "awardingInstitution": "Linköping"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Candidate of Philosophy",
+                "educationalLevel": "Bachelor",
+                "awardDate": "1916",
+                "awardingInstitution": "Uppsala"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Licentiate of Philosophy",
+                "educationalLevel": "Master",
+                "awardDate": "1922",
+                "awardingInstitution": "Uppsala"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Philosophy",
+                "educationalLevel": "Master",
+                "awardDate": "1927",
+                "awardingInstitution": "Uppsala"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Doctor of Philosophy",
+                "educationalLevel": "Doctorate",
+                "awardDate": "1936",
+                "awardingInstitution": "Uppsala"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "FolkHighSchool",
+                "name": "Älvsborg's 1st folk high school",
+                "startDate": "1918",
+                "endDate": "1919",
+                "location": "Herrljunga"
+            },
+            {
+                "@type": "ElementarySchool",
+                "name": "Uppsala elementary school",
+                "startDate": "1924",
+                "endDate": "unknown",
+                "location": "Uppsala"
+            },
+            {
+                "@type": "School",
+                "name": "Fjellstedt School",
+                "startDate": "1927",
+                "endDate": "1929",
+                "location": "Uppsala"
+            },
+            {
+                "@type": "School",
+                "name": "Uppsala private secondary school and gymnasium",
+                "startDate": "1932",
+                "endDate": "1938",
+                "location": "Uppsala"
+            },
+            {
+                "@type": "School",
+                "name": "Visby h. a.",
+                "startDate": "1937",
+                "endDate": "1946",
+                "location": "Visby"
+            },
+            {
+                "@type": "ElementarySchool",
+                "name": "Linköping Elementary School",
+                "startDate": "1946",
+                "endDate": "unknown",
+                "location": "Linköping"
+            }
+        ],
+        "research": [
+            {
+                "@type": "ResearchProject",
+                "name": "Runology",
+                "startDate": "1941",
+                "endDate": "1941",
+                "description": "Research on runology",
+                "sponsor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Royal Swedish Academy of Letters, History and Antiquities",
+                        "subOrganization": "Unknown Department"
+                    }
+                ]
+            },
+            {
+                "@type": "ResearchProject",
+                "name": "Runology",
+                "startDate": "1944",
+                "endDate": "1944",
+                "description": "Research on runology",
+                "sponsor": [
+                    {
+                        "@type": "Organization",
+                        "name": "Royal Swedish Academy of Letters, History and Antiquities",
+                        "subOrganization": "Unknown Department"
+                    }
+                ]
+            }
+        ],
+        "publication": [
+            {
+                "@type": "Article",
+                "name": "Runic Inscriptions of Kronoberg County",
+                "publicationDate": "1935",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Unknown Publisher"
+                }
+            }
+        ]
+    }
+}

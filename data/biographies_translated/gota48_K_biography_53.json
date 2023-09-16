@@ -1,0 +1,73 @@
+{
+    "original": "Kellner, Sven Gustav, ingenjör. Ankarsrum, f. 8/9/93 i Gränna av folk-S’k:lär. A. G. K. o. Albertina Levin. G. m. Alma Johansson. Barn: Siv f. 24, Berit o. Mona 38. — Utex. fr. Norrköp. tekn. eiem :sk. 11. Ritare v. Husqvarna Vapenfabr. A-B 11-14, verkst ring. där 14-31, verkst xhef h. A-B Westeråsmaskiner i Morgongåva 31-42, numera driftsing. v. A-B Ankarsrums Bruk.",
+    "translated": "Kellner, Sven Gustav, engineer. Born on September 8, 1893 in Gränna to a schoolteacher's family. Son of A. G. K. and Albertina Levin. Married to Alma Johansson in [year]. Children: Siv (born in 1924), Berit, and Mona (born in 1938). Graduated from Norrköping Technical School in 1911. Worked as a draftsman at Husqvarna Vapenfabrik AB from 1911 to 1914, then in various positions in the workshop until 1931. Became workshop manager at A-B Westeråsmaskiner in Morgongåva from 1931 to 1942, and currently holds the position of engineer at A-B Ankarsrums Bruk.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Gustav Kellner\",\n  \"birthDate\": \"1893-09-08\",\n  \"birthPlace\": \"Gränna\",\n  \"description\": \"Engineer\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert Gustav Kellner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albertina Levin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alma Johansson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Siv\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berit\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mona\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"diploma\",\n    \"educationalLevel\": \"Technical School\",\n    \"educationalProgram\": \"Norrköping Technical School\",\n    \"dateEarned\": \"1911\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Husqvarna Vapenfabrik AB\",\n      \"roleName\": \"Draftsman\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Westeråsmaskiner\",\n      \"roleName\": \"Workshop Manager\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Ankarsrums Bruk\",\n      \"roleName\": \"Engineer\",\n      \"startDate\": \"1942\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Gustav Kellner",
+        "birthDate": "1893-09-08",
+        "birthPlace": "Gränna",
+        "description": "Engineer",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Albert Gustav Kellner"
+            },
+            {
+                "@type": "Person",
+                "name": "Albertina Levin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Alma Johansson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Siv",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Berit",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Mona",
+                "birthDate": "1938"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "diploma",
+            "educationalLevel": "Technical School",
+            "educationalProgram": "Norrköping Technical School",
+            "dateEarned": "1911"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Husqvarna Vapenfabrik AB",
+                "roleName": "Draftsman",
+                "startDate": "1911",
+                "endDate": "1914"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Westeråsmaskiner",
+                "roleName": "Workshop Manager",
+                "startDate": "1931",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Ankarsrums Bruk",
+                "roleName": "Engineer",
+                "startDate": "1942"
+            }
+        ]
+    }
+}

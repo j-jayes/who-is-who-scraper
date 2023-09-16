@@ -1,0 +1,144 @@
+{
+    "original": "Lindberg, Johan Sam, läroverksadjunkt, Göteborg, f. 14/7/02 i Valbo, Gävleb. 1., av P. J. Lindberg o. Kristina Mathilda Ericsson. G. 32 m. Kerstin Rylander. Barn: Inger f. 33, Märta 36, Johan 40, Bo 46. — Stud:-ex. i Gävle 22, fil. mag. i Upps. 27. E. lär. i Hedemora 29, Karlskr. 30, Landskr. 32-34, ämneslär. i Malmö 34-36, adj. i modersm. o. tyska v. Vasa h. a. 1. i Gbg sed. 36.",
+    "translated": "Lindberg, Johan Sam, high school teacher, Gothenburg, b. 14/7/02 in Valbo, Gävleborg. 1st child of P. J. Lindberg and Kristina Mathilda Ericsson. Married in 1932 to Kerstin Rylander. Children: Inger b. 1933, Märta b. 1936, Johan b. 1940, Bo b. 1946. - Passed high school exams in Gävle in 1922, obtained a Bachelor of Arts degree in Uppsala in 1927. Started teaching in Hedemora in 1929, Karlskrona in 1930, Landskrona from 1932-1934. Taught subjects in Malmö from 1934-1936 and has been a teacher and adjunct in Swedish and German at Vasa high school in Gothenburg since 1936.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Sam Lindberg\",\n  \"birthDate\": \"1902-07-14\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Valbo\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Gävleborg\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"P. J. Lindberg\",\n      \"familyName\": \"Lindberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Mathilda Ericsson\",\n      \"familyName\": \"Ericsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kerstin Rylander\",\n    \"birthDate\": \"Unknown\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Lindberg\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Märta Lindberg\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Lindberg\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Lindberg\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationalLevel\": \"high school\",\n      \"educationalCredentialAwarded\": \"Passed high school exams\",\n      \"educationalInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gävle High School\"\n      },\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"academic degree\",\n      \"educationalLevel\": \"bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Bachelor of Arts\",\n      \"educationalInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"startDate\": \"1922\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\",\n      \"roleName\": \"Teacher\",\n      \"namedPosition\": \"Hedemora\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hedemora School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"roleName\": \"Teacher\",\n      \"namedPosition\": \"Karlskrona\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlskrona School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\",\n      \"roleName\": \"Teacher\",\n      \"namedPosition\": \"Landskrona\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Landskrona School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1936\",\n      \"roleName\": \"Subject Teacher\",\n      \"namedPosition\": \"Malmö\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Malmö School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"roleName\": \"Teacher and Adjunct\",\n      \"namedPosition\": \"Vasa High School, Gothenburg\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Vasa High School\"\n      },\n      \"teaches\": [\n        \"Swedish\",\n        \"German\"\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Johan Sam Lindberg",
+        "birthDate": "1902-07-14",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Valbo",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Gävleborg"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "P. J. Lindberg",
+                "familyName": "Lindberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Mathilda Ericsson",
+                "familyName": "Ericsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Rylander",
+            "birthDate": "Unknown"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Lindberg",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Märta Lindberg",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Johan Lindberg",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Lindberg",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "high school",
+                "educationalCredentialAwarded": "Passed high school exams",
+                "educationalInstitution": {
+                    "@type": "Organization",
+                    "name": "Gävle High School"
+                },
+                "startDate": "1922",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "academic degree",
+                "educationalLevel": "bachelor's degree",
+                "educationalCredentialAwarded": "Bachelor of Arts",
+                "educationalInstitution": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                },
+                "startDate": "1922",
+                "endDate": "1927"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": "1929",
+                "roleName": "Teacher",
+                "namedPosition": "Hedemora",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Hedemora School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1930",
+                "endDate": "1930",
+                "roleName": "Teacher",
+                "namedPosition": "Karlskrona",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Karlskrona School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "endDate": "1934",
+                "roleName": "Teacher",
+                "namedPosition": "Landskrona",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Landskrona School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1934",
+                "endDate": "1936",
+                "roleName": "Subject Teacher",
+                "namedPosition": "Malmö",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Malmö School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "roleName": "Teacher and Adjunct",
+                "namedPosition": "Vasa High School, Gothenburg",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Vasa High School"
+                },
+                "teaches": [
+                    "Swedish",
+                    "German"
+                ]
+            }
+        ]
+    }
+}

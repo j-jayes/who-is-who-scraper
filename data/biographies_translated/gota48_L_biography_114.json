@@ -1,0 +1,95 @@
+{
+    "original": "Larson, August Viking, avdelningschef, Göteborg, f. 25/2792 i Varberg av F. A. L. o. Sigrid Park. G. 20 m. Ester Gunnarson. Barn: Rolf Vikingson f. 21, c.iv:ing., Jarl Vikingson 24, med. stud. — Realex. 09, ex. v. Gbgs hand:inst. 11. Res. t. Finl., Norg;e, Danm., Tyskl. o. Polen. Anst. v. Vänersborgsbanken 11-17, tj :man v. dess huv:kont. 11-16 o. kassör v. avd:kont. i Ulricehamn 16-17, chef f. Rederi A-B Transatlantics rev:avd. sed. 17. Rev. i flera rederier o. ind:föret. Hobbies: sport o. fruktträdsodl. PatrGM, Gbgs bef :utb :förb. förtj :plak. i silver, idrottsl. utm:tecken.",
+    "translated": "Larson, August Viking, department manager, Gothenburg, b. 25/2/1879 in Varberg to F. A. L. and Sigrid Park. Married in 1920 to Ester Gunnarson. Children: Rolf Vikingson b. 1921, civil engineer; Jarl Vikingson b. 1924, medical student. Completed Realskola in 1909, graduated from Gothenburg Business Institute in 1911. Traveled to Finland, Norway, Denmark, Germany, and Poland. Employed at Vänersborg Bank from 1911-1917, serving as an assistant at the main office from 1911-1916 and as cashier at the branch office in Ulricehamn from 1916-1917. Chief of the Revenue Department of Rederi A-B Transatlantic since 1917. Worked as a consultant in several shipping companies and industrial enterprises. Hobbies: sports and fruit tree cultivation. Awarded with the Patriotic Society of the Gothenburg's Naval Group silver plaque, honored by the Gothenburg's Vocational Association, and received sports honors.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"August Viking Larson\",\n  \"birthDate\": \"1879-02-25\",\n  \"birthPlace\": \"Varberg, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"F. A. L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Park\"\n    }\n  ],\n  \"spouse\": \"Ester Gunnarson\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Vikingson\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jarl Vikingson\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"jobTitle\": \"Department Manager\",\n  \"worksFor\": \"Gothenburg\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Realex\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Business Institute\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"unknown\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vänersborg Bank\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1917\",\n      \"position\": \"Assistant (Main Office)\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ulricehamn Branch Office\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1917\",\n      \"position\": \"Cashier\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rederi A-B Transatlantic\",\n      \"startDate\": \"1917\",\n      \"position\": \"Chief of Revenue Department\"\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"sameAs\": [\n    \"https://www.example.com/person/1234\"\n  ],\n  \"hobbies\": [\n    \"Sports\",\n    \"Fruit tree cultivation\"\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"https://schema.org/CivicStructure\",\n      \"name\": \"Patriotic Society of the Gothenburg's Naval Group Silver Plaque\"\n    },\n    {\n      \"@type\": \"https://schema.org/CivicStructure\",\n      \"name\": \"Gothenburg's Vocational Association Honor\"\n    },\n    {\n      \"@type\": \"https://schema.org/CivicStructure\",\n      \"name\": \"Sports Honors\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "August Viking Larson",
+        "birthDate": "1879-02-25",
+        "birthPlace": "Varberg, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "F. A. L."
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Park"
+            }
+        ],
+        "spouse": "Ester Gunnarson",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Rolf Vikingson",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "name": "Jarl Vikingson",
+                "birthDate": "1924"
+            }
+        ],
+        "jobTitle": "Department Manager",
+        "worksFor": "Gothenburg",
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Realex",
+                "startDate": "1909",
+                "endDate": "unknown"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Business Institute",
+                "startDate": "1911",
+                "endDate": "unknown"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Vänersborg Bank",
+                "startDate": "1911",
+                "endDate": "1917",
+                "position": "Assistant (Main Office)"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ulricehamn Branch Office",
+                "startDate": "1916",
+                "endDate": "1917",
+                "position": "Cashier"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rederi A-B Transatlantic",
+                "startDate": "1917",
+                "position": "Chief of Revenue Department"
+            }
+        ],
+        "nationality": "Swedish",
+        "sameAs": [
+            "https://www.example.com/person/1234"
+        ],
+        "hobbies": [
+            "Sports",
+            "Fruit tree cultivation"
+        ],
+        "awards": [
+            {
+                "@type": "https://schema.org/CivicStructure",
+                "name": "Patriotic Society of the Gothenburg's Naval Group Silver Plaque"
+            },
+            {
+                "@type": "https://schema.org/CivicStructure",
+                "name": "Gothenburg's Vocational Association Honor"
+            },
+            {
+                "@type": "https://schema.org/CivicStructure",
+                "name": "Sports Honors"
+            }
+        ]
+    }
+}

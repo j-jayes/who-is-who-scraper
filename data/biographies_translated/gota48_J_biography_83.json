@@ -1,0 +1,67 @@
+{
+    "original": "Joachimson, Carl Erik Gustaf, major, Karlskrona, f. 31/5/89 i Sundsvall av dir. Oscar Bernhard T. o. Wendla Stadin. G. 28 m. Ebba Äbra-hamsson. Barn: Maud f. 32. — Stud:-ex. i Sundsvall 08, off:ex. 11, KSHS, SS. Und:löjtn. v. kustart. 11, löjtnant 16, kapten 24, major i marinen 40. RSO.",
+    "translated": "Joachimson, Carl Erik Gustaf, major, Karlskrona, born on May 31, 1889 in Sundsvall, son of director Oscar Bernhard T. and Wendla Stadin. Married on 28 in marriage with Ebba Äbra-hamsson. Children: Maud, born in 1932. Completed student examination in Sundsvall in 1908, officer examination in 1911, at KSHS, SS. Sub-lieutenant in the coastal artillery in 1911, lieutenant in 1916, captain in 1924, major in the navy in 1940. Awarded the Royal Order of the Sword.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Erik Gustaf Joachimson\",\n  \"jobTitle\": \"Major\",\n  \"birthPlace\": \"Sundsvall, Sweden\",\n  \"birthDate\": \"1889-05-31\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oscar Bernhard T.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wendla Stadin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ebba Äbra-hamsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maud\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": {\n    \"@type\": [\"EducationalOccupationalCredential\", \"HighSchool\"]\n  },\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Sundsvall\"\n  },\n  \"militaryService\": [\n    {\n      \"@type\": \"MilitaryPerson\",\n      \"branchOfService\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Coastal Artillery\"\n      },\n      \"rank\": \"Sub-lieutenant\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"MilitaryPerson\",\n      \"branchOfService\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Navy\"\n      },\n      \"rank\": \"Captain\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1940\",\n      \"awards\": \"Royal Order of the Sword\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Erik Gustaf Joachimson",
+        "jobTitle": "Major",
+        "birthPlace": "Sundsvall, Sweden",
+        "birthDate": "1889-05-31",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oscar Bernhard T."
+            },
+            {
+                "@type": "Person",
+                "name": "Wendla Stadin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ebba Äbra-hamsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maud",
+                "birthDate": "1932"
+            }
+        ],
+        "education": {
+            "@type": [
+                "EducationalOccupationalCredential",
+                "HighSchool"
+            ]
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Sundsvall"
+        },
+        "militaryService": [
+            {
+                "@type": "MilitaryPerson",
+                "branchOfService": {
+                    "@type": "Organization",
+                    "name": "Coastal Artillery"
+                },
+                "rank": "Sub-lieutenant",
+                "startDate": "1911",
+                "endDate": "1916"
+            },
+            {
+                "@type": "MilitaryPerson",
+                "branchOfService": {
+                    "@type": "Organization",
+                    "name": "Navy"
+                },
+                "rank": "Captain",
+                "startDate": "1924",
+                "endDate": "1940",
+                "awards": "Royal Order of the Sword"
+            }
+        ]
+    }
+}

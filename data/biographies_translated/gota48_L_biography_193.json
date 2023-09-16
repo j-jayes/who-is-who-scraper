@@ -1,0 +1,189 @@
+{
+    "original": "Lilja, Carl Gustaf, provinsialläkare, Hultsfred, f. 27/7/92 i Jönköp. av fabr. Johan Alfred L. o. Emma Kristina Johanson. G. 20 m. Karin Nilson. Barn: Per Gustaf f. 22, aman.. Lund, Kerstin 24, g. m. med. kand. B. Törn-berg, Lund, Margit 24, g. m. med. kand. E. Andersson, Lund. — Stud:-ex. i Jönköp. 11, med. kand. 18 o. med. lic. 23 i Sthlm. Fältläk :’Stip. m. kort. kommend. v. ol. reg. 19-24, tf. und:läk. v. Kalm. 1. tub:sjukh. 20, kommunalläk. i Vena (Hultsfred) 23- 27, därunder assist :läk. o. und :läk. v. Västerviks las. fyra mån. 25 o. 26, köpingsläk. i Hultsfred 27-36, e. prov:-läk. i Hultsfreds distr. 36, prov:- läk. där sed. 44, järnv:läk. v. Nässjö-Oskarshamns järnväg sed. 23, läkare vid landstingets sjukhem i Hultsfred sed. 30. Köpingsfullm., ordf. i hälsov:ndn o. byggn:ndn 27, ordf. i hyresnd sed. dess tillk.",
+    "translated": "Lilja, Carl Gustaf, provincial doctor, Hultsfred, b. 27/7/92 in Jönköping, to factory worker Johan Alfred L. and Emma Kristina Johanson. Married on 20/xx to Karin Nilson. Children: Per Gustaf b. 22, student in Lund; Kerstin b. 24, married to medical candidate B. Törnberg, Lund; Margit b. 24, married to medical candidate E. Andersson, Lund. Completed high school in Jönköping in 1911, obtained medical degree in 1918, and medical license in Stockholm in 1923. Field doctor scholarship with military command in 1919-1924, temporary assistant doctor at Kalmar County Hospital in 1920, municipal doctor in Vena (Hultsfred) in 1923-1927, including four months as assistant doctor and deputy doctor at Västervik Hospital in 1925 and 1926, municipal doctor in Hultsfred from 1927 to 1936, then provincial doctor in the Hultsfred district from 1936. Also served as railroad doctor for the Nässjö-Oskarshamn railway since 1923 and as a physician at the county nursing home in Hultsfred since 1930. Member of the municipal council, chairman of the health committee and building committee since 1927, chairman of the rental committee since its establishment.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Lilja\",\n  \"birthDate\": \"1892-07-27\",\n  \"birthPlace\": \"Jönköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Alfred Lilja\",\n      \"jobTitle\": \"Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Kristina Johanson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Nilson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Gustaf Lilja\",\n      \"birthDate\": \"1922\",\n      \"jobTitle\": \"Student\",\n      \"memberOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Lilja\",\n      \"birthDate\": \"1924\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"B. Törnberg\",\n        \"jobTitle\": \"Medical Candidate\"\n      },\n      \"memberOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Lilja\",\n      \"birthDate\": \"1924\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"E. Andersson\",\n        \"jobTitle\": \"Medical Candidate\"\n      },\n      \"memberOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical Degree\",\n      \"educationalLevel\": \"DoctoralDegree\",\n      \"validFor\": {\n        \"@type\": \"Audience\",\n        \"name\": \"Stockholm\"\n      },\n      \"startDate\": \"1918\",\n      \"endDate\": \"1923\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Field Doctor\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1924\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Military Command\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Assistant Doctor\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1920\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar County Hospital\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Municipal Doctor\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1927\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Vena (Hultsfred)\"\n      },\n      \"subOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västervik Hospital\"\n      },\n      \"subOrganizationRole\": [\n        {\n          \"@type\": \"MedicalOrganization\",\n          \"name\": \"Assistant Doctor\"\n        },\n        {\n          \"@type\": \"MedicalOrganization\",\n          \"name\": \"Deputy Doctor\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Municipal Doctor\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1936\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hultsfred\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Provincial Doctor\",\n      \"startDate\": \"1936\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hultsfred District\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Railroad Doctor\",\n      \"startDate\": \"1923\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nässjö-Oskarshamn Railway\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Physician\",\n      \"startDate\": \"1930\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Nursing Home, Hultsfred\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lund University\",\n      \"memberRole\": \"Student\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Health Committee\",\n      \"memberRole\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Committee\",\n      \"memberRole\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rental Committee\",\n      \"memberRole\": \"Chairman\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl Gustaf Lilja",
+        "birthDate": "1892-07-27",
+        "birthPlace": "Jönköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Alfred Lilja",
+                "jobTitle": "Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Kristina Johanson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Nilson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per Gustaf Lilja",
+                "birthDate": "1922",
+                "jobTitle": "Student",
+                "memberOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Lilja",
+                "birthDate": "1924",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "B. Törnberg",
+                    "jobTitle": "Medical Candidate"
+                },
+                "memberOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Margit Lilja",
+                "birthDate": "1924",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "E. Andersson",
+                    "jobTitle": "Medical Candidate"
+                },
+                "memberOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical Degree",
+                "educationalLevel": "DoctoralDegree",
+                "validFor": {
+                    "@type": "Audience",
+                    "name": "Stockholm"
+                },
+                "startDate": "1918",
+                "endDate": "1923"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Field Doctor",
+                "startDate": "1919",
+                "endDate": "1924",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Military Command"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Assistant Doctor",
+                "startDate": "1920",
+                "endDate": "1920",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Kalmar County Hospital"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Municipal Doctor",
+                "startDate": "1923",
+                "endDate": "1927",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Vena (Hultsfred)"
+                },
+                "subOrganization": {
+                    "@type": "Organization",
+                    "name": "Västervik Hospital"
+                },
+                "subOrganizationRole": [
+                    {
+                        "@type": "MedicalOrganization",
+                        "name": "Assistant Doctor"
+                    },
+                    {
+                        "@type": "MedicalOrganization",
+                        "name": "Deputy Doctor"
+                    }
+                ]
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Municipal Doctor",
+                "startDate": "1927",
+                "endDate": "1936",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Hultsfred"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Provincial Doctor",
+                "startDate": "1936",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Hultsfred District"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Railroad Doctor",
+                "startDate": "1923",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Nässjö-Oskarshamn Railway"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Physician",
+                "startDate": "1930",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "County Nursing Home, Hultsfred"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Lund University",
+                "memberRole": "Student"
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Health Committee",
+                "memberRole": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Building Committee",
+                "memberRole": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Rental Committee",
+                "memberRole": "Chairman"
+            }
+        ]
+    }
+}

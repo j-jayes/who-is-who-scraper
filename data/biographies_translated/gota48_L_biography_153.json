@@ -1,0 +1,74 @@
+{
+    "original": "Leman, Rolf Philip, advokat, Göteborg, f. 2/5/10 i Gbg av adv. Erik L. o. Karin Lamberg. G. 37 m. Ann-Margret Viklund. Barn: Gunnar f. 38, Torslen 40, Berit 42, Marianne 44. — Stud:ex, v. Lunds priv. elem:sk, 30, jur. kand. i Upps. 36. Tingstjg. v. Askims, Hisings o. Sävedals doms. 36, anst. å Dr. Philip Lemans Adv :byrå sed. 37. Led. av Sv:es advisamf. sed. 40.",
+    "translated": "Leman, Rolf Philip, lawyer, Gothenburg, b. 2/5/10 in Gothenburg to lawyer Erik L. and Karin Lamberg. Married since 1937 to Ann-Margret Viklund. Children: Gunnar b. 1938, Torslen b. 1940, Berit b. 1942, Marianne b. 1944. Completed secondary school at Lund's private elementary school in 1930, earned a law degree at Uppsala University in 1936. Judicial clerk at Askim's, Hisings, and Sävedal's district courts in 1936, employed at Dr. Philip Leman's Law Firm since 1937. Member of the Swedish Bar Association since 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rolf Philip Leman\",\n  \"jobTitle\": \"Advokat\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1910-05-02\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Leman\",\n      \"jobTitle\": \"Advokat\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Lamberg\"\n    }\n  ],\n  \"spouse\": \"Ann-Margret Viklund\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Leman\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torslen Leman\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berit Leman\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Leman\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund's private elementary school\",\n      \"identifier\": \"Lunds priv. elem:sk\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"identifier\": \"Upps.\",\n      \"endDate\": \"1936\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Dr. Philip Leman's Law Firm\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"startDate\": \"1940\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rolf Philip Leman",
+        "jobTitle": "Advokat",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1910-05-02",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik Leman",
+                "jobTitle": "Advokat"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Lamberg"
+            }
+        ],
+        "spouse": "Ann-Margret Viklund",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnar Leman",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Torslen Leman",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Berit Leman",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne Leman",
+                "birthDate": "1944"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund's private elementary school",
+                "identifier": "Lunds priv. elem:sk",
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "identifier": "Upps.",
+                "endDate": "1936"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Dr. Philip Leman's Law Firm"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "startDate": "1940"
+        }
+    }
+}

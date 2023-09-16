@@ -1,0 +1,34 @@
+{
+    "original": "Lindefelt, Einar Vilhelm Sixten, disponent, Linköping, f. 20/7/10 i Laholm. — Civ:ing:ex. 33. Anst. i Sockerbolaget sed. 33, disp. f. Linköp. Sockerbruk sed. 44.",
+    "translated": "Lindefelt, Einar Vilhelm Sixten, manager, Linköping, b. 20/7/10 in Laholm. — Civ.ing exam: 33. Employed at Sockerbolaget since 1933, manager at Linköping Sockerbruk since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Einar Vilhelm Sixten Lindefelt\",\n  \"jobTitle\": \"Manager\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\"\n  },\n  \"birthDate\": \"1910-07-20\",\n  \"birthPlace\": \"Laholm\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Civ.ing exam\",\n      \"educationalLevel\": \"Undergraduate\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"name\": \"Sockerbolaget\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"name\": \"Linköping Sockerbruk\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Einar Vilhelm Sixten Lindefelt",
+        "jobTitle": "Manager",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping"
+        },
+        "birthDate": "1910-07-20",
+        "birthPlace": "Laholm",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Civ.ing exam",
+                "educationalLevel": "Undergraduate"
+            }
+        ],
+        "worksFor": [
+            {
+                "name": "Sockerbolaget",
+                "startDate": "1933"
+            },
+            {
+                "name": "Linköping Sockerbruk",
+                "startDate": "1944"
+            }
+        ]
+    }
+}

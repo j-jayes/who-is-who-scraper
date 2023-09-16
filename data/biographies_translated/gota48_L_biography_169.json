@@ -1,0 +1,71 @@
+{
+    "original": "Lewenhaupt, Charles-Louis Sixten Nils, greve, kapten v. flottan, Karlskrona, f. 10/11/10 i Sthlm av kapt., greve C. Lewenhaupt o. Louise Ha-milton. G. 44 m. Biss Herzog. Barn: Thomas f. 44, Catharina o. Christina ff. 46. — Stud:ex. i Djursholm 29. Fänrik v. flottan 32, und :löjtn. 34, löjtn. 36, kapt. 41.",
+    "translated": "Lewenhaupt, Charles-Louis Sixten Nils, Count, Captain of the Navy, Karlskrona, born on November 10, 1910 in Stockholm, son of Captain, Count C. Lewenhaupt and Louise Hamilton. Married in 1944 to Biss Herzog. Children: Thomas born in 1944, Catharina and Christina born in 1946. Completed secondary education in Djursholm in 1929. Ensign of the Navy in 1932, Sub-Lieutenant in 1934, Lieutenant in 1936, Captain in 1941.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Charles-Louis Sixten Nils Lewenhaupt\",\n  \"birthDate\": \"1910-11-10\",\n  \"birthPlace\": \"Stockholm\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Biss Herzog\",\n    \"marriageDate\": \"1944\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. Lewenhaupt\",\n      \"gender\": \"male\",\n      \"jobTitle\": \"Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Louise Hamilton\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thomas\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Catharina\",\n      \"birthDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"jobTitle\": \"Captain of the Navy\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Karlskrona\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"Secondary education\",\n    \"provider\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Djursholm\"\n    },\n    \"endDate\": \"1929\"\n  },\n  \"affiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Navy\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Navy\"\n  },\n  \"worksStartDate\": \"1932\",\n  \"worksEndDate\": \"1941\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Charles-Louis Sixten Nils Lewenhaupt",
+        "birthDate": "1910-11-10",
+        "birthPlace": "Stockholm",
+        "spouse": {
+            "@type": "Person",
+            "name": "Biss Herzog",
+            "marriageDate": "1944"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C. Lewenhaupt",
+                "gender": "male",
+                "jobTitle": "Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Louise Hamilton",
+                "gender": "female"
+            }
+        ],
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Thomas",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Catharina",
+                "birthDate": "1946"
+            },
+            {
+                "@type": "Person",
+                "name": "Christina",
+                "birthDate": "1946"
+            }
+        ],
+        "jobTitle": "Captain of the Navy",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Karlskrona"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "Secondary education",
+            "provider": {
+                "@type": "Organization",
+                "name": "Djursholm"
+            },
+            "endDate": "1929"
+        },
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Swedish Navy"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish Navy"
+        },
+        "worksStartDate": "1932",
+        "worksEndDate": "1941"
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "original": "Krasse, Nils Jerker, förste underläkare, Ljungby, f. 14/2/14 i Malmö av disp. Nils K. o. Hilda’ Eriksson. G. 38 m. Harriette Hasselstad. Barn: Ulfhild f. 39, Görel 46. — Med. lic. 44. Tf. municipalläk. i Klippan, tf. förste stadsläk. i Kalmar o. tf. und :-läk. v. Blek. 1. san. i Fur 44, tf. tredje und:läk. v. kir. klin. i Malmö 45, und :l’äk. v. läns las. i Sveg 45-46, andre und:liäk. v. liänsikis. i Ljungby 46, förste und:liäk. där sed. 47.",
+    "translated": "Krasse, Nils Jerker, first assistant physician, Ljungby, born 14/2/14 in Malmö, to unmarried Nils K. and Hilda Eriksson. Married in 1938 to Harriette Hasselstad. Children: Ulfhild born in 1939, Görel in 1946. Received Medical License in 1944. Acting municipal physician in Klippan, acting chief city physician in Kalmar, and acting assistant physician at Blekinge's 1st sanatorium in Fur in 1944. Acting third assistant physician at the surgical clinic in Malmö in 1945. Assistant physician at the county hospital in Sveg from 1945 to 1946. Second assistant physician at the county hospital in Ljungby in 1946. First assistant physician there since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Jerker Krasse\",\n  \"birthDate\": \"1914-02-14\",\n  \"birthPlace\": \"Malmö\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Krasse\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Eriksson\"\n    }\n  ],\n  \"spouse\": \"Harriette Hasselstad\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulfhild Krasse\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Görel Krasse\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"medicalLicense\": {\n    \"@type\": \"MedicalLicense\",\n    \"issuedDate\": \"1944\"\n  },\n  \"positions\": [\n    {\n      \"@type\": \"MedicalRole\",\n      \"title\": \"Acting Municipal Physician\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Klippan\"\n      }\n    },\n    {\n      \"@type\": \"MedicalRole\",\n      \"title\": \"Acting Chief City Physician\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1946\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Kalmar\"\n      }\n    },\n    {\n      \"@type\": \"MedicalRole\",\n      \"title\": \"Acting Assistant Physician\",\n      \"specialty\": \"Surgery\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1944\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Fur\",\n        \"addressRegion\": \"Blekinge\"\n      },\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Blekinge's 1st Sanatorium\"\n      }\n    },\n    {\n      \"@type\": \"MedicalRole\",\n      \"title\": \"Acting Third Assistant Physician\",\n      \"specialty\": \"Surgery\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1945\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Malmö\"\n      }\n    },\n    {\n      \"@type\": \"MedicalRole\",\n      \"title\": \"Assistant Physician\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1946\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Sveg\"\n      },\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Hospital\"\n      }\n    },\n    {\n      \"@type\": \"MedicalRole\",\n      \"title\": \"Second Assistant Physician\",\n      \"startDate\": \"1946\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Ljungby\"\n      },\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Hospital\"\n      }\n    },\n    {\n      \"@type\": \"MedicalRole\",\n      \"title\": \"First Assistant Physician\",\n      \"startDate\": \"1947\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Ljungby\"\n      },\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Hospital\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nils Jerker Krasse",
+        "birthDate": "1914-02-14",
+        "birthPlace": "Malmö",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils Krasse"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Eriksson"
+            }
+        ],
+        "spouse": "Harriette Hasselstad",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulfhild Krasse",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Görel Krasse",
+                "birthDate": "1946"
+            }
+        ],
+        "medicalLicense": {
+            "@type": "MedicalLicense",
+            "issuedDate": "1944"
+        },
+        "positions": [
+            {
+                "@type": "MedicalRole",
+                "title": "Acting Municipal Physician",
+                "startDate": "1944",
+                "endDate": "1945",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Klippan"
+                }
+            },
+            {
+                "@type": "MedicalRole",
+                "title": "Acting Chief City Physician",
+                "startDate": "1945",
+                "endDate": "1946",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Kalmar"
+                }
+            },
+            {
+                "@type": "MedicalRole",
+                "title": "Acting Assistant Physician",
+                "specialty": "Surgery",
+                "startDate": "1944",
+                "endDate": "1944",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Fur",
+                    "addressRegion": "Blekinge"
+                },
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Blekinge's 1st Sanatorium"
+                }
+            },
+            {
+                "@type": "MedicalRole",
+                "title": "Acting Third Assistant Physician",
+                "specialty": "Surgery",
+                "startDate": "1945",
+                "endDate": "1945",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Malmö"
+                }
+            },
+            {
+                "@type": "MedicalRole",
+                "title": "Assistant Physician",
+                "startDate": "1945",
+                "endDate": "1946",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Sveg"
+                },
+                "employer": {
+                    "@type": "Organization",
+                    "name": "County Hospital"
+                }
+            },
+            {
+                "@type": "MedicalRole",
+                "title": "Second Assistant Physician",
+                "startDate": "1946",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Ljungby"
+                },
+                "employer": {
+                    "@type": "Organization",
+                    "name": "County Hospital"
+                }
+            },
+            {
+                "@type": "MedicalRole",
+                "title": "First Assistant Physician",
+                "startDate": "1947",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Ljungby"
+                },
+                "employer": {
+                    "@type": "Organization",
+                    "name": "County Hospital"
+                }
+            }
+        ]
+    }
+}

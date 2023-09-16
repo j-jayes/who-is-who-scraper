@@ -1,0 +1,80 @@
+{
+    "original": "Lagnell, Emil Gunnar, civilingenjör, Borås, f. 23/4/13 i Sthlm av kamr. Emil Bernhard L. o. Margareta Andersson. G. m. Birgit Hansson. Barn: Claes f. 42. — Stud:ex. i Saltsjöbaden 31, civ:ing:ex. v. KTH 35, Höh. Fach-schule f. Textilind. i Aachen 37-38. Anst. v. Sv. Yllekoncernen A-B i Borås 35, num. produktionstekn. chef samt dir :assist. där. Led. av Sv. tek-n:fören. sed. 35.",
+    "translated": "Lagnell, Emil Gunnar, civil engineer, Borås, b. 23/4/13 in Stockholm to comrade Emil Bernhard L. and Margareta Andersson. M. Birgit Hansson. Children: Claes b. 42. - Graduated from Saltsjöbaden High School in 1931, graduated as a civil engineer from the Royal Institute of Technology in 1935, attended Höhere Fachschule f. Textilindustrie in Aachen from 1937-1938. Employed by Swedish Wool Consortium A-B in Borås since 1935, currently serving as production technical manager and assistant director. Member of the Swedish Technical Association since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Emil Gunnar Lagnell\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Borås\"\n  },\n  \"birthDate\": \"1913-04-23\",\n  \"birthPlace\": \"Stockholm\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emil Bernhard Lagnell\",\n      \"jobTitle\": \"Comrade\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Birgit Hansson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardDate\": \"1931\",\n      \"awardingInstitution\": \"Saltsjöbaden High School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardDate\": \"1935\",\n      \"awardingInstitution\": \"Royal Institute of Technology\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Vocational Certificate\",\n      \"educationalLevel\": \"Professional\",\n      \"awardDate\": \"1938\",\n      \"awardingInstitution\": \"Höhere Fachschule f. Textilindustrie in Aachen\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Wool Consortium A-B\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Wool Consortium A-B\"\n  },\n  \"jobTitle\": \"Production Technical Manager and Assistant Director\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Emil Gunnar Lagnell",
+        "jobTitle": "Production Technical Manager and Assistant Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Borås"
+        },
+        "birthDate": "1913-04-23",
+        "birthPlace": "Stockholm",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Emil Bernhard Lagnell",
+                "jobTitle": "Comrade"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Birgit Hansson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Claes",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1931",
+                "awardingInstitution": "Saltsjöbaden High School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "educationalLevel": "Undergraduate",
+                "awardDate": "1935",
+                "awardingInstitution": "Royal Institute of Technology"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Vocational Certificate",
+                "educationalLevel": "Professional",
+                "awardDate": "1938",
+                "awardingInstitution": "Höhere Fachschule f. Textilindustrie in Aachen"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Wool Consortium A-B",
+                "startDate": "1935"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "startDate": "1935"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Swedish Wool Consortium A-B"
+        }
+    }
+}

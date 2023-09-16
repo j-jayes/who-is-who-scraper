@@ -1,0 +1,49 @@
+{
+    "original": "Karlberg, Erik, disponent, Vimmer-by, f. 20/12/85 i Vimmerby av garve-rifabr. C. E. K. o. Ida Sundin. G. 2ö m. Anna Persson. Barn: Birgit f. 26. — Div. utl:res. t. utställn. m. m. 07-18. Anst. v. Lindekulla Garveri, ombiki. t. fam :boiag Vimmerb}^ Lä-derfabr. A-B 18, disp. där.",
+    "translated": "Karlberg, Erik, manager, from Vimmerby, born on December 20, 1885, in Vimmerby, son of the tannery owner, C.E.K. and Ida Sundin. Married twice, first to Anna Persson. Children: Birgit, born in 1926. Had various trips abroad, including exhibitions, from 1907 to 1918. Employed at Lindekulla Tannery and later transferred to the family-owned Vimmerby Leather Factory, starting in 1918, where he became a manager.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Karlberg\",\n  \"birthDate\": \"1885-12-20\",\n  \"birthPlace\": \"Vimmerby\",\n  \"description\": \"Manager from Vimmerby, son of C.E.K. and Ida Sundin\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Persson\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1926\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lindekulla Garveri\",\n      \"startDate\": \"??\",\n      \"endDate\": \"1918\",\n      \"jobTitle\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vimmerby Leather Factory\",\n      \"startDate\": \"1918\",\n      \"jobTitle\": \"Manager\"\n    }\n  ],\n  \"travels\": [\n    {\n      \"@type\": \"Trip\",\n      \"startDate\": \"1907\",\n      \"endDate\": \"1918\",\n      \"description\": \"Various trips abroad, including exhibitions\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Erik Karlberg",
+        "birthDate": "1885-12-20",
+        "birthPlace": "Vimmerby",
+        "description": "Manager from Vimmerby, son of C.E.K. and Ida Sundin",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Anna Persson"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1926"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Lindekulla Garveri",
+                "startDate": "??",
+                "endDate": "1918",
+                "jobTitle": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vimmerby Leather Factory",
+                "startDate": "1918",
+                "jobTitle": "Manager"
+            }
+        ],
+        "travels": [
+            {
+                "@type": "Trip",
+                "startDate": "1907",
+                "endDate": "1918",
+                "description": "Various trips abroad, including exhibitions"
+            }
+        ]
+    }
+}

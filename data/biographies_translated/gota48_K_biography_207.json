@@ -1,0 +1,92 @@
+{
+    "original": "Kylen, Gert Ivar Emil, tandläkare, Falkenberg, f. 13/4/99 i Falköping av distr:vet. Erik K. o. Hanna Tho-mander. G. 25 m. gymn :dir. Rigmor Strige. Barn: Monika f. 26, Erik 28, Per 32. — Stud:ex. i Skara 18, tandl:-kand. 20, tandläk. 22. Egen praktik i Falkenberg sed. 22, förest, f. skoltand-poiliklin. där 22-30. Hobbies: jakt, schack, bridge.",
+    "translated": "Kylen, Gert Ivar Emil, dentist, Falkenberg, b. 13/4/99 in Falköping to district veterinarian Erik K. and Hanna Thomander. Married on 25th with gymnastics director Rigmor Strige. Children: Monika b. 26, Erik b. 28, Per b. 32. — High school diploma in Skara in 18, dental student in 20, dentist in 22. Own practice in Falkenberg since 22, supervisor of school dental clinic there from 22-30. Hobbies: hunting, chess, bridge.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gert Ivar Emil Kylen\",\n  \"birthDate\": \"1899-04-13\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Falköping\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik K.\",\n      \"jobTitle\": \"District Veterinarian\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Thomander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rigmor Strige\",\n    \"jobTitle\": \"Gymnastics Director\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Monika\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"workLocation\": {\n    \"@type\": \"City\",\n    \"name\": \"Falkenberg\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalRole\": \"Student\",\n      \"educationInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skara\"\n      },\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"teaches\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Dentistry\"\n      },\n      \"educationalLevel\": \"ProfessionalQualification\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Own practice\"\n  },\n  \"supervisor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"School Dental Clinic\",\n    \"startDate\": \"1922\",\n    \"endDate\": \"1930\"\n  },\n  \"sameAs\": [\n    \"Hunting\",\n    \"Chess\",\n    \"Bridge\"\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Gert Ivar Emil Kylen",
+        "birthDate": "1899-04-13",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Falköping"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik K.",
+                "jobTitle": "District Veterinarian"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Thomander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Rigmor Strige",
+            "jobTitle": "Gymnastics Director"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Monika",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Erik",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Per",
+                "birthDate": "1932"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "workLocation": {
+            "@type": "City",
+            "name": "Falkenberg"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "educationalRole": "Student",
+                "educationInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skara"
+                },
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "teaches": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Dentistry"
+                },
+                "educationalLevel": "ProfessionalQualification",
+                "educationalRole": "Student",
+                "startDate": "1920",
+                "endDate": "1922"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Own practice"
+        },
+        "supervisor": {
+            "@type": "Organization",
+            "name": "School Dental Clinic",
+            "startDate": "1922",
+            "endDate": "1930"
+        },
+        "sameAs": [
+            "Hunting",
+            "Chess",
+            "Bridge"
+        ]
+    }
+}

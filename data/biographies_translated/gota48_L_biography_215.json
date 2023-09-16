@@ -1,0 +1,80 @@
+{
+    "original": "Lindahl, Axel Bernhard Carl, bankdirektör, Kalmar, f. 29/10/87 i Kalmar. G. 14 m. Anna Lindh. Adoptivbarn: Inger f. 40. — Realex. 07, Schartaus handelsinst. 08. Anst. å affär skönt. 05-06, inträdde i Smål. Ensk. Banks (numera A-B Smål. Bank) tjänst i Kalmar 08, kassör där 21, kamrer 24 o. dir. sed. 46. Föret, ett flertal resor t. Tyskl. 21-28.",
+    "translated": "Lindahl, Axel Bernhard Carl, bank director, Kalmar, born on 29/10/87 in Kalmar. Married on the 14th of a month with Anna Lindh. Adopted child: Inger, born in 1940. Completed realexamen in 1907, attended Schartaus Trade Institute in 1908. Employed in a business in Skönta from 1905-1906, then joined the service of Smålands Enskilda Bank (now AB Smålands Bank) in Kalmar in 1908. Became cashier there in 1921, treasurer in 1924, and director from 1946 onwards. Undertook several trips to Germany between 1921-1928.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Bernhard Carl Lindahl\",\n  \"birthDate\": \"1887-10-29\",\n  \"birthPlace\": \"Kalmar\",\n  \"jobTitle\": \"Bank Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Kalmar\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Lindh\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"realexamen\",\n      \"datedIssued\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Schartaus Trade Institute\",\n      \"datedIssued\": \"1908\"\n    }\n  ],\n  \"employmentHistory\": {\n    \"@type\": \"OrganizationRole\",\n    \"startDate\": \"1905\",\n    \"endDate\": \"1906\",\n    \"roleName\": \"Business Employee\",\n    \"organization\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Skönta\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"AB Smålands Bank\"\n  },\n  \"jobStartDate\": \"1908\",\n  \"roles\": [\n    {\n      \"@type\": \"Role\",\n      \"roleName\": \"Cashier\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"roleName\": \"Treasurer\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"roleName\": \"Director\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"travels\": {\n    \"@type\": \"Trip\",\n    \"departureDate\": \"1921\",\n    \"arrivalDate\": \"1928\",\n    \"mainEntityOfPage\": \"https://example.com/trips/germany\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Bernhard Carl Lindahl",
+        "birthDate": "1887-10-29",
+        "birthPlace": "Kalmar",
+        "jobTitle": "Bank Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kalmar"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Lindh"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "realexamen",
+                "datedIssued": "1907"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Schartaus Trade Institute",
+                "datedIssued": "1908"
+            }
+        ],
+        "employmentHistory": {
+            "@type": "OrganizationRole",
+            "startDate": "1905",
+            "endDate": "1906",
+            "roleName": "Business Employee",
+            "organization": {
+                "@type": "Organization",
+                "name": "Skönta"
+            }
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "AB Smålands Bank"
+        },
+        "jobStartDate": "1908",
+        "roles": [
+            {
+                "@type": "Role",
+                "roleName": "Cashier",
+                "startDate": "1921",
+                "endDate": "1924"
+            },
+            {
+                "@type": "Role",
+                "roleName": "Treasurer",
+                "startDate": "1924",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Role",
+                "roleName": "Director",
+                "startDate": "1946"
+            }
+        ],
+        "travels": {
+            "@type": "Trip",
+            "departureDate": "1921",
+            "arrivalDate": "1928",
+            "mainEntityOfPage": "https://example.com/trips/germany"
+        }
+    }
+}

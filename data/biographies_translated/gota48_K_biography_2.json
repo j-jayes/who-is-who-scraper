@@ -1,0 +1,127 @@
+{
+    "original": "Kahlström, Karl Andreas, ämneslärare, Klintehamn, f. 23/2/99 i Östersund av Per Alfred K. o. Elisabet Hallman. G. 41 m. operationssköt :an Ebba Lindbom. — Stud:ex. i Visby 17, folkskollär :ex. i Växjö 21. Lab :bitr. h. stadskemisten i Malmö 18, dito v. flottans varvs i Karlskrona ’lab. 19-20, e. o. folkskollär. i Nyköp. 21-22, e. o. ämneslär. v. Klintehamns h. folksk. 22-24, ord. ämneslär. där sed. 25. Förest. f. Klintehamns föreläsn ifören. ■sed. 26, ordf. i Gotl. folkbildn :förb. sed. 35, i Gotl. distr :loge av Godtemp-larorden sed. 37, i Klinte barnav:nd sed. 41, v. ordf. i Klinte fattigv :styr. ■sed. 46. Resor t. Engl. 24 o. 31, Mexiko 36.",
+    "translated": "Kahlström, Karl Andreas, subject teacher, Klintehamn, b. 23/2/99 in Östersund to Per Alfred K. and Elisabet Hallman. Married in 1941 to operating nurse Ebba Lindbom. \nEducation: Graduated from Visby  gymnasium in 1917, passed the elementary school teacher exam in Växjö in 1921. \nWork experience: Laboratory assistant for the city chemist in Malmö in 1918, the same in the naval dockyards in Karlskrona's laboratory in 1919-1920, acting elementary school teacher in Nyköping in 1921-1922, acting subject teacher at Klintehamn's primary school in 1922-1924, and regular subject teacher there since 1925. \nEngagements: Chairman of Klintehamn's lecture association since 1926, chairman of Gotland's people's education association since 1935, chairman of Gotland's district lodge of the Good Templars since 1937, member of Klinte child welfare committee since 1941, and vice chairman of Klinte poor relief board since 1946. \nTravels: Visited England in 1924 and 1931, and Mexico in 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Karl Andreas\",\n  \"familyName\": \"Kahlström\",\n  \"birthDate\": \"1899-02-23\",\n  \"birthPlace\": \"Östersund, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Per Alfred\",\n      \"familyName\": \"Kahlström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Elisabet\",\n      \"familyName\": \"Hallman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Ebba\",\n    \"familyName\": \"Lindbom\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"highSchool\",\n      \"educationalLevel\": \"graduated\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Visby Gymnasium\",\n      \"awardDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"elementarySchoolTeacher\",\n      \"educationalLevel\": \"passed\",\n      \"educationalCredentialAwarded\": \"folkskollär :ex.\",\n      \"educationalInstitution\": \"Växjö\",\n      \"awardDate\": \"1921\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"LaboratoryAssistant\",\n      \"employer\": \"City Chemist in Malmö\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"LaboratoryAssistant\",\n      \"employer\": \"Naval Dockyards in Karlskrona\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"ElementarySchoolTeacher\",\n      \"employer\": \"Nyköping\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"SubjectTeacher\",\n      \"employer\": \"Klintehamn's Primary School\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"SubjectTeacher\",\n      \"employer\": \"Klintehamn's Primary School\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Klintehamn's Lecture Association\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland's People's Education Association\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland's District Lodge of the Good Templars\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Klinte Child Welfare Committee\",\n      \"roleName\": \"Member\",\n      \"startDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Klinte Poor Relief Board\",\n      \"roleName\": \"Vice Chairman\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"travel\": [\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"England\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"England\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Mexico\",\n      \"startDate\": \"1936\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Karl Andreas",
+        "familyName": "Kahlström",
+        "birthDate": "1899-02-23",
+        "birthPlace": "Östersund, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Per Alfred",
+                "familyName": "Kahlström"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Elisabet",
+                "familyName": "Hallman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Ebba",
+            "familyName": "Lindbom"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "highSchool",
+                "educationalLevel": "graduated",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": "Visby Gymnasium",
+                "awardDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "elementarySchoolTeacher",
+                "educationalLevel": "passed",
+                "educationalCredentialAwarded": "folkskollär :ex.",
+                "educationalInstitution": "Växjö",
+                "awardDate": "1921"
+            }
+        ],
+        "work": [
+            {
+                "@type": "LaboratoryAssistant",
+                "employer": "City Chemist in Malmö",
+                "startDate": "1918"
+            },
+            {
+                "@type": "LaboratoryAssistant",
+                "employer": "Naval Dockyards in Karlskrona",
+                "startDate": "1919",
+                "endDate": "1920"
+            },
+            {
+                "@type": "ElementarySchoolTeacher",
+                "employer": "Nyköping",
+                "startDate": "1921",
+                "endDate": "1922"
+            },
+            {
+                "@type": "SubjectTeacher",
+                "employer": "Klintehamn's Primary School",
+                "startDate": "1922",
+                "endDate": "1924"
+            },
+            {
+                "@type": "SubjectTeacher",
+                "employer": "Klintehamn's Primary School",
+                "startDate": "1925"
+            }
+        ],
+        "memberships": [
+            {
+                "@type": "Organization",
+                "name": "Klintehamn's Lecture Association",
+                "roleName": "Chairman",
+                "startDate": "1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland's People's Education Association",
+                "roleName": "Chairman",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland's District Lodge of the Good Templars",
+                "roleName": "Chairman",
+                "startDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Klinte Child Welfare Committee",
+                "roleName": "Member",
+                "startDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Klinte Poor Relief Board",
+                "roleName": "Vice Chairman",
+                "startDate": "1946"
+            }
+        ],
+        "travel": [
+            {
+                "@type": "Trip",
+                "name": "England",
+                "startDate": "1924"
+            },
+            {
+                "@type": "Trip",
+                "name": "England",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Trip",
+                "name": "Mexico",
+                "startDate": "1936"
+            }
+        ]
+    }
+}

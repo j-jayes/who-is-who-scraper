@@ -1,0 +1,72 @@
+{
+    "original": "Kugelberg, Hans Gustav Vilhelm, civiljägmästare, Norrikiöping, f. 21/9/11 i Ljusnarsberg, Örebro 1., av disp. Wilhelm K. o. Hann-Marie Berndes. G. 44 m. Margareta von Mühlenfels. Barn: Oliaes f. 45, Marianne 47. ■— Stiid;:ex. i Noirrköp. 31, utex. fr. stkoigs-höigsk. 35. Anst. v. Hoteens Brüks- &amp; Fabriks A-B sed. 3i8, skogsförval t. där s’ed. 43.",
+    "translated": "Kugelberg, Hans Gustav Vilhelm, forest officer, Norrköping, born on September 21, 1911 in Ljusnarsberg, Örebro County, son of Wilhelm K. and Hann-Marie Berndes. Married in 1944 to Margareta von Mühlenfels. Children: Oliaes born in 1945, Marianne born in 1947. ■— Completed high school in Norrköping in 1931, graduated from the Royal College of Forestry in 1935. Employed at Hoteens Brüks- &amp; Fabriks A-B from 1938, forest management position since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hans Gustav Vilhelm Kugelberg\",\n  \"jobTitle\": \"Civiljägmästare\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrikiöping\"\n  },\n  \"birthDate\": \"1911-09-21\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Ljusnarsberg, Örebro 1\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilhelm Kugelberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hann-Marie Berndes\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta von Mühlenfels\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oliaes\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Stiid;:ex.\",\n      \"educationalInstitution\": \"Norrköping\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Certificate\",\n      \"educationalLevel\": \"College\",\n      \"educationalCredentialAwarded\": \"Royal College of Forestry\",\n      \"educationalInstitution\": \"Stockholm\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Hoteens Brüks- & Fabriks A-B\",\n    \"startDate\": \"1938\",\n    \"position\": \"Forest management\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hans Gustav Vilhelm Kugelberg",
+        "jobTitle": "Civiljägmästare",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrikiöping"
+        },
+        "birthDate": "1911-09-21",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Ljusnarsberg, Örebro 1"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Wilhelm Kugelberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Hann-Marie Berndes"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta von Mühlenfels"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Oliaes",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Stiid;:ex.",
+                "educationalInstitution": "Norrköping",
+                "startDate": "1931",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Certificate",
+                "educationalLevel": "College",
+                "educationalCredentialAwarded": "Royal College of Forestry",
+                "educationalInstitution": "Stockholm",
+                "startDate": "1935",
+                "endDate": "1935"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Hoteens Brüks- & Fabriks A-B",
+            "startDate": "1938",
+            "position": "Forest management"
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "original": "Lindberg, Karl Arthur, postmästare, Mellerud, f. 5/2/90 i Skellefteå av grossh. Karl Johan L. o. Victoria Rid-derstråhle. G. m. Hulda Nickksson. Barn: Gösta f. 10, Anna-Stina o. Anna-Greta ff. 18. — Realex. i Umeå 07. Res:postexp. i norra distr. 11, e. postexp. s. å., v. järnv:posten i norra distr. 15, postexp. där 16, i Jörn s. å., postas^sist. där 25, förste po’stassist. i Kiruna 35, postmäst. i Mellerud fr. 41. GMnr.",
+    "translated": "Lindberg, Karl Arthur, postmaster, Mellerud, b. 5/2/90 in Skellefteå to grocer Karl Johan L. and Victoria Ridderstråhle. Married to Hulda Nickksson. Children: Gösta b. 10, Anna-Stina and Anna-Greta b. 18. Completed secondary school in Umeå in 1907. Started working as a postal examiner in the northern district in 1911, became a postal examiner in the same year, worked with the railway mail in the northern district in 1915, became a postal examiner there in 1916, moved to Jörn in the same year, served as a postal supervisor there in 1925, promoted to first postal assistant in Kiruna in 1935, appointed postmaster in Mellerud from 1941.",
+    "structured_raw": "{ \n   \"@context\": \"https://schema.org\",\n   \"@type\": \"Person\",\n   \"name\": \"Karl Arthur Lindberg\",\n   \"birthDate\": \"1890-02-05\",\n   \"birthPlace\": \"Skellefteå, Sweden\",\n   \"parents\": [\n      { \n         \"@type\": \"Person\",\n         \"name\": \"Karl Johan Lindberg\",\n         \"occupation\": \"Grocer\"\n      },\n      { \n         \"@type\": \"Person\",\n         \"name\": \"Victoria Ridderstråhle\"\n      }\n   ],\n   \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Hulda Nickksson\"\n   },\n   \"children\": [\n      { \n         \"@type\": \"Person\",\n         \"name\": \"Gösta\",\n         \"birthDate\": \"1910-01-01\"\n      },\n      { \n         \"@type\": \"Person\",\n         \"name\": \"Anna-Stina\",\n         \"birthDate\": \"1918-01-01\"\n      },\n      { \n         \"@type\": \"Person\",\n         \"name\": \"Anna-Greta\",\n         \"birthDate\": \"1918-01-01\"\n      }\n   ],\n   \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondarySchool\",\n      \"educationalLevel\": \"Realex\",\n      \"educationalCredentialAwarded\": \"Umeå, 1907\"\n   },\n   \"employmentHistory\": [\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1911\",\n         \"endDate\": \"1911\",\n         \"roleName\": \"Postal Examiner\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Northern District\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1915\",\n         \"endDate\": \"1916\",\n         \"roleName\": \"Railway Mail\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Northern District\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1916\",\n         \"endDate\": \"1925\",\n         \"roleName\": \"Postal Examiner\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Jörn\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1925\",\n         \"endDate\": null,\n         \"roleName\": \"Postal Supervisor\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Jörn\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1935\",\n         \"endDate\": null,\n         \"roleName\": \"First Postal Assistant\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Kiruna\"\n         }\n      },\n      {\n         \"@type\": \"OrganizationRole\",\n         \"startDate\": \"1941\",\n         \"endDate\": null,\n         \"roleName\": \"Postmaster\",\n         \"organization\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Mellerud\"\n         }\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Arthur Lindberg",
+        "birthDate": "1890-02-05",
+        "birthPlace": "Skellefteå, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl Johan Lindberg",
+                "occupation": "Grocer"
+            },
+            {
+                "@type": "Person",
+                "name": "Victoria Ridderstråhle"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hulda Nickksson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gösta",
+                "birthDate": "1910-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Stina",
+                "birthDate": "1918-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna-Greta",
+                "birthDate": "1918-01-01"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "secondarySchool",
+            "educationalLevel": "Realex",
+            "educationalCredentialAwarded": "Umeå, 1907"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1911",
+                "endDate": "1911",
+                "roleName": "Postal Examiner",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Northern District"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1915",
+                "endDate": "1916",
+                "roleName": "Railway Mail",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Northern District"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1916",
+                "endDate": "1925",
+                "roleName": "Postal Examiner",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Jörn"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1925",
+                "endDate": null,
+                "roleName": "Postal Supervisor",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Jörn"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "endDate": null,
+                "roleName": "First Postal Assistant",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Kiruna"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1941",
+                "endDate": null,
+                "roleName": "Postmaster",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Mellerud"
+                }
+            }
+        ]
+    }
+}

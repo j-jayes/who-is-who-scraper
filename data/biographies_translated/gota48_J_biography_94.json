@@ -1,0 +1,78 @@
+{
+    "original": "Johansson, Alfred Teodor, prost, Malmslätt, f. 19/8/80 i Mörlunda, Kalmar 1. G. 30 m. Ingrid Dahlmar. — M’Og:ex. i Linköp. 99, teol. fil. ex. 00, teor. teol. ex. samt prästv. f. Linköp. stift 02. Kommin. i Kärna 10, kyrkoh. där sed. 17, v. kontr :prost i domprosteriet 36. LVO.",
+    "translated": "Johansson, Alfred Teodor, priest, Malmslätt, b. 19/8/80 in Mörlunda, Kalmar. Married on 30th to Ingrid Dahlmar. Obtained Bachelor of Arts degree in Theology from Linköping University in 1899, followed by a Master of Theology degree in 1900. Ordained as a priest in the Linköping Diocese in 1902. Served as a curate in Kärna from 1910, then became the vicar in the same parish from 1917. Appointed as the deputy dean in the cathedral chapter in 1936. Awarded the Royal Order of Vasa (LVO) for his service.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Alfred Teodor Johansson\",\n  \"birthDate\": \"1880-08-19\",\n  \"birthPlace\": \"Mörlunda, Kalmar, Sweden\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Dahlmar\",\n    \"marriageDate\": \"1900-11-30\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Bachelor of Arts\",\n      \"educationalCredentialAwarded\": \"Theology\",\n      \"educationalInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Linköping University\",\n        \"location\": \"Linköping, Sweden\"\n      },\n      \"dateAwarded\": \"1899\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's degree\",\n      \"educationalLevel\": \"Master of Theology\",\n      \"educationalCredentialAwarded\": \"Theology\",\n      \"educationalInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Linköping University\",\n        \"location\": \"Linköping, Sweden\"\n      },\n      \"dateAwarded\": \"1900\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Priest\",\n      \"startDate\": \"1902-01-01\",\n      \"endDate\": \"1936-12-31\",\n      \"location\": \"Malmslätt, Sweden\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1910-01-01\",\n      \"endDate\": \"1917-12-31\",\n      \"location\": \"Kärna, Sweden\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1917-01-01\",\n      \"location\": \"Kärna, Sweden\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Deputy Dean\",\n      \"startDate\": \"1936-01-01\",\n      \"location\": \"Linköping, Sweden\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\",\n      \"awardDate\": \"Unknown\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alfred Teodor Johansson",
+        "birthDate": "1880-08-19",
+        "birthPlace": "Mörlunda, Kalmar, Sweden",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Dahlmar",
+            "marriageDate": "1900-11-30"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Bachelor of Arts",
+                "educationalCredentialAwarded": "Theology",
+                "educationalInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Linköping University",
+                    "location": "Linköping, Sweden"
+                },
+                "dateAwarded": "1899"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master's degree",
+                "educationalLevel": "Master of Theology",
+                "educationalCredentialAwarded": "Theology",
+                "educationalInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Linköping University",
+                    "location": "Linköping, Sweden"
+                },
+                "dateAwarded": "1900"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Priest",
+                "startDate": "1902-01-01",
+                "endDate": "1936-12-31",
+                "location": "Malmslätt, Sweden"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Curate",
+                "startDate": "1910-01-01",
+                "endDate": "1917-12-31",
+                "location": "Kärna, Sweden"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Vicar",
+                "startDate": "1917-01-01",
+                "location": "Kärna, Sweden"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Deputy Dean",
+                "startDate": "1936-01-01",
+                "location": "Linköping, Sweden"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa",
+                "awardDate": "Unknown"
+            }
+        ]
+    }
+}

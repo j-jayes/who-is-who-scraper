@@ -1,0 +1,110 @@
+{
+    "original": "Lewerth, Carl Gunnar, advokat, Göteborg, f. 8/6/92 i Vänersiborg av bergsing. Wilhelm L. o. Hilma Schly-ter. G. 17 m. Eva Ericson. Barn: Per-Olof f. 21, tingsnot., Borås, Karl-Johan 26, stud. — Stud:ex. v. norra real i Sthlm 10, fil. kand. i Sthlm 12, jur. kand. 17. Tingstjg. i Askims, Hi-sings o. Sävedals hds doms. 17, bitr. sekr. i statens krigsförsäkr :komm. s. å., dispaschörassist. i Gbg 18-19, anst. å W. Kristensens Adv:byrå i Gbg fr. 19, deläg. i densamma fr. 32. Led. av Sv:es adv:samf. sed. 21.",
+    "translated": "Lewerth, Carl Gunnar, attorney, Gothenburg, b. 8/6/92 in Vänersborg to mining operator Wilhelm L. and Hilma Schly-ter. Married on the 17th of an unspecified month with Eva Ericson. Children: Per-Olof b. 21, court clerk in Borås, Karl-Johan b. 26, student. Completed upper secondary school at Norra Real in Stockholm in 1910, obtained a Bachelor of Arts in Stockholm in 1912, and a Bachelor of Laws in 1917. Served as a court clerk in Askims, Hisings and Sävedal districts in 1917, assistant secretary at the State War Insurance Commission from the same year, dispatch assistant in Gothenburg from 1918-1919, employed at W. Kristensen's Law Firm in Gothenburg from 1919, and became a partner in the same firm from 1932. Has been a member of the Swedish Bar Association since 1921.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Carl Gunnar\",\n  \"familyName\": \"Lewerth\",\n  \"jobTitle\": \"Attorney\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1892-06-08\",\n  \"birthPlace\": \"Vänersborg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Wilhelm\",\n      \"familyName\": \"Lewerth\",\n      \"jobTitle\": \"Mining Operator\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Hilma\",\n      \"familyName\": \"Schly-ter\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Eva\",\n    \"familyName\": \"Ericson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Per-Olof\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Karl-Johan\",\n      \"birthDate\": \"1926\",\n      \"jobTitle\": \"Student\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"identifier\": \"Bachelor of Arts\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Bachelor of Arts\",\n      \"educationalInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm University\"\n      },\n      \"startDate\": \"1912\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"identifier\": \"Bachelor of Laws\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Bachelor of Laws\",\n      \"educationalInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm University\"\n      },\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"CourtClerk\",\n      \"name\": \"Askims, Hisings, and Sävedal District Courts\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"State War Insurance Commission\",\n      \"position\": \"Assistant Secretary\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Gothenburg Dispatch Office\",\n      \"position\": \"Dispatch Assistant\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"W. Kristensen's Law Firm\",\n      \"position\": \"Employee\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1921\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "givenName": "Carl Gunnar",
+        "familyName": "Lewerth",
+        "jobTitle": "Attorney",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1892-06-08",
+        "birthPlace": "Vänersborg",
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Wilhelm",
+                "familyName": "Lewerth",
+                "jobTitle": "Mining Operator"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Hilma",
+                "familyName": "Schly-ter"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Eva",
+            "familyName": "Ericson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Per-Olof",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Karl-Johan",
+                "birthDate": "1926",
+                "jobTitle": "Student"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "identifier": "Bachelor of Arts",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Bachelor of Arts",
+                "educationalInstitution": {
+                    "@type": "Organization",
+                    "name": "Stockholm University"
+                },
+                "startDate": "1912",
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "identifier": "Bachelor of Laws",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Bachelor of Laws",
+                "educationalInstitution": {
+                    "@type": "Organization",
+                    "name": "Stockholm University"
+                },
+                "startDate": "1917",
+                "endDate": "1917"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "CourtClerk",
+                "name": "Askims, Hisings, and Sävedal District Courts",
+                "startDate": "1917",
+                "endDate": "1917"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "State War Insurance Commission",
+                "position": "Assistant Secretary",
+                "startDate": "1917"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Gothenburg Dispatch Office",
+                "position": "Dispatch Assistant",
+                "startDate": "1918",
+                "endDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "W. Kristensen's Law Firm",
+                "position": "Employee",
+                "startDate": "1919",
+                "endDate": "1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1921"
+            }
+        ]
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "original": "Lindberg, Birgit Elisabet, läroverksadjunkt, Värnamo, f. 13/2/09 i Västervik av pastor Theodor Wennström o. Rut Johansson. G. 41 m. lärov:adj. Alvar Lindberg. Barn: Åke f. 42, Lars 44. — Stud:ex. i Upps. 29, fil. mag. där 34, provår v. Hvit-feldtska h. a. 1. i Gbg 40-41. E. o. lär. i 0’sby 35-38, e. adj. i Vadstena 38-39, e. lär. v. Falu folksk:sem. 39-40, e. adj. v. Värnamo samrealsk. 41-43, timlär. där o. e. o. adj. sed. 45, timlär. v. Värnamo yrkessk. 44-45. Res. t. Engl. 34, Tyskl. 37 o. Frankr. 38.",
+    "translated": "Lindberg, Birgit Elisabet, school teacher, Värnamo, born on February 13, 1909 in Västervik, to Pastor Theodor Wennström and Rut Johansson. Married in 1941 to school teacher Alvar Lindberg. Children: Åke, born in 1942, Lars, born in 1944. \n\nEducation: Completed secondary school exam in Uppsala in 1929, obtained a Bachelor's degree there in 1934. Completed a probationary year at Hvitfeldtska high school in Gothenburg from 1940-1941. Temporary teacher in 0sby from 1935-1938, assistant teacher in Vadstena from 1938-1939, teacher at Falu primary school seminary from 1939-1940, assistant teacher at Värnamo secondary school from 1941-1943, part-time teacher there and assistant teacher since 1945. Part-time teacher at Värnamo vocational school from 1944-1945. Traveled to England in 1934, Germany in 1937, and France in 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Birgit Elisabet\",\n  \"familyName\": \"Lindberg\",\n  \"jobTitle\": \"School Teacher\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Värnamo\"\n  },\n  \"birthDate\": \"1909-02-13\",\n  \"birthPlace\": \"Västervik\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Theodor\",\n      \"familyName\": \"Wennström\",\n      \"jobTitle\": \"Pastor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Rut\",\n      \"familyName\": \"Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Alvar\",\n    \"familyName\": \"Lindberg\",\n    \"jobTitle\": \"School Teacher\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Åke\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Lars\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchoolExam\",\n      \"educationalLevel\": \"SecondaryEducationLevel\",\n      \"issuer\": \"Uppsala University\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor\",\n      \"educationalLevel\": \"UndergraduateLevel\",\n      \"issuer\": \"Uppsala University\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Teacher\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1938\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"0'sby\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Teacher\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Vadstena\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Teacher\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1940\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Falu\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Teacher\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1943\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Värnamo\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Teacher\",\n      \"startDate\": \"1945\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Värnamo\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Part-time Teacher\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Värnamo\"\n      }\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Alvar\",\n    \"familyName\": \"Lindberg\",\n    \"jobTitle\": \"School Teacher\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hvitfeldtska high school\"\n    }\n  ],\n  \"hasCredential\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"ProbationaryYear\",\n      \"educationalLevel\": \"UndergraduateLevel\",\n      \"issuer\": \"Hvitfeldtska high school\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1941\"\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Trip\",\n      \"departureLocation\": \"Sweden\",\n      \"arrivalLocation\": \"England\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureLocation\": \"Sweden\",\n      \"arrivalLocation\": \"Germany\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureLocation\": \"Sweden\",\n      \"arrivalLocation\": \"France\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Birgit Elisabet",
+        "familyName": "Lindberg",
+        "jobTitle": "School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Värnamo"
+        },
+        "birthDate": "1909-02-13",
+        "birthPlace": "Västervik",
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Theodor",
+                "familyName": "Wennström",
+                "jobTitle": "Pastor"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Rut",
+                "familyName": "Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Alvar",
+            "familyName": "Lindberg",
+            "jobTitle": "School Teacher"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Åke",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Lars",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondarySchoolExam",
+                "educationalLevel": "SecondaryEducationLevel",
+                "issuer": "Uppsala University",
+                "startDate": "1929",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor",
+                "educationalLevel": "UndergraduateLevel",
+                "issuer": "Uppsala University",
+                "startDate": "1934",
+                "endDate": "1934"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Teacher",
+                "startDate": "1935",
+                "endDate": "1938",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "0'sby"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Teacher",
+                "startDate": "1938",
+                "endDate": "1939",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Vadstena"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Teacher",
+                "startDate": "1939",
+                "endDate": "1940",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Falu"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Teacher",
+                "startDate": "1941",
+                "endDate": "1943",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Värnamo"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Teacher",
+                "startDate": "1945",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Värnamo"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Part-time Teacher",
+                "startDate": "1944",
+                "endDate": "1945",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Värnamo"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Hvitfeldtska high school"
+            }
+        ],
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "ProbationaryYear",
+                "educationalLevel": "UndergraduateLevel",
+                "issuer": "Hvitfeldtska high school",
+                "startDate": "1940",
+                "endDate": "1941"
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "Trip",
+                "departureLocation": "Sweden",
+                "arrivalLocation": "England",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Trip",
+                "departureLocation": "Sweden",
+                "arrivalLocation": "Germany",
+                "startDate": "1937",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Trip",
+                "departureLocation": "Sweden",
+                "arrivalLocation": "France",
+                "startDate": "1938",
+                "endDate": "1938"
+            }
+        ]
+    }
+}

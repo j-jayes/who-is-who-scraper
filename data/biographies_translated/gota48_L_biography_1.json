@@ -1,0 +1,115 @@
+{
+    "original": "Lagebrant, Sixten Manne, jur. kand., Norrköping, f. 12/12/19 i Stenstorp, Skarab. 1. G. 47 m. Inez Rosman. — x\\vg:ex. fr. Norrköp. h. folksk. handelslinje 35, stud:ex. i Malmö 40, jur. kand. i Sthlm 44. Kont. o. sekr. h. adv. Axel Hemmar i Norrköp. 36-39, tingstjg. i Hall. mell. doms. samt Åse, Viste, Barne o. Laske doms. 44-46, bitr. jurist å Axel Hemmars Advrbyrå i Norrköp. sed. 46. Resor t. Danm. 36, Finl. 45.",
+    "translated": "Lagebrant, Sixten Manne, LL.B., Norrköping, b. 12/12/19 in Stenstorp, Skaraborg. 1. M. 47 to Inez Rosman. - x/widow: former spouse of Norrköping higher elementary school trade line 35, student graduate in Malmö 40, LL.B. in Stockholm 44. Employed as a clerk and secretary for attorney Axel Hemmar in Norrköping from 36-39, served as a court clerk in the Halland intermediate court and Åse, Viste, Barne and Laske district courts from 44-46, assistant lawyer at Axel Hemmar's Law Firm in Norrköping since 46. Traveled to Denmark in 36 and Finland in 45.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lagebrant, Sixten Manne\",\n  \"givenName\": \"Sixten Manne\",\n  \"familyName\": \"Lagebrant\",\n  \"birthDate\": \"1919-12-12\",\n  \"birthPlace\": \"Stenstorp, Skaraborg\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inez Rosman\",\n    \"marriageDate\": \"1947\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"LL.B.\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Juris Doctor\",\n      \"awardedBy\": \"Stockholm\",\n      \"awardDate\": \"1944\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Student Graduate\",\n      \"educationalLevel\": \"Other\",\n      \"educationalCredentialAwarded\": \"Trade Line\",\n      \"awardedBy\": \"Malmö\",\n      \"awardDate\": \"1940\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Axel Hemmar's Law Firm\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1939\",\n      \"roleName\": \"Clerk and Secretary\",\n      \"description\": \"Attorney Axel Hemmar in Norrköping\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halland Intermediate Court\"\n      },\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\",\n      \"roleName\": \"Court Clerk\",\n      \"description\": \"Served in the Halland intermediate court and Åse, Viste, Barne, and Laske district courts\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Axel Hemmar's Law Firm\"\n      },\n      \"startDate\": \"1946\",\n      \"roleName\": \"Assistant Lawyer\",\n      \"description\": \"Axel Hemmar's Advrbyrå in Norrköping\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Higher Elementary School\"\n    }\n  ],\n  \"knowsLanguage\": [\n    {\n      \"@type\": \"Language\",\n      \"name\": \"Danish\"\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Country\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Country\",\n        \"name\": \"Denmark\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"TravelAction\",\n      \"fromLocation\": {\n        \"@type\": \"Country\",\n        \"name\": \"Sweden\"\n      },\n      \"toLocation\": {\n        \"@type\": \"Country\",\n        \"name\": \"Finland\"\n      },\n      \"startDate\": \"1945\",\n      \"endDate\": \"1945\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lagebrant, Sixten Manne",
+        "givenName": "Sixten Manne",
+        "familyName": "Lagebrant",
+        "birthDate": "1919-12-12",
+        "birthPlace": "Stenstorp, Skaraborg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Inez Rosman",
+            "marriageDate": "1947"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "LL.B.",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Juris Doctor",
+                "awardedBy": "Stockholm",
+                "awardDate": "1944"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Student Graduate",
+                "educationalLevel": "Other",
+                "educationalCredentialAwarded": "Trade Line",
+                "awardedBy": "Malmö",
+                "awardDate": "1940"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Axel Hemmar's Law Firm"
+                },
+                "startDate": "1936",
+                "endDate": "1939",
+                "roleName": "Clerk and Secretary",
+                "description": "Attorney Axel Hemmar in Norrköping"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Halland Intermediate Court"
+                },
+                "startDate": "1944",
+                "endDate": "1946",
+                "roleName": "Court Clerk",
+                "description": "Served in the Halland intermediate court and Åse, Viste, Barne, and Laske district courts"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Axel Hemmar's Law Firm"
+                },
+                "startDate": "1946",
+                "roleName": "Assistant Lawyer",
+                "description": "Axel Hemmar's Advrbyrå in Norrköping"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Norrköping Higher Elementary School"
+            }
+        ],
+        "knowsLanguage": [
+            {
+                "@type": "Language",
+                "name": "Danish"
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Country",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Country",
+                    "name": "Denmark"
+                },
+                "startDate": "1936",
+                "endDate": "1936"
+            },
+            {
+                "@type": "TravelAction",
+                "fromLocation": {
+                    "@type": "Country",
+                    "name": "Sweden"
+                },
+                "toLocation": {
+                    "@type": "Country",
+                    "name": "Finland"
+                },
+                "startDate": "1945",
+                "endDate": "1945"
+            }
+        ]
+    }
+}

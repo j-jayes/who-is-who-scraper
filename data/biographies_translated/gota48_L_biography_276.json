@@ -1,0 +1,66 @@
+{
+    "original": "Lindeberg, Karl Edvard, distrikts-lantmätare, Jönköping, f. 26/11/85 i Nikolai, Södermani. 1., av Edvard L. o. Amalia Krogh. G. 16 m. Dagny Johansson. Barn: Maj f. 18, Inga 20, fil. kand., Karl-Göran 23, banktj :man. — Mog:ex. 07, lantmät:ex. 12. Distr:-lantmät. 23, i Jönköp. distr. sed. 34. RVO.",
+    "translated": "Lindeberg, Karl Edvard, district surveyor, Jönköping, b. 26/11/1885 in Nikolai, Södermanland, 1st son of Edvard L. and Amalia Krogh. Married on 16th with Dagny Johansson. Children: Maj b. 1918, Inga b. 1920, Bachelor of Arts, Karl-Göran b. 1923, bank clerk. Completed magistrate examination in 1907 and surveyor examination in 1912. District surveyor since 1923, in Jönköping district since 1934. Order of the Royal Vasa (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Edvard Lindeberg\",\n  \"birthDate\": \"1885-11-26\",\n  \"birthPlace\": \"Nikolai, Södermanland\",\n  \"description\": \"District Surveyor\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagny Johansson\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maj Lindeberg\",\n      \"birthDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga Lindeberg\",\n      \"birthDate\": \"1920\",\n      \"education\": \"Bachelor of Arts\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Göran Lindeberg\",\n      \"birthDate\": \"1923\",\n      \"occupation\": \"Bank Clerk\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Edvard L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amalia Krogh\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Magistrate Examination\",\n      \"dateCredentialAwarded\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Surveyor Examination\",\n      \"dateCredentialAwarded\": \"1912\"\n    }\n  ],\n  \"occupation\": \"District Surveyor\",\n  \"worksFor\": \"Jönköping\",\n  \"memberOf\": \"Jönköping district\",\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Order of the Royal Vasa\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Edvard Lindeberg",
+        "birthDate": "1885-11-26",
+        "birthPlace": "Nikolai, Södermanland",
+        "description": "District Surveyor",
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagny Johansson",
+            "marriageDate": "YYYY-MM-DD"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maj Lindeberg",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga Lindeberg",
+                "birthDate": "1920",
+                "education": "Bachelor of Arts"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl-Göran Lindeberg",
+                "birthDate": "1923",
+                "occupation": "Bank Clerk"
+            }
+        ],
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Edvard L."
+            },
+            {
+                "@type": "Person",
+                "name": "Amalia Krogh"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Magistrate Examination",
+                "dateCredentialAwarded": "1907"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Surveyor Examination",
+                "dateCredentialAwarded": "1912"
+            }
+        ],
+        "occupation": "District Surveyor",
+        "worksFor": "Jönköping",
+        "memberOf": "Jönköping district",
+        "awards": {
+            "@type": "Order",
+            "name": "Order of the Royal Vasa"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "original": "Larsson, Laurentius, läroverksadjunkt, Vadstena, f. 10/8/04 i Torsàs, Kalmar 1., av 0’scar L. o. Karolina Eliasson. G. 36 m. Ellen Sturzenbec-ker. Barn: Anne-Marie f. 38, Olof 40, Bengt 43. — Stud:ex. v. Lunds priv. elem:sk. 24, fil. mag. 31, provår v. Gbgs h. latin 37-38. Res. t. Tyskl. o. Danm. 35 o. 39, Norge 36. E. lär. i Sundsvall 31-36, vik. adj. där 36-37, timlär. v. Sundsvalls hand:sk. 37, e. o. adj. i Sundsvall 38-39, timlär. v. Sundsvalls hand:sk. 38-39, adj. i modersm. o. tyska v. Vadstena samrealsk. sed. 39.",
+    "translated": "Larsson, Laurentius, school teacher, Vadstena, b. 10/8/04 in Torsàs, Kalmar County, son of Oscar L. and Karolina Eliasson. Married in 1936 to Ellen Sturzenbecker. Children: Anne-Marie b. 1938, Olof b. 1940, Bengt b. 1943. \n\nEducation: Graduated from Lund's private elementary school in 1924, obtained a Bachelor of Arts degree in 1931, attended a preparatory course at Gothenburg's High Latin School in 1937-1938. Traveled to Germany and Denmark in 1935 and 1939 respectively, and to Norway in 1936. \n\nCareer: Teacher in Sundsvall from 1931 to 1936, substitute teacher in Sundsvall in 1936-1937, part-time teacher at Sundsvall's Commercial School in 1937, temporary assistant teacher in Sundsvall in 1938-1939, part-time teacher at Sundsvall's Commercial School in 1938-1939. Currently working as an assistant teacher in Swedish and German at Vadstena Secondary School since 1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Laurentius Larsson\",\n  \"birthDate\": \"1904-08-10\",\n  \"birthPlace\": \"Torsàs, Kalmar County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oscar L. Larsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karolina Eliasson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Sturzenbecker\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie Larsson\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Larsson\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Larsson\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"educationalBackground\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"preparatory\",\n      \"educationalLevel\": \"elementary\",\n      \"educationalRole\": \"graduate\",\n      \"educationalOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund's Private Elementary School\"\n      },\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"undergraduate\",\n      \"educationalLevel\": \"bachelor\",\n      \"educationalDegree\": \"Bachelor of Arts\",\n      \"educationalOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"preparatory\",\n      \"educationalLevel\": \"high school\",\n      \"educationalRole\": \"preparatory course\",\n      \"educationalOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg's High Latin School\"\n      },\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sundsvall's Commercial School\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vadstena Secondary School\"\n    }\n  ],\n  \"career\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Teacher\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1936\",\n      \"location\": \"Sundsvall\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Substitute Teacher\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\",\n      \"location\": \"Sundsvall\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Part-Time Teacher\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\",\n      \"location\": \"Sundsvall's Commercial School\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Temporary Assistant Teacher\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"location\": \"Sundsvall\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Part-Time Teacher\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"location\": \"Sundsvall's Commercial School\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant Teacher\",\n      \"startDate\": \"1939\",\n      \"location\": \"Vadstena Secondary School\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Laurentius Larsson",
+        "birthDate": "1904-08-10",
+        "birthPlace": "Torsàs, Kalmar County",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oscar L. Larsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Karolina Eliasson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Sturzenbecker",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anne-Marie Larsson",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Olof Larsson",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Larsson",
+                "birthDate": "1943"
+            }
+        ],
+        "educationalBackground": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "preparatory",
+                "educationalLevel": "elementary",
+                "educationalRole": "graduate",
+                "educationalOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund's Private Elementary School"
+                },
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "undergraduate",
+                "educationalLevel": "bachelor",
+                "educationalDegree": "Bachelor of Arts",
+                "educationalOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "preparatory",
+                "educationalLevel": "high school",
+                "educationalRole": "preparatory course",
+                "educationalOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg's High Latin School"
+                },
+                "startDate": "1937",
+                "endDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Sundsvall's Commercial School"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vadstena Secondary School"
+            }
+        ],
+        "career": [
+            {
+                "@type": "Occupation",
+                "name": "Teacher",
+                "startDate": "1931",
+                "endDate": "1936",
+                "location": "Sundsvall"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Substitute Teacher",
+                "startDate": "1936",
+                "endDate": "1937",
+                "location": "Sundsvall"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Part-Time Teacher",
+                "startDate": "1937",
+                "endDate": "1937",
+                "location": "Sundsvall's Commercial School"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Temporary Assistant Teacher",
+                "startDate": "1938",
+                "endDate": "1939",
+                "location": "Sundsvall"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Part-Time Teacher",
+                "startDate": "1938",
+                "endDate": "1939",
+                "location": "Sundsvall's Commercial School"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Assistant Teacher",
+                "startDate": "1939",
+                "location": "Vadstena Secondary School"
+            }
+        ]
+    }
+}

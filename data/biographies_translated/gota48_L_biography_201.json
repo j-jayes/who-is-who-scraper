@@ -1,0 +1,88 @@
+{
+    "original": "Liljeros, Bror Gustaf Adolf, direktör, Borås, f. 6/11/98 i Visby av K. A. L. o. Olga Ahlstedt. G. 28 m. Signe LückUg. Barn: Karl-Ivar f. 30, Jan 35. — Anst. i Västg. Väfn. A-B i Älfsered 12-23, Bröd. Wennerlund i Borås 23-25, deläg., styr:led. o. dir. i A-B Bröd. Liljeros sed. 25. Res. t. Engl. 33, 47, Tyskl. 40. Hobbies: tennis, blomsterodl.",
+    "translated": "Liljeros, Bror Gustaf Adolf, director, Borås, b. 6/11/98 in Visby to K. A. L. and Olga Ahlstedt. Married on 28th to Signe LückUg. Children: Karl-Ivar b. 30, Jan b. 35. Employed at Västgöta Väfnader A-B in Älfsered from 1912-1923, Bröderna Wennerlund in Borås from 1923-1925, co-owner, board member, and director at A-B Bröderna Liljeros since 1925. Traveled to England in 1933 and 1947, to Germany in 1940. Hobbies: tennis, flower gardening.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Gustaf Adolf Liljeros\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1898-11-06\",\n  \"birthPlace\": \"Visby\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"K. A. L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olga Ahlstedt\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe LückUg\",\n    \"marriageDate\": \"1928-08-28\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Ivar Liljeros\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan Liljeros\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västgöta Väfnader A-B\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1923\",\n      \"location\": \"Älfsered\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bröderna Wennerlund\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1925\",\n      \"location\": \"Borås\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Bröderna Liljeros\",\n      \"startDate\": \"1925\",\n      \"location\": \"Borås\",\n      \"co-ownership\": true,\n      \"boardMembership\": true,\n      \"directorship\": true\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"England\",\n      \"times\": 2,\n      \"years\": [1933, 1947]\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Germany\",\n      \"times\": 1,\n      \"years\": [1940]\n    }\n  ],\n  \"hobbies\": [\n    \"tennis\",\n    \"flower gardening\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Gustaf Adolf Liljeros",
+        "jobTitle": "Director",
+        "birthDate": "1898-11-06",
+        "birthPlace": "Visby",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "K. A. L."
+            },
+            {
+                "@type": "Person",
+                "name": "Olga Ahlstedt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe LückUg",
+            "marriageDate": "1928-08-28"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karl-Ivar Liljeros",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan Liljeros",
+                "birthDate": "1935"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Västgöta Väfnader A-B",
+                "startDate": "1912",
+                "endDate": "1923",
+                "location": "Älfsered"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bröderna Wennerlund",
+                "startDate": "1923",
+                "endDate": "1925",
+                "location": "Borås"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Bröderna Liljeros",
+                "startDate": "1925",
+                "location": "Borås",
+                "co-ownership": true,
+                "boardMembership": true,
+                "directorship": true
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "Place",
+                "name": "England",
+                "times": 2,
+                "years": [
+                    1933,
+                    1947
+                ]
+            },
+            {
+                "@type": "Place",
+                "name": "Germany",
+                "times": 1,
+                "years": [
+                    1940
+                ]
+            }
+        ],
+        "hobbies": [
+            "tennis",
+            "flower gardening"
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "original": "Larsson, Orvar, läroverksadjunkt, Göteborg, f. 28/9/84 i Skee, Gbgs. o. Boh. 1., av Oskar L. o. Maria Elisabet Alexandersson. — Stud:ex. v. Fjell-stedtska sk. i Upps. 09, teol. fil. ex. i Upps. 10, teol. kand. -13, fil. kand. 15, teol. hc. 28, provår 17. E. lär. i Upps. 15, Gävle 18-21, adj. i Gävle 21, adj. i kristend :kunsk. o. modersm. v. Hvit-feldtska h. a. 1. i Gbg sed. 29. RVO.",
+    "translated": "Larsson, Orvar, high school teacher, Gothenburg, born 28/9/84 in Skee, Gothenburg and Bohuslän County, son of Oskar L. and Maria Elisabet Alexandersson. — Completed high school at Fjellstedt School in Uppsala in 1909, received a Bachelor of Theology in Uppsala in 1910, graduated as a Theology Candidate in 1913, obtained a Bachelor of Arts in 1915, received an honorary degree in Theology in 1928, and completed a probationary year in 1917. Started teaching in Uppsala in 1915, in Gävle from 1918-1921, became an adjunct teacher in Gävle in 1921, and an adjunct teacher in Christian Studies and Swedish Language at Hvitfeldtska School in Gothenburg since 1929. Awarded the Royal Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Orvar Larsson\",\n  \"jobTitle\": \"High school teacher\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1884-09-28\",\n  \"birthPlace\": \"Skee, Gothenburg and Bohuslän County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oskar L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Elisabet Alexandersson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Stud:ex\",\n      \"educationalInstitution\": \"Fjellstedt School\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1909\",\n      \"supersededBy\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"educationalCredentialAwarded\": \"teol. fil. ex.\",\n        \"supersededBy\": {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"educationalCredentialAwarded\": \"teol. kand.\",\n          \"supersededBy\": {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"educationalCredentialAwarded\": \"fil. kand.\",\n            \"supersededBy\": {\n              \"@type\": \"EducationalOccupationalCredential\",\n              \"educationalCredentialAwarded\": \"teol. hc.\",\n              \"supersededBy\": {\n                \"@type\": \"EducationalOccupationalCredential\",\n                \"educationalCredentialAwarded\": \"provår\"\n              }\n            }\n          }\n        }\n      }\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Role\",\n      \"roleName\": \"Teaching\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1915\",\n      \"namedPosition\": \"E. lär.\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"roleName\": \"Teaching\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1921\",\n      \"namedPosition\": \"Adj.\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gävle\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"roleName\": \"Teaching\",\n      \"startDate\": \"1921\",\n      \"namedPosition\": \"Adj.\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gävle\"\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"roleName\": \"Teaching\",\n      \"startDate\": \"1929\",\n      \"namedPosition\": \"Adj.\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hvitfeldtska h. a. 1., Gothenburg\"\n      },\n      \"teachCourse\": [\n        {\n          \"@type\": \"Course\",\n          \"name\": \"Christian Studies\"\n        },\n        {\n          \"@type\": \"Course\",\n          \"name\": \"Swedish Language\"\n        }\n      ]\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Orvar Larsson",
+        "jobTitle": "High school teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1884-09-28",
+        "birthPlace": "Skee, Gothenburg and Bohuslän County",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oskar L."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Elisabet Alexandersson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Stud:ex",
+                "educationalInstitution": "Fjellstedt School",
+                "startDate": "1909",
+                "endDate": "1909",
+                "supersededBy": {
+                    "@type": "EducationalOccupationalCredential",
+                    "educationalCredentialAwarded": "teol. fil. ex.",
+                    "supersededBy": {
+                        "@type": "EducationalOccupationalCredential",
+                        "educationalCredentialAwarded": "teol. kand.",
+                        "supersededBy": {
+                            "@type": "EducationalOccupationalCredential",
+                            "educationalCredentialAwarded": "fil. kand.",
+                            "supersededBy": {
+                                "@type": "EducationalOccupationalCredential",
+                                "educationalCredentialAwarded": "teol. hc.",
+                                "supersededBy": {
+                                    "@type": "EducationalOccupationalCredential",
+                                    "educationalCredentialAwarded": "provår"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "work": [
+            {
+                "@type": "Role",
+                "roleName": "Teaching",
+                "startDate": "1915",
+                "endDate": "1915",
+                "namedPosition": "E. lär.",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Uppsala"
+                }
+            },
+            {
+                "@type": "Role",
+                "roleName": "Teaching",
+                "startDate": "1918",
+                "endDate": "1921",
+                "namedPosition": "Adj.",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Gävle"
+                }
+            },
+            {
+                "@type": "Role",
+                "roleName": "Teaching",
+                "startDate": "1921",
+                "namedPosition": "Adj.",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Gävle"
+                }
+            },
+            {
+                "@type": "Role",
+                "roleName": "Teaching",
+                "startDate": "1929",
+                "namedPosition": "Adj.",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Hvitfeldtska h. a. 1., Gothenburg"
+                },
+                "teachCourse": [
+                    {
+                        "@type": "Course",
+                        "name": "Christian Studies"
+                    },
+                    {
+                        "@type": "Course",
+                        "name": "Swedish Language"
+                    }
+                ]
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            }
+        ]
+    }
+}

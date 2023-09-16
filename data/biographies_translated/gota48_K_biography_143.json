@@ -1,0 +1,119 @@
+{
+    "original": "Knutsson, Axel Torsten, kyrkoherde, Ramdala, f. 24/3/02 i Skanör. G. m. Ellen Carolina Comét. Barn : Tord ! Alex f. 31, stud., Karin Ingalill 33, stud. — Stud:ex. i Malmö 22, fil. kand. 25, teol. kand. samt prästv. f. Lunds stift 28. Kyrkoadj. i S :t Johannes förs. i Malmö 28, v. pastor i Torhamn 29, kommin. i Ramdala s. å., kyrkoh. där sed. 35, kontr :prost i östra kontr. sed. 47. Ordf. i past :stämma o. kyr-kofulilm. samt i Raimdala taxind.",
+    "translated": "Knutsson, Axel Torsten, vicar, Ramdala, b. 24/3/02 in Skanör. Married to Ellen Carolina Comét. Children: Tord, b. 31, studying, Karin Ingalill, b. 33, studying. - High school graduate in Malmö in '22, Bachelor of Arts in '25, Bachelor of Theology and ordained priest for the Diocese of Lund in '28. Church assistant in S:t Johannes parish in Malmö in '28, assistant pastor in Torhamn in '29, curate in Ramdala the same year, vicar there since '35, and archdeacon in the eastern district since '47. Chairman of the parish assembly, church council, and tax assessment board in Ramdala.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Torsten Knutsson\",\n  \"jobTitle\": \"Vicar\",\n  \"birthDate\": \"1902-03-24\",\n  \"birthPlace\": \"Skanör\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Carolina Comét\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tord\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Ingalill\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school graduate\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"alumniOf\": \"Malmö\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Arts\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"alumniOf\": \"Malmö\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Theology\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"alumniOf\": \"Lunds stift\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Church Assistant\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"S:t Johannes förs.\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Assistant Pastor\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Torhamn\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ramdala\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1935\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ramdala\"\n      }\n    },\n    {\n      \"@type\": \"JobTitle\",\n      \"name\": \"Archdeacon\",\n      \"startDate\": \"1947\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Eastern District\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Past :stämma\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kyr-kofulilm\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ramdala taxind\"\n    }\n  ],\n  \"nationality\": \"Swedish\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Torsten Knutsson",
+        "jobTitle": [
+            {
+                "@type": "JobTitle",
+                "name": "Church Assistant",
+                "startDate": "1928",
+                "endDate": "1928",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "S:t Johannes förs."
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Assistant Pastor",
+                "startDate": "1929",
+                "endDate": "1929",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Torhamn"
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Curate",
+                "startDate": "1929",
+                "endDate": "1929",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Ramdala"
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Vicar",
+                "startDate": "1935",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Ramdala"
+                }
+            },
+            {
+                "@type": "JobTitle",
+                "name": "Archdeacon",
+                "startDate": "1947",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Eastern District"
+                }
+            }
+        ],
+        "birthDate": "1902-03-24",
+        "birthPlace": "Skanör",
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Carolina Comét"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Tord",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Ingalill",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school graduate",
+                "educationalLevel": "SecondaryEducation",
+                "alumniOf": "Malmö",
+                "startDate": "1922",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Arts",
+                "educationalLevel": "Undergraduate",
+                "alumniOf": "Malmö",
+                "startDate": "1925",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Theology",
+                "educationalLevel": "Undergraduate",
+                "alumniOf": "Lunds stift",
+                "startDate": "1928",
+                "endDate": "1928"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Past :stämma"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kyr-kofulilm"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ramdala taxind"
+            }
+        ],
+        "nationality": "Swedish"
+    }
+}

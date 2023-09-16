@@ -1,0 +1,56 @@
+{
+    "original": "Konradsson, Hugo Otto, distriktsveterinär, Torup, f. 13/6/03 i Gåsborn, Värml. 1., av folkskoll. Gustaf K. o. Anna Lundbom. G. 34 m. Karin Ham-lin. Barn: Bo Hugo f. 37, Karin Margareta 39. — Stud:ex. i Skara 22, ve-ter:ex. 32. Distr :veter. i Torup fr. 39. Hobbies: måln., skulptur. Skytte-GM, Pist:skytteGM.",
+    "translated": "Konradsson, Hugo Otto, district veterinarian, Torup, b. 13/6/03 in Gåsborn, Värmland. Son of elementary school teacher Gustaf K. and Anna Lundbom. Married to Karin Hamlin in 1934. Children: Bo Hugo b. 1937, Karin Margareta b. 1939. Completed high school in Skara in 1922, veterinary studies in 1932. Worked as a district veterinarian in Torup from 1939. Hobbies include painting and sculpting. Champion in shooting, both in general and pistol shooting.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hugo Otto Konradsson\",\n  \"birthDate\": \"1903-06-13\",\n  \"birthPlace\": \"Gåsborn, Värmland\",\n  \"nationality\": \"Swedish\",\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"schoolName\": \"Skara\",\n    \"endDate\": \"1922\"\n  },\n  \"occupation\": \"District Veterinarian\",\n  \"workLocation\": \"Torup\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf K. Konradsson\",\n      \"jobTitle\": \"Elementary School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Lundbom\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Hamlin\",\n    \"marriageDate\": \"1934-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Hugo Konradsson\",\n      \"birthDate\": \"1937-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Margareta Konradsson\",\n      \"birthDate\": \"1939-01-01\"\n    }\n  ],\n  \"hobbies\": [\n    \"painting\",\n    \"sculpting\"\n  ],\n  \"championIn\": [\n    \"shooting\",\n    \"pistol shooting\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hugo Otto Konradsson",
+        "birthDate": "1903-06-13",
+        "birthPlace": "Gåsborn, Värmland",
+        "nationality": "Swedish",
+        "education": {
+            "@type": "EducationEvent",
+            "schoolName": "Skara",
+            "endDate": "1922"
+        },
+        "occupation": "District Veterinarian",
+        "workLocation": "Torup",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf K. Konradsson",
+                "jobTitle": "Elementary School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Lundbom"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Hamlin",
+            "marriageDate": "1934-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo Hugo Konradsson",
+                "birthDate": "1937-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Margareta Konradsson",
+                "birthDate": "1939-01-01"
+            }
+        ],
+        "hobbies": [
+            "painting",
+            "sculpting"
+        ],
+        "championIn": [
+            "shooting",
+            "pistol shooting"
+        ]
+    }
+}

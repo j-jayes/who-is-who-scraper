@@ -1,0 +1,85 @@
+{
+    "original": "Karlgren, Oskar, aukt. revisor, Halmstad, f. 9/10/05 i Söderhamn av kommin. Anton K. o. Esther af Schmidt. G. 33 m. Thyra Berggren. Barn: Christina f. 43, Bengt 45. — Stud:ex. v. Södermalms h. a. 1. i Sthlm 25, kansliex. v. Sthlms högsk. 28, ekon. ex. v. HHS 31. Deläg. i Karlgrens Rev :byrå A-B sed. 34, av Västergötl. o. Norra Hall. handels-kamm. aukt. rev. 34, dito av Skånes handelskamm. 37.",
+    "translated": "Karlgren, Oskar, authorized auditor, Halmstad, born on October 9, 1905 in Söderhamn to the clergyman Anton K. and Esther af Schmidt. Married in 1933 to Thyra Berggren. Children: Christina, born in 1943, Bengt, born in 1945. Education: graduated high school at Södermalm in Stockholm in 1925, passed the civil service examination at Stockholm University in 1928, and completed the economics examination at Stockholm School of Economics in 1931. Co-owner of Karlgrens Audit Office A-B since 1934, authorized auditor of Västergötland and Norra Halland Chamber of Commerce since 1934, and authorized auditor of Skåne Chamber of Commerce since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oskar Karlgren\",\n  \"jobTitle\": \"Authorized Auditor\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Halmstad\"\n  },\n  \"birthDate\": \"1905-10-09\",\n  \"birthPlace\": \"Söderhamn\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anton K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Esther af Schmidt\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Thyra Berggren\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex\",\n      \"credentialSubject\": \"Södermalms h. a. 1. i Sthlm\",\n      \"awardedBy\": \"Södermalms Högklassiga Allmänna Läroverk i Stockholm\",\n      \"awardDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"kansliex\",\n      \"credentialSubject\": \"Sthlms högsk.\",\n      \"awardedBy\": \"Stockholm University\",\n      \"awardDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"ekon. ex\",\n      \"credentialSubject\": \"HHS\",\n      \"awardedBy\": \"Stockholm School of Economics\",\n      \"awardDate\": \"1931\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlgrens Rev:byrå A-B\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västergötland och Norra Hallands Handelskammare\",\n      \"position\": \"Authorized Auditor\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skånes Handelskammare\",\n      \"position\": \"Authorized Auditor\",\n      \"startDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oskar Karlgren",
+        "jobTitle": "Authorized Auditor",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Halmstad"
+        },
+        "birthDate": "1905-10-09",
+        "birthPlace": "Söderhamn",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anton K."
+            },
+            {
+                "@type": "Person",
+                "name": "Esther af Schmidt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Thyra Berggren"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christina",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1945"
+            }
+        ],
+        "educationalCredentialAwarded": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex",
+                "credentialSubject": "Södermalms h. a. 1. i Sthlm",
+                "awardedBy": "Södermalms Högklassiga Allmänna Läroverk i Stockholm",
+                "awardDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "kansliex",
+                "credentialSubject": "Sthlms högsk.",
+                "awardedBy": "Stockholm University",
+                "awardDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "ekon. ex",
+                "credentialSubject": "HHS",
+                "awardedBy": "Stockholm School of Economics",
+                "awardDate": "1931"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Karlgrens Rev:byrå A-B",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västergötland och Norra Hallands Handelskammare",
+                "position": "Authorized Auditor",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skånes Handelskammare",
+                "position": "Authorized Auditor",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

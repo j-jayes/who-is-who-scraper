@@ -1,0 +1,83 @@
+{
+    "original": "Kindahl, Nils Fredrik, direktör, Norrköping, f. 8/1/Ö2 i Norr köp. av fabr. E. K. o. Fredrika Wirström. G. 1. m. Madeleine Assribekoff; 2. m. Dagmar Nordenfelt. Barn: (i föreg. äkt.) Christer f. 34. — Stud:ex., dipl. fr, Écoile de’s Hautes Études Comimer-ciales i Paris. Anst. i Tyskl. 24, i Engl. 25-26, inneh. av A-B John A. Thulin &amp; Co. i Norrköp. Led. av ’Styr. f. A-B Sv. Hand :banken’S avd :kont. i Norrköp.",
+    "translated": "Kindahl, Nils Fredrik, director, Norrköping, b. 8/1/Ö2 in Norrköp. to factory owner E.K. and Fredrika Wirström. Married 1st with Madeleine Assribekoff in 19xx. Married 2nd with Dagmar Nordenfelt. Children: (from previous marriage) Christer b. 1934. — Studied for a diploma at the École des Hautes Études Commerciales in Paris. Employed in Germany in 1924, in England from 1925-1926, and currently holding a position at A-B John A. Thulin & Co. in Norrköping. Member of the board of directors for A-B Swedish Hand Bank's local branch in Norrköping.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Fredrik Kindahl\",\n  \"birthDate\": \"Ö2-01-08\",\n  \"birthPlace\": \"Norrköping\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"E.K.\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Fredrika Wirström\"\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Madeleine Assribekoff\",\n      \"marriageDate\": \"19xx\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dagmar Nordenfelt\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christer\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"diploma\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"École des Hautes Études Commerciales\",\n      \"location\": \"Paris\"\n    }\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Germany\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"England\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B John A. Thulin & Co.\",\n        \"location\": \"Norrköping\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"OrganizationRole\",\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Swedish Hand Bank\",\n      \"location\": \"Norrköping\"\n    }\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Fredrik Kindahl",
+        "birthDate": "Ö2-01-08",
+        "birthPlace": "Norrköping",
+        "father": {
+            "@type": "Person",
+            "name": "E.K."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Fredrika Wirström"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Madeleine Assribekoff",
+                "marriageDate": "19xx"
+            },
+            {
+                "@type": "Person",
+                "name": "Dagmar Nordenfelt"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Christer",
+                "birthDate": "1934"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "diploma",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "École des Hautes Études Commerciales",
+                "location": "Paris"
+            }
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "endDate": "1924",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Germany"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1925",
+                "endDate": "1926",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "England"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B John A. Thulin & Co.",
+                    "location": "Norrköping"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "OrganizationRole",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "A-B Swedish Hand Bank",
+                "location": "Norrköping"
+            }
+        }
+    }
+}

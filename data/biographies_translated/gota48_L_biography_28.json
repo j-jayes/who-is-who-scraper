@@ -1,0 +1,127 @@
+{
+    "original": "Landberg, Bertil Jacob, advokat, Vänersborg, f. 8/2/95 i Vassända-Naglum, Älvsb. 1., av disp. Leopold L. o. Anna Bagge. G. 25 m. Edit Wånge. — Stud:ex. i Vänersborg 15, jur. kand. i LIpps. 20. E. o. not. i Svea hovr. 20, tingstjg. i Hedemora 21-23, anst. å Oastaf Fitgers Adv :byrà i Gbg 23-28, egen adv:verksamh. i Vänersborg sed. 28. Ordf. i styr. f. A-B Jordbr :bankens avdikont. i Vänersborg, omb. f. Gbg, Sthlm, Malmö m. fl. köpmifören. 43. ].ed. av Sv:es adv:samf. sed. 25.",
+    "translated": "Landberg, Bertil Jacob, lawyer, Vänersborg, b. 8/2/95 in Vassända-Naglum, Älvsborg County, son of Leopold L. and Anna Bagge. Married on 25th to Edit Wånge. — Received his secondary school diploma in Vänersborg in 1915, completed a law degree at Uppsala University in 1920. Served as an assistant junior notary in the Svea Court of Appeal in 1920, a court trainee in Hedemora from 1921 to 1923, employed at Oastaf Fitgers Law Firm in Gothenburg from 1923 to 1928, established his own law practice in Vänersborg since 1928. Chairman of the board for the Agricultural Bank's branch office in Vänersborg, representative for various commercial associations in Gothenburg, Stockholm, Malmö, and others since 1943. Editor of the Swedish Lawyers Association since 1925.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bertil Jacob Landberg\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1895-02-08\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Vassända-Naglum\"\n  },\n  \"birthPlaceAddress\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Älvsborg County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leopold L. Landberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Bagge\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Edit Wånge\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Vänersborg\"\n      },\n      \"dateAwarded\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"law degree\",\n      \"educationalLevel\": \"UniversityDegree\",\n      \"educationalCredentialAwarded\": \"jur. kand.\",\n      \"educationalInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Lund University\"\n      },\n      \"dateAwarded\": \"1920\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Assistant Junior Notary\",\n      \"employer\": {\n        \"@type\": \"Court\",\n        \"name\": \"Svea Court of Appeal\"\n      },\n      \"startDate\": \"1920\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Court Trainee\",\n      \"employer\": {\n        \"@type\": \"Court\",\n        \"name\": \"Hedemora\"\n      },\n      \"startDate\": \"1921\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Employee\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Oastaf Fitgers Law Firm\"\n      },\n      \"startDate\": \"1923\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Own Law Practice\",\n      \"startDate\": \"1928\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Vänersborg\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Jordbr :bankens\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Lawyers Association\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Malmö\"\n    }\n  ],\n  \"editor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Lawyers Association\"\n  },\n  \"editorshipStartDate\": \"1925\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bertil Jacob Landberg",
+        "jobTitle": "Lawyer",
+        "birthDate": "1895-02-08",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Vassända-Naglum"
+        },
+        "birthPlaceAddress": {
+            "@type": "PostalAddress",
+            "addressLocality": "Älvsborg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Leopold L. Landberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Bagge"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Edit Wånge"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Vänersborg"
+                },
+                "dateAwarded": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "law degree",
+                "educationalLevel": "UniversityDegree",
+                "educationalCredentialAwarded": "jur. kand.",
+                "educationalInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University"
+                },
+                "dateAwarded": "1920"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "LegalService",
+                "name": "Assistant Junior Notary",
+                "employer": {
+                    "@type": "Court",
+                    "name": "Svea Court of Appeal"
+                },
+                "startDate": "1920"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Court Trainee",
+                "employer": {
+                    "@type": "Court",
+                    "name": "Hedemora"
+                },
+                "startDate": "1921",
+                "endDate": "1923"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Employee",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Oastaf Fitgers Law Firm"
+                },
+                "startDate": "1923",
+                "endDate": "1928"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Own Law Practice",
+                "startDate": "1928",
+                "location": {
+                    "@type": "City",
+                    "name": "Vänersborg"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "A-B Jordbr :bankens"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Lawyers Association"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stockholm"
+            },
+            {
+                "@type": "Organization",
+                "name": "Malmö"
+            }
+        ],
+        "editor": {
+            "@type": "Organization",
+            "name": "Swedish Lawyers Association"
+        },
+        "editorshipStartDate": "1925"
+    }
+}

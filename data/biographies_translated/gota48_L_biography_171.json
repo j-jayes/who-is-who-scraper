@@ -1,0 +1,83 @@
+{
+    "original": "Lewerth, Harald Axel Vilhelm, advokat, Göteborg, f. 17/2/94 i Vänersborg av bergsing. Wilhelm L. o. Hilma Schlyter. G. 27 m. Märtha Uhlin. Barn: Lars Anders f. 34. — Stud:ex. v. norra latin i Sthlm 12, jur. kand. i Sthlm 18. Deläg. i .adv:firman Drakenberg &amp; von Sneidern i Gbg S’ed. 29. Styr :led. i ett flert. bol. o. fören. Led. av Sv:es adv:samf. 21. Hobbies: trav-’sport o. trädg :skötsel.",
+    "translated": "Lewerth, Harald Axel Vilhelm, lawyer, Gothenburg, born on February 17, 1894 in Vänersborg to mining engineer Wilhelm L. and Hilma Schlyter. Married in 1927 to Märtha Uhlin. Children: Lars Anders, born in 1934. Completed secondary studies at Norra Latin in Stockholm in 1912, law degree in Stockholm in 1918. Co-owner of the law firm Drakenberg & von Sneidern in Gothenburg since 1929. Board member of several companies and organizations. Member of the Swedish Bar Association since 1921. Hobbies include horse racing and gardening.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Harald Axel Vilhelm Lewerth\",\n  \"birthDate\": \"1894-02-17\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Vänersborg\"\n  },\n  \"deathDate\": \"\",\n  \"nationality\": \"\",\n  \"description\": \"Lawyer from Gothenburg, Sweden\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märtha Uhlin\",\n    \"marriageDate\": \"1927\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Anders\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Secondary\"\n      },\n      \"educationalLevel\": \"Secondary\",\n      \"educationalProgram\": \"Stud:ex. v. norra latin i Sthlm\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"BachelorDegree\"\n      },\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"educationalProgram\": \"Jur. kand. i Sthlm\",\n      \"endDate\": \"1918\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Lawyer\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"membershipStartDate\": \"1921\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Drakenberg & von Sneidern\",\n      \"jobTitle\": \"Co-owner\",\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"hobbies\": [\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Horse racing\"\n    },\n    {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Gardening\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Harald Axel Vilhelm Lewerth",
+        "birthDate": "1894-02-17",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Vänersborg"
+        },
+        "deathDate": "",
+        "nationality": "",
+        "description": "Lawyer from Gothenburg, Sweden",
+        "spouse": {
+            "@type": "Person",
+            "name": "Märtha Uhlin",
+            "marriageDate": "1927"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars Anders",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Secondary"
+                },
+                "educationalLevel": "Secondary",
+                "educationalProgram": "Stud:ex. v. norra latin i Sthlm",
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "BachelorDegree"
+                },
+                "educationalLevel": "Bachelor's Degree",
+                "educationalProgram": "Jur. kand. i Sthlm",
+                "endDate": "1918"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Lawyer"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "membershipStartDate": "1921"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Drakenberg & von Sneidern",
+                "jobTitle": "Co-owner",
+                "startDate": "1929"
+            }
+        ],
+        "hobbies": [
+            {
+                "@type": "DefinedTerm",
+                "name": "Horse racing"
+            },
+            {
+                "@type": "DefinedTerm",
+                "name": "Gardening"
+            }
+        ]
+    }
+}

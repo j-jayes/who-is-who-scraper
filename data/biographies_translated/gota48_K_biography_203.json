@@ -1,0 +1,84 @@
+{
+    "original": "Kuylenstjerna, Gösta, vrkesinspek-tör, Borås, f. 26/10/93 i Halmstad av stat:insp. K. Kuylenstjerna o. Sofia Svensson. G. 22 m. Ann-Sofie Wins-nes. Barn: Inger f. 22, Lars-Gösta 24. — Utex. fr. CTH (M) 15. Anst. v. Frövifors pappersbruk 17, Vulcanver-ken i Gbg 18, yrkesinsp. sed. 18. Hobby: skytte. Friv. skytteförb. mästar-Gm samt riksGM (SveaM).",
+    "translated": "Kuylenstjerna, Gösta, occupational inspector, Borås, b. 26/10/93 in Halmstad to State Inspector K. Kuylenstjerna and Sofia Svensson. Married on 22 with Ann-Sofie Winsnes. Children: Inger b. 22, Lars-Gösta b. 24. Graduated from the Chalmers University of Technology (Mechanical Engineering) in '15. Employed at Frövifors paper mill in '17, Vulcanverken in Gothenburg in '18, occupational inspector since '18. Hobby: shooting. Volunteer shooting association champion team member and national champion (Svea Championship).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Kuylenstjerna\",\n  \"birthDate\": \"1893-10-26\",\n  \"birthPlace\": \"Halmstad\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Occupational Inspector\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Borås\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"K. Kuylenstjerna\",\n      \"jobTitle\": \"State Inspector\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofia Svensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ann-Sofie Winsnes\",\n    \"marriageDate\": \"1922\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Gösta\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Chalmers University of Technology\",\n    \"location\": \"Gothenburg, Sweden\",\n    \"course\": \"Mechanical Engineering\",\n    \"startDate\": \"1915\",\n    \"endDate\": \"1915\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frövifors Paper Mill\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vulcanverken\",\n      \"location\": \"Gothenburg, Sweden\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Occupational Inspection\",\n      \"startDate\": \"1918\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Volunteer Shooting Association\"\n    }\n  ],\n  \"hobby\": \"Shooting\",\n  \"honors\": [\n    \"Svea Championship National Champion\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gösta Kuylenstjerna",
+        "birthDate": "1893-10-26",
+        "birthPlace": "Halmstad",
+        "nationality": "Swedish",
+        "occupation": "Occupational Inspector",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Borås"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "K. Kuylenstjerna",
+                "jobTitle": "State Inspector"
+            },
+            {
+                "@type": "Person",
+                "name": "Sofia Svensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ann-Sofie Winsnes",
+            "marriageDate": "1922"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars-Gösta",
+                "birthDate": "1924"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Chalmers University of Technology",
+            "location": "Gothenburg, Sweden",
+            "course": "Mechanical Engineering",
+            "startDate": "1915",
+            "endDate": "1915"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Frövifors Paper Mill",
+                "startDate": "1917",
+                "endDate": "1917"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vulcanverken",
+                "location": "Gothenburg, Sweden",
+                "startDate": "1918",
+                "endDate": "1918"
+            },
+            {
+                "@type": "Organization",
+                "name": "Occupational Inspection",
+                "startDate": "1918"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Volunteer Shooting Association"
+            }
+        ],
+        "hobby": "Shooting",
+        "honors": [
+            "Svea Championship National Champion"
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "original": "Kristensen, Boo Arne William, notarie, Göteborg, f. 9/8/17 i Göteborg av adv. William K. o. Elsa Fries. G. 42 m. Barbro Wåström. Barn: Mireille Ann-Chardott f. 46. — Stud :-ex. i Gbg 37, jur. kand. i Upps. 45. Tingsnot. i Sunnervikens doms. 45, bitr. jurist å adv. Rob. Blomsterwalls adv :byrå i Halmislad 46, anst. å För-säkr. A-B Nornan i Gbg sed. 47. Löjtn. i Hall. reg. res. 40. Medl. av W-Sex. Resor t. Engl. 34, Tyskl. 35, Frankr. 36. Hobby: böcker.",
+    "translated": "Kristensen, Boo Arne William, clerk, Gothenburg, born 9/8/17 in Gothenburg to lawyer William K. and Elsa Fries. Married in 1942 to Barbro Wåström. Children: Mireille Ann-Chardott, born in 1946. Completed studies in Gothenburg in 1937, received Juris Doctor degree in Uppsala in 1945. Served as a court clerk in Sunnerviken in 1945, assistant lawyer at Rob. Blomsterwall's law firm in Halmstad in 1946, employed at Insurance Company Nornan in Gothenburg since 1947. Lieutenant in the Halland Regiment since 1940. Member of the Travel Club W-Sex. Traveled to England in 1934, Germany in 1935, and France in 1936. Hobby: books.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Boo Arne William\",\n  \"familyName\": \"Kristensen\",\n  \"jobTitle\": \"Clerk\",\n  \"birthDate\": \"1917-09-08\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"William K.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa Fries\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbro Wåström\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mireille Ann-Chardott\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Stud\",\n      \"educationalInstitution\": \"Gothenburg\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Juris Doctor\",\n      \"educationalLevel\": \"University\",\n      \"educationalCredentialAwarded\": \"Juris Doctor\",\n      \"educationalInstitution\": \"Uppsala\",\n      \"endDate\": \"1945\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"CourtClerk\",\n      \"name\": \"Sunnervikens doms.\",\n      \"startDate\": \"1945\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Rob. Blomsterwalls adv :byrå\",\n      \"position\": \"Assistant Lawyer\",\n      \"department\": \"Halmstad\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"För-säkr. A-B Nornan\",\n      \"position\": \"Employee\",\n      \"department\": \"Gothenburg\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"militaryService\": [\n    {\n      \"@type\": \"MilitaryReserveForce\",\n      \"name\": \"Hall. reg.\",\n      \"rank\": \"Lieutenant\",\n      \"startDate\": \"1940\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"W-Sex\"\n  },\n  \"travelHistory\": [\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"England\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"France\",\n      \"startDate\": \"1936\"\n    }\n  ],\n  \"hasHobby\": {\n    \"@type\": \"Thing\",\n    \"name\": \"Books\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Boo Arne William",
+        "familyName": "Kristensen",
+        "jobTitle": "Clerk",
+        "birthDate": "1917-09-08",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "William K."
+            },
+            {
+                "@type": "Person",
+                "name": "Elsa Fries"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Barbro Wåström",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Mireille Ann-Chardott",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Stud",
+                "educationalInstitution": "Gothenburg",
+                "endDate": "1937"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Juris Doctor",
+                "educationalLevel": "University",
+                "educationalCredentialAwarded": "Juris Doctor",
+                "educationalInstitution": "Uppsala",
+                "endDate": "1945"
+            }
+        ],
+        "work": [
+            {
+                "@type": "CourtClerk",
+                "name": "Sunnervikens doms.",
+                "startDate": "1945"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Rob. Blomsterwalls adv :byrå",
+                "position": "Assistant Lawyer",
+                "department": "Halmstad",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "För-säkr. A-B Nornan",
+                "position": "Employee",
+                "department": "Gothenburg",
+                "startDate": "1947"
+            }
+        ],
+        "militaryService": [
+            {
+                "@type": "MilitaryReserveForce",
+                "name": "Hall. reg.",
+                "rank": "Lieutenant",
+                "startDate": "1940"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "W-Sex"
+        },
+        "travelHistory": [
+            {
+                "@type": "Trip",
+                "name": "England",
+                "startDate": "1934"
+            },
+            {
+                "@type": "Trip",
+                "name": "Germany",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Trip",
+                "name": "France",
+                "startDate": "1936"
+            }
+        ],
+        "hasHobby": {
+            "@type": "Thing",
+            "name": "Books"
+        }
+    }
+}
