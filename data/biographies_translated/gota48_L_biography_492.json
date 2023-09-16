@@ -1,0 +1,111 @@
+{
+    "original": "Lugn, Eric Hjalmar, veterinär. Olofström, f. 23/2/07 i Köla, Värml. 1., av bruksförvalt. A. Hj. o. Anna Lugn. G. 37 m. Margareta Janzen. Barn: Annika f. 41, Birgitta 45. — Stud:ex. v. Karol. lärov. i Örebro 26, res :off :-ex. 29, veter. kand. 32, veter:ex. 36. Aman. i anat. v. Veter :högsk. 30-32, i kir. 34-35, assist, v. Statens veter :-medic. anst. 35-36, tjg. som tf. läns-o. distr:veter. 36-43, som e. veter. o. överveter. v. mul- o. klövsjukans be-kämp. 38-39, som besiktn :veter. v. kontroilslakt. 39-40 ^samt som militär-veter. 39-41, veter. i OlofstrÖms e. veter :distr. sed. 44. Bataljonsveter. i Fvk res. 37, kaptens tj :ställn. 40.",
+    "translated": "Lugn, Eric Hjalmar, veterinarian. Born in Olofström on February 23, 1907, in Köla, Värmland, 1st child of manager A. Hj. Lugn and Anna Lugn. Married in 1937 to Margareta Janzen. Children: Annika, born in 1941, and Birgitta, born in 1945. \n\nEducation: Graduated from Karolinska High School in Örebro in 1926, reserve officer examination in 1929, veterinary candidate in 1932, veterinary examination in 1936. Assistant in anatomy at the Veterinary College from 1930-1932, in surgery from 1934-1935, assistant at the State Veterinary Medical Institute from 1935-1936, acted as temporary county and district veterinarian from 1936-1943, as a veterinarian and senior veterinarian in the fight against hoof and mouth disease from 1938-1939, as an inspection veterinarian at the control slaughterhouse from 1939-1940, and as a military veterinarian from 1939-1941. Veterinarian in Olofström's district since 1944. Battalion veterinarian in the reserve from 1937, captain from 1940 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Eric Hjalmar Lugn\",\n  \"birthDate\": \"1907-02-23\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Köla, Värmland\"\n  },\n  \"father\": \"A. Hj. Lugn\",\n  \"mother\": \"Anna Lugn\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Janzen\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Annika\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karolinska High School\",\n      \"location\": \"Örebro\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Veterinary College\",\n      \"location\": \"Unknown\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"courseOfWork\": \"Assistant in anatomy\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Veterinary College\",\n      \"location\": \"Unknown\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\",\n      \"courseOfWork\": \"Assistant in surgery\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant\",\n      \"location\": \"State Veterinary Medical Institute\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"County and District Veterinarian\",\n      \"location\": \"Olofström\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Veterinarian in the Fight Against Hoof and Mouth Disease\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Inspection Veterinarian\",\n      \"location\": \"Control Slaughterhouse\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Military Veterinarian\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Veterinarian\",\n      \"location\": \"Olofström\",\n      \"startDate\": \"1944\"\n    }\n  ],\n  \"honoraryMilitaryRank\": {\n    \"@type\": \"MilitaryRank\",\n    \"name\": \"Battalion Veterinarian\",\n    \"rank\": \"Reserve\",\n    \"startDate\": \"1937\",\n    \"endDate\": \"1940\"\n  },\n  \"militaryRank\": {\n    \"@type\": \"MilitaryRank\",\n    \"name\": \"Captain\",\n    \"startDate\": \"1940\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Eric Hjalmar Lugn",
+        "birthDate": "1907-02-23",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Köla, Värmland"
+        },
+        "father": "A. Hj. Lugn",
+        "mother": "Anna Lugn",
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Janzen",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Annika",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karolinska High School",
+                "location": "Örebro",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Veterinary College",
+                "location": "Unknown",
+                "startDate": "1930",
+                "endDate": "1932",
+                "courseOfWork": "Assistant in anatomy"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Veterinary College",
+                "location": "Unknown",
+                "startDate": "1934",
+                "endDate": "1935",
+                "courseOfWork": "Assistant in surgery"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Assistant",
+                "location": "State Veterinary Medical Institute",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Occupation",
+                "name": "County and District Veterinarian",
+                "location": "Olofström",
+                "startDate": "1936",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Veterinarian in the Fight Against Hoof and Mouth Disease",
+                "startDate": "1938",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Inspection Veterinarian",
+                "location": "Control Slaughterhouse",
+                "startDate": "1939",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Military Veterinarian",
+                "startDate": "1939",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Veterinarian",
+                "location": "Olofström",
+                "startDate": "1944"
+            }
+        ],
+        "honoraryMilitaryRank": {
+            "@type": "MilitaryRank",
+            "name": "Battalion Veterinarian",
+            "rank": "Reserve",
+            "startDate": "1937",
+            "endDate": "1940"
+        },
+        "militaryRank": {
+            "@type": "MilitaryRank",
+            "name": "Captain",
+            "startDate": "1940"
+        }
+    }
+}

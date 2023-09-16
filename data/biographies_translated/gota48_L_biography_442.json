@@ -1,0 +1,91 @@
+{
+    "original": "Ljungblom, Knut Harry, landsfiskal, Linköping, f. 7/1/99 i Mjölby av landsfiskal Knut Engelbrekt L. o. Gudrun Sandberg. G. 29 m. Ingrid Lundberg. Barn: Bo f. 38, Ann-Marie 43. — Lärov :stud. t. o. m. tredje realringen i Linköp., landsfiskalsex. där 23. Förordn. som landsfiskal, huvudsakl. i Vifolka distr., sammani. fyra år, som ■stadsfiskal i Mjölby sammani. tjugo mån. 20-28, vakan svik. i Gullbergs distr., östergötl. 1., 29, tf. landsfiskal s. å., landsfiskal där sed. 36.",
+    "translated": "Ljungblom, Knut Harry, district magistrate, Linköping, b. 7/1/99 in Mjölby to district magistrate Knut Engelbrekt L. and Gudrun Sandberg. Married 29 with Ingrid Lundberg. Children: Bo b. 38, Ann-Marie 43. Education: studied until the third year of high school at Linköping, district magistrate exam there in 1923. Appointed as district magistrate, mainly in the Vifolka district, together for four years, as city magistrate in Mjölby together for twenty months from 1920-1928, temporarily replaced in Gullbergs district, Östergötland county, in 1929, acting district magistrate the same year, district magistrate there since 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Harry Ljungblom\",\n  \"birthDate\": \"1899-07-01\",\n  \"birthPlace\": \"Mjölby, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Knut Engelbrekt Ljungblom\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gudrun Sandberg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Lundberg\",\n    \"marriageDate\": \"1929-XX-XX\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Ljungblom\",\n      \"birthDate\": \"1938-XX-XX\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Marie Ljungblom\",\n      \"birthDate\": \"1943-XX-XX\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"HighSchool\",\n      \"startDate\": \"XX-XX-XX\",\n      \"endDate\": \"XX-XX-XX\",\n      \"educationalRole\": \"Student\",\n      \"educationalOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Linköping High School\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"MagistrateExam\",\n      \"startDate\": \"1923-XX-XX\",\n      \"educationalOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Linköping District Magistrate\"\n      }\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"District Magistrate\",\n      \"startDate\": \"1936-XX-XX\",\n      \"endDate\": null,\n      \"memberOf\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Vifolka District\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"City Magistrate\",\n      \"startDate\": \"1920-XX-XX\",\n      \"endDate\": \"1928-XX-XX\",\n      \"memberOf\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Mjölby\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Acting District Magistrate\",\n      \"startDate\": \"1929-XX-XX\",\n      \"endDate\": \"1929-XX-XX\",\n      \"memberOf\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Gullbergs District\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Harry Ljungblom",
+        "birthDate": "1899-07-01",
+        "birthPlace": "Mjölby, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Knut Engelbrekt Ljungblom"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Gudrun Sandberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Lundberg",
+            "marriageDate": "1929-XX-XX"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo Ljungblom",
+                "birthDate": "1938-XX-XX"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Marie Ljungblom",
+                "birthDate": "1943-XX-XX"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "HighSchool",
+                "startDate": "XX-XX-XX",
+                "endDate": "XX-XX-XX",
+                "educationalRole": "Student",
+                "educationalOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Linköping High School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "MagistrateExam",
+                "startDate": "1923-XX-XX",
+                "educationalOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Linköping District Magistrate"
+                }
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "GovernmentOffice",
+                "name": "District Magistrate",
+                "startDate": "1936-XX-XX",
+                "endDate": null,
+                "memberOf": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Vifolka District"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "City Magistrate",
+                "startDate": "1920-XX-XX",
+                "endDate": "1928-XX-XX",
+                "memberOf": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Mjölby"
+                }
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Acting District Magistrate",
+                "startDate": "1929-XX-XX",
+                "endDate": "1929-XX-XX",
+                "memberOf": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Gullbergs District"
+                }
+            }
+        ]
+    }
+}

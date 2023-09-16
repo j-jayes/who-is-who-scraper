@@ -1,0 +1,127 @@
+{
+    "original": "Lundberg, Ruben, prakt, läkare, Göteborg, f. 26/11/95 i Skellefteå lands-förs. av trävaruhandl. Richard L. o. Amanda Fredrika Salander. G. 36 m. sjuksköt. Anna Ingeborg Svensson. Barn: Inga-Lisa f. 37, Inga-Birgitta 39, Karin Margareta 46. — Stud:ex. i Lund s. priv, 15, med. kand. i Sthlm 19 o. med. lic. där 23. Extra läkare vid Säters ’hospital 21, tf. aman. vid Allmänna barnhuset 22, assist :liäk. v. Sahlgr. sjukh. med. avd. 23, bitr. läk. v. Gbgs epid:sjukh. 24-25 aman. v. Sahlgr. sjukh. med. avd. 23-26 o. 31-32, andre läk. där 26-32 o. tf. överläk. sammani. två år 25-31, bitr. läk. v. avd. f. kroppssjuka å vårdanst. Gibraltar 32-37, järnv:läk., prakt. läk. i Gbg, spec. inv. sjukd. o. neurologi.",
+    "translated": "Lundberg, Ruben, physician, Gothenburg, b. 26/11/95 in Skellefteå rural parish, son of timber merchant Richard L. and Amanda Fredrika Salander. Married in 1936 to nurse Anna Ingeborg Svensson. Children: Inga-Lisa b. 1937, Inga-Birgitta b. 1939, Karin Margareta b. 1946. — Studied at Lund university, graduated with a degree in medicine in Stockholm in 1923. Worked as a junior doctor at Säter's hospital in 1921, as acting junior physician at the General orphanage in 1922, as assistant doctor at Sahlgren Hospital medical department in 1923, as assistant doctor at Gothenburg epidemic hospital from 1924 to 1925, as acting junior physician and temporary senior physician at Sahlgren Hospital from 1923 to 1926 and 1931 to 1932 respectively, as junior doctor in the department for patients with physical illnesses at Gibraltar nursing home from 1932 to 1937, as railway doctor, and as practicing doctor in Gothenburg, specializing in tuberculosis and neurology.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ruben Lundberg\",\n  \"birthDate\": \"1895-11-26\",\n  \"birthPlace\": {\n    \"@type\": \"AdministrativeArea\",\n    \"name\": \"Skellefteå rural parish\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Richard L. Lundberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Fredrika Salander\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Ingeborg Svensson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga-Lisa Lundberg\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga-Birgitta Lundberg\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Margareta Lundberg\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Stockholm University\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. in Lund\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. kand. in Stockholm\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. lic. in Stockholm\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"Unknown\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Physician\",\n    \"Junior Doctor\",\n    \"Acting Junior Physician\",\n    \"Assistant Doctor\",\n    \"Railway Doctor\",\n    \"Practicing Doctor\"\n  ],\n  \"worksFor\": \"Gothenburg\",\n  \"specialties\": [\n    \"General Medicine\",\n    \"Tuberculosis\",\n    \"Neurology\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Säter's Hospital\",\n      \"jobTitle\": \"Junior Doctor\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"General Orphanage\",\n      \"jobTitle\": \"Acting Junior Physician\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sahlgren Hospital\",\n      \"jobTitle\": \"Assistant Doctor\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"Unknown\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Epidemic Hospital\",\n      \"jobTitle\": \"Assistant Doctor\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gibraltar Nursing Home\",\n      \"jobTitle\": \"Junior Doctor\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Ruben Lundberg",
+        "birthDate": "1895-11-26",
+        "birthPlace": {
+            "@type": "AdministrativeArea",
+            "name": "Skellefteå rural parish"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Richard L. Lundberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Fredrika Salander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Ingeborg Svensson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inga-Lisa Lundberg",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga-Birgitta Lundberg",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Margareta Lundberg",
+                "birthDate": "1946"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Stockholm University"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. in Lund",
+                "startDate": "1915",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. kand. in Stockholm",
+                "startDate": "1919",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. lic. in Stockholm",
+                "startDate": "1923",
+                "endDate": "Unknown"
+            }
+        ],
+        "jobTitle": [
+            "Physician",
+            "Junior Doctor",
+            "Acting Junior Physician",
+            "Assistant Doctor",
+            "Railway Doctor",
+            "Practicing Doctor"
+        ],
+        "worksFor": "Gothenburg",
+        "specialties": [
+            "General Medicine",
+            "Tuberculosis",
+            "Neurology"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Säter's Hospital",
+                "jobTitle": "Junior Doctor",
+                "startDate": "1921",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "General Orphanage",
+                "jobTitle": "Acting Junior Physician",
+                "startDate": "1922",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sahlgren Hospital",
+                "jobTitle": "Assistant Doctor",
+                "startDate": "1923",
+                "endDate": "Unknown"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Epidemic Hospital",
+                "jobTitle": "Assistant Doctor",
+                "startDate": "1924",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gibraltar Nursing Home",
+                "jobTitle": "Junior Doctor",
+                "startDate": "1932",
+                "endDate": "1937"
+            }
+        ]
+    }
+}

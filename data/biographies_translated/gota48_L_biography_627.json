@@ -1,0 +1,91 @@
+{
+    "original": "Lönnqvist, Elisabet (Lisa), tandläkare, Fimspång, f. 31/5/00 i Västan-fors, Västmanl. 1., av Jacob Jacobsson o. Mina Andersscn. G. 25 m. tandl. Bnor Lönnqvist. Barn : Knut f. 38, Anders 41. — Stud:ex. i Upps. 19, tand-1 :kand. 22, tandläk. 25. Praktik i Fin-’Spång sed. 25,",
+    "translated": "Lönnqvist, Elisabet (Lisa), dentist, Fimspång, b. 31/5/00 in Västanfors, Västmanl. 1st, daughter of Jacob Jacobsson and Mina Andersson. Married on the 25th with dentist Bnor Lönnqvist. Children: Knut b. 38, Anders b. 41. — Completed high school in Uppsala in 19, dental studies in 22, became a dentist in 25. Practiced in Fin’Spång from 25.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Elisabet Lönnqvist\",\n  \"givenName\": \"Elisabet\",\n  \"additionalName\": \"Lisa\",\n  \"familyName\": \"Lönnqvist\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1900-05-31\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Västanfors\",\n      \"addressRegion\": \"Västmanland\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jacob Jacobsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mina Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bnor Lönnqvist\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut Lönnqvist\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Lönnqvist\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardDate\": \"1919\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Uppsala\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Tandläk. kand.\",\n      \"awardDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Professional degree\",\n      \"educationalLevel\": \"Professional degree\",\n      \"educationalCredentialAwarded\": \"Tandläkare\",\n      \"awardDate\": \"1925\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Fimspång\"\n  },\n  \"worksFrom\": {\n    \"@type\": \"Date\",\n    \"startDate\": \"1925\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Elisabet Lönnqvist",
+        "givenName": "Elisabet",
+        "additionalName": "Lisa",
+        "familyName": "Lönnqvist",
+        "jobTitle": "Dentist",
+        "birthDate": "1900-05-31",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Västanfors",
+                "addressRegion": "Västmanland",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Jacob Jacobsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Mina Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Bnor Lönnqvist",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Knut Lönnqvist",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Lönnqvist",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardDate": "1919",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Uppsala",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Tandläk. kand.",
+                "awardDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional degree",
+                "educationalLevel": "Professional degree",
+                "educationalCredentialAwarded": "Tandläkare",
+                "awardDate": "1925"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Fimspång"
+        },
+        "worksFrom": {
+            "@type": "Date",
+            "startDate": "1925"
+        }
+    }
+}

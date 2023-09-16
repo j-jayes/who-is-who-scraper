@@ -1,0 +1,102 @@
+{
+    "original": "Larsson, Alvar Erik Arvid, fil. lic.. Valdemarsvik, f. 4/9/12 i Torsåker, Gävleb. 1., av Arvid o. Anna L. G. 41 m. Anna Lisa Berg. — Fil. kand. v. Sthlms högsk. 40, fil. lic. 43. Anst. v. Veterinärliögskolans med. klin. 38-41, as’sist. v. Cellulosaind. centrallab. 41-44, dito v. Sv. träfors^kn :inst. 44-45, kemist v. C. J. Lundbergs Läderfabr. A-B i Valdemarsvik sed. 45. Medl. av Kemistsamf. o. Odd Fellow. Skr.: div. art. i fackpressen.",
+    "translated": "Larsson, Alvar Erik Arvid, M.A. Valdemarsvik, b. 4/9/12 in Torsåker, Gävleb. County, the eldest son of Arvid and Anna L. G. Larsson. Married Anna Lisa Berg in 1941. - Bachelor of Arts from Stockholm University in 1940, Master of Arts in 1943. Employed at the Veterinary School's Medical Clinic from 1938-1941, assistant at the Central Laboratory of the Cellulose Industry from 1941-1944, assistant at the Swedish Wood Research Institute from 1944-1945, chemist at C.J. Lundbergs Leather Factory AB in Valdemarsvik since 1945. Member of the Chemical Society and the Odd Fellow Society. Authored various articles in professional journals.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Alvar Erik Arvid Larsson\",\n  \"birthPlace\": \"Torsåker, Gävleb\",\n  \"birthDate\": \"1912-09-04\",\n  \"father\": \"Arvid Larsson\",\n  \"mother\": \"Anna L. G. Larsson\",\n  \"spouse\": \"Anna Lisa Berg\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor\",\n      \"educationalLevel\": \"Bachelor of Arts\",\n      \"educationalCredentialAwarded\": \"Bachelor of Arts\",\n      \"educationalInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Stockholm University\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"master\",\n      \"educationalLevel\": \"Master of Arts\",\n      \"educationalCredentialAwarded\": \"Master of Arts\",\n      \"educationalInstitution\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Stockholm University\"\n      },\n      \"startDate\": \"1940\",\n      \"endDate\": \"1943\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1941\",\n      \"roleName\": \"Assistant\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Veterinary School's Medical Clinic\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1944\",\n      \"roleName\": \"Assistant\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Central Laboratory of the Cellulose Industry\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\",\n      \"roleName\": \"Assistant\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Wood Research Institute\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1945\",\n      \"roleName\": \"Chemist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"C.J. Lundbergs Leather Factory AB\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Chemical Society\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Odd Fellow Society\"\n    }\n  ],\n  \"article\": [\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Article Title\",\n      \"publisher\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Journal Name\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alvar Erik Arvid Larsson",
+        "birthPlace": "Torsåker, Gävleb",
+        "birthDate": "1912-09-04",
+        "father": "Arvid Larsson",
+        "mother": "Anna L. G. Larsson",
+        "spouse": "Anna Lisa Berg",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor",
+                "educationalLevel": "Bachelor of Arts",
+                "educationalCredentialAwarded": "Bachelor of Arts",
+                "educationalInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Stockholm University"
+                },
+                "startDate": "1936",
+                "endDate": "1940"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "master",
+                "educationalLevel": "Master of Arts",
+                "educationalCredentialAwarded": "Master of Arts",
+                "educationalInstitution": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Stockholm University"
+                },
+                "startDate": "1940",
+                "endDate": "1943"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "endDate": "1941",
+                "roleName": "Assistant",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Veterinary School's Medical Clinic"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1941",
+                "endDate": "1944",
+                "roleName": "Assistant",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Central Laboratory of the Cellulose Industry"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "endDate": "1945",
+                "roleName": "Assistant",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Wood Research Institute"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1945",
+                "roleName": "Chemist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "C.J. Lundbergs Leather Factory AB"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Chemical Society"
+            },
+            {
+                "@type": "Organization",
+                "name": "Odd Fellow Society"
+            }
+        ],
+        "article": [
+            {
+                "@type": "Article",
+                "name": "Article Title",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Journal Name"
+                }
+            }
+        ]
+    }
+}

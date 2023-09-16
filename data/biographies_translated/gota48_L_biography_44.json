@@ -1,0 +1,102 @@
+{
+    "original": "Lang, Karl Folke Mortimer, advokat, Växjö, f. 13/5/05 i Jönköp. av v. hhövd. Filip L. o. Sigrid Arfwedson. G. 37 m. Astrid Blidberg. Barn: Eva f. 38, Karin 41, Astrid 44. — Stud:ex. v. Växjö h. a. 1. 23, jur. kand. i Lund 29. Tingstjg. i Jönköp. 29 o. Högsbv 30-32, deläg. i v. Hhövd. F. L. Langs Adv:kont. 34-46, därefter ensam inneh. av detsamma. V. auditör v. krigsr. v. Kronob. reg. 44. Led. av Sv:es adv:samf. 46. Resor t. Engl. o. Tyskl.",
+    "translated": "Lang, Karl Folke Mortimer, lawyer, Växjö, b. May 13, 1905, in Jönköping, son of Vice-Equestrian Chief Filip L. and Sigrid Arfwedson. Married in 1937 to Astrid Blidberg. Children: Eva b. 1938, Karin b. 1941, Astrid b. 1944. Completed high school studies at Växjö in January 1923, obtained a law degree from Lund in 1929. Served as a clerk at the district court in Jönköping in 1929 and in Högsbo from 1930-1932. Became a co-owner of the law firm F. L. Langs Advocate office from 1934 to 1946, and thereafter became its sole proprietor. Appointed as an auditor at the Swedish War Office in Kronoberg County in 1944. Joined the Swedish Bar Association in 1946. Traveled to England and Germany.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Folke Mortimer Lang\",\n  \"birthDate\": \"1905-05-13\",\n  \"birthPlace\": \"Jönköping, Sweden\",\n  \"description\": \"Lawyer\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Blidberg\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Astrid\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud:ex\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalProgram\": \"Växjö High School\",\n      \"graduationDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"jur. kand.\",\n      \"educationalLevel\": \"Bachelor's\",\n      \"educationalProgram\": \"Lund University\",\n      \"graduationDate\": \"1929\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Clerk\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\",\n      \"location\": \"Jönköping District Court\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Clerk\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"location\": \"Högsbo\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Co-owner\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1946\",\n      \"location\": \"F. L. Langs Advocate Office\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Sole Proprietor\",\n      \"startDate\": \"1946\",\n      \"location\": \"F. L. Langs Advocate Office\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Auditor\",\n      \"startDate\": \"1944\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish War Office\"\n      },\n      \"location\": \"Kronoberg County\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"joinDate\": \"1946\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"sameAs\": [\n    \"https://www.example.com/karl-lang\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Folke Mortimer Lang",
+        "birthDate": "1905-05-13",
+        "birthPlace": "Jönköping, Sweden",
+        "description": "Lawyer",
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Blidberg",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Astrid",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex",
+                "educationalLevel": "HighSchool",
+                "educationalProgram": "Växjö High School",
+                "graduationDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "jur. kand.",
+                "educationalLevel": "Bachelor's",
+                "educationalProgram": "Lund University",
+                "graduationDate": "1929"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Clerk",
+                "startDate": "1929",
+                "endDate": "1929",
+                "location": "Jönköping District Court"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Clerk",
+                "startDate": "1930",
+                "endDate": "1932",
+                "location": "Högsbo"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Co-owner",
+                "startDate": "1934",
+                "endDate": "1946",
+                "location": "F. L. Langs Advocate Office"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Sole Proprietor",
+                "startDate": "1946",
+                "location": "F. L. Langs Advocate Office"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Auditor",
+                "startDate": "1944",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Swedish War Office"
+                },
+                "location": "Kronoberg County"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "joinDate": "1946"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "sameAs": [
+            "https://www.example.com/karl-lang"
+        ]
+    }
+}

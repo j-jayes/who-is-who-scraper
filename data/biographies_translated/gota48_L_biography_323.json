@@ -1,0 +1,142 @@
+{
+    "original": "Lindgren, John Birger Bertrand, komminister, Hjärtlanda, Sävsjö, f. 15/3/06 i Algutsboda, Kronob. 1., av Karl J. L. o. Jenny Charlotta Peterson. G. 40 m. skodkökslär. Ida Andersson, d. 45. — Stud:ex. i Upps. 30, teol. kand. i Lund 36, prästv. i Växjö 37. Past :adj. i Glömminge 37, v. kommin. i Ljungby 37-3’8, adj. i Hovman-torp 38-40, v. pastor i Hemmesjö 40, Vrigstad 40-41, kommin. i Hjärtlanda sed. 41. Ordf. i kyrkoråd, skolråd o. kyrkostämma, led. av häls’ov:nd o. fattigv :styr. i Skepperstad.",
+    "translated": "Lindgren, John Birger Bertrand, vicar, Hjärtlanda, Sävsjö, born on March 15, 1906 in Algutsboda, Kronoberg. First child of Karl J. L. and Jenny Charlotta Peterson. Married in 1940 to home economics teacher Ida Andersson, who passed away in 1945. \n\nEducation: Graduated from Uppsala University in 1930, obtained a Bachelor's degree in Theology from Lund University in 1936, and was ordained as a priest in Växjö in 1937. \n\nProfessional experience: Assistant pastor in Glömminge from 1937, deputy vicar in Ljungby from 1937 to 1938, assistant pastor in Hovmantorp from 1938 to 1940, deputy pastor in Hemmesjö from 1940, Vrigstad from 1940 to 1941, and vicar in Hjärtlanda since 1941. \n\nPositions held: Chairman of the church council, school board, and church assembly. Member of the health committee and the poor relief board in Skepperstad.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"John Birger Bertrand Lindgren\",\n  \"birthDate\": \"1906-03-15\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Algutsboda\",\n      \"addressRegion\": \"Kronoberg\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl J. L. Lindgren\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jenny Charlotta Peterson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ida Andersson\",\n    \"deathDate\": \"1945\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondaryEducation\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"location\": \"Uppsala\"\n      },\n      \"educationalLevel\": \"HighSchool\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"UniversityDegree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\",\n        \"location\": \"Lund\"\n      },\n      \"educationalLevel\": \"Undergraduate\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"ProfessionalDegree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Växjö Diocese\",\n        \"location\": \"Växjö\"\n      },\n      \"educationalLevel\": \"Bachelor\",\n      \"endDate\": \"1937\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Vicar\",\n    \"Assistant Pastor\",\n    \"Deputy Vicar\",\n    \"Deputy Pastor\",\n    \"Chairman\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hjärtlanda\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Glömminge\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ljungby\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hovmantorp\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hemmesjö\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vrigstad\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skepperstad\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Assembly\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Health Committee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Poor Relief Board\"\n    }\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Sävsjö\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "John Birger Bertrand Lindgren",
+        "birthDate": "1906-03-15",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Algutsboda",
+                "addressRegion": "Kronoberg"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl J. L. Lindgren"
+            },
+            {
+                "@type": "Person",
+                "name": "Jenny Charlotta Peterson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ida Andersson",
+            "deathDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondaryEducation",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "location": "Uppsala"
+                },
+                "educationalLevel": "HighSchool",
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "UniversityDegree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University",
+                    "location": "Lund"
+                },
+                "educationalLevel": "Undergraduate",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "ProfessionalDegree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Växjö Diocese",
+                    "location": "Växjö"
+                },
+                "educationalLevel": "Bachelor",
+                "endDate": "1937"
+            }
+        ],
+        "jobTitle": [
+            "Vicar",
+            "Assistant Pastor",
+            "Deputy Vicar",
+            "Deputy Pastor",
+            "Chairman"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Hjärtlanda"
+            },
+            {
+                "@type": "Organization",
+                "name": "Glömminge",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ljungby",
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hovmantorp",
+                "startDate": "1938",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hemmesjö",
+                "startDate": "1940",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vrigstad",
+                "startDate": "1940",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skepperstad"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Church Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church Assembly"
+            },
+            {
+                "@type": "Organization",
+                "name": "Health Committee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Poor Relief Board"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sävsjö"
+        }
+    }
+}

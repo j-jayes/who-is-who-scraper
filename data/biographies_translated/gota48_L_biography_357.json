@@ -1,0 +1,137 @@
+{
+    "original": "Lindquist, John Ivar Harald, direktör, Alingsås, numera Säter, f. 10/6/08 i Hälsingborg av fabr. Jöns L. o. Bebe Persson. G. 33 m. Anna-Greta Tössberg. Barn: Gunnel f. 34, Karin 37. — Realex. i Hälsingborg 24, avg:ex. fr. Borås tekn. vävsk. 27, fr. Kroks handelsinst. i Llälsingborg 30. Anst. v. Nääs Fabr. A-B 31, v. Alingsås Bomullsväfveri A-B 31, fabr :chef där 46-47, dir. v. Säters Väveri A-B, Säter, fr. 47. Tekn. sakk. h. statens ind :kommiss. sed. 40, offentl. uppdrag i Danm., Fini., Polen, Tyskl. o. Engl. f. folkhush :dep., textilexp. v. handelsavtal’sförhandl. Studrvist. i Tyskl. 28-29, i Engl. 29. RVO.",
+    "translated": "Lindquist, John Ivar Harald, director, Alingsås, now Säter, b. 10/6/08 in Hälsingborg to factory worker Jöns L. and Bebe Persson. Married in 1933 to Anna-Greta Tössberg. Children: Gunnel b. 1934, Karin b. 1937. Completed Realexamen in Hälsingborg in 1924, graduated from Borås Technical Weaving School in 1927, Kroks Trade Institute in Hälsingborg in 1930. Employed by Nääs Fabriks AB in 1931, Alingsås Cotton Weaving Company AB in 1931, factory manager there from 1946-1947, director of Säters Väveri AB in Säter from 1947. Technical expert at the state industrial commission since 1940, involved in public assignments in Denmark, Finland, Poland, Germany, and England for the Ministry of Social Affairs. Studied in Germany in 1928-1929 and in England in 1929. Received the Royal Order of Vasa (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"John Ivar Harald Lindquist\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1908-06-10\",\n  \"birthPlace\": \"Hälsingborg\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Alingsås\",\n    \"addressRegion\": \"Säter\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jöns L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bebe Persson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Greta Tössberg\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnel\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Realex. i Hälsingborg\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Borås Technical Weaving School\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Kroks Trade Institute\",\n      \"location\": \"Hälsingborg\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nääs Fabriks AB\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Alingsås Cotton Weaving Company AB\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1947\",\n      \"jobTitle\": \"Factory Manager\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Säters Väveri AB\",\n      \"location\": \"Säter\",\n      \"startDate\": \"1947\",\n      \"jobTitle\": \"Director\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"@type\": \"OccupationalSkill\",\n      \"name\": \"Technical Expert\",\n      \"relevantOccupation\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"State Industrial Commission\"\n      },\n      \"startDate\": \"1940\"\n    }\n  ],\n  \"publicAssignments\": [\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Denmark\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Finland\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Poland\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Germany\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"England\"\n    }\n  ],\n  \"studiedIn\": [\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"England\",\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\",\n      \"abbreviation\": \"RVO\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "John Ivar Harald Lindquist",
+        "jobTitle": "Director",
+        "birthDate": "1908-06-10",
+        "birthPlace": "Hälsingborg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Alingsås",
+            "addressRegion": "Säter"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Jöns L."
+            },
+            {
+                "@type": "Person",
+                "name": "Bebe Persson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Greta Tössberg",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunnel",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Realex. i Hälsingborg",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Borås Technical Weaving School",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Kroks Trade Institute",
+                "location": "Hälsingborg",
+                "endDate": "1930"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Nääs Fabriks AB",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Alingsås Cotton Weaving Company AB",
+                "startDate": "1931",
+                "endDate": "1947",
+                "jobTitle": "Factory Manager"
+            },
+            {
+                "@type": "Organization",
+                "name": "Säters Väveri AB",
+                "location": "Säter",
+                "startDate": "1947",
+                "jobTitle": "Director"
+            }
+        ],
+        "skills": [
+            {
+                "@type": "OccupationalSkill",
+                "name": "Technical Expert",
+                "relevantOccupation": {
+                    "@type": "EducationalOrganization",
+                    "name": "State Industrial Commission"
+                },
+                "startDate": "1940"
+            }
+        ],
+        "publicAssignments": [
+            {
+                "@type": "Country",
+                "name": "Denmark"
+            },
+            {
+                "@type": "Country",
+                "name": "Finland"
+            },
+            {
+                "@type": "Country",
+                "name": "Poland"
+            },
+            {
+                "@type": "Country",
+                "name": "Germany"
+            },
+            {
+                "@type": "Country",
+                "name": "England"
+            }
+        ],
+        "studiedIn": [
+            {
+                "@type": "Country",
+                "name": "Germany",
+                "startDate": "1928",
+                "endDate": "1929"
+            },
+            {
+                "@type": "Country",
+                "name": "England",
+                "startDate": "1929"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa",
+                "abbreviation": "RVO"
+            }
+        ]
+    }
+}

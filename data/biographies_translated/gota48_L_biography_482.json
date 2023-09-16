@@ -1,0 +1,88 @@
+{
+    "original": "Lonander, Brita Maria, tandläkare, Sävedalen, f. 2/11/13 i Gbg av bygg-mäst. Emil L. o. Elisabeth Nilsson. — Stud:ex. v. Gbgs h. a. 1. f. fl. 33, tand-l:kand. 34, tandl. 37. Vik. i Gbg 38, assist, i Vänersborg s. å., dislr:tandl. i Lerum 42-44, egen prakt, i Sävedalen v. Gbg sed. 44.",
+    "translated": "Lonander, Brita Maria, dentist, Sävedalen, born on 2/11/13 in Gothenburg to master builder Emil L. and Elisabeth Nilsson. — Received High School Diploma from Gothenburg's Higher Education Institution in 1933, completed dental studies in 1934, became a dentist in 1937. Worked temporarily in Gothenburg in 1938, as an assistant in Vänersborg the same year, and as a district dentist in Lerum from 1942 to 1944. Started her own dental practice in Sävedalen near Gothenburg in 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Brita Maria Lonander\",\n  \"birthDate\": \"1913-11-02\",\n  \"birthPlace\": \"Gothenburg\",\n  \"description\": \"Dentist in Sävedalen\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emil L. (Master Builder)\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabeth Nilsson\"\n    }\n  ],\n  \"educationalBackground\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg's Higher Education Institution\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"HighSchool\",\n      \"name\": \"Gothenburg High School\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"HighSchool\",\n      \"name\": \"Gothenburg High School\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"profession\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"DentalClinic\",\n    \"name\": \"Own Dental Practice\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"City\",\n      \"name\": \"Sävedalen\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Vänersborg\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Lerum\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Work in Gothenburg\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant in Vänersborg\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\",\n      \"location\": \"Vänersborg\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"District Dentist in Lerum\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1944\",\n      \"location\": \"Lerum\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Brita Maria Lonander",
+        "birthDate": "1913-11-02",
+        "birthPlace": "Gothenburg",
+        "description": "Dentist in Sävedalen",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Emil L. (Master Builder)"
+            },
+            {
+                "@type": "Person",
+                "name": "Elisabeth Nilsson"
+            }
+        ],
+        "educationalBackground": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg's Higher Education Institution",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "HighSchool",
+                "name": "Gothenburg High School",
+                "endDate": "1933"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "HighSchool",
+                "name": "Gothenburg High School",
+                "endDate": "1933"
+            }
+        ],
+        "profession": "Dentist",
+        "worksFor": {
+            "@type": "DentalClinic",
+            "name": "Own Dental Practice"
+        },
+        "workLocation": [
+            {
+                "@type": "City",
+                "name": "Sävedalen"
+            },
+            {
+                "@type": "City",
+                "name": "Gothenburg"
+            },
+            {
+                "@type": "City",
+                "name": "Vänersborg"
+            },
+            {
+                "@type": "City",
+                "name": "Lerum"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Work in Gothenburg",
+                "startDate": "1938",
+                "endDate": "1938",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant in Vänersborg",
+                "startDate": "1938",
+                "endDate": "1938",
+                "location": "Vänersborg"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "District Dentist in Lerum",
+                "startDate": "1942",
+                "endDate": "1944",
+                "location": "Lerum"
+            }
+        ]
+    }
+}

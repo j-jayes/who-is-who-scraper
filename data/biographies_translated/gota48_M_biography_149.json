@@ -1,0 +1,36 @@
+{
+    "original": "Molander, Oscar Fredrik, direktör, Al|ingsås, f. 8/11/68 i Timmele, Älvsb. 1., av Nikolaus M. o. Hanna Johansson. G. 97 m. Maria Emgardt. Barn:",
+    "translated": "Molander, Oscar Fredrik, director, Alingsås, b. 8/11/68 in Timmele, Älvsborgs län (county), son of Nikolaus M. and Hanna Johansson. Married in 1897 to Maria Emgardt. Children:.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oscar Fredrik Molander\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1868-11-08\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Timmele\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Alingsås\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nikolaus Molander\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maria Emgardt\",\n    \"marriageDate\": \"1897\"\n  },\n  \"children\": {}\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oscar Fredrik Molander",
+        "jobTitle": "Director",
+        "birthDate": "1868-11-08",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Timmele"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Alingsås"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Nikolaus Molander"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maria Emgardt",
+            "marriageDate": "1897"
+        },
+        "children": {}
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "original": "Lofter, Knut Fritjof, tandläkare, Trollhättan, f. 10/3/07 i Spekeröd, Gbgs o. Boh. 1., av Edvard L. o. Hilda Hermansson. G. 43 m. Käthy Ljungkvist. Barn: Peter f. 44, Mona 45. — Stud:ex. i Lund 27, med. kand. där 31, tandläkare 34. Vik. i Jönköp. 34-36, praktik i Trollhättan sed. 37.",
+    "translated": "Lofter, Knut Fritjof, dentist, Trollhättan, born on March 10, 1907 in Spekeröd, Gothenburg and Bohuslän. Son of Edvard L. and Hilda Hermansson. Married in 1943 to Käthy Ljungkvist. Children: Peter, born in 1944, and Mona, born in 1945. \n— Attended Lund University, graduated in 1927. Received Bachelor of Medicine degree in 1931 and became a dentist in 1934. Worked temporarily in Jönköping from 1934 to 1936, and has been in practice in Trollhättan since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Fritjof Lofter\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Trollhättan\"\n  },\n  \"birthDate\": \"1907-03-10\",\n  \"birthPlace\": \"Spekeröd, Gothenburg and Bohuslän\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Edvard L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Hermansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Käthy Ljungkvist\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Peter\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mona\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping University\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1936\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättan dentist practice\",\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"medicalSpecialty\": \"Dentistry\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Fritjof Lofter",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Trollhättan"
+        },
+        "birthDate": "1907-03-10",
+        "birthPlace": "Spekeröd, Gothenburg and Bohuslän",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Edvard L."
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Hermansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Käthy Ljungkvist",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Peter",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Mona",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "endDate": "1927"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Jönköping University",
+                "startDate": "1934",
+                "endDate": "1936"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Trollhättan dentist practice",
+                "startDate": "1937"
+            }
+        ],
+        "medicalSpecialty": "Dentistry"
+    }
+}

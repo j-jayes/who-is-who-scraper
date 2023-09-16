@@ -1,0 +1,77 @@
+{
+    "original": "Lundh, Ture Gustaf Viktor Ferdinand, tandläkare, Göteborg, f. 1/8/96 i Tolg, Kronob. 1., av Fredrik L. o. Maria Johansson. G. 27 m. Hildur Nordenström. Barn: Lennart f. 28, Ingemar 29. — Stud:ex. v. Lunds priv. elem:sk. 17, tandhkand. 20, tandl. 22. Prakt, i Klippan 22-23, i Gbg .sed. 24. Skattmäst. i Gbgs tandl :säll’sk. 35.",
+    "translated": "Lundh, Ture Gustaf Viktor Ferdinand, dentist, Gothenburg, born on 1/8/1896 in Tolg, Kronoberg county, 1st child of Fredrik L. and Maria Johansson. Married on 27th with Hildur Nordenström. Children: Lennart, born in 1928, Ingemar, born in 1929. Completed high school at Lund's private elementary school in 1917, dental degree in 1920, licensed dentist in 1922. Practiced in Klippan from 1922 to 1923, and in Gothenburg since 1924. Treasurer of the Gothenburg Dental Society since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ture Gustaf Viktor Ferdinand Lundh\",\n  \"birthDate\": \"1896-08-01\",\n  \"birthPlace\": \"Tolg, Kronoberg county, Sweden\",\n  \"description\": \"Dentist from Gothenburg\",\n  \"parent\": [\n    {\n      \"name\": \"Fredrik L.\"\n    },\n    {\n      \"name\": \"Maria Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hildur Nordenström\",\n    \"marriageDate\": \"1927-12-27\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingemar\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund's Private Elementary School\",\n      \"location\": \"Lund, Sweden\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental School\",\n      \"location\": \"Unknown\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1920\"\n    }\n  ],\n  \"occupation\": {\n    \"@type\": \"MedicalOccupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1922\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Klippan\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1924\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Dental Society\",\n    \"startDate\": \"1935\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ture Gustaf Viktor Ferdinand Lundh",
+        "birthDate": "1896-08-01",
+        "birthPlace": "Tolg, Kronoberg county, Sweden",
+        "description": "Dentist from Gothenburg",
+        "parent": [
+            {
+                "name": "Fredrik L."
+            },
+            {
+                "name": "Maria Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hildur Nordenström",
+            "marriageDate": "1927-12-27"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lennart",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingemar",
+                "birthDate": "1929"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund's Private Elementary School",
+                "location": "Lund, Sweden",
+                "startDate": "1913",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental School",
+                "location": "Unknown",
+                "startDate": "1917",
+                "endDate": "1920"
+            }
+        ],
+        "occupation": {
+            "@type": "MedicalOccupation",
+            "name": "Dentist",
+            "startDate": "1922"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Klippan",
+                "startDate": "1922",
+                "endDate": "1923"
+            },
+            {
+                "@type": "Place",
+                "name": "Gothenburg",
+                "startDate": "1924"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Gothenburg Dental Society",
+            "startDate": "1935"
+        }
+    }
+}

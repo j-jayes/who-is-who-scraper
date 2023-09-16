@@ -1,0 +1,78 @@
+{
+    "original": "Larsson, Johan Adolf, direktör, Borås, f. 25/4/79 i Sexdrega, Älvsb. 1., av P. J. L. o. Maria Karlsson. G. m. Alda Pehrson. Barn: Äke f. 09, Birgit 11. — Start, konfektionsfirman Ad. Larsson &amp; Co. A-B i Borås 10, ombild. föret. t. fam:bol. 36, verkst. dir. där samt i Eastigh. A-B Wasa. Äg. av Tångagärde gård i S. Vings s :n. Rev. i Boråsortens konfekt :ind :fören. Medl. av Frimurarorden o. Par Bri-cole.",
+    "translated": "Larsson, Johan Adolf, director, Borås, b. 25/4/1879 in Sexdrega, Älvsborgs län, son of P. J. L. and Maria Karlsson. Married to Alda Pehrson. Children: Äke, born 1909, Birgit, born 1911. Started the clothing company Ad. Larsson & Co. A-B in Borås in 1910, transformed the company into a family-owned business in 1936, serving as managing director there and at Eastigh. A-B Wasa. Owner of Tångagärde estate in S. Vings s :n. Auditor in the Borås Clothing Industry Association. Member of the Freemason Order and the Par Bri-cole organization.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Adolf Larsson\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1879-04-25\",\n  \"birthPlace\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Borås\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"P. J. L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Karlsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alda Pehrson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Äke\",\n      \"birthDate\": \"1909-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1911-01-01\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Par Bri-cole\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ad. Larsson & Co. A-B\",\n      \"startDate\": \"1910-01-01\",\n      \"endDate\": \"1936-01-01\",\n      \"jobTitle\": \"Managing Director\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Borås\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eastigh. A-B Wasa\",\n      \"jobTitle\": \"Managing Director\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Place\",\n    \"name\": \"Tångagärde estate\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"S. Vings s :n\"\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Boråsortens konfekt :ind :fören\"\n    }\n  ]\n}\n",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Johan Adolf Larsson",
+        "jobTitle": "Director",
+        "birthDate": "1879-04-25",
+        "birthPlace": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Borås"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "P. J. L."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Alda Pehrson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Äke",
+                "birthDate": "1909-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1911-01-01"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Boråsortens konfekt :ind :fören"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Ad. Larsson & Co. A-B",
+                "startDate": "1910-01-01",
+                "endDate": "1936-01-01",
+                "jobTitle": "Managing Director",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Borås"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Eastigh. A-B Wasa",
+                "jobTitle": "Managing Director"
+            }
+        ],
+        "owns": {
+            "@type": "Place",
+            "name": "Tångagärde estate",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "S. Vings s :n"
+            }
+        }
+    }
+}

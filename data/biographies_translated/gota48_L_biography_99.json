@@ -1,0 +1,178 @@
+{
+    "original": "Larsson, Lars, läroverksadjunkt, Norrköping, f. 15/12/92 i Karlstad av trävaruhandl. Halvar L. o. Elin Knud-sen. G. 20 m. Svea Llellman. Barn: Lars-Olov f. 26. — Stud:ex. i Karlstad II, fil. mag. i Upps. 17, provår där 21-22. Vik. adj. i Hudiksvall 20-21, e. o. lektor i Söderhamn 22-28, adj. i Falköp. 28, adj. i tyska o. franska v. Norrköp. h. a. 1. sed. 33. Språkstud. i Frankr. 12, 35, 36 o. 38, Engl. 14, 21, 23 o. 34, Tyskl. 27.",
+    "translated": "Larsson, Lars, student teacher, Norrköping, born on December 15, 1892 in Karlstad to timber merchant Halvar L. and Elin Knudsen. Married in 1920 to Svea Llellman. Children: Lars-Olov, born in 1926. Completed high school in Karlstad in 1911, B.A. in Uppsala in 1917, and spent a trial year there in 1921-1922. Temporary teacher in Hudiksvall from 1920-1921, substitute lecturer in Söderhamn from 1922-1928. Became an adjunct teacher in Falköping in 1928, and in German and French at Norrköping since 1933. Language studies in France in 1912, 1935, 1936, and 1938, English in 1914, 1921, 1923, and 1934, and German in 1927.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Larsson\",\n  \"birthDate\": \"1892-12-15\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Karlstad\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Halvar Larsson\",\n      \"jobTitle\": \"Timber Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Knudsen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Svea Llellman\",\n    \"marriageDate\": \"1920-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Olov Larsson\",\n      \"birthDate\": \"1926-01-01\"\n    }\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"HighSchool\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"fil. mag.\",\n      \"educationalLevel\": \"Bachelors\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karlstad II\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Temporary Teacher\",\n      \"startDate\": \"1920-01-01\",\n      \"endDate\": \"1921-01-01\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hudiksvall\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Substitute Lecturer\",\n      \"startDate\": \"1922-01-01\",\n      \"endDate\": \"1928-01-01\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Söderhamn\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Adjunct Teacher\",\n      \"startDate\": \"1928-01-01\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Falköping\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Adjunct Teacher\",\n      \"startDate\": \"1933-01-01\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrköping High School\"\n      },\n      \"employmentType\": \"Permanent\"\n    }\n  ],\n  \"knowsLanguage\": [\n    {\n      \"@type\": \"Language\",\n      \"name\": \"French\"\n    },\n    {\n      \"@type\": \"Language\",\n      \"name\": \"English\"\n    },\n    {\n      \"@type\": \"Language\",\n      \"name\": \"German\"\n    },\n    {\n      \"@type\": \"Language\",\n      \"name\": \"Swedish\"\n    }\n  ],\n  \"languageStudy\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"France\",\n      \"startDate\": \"1912-01-01\",\n      \"endDate\": \"1912-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"France\",\n      \"startDate\": \"1935-01-01\",\n      \"endDate\": \"1935-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"France\",\n      \"startDate\": \"1936-01-01\",\n      \"endDate\": \"1936-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"France\",\n      \"startDate\": \"1938-01-01\",\n      \"endDate\": \"1938-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"England\",\n      \"startDate\": \"1914-01-01\",\n      \"endDate\": \"1914-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"England\",\n      \"startDate\": \"1921-01-01\",\n      \"endDate\": \"1921-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"England\",\n      \"startDate\": \"1923-01-01\",\n      \"endDate\": \"1923-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"England\",\n      \"startDate\": \"1934-01-01\",\n      \"endDate\": \"1934-01-01\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Germany\",\n      \"startDate\": \"1927-01-01\",\n      \"endDate\": \"1927-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Larsson",
+        "birthDate": "1892-12-15",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Karlstad"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Halvar Larsson",
+                "jobTitle": "Timber Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Knudsen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Svea Llellman",
+            "marriageDate": "1920-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars-Olov Larsson",
+                "birthDate": "1926-01-01"
+            }
+        ],
+        "educationalCredentialAwarded": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "HighSchool"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "fil. mag.",
+                "educationalLevel": "Bachelors"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karlstad II"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Temporary Teacher",
+                "startDate": "1920-01-01",
+                "endDate": "1921-01-01",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Hudiksvall"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Substitute Lecturer",
+                "startDate": "1922-01-01",
+                "endDate": "1928-01-01",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Söderhamn"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Adjunct Teacher",
+                "startDate": "1928-01-01",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Falköping"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Adjunct Teacher",
+                "startDate": "1933-01-01",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Norrköping High School"
+                },
+                "employmentType": "Permanent"
+            }
+        ],
+        "knowsLanguage": [
+            {
+                "@type": "Language",
+                "name": "French"
+            },
+            {
+                "@type": "Language",
+                "name": "English"
+            },
+            {
+                "@type": "Language",
+                "name": "German"
+            },
+            {
+                "@type": "Language",
+                "name": "Swedish"
+            }
+        ],
+        "languageStudy": [
+            {
+                "@type": "Place",
+                "name": "France",
+                "startDate": "1912-01-01",
+                "endDate": "1912-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "France",
+                "startDate": "1935-01-01",
+                "endDate": "1935-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "France",
+                "startDate": "1936-01-01",
+                "endDate": "1936-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "France",
+                "startDate": "1938-01-01",
+                "endDate": "1938-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "England",
+                "startDate": "1914-01-01",
+                "endDate": "1914-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "England",
+                "startDate": "1921-01-01",
+                "endDate": "1921-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "England",
+                "startDate": "1923-01-01",
+                "endDate": "1923-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "England",
+                "startDate": "1934-01-01",
+                "endDate": "1934-01-01"
+            },
+            {
+                "@type": "Place",
+                "name": "Germany",
+                "startDate": "1927-01-01",
+                "endDate": "1927-01-01"
+            }
+        ]
+    }
+}

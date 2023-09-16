@@ -1,0 +1,36 @@
+{
+    "original": "Melbäck, Karil Sven Börje, is’t’ad.s-kamireTiare, Tranfåis, f. 8/11/17 i Fiail-;k’enb’erg. G. 45 iii. Iniga-LifJli Ander|s’-:so&gt;n. Barn: Bo&gt; f. 46. — DSI 43. Stads-boikliå-IslL i Sikiö!vd’e 44-46, istadisikatmir. i Trianås’ ’sc^di. 46.",
+    "translated": "Melbäck, Karl Sven Börje, is a retired customs officer, born on August 11th, 1917 in Filipstad. Married in 1945 to Inga-Lis Andersson. They have one child, Bo, born in 1946. Karl worked as a city police officer in Södervärnsvägen from 1944 to 1946, and later as a customs officer in Tranås in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Sven Börje Melbäck\",\n  \"birthDate\": \"1917-08-11\",\n  \"birthPlace\": \"Filipstad\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga-Lis Andersson\",\n    \"marriageDate\": \"1945\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bo\",\n    \"birthDate\": \"1946\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Customs officer\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"City police officer\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\",\n      \"workLocation\": \"Södervärnsvägen\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Sven Börje Melbäck",
+        "birthDate": "1917-08-11",
+        "birthPlace": "Filipstad",
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga-Lis Andersson",
+            "marriageDate": "1945"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bo",
+            "birthDate": "1946"
+        },
+        "occupation": [
+            {
+                "@type": "Person",
+                "name": "Customs officer",
+                "startDate": "1946"
+            },
+            {
+                "@type": "Person",
+                "name": "City police officer",
+                "startDate": "1944",
+                "endDate": "1946",
+                "workLocation": "Södervärnsvägen"
+            }
+        ]
+    }
+}

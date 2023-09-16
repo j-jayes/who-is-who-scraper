@@ -1,0 +1,68 @@
+{
+    "original": "Lundberg, Folke Karl Walter, fabrikschef, Valdemarsvik, f. 5/1/09 i Valdemarsvik, Östergötl. 1., av fabr. Valter L. o. Hilma Nordström. G. 36 m. Iris Ungroth. — Stud. v. h. allm. lärov., tekn. elem:sk. i Norrköp. Vol. v. C. J. Lundbergs Läderfabr. A-B i Valdemarsvik, Lederwerke Falk &amp; Schütt i Wilster i Holstein o. h. Le-derw. Otto &amp; Al-brecht Dix i Weida i Thüringen 24-27, genomg. Deutsche Gerberschule i Freiberg 27-28. Anst. v. C. J. Lundbergs Läderfabr. A-B sed. 28, fabrxhef där sed. 30. Hob-bies: jakt, fiske o. ridsport.",
+    "translated": "Lundberg, Folke Karl Walter, factory manager, Valdemarsvik, b. 5/1/09 in Valdemarsvik, Östergötland. Son of Valter L. and Hilma Nordström. Married in 1936 to Iris Ungroth. Studied at the general high school and technical vocational school in Norrköping. Worked at C. J. Lundbergs Leather Factory Ltd. in Valdemarsvik, Lederwerke Falk & Schütt in Wilster, Holstein, and Leatherworks Otto & Albrecht Dix in Weida, Thüringen from 1924 to 1927. Completed studies at the German Tanning School in Freiberg from 1927 to 1928. Employed at C. J. Lundbergs Leather Factory Ltd. since 1928, serving as factory manager since 1930. Hobbies include hunting, fishing, and horseback riding.",
+    "structured_raw": "{\n   \"@context\":{\n      \"@vocab\":\"http://schema.org/\",\n      \"xsd\":\"http://www.w3.org/2001/XMLSchema#\"\n   },\n   \"@type\":\"Person\",\n   \"name\":\"Folke Karl Walter Lundberg\",\n   \"birthDate\":\"1909-01-05\",\n   \"birthPlace\":\"Valdemarsvik, Östergötland, Sweden\",\n   \"description\":\"Factory manager at C. J. Lundbergs Leather Factory Ltd.\",\n   \"parent\":{\n      \"@type\":\"Parent\",\n      \"father\":{\n         \"@type\":\"Person\",\n         \"name\":\"Valter L. Lundberg\"\n      },\n      \"mother\":{\n         \"@type\":\"Person\",\n         \"name\":\"Hilma Nordström\"\n      }\n   },\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Iris Ungroth\",\n      \"marriageDate\":\"1936\"\n   },\n   \"education\":{\n      \"@type\":\"EducationalOccupationalCredential\",\n      \"educationalLevel\":\"General high school, Technical vocational school\",\n      \"alumniOf\":[\n         {\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"General High School\"\n         },\n         {\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Technical Vocational School\"\n         }\n      ],\n      \"startDate\":[\n         \"1924-01-01\",\n         \"1927-01-01\"\n      ],\n      \"endDate\":[\n         \"1927-12-31\",\n         \"1928-12-31\"\n      ]\n   },\n   \"work\":{\n      \"@type\":\"OrganizationRole\",\n      \"startDate\":\"1928\",\n      \"roleName\":\"Factory Manager\",\n      \"organization\":{\n         \"@type\":\"Organization\",\n         \"name\":\"C. J. Lundbergs Leather Factory Ltd.\"\n      }\n   },\n   \"hobbies\":[\n      \"Hunting\",\n      \"Fishing\",\n      \"Horseback riding\"\n   ]\n}",
+    "structured": {
+        "@context": {
+            "@vocab": "http://schema.org/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "@type": "Person",
+        "name": "Folke Karl Walter Lundberg",
+        "birthDate": "1909-01-05",
+        "birthPlace": "Valdemarsvik, Östergötland, Sweden",
+        "description": "Factory manager at C. J. Lundbergs Leather Factory Ltd.",
+        "parent": {
+            "@type": "Parent",
+            "father": {
+                "@type": "Person",
+                "name": "Valter L. Lundberg"
+            },
+            "mother": {
+                "@type": "Person",
+                "name": "Hilma Nordström"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Iris Ungroth",
+            "marriageDate": "1936"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "General high school, Technical vocational school",
+            "alumniOf": [
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "General High School"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Technical Vocational School"
+                }
+            ],
+            "startDate": [
+                "1924-01-01",
+                "1927-01-01"
+            ],
+            "endDate": [
+                "1927-12-31",
+                "1928-12-31"
+            ]
+        },
+        "work": {
+            "@type": "OrganizationRole",
+            "startDate": "1928",
+            "roleName": "Factory Manager",
+            "organization": {
+                "@type": "Organization",
+                "name": "C. J. Lundbergs Leather Factory Ltd."
+            }
+        },
+        "hobbies": [
+            "Hunting",
+            "Fishing",
+            "Horseback riding"
+        ]
+    }
+}

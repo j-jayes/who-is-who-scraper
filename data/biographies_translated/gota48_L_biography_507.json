@@ -1,0 +1,122 @@
+{
+    "original": "Lundberg, Bengt Gunnar Albert, civilingenjör, Halmstad, f. 16/6/02 i Sthlm av öv:löjtn. VVK Albert L. o. Signe Ekströmer. G. 40 m. Inga Söderlund. Barn: Kristina f. 40, Nils 42, Anders 46. — Stud:ex. 20, utex. fr. KTH 25. Anst. v. ASEA 26-28, Sv :e-Amer istift. univ:stip. i USA 29-30, anst. v. statens vattenf :verk 30-35, A-B Fogelfors Bruk 35-36, drifts-ing. v. Halmstads elverk sed. 37.",
+    "translated": "Lundberg, Bengt Gunnar Albert, Civil Engineer, Halmstad, Born on June 16, 1902 in Stockholm, son of Lieutenant Colonel Albert L. and Signe Ekströmer. Married in 1940 to Inga Söderlund. Children: Kristina, born in 1940, Nils, born in 1942, Anders, born in 1946. Completed secondary school in 1920, graduated from the Royal Institute of Technology in 1925. Employed at ASEA from 1926 to 1928, Swedish-American Foundation University Scholarship in the USA from 1929 to 1930, employed at the National Water Works from 1930 to 1935, A-B Fogelfors Bruk from 1935 to 1936, Chief Engineer at Halmstad Power Company since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Gunnar Albert Lundberg\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Halmstad\"\n  },\n  \"birthDate\": \"1902-06-16\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Stockholm\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert L.\",\n      \"givenName\": \"Albert\",\n      \"familyName\": \"L.\",\n      \"jobTitle\": \"Lieutenant Colonel\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Ekströmer\",\n      \"givenName\": \"Signe\",\n      \"familyName\": \"Ekströmer\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga Söderlund\",\n    \"givenName\": \"Inga\",\n    \"familyName\": \"Söderlund\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Lundberg\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Lundberg\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Lundberg\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school\",\n      \"startDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduated from\",\n      \"credential\": \"Royal Institute of Technology\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Employed at ASEA\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"ASEA\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Swedish-American Foundation University Scholarship recipient\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish-American Foundation University\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Employed at National Water Works\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1935\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Water Works\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Employed at A-B Fogelfors Bruk\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Fogelfors Bruk\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Chief Engineer at Halmstad Power Company\",\n      \"startDate\": \"1937\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Halmstad Power Company\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Gunnar Albert Lundberg",
+        "jobTitle": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Halmstad"
+        },
+        "birthDate": "1902-06-16",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Stockholm"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Albert L.",
+                "givenName": "Albert",
+                "familyName": "L.",
+                "jobTitle": "Lieutenant Colonel"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Ekströmer",
+                "givenName": "Signe",
+                "familyName": "Ekströmer"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga Söderlund",
+            "givenName": "Inga",
+            "familyName": "Söderlund"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kristina Lundberg",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Nils Lundberg",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Lundberg",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school",
+                "startDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduated from",
+                "credential": "Royal Institute of Technology",
+                "startDate": "1925"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Employed at ASEA",
+                "startDate": "1926",
+                "endDate": "1928",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "ASEA"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Swedish-American Foundation University Scholarship recipient",
+                "startDate": "1929",
+                "endDate": "1930",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish-American Foundation University"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Employed at National Water Works",
+                "startDate": "1930",
+                "endDate": "1935",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "National Water Works"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Employed at A-B Fogelfors Bruk",
+                "startDate": "1935",
+                "endDate": "1936",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Fogelfors Bruk"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Chief Engineer at Halmstad Power Company",
+                "startDate": "1937",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Halmstad Power Company"
+                }
+            }
+        ]
+    }
+}

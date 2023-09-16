@@ -1,0 +1,121 @@
+{
+    "original": "Lindström, Fredrik Ernst Arvid, ingenjör, Linköping, f. 19/8/89 i Ängelsberg, Västmanl. 1., av landskapsmål. A. M. L. o. Helena von Götz. G. m. Anne-Marie Mostad. Barn: Elsa f. 16, g. m. landshövding Per West-ling, Kristianstad, Ulla 23, g. m. dir :assistent Curt Eklund, Linköping. — Res :officer v. fältart., el:ing:ex. v. Technikum i Strelitz. Installa-tionsverksamh. 14-17, beräkn :ing. v. ASEA Ludvikaverken 18-19, start, tills, m. ing. A. L. Wadström A-B Sv. Transformatorfabr. 19, verkst. dir. o. led. av styr. f. detta föret.",
+    "translated": "Lindström, Fredrik Ernst Arvid, engineer, Linköping, b. 19/8/89 in Ängelsberg, Västmanland, 1st son of A.M.L. and Helena von Götz. Married to Anne-Marie Mostad. Children: Elsa b. 1916, married to county governor Per Westling, Kristianstad, Ulla b. 1923, married to director assistant Curt Eklund, Linköping. Former military officer in the field of artillery, electrical engineering graduate from Technikum in Strelitz. Worked in the field of installations from 1914-1917, estimated engineer at ASEA Ludvikaverken from 1918-1919, started and served with engineer A.L. Wadström A-B Swedish Transformer Factory from 1919, currently serving as managing director and leader of the board for this company.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Fredrik Ernst Arvid Lindström\",\n  \"jobTitle\": \"Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\"\n  },\n  \"birthDate\": \"1889-08-19\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Ängelsberg\",\n      \"addressRegion\": \"Västmanland\"\n    }\n  },\n  \"parents\": {\n    \"@type\": \"Person\",\n    \"father\": \"A. M. L. Lindström\",\n    \"mother\": \"Helena von Götz\"\n  },\n  \"spouse\": \"Anne-Marie Mostad\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa\",\n      \"birthDate\": \"1916\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Per Westling\",\n        \"jobTitle\": \"County Governor\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Kristianstad\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla\",\n      \"birthDate\": \"1923\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Curt Eklund\",\n        \"jobTitle\": \"Director Assistant\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Linköping\"\n        }\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"ASEA Ludvikaverken\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A. L. Wadström A-B Swedish Transformer Factory\",\n      \"jobTitle\": \"Managing Director\",\n      \"boardMember\": true\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Electrical Engineering\",\n    \"educationalLevel\": \"Bachelor's Degree\",\n    \"educationalProgram\": \"Technikum in Strelitz\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Military Officer\",\n      \"startDate\": \"Unknown\",\n      \"endDate\": \"Unknown\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Field of Artillery\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Electrical Engineer\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1917\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Installationsverksamh.\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Estimated Engineer\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"ASEA Ludvikaverken\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Engineer\",\n      \"startDate\": \"1919\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A. L. Wadström A-B Swedish Transformer Factory\",\n        \"jobTitle\": \"Managing Director\",\n        \"boardMember\": true\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Fredrik Ernst Arvid Lindström",
+        "jobTitle": "Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping"
+        },
+        "birthDate": "1889-08-19",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ängelsberg",
+                "addressRegion": "Västmanland"
+            }
+        },
+        "parents": {
+            "@type": "Person",
+            "father": "A. M. L. Lindström",
+            "mother": "Helena von Götz"
+        },
+        "spouse": "Anne-Marie Mostad",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Elsa",
+                "birthDate": "1916",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Per Westling",
+                    "jobTitle": "County Governor",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Kristianstad"
+                    }
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1923",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Curt Eklund",
+                    "jobTitle": "Director Assistant",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Linköping"
+                    }
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "ASEA Ludvikaverken"
+            },
+            {
+                "@type": "Organization",
+                "name": "A. L. Wadström A-B Swedish Transformer Factory",
+                "jobTitle": "Managing Director",
+                "boardMember": true
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Electrical Engineering",
+            "educationalLevel": "Bachelor's Degree",
+            "educationalProgram": "Technikum in Strelitz"
+        },
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Military Officer",
+                "startDate": "Unknown",
+                "endDate": "Unknown",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Field of Artillery"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Electrical Engineer",
+                "startDate": "1914",
+                "endDate": "1917",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Installationsverksamh."
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Estimated Engineer",
+                "startDate": "1918",
+                "endDate": "1919",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "ASEA Ludvikaverken"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Engineer",
+                "startDate": "1919",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "A. L. Wadström A-B Swedish Transformer Factory",
+                    "jobTitle": "Managing Director",
+                    "boardMember": true
+                }
+            }
+        ]
+    }
+}

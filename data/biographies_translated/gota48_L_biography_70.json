@@ -1,0 +1,83 @@
+{
+    "original": "Larsson, Bengt Olof, distriktsveterinär, Borås, f. 18/8/96 i Älgarås, Ska-rab. 1., av Johan L. o. Hilda Andersson. G. 25 m. Ninnan Bokstedt. Barn: Ulla-Britta f. 26, Inga-Lena 28, Anne-Marie 31, Bengt-Olof 38. — Stud:ex. i Örebro 15, veter :ex. 21. Tjg. å stat. vet:med. anst., tf. distr :-vet. i ol. distr., distr :veter. i Varekils distr. 25, i Borås distr. fr. 44. Medl. av Odd Fellow.",
+    "translated": "Larsson, Bengt Olof, district veterinarian, Borås, b. 18/8/96 in Älgarås, Skaraborg County, son of Johan L. and Hilda Andersson. Married on 25/xx to Ninnan Bokstedt. Children: Ulla-Britta b. 26, Inga-Lena b. 28, Anne-Marie b. 31, Bengt-Olof b. 38. Completed high school in Örebro in 1915, veterinary degree in 1921. Currently working at the state veterinary medical facility as a temporary district veterinarian in several districts, including Varekils district from 1925 and Borås district from 1944. Member of Odd Fellow.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Olof Larsson\",\n  \"jobTitle\": \"District Veterinarian\",\n  \"birthDate\": \"1896-08-18\",\n  \"birthPlace\": \"Älgarås, Skaraborg County\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilda Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ninnan Bokstedt\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla-Britta\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga-Lena\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt-Olof\",\n      \"birthDate\": \"1938\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex\",\n      \"credentialSubject\": \"Örebro\",\n      \"startDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"veter :ex\",\n      \"startDate\": \"1921\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Temporary District Veterinarian\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1944\",\n      \"namedPosition\": [\n        {\n          \"@type\": \"OrganizationRole\",\n          \"title\": \"Varekils District\"\n        },\n        {\n          \"@type\": \"OrganizationRole\",\n          \"title\": \"Borås District\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Odd Fellow\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Olof Larsson",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Temporary District Veterinarian",
+                "startDate": "1921",
+                "endDate": "1944",
+                "namedPosition": [
+                    {
+                        "@type": "OrganizationRole",
+                        "title": "Varekils District"
+                    },
+                    {
+                        "@type": "OrganizationRole",
+                        "title": "Borås District"
+                    }
+                ]
+            }
+        ],
+        "birthDate": "1896-08-18",
+        "birthPlace": "Älgarås, Skaraborg County",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan L."
+            },
+            {
+                "@type": "Person",
+                "name": "Hilda Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ninnan Bokstedt"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla-Britta",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga-Lena",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Anne-Marie",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt-Olof",
+                "birthDate": "1938"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex",
+                "credentialSubject": "Örebro",
+                "startDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "veter :ex",
+                "startDate": "1921"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Odd Fellow"
+        }
+    }
+}

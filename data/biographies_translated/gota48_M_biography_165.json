@@ -1,0 +1,84 @@
+{
+    "original": "Munktell, Theo f ron Nils Thor sten s-son, tandläkare, Borås, f. 18/5/07 i Torshälla av prov:iäk. Thorsten M. o. Signe Strömbom. G. 32 m. Karin Magnusson. Barn: Eva f. 36, Hans 40, Agneta 44. — Stud:ex. i Umeå 26, tandi:-kand. 28, tandl. 31. Prakt, i Borås sed. 31.",
+    "translated": "Munktell, Theo, born Nils Thorsten's son, dentist, from Borås. Born on May 18, 1907, in Torshälla, to legitimate parents Thorsten M. and Signe Strömbom. Married to Karin Magnusson in 1932. Children: Eva, born in 1936, Hans in 1940, Agneta in 1944. \n\nEducation: Passed student's maturity exam in Umeå in 1926. Enrolled in dental studies in 1928, graduated as a dentist in 1931. Practicing in Borås since 1931.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Theo Munktell\",\n  \"givenName\": \"Theo\",\n  \"familyName\": \"Munktell\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1907-05-18\",\n  \"birthPlace\": \"Torshälla\",\n  \"nationality\": \"Swedish\",\n  \"description\": \"Dentist from Borås\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thorsten Munktell\",\n      \"givenName\": \"Thorsten\",\n      \"familyName\": \"Munktell\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Strömbom\",\n      \"givenName\": \"Signe\",\n      \"familyName\": \"Strömbom\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Magnusson\",\n    \"givenName\": \"Karin\",\n    \"familyName\": \"Magnusson\",\n    \"gender\": \"Female\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Munktell\",\n      \"givenName\": \"Eva\",\n      \"familyName\": \"Munktell\",\n      \"birthDate\": \"1936-01-01\",\n      \"gender\": \"Female\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Munktell\",\n      \"givenName\": \"Hans\",\n      \"familyName\": \"Munktell\",\n      \"birthDate\": \"1940-01-01\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agneta Munktell\",\n      \"givenName\": \"Agneta\",\n      \"familyName\": \"Munktell\",\n      \"birthDate\": \"1944-01-01\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Umeå University\",\n    \"location\": \"Umeå\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Dental Association\"\n  },\n  \"occupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\"\n  },\n  \"startDate\": \"1931-01-01\",\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Borås\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Theo Munktell",
+        "givenName": "Theo",
+        "familyName": "Munktell",
+        "gender": "Male",
+        "birthDate": "1907-05-18",
+        "birthPlace": "Torshälla",
+        "nationality": "Swedish",
+        "description": "Dentist from Borås",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Thorsten Munktell",
+                "givenName": "Thorsten",
+                "familyName": "Munktell",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Strömbom",
+                "givenName": "Signe",
+                "familyName": "Strömbom",
+                "gender": "Female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Magnusson",
+            "givenName": "Karin",
+            "familyName": "Magnusson",
+            "gender": "Female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva Munktell",
+                "givenName": "Eva",
+                "familyName": "Munktell",
+                "birthDate": "1936-01-01",
+                "gender": "Female"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans Munktell",
+                "givenName": "Hans",
+                "familyName": "Munktell",
+                "birthDate": "1940-01-01",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta Munktell",
+                "givenName": "Agneta",
+                "familyName": "Munktell",
+                "birthDate": "1944-01-01",
+                "gender": "Female"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Umeå University",
+            "location": "Umeå"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Association"
+        },
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Dentist"
+        },
+        "startDate": "1931-01-01",
+        "workLocation": {
+            "@type": "Place",
+            "name": "Borås"
+        }
+    }
+}

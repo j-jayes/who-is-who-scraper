@@ -1,0 +1,80 @@
+{
+    "original": "Linden, Arnold, agronom, Bergs slussar, f. 3/6/98 i Klockrike, östergötl. L, av godsäg. Ernst Julius L. o. Hilma Paulina Karlsson. G. 24 m. Brita Ask-Upmark. Barn: Ulla f. 25, Bo 27. — Stud :ex. i Karlstad 17, agro-nomex. i Alnarp 23. Ägt o. brukat Högåsa egendom. Ljung, Östergötland, 24-44.",
+    "translated": "Linden, Arnold, agronomist, Bergs locks, born on 3/6/98 in Klockrike, Östergötland county, son of landowner Ernst Julius L. and Hilma Paulina Karlsson. Married on 24 with Brita Ask-Upmark. Children: Ulla born in 1925, Bo born in 1927. \n\nStudied examination in Karlstad in 1917, agronomist examination in Alnarp in 1923. Owned and operated Högåsa estate in Ljung, Östergötland from 1924 to 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Arnold Linden\",\n  \"jobTitle\": \"Agronomist\",\n  \"birthDate\": \"1898-06-03\",\n  \"birthPlace\": \"Klockrike, Östergötland\",\n  \"nationality\": \"Swedish\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ernst Julius Linden\",\n      \"jobTitle\": \"Landowner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Paulina Karlsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Ask-Upmark\",\n    \"marriageDate\": \"1924-XX-XX\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Linden\",\n      \"birthDate\": \"1925-XX-XX\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Linden\",\n      \"birthDate\": \"1927-XX-XX\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Exam\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Studied examination\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Exam\",\n      \"educationalLevel\": \"University\",\n      \"educationalCredentialAwarded\": \"Agronomist examination\",\n      \"awardedBy\": \"Alnarp\",\n      \"validFor\": [\n        {\n          \"@type\": \"AdministrativeArea\",\n          \"name\": \"Sweden\"\n        }\n      ],\n      \"startDate\": \"1917\",\n      \"endDate\": \"1923\"\n    }\n  ],\n  \"owns\": {\n    \"@type\": \"Place\",\n    \"name\": \"Högåsa estate\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Östergötland\",\n      \"addressLocality\": \"Ljung\"\n    },\n    \"startDate\": \"1924\",\n    \"endDate\": \"1944\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Bergs locks\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arnold Linden",
+        "jobTitle": "Agronomist",
+        "birthDate": "1898-06-03",
+        "birthPlace": "Klockrike, Östergötland",
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Ernst Julius Linden",
+                "jobTitle": "Landowner"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Paulina Karlsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Ask-Upmark",
+            "marriageDate": "1924-XX-XX"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla Linden",
+                "birthDate": "1925-XX-XX"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Linden",
+                "birthDate": "1927-XX-XX"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Exam",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Studied examination"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Exam",
+                "educationalLevel": "University",
+                "educationalCredentialAwarded": "Agronomist examination",
+                "awardedBy": "Alnarp",
+                "validFor": [
+                    {
+                        "@type": "AdministrativeArea",
+                        "name": "Sweden"
+                    }
+                ],
+                "startDate": "1917",
+                "endDate": "1923"
+            }
+        ],
+        "owns": {
+            "@type": "Place",
+            "name": "Högåsa estate",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Östergötland",
+                "addressLocality": "Ljung"
+            },
+            "startDate": "1924",
+            "endDate": "1944"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Bergs locks"
+        }
+    }
+}

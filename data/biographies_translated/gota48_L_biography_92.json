@@ -1,0 +1,132 @@
+{
+    "original": "Larsson, Ingrid Margareta, rektor, Göteborg, f. 26/3/92 i Gbg av kont :ch. Adolf L. o. Hilma Petersson. — Stud:-ex. 11, fil. kand. i Gbg 14, fil. mag. 15, provår v. Gbgs h. latin 16. Lär. v. Sigrid Rudebecks sk. o. Gbgs gymn. f. fl. 16-31, förest, f. Majornas elem:-lärov. f. fl. i Gbg 31-36, ord. ämneslär. o. rektor v. Majornas kommun, flicksk. i Gbg sed. 36. Ordf. i Gbgs lokalförb. av Flick- o. samsk :lär. riksförb., led. av dess centralstyr. sed. 45, av styr. f. Pedag. sällsk. i Gbg sed. 31 samt av styr. f. Gbgs sjuksköt :sk. sed. 36. Stud:resor t. Engl., Frankr., Ital. Schweiz o. Tyskl.",
+    "translated": "Larsson, Ingrid Margareta, principal, Gothenburg, b. 26/3/92 in Gothenburg, daughter of accountant Adolf L. and Hilma Petersson. — Passed student exam in 1911, Bachelor of Arts in Gothenburg in 1914, Master of Arts in 1915, one year of practice teaching at Gothenburg Higher Latin School in 1916. Teacher at Sigrid Rudebeck's school and Gothenburg Gymnasium from 1916 to 1931, superintendent of Majorna Elementary School from 1931 to 1936, regular subject teacher and principal at Majorna Municipality, Girls' School in Gothenburg since 1936. Chairperson of the Gothenburg Local Association of Female and Co-educational Teachers' National Association, member of its executive board since 1945, member of the board of the Gothenburg Pedagogical Society since 1931, and member of the board of the Gothenburg Nursing School since 1936. Study trips to England, France, Italy, Switzerland, and Germany.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ingrid Margareta Larsson\",\n  \"birthDate\": \"1892-03-26\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Adolf L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Petersson\"\n    }\n  ],\n  \"jobTitle\": \"Principal\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Local Association of Female and Co-educational Teachers' National Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Pedagogical Society\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Nursing School\",\n      \"startDate\": \"1936\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Passed student exam\",\n      \"startDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Arts\",\n      \"startDate\": \"1914\",\n      \"inSupportOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master of Arts\",\n      \"startDate\": \"1915\",\n      \"inSupportOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Teaching certificate\",\n      \"startDate\": \"1916\",\n      \"inSupportOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg Higher Latin School\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1931\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Sigrid Rudebeck's School\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Gothenburg Gymnasium\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1936\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Majorna Elementary School\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Majorna Municipality\"\n        }\n      ],\n      \"roleName\": \"Superintendent\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Majorna Municipality Girls' School, Gothenburg\"\n        }\n      ],\n      \"roleName\": \"Principal\"\n    }\n  ],\n  \"additionalName\": [\n    \"Margareta\"\n  ],\n  \"locationCreated\": [\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.example.com/ingrid-larsson\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ingrid Margareta Larsson",
+        "birthDate": "1892-03-26",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Adolf L."
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Petersson"
+            }
+        ],
+        "jobTitle": "Principal",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Local Association of Female and Co-educational Teachers' National Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Pedagogical Society",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Nursing School",
+                "startDate": "1936"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Passed student exam",
+                "startDate": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Arts",
+                "startDate": "1914",
+                "inSupportOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master of Arts",
+                "startDate": "1915",
+                "inSupportOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Teaching certificate",
+                "startDate": "1916",
+                "inSupportOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg Higher Latin School"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1916",
+                "endDate": "1931",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Sigrid Rudebeck's School"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Gothenburg Gymnasium"
+                    }
+                ]
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "endDate": "1936",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Majorna Elementary School"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Majorna Municipality"
+                    }
+                ],
+                "roleName": "Superintendent"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Majorna Municipality Girls' School, Gothenburg"
+                    }
+                ],
+                "roleName": "Principal"
+            }
+        ],
+        "additionalName": [
+            "Margareta"
+        ],
+        "locationCreated": [
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            }
+        ],
+        "sameAs": [
+            "https://www.example.com/ingrid-larsson"
+        ]
+    }
+}

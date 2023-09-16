@@ -1,0 +1,77 @@
+{
+    "original": "Lundgren, Rolf, länsbokhållare, Jönköping, f. 27/1/09 i Uppsala av Per Rickard L. o. Elisabet Eriksson. G. 41 m. Kristina Hultman. Barn: Anders f. 42. — Stud:ex. v. Upp^s. h. a. 1. 28, jur. kand. v. Upps. univ. 3(). Doms :tjg. v. Bollnäs doms. 36-39, anst. s. länsbokhåll. v. länsstyr. i Västerås 39-44, v. länsstyr. i Jönköp. fr. 45.",
+    "translated": "Lundgren, Rolf, county bookkeeper, Jönköping, b. 27/1/09 in Uppsala to Per Rickard L. and Elisabet Eriksson. Married in 1941 to Kristina Hultman. Children: Anders, b. 1942. Completed secondary school at Uppsala high school, natural science field, in 1928. Obtained a law degree from Uppsala University in 1930. Worked as a court clerk at Bollnäs court from 1936-1939, employed as a county bookkeeper at the county administration in Västerås from 1939-1944, and at the county administration in Jönköping from 1945 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rolf Lundgren\",\n  \"birthDate\": \"1909-01-27\",\n  \"birthPlace\": \"Uppsala\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kristina Hultman\",\n    \"marriageDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Lundgren\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Studexamen\",\n        \"inDefinedTermSet\": \"https://schema.org/EducationSystem\"\n      },\n      \"educationalProgram\": \"Natural Science\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala High School\"\n      },\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"law degree\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Juris kandidat\",\n        \"inDefinedTermSet\": \"https://schema.org/EducationSystem\"\n      },\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Bollnäs Court\",\n      \"position\": \"Court Clerk\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Västerås County Administration\",\n      \"position\": \"County Bookkeeper\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Jönköping County Administration\",\n      \"position\": \"County Bookkeeper\",\n      \"startDate\": \"1945\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rolf Lundgren",
+        "birthDate": "1909-01-27",
+        "birthPlace": "Uppsala",
+        "spouse": {
+            "@type": "Person",
+            "name": "Kristina Hultman",
+            "marriageDate": "1941"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anders Lundgren",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Studexamen",
+                    "inDefinedTermSet": "https://schema.org/EducationSystem"
+                },
+                "educationalProgram": "Natural Science",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala High School"
+                },
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "law degree",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Juris kandidat",
+                    "inDefinedTermSet": "https://schema.org/EducationSystem"
+                },
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "endDate": "1930"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Court",
+                "name": "Bollnäs Court",
+                "position": "Court Clerk",
+                "startDate": "1936",
+                "endDate": "1939"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Västerås County Administration",
+                "position": "County Bookkeeper",
+                "startDate": "1939",
+                "endDate": "1944"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Jönköping County Administration",
+                "position": "County Bookkeeper",
+                "startDate": "1945"
+            }
+        ]
+    }
+}

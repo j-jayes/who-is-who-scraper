@@ -1,0 +1,85 @@
+{
+    "original": "Ljungars, Folke Torvid, praktiserande (läkare, Huskvarna, f. 8/5/06 i Skeg-rie, Malmöh. 1., av godsäg. Olof L. o. Ella Håkansson. G. 34 m. Inger Wennberg. Barn: Kerstin 35, Gunvor 37. — Stud:ex. i Norrköp. 24, med. kand. i Sthlm 29, med. Hc. i Lund 34. Div. förordn. v. klin. o. -sjukh. 35-36, prakt. läk. i Huskvarna sed. 37.",
+    "translated": "Ljungars, Folke Torvid, practicing (physician, Huskvarna, b. 8/5/06 in Skegrie, Malmöhus län, the first child of estate owner Olof L. and Ella Håkansson. Married since 1934 to Inger Wennberg. Children: Kerstin, born in 1935, Gunvor, born in 1937. Educational background: Passed the senior secondary exam in Norrköping in 1924, graduated with a bachelor's degree in medicine in Stockholm in 1929, obtained a medical license (Hc.) in Lund in 1934. Held various appointments in clinics and hospitals from 1935 to 1936, practicing physician in Huskvarna since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Folke Torvid Ljungars\",\n  \"jobTitle\": \"Practicing Physician\",\n  \"birthDate\": \"1906-05-08\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Skegrie, Malmöhus län\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Ljungars\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ella Håkansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inger Wennberg\",\n    \"startDate\": \"1934-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Ljungars\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunvor Ljungars\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"seniorSecondaryExam\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrköping\"\n      },\n      \"startDate\": \"1924-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelorsDegree\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      },\n      \"startDate\": \"1929-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medicalLicense\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"startDate\": \"1934-01-01\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Clinics and Hospitals\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Huskvarna Medical Practice\",\n      \"startDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Torvid Ljungars",
+        "jobTitle": "Practicing Physician",
+        "birthDate": "1906-05-08",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Skegrie, Malmöhus län"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Olof Ljungars"
+            },
+            {
+                "@type": "Person",
+                "name": "Ella Håkansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inger Wennberg",
+            "startDate": "1934-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Ljungars",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunvor Ljungars",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "seniorSecondaryExam",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Norrköping"
+                },
+                "startDate": "1924-01-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelorsDegree",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                },
+                "startDate": "1929-01-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medicalLicense",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                },
+                "startDate": "1934-01-01"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Clinics and Hospitals",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Huskvarna Medical Practice",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

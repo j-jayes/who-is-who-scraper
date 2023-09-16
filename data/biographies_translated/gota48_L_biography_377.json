@@ -1,0 +1,87 @@
+{
+    "original": "Lindsten, Nils Gösta Fredrik, byggnadsingenjör, Linköping, f. 15/7/16 i Linköp. av stat :insp. Nils L. o. h. h. G. 45-46 m. Gunilla Falkenberg. Barn: Crister f. 45, Eva 46. ■— Huvuddeläg. ■samt verkst. dir. i Byggnads A-B G. Lindsten i Linköp. sed. 43. Resor t. Danm., Tys&gt;kl., HoJi., Belg. o. Frankr. 38, Norge 32. Hobbies: flygn., auto-mobilsport, ’smalfilmn., kortvågsradio-sändn., skytte.",
+    "translated": "Lindsten, Nils Gösta Fredrik, civil engineer, Linköping, b. 15/7/1916 in Linköping. Son of civil inspector Nils L. and housewife Gunilla Falkenberg. Children: Crister b. 1945, Eva b. 1946. \n\nMain owner and managing director of Building Company G. Lindsten in Linköping since 1943. Travelled to Denmark, Germany, Holland, Belgium, and France in 1938 and Norway in 1932. Hobbies: aviation, car racing, amateur filmmaking, shortwave radio broadcasting, shooting.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gösta Fredrik Lindsten\",\n  \"birthDate\": \"1916-07-15\",\n  \"birthPlace\": \"Linköping, Sweden\",\n  \"profession\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Falkenberg\",\n      \"@type\": \"Housewife\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Crister\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Company G. Lindsten\",\n      \"employee\": {\n        \"@type\": \"Person\",\n        \"name\": \"Nils Gösta Fredrik Lindsten\"\n      },\n      \"position\": \"Managing Director\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Denmark\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Germany\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Holland\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Belgium\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"France\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Norway\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"hobbies\": [\n    \"Aviation\",\n    \"Car racing\",\n    \"Amateur filmmaking\",\n    \"Shortwave radio broadcasting\",\n    \"Shooting\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Gösta Fredrik Lindsten",
+        "birthDate": "1916-07-15",
+        "birthPlace": "Linköping, Sweden",
+        "profession": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Nils L."
+            },
+            {
+                "@type": "Housewife",
+                "name": "Gunilla Falkenberg"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Crister",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1946"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Building Company G. Lindsten",
+                "employee": {
+                    "@type": "Person",
+                    "name": "Nils Gösta Fredrik Lindsten"
+                },
+                "position": "Managing Director",
+                "startDate": "1943"
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "Place",
+                "name": "Denmark",
+                "startDate": "1938"
+            },
+            {
+                "@type": "Place",
+                "name": "Germany"
+            },
+            {
+                "@type": "Place",
+                "name": "Holland"
+            },
+            {
+                "@type": "Place",
+                "name": "Belgium"
+            },
+            {
+                "@type": "Place",
+                "name": "France"
+            },
+            {
+                "@type": "Place",
+                "name": "Norway",
+                "startDate": "1932"
+            }
+        ],
+        "hobbies": [
+            "Aviation",
+            "Car racing",
+            "Amateur filmmaking",
+            "Shortwave radio broadcasting",
+            "Shooting"
+        ]
+    }
+}

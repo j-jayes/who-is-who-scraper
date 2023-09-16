@@ -1,0 +1,119 @@
+{
+    "original": "Larsson, Lars Gunnar, läroverksadjunkt, Älmhult, f. 13/12/97 i Loshult, Kri:s t. 1., av Erik L. o. Ellen Kristens-son. G. 36 m. Clara Andersson. — Stud:ex. i Lund 16, fil. mag. där 22. Lär. v. 0’Sby samsk. 19-20, vik, lär. i Trelleborg 22, e. o, i Finspång 22, Ör-kelljunga 23-24, Älmhult 24-26, ord. ämneslär, i’Älmhult 27, adj. i matem., fysik o. kemi v, samrealsk. där sed. 45.",
+    "translated": "Larsson, Lars Gunnar, high school teacher, Älmhult, b. 13/12/1897 in Loshult, Kristianstad county, son of Erik L. and Ellen Kristensson. Married in 1936 to Clara Andersson. Graduated from Lund University in 1916, with a Bachelor of Arts degree in 1922. Taught at O'Sby coeducational school from 1919-1920, substitute teacher in Trelleborg in 1922, temporary teacher in Finspång in 1922, Örkelljunga 1923-1924, Älmhult 1924-1926, permanent subject teacher in Älmhult from 1927, adjunct teacher in mathematics, physics, and chemistry at the secondary school from 1945 onward.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Gunnar Larsson\",\n  \"jobTitle\": \"High School Teacher\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Älmhult\"\n  },\n  \"birthDate\": \"1897-12-13\",\n  \"birthPlace\": \"Loshult, Kristianstad county\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Kristensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Clara Andersson\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Lund University\",\n      \"endDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"fil. mag.\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"educationalCredentialAwarded\": \"Bachelor of Arts\",\n      \"educationalInstitution\": \"Lund University\",\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute Teacher\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\",\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"O'Sby Samsk.\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Teacher\",\n      \"startDate\": \"1922\",\n      \"jobLocation\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Trelleborg\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Finspång\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Teacher\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Örkelljunga\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Teacher\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1926\",\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Älmhult\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Permanent Subject Teacher\",\n      \"startDate\": \"1927\",\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Älmhult\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Adjunct Teacher\",\n      \"startDate\": \"1945\",\n      \"jobLocation\": {\n        \"@type\": \"Place\",\n        \"name\": \"Älmhult\"\n      },\n      \"specialty\": [\n        \"Mathematics\",\n        \"Physics\",\n        \"Chemistry\"\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Gunnar Larsson",
+        "jobTitle": "High School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Älmhult"
+        },
+        "birthDate": "1897-12-13",
+        "birthPlace": "Loshult, Kristianstad county",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik L."
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Kristensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Clara Andersson"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": "Lund University",
+                "endDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "fil. mag.",
+                "educationalLevel": "Bachelor's Degree",
+                "educationalCredentialAwarded": "Bachelor of Arts",
+                "educationalInstitution": "Lund University",
+                "endDate": "1922"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "title": "Substitute Teacher",
+                "startDate": "1919",
+                "endDate": "1920",
+                "jobLocation": {
+                    "@type": "Place",
+                    "name": "O'Sby Samsk."
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Teacher",
+                "startDate": "1922",
+                "jobLocation": [
+                    {
+                        "@type": "Place",
+                        "name": "Trelleborg"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "Finspång"
+                    }
+                ]
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Teacher",
+                "startDate": "1923",
+                "endDate": "1924",
+                "jobLocation": {
+                    "@type": "Place",
+                    "name": "Örkelljunga"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Teacher",
+                "startDate": "1924",
+                "endDate": "1926",
+                "jobLocation": {
+                    "@type": "Place",
+                    "name": "Älmhult"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Permanent Subject Teacher",
+                "startDate": "1927",
+                "jobLocation": {
+                    "@type": "Place",
+                    "name": "Älmhult"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Adjunct Teacher",
+                "startDate": "1945",
+                "jobLocation": {
+                    "@type": "Place",
+                    "name": "Älmhult"
+                },
+                "specialty": [
+                    "Mathematics",
+                    "Physics",
+                    "Chemistry"
+                ]
+            }
+        ]
+    }
+}

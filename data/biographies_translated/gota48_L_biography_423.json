@@ -1,0 +1,126 @@
+{
+    "original": "Listrup, Sven Wilhelm, prakt, läkare, Ronneby, f. 26/5/00 i Listerby, Blek. 1. G. 32 m. Frida Klara Alice Olofson. Barn: Sven-Olov f. 35, Johan-Olov 38, Karin Elisabeth Svensdotter 42. — Stud:ex. i Karlskrona 20, med. kand. i Lund 26 o. med. lic. där 34. E. läk. i Örkelljunga distr. tre mån. 31-32 o. 34, i Ödeshögs o. Åhus distr. 33, prakt. läk. i Matfors 35-37, i Ronneby sed. 37, tf. proviläk. i Tors-by två mån. 37, i Ronneby flera period, sed. 44, läk. v. sinnesslöanst. Tjället i Nävragöl sed. 42.",
+    "translated": "Listrup, Sven Wilhelm, practitioner, physician, Ronneby, b. 26/5/00 in Listerby, Blekinge. 1st marriage in 1932 with Frida Klara Alice Olofson. Children: Sven-Olov b. 1935, Johan-Olov b. 1938, Karin Elisabeth Svensdotter b. 1942. - Passed student exams in Karlskrona in 1920, medical candidate in Lund in 1926, and medical licentiate there in 1934. Deputy doctor in the Örkelljunga district for three months in 1931-32 and 1934, in the Ödeshög and Åhus districts in 1933, practicing physician in Matfors from 1935-1937, in Ronneby since 1937, temporary provincial doctor in Torsby for two months in 1937, in Ronneby for several periods since 1944, physician at the Tjället mental institution in Nävragöl since 1942.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Wilhelm Listrup\",\n  \"birthDate\": \"1900-05-26\",\n  \"birthPlace\": \"Listerby, Blekinge\",\n  \"jobTitle\": [\"Practitioner\", \"Physician\"],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Ronneby\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Frida Klara Alice Olofson\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven-Olov\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan-Olov\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Elisabeth Svensdotter\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary education\",\n      \"educationalLevel\": \"Student exams\",\n      \"educationalInstitution\": \"Karlskrona\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Higher education\",\n      \"educationalLevel\": \"Medical candidate\",\n      \"educationalInstitution\": \"Lund\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Higher education\",\n      \"educationalLevel\": \"Medical licentiate\",\n      \"educationalInstitution\": \"Lund\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Örkelljunga District\",\n      \"jobTitle\": \"Deputy Doctor\",\n      \"startDate\": \"1931-01\",\n      \"endDate\": \"1932-03\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Örkelljunga District\",\n      \"jobTitle\": \"Deputy Doctor\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Ödeshög and Åhus Districts\",\n      \"jobTitle\": \"Deputy Doctor\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Matfors\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Ronneby\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"2021\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Torsby\",\n      \"jobTitle\": \"Temporary Provincial Doctor\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Ronneby\",\n      \"jobTitle\": \"Practicing Physician\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"2021\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Tjället Mental Institution\",\n      \"jobTitle\": \"Physician\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"2021\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Sven Wilhelm Listrup",
+        "birthDate": "1900-05-26",
+        "birthPlace": "Listerby, Blekinge",
+        "jobTitle": [
+            "Practitioner",
+            "Physician"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ronneby"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Frida Klara Alice Olofson",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sven-Olov",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Johan-Olov",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Elisabeth Svensdotter",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary education",
+                "educationalLevel": "Student exams",
+                "educationalInstitution": "Karlskrona",
+                "startDate": "1920",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Higher education",
+                "educationalLevel": "Medical candidate",
+                "educationalInstitution": "Lund",
+                "startDate": "1926",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Higher education",
+                "educationalLevel": "Medical licentiate",
+                "educationalInstitution": "Lund",
+                "startDate": "1934",
+                "endDate": "1934"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Örkelljunga District",
+                "jobTitle": "Deputy Doctor",
+                "startDate": "1931-01",
+                "endDate": "1932-03"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Örkelljunga District",
+                "jobTitle": "Deputy Doctor",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Ödeshög and Åhus Districts",
+                "jobTitle": "Deputy Doctor",
+                "startDate": "1933",
+                "endDate": "1933"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Matfors",
+                "jobTitle": "Practicing Physician",
+                "startDate": "1935",
+                "endDate": "1937"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Ronneby",
+                "jobTitle": "Practicing Physician",
+                "startDate": "1937",
+                "endDate": "2021"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Torsby",
+                "jobTitle": "Temporary Provincial Doctor",
+                "startDate": "1937",
+                "endDate": "1937"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Ronneby",
+                "jobTitle": "Practicing Physician",
+                "startDate": "1944",
+                "endDate": "2021"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Tjället Mental Institution",
+                "jobTitle": "Physician",
+                "startDate": "1942",
+                "endDate": "2021"
+            }
+        ]
+    }
+}

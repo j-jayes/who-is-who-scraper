@@ -1,0 +1,107 @@
+{
+    "original": "Lindgren, Harry Adolf Vilhelm, tullförvaltare, Oskarshamn, f. 5/10/89 i Karlskrona av flaggstyrm. Jacob Viil-helm L. o. Anna Kristina Barck. G. 20 m. TulUa Wirén. — Stud:ex. 08. E. o. kamm:skriv. i tullverket 08, kamm:skriv. 18, skeppsmät. i 0’skars-hamn 19, tullförv. 33. Fd. led. av styr. f. Sv. skeppsmät :fören. o. Smål. gymn:förb. Sv. gymn:förb. distr:ftjt i guld.",
+    "translated": "Lindgren, Harry Adolf Vilhelm, customs officer, Oskarshamn, born on the 5th of October 1889 in Karlskrona to seafarer Jacob Vilhelm L. and Anna Kristina Barck. Married on the 20th of (missing year) to TulUa Wirén. — High school graduate in 1908. Acting clerk in the customs department in 1908, clerk in 1918, ship measurer in Oskarshamn in 1919, customs officer in 1933. Former member of the board of the Swedish Ship Measurers Association and the Småland Gymnastics Association. Honorary District Officer of the Swedish Gymnastics Association, awarded with a gold medal.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Harry Adolf Vilhelm Lindgren\",\n  \"birthDate\": \"1889-10-05\",\n  \"birthPlace\": \"Karlskrona\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Customs Officer\",\n  \"workLocation\": \"Oskarshamn\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jacob Vilhelm Lindgren\",\n      \"relation\": \"Parent\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Kristina Barck\",\n      \"relation\": \"Parent\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"TulUa Wirén\",\n    \"marriageDate\": \"missing\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"High School Diploma\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stud:ex\",\n      \"location\": \"Sweden\",\n      \"endDate\": \"1908-01-01\"\n    }\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Acting Clerk\",\n      \"startDate\": \"1908-01-01\",\n      \"endDate\": \"1918-01-01\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tullverket\",\n        \"location\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Clerk\",\n      \"startDate\": \"1918-01-01\",\n      \"endDate\": \"1919-01-01\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tullverket\",\n        \"location\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Ship Measurer\",\n      \"startDate\": \"1919-01-01\",\n      \"endDate\": \"1933-01-01\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Oskarshamn\",\n        \"location\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Customs Officer\",\n      \"startDate\": \"1933-01-01\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tullverket\",\n        \"location\": \"Sweden\"\n      }\n    }\n  ],\n  \"membership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Ship Measurers Association\",\n      \"membershipType\": \"Former Member\",\n      \"startDate\": \"missing\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Småland Gymnastics Association\",\n      \"membershipType\": \"Former Member\",\n      \"startDate\": \"missing\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Gymnastics Association\",\n      \"membershipType\": \"Honorary District Officer\",\n      \"award\": \"Gold Medal\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Harry Adolf Vilhelm Lindgren",
+        "birthDate": "1889-10-05",
+        "birthPlace": "Karlskrona",
+        "nationality": "Swedish",
+        "occupation": "Customs Officer",
+        "workLocation": "Oskarshamn",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Jacob Vilhelm Lindgren",
+                "relation": "Parent"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Kristina Barck",
+                "relation": "Parent"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "TulUa Wirén",
+            "marriageDate": "missing"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "High School Diploma",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Stud:ex",
+                "location": "Sweden",
+                "endDate": "1908-01-01"
+            }
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Acting Clerk",
+                "startDate": "1908-01-01",
+                "endDate": "1918-01-01",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Tullverket",
+                    "location": "Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Clerk",
+                "startDate": "1918-01-01",
+                "endDate": "1919-01-01",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Tullverket",
+                    "location": "Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Ship Measurer",
+                "startDate": "1919-01-01",
+                "endDate": "1933-01-01",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Oskarshamn",
+                    "location": "Sweden"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Customs Officer",
+                "startDate": "1933-01-01",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Tullverket",
+                    "location": "Sweden"
+                }
+            }
+        ],
+        "membership": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Ship Measurers Association",
+                "membershipType": "Former Member",
+                "startDate": "missing"
+            },
+            {
+                "@type": "Organization",
+                "name": "Småland Gymnastics Association",
+                "membershipType": "Former Member",
+                "startDate": "missing"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Gymnastics Association",
+                "membershipType": "Honorary District Officer",
+                "award": "Gold Medal"
+            }
+        ]
+    }
+}

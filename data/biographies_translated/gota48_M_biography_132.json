@@ -1,0 +1,46 @@
+{
+    "original": "Milton, Gottfrid, tandläkare, Jönköping, f. 25/6/87 i Ramkvilla, Jönköp. 1. G. 23 m. Eba Ivansson. Barn: Jan- Erik f. 26. — Stud:ex. i Lund 11, tandläk. 15. Praktik i Jönköp. sed. 16.",
+    "translated": "Milton, Gottfrid, dentist, Jönköping, born on June 25, 1887 in Ramkvilla, Jönköp. 1st marriage, married in 1923 to Eba Ivansson. Children: Jan-Erik, born in 1926. Completed high school in Lund in 1911, became a dentist in 1915. Practiced in Jönköping since 1916.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Milton Gottfrid\",\n  \"birthDate\": \"1887-06-25\",\n  \"birthPlace\": \"Ramkvilla, Jönköp\",\n  \"occupation\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Jönköping\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eba Ivansson\",\n    \"marriageDate\": \"1923\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Jan-Erik\",\n    \"birthDate\": \"1926\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"HighSchoolDiploma\",\n      \"issuedBy\": \"Lund\",\n      \"yearEarned\": 1911\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"DentistryDegree\",\n      \"yearEarned\": 1915,\n      \"awardedBy\": \"Lund\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping\"\n  },\n  \"startDate\": \"1916\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Milton Gottfrid",
+        "birthDate": "1887-06-25",
+        "birthPlace": "Ramkvilla, Jönköp",
+        "occupation": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jönköping"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Eba Ivansson",
+            "marriageDate": "1923"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Jan-Erik",
+            "birthDate": "1926"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "HighSchoolDiploma",
+                "issuedBy": "Lund",
+                "yearEarned": 1911
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "DentistryDegree",
+                "yearEarned": 1915,
+                "awardedBy": "Lund"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Jönköping"
+        },
+        "startDate": "1916"
+    }
+}

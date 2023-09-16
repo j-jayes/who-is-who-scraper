@@ -1,0 +1,116 @@
+{
+    "original": "Ljunggren, Josef Mattias, central-dispensärläkare, Göteborg, f. 11/5/00 i Sthlm av grosshandl. Frans L. o. Edla Boivie. G. 1. 29 m. Märta Dahlberg, d. 43; 2. 45 m. Elin Dahlberg. Barn: Ake f. 30, Mats 36, Ulla-Märta 39. — Stud:ex. 19, med. kand. 23 o. med. lic. 28, allt i Sthlm. Assist :läk. v. Lidköp. las. 28, e. läk. samt und :läk. v. Sjö-Gunnarsbo sanat. 28-31, assist :läk. v. Sahlgr. sjukh. med. avd. 31, tf. und :läk. där 31-32, förste und:läk. v. Svenshögens sanat. 34-35, tredje und:-läk. v. Sundsvalls las. 35, andre samt tf. förste und:läk. där 36-37, assist :-läk. v. Sahlgr. sjukh. röntgenavd. 38, läk. v. centr:disp. i Mölndal sed. 38.",
+    "translated": "Ljunggren, Josef Mattias, central dispensary doctor, Gothenburg, born on 11/5/00 in Stockholm to merchant Frans L. and Edla Boivie. Married 1. in 1929 to Märta Dahlberg, who passed away in 1943; 2. in 1945 to Elin Dahlberg. Children: Ake, born in 1930; Mats, born in 1936; Ulla-Märta, born in 1939. Completed high school in 1919, medical bachelor's degree in 1923, and medical license in 1928, all in Stockholm. Assisted as a doctor at Lidköping Hospital in 1928, acting doctor and assistant at Sjö-Gunnarsbo Sanatorium from 1928 to 1931, assistant doctor at Sahlgr. Hospital in the medical department in 1931, temporary acting doctor there from 1931 to 1932, first assistant doctor at Svenshögens Sanatorium from 1934 to 1935, third assistant doctor at Sundsvall Hospital in 1935, second and temporary first assistant doctor there from 1936 to 1937, assistant doctor at Sahlgr. Hospital in the radiology department in 1938, doctor at the central dispensary in Mölndal since 1938.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Josef Mattias Ljunggren\",\n  \"birthDate\": \"1900-05-11\",\n  \"birthPlace\": \"Stockholm\",\n  \"deathDate\": null,\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Märta Dahlberg\",\n      \"deathDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elin Dahlberg\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ake Ljunggren\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mats Ljunggren\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla-Märta Ljunggren\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. 19\",\n      \"educationalLevel\": \"High School Diploma\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"med. kand. 23\",\n      \"educationalLevel\": \"Medical Bachelor's Degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"med. lic. 28\",\n      \"educationalLevel\": \"Medical License\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Central Dispensary\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Mölndal\"\n    }\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Lidköping Hospital\",\n      \"jobTitle\": \"Assistant Doctor\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sjö-Gunnarsbo Sanatorium\",\n      \"jobTitle\": \"Acting Doctor and Assistant\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgr. Hospital\",\n      \"jobTitle\": \"Assistant Doctor\",\n      \"department\": \"Medical\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Svenshögens Sanatorium\",\n      \"jobTitle\": \"First Assistant Doctor\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sundsvall Hospital\",\n      \"jobTitle\": \"Third Assistant Doctor\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgr. Hospital\",\n      \"jobTitle\": \"Assistant Doctor\",\n      \"department\": \"Radiology\",\n      \"startDate\": \"1938\",\n      \"endDate\": null\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Josef Mattias Ljunggren",
+        "birthDate": "1900-05-11",
+        "birthPlace": "Stockholm",
+        "deathDate": null,
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Märta Dahlberg",
+                "deathDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Elin Dahlberg"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ake Ljunggren",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Mats Ljunggren",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla-Märta Ljunggren",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. 19",
+                "educationalLevel": "High School Diploma"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "med. kand. 23",
+                "educationalLevel": "Medical Bachelor's Degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "med. lic. 28",
+                "educationalLevel": "Medical License"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Central Dispensary",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mölndal"
+            }
+        },
+        "employmentHistory": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Lidköping Hospital",
+                "jobTitle": "Assistant Doctor",
+                "startDate": "1928",
+                "endDate": "1928"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sjö-Gunnarsbo Sanatorium",
+                "jobTitle": "Acting Doctor and Assistant",
+                "startDate": "1928",
+                "endDate": "1931"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgr. Hospital",
+                "jobTitle": "Assistant Doctor",
+                "department": "Medical",
+                "startDate": "1931",
+                "endDate": "1932"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Svenshögens Sanatorium",
+                "jobTitle": "First Assistant Doctor",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sundsvall Hospital",
+                "jobTitle": "Third Assistant Doctor",
+                "startDate": "1935",
+                "endDate": "1937"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgr. Hospital",
+                "jobTitle": "Assistant Doctor",
+                "department": "Radiology",
+                "startDate": "1938",
+                "endDate": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "original": "Lundberg, Sven Lorentz, apotekare, Norrköping,, f. 5/8/86 i Löve^stad, Malmöhus 1., av Lars L. o. Charlotte Astedt. G. 27 m. Gertrud Jonasson. — Mog:ex. i Lund 05, farm. kand. 14, apot:ex. 24. Elev v. apot. Hjorten i Lund 11-13, anst. där, v. Svanen i Kristianstad, Fläkta Örn i Malmö 15-17, apot. i Västervik o. Bjuv, Pantern i Karlskr. 18-21, Tre Kronor i KarLskr., apot. i Kävlinge, Pantern i Karlskr., åter i Kävlinge, Råneå, Tre Kronor i Karlskr., apot. i Vrigstad 27-38 (före-ist.), priv. å apot. i Jämshög 38, å Svanen i Norrköp. sed. 46.",
+    "translated": "Lundberg, Sven Lorentz, pharmacist, Norrköping, b. 5/8/1886 in Lövestad, Malmöhus county, son of Lars L. and Charlotte Astedt. Married on 27th in marriage to Gertrud Jonasson. — Completed his bachelor's degree in Pharmacy in Lund in 1905, graduated as a pharmacist in 1914, obtained his pharmacy license in 1924. Was a student at Hjorten pharmacy in Lund from 1911-1913, employed there, at Svanen pharmacy in Kristianstad, Fläkta Örn pharmacy in Malmö from 1915-1917, pharmacist in Västervik and Bjuv, Pantern pharmacy in Karlskrona from 1918-1921, Tre Kronor pharmacy in Karlskrona, pharmacist in Kävlinge, Pantern pharmacy in Karlskrona, back in Kävlinge, Råneå, Tre Kronor pharmacy in Karlskrona, pharmacist in Vrigstad from 1927-1938 (former position), private at Jämshög pharmacy in 1938, at Svanen pharmacy in Norrköping since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Lorentz Lundberg\",\n  \"birthDate\": \"1886-08-05\",\n  \"birthPlace\": \"Lövestad, Malmöhus county, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lars L. Lundberg\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Charlotte Astedt\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gertrud Jonasson\",\n    \"marriageDate\": \"27th\"\n  },\n  \"occupation\": \"Pharmacist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"awardingInstitution\": \"Lund University\",\n      \"dateIssued\": \"1905\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Pharmacist degree\",\n      \"educationalLevel\": \"Graduate\",\n      \"awardingInstitution\": \"Unknown\",\n      \"dateIssued\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Pharmacy license\",\n      \"awardingOrganization\": \"Unknown\",\n      \"dateIssued\": \"1924\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1913\",\n      \"roleName\": \"Pharmacy Student\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hjorten Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Lund\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1917\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Fläkta Örn Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Malmö\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1921\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Pantern Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Karlskrona\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tre Kronor Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Karlskrona\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kävlinge Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Kävlinge\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Råneå Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Råneå\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1938\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Vrigstad Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Vrigstad\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jämshög Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Jämshög\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1946\",\n      \"roleName\": \"Pharmacist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Svanen Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Norrköping\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Lorentz Lundberg",
+        "birthDate": "1886-08-05",
+        "birthPlace": "Lövestad, Malmöhus county, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Lars L. Lundberg"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Charlotte Astedt"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Gertrud Jonasson",
+            "marriageDate": "27th"
+        },
+        "occupation": "Pharmacist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping",
+            "addressCountry": "Sweden"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Undergraduate",
+                "awardingInstitution": "Lund University",
+                "dateIssued": "1905"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Pharmacist degree",
+                "educationalLevel": "Graduate",
+                "awardingInstitution": "Unknown",
+                "dateIssued": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Pharmacy license",
+                "awardingOrganization": "Unknown",
+                "dateIssued": "1924"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1911",
+                "endDate": "1913",
+                "roleName": "Pharmacy Student",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Hjorten Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Lund",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1915",
+                "endDate": "1917",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Fläkta Örn Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Malmö",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1918",
+                "endDate": "1921",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Pantern Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Karlskrona",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Tre Kronor Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Karlskrona",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Kävlinge Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Kävlinge",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Råneå Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Råneå",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": "1938",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Vrigstad Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Vrigstad",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Jämshög Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Jämshög",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1946",
+                "roleName": "Pharmacist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Svanen Pharmacy",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Norrköping",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ]
+    }
+}

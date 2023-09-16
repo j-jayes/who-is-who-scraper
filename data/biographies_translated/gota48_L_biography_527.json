@@ -1,0 +1,99 @@
+{
+    "original": "Lundberg, Rolf Thorsten Georg, tandläkare, Karlshamn, f. 8/5/10 i Gbg av postmast. Rolf L. o. Undine Bre-delius. G. 36 m. Inga Cederblad. Barn: Bengt f. 38, Lennart 41, Gunnar 43. — Studrex. i Skara 29, med. stud. v. Karol. inst. o. Upps. univ. 30-31, tandlrkand. 32, tandläkare 34. Vik. i Strängnäs 35, assist, i Karlshamn 35, prakt, där sed. 36. Styr:-led. i Blek. tandlifören. sed. 37.",
+    "translated": "Lundberg, Rolf Thorsten Georg, dentist, Karlshamn, born on May 8th, 1910, in Gothenburg, son of postmaster Rolf L. and Undine Bredelius. Married in 1936 to Inga Cederblad. Children: Bengt, born in 1938, Lennart in 1941, and Gunnar in 1943. \n\nStudied at Skara in 1929, medical studies at Karolinska Institute and Uppsala University from 1930 to 1931, dental studies in 1932, and became a dentist in 1934. Worked temporarily in Strängnäs in 1935, assistant in Karlshamn from 1935, and established own practice there since 1936. \n\nHas been a board member and leader in the Blekinge Dental Association since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rolf Thorsten Georg Lundberg\",\n  \"givenName\": \"Rolf\",\n  \"familyName\": \"Lundberg\",\n  \"birthDate\": \"1910-05-08\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf L. Lundberg\",\n      \"jobTitle\": \"Postmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Undine Bredelius\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga Cederblad\",\n    \"marriageDate\": \"1936\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Lundberg\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart Lundberg\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Lundberg\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Karlshamn\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Skara\",\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karolinska Institute\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karolinska Institute\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Strängnäs\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlshamn\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blekinge Dental Association\",\n      \"startDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rolf Thorsten Georg Lundberg",
+        "givenName": "Rolf",
+        "familyName": "Lundberg",
+        "birthDate": "1910-05-08",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Rolf L. Lundberg",
+                "jobTitle": "Postmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Undine Bredelius"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga Cederblad",
+            "marriageDate": "1936"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt Lundberg",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart Lundberg",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar Lundberg",
+                "birthDate": "1943"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlshamn"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Skara",
+                "startDate": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karolinska Institute"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "startDate": "1930",
+                "endDate": "1931"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karolinska Institute"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Strängnäs",
+                "startDate": "1935",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlshamn",
+                "startDate": "1935"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Blekinge Dental Association",
+                "startDate": "1937"
+            }
+        ]
+    }
+}

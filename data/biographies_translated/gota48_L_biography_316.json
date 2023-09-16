@@ -1,0 +1,59 @@
+{
+    "original": "Lindgren, Egon FlHp Gustav, överlärare, Skänninge, f. 1/5/92 i Norrkö- ping av ibyggmäst. Harald L. o. Ad-frida Ramstedt. G. 20 m. Sigrid Molin. Barn: Britta f. 21, Märta 22, Margareta 29. — Folkskollär :ex. 14. Folkskollär. i Skänninge sed. 14, överlär. där sed. 35.",
+    "translated": "Lindgren, Egon FlHp Gustav, headmaster, Skänninge, born 1/5/92 in Norrköping, son of construction master Harald L. and Ad-frida Ramstedt. Married in 1920 to Sigrid Molin. Children: Britta, born in 1921, Märta in 1922, Margareta in 1929. Graduated as a primary school teacher in 1914. Worked as a primary school teacher in Skänninge since 1914, promoted to headmaster in 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Egon FlHp Gustav\",\n  \"familyName\": \"Lindgren\",\n  \"jobTitle\": \"Headmaster\",\n  \"birthPlace\": \"Norrköping\",\n  \"birthDate\": \"1892-05-01\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Harald L.\",\n    \"familyName\": \"Lindgren\",\n    \"jobTitle\": \"Construction Master\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Ad-frida\",\n    \"familyName\": \"Ramstedt\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Sigrid\",\n    \"familyName\": \"Molin\",\n    \"marriageDate\": \"1920\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Britta\",\n      \"birthDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Märta\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Margareta\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"primary school teacher\",\n    \"dateIssued\": \"1914\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Skänninge\"\n  },\n  \"startDate\": \"1914\",\n  \"endDate\": \"1935\"\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "givenName": "Egon FlHp Gustav",
+        "familyName": "Lindgren",
+        "jobTitle": "Headmaster",
+        "birthPlace": "Norrköping",
+        "birthDate": "1892-05-01",
+        "father": {
+            "@type": "Person",
+            "givenName": "Harald L.",
+            "familyName": "Lindgren",
+            "jobTitle": "Construction Master"
+        },
+        "mother": {
+            "@type": "Person",
+            "givenName": "Ad-frida",
+            "familyName": "Ramstedt"
+        },
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Sigrid",
+            "familyName": "Molin",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Britta",
+                "birthDate": "1921"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Märta",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Margareta",
+                "birthDate": "1929"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "primary school teacher",
+            "dateIssued": "1914"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Skänninge"
+        },
+        "startDate": "1914",
+        "endDate": "1935"
+    }
+}

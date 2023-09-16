@@ -1,0 +1,128 @@
+{
+    "original": "Lindholm, Tore Hjalmar, civilingenjör, Jönköping, f. 12/12/04 i Sthlm av fabr. lohn L. o. Anna Lindholm. G. 28 m. Margit Andell. Barn: Tore f. 29, Birgitta 36, Catrina 40, Monika 43, Svante 47. — Stud :ex. v. norra real i Sthlm 23, civ:ing:ex. v. CTH 26. Anst. v. Lindholms klichéfabr. fr. 28, inneh. därav samt Nässjö klichéanst. fr. 44. Sekr. i Smål. idr:förb. tennissekt. Hobbies: tennis, jakt.",
+    "translated": "Lindholm, Tore Hjalmar, civil engineer, Jönköping, b. 12/12/04 in Stockholm to factory worker Lohn L. and Anna Lindholm. Married on 28 with Margit Andell. Children: Tore b. 29, Birgitta b. 36, Catrina b. 40, Monika b. 43, Svante b. 47. — Completed secondary school at Norra Real in Stockholm in 1923, obtained a civil engineering degree from CTH in 1926. Employed at Lindholms' cliché factory since 1928, eventually becoming the owner, and also involved with the cliché institution in Nässjö since 1944. Secretary in the tennis section of the Småland sports association. Hobbies: tennis, hunting.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tore Hjalmar Lindholm\",\n  \"birthDate\": \"1904-12-12\",\n  \"birthPlace\": \"Stockholm\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Jönköping\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lohn L. Lindholm\",\n      \"jobTitle\": \"Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Lindholm\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Andell\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tore Lindholm\",\n      \"birthDate\": \"1929-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Lindholm\",\n      \"birthDate\": \"1936-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Catrina Lindholm\",\n      \"birthDate\": \"1940-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Monika Lindholm\",\n      \"birthDate\": \"1943-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Svante Lindholm\",\n      \"birthDate\": \"1947-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchoolDiploma\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"educationalProgram\": \"Norra Real\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"Bachelor\",\n      \"educationalProgram\": \"Civil Engineering\",\n      \"educationalInstitution\": \"CTH\",\n      \"endDate\": \"1926\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lindholms' Cliché Factory\",\n        \"foundingDate\": \"1928\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Jönköping\"\n        }\n      },\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Cliché Institution in Nässjö\",\n        \"foundingDate\": \"1944\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Nässjö\"\n        }\n      },\n      \"startDate\": \"1944\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Småland Sports Association\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Jönköping\"\n        }\n      },\n      \"jobTitle\": \"Tennis Section Secretary\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Tennis Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hunting Association\"\n    }\n  ],\n  \"sameAs\": \"https://example.com/tochka/lindholm-tore-hjalmar\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tore Hjalmar Lindholm",
+        "birthDate": "1904-12-12",
+        "birthPlace": "Stockholm",
+        "nationality": "Swedish",
+        "occupation": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jönköping"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Lohn L. Lindholm",
+                "jobTitle": "Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Lindholm"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Andell"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Tore Lindholm",
+                "birthDate": "1929-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Lindholm",
+                "birthDate": "1936-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Catrina Lindholm",
+                "birthDate": "1940-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Monika Lindholm",
+                "birthDate": "1943-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Svante Lindholm",
+                "birthDate": "1947-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondarySchoolDiploma",
+                "educationalLevel": "SecondarySchool",
+                "educationalProgram": "Norra Real",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "educationalLevel": "Bachelor",
+                "educationalProgram": "Civil Engineering",
+                "educationalInstitution": "CTH",
+                "endDate": "1926"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Lindholms' Cliché Factory",
+                    "foundingDate": "1928",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Jönköping"
+                    }
+                },
+                "startDate": "1928"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Cliché Institution in Nässjö",
+                    "foundingDate": "1944",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Nässjö"
+                    }
+                },
+                "startDate": "1944"
+            },
+            {
+                "@type": "OrganizationRole",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Småland Sports Association",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Jönköping"
+                    }
+                },
+                "jobTitle": "Tennis Section Secretary"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Tennis Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hunting Association"
+            }
+        ],
+        "sameAs": "https://example.com/tochka/lindholm-tore-hjalmar"
+    }
+}

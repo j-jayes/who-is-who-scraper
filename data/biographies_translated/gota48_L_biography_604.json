@@ -1,0 +1,126 @@
+{
+    "original": "Långström, Olof Tage Hakon, läroverksadjunkt, Göteborg, f. 28/1/11 i Gbg av folkskoll. Hakon L. o. Anna Brodén. G. 39 m. Maj Holmdahl. Barn: Ingrid f. 40. — Studiex. 30, fil. kand. 32, fil. mag. 33, fil. lic. 36 samt provår 37-38, allt i Gbg. Stud :res. t. Tyskl. o. I’sl. Vik. å speciallär :be-fattn. i sv. o. tyska v. CTI 35-37, e. adj. v. Gbgs östra realsk. 38-39, e. o. adj. där 40, adj. i modersm. o. tyska där s. å., v. Hvitfeldtska h. a. 1. i Gbg sed. 44, timlär. v. Gbgs tekn. gymn. sed. 38.",
+    "translated": "Långström, Olof Tage Hakon, high school teacher, Gothenburg, b. 28/1/11 in Gothenburg to elementary school teacher Hakon L. and Anna Brodén. Married in 1939 to Maj Holmdahl. Child: Ingrid b. 1940. Completed high school exams in 1930, Bachelor of Arts degree in 1932, Master of Arts degree in 1933, licentiate in philosophy in 1936, and completed a probationary year from 1937-1938, all in Gothenburg. Continued studies in Germany and Iceland related to special education in Swedish and German at the CTI (Teacher Training Institute) from 1935-1937. Employed as an assistant teacher at Gothenburg East High School from 1938-1939, acting assistant teacher there in 1940, and teacher in the mother tongue and German in the same year. Employed at Hvitfeldtska High School since 1944 and as an hourly teacher at Gothenburg Technical Gymnasium since 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Tage Hakon Långström\",\n  \"givenName\": \"Olof Tage Hakon\",\n  \"familyName\": \"Långström\",\n  \"birthDate\": \"1911-01-28\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"High school teacher\",\n  \"worksFor\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hakon Långström\",\n      \"occupation\": \"Elementary school teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Brodén\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maj Holmdahl\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Långström\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school exams\",\n      \"dateEarned\": \"1930\",\n      \"educationalLevel\": \"High school\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Arts degree\",\n      \"dateEarned\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master of Arts degree\",\n      \"dateEarned\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Licentiate in Philosophy\",\n      \"dateEarned\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Probationary year\",\n      \"dateEarned\": \"1937-1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Studies in special education\",\n      \"dateEarned\": \"1935-1937\",\n      \"educationalProgramMode\": \"Full-time\",\n      \"educationalProgramName\": \"Teacher Training Institute\",\n      \"educationalProgramPrerequisites\": \"Swedish and German\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"roleName\": \"Assistant Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg East High School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1940\",\n      \"roleName\": \"Acting Assistant Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg East High School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1940\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg East High School\"\n      },\n      \"category\": \"Mother tongue and German\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1944\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hvitfeldtska High School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"roleName\": \"Hourly Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Technical Gymnasium\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Tage Hakon Långström",
+        "givenName": "Olof Tage Hakon",
+        "familyName": "Långström",
+        "birthDate": "1911-01-28",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "jobTitle": "High school teacher",
+        "worksFor": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hakon Långström",
+                "occupation": "Elementary school teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Brodén"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj Holmdahl",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingrid Långström",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school exams",
+                "dateEarned": "1930",
+                "educationalLevel": "High school"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor of Arts degree",
+                "dateEarned": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master of Arts degree",
+                "dateEarned": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Licentiate in Philosophy",
+                "dateEarned": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Probationary year",
+                "dateEarned": "1937-1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Studies in special education",
+                "dateEarned": "1935-1937",
+                "educationalProgramMode": "Full-time",
+                "educationalProgramName": "Teacher Training Institute",
+                "educationalProgramPrerequisites": "Swedish and German"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "endDate": "1939",
+                "roleName": "Assistant Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg East High School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1940",
+                "endDate": "1940",
+                "roleName": "Acting Assistant Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg East High School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1940",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg East High School"
+                },
+                "category": "Mother tongue and German"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Hvitfeldtska High School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "roleName": "Hourly Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Technical Gymnasium"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "original": "Ljunggren, Frans Bertil, kyrkoherde, Norra Kedum, f. 19/2/97 i Sten-brohult, Kronob. 1. G. 1. 34 m. Ebro Josefson, d. 41; 2. 43 m. Majken Magnusson. Barn: Åke f. 35, Gunilla 37. — Stud:ex. i Malmö 16, teol. fil. ex. i Lund 17, teol. kand., prakt. teol. prov 23, prästex. i Skara 28, prästv. ’S. å. Vik. adj. v. örnsköldsviks real-isk., h. a. 1. i Härnösand, e. lär. v. Vasa realsk. i Sthlm. Kyrkoadj. i Skövde 28, kyrkoh. i Tådene fr. 37. Ordf. i samtl. kyrkostämmor o. i skolråd.",
+    "translated": "Ljunggren, Frans Bertil, vicar, Norra Kedum, b. 19/2/1897 in Stenbrohult, Kronob. 1st marriage in 1934 with Ebro Josefson, d. 1941; 2nd marriage in 1943 with Majken Magnusson. Children: Åke b. 1935, Gunilla b. 1937. - Stud:exam in Malmö 1916, theological Bachelor's exam in Lund 1917, theological candidate, practical theological exam 1923, priest exam in Skara 1928, ordained as a priest the same year. Acting assistant teacher at Örnsköldsviks Real School, temporary teacher at Vasa Real School in Stockholm. Church assistant in Skövde 1928, vicar in Tådene from 1937. Chairman of all church assemblies and school board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Frans Bertil Ljunggren\",\n  \"jobTitle\": \"Vicar\",\n  \"birthDate\": \"1897-02-19\",\n  \"birthPlace\": \"Stenbrohult, Kronob\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebro Josefson\",\n      \"deathDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Majken Magnusson\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åke Ljunggren\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Ljunggren\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"stud:exam\",\n    \"educationalLevel\": \"Stud:ex.\",\n    \"educationalCredentialAwarded\": \"Malmö 1916\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"theo fil. ex.\",\n    \"educationalLevel\": \"Teol. fil. ex.\",\n    \"educationalCredentialAwarded\": \"Lund 1917\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"theo kand.\",\n    \"educationalLevel\": \"Teol. kand.\",\n    \"educationalCredentialAwarded\": \"Prakt. teol. prov 1923\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"prästex.\",\n    \"educationalLevel\": \"Prästex.\",\n    \"educationalCredentialAwarded\": \"Skara 1928\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Assistant Teacher\",\n      \"employer\": \"Örnsköldsviks Real School\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"Härnösand\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Teacher\",\n      \"employer\": \"Vasa Real School\",\n      \"startDate\": \"Härnösand\",\n      \"endDate\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Church Assistant\",\n      \"employer\": \"Skövde\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"Tådene\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"All Church Assemblies\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\"\n    }\n  ]\n}\n",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Frans Bertil Ljunggren",
+        "jobTitle": "Vicar",
+        "birthDate": "1897-02-19",
+        "birthPlace": "Stenbrohult, Kronob",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Ebro Josefson",
+                "deathDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Majken Magnusson"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Åke Ljunggren",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Ljunggren",
+                "birthDate": "1937"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "prästex.",
+            "educationalLevel": "Prästex.",
+            "educationalCredentialAwarded": "Skara 1928"
+        },
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "title": "Acting Assistant Teacher",
+                "employer": "Örnsköldsviks Real School",
+                "startDate": "1928",
+                "endDate": "Härnösand"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Teacher",
+                "employer": "Vasa Real School",
+                "startDate": "Härnösand",
+                "endDate": "Stockholm"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Church Assistant",
+                "employer": "Skövde",
+                "startDate": "1928",
+                "endDate": "Tådene"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "All Church Assemblies"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board"
+            }
+        ]
+    }
+}

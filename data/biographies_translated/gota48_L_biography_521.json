@@ -1,0 +1,89 @@
+{
+    "original": "Lundberg, Ragnar Stellan Bertil, tandläkare, Göteborg, f. 9/12/17 i Gbg av postmäst. Roif L. o. Undine Bre-delius. G. 44 m. Gun Lindskog. Barn: Sten f. 46. — Stud:ex. i Skara 36, tandhkand. 38, tandl :ex. 41. E. assist. v. tandl :inst. rotfylln :avd. 41, praktik i Sthlm 42-45, i Gbg sed. 45.",
+    "translated": "Lundberg, Ragnar Stellan Bertil, dentist, Gothenburg, b. 9/12/17 in Gothenburg, son of postmaster Roif L. and Undine Bre-delius. Married in 1944 to Gun Lindskog. Children: Sten, b. 1946. Educational background: graduated from high school in Skara in 1936, received a degree in dentistry in 1938, and became a licensed dentist in 1941. Started working as an assistant at the dental institute in the root canal department in 1941, practiced in Stockholm from 1942 to 1945, and in Gothenburg since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Ragnar\",\n  \"additionalName\": \"Stellan Bertil\",\n  \"familyName\": \"Lundberg\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"birthDate\": \"1917-09-12\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Roif L. Lundberg\",\n      \"jobTitle\": \"Postmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Undine Bre-delius\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gun Lindskog\",\n    \"marriageDate\": \"1944\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Sten\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"High school\",\n      \"alumniOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skara\"\n      },\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"Dentistry\",\n      \"alumniOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"University of Dental Studies\"\n      },\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"License\",\n      \"educationalLevel\": \"Dentist\",\n      \"endDate\": \"1941\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Dental Institute\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Dental Institute\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Ragnar",
+        "additionalName": "Stellan Bertil",
+        "familyName": "Lundberg",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "birthDate": "1917-09-12",
+        "birthPlace": "Gothenburg, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Roif L. Lundberg",
+                "jobTitle": "Postmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Undine Bre-delius"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gun Lindskog",
+            "marriageDate": "1944"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Sten",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "High school",
+                "alumniOf": {
+                    "@type": "Organization",
+                    "name": "Skara"
+                },
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "educationalLevel": "Dentistry",
+                "alumniOf": {
+                    "@type": "Organization",
+                    "name": "University of Dental Studies"
+                },
+                "endDate": "1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "License",
+                "educationalLevel": "Dentist",
+                "endDate": "1941"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Dental Institute"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stockholm"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Dental Institute"
+        }
+    }
+}

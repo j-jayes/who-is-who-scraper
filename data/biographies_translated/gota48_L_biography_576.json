@@ -1,0 +1,74 @@
+{
+    "original": "Lundquist, Per Pontus David, tandläkare, Göteborg, f. 6/8/94 i Södertälje av sjökapt. Herman L. o. Anna Palm. — Studiex. v. Gbgs^ latin 26, Cand. med. dent. i Marburg an der Lahn, Tyskl., 28, tysk tandl. i Königsberg 30, sv. tandl. 31. Prakt, i Gbg sed. 31.",
+    "translated": "Lundquist, Per Pontus David, dentist, Gothenburg, born on August 6, 1894 in Södertälje to sea captain Herman L. and Anna Palm. — Completed his studies at Gothenburg Latin School in 1926, received his degree in dentistry from Marburg an der Lahn, Germany in 1928, became a German dentist in Königsberg in 1930, and a Swedish dentist in 1931. He has been practicing in Gothenburg since 1931.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Per Pontus David\",\n  \"familyName\": \"Lundquist\",\n  \"birthDate\": \"1894-08-06\",\n  \"birthPlace\": \"Södertälje\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Herman\",\n      \"familyName\": \"Lundquist\",\n      \"jobTitle\": \"Sea Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Anna\",\n      \"familyName\": \"Palm\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Diploma\",\n      \"credentialEarned\": {\n        \"@type\": \"EducationalOccupationalDegree\",\n        \"name\": \"Studiex\",\n        \"dateEarned\": \"1926\"\n      },\n      \"educationalLevel\": \"Latin\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"credentialEarned\": {\n        \"@type\": \"EducationalOccupationalDegree\",\n        \"name\": \"Cand. med. dent.\",\n        \"dateEarned\": \"1928\"\n      },\n      \"educationalLevel\": \"Dentistry\",\n      \"educationalProgram\": \"Marburg an der Lahn\",\n      \"educationalProgramInstitution\": \"Germany\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"German Dentistry\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dentistry\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"startDate\": \"1931\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Per Pontus David",
+        "familyName": "Lundquist",
+        "birthDate": "1894-08-06",
+        "birthPlace": "Södertälje",
+        "nationality": "Swedish",
+        "occupation": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Herman",
+                "familyName": "Lundquist",
+                "jobTitle": "Sea Captain"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Anna",
+                "familyName": "Palm"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Diploma",
+                "credentialEarned": {
+                    "@type": "EducationalOccupationalDegree",
+                    "name": "Studiex",
+                    "dateEarned": "1926"
+                },
+                "educationalLevel": "Latin"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "credentialEarned": {
+                    "@type": "EducationalOccupationalDegree",
+                    "name": "Cand. med. dent.",
+                    "dateEarned": "1928"
+                },
+                "educationalLevel": "Dentistry",
+                "educationalProgram": "Marburg an der Lahn",
+                "educationalProgramInstitution": "Germany"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "German Dentistry",
+                "startDate": "1930",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Dentistry",
+                "startDate": "1931"
+            }
+        ],
+        "startDate": "1931"
+    }
+}

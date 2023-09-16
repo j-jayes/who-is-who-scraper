@@ -1,0 +1,192 @@
+{
+    "original": "Löfgren, Karl Rudolf, läroverksadjunkt, Göteborg, f. 21/9/00 i Skellefteå av Karl Fredrik L. o. Johanna Elisabeth Lindberg. G. 32 m. Margit Jo-han&amp;son. Barn: Gun f. 33, Ingegerd 34, Göran o. Martin 37. — Stud:ex. i Umeå 20, fil. mag. i Upps. 26, pro vår i Upps. 28. Stud:res. t. TyskL, Engl, Frankr. Extralär. v. Skellefteå sam-sk. 21-22 o. 26-27, i Umeå 25, v. Lundsbergs sk. 29-31, AUS 31-33, Upps. ensk. lärov. o. priv:gymn. 32-33, Gbgs samsk. 33-35, adj. i eng. o. fransika v. Vasa h. a. 1. i Gbg sed. 35. Skr.: Eng. grammatik (45).",
+    "translated": "Löfgren, Karl Rudolf, schoolteacher, Gothenburg, b. 21/9/00 in Skellefteå to Karl Fredrik L. and Johanna Elisabeth Lindberg. Married in 1932 to Margit Johansson. Children: Gun b. 1933, Ingegerd 1934, Göran and Martin 1937. Obtained high school diploma in Umeå in 1920, Bachelor's degree in Uppsala in 1926, and teaching certification in Uppsala in 1928. Traveled/studied in Germany, England, and France. Worked as a substitute teacher in Skellefteå community school in 1921-1922 and 1926-1927, in Umeå in 1925, at Lundsbergs school in 1929-1931, AUS (undetermined) in 1931-1933, Uppsala private high school and private gymnasium in 1932-1933, Gothenburg community school in 1933-1935, and as an English and French teacher at Vasa school since 1935. Published: English Grammar (1945).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Rudolf Löfgren\",\n  \"birthDate\": \"1900-09-21\",\n  \"birthPlace\": \"Skellefteå\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karl Fredrik Löfgren\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Johanna Elisabeth Lindberg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Johansson\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gun Löfgren\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd Löfgren\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Löfgren\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Martin Löfgren\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"school-diploma\",\n      \"educationalLevel\": \"high-school\",\n      \"educationalProgram\": \"Stud:ex\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Umeå\"\n      },\n      \"completionDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelors-degree\",\n      \"educationalLevel\": \"bachelor\",\n      \"educationalProgram\": \"fil. mag.\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala\"\n      },\n      \"completionDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teaching-certification\",\n      \"educationalLevel\": \"professional\",\n      \"educationalProgram\": \"pro vår\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala\"\n      },\n      \"completionDate\": \"1928\"\n    }\n  ],\n  \"funder\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"study\",\n      \"startDate\": \"TBD\",\n      \"endDate\": \"TBD\",\n      \"namedPosition\": \"TyskL\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"study\",\n      \"startDate\": \"TBD\",\n      \"endDate\": \"TBD\",\n      \"namedPosition\": \"Engl\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"study\",\n      \"startDate\": \"TBD\",\n      \"endDate\": \"TBD\",\n      \"namedPosition\": \"Frankr\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"substitute teacher\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skellefteå community school\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"substitute teacher\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1927\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skellefteå community school\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"substitute teacher\",\n      \"startDate\": \"1925\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Umeå\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"teacher\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lundsbergs school\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"teacher\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1933\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"AUS\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"teacher\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala private high school and private gymnasium\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"teacher\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg community school\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"adjunct\",\n      \"startDate\": \"1935\",\n      \"worksFor\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Vasa school\"\n      }\n    }\n  ],\n  \"bibliography\": [\n    {\n      \"@type\": \"Book\",\n      \"name\": \"English Grammar\",\n      \"datePublished\": \"1945\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Rudolf Löfgren",
+        "birthDate": "1900-09-21",
+        "birthPlace": "Skellefteå",
+        "father": {
+            "@type": "Person",
+            "name": "Karl Fredrik Löfgren"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Johanna Elisabeth Lindberg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Johansson",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gun Löfgren",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingegerd Löfgren",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran Löfgren",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Martin Löfgren",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "school-diploma",
+                "educationalLevel": "high-school",
+                "educationalProgram": "Stud:ex",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Umeå"
+                },
+                "completionDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelors-degree",
+                "educationalLevel": "bachelor",
+                "educationalProgram": "fil. mag.",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala"
+                },
+                "completionDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teaching-certification",
+                "educationalLevel": "professional",
+                "educationalProgram": "pro vår",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala"
+                },
+                "completionDate": "1928"
+            }
+        ],
+        "funder": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "study",
+                "startDate": "TBD",
+                "endDate": "TBD",
+                "namedPosition": "TyskL"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "study",
+                "startDate": "TBD",
+                "endDate": "TBD",
+                "namedPosition": "Engl"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "study",
+                "startDate": "TBD",
+                "endDate": "TBD",
+                "namedPosition": "Frankr"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "substitute teacher",
+                "startDate": "1921",
+                "endDate": "1922",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skellefteå community school"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "substitute teacher",
+                "startDate": "1926",
+                "endDate": "1927",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skellefteå community school"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "substitute teacher",
+                "startDate": "1925",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Umeå"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "teacher",
+                "startDate": "1929",
+                "endDate": "1931",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lundsbergs school"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "teacher",
+                "startDate": "1931",
+                "endDate": "1933",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "AUS"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "teacher",
+                "startDate": "1932",
+                "endDate": "1933",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala private high school and private gymnasium"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "teacher",
+                "startDate": "1933",
+                "endDate": "1935",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg community school"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "adjunct",
+                "startDate": "1935",
+                "worksFor": {
+                    "@type": "EducationalOrganization",
+                    "name": "Vasa school"
+                }
+            }
+        ],
+        "bibliography": [
+            {
+                "@type": "Book",
+                "name": "English Grammar",
+                "datePublished": "1945"
+            }
+        ]
+    }
+}

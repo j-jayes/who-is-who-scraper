@@ -1,0 +1,83 @@
+{
+    "original": "Michelson, Erik Gunnar, advokat, Alingsås, f. 25/5/08 i Arbrå, Gävleb. 1., av Per M. o. Ester Andersson-Wexell. G. 40 m. Annalisa Sanden. Barn: Karin f. 41, Lena 42. — Stud:ex. i Östersund 26, jur. kand. ti Sthlm 32. Tings-tjg. i Södra Roslags, Västra Hälsing], o. Tjusts doms’. 32-35, fiskal i Göta hovr. 35, tf. as^sesisor v. Norrköp. rådhusr. 36, domhav. o. sekr:tjg. i ok doms. 36-39, e. o. assessor i Göta hovr. 41, inneh. av Michelisons Adv:byrå i Alingsås sed. 43. Led. av Sv:es adv:-samf. Pens :’styr. ombud i Alingsås-omr., ordf. i Alingsås fältrittkl. o. i Alingsås motorkl. Hobbies: klassiska språk, häst- o. motorsport.",
+    "translated": "Michelson, Erik Gunnar, lawyer, Alingsås, b. 25/5/08 in Arbrå, Gävleborg county, son of Per M. and Ester Andersson-Wexell. Married in 1940 to Annalisa Sanden. Children: Karin b. 1941, Lena b. 1942. - Graduated from high school in Östersund in 1926, received a law degree in Stockholm in 1932. Worked as a court clerk in Södra Roslagen, Västra Hälsingland, and Tjust district courts from 1932-1935. Became an assistant judge at Göta Court of Appeal in 1935, temporary associate judge at Norrköping City Court in 1936, district court judge and secretary at Oskarshamn district court from 1936-1939, deputy associate judge at Göta Court of Appeal in 1941. Has been running Michelsons Law Firm in Alingsås since 1943. Member of the Swedish Bar Association. Retired board member and representative in the Alingsås area, chairman of the Alingsås Equestrian Club and the Alingsås Motor Club. Hobbies: classical languages, horse riding, and motor sports.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Gunnar Michelson\",\n  \"birthDate\": \"1908-05-25\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Arbrå, Gävleborg County\"\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Per M. Michelson\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ester Andersson-Wexell\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Annalisa Sanden\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Östersund\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm\",\n      \"endDate\": \"1932\",\n      \"alumniOf\": \"law\"\n    }\n  ],\n  \"jobTitle\": \"Lawyer\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Michelsons Law Firm\"\n  },\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Alingsås\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Alingsås Equestrian Club\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Alingsås Motor Club\",\n      \"roleName\": \"Chairman\"\n    }\n  ],\n  \"hobbies\": [\n    \"Classical Languages\",\n    \"Horse Riding\",\n    \"Motor Sports\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Gunnar Michelson",
+        "birthDate": "1908-05-25",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Arbrå, Gävleborg County"
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Per M. Michelson"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Ester Andersson-Wexell"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Annalisa Sanden",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Lena",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Östersund",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm",
+                "endDate": "1932",
+                "alumniOf": "law"
+            }
+        ],
+        "jobTitle": "Lawyer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Michelsons Law Firm"
+        },
+        "workLocation": {
+            "@type": "Place",
+            "name": "Alingsås"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Alingsås Equestrian Club",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Alingsås Motor Club",
+                "roleName": "Chairman"
+            }
+        ],
+        "hobbies": [
+            "Classical Languages",
+            "Horse Riding",
+            "Motor Sports"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "original": "Lindquist, Alva Maria, tandläkare, Linköping, f. 21/6/77 i Motala. — Mog:ex. v. Wallinska skolan i Sthlm 96, elev h. tandl. Edvard Olaison där 96-99, tandl :kand. 99, tandläkare 01. Praktik i Linköping sed. 01_, i Kisa somrarna 01-03. Sekr. i östergötl. läns tandl ifören. 14.",
+    "translated": "Lindquist, Alva Maria, dentist, Linköping, b. 21/6/77 in Motala. - Married to Mr. Wallinska school in Stockholm in 1996, a student at Edvard Olaison dental school from 1996 to 1999, graduated as a dental student in 1999, became a dentist in 2001. Has been practicing in Linköping since 2001 and in Kisa during the summers of 2001-2003. Secretary in the Östergötland county dental association since 2014.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Alva Maria Lindquist\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\"\n  },\n  \"birthDate\": \"1977-06-21\",\n  \"birthPlace\": \"Motala\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Östergötland County Dental Association\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mr. Wallinska\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Edvard Olaison Dental School\",\n      \"startDate\": \"1996\",\n      \"endDate\": \"1999\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Wallinska School in Stockholm\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Edvard Olaison Dental School\",\n      \"startDate\": \"1999\",\n      \"endDate\": \"2001\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Dental Practice\",\n      \"startDate\": \"2001\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kisa Dental Practice\",\n      \"startDate\": \"2001\",\n      \"endDate\": \"2003\"\n    }\n  ],\n  \"jobTitle\": \"Secretary\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alva Maria Lindquist",
+        "jobTitle": "Secretary",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping"
+        },
+        "birthDate": "1977-06-21",
+        "birthPlace": "Motala",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Östergötland County Dental Association"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Mr. Wallinska"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Edvard Olaison Dental School",
+                "startDate": "1996",
+                "endDate": "1999"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Wallinska School in Stockholm"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Edvard Olaison Dental School",
+                "startDate": "1999",
+                "endDate": "2001"
+            },
+            {
+                "@type": "Organization",
+                "name": "Linköping Dental Practice",
+                "startDate": "2001"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kisa Dental Practice",
+                "startDate": "2001",
+                "endDate": "2003"
+            }
+        ]
+    }
+}

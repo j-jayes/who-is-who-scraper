@@ -1,0 +1,122 @@
+{
+    "original": "Lundin, Knut Hjalmar, apotekare, Göteborg, f. 19/1/98 i Vänersborg av Henning L. o. Matilda Nilsson. G. 22 m. Alfhild Maria Carlson. Barn: Knut f. 23, Britt-Marie 25, Åke 27, Ulf 30. — Stud:ex. i Skara 17, farm. kand. 22, apot :ex. 25. Elev v. apot. Delfiinen i Ghg 18-21, anst. där, v. S:t Ragnhild i Södertälje 25-28, därefter v. apot. i Ängelholm, priv. å apot. Valen i Gbg sed. 44 o. fil :apot. Vipan i Gbg fr. 47. PatrGM.",
+    "translated": "Lundin, Knut Hjalmar, pharmacist, Gothenburg, born on January 19, 1898 in Vänersborg to Henning L. and Matilda Nilsson. Married on October 22, to Alfhild Maria Carlson. Children: Knut (born in 1923), Britt-Marie (born in 1925), Åke (born in 1927), Ulf (born in 1930). Education: graduated from Skara High School in 1917, received a Bachelor's degree in pharmacy in 1922, and became a licensed pharmacist in 1925. Worked as an apprentice at the Delfiinen pharmacy in Gothenburg from 1918 to 1921, employed there, then worked at the S:t Ragnhild pharmacy in Södertälje from 1925 to 1928. Later worked at the Ängelholm pharmacy and as a private pharmacist at the Valen pharmacy in Gothenburg from 1944. Also worked as a pharmacy assistant at the Vipan pharmacy in Gothenburg from 1947. Member of the Swedish Pharmacy Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Hjalmar Lundin\",\n  \"birthDate\": \"1898-01-19\",\n  \"birthPlace\": \"Vänersborg\",\n  \"familyName\": \"Lundin\",\n  \"givenName\": \"Knut Hjalmar\",\n  \"jobTitle\": \"Pharmacist\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Pharmacy Association\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alfhild Maria Carlson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britt-Marie\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åke\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf\",\n      \"birthDate\": \"1930\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\" : \"diploma\",\n      \"name\": \"skara High School\",\n      \"alumniOf\": \"School of Skara\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\" : \"bachelors\",\n      \"name\": \"Bachelor's degree in pharmacy\",\n      \"alumniOf\": \"University\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\" : \"license\",\n      \"name\": \"Licensed pharmacist\",\n      \"alumniOf\": \"Swedish Pharmacy Board\",\n      \"endDate\": \"1925\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Delfiinen pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"startDate\": \"1918\",\n      \"endDate\": \"1921\",\n      \"position\": \"Apprentice\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"S:t Ragnhild pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Södertälje\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\",\n      \"position\": \"Employee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ängelholm pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Ängelholm\"\n      },\n      \"startDate\": \"1944\",\n      \"position\": \"Pharmacist\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Valen pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"startDate\": \"1944\",\n      \"position\": \"Private pharmacist\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vipan pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"startDate\": \"1947\",\n      \"position\": \"Pharmacy assistant\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Hjalmar Lundin",
+        "birthDate": "1898-01-19",
+        "birthPlace": "Vänersborg",
+        "familyName": "Lundin",
+        "givenName": "Knut Hjalmar",
+        "jobTitle": "Pharmacist",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Pharmacy Association"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Alfhild Maria Carlson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Knut",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Britt-Marie",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Åke",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulf",
+                "birthDate": "1930"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "skara High School",
+                "alumniOf": "School of Skara",
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelors",
+                "name": "Bachelor's degree in pharmacy",
+                "alumniOf": "University",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "license",
+                "name": "Licensed pharmacist",
+                "alumniOf": "Swedish Pharmacy Board",
+                "endDate": "1925"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Delfiinen pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "startDate": "1918",
+                "endDate": "1921",
+                "position": "Apprentice"
+            },
+            {
+                "@type": "Organization",
+                "name": "S:t Ragnhild pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Södertälje"
+                },
+                "startDate": "1925",
+                "endDate": "1928",
+                "position": "Employee"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ängelholm pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Ängelholm"
+                },
+                "startDate": "1944",
+                "position": "Pharmacist"
+            },
+            {
+                "@type": "Organization",
+                "name": "Valen pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "startDate": "1944",
+                "position": "Private pharmacist"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vipan pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "startDate": "1947",
+                "position": "Pharmacy assistant"
+            }
+        ]
+    }
+}

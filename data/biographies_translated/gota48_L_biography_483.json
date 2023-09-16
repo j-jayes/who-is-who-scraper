@@ -1,0 +1,101 @@
+{
+    "original": "Looram, Max Albert Maria L :ison, praktiserande läkare, Göteborg, f. 8/ 7/87 i Dresden av grosshandl. Oskar Ferdinand Larsson o. Theodolinda Ul-rica Katarina Janzon. G. 23 m. farm. kand. Thyra Johanna Fredrika Berggren. Barn: Kerstin Margareta f. 26. — Mog:ex. i Lund 07, med. kand. 12 o. med. lic. 23 i Sthlm. E. läk. i ett flertal distr. 19-23, assist :läk. v. S :t Eriks sjukh. 23-24, tf. stadsdistr :läk. i Gbg 25, prakt. läk. där sed. 24. Fält-läk :stip. 14, bat:läk. i res. 23-24, åter konstit. 40 t. v.",
+    "translated": "Looram, Max Albert Maria Lison, practicing physician, Gothenburg, b. 8/7/87 in Dresden to merchant Oskar Ferdinand Larsson and Theodolinda Ulrica Katarina Janzon. Married on 23 with pharmacist Thyra Johanna Fredrika Berggren. Children: Kerstin Margareta b. 26. — Obtained M.A. in Lund in 1907, M.Sc. in Medicine in 1912, and Medical License in 1923 in Stockholm. Worked as a physician in several districts from 1919-1923, assistant physician at St. Eriks Hospital from 1923-1924, acting district physician in Gothenburg from 1925, and practicing physician there since 1924. Field medical grant in 1914, battalion physician in reserve from 1923-1924, reinstated in 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Max Albert Maria Lison Looram\",\n  \"birthDate\": \"1887-07-08\",\n  \"birthPlace\": \"Dresden\",\n  \"description\": \"Practicing physician in Gothenburg\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Thyra Johanna Fredrika Berggren\",\n    \"marriageDate\": \"1923-01-23\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Margareta\",\n      \"birthDate\": \"1926-01-01\"\n    }\n  ],\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oskar Ferdinand Larsson\",\n      \"occupation\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Theodolinda Ulrica Katarina Janzon\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"M.A.\",\n      \"educationalLevel\": \"Master's Degree\",\n      \"educationalCredentialAwarded\": \"Lund University, 1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"M.Sc.\",\n      \"educationalLevel\": \"Master's Degree\",\n      \"educationalCredentialAwarded\": \"Medicine, Stockholm University, 1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medical License\",\n      \"educationalCredentialAwarded\": \"Stockholm, 1923\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"St. Eriks Hospital\",\n      \"assistantPhysicianStartDate\": \"1923-01-01\",\n      \"assistantPhysicianEndDate\": \"1924-01-01\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Gothenburg\",\n      \"actingDistrictPhysicianStartDate\": \"1925-01-01\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"name\": \"Physician\",\n      \"practiceLocation\": \"Gothenburg\",\n      \"startDate\": \"1924-01-01\"\n    }\n  ],\n  \"medicalSpecialty\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"General Practice\"\n    }\n  ],\n  \"militaryService\": [\n    {\n      \"@type\": \"MilitaryGrant\",\n      \"grantType\": \"Field Medical Grant\",\n      \"year\": 1914\n    },\n    {\n      \"@type\": \"MilitaryService\",\n      \"serviceType\": \"Battalion Physician\",\n      \"startDate\": \"1923-01-01\",\n      \"endDate\": \"1924-01-01\"\n    },\n    {\n      \"@type\": \"MilitaryService\",\n      \"serviceType\": \"Battalion Physician\",\n      \"startDate\": \"1940-01-01\",\n      \"endDate\": null\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Max Albert Maria Lison Looram",
+        "birthDate": "1887-07-08",
+        "birthPlace": "Dresden",
+        "description": "Practicing physician in Gothenburg",
+        "spouse": {
+            "@type": "Person",
+            "name": "Thyra Johanna Fredrika Berggren",
+            "marriageDate": "1923-01-23"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Margareta",
+                "birthDate": "1926-01-01"
+            }
+        ],
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oskar Ferdinand Larsson",
+                "occupation": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Theodolinda Ulrica Katarina Janzon"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "M.A.",
+                "educationalLevel": "Master's Degree",
+                "educationalCredentialAwarded": "Lund University, 1907"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "M.Sc.",
+                "educationalLevel": "Master's Degree",
+                "educationalCredentialAwarded": "Medicine, Stockholm University, 1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medical License",
+                "educationalCredentialAwarded": "Stockholm, 1923"
+            }
+        ],
+        "work": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "St. Eriks Hospital",
+                "assistantPhysicianStartDate": "1923-01-01",
+                "assistantPhysicianEndDate": "1924-01-01"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg",
+                "actingDistrictPhysicianStartDate": "1925-01-01"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "MedicalOccupation",
+                "name": "Physician",
+                "practiceLocation": "Gothenburg",
+                "startDate": "1924-01-01"
+            }
+        ],
+        "medicalSpecialty": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "General Practice"
+            }
+        ],
+        "militaryService": [
+            {
+                "@type": "MilitaryGrant",
+                "grantType": "Field Medical Grant",
+                "year": 1914
+            },
+            {
+                "@type": "MilitaryService",
+                "serviceType": "Battalion Physician",
+                "startDate": "1923-01-01",
+                "endDate": "1924-01-01"
+            },
+            {
+                "@type": "MilitaryService",
+                "serviceType": "Battalion Physician",
+                "startDate": "1940-01-01",
+                "endDate": null
+            }
+        ]
+    }
+}

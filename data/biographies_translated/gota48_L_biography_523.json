@@ -1,0 +1,82 @@
+{
+    "original": "Lundberg, Sven Gustav Edvard, professor, Göteborg, f. 13/2/00 i Halmstad av insp. Gustav L. o. Maria Andersson. G. 27 m. Linnéa Zell. Barn: Lars f. 31, Karin 35. — Utex. fr. CTI (M). Anst. v. Halmstads Mek. Verk-st. A-B 25-26, Götaverken i Gbg 26-39, tf. prof. v. CTH 37-41, prof. i förbränn :motorteknik där sed. 41.",
+    "translated": "Lundberg, Sven Gustav Edvard, professor, Gothenburg, born on February 13, 1900 in Halmstad to inspector Gustav L. and Maria Andersson. Married on 27/xx/xx to Linnéa Zell. Children: Lars, born in 1931, and Karin, born in 1935. Graduated from CTI (M). Employed at Halmstads Mek. Verk-st. A-B from 1925 to 1926, Götaverken in Gothenburg from 1926 to 1939, acting professor at CTH from 1937 to 1941, and professor in combustion and engine technology there since 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Sven Gustav Edvard\",\n  \"familyName\": \"Lundberg\",\n  \"birthDate\": \"1900-02-13\",\n  \"birthPlace\": \"Halmstad\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustav L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Linnéa Zell\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Bachelor's degree\",\n    \"issuer\": {\n      \"@type\": \"Organization\",\n      \"name\": \"CTI\"\n    }\n  },\n  \"jobTitle\": \"Professor\",\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Halmstads Mek. Verk-st. A-B\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Götaverken\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"CTH\",\n      \"jobTitle\": \"Acting Professor\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"CTH\",\n      \"jobTitle\": \"Professor\",\n      \"startDate\": \"1941\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"CTI (M)\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Sven Gustav Edvard",
+        "familyName": "Lundberg",
+        "birthDate": "1900-02-13",
+        "birthPlace": "Halmstad",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustav L."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Linnéa Zell"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1935"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Bachelor's degree",
+            "issuer": {
+                "@type": "Organization",
+                "name": "CTI"
+            }
+        },
+        "jobTitle": "Professor",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Halmstads Mek. Verk-st. A-B",
+                "startDate": "1925",
+                "endDate": "1926"
+            },
+            {
+                "@type": "Organization",
+                "name": "Götaverken",
+                "location": "Gothenburg",
+                "startDate": "1926",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "CTH",
+                "jobTitle": "Acting Professor",
+                "startDate": "1937",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "CTH",
+                "jobTitle": "Professor",
+                "startDate": "1941"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "CTI (M)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "original": "Lundqvist, Hilmer Wallentin, apotekare, Kisa, f. 28/3/90 i Malmö av fabr. Johan Peter L. o. Christina Jakobsson. G. 17 m. Ingrid Dorotea Svensson. Barn: Bengt f. 18, Ulla 19, Lars 21. — Stud:ex. i Malmö 11, farm. kand. 18, apot :ex. 27. Elev v. apot. Elefanten i Sthlm, anst. där 18-23, Ängeln i Sthlm 25-27, Lejonet i Kalmar 27-40, priv. å apot. i Kisa sed. 40.",
+    "translated": "Lundqvist, Hilmer Wallentin, pharmacist, born on 28th March 1890 in Malmö to factory worker Johan Peter L. and Christina Jakobsson. Married on 17th March, year unknown, to Ingrid Dorotea Svensson. Children: Bengt, born in 1918, Ulla in 1919, and Lars in 1921. Completed high school in Malmö in 1911, graduated as a pharmaceutical candidate in 1918, and became a licensed pharmacist in 1927. Worked as an intern at the Elephant pharmacy in Stockholm from 1918 to 1923, then at the Angel pharmacy in Stockholm from 1925 to 1927, and at the Lion pharmacy in Kalmar from 1927 to 1940. Private practice at a pharmacy in Kisa since 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hilmer Wallentin Lundqvist\",\n  \"birthDate\": \"1890-03-28\",\n  \"birthPlace\": \"Malmö\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Peter Lundqvist\",\n      \"jobTitle\": \"Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Jakobsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Dorotea Svensson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Lundqvist\",\n      \"birthDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Lundqvist\",\n      \"birthDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Lundqvist\",\n      \"birthDate\": \"1921\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex.\",\n      \"educationalLevel\": \"High School\",\n      \"educationalRole\": \"Examination\",\n      \"educationalSubject\": \"Malmö\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Farm. kand.\",\n      \"educationalLevel\": \"Pharmaceutical Candidate\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Apot :ex.\",\n      \"educationalLevel\": \"Licensed Pharmacist\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Elefanten\"\n      },\n      \"startDate\": \"1918\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ängeln\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lejonet\"\n      },\n      \"startDate\": \"1927\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Private Pharmacy\"\n      },\n      \"startDate\": \"1940\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hilmer Wallentin Lundqvist",
+        "birthDate": "1890-03-28",
+        "birthPlace": "Malmö",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Peter Lundqvist",
+                "jobTitle": "Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Christina Jakobsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingrid Dorotea Svensson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt Lundqvist",
+                "birthDate": "1918"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Lundqvist",
+                "birthDate": "1919"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Lundqvist",
+                "birthDate": "1921"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High School",
+                "educationalRole": "Examination",
+                "educationalSubject": "Malmö",
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Farm. kand.",
+                "educationalLevel": "Pharmaceutical Candidate",
+                "endDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Apot :ex.",
+                "educationalLevel": "Licensed Pharmacist",
+                "endDate": "1927"
+            }
+        ],
+        "work": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Elefanten"
+                },
+                "startDate": "1918",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Ängeln"
+                },
+                "startDate": "1925",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Lejonet"
+                },
+                "startDate": "1927",
+                "endDate": "1940"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Private Pharmacy"
+                },
+                "startDate": "1940"
+            }
+        ]
+    }
+}

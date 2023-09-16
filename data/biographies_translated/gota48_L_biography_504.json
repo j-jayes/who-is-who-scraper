@@ -1,0 +1,84 @@
+{
+    "original": "Lundahl, Carl-Gustaf Allan, prakt, läkare, Göteborg, f. 13/3/06 i Borås av fabr. Carl L. o. Anna Jacobsson. G. 40 m. Marguerithe Giescke. Barn: Hans f. 41. — Stud:ex. i Borås 25, med. kand. i Upps. 30 o. med. lic. där 37. E. o. aman. v. hygien.-bakteriolog), inst. i Upps. 32-33, tf. prov:läk. i Kin-na o. Vårgårda distr. kort. tider 37, bitr. läk. v. Hultafors sanat. 37, prakt, läk. i Gbg sed. 39. *LundahI, Ernst Fritiof, ’stadsfiskal, Vimmerby, f. 13/11/88 i Sönnarslöv, Krist. 1. — Lansm:ex. 10. Anst. v. landsstaten 06-17, landskont. 17-18, st a ds fisk al o. ’stadsfogde i Vimmerby sed. 18. Ordf. i styr. f. Skand. Bankens avd:kont. i Vimmerby O’. i styr. f. Vimmerby Sparbank, köpmianna-fören. ombud.",
+    "translated": "Lundahl, Carl-Gustaf Allan, profession: physician, Gothenburg. Born on March 13, 1906 in Borås to fabricator Carl L. and Anna Jacobsson. Married in 1940 to Marguerithe Giescke. Children: Hans, born in 1941. Graduated from high school in Borås in 1925, received a Bachelor of Medicine degree in Uppsala in 1930, and a medical license there in 1937. Assistant in hygiene-bacteriology at Uppsala Institute from 1932 to 1933, temporary medical examiner in Kinnarumma and Vårgårda districts for short periods in 1937, assistant physician at Hultafors Sanatorium in 1937, practicing physician in Gothenburg since 1939.\n\n*Lundahl, Ernst Fritiof, city prosecutor, Vimmerby. Born on November 13, 1888 in Sönnarslöv, Kristianstad. Passed district clerk exam in 1910. Employed by the county government from 1906 to 1917, county office from 1917 to 1918, city prosecutor and city bailiff in Vimmerby since 1918. Chairman of the board for Skandia Bank's branch office in Vimmerby and also for Vimmerby Savings Bank, appointed representative for the merchants' association.",
+    "structured_raw": "{ \n \"@context\": \"https://schema.org/\", \n \"@type\": \"Person\", \n \"name\": \"Carl-Gustaf Allan Lundahl\", \n \"birthDate\": \"1906-03-13\", \n \"birthPlace\": \"Borås, Sweden\", \n \"occupation\": \"Physician\", \n \"address\": { \n   \"@type\": \"PostalAddress\", \n   \"addressLocality\": \"Gothenburg\", \n   \"addressCountry\": \"Sweden\" \n }, \n \"parent\": [ \n   { \n     \"@type\": \"Person\", \n     \"name\": \"Carl L.\" \n   }, \n   { \n     \"@type\": \"Person\", \n     \"name\": \"Anna Jacobsson\" \n   } \n ], \n \"spouse\": { \n   \"@type\": \"Person\", \n   \"name\": \"Marguerithe Giescke\", \n   \"marriageDate\": \"1940\" \n }, \n \"children\": [ \n   { \n     \"@type\": \"Person\", \n     \"name\": \"Hans Lundahl\", \n     \"birthDate\": \"1941\" \n   } \n ], \n \"education\": [ \n   { \n     \"@type\": \"EducationalOccupationalCredential\", \n     \"credentialCategory\": \"Stud:ex.\", \n     \"educationalLevel\": \"High School\", \n     \"name\": \"Borås High School\", \n     \"endDate\": \"1925\" \n   }, \n   { \n     \"@type\": \"EducationalOccupationalCredential\", \n     \"credentialCategory\": \"Med. Kand.\", \n     \"educationalLevel\": \"Bachelor's Degree\", \n     \"name\": \"Uppsala University\", \n     \"endDate\": \"1930\" \n   }, \n   { \n     \"@type\": \"EducationalOccupationalCredential\", \n     \"credentialCategory\": \"Med. Lic.\", \n     \"educationalLevel\": \"Medical License\", \n     \"name\": \"Uppsala University\", \n     \"endDate\": \"1937\" \n   } \n ], \n \"work\": [ \n   { \n     \"@type\": \"MedicalOrganization\", \n     \"name\": \"Uppsala Institute\", \n     \"startDate\": \"1932-01-01\", \n     \"endDate\": \"1933-12-31\", \n     \"jobTitle\": \"Assistant in Hygiene-Bacteriology\" \n   }, \n   { \n     \"@type\": \"MedicalOrganization\", \n     \"name\": \"Hultafors Sanatorium\", \n     \"startDate\": \"1937\", \n     \"endDate\": \"1937\", \n     \"jobTitle\": \"Assistant Physician\" \n   }, \n   { \n     \"@type\": \"MedicalOrganization\", \n     \"name\": \"Gothenburg Practice\", \n     \"startDate\": \"1939\" \n   } \n ] \n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Carl-Gustaf Allan Lundahl",
+        "birthDate": "1906-03-13",
+        "birthPlace": "Borås, Sweden",
+        "occupation": "Physician",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl L."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Jacobsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Marguerithe Giescke",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hans Lundahl",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "High School",
+                "name": "Borås High School",
+                "endDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Med. Kand.",
+                "educationalLevel": "Bachelor's Degree",
+                "name": "Uppsala University",
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Med. Lic.",
+                "educationalLevel": "Medical License",
+                "name": "Uppsala University",
+                "endDate": "1937"
+            }
+        ],
+        "work": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Uppsala Institute",
+                "startDate": "1932-01-01",
+                "endDate": "1933-12-31",
+                "jobTitle": "Assistant in Hygiene-Bacteriology"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Hultafors Sanatorium",
+                "startDate": "1937",
+                "endDate": "1937",
+                "jobTitle": "Assistant Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Gothenburg Practice",
+                "startDate": "1939"
+            }
+        ]
+    }
+}

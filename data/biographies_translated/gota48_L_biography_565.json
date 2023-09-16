@@ -1,0 +1,84 @@
+{
+    "original": "Lundin, Ove Gustaf, hovrättsråd, Jönköping, f. 26/2/93 i Jönköp. av dir. Joisef L. o. Ebba Almstedt. — S:tud:- ex. i Jönköp. 11, jur. kand. i Sthlm 16. E. o. not. i Göta hovr. 16, tingstjg. i Tveta, Vista o. Mo’ här. doms. 18, tjg. i Göta hovr. sed. 18, assess. där 23, fiskal 24, hovrrråd 30, v. ordf. å div. RNO.",
+    "translated": "Lundin, Ove Gustaf, Court Counselor, Jönköping, b. 26/2/93 in Jönköp., son of director Joisef L. and Ebba Almstedt. — Completed secondary education in Jönköp. in 1911, graduated with a law degree in Stockholm in 1916. Acting notary public in Göta Court of Appeal in 1916, served as a court clerk in the districts of Tveta, Vista, and Mo' here in 1918. Employed in Göta Court of Appeal since 1918, appointed as an assessor in 1923, became a deputy judge in 1924, promoted to Court Counselor in 1930, and served as vice chairman in various RNO committees. Note that '\\d\\d m. partners name' indicates marriage in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ove Gustaf Lundin\",\n  \"jobTitle\": \"Court Counselor\",\n  \"birthDate\": \"1893-02-26\",\n  \"birthPlace\": \"Jönköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Joisef L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba Almstedt\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Jönköping Secondary School\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm University\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Law\",\n        \"dateAwarded\": \"1916\"\n      }\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Göta Court of Appeal\",\n      \"position\": \"Acting Notary Public\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Göta Court of Appeal\",\n      \"position\": \"Court Clerk\",\n      \"department\": [\n        \"Tveta District Court\",\n        \"Vista District Court\",\n        \"Mo' District Court\"\n      ],\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Göta Court of Appeal\",\n      \"position\": \"Assessor\",\n      \"startDate\": \"1923\"\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Göta Court of Appeal\",\n      \"position\": \"Deputy Judge\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"GovernmentOffice\",\n      \"name\": \"Göta Court of Appeal\",\n      \"position\": \"Court Counselor\",\n      \"startDate\": \"1930\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"RNO\",\n      \"roleName\": \"Vice Chairman\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ove Gustaf Lundin",
+        "jobTitle": "Court Counselor",
+        "birthDate": "1893-02-26",
+        "birthPlace": "Jönköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Joisef L."
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba Almstedt"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Jönköping Secondary School",
+                "endDate": "1911"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm University",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Law",
+                    "dateAwarded": "1916"
+                }
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "GovernmentOffice",
+                "name": "Göta Court of Appeal",
+                "position": "Acting Notary Public",
+                "startDate": "1916",
+                "endDate": "1918"
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Göta Court of Appeal",
+                "position": "Court Clerk",
+                "department": [
+                    "Tveta District Court",
+                    "Vista District Court",
+                    "Mo' District Court"
+                ],
+                "startDate": "1918"
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Göta Court of Appeal",
+                "position": "Assessor",
+                "startDate": "1923"
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Göta Court of Appeal",
+                "position": "Deputy Judge",
+                "startDate": "1924"
+            },
+            {
+                "@type": "GovernmentOffice",
+                "name": "Göta Court of Appeal",
+                "position": "Court Counselor",
+                "startDate": "1930"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "RNO",
+                "roleName": "Vice Chairman"
+            }
+        ]
+    }
+}

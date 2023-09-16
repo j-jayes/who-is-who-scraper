@@ -1,0 +1,70 @@
+{
+    "original": "Mjöbäck, Carl-Gösta, tandläkare, Visby, f. 24/6/14 i Kristinehamn. G. 37 m. Ingegerd Berg. Barn: Barbro f. 38, Karin 44. — Stud:ex. 33, tandl:ex. 36. Praktik i Stocksund 37-46, i Visby :sed. 46.",
+    "translated": "Mjöbäck, Carl-Gösta, dentist, Visby, born 24/6/14 in Kristinehamn. Married in 1937 to Ingegerd Berg. Children: Barbro born in 1938, Karin born in 1944. Completed secondary school in 1933, graduated as a dentist in 1936. Practiced in Stocksund from 1937 to 1946, and in Visby since 1946.",
+    "structured_raw": "{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"Person\",\n    \"name\": \"Carl-Gösta Mjöbäck\",\n    \"birthDate\": \"1914-06-24\",\n    \"birthPlace\": \"Kristinehamn\",\n    \"jobTitle\": \"Dentist\",\n    \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Visby\"\n    },\n    \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Ingegerd Berg\"\n    },\n    \"children\": [\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Barbro\",\n            \"birthDate\": \"1938\"\n        },\n        {\n            \"@type\": \"Person\",\n            \"name\": \"Karin\",\n            \"birthDate\": \"1944\"\n        }\n    ],\n    \"education\": [\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"SecondarySchool\",\n            \"educationalLevel\": \"SecondaryEducation\",\n            \"dateEarned\": \"1933\"\n        },\n        {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"credentialCategory\": \"Dentistry\",\n            \"educationalLevel\": \"BachelorDegree\",\n            \"dateEarned\": \"1936\"\n        }\n    ],\n    \"memberOf\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Stocksund\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Visby\"\n        }\n    ],\n    \"worksFor\": [\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Stocksund\",\n            \"startDate\": \"1937\",\n            \"endDate\": \"1946\"\n        },\n        {\n            \"@type\": \"Organization\",\n            \"name\": \"Visby\",\n            \"startDate\": \"1946\"\n        }\n    ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl-Gösta Mjöbäck",
+        "birthDate": "1914-06-24",
+        "birthPlace": "Kristinehamn",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Visby"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingegerd Berg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Barbro",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondarySchool",
+                "educationalLevel": "SecondaryEducation",
+                "dateEarned": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentistry",
+                "educationalLevel": "BachelorDegree",
+                "dateEarned": "1936"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Stocksund"
+            },
+            {
+                "@type": "Organization",
+                "name": "Visby"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Stocksund",
+                "startDate": "1937",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Visby",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

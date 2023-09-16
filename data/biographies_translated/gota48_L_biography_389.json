@@ -1,0 +1,102 @@
+{
+    "original": "Lindström, Karl Elof, tandläkare, Eksjö, f. 17/12/97 i Eksjö av fabr. Gustaf L. o. Carolina Grahn. G. 42 m. Anna-Britta Karlsson. Barn: Ingrid f. 43, Sven Elof 44. — Stud:ex. i Växjö 18, tysk tandl. i Berhn 26, sv. dito 28. Prakt, i Nybro 28-36, i Falun 36-40 o. i Eksjö sed. 40. Led. av Sv. tandl :sällsk. Hobbies: allm. idr., tennis o. ridning. Delt. i spjutkastn. v. Olymp. sp. i Antwerpen 20.",
+    "translated": "Lindström, Karl Elof, dentist, Eksjö, b. 17/12/97 in Eksjö to factory worker Gustaf L. and Carolina Grahn. Married in 1942 to Anna-Britta Karlsson. Children: Ingrid, b. 1943, Sven Elof, b. 1944. Completed secondary school in Växjö in 1918, studied dentistry in Berlin in 1926, and Swedish dentistry in 1928. Practiced in Nybro from 1928 to 1936, in Falun from 1936 to 1940, and in Eksjö since 1940. Member of the Swedish Dental Society. Hobbies: general sports, tennis, and horseback riding. Participated in javelin throw at the Olympic Games in Antwerp in 1920.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Elof Lindström\",\n  \"birthDate\": \"1897-12-17\",\n  \"birthPlace\": \"Eksjö\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Eksjö\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf L.\",\n      \"jobTitle\": \"Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carolina Grahn\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Britta Karlsson\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Elof\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary School Diploma\",\n      \"alumniOf\": \"Växjö\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Degree\",\n      \"alumniOf\": \"Berlin\",\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Swedish Dental Degree\",\n      \"alumniOf\": \"Sweden\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Nybro Dental Practice\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Falun Dental Practice\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Eksjö Dental Practice\",\n      \"startDate\": \"1940\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Dental Society\"\n  },\n  \"sameAs\": \"https://en.wikipedia.org/wiki/Some_Wikipedia_URL\",\n  \"hobbies\": [\n    \"General sports\",\n    \"Tennis\",\n    \"Horseback riding\"\n  ],\n  \"award\": {\n    \"@type\": \"SportsEvent\",\n    \"name\": \"Javelin throw\",\n    \"startDate\": \"1920\",\n    \"location\": \"Antwerp, Belgium\",\n    \"isPartOf\": \"Olympic Games\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Elof Lindström",
+        "birthDate": "1897-12-17",
+        "birthPlace": "Eksjö",
+        "nationality": "Swedish",
+        "occupation": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Eksjö"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Gustaf L.",
+                "jobTitle": "Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Carolina Grahn"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Britta Karlsson",
+            "marriageDate": "1942"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingrid",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven Elof",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary School Diploma",
+                "alumniOf": "Växjö",
+                "startDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Degree",
+                "alumniOf": "Berlin",
+                "startDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Swedish Dental Degree",
+                "alumniOf": "Sweden",
+                "startDate": "1928"
+            }
+        ],
+        "work": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Nybro Dental Practice",
+                "startDate": "1928",
+                "endDate": "1936"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Falun Dental Practice",
+                "startDate": "1936",
+                "endDate": "1940"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Eksjö Dental Practice",
+                "startDate": "1940"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Dental Society"
+        },
+        "sameAs": "https://en.wikipedia.org/wiki/Some_Wikipedia_URL",
+        "hobbies": [
+            "General sports",
+            "Tennis",
+            "Horseback riding"
+        ],
+        "award": {
+            "@type": "SportsEvent",
+            "name": "Javelin throw",
+            "startDate": "1920",
+            "location": "Antwerp, Belgium",
+            "isPartOf": "Olympic Games"
+        }
+    }
+}

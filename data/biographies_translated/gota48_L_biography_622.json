@@ -1,0 +1,78 @@
+{
+    "original": "Lönnberg, Carl Gustaf Birger, civilingenjör, Göteborg, f. 24/12/08 i Mjölby av Birger Rudolf L. o. Sofie Eugenia Abrahamsson. — Stud:ex. i Linköp. 29, avgrex. fr. KTH 35. Lab:-chef v. Gbgs vattenverk sed. 37. Sekr. i Tekn. samf. avd. f. kemi o. fysik. Hobbies: musik o. golf.",
+    "translated": "Lönnberg, Carl Gustaf Birger, civil engineer, Gothenburg, b. 24/12/08 in Mjölby to Birger Rudolf L. and Sofie Eugenia Abrahamsson. — High school graduate in Linköping in 1929, graduated from KTH in 1935. Laboratory manager at Gothenburg's waterworks since 1937. Secretary in the Technical Society's department of chemistry and physics. Hobbies: music and golf.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Birger Lönnberg\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"birthDate\": \"1908-12-24\",\n  \"birthPlace\": \"Mjölby, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birger Rudolf Lönnberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofie Eugenia Abrahamsson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"educationLevel\": \"HighSchool\",\n      \"distinguishingType\": \"Graduation\",\n      \"dateIssued\": \"1929-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Civil Engineering degree\",\n      \"educationLevel\": \"Bachelor'sDegree\",\n      \"distinguishingType\": \"Graduation\",\n      \"dateIssued\": \"1935-01\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Laboratory Manager\",\n      \"startDate\": \"1937-01\",\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Waterworks\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Secretary\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Technical Society\",\n        \"department\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Department of Chemistry and Physics\"\n        }\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Society\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göteborg Golf Club\",\n      \"additionalType\": \"SportsClub\",\n      \"category\": \"Golf\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Gustaf Birger Lönnberg",
+        "jobTitle": "Civil Engineer",
+        "birthDate": "1908-12-24",
+        "birthPlace": "Mjölby, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Birger Rudolf Lönnberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Sofie Eugenia Abrahamsson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "educationLevel": "HighSchool",
+                "distinguishingType": "Graduation",
+                "dateIssued": "1929-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Civil Engineering degree",
+                "educationLevel": "Bachelor'sDegree",
+                "distinguishingType": "Graduation",
+                "dateIssued": "1935-01"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Laboratory Manager",
+                "startDate": "1937-01",
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Waterworks",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Secretary",
+                "startDate": null,
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Technical Society",
+                    "department": {
+                        "@type": "Organization",
+                        "name": "Department of Chemistry and Physics"
+                    }
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Göteborg Golf Club",
+                "additionalType": "SportsClub",
+                "category": "Golf"
+            }
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "original": "Lundgren, Evald Fredrik Wilhelm, tandläkare, Göteborg, f. 16/5/05 i Gbg av sjökapt, Robert L. o. Anna Niisen. G. 28 m. Thelma Hoff. Barn: Marianne f. 30, Robert 33. — Stud:ex. v. Gbgs real 23, Doctor of Dental Sur-gerv v. Univ. of Minnesota, USA, 27, sv. tandl. 28. Prakt, i Gbg sed. 28, skoltandl. i Mölndal 31-37. Medl. av Traveilers club m. fl.",
+    "translated": "Lundgren, Evald Fredrik Wilhelm, dentist, Gothenburg, b. 16/5/05 in Gothenburg, son of ship captain Robert L. and Anna Niisen. Married on 28 with Thelma Hoff. Children: Marianne b. 30, Robert b. 33. Completed secondary school at Gothenburg's Real School in 1923, obtained Doctor of Dental Surgery from the University of Minnesota, USA in 1927, and Swedish dental license in 1928. Practiced in Gothenburg since 1928 and served as a school dentist in Mölndal from 1931-1937. Member of Travelers club and others.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Evald Fredrik Wilhelm Lundgren\",\n  \"birthDate\": \"1905-05-16\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Robert L. Lundgren\",\n      \"jobTitle\": \"Ship Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Niisen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Thelma Hoff\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne Lundgren\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Robert Lundgren\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Real School\"\n      },\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Doctor of Dental Surgery\",\n      \"educationalLevel\": \"Professional\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"University of Minnesota\"\n      },\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Swedish dental license\",\n      \"educationalLevel\": \"Professional\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Travelers Club\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\"\n  },\n  \"worksFrom\": \"1928\",\n  \"worksAs\": [\n    {\n      \"@type\": \"MedicalBusiness\",\n      \"name\": \"Private Dental Practice\"\n    },\n    {\n      \"@type\": \"MedicalBusiness\",\n      \"name\": \"School Dentist in Mölndal\"\n    }\n  ],\n  \"worksThrough\": [\n    {\n      \"@type\": \"MedicalBusiness\",\n      \"name\": \"1931\",\n      \"endDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Evald Fredrik Wilhelm Lundgren",
+        "birthDate": "1905-05-16",
+        "birthPlace": "Gothenburg, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Robert L. Lundgren",
+                "jobTitle": "Ship Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Niisen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Thelma Hoff"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Marianne Lundgren",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Robert Lundgren",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Real School"
+                },
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Doctor of Dental Surgery",
+                "educationalLevel": "Professional",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "University of Minnesota"
+                },
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Swedish dental license",
+                "educationalLevel": "Professional",
+                "endDate": "1928"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Travelers Club"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg"
+        },
+        "worksFrom": "1928",
+        "worksAs": [
+            {
+                "@type": "MedicalBusiness",
+                "name": "Private Dental Practice"
+            },
+            {
+                "@type": "MedicalBusiness",
+                "name": "School Dentist in Mölndal"
+            }
+        ],
+        "worksThrough": [
+            {
+                "@type": "MedicalBusiness",
+                "name": "1931",
+                "endDate": "1937"
+            }
+        ]
+    }
+}

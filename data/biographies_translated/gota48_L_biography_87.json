@@ -1,0 +1,83 @@
+{
+    "original": "Larsson, Helmi Maria, läroverksadjunkt, Uddevalla, f. 28/8/03 i Södra Kedum, Skarab. i., av Lars-Petter L. o. Mathilda Hultgren. — Stud:ex. i Sthim 24, fil, mag, i Upps, 28, provàr v, norra real i Sthlm 30, E, lär. i Sollefteå 31-33, i Växjö 33-37, adj. i modersm, o. tyska v, Tranås samreal-sk, 37, v. Uddevalla h. a, 1. sed. 43.",
+    "translated": "Larsson, Helmi Maria, high school teacher, Uddevalla, born on August 28, 1903, in Södra Kedum, Skaraborg County, the daughter of Lars-Petter L. and Mathilda Hultgren. - Completed high school exams in Stockholm in 1924, holds a Bachelor's degree in Arts in Uppsala in 1928, passed the exams in the spring of 1930 at Norra Real in Stockholm. Educated as a teacher in Sollefteå from 1931 to 1933, in Växjö from 1933 to 1937. Became an assistant teacher in mother tongue and German at Tranås Samreal School in 1937. Assistant teacher at Uddevalla higher secondary school since 1943. Note that \"\\d\\d m. partner's name\" indicates marriage occurring in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Helmi Maria\",\n  \"familyName\": \"Larsson\",\n  \"jobTitle\": \"High School Teacher\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Uddevalla\"\n  },\n  \"birthDate\": \"1903-08-28\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Södra Kedum, Skaraborg County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Lars-Petter\",\n      \"familyName\": \"Larsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Mathilda\",\n      \"familyName\": \"Hultgren\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school exams\",\n      \"educationalLevel\": \"Stud:ex.\",\n      \"educationalProgram\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Fil, mag\",\n      \"educationalProgram\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Exams\",\n      \"educationalLevel\": \"Spring 1930\",\n      \"educationalProgram\": \"Norra Real, Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Teaching\",\n      \"educationalLevel\": \"Lär.\",\n      \"educationalProgram\": \"Sollefteå\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Teaching\",\n      \"educationalLevel\": \"Växjö\",\n      \"educationalProgram\": \"Växjö\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Assistant teacher\",\n      \"educationalLevel\": \"Tranås Samreal School\",\n      \"educationalProgram\": \"Tranås\"\n    }\n  ],\n  \"partner\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"L.\",\n      \"gender\": \"Male\"\n    }\n  ],\n  \"startDate\": \"1943-01-01\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Uddevalla Higher Secondary School\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Helmi Maria",
+        "familyName": "Larsson",
+        "jobTitle": "High School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Uddevalla"
+        },
+        "birthDate": "1903-08-28",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Södra Kedum, Skaraborg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Lars-Petter",
+                "familyName": "Larsson"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Mathilda",
+                "familyName": "Hultgren"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school exams",
+                "educationalLevel": "Stud:ex.",
+                "educationalProgram": "Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Fil, mag",
+                "educationalProgram": "Uppsala"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Exams",
+                "educationalLevel": "Spring 1930",
+                "educationalProgram": "Norra Real, Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Teaching",
+                "educationalLevel": "Lär.",
+                "educationalProgram": "Sollefteå"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Teaching",
+                "educationalLevel": "Växjö",
+                "educationalProgram": "Växjö"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Assistant teacher",
+                "educationalLevel": "Tranås Samreal School",
+                "educationalProgram": "Tranås"
+            }
+        ],
+        "partner": [
+            {
+                "@type": "Person",
+                "name": "L.",
+                "gender": "Male"
+            }
+        ],
+        "startDate": "1943-01-01",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Uddevalla Higher Secondary School"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "original": "Lundgren, Per-Olof, kommunalsekreterare, Trollhättan, f. 20/3/04 i Er-ska, Älvsb. 1., av Anton L. o. Mathilda Andersdotter. — Stud:ex. i Skara 23, jur. kand. i Lund 28. Tings-tjg. v. Flundre, Väne o. Bjärke doms. 28-31, kommunalsekr. i Trollhättan sed. 32. Överförmynd. sed. 34, led. av styr. f. Trollhättans Sparbank sed. 44.",
+    "translated": "Lundgren, Per-Olof, municipal secretary, Trollhättan, b. 20/3/04 in Er-ska, Älvsb. 1st, son of Anton L. and Mathilda Andersdotter. - Graduated from high school in Skara 23, received a law degree from Lund in 28. Served as a court clerk in Flundre, Väne, and Bjärke districts from 28 to 31, became a municipal secretary in Trollhättan in 32. Appointed as a guardian in 34, became a member of the board for Trollhättans Sparbank in 44.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per-Olof Lundgren\",\n  \"jobTitle\": \"Municipal Secretary\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Trollhättan\"\n  },\n  \"birthDate\": \"1904-03-20\",\n  \"birthPlace\": \"Er-ska, Älvsb. 1st\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anton L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mathilda Andersdotter\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"HighSchool\",\n      \"educationalLevel\": \"Secondary\",\n      \"educationalRole\": \"Graduated\",\n      \"alumniOf\": \"Skara\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"LawDegree\",\n      \"educationalLevel\": \"Graduate\",\n      \"educationalRole\": \"Received\",\n      \"alumniOf\": \"Lund\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Flundre, Väne, and Bjärke Districts\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1931\",\n      \"jobTitle\": \"Court Clerk\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Trollhättan\",\n      \"startDate\": \"1932\",\n      \"jobTitle\": \"Municipal Secretary\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättans Sparbank\",\n      \"startDate\": \"1944\",\n      \"roleName\": \"Board Member\"\n    }\n  ],\n  \"appointments\": [\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Trollhättan\",\n      \"startDate\": \"1934\",\n      \"roleName\": \"Guardian\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per-Olof Lundgren",
+        "jobTitle": "Municipal Secretary",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Trollhättan"
+        },
+        "birthDate": "1904-03-20",
+        "birthPlace": "Er-ska, Älvsb. 1st",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anton L."
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Andersdotter"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "HighSchool",
+                "educationalLevel": "Secondary",
+                "educationalRole": "Graduated",
+                "alumniOf": "Skara",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "LawDegree",
+                "educationalLevel": "Graduate",
+                "educationalRole": "Received",
+                "alumniOf": "Lund",
+                "endDate": "1928"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Court",
+                "name": "Flundre, Väne, and Bjärke Districts",
+                "startDate": "1928",
+                "endDate": "1931",
+                "jobTitle": "Court Clerk"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Trollhättan",
+                "startDate": "1932",
+                "jobTitle": "Municipal Secretary"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Trollhättans Sparbank",
+                "startDate": "1944",
+                "roleName": "Board Member"
+            }
+        ],
+        "appointments": [
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Trollhättan",
+                "startDate": "1934",
+                "roleName": "Guardian"
+            }
+        ]
+    }
+}

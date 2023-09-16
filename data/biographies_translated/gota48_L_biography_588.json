@@ -1,0 +1,85 @@
+{
+    "original": "Lundvall, Nils Magnus Oscar, stads-notarie, Halmstad, f. 7/1/08 i Köinge, Hall. 1. G. 35 m. Gunborg Persson. Barn: Lena f. 39, Leif 41. — Stud:ex. i Landskrona 28, jur. kand. i Lund 35. Tingstjg. i Västmanl. mell. doms. 35-38, tf. drätselnot. i Västerås 38-39, stadsnotarie i Halmstad fr. 39.",
+    "translated": "Lundvall, Nils Magnus Oscar, city clerk, Halmstad, born on January 7, 1908 in Köinge, Halland. First marriage in 1935 to Gunborg Persson. Children: Lena, born in 1939, and Leif, born in 1941. Education: Graduated from upper secondary school in Landskrona in 1928, graduated with a law degree from Lund University in 1935. Worked as a judicial clerk in Västmanland County Court from 1935 to 1938, acting finance officer in Västerås from 1938 to 1939, and city clerk in Halmstad from 1939 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Magnus Oscar Lundvall\",\n  \"birthDate\": \"1908-01-07\",\n  \"birthPlace\": \"Köinge, Halland, Sweden\",\n  \"jobTitle\": \"City Clerk\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Halmstad\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Landskrona Upper Secondary School\"\n      },\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"degree\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"Law Degree\"\n      },\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunborg Persson\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena Lundvall\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif Lundvall\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Judicial Clerk\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1938\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Västmanland County Court\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Finance Officer\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Västerås\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"City Clerk\",\n      \"startDate\": \"1939\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Magnus Oscar Lundvall",
+        "birthDate": "1908-01-07",
+        "birthPlace": "Köinge, Halland, Sweden",
+        "jobTitle": "City Clerk",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Halmstad"
+        },
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Landskrona Upper Secondary School"
+                },
+                "startDate": "1928",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "degree": {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Law Degree"
+                },
+                "startDate": "1935",
+                "endDate": "1935"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunborg Persson",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lena Lundvall",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Leif Lundvall",
+                "birthDate": "1941"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Judicial Clerk",
+                "startDate": "1935",
+                "endDate": "1938",
+                "location": {
+                    "@type": "Place",
+                    "name": "Västmanland County Court"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Acting Finance Officer",
+                "startDate": "1938",
+                "endDate": "1939",
+                "location": {
+                    "@type": "Place",
+                    "name": "Västerås"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "City Clerk",
+                "startDate": "1939"
+            }
+        ]
+    }
+}

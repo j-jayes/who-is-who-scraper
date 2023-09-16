@@ -1,0 +1,81 @@
+{
+    "original": "Landegren, Per Bengt, kamrer, Göteborg, f. 1/11/08 i Eskilstuna av rev. B. L. o. Ebba Landahl. G. m. Barbro Necander. — Studrex. samt ekon. ex. v. handelshögsk. i Gbg. Tidigare anst. v. Eskilstuna Jernmanuf. A-B, Hans Helsen &amp; Co. i Hamburg samt iLlektrokem. A-B i Bohus, numera kamrer h. Västsv. Mejeriernas Centralförb. i Gbg. Resor t. bl. a. Tys’kl. 27-28 o. 29.",
+    "translated": "Landegren, Per Bengt, accountant, Gothenburg, born 1/11/08 in Eskilstuna to reverend B. L. and Ebba Landahl. Married to Barbro Necander. — Completed studies and received a degree in economics from the School of Business, Economics and Law in Gothenburg. Previously employed at Eskilstuna Jernmanuf. A-B, Hans Helsen & Co. in Hamburg, as well as at Elektrokem. A-B in Bohus. Currently employed as an accountant at Västsvenska Mejeriernas Centralförbund in Gothenburg. Has traveled to, among other places, Germany in 1927-1928 and 1929.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Bengt Landegren\",\n  \"jobTitle\": \"Accountant\",\n  \"birthDate\": \"1908-11-01\",\n  \"birthPlace\": \"Eskilstuna\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"B. L. Landahl\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba Landahl\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbro Necander\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": \"Bachelor's Degree\",\n    \"educationalCredentialAwarded\": \"Economics\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"School of Business, Economics and Law, Gothenburg\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eskilstuna Jernmanuf. A-B\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hans Helsen & Co., Hamburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Elektrokem. A-B, Bohus\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västsvenska Mejeriernas Centralförbund, Gothenburg\",\n      \"jobTitle\": \"Accountant\",\n      \"startDate\": \"ongoing\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Västsvenska Mejeriernas Centralförbund, Gothenburg\"\n  },\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Accountant\"\n  },\n  \"hasTravelled\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Germany\"\n    }\n  ],\n  \"travelledDate\": [\n    {\n      \"@type\": \"Time\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Time\",\n      \"startDate\": \"1929\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Per Bengt Landegren",
+        "jobTitle": "Accountant",
+        "birthDate": "1908-11-01",
+        "birthPlace": "Eskilstuna",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "B. L. Landahl"
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba Landahl"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Barbro Necander"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "educationalLevel": "Bachelor's Degree",
+            "educationalCredentialAwarded": "Economics"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "School of Business, Economics and Law, Gothenburg"
+        },
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Eskilstuna Jernmanuf. A-B"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hans Helsen & Co., Hamburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Elektrokem. A-B, Bohus"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västsvenska Mejeriernas Centralförbund, Gothenburg",
+                "jobTitle": "Accountant",
+                "startDate": "ongoing"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Västsvenska Mejeriernas Centralförbund, Gothenburg"
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Accountant"
+        },
+        "hasTravelled": [
+            {
+                "@type": "Place",
+                "name": "Germany"
+            }
+        ],
+        "travelledDate": [
+            {
+                "@type": "Time",
+                "startDate": "1927",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Time",
+                "startDate": "1929"
+            }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "original": "Litzell, Anders Viktor, komminister em., Herrljunga, f. 24/4/72 i Timme-le, Älvsb. 1. — Mog:ex. i Jönköp. 93, teol. fil. ex. 94, teor. o. prakt. teol. ex. samt prästv. f. Skara stift 97. Tjg. i Eriksberg, Hassle, Falköp., Freds-berg, Forshem, Varola o. Österplana, tf. kommin. i Tådene 04, kommin. i Herrljunga 08-45. Komm. uppdrag där. Litzén, Bror Per, bankdirektör, Ljungby, f. 5/9/93 i Lidhult, Kronob. 1. G. 20 m. Signe Tillqvist. Barn: Ulla f. 25, Ulf 36. — Stud:ex. 15. Anst. i bank sed. 15, kontxhef v. Skånska Bankens kont. i Höör 36-45, dir. v. kont. i Ljungby sed. 45. Hobby: fiske. Hemvärnets 5-årsmärke.",
+    "translated": "Litzell, Anders Viktor, ordained minister (retired), Herrljunga, born on April 24th, 1872 in Timme-le, Älvsborgs län. Completed secondary education in Jönköping in 1893, obtained a Bachelor's degree in theology in 1894, passed both theoretical and practical theological examinations, and ordained as a priest in Skara diocese in 1897. Served in the parishes of Eriksberg, Hassle, Falköping, Fredsberg, Forshem, Varola, and Österplana, acted as temporary curate in Tådene in 1904, and served as a curate in Herrljunga from 1908 to 1945. Had official responsibilities there. \n\nLitzén, Bror Per, bank director, Ljungby, born on September 5th, 1893 in Lidhult, Kronoberg's län. Married to Signe Tillqvist in 1920. Children: Ulla, born in 1925, and Ulf, born in 1936. Completed secondary education in 1915. Employed in banking since 1915, became head cashier at Skånska Banken's branch in Höör from 1936 to 1945, and then became director of the branch in Ljungby from 1945. Hobby: fishing. Received the Home Guard's 5-year service badge.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Anders Viktor Litzell\",\n  \"birthDate\": \"1872-04-24\",\n  \"birthPlace\": \"Timme-le, Älvsborgs län\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Secondary education in Jönköping\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Bachelor's degree in theology\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Theoretical and practical theological examinations\"\n    }\n  ],\n  \"ordainedAs\": [\n    {\n      \"@type\": \"ClergyRole\",\n      \"ordainedDate\": \"1897\",\n      \"roleName\": \"Priest\",\n      \"ordainedBy\": \"Skara diocese\"\n    }\n  ],\n  \"serviceDuring\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Curate\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"1945\",\n      \"organization\": \"Herrljunga\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Temporary Curate\",\n      \"startDate\": \"1904\",\n      \"endDate\": \"1904\",\n      \"organization\": \"Tådene\"\n    }\n  ],\n  \"residence\": \"Herrljunga\",\n  \"relatedTo\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bror Per Litzén\",\n      \"birthDate\": \"1893-09-05\",\n      \"birthPlace\": \"Lidhult, Kronoberg's län\",\n      \"profession\": \"Bank Director\",\n      \"marriage\": [\n        {\n          \"@type\": \"Person\",\n          \"name\": \"Signe Tillqvist\"\n        }\n      ],\n      \"children\": [\n        {\n          \"@type\": \"Person\",\n          \"name\": \"Ulla\",\n          \"birthDate\": \"1925\"\n        },\n        {\n          \"@type\": \"Person\",\n          \"name\": \"Ulf\",\n          \"birthDate\": \"1936\"\n        }\n      ],\n      \"education\": [\n        {\n          \"@type\": \"EducationalOccupationalCredential\",\n          \"description\": \"Secondary education\"\n        }\n      ],\n      \"employment\": [\n        {\n          \"@type\": \"OrganizationRole\",\n          \"roleName\": \"Head Cashier\",\n          \"startDate\": \"1936\",\n          \"endDate\": \"1945\",\n          \"organization\": \"Skånska Banken (Höör)\"\n        },\n        {\n          \"@type\": \"OrganizationRole\",\n          \"roleName\": \"Director\",\n          \"startDate\": \"1945\",\n          \"organization\": \"Skånska Banken (Ljungby)\"\n        }\n      ],\n      \"hobby\": \"Fishing\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anders Viktor Litzell",
+        "birthDate": "1872-04-24",
+        "birthPlace": "Timme-le, Älvsborgs län",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Secondary education in Jönköping"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Bachelor's degree in theology"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Theoretical and practical theological examinations"
+            }
+        ],
+        "ordainedAs": [
+            {
+                "@type": "ClergyRole",
+                "ordainedDate": "1897",
+                "roleName": "Priest",
+                "ordainedBy": "Skara diocese"
+            }
+        ],
+        "serviceDuring": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Curate",
+                "startDate": "1908",
+                "endDate": "1945",
+                "organization": "Herrljunga"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Temporary Curate",
+                "startDate": "1904",
+                "endDate": "1904",
+                "organization": "Tådene"
+            }
+        ],
+        "residence": "Herrljunga",
+        "relatedTo": [
+            {
+                "@type": "Person",
+                "name": "Bror Per Litzén",
+                "birthDate": "1893-09-05",
+                "birthPlace": "Lidhult, Kronoberg's län",
+                "profession": "Bank Director",
+                "marriage": [
+                    {
+                        "@type": "Person",
+                        "name": "Signe Tillqvist"
+                    }
+                ],
+                "children": [
+                    {
+                        "@type": "Person",
+                        "name": "Ulla",
+                        "birthDate": "1925"
+                    },
+                    {
+                        "@type": "Person",
+                        "name": "Ulf",
+                        "birthDate": "1936"
+                    }
+                ],
+                "education": [
+                    {
+                        "@type": "EducationalOccupationalCredential",
+                        "description": "Secondary education"
+                    }
+                ],
+                "employment": [
+                    {
+                        "@type": "OrganizationRole",
+                        "roleName": "Head Cashier",
+                        "startDate": "1936",
+                        "endDate": "1945",
+                        "organization": "Skånska Banken (Höör)"
+                    },
+                    {
+                        "@type": "OrganizationRole",
+                        "roleName": "Director",
+                        "startDate": "1945",
+                        "organization": "Skånska Banken (Ljungby)"
+                    }
+                ],
+                "hobby": "Fishing"
+            }
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "original": "Landelius, Erik, med. lic., Norrköping, f. 23/5/11 i Borås av las :läk. Emanuel L. o. Gertrud Emma Kristina Alexandersson. G. 38 m. fil. kand. Brita Carpelan. Barn: Johan f. 41, Peter 43. — Stud:ex. i Gävle 29, med. kand. i Upps. 34, med. lic. i Sthlm 38. Tf. und :läk. v. Gävle las. kir. avd. 39, aman. i patologi 39, tf. und:läk. v. Karol. sjukh. 40-43, las:und:läk. i Norrköp. sed. 43.",
+    "translated": "Landelius, Erik, med. lic., Norrköping, b. 23/5/11 in Borås to med. doctor Emanuel L. and Gertrud Emma Kristina Alexandersson. Married in 1938 to fil. cand. Brita Carpelan. Children: Johan b. 1941, Peter b. 1943. Education: graduated from Gävle gymnasium in 1929, medical candidate in Uppsala in 1934, medical licentiate in Stockholm in 1938. Temporary substitute medical officer in the surgical department of Gävle hospital in 1939, assistant in pathology in 1939, temporary substitute medical officer at Karolinska hospital from 1940 to 1943, deputy medical officer at Norrköping since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Landelius\",\n  \"birthDate\": \"1911-05-23\",\n  \"birthPlace\": \"Borås\",\n  \"description\": \"Med. lic. in Norrköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emanuel L. Landelius\",\n      \"occupation\": \"Med. doctor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gertrud Emma Kristina Alexandersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Carpelan\",\n    \"educationCredential\": \"Fil. cand.\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Landelius\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Peter Landelius\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gävle gymnasium\",\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm University\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Norrköping\"\n  },\n  \"relatedTo\": {\n    \"@type\": \"MedicalOrganization\",\n    \"name\": \"Gävle hospital\",\n    \"medicalSpecialty\": \"Surgical department\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Surgery\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Pathology\"\n    }\n  ],\n  \"worksAt\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karolinska hospital\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Landelius",
+        "birthDate": "1911-05-23",
+        "birthPlace": "Borås",
+        "description": "Med. lic. in Norrköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Emanuel L. Landelius",
+                "occupation": "Med. doctor"
+            },
+            {
+                "@type": "Person",
+                "name": "Gertrud Emma Kristina Alexandersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Carpelan",
+            "educationCredential": "Fil. cand."
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Johan Landelius",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter Landelius",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gävle gymnasium",
+                "startDate": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "startDate": "1934",
+                "endDate": "1938"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm University",
+                "startDate": "1938"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Norrköping"
+        },
+        "relatedTo": {
+            "@type": "MedicalOrganization",
+            "name": "Gävle hospital",
+            "medicalSpecialty": "Surgical department"
+        },
+        "occupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Surgery"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Pathology"
+            }
+        ],
+        "worksAt": [
+            {
+                "@type": "Organization",
+                "name": "Karolinska hospital",
+                "startDate": "1940",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping"
+            }
+        ]
+    }
+}

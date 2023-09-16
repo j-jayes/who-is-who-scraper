@@ -1,0 +1,121 @@
+{
+    "original": "Ljungholm, Bengt Arne, länsbokhållare, kapten, Visby, f. 22/9/89 i Visby av bankdir. Herman Petterson o. Helena Ljungholm. — Mog:ex. 08, re-servoffiex. 10, kansliex. 11. E. o. tj :-man i arméförvaltn. 11-18, marinför-valtn. 12-16, aman. i lantförsv :dep. 15-17, länsbokhåll. av första kl. i Gotl. län sed. 18. Und:löjtn. i Gotl. inf :-reg. res. 11, löjtn. 16, v. intendikåren 17, kapt. 25. Ordf. i tax:nd 21-38. RVO, Gotl. idriförb. förtj :M, Idrm. i guld.",
+    "translated": "Ljungholm, Bengt Arne, county accountant, captain, Visby, born on September 22, 1889 in Visby to bank director Herman Petterson and Helena Ljungholm. Graduated from military academy in 1908, reserve officer exam in 1910, and official exam in 1911. Holding various positions in army administration from 1911 to 1918, navy administration from 1912 to 1916, and civilian defense department from 1915 to 1917. Appointed as first class county accountant in Gotland County since 1918. Commissioned as second lieutenant in Gotland infantry regiment reserve in 1911, promoted to lieutenant in 1916, and transferred to the supply corps in 1917. Became captain in 1925. Served as chairman of the tax board from 1921 to 1938. Awarded the Royal Order of Vasa (RVO), recognized for meritorious service in the Gotland Sports Association, and recipient of the Gold Medal in athletics.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Arne Ljungholm\",\n  \"birthDate\": \"1889-09-22\",\n  \"birthPlace\": \"Visby\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Herman Petterson\",\n    \"jobTitle\": \"Bank Director\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Helena Ljungholm\"\n  },\n  \"jobTitle\": [\n    \"County Accountant\",\n    \"Captain\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland Sports Association\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Graduated from military academy\",\n      \"endDate\": \"1908\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Reserve officer exam\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Official exam\",\n      \"endDate\": \"1911\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1918\",\n      \"roleName\": \"Army Administration Officer\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1916\",\n      \"roleName\": \"Navy Administration Officer\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1917\",\n      \"roleName\": \"Civilian Defense Department Officer\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1918\",\n      \"roleName\": \"First Class County Accountant\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Gotland County\"\n    }\n  ],\n  \"militaryService\": [\n    {\n      \"@type\": \"MilitaryService\",\n      \"countryServed\": \"Sweden\",\n      \"branch\": \"Gotland Infantry Regiment\",\n      \"rank\": \"Second Lieutenant\",\n      \"roleName\": \"Reserve Officer\"\n    },\n    {\n      \"@type\": \"MilitaryService\",\n      \"countryServed\": \"Sweden\",\n      \"branch\": \"Gotland Infantry Regiment\",\n      \"rank\": \"Lieutenant\",\n      \"startDate\": \"1916\",\n      \"roleName\": \"Officer\"\n    },\n    {\n      \"@type\": \"MilitaryService\",\n      \"countryServed\": \"Sweden\",\n      \"branch\": \"Supply Corps\",\n      \"rank\": \"Captain\",\n      \"startDate\": \"1925\",\n      \"roleName\": \"Officer\"\n    }\n  ],\n  \"roleName\": [\n    \"Chairman of the Tax Board\"\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\",\n      \"awardDate\": \"unknown\",\n      \"description\": \"Recognized for meritorious service\"\n    },\n    {\n      \"@type\": \"SportsActivityAward\",\n      \"name\": \"Gold Medal\",\n      \"awardDate\": \"unknown\",\n      \"description\": \"Received in athletics\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Arne Ljungholm",
+        "birthDate": "1889-09-22",
+        "birthPlace": "Visby",
+        "father": {
+            "@type": "Person",
+            "name": "Herman Petterson",
+            "jobTitle": "Bank Director"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Helena Ljungholm"
+        },
+        "jobTitle": [
+            "County Accountant",
+            "Captain"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gotland Sports Association"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Graduated from military academy",
+                "endDate": "1908"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Reserve officer exam",
+                "endDate": "1910"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "description": "Official exam",
+                "endDate": "1911"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1911",
+                "endDate": "1918",
+                "roleName": "Army Administration Officer"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1912",
+                "endDate": "1916",
+                "roleName": "Navy Administration Officer"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1915",
+                "endDate": "1917",
+                "roleName": "Civilian Defense Department Officer"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1918",
+                "roleName": "First Class County Accountant"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Gotland County"
+            }
+        ],
+        "militaryService": [
+            {
+                "@type": "MilitaryService",
+                "countryServed": "Sweden",
+                "branch": "Gotland Infantry Regiment",
+                "rank": "Second Lieutenant",
+                "roleName": "Reserve Officer"
+            },
+            {
+                "@type": "MilitaryService",
+                "countryServed": "Sweden",
+                "branch": "Gotland Infantry Regiment",
+                "rank": "Lieutenant",
+                "startDate": "1916",
+                "roleName": "Officer"
+            },
+            {
+                "@type": "MilitaryService",
+                "countryServed": "Sweden",
+                "branch": "Supply Corps",
+                "rank": "Captain",
+                "startDate": "1925",
+                "roleName": "Officer"
+            }
+        ],
+        "roleName": [
+            "Chairman of the Tax Board"
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa",
+                "awardDate": "unknown",
+                "description": "Recognized for meritorious service"
+            },
+            {
+                "@type": "SportsActivityAward",
+                "name": "Gold Medal",
+                "awardDate": "unknown",
+                "description": "Received in athletics"
+            }
+        ]
+    }
+}

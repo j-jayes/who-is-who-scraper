@@ -1,0 +1,132 @@
+{
+    "original": "Larsson, Karl Albert, länsarkitekt, Linköping, f. 10/12/01 i Malmö av konstn. Albert L. o. EHda Tomason. G. 29 m. Margot Larsson. Barn: Per Lennart f. 32, Sven Albert 35. — Stud :ex. 21, ing:ex. 27, arkit:ex. 28. Anst. å arkit:kont. 28-32, tjg. v. bygg-n:styr. o. Sthlms byggn md 32-35, bitr. länsarkit. i Blek. län 36-37, i Öster-götl. län 37, länsarkit. där sed. 38. RNO, RVO.",
+    "translated": "Larsson, Karl Albert, county architect, Linköping, b. 10/12/01 in Malmö, son of artist Albert L. and EHda Tomason. Married on 29, with Margot Larsson. Children: Per Lennart b. 32, Sven Albert b. 35. — Studied: passed exam in 1921, engineering exam in 1927, architect exam in 1928. Employed at the county architect's office from 1928 to 1932, worked at the construction board and Stockholm's building department from 1932 to 1935, served as assistant county architect in Blekinge County from 1936 to 1937, in Östergötland County in 1937, and as county architect there since 1938. Awarded RNO, RVO (Royal Order of the North Star, Royal Order of Vasa).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Albert Larsson\",\n  \"birthDate\": \"1901-12-10\",\n  \"birthPlace\": \"Malmö, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albert Larsson\",\n      \"jobTitle\": \"Artist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"EHda Tomason\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margot Larsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per Lennart Larsson\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Albert Larsson\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Exam\",\n      \"name\": \"Studied\",\n      \"educationalLevel\": \"Passed\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Exam\",\n      \"name\": \"Engineering\",\n      \"educationalLevel\": \"Graduated\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Exam\",\n      \"name\": \"Architect\",\n      \"educationalLevel\": \"Graduated\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"jobTitle\": \"County Architect\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Linköping\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"County Architect's Office\"\n      },\n      \"startDate\": \"1928\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Construction Board\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Stockholm's Building Department\"\n        }\n      ],\n      \"startDate\": \"1932\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"title\": \"Assistant County Architect\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Blekinge County\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"title\": \"Assistant County Architect\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Östergötland County\"\n      },\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"title\": \"County Architect\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Östergötland County\"\n      },\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Order of the North Star\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Order of Vasa\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Albert Larsson",
+        "birthDate": "1901-12-10",
+        "birthPlace": "Malmö, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Albert Larsson",
+                "jobTitle": "Artist"
+            },
+            {
+                "@type": "Person",
+                "name": "EHda Tomason"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margot Larsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per Lennart Larsson",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven Albert Larsson",
+                "birthDate": "1935"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Exam",
+                "name": "Studied",
+                "educationalLevel": "Passed",
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Exam",
+                "name": "Engineering",
+                "educationalLevel": "Graduated",
+                "startDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Exam",
+                "name": "Architect",
+                "educationalLevel": "Graduated",
+                "startDate": "1928"
+            }
+        ],
+        "jobTitle": "County Architect",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Linköping"
+        },
+        "employmentHistory": [
+            {
+                "@type": "EmploymentEvent",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "County Architect's Office"
+                },
+                "startDate": "1928",
+                "endDate": "1932"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "employer": [
+                    {
+                        "@type": "Organization",
+                        "name": "Construction Board"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Stockholm's Building Department"
+                    }
+                ],
+                "startDate": "1932",
+                "endDate": "1935"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "title": "Assistant County Architect",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Blekinge County"
+                },
+                "startDate": "1936",
+                "endDate": "1937"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "title": "Assistant County Architect",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Östergötland County"
+                },
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "EmploymentEvent",
+                "title": "County Architect",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Östergötland County"
+                },
+                "startDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Royal Order of the North Star"
+            },
+            {
+                "@type": "Organization",
+                "name": "Royal Order of Vasa"
+            }
+        ]
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "original": "Lindhardt, Olof Magnus, komminister, Fjärås, f. 17/8/07 i Öxnevalla, Älvsb. 1., av kyrkoh. John L. o. Sigrid Ekberg. G. 35 m. Kerstin Dahlström. Barn: Birgitta f. 36, Björn o. Krister 39, Monika 47. — Stud:ex. i Uddevalla 26, teol. fil. ex. 27, teol. kand. samt prakt. teol. prov 30, prästv. f. Gbgs ’Stift 31. Tjg. s. pastorsadj. i Naverstad, v. pastor i Mjöbäck, v. kommin. i Gamlestads o. Domkyrko-förs. i Gbg samt kommin. i Hasslöv, kommin. i Fjärås sed. 42.",
+    "translated": "Lindhardt, Olof Magnus, curate, Fjärås, b. 17/8/07 in Öxnevalla, Älvsborg County, son of vicar John L. and Sigrid Ekberg. Married in 35 to Kerstin Dahlström. Children: Birgitta b. 36, Björn and Krister b. 39, Monika b. 47. — Completed high school exams in Uddevalla in 26, theological philosophy exams in 27, theological candidate exams and practical theological tests in 30, ordained as clergy in the Gothenburg Diocese in 31. Currently served as assistant pastor in Naverstad, vicar in Mjöbäck, vicar in Gamlestads and the Cathedral Parish in Gothenburg, and curate in Hasslöv. Became curate in Fjärås in 42.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Magnus Lindhardt\",\n  \"jobTitle\": \"Curate\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Fjärås\"\n  },\n  \"birthDate\": \"1907-08-17\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Öxnevalla\"\n  },\n  \"nationality\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John L. Lindhardt\",\n      \"jobTitle\": \"Vicar\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Ekberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kerstin Dahlström\",\n    \"birthDate\": \"19xx-xx-xx\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1936-xx-xx\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1939-xx-xx\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Krister\",\n      \"birthDate\": \"1939-xx-xx\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Monika\",\n      \"birthDate\": \"1947-xx-xx\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"Stud:ex.\",\n      \"educationalCredentialAwarded\": \"Uddevalla high school exams\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uddevalla\"\n      },\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Theological philosophy\",\n      \"educationalCredentialAwarded\": \"Theological philosophy exams\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uddevalla\"\n      },\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Theological candidate\",\n      \"educationalCredentialAwarded\": \"Theological candidate exams and practical theological tests\",\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"member\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Diocese\"\n      },\n      \"roleName\": \"Clergy\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Naverstad\",\n      \"jobTitle\": \"Assistant Pastor\",\n      \"startDate\": \"19xx\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mjöbäck\",\n      \"jobTitle\": \"Vicar\",\n      \"startDate\": \"19xx\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gamlestads and the Cathedral Parish in Gothenburg\",\n      \"jobTitle\": \"Vicar\",\n      \"startDate\": \"19xx\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hasslöv\",\n      \"jobTitle\": \"Curate\",\n      \"startDate\": \"19xx\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fjärås\",\n      \"jobTitle\": \"Curate\",\n      \"startDate\": \"19xx\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Olof Magnus Lindhardt",
+        "jobTitle": "Curate",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Fjärås"
+        },
+        "birthDate": "1907-08-17",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Öxnevalla"
+        },
+        "nationality": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John L. Lindhardt",
+                "jobTitle": "Vicar"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Ekberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Dahlström",
+            "birthDate": "19xx-xx-xx"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1936-xx-xx"
+            },
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1939-xx-xx"
+            },
+            {
+                "@type": "Person",
+                "name": "Krister",
+                "birthDate": "1939-xx-xx"
+            },
+            {
+                "@type": "Person",
+                "name": "Monika",
+                "birthDate": "1947-xx-xx"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "Stud:ex.",
+                "educationalCredentialAwarded": "Uddevalla high school exams",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uddevalla"
+                },
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Theological philosophy",
+                "educationalCredentialAwarded": "Theological philosophy exams",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uddevalla"
+                },
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Theological candidate",
+                "educationalCredentialAwarded": "Theological candidate exams and practical theological tests",
+                "endDate": "1930"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "OrganizationRole",
+                "member": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Diocese"
+                },
+                "roleName": "Clergy",
+                "startDate": "1931"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Naverstad",
+                "jobTitle": "Assistant Pastor",
+                "startDate": "19xx"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mjöbäck",
+                "jobTitle": "Vicar",
+                "startDate": "19xx"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gamlestads and the Cathedral Parish in Gothenburg",
+                "jobTitle": "Vicar",
+                "startDate": "19xx"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hasslöv",
+                "jobTitle": "Curate",
+                "startDate": "19xx"
+            },
+            {
+                "@type": "Organization",
+                "name": "Fjärås",
+                "jobTitle": "Curate",
+                "startDate": "19xx"
+            }
+        ]
+    }
+}

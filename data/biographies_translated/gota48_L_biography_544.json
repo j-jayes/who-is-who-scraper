@@ -1,0 +1,85 @@
+{
+    "original": "Lundgren, James Douglas, grosshandlare, Göteborg, f. 5/10/00 i Gbg av gross’handl. James L. o. Alma Andersson. G. 26 m. Aina Andersson. Barn: Gerd f. 27. — Stud. v. h. a. 1. o. v. Gbgs handiinst., affistud. i London o. Hamburg. Verkst. dir. i Thé-firman James Lundgren &amp; Co. i Gbg sed. 21. Rev. i Gbgs vanföreanst. sed. 28, led. av styr. f. Gbgs djursk rfören., KeLiFa o. Gbgs köpmäns arbigiv:-fören. i Gbg m. fl. Skr.: ett flert. art. i fack- o. dagspress. RVO.",
+    "translated": "Lundgren, James Douglas, merchant, Gothenburg, b. 5/10/00 in Gothenburg, son of merchant James L. and Alma Andersson. Married on the 26th to Aina Andersson. Children: Gerd, b. 27. Studied commerce at Gothenburg Handicraft Association and abroad in London and Hamburg. Managing director of the tea firm James Lundgren & Co. in Gothenburg since 1921. Member of the board of directors for Gothenburg Disability Association since 1928, and member of the Swedish Animal Welfare Society, KeLiFa, and Gothenburg Merchants' Archive Society, among others. Has written several articles in specialized and daily press. Awarded the Royal Order of the Seraphim (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"James Douglas Lundgren\",\n  \"birthDate\": \"1900-10-05\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"description\": \"Merchant and Managing Director\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"James L. Lundgren\",\n      \"relation\": \"Father\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma Andersson\",\n      \"relation\": \"Mother\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Aina Andersson\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerd Lundgren\",\n      \"birthDate\": \"1927\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Handicraft Association\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"London School of Commerce\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Hamburg School of Commerce\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"James Lundgren & Co\",\n    \"foundingDate\": \"1921\",\n    \"jobTitle\": \"Managing Director\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Disability Association\",\n      \"startDate\": \"1928\",\n      \"roleName\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Animal Welfare Society\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"KeLiFa\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Merchants' Archive Society\"\n    }\n  ],\n  \"sameAs\": \"https://www.example.com/james-lundgren\",\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of the Seraphim\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "James Douglas Lundgren",
+        "birthDate": "1900-10-05",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "description": "Merchant and Managing Director",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "James L. Lundgren",
+                "relation": "Father"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Andersson",
+                "relation": "Mother"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Aina Andersson",
+            "marriageDate": "YYYY-MM-DD"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gerd Lundgren",
+                "birthDate": "1927"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Handicraft Association"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "London School of Commerce"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Hamburg School of Commerce"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "James Lundgren & Co",
+            "foundingDate": "1921",
+            "jobTitle": "Managing Director"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Disability Association",
+                "startDate": "1928",
+                "roleName": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Animal Welfare Society"
+            },
+            {
+                "@type": "Organization",
+                "name": "KeLiFa"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Merchants' Archive Society"
+            }
+        ],
+        "sameAs": "https://www.example.com/james-lundgren",
+        "awards": {
+            "@type": "Order",
+            "name": "Royal Order of the Seraphim"
+        }
+    }
+}

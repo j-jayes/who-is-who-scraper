@@ -1,0 +1,108 @@
+{
+    "original": "Linder, Estrid Kristina, läroverksadjunkt, Karlskrona, f. i Ljusne, Gäv-leb. 1., av Lars L. o. Pauline Lindqvist. — Stud :ex. i Upps. 15, fil. mag. där 23 o. provår 29. E. o. ämneslär. i Säffle 24-25, vik. adj. i Boden 30-32, e. o. lektor i Söderhamn 32-36, adj. i tyska o. eng. v. Karlskr. h. a. 1. sed. 37. Stud:res. t. Tyskl. o. Engl.",
+    "translated": "Linder, Estrid Kristina, teacher, Karlskrona, born in Ljusne, Gävleborg County, 1st of Lars L. and Pauline Lindqvist. — Studied at Uppsala University, obtained a bachelor's degree in 1915, a Master's degree in 1923, and completed a probationary year in 1929. Temporary subject teacher in Säffle from 1924-1925, substitute teacher in Boden from 1930-1932, acting lecturer in Söderhamn from 1932-1936, and teacher of German and English in Karlskrona from 1937 until the present. Studied abroad in Germany and England.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Estrid Kristina Linder\",\n  \"jobTitle\": \"Teacher\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Karlskrona\"\n  },\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Ljusne, Gävleborg County\"\n  },\n  \"birthDate\": \"Unknown\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Pauline Lindqvist\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelors\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"startDate\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"masters\",\n      \"educationalLevel\": \"Master's degree\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"startDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"probationary year\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"startDate\": \"1929\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Temporary Subject Teacher\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Säffle\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Boden\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Acting Lecturer\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1936\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Söderhamn\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Teacher of German and English\",\n      \"startDate\": \"1937\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Karlskrona\"\n      }\n    }\n  ],\n  \"sameAs\": [\n    {\n      \"@type\": \"WebPage\",\n      \"url\": \"https://example.com/estrid-kristina-linder\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Estrid Kristina Linder",
+        "jobTitle": "Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlskrona"
+        },
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Ljusne, Gävleborg County"
+        },
+        "birthDate": "Unknown",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Lars L."
+            },
+            {
+                "@type": "Person",
+                "name": "Pauline Lindqvist"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelors",
+                "educationalLevel": "Bachelor's degree",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "startDate": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "masters",
+                "educationalLevel": "Master's degree",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "startDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "probationary year",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "startDate": "1929"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Temporary Subject Teacher",
+                "startDate": "1924",
+                "endDate": "1925",
+                "location": {
+                    "@type": "Place",
+                    "name": "Säffle"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Substitute Teacher",
+                "startDate": "1930",
+                "endDate": "1932",
+                "location": {
+                    "@type": "Place",
+                    "name": "Boden"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Acting Lecturer",
+                "startDate": "1932",
+                "endDate": "1936",
+                "location": {
+                    "@type": "Place",
+                    "name": "Söderhamn"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Teacher of German and English",
+                "startDate": "1937",
+                "location": {
+                    "@type": "Place",
+                    "name": "Karlskrona"
+                }
+            }
+        ],
+        "sameAs": [
+            {
+                "@type": "WebPage",
+                "url": "https://example.com/estrid-kristina-linder"
+            }
+        ]
+    }
+}

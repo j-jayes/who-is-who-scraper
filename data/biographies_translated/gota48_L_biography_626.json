@@ -1,0 +1,111 @@
+{
+    "original": "Lönnqvist, Bror Axel Johan Hugo, tandläkare, Finspång, f. 20/6/92 i Norra Sandsjö, Jönköp. 1, av Anders L. o. Anna Johansson. G. 25 m. tandl. Lisa Jacobsson. Barn: Knut f. 38, Anders 41. — Stud:ex. i Kalm. 14, res:-off:ex. 16, med. kand. i Lund 22, tandläk. 24. Praktik i Köping 24-25, i Finspång 25. Fänr. i Västgöta reg. res. 17, und:löjtn. 19, löjtn. 21.",
+    "translated": "Lönnqvist, Bror Axel Johan Hugo, dentist, Finspång, born on June 20, 1892 in Norra Sandsjö, Jönköping County, the son of Anders L. and Anna Johansson. Married on May 25 to dentist Lisa Jacobsson. Children: Knut, born in 1938, Anders, born in 1941. He completed his secondary education in Kalmar in 1914, and was commissioned as an officer in 1916. He obtained a Bachelor of Medicine degree in Lund in 1922, and a dental degree in 1924. He practiced dentistry in Köping from 1924 to 1925, and then in Finspång from 1925. He served as a second lieutenant in the Västgöta regiment from 1917, and was promoted to lieutenant in 1921.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Axel Johan Hugo Lönnqvist\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Finspång\"\n  },\n  \"birthDate\": \"1892-06-20\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Norra Sandsjö\",\n    \"addressRegion\": \"Jönköping County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lisa Jacobsson\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary education\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar\"\n      },\n      \"startDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"military commission\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västgöta regiment\"\n      },\n      \"startDate\": \"1916\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"medical degree\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dental degree\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"startDate\": \"1924\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Köping\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finspång\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västgöta regiment\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1921\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Armed Forces\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Axel Johan Hugo Lönnqvist",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Finspång"
+        },
+        "birthDate": "1892-06-20",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Norra Sandsjö",
+            "addressRegion": "Jönköping County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Anders L."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lisa Jacobsson",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Knut",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary education",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Kalmar"
+                },
+                "startDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "military commission",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Västgöta regiment"
+                },
+                "startDate": "1916"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "medical degree",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                },
+                "startDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dental degree",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                },
+                "startDate": "1924"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Köping",
+                "startDate": "1924",
+                "endDate": "1925"
+            },
+            {
+                "@type": "Organization",
+                "name": "Finspång",
+                "startDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Västgöta regiment",
+                "startDate": "1917",
+                "endDate": "1921",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Armed Forces"
+                }
+            }
+        ]
+    }
+}

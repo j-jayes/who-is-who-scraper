@@ -1,0 +1,88 @@
+{
+    "original": "Lindwall, Sven Anders Johan, kyrkoherde, Näshult, f. 23/1/01 i Södra Solberga, Jönköp. 1., av komrnin. Johan L. o. Emma Andersson. G. 30 m. Thyra Nybergh. Barn: Bengt f. 33. — Stud:ex. i Falun 21, teol. fil. ex. i Upps. 24, teol. kand. i Lund, prakt. teol. prov samf prästv. f. Växjö stift 27. Tjg. som past:adj. i Vill-stad, v. pastor i Annerstad o. kommin. i Stenberga, kyrkoh. i Näshult sed. 36. Skr.: predikn. i ortstidn.",
+    "translated": "Lindwall, Sven Anders Johan, clergyman, Näshult, born on January 23, 1901 in Södra Solberga, Jönköp. County, first child of the couple Johan L. and Emma Andersson. Married in 1930 to Thyra Nybergh. Children: Bengt, born in 1933. \n\nEducation: High school graduate in Falun in 1921, Bachelor of Theology in Uppsala in 1924, Theology Candidate in Lund, practical theology examination for ordination as a priest in Växjö diocese in 1927. \n\nWork experience: Assistant pastor in Villstad, assistant pastor in Annerstad, and curate in Stenberga. Appointed as parish priest in Näshult since 1936. \n\nWritten works: Sermons in local newspapers.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Anders Johan Lindwall\",\n  \"jobTitle\": \"Clergyman\",\n  \"birthDate\": \"1901-01-23\",\n  \"birthPlace\": \"Södra Solberga, Jönköping County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Thyra Nybergh\",\n    \"marriageDate\": \"1930\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationEvent\",\n    \"attendanceStartDate\": \"1921\",\n    \"attendanceEndDate\": \"1924\",\n    \"alumniOf\": [\n      {\n        \"@type\": \"HighSchool\",\n        \"name\": \"Falun\"\n      },\n      {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Uppsala University\",\n        \"course\": \"Theology\"\n      },\n      {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Lund University\",\n        \"course\": \"Theology\"\n      }\n    ]\n  },\n  \"work\": {\n    \"@type\": \"Occupation\",\n    \"startDate\": \"1927\",\n    \"endDate\": \"present\",\n    \"employer\": [\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Villstad\"\n      },\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Annerstad\"\n      },\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Stenberga\"\n      },\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Näshult\"\n      }\n    ],\n    \"position\": \"Pastor\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"course\": \"Bachelor of Theology\"\n    }\n  ],\n  \"description\": \"Sven Anders Johan Lindwall was a clergyman. He was born on January 23, 1901 in Södra Solberga, Jönköping County, as the first child of Johan L. and Emma Andersson. In 1930, he married Thyra Nybergh, and they had a son named Bengt in 1933. Sven Lindwall completed his education, graduating from Falun High School in 1921 and obtaining a Bachelor of Theology degree from Uppsala University in 1924. He further pursued his theological studies at Lund University. In 1927, he passed the practical theology examination for ordination as a priest in the Växjö diocese. Sven Lindwall started his career as an assistant pastor in Villstad and Annerstad before becoming a curate in Stenberga. Since 1936, he served as the parish priest in Näshult. Sven Lindwall also wrote sermons for local newspapers.\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Anders Johan Lindwall",
+        "jobTitle": "Clergyman",
+        "birthDate": "1901-01-23",
+        "birthPlace": "Södra Solberga, Jönköping County",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan L."
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Thyra Nybergh",
+            "marriageDate": "1930"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt",
+                "birthDate": "1933"
+            }
+        ],
+        "education": {
+            "@type": "EducationEvent",
+            "attendanceStartDate": "1921",
+            "attendanceEndDate": "1924",
+            "alumniOf": [
+                {
+                    "@type": "HighSchool",
+                    "name": "Falun"
+                },
+                {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Uppsala University",
+                    "course": "Theology"
+                },
+                {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Lund University",
+                    "course": "Theology"
+                }
+            ]
+        },
+        "work": {
+            "@type": "Occupation",
+            "startDate": "1927",
+            "endDate": "present",
+            "employer": [
+                {
+                    "@type": "Organization",
+                    "name": "Villstad"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Annerstad"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Stenberga"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Näshult"
+                }
+            ],
+            "position": "Pastor"
+        },
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "course": "Bachelor of Theology"
+            }
+        ],
+        "description": "Sven Anders Johan Lindwall was a clergyman. He was born on January 23, 1901 in Södra Solberga, Jönköping County, as the first child of Johan L. and Emma Andersson. In 1930, he married Thyra Nybergh, and they had a son named Bengt in 1933. Sven Lindwall completed his education, graduating from Falun High School in 1921 and obtaining a Bachelor of Theology degree from Uppsala University in 1924. He further pursued his theological studies at Lund University. In 1927, he passed the practical theology examination for ordination as a priest in the Växjö diocese. Sven Lindwall started his career as an assistant pastor in Villstad and Annerstad before becoming a curate in Stenberga. Since 1936, he served as the parish priest in Näshult. Sven Lindwall also wrote sermons for local newspapers."
+    }
+}

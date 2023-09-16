@@ -1,0 +1,118 @@
+{
+    "original": "Michanek, Torsten Erik Ignatz, |läroverksadjunkt, Skara, f. 9/6/99 i Smål. Taberg, Jönköp. 1., av stat :insp. Carl M. o. Sigrid Hjelmström. G. 23 m. Brita Sjöholm. Barn: Göran f. 24, Germund 26, Siigrid 34. — Fik kand. 21, f|il. mag. 26, provår v. Gbgs real 28. Vik. ’lektor i sv. språket v. Jenas univ. 22, vik. ämneslär. i Ljungby 23, e. o. lär. i Katrineholm 24-25, örnsköildsvik 25-27 o. 28-34, adj. i modersm. o. hist. m. samh :lära där 34-38, v. Skara h. a. 1. sed. 38.",
+    "translated": "Michanek, Torsten Erik Ignatius, school teacher, Skara, born on 9th June 1899 in Taberg, Jönköping County, son of civil servant Carl M. and Sigrid Hjelmström. Married on 23rd [month not specified] to Brita Sjöholm. Children: Göran, born in 1924, Germund in 1926, and Sigrid in 1934. Received Bachelor's degree in 1921, completed a master's degree in 1926, and went on to complete a probationary year at Gothenburg's Real Gymnasium in 1928. Temporary lecturer in Swedish language at Jena University in 1922, temporary subject teacher in Ljungby in 1923, assistant teacher in Katrineholm from 1924 to 1925, and in Örnsköldsvik from 1925 to 1927 and 1928 to 1934. Assistant teacher in mother tongue and history with social studies there from 1934 to 1938. Vice headmaster at Skara High School since 1938.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Torsten\",\n  \"familyName\": \"Michanek\",\n  \"birthDate\": \"1899-06-09\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Taberg\",\n      \"addressRegion\": \"Jönköping County\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Carl M.\",\n      \"familyName\": \"Michanek\",\n      \"jobTitle\": \"Civil servant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Sigrid\",\n      \"familyName\": \"Hjelmström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Brita\",\n    \"familyName\": \"Sjöholm\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Göran\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Germund\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Sigrid\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's degree\",\n      \"startDate\": \"1926\"\n    }\n  ],\n  \"careerSummary\": [\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\",\n      \"eventType\": \"TemporaryPosition\",\n      \"description\": \"Temporary lecturer in Swedish language at Jena University\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"eventType\": \"TemporaryPosition\",\n      \"description\": \"Temporary subject teacher in Ljungby\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1925\",\n      \"eventType\": \"AssistantTeacherPosition\",\n      \"description\": \"Assistant teacher in Katrineholm\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\",\n      \"eventType\": \"AssistantTeacherPosition\",\n      \"description\": \"Assistant teacher in Örnsköldsvik\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1934\",\n      \"eventType\": \"AssistantTeacherPosition\",\n      \"description\": \"Assistant teacher in Örnsköldsvik\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1938\",\n      \"eventType\": \"AssistantTeacherPosition\",\n      \"description\": \"Assistant teacher in mother tongue and history with social studies\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1938\",\n      \"eventType\": \"ViceHeadmasterPosition\",\n      \"description\": \"Vice headmaster at Skara High School\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Torsten",
+        "familyName": "Michanek",
+        "birthDate": "1899-06-09",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Taberg",
+                "addressRegion": "Jönköping County",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Carl M.",
+                "familyName": "Michanek",
+                "jobTitle": "Civil servant"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Sigrid",
+                "familyName": "Hjelmström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Brita",
+            "familyName": "Sjöholm"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Göran",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Germund",
+                "birthDate": "1926"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Sigrid",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master's degree",
+                "startDate": "1926"
+            }
+        ],
+        "careerSummary": [
+            {
+                "@type": "CareerEvent",
+                "startDate": "1922",
+                "endDate": "1923",
+                "eventType": "TemporaryPosition",
+                "description": "Temporary lecturer in Swedish language at Jena University"
+            },
+            {
+                "@type": "CareerEvent",
+                "startDate": "1923",
+                "endDate": "1924",
+                "eventType": "TemporaryPosition",
+                "description": "Temporary subject teacher in Ljungby"
+            },
+            {
+                "@type": "CareerEvent",
+                "startDate": "1924",
+                "endDate": "1925",
+                "eventType": "AssistantTeacherPosition",
+                "description": "Assistant teacher in Katrineholm"
+            },
+            {
+                "@type": "CareerEvent",
+                "startDate": "1925",
+                "endDate": "1927",
+                "eventType": "AssistantTeacherPosition",
+                "description": "Assistant teacher in Örnsköldsvik"
+            },
+            {
+                "@type": "CareerEvent",
+                "startDate": "1928",
+                "endDate": "1934",
+                "eventType": "AssistantTeacherPosition",
+                "description": "Assistant teacher in Örnsköldsvik"
+            },
+            {
+                "@type": "CareerEvent",
+                "startDate": "1934",
+                "endDate": "1938",
+                "eventType": "AssistantTeacherPosition",
+                "description": "Assistant teacher in mother tongue and history with social studies"
+            },
+            {
+                "@type": "CareerEvent",
+                "startDate": "1938",
+                "eventType": "ViceHeadmasterPosition",
+                "description": "Vice headmaster at Skara High School"
+            }
+        ]
+    }
+}

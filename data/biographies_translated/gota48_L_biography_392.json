@@ -1,0 +1,22 @@
+{
+    "original": "Luxemburg, Tyskl. 37, Norge 38. Anst. v. ol. arkit :kont. i Gbg 33-35, v. stads-planekont. i Gbg 35-43. Sekr. i 40 års bost:komm. i Gbg. Stadsplanearkit. i Eskilstuna 43-46. Chef f. general-planekont. i Gbg fr. 47. Hobbies: s’egl:, fotogr.",
+    "translated": "Luxemburg, born in Tyskl. in 1937, moved to Norway in 1938. Employed as an architectural assistant: worked at a planning office in Gothenburg from 1933 to 1935, and at a city planning office in Gothenburg from 1935 to 1943. Secretary in a 40-year housing committee in Gothenburg. City planning architect in Eskilstuna from 1943 to 1946. Head of the general planning office in Gothenburg starting from 1947. Hobbies include sailing and photography.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Luxemburg\",\n  \"birthPlace\": \"Tyskl.\",\n  \"birthDate\": \"1937\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norway\",\n      \"startDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Architectural Assistant\",\n      \"position\": \"Employed\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Planning Office\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1935\",\n      \"position\": \"Architectural Assistant: Kont.\",\n      \"department\": \"City Planning\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg City Planning Office\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1943\",\n      \"position\": \"Architectural Assistant\",\n      \"department\": \"City Planning\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg 40-Year Housing Committee\",\n      \"position\": \"Secretary\",\n      \"startDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eskilstuna City Planning\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1946\",\n      \"position\": \"City Planning Architect\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg General Planning Office\",\n      \"startDate\": \"1947\",\n      \"position\": \"Head of General Planning\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sailing\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Photography\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Luxemburg",
+        "birthPlace": "Tyskl.",
+        "birthDate": "1937",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Sailing"
+            },
+            {
+                "@type": "Organization",
+                "name": "Photography"
+            }
+        ]
+    }
+}

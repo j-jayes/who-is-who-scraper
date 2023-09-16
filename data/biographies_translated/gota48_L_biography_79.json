@@ -1,0 +1,62 @@
+{
+    "original": "Larsson, Aron Gottfrid, teol. o. fil. kand., kyrkoherde, Mjöbäck, f. 8/1/90 i Enslöv, Hall. 1. G. 24 m. Anna Wic-kander. — Teol. kand., fil. kand. V. pastor i Stenkyrka 23, kommin. i Lia-red 23-33, kyrkoh. i Mjöbäck ir. 33. Ordf. i past :kyrkostämma, skolstyr., huvudm. i Mjöbäcks past. sparb., led. av Sparb:styr., av komm:furim.",
+    "translated": "Larsson, Aron Gottfrid, Bachelor of Theology and Philosophy, clergyman, Mjöbäck, born on January 8th, 1890 in Enslöv, Halland. First marriage on January 24th, with Anna Wickander. - Bachelor of Theology, Bachelor of Philosophy. Vice pastor in Stenkyrka until 1923, curate in Ljungred from 1923-1933, vicar in Mjöbäck from 1933. Chairman of the parish council, school board, headmaster of Mjöbäck's vicarage savings bank, member of the Savings Bank board, and municipal commissioner.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Aron Gottfrid Larsson\",\n  \"birthDate\": \"1890-01-08\",\n  \"birthPlace\": \"Enslöv, Halland\",\n  \"description\": \"Clergyman\",\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University\",\n      \"alumniOf\": \"Bachelor of Theology\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"University\",\n      \"alumniOf\": \"Bachelor of Philosophy\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Wickander\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Mjöbäck\"\n  },\n  \"jobTitle\": \"Vicar\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stenkyrka\",\n      \"jobTitle\": \"Vice Pastor\",\n      \"startDate\": \"YYYY\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ljungred\",\n      \"jobTitle\": \"Curate\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mjöbäck\",\n      \"jobTitle\": \"Vicar\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Parish Council\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mjöbäck's Vicarage Savings Bank\",\n      \"roleName\": \"Headmaster\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Savings Bank\",\n      \"roleName\": \"Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Municipal Commissioner\",\n      \"roleName\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Aron Gottfrid Larsson",
+        "birthDate": "1890-01-08",
+        "birthPlace": "Enslöv, Halland",
+        "description": "Clergyman",
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "University",
+                "alumniOf": "Bachelor of Theology"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "University",
+                "alumniOf": "Bachelor of Philosophy"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Wickander",
+            "marriageDate": "YYYY-MM-DD"
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Mjöbäck"
+        },
+        "jobTitle": "Vicar",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Parish Council",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mjöbäck's Vicarage Savings Bank",
+                "roleName": "Headmaster"
+            },
+            {
+                "@type": "Organization",
+                "name": "Savings Bank",
+                "roleName": "Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Municipal Commissioner",
+                "roleName": "Member"
+            }
+        ]
+    }
+}

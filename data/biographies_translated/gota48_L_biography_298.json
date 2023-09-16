@@ -1,0 +1,77 @@
+{
+    "original": "Linden, Ingegerd (Inga) Maria, tandläkare, Jönköping, f. 2/7/97 i Bollnäs, Gävleb. i., av Birger Stagh o. h. h. f. Skårman. G. 23 m. tandl. David Linden. Barn: Kerstin f. 25, Göran 32. — Stud:ex. i Upps. 15, tandl :-kand. 17, tandläk. 19. Tandl. v. Gbgs folksk. 19-22, v. Jönköp. folksk. sed. 23.",
+    "translated": "Linden, Ingegerd (Inga) Maria, dentist, Jönköping, b. 2/7/97 in Bollnäs, Gävleborg county, daughter of Birger Stagh and his wife Skårman. Married in 1923 to dentist David Linden. Children: Kerstin, born in 1925, and Göran, born in 1932. Completed high school in Uppsala in 1915, dental studies in 1917, and became a dentist in 1919. Worked as a dentist at Gothenburg elementary school from 1919 to 1922, and at Jönköping elementary school since 1923.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ingegerd (Inga) Maria Linden\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1897-07-02\",\n  \"birthPlace\": \"Bollnäs, Gävleborg county, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birger Stagh\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Skårman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"David Linden\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Linden\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Linden\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"alumniOf\": \"Uppsala University\",\n      \"dateIssued\": \"1915\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental degree\",\n      \"educationalLevel\": \"Bachelor'sDegree\",\n      \"alumniOf\": \"Unknown University\",\n      \"dateIssued\": \"1919\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Dentist\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1922\",\n      \"organization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg Elementary School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Dentist\",\n      \"startDate\": \"1923\",\n      \"organization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Jönköping Elementary School\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ingegerd (Inga) Maria Linden",
+        "jobTitle": "Dentist",
+        "birthDate": "1897-07-02",
+        "birthPlace": "Bollnäs, Gävleborg county, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Birger Stagh"
+            },
+            {
+                "@type": "Person",
+                "name": "Skårman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "David Linden",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin Linden",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran Linden",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "alumniOf": "Uppsala University",
+                "dateIssued": "1915"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental degree",
+                "educationalLevel": "Bachelor'sDegree",
+                "alumniOf": "Unknown University",
+                "dateIssued": "1919"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Dentist",
+                "startDate": "1919",
+                "endDate": "1922",
+                "organization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg Elementary School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Dentist",
+                "startDate": "1923",
+                "organization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Jönköping Elementary School"
+                }
+            }
+        ]
+    }
+}

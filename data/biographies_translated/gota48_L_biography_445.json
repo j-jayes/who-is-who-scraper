@@ -1,0 +1,117 @@
+{
+    "original": "Ljungdahl, Nils Gustaf Eskil, bankdirektör, Göteborg, f. 3/5/Ö1 i Tensta, Upps. 1., av kronofogden J. F. L. o. H. Eskilsson. G. 36 m. Berna Lundberg. — Studiex. 20, jur. kand. 24. Bankstud. i Tyskl., Engl o. Frankr. 26-28. E. o. tj :man i riksbanken i Sthlm 21-24, anst. i A-B Sv. Hand:-banken i Malmö 24, ord. v. huv:kont. i Sthlm 28, direktionssekr. 33, bitr, dir. i Malmö 36, dito i Gbg 38, i Sthlm 43, dir. o. chef f. uti. rör. i Gbgs Han-dibank i Gbg sed. 45.",
+    "translated": "Ljungdahl, Nils Gustaf Eskil, bank manager, Gothenburg, b. 3/5/1901 in Tensta, Uppsala, son of the bailiff J. F. L. and H. Eskilsson. Married in 1936 to Berna Lundberg. — Completed high school in 1920, graduated with a law degree in 1924. Studied banking in Germany, England, and France from 1926-1928. Temporary employee at the National Bank in Stockholm from 1921-1924, employed at AB Swedish Handelsbanken in Malmö from 1924, promoted to head office in Stockholm in 1928, appointed secretary of the board in 1933, assistant director in Malmö in 1936, the same in Gothenburg in 1938, in Stockholm in 1943, and director and head of international operations at Gothenburg's Handelsbank since 1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gustaf Eskil Ljungdahl\",\n  \"birthDate\": \"1901-05-03\",\n  \"birthPlace\": \"Tensta, Uppsala, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"J. F. L.\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"H. Eskilsson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Berna Lundberg\",\n    \"marriageDate\": \"1936\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"completionDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Law Degree\",\n      \"completionDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Banking Studies\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1924\",\n      \"roleName\": \"Temporary Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"National Bank\",\n        \"location\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Swedish Handelsbanken\",\n        \"location\": \"Malmö\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"roleName\": \"Secretary of the Board\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Swedish Handelsbanken\",\n        \"location\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1933\",\n      \"roleName\": \"Assistant Director\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Swedish Handelsbanken\",\n        \"location\": \"Malmö\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"roleName\": \"Assistant Director\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Swedish Handelsbanken\",\n        \"location\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1943\",\n      \"roleName\": \"Assistant Director\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"AB Swedish Handelsbanken\",\n        \"location\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1945\",\n      \"roleName\": \"Director and Head of International Operations\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Handelsbank\",\n        \"location\": \"Gothenburg\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Gustaf Eskil Ljungdahl",
+        "birthDate": "1901-05-03",
+        "birthPlace": "Tensta, Uppsala, Sweden",
+        "nationality": "Swedish",
+        "father": {
+            "@type": "Person",
+            "name": "J. F. L."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "H. Eskilsson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Berna Lundberg",
+            "marriageDate": "1936"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "completionDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Law Degree",
+                "completionDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Banking Studies",
+                "startDate": "1926",
+                "endDate": "1928"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1921",
+                "endDate": "1924",
+                "roleName": "Temporary Employee",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "National Bank",
+                    "location": "Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "roleName": "Employee",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "AB Swedish Handelsbanken",
+                    "location": "Malmö"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "roleName": "Secretary of the Board",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "AB Swedish Handelsbanken",
+                    "location": "Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1933",
+                "roleName": "Assistant Director",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "AB Swedish Handelsbanken",
+                    "location": "Malmö"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "roleName": "Assistant Director",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "AB Swedish Handelsbanken",
+                    "location": "Gothenburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1943",
+                "roleName": "Assistant Director",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "AB Swedish Handelsbanken",
+                    "location": "Stockholm"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1945",
+                "roleName": "Director and Head of International Operations",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Handelsbank",
+                    "location": "Gothenburg"
+                }
+            }
+        ]
+    }
+}

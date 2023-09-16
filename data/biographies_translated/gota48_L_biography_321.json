@@ -1,0 +1,115 @@
+{
+    "original": "Lindgren, Bo Gunnar, major a. filygv., Ronneby, f. 13/11/08 i Luleå av bankkamr. T. A. Lindgren o. E. Ljunggren. G. 36 m. Ingrid Norinder. Barn: Ingrid Ulla-Britt f. 38, Hans Lennart 41, Ulf Gunnar 44. — Stud:ex. 29, sjöoff:ex. 32, flygsk. 34, marinspan:-kurs 35. Fänrik v. flottan 32, und:-löjtn. 34, löjtn. 36, transp. t. flygv. 40, kapt. där s. å., major 46. RSQlkl.",
+    "translated": "Lindgren, Bo Gunnar, Major in the Air Force, Ronneby, born on 13/11/08 in Luleå, son of bank employee T.A. Lindgren and E. Ljunggren. Married in 1936 to Ingrid Norinder. Children: Ingrid Ulla-Britt, born in 1938; Hans Lennart, born in 1941; Ulf Gunnar, born in 1944. Education: graduated from high school in 1929, naval officer's exam in 1932, flight school in 1934, marine navigation course in 1935. Officer ranks: Ensign in the navy in 1932, sub-lieutenant in 1934, lieutenant in 1936, transferred to the Air Force transportation in 1940, captain in the same year, major in 1946. Recipient of the Royal Swedish Order of the Sword.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bo Gunnar Lindgren\",\n  \"jobTitle\": \"Major\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Air Force\"\n  },\n  \"birthDate\": \"1908-11-13\",\n  \"birthPlace\": \"Luleå\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"T.A. Lindgren\",\n      \"jobTitle\": \"Bank Employee\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"E. Ljunggren\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Norinder\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Ulla-Britt\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Lennart\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Gunnar\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"dateEarned\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Naval Officer's Exam\",\n      \"dateEarned\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Flight School\",\n      \"dateEarned\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Marine Navigation Course\",\n      \"dateEarned\": \"1935\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Swedish Navy\",\n      \"position\": [\n        {\n          \"@type\": \"MilitaryRank\",\n          \"name\": \"Ensign\",\n          \"startDate\": \"1932\"\n        },\n        {\n          \"@type\": \"MilitaryRank\",\n          \"name\": \"Sub-Lieutenant\",\n          \"startDate\": \"1934\"\n        },\n        {\n          \"@type\": \"MilitaryRank\",\n          \"name\": \"Lieutenant\",\n          \"startDate\": \"1936\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Air Force\",\n      \"position\": [\n        {\n          \"@type\": \"MilitaryRank\",\n          \"name\": \"Captain\",\n          \"startDate\": \"1940\"\n        },\n        {\n          \"@type\": \"MilitaryRank\",\n          \"name\": \"Major\",\n          \"startDate\": \"1946\"\n        }\n      ]\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Swedish Order of the Sword\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Gunnar Lindgren",
+        "jobTitle": "Major",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Royal Swedish Navy",
+                "position": [
+                    {
+                        "@type": "MilitaryRank",
+                        "name": "Ensign",
+                        "startDate": "1932"
+                    },
+                    {
+                        "@type": "MilitaryRank",
+                        "name": "Sub-Lieutenant",
+                        "startDate": "1934"
+                    },
+                    {
+                        "@type": "MilitaryRank",
+                        "name": "Lieutenant",
+                        "startDate": "1936"
+                    }
+                ]
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Air Force",
+                "position": [
+                    {
+                        "@type": "MilitaryRank",
+                        "name": "Captain",
+                        "startDate": "1940"
+                    },
+                    {
+                        "@type": "MilitaryRank",
+                        "name": "Major",
+                        "startDate": "1946"
+                    }
+                ]
+            }
+        ],
+        "birthDate": "1908-11-13",
+        "birthPlace": "Luleå",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "T.A. Lindgren",
+                "jobTitle": "Bank Employee"
+            },
+            {
+                "@type": "Person",
+                "name": "E. Ljunggren"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Ingrid Norinder"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingrid Ulla-Britt",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans Lennart",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulf Gunnar",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School Diploma",
+                "educationalLevel": "SecondaryEducation",
+                "dateEarned": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Naval Officer's Exam",
+                "dateEarned": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Flight School",
+                "dateEarned": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Marine Navigation Course",
+                "dateEarned": "1935"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Swedish Order of the Sword"
+            }
+        ]
+    }
+}

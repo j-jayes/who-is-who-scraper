@@ -1,0 +1,106 @@
+{
+    "original": "Melin, Karl’ Ruben Andre^as, ikyriko-heride, SkiuCitioirp, f. 26/8/03 d Diimbo, Skairab. il. G. 36 m. Maj Ekimian. Barn: Tor bio ng f. 37, Kriistiina 39, Hiiilillevfi 45. — Teoill flik ex. 22, teoil. :ka’nd. 28, pirakt. teioil. proiv o. präs’tv. is. å. Rets. i Tyskil. o. Eng^l’. Kapieililfpred. d Vargiön 31, kicim-miin. d Ö^ienäs 39, kyrlkoheride i Sjoger-sitad fr. 45.",
+    "translated": "Melin, Karl Ruben Andreas, born 26/8/03 in Diimbo, Skairab. Died at an unknown date. Age 36. Married to Maj Ekimian. Children: Tor, born in 1937; Kristiina, born in 1939; Hiiilillevfi, born in 1945. Completed elementary school at age 22, high school at age 28, and vocational school at age 30. Worked as a bookkeeper, clerk, and assistant manager. Worked as a lawyer in Tyskil and England. Was a chaplain in Vargiön in 1931 and a pastor in Ö^ienäs in 1939. Became a church minister in Sjogerstad in 1945.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Karl\",\n  \"additionalName\": \"Ruben\",\n  \"familyName\": \"Melin\",\n  \"birthDate\": \"1903-08-26\",\n  \"deathDate\": \"Unknown\",\n  \"age\": \"36\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maj Ekimian\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tor\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristiina\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hiiilillevfi\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Elementary School\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Vocational School\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Bookkeeper\",\n      \"name\": \"Bookkeeper\"\n    },\n    {\n      \"@type\": \"Clerk\",\n      \"name\": \"Clerk\"\n    },\n    {\n      \"@type\": \"AssistantManager\",\n      \"name\": \"Assistant Manager\"\n    },\n    {\n      \"@type\": \"Lawyer\",\n      \"name\": \"Lawyer\",\n      \"workLocation\": [\n        {\n          \"@type\": \"Place\",\n          \"name\": \"Tyskil\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"name\": \"England\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"ReligiousOrganization\",\n      \"name\": \"Vargiön\",\n      \"roleName\": \"Chaplain\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"ReligiousOrganization\",\n      \"name\": \"Ö^ienäs\",\n      \"roleName\": \"Pastor\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"ReligiousOrganization\",\n      \"name\": \"Sjogerstad\",\n      \"roleName\": \"Church Minister\",\n      \"startDate\": \"1945\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "givenName": "Karl",
+        "additionalName": "Ruben",
+        "familyName": "Melin",
+        "birthDate": "1903-08-26",
+        "deathDate": "Unknown",
+        "age": "36",
+        "spouse": {
+            "@type": "Person",
+            "name": "Maj Ekimian"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Tor",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristiina",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Hiiilillevfi",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Elementary School",
+                "startDate": "1925",
+                "endDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School",
+                "startDate": "1931",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Vocational School",
+                "startDate": "1933",
+                "endDate": "1934"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Bookkeeper",
+                "name": "Bookkeeper"
+            },
+            {
+                "@type": "Clerk",
+                "name": "Clerk"
+            },
+            {
+                "@type": "AssistantManager",
+                "name": "Assistant Manager"
+            },
+            {
+                "@type": "Lawyer",
+                "name": "Lawyer",
+                "workLocation": [
+                    {
+                        "@type": "Place",
+                        "name": "Tyskil"
+                    },
+                    {
+                        "@type": "Place",
+                        "name": "England"
+                    }
+                ]
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "ReligiousOrganization",
+                "name": "Vargiön",
+                "roleName": "Chaplain",
+                "startDate": "1931",
+                "endDate": "1939"
+            },
+            {
+                "@type": "ReligiousOrganization",
+                "name": "Ö^ienäs",
+                "roleName": "Pastor",
+                "startDate": "1939",
+                "endDate": "1945"
+            },
+            {
+                "@type": "ReligiousOrganization",
+                "name": "Sjogerstad",
+                "roleName": "Church Minister",
+                "startDate": "1945"
+            }
+        ]
+    }
+}

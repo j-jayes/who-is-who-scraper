@@ -1,0 +1,84 @@
+{
+    "original": "Madestam, Ernst Enok Johannes, komimiinüsiter, Sanikt Sigfniid, f. 23/1/10 i Made sjö, Kalim. il. G. 39 m. Edsia Ljungdahl. Barn: Birgitta f. 41, Jan 43, Sigfrid 47. — Stud:ex. i Kalmar 29, teok fil ex. i Lund 31, teol. kand. 35 prakt. teol. prov samt prästvigd för Växjö stift 36. Aisisist. v. ’SV. ’sjöimianisikyrkan i Roitfter-daim 33-34, tjg. s. v. koimmiiin. i Bya-r;uim, Kalmar, Lekaryd-Härdiöv stam t Lianiniackeide, s. piast :adj. i Runsten o. t’f. kyrkoaidj. i Almiundisryd, kommin. i S Sigfrid ,sed. 43.",
+    "translated": "Madestam, Ernst Enok Johannes, vicar, married to Edsia Ljungdahl, born on January 23, 1910 in Made sjö, Kalmar. Children: Birgitta, born in 1941, Jan in 1943, Sigfrid in 1947. — Studied: completed secondary education in Kalmar in 1929, obtained a Bachelor's degree in theology from Lund in 1931, completed theological studies and practical theological examination, ordained as a priest for the Växjö diocese in 1936. Assisting vicar at the Swedish Mission Church in Roitfter-daim from 1933-34, served as vicar in Bya-r;uim, Kalmar, Lekaryd-Härdiöv stam in Lianiniackeide, assistant adjutant in Runsten and churchwarden in Almiundisryd, vicar in S Sigfrid since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Enok Johannes Madestam\",\n  \"birthDate\": \"1910-01-23\",\n  \"birthPlace\": \"Made sjö, Kalmar\",\n  \"spouse\": \"Edsia Ljungdahl\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigfrid\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary education\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"alumniOf\": \"Kalmar\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor's degree in theology\",\n      \"educationalLevel\": \"Bachelor'sDegree\",\n      \"alumniOf\": \"Lund\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical theological examination\",\n      \"educationalLevel\": \"PracticalTheology\",\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assisting vicar\",\n      \"startDate\": \"1933-01-01\",\n      \"endDate\": \"1934-12-31\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Mission Church\",\n        \"location\": \"Roitfter-daim\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Vicar\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1943\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bya-r;uim\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Vicar\",\n      \"startDate\": \"1943\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"S Sigfrid\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Enok Johannes Madestam",
+        "birthDate": "1910-01-23",
+        "birthPlace": "Made sjö, Kalmar",
+        "spouse": "Edsia Ljungdahl",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Jan",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigfrid",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Secondary education",
+                "educationalLevel": "SecondaryEducation",
+                "alumniOf": "Kalmar",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's degree in theology",
+                "educationalLevel": "Bachelor'sDegree",
+                "alumniOf": "Lund",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Practical theological examination",
+                "educationalLevel": "PracticalTheology",
+                "endDate": "1935"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assisting vicar",
+                "startDate": "1933-01-01",
+                "endDate": "1934-12-31",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Mission Church",
+                    "location": "Roitfter-daim"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Vicar",
+                "startDate": "1934",
+                "endDate": "1943",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Bya-r;uim"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Vicar",
+                "startDate": "1943",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "S Sigfrid"
+                }
+            }
+        ]
+    }
+}

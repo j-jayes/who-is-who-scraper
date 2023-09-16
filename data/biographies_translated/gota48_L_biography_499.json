@@ -1,0 +1,98 @@
+{
+    "original": "Lund, Henning, civilingenjör, Karlskrona, f. 6/1/89 i Högsjö, Västernorrl. 1., av Nils Petter L. o. Kristina Katarina Lundbom. G. 1. 23 m. Edit Enquist, d. 25; 2. 46 m. Signe Carlsson. — Stud:ex. i Härnösand 07, avg:ex. fr. KTH (E) 11. Konstr. o. sen. förest. f. elektr. o. mek. provrummen v. Luth &amp; Roséns Elektr. A-B i Sthlm 12-17, driftsing. v. Hälsingborgs stads elverk 17-19, konsult, ing. v. Elektr. Prövn:anst. i Sthlm 19-22, chef f. Karlskrona -stads elverk o. spårvägar 22-34, Karlskrona stads hissinsp. sed. 28 o. konsult, ing. sed. 34. Led. av tekn :fören. sed. 12.",
+    "translated": "Lund, Henning, MSc in Engineering, Karlskrona, born on 6th January 1889 in Högsjö, Västernorrland County, son of Nils Petter L. and Kristina Katarina Lundbom. Married 1st, in 1923, Edit Enquist, who passed away in 1925; 2nd, in 1946, Signe Carlsson. Completed upper secondary school in Härnösand in 1907, graduated from the Royal Institute of Technology (Electrical Engineering) in 1911. Worked as a designer and later as head of the electrical and mechanical testing facilities at Luth & Rosén's Electrical Company in Stockholm from 1912 to 1917, as an engineer at the Helsingborg City Power Plant from 1917 to 1919, as a consultant and engineer at the Electrical Testing Institute in Stockholm from 1919 to 1922, as the manager of the Karlskrona City Power Plant and Tramways from 1922 to 1934, as an elevator inspector for Karlskrona City since 1928, and as a consultant engineer since 1934. Member of the Technical Association since 1912.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Henning Lund\",\n  \"birthDate\": \"1889-01-06\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Högsjö\",\n      \"addressRegion\": \"Västernorrland County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Petter Lund\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Katarina Lundbom\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Edit Enquist\",\n      \"deathDate\": \"1925-XX-XX\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Signe Carlsson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"Master's degree\",\n      \"educationalProgram\": {\n        \"@type\": \"EducationalProgram\",\n        \"name\": \"Engineering\"\n      },\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Royal Institute of Technology\"\n      },\n      \"startDate\": \"1907\",\n      \"endDate\": \"1911\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Civilingenjör\",\n    \"Konstruktör\",\n    \"Föreståndare för elektriska och mekaniska provrum\",\n    \"Driftingenjör\",\n    \"Konsult\",\n    \"Chef för elverk och spårvagnar\",\n    \"Hissinspektör\",\n    \"Konsulterande ingenjör\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Luth & Roséns Elektriska AB\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Helsingborg City Power Plant\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Electrical Testing Institute\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Karlskrona City Power Plant and Tramways\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Technical Association\",\n    \"startDate\": \"1912\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Henning Lund",
+        "birthDate": "1889-01-06",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Högsjö",
+                "addressRegion": "Västernorrland County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils Petter Lund"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina Katarina Lundbom"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Edit Enquist",
+                "deathDate": "1925-XX-XX"
+            },
+            {
+                "@type": "Person",
+                "name": "Signe Carlsson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": "Master's degree",
+                "educationalProgram": {
+                    "@type": "EducationalProgram",
+                    "name": "Engineering"
+                },
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Royal Institute of Technology"
+                },
+                "startDate": "1907",
+                "endDate": "1911"
+            }
+        ],
+        "jobTitle": [
+            "Civilingenjör",
+            "Konstruktör",
+            "Föreståndare för elektriska och mekaniska provrum",
+            "Driftingenjör",
+            "Konsult",
+            "Chef för elverk och spårvagnar",
+            "Hissinspektör",
+            "Konsulterande ingenjör"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Luth & Roséns Elektriska AB",
+                "startDate": "1912",
+                "endDate": "1917"
+            },
+            {
+                "@type": "Organization",
+                "name": "Helsingborg City Power Plant",
+                "startDate": "1917",
+                "endDate": "1919"
+            },
+            {
+                "@type": "Organization",
+                "name": "Electrical Testing Institute",
+                "startDate": "1919",
+                "endDate": "1922"
+            },
+            {
+                "@type": "Organization",
+                "name": "Karlskrona City Power Plant and Tramways",
+                "startDate": "1922",
+                "endDate": "1934"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Technical Association",
+            "startDate": "1912"
+        }
+    }
+}

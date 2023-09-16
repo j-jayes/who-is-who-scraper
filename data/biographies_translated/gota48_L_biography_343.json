@@ -1,0 +1,58 @@
+{
+    "original": "Lindin, Ester Elisabet, folkskollärarinna, författarinna, Norrköping, f. i Norrköp. av Axel L. o. Anna Åberg. FolkskoLlär :ex. i Landskrona 13. Folk-skoHär. i Norrköp. sed. s. å. Skr.: Tänk om jag gifter mig med prästen (40, filmatiserad 41), Det är inte lätt att vara barn (41), Tre blommiga täcken (46).",
+    "translated": "Lindin, Ester Elisabet, elementary school teacher, author, Norrköping, born in Norrköping to Axel L. and Anna Åberg. Elementary school teacher exam in Landskrona in 1913. Elementary school teacher in Norrköping from the same year. Writings: \"Imagine if I marry the priest\" (1940, made into a film in 1941), \"It's not easy to be a child\" (1941), \"Three flowery blankets\" (1946).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ester Elisabet Lindin\",\n  \"jobTitle\": \"Elementary School Teacher\",\n  \"additionalName\": \"Folkskollärarinna\",\n  \"description\": \"Författarinna\",\n  \"birthPlace\": \"Norrköping, Sweden\",\n  \"birthDate\": \"YYYY-MM-DD\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Åberg\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Landskrona Elementary School\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Elementary School\"\n    }\n  ],\n  \"works\": [\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Tänk om jag gifter mig med prästen\",\n      \"datePublished\": \"1940\",\n      \"adaptation\": {\n          \"@type\": \"Movie\",\n          \"datePublished\": \"1941\"\n      }\n    },\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Det är inte lätt att vara barn\",\n      \"datePublished\": \"1941\"\n    },\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Tre blommiga täcken\",\n      \"datePublished\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ester Elisabet Lindin",
+        "jobTitle": "Elementary School Teacher",
+        "additionalName": "Folkskollärarinna",
+        "description": "Författarinna",
+        "birthPlace": "Norrköping, Sweden",
+        "birthDate": "YYYY-MM-DD",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel L."
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Åberg"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Landskrona Elementary School"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Norrköping Elementary School"
+            }
+        ],
+        "works": [
+            {
+                "@type": "CreativeWork",
+                "name": "Tänk om jag gifter mig med prästen",
+                "datePublished": "1940",
+                "adaptation": {
+                    "@type": "Movie",
+                    "datePublished": "1941"
+                }
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Det är inte lätt att vara barn",
+                "datePublished": "1941"
+            },
+            {
+                "@type": "CreativeWork",
+                "name": "Tre blommiga täcken",
+                "datePublished": "1946"
+            }
+        ]
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "original": "Myreberg, Knut Ivan, komniiinister, Ödeborg, f. 17/3/11 i Frykerud, Värml. 1. G. 39 m. Margit Jansson. Barn: B nita f. 41, Agneta 45. — Stud :ex. v. Lunds priv. elemisk. 34, teol fil. ex. i Gbg 36, teO’l. ikand. »samt prakt. teol. prov i Lund 39, präs^tv. f. Karlistads stift s. å. V. kornmin. i Bro 40, i Fålipstad 41, i Nyskoga 42 isamt d Trankil 42-44, kommin. i Ödeborg fr. 44. Ordf. i Tran-:kiis skodistyr. o. kyrko^fullm. 42-44, i Ödeborgs b ar nav :nd fr. 46.",
+    "translated": "Myreberg, Knut Ivan, minister, Ödeborg, b. March 17, 1911 in Frykerud, Värmland. 1st marriage in 1939 to Margit Jansson. Children: Bnita b. 1941, Agneta b. 1945. Education: graduated from private elementary school in Lund in 1934, theology degree in Gothenburg in 1936, theological candidacy and practical theology exam in Lund in 1939, ordained as a priest for the Karlistad diocese the same year. Serving as a curate in Bro in 1940, in Fålipstad in 1941, in Nyskoga in 1942, and in Trankil from 1942-1944. Became a vicar in Ödeborg from 1944. Chairman of the school board and church council in Trankiis from 1942-1944, and of the local child welfare board in Ödeborg from 1946 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Knut Ivan Myreberg\",\n  \"birthDate\": \"1911-03-17\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Frykerud\",\n      \"addressRegion\": \"Värmland\"\n    }\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Jansson\",\n      \"marriageDate\": \"1939\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bnita\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agneta\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lunds priv. elemisk.\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Theology\"\n      },\n      \"EndDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund\",\n      \"degree\": {\n        \"@type\": \"EducationalDegree\",\n        \"name\": \"Theological Candidacy\"\n      },\n      \"endDate\": \"1939\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Ordained Priest\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlistad Diocese\"\n      },\n      \"startDate\": \"1939\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Curate\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bro\"\n      },\n      \"startDate\": \"1940\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Curate\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Fålipstad\"\n      },\n      \"startDate\": \"1941\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Curate\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nyskoga\"\n      },\n      \"startDate\": \"1942\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Vicar\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ödeborg\"\n      },\n      \"startDate\": \"1944\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Chairman\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Trankiis School Board\"\n      },\n      \"startDate\": \"1942\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Chairman\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ödeborg Local Child Welfare Board\"\n      },\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Knut Ivan Myreberg",
+        "birthDate": "1911-03-17",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Frykerud",
+                "addressRegion": "Värmland"
+            }
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Margit Jansson",
+                "marriageDate": "1939"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bnita",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Agneta",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lunds priv. elemisk.",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Theology"
+                },
+                "EndDate": "1936"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund",
+                "degree": {
+                    "@type": "EducationalDegree",
+                    "name": "Theological Candidacy"
+                },
+                "endDate": "1939"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Ordained Priest",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Karlistad Diocese"
+                },
+                "startDate": "1939"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Curate",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Bro"
+                },
+                "startDate": "1940",
+                "endDate": "1941"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Curate",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Fålipstad"
+                },
+                "startDate": "1941",
+                "endDate": "1942"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Curate",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Nyskoga"
+                },
+                "startDate": "1942",
+                "endDate": "1944"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Vicar",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Ödeborg"
+                },
+                "startDate": "1944"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Chairman",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Trankiis School Board"
+                },
+                "startDate": "1942",
+                "endDate": "1944"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Chairman",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Ödeborg Local Child Welfare Board"
+                },
+                "startDate": "1946"
+            }
+        ]
+    }
+}

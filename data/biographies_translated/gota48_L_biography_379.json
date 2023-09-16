@@ -1,0 +1,102 @@
+{
+    "original": "Lindstrand, Filip Erland, läroverksadjunkt, Skövde, f. 22/4/94 i Götlun-da, Skarab. 1., av L. A. Lindstrand o. h. h., f. Lööf. G. 21 m. Carin Wahlström. Barn: Gudrun f. 22, g. m. löjtn. Nils Berggren. — Stud:ex. i Skövde 13, fil. mag. i Upps. 20, prov-àr v. Gbg^s h. real 21-22. E. lär. i Östersund 20-21, Falköp. 22-36, adj. i matem. o. kemi v. Skövde h. a. 1. s’ed. 36, sekr. å rektorsexp. 36-42, vik. rektor 39 o. 40.",
+    "translated": "Lindstrand, Filip Erland, high school teacher, Skövde, b. 22/4/94 in Götlunda, Skaraborg county. Son of L. A. Lindstrand and his wife H. H., born Lööf. Married on 21, m. Carin Wahlström. Children: Gudrun b. 22, married to Lieutenant Nils Berggren. Completed high school in Skövde in 13, earned a Bachelor of Arts degree in Uppsala in 20, worked as a substitute teacher at Gothenburg's high school for natural sciences from 21 to 22. Became a teacher in Östersund from 20 to 21, in Falköping from 22 to 36, and a mathematics and chemistry adjunct at Skövde's high school from 36, since 42 worked as secretary at the rector's office, acting principal in 39 and 40.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Filip Erland Lindstrand\",\n  \"birthDate\": \"1894-04-22\",\n  \"birthPlace\": \"Götlunda, Skaraborg County\",\n  \"spouse\": \"Carin Wahlström\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun\",\n      \"birthDate\": \"1922-XX-XX\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Nils Berggren\",\n        \"jobTitle\": \"Lieutenant\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"credentialLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"Stud:ex.\",\n        \"inDefinedTermSet\": \"https://schema.org/EducationDegree\"\n      },\n      \"educationalLevel\": \"High school\",\n      \"educationalProgram\": \"Skövde\",\n      \"endDate\": \"1913\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"credentialLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"fil. mag.\",\n        \"inDefinedTermSet\": \"https://schema.org/EducationDegree\"\n      },\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalProgram\": \"Uppsala University\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": {\n        \"@type\": \"DefinedTerm\",\n        \"name\": \"prov-år\",\n        \"inDefinedTermSet\": \"https://schema.org/EducationDegree\"\n      },\n      \"educationalProgram\": \"Gothenburg's high school for natural sciences\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\"\n    }\n  ],\n  \"jobTitle\": [\n    \"High school teacher\",\n    \"Substitute teacher\",\n    \"Teacher\",\n    \"Mathematics and chemistry adjunct\",\n    \"Secretary\",\n    \"Acting principal\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde's high school\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Östersund\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Falköping\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Skövde's high school\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Rector's office\",\n      \"startDate\": \"1942\",\n      \"endDate\": null\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Filip Erland Lindstrand",
+        "birthDate": "1894-04-22",
+        "birthPlace": "Götlunda, Skaraborg County",
+        "spouse": "Carin Wahlström",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gudrun",
+                "birthDate": "1922-XX-XX",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Nils Berggren",
+                    "jobTitle": "Lieutenant"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "credentialLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "Stud:ex.",
+                    "inDefinedTermSet": "https://schema.org/EducationDegree"
+                },
+                "educationalLevel": "High school",
+                "educationalProgram": "Skövde",
+                "endDate": "1913"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "credentialLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "fil. mag.",
+                    "inDefinedTermSet": "https://schema.org/EducationDegree"
+                },
+                "educationalLevel": "Bachelor's degree",
+                "educationalProgram": "Uppsala University",
+                "endDate": "1920"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": {
+                    "@type": "DefinedTerm",
+                    "name": "prov-år",
+                    "inDefinedTermSet": "https://schema.org/EducationDegree"
+                },
+                "educationalProgram": "Gothenburg's high school for natural sciences",
+                "startDate": "1921",
+                "endDate": "1922"
+            }
+        ],
+        "jobTitle": [
+            "High school teacher",
+            "Substitute teacher",
+            "Teacher",
+            "Mathematics and chemistry adjunct",
+            "Secretary",
+            "Acting principal"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skövde's high school"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Östersund",
+                "startDate": "1920",
+                "endDate": "1921"
+            },
+            {
+                "@type": "Place",
+                "name": "Falköping",
+                "startDate": "1922",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Place",
+                "name": "Skövde's high school",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Place",
+                "name": "Rector's office",
+                "startDate": "1942",
+                "endDate": null
+            }
+        ]
+    }
+}

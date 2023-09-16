@@ -1,0 +1,88 @@
+{
+    "original": "Löwenhielm, Gustav Fredrik Cris-pinsson, civilingenjör, Göteborg, f. 3/ 2/05 i Hasslö, Blek. 1., av major Cris-pin L. o. Ellen Sundblad. G. 34 m. Barbro Örnfelt. Barn: Kristina f. 43. — Stud:ex. v. Gbgs real 24, KTH (S) 24-28. Marining:stip. 28-30. Anst. v. A-B Lindholmen-Motala i Gbg, Ho-waldtsvv^erke AG i Kiel o. Hamburg samt Deutsche Werft i Hamburg 28-",
+    "translated": "Löwenhielm, Gustav Fredrik Cris-pinsson, civil engineer, Gothenburg, b. 3/2/05 in Hasslö, Blekinge, first son of Major Cris-pin L. and Ellen Sundblad. Married in 1934 to Barbro Örnfelt. Children: Kristina b. 1943. Completed high school at Gothenburg Real Gymnasium in 1924, studied at the Royal Institute of Technology in Stockholm from 1924-1928. Received a stipend for maritime studies from 1928-1930. Employed by A-B Lindholmen-Motala in Gothenburg, Howaldtsvv^erke AG in Kiel and Hamburg, and Deutsche Werft in Hamburg from 1928 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustav Fredrik Cris-pinsson Löwenhielm\",\n  \"birthDate\": \"1905-02-03\",\n  \"birthPlace\": \"Hasslö, Blekinge, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Cris-pin Löwenhielm\",\n      \"jobTitle\": \"Major\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ellen Sundblad\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbro Örnfelt\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"occupation\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"High School\",\n      \"institution\": \"Gothenburg Real Gymnasium\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"institution\": \"Royal Institute of Technology\",\n      \"location\": \"Stockholm\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Lindholmen-Motala\"\n      },\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Howaldtsvv^erke AG\"\n      },\n      \"location\": \"Kiel and Hamburg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Deutsche Werft\"\n      },\n      \"location\": \"Hamburg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gustav Fredrik Cris-pinsson Löwenhielm",
+        "birthDate": "1905-02-03",
+        "birthPlace": "Hasslö, Blekinge, Sweden",
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Cris-pin Löwenhielm",
+                "jobTitle": "Major"
+            },
+            {
+                "@type": "Person",
+                "name": "Ellen Sundblad"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Barbro Örnfelt",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kristina",
+                "birthDate": "1943"
+            }
+        ],
+        "occupation": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "High School",
+                "institution": "Gothenburg Real Gymnasium",
+                "startDate": "1924",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's Degree",
+                "institution": "Royal Institute of Technology",
+                "location": "Stockholm",
+                "startDate": "1924",
+                "endDate": "1928"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Lindholmen-Motala"
+                },
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Howaldtsvv^erke AG"
+                },
+                "location": "Kiel and Hamburg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Deutsche Werft"
+                },
+                "location": "Hamburg"
+            }
+        ]
+    }
+}

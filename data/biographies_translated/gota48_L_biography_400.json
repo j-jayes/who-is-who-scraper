@@ -1,0 +1,65 @@
+{
+    "original": "Lindström, Uno Mauritz Marion, ingenjör, Norrköping, f. 28/4/07 i Jakobstad, Finl, av fabr. A. L. o. Mar}^ Lagergrén. G. m. Peggy Löfström. Barn i föreg. äkt.: Bo f. 41, Lars 43. — Genomg. Norrköp. tekn. gymn. Stud:res. t. Tyskl. 27-28, Engl. 32. Anst. v. A-B Abel Lindströms Tricot-fabr. i Norrköp. sed. 28, num. föret, verkst. dir.",
+    "translated": "Lindström, Uno Mauritz Marion, engineer, Norrköping, born April 28, 1907 in Jakobstad, Finland, son of factory owner A. L. and Mar}^ Lagergrén. Married to Peggy Löfström. Children from previous marriage: Bo, born in 1941, Lars, born in 1943. Attended Norrköping technical high school. Studied abroad in Germany during 1927-1928, and in England during 1932. Employed by A-B Abel Lindström's Tricot factory in Norrköping since 1928, currently holding the position of executive director.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Uno Mauritz Marion Lindström\",\n  \"jobTitle\": \"Engineer\",\n  \"birthDate\": \"1907-04-28\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Jakobstad\",\n    \"address\": {\n      \"@type\": \"Country\",\n      \"name\": \"Finland\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"A. L. (factory owner)\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marion Lagergrén\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Peggy Löfström\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Norrköping Technical High School\"\n  },\n  \"sameAs\": \"http://example.com/uno-lindstrom\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Abel Lindström's Tricot Factory\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Norrköping\"\n    },\n    \"startDate\": \"1928\",\n    \"jobTitle\": \"Executive Director\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Abel Lindström's Tricot Factory\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Uno Mauritz Marion Lindström",
+        "jobTitle": "Engineer",
+        "birthDate": "1907-04-28",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Jakobstad",
+            "address": {
+                "@type": "Country",
+                "name": "Finland"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "A. L. (factory owner)"
+            },
+            {
+                "@type": "Person",
+                "name": "Marion Lagergrén"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Peggy Löfström"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars",
+                "birthDate": "1943"
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Norrköping Technical High School"
+        },
+        "sameAs": "http://example.com/uno-lindstrom",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "A-B Abel Lindström's Tricot Factory",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Norrköping"
+            },
+            "startDate": "1928",
+            "jobTitle": "Executive Director"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "A-B Abel Lindström's Tricot Factory"
+        }
+    }
+}

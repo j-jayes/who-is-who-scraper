@@ -1,0 +1,125 @@
+{
+    "original": "Lundin, Bo Axel Erik, tandläkare, Jönköping, f. 24/10/98 i Jönköp. av dir. Josef L. o. Ebba Almstedt. G. 36 m. Stina Skårin. Barn: Håkan f 38, Christer 40, Elisabeth 43. — Stud:ex. i Jönköp. 19, med. stud. i Upps. 31-32, tandl :kand. 33, tandl:ex. 36. Tandl :prakt. i Jönköp. sed. 36, skol-tandl. i Huskvarna 37-46, tandl. v. Vrlhetosro anst. f. fallandesjuka 38-39. Anst. på adv:kont. 20-30.",
+    "translated": "Lundin, Bo Axel Erik, dentist, Jönköping, b. 24/10/98 in Jönköping. Son of director Josef L. and Ebba Almstedt. Married in 1936 to Stina Skårin. Children: Håkan, born in 1938, Christer, born in 1940, Elisabeth, born in 1943. Completed high school in Jönköping in 1919. Medical studies in Uppsala from 1931-1932. Dental studies: degree in dental medicine in 1933, dental license in 1936. Worked as a dentist in Jönköping since 1936, school dentist in Huskvarna from 1937-1946. Employed at Vrlhetosro for epilepsy treatment from 1938-1939. Worked at a law firm from 1920-1930.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bo Axel Erik Lundin\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1898-10-24\",\n  \"birthPlace\": \"Jönköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Josef L.\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba Almstedt\"\n    }\n  ],\n  \"spouse\": \"Stina Skårin\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Håkan Lundin\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christer Lundin\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabeth Lundin\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"studySubject\": \"Medical Studies\",\n      \"educationalLevel\": \"High School\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1919\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Jönköping High School\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"med. stud.\",\n      \"studySubject\": \"Medical Studies\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1931-01-01\",\n      \"endDate\": \"1932-12-31\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"tandl :kand.\",\n      \"studySubject\": \"Dental Medicine\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1933\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown Educational Institution\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"tandl:ex.\",\n      \"studySubject\": \"Dental Medicine\",\n      \"educationalLevel\": \"Graduate\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown Educational Institution\"\n      }\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping Dental Clinic\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Huskvarna School\",\n      \"jobTitle\": \"School Dentist\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vrlhetosro Epilepsy Treatment Center\",\n      \"jobTitle\": \"Dentist\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Law Firm\",\n      \"jobTitle\": \"Employee\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1930\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bo Axel Erik Lundin",
+        "jobTitle": "Dentist",
+        "birthDate": "1898-10-24",
+        "birthPlace": "Jönköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Josef L.",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba Almstedt"
+            }
+        ],
+        "spouse": "Stina Skårin",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Håkan Lundin",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Christer Lundin",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Elisabeth Lundin",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "studySubject": "Medical Studies",
+                "educationalLevel": "High School",
+                "educationalRole": "Student",
+                "startDate": "1919",
+                "endDate": "1919",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Jönköping High School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "med. stud.",
+                "studySubject": "Medical Studies",
+                "educationalLevel": "Undergraduate",
+                "educationalRole": "Student",
+                "startDate": "1931-01-01",
+                "endDate": "1932-12-31",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "tandl :kand.",
+                "studySubject": "Dental Medicine",
+                "educationalLevel": "Undergraduate",
+                "educationalRole": "Student",
+                "startDate": "1933",
+                "endDate": "1933",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown Educational Institution"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "tandl:ex.",
+                "studySubject": "Dental Medicine",
+                "educationalLevel": "Graduate",
+                "educationalRole": "Student",
+                "startDate": "1936",
+                "endDate": "1936",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown Educational Institution"
+                }
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Jönköping Dental Clinic",
+                "jobTitle": "Dentist",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Huskvarna School",
+                "jobTitle": "School Dentist",
+                "startDate": "1937",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vrlhetosro Epilepsy Treatment Center",
+                "jobTitle": "Dentist",
+                "startDate": "1938",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Law Firm",
+                "jobTitle": "Employee",
+                "startDate": "1920",
+                "endDate": "1930"
+            }
+        ]
+    }
+}

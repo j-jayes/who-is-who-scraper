@@ -1,0 +1,63 @@
+{
+    "original": "Landberg, Claes Gustaf Nils Vilhelm, stadsfogde, Växjö, f. 1/6/94 i Västra Sallerup, Malmöh. 1., av stats-konsulent Nils August L. o. Laura Carolina Larsen. G. 31 m. Vega Lex-ell. — Stud:ex. v. Lunds katedralsk. 12, jur. kand. 21. Stadsfogde i Växjö sed. 40.",
+    "translated": "Landberg, Claes Gustaf Nils Vilhelm, city bailiff, Växjö, born on June 1, 1894 in Västra Sallerup, Malmöhus County. Son of government counselor Nils August L. and Laura Carolina Larsen. Married on January 31, 19xx to Vega Lexell. - Completed secondary school at Lund Cathedral School in 1912 and obtained a juris doctorate in 1921. City bailiff in Växjö since 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Claes Gustaf Nils Vilhelm Landberg\",\n  \"birthDate\": \"1894-06-01\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Västra Sallerup\",\n      \"addressRegion\": \"Malmöhus County\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils August L.\",\n      \"jobTitle\": \"Government Counselor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Laura Carolina Larsen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vega Lexell\",\n    \"marriageDate\": \"19xx-01-31\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school\",\n      \"educationalLevel\": \"Completed secondary school\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund Cathedral School\"\n      },\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"juris doctorate\",\n      \"educationalLevel\": \"Juris Doctorate\",\n      \"provider\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1921\"\n    }\n  ],\n  \"jobTitle\": \"City Bailiff\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Växjö\"\n  },\n  \"startDate\": \"1940\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Claes Gustaf Nils Vilhelm Landberg",
+        "birthDate": "1894-06-01",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Västra Sallerup",
+                "addressRegion": "Malmöhus County"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Nils August L.",
+                "jobTitle": "Government Counselor"
+            },
+            {
+                "@type": "Person",
+                "name": "Laura Carolina Larsen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vega Lexell",
+            "marriageDate": "19xx-01-31"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school",
+                "educationalLevel": "Completed secondary school",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund Cathedral School"
+                },
+                "endDate": "1912"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "juris doctorate",
+                "educationalLevel": "Juris Doctorate",
+                "provider": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "endDate": "1921"
+            }
+        ],
+        "jobTitle": "City Bailiff",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Växjö"
+        },
+        "startDate": "1940"
+    }
+}

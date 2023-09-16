@@ -1,0 +1,91 @@
+{
+    "original": "Melkersson, Gunnar Gustav, tandläkare, Göteborg, f. 6/12/05 i Örebro av fabr. Gustaf M. o-. Olga Söderlund. G. 32 m. -tandl. Margareta Harju. Barn: Gumlla f. 35, Erik 38, Lennart 43. — Stud:ex. v. Karoil. lärov. i Örebro 23, tandl :kand. 24, tandl. 27. Prakt, li Aseda 28-29, e. o. tandl. v. Gbgis fcomm. tandpodilvlin. 30-35, ord. 36-42, prakt, i Gbg sed. 43.",
+    "translated": "Melkersson, Gunnar Gustav, dentist, Gothenburg, b. 12/6/1905 in Örebro to workman Gustaf M. and Olga Söderlund. Married in 1932 to dentist Margareta Harju. Children: Gumlla b. 1935, Erik b. 1938, Lennart b. 1943. - Completed secondary school at Karolinska Gymnasium in Örebro in 1923, dental studies in 1924, dentist certification in 1927. Worked in Aseda from 1928-1929, as temporary dentist at Gothenburg's Municipal Dental Service from 1930-1935, became permanent from 1936-1942, and has been practicing in Gothenburg since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Gustav Melkersson\",\n  \"birthDate\": \"1905-12-06\",\n  \"birthPlace\": \"Örebro\",\n  \"description\": \"Dentist in Gothenburg\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gustaf Melkersson\",\n    \"profession\": \"Workman\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Olga Söderlund\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margareta Harju\",\n    \"profession\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gumlla\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lennart\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Studex\",\n    \"educationalLevel\": \"SecondarySchool\",\n    \"educationalCredentialAwarded\": \"Karolinska Gymnasium diploma, 1923\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\",\n      \"roleName\": \"Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Aseda\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1935\",\n      \"roleName\": \"Temporary Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Municipal Dental Service\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1942\",\n      \"roleName\": \"Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Municipal Dental Service\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1943\",\n      \"roleName\": \"Practicing Dentist\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Gustav Melkersson",
+        "birthDate": "1905-12-06",
+        "birthPlace": "Örebro",
+        "description": "Dentist in Gothenburg",
+        "father": {
+            "@type": "Person",
+            "name": "Gustaf Melkersson",
+            "profession": "Workman"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Olga Söderlund"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margareta Harju",
+            "profession": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gumlla",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Erik",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Lennart",
+                "birthDate": "1943"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Studex",
+            "educationalLevel": "SecondarySchool",
+            "educationalCredentialAwarded": "Karolinska Gymnasium diploma, 1923"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "endDate": "1929",
+                "roleName": "Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Aseda"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1930",
+                "endDate": "1935",
+                "roleName": "Temporary Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Municipal Dental Service"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "endDate": "1942",
+                "roleName": "Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Municipal Dental Service"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1943",
+                "roleName": "Practicing Dentist",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                }
+            }
+        ]
+    }
+}

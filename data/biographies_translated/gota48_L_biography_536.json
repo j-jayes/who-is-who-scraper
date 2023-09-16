@@ -1,0 +1,72 @@
+{
+    "original": "Lundell, Hanna Eugenia, apotekare, Göteborg, f. i Örebro av dir. K. J. L. o. Amanda Andersson. — Stud:ex. i Upps. 15, farm. kand. 18, apot:ex. 29. Elev v. apot. Svanen i Örebro 15-17, anst. där samt v. Lokatten i Sthlm 19-27, v. Fenix i Sthlm 30-39, priv. à apot. i Smedjebacken 39, å apot. Struts’en i Gbg 46.",
+    "translated": "Lundell, Hanna Eugenia, pharmacist, Gothenburg, born in Örebro to director K. J. L. and Amanda Andersson. — High school graduate in Uppsala in 1915, pharmaceutical candidate in 1918, pharmacy degree in 1929. Student at Svanen pharmacy in Örebro from 1915 to 1917, employed there and at Lokatten pharmacy in Stockholm from 1919 to 1927, employee at Fenix pharmacy in Stockholm from 1930 to 1939, private pharmacist in Smedjebacken in 1939, at Struts'en pharmacy in Gothenburg from 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hanna Eugenia Lundell\",\n  \"jobTitle\": \"Pharmacist\",\n  \"birthPlace\": \"Örebro\",\n  \"birthDate\": \"YYYY-MM-DD\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"K. J. L.\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Andersson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"HighSchool\",\n      \"name\": \"Uppsala High School\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"degree\": \"Pharmaceutical Candidate\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Pharmacy School\",\n      \"degree\": \"Pharmacy\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Svanen Pharmacy\",\n      \"location\": \"Örebro\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lokatten Pharmacy\",\n      \"location\": \"Stockholm\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fenix Pharmacy\",\n      \"location\": \"Stockholm\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Struts'en Pharmacy\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Hanna Eugenia Lundell",
+        "jobTitle": "Pharmacist",
+        "birthPlace": "Örebro",
+        "birthDate": "YYYY-MM-DD",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "K. J. L.",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Andersson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "HighSchool",
+                "name": "Uppsala High School",
+                "endDate": "1915"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "degree": "Pharmaceutical Candidate",
+                "endDate": "1918"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Pharmacy School",
+                "degree": "Pharmacy",
+                "endDate": "1929"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Svanen Pharmacy",
+                "location": "Örebro",
+                "startDate": "1915",
+                "endDate": "1917"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lokatten Pharmacy",
+                "location": "Stockholm",
+                "startDate": "1919",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Organization",
+                "name": "Fenix Pharmacy",
+                "location": "Stockholm",
+                "startDate": "1930",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Struts'en Pharmacy",
+                "location": "Gothenburg",
+                "startDate": "1946"
+            }
+        ]
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "original": "Ljungberg, Tore Olof Alexander, advokat, vice auditör, Skövde, f. 16/3/04 i Stoby, Krist. 1., av godsäg. Alex L. o. Marinda Lindskog. G. 33 m. Margareta Jonsson. Barn: Carl-Göran f. 35, Claes 37. — Stud:ex. i Växjö 23, jur. kand. i Lund 29. E. o. not. i Skånska hovr. 29, i Göta hovr. 30, tingstjg. i Västra Gö-inge doms. 29-30, i Vadsbo doms. 30-32, anst. å v. kripdom. Gunnar Wibergs jur. byrå i Skövde 32-33, deläg. i denna 33, v. auditör v. Skarab. pansarreg., Livreg. hus. o. Göta trängkår samt v. Karlsborgs :luftv:reg. o. Västg. flygflottilj. Led. av Sv:es adv:samf. sed. 35. Jur. rådg. åt mil :befälh. i III milo.",
+    "translated": "Ljungberg, Tore Olof Alexander, lawyer, deputy auditor, Skövde, born on March 16, 1904 in Stoby, Krist. 1., son of landowner Alex L. and Marinda Lindskog. Married in 1933 to Margareta Jonsson. Children: Carl-Göran, born in 1935, Claes, born in 1937. \n\nEducation: Graduated from Växjö Secondary School in 1923, received a law degree from Lund University in 1929. \n\nProfessional experience: Temporary clerk at Skånska Court of Appeals in 1929, at Göta Court of Appeals in 1930. Served as assistant judge at Västra Göinge District Court from 1929-1930, at Vadsbo District Court from 1930-1932. Employed at the law firm of Gunnar Wiberg in Skövde from 1932-1933, became a partner in 1933. Served as deputy auditor at Skaraborg Armoured Regiment, Life Regiment Hussars, Göta Transport Corps, and at Karlsborg Air Force Regiment and Västergötland Air Fleet. Became a member of the Swedish Bar Association in 1935. Legal advisor to the military commander of the Third Military District.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tore Olof Alexander Ljungberg\",\n  \"givenName\": \"Tore\",\n  \"additionalName\": \"Olof Alexander\",\n  \"familyName\": \"Ljungberg\",\n  \"birthDate\": \"1904-03-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Stoby\",\n      \"addressRegion\": \"Kristianstad\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alex Ljungberg\",\n    \"occupation\": \"Landowner\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Marinda Lindskog\"\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Jonsson\",\n      \"marriageDate\": \"1933\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl-Göran Ljungberg\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes Ljungberg\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchool\",\n      \"educationalLevel\": \"Graduated\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Växjö Secondary School\",\n        \"location\": {\n          \"@type\": \"Place\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Växjö\",\n            \"addressCountry\": \"Sweden\"\n          }\n        }\n      },\n      \"completionDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"educationalLevel\": \"Law Degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\",\n        \"location\": {\n          \"@type\": \"Place\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Lund\",\n            \"addressCountry\": \"Sweden\"\n          }\n        }\n      },\n      \"completionDate\": \"1929\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Lawyer\",\n    \"Deputy Auditor\"\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gunnar Wiberg's Law Firm\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Skövde\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"legalAdvisorTo\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Third Military District\"\n  },\n  \"temporaryPosition\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Clerk\",\n      \"namedPosition\": \"Temporary Clerk\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\",\n      \"organization\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Skånska Court of Appeals\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Clerk\",\n      \"namedPosition\": \"Temporary Clerk\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"organization\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Göta Court of Appeals\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant Judge\",\n      \"namedPosition\": \"Assistant Judge\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\",\n      \"organization\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Västra Göinge District Court\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant Judge\",\n      \"namedPosition\": \"Assistant Judge\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"organization\": {\n        \"@type\": \"GovernmentOrganization\",\n        \"name\": \"Vadsbo District Court\"\n      }\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Deputy Auditor\",\n      \"namedPosition\": \"Deputy Auditor\",\n      \"startDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skaraborg Armoured Regiment\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Deputy Auditor\",\n      \"namedPosition\": \"Deputy Auditor\",\n      \"startDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Life Regiment Hussars\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Deputy Auditor\",\n      \"namedPosition\": \"Deputy Auditor\",\n      \"startDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Göta Transport Corps\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Deputy Auditor\",\n      \"namedPosition\": \"Deputy Auditor\",\n      \"startDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlsborg Air Force Regiment\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Deputy Auditor\",\n      \"namedPosition\": \"Deputy Auditor\",\n      \"startDate\": \"Unknown\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västergötland Air Fleet\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tore Olof Alexander Ljungberg",
+        "givenName": "Tore",
+        "additionalName": "Olof Alexander",
+        "familyName": "Ljungberg",
+        "birthDate": "1904-03-16",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Stoby",
+                "addressRegion": "Kristianstad",
+                "addressCountry": "Sweden"
+            }
+        },
+        "father": {
+            "@type": "Person",
+            "name": "Alex Ljungberg",
+            "occupation": "Landowner"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Marinda Lindskog"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Margareta Jonsson",
+                "marriageDate": "1933"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl-Göran Ljungberg",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Claes Ljungberg",
+                "birthDate": "1937"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondarySchool",
+                "educationalLevel": "Graduated",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Växjö Secondary School",
+                    "location": {
+                        "@type": "Place",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Växjö",
+                            "addressCountry": "Sweden"
+                        }
+                    }
+                },
+                "completionDate": "1923"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "educationalLevel": "Law Degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University",
+                    "location": {
+                        "@type": "Place",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Lund",
+                            "addressCountry": "Sweden"
+                        }
+                    }
+                },
+                "completionDate": "1929"
+            }
+        ],
+        "jobTitle": [
+            "Lawyer",
+            "Deputy Auditor"
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Gunnar Wiberg's Law Firm",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Skövde",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1932",
+                "endDate": "1933"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1935"
+            }
+        ],
+        "legalAdvisorTo": {
+            "@type": "Organization",
+            "name": "Third Military District"
+        },
+        "temporaryPosition": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Clerk",
+                "namedPosition": "Temporary Clerk",
+                "startDate": "1929",
+                "endDate": "1930",
+                "organization": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Skånska Court of Appeals"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Clerk",
+                "namedPosition": "Temporary Clerk",
+                "startDate": "1930",
+                "endDate": "1930",
+                "organization": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Göta Court of Appeals"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant Judge",
+                "namedPosition": "Assistant Judge",
+                "startDate": "1929",
+                "endDate": "1930",
+                "organization": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Västra Göinge District Court"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant Judge",
+                "namedPosition": "Assistant Judge",
+                "startDate": "1930",
+                "endDate": "1932",
+                "organization": {
+                    "@type": "GovernmentOrganization",
+                    "name": "Vadsbo District Court"
+                }
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Deputy Auditor",
+                "namedPosition": "Deputy Auditor",
+                "startDate": "Unknown",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Skaraborg Armoured Regiment"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Deputy Auditor",
+                "namedPosition": "Deputy Auditor",
+                "startDate": "Unknown",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Life Regiment Hussars"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Deputy Auditor",
+                "namedPosition": "Deputy Auditor",
+                "startDate": "Unknown",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Göta Transport Corps"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Deputy Auditor",
+                "namedPosition": "Deputy Auditor",
+                "startDate": "Unknown",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Karlsborg Air Force Regiment"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Deputy Auditor",
+                "namedPosition": "Deputy Auditor",
+                "startDate": "Unknown",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Västergötland Air Fleet"
+                }
+            }
+        ]
+    }
+}

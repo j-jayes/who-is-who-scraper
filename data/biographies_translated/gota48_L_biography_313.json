@@ -1,0 +1,83 @@
+{
+    "original": "Lindeström, Karl-Erik Edmund, tandläkare. Mariestad, f. 22/10/12 i Linköp. av Knut L. o. Sara Andersson. G. m. tandl. Stina Frykholm. Barn: Maj-Britt f. 33, Lars-Erik 44, Ulla 45. — Stud:ex. i Linköp. 31, tandl :ex. 43. Distr:tandl. i Värml. län 44, praktik i Mariestad sed. 47.",
+    "translated": "Lindeström, Karl-Erik Edmund, dentist. Born in Mariestad on October 22, 1912 in Linköping, son of Knut L. and Sara Andersson. Married to dentist Stina Frykholm. Children: Maj-Britt born in 1933, Lars-Erik in 1944, Ulla in 1945. Completed high school in Linköping in 1931, obtained dental degree in 1943. Worked as a district dentist in Värmland County in 1944 and has been practicing in Mariestad since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl-Erik Edmund Lindeström\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1912-10-22\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Mariestad\",\n      \"addressRegion\": \"\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut L. Lindeström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sara Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Frykholm\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maj-Britt\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars-Erik\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"SecondaryEducationLevel\",\n      \"educationalCredentialAwarded\": \"Stud:ex. (Linköping, 1931)\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental degree\",\n      \"educationalLevel\": \"ProfessionalQualification\",\n      \"educationalCredentialAwarded\": \"Tandl :ex. (1943)\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1947\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Mariestad\",\n          \"addressRegion\": \"\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl-Erik Edmund Lindeström",
+        "jobTitle": "Dentist",
+        "birthDate": "1912-10-22",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Mariestad",
+                "addressRegion": "",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Knut L. Lindeström"
+            },
+            {
+                "@type": "Person",
+                "name": "Sara Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Frykholm",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maj-Britt",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars-Erik",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "SecondaryEducationLevel",
+                "educationalCredentialAwarded": "Stud:ex. (Linköping, 1931)"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental degree",
+                "educationalLevel": "ProfessionalQualification",
+                "educationalCredentialAwarded": "Tandl :ex. (1943)"
+            }
+        ],
+        "work": [
+            {
+                "@type": "EmploymentEvent",
+                "startDate": "1944",
+                "endDate": "1947",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Mariestad",
+                        "addressRegion": "",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ]
+    }
+}

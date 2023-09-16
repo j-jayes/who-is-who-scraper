@@ -1,0 +1,131 @@
+{
+    "original": "Lindgren, Richard, leg. läkare, Alvesta, f. 16/2/12 i Landskrona av rytt-mäst. Paul L. o. Erna Meisner. G. 39 m. Annalisa Sjöström. Barn: Peter f. 39, Lena 41. — Stud:ex. i Landskrona 30, med. lic. i Lund 40. Assist :iläk. v. kir. klin. i Lund 36, e. läk. v. Bodens garn:sjukh. 37, Källs-hagens sjukh. 38, tf. prov :läk. i Jönköp. 39, und :läk. v. Jönköp. las. kir. avd. 40, tf. und:läk. v. Piteå las. 41-43, tf. prov:’läk. i Värml. Dalby 43, und :läk. v. Haparanda las. 43-44, prakt, läk. i Alvesta sed. 44, tjf. järnv:läk. samt kort. förordn. som prov:läk. 44-45. Ordf. i Alvesta RK-kår. Resa t. Ryssl. 36.",
+    "translated": "Lindgren, Richard, certified physician, Alvesta, born on February 16, 1912 in Landskrona, son of cavalry captain Paul L. and Erna Meisner. Married in 1939 to Annalisa Sjöström. Children: Peter, born in 1939, Lena, born in 1941. \n\nEducation: Passed the secondary school exam in Landskrona in 1930, obtained a medical license in Lund in 1940. \n\nProfessional experience: Assistant medical officer at the surgical clinic in Lund from 1936, military doctor at Boden military hospital in 1937, at Källshagen hospital in 1938, provisional medical examiner in Jönköping in 1939, junior doctor at the surgical ward of Jönköping county hospital in 1940, provisional junior doctor at Piteå county hospital from 1941 to 1943, provisional medical examiner in Värmland (Dalby) in 1943, junior doctor at Haparanda county hospital from 1943 to 1944, practicing physician in Alvesta since 1944. Temporary railway doctor and briefly appointed as provisional medical examiner in 1944-1945. Chairman of the Alvesta Red Cross Corps. Traveled to Russia in 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Richard Lindgren\",\n  \"birthDate\": \"1912-02-16\",\n  \"birthPlace\": \"Landskrona\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Paul L. Lindgren\",\n      \"occupation\": \"Cavalry Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erna Meisner\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Annalisa Sjöström\",\n    \"marriageDate\": \"1939\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Peter Lindgren\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena Lindgren\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary school exam\",\n      \"year\": \"1930\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Landskrona\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medical License\",\n      \"year\": \"1940\",\n      \"educationalLevel\": \"MedicalLicense\",\n      \"recognizedBy\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      }\n    }\n  ],\n  \"jobTitle\": \"Certified Physician\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Alvesta\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lund\",\n      \"department\": \"Surgical Clinic\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Boden Military Hospital\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Källshagen Hospital\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping County Hospital\",\n      \"department\": \"Surgical Ward\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Piteå County Hospital\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Värmland (Dalby)\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Haparanda County Hospital\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Alvesta\",\n      \"startDate\": \"1944\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Alvesta Red Cross Corps\"\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Russia\",\n      \"date\": \"1936\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Richard Lindgren",
+        "birthDate": "1912-02-16",
+        "birthPlace": "Landskrona",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Paul L. Lindgren",
+                "occupation": "Cavalry Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Erna Meisner"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Annalisa Sjöström",
+            "marriageDate": "1939"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Peter Lindgren",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Lena Lindgren",
+                "birthDate": "1941"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary school exam",
+                "year": "1930",
+                "educationalLevel": "SecondaryEducation",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Landskrona"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medical License",
+                "year": "1940",
+                "educationalLevel": "MedicalLicense",
+                "recognizedBy": {
+                    "@type": "Organization",
+                    "name": "Lund"
+                }
+            }
+        ],
+        "jobTitle": "Certified Physician",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Alvesta"
+        },
+        "workLocation": [
+            {
+                "@type": "Organization",
+                "name": "Lund",
+                "department": "Surgical Clinic",
+                "startDate": "1936",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Boden Military Hospital",
+                "startDate": "1937",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Organization",
+                "name": "Källshagen Hospital",
+                "startDate": "1938",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jönköping County Hospital",
+                "department": "Surgical Ward",
+                "startDate": "1940",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Piteå County Hospital",
+                "startDate": "1941",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Värmland (Dalby)",
+                "startDate": "1943",
+                "endDate": "1943"
+            },
+            {
+                "@type": "Organization",
+                "name": "Haparanda County Hospital",
+                "startDate": "1943",
+                "endDate": "1944"
+            },
+            {
+                "@type": "Organization",
+                "name": "Alvesta",
+                "startDate": "1944"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Alvesta Red Cross Corps"
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "Place",
+                "name": "Russia",
+                "date": "1936"
+            }
+        ]
+    }
+}

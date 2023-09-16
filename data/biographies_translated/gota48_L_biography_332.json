@@ -1,0 +1,75 @@
+{
+    "original": "Lindgren, Åke Malcolm, tandläkare, Finspång, f. 24/1/10 i Finspång, Ös-tergötl. ]., av major Eric L. o. Emmy lägerström. G. 41 m. Lillemor Hansson. Barn: Hans f. 42, Bo 46, Lars 47. Stud:ex. i Norrköp. 29, tandl :kand. 32, tandläk. 35. Assist, i Sthlm 36-39, praktik i Finspång sed. 39.",
+    "translated": "Lindgren, Åke Malcolm, dentist, Finspång, b. 24/1/10 in Finspång, Östergötland. Son of Major Eric L. and Emmy Lägerström. Married in 1941 to Lillemor Hansson. Children: Hans, b. 1942; Bo, b. 1946; Lars, b. 1947. Graduate: Norrköping's gymnasium in 1929, dental degree in 1932, dentist in 1935. Assistant in Stockholm from 1936 to 1939, practicing in Finspång since 1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Malcolm Lindgren\",\n  \"description\": \"Dentist from Finspång\",\n  \"birthDate\": \"1910-01-24\",\n  \"birthPlace\": \"Finspång, Östergötland, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eric Lindgren\",\n      \"description\": \"Major\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emmy Lägerström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lillemor Hansson\",\n    \"marriageDate\": \"1941\",\n    \"children\": [\n      {\n        \"@type\": \"Person\",\n        \"name\": \"Hans\",\n        \"birthDate\": \"1942\"\n      },\n      {\n        \"@type\": \"Person\",\n        \"name\": \"Bo\",\n        \"birthDate\": \"1946\"\n      },\n      {\n        \"@type\": \"Person\",\n        \"name\": \"Lars\",\n        \"birthDate\": \"1947\"\n      }\n    ]\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norrköping's gymnasium\",\n      \"endDate\": \"1929-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental School\",\n      \"endDate\": \"1932-01-01\"\n    }\n  ],\n  \"occupation\": {\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"Dentist\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Stockholm\",\n      \"startDate\": \"1936-01-01\",\n      \"endDate\": \"1939-12-31\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Finspång\",\n      \"startDate\": \"1939-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åke Malcolm Lindgren",
+        "description": "Dentist from Finspång",
+        "birthDate": "1910-01-24",
+        "birthPlace": "Finspång, Östergötland, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Eric Lindgren",
+                "description": "Major"
+            },
+            {
+                "@type": "Person",
+                "name": "Emmy Lägerström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lillemor Hansson",
+            "marriageDate": "1941",
+            "children": [
+                {
+                    "@type": "Person",
+                    "name": "Hans",
+                    "birthDate": "1942"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Bo",
+                    "birthDate": "1946"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Lars",
+                    "birthDate": "1947"
+                }
+            ]
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Norrköping's gymnasium",
+                "endDate": "1929-01-01"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental School",
+                "endDate": "1932-01-01"
+            }
+        ],
+        "occupation": {
+            "@type": "MedicalSpecialty",
+            "name": "Dentist"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Stockholm",
+                "startDate": "1936-01-01",
+                "endDate": "1939-12-31"
+            },
+            {
+                "@type": "Place",
+                "name": "Finspång",
+                "startDate": "1939-01-01"
+            }
+        ]
+    }
+}

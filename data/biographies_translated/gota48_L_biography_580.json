@@ -1,0 +1,193 @@
+{
+    "original": "Lundstam, Ernst Helge Robert, fil. mag., läroverksadjunkt, Kalmar, f. 11/ 10/00 i Hånger, Jönköp. 1. G. 33 m. Sigrid Nordensten. Barn: Helge f. 36, Gunnar 41, Bo 43. — Stud:ex. i Lund 22, stud. i Upps. 23, Gert d’Étu-des Frang., Grenoble, 24, fri. kand. 25, fil. mag. 27, provår v. norra latin i Sthlm 34. Res. t. Tyskl. 22, 23 o. 30, Frankr. 24 o. 25 Ital. 25, Engl. 26, 47. Vik. lär. v. Ström 28, e. o. ämneslär. i Nora 29-33, vik. adj. v. Kalmar h. a. 1. 34-37, adj. i franska o. eng. där sed. 37.",
+    "translated": "Lundstam, Ernst Helge Robert, Bachelor of Arts, school teacher, Kalmar, born on October 11, 1900 in Hånger, Jönköping. 1st marriage in 1933 to Sigrid Nordensten. Children: Helge born in 1936, Gunnar in 1941, Bo in 1943. Education: High school diploma in Lund in 1922, student at Uppsala University in 1923, studies at Gert d'Étu-des Frang., Grenoble in 1924, bachelor's degree in 1925, Master of Arts in 1927, teaching practice at Norra Latin in Stockholm in 1934. Travel to Germany in 1922, 1923, and 1930, France in 1924 and 1925, Italy in 1925, England in 1926 and 1947. Substitute teacher in Ström in 1928, temporary subject teacher in Nora from 1929 to 1933, substitute adjunct teacher in Kalmar starting in 1934, adjunct teacher in French and English there since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Helge Robert Lundstam\",\n  \"givenName\": \"Ernst Helge Robert\",\n  \"familyName\": \"Lundstam\",\n  \"birthDate\": \"1900-10-11\",\n  \"birthPlace\": \"Hånger, Jönköping\",\n  \"description\": \"Bachelor of Arts, school teacher\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sigrid Nordensten\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helge Lundstam\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnar Lundstam\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo Lundstam\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardDate\": \"1922\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Bachelor of Arts\",\n      \"awardDate\": \"1925\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown Institution\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's degree\",\n      \"educationalLevel\": \"Master's degree\",\n      \"educationalCredentialAwarded\": \"Master of Arts\",\n      \"awardDate\": \"1927\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Unknown Institution\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Teaching practice\",\n      \"teachingCredential\": \"Vik. lär.\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1937\",\n      \"teachingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Norra Latin, Stockholm\"\n      }\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1922\",\n      \"arrivalDate\": \"1922\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"Germany\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1923\",\n      \"arrivalDate\": \"1923\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"Germany\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1930\",\n      \"arrivalDate\": \"1930\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"Germany\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1924\",\n      \"arrivalDate\": \"1924\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"France\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1925\",\n      \"arrivalDate\": \"1925\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"France\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1925\",\n      \"arrivalDate\": \"1925\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"Italy\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1926\",\n      \"arrivalDate\": \"1926\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"England\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureDate\": \"1947\",\n      \"arrivalDate\": \"1947\",\n      \"departureLocation\": \"Unknown\",\n      \"arrivalLocation\": \"England\"\n    }\n  ],\n  \"workHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute Teacher\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"Unknown\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ström\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Subject Teacher\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1933\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nora\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute Adjunct Teacher\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"Unknown\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Adjunct Teacher\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"Unknown\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kalmar\"\n      },\n      \"occupationalCategory\": [\n        {\n          \"@type\": \"CategoryCode\",\n          \"codeValue\": \"franska\"\n        },\n        {\n          \"@type\": \"CategoryCode\",\n          \"codeValue\": \"engelska\"\n        }\n      ]\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Helge Robert Lundstam",
+        "givenName": "Ernst Helge Robert",
+        "familyName": "Lundstam",
+        "birthDate": "1900-10-11",
+        "birthPlace": "Hånger, Jönköping",
+        "description": "Bachelor of Arts, school teacher",
+        "spouse": {
+            "@type": "Person",
+            "name": "Sigrid Nordensten",
+            "marriageDate": "1933"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Helge Lundstam",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunnar Lundstam",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Bo Lundstam",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardDate": "1922",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Bachelor of Arts",
+                "awardDate": "1925",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown Institution"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master's degree",
+                "educationalLevel": "Master's degree",
+                "educationalCredentialAwarded": "Master of Arts",
+                "awardDate": "1927",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Unknown Institution"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Teaching practice",
+                "teachingCredential": "Vik. lär.",
+                "startDate": "1934",
+                "endDate": "1937",
+                "teachingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Norra Latin, Stockholm"
+                }
+            }
+        ],
+        "travelHistory": [
+            {
+                "@type": "Trip",
+                "departureDate": "1922",
+                "arrivalDate": "1922",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "Germany"
+            },
+            {
+                "@type": "Trip",
+                "departureDate": "1923",
+                "arrivalDate": "1923",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "Germany"
+            },
+            {
+                "@type": "Trip",
+                "departureDate": "1930",
+                "arrivalDate": "1930",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "Germany"
+            },
+            {
+                "@type": "Trip",
+                "departureDate": "1924",
+                "arrivalDate": "1924",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "France"
+            },
+            {
+                "@type": "Trip",
+                "departureDate": "1925",
+                "arrivalDate": "1925",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "France"
+            },
+            {
+                "@type": "Trip",
+                "departureDate": "1925",
+                "arrivalDate": "1925",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "Italy"
+            },
+            {
+                "@type": "Trip",
+                "departureDate": "1926",
+                "arrivalDate": "1926",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "England"
+            },
+            {
+                "@type": "Trip",
+                "departureDate": "1947",
+                "arrivalDate": "1947",
+                "departureLocation": "Unknown",
+                "arrivalLocation": "England"
+            }
+        ],
+        "workHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Substitute Teacher",
+                "startDate": "1928",
+                "endDate": "Unknown",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Ström"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Subject Teacher",
+                "startDate": "1929",
+                "endDate": "1933",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Nora"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Substitute Adjunct Teacher",
+                "startDate": "1934",
+                "endDate": "Unknown",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Kalmar"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Adjunct Teacher",
+                "startDate": "1937",
+                "endDate": "Unknown",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Kalmar"
+                },
+                "occupationalCategory": [
+                    {
+                        "@type": "CategoryCode",
+                        "codeValue": "franska"
+                    },
+                    {
+                        "@type": "CategoryCode",
+                        "codeValue": "engelska"
+                    }
+                ]
+            }
+        ]
+    }
+}

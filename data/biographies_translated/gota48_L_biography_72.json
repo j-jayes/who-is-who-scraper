@@ -1,0 +1,45 @@
+{
+    "original": "Larsson, Lars Einar Douglas, tandläkare, Uddevalla, f. 22/11/06 i Uddevalla av Lans L. o. Klara Elisabeth Andersson. — Stud :ex. i Uddevalla 26. tandhkand. 29, tandläk. 31. Praktik i Uddevalla sed. 32.",
+    "translated": "Larsson, Lars Einar Douglas, dentist, Uddevalla, born on November 22, 1906, in Uddevalla to Lans L. and Klara Elisabeth Andersson. - Studied dental medicine in Uddevalla, graduated in 1926, obtained dental degree in 1929, and became a dentist in 1931. Started practicing in Uddevalla since 1932. Please note that '\\d\\d m. partners name' indicates that the person got married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Einar Douglas Larsson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1906-11-22\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Uddevalla\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lans L. Larsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Klara Elisabeth Andersson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uddevalla\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla\",\n      \"startDate\": \"1932\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Lars Einar Douglas Larsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1906-11-22",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Uddevalla",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Lans L. Larsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Klara Elisabeth Andersson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uddevalla",
+                "startDate": "1926",
+                "endDate": "1929"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Uddevalla",
+                "startDate": "1932"
+            }
+        ]
+    }
+}

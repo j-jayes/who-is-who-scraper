@@ -1,0 +1,83 @@
+{
+    "original": "Lundquist, Harry Gustaf Fredrik, komminister, Öljehult, f. 18/1/07 i Sti-by, Krist. 1., av Magnus L. o. Christina Svensdotter. — Stud :ex. i Lund 26, teol. fil. ex. 28, teol. kand., prakt. teol. prov o. prästv. f. Lunds stift 32. Tjg. som past :adj. o. v. past. i össjö, i Oppmanna, Harlösa, Förslöv o. Kvi-inge, kommin. i Öljehult sed. 39. MM Pro Benignitate Humana 47.",
+    "translated": "Lundquist, Harry Gustaf Fredrik, curate, Öljehult, b. 18/1/07 in Sti-by, Krist. 1., son of Magnus L. and Christina Svensdotter. — Completed studies in Lund in 1926, received a bachelor's degree in theology in 1928, theological degree and practical theological examination, ordained priest of the Lund diocese in 1932. Served as assistant pastor and vicar in össjö, Oppmanna, Harlösa, Förslöv, and Kvi-inge, curate in Öljehult since 1939. Awarded the MM Pro Benignitate Humana in 1947.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Harry Gustaf Fredrik Lundquist\",\n  \"birthDate\": \"1907-01-18\",\n  \"birthPlace\": \"Sti-by, Krist. 1\",\n  \"parent\": {\n    \"@type\": \"Person\",\n    \"name\": \"Magnus L.\",\n    \"spouse\": {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Svensdotter\"\n    }\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalProgram\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Theology\"\n      },\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Theological degree\",\n      \"educationalProgram\": {\n        \"@type\": \"EducationalOccupationalProgram\",\n        \"name\": \"Practical theology\"\n      },\n      \"endDate\": \"1932\"\n    }\n  ],\n  \"ordination\": {\n    \"@type\": \"Ordination\",\n    \"ordainedBy\": \"Lunds stift\",\n    \"date\": \"1932\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Assistant Pastor\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1939\",\n      \"location\": [\"össjö\"]\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1939\",\n      \"location\": [\"Oppmanna\", \"Harlösa\", \"Förslöv\", \"Kvi-inge\"]\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Curate\",\n      \"startDate\": \"1939\",\n      \"location\": [\"Öljehult\"]\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Achievement\",\n      \"name\": \"MM Pro Benignitate Humana\",\n      \"date\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Harry Gustaf Fredrik Lundquist",
+        "birthDate": "1907-01-18",
+        "birthPlace": "Sti-by, Krist. 1",
+        "parent": {
+            "@type": "Person",
+            "name": "Magnus L.",
+            "spouse": {
+                "@type": "Person",
+                "name": "Christina Svensdotter"
+            }
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's degree",
+                "educationalProgram": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Theology"
+                },
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Theological degree",
+                "educationalProgram": {
+                    "@type": "EducationalOccupationalProgram",
+                    "name": "Practical theology"
+                },
+                "endDate": "1932"
+            }
+        ],
+        "ordination": {
+            "@type": "Ordination",
+            "ordainedBy": "Lunds stift",
+            "date": "1932"
+        },
+        "occupation": [
+            {
+                "@type": "Role",
+                "name": "Assistant Pastor",
+                "startDate": "1932",
+                "endDate": "1939",
+                "location": [
+                    "össjö"
+                ]
+            },
+            {
+                "@type": "Role",
+                "name": "Vicar",
+                "startDate": "1932",
+                "endDate": "1939",
+                "location": [
+                    "Oppmanna",
+                    "Harlösa",
+                    "Förslöv",
+                    "Kvi-inge"
+                ]
+            },
+            {
+                "@type": "Role",
+                "name": "Curate",
+                "startDate": "1939",
+                "location": [
+                    "Öljehult"
+                ]
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Achievement",
+                "name": "MM Pro Benignitate Humana",
+                "date": "1947"
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "original": "Lundholm, Stig Gustav, leg. läkare, Uddevalla, f. 14/11/17 i Luleå av jägmäst. Karl G:son L. o. Emy Skog-ström. G. 45 m. Greta Ståhl. — Stud:ex. i Luleå 36, med. kand. i Sthlm 38, med. lic. 43. Andre und :läk. v. pensionsstyr. kuranst. i Vänersborg 44, förste und rläk. 45, und:läk. v. rönt-genavd. v. las. i Uddevalla 47. Hobby: schack (Sverigemäst. i schack i Lidköp. 44).",
+    "translated": "Lundholm, Stig Gustav, certified physician, Uddevalla, b. 14/11/17 in Luleå to forester Karl G:son L. and Emy Skog-ström. Married in 1945 to Greta Ståhl. — Completed high school in Luleå in 1936, received a Bachelor of Medicine in Stockholm in 1938, and obtained a medical license in 1943. Served as a second assistant physician at the pension board's sanatorium in Vänersborg in 1944, first assistant physician in 1945, and assistant physician at the X-ray department at the hospital in Uddevalla in 1947. Hobby: chess (Swedish chess champion in Lidköping in 1944).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Stig Gustav Lundholm\",\n  \"birthDate\": \"1917-11-14\",\n  \"birthPlace\": \"Luleå\",\n  \"description\": \"Certified physician from Uddevalla\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl G:son Lundholm\",\n      \"jobTitle\": \"Forester\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emy Skog-ström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Ståhl\",\n    \"marriageDate\": \"1945\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"awardingOrganization\": \"Luleå School\",\n      \"dateCreated\": \"1936\",\n      \"locationCreated\": \"Luleå\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Medicine\",\n      \"awardingOrganization\": \"Stockholm University\",\n      \"dateCreated\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical License\",\n      \"dateCreated\": \"1943\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Pension Board's Sanatorium\",\n      \"jobTitle\": \"Second Assistant Physician\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\",\n      \"location\": \"Vänersborg\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Hospital in Uddevalla\",\n      \"jobTitle\": \"Assistant Physician (X-ray department)\",\n      \"startDate\": \"1947\",\n      \"location\": \"Uddevalla\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Chess Association\"\n    }\n  ],\n  \"hobbies\": [\n    \"chess\"\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Achievement\",\n      \"name\": \"Swedish Chess Champion\",\n      \"awardEvent\": \"Lidköping\",\n      \"awardDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Stig Gustav Lundholm",
+        "birthDate": "1917-11-14",
+        "birthPlace": "Luleå",
+        "description": "Certified physician from Uddevalla",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Karl G:son Lundholm",
+                "jobTitle": "Forester"
+            },
+            {
+                "@type": "Person",
+                "name": "Emy Skog-ström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Ståhl",
+            "marriageDate": "1945"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school diploma",
+                "awardingOrganization": "Luleå School",
+                "dateCreated": "1936",
+                "locationCreated": "Luleå"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Medicine",
+                "awardingOrganization": "Stockholm University",
+                "dateCreated": "1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical License",
+                "dateCreated": "1943"
+            }
+        ],
+        "work": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Pension Board's Sanatorium",
+                "jobTitle": "Second Assistant Physician",
+                "startDate": "1944",
+                "endDate": "1945",
+                "location": "Vänersborg"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Hospital in Uddevalla",
+                "jobTitle": "Assistant Physician (X-ray department)",
+                "startDate": "1947",
+                "location": "Uddevalla"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Chess Association"
+            }
+        ],
+        "hobbies": [
+            "chess"
+        ],
+        "awards": [
+            {
+                "@type": "Achievement",
+                "name": "Swedish Chess Champion",
+                "awardEvent": "Lidköping",
+                "awardDate": "1944"
+            }
+        ]
+    }
+}

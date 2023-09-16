@@ -1,0 +1,109 @@
+{
+    "original": "Lindqvist, Erik Gustaf, statens lantbruksingenjör, Kalmar, f. 15/3/93 i Gävle av köpm. Gustaf Fredrik L. o. Erika Charlotta Åberg. G. 23 m. Margot Wolf. Barn: Maud f. 31, Vera 39. — Studrex. 12, avg:ex. fr. KTH 19, fr. Alnarps lantbr:inst. 20. Stat. lantbr:stip. 19. Stat. lantbr :ing. i Norrb. 1. norra del 23, i Kalmar 1. sed. 31. RVO.",
+    "translated": "Lindqvist, Erik Gustaf, state agricultural engineer, Kalmar, b. 15/3/93 in Gävle, son of merchant Gustaf Fredrik L. and Erika Charlotta Åberg. Married in 1923 to Margot Wolf. Children: Maud b. 1931, Vera b. 1939. Completed secondary education, passed the exams from the Royal Institute of Technology in 1919, and completed studies at Alnarp agricultural institute in 1920. Received a state agricultural scholarship in 1919. Started working as a state agricultural engineer in the northern part of Norrbotten in 1923, and in Kalmar since 1931. Awarded with the Royal Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Gustaf Lindqvist\",\n  \"jobTitle\": \"State Agricultural Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Kalmar\"\n  },\n  \"birthDate\": \"1893-03-15\",\n  \"birthPlace\": \"Gävle\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Fredrik Lindqvist\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erika Charlotta Åberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margot Wolf\",\n    \"marriageDate\": \"1923\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maud Lindqvist\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Vera Lindqvist\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary education\",\n      \"endDate\": \"1912\",\n      \"arisingFrom\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Studrex\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"exams\",\n      \"endDate\": \"1919\",\n      \"arisingFrom\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Royal Institute of Technology\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"completed studies\",\n      \"endDate\": \"1920\",\n      \"arisingFrom\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Alnarp Agricultural Institute\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"State Agricultural Engineer\",\n      \"startDate\": \"1923-01-01\",\n      \"arisingFrom\": {\n        \"@type\": \"Organization\",\n        \"name\": \"State Agricultural Department\"\n      },\n      \"location\": [\n        {\n          \"@type\": \"Place\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Norrbotten\"\n          },\n          \"startDate\": \"1923-01-01\",\n          \"endDate\": \"1931-12-31\"\n        },\n        {\n          \"@type\": \"Place\",\n          \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"addressLocality\": \"Kalmar\"\n          },\n          \"startDate\": \"1931-01-01\"\n        }\n      ]\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Erik Gustaf Lindqvist",
+        "jobTitle": [
+            {
+                "@type": "JobPosting",
+                "title": "State Agricultural Engineer",
+                "startDate": "1923-01-01",
+                "arisingFrom": {
+                    "@type": "Organization",
+                    "name": "State Agricultural Department"
+                },
+                "location": [
+                    {
+                        "@type": "Place",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Norrbotten"
+                        },
+                        "startDate": "1923-01-01",
+                        "endDate": "1931-12-31"
+                    },
+                    {
+                        "@type": "Place",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Kalmar"
+                        },
+                        "startDate": "1931-01-01"
+                    }
+                ]
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kalmar"
+        },
+        "birthDate": "1893-03-15",
+        "birthPlace": "Gävle",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Fredrik Lindqvist",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Erika Charlotta Åberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margot Wolf",
+            "marriageDate": "1923"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maud Lindqvist",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Vera Lindqvist",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary education",
+                "endDate": "1912",
+                "arisingFrom": {
+                    "@type": "Organization",
+                    "name": "Studrex"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "exams",
+                "endDate": "1919",
+                "arisingFrom": {
+                    "@type": "Organization",
+                    "name": "Royal Institute of Technology"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "completed studies",
+                "endDate": "1920",
+                "arisingFrom": {
+                    "@type": "Organization",
+                    "name": "Alnarp Agricultural Institute"
+                }
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            }
+        ]
+    }
+}

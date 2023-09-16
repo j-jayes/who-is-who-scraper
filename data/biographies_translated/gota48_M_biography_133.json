@@ -1,0 +1,38 @@
+{
+    "original": "Milton, Axel Johan Tage, bankdirektör, Sölvesborg, f. 16/5/09 i Ramkvilla, Jönköp. !l. Anst. i Skand. Bankens tjänst sed. 31, kon t xhef o. verk-st. dir. v. bankens- kont. i Sölveisborg sed. 45.",
+    "translated": "Milton, Axel Johan Tage, bank director, Sölvesborg, b. 16/5/09 in Ramkvilla, Jönköping. Employed in Skand. Bank's service since 31, appointed as head and managing director of the bank's branch in Sölvesborg since 45. Note that '\\d\\d m. partners name' means that the person married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Johan Tage Milton\",\n  \"jobTitle\": \"Bank Director\",\n  \"birthDate\": \"1909-05-16\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Ramkvilla\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Jönköping\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Skand. Bank\"\n  },\n  \"startDate\": \"1931\",\n  \"endDate\": \"1945\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Skand. Bank\",\n    \"department\": [\n      {\n        \"@type\": \"Organization\",\n        \"name\": \"Sölvesborg\",\n        \"jobTitle\": \"Head and Managing Director\",\n        \"startDate\": \"1945\"\n      }\n    ]\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Johan Tage Milton",
+        "jobTitle": "Bank Director",
+        "birthDate": "1909-05-16",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Ramkvilla",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Jönköping"
+            }
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Skand. Bank"
+        },
+        "startDate": "1931",
+        "endDate": "1945",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Skand. Bank",
+            "department": [
+                {
+                    "@type": "Organization",
+                    "name": "Sölvesborg",
+                    "jobTitle": "Head and Managing Director",
+                    "startDate": "1945"
+                }
+            ]
+        }
+    }
+}

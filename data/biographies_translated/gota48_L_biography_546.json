@@ -1,0 +1,59 @@
+{
+    "original": "Lundgren, Ernst Eric Helge, direktör, Linköping, f. 26/3/02 i Stora Mel-lösa, Örebro 1., av riksdagsman Ernst o. Alma Lundgren. —■ Chef f. samt innehav, av Svensk Fastighetsförmedling m. huvudkont. i Linköp. o. sextio avd :kont. över hela landet. Medl. av KAK, KDAK, KNA. Hobby: smalfilmning.",
+    "translated": "Lundgren, Ernst Eric Helge, director, Linköping, b. 26/3/02 in Stora Mellösa, Örebro 1st district, son of parliament member Ernst and Alma Lundgren. —■ Head of and holder of Svensk Fastighetsförmedling with headquarters in Linköping and sixty branches across the country. Member of KAK, KDAK, KNA. Hobby: filming with small format films.\n\nNote: \"\\d\\d m. partner's name\" implies marriage in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Eric Helge Lundgren\",\n  \"jobTitle\": \"Director\",\n  \"birthDate\": \"1902-03-26\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Stora Mellösa, Örebro 1st district\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ernst Lundgren\",\n      \"jobTitle\": \"Member of Parliament\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alma Lundgren\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Svensk Fastighetsförmedling\",\n    \"jobTitle\": \"Head\",\n    \"location\": {\n      \"@type\": \"Place\",\n      \"name\": \"Linköping\"\n    },\n    \"branchOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Svensk Fastighetsförmedling\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Linköping\"\n      }\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"KAK\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"KDAK\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"KNA\"\n    }\n  ],\n  \"hobby\": \"filming with small format films\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Eric Helge Lundgren",
+        "jobTitle": "Director",
+        "birthDate": "1902-03-26",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Stora Mellösa, Örebro 1st district"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Ernst Lundgren",
+                "jobTitle": "Member of Parliament"
+            },
+            {
+                "@type": "Person",
+                "name": "Alma Lundgren"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Svensk Fastighetsförmedling",
+            "jobTitle": "Head",
+            "location": {
+                "@type": "Place",
+                "name": "Linköping"
+            },
+            "branchOf": {
+                "@type": "Organization",
+                "name": "Svensk Fastighetsförmedling",
+                "location": {
+                    "@type": "Place",
+                    "name": "Linköping"
+                }
+            }
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "KAK"
+            },
+            {
+                "@type": "Organization",
+                "name": "KDAK"
+            },
+            {
+                "@type": "Organization",
+                "name": "KNA"
+            }
+        ],
+        "hobby": "filming with small format films"
+    }
+}

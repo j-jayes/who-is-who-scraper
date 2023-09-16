@@ -1,0 +1,97 @@
+{
+    "original": "Ljungwall, Swen, byggnadsingenjör. Mariestad, f. 24/1/85 i Örebro av bygg-mäst. Lars L. o. Selma Augusta Jansson. G. m. Ruth Löf. Barn: Karin f. 15, Barbro 20, Kerstin 24. — Utex. fr. Tekn. byggn :yrkessk. i Sthlm 04. Medarb. i faderns firma 04-09, egen företagare sed. 10. Styr :led. i Väs-tergötl.-Gbgs Järnv., Fribärande Trä-^ konstruktioner samt Skarab. Läns’ Hyp:fören., ordf. i Mariestads drätselkamm., led. av byggn :ndn. RVO.",
+    "translated": "Ljungwall, Swen, building engineer. Mariestad, b. 24/1/85 in Örebro, son of master builder Lars L. and Selma Augusta Jansson. Married to Ruth Löf. Children: Karin, b. 15, Barbro, b. 20, Kerstin, b. 24. — Graduated from Technical Building Vocational School in Stockholm in 1904. Worked for father's company from 1904 to 1909, became a self-employed entrepreneur since 1910. Board member of Västergötland-Göteborg Railway Company, Free-bearing Timber Constructions, and Skaraborg County Mortgage Association. Chairman of the Mariestad Municipal Council, member of the Building Inspection Board. Knight of the Royal Order of Vasa (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Swen Ljungwall\",\n  \"jobTitle\": \"Building Engineer\",\n  \"birthPlace\": \"Örebro\",\n  \"birthDate\": \"1885-01-24\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lars Ljungwall\",\n    \"jobTitle\": \"Master Builder\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Selma Augusta Jansson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Löf\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Ljungwall\",\n      \"birthDate\": \"19XX-XX-15\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro Ljungwall\",\n      \"birthDate\": \"19XX-XX-20\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Ljungwall\",\n      \"birthDate\": \"19XX-XX-24\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"High school diploma\",\n    \"educationalLevel\": \"Graduate\",\n    \"educationalRole\": \"Technical Building Education\",\n    \"educationalCredentialAwarded\": \"Technical Building Vocational School\",\n    \"awardDate\": \"1904\"\n  },\n  \"work\": {\n    \"@type\": \"OrganizationRole\",\n    \"startDate\": \"1904\",\n    \"endDate\": \"1909\",\n    \"roleName\": \"Employee\",\n    \"worksFor\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Father's Company\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Own Business\"\n  },\n  \"memberships\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västergötland-Göteborg Railway Company\",\n      \"memberOf\": \"Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Free-bearing Timber Constructions\",\n      \"memberOf\": \"Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skaraborg County Mortgage Association\",\n      \"memberOf\": \"Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mariestad Municipal Council\",\n      \"memberOf\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Inspection Board\",\n      \"memberOf\": \"Member\"\n    }\n  ],\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Knight of the Royal Order of Vasa\",\n    \"dateAwarded\": \"YYYY-MM-DD\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Swen Ljungwall",
+        "jobTitle": "Building Engineer",
+        "birthPlace": "Örebro",
+        "birthDate": "1885-01-24",
+        "father": {
+            "@type": "Person",
+            "name": "Lars Ljungwall",
+            "jobTitle": "Master Builder"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Selma Augusta Jansson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Löf"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin Ljungwall",
+                "birthDate": "19XX-XX-15"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro Ljungwall",
+                "birthDate": "19XX-XX-20"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Ljungwall",
+                "birthDate": "19XX-XX-24"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "High school diploma",
+            "educationalLevel": "Graduate",
+            "educationalRole": "Technical Building Education",
+            "educationalCredentialAwarded": "Technical Building Vocational School",
+            "awardDate": "1904"
+        },
+        "work": {
+            "@type": "OrganizationRole",
+            "startDate": "1904",
+            "endDate": "1909",
+            "roleName": "Employee",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Father's Company"
+            }
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Own Business"
+        },
+        "memberships": [
+            {
+                "@type": "Organization",
+                "name": "Västergötland-Göteborg Railway Company",
+                "memberOf": "Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Free-bearing Timber Constructions",
+                "memberOf": "Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skaraborg County Mortgage Association",
+                "memberOf": "Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mariestad Municipal Council",
+                "memberOf": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Building Inspection Board",
+                "memberOf": "Member"
+            }
+        ],
+        "awards": {
+            "@type": "Order",
+            "name": "Knight of the Royal Order of Vasa",
+            "dateAwarded": "YYYY-MM-DD"
+        }
+    }
+}

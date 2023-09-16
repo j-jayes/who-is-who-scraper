@@ -1,0 +1,157 @@
+{
+    "original": "Mellquist, Curt Roland, tandläkare, Varberg, f. 14/6/04 i Karlstad av Filip M. o. Maria Kihlberg. G. 28 m. gymn:-dir. Ingegärd Strige. Barn: Eva f. 30. — Stud:ex. v. Gbgs h. real 22, tandl:-kand. 23, tandd. 25. Stud:res. t. Danm. 37 o. 38, Tyslkl. 39, Finl. 45. As^sist. i Fadikenberg 25-26, d Sada 27, prakt, i Arboga 27-30, i Varberg sed. 30. Led. av ’Stadsfullm. ised. 42 o. av styr. f. stadsbibi. etc. Skr.: Om ’tandtidl’Stån-det hois c :a 800 m’ededtidskramer fr. Skåne o. Hall. (tills. m. tandl. T. Sandberg i Sv. Tandd :tidskr. 37), Odonto-do’gicad Studies etc. (Odont. Tidskr. 39).",
+    "translated": "Mellquist, Curt Roland, dentist, Varberg, b. 14/6/04 in Karlstad to Filip M. and Maria Kihlberg. M. 28 with gymnastics director Ingegärd Strige. Children: Eva b. 30. - Studied at Gothenburg high school, graduated in 1922, studied dentistry and graduated in 1923, specialized in dental work in 1925. Continued studies in Denmark in 1937 and 1938, Germany in 1939, and Finland in 1945. Assistant in Fadikenberg from 1925-1926, then in Sada in 1927, practiced in Arboga from 1927-1930, and in Varberg since 1930. Member of the City Council since 1942 and member of the board for the city library, etc. Wrote: \"About dental health during the Middle Ages with emphasis on Skåne and Halland\" (together with dentist T. Sandberg in Swedish Dental Magazine, 1937), \"Odontological Studies\" etc. (Dental Journal, 1939).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Curt Roland Mellquist\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Varberg\"\n  },\n  \"birthDate\": \"1904-06-14\",\n  \"birthPlace\": \"Karlstad\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Filip M.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Kihlberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingegärd Strige\",\n    \"jobTitle\": \"Gymnastics Director\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1930\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"degree\": \"Stud:ex. v. Gbgs h. real 22\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"degree\": \"tandl:kand. 23\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"degree\": \"tandd. 25\"\n    }\n  ],\n  \"studyAbroad\": [\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"Denmark\"\n      },\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"Germany\"\n      },\n      \"startDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"Finland\"\n      },\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant\",\n      \"startDate\": \"1925-01-01\",\n      \"endDate\": \"1926-12-31\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Fadikenberg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant\",\n      \"startDate\": \"1927-01-01\",\n      \"endDate\": \"1927-12-31\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sada\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Dentist\",\n      \"startDate\": \"1927-01-01\",\n      \"endDate\": \"1930-12-31\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Arboga\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Dentist\",\n      \"startDate\": \"1930-01-01\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Varberg\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council\",\n      \"startDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Library Board\"\n    }\n  ],\n  \"publications\": [\n    {\n      \"@type\": \"Article\",\n      \"name\": \"About dental health during the Middle Ages with emphasis on Skåne and Halland\",\n      \"publication\": {\n        \"@type\": \"PublicationVolume\",\n        \"name\": \"Swedish Dental Magazine\",\n        \"datePublished\": \"1937\"\n      },\n      \"coAuthor\": {\n        \"@type\": \"Person\",\n        \"name\": \"T. Sandberg\",\n        \"jobTitle\": \"Dentist\"\n      }\n    },\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Odontological Studies\",\n      \"publication\": {\n        \"@type\": \"PublicationVolume\",\n        \"name\": \"Dental Journal\",\n        \"datePublished\": \"1939\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Curt Roland Mellquist",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Varberg"
+        },
+        "birthDate": "1904-06-14",
+        "birthPlace": "Karlstad",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Filip M."
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Kihlberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingegärd Strige",
+            "jobTitle": "Gymnastics Director"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1930"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "degree": "Stud:ex. v. Gbgs h. real 22"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "degree": "tandl:kand. 23"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "degree": "tandd. 25"
+            }
+        ],
+        "studyAbroad": [
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Denmark"
+                },
+                "startDate": "1937",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Germany"
+                },
+                "startDate": "1939"
+            },
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Finland"
+                },
+                "startDate": "1945"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant",
+                "startDate": "1925-01-01",
+                "endDate": "1926-12-31",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Fadikenberg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant",
+                "startDate": "1927-01-01",
+                "endDate": "1927-12-31",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Sada"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Dentist",
+                "startDate": "1927-01-01",
+                "endDate": "1930-12-31",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Arboga"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Dentist",
+                "startDate": "1930-01-01",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Varberg"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "City Council",
+                "startDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "City Library Board"
+            }
+        ],
+        "publications": [
+            {
+                "@type": "Article",
+                "name": "About dental health during the Middle Ages with emphasis on Skåne and Halland",
+                "publication": {
+                    "@type": "PublicationVolume",
+                    "name": "Swedish Dental Magazine",
+                    "datePublished": "1937"
+                },
+                "coAuthor": {
+                    "@type": "Person",
+                    "name": "T. Sandberg",
+                    "jobTitle": "Dentist"
+                }
+            },
+            {
+                "@type": "Article",
+                "name": "Odontological Studies",
+                "publication": {
+                    "@type": "PublicationVolume",
+                    "name": "Dental Journal",
+                    "datePublished": "1939"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "original": "Larsson, Idoff Anders Peter, hä-rads:skrivare, Göteborg, f. 30/1/98 i Angered, Älvsb. 1., av Edvin Idoff L. 0. Lovisa Pettersson. G. 32 m. Sonja Mariana Lund. — Stud:ex. 17. E. ü. landskont. v. läns’slyr. i Gbg 23, tf. landskont. 29, ord. landskont. 41, tf. häradsskr. i Orusts o. Tjörns fögd. 43, häradsskr. i Inlands fögd. 46. Kro-noomb. i tax:nd sed. 24, ordf. sed. 30, ordf. i beredn.- o. fastigh:ndr 33-45.",
+    "translated": "Larsson, Idoff Anders Peter, district clerk, Gothenburg, born on January 30, 1898 in Angered, Älvsborg County, son of Edvin Idoff L. 0. Lovisa Pettersson. Married in 1932 to Sonja Mariana Lund. Completed high school in 1917. Employed at the regional office of the county administrative board in Gothenburg from 1923, acting regional office manager in 1929, permanent regional office manager in 1941. Acting district clerk in Orust and Tjörn district court from 1943, district clerk in Inlands district court from 1946. Crown auditor in the tax commission since 1924, chairman since 1930, chairman of the committee for preparation and real estate since 1933-1945.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Idoff\",\n  \"familyName\": \"Larsson\",\n  \"birthDate\": \"1898-01-30\",\n  \"birthPlace\": \"Angered, Älvsborg County, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Edvin Idoff\",\n      \"familyName\": \"Larsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Lovisa\",\n      \"familyName\": \"Pettersson\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Sonja Mariana\",\n      \"familyName\": \"Lund\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex.\",\n    \"educationalLevel\": \"High School\",\n    \"educationalRole\": \"Student\",\n    \"startDate\": \"1917\"\n  },\n  \"work\": [\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Regional Office of the County Administrative Board\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1923\",\n      \"endDate\": \"1941\",\n      \"position\": {\n        \"@type\": \"GovernmentPosition\",\n        \"title\": \"Regional Office Manager\",\n        \"startDate\": \"1929\",\n        \"endDate\": \"1941\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Orust and Tjörn District Court\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1943\",\n      \"endDate\": \"1946\",\n      \"position\": {\n        \"@type\": \"GovernmentPosition\",\n        \"title\": \"Acting District Clerk\",\n        \"startDate\": \"1943\",\n        \"endDate\": \"1946\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Inlands District Court\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"Sweden\"\n      },\n      \"startDate\": \"1946\",\n      \"position\": {\n        \"@type\": \"GovernmentPosition\",\n        \"title\": \"District Clerk\",\n        \"startDate\": \"1946\"\n      }\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Tax Commission\",\n      \"address\": {},\n      \"startDate\": \"1924\",\n      \"position\": [\n        {\n          \"@type\": \"GovernmentPosition\",\n          \"title\": \"Crown Auditor\",\n          \"startDate\": \"1924\"\n        },\n        {\n          \"@type\": \"GovernmentPosition\",\n          \"title\": \"Chairman\",\n          \"startDate\": \"1930\",\n          \"endDate\": \"1945\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Committee for Preparation and Real Estate\",\n      \"address\": {},\n      \"position\": {\n        \"@type\": \"GovernmentPosition\",\n        \"title\": \"Chairman\",\n        \"startDate\": \"1933\",\n        \"endDate\": \"1945\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Idoff",
+        "familyName": "Larsson",
+        "birthDate": "1898-01-30",
+        "birthPlace": "Angered, Älvsborg County, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Edvin Idoff",
+                "familyName": "Larsson"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Lovisa",
+                "familyName": "Pettersson"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "givenName": "Sonja Mariana",
+                "familyName": "Lund"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex.",
+            "educationalLevel": "High School",
+            "educationalRole": "Student",
+            "startDate": "1917"
+        },
+        "work": [
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Regional Office of the County Administrative Board",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1923",
+                "endDate": "1941",
+                "position": {
+                    "@type": "GovernmentPosition",
+                    "title": "Regional Office Manager",
+                    "startDate": "1929",
+                    "endDate": "1941"
+                }
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Orust and Tjörn District Court",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1943",
+                "endDate": "1946",
+                "position": {
+                    "@type": "GovernmentPosition",
+                    "title": "Acting District Clerk",
+                    "startDate": "1943",
+                    "endDate": "1946"
+                }
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Inlands District Court",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Sweden"
+                },
+                "startDate": "1946",
+                "position": {
+                    "@type": "GovernmentPosition",
+                    "title": "District Clerk",
+                    "startDate": "1946"
+                }
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Tax Commission",
+                "address": {},
+                "startDate": "1924",
+                "position": [
+                    {
+                        "@type": "GovernmentPosition",
+                        "title": "Crown Auditor",
+                        "startDate": "1924"
+                    },
+                    {
+                        "@type": "GovernmentPosition",
+                        "title": "Chairman",
+                        "startDate": "1930",
+                        "endDate": "1945"
+                    }
+                ]
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Committee for Preparation and Real Estate",
+                "address": {},
+                "position": {
+                    "@type": "GovernmentPosition",
+                    "title": "Chairman",
+                    "startDate": "1933",
+                    "endDate": "1945"
+                }
+            }
+        ]
+    }
+}

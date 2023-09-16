@@ -1,0 +1,70 @@
+{
+    "original": "Larbäck, Holger Fritz, tandläkare, Uddevalla, f. 15/3/02 i Stenungsund, Gbgs o. Boh. 1. G. 29 m. Sassan Ves-ter. — Studrex. v. Gbgs h. latin 21, Gand. med. dent. i Berlin 24, tandl:-kand. 25, tandläk. 29. Praktik i Stenungsund 29-30, i Strömstad 30-32 o. i Uddevalla sed. 32. Hobbies: segling o. fiske.",
+    "translated": "Larbäck, Holger Fritz, dentist, Uddevalla, born on March 15, 1902 in Stenungsund, Gothenburg and Bohus County. 1st marriage, married on March 29 with Sassan Vester. Education: Gothenburg high school (studied Latin) from 1921, dental medicine in Göttingen from 1924, dental studies in Berlin in 1925, registered as a dentist in 1929. Practiced in Stenungsund from 1929 to 1930, in Strömstad from 1930 to 1932, and in Uddevalla since 1932. Hobbies: sailing and fishing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Holger Fritz Larbäck\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Uddevalla\"\n  },\n  \"birthDate\": \"1902-03-15\",\n  \"birthPlace\": \"Stenungsund, Gothenburg and Bohus County\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sassan Vester\",\n    \"marriageDate\": \"1929-03-29\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg High School\",\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Göttingen\",\n      \"studyProgram\": \"Dental Medicine\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Berlin\",\n      \"studyProgram\": \"Dental Studies\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Stenungsund Dental Practice\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Strömstad Dental Practice\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Uddevalla Dental Practice\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Dental Association\"\n    }\n  ],\n  \"hobbies\": [\n    \"Sailing\",\n    \"Fishing\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Holger Fritz Larbäck",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Uddevalla"
+        },
+        "birthDate": "1902-03-15",
+        "birthPlace": "Stenungsund, Gothenburg and Bohus County",
+        "spouse": {
+            "@type": "Person",
+            "name": "Sassan Vester",
+            "marriageDate": "1929-03-29"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg High School",
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Göttingen",
+                "studyProgram": "Dental Medicine",
+                "startDate": "1924"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Berlin",
+                "studyProgram": "Dental Studies",
+                "startDate": "1925"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Stenungsund Dental Practice",
+                "startDate": "1929",
+                "endDate": "1930"
+            },
+            {
+                "@type": "Organization",
+                "name": "Strömstad Dental Practice",
+                "startDate": "1930",
+                "endDate": "1932"
+            },
+            {
+                "@type": "Organization",
+                "name": "Uddevalla Dental Practice",
+                "startDate": "1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Dental Association"
+            }
+        ],
+        "hobbies": [
+            "Sailing",
+            "Fishing"
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "original": "Larsson, Nils Harald, flygdirektör, Malmslätt, f. 26/2/98 i Arlöv, Malmöh. I., av Nils L. o. Anna Persson. G, 32 m, Britta Wolander. Barn: Dick i. 41. — Avg:ex. fr, Malmö tekn, elem:-sk, 16. Res. t. Ital., Frankr., Höll, Schweiz, Engl. o. Persien 23-47. Konstr. v. Thulinverken 17-20, motor-ing. v, flygkomp, 21-25, kåring, v, 3. flygk, 26-32, styresman f, centr, flyg-verkst. i Västerås 33, i Malmslätt sed. 3’6. Anst. f. planer, av flygverkstad f. persiska flygvapn, 34. RNO, RVO, FFrK3kl.",
+    "translated": "Larsson, Nils Harald, aviation director, Malmslätt, b. 26/2/98 in Arlöv, Malmö County, son of Nils L. and Anna Persson. Married in 1932 to Britta Wolander. Children: Dick b. 1941. Formerly employed at Malmö Technical School and Elementary School, completed at age 16. Traveled to Italy, France, Germany, Switzerland, England, and Persia from 1923-1947. Worked as a constructor at Thulinverken from 1917-1920, a motor engineer at the Aviation Company from 1921-1925, and a supervisor at the 3rd Aviation Company from 1926-1932. Became the chairman of the central aviation workshop in Västerås in 1933, and has been in Malmslätt since 1936. Employed in planning the aircraft workshop for the Persian air force in 1934. Honored with the Order of the North Star (RNO), the Order of Vasa (RVO), and the French Croix de Guerre 3rd Class (FFrK3kl).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Harald Larsson\",\n  \"givenName\": \"Nils Harald\",\n  \"familyName\": \"Larsson\",\n  \"jobTitle\": \"Aviation Director\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Arlöv\",\n      \"addressRegion\": \"Malmö\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"birthDate\": \"1898-02-26\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Nils\",\n      \"familyName\": \"L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Anna\",\n      \"familyName\": \"Persson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Britta\",\n    \"familyName\": \"Wolander\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Dick\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Malmö Technical School and Elementary School\",\n    \"endDate\": \"1914\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Thulinverken\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1920\",\n      \"position\": \"Constructor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Aviation Company\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1925\",\n      \"position\": \"Motor Engineer\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"3rd Aviation Company\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1932\",\n      \"position\": \"Supervisor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Central Aviation Workshop\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Västerås\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1933\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Persian Air Force\",\n      \"startDate\": \"1934\",\n      \"position\": \"Aircraft Workshop Planner\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Malmslätt\"\n    }\n  ],\n  \"honorificSuffix\": [\n    \"RNO\",\n    \"RVO\",\n    \"FFrK3kl\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Harald Larsson",
+        "givenName": "Nils Harald",
+        "familyName": "Larsson",
+        "jobTitle": "Aviation Director",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Arlöv",
+                "addressRegion": "Malmö",
+                "addressCountry": "Sweden"
+            }
+        },
+        "birthDate": "1898-02-26",
+        "parents": [
+            {
+                "@type": "Person",
+                "givenName": "Nils",
+                "familyName": "L."
+            },
+            {
+                "@type": "Person",
+                "givenName": "Anna",
+                "familyName": "Persson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Britta",
+            "familyName": "Wolander"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Dick",
+                "birthDate": "1941"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Malmö Technical School and Elementary School",
+            "endDate": "1914"
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Thulinverken",
+                "startDate": "1917",
+                "endDate": "1920",
+                "position": "Constructor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Aviation Company",
+                "startDate": "1921",
+                "endDate": "1925",
+                "position": "Motor Engineer"
+            },
+            {
+                "@type": "Organization",
+                "name": "3rd Aviation Company",
+                "startDate": "1926",
+                "endDate": "1932",
+                "position": "Supervisor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Central Aviation Workshop",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Västerås",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1933",
+                "position": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Persian Air Force",
+                "startDate": "1934",
+                "position": "Aircraft Workshop Planner"
+            },
+            {
+                "@type": "Organization",
+                "name": "Malmslätt"
+            }
+        ],
+        "honorificSuffix": [
+            "RNO",
+            "RVO",
+            "FFrK3kl"
+        ]
+    }
+}

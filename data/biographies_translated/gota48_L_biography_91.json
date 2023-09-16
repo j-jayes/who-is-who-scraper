@@ -1,0 +1,83 @@
+{
+    "original": "Larsson, Inge John Axel, andre läkare, Vadstena, f. 28/12/09 i Visby av sjökapt. lohn L. o. Lillie Hellström. G. 40 m. Gulli Blomberg. Barn: Ulf 1. 43. — Stud:ex. i Visby 29, med. kand. i Lund 33 o. med. lic. där 38. E. läk. v. Vipeholms sjukh. o. Tyringe sanat. 37, v. S:t Lars sjukh. 38, e. o. andre läk. där 39, andre läk. v. Birgittas sjukh. i Vadstena sed. 43.",
+    "translated": "Larsson, Inge John Axel, second physician, Vadstena, b. 28/12/09 in Visby to Captain John L. and Lillie Hellström. Married in 1940 to Gulli Blomberg. Children: Ulf, born in 1943. Completed high school in Visby in 1929, obtained a bachelor's degree in medicine in Lund in 1933, and a medical license there in 1938. Worked as an assistant physician at Vipeholm Hospital and Tyringe Sanatorium in 1937, at S:t Lars Hospital in 1938, as a temporary second physician there in 1939, and as a second physician at Birgitta's Hospital in Vadstena since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Inge John Axel Larsson\",\n  \"birthDate\": \"1909-12-28\",\n  \"birthPlace\": \"Visby\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Captain John L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lillie Hellström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gulli Blomberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School\",\n      \"educationalLevel\": \"HighSchool\",\n      \"awardDate\": \"1929\",\n      \"awarder\": \"Visby\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor's Degree in Medicine\",\n      \"educationalLevel\": \"Bachelor\",\n      \"awardDate\": \"1933\",\n      \"awarder\": \"Lund\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Medical License\",\n      \"educationalLevel\": \"Licentiate\",\n      \"awardDate\": \"1938\",\n      \"awarder\": \"Lund\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Vipeholm Hospital\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Tyringe Sanatorium\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"S:t Lars Hospital\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Birgitta's Hospital\",\n      \"jobTitle\": \"Second Physician\",\n      \"startDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Inge John Axel Larsson",
+        "birthDate": "1909-12-28",
+        "birthPlace": "Visby",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Captain John L."
+            },
+            {
+                "@type": "Person",
+                "name": "Lillie Hellström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gulli Blomberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School",
+                "educationalLevel": "HighSchool",
+                "awardDate": "1929",
+                "awarder": "Visby"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor's Degree in Medicine",
+                "educationalLevel": "Bachelor",
+                "awardDate": "1933",
+                "awarder": "Lund"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Medical License",
+                "educationalLevel": "Licentiate",
+                "awardDate": "1938",
+                "awarder": "Lund"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Vipeholm Hospital",
+                "jobTitle": "Assistant Physician",
+                "startDate": "1937"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Tyringe Sanatorium",
+                "jobTitle": "Assistant Physician",
+                "startDate": "1937"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "S:t Lars Hospital",
+                "jobTitle": "Assistant Physician",
+                "startDate": "1938",
+                "endDate": "1939"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Birgitta's Hospital",
+                "jobTitle": "Second Physician",
+                "startDate": "1943"
+            }
+        ]
+    }
+}

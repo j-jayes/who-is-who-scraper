@@ -1,0 +1,48 @@
+{
+    "original": "Lantz, Bror Arwid, redaktör. Mjölby, f. 29/9/83 i Risinge, östergötl. 1., av byggm. Carl Johan L. o. Eva Sofia Carlsson. G. 17 m. Stina Netzler. Barn: Ake f. 18, löjtn. v. Värml. reg., Margaretha 21, g. m. ing. Gunnar",
+    "translated": "Lantz, Bror Arwid, editor. Mjölby, born on September 29, 1883 in Risinge, Östergötland, son of construction worker Carl Johan L. and Eva Sofia Carlsson. Married in 1917 to Stina Netzler. Children: Ake, born in 1918, lieutenant in the Värmland regiment; Margaretha, born in 1921, married to engineer Gunnar.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Arwid Lantz\",\n  \"jobTitle\": \"Editor\",\n  \"birthPlace\": \"Risinge, Östergötland, Sweden\",\n  \"birthDate\": \"1883-09-29\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Johan Lantz\",\n      \"jobTitle\": \"Construction worker\",\n      \"spouse\": \"Eva Sofia Carlsson\",\n      \"birthPlace\": \"Sweden\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Sofia Carlsson\",\n      \"birthPlace\": \"Sweden\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Netzler\",\n    \"marriageDate\": \"1917\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ake Lantz\",\n      \"birthDate\": \"1918\",\n      \"jobTitle\": \"Lieutenant\",\n      \"affiliation\": \"Värmland Regiment\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margaretha Lantz\",\n      \"birthDate\": \"1921\",\n      \"spouse\": \"Gunnar\",\n      \"jobTitle\": \"Engineer\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Arwid Lantz",
+        "jobTitle": "Editor",
+        "birthPlace": "Risinge, Östergötland, Sweden",
+        "birthDate": "1883-09-29",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl Johan Lantz",
+                "jobTitle": "Construction worker",
+                "spouse": "Eva Sofia Carlsson",
+                "birthPlace": "Sweden"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Sofia Carlsson",
+                "birthPlace": "Sweden"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Stina Netzler",
+            "marriageDate": "1917"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ake Lantz",
+                "birthDate": "1918",
+                "jobTitle": "Lieutenant",
+                "affiliation": "Värmland Regiment"
+            },
+            {
+                "@type": "Person",
+                "name": "Margaretha Lantz",
+                "birthDate": "1921",
+                "spouse": "Gunnar",
+                "jobTitle": "Engineer"
+            }
+        ]
+    }
+}

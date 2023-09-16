@@ -1,0 +1,79 @@
+{
+    "original": "Lundberg, Birger, häradshövding, Börås, f. 23/11/90 i Kalmar av apot. Axel L. o. Hélène Psilanderskjöld. G. 23 m. Anna Nilsson. — Jur. kand. i Lund 16. V. här :hövd. 22, tf. rev /sekr. 33, här :hövd. i Marks dom.s. sed. 34. Ordf. i ’Styr. f. Älvsb. 1. s. rättshjälps-anst. RNO.",
+    "translated": "Lundberg, Birger, magistrate, from Börås, born on November 23, 1890, in Kalmar, son of pharmacist Axel L. and Hélène Psilanderskjöld. Married on the 23rd of an unknown month in an unknown year to Anna Nilsson. Degree in Jurisprudence from Lund in 1916. Worked as a magistrate from 1922, acting revenue/secretary from 1933, and magistrate in Marks district court since 1934. Chairman of the Board for the Älvsborg's first right-help institution. Awarded the Royal Order of the North Star.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Birger Lundberg\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1890-11-23\",\n  \"birthPlace\": \"Kalmar, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel L. Lundberg\",\n      \"jobTitle\": \"Pharmacist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hélène Psilanderskjöld\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Nilsson\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"degree\",\n    \"credentialEarned\": \"Juris Doctor\",\n    \"educationalLevel\": \"Undergraduate\",\n    \"educationalProgram\": \"Jurisprudence\",\n    \"educationalRole\": \"Student\",\n    \"startDate\": \"1916\",\n    \"endDate\": \"1916\",\n    \"alumniOf\": {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"location\": \"Lund, Sweden\"\n    }\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Magistrate\",\n      \"startDate\": \"1922\",\n      \"endDate\": null,\n      \"location\": \"Börås\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Revenue/Secretary\",\n      \"startDate\": \"1933\",\n      \"endDate\": null,\n      \"location\": \"Börås\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Magistrate\",\n      \"startDate\": \"1934\",\n      \"endDate\": null,\n      \"location\": \"Marks District Court\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älvsborg's First Right-Help Institution\",\n      \"roleName\": \"Chairman of the Board\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the North Star\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Birger Lundberg",
+        "gender": "Male",
+        "birthDate": "1890-11-23",
+        "birthPlace": "Kalmar, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel L. Lundberg",
+                "jobTitle": "Pharmacist"
+            },
+            {
+                "@type": "Person",
+                "name": "Hélène Psilanderskjöld"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Nilsson"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "credentialEarned": "Juris Doctor",
+            "educationalLevel": "Undergraduate",
+            "educationalProgram": "Jurisprudence",
+            "educationalRole": "Student",
+            "startDate": "1916",
+            "endDate": "1916",
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "location": "Lund, Sweden"
+            }
+        },
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Magistrate",
+                "startDate": "1922",
+                "endDate": null,
+                "location": "Börås"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Acting Revenue/Secretary",
+                "startDate": "1933",
+                "endDate": null,
+                "location": "Börås"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Magistrate",
+                "startDate": "1934",
+                "endDate": null,
+                "location": "Marks District Court"
+            }
+        ],
+        "memberships": [
+            {
+                "@type": "Organization",
+                "name": "Älvsborg's First Right-Help Institution",
+                "roleName": "Chairman of the Board"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the North Star"
+            }
+        ]
+    }
+}

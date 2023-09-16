@@ -1,0 +1,74 @@
+{
+    "original": "Larsson, Gösta Emil, tandläkare, Karlskrona, f. 6/6/07 i Skultuna, Väst-mani. L, av Karl L. o. Agnes HalHn. G. 37 m. Vaja Svensson, Barn: Sten-Lennart f, 42, Leif Arne 45, — Stud:-ex. i Karlskrona 28, Cand. med. dent. i Leipzig 30, tysk tandläkare där 32, sv, dito 35. Praktik i Karlskrona sed, 35, skoltandl. i Nättraby sed. 36.",
+    "translated": "Larsson, Gösta Emil, dentist, Karlskrona, b. 6/6/07 in Skultuna, Väst-mani. Son of Karl L. and Agnes HalHn. Married in 1937 to Vaja Svensson. Children: Sten-Lennart b. 1942, Leif Arne b. 1945. Passed student examination in Karlskrona in 1928, obtained a dental degree in Leipzig in 1930, worked as a German dentist there in 1932, and as a Swedish dentist in 1935. Practiced in Karlskrona since 1935, and as a school dentist in Nättraby since 1936.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Gösta Emil Larsson\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1907-06-06\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Skultuna, Väst-mani\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Agnes HalHn\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Vaja Svensson\",\n    \"marriageDate\": \"1937-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sten-Lennart\",\n      \"birthDate\": \"1942-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Leif Arne\",\n      \"birthDate\": \"1945-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"student examination\",\n      \"educationalLevel\": \"High school\",\n      \"awardDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dental degree\",\n      \"educationalLevel\": \"University\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Leipzig University\"\n      },\n      \"awardDate\": \"1930\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"LocalBusiness\",\n      \"name\": \"Karlskrona Dental Clinic\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"School Dentist\",\n      \"startDate\": \"1936\",\n      \"namedPosition\": \"Nättraby\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Gösta Emil Larsson",
+        "jobTitle": "Dentist",
+        "birthDate": "1907-06-06",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Skultuna, Väst-mani"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Karl L."
+            },
+            {
+                "@type": "Person",
+                "name": "Agnes HalHn"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Vaja Svensson",
+            "marriageDate": "1937-01-01"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sten-Lennart",
+                "birthDate": "1942-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Leif Arne",
+                "birthDate": "1945-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "student examination",
+                "educationalLevel": "High school",
+                "awardDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dental degree",
+                "educationalLevel": "University",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Leipzig University"
+                },
+                "awardDate": "1930"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "LocalBusiness",
+                "name": "Karlskrona Dental Clinic",
+                "startDate": "1935"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "School Dentist",
+                "startDate": "1936",
+                "namedPosition": "Nättraby"
+            }
+        ]
+    }
+}

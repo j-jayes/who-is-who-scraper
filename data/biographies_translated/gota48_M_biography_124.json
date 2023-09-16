@@ -1,0 +1,85 @@
+{
+    "original": "Meyerson, Göran Vilhelm, lektor, civi|lingenjör, Borås, f. 13/7/10 i Sthlni av dir. John M. o. h. h. f. Fristedt. G. 44 m. Elin Lagström. — Studiex. i Sthlm 29, civ:ing:ex. v. KTH 34. Res. t. Engl. 32, 35, 37 o. 39, Tyskl. 30 o. 39. Frankr. 39. Tjg. v. Örebro tekn. gymn. 37-41, lektor i mek. m. hållfrlära, ma-skintekn. o. mek. tekn. v. h. tekn. lä-rov. i Borås sed. 41. Medl. av Par Bricole.",
+    "translated": "Meyerson, Göran Vilhelm, lecturer, civil engineer, Borås, b. 13/7/10 in Stockholm, son of director John M. and his wife, maiden name Fristedt. Married in 1944 to Elin Lagström. — Graduate degree in Stockholm in 1929, civil engineering degree from KTH in 1934. Resided in England in 1932, 1935, 1937, and 1939, in Germany in 1930 and 1939, and in France in 1939. Served at Örebro tekniska gymnasium from 1937-1941, lecturer in mechanical engineering with strength of materials, mathematical engineering, and mechanical technology at the technical high school in Borås since 1941. Member of Par Bricole.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Göran\",\n  \"familyName\": \"Meyerson\",\n  \"additionalName\": \"Vilhelm\",\n  \"jobTitle\": \"Lecturer, Civil Engineer\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Stockholm\"\n  },\n  \"birthDate\": \"1910-07-13\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John M.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fristedt\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elin Lagström\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduate degree\",\n      \"educationalLevel\": \"University\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Stockholm\"\n      },\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"civil engineering degree\",\n      \"educationalLevel\": \"University\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"KTH\"\n      },\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"residence\": [\n    {\n      \"@type\": \"Country\",\n      \"name\": \"England\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"Germany\"\n    },\n    {\n      \"@type\": \"Country\",\n      \"name\": \"France\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Örebro tekniska gymnasium\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Technical High School in Borås\",\n      \"startDate\": \"1941\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Par Bricole\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Göran",
+        "familyName": "Meyerson",
+        "additionalName": "Vilhelm",
+        "jobTitle": "Lecturer, Civil Engineer",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Stockholm"
+        },
+        "birthDate": "1910-07-13",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "John M."
+            },
+            {
+                "@type": "Person",
+                "name": "Fristedt"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elin Lagström"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "graduate degree",
+                "educationalLevel": "University",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Stockholm"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "civil engineering degree",
+                "educationalLevel": "University",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "KTH"
+                },
+                "endDate": "1934"
+            }
+        ],
+        "residence": [
+            {
+                "@type": "Country",
+                "name": "England"
+            },
+            {
+                "@type": "Country",
+                "name": "Germany"
+            },
+            {
+                "@type": "Country",
+                "name": "France"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Örebro tekniska gymnasium",
+                "startDate": "1937",
+                "endDate": "1941"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Technical High School in Borås",
+                "startDate": "1941"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Par Bricole"
+        }
+    }
+}

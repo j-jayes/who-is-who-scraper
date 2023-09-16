@@ -1,0 +1,115 @@
+{
+    "original": "Lindwall, Folke Gösta, leg. läkare, Göteborg, f. 9/3/12 i Halmstad av P. L. o. Ella Jönsson. G. 38 m. Elsa Linnea Lundgren. Barn: Tomas f. 39, Nils-Peter 42, Helena 45. — Stud:ex. i Malmö 29, med. kand. i Lund 33, med. lic. där 38. E. o. aman. v. far-makolog. inst. i Lund 34, assist :läk. v. med. khn. i Lund 36 o. 38, e. o. aman., aman. o. tf. und :läk. v. öron-klin. i Lund 37-42, und:läk. v. Piteå las. tio mån. 39, v. Sollefteå las. tretton o. en halv mån. 42-43, tf. las :läk. v. öronavd. i Borås o. Kalmar kort. period., und :läk. v. Sahlgr. sjukh. öronavd. sed. 43, bitr. las :läk. där sed. 46, tf. överläk. där sammanl. åtta mån.",
+    "translated": "Lindwall, Folke Gösta, licensed doctor, Gothenburg, born on 9/3/12 in Halmstad to P. L. and Ella Jönsson. Married since 1938 to Elsa Linnea Lundgren. Children: Tomas, born in 1939; Nils-Peter, born in 1942; Helena, born in 1945. \n\nEducation: Graduated from Malmö in 1929. Bachelor's degree in medicine from Lund in 1933. Medical license from Lund in 1938. \n\nCareer: Assistant at the Pharmacology Institute in Lund from 1934. Assistant doctor at the medical clinic in Lund in 1936 and 1938. Temporary assistant, assistant, and acting underdoctor at the ear clinic in Lund from 1937 to 1942. Underdoctor at Piteå hospital for ten months in 1939. Thirteen and a half months at Sollefteå hospital in 1942-1943. Temporary chief doctor at the ear department in Borås and Kalmar for a short period. Underdoctor at Sahlgr. hospital ear department since 1943. Assistant chief doctor there since 1946. Acting chief doctor there for a total of eight months.\n\nNote: The abbreviation '\\d\\d m. partner's name' means that the person got married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Folke Gösta Lindwall\",\n  \"givenName\": \"Folke Gösta\",\n  \"familyName\": \"Lindwall\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1912-03-09\",\n  \"birthPlace\": \"Halmstad\",\n  \"nationality\": \"Swedish\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"name\": \"Stud:ex. in Malmö\",\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"name\": \"Bachelor's degree in medicine from Lund\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"license\",\n      \"name\": \"Medical license from Lund\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Linnea Lundgren\",\n    \"marriageDate\": \"1938\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tomas\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils-Peter\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Helena\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Pharmacology Institute in Lund\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1942\",\n      \"roleName\": \"Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Medical Clinic in Lund\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1938\",\n      \"roleName\": \"Assistant Doctor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ear Clinic in Lund\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1942\",\n      \"roleName\": \"Temporary Assistant, Assistant, Acting Underdoctor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Piteå Hospital\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\",\n      \"roleName\": \"Underdoctor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sollefteå Hospital\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1943\",\n      \"roleName\": \"Underdoctor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Hospital\",\n      \"roleName\": \"Temporary Chief Doctor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kalmar Hospital\",\n      \"roleName\": \"Temporary Chief Doctor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sahlgr. Hospital\",\n      \"startDate\": \"1943\",\n      \"roleName\": \"Underdoctor, Assistant Chief Doctor\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Folke Gösta Lindwall",
+        "givenName": "Folke Gösta",
+        "familyName": "Lindwall",
+        "gender": "Male",
+        "birthDate": "1912-03-09",
+        "birthPlace": "Halmstad",
+        "nationality": "Swedish",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "name": "Stud:ex. in Malmö",
+                "startDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "name": "Bachelor's degree in medicine from Lund",
+                "startDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "license",
+                "name": "Medical license from Lund",
+                "startDate": "1938"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Linnea Lundgren",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Tomas",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Nils-Peter",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Helena",
+                "birthDate": "1945"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Pharmacology Institute in Lund",
+                "startDate": "1934",
+                "endDate": "1942",
+                "roleName": "Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Medical Clinic in Lund",
+                "startDate": "1936",
+                "endDate": "1938",
+                "roleName": "Assistant Doctor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ear Clinic in Lund",
+                "startDate": "1937",
+                "endDate": "1942",
+                "roleName": "Temporary Assistant, Assistant, Acting Underdoctor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Piteå Hospital",
+                "startDate": "1939",
+                "endDate": "1939",
+                "roleName": "Underdoctor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sollefteå Hospital",
+                "startDate": "1942",
+                "endDate": "1943",
+                "roleName": "Underdoctor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Hospital",
+                "roleName": "Temporary Chief Doctor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Kalmar Hospital",
+                "roleName": "Temporary Chief Doctor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sahlgr. Hospital",
+                "startDate": "1943",
+                "roleName": "Underdoctor, Assistant Chief Doctor"
+            }
+        ]
+    }
+}

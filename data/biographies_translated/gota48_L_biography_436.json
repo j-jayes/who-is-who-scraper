@@ -1,0 +1,114 @@
+{
+    "original": "Ljungberg, Gunnar Åke David, civilingenjör, Alingsås, f. 13/2/09 i Jönköp. av ing. David L. o. Hanna Pettersson. G. 38 m. Margit Persson. Barn: Per f. 40. — Stud:ex. i Jönköp. 28, utex. fr. CTI (E) 32. Praktik v. Jönk. mekaniska verkstad, Elektr. A-B Sivers &amp; Häger i Jönköp. samt Jönköp. gasverk, anst. v. Borås stads elverk 35-36, v. Yngeredsfors Kraft A-B i Mölndal 36-37, chef v. Alingsås stads gas- o. elverk sed. 38.",
+    "translated": "Ljungberg, Gunnar Åke David, civil engineer, Alingsås, b. 13/2/09 in Jönköp. to engineer David L. and Hanna Pettersson. Married in 1938 to Margit Persson. Children: Per b. 1940. — Completed secondary education in Jönköp. in 1928, graduated from CTI (E) in 1932. Internship at Jönk. Mechanical Workshop, Elektr. A-B Sivers & Häger in Jönköp., and Jönköp. Gasworks. Employed at Borås City Power Plant from 1935-1936, Yngeredsfors Kraft A-B in Mölndal from 1936-1937, became the manager of Alingsås City Gas and Electric Works since 1938.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Gunnar\",\n  \"additionalName\": \"Åke David\",\n  \"familyName\": \"Ljungberg\",\n  \"birthDate\": \"1909-02-13\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Jönköp\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"David\",\n      \"familyName\": \"L.\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Hanna\",\n      \"familyName\": \"Pettersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Margit\",\n    \"familyName\": \"Persson\",\n    \"marriageDate\": \"1938\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Per\",\n      \"familyName\": \"Ljungberg\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary education\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"alumniOf\": \"Jönköp\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"CTI (E)\",\n      \"educationalLevel\": \"CTI (E)\",\n      \"alumniOf\": \"CTI (E)\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"endDate\": null,\n      \"roleName\": \"Manager\",\n      \"namedPosition\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Alingsås City Gas and Electric Works\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"roleName\": \"Employee\",\n      \"namedPosition\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Borås City Power Plant\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\",\n      \"roleName\": \"Employee\",\n      \"namedPosition\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Yngeredsfors Kraft A-B in Mölndal\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"roleName\": \"Intern\",\n      \"namedPosition\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönk. Mechanical Workshop, Elektr. A-B Sivers & Häger in Jönköp.\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"roleName\": \"Intern\",\n      \"namedPosition\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköp. Gasworks\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "givenName": "Gunnar",
+        "additionalName": "Åke David",
+        "familyName": "Ljungberg",
+        "birthDate": "1909-02-13",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Jönköp"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "givenName": "David",
+                "familyName": "L.",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Hanna",
+                "familyName": "Pettersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Margit",
+            "familyName": "Persson",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Per",
+                "familyName": "Ljungberg",
+                "birthDate": "1940"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary education",
+                "educationalLevel": "SecondaryEducation",
+                "alumniOf": "Jönköp",
+                "startDate": "1928",
+                "endDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "CTI (E)",
+                "educationalLevel": "CTI (E)",
+                "alumniOf": "CTI (E)",
+                "startDate": "1932",
+                "endDate": "1932"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "endDate": null,
+                "roleName": "Manager",
+                "namedPosition": {
+                    "@type": "Organization",
+                    "name": "Alingsås City Gas and Electric Works"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1935",
+                "endDate": "1936",
+                "roleName": "Employee",
+                "namedPosition": {
+                    "@type": "Organization",
+                    "name": "Borås City Power Plant"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1936",
+                "endDate": "1937",
+                "roleName": "Employee",
+                "namedPosition": {
+                    "@type": "Organization",
+                    "name": "Yngeredsfors Kraft A-B in Mölndal"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": null,
+                "endDate": null,
+                "roleName": "Intern",
+                "namedPosition": {
+                    "@type": "Organization",
+                    "name": "Jönk. Mechanical Workshop, Elektr. A-B Sivers & Häger in Jönköp."
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": null,
+                "endDate": null,
+                "roleName": "Intern",
+                "namedPosition": {
+                    "@type": "Organization",
+                    "name": "Jönköp. Gasworks"
+                }
+            }
+        ]
+    }
+}

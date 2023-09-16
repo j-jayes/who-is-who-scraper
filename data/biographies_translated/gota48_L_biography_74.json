@@ -1,0 +1,66 @@
+{
+    "original": "Larsson, Lars Erik, jordbrukskonsulent, Linköping, f. 30/8/85 i Norra Fågelås, Skarab. 1., av lantbr. Johan L. o. Axelina Andersson. G. 25 m. Märta Edling. Barn: Inger f. 27, Carin 31. — Agronomex. å Alnarp 17, jordbr:stud. i Tyskl. 15. Tf. jordbr:-konsulent i Gävleb. län 18-19, ord. dito i östergötl. län sed. 20.",
+    "translated": "Larsson, Lars Erik, agricultural consultant, Linköping, b. 30/8/85 in Norra Fågelås, Skarab. 1st, son of farmer Johan L. and Axelina Andersson. Married on 25th to Märta Edling. Children: Inger b. 27, Carin b. 31. — Graduated from Alnarp Agricultural College in 1917, studied agriculture in Germany in 1915. Acting agricultural consultant in Gävleborg County from 1918-1919, regular in Östergötland County since 1920.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Erik Larsson\",\n  \"birthDate\": \"1885-08-30\",\n  \"birthPlace\": \"Norra Fågelås, Skaraborg, Sweden\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L. Larsson\",\n      \"jobTitle\": \"Farmer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axelina Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta Edling\",\n    \"marriageDate\": \"1925-xx-25\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Larsson\",\n      \"birthDate\": \"1927-xx-xx\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carin Larsson\",\n      \"birthDate\": \"1931-xx-xx\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Alnarp Agricultural College\",\n    \"startDate\": \"1917-xx-xx\",\n    \"endDate\": \"xx-xx-xx\"\n  },\n  \"work\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Agricultural Consultant\",\n      \"startDate\": \"1918-xx-xx\",\n      \"endDate\": \"1919-xx-xx\",\n      \"location\": \"Gävleborg County, Sweden\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Agricultural Consultant\",\n      \"startDate\": \"1920-xx-xx\",\n      \"location\": \"Östergötland County, Sweden\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Erik Larsson",
+        "birthDate": "1885-08-30",
+        "birthPlace": "Norra Fågelås, Skaraborg, Sweden",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan L. Larsson",
+                "jobTitle": "Farmer"
+            },
+            {
+                "@type": "Person",
+                "name": "Axelina Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta Edling",
+            "marriageDate": "1925-xx-25"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Larsson",
+                "birthDate": "1927-xx-xx"
+            },
+            {
+                "@type": "Person",
+                "name": "Carin Larsson",
+                "birthDate": "1931-xx-xx"
+            }
+        ],
+        "education": {
+            "@type": "CollegeOrUniversity",
+            "name": "Alnarp Agricultural College",
+            "startDate": "1917-xx-xx",
+            "endDate": "xx-xx-xx"
+        },
+        "work": [
+            {
+                "@type": "JobPosting",
+                "title": "Acting Agricultural Consultant",
+                "startDate": "1918-xx-xx",
+                "endDate": "1919-xx-xx",
+                "location": "Gävleborg County, Sweden"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Agricultural Consultant",
+                "startDate": "1920-xx-xx",
+                "location": "Östergötland County, Sweden"
+            }
+        ]
+    }
+}

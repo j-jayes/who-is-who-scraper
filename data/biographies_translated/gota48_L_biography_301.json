@@ -1,0 +1,127 @@
+{
+    "original": "Linden, Oskar Georg, läroverksadjunkt, Jönköping, f. 6/7/92 i Jönköp. av Gustaf L. o. h. h. f. Håkansson. G. 21 m. Karin Lund. Barn: Gerd f. 23, Ragnar 25. — Studiex. i Jönköp. n, fil. mag. i Upps. 16, pr o vår i Sthlm 19. Vik. adj. v. Jönköp. h. a. 1. 16-17, e. lär. v. Jakobs realsk. i Sthlm 17-18, vik. adj. i Strängnäs 18, e. lär. v. norra latin i Sthilm 19-22, e. lär. v. Jönköp. h. a. 1. 22-29, adj. i moders-ni., tyska o. eng. där sed. 29.",
+    "translated": "Linden, Oskar Georg, high school teacher, Jönköping, born on July 6, 1892 in Jönköping, son of Gustaf L. and his wife Håkansson. Married on May 21 to Karin Lund. Children: Gerd born in 1923, Ragnar born in 1925. Completed exams in Jönköping, graduated with a Bachelor's degree in Uppsala in 1916, worked as a substitute teacher in Stockholm in 1919. Temporary teacher in Jönköping from 1916-1917, primary school teacher at Jakobs realskola in Stockholm from 1917-1918, substitute teacher in Strängnäs in 1918, primary school teacher at norra latin in Stockholm from 1919-1922, primary school teacher in Jönköping from 1922-1929, and has been a teacher in the subjects of mother tongue, German, and English there since 1929.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oskar Georg Linden\",\n  \"birthDate\": \"1892-07-06\",\n  \"birthPlace\": \"Jönköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Linden\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Håkansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Lund\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerd\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnar\",\n      \"birthDate\": \"1925\"\n    }\n  ],\n  \"jobTitle\": \"High school teacher\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Jönköping\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Exam\",\n      \"educationalLevel\": \"High school\",\n      \"educationCredentialAwarded\": \"Studiexamen\",\n      \"educationalInstitution\": \"Jönköping\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Higher education\",\n      \"educationCredentialAwarded\": \"Filosofie magister\",\n      \"educationalInstitution\": \"Uppsala University\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      },\n      \"startDate\": \"1916\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Primary School Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jakobs realskola\"\n      },\n      \"startDate\": \"1917\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Strängnäs\"\n      },\n      \"startDate\": \"1918\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Primary School Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norra latin\"\n      },\n      \"startDate\": \"1919\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Primary School Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping\"\n      },\n      \"startDate\": \"1922\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Jönköping\"\n      },\n      \"occupationalCategory\": [\n        \"Mother tongue\",\n        \"German\",\n        \"English\"\n      ],\n      \"startDate\": \"1929\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oskar Georg Linden",
+        "birthDate": "1892-07-06",
+        "birthPlace": "Jönköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Linden"
+            },
+            {
+                "@type": "Person",
+                "name": "Håkansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Lund"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gerd",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Ragnar",
+                "birthDate": "1925"
+            }
+        ],
+        "jobTitle": "High school teacher",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Jönköping"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Exam",
+                "educationalLevel": "High school",
+                "educationCredentialAwarded": "Studiexamen",
+                "educationalInstitution": "Jönköping"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Higher education",
+                "educationCredentialAwarded": "Filosofie magister",
+                "educationalInstitution": "Uppsala University",
+                "startDate": "1916",
+                "endDate": "1916"
+            }
+        ],
+        "work": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Substitute Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                },
+                "startDate": "1916",
+                "endDate": "1917"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Primary School Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Jakobs realskola"
+                },
+                "startDate": "1917",
+                "endDate": "1918"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Substitute Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Strängnäs"
+                },
+                "startDate": "1918",
+                "endDate": "1918"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Primary School Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Norra latin"
+                },
+                "startDate": "1919",
+                "endDate": "1922"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Primary School Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Jönköping"
+                },
+                "startDate": "1922",
+                "endDate": "1929"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Jönköping"
+                },
+                "occupationalCategory": [
+                    "Mother tongue",
+                    "German",
+                    "English"
+                ],
+                "startDate": "1929"
+            }
+        ]
+    }
+}

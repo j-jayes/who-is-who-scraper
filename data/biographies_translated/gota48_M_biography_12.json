@@ -1,0 +1,133 @@
+{
+    "original": "Magnusson, Einar Valdemar Tobias, tandläkare, Falköping, f. 5/11/91 i Skärstad, Jönköp. 1., av Johan Wilhelm M. o. Karolina Isaksdotter. G. 20 m. Elsa Strömberg. Barn: Anna-Lena f. 22 g. m. fil. lic. Rolf Warén, Kerstin 24, d. 25, Margareta 32. — Stud:ex. i Jönköp. 13, tandl:-kand. 15, tandläkare 17, stud. f. prof. Wesky o. dr Neumann i Berlin 24. Vik. i Kristinehamn 17, praktik i Falköping sed. 17. Led. av arkivnd o. skolråd, styr :iled. i sparbanken, ordf. i Falbygdens hemb:- o. fornm :fören., styr:led. i Västergötl fornm :fören. RVO, HA jeton.",
+    "translated": "Magnusson, Einar Valdemar Tobias, dentist, Falköping, b. 11/5/1891 in Skärstad, Jönköping County, son of Johan Wilhelm M. and Karolina Isaksdotter. Married in 1920 to Elsa Strömberg. Children: Anna-Lena, born in 1922, married to Rolf Warén, PhD. Kerstin, born in 1924. Died in 1925. Margareta, born in 1932.\n\nEducation: Graduated from high school in Jönköping in 1913. Completed dental studies in 1915 and became a dentist in 1917. Studied under Prof. Wesky and Dr. Neumann in Berlin in 1924.\n\nProfessional experience: Temporary position in Kristinehamn in 1917, established practice in Falköping in the same year.\n\nInvolvement: Member of the Archive Council and School Board, board member in the Savings Bank, chairman of Falbygdens home and antiquarian association, board member of the Västergötland antiquarian association. Awarded the Royal Order of Vasa, and a HA token.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Einar Valdemar Tobias Magnusson\",\n  \"birthDate\": \"1891-11-05\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Skärstad, Jönköping\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Jönköping County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Wilhelm Magnusson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karolina Isaksdotter\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Strömberg\",\n    \"marriageDate\": \"1920\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Lena\",\n      \"birthDate\": \"1922\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Rolf Warén\",\n        \"education\": [\n          {\n            \"@type\": \"EducationalOccupationalCredential\",\n            \"name\": \"PhD\"\n          }\n        ]\n      }\n    },\n    {\n        \"@type\": \"Person\",\n        \"name\": \"Kerstin\",\n        \"birthDate\": \"1924\"\n    },\n    {\n        \"@type\": \"Person\",\n        \"name\": \"Margareta\",\n        \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Degree\",\n      \"alumniOf\": \"Jönköping\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Studies\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dentist\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Study with Prof. Wesky and Dr. Neumann\",\n      \"startDate\": \"1924\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Falköping\"\n  },\n  \"experience\": [\n    {\n      \"@type\": \"OccupationalExperience\",\n      \"title\": \"Temporary position in Kristinehamn\",\n      \"startDate\": \"1917\"\n    },\n    {\n      \"@type\": \"OccupationalExperience\",\n      \"title\": \"Established practice in Falköping\",\n      \"startDate\": \"1917\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Archive Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Savings Bank\",\n      \"roleName\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Falbygdens Home and Antiquarian Association\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västergötland Antiquarian Association\",\n      \"roleName\": \"Board Member\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\"\n    },\n    {\n      \"@type\": \"Token\",\n      \"name\": \"HA token\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Einar Valdemar Tobias Magnusson",
+        "birthDate": "1891-11-05",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Skärstad, Jönköping",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Jönköping County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Wilhelm Magnusson"
+            },
+            {
+                "@type": "Person",
+                "name": "Karolina Isaksdotter"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Strömberg",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anna-Lena",
+                "birthDate": "1922",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Rolf Warén",
+                    "education": [
+                        {
+                            "@type": "EducationalOccupationalCredential",
+                            "name": "PhD"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Degree",
+                "alumniOf": "Jönköping"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Studies"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dentist"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Study with Prof. Wesky and Dr. Neumann",
+                "startDate": "1924"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Falköping"
+        },
+        "experience": [
+            {
+                "@type": "OccupationalExperience",
+                "title": "Temporary position in Kristinehamn",
+                "startDate": "1917"
+            },
+            {
+                "@type": "OccupationalExperience",
+                "title": "Established practice in Falköping",
+                "startDate": "1917"
+            }
+        ],
+        "memberships": [
+            {
+                "@type": "Organization",
+                "name": "Archive Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Savings Bank",
+                "roleName": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Falbygdens Home and Antiquarian Association",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västergötland Antiquarian Association",
+                "roleName": "Board Member"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            },
+            {
+                "@type": "Token",
+                "name": "HA token"
+            }
+        ]
+    }
+}

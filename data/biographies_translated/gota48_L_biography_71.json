@@ -1,0 +1,67 @@
+{
+    "original": "Larsson, Carl-Gustav, tandläkare, Linköping, f. 24/12/10 i Sthlm av Carl L. o. Maria Karlsson. G. 33 m. Signe Johansson. Barn : Bo f. 42. — Stud :-ex. v. östra real i Sthlm 29, tandl:-kand. 31, tandläkare 33. Praktik i Linköping sed. 33.",
+    "translated": "Larsson, Carl-Gustav, dentist, Linköping, b. 24/12/10 in Stockholm to Carl L. and Maria Karlsson. Married in 1933 to Signe Johansson. Children: Bo, born in 1942. Completed exams at Östra Real in Stockholm in 1929, dental studies in 1931, became a dentist in 1933. Practicing in Linköping since 1933.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Gustav Larsson\",\n  \"birthDate\": \"1910-12-24\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl L. Larsson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Karlsson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Johansson\",\n    \"marriageDate\": \"1933\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bo\",\n    \"birthDate\": \"1942\"\n  },\n  \"occupation\": {\n    \"@type\": \"MedicalSpecialty\",\n    \"name\": \"Dentist\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Östra Real\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Dental School\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Linköping Dental Practice\"\n  },\n  \"startDate\": \"1933\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl-Gustav Larsson",
+        "birthDate": "1910-12-24",
+        "birthPlace": "Stockholm, Sweden",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl L. Larsson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Karlsson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Signe Johansson",
+            "marriageDate": "1933"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Bo",
+            "birthDate": "1942"
+        },
+        "occupation": {
+            "@type": "MedicalSpecialty",
+            "name": "Dentist"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Östra Real",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Dental School",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "endDate": "1931"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Linköping Dental Practice"
+        },
+        "startDate": "1933"
+    }
+}

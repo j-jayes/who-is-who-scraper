@@ -1,0 +1,112 @@
+{
+    "original": "Lindström, Carl Anton, stadssekreterare, fd. .brandchef, Visby, f. 9/9/79 i Öja, Gotl. 1., av kronolänsman J. A. Tv. o. Gustafva Alunthe, G. 12 m. Blenda Backman. Barn: Arne f. 13, Ingvar 17. —• Mog:ex. 98, jur. stud. 99. Fd. brandchef i Visby. Sekr. i stadsfullm., kyrkofullm., kyrkoråd, byggn:nd, hamndir., dir. f. S :t Olofs sjukh., ’Styr. f. Gotl. Järnv. A-B samt Angfart. A-B Gotl., v. ordf. o. ’sekr. i Gotl. Jänsfören. mot tuberk., styr:-ordf. i fören. Visby idr :p!lats u. p. a. samt Visby idr:haHs fören. u. p. a. RVO, Städernas AHm. Brandstodsbol. GM, Brand- o. Lifförsäkr. A-B Svea GM, PatrGM.",
+    "translated": "Lindström, Carl Anton, city secretary, former fire chief, Visby, b. 9/9/79 in Öja, Gotland, son of district sheriff J. A. Tv. and Gustafva Alunthe, Married on 12/xx/yy to Blenda Backman. Children: Arne b. 1913, Ingvar b. 1917. Completed secondary school exam in 1898, studied law in 1899. Former fire chief in Visby. Secretary in city council, church council, church board, building commission, harbor directorate, director of St. Olofs Hospital. Board member of Gotland Railway AB and Angfart AB Gotland. Vice chairman and secretary of Gotland Tuberculosis Society. Chairman of Visby Sports Field Association and Visby Sports Association. Received the Royal Order of Vasa, Swedish Cities' Insurance Company. Spouses mentioned are Blenda Backman and there is no specified year of marriage.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Anton Lindström\",\n  \"birthDate\": \"1879-09-09\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Öja\",\n      \"addressRegion\": \"Gotland\"\n    }\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Blenda Backman\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne\",\n      \"birthDate\": \"1913\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar\",\n      \"birthDate\": \"1917\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary\",\n      \"dateEarned\": \"1898\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"studyType\": \"Law\",\n      \"dateEarned\": \"1899\"\n    }\n  ],\n  \"jobTitle\": [\n    \"City Secretary\",\n    \"Former Fire Chief\"\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Visby\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Commission\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Harbor Directorate\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"St. Olofs Hospital\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland Railway AB\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Angfart AB Gotland\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gotland Tuberculosis Society\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Visby Sports Field Association\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Visby Sports Association\"\n    }\n  ],\n  \"honorificSuffix\": \"RVO\",\n  \"award\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of Vasa\"\n  },\n  \"sameAs\": [\n    \"https://www.example.com/carl-anton-lindstrom\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Anton Lindström",
+        "birthDate": "1879-09-09",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Öja",
+                "addressRegion": "Gotland"
+            }
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Blenda Backman"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Arne",
+                "birthDate": "1913"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingvar",
+                "birthDate": "1917"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary",
+                "dateEarned": "1898"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "studyType": "Law",
+                "dateEarned": "1899"
+            }
+        ],
+        "jobTitle": [
+            "City Secretary",
+            "Former Fire Chief"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Visby"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "City Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "Church Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "Building Commission"
+            },
+            {
+                "@type": "Organization",
+                "name": "Harbor Directorate"
+            },
+            {
+                "@type": "Organization",
+                "name": "St. Olofs Hospital"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland Railway AB"
+            },
+            {
+                "@type": "Organization",
+                "name": "Angfart AB Gotland"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gotland Tuberculosis Society"
+            },
+            {
+                "@type": "Organization",
+                "name": "Visby Sports Field Association"
+            },
+            {
+                "@type": "Organization",
+                "name": "Visby Sports Association"
+            }
+        ],
+        "honorificSuffix": "RVO",
+        "award": {
+            "@type": "Order",
+            "name": "Royal Order of Vasa"
+        },
+        "sameAs": [
+            "https://www.example.com/carl-anton-lindstrom"
+        ]
+    }
+}

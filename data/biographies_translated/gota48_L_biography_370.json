@@ -1,0 +1,88 @@
+{
+    "original": "Lindstam, Nils Tryggve Efraim, komminister. Mönsterås, f. 11/5/06 i Annerstad, Kronob. 1., av kyrkoh. Efraim L. o. Emma Nilsson. G. 36 m. Anna-Lisa Nilsson. Barn: Margareta f. 37, Ingrid 39, Birgitta 42. — Stud:-ex. 28, teol. fil. ex. 29 samt teol. kand. o. prakt. teol. prov 34 i Lund, prästex. i Växjö, prästv. f. Växjö stift 35. Tjg. s. e. o. prästman i Mortorp, Oskar o. Hagshult, kommin. i Hagshult 38, i Mönsterås sed. 44.",
+    "translated": "Lindstam, Nils Tryggve Efraim, curate. Mönsterås, born on May 11, 1906 in Annerstad, Kronoburg County. First child of the churchman Efraim L. and Emma Nilsson. Married in 1936 to Anna-Lisa Nilsson. Children: Margareta born in 1937, Ingrid in 1939, Birgitta in 1942. Completed studies at the age of 28, obtained a Bachelor's degree in theology in 1929, and a theological candidate and practical theological examination in 1934 in Lund, ordained as a priest in Växjö, received the ministerial license in the Växjö diocese in 1935. Served as an assistant curate in Mortorp, Oskar, and Hagshult, and as a curate in Hagshult from 1938. Has been serving as a curate in Mönsterås since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Tryggve Efraim Lindstam\",\n  \"birthDate\": \"1906-05-11\",\n  \"birthPlace\": \"Annerstad, Kronoburg County\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Efraim L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Nilsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Lisa Nilsson\",\n    \"marriageDate\": \"1936\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:-ex.\",\n      \"earnedBy\": \"Nils Tryggve Efraim Lindstam\",\n      \"dateAwarded\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"teol. fil. ex.\",\n      \"earnedBy\": \"Nils Tryggve Efraim Lindstam\",\n      \"dateAwarded\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"teol. kand. o. prakt. teol. prov\",\n      \"earnedBy\": \"Nils Tryggve Efraim Lindstam\",\n      \"dateAwarded\": \"1934\"\n    }\n  ],\n  \"profession\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Curate\",\n      \"memberOf\": \"Mönsterås\"\n    }\n  ],\n  \"ordainedBy\": \"Växjö diocese\",\n  \"ordainedDate\": \"1935\",\n  \"memberOf\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant Curate\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1944\",\n      \"memberOf\": \"Hagshult\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Curate\",\n      \"startDate\": \"1944\",\n      \"memberOf\": \"Mönsterås\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Tryggve Efraim Lindstam",
+        "birthDate": "1906-05-11",
+        "birthPlace": "Annerstad, Kronoburg County",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Efraim L."
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Nilsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Lisa Nilsson",
+            "marriageDate": "1936"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:-ex.",
+                "earnedBy": "Nils Tryggve Efraim Lindstam",
+                "dateAwarded": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "teol. fil. ex.",
+                "earnedBy": "Nils Tryggve Efraim Lindstam",
+                "dateAwarded": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "teol. kand. o. prakt. teol. prov",
+                "earnedBy": "Nils Tryggve Efraim Lindstam",
+                "dateAwarded": "1934"
+            }
+        ],
+        "profession": [
+            {
+                "@type": "Occupation",
+                "name": "Curate",
+                "memberOf": "Mönsterås"
+            }
+        ],
+        "ordainedBy": "Växjö diocese",
+        "ordainedDate": "1935",
+        "memberOf": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant Curate",
+                "startDate": "1938",
+                "endDate": "1944",
+                "memberOf": "Hagshult"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Curate",
+                "startDate": "1944",
+                "memberOf": "Mönsterås"
+            }
+        ]
+    }
+}

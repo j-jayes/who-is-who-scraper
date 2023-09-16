@@ -1,0 +1,86 @@
+{
+    "original": "Larsson, Erik, civilingenjör, Göteborg, f. 9/9/98 i Hälsingborg. G. 27 m. Ingeborg Torjusen. Barn: Tordis-Karin f. 28, Karl-Thomas 30, Eva Margareta 38, Inga 40. — Utex. fr. CTH 21. Anst. v. Fredriksstads Mek. Verkst. 22-23, Blyth Shipbuilding &amp; Dry Dock Co. i Engl. 24, Eriksbergs Mek. Verkst. i Gbg 25-27, Götaverken 27-38, därefter v. A-B Lindholmens Varv, verkst. dir. i bolaget sed. 42. RNS:tOO.",
+    "translated": "Larsson, Erik, engineer, Gothenburg, b. 9/9/1898 in Helsingborg. Married on 27, (year unknown) to Ingeborg Torjusen. Children: Tordis-Karin b. 28, Karl-Thomas b. 30, Eva Margareta b. 38, Inga b. 40. Graduated from Chalmers University of Technology in 1921. Employed at Fredriksstads Mekaniske Verksted from 1922-1923, Blyth Shipbuilding & Dry Dock Co. in England in 1924, Eriksbergs Mekaniska Verkstad in Gothenburg from 1925-1927, Götaverken from 1927-1938, and subsequently at A-B Lindholmens Varv, serving as the company's director since 1942. Member of the Royal Swedish Academy of Sciences since unknown year.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Erik Larsson\",\n  \"jobTitle\": \"Engineer\",\n  \"birthPlace\": \"Helsingborg\",\n  \"birthDate\": \"1898-09-09\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Torjusen\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tordis-Karin\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Thomas\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Margareta\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga\",\n      \"birthDate\": \"1940\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Chalmers University of Technology\",\n    \"startDate\": \"1921\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Royal Swedish Academy of Sciences\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fredriksstads Mekaniske Verksted\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Blyth Shipbuilding & Dry Dock Co.\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\",\n      \"location\": \"England\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eriksbergs Mekaniska Verkstad\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1927\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Götaverken\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Lindholmens Varv\",\n      \"startDate\": \"1942\",\n      \"roleName\": \"Director\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Erik Larsson",
+        "jobTitle": "Engineer",
+        "birthPlace": "Helsingborg",
+        "birthDate": "1898-09-09",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Torjusen"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Tordis-Karin",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl-Thomas",
+                "birthDate": "1930"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Margareta",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga",
+                "birthDate": "1940"
+            }
+        ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Chalmers University of Technology",
+            "startDate": "1921"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Royal Swedish Academy of Sciences"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "Fredriksstads Mekaniske Verksted",
+                "startDate": "1922",
+                "endDate": "1923"
+            },
+            {
+                "@type": "Organization",
+                "name": "Blyth Shipbuilding & Dry Dock Co.",
+                "startDate": "1924",
+                "endDate": "1924",
+                "location": "England"
+            },
+            {
+                "@type": "Organization",
+                "name": "Eriksbergs Mekaniska Verkstad",
+                "startDate": "1925",
+                "endDate": "1927",
+                "location": "Gothenburg"
+            },
+            {
+                "@type": "Organization",
+                "name": "Götaverken",
+                "startDate": "1927",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Lindholmens Varv",
+                "startDate": "1942",
+                "roleName": "Director"
+            }
+        ]
+    }
+}

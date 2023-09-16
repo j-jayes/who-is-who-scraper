@@ -1,0 +1,79 @@
+{
+    "original": "Lokrantz, Jonas, distriktsveterinär. Mörtfors, f. 10/3/05 i Eksjö av fält-veter. Sven L. o. Anna Maria Lönndahl. G. 34 m. Ellen Lock. Barn: Jan f. 37, Christina 39, Feter 42, Carl Johan 45. — Stud:ex. 25, veter:ex. 33. Ord. assist :veter. v. Skarab. läns hus-fa :!sällsk. 36-41, distr:veter. i Mörtfors dlstr. sed. 41.",
+    "translated": "Lokrantz, Jonas, district veterinarian. Born in Mörtfors on March 10, 1905 to field veterinarian Sven L. and Anna Maria Lönndahl. Married in 1934 to Ellen Lock. Children: Jan, born in 1937; Christina, born in 1939; Feter, born in 1942; Carl Johan, born in 1945. Education: graduated in 1925; veterinary degree obtained in 1933. Started as an assistant veterinarian at the Skaraborg County House-Animal Society from 1936 to 1941, then became the district veterinarian in Mörtfors district from 1941 onwards.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Jonas Lokrantz\",\n  \"birthDate\": \"1905-03-10\",\n  \"birthPlace\": \"Mörtfors, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"District Veterinarian\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven L.\",\n      \"jobTitle\": \"Field Veterinarian\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Maria Lönndahl\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Lock\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jan Lokrantz\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Lokrantz\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Feter Lokrantz\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Johan Lokrantz\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Graduation\",\n      \"startDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Veterinary Degree\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skaraborg County House-Animal Society\",\n      \"jobTitle\": \"Assistant Veterinarian\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mörtfors District\",\n      \"jobTitle\": \"District Veterinarian\",\n      \"startDate\": \"1941\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Jonas Lokrantz",
+        "birthDate": "1905-03-10",
+        "birthPlace": "Mörtfors, Sweden",
+        "nationality": "Swedish",
+        "occupation": "District Veterinarian",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Sven L.",
+                "jobTitle": "Field Veterinarian"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Maria Lönndahl"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Lock",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jan Lokrantz",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Christina Lokrantz",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Feter Lokrantz",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Carl Johan Lokrantz",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Graduation",
+                "startDate": "1925"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Veterinary Degree",
+                "startDate": "1933"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Organization",
+                "name": "Skaraborg County House-Animal Society",
+                "jobTitle": "Assistant Veterinarian",
+                "startDate": "1936",
+                "endDate": "1941"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mörtfors District",
+                "jobTitle": "District Veterinarian",
+                "startDate": "1941"
+            }
+        ]
+    }
+}

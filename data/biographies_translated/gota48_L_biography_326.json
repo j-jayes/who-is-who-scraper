@@ -1,0 +1,81 @@
+{
+    "original": "Lindgren, Olof August, telegraf-kommissarie, Växjö, f. 28/2/86 i Nämdö, Sthlms 1., av kommin. Oskar L. o. Elisabet Hadders. G. 17 m. Anna Vidén. Barn: Greta f. 22, Caisa 25. — Stud:ex. 06, telegr:kurs s. å. Telegr :komm. i Växjö fr. 42. Utg. av Kronob. 1. tel :katalog.",
+    "translated": "Lindgren, Olof August, telegraph commissioner, Växjö, born on February 28, 1886 in Nämdö, Stockholm's 1st district, son of the clergyman Oskar L. and Elisabet Hadders. Married on the 17th of the month with Anna Vidén. Children: Greta, born in 1922, Caisa born in 1925. Completed high school in 1906, telegraph course in the same year. Became a telegraph commissioner in Växjö from 1942. Published the first telephone catalog for Kronoberg County.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof August Lindgren\",\n  \"birthDate\": \"1886-02-28\",\n  \"birthPlace\": \"Nämdö, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Telegraph Commissioner\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Växjö\",\n    \"addressRegion\": \"Kronoberg County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oskar L. Lindgren\",\n      \"jobTitle\": \"Clergyman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elisabet Hadders\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Vidén\",\n    \"marriageDate\": \"yyyy-mm-dd\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Greta Lindgren\",\n      \"birthDate\": \"1922\",\n      \"birthPlace\": \"Växjö, Sweden\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Caisa Lindgren\",\n      \"birthDate\": \"1925\",\n      \"birthPlace\": \"Växjö, Sweden\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud:ex\",\n      \"credentialEarned\": \"high school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"additionalType\": \"Swedish gymnasium\",\n      \"startDate\": \"1906\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"telegr:kurs\",\n      \"credentialEarned\": \"telegraph course\",\n      \"startDate\": \"1906\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Telegraph Bureau\",\n    \"location\": {\n      \"@type\": \"Place\",\n      \"name\": \"Växjö, Sweden\"\n    },\n    \"startDate\": \"1942\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Kronoberg County\",\n    \"additionalType\": \"telecommunications\",\n    \"startDate\": \"1942\",\n    \"endDate\": \"1943\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof August Lindgren",
+        "birthDate": "1886-02-28",
+        "birthPlace": "Nämdö, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": "Telegraph Commissioner",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Växjö",
+            "addressRegion": "Kronoberg County"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Oskar L. Lindgren",
+                "jobTitle": "Clergyman"
+            },
+            {
+                "@type": "Person",
+                "name": "Elisabet Hadders"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Vidén",
+            "marriageDate": "yyyy-mm-dd"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Greta Lindgren",
+                "birthDate": "1922",
+                "birthPlace": "Växjö, Sweden"
+            },
+            {
+                "@type": "Person",
+                "name": "Caisa Lindgren",
+                "birthDate": "1925",
+                "birthPlace": "Växjö, Sweden"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex",
+                "credentialEarned": "high school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "additionalType": "Swedish gymnasium",
+                "startDate": "1906"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "telegr:kurs",
+                "credentialEarned": "telegraph course",
+                "startDate": "1906"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Telegraph Bureau",
+            "location": {
+                "@type": "Place",
+                "name": "Växjö, Sweden"
+            },
+            "startDate": "1942"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Kronoberg County",
+            "additionalType": "telecommunications",
+            "startDate": "1942",
+            "endDate": "1943"
+        }
+    }
+}

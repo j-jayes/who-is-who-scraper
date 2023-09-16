@@ -1,0 +1,158 @@
+{
+    "original": "Ljungvik, Carl Gunnar, läroverksadjunkt, Mariestad, f. 22/9/88 i Flisby, Jönköp. 1. — Stud:ex. i Linköp. 09, fil. mag. li Upps. 13, provår i Gbg 18. Extralär. i Linköp. 13, lär. v. Bollnäs ensk. lärov. 14-16, vik. adj. i Visby 16-17, v. Gbgs h. real 17, extralär. i Härnösand 18-20, e. o. lektor i Eksjö 20-21, ord. ämneslär. i Ronneby 21, adj. där 29, adj. i matem., fysik o. kemi v. Mariestads samrealsk. ised. 31. Hobby: trädg :skötsel.",
+    "translated": "Ljungvik, Carl Gunnar, high school teacher, Mariestad, b. 22/9/88 in Flisby, Jönköping, Sweden. - Completed secondary education in Linköping in 1909, obtained a Bachelor of Arts degree from Uppsala University in 1913, attended a trial year in Gothenburg in 1918. Worked as an assistant teacher in Linköping from 1913, teacher at Bollnäs private secondary school from 1914 to 1916, substitute teacher in Visby from 1916 to 1917, assistant teacher at Gothenburg's Högre Realläroverk from 1917, extracurricular teacher in Härnösand from 1918 to 1920, temporary lecturer in Eksjö from 1920 to 1921, regular subject teacher in Ronneby from 1921, assistant teacher there from 1929, and subject teacher in mathematics, physics, and chemistry at Mariestads samrealskola from 1931. Hobby: gardening. \n\nNote: The abbreviation '\\d\\d m. partners name' indicates that the person got married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gunnar Ljungvik\",\n  \"jobTitle\": \"High School Teacher\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Mariestad\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"birthDate\": \"1888-09-22\",\n  \"birthPlace\": \"Flisby, Jönköping, Sweden\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondaryEducation\",\n      \"educationalLevel\": \"SecondarySchool\",\n      \"educationalProgram\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Linköping\",\n      \"dateAttended\": [\n        {\n          \"@type\": \"EducationEvent\",\n          \"startDate\": \"1909\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"BachelorDegree\",\n      \"educationalDegree\": \"Bachelor of Arts\",\n      \"educationalInstitution\": \"Uppsala University\",\n      \"dateAttended\": [\n        {\n          \"@type\": \"EducationEvent\",\n          \"startDate\": \"1913\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalProgram\": \"Trial Year\",\n      \"educationalInstitution\": \"Gothenburg\",\n      \"dateAttended\": [\n        {\n          \"@type\": \"EducationEvent\",\n          \"startDate\": \"1918\"\n        }\n      ]\n    }\n  ],\n  \"jobTitleHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant Teacher\",\n      \"roleName\": \"extralärare\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1915\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Teacher\",\n      \"roleName\": \"lärare\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1916\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Bollnäs private secondary school\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Substitute Teacher\",\n      \"roleName\": \"vikarierande lärare\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1917\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Visby\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant Teacher\",\n      \"roleName\": \"väckelseadjunkt\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg's Högre Realläroverk\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Extracurricular Teacher\",\n      \"roleName\": \"extralärare\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1920\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Härnösand\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Temporary Lecturer\",\n      \"roleName\": \"extra ordinarie lärare\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1921\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Eksjö\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Regular Subject Teacher\",\n      \"roleName\": \"ordinarie ämneslärare\",\n      \"startDate\": \"1921\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ronneby\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant Teacher\",\n      \"roleName\": \"adjunkt\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ronneby\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Subject Teacher\",\n      \"roleName\": \"ämneslärare\",\n      \"startDate\": \"1931\",\n      \"affiliation\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Mariestads samrealskola\"\n      }\n    }\n  ],\n  \"hobbies\": [\n    \"gardening\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Gunnar Ljungvik",
+        "jobTitle": "High School Teacher",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mariestad",
+            "addressCountry": "Sweden"
+        },
+        "birthDate": "1888-09-22",
+        "birthPlace": "Flisby, Jönköping, Sweden",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondaryEducation",
+                "educationalLevel": "SecondarySchool",
+                "educationalProgram": "Stud:ex.",
+                "educationalInstitution": "Linköping",
+                "dateAttended": [
+                    {
+                        "@type": "EducationEvent",
+                        "startDate": "1909"
+                    }
+                ]
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "BachelorDegree",
+                "educationalDegree": "Bachelor of Arts",
+                "educationalInstitution": "Uppsala University",
+                "dateAttended": [
+                    {
+                        "@type": "EducationEvent",
+                        "startDate": "1913"
+                    }
+                ]
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalProgram": "Trial Year",
+                "educationalInstitution": "Gothenburg",
+                "dateAttended": [
+                    {
+                        "@type": "EducationEvent",
+                        "startDate": "1918"
+                    }
+                ]
+            }
+        ],
+        "jobTitleHistory": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant Teacher",
+                "roleName": "extralärare",
+                "startDate": "1913",
+                "endDate": "1915",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Linköping"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Teacher",
+                "roleName": "lärare",
+                "startDate": "1914",
+                "endDate": "1916",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Bollnäs private secondary school"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Substitute Teacher",
+                "roleName": "vikarierande lärare",
+                "startDate": "1916",
+                "endDate": "1917",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Visby"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant Teacher",
+                "roleName": "väckelseadjunkt",
+                "startDate": "1917",
+                "endDate": "1917",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Gothenburg's Högre Realläroverk"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Extracurricular Teacher",
+                "roleName": "extralärare",
+                "startDate": "1918",
+                "endDate": "1920",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Härnösand"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Temporary Lecturer",
+                "roleName": "extra ordinarie lärare",
+                "startDate": "1920",
+                "endDate": "1921",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Eksjö"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Regular Subject Teacher",
+                "roleName": "ordinarie ämneslärare",
+                "startDate": "1921",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Ronneby"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant Teacher",
+                "roleName": "adjunkt",
+                "startDate": "1929",
+                "endDate": "1931",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Ronneby"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Subject Teacher",
+                "roleName": "ämneslärare",
+                "startDate": "1931",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Mariestads samrealskola"
+                }
+            }
+        ],
+        "hobbies": [
+            "gardening"
+        ]
+    }
+}

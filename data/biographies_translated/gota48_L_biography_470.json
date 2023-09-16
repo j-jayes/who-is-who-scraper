@@ -1,0 +1,117 @@
+{
+    "original": "Ljungqvist, Johan (John) Bernhard, stadsläkare. Kungälv, f. 31/10/94 i Synnerby, Skarab. 1., av Carl L. o. Charlotta Johansson. G. m. Rosa Claesson. Barn: Sylvia f. 20, Karl-Johan 29, Clas 31. — Studrex. i Skara 18, med. kand. i Upps. 22, med. lic. i Sthlm 26. Kort. förordn. i Ronneby, Råneå, Pajala, Arjeplogs, Arvidsjaurs, Mörsiis o. Bräcke distr. samt s. stads-’läk. i Mölndal 26-27, as^sist :läk. v. Sahlgrenska sjukh. samma tid, tf. undiläk. v. Östersunds las. 27-28, bitr. läk. v. Holtermanska sjukh. 28-29, prakt. läk. i Partille 29-31, stadsläk. i Kungälv sed. 31.",
+    "translated": "Ljungqvist, Johan (John) Bernhard, city physician. Kungälv, born on October 31, 1894 in Synnerby, Skaraborg County, the first child of Carl L. and Charlotta Johansson. Married to Rosa Claesson. Children: Sylvia, born in 1920, Karl-Johan born in 1929, Clas born in 1931. Completed studies in Skara in 1918, received Bachelor of Medicine degree in Uppsala in 1922, became licensed doctor in Stockholm in 1926. Held short-term positions in Ronneby, Råneå, Pajala, Arjeplog, Arvidsjaur, Mörsil, and Bräcke districts, as well as city physician in Mölndal from 1926 to 1927. Also worked as assistant physician at Sahlgrenska Hospital during the same time period. Served as temporary deputy physician at Östersund Hospital from 1927 to 1928, assistant physician at Holtermanska Hospital from 1928 to 1929, and practicing physician in Partille from 1929 to 1931. Became city physician in Kungälv in 1931.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Ljungqvist\",\n  \"alternateName\": \"John Bernhard Ljungqvist\",\n  \"jobTitle\": \"City Physician\",\n  \"birthDate\": \"1894-10-31\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Synnerby\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl L. Johansson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Charlotta Johansson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rosa Claesson\",\n    \"gender\": \"female\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sylvia\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Johan\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Clas\",\n      \"birthDate\": \"1931\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Medicine\",\n      \"educationalRole\": \"Studrex\",\n      \"alumniOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Skara\"\n      },\n      \"startDate\": \"1918\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"license\",\n      \"educationalCredentialAwarded\": \"Medical license\",\n      \"alumniOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      },\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1927\",\n      \"roleName\": \"City Physician\",\n      \"namedPosition\": \"Mölndal\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Temporary Deputy Physician\",\n      \"namedPosition\": \"Östersund Hospital\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\",\n      \"roleName\": \"Assistant Physician\",\n      \"namedPosition\": \"Holtermanska Hospital\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"roleName\": \"Practicing Physician\",\n      \"namedPosition\": \"Partille\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1931\",\n      \"roleName\": \"City Physician\",\n      \"namedPosition\": \"Kungälv\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Johan Ljungqvist",
+        "alternateName": "John Bernhard Ljungqvist",
+        "jobTitle": "City Physician",
+        "birthDate": "1894-10-31",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Synnerby",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Sweden"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Carl L. Johansson",
+                "gender": "male"
+            },
+            {
+                "@type": "Person",
+                "name": "Charlotta Johansson",
+                "gender": "female"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Rosa Claesson",
+            "gender": "female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sylvia",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Karl-Johan",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Clas",
+                "birthDate": "1931"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Medicine",
+                "educationalRole": "Studrex",
+                "alumniOf": {
+                    "@type": "Organization",
+                    "name": "Skara"
+                },
+                "startDate": "1918",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "license",
+                "educationalCredentialAwarded": "Medical license",
+                "alumniOf": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                },
+                "startDate": "1926",
+                "endDate": "1926"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1926",
+                "endDate": "1927",
+                "roleName": "City Physician",
+                "namedPosition": "Mölndal"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1927",
+                "endDate": "1928",
+                "roleName": "Temporary Deputy Physician",
+                "namedPosition": "Östersund Hospital"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "endDate": "1929",
+                "roleName": "Assistant Physician",
+                "namedPosition": "Holtermanska Hospital"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1929",
+                "endDate": "1931",
+                "roleName": "Practicing Physician",
+                "namedPosition": "Partille"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1931",
+                "roleName": "City Physician",
+                "namedPosition": "Kungälv"
+            }
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "original": "Landby, Bengt Lars Gösta, civilingenjör SVR, Göteborg, f. 24/11/19 i Gbg av major Gösta L. o. Lisa Ericson. G. 43 m. Margit Dering. Barn: Maud f. 44, Claes 46. — Stud:ex. i Gbg 38, utex. fr. CTH 42, byggmäst:-rättigh. i Gbg sed. 46. Arb :chef h. samt deläg. o. styr :led. i Beton A-B Vestra Sverige i Gbg. Led. av Tekn. samf. sed. 42, Sv. tekn:fören. o. SVR sed. 44.",
+    "translated": "Landby, Bengt Lars Gösta, engineer SVR, Gothenburg, b. 24/11/1919 in Gothenburg to Major Gösta L. and Lisa Ericson. Married in 1943 to Margit Dering. Children: Maud b. 1944, Claes b. 1946. — Completed secondary school in Gothenburg in 1938, graduated from the Chalmers University of Technology in 1942, obtained building rights in Gothenburg in 1946. Currently works as a manager and part-owner, as well as a board member, at Beton AB Vestra Sverige in Gothenburg. Member of the Technical Society since 1942, and of the Swedish Technical Association and SVR (presumably an abbreviation for an engineering organization) since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Lars Gösta Landby\",\n  \"birthDate\": \"1919-11-24\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"description\": \"Civil Engineer\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Beton AB Vestra Sverige\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gothenburg\"\n    }\n  },\n  \"familyName\": \"Landby\",\n  \"givenName\": \"Bengt Lars Gösta\",\n  \"gender\": \"Male\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gösta L.\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lisa Ericson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Dering\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maud\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary school certificate\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg Secondary School\"\n      },\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"University degree\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Chalmers University of Technology\",\n        \"location\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\"\n        }\n      },\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"GovernmentBuildingLicense\",\n      \"name\": \"Building rights in Gothenburg\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Society\",\n      \"startDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Technical Association\",\n      \"startDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SVR\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bengt Lars Gösta Landby",
+        "birthDate": "1919-11-24",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "description": "Civil Engineer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Beton AB Vestra Sverige",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Gothenburg"
+            }
+        },
+        "familyName": "Landby",
+        "givenName": "Bengt Lars Gösta",
+        "gender": "Male",
+        "father": {
+            "@type": "Person",
+            "name": "Gösta L."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Lisa Ericson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Dering",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Maud",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Claes",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary school certificate",
+                "educationalLevel": "SecondaryEducation",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg Secondary School"
+                },
+                "endDate": "1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "University degree",
+                "educationalLevel": "Bachelor's degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Chalmers University of Technology",
+                    "location": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    }
+                },
+                "endDate": "1942"
+            },
+            {
+                "@type": "GovernmentBuildingLicense",
+                "name": "Building rights in Gothenburg",
+                "startDate": "1946"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Technical Society",
+                "startDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Technical Association",
+                "startDate": "1944"
+            },
+            {
+                "@type": "Organization",
+                "name": "SVR",
+                "startDate": "1944"
+            }
+        ]
+    }
+}

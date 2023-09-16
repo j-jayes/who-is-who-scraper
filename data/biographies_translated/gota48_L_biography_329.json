@@ -1,0 +1,81 @@
+{
+    "original": "Lindgren, Per-Gösta Alvar, tandläkare, Göteborg, f. 17/8/04 i Gbg av köpm. Otto L. o. Anna Christoffers-son. G. 43 m. tandl. Margit Holmgren. Barn: Hans f. 44, Jonas 46. — Stud:ex. i Sthlm 26, tandl :kand. 28, tandläkare 30. Vik. i Karlskrona 31, praktik i Gbg sed. 31, skoltandl. i Säve sed. 32.",
+    "translated": "Lindgren, Per-Gösta Alvar, dentist, Gothenburg, born on 17/8/04 in Gothenburg, son of merchant Otto L. and Anna Christofferson. Married in 1943 to dentist Margit Holmgren. Children: Hans, born in 1944, Jonas, born in 1946. Completed secondary school in Stockholm in 1926, earned a dental degree in 1928, became a dentist in 1930. Temporarily worked in Karlskrona in 1931, practiced in Gothenburg since 1931, and worked as a school dentist in Säve since 1932.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per-Gösta Alvar Lindgren\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1904-08-17\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Otto L. Lindgren\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Christofferson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Holmgren\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jonas\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchool\",\n      \"educationalLevel\": \"Completion\",\n      \"endDate\": \"1926\",\n      \"awardingInstitution\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"DentalDegree\",\n      \"educationalLevel\": \"Master'sDegree\",\n      \"endDate\": \"1928\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg Dental Practice\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Karlskrona\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Säve\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Per-Gösta Alvar Lindgren",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1904-08-17",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Otto L. Lindgren",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Christofferson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Holmgren",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Jonas",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondarySchool",
+                "educationalLevel": "Completion",
+                "endDate": "1926",
+                "awardingInstitution": "Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "DentalDegree",
+                "educationalLevel": "Master'sDegree",
+                "endDate": "1928"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg Dental Practice"
+        },
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Karlskrona",
+                "startDate": "1931",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Place",
+                "name": "Gothenburg",
+                "startDate": "1931"
+            },
+            {
+                "@type": "Place",
+                "name": "Säve"
+            }
+        ]
+    }
+}

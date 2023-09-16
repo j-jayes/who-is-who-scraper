@@ -1,0 +1,87 @@
+{
+    "original": "Magnusson, Albin Dag Ingemar, advokat, Göteborg, f. 31/7/09 i Gbg av Niils Albin M. o. Tora Stenberg. G. 37 m. Ingeborg Forshell Barn: Dag-Björn f. 39, Karin Elisabeth 41, Oiof Anders 42, Ingeborg Margareta 47. — Stud:ex. v. Gbgs h. latin 29, jur. kand. i Sthlm 34. Tingstjg. i Inlands doms. 34-37, egen adv:verksamh. i Gbg sed. 37. Led. av Sv:es adv:samf. sed. 39.",
+    "translated": "Magnusson, Albin Dag Ingemar, lawyer, Gothenburg, b. 31/7/09 in Gothenburg to Niils Albin M. and Tora Stenberg. Married in 1937 to Ingeborg Forshell. Children: Dag-Björn b. 1939, Karin Elisabeth b. 1941, Oiof Anders b. 1942, Ingeborg Margareta b. 1947. Completed secondary school at Gothenburg's Latin School in 1929, graduated with a law degree in Stockholm in 1934. Served as a court clerk in the Inlands district court from 1934 to 1937, started his own law practice in Gothenburg in 1937. Became a member of the Swedish Bar Association in 1939.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Albin Dag Ingemar Magnusson\",\n  \"birthDate\": \"1909-07-31\",\n  \"birthPlace\": \"Gothenburg, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Niils Albin Magnusson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tora Stenberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Forshell\",\n    \"marriageDate\": \"1937\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Dag-Björn Magnusson\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Elisabeth Magnusson\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oiof Anders Magnusson\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingeborg Margareta Magnusson\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondarySchool\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationCredentialAwarded\": \"Secondary School Certificate\",\n      \"awardDate\": \"1929\",\n      \"awarder\": \"Gothenburg's Latin School\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"degree\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"educationCredentialAwarded\": \"Juris Doctor\",\n      \"awardDate\": \"1934\",\n      \"awarder\": \"Stockholm University\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"WorkExperience\",\n      \"position\": \"Court Clerk\",\n      \"employer\": \"Inlands District Court\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"WorkExperience\",\n      \"position\": \"Lawyer\",\n      \"employer\": \"Self Employed\",\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Bar Association\",\n    \"membershipStartDate\": \"1939\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Albin Dag Ingemar Magnusson",
+        "birthDate": "1909-07-31",
+        "birthPlace": "Gothenburg, Sweden",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Niils Albin Magnusson"
+            },
+            {
+                "@type": "Person",
+                "name": "Tora Stenberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Forshell",
+            "marriageDate": "1937"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Dag-Björn Magnusson",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin Elisabeth Magnusson",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Oiof Anders Magnusson",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingeborg Margareta Magnusson",
+                "birthDate": "1947"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondarySchool",
+                "educationalLevel": "SecondaryEducation",
+                "educationCredentialAwarded": "Secondary School Certificate",
+                "awardDate": "1929",
+                "awarder": "Gothenburg's Latin School"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "degree",
+                "educationalLevel": "BachelorDegree",
+                "educationCredentialAwarded": "Juris Doctor",
+                "awardDate": "1934",
+                "awarder": "Stockholm University"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "WorkExperience",
+                "position": "Court Clerk",
+                "employer": "Inlands District Court",
+                "startDate": "1934",
+                "endDate": "1937"
+            },
+            {
+                "@type": "WorkExperience",
+                "position": "Lawyer",
+                "employer": "Self Employed",
+                "startDate": "1937"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Bar Association",
+            "membershipStartDate": "1939"
+        }
+    }
+}

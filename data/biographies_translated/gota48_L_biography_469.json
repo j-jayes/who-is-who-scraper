@@ -1,0 +1,149 @@
+{
+    "original": "Ljungqvist, Karl Daniel, provinsialläkare, Emmaboda, f. 22/3/98 i Sthlm av fabr. August L. o. Hilda Johans-dotter. G. 28 m. Judith Andersson. Barn: Astrid (ad :b.) f. 32, Birgitta 33, Carin 36. — Stud:ex. i Sthlm 17, med. kand. 22 o. med. lic. 27 v. Karol. inst. Assist :läk. v. Sabbatsb. sjukh. kir. avd. 25-26, tf. andre und :läk. v. Falu las. kk. avd. 26, tf. undrläk. v. Norrtälje las. samt tf. undiläk. v. Östersunds -las. 27, iindriäk. v. Norrtälje las. 29-31, tf. las:läk. två mån., tf. prov:läk. i ett flert. distr. 31-32, civ. läkistip. 32-33, prov:Iäk. i Lits distr. 33, i Emmaboda distr. sed. 43.",
+    "translated": "Ljungqvist, Karl Daniel, provincial doctor, Emmaboda, born 22/3/98 in Stockholm to factory worker August L. and Hilda Johansdotter. Married to Judith Andersson since 28. Children: Astrid (adopted), born 32, Birgitta, born 33, Carin, born 36. — Completed high school in Stockholm in 17, received Bachelor of Medicine in 22 and Medical Licentiate in 27 from the Karolinska Institute. Assistant doctor at Sabbatsberg Hospital, surgical department, from 25-26, temporary second assistant doctor at Falun Hospital, maternity ward, in 26, temporary junior doctor at Norrtälje Hospital and temporary junior doctor at Östersund Hospital in 27, resident doctor at Norrtälje Hospital from 29-31, temporary hospital doctor for two months, temporary district doctor in multiple districts from 31-32, civilian medical intern from 32-33, district doctor in Lits district from 33, district doctor in Emmaboda district since 43.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Daniel Ljungqvist\",\n  \"birthDate\": \"1898-03-22\",\n  \"birthPlace\": \"Stockholm\",\n  \"description\": \"Provincial doctor in Emmaboda\",\n  \"spouse\": \"Judith Andersson\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Astrid\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carin\",\n      \"birthDate\": \"1936\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Stockholm High School\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Karolinska Institute\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"awards\": [\n        {\n          \"@type\": \"BachelorDegree\",\n          \"name\": \"Bachelor of Medicine\",\n          \"startDate\": \"1917\",\n          \"endDate\": \"1922\"\n        },\n        {\n          \"@type\": \"MedicalDegree\",\n          \"name\": \"Medical Licentiate\",\n          \"startDate\": \"1922\",\n          \"endDate\": \"1927\"\n        }\n      ]\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sabbatsberg Hospital\",\n      \"department\": \"Surgical Department\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1926\",\n      \"position\": \"Assistant Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Falun Hospital\",\n      \"department\": \"Maternity Ward\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Falun\"\n      },\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"position\": \"Temporary Second Assistant Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Norrtälje Hospital\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Norrtälje\"\n      },\n      \"startDate\": \"1927\",\n      \"endDate\": \"1927\",\n      \"position\": \"Temporary Junior Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Östersund Hospital\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Östersund\"\n      },\n      \"startDate\": \"1927\",\n      \"endDate\": \"1927\",\n      \"position\": \"Temporary Junior Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Norrtälje Hospital\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Norrtälje\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1931\",\n      \"position\": \"Resident Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Multiple Districts\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\",\n      \"position\": \"Temporary District Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Civilian Medical Internship\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\",\n      \"position\": \"Civilian Medical Intern\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Lits District\",\n      \"startDate\": \"1933\",\n      \"position\": \"District Doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Emmaboda District\",\n      \"startDate\": \"1943\",\n      \"position\": \"District Doctor\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Daniel Ljungqvist",
+        "birthDate": "1898-03-22",
+        "birthPlace": "Stockholm",
+        "description": "Provincial doctor in Emmaboda",
+        "spouse": "Judith Andersson",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Astrid",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Carin",
+                "birthDate": "1936"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Stockholm High School",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Karolinska Institute",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "awards": [
+                    {
+                        "@type": "BachelorDegree",
+                        "name": "Bachelor of Medicine",
+                        "startDate": "1917",
+                        "endDate": "1922"
+                    },
+                    {
+                        "@type": "MedicalDegree",
+                        "name": "Medical Licentiate",
+                        "startDate": "1922",
+                        "endDate": "1927"
+                    }
+                ]
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sabbatsberg Hospital",
+                "department": "Surgical Department",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "startDate": "1925",
+                "endDate": "1926",
+                "position": "Assistant Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Falun Hospital",
+                "department": "Maternity Ward",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Falun"
+                },
+                "startDate": "1926",
+                "endDate": "1926",
+                "position": "Temporary Second Assistant Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Norrtälje Hospital",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Norrtälje"
+                },
+                "startDate": "1927",
+                "endDate": "1927",
+                "position": "Temporary Junior Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Östersund Hospital",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Östersund"
+                },
+                "startDate": "1927",
+                "endDate": "1927",
+                "position": "Temporary Junior Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Norrtälje Hospital",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Norrtälje"
+                },
+                "startDate": "1929",
+                "endDate": "1931",
+                "position": "Resident Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Multiple Districts",
+                "startDate": "1931",
+                "endDate": "1932",
+                "position": "Temporary District Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Civilian Medical Internship",
+                "startDate": "1932",
+                "endDate": "1933",
+                "position": "Civilian Medical Intern"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Lits District",
+                "startDate": "1933",
+                "position": "District Doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Emmaboda District",
+                "startDate": "1943",
+                "position": "District Doctor"
+            }
+        ]
+    }
+}

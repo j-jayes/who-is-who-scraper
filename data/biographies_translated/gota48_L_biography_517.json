@@ -1,0 +1,108 @@
+{
+    "original": "Lundberg, Carl Axel Gösta, kyrkoherde, Kvarsebo, f. 27/2/03 i Bälinge, Södermani. 1., av kyrkoh. Carl L. o. Anna Sahlin. G. 29 m. Anna Stina Sa-lenius. Barn: Birgitta f. 34, Gunilla 36, Torbjörn 43. — Stud:ex. i Nyköp. 22, teol. fil. ex. 24, teol. kand., prakt, teol. prov o. prästv. f. Strängnäs stift 26, fil. kand. 45. V. pastor inom Strängnäs stift 27-28, kommin. i Rasbo 29, kyrkoh. i Kvarsebo sed. 37.",
+    "translated": "Lundberg, Carl Axel Gösta, clergyman, Kvarsebo, born on February 27, 1903 in Bälinge, Södermani. First child of the clergyman Carl L. and Anna Sahlin. Married on March 29, 19xx to Anna Stina Salenius. Children: Birgitta born in 1934, Gunilla in 1936, Torbjörn in 1943. Completed high school in Nyköping in 1922, theology degree in 1924, theology licentiate, practical theology examination, and ordained as a priest in Strängnäs diocese in 1926, bachelor's degree in philosophy in 1945. Assistant pastor in Strängnäs diocese from 1927 to 1928, curate in Rasbo from 1929, and vicar in Kvarsebo since 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Axel Gösta Lundberg\",\n  \"birthDate\": \"1903-02-27\",\n  \"birthPlace\": \"Bälinge, Södermani\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl L.\",\n      \"jobTitle\": \"clergyman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Sahlin\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Stina Salenius\",\n    \"marriageDate\": \"19xx-03-29\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torbjörn\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud:ex\",\n      \"credentialSubject\": \"Nyköping High School\",\n      \"credentialEarned\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teol. fil. ex\",\n      \"credentialEarned\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teol. kand.\",\n      \"credentialEarned\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"prakt, teol. prov\",\n      \"credentialEarned\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"prästv\",\n      \"credentialEarned\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"fil. kand.\",\n      \"credentialEarned\": \"1945\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Pastor\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Strängnäs Diocese\"\n      },\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Curate\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rasbo\"\n      },\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Vicar\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kvarsebo\"\n      },\n      \"startDate\": \"1937\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Axel Gösta Lundberg",
+        "birthDate": "1903-02-27",
+        "birthPlace": "Bälinge, Södermani",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl L.",
+                "jobTitle": "clergyman"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Sahlin"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Stina Salenius",
+            "marriageDate": "19xx-03-29"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Torbjörn",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "stud:ex",
+                "credentialSubject": "Nyköping High School",
+                "credentialEarned": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teol. fil. ex",
+                "credentialEarned": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teol. kand.",
+                "credentialEarned": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "prakt, teol. prov",
+                "credentialEarned": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "prästv",
+                "credentialEarned": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "fil. kand.",
+                "credentialEarned": "1945"
+            }
+        ],
+        "work": [
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Pastor",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Strängnäs Diocese"
+                },
+                "startDate": "1927",
+                "endDate": "1928"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Curate",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Rasbo"
+                },
+                "startDate": "1929"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Vicar",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Kvarsebo"
+                },
+                "startDate": "1937"
+            }
+        ]
+    }
+}

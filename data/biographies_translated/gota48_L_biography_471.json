@@ -1,0 +1,113 @@
+{
+    "original": "Ljungquist, Karl Johan, tandläkare, Ulricehamn, f. 31/3/85 i Jönköping av fabr. Johan L. o. Mathilda Johansson. G. 10 m. Rut Werneström. Barn: Torsten f. 17, Gudrun 25. — Mog:ex. i Växjö 05, tandl :kand. 06, tandläkare 08. Praktik i Ulricehamn sed. 08, skol-tandl. där 20-32. Led. av stadsfullm. sed. 15, dess v. ordf. 20-25, huvudman i Ulricehamns Sparbank, ordf. i brand-’Styr., bl. a. fd. ordf. i stadsfullm. be-redn:utsk. o. i byggn:ndn, v. ordf. i elverksstyr., led. av drätselkamm., styr. f. komm. mellansk., folksk rstyr. samt ett flert. komm.",
+    "translated": "Ljungquist, Karl Johan, dentist, Ulricehamn, born on 31/3/85 in Jönköping to factory worker Johan L. and Mathilda Johansson. Married to Rut Werneström in 10 m. Children: Torsten born in 17, Gudrun born in 25. Previously: completed his magister's degree in Växjö in 05, dental degree in 06, became a dentist in 08. Practiced in Ulricehamn since 08, served as a school dentist from 20-32. Member of the city council since 15, its vice chairman from 20-25, head of Ulricehamns Sparbank, chairman of the fire department board, former chairman of the city council's committee on construction, vice chairman of the power plant board, member of the finance committee, board member of the community intermediate, primary school board, and several other commissions.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Johan Ljungquist\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Ulricehamn\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"birthDate\": \"1885-03-31\",\n  \"birthPlace\": \"Jönköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Mathilda Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rut Werneström\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torsten\",\n      \"birthDate\": \"1917\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gudrun\",\n      \"birthDate\": \"1925\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"magister's degree\",\n      \"educationalLevel\": \"postgraduate\",\n      \"educationalCredentialAwarded\": \"Växjö 1905\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dental degree\",\n      \"educationalLevel\": \"undergraduate\",\n      \"educationalCredentialAwarded\": \"1906\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Dentist\",\n      \"startDate\": \"1908\"\n    },\n    {\n      \"@type\": \"SchoolDentist\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1932\",\n      \"location\": \"Ulricehamn\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council\",\n      \"startDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ulricehamns Sparbank\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fire Department\",\n      \"roleName\": \"Chairman\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council Committee on Construction\",\n      \"roleName\": \"Former Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Power Plant Board\",\n      \"roleName\": \"Vice Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finance Committee\",\n      \"roleName\": \"Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Community Intermediate\",\n      \"roleName\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Primary School Board\",\n      \"roleName\": \"Member\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Johan Ljungquist",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ulricehamn",
+            "addressCountry": "Sweden"
+        },
+        "birthDate": "1885-03-31",
+        "birthPlace": "Jönköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan L."
+            },
+            {
+                "@type": "Person",
+                "name": "Mathilda Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Rut Werneström"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Torsten",
+                "birthDate": "1917"
+            },
+            {
+                "@type": "Person",
+                "name": "Gudrun",
+                "birthDate": "1925"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "magister's degree",
+                "educationalLevel": "postgraduate",
+                "educationalCredentialAwarded": "Växjö 1905"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dental degree",
+                "educationalLevel": "undergraduate",
+                "educationalCredentialAwarded": "1906"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "Dentist",
+                "startDate": "1908"
+            },
+            {
+                "@type": "SchoolDentist",
+                "startDate": "1920",
+                "endDate": "1932",
+                "location": "Ulricehamn"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "City Council",
+                "startDate": "1915"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ulricehamns Sparbank",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Fire Department",
+                "roleName": "Chairman",
+                "endDate": "1920"
+            },
+            {
+                "@type": "Organization",
+                "name": "City Council Committee on Construction",
+                "roleName": "Former Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Power Plant Board",
+                "roleName": "Vice Chairman"
+            },
+            {
+                "@type": "Organization",
+                "name": "Finance Committee",
+                "roleName": "Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Community Intermediate",
+                "roleName": "Board Member"
+            },
+            {
+                "@type": "Organization",
+                "name": "Primary School Board",
+                "roleName": "Member"
+            }
+        ]
+    }
+}

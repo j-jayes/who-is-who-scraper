@@ -1,0 +1,82 @@
+{
+    "original": "Larsson, Hugo Georg, distriktslantmätare, Svenljunga, f, 14/6/07 i Södra Kedum, Skarab. 1., av Josef Hugo L. o. Anna Maria Tålig. G. 36 m. Ellen Larsson. Barn: Sten f. 40, Anne-Marie 44. — Stud:ex, 26, lantmät:-ex. 31, kulturtekn, ex, 34, Tf, distr :-lantmät, i Sölvesborg distr, 45, distr :-lantmät, i Svenljunga distr, sed. 48.",
+    "translated": "Larsson, Hugo Georg, district surveyor, Svenljunga, born on June 14, 1907 in Södra Kedum, Skaraborg County, son of Josef Hugo L. and Anna Maria Tålig. Married in 1936 to Ellen Larsson. Children: Sten, born in 1940, Anne-Marie, born in 1944. Education: High school graduate in 1926, surveyor exam in 1931, cultural technology exam in 1934. Acting district surveyor in Sölvesborg district in 1945, district surveyor in Svenljunga district since 1948.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hugo Georg Larsson\",\n  \"jobTitle\": \"District Surveyor\",\n  \"birthDate\": \"1907-06-14\",\n  \"birthPlace\": {\n    \"@type\": \"Country\",\n    \"name\": \"Sweden\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Svenljunga\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Josef Hugo L. Larsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Maria Tålig\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Larsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sten Larsson\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie Larsson\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school graduate\",\n      \"educationalLevel\": \"High school\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Surveyor exam\",\n      \"educationalLevel\": \"Certificate\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Cultural technology exam\",\n      \"educationalLevel\": \"Certificate\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Acting District Surveyor\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"1948\",\n      \"namedPosition\": \"Sölvesborg District\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District Surveyor\",\n      \"startDate\": \"1948\",\n      \"namedPosition\": \"Svenljunga District\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Hugo Georg Larsson",
+        "jobTitle": "District Surveyor",
+        "birthDate": "1907-06-14",
+        "birthPlace": {
+            "@type": "Country",
+            "name": "Sweden"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Svenljunga",
+            "addressCountry": "Sweden"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Josef Hugo L. Larsson"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Maria Tålig"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ellen Larsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Sten Larsson",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Anne-Marie Larsson",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school graduate",
+                "educationalLevel": "High school",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Surveyor exam",
+                "educationalLevel": "Certificate",
+                "endDate": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Cultural technology exam",
+                "educationalLevel": "Certificate",
+                "endDate": "1934"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Acting District Surveyor",
+                "startDate": "1945",
+                "endDate": "1948",
+                "namedPosition": "Sölvesborg District"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "District Surveyor",
+                "startDate": "1948",
+                "namedPosition": "Svenljunga District"
+            }
+        ]
+    }
+}

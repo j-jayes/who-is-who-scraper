@@ -1,0 +1,100 @@
+{
+    "original": "Landqvist, Carl Valfrid, fastighetsdirektör, Norrköping, f. 29/9/89 i Hemmesjö, Kronob. 1. G. 15 m. Ruth Löf-qvist. Barn: Elsbeth f. 16, Kerstin 23. — Tj :man v. Ary bruk i Aryd 06-15, ’kont xhef v. Forssjö bruk i Katrineholm 15-27, fastighidir. i Norrköp. sed. 27. Ordf. i Norrköp. Träimp. A-B sed. 32, verkst. dir. i A-B Bostäder i Norrköp. sed. 37. Led. av Katrineholms stadsfullm. o. folksk istyr. t. 27, ordf. i tax:nd i Norrköp. t. 41. RVO.",
+    "translated": "Landqvist, Carl Valfrid, Real Estate Director, Norrköping, b. 29/9/89 in Hemmesjö, Kronob. 1st marriage 15, with Ruth Löf-qvist. Children: Elsbeth b. 16, Kerstin b. 23. - Employed as a man at Ary bruk in Aryd from 1906-1915, assistant manager at Forssjö bruk in Katrineholm from 1915-1927, real estate director in Norrköping since 1927. Chairman of Norrköping Wood Imp. A-B since 1932, managing director of A-B Housing in Norrköping since 1937. Member of Katrineholm City Council and School Board until 1927, chairman of tax committee in Norrköping until 1941. RVO (Order of the Vasa).",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Valfrid Landqvist\",\n  \"jobTitle\": \"Real Estate Director\",\n  \"birthDate\": \"1889-09-29\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Hemmesjö\",\n      \"addressRegion\": \"Kronob\"\n    }\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Löf-qvist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsbeth\",\n      \"birthDate\": \"1916\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1923\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ary bruk\"\n      },\n      \"startDate\": \"1906-01-01\",\n      \"endDate\": \"1915-12-31\",\n      \"roleName\": \"Man\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Forssjö bruk\"\n      },\n      \"startDate\": \"1915-01-01\",\n      \"endDate\": \"1927-12-31\",\n      \"roleName\": \"Assistant Manager\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrköping\"\n      },\n      \"startDate\": \"1927-01-01\",\n      \"roleName\": \"Real Estate Director\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrköping Wood Imp. A-B\"\n      },\n      \"startDate\": \"1932-01-01\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Housing\"\n      },\n      \"startDate\": \"1937-01-01\",\n      \"roleName\": \"Managing Director\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Katrineholm City Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"tax committee\"\n    }\n  ],\n  \"honorificSuffix\": \"RVO\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Carl Valfrid Landqvist",
+        "jobTitle": "Real Estate Director",
+        "birthDate": "1889-09-29",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hemmesjö",
+                "addressRegion": "Kronob"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Ruth Löf-qvist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Elsbeth",
+                "birthDate": "1916"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1923"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Ary bruk"
+                },
+                "startDate": "1906-01-01",
+                "endDate": "1915-12-31",
+                "roleName": "Man"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Forssjö bruk"
+                },
+                "startDate": "1915-01-01",
+                "endDate": "1927-12-31",
+                "roleName": "Assistant Manager"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Norrköping"
+                },
+                "startDate": "1927-01-01",
+                "roleName": "Real Estate Director"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Norrköping Wood Imp. A-B"
+                },
+                "startDate": "1932-01-01",
+                "roleName": "Chairman"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "A-B Housing"
+                },
+                "startDate": "1937-01-01",
+                "roleName": "Managing Director"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Katrineholm City Council"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board"
+            },
+            {
+                "@type": "Organization",
+                "name": "tax committee"
+            }
+        ],
+        "honorificSuffix": "RVO"
+    }
+}

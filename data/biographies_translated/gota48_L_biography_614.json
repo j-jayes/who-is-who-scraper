@@ -1,0 +1,48 @@
+{
+    "original": "Löfgren, Nils Magnus, tandläkare, Borås, f. 17/4/12 i Eksjö av Carl L. o. Hilma Bergander. G. 40 m. Hilde-&gt;gard Ahnborg. Barn: Monica f. 43. — Tandhex. 39. Praktik i Borås sed. 39, militärtandl. v. Älvsb. reg. sed. 43.",
+    "translated": "Löfgren, Nils Magnus, dentist, Borås, born on April 17, 1912 in Eksjö to Carl L. and Hilma Bergander. Married in 1940 to Hildegarde Ahnborg. Children: Monica, born in 1943. Dental assistant in 1939. Practiced in Borås since 1939, military dentist for the Älvsborg regiment since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Magnus Löfgren\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1912-04-17\",\n  \"birthPlace\": \"Eksjö\",\n  \"parents\": [{\n    \"@type\": \"Person\",\n    \"name\": \"Carl Löfgren\"\n  }, {\n    \"@type\": \"Person\",\n    \"name\": \"Hilma Bergander\"\n  }],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hildegarde Ahnborg\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [{\n    \"@type\": \"Person\",\n    \"name\": \"Monica\",\n    \"birthDate\": \"1943\"\n  }],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Dental Association\",\n      \"startDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Älvsborg Regiment\",\n      \"position\": \"Military Dentist\",\n      \"startDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Magnus Löfgren",
+        "jobTitle": "Dentist",
+        "birthDate": "1912-04-17",
+        "birthPlace": "Eksjö",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Löfgren"
+            },
+            {
+                "@type": "Person",
+                "name": "Hilma Bergander"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Hildegarde Ahnborg",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Monica",
+                "birthDate": "1943"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Borås Dental Association",
+                "startDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Älvsborg Regiment",
+                "position": "Military Dentist",
+                "startDate": "1943"
+            }
+        ]
+    }
+}

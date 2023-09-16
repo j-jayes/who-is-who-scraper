@@ -1,0 +1,92 @@
+{
+    "original": "Lönngren, Karl Gunnar Ivar, bankdirektör, Växjö, f. 20/4/01 i Vetlanda av urfabr. C. A. o. Annie L. G. 30 m. Eira Carlson. Barn: Ulla-Brita f. 31, Inga-Lisa 35. — Realex. 17. Därefter anst. i Smålands Bank, dir. f. samma bank i Växjö sed. 38. Siffer-gransk. i Kronob. Läns Försäkr :bo-lag o. Smål. m. fl. prov. Hyp :fören.",
+    "translated": "Lönngren, Karl Gunnar Ivar, bank director, Växjö, born on April 20, 1901, in Vetlanda, to clock factory worker C. A. and Annie L. G. Married to Eira Carlson in 1930. Children: Ulla-Brita, born in 1931, and Inga-Lisa, born in 1935. Completed secondary school education at age 17. Then employed by Smålands Bank, became director of the same bank in Växjö since 1938. Acted as numerical examiner for Kronoberg County Insurance Company and various provincial mortgage associations, including Småland.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Gunnar Ivar Lönngren\",\n  \"jobTitle\": \"Bank Director\",\n  \"birthDate\": \"1901-04-20\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Vetlanda\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. A. Lönngren\",\n      \"jobTitle\": \"Clock Factory Worker\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Annie L. G. Lönngren\",\n      \"jobTitle\": \"Unknown\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Eira Carlson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla-Brita\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inga-Lisa\",\n      \"birthDate\": \"1935\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"SecondarySchool\",\n    \"dateEarned\": \"1918\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1938\",\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Smålands Bank\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1938\",\n      \"roleName\": \"Director\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Smålands Bank\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Växjö\"\n        }\n      }\n    }\n  ],\n  \"actsAs\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Numerical Examiner\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kronoberg County Insurance Company\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Numerical Examiner\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Småland Provincial Mortgage Association\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Gunnar Ivar Lönngren",
+        "jobTitle": "Bank Director",
+        "birthDate": "1901-04-20",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Vetlanda"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "C. A. Lönngren",
+                "jobTitle": "Clock Factory Worker"
+            },
+            {
+                "@type": "Person",
+                "name": "Annie L. G. Lönngren",
+                "jobTitle": "Unknown"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Eira Carlson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla-Brita",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Inga-Lisa",
+                "birthDate": "1935"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "SecondarySchool",
+            "dateEarned": "1918"
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1918",
+                "endDate": "1938",
+                "roleName": "Employee",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Smålands Bank"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1938",
+                "roleName": "Director",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Smålands Bank",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Växjö"
+                    }
+                }
+            }
+        ],
+        "actsAs": [
+            {
+                "@type": "JobPosting",
+                "title": "Numerical Examiner",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Kronoberg County Insurance Company"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Numerical Examiner",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Småland Provincial Mortgage Association"
+                }
+            }
+        ]
+    }
+}

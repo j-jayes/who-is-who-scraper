@@ -1,0 +1,129 @@
+{
+    "original": "Larsson, Gustaf Harald, provinsialläkare, Boxholm, f. 8/12/90 i Regna, östergötl. 1,, av Olof L. o, Amanda Charlotta Månsson, G, 20 m, Karin Elisabeth Björklund, Barn: Inger Karin Margareta f, 20, Märta Karin 24, Bengt Harald 28. — Stud:ex, i Norrköp. 11, rned. kand, 17 o, med. lic, 23 i Upps, Tf, prov:läk. i Töre-boda o, Markaryds distr, kortare tider 22 o, i Sollefteå distr, åtta mån, 27-28, und:läk, v, Tranås vattenkuranst, 23-24, tf, und:läk, v, Sollefteå las, 24-25, und:läk, där 25-27, därunder tf, över-läk. fyra mån,, prov:läk, i Årjäng samt järnv:läk,, disp :läk. o. läk. v. epid:-sjukst, i Ärjäng 28-40, därefter prov:-läk, i Boxholms distr. Led, av häl-sovindn i Sollefteå 27-28, led, av direkt, f, Ärjängs las. 29-40, ordf. i häl-sov:ndn i Årjäng 31-40,",
+    "translated": "Larsson, Gustaf Harald, Provincial Doctor, Boxholm, b. 8/12/90 in Regna, East Gothland. Son of Olof L. and Amanda Charlotta Månsson. Married to Karin Elisabeth Björklund in 1920. Children: Inger Karin Margareta, b. 1920, Märta Karin, b. 1924, Bengt Harald, b. 1928. \n\nEducation: Passed the final secondary school examination in Norrköping in 1911. Graduated with a Medical Bachelor's degree in 1917, and received a Medical Licentiate degree from Uppsala University in 1923.\n\nProfessional experience: Acting Provincial Doctor in Töreboda and Markaryd districts for shorter periods in 1922, and in Sollefteå district for eight months in 1927-1928. Assistant Doctor at the Tranås water cure institution from 1923-1924, and acting Assistant Doctor at Sollefteå hospital from 1924-1925, and Assistant Doctor there from 1925-1927, including a four-month period as acting Chief Doctor. Provincial Doctor in Årjäng and Railway Doctor, Medical Inspector and Physician in charge at the Epidemic Hospital in Ärjäng from 1928-1940, then Provincial Doctor in Boxholm district.\n\nPositions held: Member of the Health Board in Sollefteå from 1927-1928, member of the board of directors at Ärjäng hospital from 1929-1940, chairman of the Health Board in Årjäng from 1931-1940.\n\nPlease note that the dates in the last paragraph represent the years of service in the respective positions.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Harald Larsson\",\n  \"birthDate\": \"1890-12-08\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Regna\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Regna\",\n      \"addressRegion\": \"East Gothland\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof L.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Charlotta Månsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Elisabeth Björklund\",\n    \"marriageDate\": \"1920\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Inger Karin Margareta\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Märta Karin\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Harald\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex\",\n    \"educationalLevel\": \"Secondary school examination\",\n    \"awardDate\": \"1911\",\n    \"awardingInstitution\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Norrköpings Secondary School\"\n    }\n  },\n  \"hasOccupation\": [\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"name\": \"Provincial Doctor\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Töreboda and Markaryd districts\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sollefteå district\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\",\n      \"duration\": \"P8M\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Tranås water cure institution\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1924\",\n      \"duration\": \"P1Y\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sollefteå hospital\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1927\",\n      \"duration\": \"P4Y3M\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Ärjäng and Epidemic Hospital\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1940\",\n      \"duration\": \"P12Y\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Boxholm district\",\n      \"startDate\": \"1940\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Health Board in Sollefteå\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Directors at Ärjäng hospital\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Health Board in Årjäng\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1940\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Harald Larsson",
+        "birthDate": "1890-12-08",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Regna",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Regna",
+                "addressRegion": "East Gothland"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Olof L."
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Charlotta Månsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Elisabeth Björklund",
+            "marriageDate": "1920"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Inger Karin Margareta",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Märta Karin",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt Harald",
+                "birthDate": "1928"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex",
+            "educationalLevel": "Secondary school examination",
+            "awardDate": "1911",
+            "awardingInstitution": {
+                "@type": "EducationalOrganization",
+                "name": "Norrköpings Secondary School"
+            }
+        },
+        "hasOccupation": [
+            {
+                "@type": "MedicalOccupation",
+                "name": "Provincial Doctor"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Töreboda and Markaryd districts",
+                "startDate": "1922",
+                "endDate": "1922"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sollefteå district",
+                "startDate": "1927",
+                "endDate": "1928",
+                "duration": "P8M"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Tranås water cure institution",
+                "startDate": "1923",
+                "endDate": "1924",
+                "duration": "P1Y"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sollefteå hospital",
+                "startDate": "1924",
+                "endDate": "1927",
+                "duration": "P4Y3M"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Ärjäng and Epidemic Hospital",
+                "startDate": "1928",
+                "endDate": "1940",
+                "duration": "P12Y"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Boxholm district",
+                "startDate": "1940"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Health Board in Sollefteå",
+                "startDate": "1927",
+                "endDate": "1928"
+            },
+            {
+                "@type": "Organization",
+                "name": "Board of Directors at Ärjäng hospital",
+                "startDate": "1929",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Health Board in Årjäng",
+                "startDate": "1931",
+                "endDate": "1940"
+            }
+        ]
+    }
+}

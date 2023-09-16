@@ -1,0 +1,72 @@
+{
+    "original": "Ljunggren, Ernst Vilhelm, ombudsman, Skövde, f. 14/11/91 i Jönköping av Nils L. o. Augusta Olsson. G. m. Sonja Rydén. Barn: Bengt f. 20, Åke 22, Ingegerd 32. — Realex. i Jönköp. 08. Anst. i Jönköp. jur. byrå 09-15, deläg. i Skövde jur. byrå fr. 21. Hob-bies: jakt, fiske.",
+    "translated": "Ljunggren, Ernst Vilhelm, ombudsman, Skövde, born on November 14, 1891 in Jönköping, son of Nils L. and Augusta Olsson. Married to Sonja Rydén. Children: Bengt, born in 1920; Åke, born in 1922; Ingegerd, born in 1932. Completed Realexamen (secondary education) in Jönköping in 1908. Employed at a law office in Jönköping from 1909 to 1915, co-owner of a law office in Skövde from 1921. Hobbies: hunting, fishing. Note: '\\d\\d m. partners name' indicates that the person married in the year 19xx.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Vilhelm Ljunggren\",\n  \"birthDate\": \"1891-11-14\",\n  \"birthPlace\": \"Jönköping\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Nils Ljunggren\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Augusta Olsson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Sonja Rydén\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Ljunggren\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åke Ljunggren\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd Ljunggren\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"jobTitle\": \"Ombudsman\",\n  \"worksFor\": \"Skövde\",\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Realexamen\",\n    \"educationalLevel\": \"SecondaryEducation\",\n    \"educationalCredentialAwarded\": \"Realexamen (secondary education) in Jönköping, 1908\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköpings Juridiska Byrå\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde Juridiska Byrå\",\n      \"startDate\": \"1921\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Ombudsman\"\n    }\n  ],\n  \"hobbies\": [\n    \"Hunting\",\n    \"Fishing\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ernst Vilhelm Ljunggren",
+        "birthDate": "1891-11-14",
+        "birthPlace": "Jönköping",
+        "father": {
+            "@type": "Person",
+            "name": "Nils Ljunggren"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Augusta Olsson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Sonja Rydén"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bengt Ljunggren",
+                "birthDate": "1920"
+            },
+            {
+                "@type": "Person",
+                "name": "Åke Ljunggren",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingegerd Ljunggren",
+                "birthDate": "1932"
+            }
+        ],
+        "jobTitle": "Ombudsman",
+        "worksFor": "Skövde",
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Realexamen",
+            "educationalLevel": "SecondaryEducation",
+            "educationalCredentialAwarded": "Realexamen (secondary education) in Jönköping, 1908"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Jönköpings Juridiska Byrå",
+                "startDate": "1909",
+                "endDate": "1915"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skövde Juridiska Byrå",
+                "startDate": "1921"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Ombudsman"
+            }
+        ],
+        "hobbies": [
+            "Hunting",
+            "Fishing"
+        ]
+    }
+}

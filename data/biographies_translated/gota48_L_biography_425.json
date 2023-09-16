@@ -1,0 +1,113 @@
+{
+    "original": "Littorin, Sture Gustav, med. lic., praktiserande läkare, Linköping, f. 28/ 5/18 i Allhelgona, östergötl. 1., av godsäg., kapt. Samuel L. o. Greta Hansen. G. 43 m. Elisabeth Håkansson. Barn: Margareta f. 44, Ann-Charlotte 47. — Stud:ex. i Linköping 36, med. kand. i Uppsala 39, med. lic. där 44. Tf. und :läk. v. med. avd. o. röntgenavd. v. centrallas. i Linköp. 44 o. 45, e. läk. v. Tranås sjukh. 45, inneh. ett flertal andra för-ordn., bl. a. som bat:läk., reg:läk., prov:läk. samt centraldisp :läk. i bl. a. Linköp., prakt. läk. där sed. 46, tele-gr:verk. läk. sed. 47.",
+    "translated": "Littorin, Sture Gustav, M.D., practicing physician, Linköping, born on May 28, 1918 in Allhelgona, Östergötland, firstborn of estate owner, Captain Samuel L. and Greta Hansen. Married to Elisabeth Håkansson in 1943. Children: Margareta, born in 1944, Ann-Charlotte, born in 1947. Completed high school in Linköping in 1936, obtained a Bachelor of Medicine degree in Uppsala in 1939, and a medical license there in 1944. Acted as temporary deputy physician in the medical and radiology departments of the county hospital in Linköping in 1944 and 1945, medical officer at Tranås hospital in 1945, held several other appointments including battalion physician, regiment physician, examining physician, and central dispensary physician, among others, in various locations including Linköping. Started practicing as a physician in Linköping since 1946, and became a telegraph administration physician in 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sture Gustav Littorin\",\n  \"birthDate\": \"1918-05-28\",\n  \"birthPlace\": \"Allhelgona, Östergötland\",\n  \"description\": \"Practicing physician in Linköping\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Samuel Littorin\",\n      \"jobTitle\": \"Estate Owner, Captain\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Greta Hansen\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisabeth Håkansson\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ann-Charlotte\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex. / Studenexamen\",\n    \"educationalLevel\": \"High School\",\n    \"educationalCredentialAwarded\": \"Stud:ex. / Studenexamen\",\n    \"educationalDegree\": \"Stud:ex. / Studenexamen\",\n    \"educationalProgram\": \"Linköping\",\n    \"alumniOf\": \"Linköping\",\n    \"endDate\": \"1936\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Uppsala\",\n    \"alumniOf\": \"Uppsala\",\n    \"endDate\": \"1939\"\n  },\n  \"medicalLicense\": [\n    {\n      \"@type\": \"MedicalLicense\",\n      \"name\": \"med. lic.\",\n      \"issuedBy\": \"Uppsala\",\n      \"validFrom\": \"1944\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"County Hospital\",\n      \"department\": \"Medical and Radiology\",\n      \"position\": \"Temporary Deputy Physician\",\n      \"location\": \"Linköping\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Tranås Hospital\",\n      \"position\": \"Medical Officer\",\n      \"location\": \"Tranås\",\n      \"startDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Battalion Physician\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Regiment Physician\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Examining Physician\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Central Dispensary Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Linköping\",\n      \"position\": \"Practicing Physician\",\n      \"location\": \"Linköping\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Telegraph Administration\",\n      \"position\": \"Physician\",\n      \"location\": \"Linköping\",\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sture Gustav Littorin",
+        "birthDate": "1918-05-28",
+        "birthPlace": "Allhelgona, Östergötland",
+        "description": "Practicing physician in Linköping",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Samuel Littorin",
+                "jobTitle": "Estate Owner, Captain"
+            },
+            {
+                "@type": "Person",
+                "name": "Greta Hansen"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elisabeth Håkansson",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Ann-Charlotte",
+                "birthDate": "1947"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex. / Studenexamen",
+            "educationalLevel": "High School",
+            "educationalCredentialAwarded": "Stud:ex. / Studenexamen",
+            "educationalDegree": "Stud:ex. / Studenexamen",
+            "educationalProgram": "Linköping",
+            "alumniOf": "Linköping",
+            "endDate": "1936"
+        },
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Uppsala",
+            "alumniOf": "Uppsala",
+            "endDate": "1939"
+        },
+        "medicalLicense": [
+            {
+                "@type": "MedicalLicense",
+                "name": "med. lic.",
+                "issuedBy": "Uppsala",
+                "validFrom": "1944"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "County Hospital",
+                "department": "Medical and Radiology",
+                "position": "Temporary Deputy Physician",
+                "location": "Linköping",
+                "startDate": "1944",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Tranås Hospital",
+                "position": "Medical Officer",
+                "location": "Tranås",
+                "startDate": "1945"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Battalion Physician"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Regiment Physician"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Examining Physician"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Central Dispensary Physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Linköping",
+                "position": "Practicing Physician",
+                "location": "Linköping",
+                "startDate": "1946"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Telegraph Administration",
+                "position": "Physician",
+                "location": "Linköping",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

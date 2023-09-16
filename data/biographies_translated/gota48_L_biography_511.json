@@ -1,0 +1,97 @@
+{
+    "original": "Lundberg, Elof Samuel, kommims-ter, Falkenberg, f. 16/8/07 i _ Styrsö, Gbgs o. Boh. 1., av kyrkoh. Viktor L. o. Ebba Natt o. Dag. G. 38 m. Mary Ekwall. Barn: Per-Olof f. 40, Marianne 43. — Stud:ex. i Gbg 26, teol. fil. ex. 27, teol. kand. samt prakt. teol. prov 30, prästv. f. Gbgs stift 31. Mis–siv i Fuxerna, Halmstad samt Gamle-’stads förs. i Gbg, kommin. i Stafisinge sed. 38.",
+    "translated": "Lundberg, Elof Samuel, clergyman, Falkenberg, born on August 16, 1907 in Styrsö, Gothenburg and Bohuslän County, son of Vicar Viktor L. and Ebba Natt o. Dag. Married in 1938 to Mary Ekwall. Children: Per-Olof born in 1940, Marianne born in 1943. Education: Graduated from high school in Gothenburg in 1926, Bachelor of Theology in 1927, Theological Candidate and practical theological examination in 1930, ordained priest for the Gothenburg Diocese in 1931. Served as missionary in Fuxerna, Halmstad, and Gamlestad's congregation in Gothenburg, became a curate in Stafisinge from 1938 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Elof Samuel Lundberg\",\n  \"birthDate\": \"1907-08-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Styrsö\",\n      \"addressRegion\": \"Gothenburg and Bohuslän County\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Viktor L.\",\n      \"jobTitle\": \"Vicar\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ebba Natt o. Dag\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Mary Ekwall\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Olof\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"studex\",\n      \"educationalLevel\": \"HighSchool\",\n      \"startDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teolfilex\",\n      \"educationalLevel\": \"BachelorOfTheology\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"teolkand\",\n      \"educationalLevel\": \"TheologicalCandidate\",\n      \"practicalTraining\": \"practical theological examination\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"prästv\",\n      \"educationalLevel\": \"OrdainedPriest\",\n      \"startDate\": \"1931\"\n    }\n  ],\n  \"profession\": {\n    \"@type\": \"Person\",\n    \"jobTitle\": \"Clergyman\",\n    \"affiliation\": [\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Stafisinge\",\n        \"startDate\": \"1938\"\n      },\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Fuxerna\"\n      },\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Halmstad\"\n      },\n      {\n        \"@type\": \"Place\",\n        \"name\": \"Gamlestad's Congregation\",\n        \"affiliationType\": \"Congregation\"\n      }\n    ]\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Elof Samuel Lundberg",
+        "birthDate": "1907-08-16",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Styrsö",
+                "addressRegion": "Gothenburg and Bohuslän County"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Viktor L.",
+                "jobTitle": "Vicar"
+            },
+            {
+                "@type": "Person",
+                "name": "Ebba Natt o. Dag"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Mary Ekwall"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Per-Olof",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "studex",
+                "educationalLevel": "HighSchool",
+                "startDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teolfilex",
+                "educationalLevel": "BachelorOfTheology",
+                "startDate": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "teolkand",
+                "educationalLevel": "TheologicalCandidate",
+                "practicalTraining": "practical theological examination",
+                "startDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "prästv",
+                "educationalLevel": "OrdainedPriest",
+                "startDate": "1931"
+            }
+        ],
+        "profession": {
+            "@type": "Person",
+            "jobTitle": "Clergyman",
+            "affiliation": [
+                {
+                    "@type": "Place",
+                    "name": "Stafisinge",
+                    "startDate": "1938"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Fuxerna"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Halmstad"
+                },
+                {
+                    "@type": "Place",
+                    "name": "Gamlestad's Congregation",
+                    "affiliationType": "Congregation"
+                }
+            ]
+        }
+    }
+}

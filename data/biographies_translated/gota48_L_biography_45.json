@@ -1,0 +1,96 @@
+{
+    "original": "Lang, Märta, stadsbibliotekarie, Västervik, f. 15/4/07 i Bankeryd, Jönköp. 1., av v. hhövd. Filip L. o. Sigrid Arfwedson. — Stud:ex. v. Lunds fullst. lärov. f. fl. 27, fil. kand. i Lund 31, skolöverstyr. bibhskola 32. Assist, v. Lunds stadsbibi. 32-34, förest, f. Getebergsängs filial av Gbgs stads folkbibi. 34-39, centralbiblioteksassist. v. Halmstads stadsbibi. 39-45, stadsbibi. i Västervik sed. 45. Styr :led. i Västerviks lokalavd. av TBV 46.",
+    "translated": "Lang, Märta, city librarian, Västervik, born on April 15, 1907 in Bankeryd, Jönköping. 1st child of Vice Commodore Filip L. and Sigrid Arfwedson. — Completed studies at Lund's comprehensive school in 1927, Bachelor of Arts in Lund in 1931, school supervisor at the library school in 1932. Assistant at Lund City Library from 1932 to 1934, head librarian at Getebergsängs branch of Gothenburg City Library from 1934 to 1939, central library assistant at Halmstad City Library from 1939 to 1945, city librarian in Västervik since 1945. Board member of Västervik's local branch of the TBV in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Märta Lang\",\n  \"birthDate\": \"1907-04-15\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Bankeryd\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Jönköping\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Filip L.\",\n      \"jobTitle\": \"Vice Commodore\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Arfwedson\"\n    }\n  ],\n  \"jobTitle\": \"City Librarian\",\n  \"worksFor\": {\n    \"@type\": \"Library\",\n    \"name\": \"Västervik City Library\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund's Comprehensive School\",\n      \"attendanceEndDate\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\",\n      \"educationalCredentialAwarded\": \"Bachelor of Arts\",\n      \"attendanceStartDate\": \"1927\",\n      \"attendanceEndDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Library School\",\n      \"degree\": \"School Supervisor\",\n      \"attendanceStartDate\": \"1931\",\n      \"attendanceEndDate\": \"1932\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Library\",\n      \"name\": \"Lund City Library\",\n      \"jobTitle\": \"Assistant Librarian\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Library\",\n      \"name\": \"Getebergsängs Branch of Gothenburg City Library\",\n      \"jobTitle\": \"Head Librarian\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Library\",\n      \"name\": \"Halmstad City Library\",\n      \"jobTitle\": \"Central Library Assistant\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Library\",\n      \"name\": \"Västervik City Library\",\n      \"jobTitle\": \"City Librarian\",\n      \"startDate\": \"1945\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"TBV\",\n      \"memberOf\": {\n        \"@type\": \"LocalBusiness\",\n        \"name\": \"Västervik's Local Branch\"\n      },\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Märta Lang",
+        "birthDate": "1907-04-15",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Bankeryd",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Jönköping"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Filip L.",
+                "jobTitle": "Vice Commodore"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid Arfwedson"
+            }
+        ],
+        "jobTitle": "City Librarian",
+        "worksFor": {
+            "@type": "Library",
+            "name": "Västervik City Library"
+        },
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund's Comprehensive School",
+                "attendanceEndDate": "1927"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University",
+                "educationalCredentialAwarded": "Bachelor of Arts",
+                "attendanceStartDate": "1927",
+                "attendanceEndDate": "1931"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Library School",
+                "degree": "School Supervisor",
+                "attendanceStartDate": "1931",
+                "attendanceEndDate": "1932"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Library",
+                "name": "Lund City Library",
+                "jobTitle": "Assistant Librarian",
+                "startDate": "1932",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Library",
+                "name": "Getebergsängs Branch of Gothenburg City Library",
+                "jobTitle": "Head Librarian",
+                "startDate": "1934",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Library",
+                "name": "Halmstad City Library",
+                "jobTitle": "Central Library Assistant",
+                "startDate": "1939",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Library",
+                "name": "Västervik City Library",
+                "jobTitle": "City Librarian",
+                "startDate": "1945"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "TBV",
+                "memberOf": {
+                    "@type": "LocalBusiness",
+                    "name": "Västervik's Local Branch"
+                },
+                "startDate": "1946"
+            }
+        ]
+    }
+}

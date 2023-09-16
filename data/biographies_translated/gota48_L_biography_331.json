@@ -1,0 +1,155 @@
+{
+    "original": "Lindgren, Åke Gustaf Arnold, stads- | läkare, Mariestad, f. 29/11/02 i Gbg av Otto L. o. Anna Christofferson. G, 31 rn. Ingrid Schmidt. Barn: Margareta f. 32, Jan 33, Ulla 38, Claes 43. — Stud:ex. i Gbg 20, mied. kand. 24 o. med. lic. 28 i Sthlm. E. o. aman. v. patol. inst. i Sthlm 26, assist :läk. v. Mariestads ’las. 28-29, tf. undiläk. där 29, assist, v. Sahlgrenska sjukh. rönt-genavd. 29-30, v. dess öronavd. 30, tf. andre und :iläk. v. Mariestads las. 30, andre und:läk. där 31-32, förste und :läk. v. Alingsås las. 32-34, tf. stadsläk. i Mariestad 35, ord. dito sed. 36, läk. v. Mariestads epldisjukh. sed. 35.",
+    "translated": "Lindgren, Åke Gustaf Arnold, city physician, Mariestad, born November 29, 1902 in Gothenburg, son of Otto L. and Anna Christofferson. Married in 1931 to Ingrid Schmidt. Children: Margareta (born 1932), Jan (born 1933), Ulla (born 1938), Claes (born 1943). \n\nEducation: Completed high school in Gothenburg in 1920, obtained a Bachelor's degree in medicine in 1924, and a medical license in 1928 in Stockholm. Served as a junior assistant at the pathology institute in Stockholm in 1926, assisting doctor at Mariestad Hospital in 1928-1929, temporary junior doctor there in 1929, assistant at Sahlgrenska Hospital's radiology department in 1929-1930, and at its ear department in 1930. Temporary assistant junior doctor at Mariestad Hospital in 1930, junior doctor there in 1931-1932, first assistant junior doctor at Alingsås Hospital in 1932-1934, temporary city physician in Mariestad in 1935, permanent city physician since 1936, and physician at Mariestads Tuberculosis Hospital since 1935.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Åke Gustaf Arnold\",\n  \"familyName\": \"Lindgren\",\n  \"birthDate\": \"1902-11-29\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Otto\",\n      \"familyName\": \"Lindgren\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Anna\",\n      \"familyName\": \"Christofferson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Ingrid\",\n    \"familyName\": \"Schmidt\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Margareta\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Jan\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Ulla\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Claes\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"educationalLevel\": \"High school\",\n      \"educationalCredentialAwarded\": \"Completed high school\",\n      \"awardDate\": \"1920\",\n      \"awardingInstitution\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"mied. kand.\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Bachelor's degree in medicine\",\n      \"awardDate\": \"1924\",\n      \"awardingInstitution\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"med. lic.\",\n      \"educationalLevel\": \"Medical license\",\n      \"educationalCredentialAwarded\": \"Medical license\",\n      \"awardDate\": \"1928\",\n      \"awardingInstitution\": \"Stockholm\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Pathology Institute\",\n      \"startDate\": \"1926\",\n      \"role\": \"Junior assistant\",\n      \"description\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mariestad Hospital\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1929\",\n      \"role\": \"Assisting doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mariestad Hospital\",\n      \"startDate\": \"1929\",\n      \"role\": \"Temporary junior doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgrenska Hospital\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\",\n      \"role\": \"Assistant\",\n      \"department\": \"Radiology\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgrenska Hospital\",\n      \"startDate\": \"1930\",\n      \"role\": \"Assistant\",\n      \"department\": \"Ear\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mariestad Hospital\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1932\",\n      \"role\": \"Temporary assistant junior doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mariestad Hospital\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\",\n      \"role\": \"Junior doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Alingsås Hospital\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\",\n      \"role\": \"First assistant junior doctor\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mariestad\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\",\n      \"role\": \"Temporary city physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mariestad\",\n      \"startDate\": \"1936\",\n      \"role\": \"Permanent city physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Mariestads Tuberculosis Hospital\",\n      \"startDate\": \"1935\",\n      \"role\": \"Physician\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "givenName": "Åke Gustaf Arnold",
+        "familyName": "Lindgren",
+        "birthDate": "1902-11-29",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "givenName": "Otto",
+                "familyName": "Lindgren"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Anna",
+                "familyName": "Christofferson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Ingrid",
+            "familyName": "Schmidt"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "givenName": "Margareta",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Jan",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Ulla",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Claes",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "educationalLevel": "High school",
+                "educationalCredentialAwarded": "Completed high school",
+                "awardDate": "1920",
+                "awardingInstitution": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "mied. kand.",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Bachelor's degree in medicine",
+                "awardDate": "1924",
+                "awardingInstitution": "Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "med. lic.",
+                "educationalLevel": "Medical license",
+                "educationalCredentialAwarded": "Medical license",
+                "awardDate": "1928",
+                "awardingInstitution": "Stockholm"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Pathology Institute",
+                "startDate": "1926",
+                "role": "Junior assistant",
+                "description": "Stockholm"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mariestad Hospital",
+                "startDate": "1928",
+                "endDate": "1929",
+                "role": "Assisting doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mariestad Hospital",
+                "startDate": "1929",
+                "role": "Temporary junior doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgrenska Hospital",
+                "startDate": "1929",
+                "endDate": "1930",
+                "role": "Assistant",
+                "department": "Radiology"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Sahlgrenska Hospital",
+                "startDate": "1930",
+                "role": "Assistant",
+                "department": "Ear"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mariestad Hospital",
+                "startDate": "1930",
+                "endDate": "1932",
+                "role": "Temporary assistant junior doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mariestad Hospital",
+                "startDate": "1931",
+                "endDate": "1932",
+                "role": "Junior doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Alingsås Hospital",
+                "startDate": "1932",
+                "endDate": "1934",
+                "role": "First assistant junior doctor"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mariestad",
+                "startDate": "1935",
+                "endDate": "1935",
+                "role": "Temporary city physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mariestad",
+                "startDate": "1936",
+                "role": "Permanent city physician"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Mariestads Tuberculosis Hospital",
+                "startDate": "1935",
+                "role": "Physician"
+            }
+        ]
+    }
+}

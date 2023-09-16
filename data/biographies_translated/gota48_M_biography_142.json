@@ -1,0 +1,103 @@
+{
+    "original": "Moberger, Karl Erik, stifts jägmästare, Visby, f. 30/9/98 i Björkäng, Ska-rab. k, av godsäg. Gustaf M. o. Anna Sundberg. G. 30 m. Greta Djurberg. Barn: Birgitta f. 34, Karin 36, Gustav 39, Bertil 42. — Stud:ex. i Skara 17, utex. fr. ’skogshögsk. 23. E. jägmäst. 29 -33, bitr. ’stifts jägmäst. samt stifts-jägmäst :a:s’sist. i Växjö ’Stift 33-44, stifts jägmäst. h. stiftsndn i Visby •stift ’sed. 44.",
+    "translated": "Moberger, Karl Erik, county forester, Visby, b. 30/9/98 in Björkäng, Ska-rab. parish, son of estate owner Gustaf M. and Anna Sundberg. Married in 1930 to Greta Djurberg. Children: Birgitta b. 1934, Karin b. 1936, Gustav b. 1939, Bertil b. 1942. Completed secondary school in Skara in 1917, graduated from forestry college in 1923. Employed as county forester from 1929-1933, assistant county forester and deputy county forester in Växjö County from 1933-1944, county forester and head of the county board in Visby County since 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Erik Moberger\",\n  \"jobTitle\": \"County Forester\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Visby\"\n  },\n  \"birthDate\": \"1898-09-30\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Björkäng, Ska-rab. Parish\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Moberger\",\n      \"jobTitle\": \"Estate Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Sundberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Djurberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustav\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchool\",\n      \"educationalLevel\": \"Graduate\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Skara\"\n      },\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"College\",\n      \"educationalLevel\": \"Graduate\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Forestry College\"\n      },\n      \"endDate\": \"1923\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"County Forester\",\n      \"startDate\": \"1929-01-01\",\n      \"endDate\": \"1933-12-31\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant County Forester\",\n      \"startDate\": \"1933-01-01\",\n      \"endDate\": \"1944-12-31\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Deputy County Forester\",\n      \"startDate\": \"1933-01-01\",\n      \"endDate\": \"1944-12-31\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"County Forester\",\n      \"startDate\": \"1944-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Erik Moberger",
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "County Forester",
+                "startDate": "1929-01-01",
+                "endDate": "1933-12-31"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant County Forester",
+                "startDate": "1933-01-01",
+                "endDate": "1944-12-31"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Deputy County Forester",
+                "startDate": "1933-01-01",
+                "endDate": "1944-12-31"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "County Forester",
+                "startDate": "1944-01-01"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Visby"
+        },
+        "birthDate": "1898-09-30",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Björkäng, Ska-rab. Parish"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Moberger",
+                "jobTitle": "Estate Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Sundberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Djurberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1934"
+            },
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Gustav",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil",
+                "birthDate": "1942"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondarySchool",
+                "educationalLevel": "Graduate",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Skara"
+                },
+                "endDate": "1917"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "College",
+                "educationalLevel": "Graduate",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Forestry College"
+                },
+                "endDate": "1923"
+            }
+        ]
+    }
+}

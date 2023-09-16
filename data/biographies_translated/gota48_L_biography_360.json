@@ -1,0 +1,75 @@
+{
+    "original": "Lindqvist, Tord Ingemar, jur. kand., Göteborg, f. 12/11/18 i Gbg av Johan L. o. Esther Skärberg. G. 46 m. Kerstin Ädén. — Stud:ex. i Gbg 37, jur. kand. i Sthlm 43. Tingstjg. i Kin-da o. Ydre doms. 43-45, sekr. i Handelns arbetsgiv :org., Gbgskont.",
+    "translated": "Lindqvist, Tord Ingemar, LL.B., Gothenburg, born on November 12, 1918, in Gothenburg, to Johan L. and Esther Skärberg. Married in 1946 to Kerstin Ädén. - Passed student examination in Gothenburg in 1937, LL.B. in Stockholm in 1943. Served as a clerk in the Kin-da and Ydre courts from 1943 to 1945, secretary at the Employers' Association of Commerce, Gothenburg office.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tord Ingemar Lindqvist\",\n  \"givenName\": \"Tord Ingemar\",\n  \"familyName\": \"Lindqvist\",\n  \"birthDate\": \"1918-11-12\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L. Lindqvist\",\n      \"givenName\": \"Johan L.\",\n      \"familyName\": \"Lindqvist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Esther Skärberg\",\n      \"givenName\": \"Esther\",\n      \"familyName\": \"Skärberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Kerstin Ädén\",\n    \"givenName\": \"Kerstin\",\n    \"familyName\": \"Ädén\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"student\",\n      \"educationalLevel\": \"student examination\",\n      \"educationalRole\": \"student examination in Gothenburg\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"academic\",\n      \"educationalLevel\": \"LL.B.\",\n      \"educationalRole\": \"LL.B. in Stockholm\",\n      \"startDate\": \"1943\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Kin-da court\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Ydre court\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1945\",\n      \"endDate\": \"present\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Employers' Association of Commerce\",\n        \"location\": \"Gothenburg\"\n      },\n      \"roleName\": \"Secretary\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tord Ingemar Lindqvist",
+        "givenName": "Tord Ingemar",
+        "familyName": "Lindqvist",
+        "birthDate": "1918-11-12",
+        "birthPlace": "Gothenburg",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johan L. Lindqvist",
+                "givenName": "Johan L.",
+                "familyName": "Lindqvist"
+            },
+            {
+                "@type": "Person",
+                "name": "Esther Skärberg",
+                "givenName": "Esther",
+                "familyName": "Skärberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Kerstin Ädén",
+            "givenName": "Kerstin",
+            "familyName": "Ädén"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "student",
+                "educationalLevel": "student examination",
+                "educationalRole": "student examination in Gothenburg",
+                "startDate": "1937"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "academic",
+                "educationalLevel": "LL.B.",
+                "educationalRole": "LL.B. in Stockholm",
+                "startDate": "1943"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Court",
+                "name": "Kin-da court",
+                "startDate": "1943",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Court",
+                "name": "Ydre court",
+                "startDate": "1943",
+                "endDate": "1945"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1945",
+                "endDate": "present",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Employers' Association of Commerce",
+                    "location": "Gothenburg"
+                },
+                "roleName": "Secretary"
+            }
+        ]
+    }
+}

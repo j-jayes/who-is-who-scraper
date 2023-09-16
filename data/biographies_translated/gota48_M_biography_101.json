@@ -1,0 +1,109 @@
+{
+    "original": "Melcherson, Nils Ingemar, tandläkare, Lillhagen, f. 9/5/10 i Växjö lands-förs. av uppsyn :m’an Melcher Kards-son o. Alma Ekblom. G. 35 m. Doris Karlsson. Barn: Kerstin f. 40, Gunilla 44. — Stud :ex. v. Gbgs h. lat. 29, tandl :-kand. 30, tandl. 33. Assist, i Kinna 33, e. o. tandl. v. Gbgs komm. tandpoliklin. 33, ord. 36, förste tandl. (kiinikförest.) ^^ Gbg^s komm. tandpoliklin. ;sed. 46.",
+    "translated": "Melcherson, Nils Ingemar, dentist, Lillhagen, b. 9/5/10 in Växjö rural parish, son of Melcher Kardsson and Alma Ekblom. Married in 1935 to Doris Karlsson. Children: Kerstin b. 1940, Gunilla b. 1944. \n\nEducation: graduated from Gothenburg's higher Latin school in 1929, dental degree in 1930, licensed dentist in 1933. Worked as an assistant in Kinna in 1933, temporary dentist at Gothenburg Municipal Dental Clinic in 1933, appointed regular dentist in 1936, first dentist (clinic supervisor) at Gothenburg Municipal Dental Clinic since 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Ingemar Melcherson\",\n  \"givenName\": \"Nils Ingemar\",\n  \"familyName\": \"Melcherson\",\n  \"birthDate\": \"1910-09-05\",\n  \"birthPlace\": \"Växjö rural parish\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Melcher Kardsson\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alma Ekblom\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Doris Karlsson\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"occupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Lillhagen\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school\",\n      \"educationalLevel\": \"Graduate\",\n      \"educationalProgram\": \"Gothenburg's higher Latin school\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalProgram\": \"Dentistry\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dentist license\",\n      \"educationalLevel\": \"Professional\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1933\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Kinna\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Temporary dentist\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1933\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Municipal Dental Clinic\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Regular dentist\",\n      \"startDate\": \"1936\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Municipal Dental Clinic\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"First dentist\",\n      \"startDate\": \"1946\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Municipal Dental Clinic\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Ingemar Melcherson",
+        "givenName": "Nils Ingemar",
+        "familyName": "Melcherson",
+        "birthDate": "1910-09-05",
+        "birthPlace": "Växjö rural parish",
+        "father": {
+            "@type": "Person",
+            "name": "Melcher Kardsson"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Alma Ekblom"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Doris Karlsson",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1944"
+            }
+        ],
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Dentist"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Lillhagen"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school",
+                "educationalLevel": "Graduate",
+                "educationalProgram": "Gothenburg's higher Latin school",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental degree",
+                "educationalLevel": "Undergraduate",
+                "educationalProgram": "Dentistry",
+                "endDate": "1930"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentist license",
+                "educationalLevel": "Professional",
+                "endDate": "1933"
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant",
+                "startDate": "1933",
+                "endDate": "1933",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Kinna"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Temporary dentist",
+                "startDate": "1933",
+                "endDate": "1933",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Municipal Dental Clinic"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Regular dentist",
+                "startDate": "1936",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Municipal Dental Clinic"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "First dentist",
+                "startDate": "1946",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Municipal Dental Clinic"
+                }
+            }
+        ]
+    }
+}

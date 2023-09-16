@@ -1,0 +1,97 @@
+{
+    "original": "Lundgren, Carl-Henrik, tandläkare, Borås, f. 11/6/09 i Sandhult, Älvsb. 1., av grosshandl. Carl L. o. Thyra Johanson. G. 34 m. Gullan Ann-Sofie Öquist. Barn i Göran f. 37, Gunilla o. Bertil 39, Birgitta 43. — Studiex. i Borås 27, tandl ikand. 29, tandl. 32. Prakt, i Borås sed. 32. Skattmäst. i Borås tandl isällsk. 34-40, ordf. där 42-45, ordf. i Västergötl. tandl ifören. 44.",
+    "translated": "Lundgren, Carl-Henrik, dentist, Borås, b. 11/6/09 in Sandhult, Älvsborg County, son of the wholesale merchant Carl L. and Thyra Johanson. Married in 1934 to Gullan Ann-Sofie Öquist. Children: Göran, b. 1937; Gunilla and Bertil, b. 1939; Birgitta, b. 1943. - Graduated from Borås High School in 1927, dental studies in 1929, and became a dentist in 1932. Practiced in Borås since 1932. Treasurer of Borås Dental Society from 1934 to 1940, chairman from 1942 to 1945, chairman of the Västergötland Dental Association in 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl-Henrik Lundgren\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Borås\"\n  },\n  \"birthDate\": \"1909-06-11\",\n  \"birthPlace\": \"Sandhult, Älvsborg County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl L. Lundgren\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thyra Johanson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gullan Ann-Sofie Öquist\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Lundgren\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla Lundgren\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bertil Lundgren\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Lundgren\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"High School Diploma\",\n      \"educationalProgram\": \"Borås High School\",\n      \"dateIssued\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"Dentistry Degree\",\n      \"educationalProgram\": \"Dental Studies\",\n      \"dateIssued\": \"1932\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Dental Practice\",\n      \"startDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Dental Society\",\n      \"position\": \"Treasurer\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Borås Dental Society\",\n      \"position\": \"Chairman\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västergötland Dental Association\",\n      \"position\": \"Chairman\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl-Henrik Lundgren",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Borås"
+        },
+        "birthDate": "1909-06-11",
+        "birthPlace": "Sandhult, Älvsborg County",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl L. Lundgren"
+            },
+            {
+                "@type": "Person",
+                "name": "Thyra Johanson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gullan Ann-Sofie Öquist",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Göran Lundgren",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla Lundgren",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Bertil Lundgren",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Lundgren",
+                "birthDate": "1943"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": "High School Diploma",
+                "educationalProgram": "Borås High School",
+                "dateIssued": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "diploma",
+                "educationalLevel": "Dentistry Degree",
+                "educationalProgram": "Dental Studies",
+                "dateIssued": "1932"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "Organization",
+                "name": "Borås Dental Practice",
+                "startDate": "1932"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Dental Society",
+                "position": "Treasurer",
+                "startDate": "1934",
+                "endDate": "1940"
+            },
+            {
+                "@type": "Organization",
+                "name": "Borås Dental Society",
+                "position": "Chairman",
+                "startDate": "1942",
+                "endDate": "1945"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västergötland Dental Association",
+                "position": "Chairman",
+                "startDate": "1944"
+            }
+        ]
+    }
+}

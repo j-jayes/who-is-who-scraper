@@ -1,0 +1,103 @@
+{
+    "original": "Lundgren, Ernst Ewert, fil. lic., Kalmar, f. 2/2/07 i Strömstad. G. 37 m. Gunborg Carlsson. Barn: Björn f. 40, Marianne 44. — Stud:ex. i Gbg 27, fil. kand. där 31, fil. mag. 32, fil. lic. 35, provår v. Gbgs real. Vik. adj. v. Gbgs latin 35-36, vik. lektor v. Gbgs flicklärov. 36-37, e. lär. i Kalmar 37, e. adj. där 38, e. o. adj. 39.",
+    "translated": "Lundgren, Ernst Ewert, Ph. Lic., Kalmar, b. 2/2/07 in Strömstad. Married in 1937 to Gunborg Carlsson. Children: Björn b. 1940, Marianne b. 1944. — Education: Passed student examination in Gothenburg in 1927, Bachelor of Arts there in 1931, Master of Arts in 1932, Ph. Lic. in 1935, probationary year at Gothenburg's Real Gymnasium. Deputy teacher at Gothenburg's Latin School from 1935-1936, substitute teacher at Gothenburg's Girls' School in 1936-1937, regular teacher in Kalmar in 1937, adjunct teacher there in 1938, extra adjunct teacher in 1939.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ernst Ewert Lundgren\",\n  \"birthDate\": \"1907-02-02\",\n  \"birthPlace\": \"Strömstad\",\n  \"gender\": \"Male\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gunborg Carlsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1944\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Student Examination\",\n      \"issuer\": \"Gothenburg\",\n      \"dateIssued\": \"1927\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"issuer\": \"Gothenburg\",\n      \"dateIssued\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts\",\n      \"issuer\": \"Gothenburg\",\n      \"dateIssued\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ph. Lic.\",\n      \"issuer\": \"Unknown\",\n      \"dateIssued\": \"1935\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"TeachingAssistant\",\n      \"employmentType\": \"Probationary\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\",\n      \"place\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg's Real Gymnasium\"\n      }\n    },\n    {\n      \"@type\": \"SubstituteTeacher\",\n      \"employmentType\": \"Temporary\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\",\n      \"place\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg's Girls' School\"\n      }\n    },\n    {\n      \"@type\": \"Teacher\",\n      \"employmentType\": \"Regular\",\n      \"startDate\": \"1937\",\n      \"endDate\": null,\n      \"place\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Kalmar\"\n      }\n    },\n    {\n      \"@type\": \"AdjunctTeacher\",\n      \"employmentType\": \"Fixed-term\",\n      \"startDate\": \"1938\",\n      \"endDate\": null,\n      \"place\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Kalmar\"\n      }\n    },\n    {\n      \"@type\": \"AdjunctTeacher\",\n      \"employmentType\": \"Temporary\",\n      \"startDate\": \"1939\",\n      \"endDate\": null\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Ernst Ewert Lundgren",
+        "birthDate": "1907-02-02",
+        "birthPlace": "Strömstad",
+        "gender": "Male",
+        "spouse": {
+            "@type": "Person",
+            "name": "Gunborg Carlsson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Marianne",
+                "birthDate": "1944"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Student Examination",
+                "issuer": "Gothenburg",
+                "dateIssued": "1927"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "issuer": "Gothenburg",
+                "dateIssued": "1931"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts",
+                "issuer": "Gothenburg",
+                "dateIssued": "1932"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Ph. Lic.",
+                "issuer": "Unknown",
+                "dateIssued": "1935"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "TeachingAssistant",
+                "employmentType": "Probationary",
+                "startDate": "1935",
+                "endDate": "1936",
+                "place": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg's Real Gymnasium"
+                }
+            },
+            {
+                "@type": "SubstituteTeacher",
+                "employmentType": "Temporary",
+                "startDate": "1936",
+                "endDate": "1937",
+                "place": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg's Girls' School"
+                }
+            },
+            {
+                "@type": "Teacher",
+                "employmentType": "Regular",
+                "startDate": "1937",
+                "endDate": null,
+                "place": {
+                    "@type": "EducationalOrganization",
+                    "name": "Kalmar"
+                }
+            },
+            {
+                "@type": "AdjunctTeacher",
+                "employmentType": "Fixed-term",
+                "startDate": "1938",
+                "endDate": null,
+                "place": {
+                    "@type": "EducationalOrganization",
+                    "name": "Kalmar"
+                }
+            },
+            {
+                "@type": "AdjunctTeacher",
+                "employmentType": "Temporary",
+                "startDate": "1939",
+                "endDate": null
+            }
+        ]
+    }
+}

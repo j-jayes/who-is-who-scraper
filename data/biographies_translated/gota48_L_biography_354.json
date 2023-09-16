@@ -1,0 +1,92 @@
+{
+    "original": "Lindquist, Gunnar Widly Ernst, kyrkoherde, Tjällmo, f. 25/6/99 i Norra Asum, Krist. 1. G. 31 m. Anna Andersson. Barn: Gunilla f. 32, Bengt-Gunnar 34. — Stud:ex. i Kristianstad 19, fil. kand. 26, teol. kand. 28, prakt, teol. prov ’Samt prästv. f. Linköp. stift 29. Kyrkoadj. i Säby 29, v. pastor i Tjäilmo 32, kyrkoh. där sed. 33.",
+    "translated": "Lindquist, Gunnar Widly Ernst, pastor, Tjällmo, b. 25/6/1899 in Norra Asum, Kristianstad. 1st marriage in 1931 with Anna Andersson. Children: Gunilla b. 1932, Bengt-Gunnar b. 1934. - Completed secondary school in Kristianstad in 1919, bachelor's degree in 1926, theology degree in 1928, practical theology examination 'Samt prästv.' from the Linköping diocese in 1929. Assistant minister in Säby in 1929, deputy pastor in Tjällmo in 1932, and ordained as the pastor there since 1933.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Widly Ernst Lindquist\",\n  \"birthDate\": \"1899-06-25\",\n  \"birthPlace\": \"Norra Asum, Kristianstad\",\n  \"jobTitle\": \"Pastor\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Tjällmo\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna Andersson\",\n    \"marriageDate\": \"1931\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt-Gunnar\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school\",\n      \"educationalLevel\": \"Stud:ex.\",\n      \"educationalCredentialAwarded\": \"Kristianstad 1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"fil. kand.\",\n      \"educationalCredentialAwarded\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"theology degree\",\n      \"educationalLevel\": \"teol. kand.\",\n      \"educationalCredentialAwarded\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"practical theology examination\",\n      \"educationalCredentialAwarded\": \"Samt prästv.\",\n      \"educationalCredentialAwardedDate\": \"1929\",\n      \"recognizedBy\": \"Linköping diocese\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Minister\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Säby\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Deputy Pastor\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Tjällmo\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Pastor\",\n      \"startDate\": \"1933\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Tjällmo\"\n      }\n    }\n  ]\n}\n",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Widly Ernst Lindquist",
+        "birthDate": "1899-06-25",
+        "birthPlace": "Norra Asum, Kristianstad",
+        "jobTitle": "Pastor",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tjällmo"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna Andersson",
+            "marriageDate": "1931"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Bengt-Gunnar",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "secondary school",
+                "educationalLevel": "Stud:ex.",
+                "educationalCredentialAwarded": "Kristianstad 1919"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "fil. kand.",
+                "educationalCredentialAwarded": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "theology degree",
+                "educationalLevel": "teol. kand.",
+                "educationalCredentialAwarded": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "practical theology examination",
+                "educationalCredentialAwarded": "Samt prästv.",
+                "educationalCredentialAwardedDate": "1929",
+                "recognizedBy": "Linköping diocese"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Minister",
+                "startDate": "1929",
+                "endDate": "1932",
+                "location": {
+                    "@type": "City",
+                    "name": "Säby"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Deputy Pastor",
+                "startDate": "1932",
+                "endDate": "1933",
+                "location": {
+                    "@type": "City",
+                    "name": "Tjällmo"
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Pastor",
+                "startDate": "1933",
+                "location": {
+                    "@type": "City",
+                    "name": "Tjällmo"
+                }
+            }
+        ]
+    }
+}

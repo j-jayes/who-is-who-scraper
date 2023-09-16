@@ -1,0 +1,119 @@
+{
+    "original": "Lundgren, Gustaf Adolf, tandläkare, Ronneby, f. 17/7/09 i Vindeln, Väs-terb. 1., av kyrkoh. Per L. o. Augusta Kärrman. G. 34 m. Ingeborg Gieseke. Barn: Karin f. 35, Per-Olof 37, Brita 45. — Stud:ex. i Umeå 27, tandl:-kand. 29, tandläkare 31. Assist, i Västerås 31, praktik i Ronneby o. Kallinge sed. 32. Kassör i Blek. tandl:-fören. 33-38. Hobbies: fiske, filateli.",
+    "translated": "Lundgren, Gustaf Adolf, dentist, Ronneby, born on July 17, 1909 in Vindeln, Västerbotten. Son of church minister Per L. and Augusta Kärrman. Married in 1934 to Ingeborg Gieseke. Children: Karin, born in 1935; Per-Olof, born in 1937; Brita, born in 1945. Completed high school in Umeå in 1927, dental studies in 1929, became a dentist in 1931. Assistant in Västerås in 1931, practiced in Ronneby and Kallinge since 1932. Treasurer at the Blekinge Dental Association from 1933 to 1938. Hobbies include fishing and philately.",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Gustaf Adolf Lundgren\",\n   \"jobTitle\":\"Dentist\",\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Ronneby\"\n   },\n   \"birthDate\":\"1909-07-17\",\n   \"birthPlace\":\"Vindeln, Västerbotten\",\n   \"parents\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Per L.\",\n         \"jobTitle\":\"Church Minister\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Augusta Kärrman\"\n      }\n   ],\n   \"spouse\":{\n      \"@type\":\"Person\",\n      \"name\":\"Ingeborg Gieseke\",\n      \"marriageDate\":\"1934\"\n   },\n   \"children\":[\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Karin\",\n         \"birthDate\":\"1935\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Per-Olof\",\n         \"birthDate\":\"1937\"\n      },\n      {\n         \"@type\":\"Person\",\n         \"name\":\"Brita\",\n         \"birthDate\":\"1945\"\n      }\n   ],\n   \"education\":[\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Stud:ex.\",\n         \"educationalLevel\":\"High School\",\n         \"educationalRole\":\"Graduation\",\n         \"startDate\":\"1927\",\n         \"endDate\":\"1927\",\n         \"educationalOrganization\":{\n            \"@type\":\"EducationalOrganization\",\n            \"name\":\"Umeå\"\n         }\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Tandl:kand.\",\n         \"educationalLevel\":\"Dental Studies\",\n         \"educationalRole\":\"Degree\",\n         \"startDate\":\"1929\",\n         \"endDate\":\"1929\"\n      },\n      {\n         \"@type\":\"EducationalOccupationalCredential\",\n         \"name\":\"Tandläkare\",\n         \"educationalLevel\":\"Doctorate\",\n         \"educationalRole\":\"Degree\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"1931\"\n      }\n   ],\n   \"worksFor\":{\n      \"@type\":\"Organization\",\n      \"name\":\"Västerås\"\n   },\n   \"careerSummary\":[\n      {\n         \"@type\":\"Role\",\n         \"name\":\"Assistant\",\n         \"startDate\":\"1931\",\n         \"endDate\":\"1931\",\n         \"memberOf\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Västerås\"\n         }\n      },\n      {\n         \"@type\":\"Role\",\n         \"name\":\"Dentist\",\n         \"startDate\":\"1932\",\n         \"memberOf\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Ronneby and Kallinge\"\n         }\n      },\n      {\n         \"@type\":\"Role\",\n         \"name\":\"Treasurer\",\n         \"startDate\":\"1933\",\n         \"endDate\":\"1938\",\n         \"memberOf\":{\n            \"@type\":\"Organization\",\n            \"name\":\"Blekinge Dental Association\"\n         }\n      }\n   ],\n   \"hobbies\":[\n      \"Fishing\",\n      \"Philately\"\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Adolf Lundgren",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ronneby"
+        },
+        "birthDate": "1909-07-17",
+        "birthPlace": "Vindeln, Västerbotten",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Per L.",
+                "jobTitle": "Church Minister"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Kärrman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Ingeborg Gieseke",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Per-Olof",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Brita",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex.",
+                "educationalLevel": "High School",
+                "educationalRole": "Graduation",
+                "startDate": "1927",
+                "endDate": "1927",
+                "educationalOrganization": {
+                    "@type": "EducationalOrganization",
+                    "name": "Umeå"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandl:kand.",
+                "educationalLevel": "Dental Studies",
+                "educationalRole": "Degree",
+                "startDate": "1929",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Tandläkare",
+                "educationalLevel": "Doctorate",
+                "educationalRole": "Degree",
+                "startDate": "1931",
+                "endDate": "1931"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Västerås"
+        },
+        "careerSummary": [
+            {
+                "@type": "Role",
+                "name": "Assistant",
+                "startDate": "1931",
+                "endDate": "1931",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Västerås"
+                }
+            },
+            {
+                "@type": "Role",
+                "name": "Dentist",
+                "startDate": "1932",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Ronneby and Kallinge"
+                }
+            },
+            {
+                "@type": "Role",
+                "name": "Treasurer",
+                "startDate": "1933",
+                "endDate": "1938",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Blekinge Dental Association"
+                }
+            }
+        ],
+        "hobbies": [
+            "Fishing",
+            "Philately"
+        ]
+    }
+}

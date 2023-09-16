@@ -1,0 +1,128 @@
+{
+    "original": "Lindstedt, Kurt Petrus, kyrkoherde, Väckelsång, f. 14/5/05 i Gränna av överlär. Johannes L. o. Naèmi Land-ström. G. 27 m. Anna-Maria Winn-berg. Barn: Ulla f. 28, Kristina 34. — Stud :ex. i Jönköp. 24, teol. fil. ex. i Upps. 26, teol. kand., prakt. teol. prov, prästv. f. Växjö stift 30. Tjg. s. v. kommin. i Skede, v. pastor i Dö-derhult o. kyrkoadj. i Urskult kommin. i Virestad 42, kyrkoh. i Väckelsång sed. 44.",
+    "translated": "Lindstedt, Kurt Petrus, parish priest, Väckelsång, b. 14/5/05 in Gränna, son of headmaster Johannes L. and Naèmi Land-ström. Married on the 27th of xx to Anna-Maria Winnberg. Children: Ulla b. 28, Kristina b. 34. — Completed studies: exam in Jönköping in 1924, graduate in theology in Uppsala in 1926, theology candidate, practical theology examination, ordained priest for the Växjö diocese in 1930. Served as assisting minister in Skede, assistant pastor in Döderhult, and church curate in Urskult, and as minister in Virestad from 1942. Became the parish priest in Väckelsång in 1944.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Kurt Petrus Lindstedt\",\n  \"birthDate\": \"1905-05-14\",\n  \"birthPlace\": \"Gränna\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johannes L.\",\n      \"jobTitle\": \"Headmaster\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Naèmi Land-ström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Maria Winnberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"exam\",\n      \"educationalRole\": \"Completed studies\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Jönköping\"\n      },\n      \"isBasedOn\": {\n        \"@type\": \"OrganizationRole\",\n        \"roleName\": \"Student\"\n      },\n      \"startDate\": \"1924\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"graduate\",\n      \"educationalRole\": \"Completed studies\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Uppsala\"\n      },\n      \"isBasedOn\": {\n        \"@type\": \"OrganizationRole\",\n        \"roleName\": \"Student\"\n      },\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"theology candidate\",\n      \"educationalRole\": \"Completed studies\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Uppsala\"\n      },\n      \"isBasedOn\": {\n        \"@type\": \"OrganizationRole\",\n        \"roleName\": \"Student\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"practical theology examination\",\n      \"educationalRole\": \"Completed studies\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Parish priest\",\n      \"namedPosition\": \"Väckelsång\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assisting minister\",\n      \"namedPosition\": \"Skede\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Assistant pastor\",\n      \"namedPosition\": \"Döderhult\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Church curate\",\n      \"namedPosition\": \"Urskult\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"title\": \"Minister\",\n      \"namedPosition\": \"Virestad\",\n      \"startDate\": \"1942\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Växjö diocese\"\n    }\n  ],\n  \"startDate\": \"1930\",\n  \"endDate\": \"1944\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Väckelsång\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kurt Petrus Lindstedt",
+        "birthDate": "1905-05-14",
+        "birthPlace": "Gränna",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Johannes L.",
+                "jobTitle": "Headmaster"
+            },
+            {
+                "@type": "Person",
+                "name": "Naèmi Land-ström"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Maria Winnberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulla",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Kristina",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "exam",
+                "educationalRole": "Completed studies",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Jönköping"
+                },
+                "isBasedOn": {
+                    "@type": "OrganizationRole",
+                    "roleName": "Student"
+                },
+                "startDate": "1924",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "graduate",
+                "educationalRole": "Completed studies",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Uppsala"
+                },
+                "isBasedOn": {
+                    "@type": "OrganizationRole",
+                    "roleName": "Student"
+                },
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "theology candidate",
+                "educationalRole": "Completed studies",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Uppsala"
+                },
+                "isBasedOn": {
+                    "@type": "OrganizationRole",
+                    "roleName": "Student"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "practical theology examination",
+                "educationalRole": "Completed studies"
+            }
+        ],
+        "jobTitle": [
+            {
+                "@type": "OrganizationRole",
+                "title": "Parish priest",
+                "namedPosition": "Väckelsång"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assisting minister",
+                "namedPosition": "Skede"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Assistant pastor",
+                "namedPosition": "Döderhult"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Church curate",
+                "namedPosition": "Urskult"
+            },
+            {
+                "@type": "OrganizationRole",
+                "title": "Minister",
+                "namedPosition": "Virestad",
+                "startDate": "1942"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Växjö diocese"
+            }
+        ],
+        "startDate": "1930",
+        "endDate": "1944",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Väckelsång"
+        }
+    }
+}

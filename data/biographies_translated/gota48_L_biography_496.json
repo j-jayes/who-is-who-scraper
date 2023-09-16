@@ -1,0 +1,88 @@
+{
+    "original": "Lundh, Nils Bertil, tandläkare, Trollhättan, f. 18/5/11 i Morlanda, Gbgs o. Boh. 1., av insp. Fingal L. o. Ellen Berg. G. 43 m. Inga-Lill Chris-tensson. Barn: Anita f. 44, Göran 45. — Stud:ex. i Uddevalla 31, Cand. med. dent. i Greifswald 33, tandl:kand. 35, tandl. 38. Assist, i Gbg 38, i Hallsberg 39, prakt, i Trollhättan sed. 39. Hobby: tennis.",
+    "translated": "Lundh, Nils Bertil, dentist, Trollhättan, b. 18/5/11 in Morlanda, Gothenburg and Bohus County. Son of inspector Fingal L. and Ellen Berg. Married in 1943 to Inga-Lill Christensson. Children: Anita, b. 1944 and Göran, b. 1945. \n\nEducation: High school diploma in Uddevalla in 1931, Bachelor of Dental Medicine in Greifswald in 1933, Dental Candidate in 1935, Dentist in 1938. Assistant in Gothenburg in 1938, in Hallsberg in 1939, practicing in Trollhättan since 1939. Hobby: tennis.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Bertil Lundh\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1911-05-18\",\n  \"birthPlace\": \"Morlanda, Gothenburg and Bohus County\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Fingal L.\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Berg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Inga-Lill Christensson\",\n    \"marriageDate\": \"1943\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anita Lundh\",\n      \"birthDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Lundh\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"HighSchool\",\n      \"name\": \"Uddevalla\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Greifswald\",\n      \"degree\": {\n        \"@type\": \"BachelorDegree\",\n        \"name\": \"Bachelor of Dental Medicine\",\n        \"dateAwarded\": \"1933\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Greifswald\"\n    }\n  ],\n  \"jobTitle\": [\n    {\n      \"@type\": \"DentalCandidate\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Dentist\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hallsberg\",\n      \"startDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Trollhättan\",\n      \"startDate\": \"1939\"\n    }\n  ],\n  \"interest\": \"tennis\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Bertil Lundh",
+        "jobTitle": [
+            {
+                "@type": "DentalCandidate",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Dentist",
+                "startDate": "1938"
+            }
+        ],
+        "birthDate": "1911-05-18",
+        "birthPlace": "Morlanda, Gothenburg and Bohus County",
+        "father": {
+            "@type": "Person",
+            "name": "Fingal L."
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Ellen Berg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Inga-Lill Christensson",
+            "marriageDate": "1943"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anita Lundh",
+                "birthDate": "1944"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran Lundh",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "HighSchool",
+                "name": "Uddevalla",
+                "endDate": "1931"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Greifswald",
+                "degree": {
+                    "@type": "BachelorDegree",
+                    "name": "Bachelor of Dental Medicine",
+                    "dateAwarded": "1933"
+                }
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Greifswald"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg",
+                "startDate": "1938",
+                "endDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hallsberg",
+                "startDate": "1939"
+            },
+            {
+                "@type": "Organization",
+                "name": "Trollhättan",
+                "startDate": "1939"
+            }
+        ],
+        "interest": "tennis"
+    }
+}

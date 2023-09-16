@@ -1,0 +1,112 @@
+{
+    "original": "Löfgren, Johan Georg, läroverksadjunkt, Vadstena, f. 30/5/98 i Uppsala av kamr. Johan Erik L. o. Johanna Olsson. — Stud:ex. 18, fil. kand. 22 o. fil. mag. 30, allt i Upps., stud. v. univ. i Genève 23, ’Stud:resor t. Norge, Danm., Engl., Skottl., Tyskl., Frankr., Schweiz o. Ital. 20-27. Vik. adj., vik. lektor samt extralär. v. olika lärov. 30-36, adj. i biol. m. hälsolära, geogr. o. kemi v. siamrealsk. i Mora 36-46, v. samrealsk. i Vadstena sed. 47.",
+    "translated": "Löfgren, Johan Georg, high school teacher, Vadstena, b. 30/5/98 in Uppsala, son of comrade Johan Erik L. and Johanna Olsson. — Graduated from high school in 1918, Bachelor of Arts in 1922, and Master of Arts in 1930, all at Uppsala. Studied at the University of Geneva in 1923, and took study trips to Norway, Denmark, England, Scotland, Germany, France, Switzerland, and Italy from 1920-1927. Acting assistant, acting lecturer, and extra teacher at various schools from 1930-1936. Biology, health education, geography, and chemistry teacher at Siam Real School in Mora from 1936-1946. Vice principal at Vadstena Real School since 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Georg Löfgren\",\n  \"jobTitle\": \"High School Teacher\",\n  \"birthPlace\": \"Uppsala, Sweden\",\n  \"birthDate\": \"1898-05-30\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan Erik Löfgren\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johanna Olsson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High School Diploma\",\n      \"dateIssued\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"dateIssued\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Arts\",\n      \"dateIssued\": \"1930\"\n    }\n  ],\n  \"studyAt\": [\n    {\n      \"@type\": \"University\",\n      \"name\": \"University of Geneva\",\n      \"startDate\": \"1923\"\n    }\n  ],\n  \"studyTrips\": [\n    \"Norway\",\n    \"Denmark\",\n    \"England\",\n    \"Scotland\",\n    \"Germany\",\n    \"France\",\n    \"Switzerland\",\n    \"Italy\"\n  ],\n  \"positions\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Assistant\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Acting Lecturer\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Extra Teacher\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Biology Teacher\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1946\",\n      \"worksFor\": {\n        \"@type\": \"School\",\n        \"name\": \"Siam Real School\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Mora\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"teaches\": [\n        \"Biology\",\n        \"Health Education\",\n        \"Geography\",\n        \"Chemistry\"\n      ]\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Vice Principal\",\n      \"startDate\": \"1947\",\n      \"worksFor\": {\n        \"@type\": \"School\",\n        \"name\": \"Vadstena Real School\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Vadstena\",\n          \"addressCountry\": \"Sweden\"\n        }\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Georg Löfgren",
+        "jobTitle": "High School Teacher",
+        "birthPlace": "Uppsala, Sweden",
+        "birthDate": "1898-05-30",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Johan Erik Löfgren"
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Olsson"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High School Diploma",
+                "dateIssued": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Bachelor of Arts",
+                "dateIssued": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Master of Arts",
+                "dateIssued": "1930"
+            }
+        ],
+        "studyAt": [
+            {
+                "@type": "University",
+                "name": "University of Geneva",
+                "startDate": "1923"
+            }
+        ],
+        "studyTrips": [
+            "Norway",
+            "Denmark",
+            "England",
+            "Scotland",
+            "Germany",
+            "France",
+            "Switzerland",
+            "Italy"
+        ],
+        "positions": [
+            {
+                "@type": "JobPosting",
+                "title": "Acting Assistant",
+                "startDate": "1930",
+                "endDate": "1936"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Acting Lecturer",
+                "startDate": "1930",
+                "endDate": "1936"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Extra Teacher",
+                "startDate": "1930",
+                "endDate": "1936"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Biology Teacher",
+                "startDate": "1936",
+                "endDate": "1946",
+                "worksFor": {
+                    "@type": "School",
+                    "name": "Siam Real School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Mora",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "teaches": [
+                    "Biology",
+                    "Health Education",
+                    "Geography",
+                    "Chemistry"
+                ]
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Vice Principal",
+                "startDate": "1947",
+                "worksFor": {
+                    "@type": "School",
+                    "name": "Vadstena Real School",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Vadstena",
+                        "addressCountry": "Sweden"
+                    }
+                }
+            }
+        ]
+    }
+}

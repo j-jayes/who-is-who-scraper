@@ -1,0 +1,72 @@
+{
+    "original": "Lindeström, Hanna Stina Maria, tandläkare, Mariestad, f. 11/12/14 i Frustuna, Södermani. 1., av hovapot. John Frykhodm o. Asta Ljunggren. G. m. tandl. Karl-Erik Lindeström. Barn : se denne. — Stud :ex. i Sthlm, tandl ex. 39. Anst. v. Eastmaninst. i Sthlm 40-42, distr:tandil. i Värml. län 44, praktik i Mariestad sed. 47.",
+    "translated": "Lindström, Hanna Stina Maria, dentist, Mariestad, born on December 11, 1914, in Frustuna, Södermania. First child of court apothecary John Frykhodm and Asta Ljunggren. Married to dentist Karl-Erik Lindeström. Children: Refer to him for details. - Completed dental studies in Stockholm, dental examination in 1939. Employed at Eastman Institute in Stockholm from 1940 to 1942, district dentist in Värmland County in 1944, practicing in Mariestad since 1947.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hanna Stina Maria Lindeström\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Mariestad\"\n  },\n  \"birthDate\": \"1914-12-11\",\n  \"birthPlace\": \"Frustuna, Södermania\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John Frykhodm\",\n      \"jobTitle\": \"Court Apothecary\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Asta Ljunggren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karl-Erik Lindeström\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karl-Erik Lindeström\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"studyProgram\": \"Dental Studies\",\n    \"educationalLevel\": \"Completed\",\n    \"educationalProgram\": \"Studied in Stockholm\"\n  },\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Eastman Institute\",\n      \"startDate\": \"1940-01-01\",\n      \"endDate\": \"1942-12-31\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Värmland County\",\n      \"startDate\": \"1944-01-01\",\n      \"endDate\": \"1944-12-31\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressRegion\": \"Värmland\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private Practice in Mariestad\",\n      \"startDate\": \"1947-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Hanna Stina Maria Lindeström",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mariestad"
+        },
+        "birthDate": "1914-12-11",
+        "birthPlace": "Frustuna, Södermania",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "John Frykhodm",
+                "jobTitle": "Court Apothecary"
+            },
+            {
+                "@type": "Person",
+                "name": "Asta Ljunggren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karl-Erik Lindeström",
+            "jobTitle": "Dentist"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karl-Erik Lindeström"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "studyProgram": "Dental Studies",
+            "educationalLevel": "Completed",
+            "educationalProgram": "Studied in Stockholm"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Eastman Institute",
+                "startDate": "1940-01-01",
+                "endDate": "1942-12-31",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Värmland County",
+                "startDate": "1944-01-01",
+                "endDate": "1944-12-31",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": "Värmland"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Private Practice in Mariestad",
+                "startDate": "1947-01-01"
+            }
+        ]
+    }
+}

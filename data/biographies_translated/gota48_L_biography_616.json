@@ -1,0 +1,108 @@
+{
+    "original": "Löfgren, Åke Bernhard, tandläkare, Göteborg, f. 1/1/08 i Bengtsfors, Älvsb. 1., av köpm. Petrus L. o. Emma Johans-son. G. 32 m. Greta Dahlman. Barn: Björn f. 37, Catharina 39. — Stud:ex. i Karlstad 26, tandl :kand. 29, tandl. 31. Assist, i Kungsbacka 31, skoltandl. i Gbg 32-34, därefter prakt, där.",
+    "translated": "Löfgren, Åke Bernhard, dentist, Gothenburg, b. 1/1/1908 in Bengtsfors, Älvsborg County, son of merchant Petrus L. and Emma Johansson. Married in 1932 to Greta Dahlman. Children: Björn b. 1937, Catharina b. 1939. Completed secondary school in Karlstad in 1926, graduated as a dentist in 1929, became a licensed dentist in 1931. Worked as an assistant in Kungsbacka in 1931, school dentist in Gothenburg from 1932 to 1934, and then established a private practice there.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Bernhard Löfgren\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1908-01-01\",\n  \"birthPlace\": \"Bengtsfors, Älvsborg County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Petrus L.\",\n      \"jobTitle\": \"Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emma Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Greta Dahlman\",\n    \"marriageDate\": \"1932\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Catharina\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary school\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlstad\"\n      },\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dentistry\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlstad\"\n      },\n      \"startDate\": \"1929\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dentistry\",\n      \"issuer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlstad\"\n      },\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Kungsbacka\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"School Dentist\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Private Practice\",\n      \"startDate\": \"1934\",\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åke Bernhard Löfgren",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1908-01-01",
+        "birthPlace": "Bengtsfors, Älvsborg County",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Petrus L.",
+                "jobTitle": "Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Emma Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Greta Dahlman",
+            "marriageDate": "1932"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn",
+                "birthDate": "1937"
+            },
+            {
+                "@type": "Person",
+                "name": "Catharina",
+                "birthDate": "1939"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary school",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Karlstad"
+                },
+                "startDate": "1926",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentistry",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Karlstad"
+                },
+                "startDate": "1929",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentistry",
+                "issuer": {
+                    "@type": "Organization",
+                    "name": "Karlstad"
+                },
+                "startDate": "1931",
+                "endDate": "1931"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant",
+                "startDate": "1931",
+                "endDate": "1931",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Kungsbacka"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "School Dentist",
+                "startDate": "1932",
+                "endDate": "1934",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Private Practice",
+                "startDate": "1934",
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                }
+            }
+        ]
+    }
+}

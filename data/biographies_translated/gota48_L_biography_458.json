@@ -1,0 +1,82 @@
+{
+    "original": "Ljunggren, Alfred Henrik, bankdirektör, Sölvesborg, f. 6/7/86 i Vetlanda av Johan Alfred L. o. Amanda Carlsson. G. 21 m. Gussi Linné. Barn: Carl Gustav f. 23, Ulla 24, Knut 29. — Anst. i Sydsv. Kredit A-B 06, kassör i Hälsingborg 14, kont:förest. i Kävlinge 17, anst. i A-B Industribanken—A-B Nord. Hand :banken s. förest. f. provxentr. i Malmö 17-25, led. av styr. f. A-B Sydsv. Banken, nuv. A-B Skånska Banken i Sölvesborg 25, kontxhef där 25, num. dir. där. Stud:-resa t. Tyskl.",
+    "translated": "Ljunggren, Alfred Henrik, bank director, Sölvesborg. Born on 6/7/1886 in Vetlanda to Johan Alfred Ljunggren and Amanda Carlsson. Married on 21 m. with Gussi Linné. Children: Carl Gustav, born in 1923, Ulla in 1924, Knut in 1929. Started working at Sydsvenska Kredit Aktiebolaget in 1906, cashier in Hälsingborg in 1914, head of department in Kävlinge in 1917, employed at Industribanken—A-B Nord Handelsbanken as head of regional office in Malmö from 1917 to 1925. Member of the board of directors of A-B Sydsvenska Banken, currently employed at A-B Skånska Banken in Sölvesborg since 1925, promoted to department head there in 1925, currently holds the position of director. Went on a study trip to Germany.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Alfred Henrik Ljunggren\",\n  \"birthDate\": \"1886-07-06\",\n  \"birthPlace\": \"Vetlanda\",\n  \"deathDate\": null,\n  \"nationality\": \"Swedish\",\n  \"description\": \"Bank director\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gussi Linné\",\n      \"marriageDate\": \"1921-03-21\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Gustav Ljunggren\",\n      \"birthDate\": \"1923-01-23\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulla Ljunggren\",\n      \"birthDate\": \"1924-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Knut Ljunggren\",\n      \"birthDate\": \"1929-01-01\"\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Cashier\",\n      \"startDate\": \"1906-01-01\",\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Sydsvenska Kredit Aktiebolaget\"\n      },\n      \"location\": \"Hälsingborg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Head of Department\",\n      \"startDate\": \"1917-01-01\",\n      \"endDate\": \"1925-01-01\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Industribanken—A-B Nord Handelsbanken\"\n      },\n      \"location\": \"Malmö\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Director\",\n      \"startDate\": \"1925-01-01\",\n      \"endDate\": null,\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"A-B Skånska Banken\"\n      },\n      \"location\": \"Sölvesborg\"\n    }\n  ],\n  \"studyTrip\": {\n    \"@type\": \"Event\",\n    \"name\": \"Study trip to Germany\",\n    \"description\": \"Studied in Germany\",\n    \"startDate\": null,\n    \"endDate\": null,\n    \"location\": null\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alfred Henrik Ljunggren",
+        "birthDate": "1886-07-06",
+        "birthPlace": "Vetlanda",
+        "deathDate": null,
+        "nationality": "Swedish",
+        "description": "Bank director",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Gussi Linné",
+                "marriageDate": "1921-03-21"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Carl Gustav Ljunggren",
+                "birthDate": "1923-01-23"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulla Ljunggren",
+                "birthDate": "1924-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Knut Ljunggren",
+                "birthDate": "1929-01-01"
+            }
+        ],
+        "employment": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Cashier",
+                "startDate": "1906-01-01",
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Sydsvenska Kredit Aktiebolaget"
+                },
+                "location": "Hälsingborg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Head of Department",
+                "startDate": "1917-01-01",
+                "endDate": "1925-01-01",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Industribanken—A-B Nord Handelsbanken"
+                },
+                "location": "Malmö"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Director",
+                "startDate": "1925-01-01",
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "A-B Skånska Banken"
+                },
+                "location": "Sölvesborg"
+            }
+        ],
+        "studyTrip": {
+            "@type": "Event",
+            "name": "Study trip to Germany",
+            "description": "Studied in Germany",
+            "startDate": null,
+            "endDate": null,
+            "location": null
+        }
+    }
+}

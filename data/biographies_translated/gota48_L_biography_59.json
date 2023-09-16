@@ -1,0 +1,160 @@
+{
+    "original": "Larn, Giiiis Gustaf Adolf, apotekare, Göteborg, f. 12/5/84 i Vänersborg. — Mog:ex. i Vänersborg 05, farm. kand. 09, apot :ex. 16. Elev v. apot. Valen i Gbg o. Hjorten i Örebro 06-08, anst. v. apot. i Vänersborg 09-13, 16-36, därunder förest, närmare två år, anst. v. apot. i Årjäng o. Ed 13-16, priv. å apot. i Gränna 36, transp. t. Måsen i Gbg 42. Var i Gränna bl. a. led. av stadsfullm. o. ordf. i styr. f. h. folk-sk., ordf. i direkt, f. stadens krislids-förb., rev. f. stadens räkensk.",
+    "translated": "Larn, Giiiis Gustaf Adolf, pharmacist, Gothenburg, b. May 12, 1884 in Vänersborg. Completed medical examination in Vänersborg in 1905, graduated as a pharmacist in 1909, obtained pharmacy examination in 1916. Was an apprentice at Valen pharmacy in Gothenburg and Hjorten pharmacy in Örebro from 1906 to 1908, employed at a pharmacy in Vänersborg from 1909 to 1913 and 1916 to 1936, including being in charge for nearly two years. Employed at pharmacies in Årjäng and Ed from 1913 to 1916, privately worked at a pharmacy in Gränna in 1936, transferred to Måsen pharmacy in Gothenburg in 1942. In Gränna, among other positions, served as a member of the city council and chairman of the board for public primary schools, chairman of the city's crisis management association, and auditor for the city's accounts.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Larn, Giiiis Gustaf Adolf\",\n  \"jobTitle\": \"Pharmacist\",\n  \"birthDate\": \"1884-05-12\",\n  \"birthPlace\": \"Vänersborg, Sweden\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"medical examination\",\n    \"educationalLevel\": \"pharmacist\",\n    \"startDate\": \"1905\",\n    \"endDate\": \"1909\",\n    \"awardingInstitution\": \"Vänersborg\"\n  },\n  \"pharmacyExamination\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"pharmacy examination\",\n    \"startDate\": \"1916\",\n    \"awardingInstitution\": \"Unknown\"\n  },\n  \"apprenticeships\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacy apprentice\",\n      \"startDate\": \"1906\", \n      \"endDate\": \"1908\",\n      \"organization\": {\n        \"@type\": \"Pharmacy\",\n        \"name\": \"Valen\",\n        \"location\": \"Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacy apprentice\",\n      \"startDate\": \"1906\",\n      \"endDate\": \"1908\",\n      \"organization\": {\n        \"@type\": \"Pharmacy\",\n        \"name\": \"Hjorten\",\n        \"location\": \"Örebro\"\n      }\n    }\n  ],\n  \"employments\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1913\",\n      \"organization\": {\n        \"@type\": \"Pharmacy\",\n        \"name\": \"Vänersborg\",\n        \"location\": \"Vänersborg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1936\",\n      \"organization\": {\n        \"@type\": \"Pharmacy\",\n        \"name\": \"Vänersborg\",\n        \"location\": \"Vänersborg\"\n      },\n      \"responsibilities\": \"In charge for nearly two years\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1916\",\n      \"organization\": {\n        \"@type\": \"Pharmacy\",\n        \"name\": \"Unknown\",\n        \"location\": \"Årjäng and Ed\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"startDate\": \"1936\",\n      \"organization\": {\n        \"@type\": \"Pharmacy\",\n        \"name\": \"Gränna\",\n        \"location\": \"Gränna\"\n      },\n      \"description\": \"Private\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pharmacist\",\n      \"startDate\": \"1942\",\n      \"organization\": {\n        \"@type\": \"Pharmacy\",\n        \"name\": \"Måsen\",\n        \"location\": \"Gothenburg\"\n      },\n      \"description\": \"Transferred to Måsen pharmacy in Gothenburg\"\n    }\n  ],\n  \"positions\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Member\",\n      \"startDate\": \"Unknown\",\n      \"description\": \"Member of the city council\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gränna\",\n        \"location\": \"Gränna\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"Unknown\",\n      \"description\": \"Chairman of the board for public primary schools\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gränna\",\n        \"location\": \"Gränna\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"Unknown\",\n      \"description\": \"Chairman of the city's crisis management association\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gränna\",\n        \"location\": \"Gränna\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Auditor\",\n      \"startDate\": \"Unknown\",\n      \"description\": \"Auditor for the city's account\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gränna\",\n        \"location\": \"Gränna\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Larn, Giiiis Gustaf Adolf",
+        "jobTitle": "Pharmacist",
+        "birthDate": "1884-05-12",
+        "birthPlace": "Vänersborg, Sweden",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg",
+            "addressCountry": "Sweden"
+        },
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "medical examination",
+            "educationalLevel": "pharmacist",
+            "startDate": "1905",
+            "endDate": "1909",
+            "awardingInstitution": "Vänersborg"
+        },
+        "pharmacyExamination": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "pharmacy examination",
+            "startDate": "1916",
+            "awardingInstitution": "Unknown"
+        },
+        "apprenticeships": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacy apprentice",
+                "startDate": "1906",
+                "endDate": "1908",
+                "organization": {
+                    "@type": "Pharmacy",
+                    "name": "Valen",
+                    "location": "Gothenburg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacy apprentice",
+                "startDate": "1906",
+                "endDate": "1908",
+                "organization": {
+                    "@type": "Pharmacy",
+                    "name": "Hjorten",
+                    "location": "Örebro"
+                }
+            }
+        ],
+        "employments": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "startDate": "1909",
+                "endDate": "1913",
+                "organization": {
+                    "@type": "Pharmacy",
+                    "name": "Vänersborg",
+                    "location": "Vänersborg"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "startDate": "1916",
+                "endDate": "1936",
+                "organization": {
+                    "@type": "Pharmacy",
+                    "name": "Vänersborg",
+                    "location": "Vänersborg"
+                },
+                "responsibilities": "In charge for nearly two years"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "startDate": "1913",
+                "endDate": "1916",
+                "organization": {
+                    "@type": "Pharmacy",
+                    "name": "Unknown",
+                    "location": "Årjäng and Ed"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "startDate": "1936",
+                "organization": {
+                    "@type": "Pharmacy",
+                    "name": "Gränna",
+                    "location": "Gränna"
+                },
+                "description": "Private"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pharmacist",
+                "startDate": "1942",
+                "organization": {
+                    "@type": "Pharmacy",
+                    "name": "Måsen",
+                    "location": "Gothenburg"
+                },
+                "description": "Transferred to Måsen pharmacy in Gothenburg"
+            }
+        ],
+        "positions": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Member",
+                "startDate": "Unknown",
+                "description": "Member of the city council",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gränna",
+                    "location": "Gränna"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Chairman",
+                "startDate": "Unknown",
+                "description": "Chairman of the board for public primary schools",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gränna",
+                    "location": "Gränna"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Chairman",
+                "startDate": "Unknown",
+                "description": "Chairman of the city's crisis management association",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gränna",
+                    "location": "Gränna"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Auditor",
+                "startDate": "Unknown",
+                "description": "Auditor for the city's account",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gränna",
+                    "location": "Gränna"
+                }
+            }
+        ]
+    }
+}

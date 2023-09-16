@@ -1,0 +1,58 @@
+{
+    "original": "Molander, Oscar Carl Axel, disponent, Alingsås, f. 25/4/01 i Alingsås av dir. O^scar M. o. Maria Emgardt. G. m. Nimma Perslow. — Stud:ex. 19, därpå stud. v. Gbgs hand :inst. Res. t. Tys’kl., Engl. o. USA. Disp. v. Konfektions A-B Oscar Molander (Kabom). Led. av Sv. arb :giv :fören. styr., ordf. i Sv:es konfektionsind :förb., led. av Västergötl. o. N. Hall. hand :kamm., v. ordf. i Sv. konfektionsfabr :fören.",
+    "translated": "Molander, Oscar Carl Axel, manager, Alingsås, b. 25/4/01 in Alingsås, son of director Oscar M. and Maria Emgardt. Married to Nimma Perslow (year of marriage not specified). — Completed high school in 1919, then studied at the Gothenburg Handicraft Institute. Traveled to Germany, England, and the USA. Served as manager of the Confections A-B Oscar Molander (Kabom). Member of the Swedish Employers' Association board, chairman of the Swedish Confectionery Industry Federation, member of the Västergötland and North Halland Chamber of Commerce, vice chairman of the Swedish Confectionery Manufacturers Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oscar Carl Axel Molander\",\n  \"birthDate\": \"1901-04-25\",\n  \"birthPlace\": \"Alingsås\",\n  \"familyName\": \"Molander\",\n  \"givenName\": \"Oscar Carl Axel\",\n  \"jobTitle\": \"Manager\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Alingsås\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Oscar M. Molander\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Emgardt\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nimma Perslow\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Gothenburg Handicraft Institute\",\n    \"alumniOf\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"highSchoolDiploma\",\n      \"endDate\": \"1919\"\n    }\n  },\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Confections A-B Oscar Molander (Kabom)\",\n    \"jobTitle\": \"Manager\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Employers' Association\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Confectionery Industry Federation\",\n    \"jobTitle\": \"Chairman\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västergötland Chamber of Commerce\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"North Halland Chamber of Commerce\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Confectionery Manufacturers Association\",\n    \"jobTitle\": \"Vice Chairman\"\n  },\n  \"sameAs\": [\n    \"https://www.example.com/oscar-molander\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Oscar Carl Axel Molander",
+        "birthDate": "1901-04-25",
+        "birthPlace": "Alingsås",
+        "familyName": "Molander",
+        "givenName": "Oscar Carl Axel",
+        "jobTitle": "Manager",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Alingsås"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Oscar M. Molander",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Emgardt"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Nimma Perslow"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Gothenburg Handicraft Institute",
+            "alumniOf": {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "highSchoolDiploma",
+                "endDate": "1919"
+            }
+        },
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Confections A-B Oscar Molander (Kabom)",
+            "jobTitle": "Manager"
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Confectionery Manufacturers Association",
+            "jobTitle": "Vice Chairman"
+        },
+        "sameAs": [
+            "https://www.example.com/oscar-molander"
+        ]
+    }
+}
