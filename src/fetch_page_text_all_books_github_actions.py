@@ -21,9 +21,8 @@ def extract_bio_data(page_source):
 
     return bio_data
 
-def fetch_book_text(book_id, num_pages, start_page=1, end_page=1000):
+def fetch_book_text(book_id, num_pages, start_page=1, end_page=20):
     for i in range(start_page, min(num_pages + 1, end_page + 1)):
-        # (Rest of the code remains the same)
         url = f"http://runeberg.org/vemarvem/{book_id}/{str(i).zfill(4)}.html"
         response = requests.get(url)
 
@@ -36,7 +35,7 @@ def fetch_book_text(book_id, num_pages, start_page=1, end_page=1000):
             if bio_data:
                 with open(f"data/raw/{book_id}_page_text_{i}.txt", "w", encoding="UTF-8") as f:
                     f.write(bio_data)
-                print(f"Text has been saved to {book_id}_page_text_{i}.txt")
+                print(f"Text has been saved to {book_id}_page_text_{i}.txt", flush=True)
 
             else:
                 print(f"Biographical data not found for page {i}.")
@@ -58,7 +57,7 @@ for book_id, num_pages in number_of_pages_per_book.items():
         if book_id == resume_book_id:
             found_resume_book = True
             print(f"Resuming text fetching for {book_id}...")
-            fetch_book_text(book_id, num_pages, resume_page, resume_page + 10)
+            fetch_book_text(book_id, num_pages, resume_page, resume_page + 20)
         else:
             print(f"Skipping {book_id}...")
             continue
