@@ -1,0 +1,101 @@
+{
+    "original": "Åby, Östergötl. 1., av godsäg. Axel Andersson o. Anna Åström. G. 46 m. Britt Sundin. — Stud:ex. i Linköp. 23, jur. kand. i Upps. 29. Tingstjg. i Linköp. domis. 29-32, tjg. i Svea hovr. 32-33, egen adv:verks. i Linköp. fr. 33. V. krigsfiskal v. Livgren: reg., Svea trängkår, Ostgöta luftv:reg. o. Östg. flygflottilj fr. 36. Led. av styr. f. Skandinavbankens Linköp :kont., suppl. i styr. f. A-B Stora Hotellet, f. Lin-köp. Teater A-B m. fl. Tj :man i fl. ordenssällsk. o. klubbar.",
+    "translated": "Åby, Östergötland, 1st, son of landowner Axel Andersson and Anna Åström. Married in 1946 to Britt Sundin. - Studied: graduated from high school in Linköping in 1923, obtained a law degree in Uppsala in 1929. Served as a court official in Linköping from 1929-1932, worked in the Svea Court of Appeal from 1932-1933, and had his own law practice in Linköping from 1933. Served as a military prosecutor in the Life Grenadier Regiment, Svea Service Corps, Östergötland Air Force Regiment, and Östergötland Air Force Squadron from 1936. Member of the board for Skandinavbanken in Linköping, and a substitute board member for A-B Stora Hotellet, Lin-köp. Theater A-B, and others. Also a member of various orders and clubs.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Åby, Östergötland\",\n  \"birthPlace\": \"Åby, Östergötland\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel Andersson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Åström\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britt Sundin\",\n      \"marriageDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Linköping High School\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\",\n      \"degree\": \"Law\",\n      \"endDate\": \"1929\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Linköping District Court\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Svea Court of Appeal\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"LegalService\",\n      \"name\": \"Own Law Practice\",\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Life Grenadier Regiment\",\n      \"position\": \"Military Prosecutor\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Svea Service Corps\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Östergötland Air Force Regiment\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Östergötland Air Force Squadron\"\n    },\n    {\n      \"@type\": \"Corporation\",\n      \"name\": \"Skandinavbanken\",\n      \"boardMember\": true,\n      \"location\": \"Linköping\"\n    },\n    {\n      \"@type\": \"Corporation\",\n      \"name\": \"A-B Stora Hotellet\",\n      \"boardMember\": true\n    },\n    {\n      \"@type\": \"Corporation\",\n      \"name\": \"Lin-köp. Theater A-B\",\n      \"boardMember\": true\n    }\n  ],\n  \"membership\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Fl. TjMan\",\n      \"memberOf\": \"ordenssällsk\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Åby, Östergötland",
+        "birthPlace": "Åby, Östergötland",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel Andersson"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Åström"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Britt Sundin",
+                "marriageDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Linköping High School",
+                "endDate": "1923"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Uppsala University",
+                "degree": "Law",
+                "endDate": "1929"
+            }
+        ],
+        "work": [
+            {
+                "@type": "Court",
+                "name": "Linköping District Court",
+                "startDate": "1929",
+                "endDate": "1932"
+            },
+            {
+                "@type": "Court",
+                "name": "Svea Court of Appeal",
+                "startDate": "1932",
+                "endDate": "1933"
+            },
+            {
+                "@type": "LegalService",
+                "name": "Own Law Practice",
+                "startDate": "1933"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "Life Grenadier Regiment",
+                "position": "Military Prosecutor",
+                "startDate": "1936"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "Svea Service Corps"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "Östergötland Air Force Regiment"
+            },
+            {
+                "@type": "MilitaryOrganization",
+                "name": "Östergötland Air Force Squadron"
+            },
+            {
+                "@type": "Corporation",
+                "name": "Skandinavbanken",
+                "boardMember": true,
+                "location": "Linköping"
+            },
+            {
+                "@type": "Corporation",
+                "name": "A-B Stora Hotellet",
+                "boardMember": true
+            },
+            {
+                "@type": "Corporation",
+                "name": "Lin-köp. Theater A-B",
+                "boardMember": true
+            }
+        ],
+        "membership": [
+            {
+                "@type": "Organization",
+                "name": "Fl. TjMan",
+                "memberOf": "ordenssällsk"
+            }
+        ]
+    }
+}

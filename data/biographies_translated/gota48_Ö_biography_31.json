@@ -1,0 +1,85 @@
+{
+    "original": "Öman, Bror, tandläkare, Borås, f. 24/3/00 i Öra, Älvsb. 1., av August Ö. o. Klara Larsson. G. 20/1/29 m. Magda Karlsson. Barn: Margareta f. 19/ 12/29, Birgitta o. Siv 32. — Stud:ex. i Skara 18, med. kand. i Upps. 25, tand-läk. 28. Praktik i Borås sed. 28.",
+    "translated": "Öman, Bror, dentist, Borås, b. 24/3/00 in Öra, Älvsborg County, son of August Ö. and Klara Larsson. Married on 20/1/29 to Magda Karlsson. Children: Margareta, b. 19/12/29, Birgitta and Siv, b. 32. — Completed high school diploma in Skara in 1918, obtained a bachelor's degree in medicine in Uppsala in 1925, and graduated as a dentist in 1928. Started practicing in Borås since 1928.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bror Öman\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1900-03-24\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Öra\"\n  },\n  \"nationality\": \"Swedish\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Borås\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August Öman\",\n      \"spouse\": \"Klara Larsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Magda Karlsson\",\n    \"marriageDate\": \"1929-01-20\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Öman\",\n      \"birthDate\": \"1929-12-19\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Öman\",\n      \"birthDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Siv Öman\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Skara\",\n      \"credentialDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor's degree\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"educationalCredentialAwarded\": \"med. kand.\",\n      \"educationalInstitution\": \"Uppsala\",\n      \"credentialDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"professional degree\",\n      \"educationalLevel\": \"ProfessionalDegree\",\n      \"educationalCredentialAwarded\": \"tand-läk.\",\n      \"educationalInstitution\": \"Uppsala\",\n      \"credentialDate\": \"1928\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1928\",\n    \"location\": {\n      \"@type\": \"City\",\n      \"name\": \"Borås\"\n    }\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bror Öman",
+        "jobTitle": "Dentist",
+        "birthDate": "1900-03-24",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Öra"
+        },
+        "nationality": "Swedish",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Borås"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "August Öman",
+                "spouse": "Klara Larsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Magda Karlsson",
+            "marriageDate": "1929-01-20"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margareta Öman",
+                "birthDate": "1929-12-19"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgitta Öman",
+                "birthDate": "1932"
+            },
+            {
+                "@type": "Person",
+                "name": "Siv Öman",
+                "birthDate": "1932"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "educationalInstitution": "Skara",
+                "credentialDate": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelor's degree",
+                "educationalLevel": "BachelorDegree",
+                "educationalCredentialAwarded": "med. kand.",
+                "educationalInstitution": "Uppsala",
+                "credentialDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "professional degree",
+                "educationalLevel": "ProfessionalDegree",
+                "educationalCredentialAwarded": "tand-läk.",
+                "educationalInstitution": "Uppsala",
+                "credentialDate": "1928"
+            }
+        ],
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1928",
+            "location": {
+                "@type": "City",
+                "name": "Borås"
+            }
+        }
+    }
+}

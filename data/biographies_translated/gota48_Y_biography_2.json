@@ -1,0 +1,60 @@
+{
+    "original": "Ygge, Lars Johan Birger, disponent, Göteborg, f. 7/10/96 i Jönköp. G. 27 m. Margit Larsson. Barn: Kerstin f. 28, Margareta o. Lars Johan ff. 31. — Stud:ex. i Jönköp. 14, ofif :ex. 16. Fänrik v. kustart. 16, löjtn. 18, i res. s. å., kapten 40. Hand.- o. tekn. utb. i in- o. uti. Anst. v. Nord. Kullager A-B o. SKF 18-26, disp. v. A-B Pripp &amp; Lyckholms brygg, i Vänersb. o. Trollhättan 27-35, i Gbg sed. 35.",
+    "translated": "Ygge, Lars Johan Birger, manager, Gothenburg, b. 7/10/1896 in Jönköping. Married in 1927 to Margit Larsson. Children: Kerstin b. 1928, Margareta and Lars Johan b. 1931. - Secondary school graduate in Jönköping in 1914, officer candidate exam in 1916. Ensign in the coastal artillery in 1916, lieutenant in 1918, in reserve the same year, captain in 1940. Commercial and technical education at home and abroad. Employed by Nordisk Kullager AB and SKF from 1918 to 1926. Manager at AB Pripp & Lyckholms Brewery in Vänersborg and Trollhättan from 1927 to 1935, in Gothenburg since 1935.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Johan Birger Ygge\",\n  \"givenName\": \"Lars Johan Birger\",\n  \"familyName\": \"Ygge\",\n  \"birthDate\": \"1896-10-07\",\n  \"birthPlace\": \"Jönköping\",\n  \"description\": \"Manager at AB Pripp & Lyckholms Brewery\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Larsson\",\n    \"birthDate\": null\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars Johan\",\n      \"birthDate\": \"1931\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Jönköping Secondary School\",\n      \"startDate\": \"1914\",\n      \"endDate\": null\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nordisk Kullager AB\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SKF\"\n    }\n  ],\n  \"jobTitle\": \"Manager\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Lars Johan Birger Ygge",
+        "givenName": "Lars Johan Birger",
+        "familyName": "Ygge",
+        "birthDate": "1896-10-07",
+        "birthPlace": "Jönköping",
+        "description": "Manager at AB Pripp & Lyckholms Brewery",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Larsson",
+            "birthDate": null
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Kerstin",
+                "birthDate": "1928"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1931"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars Johan",
+                "birthDate": "1931"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Jönköping Secondary School",
+                "startDate": "1914",
+                "endDate": null
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Nordisk Kullager AB"
+            },
+            {
+                "@type": "Organization",
+                "name": "SKF"
+            }
+        ],
+        "jobTitle": "Manager"
+    }
+}

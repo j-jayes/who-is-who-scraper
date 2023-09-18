@@ -1,0 +1,77 @@
+{
+    "original": "Zetterlund, Frans Olof, kapten, fd. brandchef, Karlskrona, f. 10/6/84 ^ i Härnösand av fabr. Gustaf Z. o. Karin Nordlund. G. 21 m. Ingegerd Äkesdot-ter Natt o. Dag. Barn: Marianne f. 23, Rolf Gustaf 24. — Stud:ex. i Härnösand 05, off:ex. 07, GD 11-14. Und:-löjtn. v. Jämtl. fältjäg:reg. 07, löjtn. 12, kapten 20. Brandchef i Östersund 26-31, i Karlskr. 31-46. RSO, RNS:tOO-Ikl.",
+    "translated": "Zetterlund, Frans Olof, Captain, former fire chief, Karlskrona, born on June 10, 1884 ^ in Härnösand. Son of Gustaf Z., a factory worker, and Karin Nordlund. Married on May 21 with Ingegerd Äkesdotter Natt o. Dag. Children: Marianne, born in 1923, and Rolf Gustaf, born in 1924. \n\nEducated at Härnösand School of Higher Education in 1905, Officer's Examination in 1907, and General Staff Course from 1911 to 1914. Served as Second Lieutenant in Jämtland Rifle Regiment in 1907, promoted to Lieutenant in 1912, and Captain in 1920. \n\nServed as fire chief in Östersund from 1926 to 1931, and in Karlskrona from 1931 to 1946. Awarded with the Royal Order of the Seraphim (RSO) and the Royal Naval Order (RNS:tOO-Ikl.).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Frans Olof Zetterlund\",\n  \"birthDate\": \"1884-06-10\",\n  \"birthPlace\": \"Härnösand\",\n  \"father\": {\n    \"name\": \"Gustaf Z.\"\n  },\n  \"mother\": {\n    \"name\": \"Karin Nordlund\"\n  },\n  \"spouse\": {\n    \"name\": \"Ingegerd Äkesdotter Natt o. Dag\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Gustaf\",\n      \"birthDate\": \"1924\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Stud:ex.\",\n    \"educationalLevel\": \"Härnösand School of Higher Education\",\n    \"startDate\": \"1905\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Captain\",\n      \"startDate\": \"YYYY\",\n      \"endDate\": \"YYYY\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Former fire chief\",\n      \"startDate\": \"XXXX\",\n      \"endDate\": \"XXXX\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Brandchef i Östersund\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Brandchef i Karlskrona\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1946\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of the Seraphim\",\n      \"awardDate\": \"YYYY\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Naval Order\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Frans Olof Zetterlund",
+        "birthDate": "1884-06-10",
+        "birthPlace": "Härnösand",
+        "father": {
+            "name": "Gustaf Z."
+        },
+        "mother": {
+            "name": "Karin Nordlund"
+        },
+        "spouse": {
+            "name": "Ingegerd Äkesdotter Natt o. Dag",
+            "marriageDate": "YYYY-MM-DD"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Marianne",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Rolf Gustaf",
+                "birthDate": "1924"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Stud:ex.",
+            "educationalLevel": "Härnösand School of Higher Education",
+            "startDate": "1905"
+        },
+        "occupation": [
+            {
+                "@type": "Occupation",
+                "name": "Captain",
+                "startDate": "YYYY",
+                "endDate": "YYYY"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Former fire chief",
+                "startDate": "XXXX",
+                "endDate": "XXXX"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Brandchef i Östersund",
+                "startDate": "1926",
+                "endDate": "1931"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Brandchef i Karlskrona",
+                "startDate": "1931",
+                "endDate": "1946"
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of the Seraphim",
+                "awardDate": "YYYY"
+            },
+            {
+                "@type": "Order",
+                "name": "Royal Naval Order"
+            }
+        ]
+    }
+}

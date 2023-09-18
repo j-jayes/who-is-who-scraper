@@ -1,0 +1,124 @@
+{
+    "original": "Ygherg, Rolf Uno, advokat, Göteborg, f. 5/9/88 i Gbg av grossb. Hans Ludvig Y. o. Anna Maria Hertz. G. 2l m. Lilla Jansson. Barn: Lillemor f. 23, g. m. med. lic. Bengt Kumlin, Ragnhild 45. — Stud: ex. i Gbg 09, jur. kand. i Upps. 16. E. o. not. i Göta hovr. 18, tingstjg. i Sunnerviken,s, Skånings, Vilske, Valle, Askim^s, Östra o. Västra Hisings samt Sävedals doms. 18-19, e. o. not. i Gbgs rådhusr. 20-23, egen adv:verks. i Gbg sed. 23l Styr :led. i Järnv. A-B Gbg-Färön sed. 25. Led. av Sv:es ad!v:samf. sed. 28.",
+    "translated": "Ygherg, Rolf Uno, lawyer, Gothenburg, born on September 5th, 1888 in Gothenburg, to wholesale merchant Hans Ludvig Y. and Anna Maria Hertz. Married in 1921 to Lilla Jansson. Children: Lillemor, born in 1923, married to med. lic. Bengt Kumlin, Ragnhild, born in 1945. Education: graduated in Gothenburg in 1909, law degree from Uppsala University in 1916. Acting notary public in the Gothenburg Court of Appeal in 1918, court clerk in Sunnerviken, Skånings, Vilske, Valle, Askim, Östra and Västra Hisings, as well as Sävedals district courts from 1918-1919. Acting notary public at Gothenburg City Court from 1920-1923. Started own law practice in Gothenburg since 1923. Board member of the Gothenburg-Färön Railway Company since 1925. Member of the Swedish Bar Association since 1928.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Rolf Uno Ygherg\",\n  \"givenName\": \"Rolf Uno\",\n  \"familyName\": \"Ygherg\",\n  \"jobTitle\": \"Lawyer\",\n  \"birthDate\": \"1888-09-05\",\n  \"birthPlace\": \"Gothenburg\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Ludvig Ygherg\",\n      \"jobTitle\": \"Wholesale Merchant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Maria Hertz\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lilla Jansson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lillemor\",\n      \"birthDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ragnhild\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Degree\",\n      \"credentialEarned\": {\n        \"@type\": \"EducationalOccupationalDegree\",\n        \"name\": \"Law Degree\",\n        \"alumniOf\": {\n          \"@type\": \"EducationalOrganization\",\n          \"name\": \"Uppsala University\"\n        }\n      },\n      \"startDate\": \"1909\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Court of Appeal\",\n      \"jobTitle\": \"Acting Notary Public\",\n      \"startDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sunnerviken Court Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skånings Court Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vilske Court Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Valle Court Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Askim Court Clerk\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Östra Hisings District Court\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västra Hisings District Court\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sävedals District Court\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg City Court\",\n      \"jobTitle\": \"Acting Notary Public\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1923\"\n    }\n  ],\n  \"owns\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg-Färön Railway Company\",\n      \"jobTitle\": \"Board Member\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Bar Association\",\n      \"startDate\": \"1928\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Rolf Uno Ygherg",
+        "givenName": "Rolf Uno",
+        "familyName": "Ygherg",
+        "jobTitle": "Lawyer",
+        "birthDate": "1888-09-05",
+        "birthPlace": "Gothenburg",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Hans Ludvig Ygherg",
+                "jobTitle": "Wholesale Merchant"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Maria Hertz"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lilla Jansson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Lillemor",
+                "birthDate": "1923"
+            },
+            {
+                "@type": "Person",
+                "name": "Ragnhild",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Degree",
+                "credentialEarned": {
+                    "@type": "EducationalOccupationalDegree",
+                    "name": "Law Degree",
+                    "alumniOf": {
+                        "@type": "EducationalOrganization",
+                        "name": "Uppsala University"
+                    }
+                },
+                "startDate": "1909",
+                "endDate": "1916"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg Court of Appeal",
+                "jobTitle": "Acting Notary Public",
+                "startDate": "1918"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sunnerviken Court Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skånings Court Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vilske Court Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Valle Court Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Askim Court Clerk"
+            },
+            {
+                "@type": "Organization",
+                "name": "Östra Hisings District Court"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västra Hisings District Court"
+            },
+            {
+                "@type": "Organization",
+                "name": "Sävedals District Court"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gothenburg City Court",
+                "jobTitle": "Acting Notary Public",
+                "startDate": "1920",
+                "endDate": "1923"
+            }
+        ],
+        "owns": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg-Färön Railway Company",
+                "jobTitle": "Board Member",
+                "startDate": "1925"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Bar Association",
+                "startDate": "1928"
+            }
+        ]
+    }
+}

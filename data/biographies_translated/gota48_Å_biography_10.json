@@ -1,0 +1,96 @@
+{
+    "original": "Ågren, Erik Gustaf, ingenjör, direktör, Göteborg, f. ,24/6/9’3 i Gbg av grossh. Axel H. Å. o. Louise Schmidt. G. 22 m. Jane Lisbeth Detthow. Barn: Berit f. 23’ g. m. dr Gunnar Hammer, Sthlm. — Stud :ex. v. Gbgs h. real 12, stud. v. KTH o. HHS, res:off:ex. 17, praktik i Engl., Tyskl. o. Frankr. 20- 22. Medarb. i grossh :firman Axel H. Ågren i Gbg fr. 22, deläg. sed. dess omibild. t. Axel H. Ågren A-B 32 o. chef f. kemikalieavd. Styr :led. i Gbgs Sand A-B, Kemikaliehand. imp ifören. i Sthlm, led. av Sv. grossistförb. branschnd f. droger, färger o. kemikalier. Hobbies: konst, filateli, trädgårdsarkitektur.",
+    "translated": "Ågren, Erik Gustaf, engineer, director, Gothenburg, b. 24/6/1893 in Gothenburg, son of wholesale merchant Axel H. Å. and Louise Schmidt. Married on 22 (year not specified) to Jane Lisbeth Detthow. Children: Berit b. 1923, married to Dr. Gunnar Hammer, Stockholm. \n\nEducation: graduated from Gothenburg Higher Real School in 1912, studied at the Royal Institute of Technology (KTH) and Stockholm School of Economics (HHS), graduated as reserve officer in 1917, internships in England, Germany, and France from 1920 to 1922. \n\nEmployment: employed by the wholesale company Axel H. Ågren in Gothenburg since 1922, became a partner and later became the head of the chemical department of Axel H. Ågren A-B in 1932. \n\nBoard memberships: board member of Gbgs Sand A-B, member of the Chemical Trade Association in Stockholm, member of the Swedish Wholesale Federation for the industry of drugs, colors, and chemicals. \n\nHobbies: art, philately, landscape architecture.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ågren, Erik Gustaf\",\n  \"jobTitle\": \"Engineer, Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1893-06-24\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Axel H. Ågren\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Louise Schmidt\"\n  },\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jane Lisbeth Detthow\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Berit\",\n      \"birthDate\": \"1923\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"alumniOf\": [\n      {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg Higher Real School\",\n        \"endDate\": \"1912\"\n      },\n      {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Royal Institute of Technology (KTH)\"\n      },\n      {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm School of Economics (HHS)\"\n      }\n    ]\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Axel H. Ågren\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"startDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Axel H. Ågren A-B\",\n      \"department\": \"Chemical Department\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"boardMember\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gbgs Sand A-B\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Chemical Trade Association\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Wholesale Federation\",\n      \"industry\": \"Drugs, Colors, Chemicals\"\n    }\n  ],\n  \"hobbies\": [\n    \"art\",\n    \"philately\",\n    \"landscape architecture\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ågren, Erik Gustaf",
+        "jobTitle": "Engineer, Director",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1893-06-24",
+        "father": {
+            "@type": "Person",
+            "name": "Axel H. Ågren"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Louise Schmidt"
+        },
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Jane Lisbeth Detthow"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Berit",
+                "birthDate": "1923"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "alumniOf": [
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg Higher Real School",
+                    "endDate": "1912"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Royal Institute of Technology (KTH)"
+                },
+                {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm School of Economics (HHS)"
+                }
+            ]
+        },
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Axel H. Ågren",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "startDate": "1922"
+            },
+            {
+                "@type": "Organization",
+                "name": "Axel H. Ågren A-B",
+                "department": "Chemical Department",
+                "startDate": "1932"
+            }
+        ],
+        "boardMember": [
+            {
+                "@type": "Organization",
+                "name": "Gbgs Sand A-B"
+            },
+            {
+                "@type": "Organization",
+                "name": "Chemical Trade Association",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Wholesale Federation",
+                "industry": "Drugs, Colors, Chemicals"
+            }
+        ],
+        "hobbies": [
+            "art",
+            "philately",
+            "landscape architecture"
+        ]
+    }
+}

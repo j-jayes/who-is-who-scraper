@@ -1,0 +1,113 @@
+{
+    "original": "Östberg, Karl Jacob Henrik, komminister, SolVesta, f. ’21/3/81 i Hjorted, Kalm. 1., av Jacob Ö. o. Axeline Åker- halm. G. 10 m. Elsa Widell Barn: Ingemar f. 11. — Mog:ex. i Linköp. 98, fil. kand. 03’, teol. kand. 06, prakt, teol. prov samt prästv. f. Linköp. stift 07. Tjg. s. past:adj. i Västra Eneby samt tf. kommin. o. v. pastor i Gammalkil, kommin. i Hannäs sed. 20. Ordf. i kyrkostämma o. skolstyr.",
+    "translated": "Östberg, Karl Jacob Henrik, curate, SolVesta, b. 21/3/81 in Hjorted, Kalm. 1st-born, son of Jacob Ö. and Axeline Åkerhalm. Married on 10th to Elsa Widell. Children: Ingemar b. 11. Completed Master's degree in Linköping in 98, Bachelor of Arts in 03', Bachelor of Theology in 06, practical theological examination as well as ordained in 07 from Linköping diocese. Served as assistant pastor in Västra Eneby and acting curate/vicar in Gammalkil, curate in Hannäs since 20. Chairman of the church council and school board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Jacob Henrik Östberg\",\n  \"birthDate\": \"1881-03-21\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Hjorted\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Kalm\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jacob Östberg\",\n      \"jobTitle\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axeline Åkerhalm\",\n      \"jobTitle\": \"unknown\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Widell\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingemar Östberg\",\n      \"birthDate\": \"1911-XX-XX\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's\",\n      \"credentialSubject\": \"Linköping\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 1998\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's\",\n      \"credentialSubject\": \"Linköping\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 2003\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's\",\n      \"credentialSubject\": \"Theology\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 2006\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Practical Theological Examination\",\n      \"credentialSubject\": \"unknown\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 2007\n      }\n    }\n  ],\n  \"jobTitle\": \"Curate\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"SolVesta\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping diocese\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västra Eneby\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gammalkil\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hannäs\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"church council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"school board\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Jacob Henrik Östberg",
+        "birthDate": "1881-03-21",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Hjorted",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kalm"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Jacob Östberg",
+                "jobTitle": "unknown"
+            },
+            {
+                "@type": "Person",
+                "name": "Axeline Åkerhalm",
+                "jobTitle": "unknown"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Elsa Widell"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingemar Östberg",
+                "birthDate": "1911-XX-XX"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Master's",
+                "credentialSubject": "Linköping",
+                "credentialEarned": {
+                    "@type": "QuantitativeValue",
+                    "value": 1998
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's",
+                "credentialSubject": "Linköping",
+                "credentialEarned": {
+                    "@type": "QuantitativeValue",
+                    "value": 2003
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's",
+                "credentialSubject": "Theology",
+                "credentialEarned": {
+                    "@type": "QuantitativeValue",
+                    "value": 2006
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Practical Theological Examination",
+                "credentialSubject": "unknown",
+                "credentialEarned": {
+                    "@type": "QuantitativeValue",
+                    "value": 2007
+                }
+            }
+        ],
+        "jobTitle": "Curate",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "SolVesta"
+        },
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Linköping diocese"
+            },
+            {
+                "@type": "Organization",
+                "name": "Västra Eneby"
+            },
+            {
+                "@type": "Organization",
+                "name": "Gammalkil"
+            },
+            {
+                "@type": "Organization",
+                "name": "Hannäs"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "church council"
+            },
+            {
+                "@type": "Organization",
+                "name": "school board"
+            }
+        ]
+    }
+}

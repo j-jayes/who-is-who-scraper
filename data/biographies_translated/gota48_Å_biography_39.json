@@ -1,0 +1,155 @@
+{
+    "original": "Åkerskog, Simon Vilhelm, fil. mag., Göteborg, f. 26/5/08- i Vartofta-Åsaka, Skarab. 1. G. m. Carrie Ramfelt. Barn: Bengt f. 36, Gunnar 40, Christer 43. — Stud :ex. i Jönköp. 27, fil. kand. i Upps. 31, fil. mag. 33’, provår v. Gbgs h. real 38-39. Timlär. i Vetlanda 34, e. o. lär. i Sunne 34-36, e. o. lär. o. vik. v. Gbgs h. folksk. (prakt, mellansk.) 36-36, ^e. o. 36-38 o. 39-40, ord. ämnesiär. där sed. 41, timlär. v. Gbgs östra real 39, assist, i fysik v. CTH 39 o. 41 o. sed. 46. Löjtn. i Int:-kår. res. 43.",
+    "translated": "Åkerskog, Simon Vilhelm, BA, Gothenburg, b. 26/5/08 in Vartofta-Åsaka, Skarab. 1. Married to Carrie Ramfelt. Children: Bengt b. 1936, Gunnar b. 1940, Christer b. 1943. -- Examined: Jönköping 1927, BA Uppsala 1931, MA 1933. Internship at Gothenburg High School 1938-1939. Hourly teacher in Vetlanda 1934, substitute teacher in Sunne 1934-1936, substitute teacher and temporary teacher at Gothenburg primary school (practical, middle school) 1936-1938 and 1939-1940, regular subject teacher there since 1941. Hourly teacher at Gothenburg East High School 1939, assistant in physics at CTH 1939 and 1941 and since 1946. Lieutenant in the Intelligence Corps reserve 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Simon Vilhelm\",\n  \"familyName\": \"Åkerskog\",\n  \"birthDate\": \"1908-05-26\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Vartofta-Åsaka\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressRegion\": \"Skarab\"\n    }\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"BA\",\n      \"educationalLevel\": \"Bachelor's Degree\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"MA\",\n      \"educationalLevel\": \"Master's Degree\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Carrie Ramfelt\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Bengt\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Gunnar\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Christer\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Hourly Teacher\",\n      \"startDate\": \"1934-01-01\",\n      \"endDate\": \"1934-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Vetlanda\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"startDate\": \"1934-01-01\",\n      \"endDate\": \"1936-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Sunne\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"startDate\": \"1936-01-01\",\n      \"endDate\": \"1938-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressRegion\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Temporary Teacher\",\n      \"startDate\": \"1939-01-01\",\n      \"endDate\": \"1940-12-31\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressRegion\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Subject Teacher\",\n      \"startDate\": \"1941-01-01\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressRegion\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Hourly Teacher\",\n      \"startDate\": \"1939-01-01\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg East\",\n          \"addressRegion\": \"Gothenburg\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Assistant\",\n      \"startDate\": \"1939-01-01\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressRegion\": \"Gothenburg\"\n        }\n      }\n    }\n  ],\n  \"militaryService\": {\n    \"@type\": \"MilitaryService\",\n    \"rankName\": \"Lieutenant\",\n    \"branchOfService\": \"Intelligence Corps\",\n    \"status\": \"Reserve\",\n    \"startDate\": \"1943\"\n  }\n}\n",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "givenName": "Simon Vilhelm",
+        "familyName": "Åkerskog",
+        "birthDate": "1908-05-26",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Vartofta-Åsaka",
+            "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Skarab"
+            }
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "BA",
+                "educationalLevel": "Bachelor's Degree"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "MA",
+                "educationalLevel": "Master's Degree"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Carrie Ramfelt"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "givenName": "Bengt",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Gunnar",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "givenName": "Christer",
+                "birthDate": "1943"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Hourly Teacher",
+                "startDate": "1934-01-01",
+                "endDate": "1934-12-31",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Vetlanda"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Substitute Teacher",
+                "startDate": "1934-01-01",
+                "endDate": "1936-12-31",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Sunne"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Substitute Teacher",
+                "startDate": "1936-01-01",
+                "endDate": "1938-12-31",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressRegion": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Temporary Teacher",
+                "startDate": "1939-01-01",
+                "endDate": "1940-12-31",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressRegion": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Subject Teacher",
+                "startDate": "1941-01-01",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressRegion": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Hourly Teacher",
+                "startDate": "1939-01-01",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg East",
+                        "addressRegion": "Gothenburg"
+                    }
+                }
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Assistant",
+                "startDate": "1939-01-01",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressRegion": "Gothenburg"
+                    }
+                }
+            }
+        ],
+        "militaryService": {
+            "@type": "MilitaryService",
+            "rankName": "Lieutenant",
+            "branchOfService": "Intelligence Corps",
+            "status": "Reserve",
+            "startDate": "1943"
+        }
+    }
+}

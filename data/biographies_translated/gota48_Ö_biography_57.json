@@ -1,0 +1,121 @@
+{
+    "original": "Östman, Artur Bruno, civilingenjör, Skönberga, f. 10/2/81 i Helsingfors, Finl. G. 18 m. Märta André. Barn: Brita f. 19, g. m. frih. N. Hermelin, Söderköp., Margit 20, g. m. banktj :man Olle Axberg, Linköp., Maj 24, fil. Stud., Upps., Kerstin 26. — Civ:ing:ex. v. CTI 06. Res. t. Norge 05, Rys,si. 28. Anst. v. Bmsfors Bruk 06, Grycksbo Bruk 12, Lessebo Bruk 24, Nykvarns Bruk 28. Äg. o. beb. Tomtaholms egend. fr. 28. Inneh. ett flert. komm. uppdr. Hobbies: jakt, fiske.",
+    "translated": "Östman, Artur Bruno, civil engineer, Skönberga, b. 10/2/81 in Helsinki, Finland. Married on 18/xx/xxxx to Märta André. Children: Brita, b. 19, married to Baron N. Hermelin, living in Söderköping; Margit, b. 20, married to banker Olle Axberg, living in Linköping; Maj, b. 24, studying philosophy at Uppsala University; Kerstin, b. 26. Earned a degree in civil engineering from CTI in 1906. Traveled to Norway in 1905, Russia in 1928. Employed at Bmsfors Bruk in 1906, Grycksbo Bruk in 1912, Lessebo Bruk in 1924, Nykvarns Bruk in 1928. Owns and resides on the Tomtaholm estate since 1928. Holds several committee positions. Hobbies include hunting and fishing.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Artur Bruno Östman\",\n  \"birthDate\": \"1881-02-10\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Helsinki\",\n      \"addressCountry\": \"Finland\"\n    }\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Märta André\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Östman\",\n      \"birthDate\": \"1919\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Baron N. Hermelin\"\n      },\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Söderköping\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margit Östman\",\n      \"birthDate\": \"1920\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Olle Axberg\",\n        \"description\": \"Banker\"\n      },\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maj Östman\",\n      \"birthDate\": \"1924\",\n      \"description\": \"Studying philosophy at Uppsala University\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kerstin Östman\",\n      \"birthDate\": \"1926\"\n    }\n  ],\n  \"description\": \"Civil engineer\",\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"civil engineering degree\",\n    \"offeredBy\": {\n      \"@type\": \"Organization\",\n      \"name\": \"CTI\"\n    },\n    \"startDate\": \"1906\",\n    \"endDate\": \"1906\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bmsfors Bruk\",\n      \"startDate\": \"1906\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Grycksbo Bruk\",\n      \"startDate\": \"1912\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lessebo Bruk\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nykvarns Bruk\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"owns\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Tomtaholm estate\",\n      \"startDate\": \"1928\"\n    }\n  ],\n  \"hobbies\": [\"hunting\", \"fishing\"],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Trip\",\n      \"startDate\": \"1905\",\n      \"endDate\": \"1905\",\n      \"description\": \"Travelled to Norway\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1928\",\n      \"description\": \"Travelled to Russia\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Artur Bruno Östman",
+        "birthDate": "1881-02-10",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Helsinki",
+                "addressCountry": "Finland"
+            }
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Märta André"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Brita Östman",
+                "birthDate": "1919",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Baron N. Hermelin"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Söderköping"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Margit Östman",
+                "birthDate": "1920",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Olle Axberg",
+                    "description": "Banker"
+                },
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Maj Östman",
+                "birthDate": "1924",
+                "description": "Studying philosophy at Uppsala University"
+            },
+            {
+                "@type": "Person",
+                "name": "Kerstin Östman",
+                "birthDate": "1926"
+            }
+        ],
+        "description": "Civil engineer",
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "civil engineering degree",
+            "offeredBy": {
+                "@type": "Organization",
+                "name": "CTI"
+            },
+            "startDate": "1906",
+            "endDate": "1906"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Bmsfors Bruk",
+                "startDate": "1906"
+            },
+            {
+                "@type": "Organization",
+                "name": "Grycksbo Bruk",
+                "startDate": "1912"
+            },
+            {
+                "@type": "Organization",
+                "name": "Lessebo Bruk",
+                "startDate": "1924"
+            },
+            {
+                "@type": "Organization",
+                "name": "Nykvarns Bruk",
+                "startDate": "1928"
+            }
+        ],
+        "owns": [
+            {
+                "@type": "Place",
+                "name": "Tomtaholm estate",
+                "startDate": "1928"
+            }
+        ],
+        "hobbies": [
+            "hunting",
+            "fishing"
+        ],
+        "travelHistory": [
+            {
+                "@type": "Trip",
+                "startDate": "1905",
+                "endDate": "1905",
+                "description": "Travelled to Norway"
+            },
+            {
+                "@type": "Trip",
+                "startDate": "1928",
+                "endDate": "1928",
+                "description": "Travelled to Russia"
+            }
+        ]
+    }
+}

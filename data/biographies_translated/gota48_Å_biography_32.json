@@ -1,0 +1,36 @@
+{
+    "original": "Åkerlind, Nils Johan, telegrafkommissarie, Karlshamn, f. 25/6/98 i Sthlm. G. 36 m. Marta Jacobsson. Telegr:-komm. i Skara 46, i Karlshamn fr. 47.",
+    "translated": "Åkerlind, Nils Johan, telegraph officer, Karlshamn, b. June 25, 1898 in Stockholm. Married in 1936 to Marta Jacobsson. Telegraph officer in Skara from 1946, in Karlshamn from 1947.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Johan Åkerlind\",\n  \"jobTitle\": \"Telegraph Officer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Karlshamn\"\n  },\n  \"birthDate\": \"1898-06-25\",\n  \"birthPlace\": \"Stockholm\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Marta Jacobsson\",\n    \"marriageDate\": \"1936\"\n  },\n  \"workLocation\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Telegraph Officer\",\n      \"namedPosition\": \"Skara\",\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Telegraph Officer\",\n      \"namedPosition\": \"Karlshamn\",\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nils Johan Åkerlind",
+        "jobTitle": "Telegraph Officer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Karlshamn"
+        },
+        "birthDate": "1898-06-25",
+        "birthPlace": "Stockholm",
+        "spouse": {
+            "@type": "Person",
+            "name": "Marta Jacobsson",
+            "marriageDate": "1936"
+        },
+        "workLocation": [
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Telegraph Officer",
+                "namedPosition": "Skara",
+                "startDate": "1946"
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Telegraph Officer",
+                "namedPosition": "Karlshamn",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

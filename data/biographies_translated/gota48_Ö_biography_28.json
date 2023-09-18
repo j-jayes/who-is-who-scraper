@@ -1,0 +1,85 @@
+{
+    "original": "Öhrvik, Knut Isidor, stationsinspektor, Skövde, f. 21/4/90 i Växjö, G. 1. 15 m. Gerda Carlson, d. 41; 2. 46 m. Magda Åhlén. Barn: Brita f. 16, fil. kand., korresp., Ingrid 19. — Stud. v. Växjö h. a. 1. t. 07. Res. t. Tyskl. 29. An,st. v. SJ 07, byråassist. i Ange 40-42, stat :insp. i Vislanda 42-46, i Skövde fr. 46. Medl. av Rotary. Hobby: fiske. GM.",
+    "translated": "Öhrvik, Knut Isidor, station inspector, Skövde, b. 21/4/90 in Växjö. Married 1st. 15 years with Gerda Carlson, died in 1941; 2nd. 1946 married Magda Åhlén. Children: Brita b. 1916, Bachelor of Arts, correspondent; Ingrid b. 1919. Studied at Växjö High School until 1907. Traveled to Germany in 1929. Started working at SJ (Swedish Railways) in 1907, worked as an office assistant in Ange from 1940-1942, and as a state inspector in Vislanda from 1942-1946, and in Skövde from 1946. Member of Rotary. Hobby: fishing. Married.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Öhrvik, Knut Isidor\",\n  \"jobTitle\": \"Station Inspector\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Skövde\"\n  },\n  \"birthDate\": \"1890-04-21\",\n  \"birthPlace\": \"Växjö\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gerda Carlson\",\n      \"marriageDate\": \"15/01/xxxx\",\n      \"deathDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Magda Åhlén\",\n      \"marriageDate\": \"1946\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita\",\n      \"birthDate\": \"1916\",\n      \"education\": \"Bachelor of Arts\",\n      \"jobTitle\": \"Correspondent\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid\",\n      \"birthDate\": \"1919\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Växjö High School\",\n    \"attendanceStartDate\": \"1907\",\n    \"attendanceEndDate\": \"xxxx\"\n  },\n  \"employment\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SJ (Swedish Railways)\",\n      \"startDate\": \"1907\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ange\",\n      \"department\": \"Office\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1942\",\n      \"jobTitle\": \"Office Assistant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vislanda\",\n      \"department\": \"State Inspector\",\n      \"startDate\": \"1942\",\n      \"endDate\": \"1946\",\n      \"jobTitle\": \"State Inspector\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skövde\",\n      \"department\": \"State Inspector\",\n      \"startDate\": \"1946\",\n      \"jobTitle\": \"Station Inspector\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Rotary\"\n  },\n  \"hobbies\": \"Fishing\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Öhrvik, Knut Isidor",
+        "jobTitle": "Station Inspector",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skövde"
+        },
+        "birthDate": "1890-04-21",
+        "birthPlace": "Växjö",
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Gerda Carlson",
+                "marriageDate": "15/01/xxxx",
+                "deathDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Magda Åhlén",
+                "marriageDate": "1946"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Brita",
+                "birthDate": "1916",
+                "education": "Bachelor of Arts",
+                "jobTitle": "Correspondent"
+            },
+            {
+                "@type": "Person",
+                "name": "Ingrid",
+                "birthDate": "1919"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Växjö High School",
+            "attendanceStartDate": "1907",
+            "attendanceEndDate": "xxxx"
+        },
+        "employment": [
+            {
+                "@type": "Organization",
+                "name": "SJ (Swedish Railways)",
+                "startDate": "1907"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ange",
+                "department": "Office",
+                "startDate": "1940",
+                "endDate": "1942",
+                "jobTitle": "Office Assistant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vislanda",
+                "department": "State Inspector",
+                "startDate": "1942",
+                "endDate": "1946",
+                "jobTitle": "State Inspector"
+            },
+            {
+                "@type": "Organization",
+                "name": "Skövde",
+                "department": "State Inspector",
+                "startDate": "1946",
+                "jobTitle": "Station Inspector"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Rotary"
+        },
+        "hobbies": "Fishing"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "original": "Zetterberg, Gunnar Lennart, civilingenjör, Göteborg, f. 16/6/10 i Sthlm av byggn :ing. Carl Z. o. Maria Johansson. G. 41 m. Dagmar Lindgren. Barn: Ulf f. 43, Wilhelm 46. — Studrex. v. Lundsbergs sk. 29, stud. v. KTH (V) 30-34. Anst. v. väging:kont. i Östersund 34-35, v. Byggn .-firma Zetterberg A-B i Sthlm 35-38, chef f. avd:kont. i Gbg sed. 38. Löjtn. VVK 41, kapten 46.",
+    "translated": "Zetterberg, Gunnar Lennart, civil engineer, Gothenburg, b. June 16, 1910 in Stockholm to building engineer Carl Z. and Maria Johansson. Married in 1941 to Dagmar Lindgren. Children: Ulf, b. 1943, Wilhelm, b. 1946. Attended Lundsbergs School until 1929, studied at Royal Institute of Technology (V) from 1930 to 1934. Employed at a road construction office in Östersund from 1934 to 1935, at building company Zetterberg A-B in Stockholm from 1935 to 1938, and as department head at an office in Gothenburg since 1938. Lieutenant in the Swedish Volunteer Corps in 1941, captain in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Lennart Zetterberg\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1910-06-16\",\n  \"birthPlace\": \"Stockholm\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Zetterberg\",\n      \"jobTitle\": \"Building Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dagmar Lindgren\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Zetterberg\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Wilhelm Zetterberg\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lundsbergs School\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Royal Institute of Technology\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1934\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Road Construction Office\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Östersund\"\n      },\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Zetterberg A-B\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"startDate\": \"1935\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Department Head Office\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\"\n      },\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"militaryService\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Volunteer Corps\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1946\",\n      \"jobTitle\": \"Lieutenant\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Volunteer Corps\",\n      \"startDate\": \"1946\",\n      \"jobTitle\": \"Captain\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gunnar Lennart Zetterberg",
+        "jobTitle": "Civil Engineer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1910-06-16",
+        "birthPlace": "Stockholm",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Zetterberg",
+                "jobTitle": "Building Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Johansson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Dagmar Lindgren"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ulf Zetterberg",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Wilhelm Zetterberg",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lundsbergs School",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Royal Institute of Technology",
+                "startDate": "1930",
+                "endDate": "1934"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Organization",
+                "name": "Road Construction Office",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Östersund"
+                },
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Zetterberg A-B",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "startDate": "1935",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Organization",
+                "name": "Department Head Office",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg"
+                },
+                "startDate": "1938"
+            }
+        ],
+        "militaryService": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Volunteer Corps",
+                "startDate": "1941",
+                "endDate": "1946",
+                "jobTitle": "Lieutenant"
+            },
+            {
+                "@type": "Organization",
+                "name": "Swedish Volunteer Corps",
+                "startDate": "1946",
+                "jobTitle": "Captain"
+            }
+        ]
+    }
+}

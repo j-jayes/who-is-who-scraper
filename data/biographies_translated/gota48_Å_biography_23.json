@@ -1,0 +1,115 @@
+{
+    "original": "Åhmansson, Olov Wood, civilingenjör, GöteboTg, i. 25/6/99 i Gbg av ing. John Robert o. Margaret Åhmansson. G. 29 m. Ingeborg Brisman. Barn: Laila f. 37. — Stud. v. Parkdale Coll. Inst. i Toronto, Canada. Utex. fr CTH 25. Res. i Engl., Skottl. Patenting. v. Sv. Tui^binfabr. A-B Ljungström i Finspång 25-28, chef f. patentavd. v. SKF fr. 28. Skr.: div. art. om patent o. varumärken.",
+    "translated": "Åhmansson, Olov Wood, engineer, born on June 25th, 1899 in Gothenburg to engineer John Robert and Margaret Åhmansson. Married on May 29th, no year mentioned, to Ingeborg Brisman. Children: Laila, born in 1937. Studied at Parkdale Coll. Inst. in Toronto, Canada. Graduated from Chalmers University of Technology in 1925. Worked in England and Scotland, specializing in patents. Employed at Swedish Turbine Factory A-B Ljungström in Finspång from 1925 to 1928, and became head of the patent department at SKF from 1928. Published various articles on patents and trademarks.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åhmansson, Olov Wood\",\n  \"givenName\": \"Olov\",\n  \"familyName\": \"Åhmansson\",\n  \"birthDate\": \"1899-06-25\",\n  \"birthPlace\": \"Gothenburg\",\n  \"description\": \"Engineer\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åhmansson, John Robert\",\n      \"givenName\": \"John\",\n      \"familyName\": \"Åhmansson\",\n      \"jobTitle\": \"Engineer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åhmansson, Margaret\",\n      \"givenName\": \"Margaret\",\n      \"familyName\": \"Åhmansson\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brisman, Ingeborg\",\n      \"givenName\": \"Ingeborg\",\n      \"familyName\": \"Brisman\"\n    }\n  ],\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åhmansson, Laila\",\n      \"givenName\": \"Laila\",\n      \"familyName\": \"Åhmansson\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"college\",\n      \"name\": \"Civilingenjör\",\n      \"awardedBy\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Chalmers University of Technology\"\n      },\n      \"startDate\": \"1925\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"college\",\n      \"name\": \"Stud. v. Parkdale Coll. Inst.\",\n      \"awardedBy\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Parkdale College Institute\"\n      },\n      \"location\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Toronto\",\n        \"addressRegion\": \"Canada\"\n      }\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Turbine Factory A-B Ljungström\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Finspång\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Engineer\",\n      \"namedPosition\": \"Head of Patent Department\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"SKF\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1928\",\n      \"roleName\": \"Engineer\",\n      \"namedPosition\": \"Head of Patent Department\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.example.com/people/olov-ahmansson\"\n  ],\n  \"article\": [\n    {\n      \"@type\": \"Article\",\n      \"name\": \"Various Articles on Patents and Trademarks\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åhmansson, Olov Wood",
+        "givenName": "Olov",
+        "familyName": "Åhmansson",
+        "birthDate": "1899-06-25",
+        "birthPlace": "Gothenburg",
+        "description": "Engineer",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Åhmansson, John Robert",
+                "givenName": "John",
+                "familyName": "Åhmansson",
+                "jobTitle": "Engineer"
+            },
+            {
+                "@type": "Person",
+                "name": "Åhmansson, Margaret",
+                "givenName": "Margaret",
+                "familyName": "Åhmansson"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Brisman, Ingeborg",
+                "givenName": "Ingeborg",
+                "familyName": "Brisman"
+            }
+        ],
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Åhmansson, Laila",
+                "givenName": "Laila",
+                "familyName": "Åhmansson",
+                "birthDate": "1937"
+            }
+        ],
+        "educationalCredentialAwarded": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "college",
+                "name": "Civilingenjör",
+                "awardedBy": {
+                    "@type": "EducationalOrganization",
+                    "name": "Chalmers University of Technology"
+                },
+                "startDate": "1925"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "college",
+                "name": "Stud. v. Parkdale Coll. Inst.",
+                "awardedBy": {
+                    "@type": "EducationalOrganization",
+                    "name": "Parkdale College Institute"
+                },
+                "location": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Toronto",
+                    "addressRegion": "Canada"
+                }
+            }
+        ],
+        "work": [
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Swedish Turbine Factory A-B Ljungström",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Finspång",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1925",
+                "endDate": "1928",
+                "roleName": "Engineer",
+                "namedPosition": "Head of Patent Department"
+            },
+            {
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "SKF",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg",
+                        "addressCountry": "Sweden"
+                    }
+                },
+                "startDate": "1928",
+                "roleName": "Engineer",
+                "namedPosition": "Head of Patent Department"
+            }
+        ],
+        "sameAs": [
+            "https://www.example.com/people/olov-ahmansson"
+        ],
+        "article": [
+            {
+                "@type": "Article",
+                "name": "Various Articles on Patents and Trademarks"
+            }
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "original": "Öhlin, Bertil Zacharias, ’häradshövding, fd. revisionssekreterare, Växjö, f. 10/10/89 i Böne, Älvsb. I, av folkskoll. Alfred Ö. o. Albertina Zachri-son. G. 24 m. Bertha Mellgren. Barn: Gunilla f. 25, Birgit 27, Göran 33. — Jur. kand. i Lund 16, assess. v. Göta hovr. 23, tf. rev:sekr. 29, ’hovr:råd 30, rev:sekr. 33, åter hovr:råd 36, hä-radsh. i Ö. Värends dom’s. 37. RNO.",
+    "translated": "Öhlin, Bertil Zacharias, 'district judge, former audit secretary, Växjö, born on October 10, 1889 in Böne, Älvsb. I, son of the common school teachers Alfred Ö. and Albertina Zachrisson. Married on November 24, 19xx to Bertha Mellgren. Children: Gunilla born in 1925, Birgit born in 1927, Göran born in 1933. — Graduated with a Bachelor of Laws from Lund University in 1916, assistant judge at Göta Court of Appeal in 1923, acting audit secretary in 1929, court councilor in 1930, audit secretary again in 1933, reinstated as court councilor in 1936, district judge in Ö. Värends judicial district in 1937. Receives the Royal Order of the North Star (RNO).",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bertil Zacharias Öhlin\",\n  \"birthDate\": \"1889-10-10\",\n  \"birthPlace\": {\n    \"@type\": \"CivicStructure\",\n    \"name\": \"Böne, Älvsborg County, Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Alfred Öhlin\",\n      \"jobTitle\": \"Common School Teacher\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Albertina Zachrisson\",\n      \"jobTitle\": \"Common School Teacher\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bertha Mellgren\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalCredentialAwarded\": \"Juris Doctor (J.D.)\",\n      \"awardingInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\",\n        \"location\": {\n          \"@type\": \"Place\",\n          \"name\": \"Lund, Sweden\"\n        }\n      },\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"jobTitle\": [\n    \"District Judge\",\n    \"Former Audit Secretary\"\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Växjö\"\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göta Court of Appeal\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1923\",\n      \"roleName\": \"Assistant Judge\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ö. Värends Judicial District\",\n      \"startDate\": \"1937\",\n      \"roleName\": \"District Judge\"\n    }\n  ],\n  \"honorificSuffix\": \"RNO\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Bertil Zacharias Öhlin",
+        "birthDate": "1889-10-10",
+        "birthPlace": {
+            "@type": "CivicStructure",
+            "name": "Böne, Älvsborg County, Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Alfred Öhlin",
+                "jobTitle": "Common School Teacher"
+            },
+            {
+                "@type": "Person",
+                "name": "Albertina Zachrisson",
+                "jobTitle": "Common School Teacher"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Bertha Mellgren"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1925"
+            },
+            {
+                "@type": "Person",
+                "name": "Birgit",
+                "birthDate": "1927"
+            },
+            {
+                "@type": "Person",
+                "name": "Göran",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's Degree",
+                "educationalLevel": "Undergraduate",
+                "educationalCredentialAwarded": "Juris Doctor (J.D.)",
+                "awardingInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Lund, Sweden"
+                    }
+                },
+                "startDate": "1916",
+                "endDate": "1916"
+            }
+        ],
+        "jobTitle": [
+            "District Judge",
+            "Former Audit Secretary"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Växjö"
+        },
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Göta Court of Appeal",
+                "startDate": "1923",
+                "endDate": "1923",
+                "roleName": "Assistant Judge"
+            },
+            {
+                "@type": "Organization",
+                "name": "Ö. Värends Judicial District",
+                "startDate": "1937",
+                "roleName": "District Judge"
+            }
+        ],
+        "honorificSuffix": "RNO"
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "original": "Åström, Valfrid, landsfiskal, Skara, f. 12/7/88 i Bjurholm, Västerb. 1., av Joihan Ä. o. Augusta Mårtensson. G. 21 m. Astrid Sjöberg. Barn: Anna-Lenaih f. 22, Hans 24, Greta 24, Sigrid 28. — Realex. i Nyköp. 09, kronolänis-m:ex. i Umeå 12. Landsfiskal i Sten-siele 17-33, i Skara fr. 33. Styr:led. i Skarab. 1. sparb. 44, ordf. i drätsel-kamm. 45, led. av stadsfullm. (h) fr. 47. RVO.",
+    "translated": "Åström, Valfrid, district prosecutor, Skara, b. 12/7/88 in Bjurholm, Västerbotten, 1st child of Joihan Ä. and Augusta Mårtensson. Married on 21st with Astrid Sjöberg. Children: Anna-Lenaih b. 22, Hans b. 24, Greta b. 24, Sigrid b. 28. Completed secondary education in Nyköping in 1909, became county chief officer in Umeå in 1912. District prosecutor in Stensjö from 1917 to 1933, in Skara from 1933 onward. Member of the board of directors of the Skaraborg Savings Bank since 1944, chairman of the finance committee in 1945, member of the city council (conservative) from 1947. Awarded the Royal Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åström, Valfrid\",\n  \"birthDate\": \"1888-07-12\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Bjurholm, Västerbotten\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Joihan Ä.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Mårtensson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Sjöberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Lenaih\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Greta\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid\",\n      \"birthDate\": \"1928\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Nyköping\"\n  },\n  \"occupation\": {\n    \"@type\": \"GovernmentOrganization\",\n    \"name\": \"Umeå\",\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"County\"\n    },\n    \"startDate\": \"1912\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Stensjö\",\n      \"position\": \"District Prosecutor\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"Skara\",\n      \"position\": \"District Prosecutor\",\n      \"startDate\": \"1933\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Skaraborg Savings Bank\",\n      \"position\": \"Board of Directors\",\n      \"startDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Finance Committee\",\n      \"position\": \"Chairman\",\n      \"startDate\": \"1945\"\n    },\n    {\n      \"@type\": \"GovernmentOrganization\",\n      \"name\": \"City Council\",\n      \"position\": \"Member\",\n      \"startDate\": \"1947\"\n    }\n  ],\n  \"awards\": {\n    \"@type\": \"Order\",\n    \"name\": \"Royal Order of Vasa\"\n  }\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Åström, Valfrid",
+        "birthDate": "1888-07-12",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Bjurholm, Västerbotten"
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Joihan Ä."
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Mårtensson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Sjöberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Anna-Lenaih",
+                "birthDate": "1922"
+            },
+            {
+                "@type": "Person",
+                "name": "Hans",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Greta",
+                "birthDate": "1924"
+            },
+            {
+                "@type": "Person",
+                "name": "Sigrid",
+                "birthDate": "1928"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Nyköping"
+        },
+        "occupation": {
+            "@type": "GovernmentOrganization",
+            "name": "Umeå",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "County"
+            },
+            "startDate": "1912"
+        },
+        "workExperience": [
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Stensjö",
+                "position": "District Prosecutor",
+                "startDate": "1917",
+                "endDate": "1933"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "Skara",
+                "position": "District Prosecutor",
+                "startDate": "1933"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Skaraborg Savings Bank",
+                "position": "Board of Directors",
+                "startDate": "1944"
+            },
+            {
+                "@type": "Organization",
+                "name": "Finance Committee",
+                "position": "Chairman",
+                "startDate": "1945"
+            },
+            {
+                "@type": "GovernmentOrganization",
+                "name": "City Council",
+                "position": "Member",
+                "startDate": "1947"
+            }
+        ],
+        "awards": {
+            "@type": "Order",
+            "name": "Royal Order of Vasa"
+        }
+    }
+}

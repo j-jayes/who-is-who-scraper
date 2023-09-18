@@ -1,0 +1,90 @@
+{
+    "original": "Ödin, Thor Erik, rådman, auditör, Visby, f. 28/3/08 i Visby av fabr. Jo- han Fredrik Ö. o. Elisabeth Andersson. G. m. Margaretha Hedén. Barn: Thorbjörn f. 43. — Stud:ex. i Visby 26, jur. kand. i Upps. 33. Tingstjg. i Gotl. norra doms. 33-3S, tf. rådm. i Visby 36, ord. sed. 37, auditör v. Gotl. kustart :kår sed. 42. Ordf. i hyresnd i Visby sed. 44. Hobbies: skytte, bridge.",
+    "translated": "Ödin, Thor Erik, magistrate, auditor, Visby, b. 28/3/08 in Visby, son of Jo- han Fredrik Ö., a factory worker, and Elisabeth Andersson. Married to Margaretha Hedén. Children: Thorbjörn b. 43. — Completed studies in Visby in 26, law degree in Uppsala in 33. Served as a court clerk in the northern district of Gotland from 33-3S, acting magistrate in Visby in 36, regular magistrate from 37, auditor for the Gotland coastal guard since 42. Chairman of the rental committee in Visby since 44. Hobbies: shooting, bridge.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ödin, Thor Erik\",\n  \"birthDate\": \"1908-03-28\",\n  \"birthPlace\": \"Visby\",\n  \"father\": {\n    \"name\": \"Ödin, Johan Fredrik\",\n    \"profession\": \"Factory worker\"\n  },\n  \"mother\": {\n    \"name\": \"Andersson, Elisabeth\"\n  },\n  \"spouse\": {\n    \"name\": \"Hedén, Margaretha\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ödin, Thorbjörn\",\n    \"birthDate\": \"1943\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"schoolName\": \"Visby\",\n      \"endDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"schoolName\": \"Uppsala\",\n      \"endDate\": \"1933\",\n      \"educationalCredentialAwarded\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"Jur. Kand.\"\n      }\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Northern District of Gotland\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1938\",\n      \"position\": \"Court clerk\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Visby\",\n      \"startDate\": \"1936\",\n      \"position\": \"Acting magistrate\"\n    },\n    {\n      \"@type\": \"Court\",\n      \"name\": \"Visby\",\n      \"startDate\": \"1937\",\n      \"position\": \"Regular magistrate\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1942\",\n      \"roleName\": \"Auditor\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gotland Coastal Guard\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1944\",\n      \"roleName\": \"Chairman\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rental Committee Visby\"\n      }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Visby\"\n  },\n  \"hobbies\": [\n    \"Shooting\",\n    \"Bridge\"\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ödin, Thor Erik",
+        "birthDate": "1908-03-28",
+        "birthPlace": "Visby",
+        "father": {
+            "name": "Ödin, Johan Fredrik",
+            "profession": "Factory worker"
+        },
+        "mother": {
+            "name": "Andersson, Elisabeth"
+        },
+        "spouse": {
+            "name": "Hedén, Margaretha"
+        },
+        "children": {
+            "@type": "Person",
+            "name": "Ödin, Thorbjörn",
+            "birthDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationEvent",
+                "schoolName": "Visby",
+                "endDate": "1926"
+            },
+            {
+                "@type": "EducationEvent",
+                "schoolName": "Uppsala",
+                "endDate": "1933",
+                "educationalCredentialAwarded": {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Jur. Kand."
+                }
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "Court",
+                "name": "Northern District of Gotland",
+                "startDate": "1933",
+                "endDate": "1938",
+                "position": "Court clerk"
+            },
+            {
+                "@type": "Court",
+                "name": "Visby",
+                "startDate": "1936",
+                "position": "Acting magistrate"
+            },
+            {
+                "@type": "Court",
+                "name": "Visby",
+                "startDate": "1937",
+                "position": "Regular magistrate"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1942",
+                "roleName": "Auditor",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gotland Coastal Guard"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1944",
+                "roleName": "Chairman",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Rental Committee Visby"
+                }
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Visby"
+        },
+        "hobbies": [
+            "Shooting",
+            "Bridge"
+        ]
+    }
+}

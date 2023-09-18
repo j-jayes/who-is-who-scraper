@@ -1,0 +1,111 @@
+{
+    "original": "Årholm, Simon Johannes, tandläkare, Varberg, f. 20/1/97 i Uddevalla. G. 31 m. tandl. Hedvig Eriksson. — Stud:ex. i Gbg 18, tandl :kand. 28, tandläk. 31. Aman. v. tandl :inst. tand-kir. avd. 30, v. dess tandfylln :avd. s. å., assist, v. samma avd. 31, assist, i Kristianstad 31-32, praktik i Varberg sed. 32. Ordf. i Varbergs sportskyt-tekl. sed. 40, v. ordf. i Varbergs skyt-tefören. Medl. av Frimurarorden. Hobby: jakt. Statens mäsit :märke i mauserskjutn. o. riksmed. i S 40, Gm i olymp, kortdis t :skjutn.",
+    "translated": "Årholm, Simon Johannes, dentist, Varberg, b. 20/1/97 in Uddevalla. Married on 31 m. tandl. Hedvig Eriksson. — Graduated from secondary school in Gothenburg in 1918, graduated as a dental candidate in 1928, became a dentist in 1931. Assistant at the dental institute in the dental surgery department in 1930, in the dental filling department in the same year, assistant in Kristianstad from 1931-1932, practicing in Varberg since 1932. Chairman of Varberg's sports shooting club since 1940, vice chairman of Varberg's shooting association. Member of the Freemasonry Order. Hobby: hunting. Received the State Marksmanship Medal in rifle shooting and national medal in Sweden in 1940. Married in Olympic short-range shooting.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Simon Johannes Årholm\",\n  \"gender\": \"Male\",\n  \"birthDate\": \"1897-01-20\",\n  \"birthPlace\": \"Uddevalla, Sweden\",\n  \"occupation\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Varberg\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hedvig Eriksson\",\n    \"occupation\": \"Dentist\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchoolDiploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalProgram\": \"Stud:ex.\",\n      \"educationalInstitution\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"DentalCandidateDiploma\",\n      \"educationalLevel\": \"BachelorDegree\",\n      \"educationalProgram\": \"tandl :kand.\",\n      \"educationalInstitution\": \"Gothenburg\",\n      \"graduationDate\": \"1928\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"DentistDiploma\",\n      \"educationalLevel\": \"ProfessionalDegree\",\n      \"educationalProgram\": \"tandläk.\",\n      \"educationalInstitution\": \"Gothenburg\",\n      \"graduationDate\": \"1931\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Dental institute\",\n      \"department\": \"Dental surgery department\",\n      \"position\": \"Assistant\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Dental institute\",\n      \"department\": \"Dental filling department\",\n      \"position\": \"Assistant\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Kristianstad\",\n      \"position\": \"Assistant\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Varberg\",\n      \"position\": \"Practicing dentist\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Varbergs sportskyt-tekl.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Varbergs skyt-tefören.\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Frimurarorden\"\n    }\n  ],\n  \"hobbies\": [\n    \"hunting\"\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"State Marksmanship Medal\",\n      \"description\": \"Awarded for mauser rifle shooting\",\n      \"dateAwarded\": \"1940\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"National Medal\",\n      \"description\": \"Awarded in Sweden\",\n      \"dateAwarded\": \"1940\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Simon Johannes Årholm",
+        "gender": "Male",
+        "birthDate": "1897-01-20",
+        "birthPlace": "Uddevalla, Sweden",
+        "occupation": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Varberg",
+            "addressCountry": "Sweden"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Hedvig Eriksson",
+            "occupation": "Dentist"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "SecondarySchoolDiploma",
+                "educationalLevel": "SecondaryEducation",
+                "educationalProgram": "Stud:ex.",
+                "educationalInstitution": "Gothenburg"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "DentalCandidateDiploma",
+                "educationalLevel": "BachelorDegree",
+                "educationalProgram": "tandl :kand.",
+                "educationalInstitution": "Gothenburg",
+                "graduationDate": "1928"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "DentistDiploma",
+                "educationalLevel": "ProfessionalDegree",
+                "educationalProgram": "tandläk.",
+                "educationalInstitution": "Gothenburg",
+                "graduationDate": "1931"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Dental institute",
+                "department": "Dental surgery department",
+                "position": "Assistant",
+                "startDate": "1930",
+                "endDate": "1931"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Dental institute",
+                "department": "Dental filling department",
+                "position": "Assistant",
+                "startDate": "1930",
+                "endDate": "1930"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Kristianstad",
+                "position": "Assistant",
+                "startDate": "1931",
+                "endDate": "1932"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Varberg",
+                "position": "Practicing dentist",
+                "startDate": "1932"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Varbergs sportskyt-tekl."
+            },
+            {
+                "@type": "Organization",
+                "name": "Varbergs skyt-tefören."
+            },
+            {
+                "@type": "Organization",
+                "name": "Frimurarorden"
+            }
+        ],
+        "hobbies": [
+            "hunting"
+        ],
+        "awards": [
+            {
+                "@type": "Medal",
+                "name": "State Marksmanship Medal",
+                "description": "Awarded for mauser rifle shooting",
+                "dateAwarded": "1940"
+            },
+            {
+                "@type": "Medal",
+                "name": "National Medal",
+                "description": "Awarded in Sweden",
+                "dateAwarded": "1940"
+            }
+        ]
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "original": "Öcken, Gustaf Hjalmar, disponent, Göteborg, f. 29/6/81 i Gillberga, Värml. 1. — Anst. v. A. F. Hagströms Vin-handel i Kungsör, Gillberga, Motala o. Östhammar 96-06, Vinimport A-B i Sthlm 07-17, A-B Vin- &amp; Spritcentralen i resp. Sthlm, Sundsvall o. Gbg sed. 17. RVO, PatrGM.",
+    "translated": "Öcken, Gustaf Hjalmar, manager, Gothenburg, b. 29/6/81 in Gillberga, Värmland. 1. — Employed by A. F. Hagström's Wine Trade in Kungsör, Gillberga, Motala, and Östhammar from 96-06. Vinimport AB in Stockholm from 07-17. AB Vin- & Spritcentralen in Stockholm, Sundsvall, and Gothenburg since 17. Received the Royal Order of Vasa (RVO) and the Patriotic General Medal (PatrGM).",
+    "structured_raw": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Person\",\n   \"name\":\"Gustaf Hjalmar Öcken\",\n   \"birthDate\":\"1881-06-29\",\n   \"birthPlace\":{\n      \"@type\":\"Place\",\n      \"name\":\"Gillberga, Värmland\"\n   },\n   \"description\":\"Manager at various wine and spirits companies\",\n   \"address\":{\n      \"@type\":\"PostalAddress\",\n      \"addressLocality\":\"Gothenburg\"\n   },\n   \"worksFor\":[\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"A. F. Hagström's Wine Trade\",\n         \"startDate\":\"1896-01-01\",\n         \"endDate\":\"1906-12-31\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Kungsör, Gillberga, Motala, and Östhammar\"\n         }\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Vinimport AB\",\n         \"startDate\":\"1907-01-01\",\n         \"endDate\":\"1917-12-31\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"addressLocality\":\"Stockholm\"\n         }\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"AB Vin- & Spritcentralen\",\n         \"startDate\":\"1917-01-01\",\n         \"address\":[\n            {\n               \"@type\":\"PostalAddress\",\n               \"addressLocality\":\"Stockholm\"\n            },\n            {\n               \"@type\":\"PostalAddress\",\n               \"addressLocality\":\"Sundsvall\"\n            },\n            {\n               \"@type\":\"PostalAddress\",\n               \"addressLocality\":\"Gothenburg\"\n            }\n         ]\n      }\n   ],\n   \"awards\":[\n      {\n         \"@type\":\"Order\",\n         \"name\":\"Royal Order of Vasa (RVO)\"\n      },\n      {\n         \"@type\":\"Medal\",\n         \"name\":\"Patriotic General Medal (PatrGM)\"\n      }\n   ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gustaf Hjalmar Öcken",
+        "birthDate": "1881-06-29",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Gillberga, Värmland"
+        },
+        "description": "Manager at various wine and spirits companies",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "A. F. Hagström's Wine Trade",
+                "startDate": "1896-01-01",
+                "endDate": "1906-12-31",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Kungsör, Gillberga, Motala, and Östhammar"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "Vinimport AB",
+                "startDate": "1907-01-01",
+                "endDate": "1917-12-31",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                }
+            },
+            {
+                "@type": "Organization",
+                "name": "AB Vin- & Spritcentralen",
+                "startDate": "1917-01-01",
+                "address": [
+                    {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm"
+                    },
+                    {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Sundsvall"
+                    },
+                    {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Gothenburg"
+                    }
+                ]
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa (RVO)"
+            },
+            {
+                "@type": "Medal",
+                "name": "Patriotic General Medal (PatrGM)"
+            }
+        ]
+    }
+}

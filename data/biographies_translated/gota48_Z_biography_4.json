@@ -1,0 +1,127 @@
+{
+    "original": "Zachrisson, Axel Vilhelm, stads-distriktsläkare, Göteborg, f. 17/11/84 i Gbg av Bernhard Z. o. Johanna Nilsson. G. 14 m. gymn:dir. Margaretha Loberg. Barn: Bo f. 15, med. lic., und:läk. v. Örnsköldsviks las., Arne 19, med. kand., Gbg. — Mog:ex. i Gbg 04, gymn:dir. 08, med. kand. 12 o. med. lic. 17 i Sthlm. Vik. und:läk. v. Sthlms stads allm. försörjn :inrättn. sjukh. 15-16, e. läk. v. Kroppefjälls san. 16, vik. und:läk v. Sahlgr. sjukh. med. avd. 17, aman. där 17-18, andre läk. 19-20, bitr. läk. v. sjukv:anst. Gibraltar 20-24, telegrafläk. i Gbg sed. 20, stadsdistr:läk. sed. 24.",
+    "translated": "Zachrisson, Axel Vilhelm, city district doctor, Gothenburg, born 17/11/84 in Gothenburg, to Bernhard Z. and Johanna Nilsson. Married on 14 m. to gymnasium director Margaretha Loberg. Children: Bo, born in 1915, medical licentiate, assistant doctor at Örnsköldsvik hospital; Arne, born in 1919, medical candidate, Gothenburg. Completed his exams in Gothenburg in 1904, gymnastics director in 1908, medical candidate in 1912, and medical licentiate in Stockholm in 1917. Temporary assistant doctor at Stockholm City's public support institution hospital from 1915-1916, trainee doctor at Kroppefjäll's sanatorium in 1916, temporary assistant doctor at Sahlgr. hospital, medical department in 1917, intern there from 1917-1918, second doctor from 1919-1920, assistant doctor at Gibraltar healthcare facility from 1920-1924, telegraph doctor in Gothenburg since 1920, city district doctor since 1924.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Axel Vilhelm Zachrisson\",\n  \"birthDate\": \"1884-11-17\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bernhard Z.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johanna Nilsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margaretha Loberg\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo\",\n      \"birthDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Arne\",\n      \"birthDate\": \"1919\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"MedicalOccupation\",\n      \"specialty\": \"City District Doctor\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"Exams\",\n    \"credential\": [\n      {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"gymnastics director\",\n        \"credentialCategory\": \"Exams\",\n        \"credentialDate\": \"1908\"\n      },\n      {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"medical candidate\",\n        \"credentialCategory\": \"Exams\",\n        \"credentialDate\": \"1912\"\n      },\n      {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"medical licentiate\",\n        \"credentialCategory\": \"Exams\",\n        \"credentialDate\": \"1917\",\n        \"issuer\": {\n          \"@type\": \"Organization\",\n          \"name\": \"Stockholm\"\n        }\n      }\n    ]\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1916\",\n      \"roleName\": \"Temporary Assistant Doctor\",\n      \"description\": \"Stockholm City's public support institution hospital\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\",\n      \"roleName\": \"Trainee Doctor\",\n      \"description\": \"Kroppefjäll's sanatorium\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1918\",\n      \"roleName\": \"Temporary Assistant Doctor\",\n      \"description\": \"Sahlgr. hospital, medical department\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1920\",\n      \"roleName\": \"Second Doctor\",\n      \"description\": \"Sahlgr. hospital\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1924\",\n      \"roleName\": \"Assistant Doctor\",\n      \"description\": \"Gibraltar healthcare facility\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1920\",\n      \"roleName\": \"Telegraph Doctor\",\n      \"description\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"roleName\": \"City District Doctor\",\n      \"description\": \"Gothenburg\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Axel Vilhelm Zachrisson",
+        "birthDate": "1884-11-17",
+        "birthPlace": "Gothenburg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Bernhard Z."
+            },
+            {
+                "@type": "Person",
+                "name": "Johanna Nilsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margaretha Loberg"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Bo",
+                "birthDate": "1915"
+            },
+            {
+                "@type": "Person",
+                "name": "Arne",
+                "birthDate": "1919"
+            }
+        ],
+        "occupation": [
+            {
+                "@type": "MedicalOccupation",
+                "specialty": "City District Doctor"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Gothenburg"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Exams",
+            "credential": [
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "gymnastics director",
+                    "credentialCategory": "Exams",
+                    "credentialDate": "1908"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "medical candidate",
+                    "credentialCategory": "Exams",
+                    "credentialDate": "1912"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "medical licentiate",
+                    "credentialCategory": "Exams",
+                    "credentialDate": "1917",
+                    "issuer": {
+                        "@type": "Organization",
+                        "name": "Stockholm"
+                    }
+                }
+            ]
+        },
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1915",
+                "endDate": "1916",
+                "roleName": "Temporary Assistant Doctor",
+                "description": "Stockholm City's public support institution hospital"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1916",
+                "endDate": "1916",
+                "roleName": "Trainee Doctor",
+                "description": "Kroppefjäll's sanatorium"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "1918",
+                "roleName": "Temporary Assistant Doctor",
+                "description": "Sahlgr. hospital, medical department"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1919",
+                "endDate": "1920",
+                "roleName": "Second Doctor",
+                "description": "Sahlgr. hospital"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1920",
+                "endDate": "1924",
+                "roleName": "Assistant Doctor",
+                "description": "Gibraltar healthcare facility"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1920",
+                "roleName": "Telegraph Doctor",
+                "description": "Gothenburg"
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "roleName": "City District Doctor",
+                "description": "Gothenburg"
+            }
+        ]
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "original": "Åström, Johan Göran, assessor, v. auditör, Norrköping, i. 23/10/09’ i Uppsala av krigsdom. John A. o. Brita Kugelberg. G. 40 m. Margit Verner. Barn: Jonas f. 45, Anders 46. — Stud :-ex. i Upps. 28, jur. kand. 33. Tings-tjg. i Bråbygdens o. Finspånga 1. doms. 33-36, tjg. i Göta hovr. fr. 36, fiskal 37, v. assess. v. rådh:rätten i Norrköp. 39 o. -fr. 40, assess. där 47, v. auditör v. Bråvalla flygflottilj fr. 45.",
+    "translated": "Åström, Johan Göran, assessor, v. auditor, Norrköping, b. 23/10/09 in Uppsala, illegitimate child. Parents: John A. and Brita Kugelberg. Married in 1940 to Margit Verner. Children: Jonas, born in 1945, Anders, born in 1946. Completed studies in Uppsala in 1928, graduated as a law candidate in 1933. Served as a court clerk in Bråbygden and Finspånga County Court from 1933 to 1936, served in the Göta Court of Appeal from 1936, became a clerk in 1937, became an assistant judge in the municipal court of Norrköping in 1939 and from 1940, became an assessor there in 1947, and became an auditor at Bråvalla Air Force Flotilla from 1945 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Göran Åström\",\n  \"birthDate\": \"1909-10-23\",\n  \"birthPlace\": \"Uppsala\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"John A. Åström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Kugelberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Margit Verner\",\n    \"marriageDate\": \"1940\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jonas Åström\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Åström\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studying\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Assessor\",\n    \"Auditor\"\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bråbygden County Court\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Göta Court of Appeal\",\n      \"startDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Municipal Court\",\n      \"startDate\": \"1939\",\n      \"position\": \"Assistant Judge\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Municipal Court\",\n      \"startDate\": \"1940\",\n      \"position\": \"Assessor\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Bråvalla Air Force Flotilla\",\n      \"startDate\": \"1945\",\n      \"position\": \"Auditor\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Göran Åström",
+        "birthDate": "1909-10-23",
+        "birthPlace": "Uppsala",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "John A. Åström"
+            },
+            {
+                "@type": "Person",
+                "name": "Brita Kugelberg"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Margit Verner",
+            "marriageDate": "1940"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Jonas Åström",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Anders Åström",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Studying",
+                "educationalLevel": "Bachelor's Degree",
+                "startDate": "1928",
+                "endDate": "1933"
+            }
+        ],
+        "jobTitle": [
+            "Assessor",
+            "Auditor"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Bråbygden County Court",
+                "startDate": "1933",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Göta Court of Appeal",
+                "startDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Municipal Court",
+                "startDate": "1939",
+                "position": "Assistant Judge"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Municipal Court",
+                "startDate": "1940",
+                "position": "Assessor"
+            },
+            {
+                "@type": "Organization",
+                "name": "Bråvalla Air Force Flotilla",
+                "startDate": "1945",
+                "position": "Auditor"
+            }
+        ]
+    }
+}

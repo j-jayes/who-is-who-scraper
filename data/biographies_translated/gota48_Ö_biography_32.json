@@ -1,0 +1,143 @@
+{
+    "original": "Öqvist, Olof Einar, disponent, Göteborg, f. 15/12/93 i Karlstad av fabr. Olof Ö. o. Emelia Andersson. G. 28 m. Rut Robertson. Barn: Ingela f. 29, Britta 33’. — Stud:ex. i Karlstad 12, agronomex. v. Ultuna 16. As’sist. h. lantbr:ing. i Karlstad o. Örebro 17, 18. Lär. v. Älgå lantm:sk. 17-19, förest. 19-21, anst. av Sv. Superfosfat Försäljn. A-B f. konstgödselpropag. 21-28, försälj, f. samma firma 28-42, di’Sp. f. fil. i Gbg fr. 42.",
+    "translated": "Öqvist, Olof Einar, manager, Gothenburg, b. 15/12/1893 in Karlstad, son of factory owner Olof Ö. and Emelia Andersson. Married on 28th xx with Rut Robertson. Children: Ingela b. 1929, Britta b. 1933. — Graduated from Karlstad high school in 1912, agricultural degree from Ultuna in 1916. Assistant agricultural engineer in Karlstad and Örebro in 1917, 1918. Teacher at Älgå agricultural school from 1917 to 1919, principal from 1919 to 1921. Employed by Swedish Superfosfat Försäljn. A-B for fertilizer promotion from 1921 to 1928, sales manager for the same company from 1928 to 1942. Manager of the Gothenburg branch since 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Einar Öqvist\",\n  \"jobTitle\": \"Manager\",\n  \"birthDate\": \"1893-12-15\",\n  \"birthPlace\": \"Karlstad\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olof Öqvist\",\n      \"jobTitle\": \"Factory Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emelia Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rut Robertson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingela\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Britta\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School\",\n      \"educationalLevel\": \"Graduated\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1912\",\n      \"educationalInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlstad High School\"\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Agricultural Degree\",\n      \"educationalLevel\": \"Graduated\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\",\n      \"educationalInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ultuna\"\n      }\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Superfosfat Försäljn. A-B\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1917\",\n      \"roleName\": \"Assistant Agricultural Engineer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlstad\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1918\",\n      \"roleName\": \"Assistant Agricultural Engineer\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Örebro\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1919\",\n      \"roleName\": \"Teacher\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Älgå Agricultural School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1921\",\n      \"roleName\": \"Principal\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Älgå Agricultural School\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1928\",\n      \"roleName\": \"Employed\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Superfosfat Försäljn. A-B\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1942\",\n      \"roleName\": \"Sales Manager\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Superfosfat Försäljn. A-B\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1942\",\n      \"roleName\": \"Manager\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Branch\"\n      }\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Einar Öqvist",
+        "jobTitle": "Manager",
+        "birthDate": "1893-12-15",
+        "birthPlace": "Karlstad",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Olof Öqvist",
+                "jobTitle": "Factory Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Emelia Andersson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Rut Robertson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Ingela",
+                "birthDate": "1929"
+            },
+            {
+                "@type": "Person",
+                "name": "Britta",
+                "birthDate": "1933"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High School",
+                "educationalLevel": "Graduated",
+                "educationalRole": "Student",
+                "startDate": "1912",
+                "endDate": "1912",
+                "educationalInstitution": {
+                    "@type": "Organization",
+                    "name": "Karlstad High School"
+                }
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Agricultural Degree",
+                "educationalLevel": "Graduated",
+                "educationalRole": "Student",
+                "startDate": "1916",
+                "endDate": "1916",
+                "educationalInstitution": {
+                    "@type": "Organization",
+                    "name": "Ultuna"
+                }
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Swedish Superfosfat Försäljn. A-B"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "1917",
+                "roleName": "Assistant Agricultural Engineer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Karlstad"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1918",
+                "endDate": "1918",
+                "roleName": "Assistant Agricultural Engineer",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Örebro"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1917",
+                "endDate": "1919",
+                "roleName": "Teacher",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Älgå Agricultural School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1919",
+                "endDate": "1921",
+                "roleName": "Principal",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Älgå Agricultural School"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1921",
+                "endDate": "1928",
+                "roleName": "Employed",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Superfosfat Försäljn. A-B"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1928",
+                "endDate": "1942",
+                "roleName": "Sales Manager",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Swedish Superfosfat Försäljn. A-B"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "startDate": "1942",
+                "roleName": "Manager",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Branch"
+                }
+            }
+        ]
+    }
+}

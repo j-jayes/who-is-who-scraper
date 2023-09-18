@@ -1,0 +1,134 @@
+{
+    "original": "Örn, Carl Henrik Gunnar, överläkare, prakt, läkare, Linköping, f. 30/10/06 i Karlstad av reg :läk. Elis Ö. o. Thérèse Uggla. G. 42 m. Sif Ahrén. Barn: Claes Henrik f. 43, Eva 45. — Stud:ex. i Linköp. 25, med. kand. 29 o. med. lic. 34 i Sthlm. En del kort. förordn. samt und :läk. v. Lin köp. las. med. avd. 34-40, Orupsan. 36-37, Epid:sjukh. i Sthlm 41-44, barnsjukh. Samariten 44, bat:-läk. i Fik res. 37, mil. förordn. 37-44, öv:läk. v. Centr :epid isjukli. i Linköp. fr. 45. Uti. studires. 38 o. 46.",
+    "translated": "Örn, Carl Henrik Gunnar, senior physician, general practitioner, doctor, Linköping, b. 30/10/06 in Karlstad to regimental doctor Elis Ö. and Thérèse Uggla. Married in 1942 to Sif Ahrén. Children: Claes Henrik b. 1943, Eva b. 1945. Completed high school in Linköping in 1925, obtained a Bachelor of Medicine degree in 1929, and a Medical License in 1934 in Stockholm. Held several short-term appointments and served as an assistant physician at the medical department of Linköping County Hospital from 1934-1940, at Orup Sanatorium in 1936-1937, at the Stockholm Epidemic Hospital from 1941-1944, and at the Samaritan Children's Hospital in 1944. Served as a naval doctor in the Naval Reserve from 1937, with military appointments from 1937-1944. Became the chief physician at the Central Epidemic Hospital in Linköping in 1945. Studied abroad in 1938 and 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Henrik Gunnar Örn\",\n  \"birthDate\": \"1906-10-30\",\n  \"birthPlace\": \"Karlstad, Sweden\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": [\n    \"Senior Physician\",\n    \"General Practitioner\",\n    \"Doctor\"\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elis Örn\",\n      \"jobTitle\": \"Regimental Doctor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Thérèse Uggla\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sif Ahrén\",\n      \"marriageDate\": \"1942\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Claes Henrik Örn\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Örn\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"issuer\": \"Linköping\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"med. kand.\",\n      \"issuer\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"med. lic.\",\n      \"issuer\": \"Stockholm\",\n      \"validFrom\": \"1934\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Linköping County Hospital\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"employmentType\": \"Part-time\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Orup Sanatorium\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"employmentType\": \"Part-time\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Stockholm Epidemic Hospital\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"employmentType\": \"Part-time\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Samaritan Children's Hospital\",\n      \"jobTitle\": \"Assistant Physician\",\n      \"employmentType\": \"Part-time\",\n      \"startDate\": \"1944\"\n    },\n    {\n      \"@type\": \"MilitaryService\",\n      \"branchOfService\": \"Naval Reserve\",\n      \"jobTitle\": \"Naval Doctor\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Central Epidemic Hospital\",\n      \"jobTitle\": \"Chief Physician\",\n      \"startDate\": \"1945\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\",\n        \"addressCountry\": \"Sweden\"\n      }\n    }\n  ],\n  \"studyAbroad\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Uti. studires.\",\n      \"validFrom\": \"1938\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Uti. studires.\",\n      \"validFrom\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carl Henrik Gunnar Örn",
+        "birthDate": "1906-10-30",
+        "birthPlace": "Karlstad, Sweden",
+        "nationality": "Swedish",
+        "jobTitle": [
+            "Senior Physician",
+            "General Practitioner",
+            "Doctor"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Linköping",
+            "addressCountry": "Sweden"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Elis Örn",
+                "jobTitle": "Regimental Doctor"
+            },
+            {
+                "@type": "Person",
+                "name": "Thérèse Uggla"
+            }
+        ],
+        "spouse": [
+            {
+                "@type": "Person",
+                "name": "Sif Ahrén",
+                "marriageDate": "1942"
+            }
+        ],
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Claes Henrik Örn",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Örn",
+                "birthDate": "1945"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Stud:ex.",
+                "issuer": "Linköping"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "med. kand.",
+                "issuer": "Stockholm"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "med. lic.",
+                "issuer": "Stockholm",
+                "validFrom": "1934"
+            }
+        ],
+        "work": [
+            {
+                "@type": "MedicalOrganization",
+                "name": "Linköping County Hospital",
+                "jobTitle": "Assistant Physician",
+                "employmentType": "Part-time",
+                "startDate": "1934",
+                "endDate": "1940"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Orup Sanatorium",
+                "jobTitle": "Assistant Physician",
+                "employmentType": "Part-time",
+                "startDate": "1936",
+                "endDate": "1937"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Stockholm Epidemic Hospital",
+                "jobTitle": "Assistant Physician",
+                "employmentType": "Part-time",
+                "startDate": "1941",
+                "endDate": "1944"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Samaritan Children's Hospital",
+                "jobTitle": "Assistant Physician",
+                "employmentType": "Part-time",
+                "startDate": "1944"
+            },
+            {
+                "@type": "MilitaryService",
+                "branchOfService": "Naval Reserve",
+                "jobTitle": "Naval Doctor",
+                "startDate": "1937",
+                "endDate": "1944"
+            },
+            {
+                "@type": "MedicalOrganization",
+                "name": "Central Epidemic Hospital",
+                "jobTitle": "Chief Physician",
+                "startDate": "1945",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping",
+                    "addressCountry": "Sweden"
+                }
+            }
+        ],
+        "studyAbroad": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Uti. studires.",
+                "validFrom": "1938"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Uti. studires.",
+                "validFrom": "1946"
+            }
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "original": "Öberg, Lars Olof, prakt, läkare, Göteborg, f. 8/4/12 i Gbg av Sven Ö. o. Jenny Schagerström. G. 42 m. Gullan Davidsoni. Barn : Karin f. 43, Eva 45, Stina 47. — Studiex. i Gbg 30, med. kand. 36’ o. med. lic. 38 i Sthlm. Assist :läk. v. Sahlgr. sjukh. kir. avd. c :a sex mån. 38-39, e. läk. o. unddäk. v. ögonavd. där 39-44, vik. las :läk. v. ol. ögonavd. sed. 40. Prakt. läk. i Gbg.",
+    "translated": "Öberg, Lars Olof, physician, Gothenburg, b. 8/4/12 in Gothenburg to Sven Ö. and Jenny Schagerström. Married in 1942 to Gullan Davidsoni. Children: Karin b. 1943, Eva b. 1945, Stina b. 1947. — Graduated from Gothenburg University in 1930, received Bachelor of Medicine degree in 1936, and Medical Licentiate degree in 1938 in Stockholm. Worked as an assistant physician at Sahlgren Hospital surgical department for six months in 1938-1939, followed by a post as a medical intern and assistant at the eye department from 1939-1944. Also served as a temporary medical intern at another eye department since 1940. Currently practicing as a physician in Gothenburg.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Olof Öberg\",\n  \"birthDate\": \"1912-04-08\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"Physician\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sahlgren Hospital\",\n      \"memberOf\": {\n        \"@type\": \"MedicalOrganization\",\n        \"department\": \"Surgical Department\"\n      }\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"educationalCredentialAwarded\": \"Medicine\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Gothenburg University\"\n      },\n      \"startDate\": \"1930\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Medical Licentiate\",\n      \"educationalCredentialAwarded\": \"Medicine\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm Medical School\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gullan Davidsoni\",\n    \"gender\": \"Female\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva\",\n      \"birthDate\": \"1945\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stina\",\n      \"birthDate\": \"1947\"\n    }\n  ],\n  \"worksFor\": \"Gothenburg\",\n  \"jobTitle\": \"Physician\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lars Olof Öberg",
+        "birthDate": "1912-04-08",
+        "birthPlace": "Gothenburg",
+        "nationality": "Swedish",
+        "occupation": "Physician",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Sahlgren Hospital",
+                "memberOf": {
+                    "@type": "MedicalOrganization",
+                    "department": "Surgical Department"
+                }
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's Degree",
+                "educationalCredentialAwarded": "Medicine",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Gothenburg University"
+                },
+                "startDate": "1930",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Medical Licentiate",
+                "educationalCredentialAwarded": "Medicine",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm Medical School"
+                },
+                "startDate": "1936",
+                "endDate": "1938"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Gullan Davidsoni",
+            "gender": "Female"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva",
+                "birthDate": "1945"
+            },
+            {
+                "@type": "Person",
+                "name": "Stina",
+                "birthDate": "1947"
+            }
+        ],
+        "worksFor": "Gothenburg",
+        "jobTitle": "Physician"
+    }
+}

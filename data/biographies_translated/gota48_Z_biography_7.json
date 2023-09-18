@@ -1,0 +1,87 @@
+{
+    "original": "Zachrisson, Karl Torbjörn, e. provinsialläkare, Bràlanda, f. 24/12/11 i Fal-kemberg av Axel Zachariais Z. o. Lalla Mathilda Bergiman. G. 38 m. Aina Jenny Eldsäbeth WaHmark. Barn: Björn Einar f. 41, Ulf Göran 42, Sven Gunnar 43, Aina Eva Elisaibeth 46. — ,Stud:ex. i Lund 29, med. kand. där 34, med. lic. v. Karol. inst. 39. E. prov:-läk. i Bràlanda sed. 46.",
+    "translated": "Zachrisson, Karl Torbjörn, born on December 24, 1911 in Falkemberg to Axel Zachariais Z. and Lalla Mathilda Bergiman. Became a provincial doctor. Married in 1938 to Aina Jenny Eldsäbeth WaHmark. Children: Björn Einar born in 1941, Ulf Göran born in 1942, Sven Gunnar born in 1943, Aina Eva Elisaibeth born in 1946. Studied for bachelor's degrees in Lund in 1929, medical candidate there in 1934, medical license at the Karolinska Institute in 1939. Became a provincial doctor in Bràlanda in 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Torbjörn Zachrisson\",\n  \"birthDate\": \"1911-12-24\",\n  \"birthPlace\": \"Falkemberg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel Zachariais Z.\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lalla Mathilda Bergiman\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Aina Jenny Eldsäbeth WaHmark\",\n    \"marriageDate\": \"1938\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn Einar\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf Göran\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Gunnar\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Aina Eva Elisaibeth\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Lund\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"alumniOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. Kand. i Lund\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"alumniOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Med. Lic. v. Karol. inst.\",\n      \"educationalLevel\": \"Medical License\",\n      \"alumniOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karolinska Institute\"\n      },\n      \"endDate\": \"1939\"\n    }\n  ],\n  \"jobTitle\": \"Provincial Doctor\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Bràlanda\"\n  },\n  \"startDate\": \"1946\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Torbjörn Zachrisson",
+        "birthDate": "1911-12-24",
+        "birthPlace": "Falkemberg",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Axel Zachariais Z."
+            },
+            {
+                "@type": "Person",
+                "name": "Lalla Mathilda Bergiman"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Aina Jenny Eldsäbeth WaHmark",
+            "marriageDate": "1938"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Björn Einar",
+                "birthDate": "1941"
+            },
+            {
+                "@type": "Person",
+                "name": "Ulf Göran",
+                "birthDate": "1942"
+            },
+            {
+                "@type": "Person",
+                "name": "Sven Gunnar",
+                "birthDate": "1943"
+            },
+            {
+                "@type": "Person",
+                "name": "Aina Eva Elisaibeth",
+                "birthDate": "1946"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex. i Lund",
+                "educationalLevel": "Bachelor's Degree",
+                "alumniOf": {
+                    "@type": "Organization",
+                    "name": "Lund University"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. Kand. i Lund",
+                "educationalLevel": "Bachelor's Degree",
+                "alumniOf": {
+                    "@type": "Organization",
+                    "name": "Lund University"
+                },
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Med. Lic. v. Karol. inst.",
+                "educationalLevel": "Medical License",
+                "alumniOf": {
+                    "@type": "Organization",
+                    "name": "Karolinska Institute"
+                },
+                "endDate": "1939"
+            }
+        ],
+        "jobTitle": "Provincial Doctor",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Bràlanda"
+        },
+        "startDate": "1946"
+    }
+}

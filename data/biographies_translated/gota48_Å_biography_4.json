@@ -1,0 +1,56 @@
+{
+    "original": "Åberg, Johan Olof Tage, tandläkare, Göteborg, f. 24/6/07 i Sthlm av käll:-mäst. Johan A. o. Ellen Rehn. G. 36 m. Anna-Lisa Karlsson. — Stud:ex. i Örebro 27, Cand. med. dent. i Rostock 31, tysk tandläk. i Bonn 32, svensk tandlläk. 34. Prakt, i Trollhättan 37-46, egen prakt, i Mölndal sed. 46.",
+    "translated": "Åberg, Johan Olof Tage, dentist, Gothenburg, b. 24/6/07 in Stockholm to pewter master Johan A. and Ellen Rehn. Married for 36 years to Anna-Lisa Karlsson. - Completed high school exams in Örebro in '27, obtained a dental medicine degree in Rostock in '31, worked as a German dentist in Bonn in '32, and as a Swedish dentist in '34. Practiced in Trollhättan from '37-'46 and established his own practice in Mölndal since '46.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Olof Tage Åberg\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1907-06-24\",\n  \"birthPlace\": \"Stockholm, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Johan A. Åberg\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ellen Rehn\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Lisa Karlsson\"\n  },\n  \"marriageDuration\": \"P36Y\",\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school exams\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1927\",\n      \"educationLevel\": \"HighSchool\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Dental Medicine Degree\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\",\n      \"educationLevel\": \"University\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Trollhättan\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Mölndal\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"nationality\": \"Swedish\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Olof Tage Åberg",
+        "jobTitle": "Dentist",
+        "birthDate": "1907-06-24",
+        "birthPlace": "Stockholm, Sweden",
+        "father": {
+            "@type": "Person",
+            "name": "Johan A. Åberg"
+        },
+        "mother": {
+            "@type": "Person",
+            "name": "Ellen Rehn"
+        },
+        "spouse": {
+            "@type": "Person",
+            "name": "Anna-Lisa Karlsson"
+        },
+        "marriageDuration": "P36Y",
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "High school exams",
+                "startDate": "1927",
+                "endDate": "1927",
+                "educationLevel": "HighSchool"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Dental Medicine Degree",
+                "startDate": "1931",
+                "endDate": "1931",
+                "educationLevel": "University"
+            }
+        ],
+        "workLocation": [
+            {
+                "@type": "Place",
+                "name": "Trollhättan",
+                "startDate": "1937",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Place",
+                "name": "Mölndal",
+                "startDate": "1946"
+            }
+        ],
+        "nationality": "Swedish"
+    }
+}

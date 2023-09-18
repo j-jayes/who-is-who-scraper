@@ -1,0 +1,114 @@
+{
+    "original": "Ågren, Nils Rickard, apotekare, Skänninge, f. 15/4/02 i Linköp. av hov-r :not. Seth Mauritz Å. o. Anna Gus-tavs’s0n. G. 29 nu. Agda Eva Viktoria Johansson. Barn: Clas Rickard f. 33, Eva Maria 34. — Stud:ex. i Linköp. 22, farm. kand. 29, apot:ex. 33. Elev v. apot. Vasen i Linköp. 25-28, anst. v. Mården i Sthlm 29-31 o. 3^-37, därefter åter v. Vasen i Linköp., priv. å apot. i Skänninge fr. 46.",
+    "translated": "Ågren, Nils Rickard, pharmacist, Skänninge, born on April 15th, 1902 in Linköping, son of court notary Seth Mauritz Å. and Anna Gustavsdotter. Married since 1929 to Agda Eva Viktoria Johansson. Children: Clas Rickard, born in 1933, Eva Maria, born in 1934. Completed high school in Linköping in 1922, finished pharmacy studies in 1929, became a licensed pharmacist in 1933. Worked as an apprentice at Vasen pharmacy in Linköping from 1925 to 1928, employed at Mården pharmacy in Stockholm from 1929 to 1931 and from 1934 to 1937, then returned to Vasen pharmacy in Linköping. Later worked privately at the pharmacy in Skänninge from 1946 onwards.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ågren, Nils Rickard\",\n  \"jobTitle\": \"Pharmacist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Skänninge\"\n  },\n  \"birthDate\": \"1902-04-15\",\n  \"birthPlace\": \"Linköping\",\n  \"parents\": [\n    {\n      \"name\": \"Seth Mauritz Å.\",\n      \"jobTitle\": \"Court Notary\"\n    },\n    {\n      \"name\": \"Anna Gustavsdotter\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Agda Eva Viktoria Johansson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Clas Rickard\",\n      \"birthDate\": \"1933\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Maria\",\n      \"birthDate\": \"1934\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"alumniOf\": \"Linköping\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Pharmacy studies\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"alumniOf\": \"Linköping\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Pharmacy license\",\n      \"educationalLevel\": \"Professional degree\",\n      \"endDate\": \"1933\"\n    }\n  ],\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vasen pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\"\n      },\n      \"startDate\": \"1925-01-01\",\n      \"endDate\": \"1928-12-31\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mården pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"startDate\": \"1929-01-01\",\n      \"endDate\": \"1931-12-31\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Mården pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Stockholm\"\n      },\n      \"startDate\": \"1934-01-01\",\n      \"endDate\": \"1937-12-31\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vasen pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Linköping\"\n      },\n      \"startDate\": \"1938-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Private pharmacy\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Skänninge\"\n      },\n      \"startDate\": \"1946-01-01\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Ågren, Nils Rickard",
+        "jobTitle": "Pharmacist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Skänninge"
+        },
+        "birthDate": "1902-04-15",
+        "birthPlace": "Linköping",
+        "parents": [
+            {
+                "name": "Seth Mauritz Å.",
+                "jobTitle": "Court Notary"
+            },
+            {
+                "name": "Anna Gustavsdotter"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Agda Eva Viktoria Johansson"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Clas Rickard",
+                "birthDate": "1933"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Maria",
+                "birthDate": "1934"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "alumniOf": "Linköping",
+                "endDate": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Pharmacy studies",
+                "educationalLevel": "Bachelor's degree",
+                "alumniOf": "Linköping",
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Pharmacy license",
+                "educationalLevel": "Professional degree",
+                "endDate": "1933"
+            }
+        ],
+        "affiliation": [
+            {
+                "@type": "Organization",
+                "name": "Vasen pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping"
+                },
+                "startDate": "1925-01-01",
+                "endDate": "1928-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mården pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "startDate": "1929-01-01",
+                "endDate": "1931-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "Mården pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Stockholm"
+                },
+                "startDate": "1934-01-01",
+                "endDate": "1937-12-31"
+            },
+            {
+                "@type": "Organization",
+                "name": "Vasen pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Linköping"
+                },
+                "startDate": "1938-01-01"
+            },
+            {
+                "@type": "Organization",
+                "name": "Private pharmacy",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Skänninge"
+                },
+                "startDate": "1946-01-01"
+            }
+        ]
+    }
+}

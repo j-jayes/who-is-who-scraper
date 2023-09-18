@@ -1,0 +1,105 @@
+{
+    "original": "Åkesson, Hans Gustaf Wilhelm, rådman, v. krigsdomare, Vättersnäs, f. 6/6/96 i Stenbrohult, Kronob. 1., av överbanmäst. Hans Å. o. Hanna Mats-son. G. 34 m. Astrid Frykholm. Barn: Birgitta f. 35, Barbro 36, Monika 40, Gunilla 41. — Stud:ex. i Lund 14, jur. kand. där 21. E. o. not. i Skånska hovr. 21, i Göta hovr. 24, tingstjg. i Ingelstads o. Järrestads här. doms. 21-23, tf. fiskal i Göta hovr. 25, e. o. as-sess. 26, tf. rådman i Jönköp. sed. 30, v. krigsdom. v. Jönkö-p.-Kalm. reg. o. Göta ing:kår sed. s. å. Ordf. i bygg-n :nd i Jönköp. 47. RVO.",
+    "translated": "Åkesson, Hans Gustaf Wilhelm, City Judge, Deputy Military Judge, Vättersnäs, born on June 6, 1896 in Stenbrohult, Kronoborg County, son of Master Corporal Hans Å. and Hanna Matsson. Married in 1934 to Astrid Frykholm. Children: Birgitta, born in 1935, Barbro in 1936, Monika in 1940, Gunilla in 1941. \n\nEducated at Lund University with a Bachelor's degree in Law in 1914, and a Juris Doctor degree in 1921. Assistant Notary in Skånska Court of Appeal in 1921, and in Göta Court of Appeal in 1924. Served as a Subordinate Judge in Ingelstad and Järrestad District Courts from 1921 to 1923. Temporary Law Clerk in Göta Court of Appeal in 1925, Extraordinary Assessor in 1926. Acting City Judge in Jönköping since 1930, and Deputy Military Judge in Jönköping-Kalmar Regiment and Göta Engineer Corps from the same year. Chairman of the Building Board in Jönköping in 1947. Received the Royal Order of Vasa.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hans Gustaf Wilhelm Åkesson\",\n  \"givenName\": \"Hans\",\n  \"familyName\": \"Åkesson\",\n  \"birthDate\": \"1896-06-06\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Stenbrohult\",\n      \"addressRegion\": \"Kronoborg County\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hans Å.\",\n      \"jobTitle\": \"Master Corporal\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Matsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Astrid Frykholm\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Monika\",\n      \"birthDate\": \"1940\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunilla\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"degree\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"Bachelor's in Law\",\n        \"dateIssued\": \"1914\"\n      }\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Lund University\",\n      \"degree\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"Juris Doctor\",\n        \"dateIssued\": \"1921\"\n      }\n    }\n  ],\n  \"jobTitle\": [\n    \"City Judge\",\n    \"Deputy Military Judge\",\n    \"Acting City Judge in Jönköping\",\n    \"Deputy Military Judge in Jönköping-Kalmar Regiment and Göta Engineer Corps\"\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"City\",\n      \"name\": \"Vättersnäs\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Jönköping\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Building Board in Jönköping\"\n  },\n  \"honors\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Hans Gustaf Wilhelm Åkesson",
+        "givenName": "Hans",
+        "familyName": "Åkesson",
+        "birthDate": "1896-06-06",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Stenbrohult",
+                "addressRegion": "Kronoborg County"
+            }
+        },
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Hans Å.",
+                "jobTitle": "Master Corporal"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanna Matsson"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Astrid Frykholm",
+            "marriageDate": "1934"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1935"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro",
+                "birthDate": "1936"
+            },
+            {
+                "@type": "Person",
+                "name": "Monika",
+                "birthDate": "1940"
+            },
+            {
+                "@type": "Person",
+                "name": "Gunilla",
+                "birthDate": "1941"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "degree": {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Bachelor's in Law",
+                    "dateIssued": "1914"
+                }
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Lund University",
+                "degree": {
+                    "@type": "EducationalOccupationalCredential",
+                    "name": "Juris Doctor",
+                    "dateIssued": "1921"
+                }
+            }
+        ],
+        "jobTitle": [
+            "City Judge",
+            "Deputy Military Judge",
+            "Acting City Judge in Jönköping",
+            "Deputy Military Judge in Jönköping-Kalmar Regiment and Göta Engineer Corps"
+        ],
+        "workLocation": [
+            {
+                "@type": "City",
+                "name": "Vättersnäs"
+            },
+            {
+                "@type": "City",
+                "name": "Jönköping"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Building Board in Jönköping"
+        },
+        "honors": [
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            }
+        ]
+    }
+}

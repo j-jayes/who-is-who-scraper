@@ -1,0 +1,113 @@
+{
+    "original": "Örnefors, Fritz Einar Vitalis, provinsialläkare, Hohultslätt, num. Årjäng, f. 16/3/05 i Viitsand, Värml. 1. —■ Studiex. i Karlstad 26, med. kand. i Upps. 29, med. lic. i Sthlm 35. Assist :-läk. v. Sachsska barnsjukh. 35, e. läk. v. Mariebergs sjukh. 36, assist :läk. o. tf. andre und :läk. v. Karlstads las. med. avd. 36-37, tf. und:läk. v. Moheds san. 38, ord. und:läk. s. å., und:läk. v. S :ta Gertruds sjukh., Sundsvalls las., Växjö las. o. Eskilstuna las. 40-46, e. prov:läk. i Hohultslätts distr. 46-47, prov:iläk. i Årjäng fr. 47.",
+    "translated": "Örnefors, Fritz Einar Vitalis, provincial doctor, Hohultslätt, number Årjäng, born on March 16, 1905 in Viitsand, Värmland. - Studied in Karlstad until 1926, obtained a Bachelor of Medicine degree in Uppsala in 1929, and a Medical Licentiate degree in Stockholm in 1935. Assisted at Sachsska Children's Hospital in 1935, employed as a doctor at Marieberg Hospital in 1936, served as an assistant and temporary second assistant doctor at the medical department of Karlstad General Hospital from 1936-1937, filled in as an absent doctor at Moheds Sanatorium in 1938, appointed as a regular absent doctor the same year, worked as an absent doctor at S:ta Gertrud's Hospital, Sundsvall Hospital, Växjö Hospital, and Eskilstuna Hospital from 1940-1946. Became a provincial doctor in Hohultslätt district from 1946-1947, and a provincial doctor in Årjäng from 1947 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Fritz Einar Vitalis Örnefors\",\n  \"jobTitle\": \"Provincial Doctor\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Hohultslätt\",\n    \"addressLocality\": \"Årjäng\"\n  },\n  \"birthDate\": \"1905-03-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Viitsand\",\n      \"addressRegion\": \"Värmland\"\n    }\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Karlstad University\",\n        \"foundingDate\": \"1926\"\n      },\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Licentiate degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"foundingDate\": \"1477\"\n      },\n      \"endDate\": \"1935\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Sachsska Children's Hospital\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Marieberg Hospital\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"GeneralHospital\",\n      \"name\": \"Karlstad General Hospital\",\n      \"department\": {\n        \"@type\": \"MedicalOrganization\",\n        \"name\": \"Medical Department\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Sanatorium\",\n      \"name\": \"Moheds Sanatorium\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"S:ta Gertrud's Hospital\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Sundsvall Hospital\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Växjö Hospital\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Eskilstuna Hospital\",\n      \"startDate\": \"1940\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"DistrictHealthcare\",\n      \"name\": \"Hohultslätt District\",\n      \"startDate\": \"1946\",\n      \"endDate\": \"1947\"\n    },\n    {\n      \"@type\": \"DistrictHealthcare\",\n      \"name\": \"Årjäng\",\n      \"startDate\": \"1947\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Fritz Einar Vitalis Örnefors",
+        "jobTitle": "Provincial Doctor",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Hohultslätt",
+            "addressLocality": "Årjäng"
+        },
+        "birthDate": "1905-03-16",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Viitsand",
+                "addressRegion": "Värmland"
+            }
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Bachelor's degree",
+                "educationalLevel": "Undergraduate",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Karlstad University",
+                    "foundingDate": "1926"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Licentiate degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "foundingDate": "1477"
+                },
+                "endDate": "1935"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Hospital",
+                "name": "Sachsska Children's Hospital",
+                "startDate": "1935",
+                "endDate": "1935"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Marieberg Hospital",
+                "startDate": "1936",
+                "endDate": "1936"
+            },
+            {
+                "@type": "GeneralHospital",
+                "name": "Karlstad General Hospital",
+                "department": {
+                    "@type": "MedicalOrganization",
+                    "name": "Medical Department"
+                },
+                "startDate": "1936",
+                "endDate": "1937"
+            },
+            {
+                "@type": "Sanatorium",
+                "name": "Moheds Sanatorium",
+                "startDate": "1938",
+                "endDate": "1938"
+            },
+            {
+                "@type": "Hospital",
+                "name": "S:ta Gertrud's Hospital",
+                "startDate": "1940",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Sundsvall Hospital",
+                "startDate": "1940",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Växjö Hospital",
+                "startDate": "1940",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Hospital",
+                "name": "Eskilstuna Hospital",
+                "startDate": "1940",
+                "endDate": "1946"
+            },
+            {
+                "@type": "DistrictHealthcare",
+                "name": "Hohultslätt District",
+                "startDate": "1946",
+                "endDate": "1947"
+            },
+            {
+                "@type": "DistrictHealthcare",
+                "name": "Årjäng",
+                "startDate": "1947"
+            }
+        ]
+    }
+}

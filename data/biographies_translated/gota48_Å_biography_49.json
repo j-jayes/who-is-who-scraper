@@ -1,0 +1,48 @@
+{
+    "original": "Åren, Sven Magnus, tandläkare, Göteborg, f. 9/6/15 i Askersund av med. lic. Ture Å. O: Herta Enemark. — Stud:ex. 34, tandl :kand. 39’, tandläk:-ex. 45. Distr :tandläk. i Lerum 44-46, skoltandläk. i Gbg fr. 46.",
+    "translated": "Years, Sven Magnus, dentist, Gothenburg, b. 9/6/15 in Askersund to medical licentiate Ture Å. His spouse: Herta Enemark. — High school graduate in 1934, dental student in 1939, dental exam in 1945. District dentist in Lerum from 1944-1946, school dentist in Gothenburg from 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Magnus Åren\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1915-09-06\",\n  \"birthPlace\": \"Askersund\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Herta Enemark\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental Student\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental Examination\",\n      \"endDate\": \"1945\"\n    }\n  ],\n  \"workLocation\": \"Gothenburg\",\n  \"workExperience\": [\n    {\n      \"@type\": \"Dentist\",\n      \"name\": \"District Dentist in Lerum\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Dentist\",\n      \"name\": \"School Dentist in Gothenburg\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sven Magnus Åren",
+        "jobTitle": "Dentist",
+        "birthDate": "1915-09-06",
+        "birthPlace": "Askersund",
+        "spouse": {
+            "@type": "Person",
+            "name": "Herta Enemark"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "endDate": "1934"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental Student",
+                "endDate": "1939"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental Examination",
+                "endDate": "1945"
+            }
+        ],
+        "workLocation": "Gothenburg",
+        "workExperience": [
+            {
+                "@type": "Dentist",
+                "name": "District Dentist in Lerum",
+                "startDate": "1944",
+                "endDate": "1946"
+            },
+            {
+                "@type": "Dentist",
+                "name": "School Dentist in Gothenburg",
+                "startDate": "1946"
+            }
+        ]
+    }
+}
