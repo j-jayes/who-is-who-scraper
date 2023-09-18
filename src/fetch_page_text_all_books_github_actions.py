@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import json
 
 resume_book_id = "norr68"
-resume_page = 20
+resume_page = 1019
 
 def extract_bio_data(page_source):
     start_tag = "<!-- mode=normal -->"
@@ -21,7 +21,7 @@ def extract_bio_data(page_source):
 
     return bio_data
 
-def fetch_book_text(book_id, num_pages, start_page=1, end_page=1000):
+def fetch_book_text(book_id, num_pages, start_page=1, end_page=1341):
     for i in range(start_page, min(num_pages + 1, end_page + 1)):
         url = f"http://runeberg.org/vemarvem/{book_id}/{str(i).zfill(4)}.html"
         response = requests.get(url)
