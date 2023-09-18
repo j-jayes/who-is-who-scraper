@@ -6,6 +6,22 @@ import os
 import yaml
 
 def join_text_files(start_page, end_page, letter, output_directory):
+    """
+    Concatenates the text from multiple files into a single output file.
+
+    Args:
+        start_page (int): The starting page number of the files to be concatenated.
+        end_page (int): The ending page number of the files to be concatenated.
+        letter (str): The letter of the names to be concatenated (e.g. "A", "B", "C", etc.).
+        output_directory (str): The directory where the output file will be saved.
+
+    Returns:
+        None
+
+    Raises:
+        None
+
+    """
     joined_text = ''
 
     for page_number in range(start_page, end_page):

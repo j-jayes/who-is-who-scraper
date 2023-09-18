@@ -104,7 +104,7 @@ def main():
                 with open(output_file_path, "w", encoding="utf-8") as output_file:
                     json.dump(data, output_file, ensure_ascii=False, indent=4)
 
-                print(f"Processed file: {file_name}")
+                print(f"Processed file: {file_name}", flush=True)
             else:
                 print(f"Error processing file {file_name}: translation or structuring failed. Check the API response for more information.")
 

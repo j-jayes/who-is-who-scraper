@@ -1,6 +1,20 @@
 import os
 
 def remove_page_number(file_path, page_number):
+    """
+    Removes the specified page number from the end of a text file.
+
+    Args:
+        file_path (str): The path to the text file.
+        page_number (int): The page number to be removed.
+
+    Returns:
+        None
+
+    Raises:
+        None
+
+    """
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 

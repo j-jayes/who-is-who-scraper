@@ -1,9 +1,6 @@
 name: Web Scraper
 
 on:
-  push:
-    branches:
-      - main # Or whatever branch you want this to run on
   pull_request:
     branches:
       - main
