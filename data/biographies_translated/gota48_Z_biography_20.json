@@ -1,58 +1,28 @@
 {
     "original": "Zetterström, Tor Helge, arkitekt, Göteborg, f. 17/7/84 i Gbg av C. J. Z. o Maria Andersson. G. m. Ingrid Pettersson. Barn: Rolf Ragnar f. 30. — CTI, Polytechn. Strehtz, Tyskl, 04. Egen verks. s. arkit. o. byggm. i Gbg sed. 12. Medl. av SAR, Tekn. samf. i Gbg o. Byggn:tekn. fören.",
-    "translated": "Zetterström, Tor Helge, architect, Gothenburg, b. 17/7/84 in Gothenburg, son of C. J. Z. and Maria Andersson. Married to Ingrid Pettersson in the year 19xx. Children: Rolf Ragnar b. 30. — CTI, Polytechn. Strehtz, Germany, 04. Working as an architect and contractor in Gothenburg since 12. Member of SAR, Technical Society in Gothenburg, and Building Technology Association.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tor Helge Zetterström\",\n  \"birthDate\": \"1884-07-17\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. J. Zetterström\",\n      \"identifier\": \"father\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Andersson\",\n      \"identifier\": \"mother\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Pettersson\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rolf Ragnar Zetterström\",\n    \"birthDate\": \"19xx-xx-30\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"CTI\",\n    \"educationalLevel\": {\n      \"@type\": \"DefinedTerm\",\n      \"name\": \"Polytechnic\"\n    },\n    \"educationalRole\": \"Strehtz, Germany\",\n    \"startDate\": \"1904\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Architect\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Contractor\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SAR\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Society in Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Technology Association\"\n    }\n  ]\n}",
+    "translated": "Zetterström, Tor Helge, architect, Gothenburg, born on July 17, 1884 in Gothenburg to C.J. Z. and Maria Andersson. Married to Ingrid Pettersson in the year 19xx. Children: Rolf Ragnar, born on the 30th. -CTI, Polytechn. Strehtz, Germany, 1904. Own practice as architect and builder in Gothenburg since 1912. Member of SAR (Swedish Association of Architects), Technical Society in Gothenburg, and Building Technology Association.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tor Helge Zetterström\",\n  \"birthDate\": \"1884-07-17\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingrid Pettersson\"\n  },\n  \"children\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rolf Ragnar\",\n    \"birthDate\": \"19xx-xx-30\"\n  },\n  \"jobTitle\": \"Architect\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"SAR (Swedish Association of Architects)\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Technical Society in Gothenburg\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Technology Association\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Own practice as architect and builder in Gothenburg\",\n    \"startDate\": \"1912\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"CTI, Polytechn. Strehtz\",\n    \"location\": \"Germany\",\n    \"startDate\": \"1904\"\n  }\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Tor Helge Zetterström",
         "birthDate": "1884-07-17",
         "birthPlace": "Gothenburg",
-        "parent": [
-            {
-                "@type": "Person",
-                "name": "C. J. Zetterström",
-                "identifier": "father"
-            },
-            {
-                "@type": "Person",
-                "name": "Maria Andersson",
-                "identifier": "mother"
-            }
-        ],
+        "nationality": "Swedish",
         "spouse": {
             "@type": "Person",
             "name": "Ingrid Pettersson"
         },
         "children": {
             "@type": "Person",
-            "name": "Rolf Ragnar Zetterström",
+            "name": "Rolf Ragnar",
             "birthDate": "19xx-xx-30"
         },
-        "education": {
-            "@type": "EducationalOccupationalCredential",
-            "credentialCategory": "CTI",
-            "educationalLevel": {
-                "@type": "DefinedTerm",
-                "name": "Polytechnic"
-            },
-            "educationalRole": "Strehtz, Germany",
-            "startDate": "1904"
-        },
-        "occupation": [
-            {
-                "@type": "Occupation",
-                "name": "Architect"
-            },
-            {
-                "@type": "Occupation",
-                "name": "Contractor"
-            }
-        ],
+        "jobTitle": "Architect",
         "memberOf": [
             {
                 "@type": "Organization",
-                "name": "SAR"
+                "name": "SAR (Swedish Association of Architects)"
             },
             {
                 "@type": "Organization",
@@ -62,6 +32,17 @@
                 "@type": "Organization",
                 "name": "Building Technology Association"
             }
-        ]
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Own practice as architect and builder in Gothenburg",
+            "startDate": "1912"
+        },
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "CTI, Polytechn. Strehtz",
+            "location": "Germany",
+            "startDate": "1904"
+        }
     }
 }

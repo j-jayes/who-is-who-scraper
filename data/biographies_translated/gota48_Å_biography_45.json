@@ -1,14 +1,13 @@
 {
     "original": "Åkesson, Åke, stadsassessor, Göteborg, f. 9/2/13 i Malmö av dir. Aug. Å. o. Ester Olsson. G. 40 m. Anne-Marie Ericsson. Barn : Anders f. 42, Ingvar 46. — Studrex. i Gbg 31, avg:-ex. fr. Gbgs hand:inst. 32, jur. kand. i Upps. 38. Tingstjg. i Sunnervikens doms. 39-42, e. not. v. drätselkamm. i Gbg 43, not. där 44, stadsassess. fr. 46.",
-    "translated": "Åkesson, Åke, city assessor, Gothenburg, b. 9/2/13 in Malmö to director August Å. and Ester Olsson. Married in 1940 to Anne-Marie Ericsson. Children: Anders b. 1942, Ingvar b. 1946. Studied at Göteborg University in 1931, graduated from Göteborg School of Business in 1932, received a law degree from Uppsala University in 1938. Worked as a court clerk in Sunnerviken district court from 1939-1942, appointed assistant clerk in Gothenburg's administrative board in 1943, became a clerk in 1944, and city assessor from 1946.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Åkesson\",\n  \"jobTitle\": \"City Assessor\",\n  \"birthPlace\": \"Malmö\",\n  \"birthDate\": \"1913-02-09\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August Åkesson\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Olsson\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie Ericsson\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Åkesson\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar Åkesson\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"educationalCredentialAwarded\": [\n    {\n      \"@type\": \"ScholarlyArticle\",\n      \"name\": \"Studrex\",\n      \"datePublished\": \"1931\",\n      \"publisher\": \"Göteborg University\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Göteborg School of Business\",\n      \"datePublished\": \"1932\",\n      \"awardedBy\": \"Göteborg University\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Law Degree\",\n      \"datePublished\": \"1938\",\n      \"awardedBy\": \"Uppsala University\"\n    }\n  ],\n  \"jobTitleHistory\": [\n    {\n      \"@type\": \"CourtClerk\",\n      \"name\": \"Sunnerviken District Court\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"AssistantClerk\",\n      \"name\": \"Gothenburg's Administrative Board\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1944\"\n    },\n    {\n      \"@type\": \"Clerk\",\n      \"name\": \"Gothenburg's Administrative Board\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"CityAssessor\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "translated": "Åkesson, Åke, city assessor, Gothenburg, b. 9/2/13 in Malmö, son of director August Å. and Ester Olsson. Married for 40 years to Anne-Marie Ericsson. Children: Anders b. 42, Ingvar b. 46. Completed studies in Gothenburg in 1931, graduated from Gothenburg's School of Commerce in 1932, received a law degree from Uppsala University in 1938. Served as a court clerk in Sunnerviken District Court from 1939 to 1942, then became a deputy secretary of the financial board in Gothenburg in 1943. Appointed as a clerk in Gothenburg in 1944 and became a city assessor from 1946.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åke Åkesson\",\n  \"birthDate\": \"1913-02-09\",\n  \"birthPlace\": \"Malmö\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"August Åkesson\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ester Olsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anne-Marie Ericsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingvar\",\n      \"birthDate\": \"1946\"\n    }\n  ],\n  \"jobTitle\": \"City Assessor\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Gothenburg\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg School of Commerce\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"location\": \"Uppsala\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg School of Commerce\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Uppsala University\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sunnerviken District Court\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg's Financial Board\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg\",\n      \"startDate\": \"1944\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Åke Åkesson",
-        "jobTitle": "City Assessor",
-        "birthPlace": "Malmö",
         "birthDate": "1913-02-09",
+        "birthPlace": "Malmö",
         "parent": [
             {
                 "@type": "Person",
@@ -20,67 +19,68 @@
                 "name": "Ester Olsson"
             }
         ],
-        "spouse": [
-            {
-                "@type": "Person",
-                "name": "Anne-Marie Ericsson"
-            }
-        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Anne-Marie Ericsson"
+        },
         "children": [
             {
                 "@type": "Person",
-                "name": "Anders Åkesson",
+                "name": "Anders",
                 "birthDate": "1942"
             },
             {
                 "@type": "Person",
-                "name": "Ingvar Åkesson",
+                "name": "Ingvar",
                 "birthDate": "1946"
             }
         ],
-        "educationalCredentialAwarded": [
+        "jobTitle": "City Assessor",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Gothenburg"
+        },
+        "education": [
             {
-                "@type": "ScholarlyArticle",
-                "name": "Studrex",
-                "datePublished": "1931",
-                "publisher": "Göteborg University"
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg School of Commerce"
             },
             {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Göteborg School of Business",
-                "datePublished": "1932",
-                "awardedBy": "Göteborg University"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Law Degree",
-                "datePublished": "1938",
-                "awardedBy": "Uppsala University"
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "location": "Uppsala"
             }
         ],
-        "jobTitleHistory": [
+        "alumniOf": [
             {
-                "@type": "CourtClerk",
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg School of Commerce",
+                "startDate": "1931",
+                "endDate": "1932"
+            },
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Uppsala University",
+                "startDate": "1938",
+                "endDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
                 "name": "Sunnerviken District Court",
                 "startDate": "1939",
                 "endDate": "1942"
             },
             {
-                "@type": "AssistantClerk",
-                "name": "Gothenburg's Administrative Board",
-                "startDate": "1943",
-                "endDate": "1944"
+                "@type": "Organization",
+                "name": "Gothenburg's Financial Board",
+                "startDate": "1943"
             },
             {
-                "@type": "Clerk",
-                "name": "Gothenburg's Administrative Board",
-                "startDate": "1944",
-                "endDate": "1946"
-            },
-            {
-                "@type": "CityAssessor",
+                "@type": "Organization",
                 "name": "Gothenburg",
-                "startDate": "1946"
+                "startDate": "1944"
             }
         ]
     }

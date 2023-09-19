@@ -1,119 +1,114 @@
 {
     "original": "Zeilon, Per Erik, läroverksadjunkt, Göteborg, f. 21/3/85 i Arboga av rekto^ Jakob Persson o. Emmy Zeilon. G. 32 m. Brita Hejdeman. — Mog:ex. v, norra latin i Sthlm 04, fil. kand. i Upps. 08, provår v. Gbgs h. real 12. Vik. adj. i Skara 09-11, vik. lektor v. Gbgs h. real vt. 13, e. lär. där 13-19, adj. i Östersund 18-36, vik. lektor där ht 33-vt 36, adj. i eng. o. franska v. Vasa h. a. 1. i Gbg sed. 36. Res. t. Tyskl., Ital., Schweiz o. Frankr. Övers. Infernosångerna I-XIX ur Dantes La Divina Commedia (23-32).",
-    "translated": "Zeilon, Per Erik, assistant teacher, Gothenburg, b. 21/3/85 in Arboga, son of principal Jakob Persson and Emmy Zeilon. Married in 1932 to Brita Hejdeman. — Completed secondary school, Norra latin in Stockholm, in 1904. Obtained a Bachelor of Arts degree in Uppsala in 1908. Completed internship at Gothenburg's higher secondary school of sciences in 1912. Substitute teacher in Skara from 1909 to 1911, substitute lecturer at Gothenburg's higher secondary school of sciences in the spring of 1913. Primary teacher there from 1913 to 1919, assistant teacher in Östersund from 1918 to 1936. Substitute lecturer there from autumn 1933 to spring 1936, teacher of English and French at Vasa higher elementary school in Gothenburg since 1936. Traveled to Germany, Italy, Switzerland, and France. Translated Inferno songs I-XIX from Dante's La Divina Commedia (1923-1932).",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Erik Zeilon\",\n  \"birthDate\": \"1885-03-21\",\n  \"birthPlace\": \"Arboga, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jakob Persson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emmy Zeilon\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita Hejdeman\",\n      \"marriageDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchool\",\n      \"credentialSubject\": \"Norra latin, Stockholm\",\n      \"credentialAwarded\": \"1904\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"BachelorDegree\",\n      \"credentialSubject\": \"Uppsala University\",\n      \"credentialAwarded\": \"1908\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Internship\",\n      \"credentialSubject\": \"Gothenburg's higher secondary school of sciences\",\n      \"credentialAwarded\": \"1912\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1911\",\n      \"jobTitle\": \"Substitute Teacher\",\n      \"location\": \"Skara, Sweden\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1919\",\n      \"jobTitle\": \"Primary Teacher\",\n      \"location\": \"Gothenburg's higher secondary school of sciences\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1936\",\n      \"jobTitle\": \"Assistant Teacher\",\n      \"location\": \"Östersund, Sweden\"\n    },\n    {\n      \"@type\": \"CareerEvent\",\n      \"startDate\": \"1936\",\n      \"jobTitle\": \"Teacher of English and French\",\n      \"location\": \"Vasa higher elementary school, Gothenburg\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg's higher secondary school of sciences\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Vasa higher elementary school, Gothenburg\",\n      \"startDate\": \"1936\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.example.com/per-erik-zeilon\"\n  ],\n  \"works\": [\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Inferno songs I-XIX\",\n      \"translationOfWork\": {\n        \"name\": \"La Divina Commedia\",\n        \"author\": \"Dante\",\n        \"originalLanguage\": \"Italian\"\n      },\n      \"translationDate\": \"1923-1932\"\n    }\n  ],\n  \"nationality\": \"Swedish\",\n  \"domicile\": \"Gothenburg, Sweden\",\n  \"knowsLanguage\": [\n    \"Swedish\",\n    \"English\",\n    \"French\"\n  ],\n  \"travel\": [\n    \"Germany\",\n    \"Italy\",\n    \"Switzerland\",\n    \"France\"\n  ]\n}",
+    "translated": "Zeilon, Per Erik, high school teacher, Gothenburg, b. 21/3/85 in Arboga, son of principal Jakob Persson and Emmy Zeilon. Married in 1932 to Brita Hejdeman. - Graduated from North Latin School in Stockholm in 1904, Bachelor of Arts from Uppsala University in 1908, probationary year at Gothenburg's Royal High School in 1912. Temporary teacher in Skara from 1909 to 1911, temporary lecturer at Gothenburg's Royal High School in spring 1913, regular teacher there from 1913 to 1919, high school teacher in Östersund from 1918 to 1936, temporary lecturer there from autumn 1933 to spring 1936, English and French teacher at Vasa High School in Gothenburg since 1936. Traveled to Germany, Italy, Switzerland, and France. Translated Inferno Songs I-XIX from Dante's La Divina Commedia (1923-1932).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Per Erik Zeilon\",\n  \"birthDate\": \"1885-03-21\",\n  \"birthPlace\": \"Arboga\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jakob Persson\",\n      \"jobTitle\": \"Principal\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Emmy Zeilon\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Brita Hejdeman\",\n    \"marriageDate\": \"1932\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"mogex\",\n      \"educationalLevel\": \"norra latin i Sthlm\",\n      \"awardDate\": \"1904\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"fil. kand. i Upps.\",\n      \"educationalLevel\": \"Uppsala University\",\n      \"awardDate\": \"1908\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"provår v. Gbgs h. real\",\n      \"educationalLevel\": \"Gothenburg's Royal High School\",\n      \"awardDate\": \"1912\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Temporary Teacher\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1911\",\n      \"location\": \"Skara\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Temporary Lecturer\",\n      \"startDate\": \"1913-01\",\n      \"endDate\": \"1913-06\",\n      \"location\": \"Gothenburg's Royal High School\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Regular Teacher\",\n      \"startDate\": \"1913\",\n      \"endDate\": \"1919\",\n      \"location\": \"Gothenburg's Royal High School\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"High School Teacher\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1936\",\n      \"location\": \"Östersund\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"Temporary Lecturer\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1936\",\n      \"location\": \"Östersund\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"jobTitle\": \"High School Teacher\",\n      \"startDate\": \"1936\",\n      \"location\": \"Vasa High School, Gothenburg\"\n    }\n  ],\n  \"workLocation\": [\n    \"Germany\",\n    \"Italy\",\n    \"Switzerland\",\n    \"France\"\n  ],\n  \"translations\": [\n    {\n      \"@type\": \"Book\",\n      \"name\": \"Inferno Songs I-XIX\",\n      \"datePublished\": \"1923-1932\",\n      \"translator\": \"Per Erik Zeilon\",\n      \"originalLanguage\": \"Italian\",\n      \"originalWork\": {\n        \"@type\": \"Book\",\n        \"name\": \"La Divina Commedia\",\n        \"author\": {\n          \"@type\": \"Person\",\n          \"name\": \"Dante\"\n        }\n      }\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Per Erik Zeilon",
         "birthDate": "1885-03-21",
-        "birthPlace": "Arboga, Sweden",
-        "parents": [
+        "birthPlace": "Arboga",
+        "parent": [
             {
                 "@type": "Person",
-                "name": "Jakob Persson"
+                "name": "Jakob Persson",
+                "jobTitle": "Principal"
             },
             {
                 "@type": "Person",
                 "name": "Emmy Zeilon"
             }
         ],
-        "spouse": [
-            {
-                "@type": "Person",
-                "name": "Brita Hejdeman",
-                "marriageDate": "1932"
-            }
-        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Brita Hejdeman",
+            "marriageDate": "1932"
+        },
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "SecondarySchool",
-                "credentialSubject": "Norra latin, Stockholm",
-                "credentialAwarded": "1904"
+                "credentialCategory": "mogex",
+                "educationalLevel": "norra latin i Sthlm",
+                "awardDate": "1904"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "BachelorDegree",
-                "credentialSubject": "Uppsala University",
-                "credentialAwarded": "1908"
+                "credentialCategory": "fil. kand. i Upps.",
+                "educationalLevel": "Uppsala University",
+                "awardDate": "1908"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Internship",
-                "credentialSubject": "Gothenburg's higher secondary school of sciences",
-                "credentialAwarded": "1912"
+                "credentialCategory": "provår v. Gbgs h. real",
+                "educationalLevel": "Gothenburg's Royal High School",
+                "awardDate": "1912"
             }
         ],
-        "occupation": [
+        "employmentHistory": [
             {
-                "@type": "CareerEvent",
+                "@type": "JobPosting",
+                "jobTitle": "Temporary Teacher",
                 "startDate": "1909",
                 "endDate": "1911",
-                "jobTitle": "Substitute Teacher",
-                "location": "Skara, Sweden"
+                "location": "Skara"
             },
             {
-                "@type": "CareerEvent",
+                "@type": "JobPosting",
+                "jobTitle": "Temporary Lecturer",
+                "startDate": "1913-01",
+                "endDate": "1913-06",
+                "location": "Gothenburg's Royal High School"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "Regular Teacher",
                 "startDate": "1913",
                 "endDate": "1919",
-                "jobTitle": "Primary Teacher",
-                "location": "Gothenburg's higher secondary school of sciences"
+                "location": "Gothenburg's Royal High School"
             },
             {
-                "@type": "CareerEvent",
+                "@type": "JobPosting",
+                "jobTitle": "High School Teacher",
                 "startDate": "1918",
                 "endDate": "1936",
-                "jobTitle": "Assistant Teacher",
-                "location": "Östersund, Sweden"
+                "location": "Östersund"
             },
             {
-                "@type": "CareerEvent",
+                "@type": "JobPosting",
+                "jobTitle": "Temporary Lecturer",
+                "startDate": "1933",
+                "endDate": "1936",
+                "location": "Östersund"
+            },
+            {
+                "@type": "JobPosting",
+                "jobTitle": "High School Teacher",
                 "startDate": "1936",
-                "jobTitle": "Teacher of English and French",
-                "location": "Vasa higher elementary school, Gothenburg"
+                "location": "Vasa High School, Gothenburg"
             }
         ],
-        "memberOf": [
-            {
-                "@type": "Organization",
-                "name": "Gothenburg's higher secondary school of sciences",
-                "startDate": "1913",
-                "endDate": "1919"
-            },
-            {
-                "@type": "Organization",
-                "name": "Vasa higher elementary school, Gothenburg",
-                "startDate": "1936"
-            }
-        ],
-        "sameAs": [
-            "https://www.example.com/per-erik-zeilon"
-        ],
-        "works": [
-            {
-                "@type": "CreativeWork",
-                "name": "Inferno songs I-XIX",
-                "translationOfWork": {
-                    "name": "La Divina Commedia",
-                    "author": "Dante",
-                    "originalLanguage": "Italian"
-                },
-                "translationDate": "1923-1932"
-            }
-        ],
-        "nationality": "Swedish",
-        "domicile": "Gothenburg, Sweden",
-        "knowsLanguage": [
-            "Swedish",
-            "English",
-            "French"
-        ],
-        "travel": [
+        "workLocation": [
             "Germany",
             "Italy",
             "Switzerland",
             "France"
+        ],
+        "translations": [
+            {
+                "@type": "Book",
+                "name": "Inferno Songs I-XIX",
+                "datePublished": "1923-1932",
+                "translator": "Per Erik Zeilon",
+                "originalLanguage": "Italian",
+                "originalWork": {
+                    "@type": "Book",
+                    "name": "La Divina Commedia",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Dante"
+                    }
+                }
+            }
         ]
     }
 }

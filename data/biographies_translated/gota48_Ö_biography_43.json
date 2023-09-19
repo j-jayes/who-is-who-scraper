@@ -1,0 +1,95 @@
+{
+    "original": "Österberg, Johan Albert Fredrik, försäljningschef, Hyltebruk, f. 25/9/94 i Sthlm av J. Alfr. Ö. o. Anna Frank. G. 18 m. Titti Wahlberg, d. 46. Barn: Maud f. 19, g. m. avd:chef Sven Hill, Sthlm, Karin 25. — Stud. v. Krafftska sk. i Sthlm. Aff :res. spec. t. Engl. fr. 24. Korresp. h. A-B Axel Chris-tiernssons papp :avd. i Sthlm 11-24, försiäljn :chef v. Hyltebruk fr. 24. Ordf. i Hylteibr. tenniskl, Hall. idr:förb. tennissekt. Hobby: Tennis. Sv. Ten-nisförb. ftjm. Hall, idr:förb. ftjM, Hyltebr. tenniskl. guldplak.",
+    "translated": "Österberg, Johan Albert Fredrik, sales manager, Hyltebruk, b. 25/9/94 in Stockholm to J. Alfr. Ö. and Anna Frank. Married 18 years with Titti Wahlberg, d. 46. Children: Maud b. 19, married to department manager Sven Hill, Stockholm, Karin 25. Studied at Krafftska school in Stockholm. Worked as a specialty representative for England from 1924. Corresponded with A-B Axel Christiernssons paper department in Stockholm from 1911-1924, became sales manager in Hyltebruk from 1924. Chairman of Hyltebruk tennis club, Halland sports association tennis sector. Hobby: tennis. Member of the Swedish Tennis Association, Halland Sports Association, Hyltebruk tennis club. Has been awarded a gold plaque.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Albert Fredrik Österberg\",\n  \"givenName\": \"Johan\",\n  \"additionalName\": \"Albert\",\n  \"familyName\": \"Österberg\",\n  \"birthDate\": \"1894-09-25\",\n  \"birthPlace\": \"Stockholm\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J. Alfr. Österberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Frank\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Titti Wahlberg\",\n    \"deathDate\": \"1946\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maud\",\n      \"birthDate\": \"1919\",\n      \"spouse\": {\n        \"@type\": \"Person\",\n        \"name\": \"Sven Hill\",\n        \"jobTitle\": \"Department Manager\",\n        \"worksFor\": \"Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1925\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Krafftska skolan\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Stockholm\"\n    }\n  },\n  \"jobTitle\": \"Sales Manager\",\n  \"worksFor\": \"Hyltebruk\",\n  \"affiliation\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Axel Christiernssons\",\n    \"department\": \"Paper Department\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Stockholm\"\n    }\n  },\n  \"startOfWork\": \"1924\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hyltebruk Tennis Club\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Halland Sports Association\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Swedish Tennis Association\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Hyltebruk Tennis Club\"\n        }\n      ]\n    }\n  ],\n  \"hobby\": \"Tennis\",\n  \"awards\": [\n    {\n      \"@type\": \"Achievement\",\n      \"name\": \"Gold Plaque\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Johan Albert Fredrik Österberg",
+        "givenName": "Johan",
+        "additionalName": "Albert",
+        "familyName": "Österberg",
+        "birthDate": "1894-09-25",
+        "birthPlace": "Stockholm",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "J. Alfr. Österberg"
+            },
+            {
+                "@type": "Person",
+                "name": "Anna Frank"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Titti Wahlberg",
+            "deathDate": "1946"
+        },
+        "child": [
+            {
+                "@type": "Person",
+                "name": "Maud",
+                "birthDate": "1919",
+                "spouse": {
+                    "@type": "Person",
+                    "name": "Sven Hill",
+                    "jobTitle": "Department Manager",
+                    "worksFor": "Stockholm"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Karin",
+                "birthDate": "1925"
+            }
+        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Krafftska skolan",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Stockholm"
+            }
+        },
+        "jobTitle": "Sales Manager",
+        "worksFor": "Hyltebruk",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "A-B Axel Christiernssons",
+            "department": "Paper Department",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Stockholm"
+            }
+        },
+        "startOfWork": "1924",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Hyltebruk Tennis Club"
+            },
+            {
+                "@type": "Organization",
+                "name": "Halland Sports Association",
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Swedish Tennis Association"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Hyltebruk Tennis Club"
+                    }
+                ]
+            }
+        ],
+        "hobby": "Tennis",
+        "awards": [
+            {
+                "@type": "Achievement",
+                "name": "Gold Plaque"
+            }
+        ]
+    }
+}

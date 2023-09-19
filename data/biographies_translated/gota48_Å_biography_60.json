@@ -1,68 +1,71 @@
 {
     "original": "Åstradsson, Johan Otto, bataljonsveterinär, distriktsveterinär, Rockneby, f. 23/5/99 i Rödinge, Malmöh. 1. G. 27 m. Lisa Hallström. Barn: Lans Ove f. 28, Anna-Lisa 29, Nils Bertil 32. — Stud:ex. i Ystad 17, vet:ex. 24. Bat:-vet. i FVK res. 27, distr :vet. i Rockneby distr. 34. FFrK4kl m^ isv.",
-    "translated": "Åstradsson, Johan Otto, battalion veterinarian, district veterinarian, Rockneby, b. 23/5/99 in Rödinge, Malmöh. 1st marriage 27, with Lisa Hallström. Children: Lans Ove b. 28, Anna-Lisa b. 29, Nils Bertil b. 32. — Secondary school: Ystad 17, veterinary school: 24. Battalion veterinarian in FVK reserve: 27, district veterinarian in Rockneby district: 34. Awarded the 4th Class Medal of the Royal Swedish Society of Military Sciences (FFrK4kl m^ isv.).",
-    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Otto Åstradsson\",\n  \"birthDate\": \"1899-05-23\",\n  \"birthPlace\": \"Rödinge, Malmöh\",\n  \"jobTitle\": [\n    \"Battalion Veterinarian\",\n    \"District Veterinarian\"\n  ],\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Rockneby\"\n  },\n  \"marriage\": [\n    {\n      \"spouse\": \"Lisa Hallström\",\n      \"startDate\": \"1927\"\n    }\n  ],\n  \"children\": [\n    {\n      \"name\": \"Lans Ove\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"name\": \"Anna-Lisa\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"name\": \"Nils Bertil\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Ystad\",\n      \"degree\": \"Secondary school\",\n      \"completionDate\": \"1917\"\n    },\n    {\n      \"institution\": \"Veterinary School\",\n      \"degree\": \"Veterinary degree\",\n      \"completionDate\": \"1924\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"title\": \"Battalion Veterinarian\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"Reserve\"\n    },\n    {\n      \"title\": \"District Veterinarian\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"Rockneby district\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"name\": \"4th Class Medal of the Royal Swedish Society of Military Sciences\"\n    }\n  ]\n}",
+    "translated": "Åstradsson, Johan Otto, battalion veterinarian, district veterinarian, Rockneby, b. 23/5/99 in Rödinge, Malmöh. 1st marriage 27 with Lisa Hallström. Children: Lans Ove b. 28, Anna-Lisa b. 29, Nils Bertil b. 32. — High school graduate in Ystad 17, veterinary graduate 24. Battalion veterinarian in FVK reserve 27, district veterinarian in Rockneby district 34. Awarded the Order of the Polar Star, 4th class with a sword.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johan Otto Åstradsson\",\n  \"birthDate\": \"1899-05-23\",\n  \"birthPlace\": \"Rödinge, Malmöh\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Rockneby\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lisa Hallström\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lans Ove\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna-Lisa\",\n      \"birthDate\": \"1929\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Bertil\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school\",\n      \"educationalLevel\": \"high school graduate\",\n      \"educationalProgram\": \"Ystad\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"veterinary\",\n      \"educationalLevel\": \"veterinary graduate\",\n      \"educationalProgram\": \"vet:ex.\",\n      \"endDate\": \"1924\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"battalion veterinarian\",\n      \"startDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"district veterinarian\",\n      \"startDate\": \"1934\"\n    }\n  ],\n  \"award\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of the Polar Star\",\n      \"description\": \"4th class with a sword\"\n    }\n  ]\n}",
     "structured": {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Person",
         "name": "Johan Otto Åstradsson",
         "birthDate": "1899-05-23",
         "birthPlace": "Rödinge, Malmöh",
-        "jobTitle": [
-            "Battalion Veterinarian",
-            "District Veterinarian"
-        ],
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Rockneby"
         },
-        "marriage": [
-            {
-                "spouse": "Lisa Hallström",
-                "startDate": "1927"
-            }
-        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Lisa Hallström"
+        },
         "children": [
             {
+                "@type": "Person",
                 "name": "Lans Ove",
                 "birthDate": "1928"
             },
             {
+                "@type": "Person",
                 "name": "Anna-Lisa",
                 "birthDate": "1929"
             },
             {
+                "@type": "Person",
                 "name": "Nils Bertil",
                 "birthDate": "1932"
             }
         ],
         "education": [
             {
-                "institution": "Ystad",
-                "degree": "Secondary school",
-                "completionDate": "1917"
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school",
+                "educationalLevel": "high school graduate",
+                "educationalProgram": "Ystad",
+                "endDate": "1917"
             },
             {
-                "institution": "Veterinary School",
-                "degree": "Veterinary degree",
-                "completionDate": "1924"
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "veterinary",
+                "educationalLevel": "veterinary graduate",
+                "educationalProgram": "vet:ex.",
+                "endDate": "1924"
             }
         ],
         "occupation": [
             {
-                "title": "Battalion Veterinarian",
-                "startDate": "1927",
-                "endDate": "Reserve"
+                "@type": "Occupation",
+                "name": "battalion veterinarian",
+                "startDate": "1927"
             },
             {
-                "title": "District Veterinarian",
-                "startDate": "1934",
-                "endDate": "Rockneby district"
+                "@type": "Occupation",
+                "name": "district veterinarian",
+                "startDate": "1934"
             }
         ],
-        "awards": [
+        "award": [
             {
-                "name": "4th Class Medal of the Royal Swedish Society of Military Sciences"
+                "@type": "Order",
+                "name": "Order of the Polar Star",
+                "description": "4th class with a sword"
             }
         ]
     }

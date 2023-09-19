@@ -1,30 +1,23 @@
 {
     "original": "Östberg, Karl Jacob Henrik, komminister, SolVesta, f. ’21/3/81 i Hjorted, Kalm. 1., av Jacob Ö. o. Axeline Åker- halm. G. 10 m. Elsa Widell Barn: Ingemar f. 11. — Mog:ex. i Linköp. 98, fil. kand. 03’, teol. kand. 06, prakt, teol. prov samt prästv. f. Linköp. stift 07. Tjg. s. past:adj. i Västra Eneby samt tf. kommin. o. v. pastor i Gammalkil, kommin. i Hannäs sed. 20. Ordf. i kyrkostämma o. skolstyr.",
-    "translated": "Östberg, Karl Jacob Henrik, curate, SolVesta, b. 21/3/81 in Hjorted, Kalm. 1st-born, son of Jacob Ö. and Axeline Åkerhalm. Married on 10th to Elsa Widell. Children: Ingemar b. 11. Completed Master's degree in Linköping in 98, Bachelor of Arts in 03', Bachelor of Theology in 06, practical theological examination as well as ordained in 07 from Linköping diocese. Served as assistant pastor in Västra Eneby and acting curate/vicar in Gammalkil, curate in Hannäs since 20. Chairman of the church council and school board.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Jacob Henrik Östberg\",\n  \"birthDate\": \"1881-03-21\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Hjorted\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Kalm\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jacob Östberg\",\n      \"jobTitle\": \"unknown\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axeline Åkerhalm\",\n      \"jobTitle\": \"unknown\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Widell\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingemar Östberg\",\n      \"birthDate\": \"1911-XX-XX\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Master's\",\n      \"credentialSubject\": \"Linköping\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 1998\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's\",\n      \"credentialSubject\": \"Linköping\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 2003\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's\",\n      \"credentialSubject\": \"Theology\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 2006\n      }\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Practical Theological Examination\",\n      \"credentialSubject\": \"unknown\",\n      \"credentialEarned\": {\n        \"@type\": \"QuantitativeValue\",\n        \"value\": 2007\n      }\n    }\n  ],\n  \"jobTitle\": \"Curate\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"SolVesta\"\n  },\n  \"affiliation\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping diocese\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västra Eneby\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gammalkil\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hannäs\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"church council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"school board\"\n    }\n  ]\n}",
+    "translated": "Östberg, Karl Jacob Henrik, vicar, SolVesta, b. 21/3/81 in Hjorted, Kalm. 1., son of Jacob Ö. and Axeline Åkerhalm. Married in 10 to Elsa Widell. Children: Ingemar b. 11. — Completed studies in Linköping in 98, Bachelor of Arts in 03', Bachelor of Theology in 06, practical theology examination and ordained in Linköping diocese in 07. Currently serving as assistant pastor in Västra Eneby and temporary vicar and acting pastor in Gammalkil, vicar in Hannäs since 20. Chairman of church assembly and school board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Jacob Henrik Östberg\",\n  \"givenName\": \"Karl Jacob Henrik\",\n  \"familyName\": \"Östberg\",\n  \"birthDate\": \"1881-03-21\",\n  \"birthPlace\": \"Hjorted, Kalmar County, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jacob Östberg\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axeline Åkerhalm\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Widell\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingemar Östberg\",\n      \"birthDate\": \"1911\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Linköping University\",\n      \"location\": \"Linköping\",\n      \"startDate\": \"1898\",\n      \"endDate\": \"1903\",\n      \"course\": [\n        {\n          \"@type\": \"Course\",\n          \"name\": \"Bachelor of Arts\",\n          \"startDate\": \"1898\",\n          \"endDate\": \"1903\"\n        },\n        {\n          \"@type\": \"Course\",\n          \"name\": \"Bachelor of Theology\",\n          \"startDate\": \"1903\",\n          \"endDate\": \"1906\"\n        }\n      ]\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Linköping Diocese\"\n    }\n  ],\n  \"ordination\": {\n    \"@type\": \"ReligiousOrganization\",\n    \"name\": \"Linköping Diocese\",\n    \"date\": \"1907\"\n  },\n  \"occupation\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Assistant Pastor\",\n      \"startDate\": \"Currently serving\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Temporary Vicar\",\n      \"startDate\": \"Currently serving\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Acting Pastor\",\n      \"startDate\": \"Currently serving\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"Currently serving\",\n      \"namedPosition\": \"Hannäs\"\n    }\n  ],\n  \"position\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Chairman\",\n      \"namedPosition\": \"Church Assembly\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Chairman\",\n      \"namedPosition\": \"School Board\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Karl Jacob Henrik Östberg",
+        "givenName": "Karl Jacob Henrik",
+        "familyName": "Östberg",
         "birthDate": "1881-03-21",
-        "birthPlace": {
-            "@type": "City",
-            "name": "Hjorted",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Kalm"
-            }
-        },
-        "parent": [
+        "birthPlace": "Hjorted, Kalmar County, Sweden",
+        "parents": [
             {
                 "@type": "Person",
-                "name": "Jacob Östberg",
-                "jobTitle": "unknown"
+                "name": "Jacob Östberg"
             },
             {
                 "@type": "Person",
-                "name": "Axeline Åkerhalm",
-                "jobTitle": "unknown"
+                "name": "Axeline Åkerhalm"
             }
         ],
         "spouse": {
@@ -35,78 +28,77 @@
             {
                 "@type": "Person",
                 "name": "Ingemar Östberg",
-                "birthDate": "1911-XX-XX"
+                "birthDate": "1911"
             }
         ],
         "education": [
             {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Master's",
-                "credentialSubject": "Linköping",
-                "credentialEarned": {
-                    "@type": "QuantitativeValue",
-                    "value": 1998
-                }
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Bachelor's",
-                "credentialSubject": "Linköping",
-                "credentialEarned": {
-                    "@type": "QuantitativeValue",
-                    "value": 2003
-                }
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Bachelor's",
-                "credentialSubject": "Theology",
-                "credentialEarned": {
-                    "@type": "QuantitativeValue",
-                    "value": 2006
-                }
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Practical Theological Examination",
-                "credentialSubject": "unknown",
-                "credentialEarned": {
-                    "@type": "QuantitativeValue",
-                    "value": 2007
-                }
-            }
-        ],
-        "jobTitle": "Curate",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "SolVesta"
-        },
-        "affiliation": [
-            {
-                "@type": "Organization",
-                "name": "Linköping diocese"
-            },
-            {
-                "@type": "Organization",
-                "name": "Västra Eneby"
-            },
-            {
-                "@type": "Organization",
-                "name": "Gammalkil"
-            },
-            {
-                "@type": "Organization",
-                "name": "Hannäs"
+                "@type": "EducationalOrganization",
+                "name": "Linköping University",
+                "location": "Linköping",
+                "startDate": "1898",
+                "endDate": "1903",
+                "course": [
+                    {
+                        "@type": "Course",
+                        "name": "Bachelor of Arts",
+                        "startDate": "1898",
+                        "endDate": "1903"
+                    },
+                    {
+                        "@type": "Course",
+                        "name": "Bachelor of Theology",
+                        "startDate": "1903",
+                        "endDate": "1906"
+                    }
+                ]
             }
         ],
         "memberOf": [
             {
                 "@type": "Organization",
-                "name": "church council"
+                "name": "Linköping Diocese"
+            }
+        ],
+        "ordination": {
+            "@type": "ReligiousOrganization",
+            "name": "Linköping Diocese",
+            "date": "1907"
+        },
+        "occupation": [
+            {
+                "@type": "Role",
+                "name": "Assistant Pastor",
+                "startDate": "Currently serving"
             },
             {
-                "@type": "Organization",
-                "name": "school board"
+                "@type": "Role",
+                "name": "Temporary Vicar",
+                "startDate": "Currently serving"
+            },
+            {
+                "@type": "Role",
+                "name": "Acting Pastor",
+                "startDate": "Currently serving"
+            },
+            {
+                "@type": "Role",
+                "name": "Vicar",
+                "startDate": "1920",
+                "endDate": "Currently serving",
+                "namedPosition": "Hannäs"
+            }
+        ],
+        "position": [
+            {
+                "@type": "Role",
+                "name": "Chairman",
+                "namedPosition": "Church Assembly"
+            },
+            {
+                "@type": "Role",
+                "name": "Chairman",
+                "namedPosition": "School Board"
             }
         ]
     }

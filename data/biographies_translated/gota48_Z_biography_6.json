@@ -1,119 +1,138 @@
 {
     "original": "Zachrisson, Gustaf Ragnar, kyrkoherde, Rölanda, f. 17/6/98 i Foss, Gbgs o. Boh. 1., av C. F. o. Kristina Zachrisson. G. 28 m. Signe Rosendahl. Barn: Anna f. 28, stud., Malmö, Sven 34, Erik 36, Karin 38, Nils 41. — Stud:ex i Lund 24, teol. fil. ex. 30, teol. kand., prakt. teol. prov o. prästv. f. Karlstads stift 32. V. pastor i Rölanda 32, kyrkoh. där sed. 34. Ordf. i kyrkostämma, skolstyr., barnav:nd o. kom-m :fullm.",
-    "translated": "Zachrisson, Gustaf Ragnar, clergyman, Rölanda, b. 17/6/98 in Foss, Gothenburg and Bohus County, 1st child of C.F. and Kristina Zachrisson. Married on 28th to Signe Rosendahl. Children: Anna b. 28, student, Malmö; Sven b. 34; Erik b. 36; Karin b. 38; Nils b. 41. Graduated from Lund University in 1924, obtained a Bachelor's degree in theology in 1930, completed practical theology exams and was ordained as a priest for the Diocese of Karlstad in 1932. Assistant pastor in Rölanda from 1932, appointed as parish priest in 1934. Served as chairman in the church council, school committee, childcare committee, and local government council.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Ragnar Zachrisson\",\n  \"birthDate\": \"1898-06-17\",\n  \"birthPlace\": {\n    \"@type\": \"AdministrativeArea\",\n    \"name\": \"Foss, Gothenburg and Bohus County\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C.F. Zachrisson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Zachrisson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Rosendahl\",\n    \"marriageDate\": \"1928-28-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Zachrisson\",\n      \"birthDate\": \"1928\",\n      \"educationalDegree\": {\n        \"@type\": \"EducationalOccupationalCredential\",\n        \"name\": \"Student\"\n      },\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Malmö University\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Zachrisson\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Zachrisson\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Zachrisson\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Zachrisson\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"alumniOf\": {\n    \"@type\": \"CollegeOrUniversity\",\n    \"name\": \"Lund University\",\n    \"educationalDegree\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\"\n    },\n    \"educationalCredentialAwarded\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. fil. ex.\"\n    },\n    \"educationalDegree\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Teol. kand.\"\n    }\n  },\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Diocese of Karlstad\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Rölanda Parish\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Council\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Committee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Childcare Committee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Local Government Council\"\n    }\n  ],\n  \"jobTitle\": [\n    \"Clergyman\",\n    \"Assistant Pastor\",\n    \"Parish Priest\"\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"AdministrativeArea\",\n      \"name\": \"Rölanda\"\n    }\n  ],\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Clergyman\"\n  },\n  \"affiliation\": \"Diocese of Karlstad\"\n}",
+    "translated": "Zachrisson, Gustaf Ragnar, vicar, Rölanda, b. 17/6/98 in Foss, Gothenburg and Bohuslän, 1st child of C. F. and Kristina Zachrisson. Married on 28, with Signe Rosendahl. Children: Anna b. 28, student, Malmö, Sven b. 34, Erik b. 36, Karin b. 38, Nils b. 41. — Graduated from Lund University in 1924, Bachelor of Theology in 1930, theological candidate, practical theological examination and ordained as a priest for the Karlstad Diocese in 1932. Assistant pastor in Rölanda from 1932, became vicar there in 1934. Chairman of the church assembly, school board, child welfare committee, and municipal council.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gustaf Ragnar Zachrisson\",\n  \"birthDate\": \"1898-06-17\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Foss\",\n      \"addressRegion\": \"Gothenburg and Bohuslän\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"C. F. Zachrisson\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Kristina Zachrisson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Rosendahl\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna\",\n      \"birthDate\": \"1928\",\n      \"memberOf\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Malmö\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Lund University\"\n    }\n  ],\n  \"examination\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"teol. fil. ex.\",\n      \"startDate\": \"1930\"\n    }\n  ],\n  \"qualification\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"teol. kand.\"\n  },\n  \"practicalTraining\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"name\": \"prakt. teol. prov\"\n  },\n  \"ordainedBy\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Karlstads stift\"\n  },\n  \"ordainedDate\": \"1932\",\n  \"occupation\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Assistant pastor\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rölanda\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Vicar\",\n      \"startDate\": \"1934\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Rölanda\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"church assembly\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"school board\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"child welfare committee\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"municipal council\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Gustaf Ragnar Zachrisson",
         "birthDate": "1898-06-17",
         "birthPlace": {
-            "@type": "AdministrativeArea",
-            "name": "Foss, Gothenburg and Bohus County"
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Foss",
+                "addressRegion": "Gothenburg and Bohuslän"
+            }
         },
         "parent": [
             {
                 "@type": "Person",
-                "name": "C.F. Zachrisson"
+                "name": "C. F. Zachrisson",
+                "gender": "male"
             },
             {
                 "@type": "Person",
-                "name": "Kristina Zachrisson"
+                "name": "Kristina Zachrisson",
+                "gender": "female"
             }
         ],
         "spouse": {
             "@type": "Person",
-            "name": "Signe Rosendahl",
-            "marriageDate": "1928-28-01"
+            "name": "Signe Rosendahl"
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Anna Zachrisson",
+                "name": "Anna",
                 "birthDate": "1928",
-                "educationalDegree": {
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Student"
-                },
-                "alumniOf": {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Malmö University"
-                }
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "Malmö"
+                    }
+                ]
             },
             {
                 "@type": "Person",
-                "name": "Sven Zachrisson",
+                "name": "Sven",
                 "birthDate": "1934"
             },
             {
                 "@type": "Person",
-                "name": "Erik Zachrisson",
+                "name": "Erik",
                 "birthDate": "1936"
             },
             {
                 "@type": "Person",
-                "name": "Karin Zachrisson",
+                "name": "Karin",
                 "birthDate": "1938"
             },
             {
                 "@type": "Person",
-                "name": "Nils Zachrisson",
+                "name": "Nils",
                 "birthDate": "1941"
             }
         ],
-        "alumniOf": {
-            "@type": "CollegeOrUniversity",
-            "name": "Lund University",
-            "educationalDegree": {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Teol. kand."
-            },
-            "educationalCredentialAwarded": {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Teol. fil. ex."
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Lund University"
             }
+        ],
+        "examination": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Stud:ex",
+                "startDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "name": "teol. fil. ex.",
+                "startDate": "1930"
+            }
+        ],
+        "qualification": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "teol. kand."
         },
+        "practicalTraining": {
+            "@type": "EducationalOccupationalCredential",
+            "name": "prakt. teol. prov"
+        },
+        "ordainedBy": {
+            "@type": "Organization",
+            "name": "Karlstads stift"
+        },
+        "ordainedDate": "1932",
+        "occupation": [
+            {
+                "@type": "OrganizationRole",
+                "namedPosition": "Assistant pastor",
+                "startDate": "1932",
+                "endDate": "1934",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Rölanda"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "namedPosition": "Vicar",
+                "startDate": "1934",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Rölanda"
+                }
+            }
+        ],
         "memberOf": [
             {
                 "@type": "Organization",
-                "name": "Diocese of Karlstad"
+                "name": "church assembly"
             },
             {
                 "@type": "Organization",
-                "name": "Rölanda Parish"
+                "name": "school board"
             },
             {
                 "@type": "Organization",
-                "name": "Church Council"
+                "name": "child welfare committee"
             },
             {
                 "@type": "Organization",
-                "name": "School Committee"
-            },
-            {
-                "@type": "Organization",
-                "name": "Childcare Committee"
-            },
-            {
-                "@type": "Organization",
-                "name": "Local Government Council"
+                "name": "municipal council"
             }
-        ],
-        "jobTitle": [
-            "Clergyman",
-            "Assistant Pastor",
-            "Parish Priest"
-        ],
-        "workLocation": [
-            {
-                "@type": "AdministrativeArea",
-                "name": "Rölanda"
-            }
-        ],
-        "hasOccupation": {
-            "@type": "Occupation",
-            "name": "Clergyman"
-        },
-        "affiliation": "Diocese of Karlstad"
+        ]
     }
 }

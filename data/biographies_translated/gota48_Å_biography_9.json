@@ -1,76 +1,51 @@
 {
     "original": "Ågren, Edvin Teofil, fd. distriktsveterinär, Finspång, f. 1/4/84 i Karlskrona av folkskoll. F. A. A. o. Bengta Olsson. G. 17 m. Rut Nygren. — Farm. kand. 07, veter. 16. Distriveter. i Öje-byn 16, i Mörsil 22, i Finspång 28-47, pens.",
-    "translated": "Ågren, Edvin Teofil, former district veterinarian, Finspång, born April 1, 1884 in Karlskrona, son of F.A.A. and Bengta Olsson. Married on the 17th of an unknown month to Rut Nygren. - Bachelor of Pharmacy in 1907, veterinarian in 1916. District veterinarian in Öje-byn from 1916, in Mörsil from 1922, in Finspång from 1928-1947, retired.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Edvin Teofil Ågren\",\n  \"jobTitle\": \"Former District Veterinarian\",\n  \"birthPlace\": \"Karlskrona\",\n  \"birthDate\": \"1884-04-01\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"F.A.A. Olsson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengta Olsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Rut Nygren\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's degree\",\n      \"credentialSubject\": \"Pharmacy\",\n      \"dateEarned\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Veterinary degree\",\n      \"dateEarned\": \"1916\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District Veterinarian\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1947\",\n      \"worksFor\": {\n\t      \"@type\": \"Organization\",\n\t      \"name\": \"Öje-byn\"\n  \t  }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District Veterinarian\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1947\",\n      \"worksFor\": {\n      \t\"@type\": \"Organization\",\n      \t\"name\": \"Mörsil\"\n  \t  }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District Veterinarian\",\n      \"startDate\": \"1928\",\n      \"endDate\": \"1947\",\n      \"worksFor\": {\n\t      \"@type\": \"Organization\",\n\t      \"name\": \"Finspång\"\n  \t  }\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Finspång\"\n  }\n}",
+    "translated": "Ågren, Edvin Teofil, former district veterinarian, Finspång, born on April 1st, 1884 in Karlskrona, son of Folkskoll F. A. A. and Bengta Olsson. Married on the 17th of an unknown month with Rut Nygren. — Bachelor of Pharmacy in 1907, veterinarian in 1916. District veterinarian in Öje-byn from 1916, in Mörsil from 1922, in Finspång from 1928 to 1947, retired.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Edvin\",\n  \"additionalName\": \"Teofil\",\n  \"familyName\": \"Ågren\",\n  \"birthDate\": \"1884-04-01\",\n  \"birthPlace\": \"Karlskrona\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Finspång\"\n  },\n  \"occupation\": {\n    \"@type\": \"VeterinaryCare\",\n    \"name\": \"District Veterinarian\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor\",\n      \"credentialEarned\": \"Bachelor of Pharmacy\",\n      \"startDate\": \"1907\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"veterinarian\",\n      \"credentialEarned\": \"Veterinarian\",\n      \"startDate\": \"1916\"\n    }\n  ],\n  \"father\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"F. A. A.\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Bengta\",\n    \"familyName\": \"Olsson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Rut\",\n    \"familyName\": \"Nygren\"\n  },\n  \"marriageDate\": \"17\"\n}",
     "structured": {
-        "@context": "https://schema.org/",
+        "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Edvin Teofil Ågren",
-        "jobTitle": "Former District Veterinarian",
-        "birthPlace": "Karlskrona",
+        "givenName": "Edvin",
+        "additionalName": "Teofil",
+        "familyName": "Ågren",
         "birthDate": "1884-04-01",
-        "parents": [
-            {
-                "@type": "Person",
-                "name": "F.A.A. Olsson"
-            },
-            {
-                "@type": "Person",
-                "name": "Bengta Olsson"
-            }
-        ],
-        "spouse": {
-            "@type": "Person",
-            "name": "Rut Nygren"
+        "birthPlace": "Karlskrona",
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Finspång"
+        },
+        "occupation": {
+            "@type": "VeterinaryCare",
+            "name": "District Veterinarian"
         },
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Bachelor's degree",
-                "credentialSubject": "Pharmacy",
-                "dateEarned": "1907"
+                "credentialCategory": "bachelor",
+                "credentialEarned": "Bachelor of Pharmacy",
+                "startDate": "1907"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Veterinary degree",
-                "dateEarned": "1916"
+                "credentialCategory": "veterinarian",
+                "credentialEarned": "Veterinarian",
+                "startDate": "1916"
             }
         ],
-        "work": [
-            {
-                "@type": "OrganizationRole",
-                "roleName": "District Veterinarian",
-                "startDate": "1916",
-                "endDate": "1947",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Öje-byn"
-                }
-            },
-            {
-                "@type": "OrganizationRole",
-                "roleName": "District Veterinarian",
-                "startDate": "1922",
-                "endDate": "1947",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Mörsil"
-                }
-            },
-            {
-                "@type": "OrganizationRole",
-                "roleName": "District Veterinarian",
-                "startDate": "1928",
-                "endDate": "1947",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Finspång"
-                }
-            }
-        ],
-        "memberOf": {
-            "@type": "Organization",
-            "name": "Finspång"
-        }
+        "father": {
+            "@type": "Person",
+            "givenName": "F. A. A."
+        },
+        "mother": {
+            "@type": "Person",
+            "givenName": "Bengta",
+            "familyName": "Olsson"
+        },
+        "spouse": {
+            "@type": "Person",
+            "givenName": "Rut",
+            "familyName": "Nygren"
+        },
+        "marriageDate": "17"
     }
 }

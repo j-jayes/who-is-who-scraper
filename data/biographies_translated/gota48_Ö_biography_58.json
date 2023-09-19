@@ -1,14 +1,79 @@
 {
     "original": "Östman, Carl Gustaf, civilingenjör SVR, hyggnadschef, Norrköping, f. 11/7/92 i Örnsköldsvik av Gustaf Ö. o. Augusta Backman. G. 1. 18 m. Elsa-Lena Lundström, d. 46; 2. 48 m. Lisa Margareta Bergström. Barn: Bengt f. 23, odönt. kand. — Stud :ex. i Umeå 11, avg:ex. fr. KTH (V) 16. Utr. stud:res. Anst. v. A-B Ing:-firman Unander &amp; Jonson i Sthlm 16-18, vattenledn :ing. v. Norrköp. stads byggn :kont. 18, ibyggn :chef i Norrköp. sed. 42 (41). V. ordf. i Norrköp. auto-mobil- o. flygkl., ordf. i Norrköp. modell- o. segelflygkl. 35-43, led. av styr.",
-    "translated": "Östman, Carl Gustaf, engineer SVR, construction manager, Norrköping, b. 11/7/92 in Örnsköldsvik to Gustaf Ö. and Augusta Backman. Married 1st in 18 m. Elsa-Lena Lundström, d. 46; 2nd in 48 m. Lisa Margareta Bergström. Children: Bengt b. 23, deceased candidate. Studied: exam in Umeå 11, graduated from KTH (V) 16. Studied abroad. Employed by A-B Ing:-firman Unander &amp; Jonson in Stockholm 16-18, water supply engineer at Norrköping city building office 18, construction manager in Norrköping since 42 (41). Vice-chairman of Norrköping automobile and aviation club, chairman of Norrköping model and gliding club 35-43, member of the board.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Östman\",\n  \"birthDate\": \"1892-11-07\",\n  \"birthPlace\": \"Örnsköldsvik\",\n  \"description\": \"Engineer and construction manager\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa-Lena Lundström\",\n      \"deathDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lisa Margareta Bergström\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Östman\",\n      \"birthDate\": \"1923\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Umeå University\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Royal Institute of Technology\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Water supply engineer\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Role\",\n      \"name\": \"Construction manager\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1942\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Ing:-firman Unander & Jonson\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping City Building Office\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Automobile and Aviation Club\",\n      \"roleName\": \"Vice Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Model and Gliding Club\",\n      \"roleName\": \"Chairman\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1943\"\n    }\n  ]\n}",
+    "translated": "Östman, Carl Gustaf, Civil Engineer of the Royal Swedish Academy of Engineering Sciences, Construction Manager, Norrköping, born on July 11th, 1892 in Örnsköldsvik to Gustaf Ö. and Augusta Backman. Married 1. in 1918 to Elsa-Lena Lundström, who passed away in 1946; 2. in 1948 to Lisa Margareta Bergström. Children: Bengt, born in 1923, deceased. Bachelor of Science examination from Umeå University in 1911, graduated from the Royal Institute of Technology (V) in 1916. International study trips. Employed by the engineering firm Unander & Jonson in Stockholm from 1916 to 1918, water pipeline engineer at the Building Office of Norrköping in 1918, promoted to the position of construction manager in Norrköping in 1942 (1941). Vice chairman of the Norrköping Automobile and Aviation Club, chairman of the Norrköping Model and Glider Flying Club from 1935 to 1943, and a member of the board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Östman\",\n  \"givenName\": \"Carl Gustaf\",\n  \"familyName\": \"Östman\",\n  \"birthDate\": \"1892-07-11\",\n  \"birthPlace\": \"Örnsköldsvik\",\n  \"deathDate\": null,\n  \"gender\": \"Male\",\n  \"jobTitle\": \"Civil Engineer\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Royal Swedish Academy of Engineering Sciences\",\n      \"sameAs\": \"https://www.svr.se/\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Norrköping\",\n    \"jobTitle\": \"Construction Manager\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Östman\",\n      \"gender\": \"Male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Augusta Backman\",\n      \"gender\": \"Female\"\n    }\n  ],\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Elsa-Lena Lundström\",\n      \"deathDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lisa Margareta Bergström\"\n    }\n  ],\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt\",\n      \"birthDate\": \"1923\",\n      \"deathDate\": null,\n      \"educationalCredentialAwarded\": \"Bachelor of Science\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Umeå University\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"CollegeOrUniversity\",\n      \"name\": \"Royal Institute of Technology\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1916\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Unander & Jonson\",\n      \"jobTitle\": \"Employee\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1918\",\n      \"sameAs\": \"https://unanderjonson.se/\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Building Office of Norrköping\",\n      \"jobTitle\": \"Water Pipeline Engineer\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping\",\n      \"jobTitle\": \"Construction Manager\",\n      \"startDate\": \"1942\",\n      \"endDate\": null\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Automobile and Aviation Club\",\n      \"jobTitle\": \"Vice Chairman\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1943\",\n      \"sameAs\": \"https://nymck.se/\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Norrköping Model and Glider Flying Club\",\n      \"jobTitle\": \"Chairman\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1943\",\n      \"sameAs\": \"https://nmfk.se/\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board Member\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Carl Gustaf Östman",
-        "birthDate": "1892-11-07",
+        "givenName": "Carl Gustaf",
+        "familyName": "Östman",
+        "birthDate": "1892-07-11",
         "birthPlace": "Örnsköldsvik",
-        "description": "Engineer and construction manager",
+        "deathDate": null,
+        "gender": "Male",
+        "jobTitle": "Civil Engineer",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Unander & Jonson",
+                "jobTitle": "Employee",
+                "startDate": "1916",
+                "endDate": "1918",
+                "sameAs": "https://unanderjonson.se/"
+            },
+            {
+                "@type": "Organization",
+                "name": "Building Office of Norrköping",
+                "jobTitle": "Water Pipeline Engineer",
+                "startDate": "1918",
+                "endDate": "1942"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping",
+                "jobTitle": "Construction Manager",
+                "startDate": "1942",
+                "endDate": null
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Automobile and Aviation Club",
+                "jobTitle": "Vice Chairman",
+                "startDate": "1935",
+                "endDate": "1943",
+                "sameAs": "https://nymck.se/"
+            },
+            {
+                "@type": "Organization",
+                "name": "Norrköping Model and Glider Flying Club",
+                "jobTitle": "Chairman",
+                "startDate": "1935",
+                "endDate": "1943",
+                "sameAs": "https://nmfk.se/"
+            },
+            {
+                "@type": "Organization",
+                "name": "Board Member"
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Norrköping",
+            "jobTitle": "Construction Manager"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Östman",
+                "gender": "Male"
+            },
+            {
+                "@type": "Person",
+                "name": "Augusta Backman",
+                "gender": "Female"
+            }
+        ],
         "spouse": [
             {
                 "@type": "Person",
@@ -23,60 +88,24 @@
         "children": [
             {
                 "@type": "Person",
-                "name": "Bengt Östman",
-                "birthDate": "1923"
+                "name": "Bengt",
+                "birthDate": "1923",
+                "deathDate": null,
+                "educationalCredentialAwarded": "Bachelor of Science"
             }
         ],
         "alumniOf": [
             {
                 "@type": "CollegeOrUniversity",
                 "name": "Umeå University",
+                "startDate": "1911",
                 "endDate": "1911"
             },
             {
                 "@type": "CollegeOrUniversity",
                 "name": "Royal Institute of Technology",
-                "endDate": "1916"
-            }
-        ],
-        "hasOccupation": [
-            {
-                "@type": "Role",
-                "name": "Water supply engineer",
-                "startDate": "1918",
-                "endDate": "1920"
-            },
-            {
-                "@type": "Role",
-                "name": "Construction manager",
-                "startDate": "1920",
-                "endDate": "1942"
-            }
-        ],
-        "memberOf": [
-            {
-                "@type": "Organization",
-                "name": "A-B Ing:-firman Unander & Jonson",
                 "startDate": "1916",
-                "endDate": "1918"
-            },
-            {
-                "@type": "Organization",
-                "name": "Norrköping City Building Office",
-                "startDate": "1918",
-                "endDate": "1942"
-            },
-            {
-                "@type": "Organization",
-                "name": "Norrköping Automobile and Aviation Club",
-                "roleName": "Vice Chairman"
-            },
-            {
-                "@type": "Organization",
-                "name": "Norrköping Model and Gliding Club",
-                "roleName": "Chairman",
-                "startDate": "1935",
-                "endDate": "1943"
+                "endDate": "1916"
             }
         ]
     }

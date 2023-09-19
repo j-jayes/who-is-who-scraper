@@ -1,90 +1,148 @@
 {
     "original": "Ågren, Olof Casimir, konstnär, Mis-terhult, f. 26/11/74 i Alsen, Jämtl. 1., av fanj. Nils Å. o. Christina Winn-berg. G. 33 m. Elisaibeth Bergström. — Stud. v. konstakad. i Sthlm 98-03, i Berlin o. Paris 08-10, Ital. o. Syd-frankr. 20-27. Tillh. konstn :gruppen Optimisterna, utf. naivistiska stadsmotiv, ’hamnbilder, dekorativa komp. m. m., som inbj. delt. i Carnegiestift. utst. i Pittsburgh 36-37, repr. i bl. a. Nat:-mus., Thüelska gall, Gbgs, Västerås, Östersunds o. Norrköp. mus. Numera lantbr. i Flivik.",
-    "translated": "Ågren, Olof Casimir, artist, Mis-terhult, b. 26/11/74 in Alsen, Jämtland, son of sergeant Nils Å. and Christina Winnberg. Married in 1933 to Elisaibeth Bergström. — Studied at the Royal Swedish Academy of Fine Arts in Stockholm from 1898 to 1903, in Berlin and Paris from 1908 to 1910, and in Italy and southern France from 1920 to 1927. Belonged to the art group Optimisterna, produced naïve cityscapes, harbor scenes, decorative compositions, and more, which were exhibited in the Carnegie Art Galleries in Pittsburgh from 1936 to 1937, and represented in institutions such as the National Museum, Thüelska Gallery in Gothenburg, Västerås, Östersund, and Norrköping museums. Currently engaged in farming in Flivik.",
-    "structured_raw": "{ \"name\": \"Ågren, Olof Casimir\",\n  \"jobTitle\": \"Artist\",\n  \"birthPlace\": \"Alsen, Jämtland\",\n  \"birthDate\": \"1874-11-26\",\n  \"father\": {\n    \"name\": \"Nils Å.\",\n    \"occupation\": \"Sergeant\"\n  },\n  \"mother\": {\n    \"name\": \"Christina Winnberg\"\n  },\n  \"spouse\": {\n    \"name\": \"Elisaibeth Bergström\",\n    \"marriageDate\": \"1933\"\n  },\n  \"education\": [\n    {\n      \"institution\": \"Royal Swedish Academy of Fine Arts\",\n      \"location\": \"Stockholm\",\n      \"startDate\": \"1898\",\n      \"endDate\": \"1903\"\n    },\n    {\n      \"institution\": \"Berlin and Paris\",\n      \"startDate\": \"1908\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"institution\": \"Italy and southern France\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"name\": \"Optimisterna\",\n      \"description\": \"Art group\"\n    }\n  ],\n  \"artworks\": [\n    {\n      \"type\": \"Cityscape\",\n      \"description\": \"Naïve cityscapes\"\n    },\n    {\n      \"type\": \"Harbor scenes\",\n      \"description\": \"Scenes depicting harbors\"\n    },\n    {\n      \"type\": \"Decorative compositions\",\n      \"description\": \"Various decorative compositions\"\n    }\n  ],\n  \"exhibitions\": [\n    {\n      \"gallery\": \"Carnegie Art Galleries\",\n      \"location\": \"Pittsburgh\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\"\n    }\n  ],\n  \"representedIn\": [\n    {\n      \"institution\": \"National Museum\"\n    },\n    {\n      \"institution\": \"Thüelska Gallery\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"institution\": \"Västerås Museum\"\n    },\n    {\n      \"institution\": \"Östersund Museum\"\n    },\n    {\n      \"institution\": \"Norrköping Museum\"\n    }\n  ],\n  \"currentJob\": {\n    \"company\": \"Farm\",\n    \"location\": \"Flivik\"\n  }\n}",
+    "translated": "Ågren, Olof Casimir, artist, Mis-terhult, b. November 26, 1874 in Alsen, Jämtland county, son of Corporal Nils Å. and Christina Winnberg. Married in 1933 to Elisaibeth Bergström. — Studied at the Royal Academy of Fine Arts in Stockholm from 1898 to 1903, in Berlin and Paris from 1908 to 1910, in Italy and southern France from 1920 to 1927. Associated with the art group Optimisterna, known for painting naive cityscapes, harbor scenes, and decorative compositions, among other things, which were invited to participate in exhibitions by the Carnegie Foundation in Pittsburgh from 1936 to 1937, represented in, among other places, the National Museum, Thüelska Gallery in Gothenburg, Västerås, Östersund, and Norrköping museums. Currently engaged in agriculture in Flivik.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olof Casimir Ågren\",\n  \"birthDate\": \"1874-11-26\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Alsen\",\n      \"addressRegion\": \"Jämtland\",\n      \"addressCountry\": \"Sweden\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Ågren\",\n      \"jobTitle\": \"Corporal\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Winnberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elisaibeth Bergström\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Royal Academy of Fine Arts\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\",\n          \"addressCountry\": \"Sweden\"\n        }\n      },\n      \"startDate\": \"1898\",\n      \"endDate\": \"1903\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Berlin\",\n        \"addressCountry\": \"Germany\"\n      },\n      \"startDate\": \"1908\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"France\"\n      },\n      \"startDate\": \"1920\",\n      \"endDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressCountry\": \"Italy\"\n      },\n      \"startDate\": \"1920\",\n      \"endDate\": \"1927\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Optimisterna\"\n  },\n  \"description\": \"Swedish artist known for painting naive cityscapes, harbor scenes, and decorative compositions\",\n  \"occupation\": \"Artist\",\n  \"workLocation\": \"Mis-terhult\",\n  \"hasOccupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Lantbrukare\"\n  },\n  \"workLocation\": \"Flivik\",\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Optimisterna\"\n  },\n  \"exhibition\": [\n    {\n      \"@type\": \"ExhibitionEvent\",\n      \"name\": \"Carnegiestift. utst.\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1937\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Pittsburgh\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressCountry\": \"United States\"\n        }\n      }\n    }\n  ],\n  \"representedIn\": [\n    {\n      \"@type\": \"Place\",\n      \"name\": \"National Museum\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Thüelska Gallery\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Gothenburg\",\n        \"addressCountry\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Västerås Museum\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Västerås\",\n        \"addressCountry\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Östersund Museum\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Östersund\",\n        \"addressCountry\": \"Sweden\"\n      }\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Norrköping Museum\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Norrköping\",\n        \"addressCountry\": \"Sweden\"\n      }\n    }\n  ]\n}",
     "structured": {
-        "name": "Ågren, Olof Casimir",
-        "jobTitle": "Artist",
-        "birthPlace": "Alsen, Jämtland",
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olof Casimir Ågren",
         "birthDate": "1874-11-26",
-        "father": {
-            "name": "Nils Å.",
-            "occupation": "Sergeant"
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Alsen",
+                "addressRegion": "Jämtland",
+                "addressCountry": "Sweden"
+            }
         },
-        "mother": {
-            "name": "Christina Winnberg"
-        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Nils Ågren",
+                "jobTitle": "Corporal"
+            },
+            {
+                "@type": "Person",
+                "name": "Christina Winnberg"
+            }
+        ],
         "spouse": {
-            "name": "Elisaibeth Bergström",
-            "marriageDate": "1933"
+            "@type": "Person",
+            "name": "Elisaibeth Bergström"
         },
         "education": [
             {
-                "institution": "Royal Swedish Academy of Fine Arts",
-                "location": "Stockholm",
+                "@type": "EducationalOrganization",
+                "name": "Royal Academy of Fine Arts",
+                "location": {
+                    "@type": "Place",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Stockholm",
+                        "addressCountry": "Sweden"
+                    }
+                },
                 "startDate": "1898",
                 "endDate": "1903"
             },
             {
-                "institution": "Berlin and Paris",
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Berlin",
+                    "addressCountry": "Germany"
+                },
                 "startDate": "1908",
                 "endDate": "1910"
             },
             {
-                "institution": "Italy and southern France",
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "France"
+                },
+                "startDate": "1920",
+                "endDate": "1927"
+            },
+            {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "Italy"
+                },
                 "startDate": "1920",
                 "endDate": "1927"
             }
         ],
-        "memberOf": [
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Optimisterna"
+        },
+        "description": "Swedish artist known for painting naive cityscapes, harbor scenes, and decorative compositions",
+        "occupation": "Artist",
+        "workLocation": "Flivik",
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Lantbrukare"
+        },
+        "exhibition": [
             {
-                "name": "Optimisterna",
-                "description": "Art group"
-            }
-        ],
-        "artworks": [
-            {
-                "type": "Cityscape",
-                "description": "Naïve cityscapes"
-            },
-            {
-                "type": "Harbor scenes",
-                "description": "Scenes depicting harbors"
-            },
-            {
-                "type": "Decorative compositions",
-                "description": "Various decorative compositions"
-            }
-        ],
-        "exhibitions": [
-            {
-                "gallery": "Carnegie Art Galleries",
-                "location": "Pittsburgh",
+                "@type": "ExhibitionEvent",
+                "name": "Carnegiestift. utst.",
                 "startDate": "1936",
-                "endDate": "1937"
+                "endDate": "1937",
+                "location": {
+                    "@type": "Place",
+                    "name": "Pittsburgh",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "United States"
+                    }
+                }
             }
         ],
         "representedIn": [
             {
-                "institution": "National Museum"
+                "@type": "Place",
+                "name": "National Museum"
             },
             {
-                "institution": "Thüelska Gallery",
-                "location": "Gothenburg"
+                "@type": "Place",
+                "name": "Thüelska Gallery",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Gothenburg",
+                    "addressCountry": "Sweden"
+                }
             },
             {
-                "institution": "Västerås Museum"
+                "@type": "Place",
+                "name": "Västerås Museum",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Västerås",
+                    "addressCountry": "Sweden"
+                }
             },
             {
-                "institution": "Östersund Museum"
+                "@type": "Place",
+                "name": "Östersund Museum",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Östersund",
+                    "addressCountry": "Sweden"
+                }
             },
             {
-                "institution": "Norrköping Museum"
+                "@type": "Place",
+                "name": "Norrköping Museum",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Norrköping",
+                    "addressCountry": "Sweden"
+                }
             }
-        ],
-        "currentJob": {
-            "company": "Farm",
-            "location": "Flivik"
-        }
+        ]
     }
 }

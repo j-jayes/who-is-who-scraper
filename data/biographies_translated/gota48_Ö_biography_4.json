@@ -1,104 +1,133 @@
 {
     "original": "Öberg, Lars Harald, provinsialläkare, Skene, f. 15/7/90 i Agnetorp, Ska-rab. 1., av godsäg. Carl Ö. o. Frida Andersson. G. 21 m. Stina Svensson. Barn: Lars f. 22, Anders 26, Brita 3il. — Stud:ex. i Karlstad 09, med. kand. ■ 1-5, med. lic. 21 v. Karol. inst. E. läk. v. Vadstena hosp. 18-19, und:läk. v. Målilla san. 21-22, tf. und :läk. v. Karls’ha:mns las. 22 o. 23’, assist :läk. v. Sahlgr. sjukh. kir. avd. 22-23’, prov:-läk. o. sjukstug-uläk. i Högsäters distr. 23-32, därund. tf. Ias:und:läk. i Vä-nersib. 28, prov :iäk. i Skene distr. sed. 32. KoimimifuHm. i Högsäter 29-32, ordf. i Örby s :ns ’hälsov:nd 32-38.",
-    "translated": "Öberg, Lars Harald, district physician, Skene, b. 15/7/90 in Agnetorp, Ska-rab. 1., son of landowner Carl Ö. and Frida Andersson. Married in 1921 to Stina Svensson. Children: Lars (b. 1922), Anders (b. 1926), Brita (b. 1931). \n\nEducation: Passed student exam in Karlstad in 1909, medical candidate in 1915, medical licentiate in 1921 at the Karolinska Institute. Employed as a physician at Vadstena Hospital from 1918-1919, as a junior physician at Målilla Sanatorium from 1921-1922, temporary junior physician at Karls-hamn Hospital in 1922 and 1923, assistant physician in the surgical department at Sahlgr. Hospital from 1922-1923, district physician and hospital physician in Högsäter district from 1923-1932, temporary junior physician in Vänersib in 1928, district physician in Skene district since 1932. Chairman of Köpmannebro Municipality from 1929-1932, chairman of Örby Parish Health Committee from 1932-1938.",
-    "structured_raw": "{\n  \"name\": \"Lars Harald Öberg\",\n  \"birthDate\": \"1890-07-15\",\n  \"birthPlace\": \"Agnetorp, Ska-rab. 1\",\n  \"father\": {\n    \"name\": \"Carl Öberg\"\n  },\n  \"mother\": {\n    \"name\": \"Frida Andersson\"\n  },\n  \"spouse\": {\n    \"name\": \"Stina Svensson\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [\n    {\n      \"name\": \"Lars Öberg\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"name\": \"Anders Öberg\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"name\": \"Brita Öberg\",\n      \"birthDate\": \"1931\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Karlstad\",\n      \"degree\": \"student exam\",\n      \"completionDate\": \"1909\"\n    },\n    {\n      \"institution\": \"Karolinska Institute\",\n      \"degree\": \"medical candidate\",\n      \"completionDate\": \"1915\"\n    },\n    {\n      \"institution\": \"Karolinska Institute\",\n      \"degree\": \"medical licentiate\",\n      \"completionDate\": \"1921\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"position\": \"physician\",\n      \"employer\": \"Vadstena Hospital\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"position\": \"junior physician\",\n      \"employer\": \"Målilla Sanatorium\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"position\": \"temporary junior physician\",\n      \"employer\": \"Karls-hamn Hospital\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"position\": \"assistant physician\",\n      \"employer\": \"Sahlgr. Hospital\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"position\": \"district physician and hospital physician\",\n      \"employer\": \"Högsäter district\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"position\": \"temporary junior physician\",\n      \"employer\": \"Vänersib\",\n      \"startDate\": \"1928\"\n    },\n    {\n      \"position\": \"district physician\",\n      \"employer\": \"Skene district\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"committeeMemberships\": [\n    {\n      \"committee\": \"Köpmannebro Municipality\",\n      \"position\": \"chairman\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"committee\": \"Örby Parish Health Committee\",\n      \"position\": \"chairman\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1938\"\n    }\n  ]\n}",
+    "translated": "Öberg, Lars Harald, provincial doctor, Skene, b. 15/7/90 in Agnetorp, Ska-rab. 1st son of estate owner Carl Ö. and Frida Andersson. Mar. 21 with Stina Svensson. Children: Lars b. 22, Anders b. 26, Brita b. 3il. — Secondary school graduate in Karlstad 09, medical candidate 1-5, medical licentiate 21 at Karolinska Institute. Assistant doctor at Vadstena hospital 18-19, junior doctor at Målilla sanatorium 21-22, acting junior doctor at Karls'hamn hospital 22 and 23, assistant doctor at Sahlgr. hospital surgical department 22-23, provincial doctor and local medical officer in Högsäter district 23-32, acting junior doctor in Vänersborg in 28, provincial doctor in Skene district since 32. Communal counselor in Högsäter 29-32, chairman of the Örby parish health committee 32-38.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lars Harald Öberg\",\n  \"jobTitle\": \"Provincial Doctor\",\n  \"birthDate\": \"1890-07-15\",\n  \"birthPlace\": \"Agnetorp, Ska-rab\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Carl Öberg\",\n      \"jobTitle\": \"Estate Owner\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Frida Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Stina Svensson\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lars\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Brita\",\n      \"birthDate\": \"1931\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Secondary education\",\n      \"educationalLevel\": \"Secondary school graduate\",\n      \"alumniOf\": \"Karlstad\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medicine\",\n      \"educationalLevel\": \"Medical Candidate\",\n      \"alumniOf\": \"Karolinska Institute\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Medicine\",\n      \"educationalLevel\": \"Medical Licentiate\",\n      \"alumniOf\": \"Karolinska Institute\",\n      \"endDate\": \"1921\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Vadstena Hospital\",\n      \"jobTitle\": \"Assistant Doctor\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1919\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Målilla Sanatorium\",\n      \"jobTitle\": \"Junior Doctor\",\n      \"startDate\": \"1921\",\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Karls'hamn Hospital\",\n      \"jobTitle\": \"Acting Junior Doctor\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Sahlgr. Hospital\",\n      \"department\": \"Surgical Department\",\n      \"jobTitle\": \"Assistant Doctor\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Högsäter District\",\n      \"jobTitle\": \"Provincial Doctor and Local Medical Officer\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Vänersborg\",\n      \"jobTitle\": \"Acting Junior Doctor\",\n      \"startDate\": \"1928\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Skene District\",\n      \"jobTitle\": \"Provincial Doctor\",\n      \"startDate\": \"1932\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Högsäter Communal Council\",\n      \"jobTitle\": \"Communal Counselor\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Örby Parish Health Committee\",\n      \"jobTitle\": \"Chairman\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1938\"\n    }\n  ]\n}",
     "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
         "name": "Lars Harald Öberg",
+        "jobTitle": "Provincial Doctor",
         "birthDate": "1890-07-15",
-        "birthPlace": "Agnetorp, Ska-rab. 1",
-        "father": {
-            "name": "Carl Öberg"
-        },
-        "mother": {
-            "name": "Frida Andersson"
-        },
+        "birthPlace": "Agnetorp, Ska-rab",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Carl Öberg",
+                "jobTitle": "Estate Owner"
+            },
+            {
+                "@type": "Person",
+                "name": "Frida Andersson"
+            }
+        ],
         "spouse": {
+            "@type": "Person",
             "name": "Stina Svensson",
             "marriageDate": "1921"
         },
         "children": [
             {
-                "name": "Lars Öberg",
+                "@type": "Person",
+                "name": "Lars",
                 "birthDate": "1922"
             },
             {
-                "name": "Anders Öberg",
+                "@type": "Person",
+                "name": "Anders",
                 "birthDate": "1926"
             },
             {
-                "name": "Brita Öberg",
+                "@type": "Person",
+                "name": "Brita",
                 "birthDate": "1931"
             }
         ],
         "education": [
             {
-                "institution": "Karlstad",
-                "degree": "student exam",
-                "completionDate": "1909"
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Secondary education",
+                "educationalLevel": "Secondary school graduate",
+                "alumniOf": "Karlstad",
+                "endDate": "1909"
             },
             {
-                "institution": "Karolinska Institute",
-                "degree": "medical candidate",
-                "completionDate": "1915"
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medicine",
+                "educationalLevel": "Medical Candidate",
+                "alumniOf": "Karolinska Institute",
+                "startDate": "1915",
+                "endDate": "1921"
             },
             {
-                "institution": "Karolinska Institute",
-                "degree": "medical licentiate",
-                "completionDate": "1921"
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Medicine",
+                "educationalLevel": "Medical Licentiate",
+                "alumniOf": "Karolinska Institute",
+                "endDate": "1921"
             }
         ],
-        "employmentHistory": [
+        "workExperience": [
             {
-                "position": "physician",
-                "employer": "Vadstena Hospital",
+                "@type": "MedicalOrganization",
+                "name": "Vadstena Hospital",
+                "jobTitle": "Assistant Doctor",
                 "startDate": "1918",
                 "endDate": "1919"
             },
             {
-                "position": "junior physician",
-                "employer": "Målilla Sanatorium",
+                "@type": "MedicalOrganization",
+                "name": "Målilla Sanatorium",
+                "jobTitle": "Junior Doctor",
                 "startDate": "1921",
                 "endDate": "1922"
             },
             {
-                "position": "temporary junior physician",
-                "employer": "Karls-hamn Hospital",
+                "@type": "MedicalOrganization",
+                "name": "Karls'hamn Hospital",
+                "jobTitle": "Acting Junior Doctor",
                 "startDate": "1922",
                 "endDate": "1923"
             },
             {
-                "position": "assistant physician",
-                "employer": "Sahlgr. Hospital",
+                "@type": "MedicalOrganization",
+                "name": "Sahlgr. Hospital",
+                "department": "Surgical Department",
+                "jobTitle": "Assistant Doctor",
                 "startDate": "1922",
                 "endDate": "1923"
             },
             {
-                "position": "district physician and hospital physician",
-                "employer": "Högsäter district",
+                "@type": "MedicalOrganization",
+                "name": "Högsäter District",
+                "jobTitle": "Provincial Doctor and Local Medical Officer",
                 "startDate": "1923",
                 "endDate": "1932"
             },
             {
-                "position": "temporary junior physician",
-                "employer": "Vänersib",
+                "@type": "MedicalOrganization",
+                "name": "Vänersborg",
+                "jobTitle": "Acting Junior Doctor",
                 "startDate": "1928"
             },
             {
-                "position": "district physician",
-                "employer": "Skene district",
+                "@type": "MedicalOrganization",
+                "name": "Skene District",
+                "jobTitle": "Provincial Doctor",
                 "startDate": "1932"
             }
         ],
-        "committeeMemberships": [
+        "memberOf": [
             {
-                "committee": "Köpmannebro Municipality",
-                "position": "chairman",
+                "@type": "Organization",
+                "name": "Högsäter Communal Council",
+                "jobTitle": "Communal Counselor",
                 "startDate": "1929",
                 "endDate": "1932"
             },
             {
-                "committee": "Örby Parish Health Committee",
-                "position": "chairman",
+                "@type": "Organization",
+                "name": "Örby Parish Health Committee",
+                "jobTitle": "Chairman",
                 "startDate": "1932",
                 "endDate": "1938"
             }

@@ -1,122 +1,182 @@
 {
     "original": "Ysander, Bengt Daniel, kyrkoherde, Kungsbacka, f. 9/1/90 i Tölö, Hall. k, av kyrkoh. Bengt Y. o. Amanda Wet-terqvist. G. 18 m. Anna-Lisa Bergström. — Stud:ex. i Gbg 10, teol. fil. ex. Il, teol. kand. o. prakt. teol. prov i Upps. 15, prästv. i Gbg 16. FastOirs-adj. i Gällstad 16, Ljungby 16, pastor o. kommdn. i Se glo ra 16-18, kommin. i Holsljunga 18-33’, kyrkoh. i Kun|gsbacka o. Hanhals sed. 33. Ordf. i stads-fullm. sed. 39, ordf. i kyrkoråd, kyrko-fullm., kyrkostämma, styr. if. folksk., RKs Kungsbackakrets, led. av styr. f. Katrinebergs folkhögsk. sed. 39, insp. f. samrealsk. sed. 44. LVO 40.",
-    "translated": "Ysander, Bengt Daniel, vicar, Kungsbacka, b. 9/1/90 in Tölö, Halland county, son of vicar Bengt Y. and Amanda Wetterqvist. Married on 18 with Anna-Lisa Bergström. — Passed student examination in Gothenburg in 1910, theological philosophy examination in 1911, theological candidate and practical theological examination in Uppsala in 1915, ordained priest in Gothenburg in 1916. Parish adjunct in Gällstad in 1916, Ljungby in 1916, pastor and rural dean in Seglora from 1916 to 1918, curate in Holsljunga from 1918 to 1933, vicar of Kungsbacka and Hanhals since 1933. Chairman of the city council since 1939, chairman of the church council, church assembly, church meeting, board of primary school, RKs Kungsbacka district, member of the board for Katrinebergs folk high school since 1939, inspector for secondary school since 1944. Knight of the Royal Order of Vasa since 1940.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Daniel Ysander\",\n  \"birthDate\": \"1890-01-09\",\n  \"birthPlace\": \"Tölö, Halland, Sweden\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"name\": \"Bengt Ysander\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"name\": \"Amanda Wetterqvist\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Lisa Bergström\",\n    \"marriageDate\": \"19XX-XX-18\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Student Examination\",\n      \"educationalLevel\": \"High school\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"19XX\",\n      \"endDate\": \"19XX\",\n      \"awardingInstitution\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theological Philosophy Examination\",\n      \"educationalLevel\": \"Bachelor's\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"19XX\",\n      \"endDate\": \"19XX\",\n      \"awardingInstitution\": \"Gothenburg\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Theological Candidate\",\n      \"educationalLevel\": \"Master's\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"19XX\",\n      \"endDate\": \"19XX\",\n      \"awardingInstitution\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Practical Theological Examination\",\n      \"educationalRole\": \"Student\",\n      \"startDate\": \"19XX\",\n      \"endDate\": \"19XX\",\n      \"awardingInstitution\": \"Uppsala\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Clergy\",\n      \"name\": \"Vicar\",\n      \"address\": {\n        \"@type\": \"PostalAddress\",\n        \"addressLocality\": \"Kungsbacka\"\n      },\n      \"startDate\": \"19XX-XX-XX\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council\",\n      \"position\": \"Chairman\",\n      \"startDate\": \"19XX-XX-XX\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Council\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Assembly\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Meeting\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Primary School\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"RKs Kungsbacka district\",\n      \"position\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board for Katrinebergs folk high school\",\n      \"position\": \"Member\",\n      \"startDate\": \"19XX-XX-XX\"\n    }\n  ],\n  \"inspectorFor\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Secondary School\",\n    \"startDate\": \"19XX-XX-XX\"\n  },\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Knight of the Royal Order of Vasa\",\n      \"dateAwarded\": \"1940\"\n    }\n  ]\n}",
+    "translated": "Ysander, Bengt Daniel, vicar, Kungsbacka, b. 9/1/90 in Tölö, Halland county, son of vicar Bengt Y. and Amanda Wetterqvist. Married on 18th with Anna-Lisa Bergström. — Graduated from upper secondary school in Gothenburg in 1910, graduated with a Bachelor of Theology in 1911, completed practical theology examinations in Uppsala in 1915, ordained as a priest in Gothenburg in 1916. Assistant vicar in Gällstad in 1916, Ljungby in 1916, pastor and chaplain in Seglora from 1916 to 1918, curate in Holsljunga from 1918 to 1933, vicar in Kungsbacka and Hanhals since 1933. Chairman of the city council since 1939, chairman of the church council, church assembly, church meeting, board of elementary education, RK's Kungsbacka district, member of the board of Katrinebergs folk high school since 1939, inspector of the secondary school since 1944. Awarded LVO (Order of Vasa) in 1940.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bengt Daniel Ysander\",\n  \"birthDate\": \"1890-01-09\",\n  \"birthPlace\": \"Tölö, Halland, Sweden\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt Ysander\",\n      \"jobTitle\": \"vicar\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amanda Wetterqvist\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Anna-Lisa Bergström\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Upper Secondary School\"\n      },\n      \"startDate\": \"1910\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"studyProgram\": \"Theology\",\n      \"achievement\": \"Bachelor of Theology\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"studyProgram\": \"Practical Theology\",\n      \"achievedDegree\": \"ordained priest\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"1915\"\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant Vicar\",\n      \"startDate\": \"1916-01-01\",\n      \"endDate\": \"1916-12-31\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Gällstad\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant Vicar\",\n      \"startDate\": \"1916-01-01\",\n      \"endDate\": \"1916-12-31\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Ljungby\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Pastor and Chaplain\",\n      \"startDate\": \"1916-01-01\",\n      \"endDate\": \"1918-12-31\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Seglora\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Curate\",\n      \"startDate\": \"1918-01-01\",\n      \"endDate\": \"1933-12-31\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Holsljunga\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Vicar\",\n      \"startDate\": \"1933-01-01\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Kungsbacka\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"City Council\",\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Council\",\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Assembly\",\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Meeting\",\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Elementary Education\",\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"RK's Kungsbacka District\",\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Chairman\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Board of Katrinebergs Folk High School\",\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Member\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Katrinebergs Folk High School\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Kungsbacka\"\n      },\n      \"startDate\": \"1939-01-01\",\n      \"roleName\": \"Inspector\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Secondary School\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Kungsbacka\"\n      },\n      \"startDate\": \"1944-01-01\",\n      \"roleName\": \"Inspector\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of Vasa\",\n      \"dateAwarded\": \"1940\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Bengt Daniel Ysander",
         "birthDate": "1890-01-09",
         "birthPlace": "Tölö, Halland, Sweden",
-        "father": {
-            "@type": "Person",
-            "name": "Bengt Ysander"
-        },
-        "mother": {
-            "@type": "Person",
-            "name": "Amanda Wetterqvist"
-        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Bengt Ysander",
+                "jobTitle": "vicar"
+            },
+            {
+                "@type": "Person",
+                "name": "Amanda Wetterqvist"
+            }
+        ],
         "spouse": {
             "@type": "Person",
-            "name": "Anna-Lisa Bergström",
-            "marriageDate": "19XX-XX-18"
+            "name": "Anna-Lisa Bergström"
         },
         "education": [
             {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Student Examination",
-                "educationalLevel": "High school",
-                "educationalRole": "Student",
-                "startDate": "19XX",
-                "endDate": "19XX",
-                "awardingInstitution": "Gothenburg"
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Upper Secondary School"
+                },
+                "startDate": "1910",
+                "endDate": "1910"
             },
             {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Theological Philosophy Examination",
-                "educationalLevel": "Bachelor's",
-                "educationalRole": "Student",
-                "startDate": "19XX",
-                "endDate": "19XX",
-                "awardingInstitution": "Gothenburg"
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                },
+                "studyProgram": "Theology",
+                "achievement": "Bachelor of Theology",
+                "startDate": "1911",
+                "endDate": "1911"
             },
             {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Theological Candidate",
-                "educationalLevel": "Master's",
-                "educationalRole": "Student",
-                "startDate": "19XX",
-                "endDate": "19XX",
-                "awardingInstitution": "Uppsala"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Practical Theological Examination",
-                "educationalRole": "Student",
-                "startDate": "19XX",
-                "endDate": "19XX",
-                "awardingInstitution": "Uppsala"
+                "@type": "EducationEvent",
+                "institution": {
+                    "@type": "Organization",
+                    "name": "Uppsala University"
+                },
+                "studyProgram": "Practical Theology",
+                "achievedDegree": "ordained priest",
+                "startDate": "1915",
+                "endDate": "1915"
             }
         ],
         "occupation": [
             {
-                "@type": "Clergy",
-                "name": "Vicar",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Kungsbacka"
-                },
-                "startDate": "19XX-XX-XX"
+                "@type": "OrganizationRole",
+                "roleName": "Assistant Vicar",
+                "startDate": "1916-01-01",
+                "endDate": "1916-12-31",
+                "location": {
+                    "@type": "City",
+                    "name": "Gällstad"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Assistant Vicar",
+                "startDate": "1916-01-01",
+                "endDate": "1916-12-31",
+                "location": {
+                    "@type": "City",
+                    "name": "Ljungby"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Pastor and Chaplain",
+                "startDate": "1916-01-01",
+                "endDate": "1918-12-31",
+                "location": {
+                    "@type": "City",
+                    "name": "Seglora"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Curate",
+                "startDate": "1918-01-01",
+                "endDate": "1933-12-31",
+                "location": {
+                    "@type": "City",
+                    "name": "Holsljunga"
+                }
+            },
+            {
+                "@type": "OrganizationRole",
+                "roleName": "Vicar",
+                "startDate": "1933-01-01",
+                "location": {
+                    "@type": "City",
+                    "name": "Kungsbacka"
+                }
             }
         ],
         "memberOf": [
             {
                 "@type": "Organization",
                 "name": "City Council",
-                "position": "Chairman",
-                "startDate": "19XX-XX-XX"
+                "startDate": "1939-01-01",
+                "roleName": "Chairman"
             },
             {
                 "@type": "Organization",
                 "name": "Church Council",
-                "position": "Chairman"
+                "startDate": "1939-01-01",
+                "roleName": "Chairman"
             },
             {
                 "@type": "Organization",
                 "name": "Church Assembly",
-                "position": "Chairman"
+                "startDate": "1939-01-01",
+                "roleName": "Chairman"
             },
             {
                 "@type": "Organization",
                 "name": "Church Meeting",
-                "position": "Chairman"
+                "startDate": "1939-01-01",
+                "roleName": "Chairman"
             },
             {
                 "@type": "Organization",
-                "name": "Board of Primary School",
-                "position": "Chairman"
+                "name": "Board of Elementary Education",
+                "startDate": "1939-01-01",
+                "roleName": "Chairman"
             },
             {
                 "@type": "Organization",
-                "name": "RKs Kungsbacka district",
-                "position": "Chairman"
+                "name": "RK's Kungsbacka District",
+                "startDate": "1939-01-01",
+                "roleName": "Chairman"
             },
             {
                 "@type": "Organization",
-                "name": "Board for Katrinebergs folk high school",
-                "position": "Member",
-                "startDate": "19XX-XX-XX"
+                "name": "Board of Katrinebergs Folk High School",
+                "startDate": "1939-01-01",
+                "roleName": "Member"
             }
         ],
-        "inspectorFor": {
-            "@type": "EducationalOrganization",
-            "name": "Secondary School",
-            "startDate": "19XX-XX-XX"
-        },
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Katrinebergs Folk High School",
+                "location": {
+                    "@type": "City",
+                    "name": "Kungsbacka"
+                },
+                "startDate": "1939-01-01",
+                "roleName": "Inspector"
+            },
+            {
+                "@type": "Organization",
+                "name": "Secondary School",
+                "location": {
+                    "@type": "City",
+                    "name": "Kungsbacka"
+                },
+                "startDate": "1944-01-01",
+                "roleName": "Inspector"
+            }
+        ],
         "awards": [
             {
                 "@type": "Order",
-                "name": "Knight of the Royal Order of Vasa",
+                "name": "Order of Vasa",
                 "dateAwarded": "1940"
             }
         ]

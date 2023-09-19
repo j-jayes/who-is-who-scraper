@@ -1,150 +1,137 @@
 {
     "original": "Åberg, Sven Folke, förste maskinin|genjör, Norrköping, f. 10/7/91 i Mjölby av stat :insp. August Fredr. Å. o. Emma Carolina Pettersson. G. 19 m. Si|grid Erlandson. Barn: Sven Fredrik f. 20, Tor 22, Britt 23. — Stud:ex. i Lund 10, tillf. stud. v. KTH 11-12, ord. 12-14, avg:ex. (M) 14. Elev v. SJ 14, und:ing. v. maskinavd. i Gbg 17-24, v. maskinavd. i Kiruna 24-29, maskining. v. Kar Iskr.-Växjö järn v. 30-34 o. v. Växjö järnv. 35-40, v. S. J. sed. 41, förste maskining. i Växjö- 43’-46, i Norrköp. fr. 46.",
-    "translated": "Åberg, Sven Folke, first engineer, Norrköping, born on July 10th, 1891 in Mjölby to inspector August Fredrik Å. and Emma Carolina Pettersson. Married in 19 with Sigrid Erlandson. Children: Sven Fredrik born in 1920, Tor in 1922, Britt in 1923. Completed high school in Lund in 1910, temporary studies at KTH (The Royal Institute of Technology) in 1911-1912, regular studies from 1912-1914, received (M) degree in 1914. Trainee at SJ (Swedish State Railways) in 1914, assistant engineer at the machinery department in Gothenburg from 1917-1924, at the machinery department in Kiruna from 1924-1929, machinery engineer at Karlskrona-Irsta-Växjö ironworks from 1930-1934, and at Växjö railway from 1935-1940. Employed at SJ since 1941, first engineer in Växjö from 1943-1946, and in Norrköping from 1946 onwards.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Sven Folke\",\n  \"familyName\": \"Åberg\",\n  \"birthDate\": \"1891-07-10\",\n  \"birthPlace\": \"Mjölby\",\n  \"father\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"August Fredrik\",\n    \"familyName\": \"Åberg\"\n  },\n  \"mother\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Emma Carolina\",\n    \"familyName\": \"Pettersson\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Sigrid\",\n    \"familyName\": \"Erlandson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Sven Fredrik\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Tor\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Britt\",\n      \"birthDate\": \"1923\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. i Lund\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tillf. stud. v. KTH\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1912\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Ord. KTH stud.\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Avg:ex. (M)\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1914\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1914\",\n      \"roleName\": \"Trainee\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"SJ (Swedish State Railways)\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1917\",\n      \"endDate\": \"1924\",\n      \"roleName\": \"Assistant Engineer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Machinery Department in Gothenburg\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1929\",\n      \"roleName\": \"Assistant Engineer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Machinery Department in Kiruna\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1934\",\n      \"roleName\": \"Machinery Engineer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlskrona-Irsta-Växjö Ironworks\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1940\",\n      \"roleName\": \"Machinery Engineer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Växjö Railway\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1941\",\n      \"roleName\": \"Employee\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"SJ (Swedish State Railways)\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"1946\",\n      \"roleName\": \"First Engineer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Växjö\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1946\",\n      \"roleName\": \"First Engineer\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Norrköping\"\n      }\n    }\n  ]\n}",
+    "translated": "Åberg, Sven Folke, senior mechanical engineer, Norrköping, b. 10/7/91 in Mjölby to inspector August Fredr. Å. and Emma Carolina Pettersson. Married in 19 with Sigrid Erlandson. Children: Sven Fredrik b. 20, Tor b. 22, Britt b. 23. — High school graduate in Lund 10, temporary student at KTH 11-12, regular student 12-14, graduated (M) 14. Trainee at SJ 14, assistant engineer at the machinery department in Gothenburg 17-24, at the machinery department in Kiruna 24-29, machinery engineer at Kar Iskr.-Växjö ironworks from 30-34 and at Växjö railway from 35-40, at S.J. since 41, senior machinery engineer in Växjö from 43-46, and in Norrköping since 46.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åberg, Sven Folke\",\n  \"jobTitle\": \"Senior Mechanical Engineer\",\n  \"birthDate\": \"1891-07-10\",\n  \"birthPlace\": \"Mjölby\",\n  \"nationality\": \"Swedish\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åberg, August Fredr.\",\n      \"jobTitle\": \"Inspector\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Pettersson, Emma Carolina\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Erlandson, Sigrid\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åberg, Sven Fredrik\",\n      \"birthDate\": \"1920\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åberg, Tor\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Åberg, Britt\",\n      \"birthDate\": \"1923\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"High School Diploma\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"endDate\": \"1910\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"university\",\n      \"educationalLevel\": \"Bachelor's Degree\",\n      \"educationalCredentialAwarded\": \"(M)\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"KTH Royal Institute of Technology\"\n      },\n      \"startDate\": \"1911\",\n      \"endDate\": \"1914\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"EducationalOccupationalExperience\",\n      \"jobTitle\": \"Trainee\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Railways (SJ)\"\n      },\n      \"startDate\": \"1914\",\n      \"endDate\": \"1917\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalExperience\",\n      \"jobTitle\": \"Assistant Engineer\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Machinery Department, Gothenburg\"\n      },\n      \"startDate\": \"1917\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalExperience\",\n      \"jobTitle\": \"Machinery Engineer\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Machinery Department, Kiruna\"\n      },\n      \"startDate\": \"1924\",\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalExperience\",\n      \"jobTitle\": \"Machinery Engineer\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Karlskrona-Issköldsvik-Växjö Ironworks\"\n      },\n      \"startDate\": \"1930\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalExperience\",\n      \"jobTitle\": \"Machinery Engineer\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Växjö Railway\"\n      },\n      \"startDate\": \"1935\",\n      \"endDate\": \"1940\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalExperience\",\n      \"jobTitle\": \"Machinery Engineer\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Railways (SJ)\"\n      },\n      \"startDate\": \"1941\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Railways (SJ)\"\n    }\n  ]\n}",
     "structured": {
-        "@context": "https://schema.org",
+        "@context": "http://schema.org",
         "@type": "Person",
-        "givenName": "Sven Folke",
-        "familyName": "Åberg",
+        "name": "Åberg, Sven Folke",
+        "jobTitle": "Senior Mechanical Engineer",
         "birthDate": "1891-07-10",
         "birthPlace": "Mjölby",
-        "father": {
-            "@type": "Person",
-            "givenName": "August Fredrik",
-            "familyName": "Åberg"
-        },
-        "mother": {
-            "@type": "Person",
-            "givenName": "Emma Carolina",
-            "familyName": "Pettersson"
-        },
+        "nationality": "Swedish",
+        "parent": [
+            {
+                "@type": "Person",
+                "name": "Åberg, August Fredr.",
+                "jobTitle": "Inspector"
+            },
+            {
+                "@type": "Person",
+                "name": "Pettersson, Emma Carolina"
+            }
+        ],
         "spouse": {
             "@type": "Person",
-            "givenName": "Sigrid",
-            "familyName": "Erlandson"
+            "name": "Erlandson, Sigrid"
         },
         "children": [
             {
                 "@type": "Person",
-                "givenName": "Sven Fredrik",
+                "name": "Åberg, Sven Fredrik",
                 "birthDate": "1920"
             },
             {
                 "@type": "Person",
-                "givenName": "Tor",
+                "name": "Åberg, Tor",
                 "birthDate": "1922"
             },
             {
                 "@type": "Person",
-                "givenName": "Britt",
+                "name": "Åberg, Britt",
                 "birthDate": "1923"
             }
         ],
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Stud:ex. i Lund",
-                "startDate": "1910",
+                "credentialCategory": "high school",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "High School Diploma",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
                 "endDate": "1910"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Tillf. stud. v. KTH",
+                "credentialCategory": "university",
+                "educationalLevel": "Bachelor's Degree",
+                "educationalCredentialAwarded": "(M)",
+                "educationalInstitution": {
+                    "@type": "EducationalOrganization",
+                    "name": "KTH Royal Institute of Technology"
+                },
                 "startDate": "1911",
-                "endDate": "1912"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Ord. KTH stud.",
-                "startDate": "1912",
-                "endDate": "1914"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Avg:ex. (M)",
-                "startDate": "1914",
                 "endDate": "1914"
             }
         ],
-        "employmentHistory": [
+        "workExperience": [
             {
-                "@type": "OrganizationRole",
+                "@type": "EducationalOccupationalExperience",
+                "jobTitle": "Trainee",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Swedish Railways (SJ)"
+                },
                 "startDate": "1914",
-                "endDate": "1914",
-                "roleName": "Trainee",
-                "memberOf": {
-                    "@type": "Organization",
-                    "name": "SJ (Swedish State Railways)"
-                }
+                "endDate": "1917"
             },
             {
-                "@type": "OrganizationRole",
+                "@type": "EducationalOccupationalExperience",
+                "jobTitle": "Assistant Engineer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Machinery Department, Gothenburg"
+                },
                 "startDate": "1917",
-                "endDate": "1924",
-                "roleName": "Assistant Engineer",
-                "memberOf": {
-                    "@type": "Organization",
-                    "name": "Machinery Department in Gothenburg"
-                }
+                "endDate": "1924"
             },
             {
-                "@type": "OrganizationRole",
+                "@type": "EducationalOccupationalExperience",
+                "jobTitle": "Machinery Engineer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Machinery Department, Kiruna"
+                },
                 "startDate": "1924",
-                "endDate": "1929",
-                "roleName": "Assistant Engineer",
-                "memberOf": {
-                    "@type": "Organization",
-                    "name": "Machinery Department in Kiruna"
-                }
+                "endDate": "1929"
             },
             {
-                "@type": "OrganizationRole",
+                "@type": "EducationalOccupationalExperience",
+                "jobTitle": "Machinery Engineer",
+                "employer": {
+                    "@type": "Organization",
+                    "name": "Karlskrona-Issköldsvik-Växjö Ironworks"
+                },
                 "startDate": "1930",
-                "endDate": "1934",
-                "roleName": "Machinery Engineer",
-                "memberOf": {
-                    "@type": "Organization",
-                    "name": "Karlskrona-Irsta-Växjö Ironworks"
-                }
+                "endDate": "1940"
             },
             {
-                "@type": "OrganizationRole",
-                "startDate": "1935",
-                "endDate": "1940",
-                "roleName": "Machinery Engineer",
-                "memberOf": {
+                "@type": "EducationalOccupationalExperience",
+                "jobTitle": "Machinery Engineer",
+                "employer": {
                     "@type": "Organization",
                     "name": "Växjö Railway"
-                }
+                },
+                "startDate": "1935",
+                "endDate": "1940"
             },
             {
-                "@type": "OrganizationRole",
-                "startDate": "1941",
-                "roleName": "Employee",
-                "memberOf": {
+                "@type": "EducationalOccupationalExperience",
+                "jobTitle": "Machinery Engineer",
+                "employer": {
                     "@type": "Organization",
-                    "name": "SJ (Swedish State Railways)"
-                }
-            },
+                    "name": "Swedish Railways (SJ)"
+                },
+                "startDate": "1941"
+            }
+        ],
+        "memberOf": [
             {
-                "@type": "OrganizationRole",
-                "startDate": "1943",
-                "endDate": "1946",
-                "roleName": "First Engineer",
-                "memberOf": {
-                    "@type": "Organization",
-                    "name": "Växjö"
-                }
-            },
-            {
-                "@type": "OrganizationRole",
-                "startDate": "1946",
-                "roleName": "First Engineer",
-                "memberOf": {
-                    "@type": "Organization",
-                    "name": "Norrköping"
-                }
+                "@type": "Organization",
+                "name": "Swedish Railways (SJ)"
             }
         ]
     }

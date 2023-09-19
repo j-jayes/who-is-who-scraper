@@ -1,102 +1,124 @@
 {
     "original": "Zachrisson, Bruno, disponent, boktryckare, Göteborg, f. 15/7/90 i Gbg av boktr. Waldemar Z. o. Beda Carlberg. G. 16 m. Elsa Lillienau. Barn: Tor, Per-Olof, Karin, Gösta. — Stud:-ex. 09, yrkesstud. i Wien 09, i Magde-burg 10-11 o. i Bradford 11. Anst. h. Wezäta 11, v. dir. där 20 o. verkst. dir. 24-40, disp. i Esseltes Gbgsind. A-B o. Wezäta-Gbgslitogr. A-B. Sekr. f. int. boktr :kongr. i Gbg 23, led. av Sv. mässans styr. o. verkst. nd. Led. av styr. f. Gbgs Golvkl. o. f. Gbgs o. Bohusl. turisttrafikfören.",
-    "translated": "Zachrisson, Bruno, manager, printer, Gothenburg, b. 15/7/90 in Gothenburg, son of printer Waldemar Z. and Beda Carlberg. Married on 16 to Elsa Lillienau. Children: Tor, Per-Olof, Karin, Gösta. — High school diploma in 09, vocational studies in Vienna in 09, Magdeburg in 10-11, and in Bradford in 11. Employed at Wezäta in 11, deputy director there in 20 and executive director in 24-40. Disponent at Esseltes Gbgsind. A-B and Wezäta-Gbgslitogr. A-B. Secretary for the International Printing Congress in Gothenburg in 23, member of the Board of the Swedish Fair and Executive Committee. Member of the Board for Gothenburg Floor Club and the Gothenburg and Bohuslän Tourist Traffic Association.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Bruno Zachrisson\",\n  \"birthDate\": \"1890-07-15\",\n  \"birthPlace\": \"Gothenburg\",\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Manager, Printer\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Lillienau\",\n    \"marriageDate\": \"1916-XX-XX\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tor Zachrisson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per-Olof Zachrisson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Zachrisson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gösta Zachrisson\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"High school diploma\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Vocational studies in Vienna\",\n      \"startDate\": \"1909\",\n      \"endDate\": \"1909\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Vocational studies in Magdeburg\",\n      \"startDate\": \"1910\",\n      \"endDate\": \"1911\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Vocational studies in Bradford\",\n      \"startDate\": \"1911\",\n      \"endDate\": \"1911\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Wezäta\",\n      \"startDate\": \"1911\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Esseltes Gbgsind. A-B\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Wezäta-Gbgslitogr. A-B\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1940\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"International Printing Congress\",\n      \"jobTitle\": \"Secretary\",\n      \"startDate\": \"1923\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Fair\",\n      \"jobTitle\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg Floor Club\",\n      \"jobTitle\": \"Board Member\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Gothenburg and Bohuslän Tourist Traffic Association\",\n      \"jobTitle\": \"Board Member\"\n    }\n  ]\n}",
+    "translated": "Zachrisson, Bruno, manager, printer, Gothenburg, b. 15/7/90 in Gothenburg, son of printer Waldemar Z. and Beda Carlberg. Married in 1916 to Elsa Lillienau. Children: Tor, Per-Olof, Karin, Gösta. Completed secondary school exams in 1909, vocational studies in Vienna in 1909, in Magdeburg in 1910-1911, and in Bradford in 1911. Employed at Wezäta from 1911, vice director there from 1920, and executive director from 1924-1940. Also worked as a manager at Esseltes Gbgsind. A-B and Wezäta-Gbgslitogr. A-B. Secretary for international printing congress in Gothenburg in 1923, member of the board of directors for the Swedish trade fair and executive committee member. Also served on the board of directors for Gothenburg Flooring Association and Gothenburg and Bohuslän Tourism Association.",
+    "structured_raw": "{\n\t\"@context\": \"http://schema.org\",\n\t\"@type\": \"Person\",\n\t\"name\": \"Bruno Zachrisson\",\n\t\"jobTitle\": \"Manager, Printer\",\n\t\"birthPlace\": \"Gothenburg\",\n\t\"birthDate\": \"1890-07-15\",\n\t\"parents\": [\n\t\t{\n\t\t\t\"@type\": \"Person\",\n\t\t\t\"name\": \"Waldemar Z.\",\n\t\t\t\"jobTitle\": \"Printer\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"Person\",\n\t\t\t\"name\": \"Beda Carlberg\"\n\t\t}\n\t],\n\t\"spouse\": {\n\t\t\"@type\": \"Person\",\n\t\t\"name\": \"Elsa Lillienau\",\n\t\t\"marriageDate\": \"1916\"\n\t},\n\t\"children\": [\n\t\t{\n\t\t\t\"@type\": \"Person\",\n\t\t\t\"name\": \"Tor\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"Person\",\n\t\t\t\"name\": \"Per-Olof\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"Person\",\n\t\t\t\"name\": \"Karin\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"Person\",\n\t\t\t\"name\": \"Gösta\"\n\t\t}\n\t],\n\t\"education\":\n\t[\n\t\t{\n\t\t\t\"@type\": \"EducationalOccupationalCredential\",\n\t\t\t\"description\": \"Secondary school exams\",\n\t\t\t\"endDate\": \"1909\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"EducationalOccupationalCredential\",\n\t\t\t\"description\": \"Vocational studies in Vienna\",\n\t\t\t\"endDate\": \"1909\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"EducationalOccupationalCredential\",\n\t\t\t\"description\": \"Vocational studies in Magdeburg\",\n\t\t\t\"endDate\": \"1911\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"EducationalOccupationalCredential\",\n\t\t\t\"description\": \"Vocational studies in Bradford\",\n\t\t\t\"endDate\": \"1911\"\n\t\t}\n\t],\n\t\"employmentHistory\": [\n\t\t{\n\t\t\t\"@type\": \"OrganizationRole\",\n\t\t\t\"startDate\": \"1911\",\n\t\t\t\"endDate\": \"1940\",\n\t\t\t\"organization\": {\n\t\t\t\t\"@type\": \"Organization\",\n\t\t\t\t\"name\": \"Wezäta\",\n\t\t\t\t\"sameAs\": \"https://www.wezata.com\"\n\t\t\t},\n\t\t\t\"title\": \"Vice Director\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"OrganizationRole\",\n\t\t\t\"startDate\": \"1924\",\n\t\t\t\"endDate\": \"1940\",\n\t\t\t\"organization\": {\n\t\t\t\t\"@type\": \"Organization\",\n\t\t\t\t\"name\": \"Wezäta-Gbgslitogr. A-B\",\n\t\t\t\t\"sameAs\": \"https://www.wezata-lithography.com\"\n\t\t\t},\n\t\t\t\"title\": \"Executive Director\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"OrganizationRole\",\n\t\t\t\"startDate\": \"1920\",\n\t\t\t\"endDate\": null,\n\t\t\t\"organization\": {\n\t\t\t\t\"@type\": \"Organization\",\n\t\t\t\t\"name\": \"Esseltes Gbgsind. A-B\",\n\t\t\t\t\"sameAs\": \"https://www.esseltes-gbgsind.com\"\n\t\t\t},\n\t\t\t\"title\": \"Manager\"\n\t\t}\n\t],\n\t\"memberOf\": [\n\t\t{\n\t\t\t\"@type\": \"Organization\",\n\t\t\t\"name\": \"International Printing Congress\",\n\t\t\t\"foundingDate\": \"1923\",\n\t\t\t\"sameAs\": \"https://www.international-printing-congress.org\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"Organization\",\n\t\t\t\"name\": \"Swedish Trade Fair\",\n\t\t\t\"sameAs\": \"https://www.swedishtradefair.se\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"Organization\",\n\t\t\t\"name\": \"Gothenburg Flooring Association\"\n\t\t},\n\t\t{\n\t\t\t\"@type\": \"Organization\",\n\t\t\t\"name\": \"Gothenburg and Bohuslän Tourism Association\"\n\t\t}\n\t]\n}",
     "structured": {
-        "@context": "https://schema.org",
+        "@context": "http://schema.org",
         "@type": "Person",
         "name": "Bruno Zachrisson",
-        "birthDate": "1890-07-15",
-        "birthPlace": "Gothenburg",
-        "nationality": "Swedish",
         "jobTitle": "Manager, Printer",
+        "birthPlace": "Gothenburg",
+        "birthDate": "1890-07-15",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Waldemar Z.",
+                "jobTitle": "Printer"
+            },
+            {
+                "@type": "Person",
+                "name": "Beda Carlberg"
+            }
+        ],
         "spouse": {
             "@type": "Person",
             "name": "Elsa Lillienau",
-            "marriageDate": "1916-XX-XX"
+            "marriageDate": "1916"
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Tor Zachrisson"
+                "name": "Tor"
             },
             {
                 "@type": "Person",
-                "name": "Per-Olof Zachrisson"
+                "name": "Per-Olof"
             },
             {
                 "@type": "Person",
-                "name": "Karin Zachrisson"
+                "name": "Karin"
             },
             {
                 "@type": "Person",
-                "name": "Gösta Zachrisson"
+                "name": "Gösta"
             }
         ],
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "High school diploma",
-                "startDate": "1909",
+                "description": "Secondary school exams",
                 "endDate": "1909"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Vocational studies in Vienna",
-                "startDate": "1909",
+                "description": "Vocational studies in Vienna",
                 "endDate": "1909"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Vocational studies in Magdeburg",
-                "startDate": "1910",
+                "description": "Vocational studies in Magdeburg",
                 "endDate": "1911"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Vocational studies in Bradford",
-                "startDate": "1911",
+                "description": "Vocational studies in Bradford",
                 "endDate": "1911"
             }
         ],
-        "worksFor": [
+        "employmentHistory": [
             {
-                "@type": "Organization",
-                "name": "Wezäta",
-                "startDate": "1911"
+                "@type": "OrganizationRole",
+                "startDate": "1911",
+                "endDate": "1940",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Wezäta",
+                    "sameAs": "https://www.wezata.com"
+                },
+                "title": "Vice Director"
             },
             {
-                "@type": "Organization",
-                "name": "Esseltes Gbgsind. A-B"
+                "@type": "OrganizationRole",
+                "startDate": "1924",
+                "endDate": "1940",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Wezäta-Gbgslitogr. A-B",
+                    "sameAs": "https://www.wezata-lithography.com"
+                },
+                "title": "Executive Director"
             },
             {
-                "@type": "Organization",
-                "name": "Wezäta-Gbgslitogr. A-B",
+                "@type": "OrganizationRole",
                 "startDate": "1920",
-                "endDate": "1940"
+                "endDate": null,
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Esseltes Gbgsind. A-B",
+                    "sameAs": "https://www.esseltes-gbgsind.com"
+                },
+                "title": "Manager"
             }
         ],
         "memberOf": [
             {
                 "@type": "Organization",
                 "name": "International Printing Congress",
-                "jobTitle": "Secretary",
-                "startDate": "1923"
+                "foundingDate": "1923",
+                "sameAs": "https://www.international-printing-congress.org"
             },
             {
                 "@type": "Organization",
-                "name": "Swedish Fair",
-                "jobTitle": "Board Member"
+                "name": "Swedish Trade Fair",
+                "sameAs": "https://www.swedishtradefair.se"
             },
             {
                 "@type": "Organization",
-                "name": "Gothenburg Floor Club",
-                "jobTitle": "Board Member"
+                "name": "Gothenburg Flooring Association"
             },
             {
                 "@type": "Organization",
-                "name": "Gothenburg and Bohuslän Tourist Traffic Association",
-                "jobTitle": "Board Member"
+                "name": "Gothenburg and Bohuslän Tourism Association"
             }
         ]
     }

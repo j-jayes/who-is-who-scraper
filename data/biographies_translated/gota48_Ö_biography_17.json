@@ -1,0 +1,81 @@
+{
+    "original": "Ögren, Olov Wilhelm, tandläkare, Göteborg, f. 29/6/02 i Lycksele, Väs-terb. 1., av kyrkoh. Erik Ö. o. Maria Sundberg. G. 31 m. Karin Berghem. Barn: Birgitta f. 34, Sten Erik 36, Margareta 44. — Stud:ex. i Härnösand 21, tysk tandläk. i Frankfurt am Main 29, sv. tandläk. 34. Praktik i Hudiksvall 34-3S, i Gbg sed. 36.",
+    "translated": "Ögren, Olov Wilhelm, dentist, Gothenburg, b. 29/6/02 in Lycksele, Västerbotten County, son of priest Erik Ö. and Maria Sundberg. Married on 31 with Karin Berghem. Children: Birgitta b. 34, Sten Erik b. 36, Margareta b. 44. — Graduated from high school in Härnösand in 21, studied dentistry in Frankfurt am Main in 29, Swedish dentistry in 34. Practiced in Hudiksvall from 34-35, in Gothenburg since 36.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Olov Wilhelm Ögren\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1902-06-29\",\n  \"birthPlace\": \"Lycksele, Västerbotten County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Ögren\",\n      \"jobTitle\": \"Priest\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Sundberg\"\n    }\n  ],\n  \"spouse\": \"Karin Berghem\",\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1934-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sten Erik\",\n      \"birthDate\": \"1936-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1944-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardingInstitution\": \"Härnösand\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dentistry degree\",\n      \"educationalLevel\": \"ProfessionalQualification\",\n      \"educationalCredentialAwarded\": \"German dentistry degree\",\n      \"awardingInstitution\": \"Frankfurt am Main\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"dentistry degree\",\n      \"educationalLevel\": \"ProfessionalQualification\",\n      \"educationalCredentialAwarded\": \"Swedish dentistry degree\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalBusiness\",\n      \"name\": \"Praktik i Hudiksvall\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"MedicalBusiness\",\n      \"name\": \"Praktik i Gothenburg\",\n      \"startDate\": \"1936\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Olov Wilhelm Ögren",
+        "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1902-06-29",
+        "birthPlace": "Lycksele, Västerbotten County",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Erik Ögren",
+                "jobTitle": "Priest"
+            },
+            {
+                "@type": "Person",
+                "name": "Maria Sundberg"
+            }
+        ],
+        "spouse": "Karin Berghem",
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Birgitta",
+                "birthDate": "1934-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Sten Erik",
+                "birthDate": "1936-01-01"
+            },
+            {
+                "@type": "Person",
+                "name": "Margareta",
+                "birthDate": "1944-01-01"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "high school diploma",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardingInstitution": "Härnösand"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dentistry degree",
+                "educationalLevel": "ProfessionalQualification",
+                "educationalCredentialAwarded": "German dentistry degree",
+                "awardingInstitution": "Frankfurt am Main"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "dentistry degree",
+                "educationalLevel": "ProfessionalQualification",
+                "educationalCredentialAwarded": "Swedish dentistry degree"
+            }
+        ],
+        "workExperience": [
+            {
+                "@type": "MedicalBusiness",
+                "name": "Praktik i Hudiksvall",
+                "startDate": "1934",
+                "endDate": "1935"
+            },
+            {
+                "@type": "MedicalBusiness",
+                "name": "Praktik i Gothenburg",
+                "startDate": "1936"
+            }
+        ]
+    }
+}

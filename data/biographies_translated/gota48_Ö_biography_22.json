@@ -1,0 +1,72 @@
+{
+    "original": "Öhman, Karl Åke, tandläkare, Kisa, f. 15/5/17 i Nyköping av dir. E. Ö. o. Magda Östergren. G. 42 m. Maja Sörme. Barn: Lars-Åke f. 43. — Stud:-ex. i Sthlm 36, tand :läk :ex. 42. Egen prakt, i Kisa fr. 42.",
+    "translated": "Öhman, Karl Åke, dentist, Kisa, born on May 15, 1917 in Nyköping to director E. Ö. and Magda Östergren. Married in 1942 to Maja Sörme. Children: Lars-Åke, born in 1943. Passed high school exams in Stockholm in 1936, dental exams in 1942. Started own practice in Kisa from 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Åke Öhman\",\n  \"occupation\": \"Dentist\",\n  \"birthDate\": \"1917-05-15\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Nyköping\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"E. Ö.\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Magda Östergren\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maja Sörme\"\n  },\n  \"child\": {\n    \"@type\": \"Person\",\n    \"name\": \"Lars-Åke Öhman\",\n    \"birthDate\": \"1943\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High school exams\",\n      \"educationalLevel\": \"SecondaryEducation\",\n      \"educationalCredentialAwarded\": \"Passed\",\n      \"awardingOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      },\n      \"startDate\": \"1936\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental exams\",\n      \"educationalLevel\": \"ProfessionalEducation\",\n      \"educationalCredentialAwarded\": \"Passed\",\n      \"awardingOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Tandläkarexamen\"\n      },\n      \"startDate\": \"1942\",\n      \"endDate\": \"1942\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Own Practice\"\n  },\n  \"location\": {\n    \"@type\": \"Place\",\n    \"name\": \"Kisa\"\n  },\n  \"startDate\": \"1942\"\n}",
+    "structured": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karl Åke Öhman",
+        "occupation": "Dentist",
+        "birthDate": "1917-05-15",
+        "birthPlace": {
+            "@type": "City",
+            "name": "Nyköping"
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "E. Ö.",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Magda Östergren"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Maja Sörme"
+        },
+        "child": {
+            "@type": "Person",
+            "name": "Lars-Åke Öhman",
+            "birthDate": "1943"
+        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "High school exams",
+                "educationalLevel": "SecondaryEducation",
+                "educationalCredentialAwarded": "Passed",
+                "awardingOrganization": {
+                    "@type": "Organization",
+                    "name": "Stockholm"
+                },
+                "startDate": "1936",
+                "endDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dental exams",
+                "educationalLevel": "ProfessionalEducation",
+                "educationalCredentialAwarded": "Passed",
+                "awardingOrganization": {
+                    "@type": "Organization",
+                    "name": "Tandläkarexamen"
+                },
+                "startDate": "1942",
+                "endDate": "1942"
+            }
+        ],
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Own Practice"
+        },
+        "location": {
+            "@type": "Place",
+            "name": "Kisa"
+        },
+        "startDate": "1942"
+    }
+}

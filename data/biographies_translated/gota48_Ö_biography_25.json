@@ -1,143 +1,102 @@
 {
     "original": "Öhrstam, Gunnar Johan Ernst, apotekare, Ödeshög, f. 10/7/92 i Ör, Kro-nob. 1. G. 27 m. Ebba Sofia Nilsson. Barn: Torsten Karl Gunnar f. 27, Erik Ernst Gunnar 29. — Studiex. i Växjö 18, farm. kand. 22, apot :ex. 27. Elev v. apot. Hjorten i Sthlm 19-21, anst. v. apot. i Alingsås o. Arvika, Fläkta Örn i Malimö, Lejonet i Sthllm samt Lejonet i Upps., priv. å apot. i Ödes-höig sed. 43’.",
-    "translated": "Öhrstam, Gunnar Johan Ernst, pharmacist, Ödeshög, b. 10/7/92 in Ör, Kronoberg County. 1st marriage 27 with Ebba Sofia Nilsson. Children: Torsten Karl Gunnar b. 27, Erik Ernst Gunnar b. 29. — Graduated from Växjö College 18, earned a degree in pharmacy 22, passed the pharmacist examination in 27. Trainee at Hjorten Pharmacy in Stockholm 19-21, employed at pharmacies in Alingsås and Arvika, Fläkta Örn in Malmö, Lejonet in Stockholm and Lejonet in Uppsala. Self-employed at Ödeshög Pharmacy since 43'.",
-    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Gunnar Johan Ernst Öhrstam\",\n  \"birthDate\": \"1892-07-10\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Ör, Kronoberg County, Sweden\"\n  },\n  \"memberOf\": \"Ödeshög\",\n  \"jobTitle\": \"Pharmacist\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ebba Sofia Nilsson\",\n    \"marriageDate\": \"1927\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torsten Karl Gunnar Öhrstam\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Ernst Gunnar Öhrstam\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Växjö College\",\n    \"startDate\": \"1918\",\n    \"endDate\": \"1922\"\n  },\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Växjö College\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1921\",\n      \"roleName\": \"Trainee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hjorten Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\",\n          \"addressRegion\": \"Stockholm\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1921\",\n      \"endDate\": null,\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Alingsås Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Alingsås\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1921\",\n      \"endDate\": null,\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Arvika Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Arvika\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Fläkta Örn Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Malmö\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lejonet Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Stockholm\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": null,\n      \"endDate\": null,\n      \"roleName\": \"Employee\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lejonet Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Uppsala\"\n        }\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1943\",\n      \"endDate\": null,\n      \"roleName\": \"Self-employed\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ödeshög Pharmacy\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Ödeshög\"\n        }\n      }\n    }\n  ]\n}",
+    "translated": "Öhrstam, Gunnar Johan Ernst, pharmacist, Ödeshög, b. 10/7/92 in Ör, Kronoberg county. 1st marriage on 27, to Ebba Sofia Nilsson. Children: Torsten Karl Gunnar b. 27, Erik Ernst Gunnar b. 29. — Graduated from Växjö College in 1918, pharmaceutical candidate in 1922, pharmacist's exam in 1927. Was an intern at Hjorten pharmacy in Stockholm from 1919 to 1921, employed at pharmacies in Alingsås and Arvika, Fläkta Örn in Malmö, Lejonet in Stockholm, and Lejonet in Uppsala. Settled privately at the Ödeshög pharmacy since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Öhrstam, Gunnar Johan Ernst\",\n  \"jobTitle\": \"Pharmacist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Ödeshög\"\n  },\n  \"birthDate\": \"1892-07-10\",\n  \"birthPlace\": \"Ör, Kronoberg county\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ebba Sofia Nilsson\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torsten Karl Gunnar\",\n      \"birthDate\": \"1927\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Erik Ernst Gunnar\",\n      \"birthDate\": \"1929\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"studex\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"Växjö College\",\n      \"validFrom\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"pharmkand\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"pharmaceutical candidate\",\n      \"validFrom\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"apotex\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"educationalCredentialAwarded\": \"pharmacist's exam\",\n      \"validFrom\": \"1927\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Intern\",\n      \"startDate\": \"1919\",\n      \"endDate\": \"1921\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Hjorten pharmacy in Stockholm\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Employee\",\n      \"organization\": [\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Alingsås pharmacy\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Arvika pharmacy\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Fläkta Örn in Malmö\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Lejonet in Stockholm\"\n        },\n        {\n          \"@type\": \"Organization\",\n          \"name\": \"Lejonet in Uppsala\"\n        }\n      ]\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Privately settled\",\n      \"startDate\": \"1943\",\n      \"endDate\": \"Present\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ödeshög pharmacy\"\n      }\n    }\n  ]\n}",
     "structured": {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Gunnar Johan Ernst Öhrstam",
-        "birthDate": "1892-07-10",
-        "birthPlace": {
-            "@type": "Place",
-            "name": "Ör, Kronoberg County, Sweden"
-        },
-        "memberOf": "Ödeshög",
+        "name": "Öhrstam, Gunnar Johan Ernst",
         "jobTitle": "Pharmacist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ödeshög"
+        },
+        "birthDate": "1892-07-10",
+        "birthPlace": "Ör, Kronoberg county",
         "spouse": {
             "@type": "Person",
-            "name": "Ebba Sofia Nilsson",
-            "marriageDate": "1927"
+            "name": "Ebba Sofia Nilsson"
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Torsten Karl Gunnar Öhrstam",
+                "name": "Torsten Karl Gunnar",
                 "birthDate": "1927"
             },
             {
                 "@type": "Person",
-                "name": "Erik Ernst Gunnar Öhrstam",
+                "name": "Erik Ernst Gunnar",
                 "birthDate": "1929"
             }
         ],
-        "education": {
-            "@type": "EducationalOrganization",
-            "name": "Växjö College",
-            "startDate": "1918",
-            "endDate": "1922"
-        },
-        "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "Växjö College"
-        },
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "studex",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "Växjö College",
+                "validFrom": "1918"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "pharmkand",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "pharmaceutical candidate",
+                "validFrom": "1922"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "apotex",
+                "educationalLevel": "Bachelor's degree",
+                "educationalCredentialAwarded": "pharmacist's exam",
+                "validFrom": "1927"
+            }
+        ],
         "workExperience": [
             {
                 "@type": "OrganizationRole",
+                "roleName": "Intern",
                 "startDate": "1919",
                 "endDate": "1921",
-                "roleName": "Trainee",
                 "organization": {
                     "@type": "Organization",
-                    "name": "Hjorten Pharmacy",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Stockholm",
-                        "addressRegion": "Stockholm"
-                    }
+                    "name": "Hjorten pharmacy in Stockholm"
                 }
             },
             {
                 "@type": "OrganizationRole",
-                "startDate": "1921",
-                "endDate": null,
                 "roleName": "Employee",
-                "organization": {
-                    "@type": "Organization",
-                    "name": "Alingsås Pharmacy",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Alingsås"
+                "organization": [
+                    {
+                        "@type": "Organization",
+                        "name": "Alingsås pharmacy"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Arvika pharmacy"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Fläkta Örn in Malmö"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Lejonet in Stockholm"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Lejonet in Uppsala"
                     }
-                }
+                ]
             },
             {
                 "@type": "OrganizationRole",
-                "startDate": "1921",
-                "endDate": null,
-                "roleName": "Employee",
-                "organization": {
-                    "@type": "Organization",
-                    "name": "Arvika Pharmacy",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Arvika"
-                    }
-                }
-            },
-            {
-                "@type": "OrganizationRole",
-                "startDate": null,
-                "endDate": null,
-                "roleName": "Employee",
-                "organization": {
-                    "@type": "Organization",
-                    "name": "Fläkta Örn Pharmacy",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Malmö"
-                    }
-                }
-            },
-            {
-                "@type": "OrganizationRole",
-                "startDate": null,
-                "endDate": null,
-                "roleName": "Employee",
-                "organization": {
-                    "@type": "Organization",
-                    "name": "Lejonet Pharmacy",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Stockholm"
-                    }
-                }
-            },
-            {
-                "@type": "OrganizationRole",
-                "startDate": null,
-                "endDate": null,
-                "roleName": "Employee",
-                "organization": {
-                    "@type": "Organization",
-                    "name": "Lejonet Pharmacy",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Uppsala"
-                    }
-                }
-            },
-            {
-                "@type": "OrganizationRole",
+                "roleName": "Privately settled",
                 "startDate": "1943",
-                "endDate": null,
-                "roleName": "Self-employed",
+                "endDate": "Present",
                 "organization": {
                     "@type": "Organization",
-                    "name": "Ödeshög Pharmacy",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Ödeshög"
-                    }
+                    "name": "Ödeshög pharmacy"
                 }
             }
         ]

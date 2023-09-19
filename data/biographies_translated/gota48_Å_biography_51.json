@@ -1,78 +1,99 @@
 {
     "original": "Årholm, Hedvigr Elise, tandläkare, Varberg, f. 17/4/05 i Arbrå, Gävleb. 1. G. 31 m. tandl. Simon Årholm. — Stud:ex. i Upps, 24, tandl :kand. 29, tandläk. 30. Aman. v. tandl :inst, tandfylln :avd. 30, assist, där 30-31, praktik i Vai^berg sed. 32. Ordf. i Var-bergs skyttekvinnor fr. fören. bild. 39, i Hall. skyttekvinnors förb. Statens mäst :märke i mauserskjutn. o. riksmed. i S 40, Gm i pistolskjutn., Hall. skytteförb. ftjSM.",
-    "translated": "Årholm, Hedvigr Elise, dentist, Varberg. Born on April 17, 1905 in Arbrå, Gävleborg County. First marriage in 1931 with dentist Simon Årholm. Completed secondary school in Uppsala in 1924. Graduated as a dental candidate in 1929 and as a dentist in 1930. Assistant at the dental institution, specializing in dental fillings, from 1930. Worked as an assistant there from 1930 to 1931. Started practicing in Varberg from 1932 onwards. Became the chairperson of the Varberg Shooting Women Association from its establishment in 1939. Chairperson of the Halland Shooting Women's Federation. Received the National Champion's Badge in rifle shooting and the national medal in 1940 for pistol shooting.",
-    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hedvigr Elise Årholm\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1905-04-17\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Arbrå\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressCountry\": \"Sweden\",\n      \"addressRegion\": \"Gävleborg County\"\n    }\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Simon Årholm\",\n    \"jobTitle\": \"Dentist\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"educationalLevel\": \"Secondary school\",\n    \"startDate\": \"1924\",\n    \"endDate\": \"1924\",\n    \"institution\": {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Uppsala University\"\n    }\n  },\n  \"alumniOf\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Uppsala University\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Varberg Shooting Women Association\",\n    \"foundingDate\": \"1939\"\n  },\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Halland Shooting Women's Federation\"\n  },\n  \"award\": {\n    \"@type\": \"Medal\",\n    \"name\": \"National Champion's Badge\",\n    \"dateAwarded\": \"1940\",\n    \"awardedBy\": \"Sweden\"\n  },\n  \"award\": {\n    \"@type\": \"Medal\",\n    \"name\": \"National Medal\",\n    \"dateAwarded\": \"1940\",\n    \"awardedBy\": \"Sweden\"\n  },\n  \"career\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Dentistry\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Assistant\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Dental Institution\"\n      },\n      \"location\": \"Varberg\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Dentist\",\n      \"startDate\": \"1932\",\n      \"employer\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Private Practice\"\n      },\n      \"location\": \"Varberg\"\n    }\n  ]\n}",
+    "translated": "Årholm, Hedvigr Elise, dentist, Varberg, b. 17/4/05 in Arbrå, Gävle County. 1st marriage, married in 1931 to dentist Simon Årholm. — Completed high school in Uppsala in 1924, dental studies 1929, became a dentist in 1930. Assistant at dental institute, department of dental fillings, in 1930, worked as an assistant there until 1931. Started practicing dentistry in Varberg since 1932. Became the chairperson of Varbergs women's shooting association since its establishment in 1939, chairperson of the Halland women's shooting federation. Received the State's Master marksmanship award in rifle shooting and national medal in 1940. Participated in pistol shooting, became a champion of the Halland shooting federation.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Hedvigr Elise Årholm\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Varberg\"\n  },\n  \"gender\": \"Female\",\n  \"birthDate\": \"1905-04-17\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Arbrå\"\n  },\n  \"nationality\": \"Swedish\",\n  \"spouse\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Simon Årholm\",\n      \"jobTitle\": \"Dentist\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"highSchoolDiploma\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalRole\": \"Graduate\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\"\n      },\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelorDegree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalRole\": \"Dental student\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"sameAs\": \"https://www.uppsalauniversity.se\"\n      },\n      \"endDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"professionalDegree\",\n      \"educationalLevel\": \"AdvancedDegree\",\n      \"educationalRole\": \"Dentist\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"sameAs\": \"https://www.uppsalauniversity.se\"\n      },\n      \"endDate\": \"1930\"\n    }\n  ],\n  \"worksFor\": \"Varberg\",\n  \"jobStartDate\": \"1932\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Varbergs skyttekvinnor\",\n      \"foundingDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Hall. skyttekvinnors förb.\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"State's Master Marksmanship\",\n      \"category\": \"Rifle shooting\",\n      \"dateAwarded\": \"1940\"\n    },\n    {\n      \"@type\": \"Medal\",\n      \"name\": \"National Medal\",\n      \"category\": \"Rifle shooting\",\n      \"dateAwarded\": \"1940\"\n    }\n  ],\n  \"sportsEvent\": [\n    {\n      \"@type\": \"SportsEvent\",\n      \"name\": \"Pistol Shooting\",\n      \"championOf\": \"Halland shooting federation\"\n    }\n  ]\n}",
     "structured": {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Person",
         "name": "Hedvigr Elise Årholm",
         "jobTitle": "Dentist",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Varberg"
+        },
+        "gender": "Female",
         "birthDate": "1905-04-17",
         "birthPlace": {
-            "@type": "Place",
-            "name": "Arbrå",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "Sweden",
-                "addressRegion": "Gävleborg County"
-            }
+            "@type": "City",
+            "name": "Arbrå"
         },
-        "spouse": {
-            "@type": "Person",
-            "name": "Simon Årholm",
-            "jobTitle": "Dentist"
-        },
-        "education": {
-            "@type": "EducationalOccupationalCredential",
-            "educationalLevel": "Secondary school",
-            "startDate": "1924",
-            "endDate": "1924",
-            "institution": {
-                "@type": "EducationalOrganization",
-                "name": "Uppsala University"
-            }
-        },
-        "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "Uppsala University"
-        },
-        "memberOf": {
-            "@type": "Organization",
-            "name": "Halland Shooting Women's Federation"
-        },
-        "award": {
-            "@type": "Medal",
-            "name": "National Medal",
-            "dateAwarded": "1940",
-            "awardedBy": "Sweden"
-        },
-        "career": [
+        "nationality": "Swedish",
+        "spouse": [
             {
-                "@type": "MedicalSpecialty",
-                "name": "Dentistry",
-                "startDate": "1929",
+                "@type": "Person",
+                "name": "Simon Årholm",
+                "jobTitle": "Dentist"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "highSchoolDiploma",
+                "educationalLevel": "HighSchool",
+                "educationalRole": "Graduate",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University"
+                },
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "bachelorDegree",
+                "educationalLevel": "Undergraduate",
+                "educationalRole": "Dental student",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "sameAs": "https://www.uppsalauniversity.se"
+                },
+                "endDate": "1929"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "professionalDegree",
+                "educationalLevel": "AdvancedDegree",
+                "educationalRole": "Dentist",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "sameAs": "https://www.uppsalauniversity.se"
+                },
                 "endDate": "1930"
+            }
+        ],
+        "worksFor": "Varberg",
+        "jobStartDate": "1932",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Varbergs skyttekvinnor",
+                "foundingDate": "1939"
             },
             {
-                "@type": "Occupation",
-                "name": "Assistant",
-                "startDate": "1930",
-                "endDate": "1931",
-                "employer": {
-                    "@type": "Organization",
-                    "name": "Dental Institution"
-                },
-                "location": "Varberg"
+                "@type": "Organization",
+                "name": "Hall. skyttekvinnors förb."
+            }
+        ],
+        "awards": [
+            {
+                "@type": "Medal",
+                "name": "State's Master Marksmanship",
+                "category": "Rifle shooting",
+                "dateAwarded": "1940"
             },
             {
-                "@type": "Occupation",
-                "name": "Dentist",
-                "startDate": "1932",
-                "employer": {
-                    "@type": "Organization",
-                    "name": "Private Practice"
-                },
-                "location": "Varberg"
+                "@type": "Medal",
+                "name": "National Medal",
+                "category": "Rifle shooting",
+                "dateAwarded": "1940"
+            }
+        ],
+        "sportsEvent": [
+            {
+                "@type": "SportsEvent",
+                "name": "Pistol Shooting",
+                "championOf": "Halland shooting federation"
             }
         ]
     }

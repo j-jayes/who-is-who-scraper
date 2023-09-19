@@ -1,19 +1,22 @@
 {
     "original": "Åkerblom, Lennart Sigfrid, tandläkare, Göte|borg, f. 1/4/83 i Örgryte, Gbgs o. Boh. 1., av tullförv. Johan L. Å. o. Amelie Neukammer. G. 24 m. Maud Lamm. —.Mog:ex. v. Gbgs h. real 04, tandl-.kand. 06, tandläk. 08. E. o. kam-marskriv. v. tullverket i Gbg under åren 04 o. 06, tandl :praktik i Gbg sed. 08.",
-    "translated": "Åkerblom, Lennart Sigfrid, dentist, Gothenburg, born on April 1, 1883 in Örgryte, Gothenburg and Bohus County, son of customs inspector Johan L. Å. and Amelie Neukammer. Married on April 24, 19xx to Maud Lamm. Education: Graduated from Gothenburg Higher Real School in 1904, dental studies completed in 1906, became a licensed dentist in 1908. Employed as a assistant clerk at the Customs Office in Gothenburg in 1904 and 1906. Started dental practice in Gothenburg in 1908.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Lennart Sigfrid Åkerblom\",\n  \"jobTitle\": \"dentist\",\n  \"birthPlace\": \"Örgryte, Gothenburg and Bohus County\",\n  \"birthDate\": \"1883-04-01\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L. Åkerblom\",\n      \"jobTitle\": \"customs inspector\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amelie Neukammer\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maud Lamm\"\n  },\n  \"education\": {\n    \"@type\": \"EducationalOccupationalCredential\",\n    \"credentialCategory\": \"high school diploma\",\n    \"credentialEarned\": \"Gothenburg Higher Real School\",\n    \"dateEarned\": \"1904-xx-xx\"\n  },\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationEvent\",\n      \"institution\": \"Gothenburg Higher Real School\",\n      \"attendee\": \"Lennart Sigfrid Åkerblom\",\n      \"endDate\": \"1904-xx-xx\"\n    },\n    {\n      \"@type\": \"EducationEvent\",\n      \"attendee\": \"Lennart Sigfrid Åkerblom\",\n      \"name\": \"Dental Studies\",\n      \"endDate\": \"1906-xx-xx\"\n    }\n  ],\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Customs Office\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"employer\": \"Customs Office\",\n      \"employee\": \"Lennart Sigfrid Åkerblom\",\n      \"startDate\": \"1904-xx-xx\",\n      \"endDate\": \"1906-xx-xx\",\n      \"jobTitle\": \"assistant clerk\"\n    },\n    {\n      \"@type\": \"EmploymentEvent\",\n      \"startDate\": \"1908-xx-xx\",\n      \"jobTitle\": \"dentist\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Gothenburg\"\n        }\n      }\n    }\n  ]\n}",
+    "translated": "Åkerblom, Lennart Sigfrid, dentist, Gothenburg, born on April 1, 1883 in Örgryte, Gothenburg and Bohus County, eldest son of customs officer Johan L. Å. and Amelie Neukammer. Married on January 24, 19xx to Maud Lamm. Completed higher secondary education in Gothenburg in 1904, graduated with a degree in dentistry in 1906, became a licensed dentist in 1908. Employed as a clerk at the Customs Office in Gothenburg in 1904 and 1906, practiced dentistry in Gothenburg since 1908.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Lennart Sigfrid Åkerblom\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1883-04-01\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Örgryte, Gothenburg, Gothenburg and Bohus County\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Johan L. Åkerblom\",\n      \"jobTitle\": \"Customs Officer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Amelie Neukammer\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Maud Lamm\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Higher Secondary Education\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"High School Diploma\",\n      \"awardingOrganization\": \"Gothenburg Higher Secondary School\",\n      \"awardDate\": \"1904\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dentistry\",\n      \"educationalLevel\": \"BachelorsDegree\",\n      \"educationalCredentialAwarded\": \"Dental Degree\",\n      \"awardingOrganization\": \"Gothenburg Dental School\",\n      \"awardDate\": \"1906\"\n    }\n  ],\n  \"workExperience\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Clerk\",\n      \"startDate\": \"1904\",\n      \"endDate\": \"1906\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Customs Office\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Dentist\",\n      \"startDate\": \"1908\",\n      \"organization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg Dental Practice\"\n      }\n    }\n  ]\n}",
     "structured": {
-        "@context": "https://schema.org",
+        "@context": "https://schema.org/",
         "@type": "Person",
         "name": "Lennart Sigfrid Åkerblom",
-        "jobTitle": "dentist",
-        "birthPlace": "Örgryte, Gothenburg and Bohus County",
+        "jobTitle": "Dentist",
         "birthDate": "1883-04-01",
+        "birthPlace": {
+            "@type": "Place",
+            "name": "Örgryte, Gothenburg, Gothenburg and Bohus County"
+        },
         "parents": [
             {
                 "@type": "Person",
                 "name": "Johan L. Åkerblom",
-                "jobTitle": "customs inspector"
+                "jobTitle": "Customs Officer"
             },
             {
                 "@type": "Person",
@@ -24,49 +27,42 @@
             "@type": "Person",
             "name": "Maud Lamm"
         },
-        "education": {
-            "@type": "EducationalOccupationalCredential",
-            "credentialCategory": "high school diploma",
-            "credentialEarned": "Gothenburg Higher Real School",
-            "dateEarned": "1904-xx-xx"
-        },
-        "alumniOf": [
+        "education": [
             {
-                "@type": "EducationEvent",
-                "institution": "Gothenburg Higher Real School",
-                "attendee": "Lennart Sigfrid Åkerblom",
-                "endDate": "1904-xx-xx"
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Higher Secondary Education",
+                "educationalLevel": "HighSchool",
+                "educationalCredentialAwarded": "High School Diploma",
+                "awardingOrganization": "Gothenburg Higher Secondary School",
+                "awardDate": "1904"
             },
             {
-                "@type": "EducationEvent",
-                "attendee": "Lennart Sigfrid Åkerblom",
-                "name": "Dental Studies",
-                "endDate": "1906-xx-xx"
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Dentistry",
+                "educationalLevel": "BachelorsDegree",
+                "educationalCredentialAwarded": "Dental Degree",
+                "awardingOrganization": "Gothenburg Dental School",
+                "awardDate": "1906"
             }
         ],
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Customs Office"
-        },
-        "employmentHistory": [
+        "workExperience": [
             {
-                "@type": "EmploymentEvent",
-                "employer": "Customs Office",
-                "employee": "Lennart Sigfrid Åkerblom",
-                "startDate": "1904-xx-xx",
-                "endDate": "1906-xx-xx",
-                "jobTitle": "assistant clerk"
+                "@type": "OrganizationRole",
+                "roleName": "Clerk",
+                "startDate": "1904",
+                "endDate": "1906",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Customs Office"
+                }
             },
             {
-                "@type": "EmploymentEvent",
-                "startDate": "1908-xx-xx",
-                "jobTitle": "dentist",
-                "location": {
-                    "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Gothenburg"
-                    }
+                "@type": "OrganizationRole",
+                "roleName": "Dentist",
+                "startDate": "1908",
+                "organization": {
+                    "@type": "Organization",
+                    "name": "Gothenburg Dental Practice"
                 }
             }
         ]

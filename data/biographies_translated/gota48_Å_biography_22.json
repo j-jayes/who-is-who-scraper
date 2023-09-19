@@ -1,82 +1,87 @@
 {
     "original": "Åhmansson, Nils Carl Erik, assu-ransdirektör, Göteborg, f. 20/12/97 i Gbg av dir. Nils E. Ä. o. Anna Larsson. G. 34 m. Ingeborg Wulff. Barn: Gunvor f. 35, Ingela 36, Nils Erik 41. —• Verkst. dir. i Sv:es ångf. assur, fören. 43, i Ömises. Förs :bol. Protec-tion &amp; Indemnity fr. 46. Led. av krigs-försäkr md 43, styr :led. i Lloyds’ Reg. sv. komm.. fr. 43, i A-B Gbgs Hand:-bank 46. RVO, FFrK.",
-    "translated": "Åhmansson, Nils Carl Erik, insurance director, Gothenburg, b. 20/12/97 in Gothenburg, son of director Nils E. Ä. and Anna Larsson. Married in 1934 to Ingeborg Wulff. Children: Gunvor b. 1935, Ingela b. 1936, Nils Erik b. 1941. Managing director of Swedish Steamship Insurance Association from 1943, of Ömises Insurance Company from 1946. Member of the War Insurance Committee from 1943, board member of Lloyds' Register Swedish committee from 1943, and of A-B Gothenburgs Handelsbank from 1946. Recipient of the Royal Order of Vasa and the Freemason's Order of the Sword.",
-    "structured_raw": "{\n  \"name\": \"Åhmansson, Nils Carl Erik\",\n  \"jobTitle\": \"Insurance director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1897-12-20\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"name\": \"Nils E. Ä.\",\n      \"relation\": \"father\",\n      \"occupation\": \"director\"\n    },\n    {\n      \"name\": \"Anna Larsson\",\n      \"relation\": \"mother\"\n    }\n  ],\n  \"spouse\": {\n    \"name\": \"Ingeborg Wulff\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"name\": \"Gunvor\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"name\": \"Ingela\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"name\": \"Nils Erik\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"jobTitleHistory\": [\n    {\n      \"jobTitle\": \"Managing director\",\n      \"employer\": \"Swedish Steamship Insurance Association\",\n      \"startDate\": \"1943\",\n      \"endDate\": null\n    },\n    {\n      \"jobTitle\": \"Managing director\",\n      \"employer\": \"Ömises Insurance Company\",\n      \"startDate\": \"1946\",\n      \"endDate\": null\n    }\n  ],\n  \"membership\": [\n    {\n      \"organization\": \"War Insurance Committee\",\n      \"role\": \"Member\",\n      \"startDate\": \"1943\",\n      \"endDate\": null\n    },\n    {\n      \"organization\": \"Lloyds' Register Swedish committee\",\n      \"role\": \"Board member\",\n      \"startDate\": \"1943\",\n      \"endDate\": null\n    },\n    {\n      \"organization\": \"A-B Gothenburgs Handelsbank\",\n      \"role\": \"Board member\",\n      \"startDate\": \"1946\",\n      \"endDate\": null\n    }\n  ],\n  \"awards\": [\n    \"Royal Order of Vasa\",\n    \"Freemason's Order of the Sword\"\n  ]\n}",
+    "translated": "Åhmansson, Nils Carl Erik, insurance director, Gothenburg, born on December 20th, 1897 in Gothenburg to director Nils E. Ä. and Anna Larsson. Married in 1934 to Ingeborg Wulff. Children: Gunvor born in 1935, Ingela in 1936, Nils Erik in 1941. Executive director of Svenska Ångfartygs Assuransföreningen from 1943, in Ömises Försäkringsbolag on Protection & Indemnity from 1946. Member of the war insurance committee since 1943, board member in Lloyd's Register Swedish committee from 1943, in AB Goteborgs Handelsbank from 1946. Received the Royal Order of Vasa, the Order of the Polar Star.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Åhmansson, Nils Carl Erik\",\n  \"jobTitle\": \"Insurance director\",\n  \"birthDate\": \"1897-12-20\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils E. Ä. Åhmansson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anna Larsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingeborg Wulff\",\n    \"marriageDate\": \"1934\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunvor\",\n      \"birthDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingela\",\n      \"birthDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils Erik\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Svenska Ångfartygs Assuransföreningen\",\n      \"jobTitle\": \"Executive director\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Ömises Försäkringsbolag on Protection & Indemnity\",\n      \"jobTitle\": \"Executive director\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"War Insurance Committee\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Lloyd's Register Swedish Committee\",\n      \"startDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Goteborgs Handelsbank\",\n      \"jobTitle\": \"Board member\",\n      \"startDate\": \"1946\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\"\n    },\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Order of the Polar Star\"\n    }\n  ]\n}",
     "structured": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
         "name": "Åhmansson, Nils Carl Erik",
         "jobTitle": "Insurance director",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Gothenburg"
-        },
         "birthDate": "1897-12-20",
         "birthPlace": "Gothenburg",
-        "parents": [
+        "parent": [
             {
-                "name": "Nils E. Ä.",
-                "relation": "father",
-                "occupation": "director"
+                "@type": "Person",
+                "name": "Nils E. Ä. Åhmansson"
             },
             {
-                "name": "Anna Larsson",
-                "relation": "mother"
+                "@type": "Person",
+                "name": "Anna Larsson"
             }
         ],
         "spouse": {
+            "@type": "Person",
             "name": "Ingeborg Wulff",
             "marriageDate": "1934"
         },
         "children": [
             {
+                "@type": "Person",
                 "name": "Gunvor",
                 "birthDate": "1935"
             },
             {
+                "@type": "Person",
                 "name": "Ingela",
                 "birthDate": "1936"
             },
             {
+                "@type": "Person",
                 "name": "Nils Erik",
                 "birthDate": "1941"
             }
         ],
-        "jobTitleHistory": [
+        "worksFor": [
             {
-                "jobTitle": "Managing director",
-                "employer": "Swedish Steamship Insurance Association",
-                "startDate": "1943",
-                "endDate": null
+                "@type": "Organization",
+                "name": "Svenska Ångfartygs Assuransföreningen",
+                "jobTitle": "Executive director",
+                "startDate": "1943"
             },
             {
-                "jobTitle": "Managing director",
-                "employer": "Ömises Insurance Company",
-                "startDate": "1946",
-                "endDate": null
+                "@type": "Organization",
+                "name": "Ömises Försäkringsbolag on Protection & Indemnity",
+                "jobTitle": "Executive director",
+                "startDate": "1946"
             }
         ],
-        "membership": [
+        "memberOf": [
             {
-                "organization": "War Insurance Committee",
-                "role": "Member",
-                "startDate": "1943",
-                "endDate": null
+                "@type": "Organization",
+                "name": "War Insurance Committee",
+                "startDate": "1943"
             },
             {
-                "organization": "Lloyds' Register Swedish committee",
-                "role": "Board member",
-                "startDate": "1943",
-                "endDate": null
+                "@type": "Organization",
+                "name": "Lloyd's Register Swedish Committee",
+                "startDate": "1943"
             },
             {
-                "organization": "A-B Gothenburgs Handelsbank",
-                "role": "Board member",
-                "startDate": "1946",
-                "endDate": null
+                "@type": "Organization",
+                "name": "AB Goteborgs Handelsbank",
+                "jobTitle": "Board member",
+                "startDate": "1946"
             }
         ],
         "awards": [
-            "Royal Order of Vasa",
-            "Freemason's Order of the Sword"
+            {
+                "@type": "Order",
+                "name": "Royal Order of Vasa"
+            },
+            {
+                "@type": "Order",
+                "name": "Order of the Polar Star"
+            }
         ]
     }
 }

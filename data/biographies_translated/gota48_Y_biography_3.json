@@ -1,27 +1,23 @@
 {
     "original": "Yllner, Nils Gustaf Natanael, tandläkare, Norrköping, f. 16/8/95 i Höja, Kristianst. 1., av kontr :prosten Axel Y. o. Ida Trägårdh. G. 21 m. Tyra Lind. Barn: Rolf f. 22, odont. kand., Ingegerd 26, Birgitta 32. — Stud:ex. v. Östra real i Sthlm 15, ing:ex. i Stre-litz 20, tandhkand. 25, tandläk. 27. Praktik i Norrköp. sed. 27. Ordf. i Odont. fören. 26-27.",
-    "translated": "Yllner, Nils Gustaf Natanael, dentist, Norrköping, b. 16/8/95 in Höja, Kristianstad County, 1st Parish, of the clergyman Axel Y. and Ida Trägårdh. Married in 1921 to Tyra Lind. Children: Rolf, b. 1922, dental student, Ingegerd, b. 1926, Birgitta, b. 1932. \n\nEducation: Graduated from Östra real in Stockholm in 1915, engineering degree from Stre-litz in 1920, dental degree in 1925, licensed dentist in 1927. \n\nPracticed dentistry in Norrköping since 1927. Served as chairman of the Dental Association in 1926-1927.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gustaf Natanael Yllner\",\n  \"birthDate\": \"1895-08-16\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Höja\"\n  },\n  \"nationality\": \"Swedish\",\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Norrköping\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel Yllner\",\n      \"jobTitle\": \"Clergyman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Trägårdh\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tyra Lind\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Yllner\",\n      \"birthDate\": \"1922\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd Yllner\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Yllner\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"Stud:ex.\",\n      \"educationalProgram\": \"Östra real\",\n      \"alumniOf\": \"Stockholm\",\n      \"startDate\": \"1915\",\n      \"endDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"Ing:ex.\",\n      \"educationalProgram\": \"Stre-litz\",\n      \"alumniOf\": \"unknown\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"Tandhkand.\",\n      \"educationalProgram\": \"unknown\",\n      \"alumniOf\": \"unknown\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"unknown\"\n    }\n  ],\n  \"about\": \"Practiced dentistry in Norrköping since 1927. Served as chairman of the Dental Association in 1926-1927.\"\n}",
+    "translated": "Yllner, Nils Gustaf Natanael, dentist, Norrköping, b. August 16th, 1895 in Höja, Kristianstad county, son of the dean Axel Y. and Ida Trägårdh. Married in 1921 to Tyra Lind. Children: Rolf b. 1922, dental student, Ingegerd b. 1926, Birgitta b. 1932. Completed secondary school at Östra Real in Stockholm in 1915, graduated with an engineering degree in Stre-litz in 1920, obtained a dental degree in 1925, became a licensed dentist in 1927. Practiced dentistry in Norrköping since 1927. Served as chairman of the Odontological Society in 1926-1927.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Gustaf Natanael Yllner\",\n  \"jobTitle\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Norrköping\"\n  },\n  \"birthDate\": \"1895-08-16\",\n  \"birthPlace\": \"Höja, Kristianstad County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Axel Yllner\",\n      \"jobTitle\": \"Dean\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ida Trägårdh\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tyra Lind\",\n    \"marriageDate\": \"1921\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rolf Yllner\",\n      \"birthDate\": \"1922\",\n      \"jobTitle\": \"Dental Student\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingegerd Yllner\",\n      \"birthDate\": \"1926\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Yllner\",\n      \"birthDate\": \"1932\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondarySchool\",\n      \"educationalLevel\": \"Studex\",\n      \"educationalRole\": \"student\",\n      \"startDate\": \"1915\",\n      \"alumniOf\": \"Östra Real, Stockholm\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"universityDegree\",\n      \"educationalLevel\": \"Engineering Degree\",\n      \"educationalRole\": \"student\",\n      \"startDate\": \"1920\",\n      \"alumniOf\": \"Stre-litz\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"universityDegree\",\n      \"educationalLevel\": \"Dental Degree\",\n      \"educationalRole\": \"student\",\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"occupation\": {\n    \"@type\": \"Occupation\",\n    \"name\": \"Dentist\",\n    \"startDate\": \"1927\"\n  },\n  \"memberOf\": {\n    \"@type\": \"OrganizationRole\",\n    \"memberOf\": {\n      \"@type\": \"Organization\",\n      \"name\": \"Odontological Society\"\n    },\n    \"roleName\": \"Chairman\",\n    \"startDate\": \"1926\",\n    \"endDate\": \"1927\"\n  }\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Nils Gustaf Natanael Yllner",
-        "birthDate": "1895-08-16",
-        "birthPlace": {
-            "@type": "City",
-            "name": "Höja"
-        },
-        "nationality": "Swedish",
         "jobTitle": "Dentist",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Norrköping"
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Norrköping"
         },
+        "birthDate": "1895-08-16",
+        "birthPlace": "Höja, Kristianstad County",
         "parents": [
             {
                 "@type": "Person",
                 "name": "Axel Yllner",
-                "jobTitle": "Clergyman"
+                "jobTitle": "Dean"
             },
             {
                 "@type": "Person",
@@ -37,7 +33,8 @@
             {
                 "@type": "Person",
                 "name": "Rolf Yllner",
-                "birthDate": "1922"
+                "birthDate": "1922",
+                "jobTitle": "Dental Student"
             },
             {
                 "@type": "Person",
@@ -53,32 +50,42 @@
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "diploma",
-                "educationalLevel": "Stud:ex.",
-                "educationalProgram": "Östra real",
-                "alumniOf": "Stockholm",
+                "credentialCategory": "secondarySchool",
+                "educationalLevel": "Studex",
+                "educationalRole": "student",
                 "startDate": "1915",
-                "endDate": "unknown"
+                "alumniOf": "Östra Real, Stockholm"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "diploma",
-                "educationalLevel": "Ing:ex.",
-                "educationalProgram": "Stre-litz",
-                "alumniOf": "unknown",
+                "credentialCategory": "universityDegree",
+                "educationalLevel": "Engineering Degree",
+                "educationalRole": "student",
                 "startDate": "1920",
-                "endDate": "unknown"
+                "alumniOf": "Stre-litz"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "diploma",
-                "educationalLevel": "Tandhkand.",
-                "educationalProgram": "unknown",
-                "alumniOf": "unknown",
-                "startDate": "1925",
-                "endDate": "unknown"
+                "credentialCategory": "universityDegree",
+                "educationalLevel": "Dental Degree",
+                "educationalRole": "student",
+                "startDate": "1925"
             }
         ],
-        "about": "Practiced dentistry in Norrköping since 1927. Served as chairman of the Dental Association in 1926-1927."
+        "occupation": {
+            "@type": "Occupation",
+            "name": "Dentist",
+            "startDate": "1927"
+        },
+        "memberOf": {
+            "@type": "OrganizationRole",
+            "memberOf": {
+                "@type": "Organization",
+                "name": "Odontological Society"
+            },
+            "roleName": "Chairman",
+            "startDate": "1926",
+            "endDate": "1927"
+        }
     }
 }

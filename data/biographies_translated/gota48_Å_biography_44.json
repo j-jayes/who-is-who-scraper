@@ -1,173 +1,134 @@
 {
     "original": "Åkesson, Nils Johan, lasarettsläkare, Finspång, f. 25/10/95 i Gbg av lärov:-adj. Jöns Å. o. Hanna Larsson. G. 23 m. med. lic. Hilda Bengtsson. Barn: Bengt-Åke f, 24, med. kand., Ingrid 30, Karin 39. — Stud :ex. i Gbg 14, med. kand. 18 o. med. lic. 24 i Lund. Div. förordn. v. klin. o. las. 20-25, tf. und:-läk. v. Landskr. o. Trelleb. las. samt e. läk. v. röntgenklin. i Lund 26, andre und :läk. v. Falu las. kir. avd. 27-30, därunder vik. förste und’:’läk. sexton mån., tf. las :läk. i Avesta 30, tf. aman. o. tf. und:läk. v. Maria sjukh. kir. klin. s. å., aman. där 31, därunder tf. un-diläk. åtta mån., tf. und:läk. där samt e. o. aman. v. Sabbatsb. sjukh. öronpoliklin. 32, e. läk. v. Maria sjukh. kir. klin. 33, und:läk. där 33-38, därunder vik. överläk. åtta mån., und:-läk. v. med. avd. där 38-39, förste und :läk. o. bitr. las :läk. v. Falu las. kir. avd. 39, las :läk. i Finspång sed. 43’. Bat:läk. i Fik res. 27.",
-    "translated": "Åkesson, Nils Johan, hospital physician, Finspång, b. 25/10/1895 in Gothenburg to teacher's assistant Jöns Å. and Hanna Larsson. Married in 1923 to Hilda Bengtsson, medical licensee. Children: Bengt-Åke, b. 1924, medical candidate, Ingrid, b. 1930, Karin, b. 1939. Completed secondary school examination in Gothenburg in 1914, medical candidate in 1918, and medical license in Lund in 1924. Various appointments at clinics and hospitals from 1920-1925, temporary assistant physician at Landskrona and Trelleborg hospitals, and a radiology clinic physician in Lund in 1926. Assistant physician at Falun hospital surgical department from 1927-1930, including sixteen months as acting senior assistant physician. Temporary physician in Avesta in 1930, temporary assistant and acting assistant physician at Maria Hospital surgical clinic in the same year. Assistant physician at Maria Hospital in 1931, including eight months as acting junior physician. Temporary assistant physician at Maria Hospital and temporary assistant physician at Sabbatsberg Hospital Ear Polyclinic in 1932. Physician at Maria Hospital surgical clinic in 1933, junior physician there from 1933-1938, including eight months as acting senior physician. Junior physician in the medical department from 1938-1939, senior assistant physician and assistant hospital physician at Falun hospital surgical department in 1939, hospital physician in Finspång since 1943. Battalion physician in the Reserve from 1927.",
-    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Johan Åkesson\",\n  \"birthDate\": \"1895-10-25\",\n  \"birthPlace\": \"Gothenburg\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jöns Åkesson\",\n      \"jobTitle\": \"Teacher's Assistant\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Larsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hilda Bengtsson\",\n    \"jobTitle\": \"Medical Licensee\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt-Åke Åkesson\",\n      \"birthDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Åkesson\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Åkesson\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"SecondarySchoolExamination\",\n      \"educationalLevel\": \"Secondary\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      },\n      \"endDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"MedicalCandidate\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      },\n      \"endDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"MedicalLicense\",\n      \"educationalLevel\": \"Graduate\",\n      \"provider\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lund\"\n      },\n      \"endDate\": \"1924\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Clinic\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Landskrona Hospital\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1925\",\n      \"jobTitle\": \"Temporary Assistant Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Trelleborg Hospital\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1925\",\n      \"jobTitle\": \"Temporary Assistant Physician\"\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Radiology Clinic, Lund\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Falun Hospital\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Assistant Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Avesta\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": \"Temporary Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Maria Hospital\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1931\",\n      \"jobTitle\": \"Temporary Assistant Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Sabbatsberg Hospital\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\",\n      \"jobTitle\": \"Temporary Assistant Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Maria Hospital\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1938\",\n      \"jobTitle\": \"Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Maria Hospital\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1938\",\n      \"jobTitle\": \"Junior Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Falun Hospital\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\",\n      \"jobTitle\": \"Senior Assistant Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Falun Hospital\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\",\n      \"jobTitle\": \"Assistant Hospital Physician\"\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Finspång\",\n      \"startDate\": \"1943\",\n      \"jobTitle\": \"Hospital Physician\"\n    },\n    {\n      \"@type\": \"MilitaryOrganization\",\n      \"name\": \"Reserve\",\n      \"startDate\": \"1927\",\n      \"jobTitle\": \"Battalion Physician\"\n    }\n  ]\n}",
+    "translated": "Åkesson, Nils Johan, hospital physician, Finspång, born on October 25, 1895 in Gothenburg, son of secondary school teacher Jöns Å. and Hanna Larsson. Married since 1923 to medical licentiate Hilda Bengtsson. Children: Bengt-Åke, born in 1924, medical candidate; Ingrid, born in 1930; Karin, born in 1939. \n\nEducation: Graduated from secondary school in Gothenburg in 1914; medical candidate in 1918; medical licentiate in 1924 from Lund University. Various appointments as clinical and hospital physician from 1920 to 1925, acting assistant physician at Landskrona and Trelleborg hospitals; radiology physician in Lund in 1926; second assistant physician at Falun Hospital surgical department from 1927 to 1930, including a temporary position as first assistant physician for sixteen months; acting hospital physician in Avesta in 1930; assistant physician and temporary acting assistant physician at Maria Hospital surgical clinic in the same year, assistant physician there in 1931, including a temporary position as assistant physician for eight months; assistant physician and temporary acting assistant physician at Sabbatsberg Hospital ear clinic in 1932, assistant physician at Maria Hospital surgical clinic in 1933, assistant physician there from 1933 to 1938, including a temporary position as acting senior physician for eight months; assistant physician at the medical department there from 1938 to 1939, first assistant physician and deputy hospital physician at Falun Hospital surgical department in 1939; hospital physician in Finspång since 1943. Military: Battalion physician in the Field Reserve in 1927.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åkesson, Nils Johan\",\n  \"birthDate\": \"1895-10-25\",\n  \"birthPlace\": \"Gothenburg\",\n  \"description\": \"Hospital physician\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Hilda Bengtsson\",\n    \"medicalLicentiate\": true\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt-Åke\",\n      \"birthDate\": \"1924\",\n      \"medicalCandidate\": true\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1939\"\n    }\n  ],\n  \"education\": [\n    {\n      \"description\": \"Secondary school\",\n      \"startDate\": \"1914\",\n      \"endDate\": \"1914\",\n      \"location\": \"Gothenburg\"\n    },\n    {\n      \"description\": \"Medical candidate\",\n      \"startDate\": \"1918\",\n      \"endDate\": \"1918\",\n      \"university\": \"Lund University\"\n    },\n    {\n      \"description\": \"Medical licentiate\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1924\",\n      \"university\": \"Lund University\"\n    }\n  ],\n  \"appointments\": [\n    {\n      \"description\": \"Clinical and hospital physician\",\n      \"startDate\": \"1920\",\n      \"endDate\": \"1925\"\n    },\n    {\n      \"description\": \"Acting assistant physician\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\",\n      \"location\": \"Landskrona and Trelleborg hospitals\"\n    },\n    {\n      \"description\": \"Radiology physician\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1926\",\n      \"location\": \"Lund\"\n    },\n    {\n      \"description\": \"Second assistant physician\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1930\",\n      \"location\": \"Falun Hospital surgical department\"\n    },\n    {\n      \"description\": \"Acting hospital physician\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"location\": \"Avesta\"\n    },\n    {\n      \"description\": \"Assistant physician and temporary acting assistant physician\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"1930\",\n      \"location\": \"Maria Hospital surgical clinic\"\n    },\n    {\n      \"description\": \"Assistant physician\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1931\",\n      \"location\": \"Maria Hospital surgical clinic\"\n    },\n    {\n      \"description\": \"Assistant physician and temporary acting assistant physician\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1932\",\n      \"location\": \"Sabbatsberg Hospital ear clinic\"\n    },\n    {\n      \"description\": \"Assistant physician\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1938\",\n      \"location\": \"Maria Hospital surgical clinic\"\n    },\n    {\n      \"description\": \"Assistant physician\",\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\",\n      \"location\": \"Maria Hospital medical department\"\n    },\n    {\n      \"description\": \"First assistant physician and deputy hospital physician\",\n      \"startDate\": \"1939\",\n      \"endDate\": \"1939\",\n      \"location\": \"Falun Hospital surgical department\"\n    },\n    {\n      \"description\": \"Hospital physician\",\n      \"startDate\": \"1943\",\n      \"location\": \"Finspång\"\n    }\n  ],\n  \"militaryService\": [\n    {\n      \"description\": \"Battalion physician\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1927\"\n    }\n  ]\n}",
     "structured": {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Nils Johan Åkesson",
+        "name": "Åkesson, Nils Johan",
         "birthDate": "1895-10-25",
         "birthPlace": "Gothenburg",
-        "parents": [
-            {
-                "@type": "Person",
-                "name": "Jöns Åkesson",
-                "jobTitle": "Teacher's Assistant"
-            },
-            {
-                "@type": "Person",
-                "name": "Hanna Larsson"
-            }
-        ],
+        "description": "Hospital physician",
         "spouse": {
             "@type": "Person",
             "name": "Hilda Bengtsson",
-            "jobTitle": "Medical Licensee"
+            "medicalLicentiate": true
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Bengt-Åke Åkesson",
-                "birthDate": "1924"
+                "name": "Bengt-Åke",
+                "birthDate": "1924",
+                "medicalCandidate": true
             },
             {
                 "@type": "Person",
-                "name": "Ingrid Åkesson",
+                "name": "Ingrid",
                 "birthDate": "1930"
             },
             {
                 "@type": "Person",
-                "name": "Karin Åkesson",
+                "name": "Karin",
                 "birthDate": "1939"
             }
         ],
         "education": [
             {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "SecondarySchoolExamination",
-                "educationalLevel": "Secondary",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "Gothenburg"
-                },
-                "endDate": "1914"
+                "description": "Secondary school",
+                "startDate": "1914",
+                "endDate": "1914",
+                "location": "Gothenburg"
             },
             {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "MedicalCandidate",
-                "educationalLevel": "Undergraduate",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "Gothenburg"
-                },
-                "endDate": "1918"
+                "description": "Medical candidate",
+                "startDate": "1918",
+                "endDate": "1918",
+                "university": "Lund University"
             },
             {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "MedicalLicense",
-                "educationalLevel": "Graduate",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "Lund"
-                },
-                "endDate": "1924"
+                "description": "Medical licentiate",
+                "startDate": "1924",
+                "endDate": "1924",
+                "university": "Lund University"
             }
         ],
-        "employmentHistory": [
+        "appointments": [
             {
-                "@type": "MedicalOrganization",
-                "name": "Clinic",
+                "description": "Clinical and hospital physician",
                 "startDate": "1920",
                 "endDate": "1925"
             },
             {
-                "@type": "Hospital",
-                "name": "Landskrona Hospital",
-                "startDate": "1920",
-                "endDate": "1925",
-                "jobTitle": "Temporary Assistant Physician"
+                "description": "Acting assistant physician",
+                "startDate": "1927",
+                "endDate": "1930",
+                "location": "Landskrona and Trelleborg hospitals"
             },
             {
-                "@type": "Hospital",
-                "name": "Trelleborg Hospital",
-                "startDate": "1920",
-                "endDate": "1925",
-                "jobTitle": "Temporary Assistant Physician"
-            },
-            {
-                "@type": "MedicalOrganization",
-                "name": "Radiology Clinic, Lund",
+                "description": "Radiology physician",
                 "startDate": "1926",
                 "endDate": "1926",
-                "jobTitle": "Physician"
+                "location": "Lund"
             },
             {
-                "@type": "Hospital",
-                "name": "Falun Hospital",
+                "description": "Second assistant physician",
                 "startDate": "1927",
                 "endDate": "1930",
-                "jobTitle": "Assistant Physician"
+                "location": "Falun Hospital surgical department"
             },
             {
-                "@type": "Hospital",
-                "name": "Avesta",
+                "description": "Acting hospital physician",
                 "startDate": "1930",
                 "endDate": "1930",
-                "jobTitle": "Temporary Physician"
+                "location": "Avesta"
             },
             {
-                "@type": "Hospital",
-                "name": "Maria Hospital",
+                "description": "Assistant physician and temporary acting assistant physician",
                 "startDate": "1930",
-                "endDate": "1931",
-                "jobTitle": "Temporary Assistant Physician"
+                "endDate": "1930",
+                "location": "Maria Hospital surgical clinic"
             },
             {
-                "@type": "Hospital",
-                "name": "Sabbatsberg Hospital",
+                "description": "Assistant physician",
+                "startDate": "1931",
+                "endDate": "1931",
+                "location": "Maria Hospital surgical clinic"
+            },
+            {
+                "description": "Assistant physician and temporary acting assistant physician",
                 "startDate": "1932",
                 "endDate": "1932",
-                "jobTitle": "Temporary Assistant Physician"
+                "location": "Sabbatsberg Hospital ear clinic"
             },
             {
-                "@type": "Hospital",
-                "name": "Maria Hospital",
+                "description": "Assistant physician",
                 "startDate": "1933",
                 "endDate": "1938",
-                "jobTitle": "Physician"
+                "location": "Maria Hospital surgical clinic"
             },
             {
-                "@type": "Hospital",
-                "name": "Maria Hospital",
-                "startDate": "1933",
-                "endDate": "1938",
-                "jobTitle": "Junior Physician"
+                "description": "Assistant physician",
+                "startDate": "1938",
+                "endDate": "1939",
+                "location": "Maria Hospital medical department"
             },
             {
-                "@type": "Hospital",
-                "name": "Falun Hospital",
+                "description": "First assistant physician and deputy hospital physician",
                 "startDate": "1939",
                 "endDate": "1939",
-                "jobTitle": "Senior Assistant Physician"
+                "location": "Falun Hospital surgical department"
             },
             {
-                "@type": "Hospital",
-                "name": "Falun Hospital",
-                "startDate": "1939",
-                "endDate": "1939",
-                "jobTitle": "Assistant Hospital Physician"
-            },
-            {
-                "@type": "Hospital",
-                "name": "Finspång",
+                "description": "Hospital physician",
                 "startDate": "1943",
-                "jobTitle": "Hospital Physician"
-            },
+                "location": "Finspång"
+            }
+        ],
+        "militaryService": [
             {
-                "@type": "MilitaryOrganization",
-                "name": "Reserve",
+                "description": "Battalion physician",
                 "startDate": "1927",
-                "jobTitle": "Battalion Physician"
+                "endDate": "1927"
             }
         ]
     }

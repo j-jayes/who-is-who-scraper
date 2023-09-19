@@ -1,0 +1,90 @@
+{
+    "original": "Zetterlöf, Tage, advokat, Göteborg, f. 5/3/05 i Partille, Gbgs o. Boh. L, av dir. Gustaf Z. o. Victoria Malmsten. G. 35 m. Karin Peterson. Barn: Margaretha f. 38, Barbro 39, Eva 45. — Stud:ex. v. Gbgs h. latin 24, styrmans-o. sjökapt:ex. i Gbg 29, jur. kand. i Sthlm 34. Anst. i adv: firman WilHam A. Crump &amp; Son i London 34, å dispa-schörskönt, i Gbg 34-35, i adv:firman Haight, Griffin, Deming &amp; Gardner i New York 35-36, i adv:firman Wikström &amp; Sjögren i Gbg 35, sed. 43 del-äg. i adv:byrån Adv. Mannheimer o.",
+    "translated": "Zetterlöf, Tage, lawyer, Gothenburg, b. 5/3/05 in Partille, Gothenburg and Bohus County. Son of director Gustaf Z. and Victoria Malmsten. Married in 1935 to Karin Peterson. Children: Margaretha b. 1938, Barbro b. 1939, Eva b. 1945. Education: Graduate from Gothenburg Higher Latin School in 1924, helmsman and ship captain exam in Gothenburg in 1929, law degree in Stockholm in 1934. Employment: Worked at the law firm WilHam A. Crump & Son in London in 1934, dispatched clerk in Gothenburg in 1934-1935, worked at the law firm Haight, Griffin, Deming & Gardner in New York in 1935-1936, worked at the law firm Wikström & Sjögren in Gothenburg in 1935, and became a partial owner of the law office Adv. Mannheimer in 1943.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Tage Zetterlöf\",\n  \"jobTitle\": \"Lawyer\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1905-03-05\",\n  \"birthPlace\": \"Partille, Gothenburg and Bohus County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Zetterlöf\",\n      \"jobTitle\": \"Director\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Victoria Malmsten\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Karin Peterson\",\n    \"marriageDate\": \"1935\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margaretha Zetterlöf\",\n      \"birthDate\": \"1938\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barbro Zetterlöf\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Eva Zetterlöf\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Gothenburg Higher Latin School\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOrganization\",\n      \"name\": \"Law degree from Stockholm University\",\n      \"startDate\": \"1934\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"WilHam A. Crump & Son\",\n      \"location\": \"London\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Haight, Griffin, Deming & Gardner\",\n      \"location\": \"New York\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Wikström & Sjögren\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1935\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Adv. Mannheimer\",\n      \"location\": \"Gothenburg\",\n      \"startDate\": \"1943\"\n    }\n  ]\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Tage Zetterlöf",
+        "jobTitle": "Lawyer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
+        "birthDate": "1905-03-05",
+        "birthPlace": "Partille, Gothenburg and Bohus County",
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Gustaf Zetterlöf",
+                "jobTitle": "Director"
+            },
+            {
+                "@type": "Person",
+                "name": "Victoria Malmsten"
+            }
+        ],
+        "spouse": {
+            "@type": "Person",
+            "name": "Karin Peterson",
+            "marriageDate": "1935"
+        },
+        "children": [
+            {
+                "@type": "Person",
+                "name": "Margaretha Zetterlöf",
+                "birthDate": "1938"
+            },
+            {
+                "@type": "Person",
+                "name": "Barbro Zetterlöf",
+                "birthDate": "1939"
+            },
+            {
+                "@type": "Person",
+                "name": "Eva Zetterlöf",
+                "birthDate": "1945"
+            }
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "Gothenburg Higher Latin School",
+                "startDate": "1924"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Law degree from Stockholm University",
+                "startDate": "1934"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "WilHam A. Crump & Son",
+                "location": "London",
+                "startDate": "1934",
+                "endDate": "1934"
+            },
+            {
+                "@type": "Organization",
+                "name": "Haight, Griffin, Deming & Gardner",
+                "location": "New York",
+                "startDate": "1935",
+                "endDate": "1936"
+            },
+            {
+                "@type": "Organization",
+                "name": "Wikström & Sjögren",
+                "location": "Gothenburg",
+                "startDate": "1935"
+            },
+            {
+                "@type": "Organization",
+                "name": "Adv. Mannheimer",
+                "location": "Gothenburg",
+                "startDate": "1943"
+            }
+        ]
+    }
+}

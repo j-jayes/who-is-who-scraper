@@ -1,101 +1,83 @@
 {
     "original": "Öijer, Oscar Vilhelm, tandläkare, Linköping, f. 29/3/10 i Törnevalla, Ös-tergötl. 1., av O. L. Öijer o. Hilma Carolina Pettersson. G. 37 m. Elsa El-vine Östholm. Barn: Göran f. 39, Christina 41. — Stud:ex. i Linköp. 29, tandl :kand. 32, tandläk. 35. Assist, i Sthlm 35-36, däreft. praktik i Reftele, skoltandl. i Reftele o. Västboås, praktik i Linköp. sed. 42.",
-    "translated": "Öijer, Oscar Vilhelm, dentist, Linköping, born on 29/3/10 in Törnevalla, Östergötland, 1st district, son of O.L. Öijer and Hilma Carolina Pettersson. Married in 1937 to Elsa El-vine Östholm. Children: Göran, born in 1939, Christina, born in 1941. Completed high school in Linköping in 1929, graduated as dental candidate in 1932, became a dentist in 1935. Worked as an assistant in Stockholm from 1935-1936 and then practiced in Reftele. Also worked as a school dentist in Reftele and Västboås. Started practicing in Linköping in 1942.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oscar Vilhelm Öijer\",\n  \"birthDate\": \"1910-03-29\",\n  \"birthPlace\": {\n    \"@type\": \"AdministrativeArea\",\n    \"name\": \"Törnevalla, Östergötland, Sweden\"\n  },\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Linköping\",\n    \"addressRegion\": \"Östergötland\",\n    \"addressCountry\": \"Sweden\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"O. L. Öijer\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Carolina Pettersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa El-vine Östholm\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Öijer\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina Öijer\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Stud:ex. in Linköping\",\n      \"startDate\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandl:kand.\",\n      \"startDate\": \"1932\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Tandläkare\",\n      \"startDate\": \"1935\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"Assistant\",\n      \"startDate\": \"1935-01-01\",\n      \"endDate\": \"1936-12-31\",\n      \"namedPosition\": \"Stockholm\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Praktik i Reftele\",\n      \"startDate\": \"1937\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Skoltandläkare\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1942\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Reftele\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Skoltandläkare\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1942\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västboås\"\n      }\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"namedPosition\": \"Praktik i Linköping\",\n      \"startDate\": \"1942\"\n    }\n  ]\n}",
+    "translated": "Öijer, Oscar Vilhelm, dentist, Linköping, b. 29/3/10 in Törnevalla, Östergötland, Sweden, son of O. L. Öijer and Hilma Carolina Pettersson. Married in 1937 to Elsa Elvine Östholm. Children: Göran b. 1939, Christina b. 1941. Completed high school in Linköping in 1929, dental studies in 1932, became a dentist in 1935. Worked as an assistant in Stockholm from 1935 to 1936, followed by practice in Reftele and school dentistry in Reftele and Västboås. Started practice in Linköping in 1942.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Oscar Vilhelm Öijer\",\n  \"birthDate\": \"1910-03-29\",\n  \"birthPlace\": \"Törnevalla, Östergötland, Sweden\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"O. L. Öijer\",\n      \"sameAs\": \"\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hilma Carolina Pettersson\",\n      \"sameAs\": \"\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Elsa Elvine Östholm\",\n    \"sameAs\": \"\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Christina\",\n      \"birthDate\": \"1941\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school diploma\",\n      \"educationalLevel\": \"High School\",\n      \"educationalCredentialAwarded\": \"Stud:ex.\",\n      \"awardingInstitution\": \"Linköping\",\n      \"dateAwarded\": \"1929\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"professional degree\",\n      \"educationalLevel\": \"Dental\",\n      \"educationalCredentialAwarded\": \"Tandl:kand.\",\n      \"awardingInstitution\": \"Linköping\",\n      \"dateAwarded\": \"1932\"\n    }\n  ],\n  \"jobTitle\": \"Dentist\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Linköping\"\n  },\n  \"workExperience\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Assistant in Stockholm\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1936\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Reftele\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Västboås\"\n    },\n    {\n      \"@type\": \"Place\",\n      \"name\": \"Linköping\",\n      \"startDate\": \"1942\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Oscar Vilhelm Öijer",
         "birthDate": "1910-03-29",
-        "birthPlace": {
-            "@type": "AdministrativeArea",
-            "name": "Törnevalla, Östergötland, Sweden"
-        },
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Linköping",
-            "addressRegion": "Östergötland",
-            "addressCountry": "Sweden"
-        },
-        "parents": [
+        "birthPlace": "Törnevalla, Östergötland, Sweden",
+        "parent": [
             {
                 "@type": "Person",
-                "name": "O. L. Öijer"
+                "name": "O. L. Öijer",
+                "sameAs": ""
             },
             {
                 "@type": "Person",
-                "name": "Hilma Carolina Pettersson"
+                "name": "Hilma Carolina Pettersson",
+                "sameAs": ""
             }
         ],
         "spouse": {
             "@type": "Person",
-            "name": "Elsa El-vine Östholm"
+            "name": "Elsa Elvine Östholm",
+            "sameAs": ""
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Göran Öijer",
+                "name": "Göran",
                 "birthDate": "1939"
             },
             {
                 "@type": "Person",
-                "name": "Christina Öijer",
+                "name": "Christina",
                 "birthDate": "1941"
             }
         ],
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Stud:ex. in Linköping",
-                "startDate": "1929"
+                "credentialCategory": "secondary school diploma",
+                "educationalLevel": "High School",
+                "educationalCredentialAwarded": "Stud:ex.",
+                "awardingInstitution": "Linköping",
+                "dateAwarded": "1929"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "Tandl:kand.",
-                "startDate": "1932"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "name": "Tandläkare",
-                "startDate": "1935"
+                "credentialCategory": "professional degree",
+                "educationalLevel": "Dental",
+                "educationalCredentialAwarded": "Tandl:kand.",
+                "awardingInstitution": "Linköping",
+                "dateAwarded": "1932"
             }
         ],
-        "work": [
+        "jobTitle": "Dentist",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Linköping"
+        },
+        "workExperience": [
             {
-                "@type": "OrganizationRole",
-                "roleName": "Assistant",
-                "startDate": "1935-01-01",
-                "endDate": "1936-12-31",
-                "namedPosition": "Stockholm"
+                "@type": "MedicalOrganization",
+                "name": "Assistant in Stockholm",
+                "startDate": "1935",
+                "endDate": "1936"
             },
             {
-                "@type": "OrganizationRole",
-                "namedPosition": "Praktik i Reftele",
-                "startDate": "1937"
+                "@type": "Place",
+                "name": "Reftele"
             },
             {
-                "@type": "OrganizationRole",
-                "namedPosition": "Skoltandläkare",
-                "startDate": "1937",
-                "endDate": "1942",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Reftele"
-                }
+                "@type": "Place",
+                "name": "Västboås"
             },
             {
-                "@type": "OrganizationRole",
-                "namedPosition": "Skoltandläkare",
-                "startDate": "1937",
-                "endDate": "1942",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Västboås"
-                }
-            },
-            {
-                "@type": "OrganizationRole",
-                "namedPosition": "Praktik i Linköping",
+                "@type": "Place",
+                "name": "Linköping",
                 "startDate": "1942"
             }
         ]

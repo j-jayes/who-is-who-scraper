@@ -1,0 +1,144 @@
+{
+    "original": "Åstrand, Nils Jonas August, läroverksadjunkt, Västervik, f. 24/1/91 i Brunn, Älvsb. 1., av kyrkoh. Per August A. o. Olga Helena Åhman. — Stud:ex. v. nya elem:sk. i Sthlm 14, fil. mag. i Upps. 21, pro vår v. h. a. 1. å Södermalm i Sthlm 25. Vik. ämneslär. i Ulricehamn 21, i Nora 22-24, e. lär. i Umeå 25-33, adj. i Boden 33, adj. i tyska o. eng. v. Västerviks h. a. 1. sed. 38. Res. t. Tyskl. o. Schv^eiz 22, Engl. 23, 29 o. 3)1, Schweiz, Frankr. o. Belg. 27, Kanarieöarna 34, Frankr. o. Belg. 37.",
+    "translated": "Åstrand, Nils Jonas August, high school teacher, Västervik, born on January 24, 1891, in Brunn, Älvsborgs län. Son of parish clergyman Per August Åstrand and Olga Helena Åhman. — Graduated from the new elementary school in Stockholm in 1914. Received a Bachelor's degree in Uppsala in 1921. Completed his teaching training in Stockholm in the spring semester of 1925. Worked as a substitute subject teacher in Ulricehamn in 1921 and Nora from 1922-1924. Became a permanent teacher in Umeå from 1925-1933 and a high school teacher in Boden in 1933. Started working as a German and English high school teacher in Västervik in 1938. Traveled to Germany and Switzerland in 1922, England in 1923, 1929, and 1931, Switzerland, France, and Belgium in 1927, the Canary Islands in 1934, and France and Belgium again in 1937.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Jonas August Åstrand\",\n  \"birthDate\": \"1891-01-24\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Brunn\",\n      \"addressRegion\": \"Älvsborgs län\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Per August Åstrand\",\n      \"jobTitle\": \"Parish Clergyman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Olga Helena Åhman\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"UpperSecondary\",\n      \"degree\": \"Stud:ex.\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Nya Elementarskolan\",\n        \"location\": \"Stockholm\"\n      },\n      \"startDate\": \"1914\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"Bachelor's\",\n      \"degree\": \"Fil. Mag.\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uppsala University\",\n        \"location\": \"Uppsala\"\n      },\n      \"startDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"ProfessionalTraining\",\n      \"degree\": \"Pro vår v. h. a. 1.\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm Training Institute\",\n        \"location\": \"Stockholm\"\n      },\n      \"startDate\": \"1925\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"jobTitle\": \"Subject Teacher\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Ulricehamn\"\n      },\n      \"startDate\": \"1921\",\n      \"endDate\": \"1921\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"jobTitle\": \"Subject Teacher\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Nora\"\n      },\n      \"startDate\": \"1922\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"jobTitle\": \"Teacher\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Umeå\"\n      },\n      \"startDate\": \"1925\",\n      \"endDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"jobTitle\": \"High School Teacher\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Boden\"\n      },\n      \"startDate\": \"1933\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"jobTitle\": \"High School Teacher\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Västervik\"\n      },\n      \"specialty\": \"German and English\",\n      \"startDate\": \"1938\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Germany\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Switzerland\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"England\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"France\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Belgium\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Canary Islands\"\n    }\n  ],\n  \"startDate\": \"22\",\n  \"endDate\": \"37\"\n}",
+    "structured": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Nils Jonas August Åstrand",
+        "birthDate": "1891-01-24",
+        "birthPlace": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Brunn",
+                "addressRegion": "Älvsborgs län"
+            }
+        },
+        "parents": [
+            {
+                "@type": "Person",
+                "name": "Per August Åstrand",
+                "jobTitle": "Parish Clergyman"
+            },
+            {
+                "@type": "Person",
+                "name": "Olga Helena Åhman"
+            }
+        ],
+        "education": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "UpperSecondary",
+                "degree": "Stud:ex.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Nya Elementarskolan",
+                    "location": "Stockholm"
+                },
+                "startDate": "1914"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "Bachelor's",
+                "degree": "Fil. Mag.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Uppsala University",
+                    "location": "Uppsala"
+                },
+                "startDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "educationalLevel": "ProfessionalTraining",
+                "degree": "Pro vår v. h. a. 1.",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Stockholm Training Institute",
+                    "location": "Stockholm"
+                },
+                "startDate": "1925"
+            }
+        ],
+        "work": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "jobTitle": "Subject Teacher",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Ulricehamn"
+                },
+                "startDate": "1921",
+                "endDate": "1921"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "jobTitle": "Subject Teacher",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Nora"
+                },
+                "startDate": "1922",
+                "endDate": "1924"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "jobTitle": "Teacher",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Umeå"
+                },
+                "startDate": "1925",
+                "endDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "jobTitle": "High School Teacher",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Boden"
+                },
+                "startDate": "1933"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "jobTitle": "High School Teacher",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Västervik"
+                },
+                "specialty": "German and English",
+                "startDate": "1938"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Germany"
+            },
+            {
+                "@type": "Organization",
+                "name": "Switzerland"
+            },
+            {
+                "@type": "Organization",
+                "name": "England"
+            },
+            {
+                "@type": "Organization",
+                "name": "France"
+            },
+            {
+                "@type": "Organization",
+                "name": "Belgium"
+            },
+            {
+                "@type": "Organization",
+                "name": "Canary Islands"
+            }
+        ],
+        "startDate": "22",
+        "endDate": "37"
+    }
+}

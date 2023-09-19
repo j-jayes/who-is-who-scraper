@@ -1,34 +1,32 @@
 {
     "original": "Åkerblad, Sven Julius, kyrkoherde, Backaryd, f. 23/12/97 i Övraby, Hall. 1., av folkskoll. Sven Å. o. Sofia Jönsson. G. 29 m. Alma Elida Persson. Barn: Birgitta f. 30, Lena 34, Malin 37, Sven 43. — Stud:ex. i Lund 18, teol. fil. ex. där 24, teol. kand., prakt. teol. prov samt prästv. f. Lunds stift 26. Kyrko-adj. i Dalköpinge 29, kyrkoh. i Backaryd sed. 32. Ordf. i kyrkostämma o. skolstyr.",
-    "translated": "Åkerblad, Sven Julius, vicar, Backaryd, b. 23/12/97 in Övraby, Halland, son of Sven Å. and Sofia Jönsson. Married on 29 to Alma Elida Persson. Children: Birgitta b. 30, Lena b. 34, Malin b. 37, Sven b. 43. — Studied at Lund University, graduated in 1918, obtained a degree in theology in 1924, completed practical theology exams and was ordained as a priest for the Diocese of Lund in 1926. Served as a church assistant in Dalköpinge from 1929, and as a vicar in Backaryd since 1932. Chairman of the church assembly and school board.",
-    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Julius Åkerblad\",\n  \"birthDate\": \"1897-12-23\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Övraby\",\n      \"addressRegion\": \"Halland\"\n    }\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Åkerblad\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofia Jönsson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alma Elida Persson\",\n    \"marriageDate\": \"1929-01-29\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Malin\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"bachelors degree\",\n      \"educationalCredentialAwarded\": \"Stud:ex. i Lund 18\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"masters degree\",\n      \"educationalCredentialAwarded\": \"teol. fil. ex. där 24\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"bachelors degree\",\n      \"educationalCredentialAwarded\": \"teol. kand.\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Kyrko-adj.\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Dalköpinge\"\n        }\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Kyrkoherde\",\n      \"startDate\": \"1932\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"address\": {\n          \"@type\": \"PostalAddress\",\n          \"addressLocality\": \"Backaryd\"\n        }\n      }\n    },\n    {\n      \"@type\": \"Role\",\n      \"description\": \"Ordf. i kyrkostämma o. skolstyr.\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Diocese of Lund\"\n    }\n  ]\n}",
+    "translated": "Åkerblad, Sven Julius, vicar, Backaryd, born on December 23, 1897 in Övraby, Halland. Son of Sven Å. and Sofia Jönsson. Married on the 29th with Alma Elida Persson. Children: Birgitta born in 1930, Lena in 1934, Malin in 1937, Sven in 1943. — Bachelor of Arts in Lund in 1918, Bachelor of Theology there in 1924, Master of Theology, completed practical theology examination, and ordained as a priest in the Diocese of Lund in 1926. Church assistant in Dalköpinge in 1929, parish vicar in Backaryd since 1932. Chairman of the church assembly and school board.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Julius Åkerblad\",\n  \"birthDate\": \"1897-12-23\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Övraby, Halland\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven Åkerblad\",\n      \"gender\": \"male\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sofia Jönsson\",\n      \"gender\": \"female\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Alma Elida Persson\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta\",\n      \"birthDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Lena\",\n      \"birthDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Malin\",\n      \"birthDate\": \"1937\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sven\",\n      \"birthDate\": \"1943\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Arts\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"awardDate\": \"1918\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Bachelor of Theology\",\n      \"educationalLevel\": \"Bachelor's degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      },\n      \"awardDate\": \"1924\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Master of Theology\",\n      \"educationalLevel\": \"Master's degree\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Lund University\"\n      }\n    }\n  ],\n  \"occupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Vicar\",\n      \"startDate\": \"YYYY-MM-DD\",\n      \"endDate\": \"YYYY-MM-DD\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Church Assistant\",\n      \"startDate\": \"YYYY-MM-DD\",\n      \"endDate\": \"YYYY-MM-DD\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Dalköpinge\"\n      }\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Parish Vicar\",\n      \"startDate\": \"YYYY-MM-DD\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Backaryd\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Diocese of Lund\"\n    }\n  ],\n  \"event\": [\n    {\n      \"@type\": \"LifeEvent\",\n      \"name\": \"Ordained as Priest\",\n      \"startDate\": \"1926-01-01\",\n      \"location\": {\n        \"@type\": \"Place\",\n        \"name\": \"Diocese of Lund\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Church Assembly\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\"\n    }\n  ],\n  \"gender\": \"male\"\n}",
     "structured": {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org/",
         "@type": "Person",
         "name": "Sven Julius Åkerblad",
         "birthDate": "1897-12-23",
         "birthPlace": {
             "@type": "Place",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Övraby",
-                "addressRegion": "Halland"
-            }
+            "name": "Övraby, Halland"
         },
-        "parents": [
+        "parent": [
             {
                 "@type": "Person",
-                "name": "Sven Åkerblad"
+                "name": "Sven Åkerblad",
+                "gender": "male"
             },
             {
                 "@type": "Person",
-                "name": "Sofia Jönsson"
+                "name": "Sofia Jönsson",
+                "gender": "female"
             }
         ],
         "spouse": {
             "@type": "Person",
             "name": "Alma Elida Persson",
-            "marriageDate": "1929-01-29"
+            "marriageDate": "YYYY-MM-DD"
         },
         "children": [
             {
@@ -55,59 +53,82 @@
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "diploma",
-                "educationalLevel": "bachelors degree",
-                "educationalCredentialAwarded": "Stud:ex. i Lund 18"
+                "name": "Bachelor of Arts",
+                "educationalLevel": "Bachelor's degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "awardDate": "1918"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "diploma",
-                "educationalLevel": "masters degree",
-                "educationalCredentialAwarded": "teol. fil. ex. där 24"
+                "name": "Bachelor of Theology",
+                "educationalLevel": "Bachelor's degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                },
+                "awardDate": "1924"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "diploma",
-                "educationalLevel": "bachelors degree",
-                "educationalCredentialAwarded": "teol. kand."
+                "name": "Master of Theology",
+                "educationalLevel": "Master's degree",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Lund University"
+                }
             }
         ],
-        "employmentHistory": [
+        "occupation": [
             {
-                "@type": "JobPosting",
-                "title": "Kyrko-adj.",
-                "startDate": "1929",
-                "endDate": "1932",
+                "@type": "Occupation",
+                "name": "Vicar",
+                "startDate": "YYYY-MM-DD",
+                "endDate": "YYYY-MM-DD"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Church Assistant",
+                "startDate": "YYYY-MM-DD",
+                "endDate": "YYYY-MM-DD",
                 "location": {
                     "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Dalköpinge"
-                    }
+                    "name": "Dalköpinge"
                 }
             },
             {
-                "@type": "JobPosting",
-                "title": "Kyrkoherde",
-                "startDate": "1932",
+                "@type": "Occupation",
+                "name": "Parish Vicar",
+                "startDate": "YYYY-MM-DD",
                 "location": {
                     "@type": "Place",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Backaryd"
-                    }
+                    "name": "Backaryd"
                 }
-            },
-            {
-                "@type": "Role",
-                "description": "Ordf. i kyrkostämma o. skolstyr."
             }
         ],
         "memberOf": [
             {
                 "@type": "Organization",
-                "name": "Diocese of Lund"
+                "name": "Church Assembly"
+            },
+            {
+                "@type": "Organization",
+                "name": "School Board"
             }
-        ]
+        ],
+        "event": [
+            {
+                "@type": "LifeEvent",
+                "name": "Ordained as Priest",
+                "startDate": "1926-01-01",
+                "location": {
+                    "@type": "Place",
+                    "name": "Diocese of Lund"
+                }
+            }
+        ],
+        "gender": "male"
     }
 }

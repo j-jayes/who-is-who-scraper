@@ -1,72 +1,60 @@
 {
     "original": "Zetterlund, Carl Gustaf, fängelsedirektör, Göteborg, f. 22/1/87 i Härnösand av fabr. Gustaf Z. o. Karin Nordlund. G. 18 m. Beda Katarina Sandman. Barn: Ylva f. 19, fil. mag., Göran 20, soc. stud. — Stud:ex., resoff:-ex., jur. stud. v. Upps. univ. Kapten i Västmanl. reg. res. Dir. f. stat. vård-anst. i Venngarn 24, v. centr:fäng. i Härnösand 30, v. centr:fäng. å Här-landa fr. 41.",
-    "translated": "Zetterlund, Carl Gustaf, prison director, Gothenburg, b. 22/1/87 in Härnösand to fabricator Gustaf Z. and Karin Nordlund. Married on 18/xx to Beda Katarina Sandman. Children: Ylva, b. 19, MA, Gothenburg, Göran, b. 20, social studies student. Completed high school, reserve officer training, and studied law at Uppsala University. Captain in the Västmanland Regiment Reserve. Director of the state care facility in Venngarn from 1924, at the central prison in Härnösand from 1930, and at the central prison in Härlanda from 1941.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Zetterlund\",\n  \"jobTitle\": \"Prison Director\",\n  \"givenName\": \"Carl Gustaf\",\n  \"familyName\": \"Zetterlund\",\n  \"birthDate\": \"1887-01-22\",\n  \"birthPlace\": \"Härnösand\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Gustaf\",\n      \"familyName\": \"Zetterlund\",\n      \"jobTitle\": \"Fabricator\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Karin\",\n      \"familyName\": \"Nordlund\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Beda Katarina\",\n    \"familyName\": \"Sandman\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Ylva\",\n      \"familyName\": \"Zetterlund\",\n      \"birthDate\": \"1919\",\n      \"worksFor\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg University\",\n        \"jobTitle\": \"MA\"\n      }\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Göran\",\n      \"familyName\": \"Zetterlund\",\n      \"birthDate\": \"1920\",\n      \"jobTitle\": \"Social Studies Student\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Reserve Officer Training\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Law Degree\",\n      \"educationalLevel\": \"Bachelor's\",\n      \"educationalRole\": \"Jur. Stud\",\n      \"alumniOf\": {\n        \"@type\": \"CollegeOrUniversity\",\n        \"name\": \"Uppsala University\"\n      }\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västmanland Regiment Reserve\",\n      \"jobTitle\": \"Captain\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"State Care Facility in Venngarn\",\n      \"jobTitle\": \"Director\",\n      \"startDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Central Prison in Härnösand\",\n      \"jobTitle\": \"Director\",\n      \"startDate\": \"1930\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Central Prison in Härlanda\",\n      \"jobTitle\": \"Director\",\n      \"startDate\": \"1941\"\n    }\n  ]\n}",
+    "translated": "Zetterlund, Carl Gustaf, prison director, Gothenburg, b. 22/1/87 in Härnösand, son of fabricator Gustaf Z. and Karin Nordlund. Married in 1918 to Beda Katarina Sandman. Children: Ylva, b. 1919, holds a master's degree in philosophy, Göran, b. 1920, studying sociology. Completed secondary school exams, reserve officer exams, and studied law at Uppsala University. Captain in the Västmanland Regiment reserve. Director of the state care institution in Venngarn from 1924, the central prison in Härnösand from 1930, and the central prison in Härlanda from 1941.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Gustaf Zetterlund\",\n  \"jobTitle\": \"Prison Director\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Gothenburg\"\n  },\n  \"birthDate\": \"1887-01-22\",\n  \"birthPlace\": \"Härnösand\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gustaf Zetterlund\",\n      \"jobTitle\": \"Fabricator\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Nordlund\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Beda Katarina Sandman\",\n    \"marriageDate\": \"1918\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ylva Zetterlund\",\n      \"birthDate\": \"1919\",\n      \"educationalCredential\": \"Master's degree in Philosophy\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Göran Zetterlund\",\n      \"birthDate\": \"1920\",\n      \"education\": \"Sociology\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Secondary School Exams\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Reserve Officer Exams\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"name\": \"Studied Law at Uppsala University\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Västmanland Regiment Reserve\",\n      \"jobTitle\": \"Captain\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Director of the State Care Institution in Venngarn\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Director of the Central Prison in Härnösand\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Director of the Central Prison in Härlanda\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"\"\n    }\n  ]\n}",
     "structured": {
-        "@context": "https://schema.org/",
+        "@context": "https://schema.org",
         "@type": "Person",
         "name": "Carl Gustaf Zetterlund",
         "jobTitle": "Prison Director",
-        "givenName": "Carl Gustaf",
-        "familyName": "Zetterlund",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gothenburg"
+        },
         "birthDate": "1887-01-22",
         "birthPlace": "Härnösand",
-        "parent": [
+        "parents": [
             {
                 "@type": "Person",
-                "givenName": "Gustaf",
-                "familyName": "Zetterlund",
+                "name": "Gustaf Zetterlund",
                 "jobTitle": "Fabricator"
             },
             {
                 "@type": "Person",
-                "givenName": "Karin",
-                "familyName": "Nordlund"
+                "name": "Karin Nordlund"
             }
         ],
         "spouse": {
             "@type": "Person",
-            "givenName": "Beda Katarina",
-            "familyName": "Sandman"
+            "name": "Beda Katarina Sandman",
+            "marriageDate": "1918"
         },
-        "child": [
+        "children": [
             {
                 "@type": "Person",
-                "givenName": "Ylva",
-                "familyName": "Zetterlund",
+                "name": "Ylva Zetterlund",
                 "birthDate": "1919",
-                "worksFor": {
-                    "@type": "Organization",
-                    "name": "Gothenburg University",
-                    "jobTitle": "MA"
-                }
+                "educationalCredential": "Master's degree in Philosophy"
             },
             {
                 "@type": "Person",
-                "givenName": "Göran",
-                "familyName": "Zetterlund",
+                "name": "Göran Zetterlund",
                 "birthDate": "1920",
-                "jobTitle": "Social Studies Student"
+                "education": "Sociology"
             }
         ],
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "High School Diploma"
+                "name": "Secondary School Exams"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Reserve Officer Training"
+                "name": "Reserve Officer Exams"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Law Degree",
-                "educationalLevel": "Bachelor's",
-                "educationalRole": "Jur. Stud",
-                "alumniOf": {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Uppsala University"
-                }
+                "name": "Studied Law at Uppsala University"
             }
         ],
         "memberOf": [
@@ -74,24 +62,26 @@
                 "@type": "Organization",
                 "name": "Västmanland Regiment Reserve",
                 "jobTitle": "Captain"
+            }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Director of the State Care Institution in Venngarn",
+                "startDate": "1924",
+                "endDate": ""
             },
             {
                 "@type": "Organization",
-                "name": "State Care Facility in Venngarn",
-                "jobTitle": "Director",
-                "startDate": "1924"
+                "name": "Director of the Central Prison in Härnösand",
+                "startDate": "1930",
+                "endDate": ""
             },
             {
                 "@type": "Organization",
-                "name": "Central Prison in Härnösand",
-                "jobTitle": "Director",
-                "startDate": "1930"
-            },
-            {
-                "@type": "Organization",
-                "name": "Central Prison in Härlanda",
-                "jobTitle": "Director",
-                "startDate": "1941"
+                "name": "Director of the Central Prison in Härlanda",
+                "startDate": "1941",
+                "endDate": ""
             }
         ]
     }

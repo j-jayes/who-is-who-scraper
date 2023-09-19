@@ -1,120 +1,127 @@
 {
     "original": "Öm, Ragnar Vilhelm, disponent, Påskallavik, f. 15/6/01 i Köla, Värml. 1., av konsul G. O. o. Josefine Örn. G. 29 m. Barbara Boddy. Barn: Ste-phan f. 31, Monica 33. — Stud:ex. i Sthlm 22, stud. i Tyskl. o. Frankr. 22, 23’. Kadett v. KAI 23-26, anst. v. agen-turer i London 27-29, avd :chef h. Nil-sen &amp; Co. Ltd A-B i Sthlm 29-32, anst. v. ag. i London 3’3-34, försäljn :chef f. A-B EmsfoTs Bruk 34-38, disp. där fr. 38, verkst. dir. där fr. 47. Styr:led. i A-B Emsfors Bruk.",
-    "translated": "Öm, Ragnar Vilhelm, manager, Påskallavik, b. 15/6/01 in Köla, Värmland. Firstborn of consul G. O. and Josefine Örn. Married on 29 to Barbara Boddy. Children: Stephan b. 31, Monica b. 33. Graduated from Stockholm High School in 22, studied in Germany and France in 22, 23. Cadet at Kungliga Artilleri- och Ingenjörsskolan from 23 to 26, employed by agencies in London from 27 to 29, department manager at Nilsen & Co Ltd AB in Stockholm from 29 to 32, employed by agencies in London from 33 to 34, sales manager at AB Emsfors Bruk from 34 to 38, became manager from 38, and executive director from 47. Board member of AB Emsfors Bruk.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ragnar Vilhelm Öm\",\n  \"jobTitle\": \"Manager\",\n  \"birthPlace\": \"Köla, Värmland, Sweden\",\n  \"birthDate\": \"1901-06-15\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"G. O. Örn\",\n      \"jobTitle\": \"Consul\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Josefine Örn\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbara Boddy\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stephan Öm\",\n      \"birthDate\": \"1931-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Monica Öm\",\n      \"birthDate\": \"1933-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"diploma\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalCredentialAwarded\": \"Graduation\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Stockholm High School\"\n      },\n      \"endDate\": \"1922\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalLevel\": \"University\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Universities in Germany and France\"\n      },\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"educationalInstitution\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Kungliga Artilleri- och Ingenjörsskolan\"\n      },\n      \"startDate\": \"1923\",\n      \"endDate\": \"1926\",\n      \"jobTitle\": \"Cadet\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Agencies in London\",\n      \"startDate\": \"1927-01-01\",\n      \"endDate\": \"1929-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Nilsen & Co Ltd AB\",\n      \"department\": \"Management\",\n      \"startDate\": \"1929-01-01\",\n      \"endDate\": \"1932-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Agencies in London\",\n      \"startDate\": \"1933-01-01\",\n      \"endDate\": \"1934-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Emsfors Bruk\",\n      \"department\": \"Sales\",\n      \"startDate\": \"1934-01-01\",\n      \"endDate\": \"1938-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Emsfors Bruk\",\n      \"jobTitle\": \"Manager\",\n      \"startDate\": \"1938-01-01\",\n      \"endDate\": \"1947-01-01\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Emsfors Bruk\",\n      \"jobTitle\": \"Executive Director\",\n      \"startDate\": \"1947-01-01\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"AB Emsfors Bruk\",\n      \"jobTitle\": \"Board Member\"\n    }\n  ]\n}",
+    "translated": "Öm, Ragnar Vilhelm, manager, Påskallavik, b. 15/6/01 in Köla, Värmland. 1st son of consul G. O. and Josefine Örn. Married on 29 with Barbara Boddy. Children: Stephan b. 31, Monica b. 33. — Completed high school in Stockholm in 22, studied in Germany and France in 22, 23. Cadet at KAI from 23-26, employed at agencies in London from 27-29, department manager at Nilsen & Co. Ltd A-B in Stockholm from 29-32, employed at agencies in London from 33-34, sales manager at A-B Emsfors Bruk from 34-38, and manager from 38. Executive director there from 47. Board member at A-B Emsfors Bruk.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Ragnar Vilhelm Öm\",\n  \"jobTitle\": \"Manager\",\n  \"birthDate\": \"1901-06-15\",\n  \"birthPlace\": \"Köla, Värmland\",\n  \"parents\": [\n    {\n      \"name\": \"G. O. Örn\",\n      \"@type\": \"Person\"\n    },\n    {\n      \"name\": \"Josefine Örn\",\n      \"@type\": \"Person\"\n    }\n  ],\n  \"spouse\": {\n    \"name\": \"Barbara Boddy\",\n    \"@type\": \"Person\"\n  },\n  \"children\": [\n    {\n      \"name\": \"Stephan\",\n      \"@type\": \"Person\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"name\": \"Monica\",\n      \"@type\": \"Person\",\n      \"birthDate\": \"1933\"\n    }\n  ],\n  \"education\": [\n    {\n      \"name\": \"Stud:ex. i Sthlm\",\n      \"startDate\": \"1922\",\n      \"@type\": \"EducationalOccupationalCredential\"\n    },\n    {\n      \"name\": \"Stud. i Tyskl. o. Frankr.\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1923\",\n      \"@type\": \"EducationalOccupationalCredential\"\n    }\n  ],\n  \"jobs\": [\n    {\n      \"title\": \"Cadet\",\n      \"startDate\": \"1923\",\n      \"endDate\": \"1926\",\n      \"employer\": {\n        \"name\": \"KAI\",\n        \"@type\": \"Organization\"\n      },\n      \"@type\": \"JobPosting\"\n    },\n    {\n      \"title\": \"Employed at agencies in London\",\n      \"startDate\": \"1927\",\n      \"endDate\": \"1929\",\n      \"employer\": {\n        \"name\": \"N/A\",\n        \"@type\": \"Organization\"\n      },\n      \"@type\": \"JobPosting\"\n    },\n    {\n      \"title\": \"Department Manager\",\n      \"startDate\": \"1929\",\n      \"endDate\": \"1932\",\n      \"employer\": {\n        \"name\": \"Nilsen & Co. Ltd A-B\",\n        \"@type\": \"Organization\"\n      },\n      \"@type\": \"JobPosting\"\n    },\n    {\n      \"title\": \"Employed at agencies in London\",\n      \"startDate\": \"1933\",\n      \"endDate\": \"1934\",\n      \"employer\": {\n        \"name\": \"N/A\",\n        \"@type\": \"Organization\"\n      },\n      \"@type\": \"JobPosting\"\n    },\n    {\n      \"title\": \"Sales Manager\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"1938\",\n      \"employer\": {\n        \"name\": \"A-B Emsfors Bruk\",\n        \"@type\": \"Organization\"\n      },\n      \"@type\": \"JobPosting\"\n    },\n    {\n      \"title\": \"Manager\",\n      \"startDate\": \"1938\",\n      \"employer\": {\n        \"name\": \"A-B Emsfors Bruk\",\n        \"@type\": \"Organization\"\n      },\n      \"@type\": \"JobPosting\"\n    },\n    {\n      \"title\": \"Executive Director\",\n      \"startDate\": \"1947\",\n      \"employer\": {\n        \"name\": \"A-B Emsfors Bruk\",\n        \"@type\": \"Organization\"\n      },\n      \"@type\": \"JobPosting\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"name\": \"A-B Emsfors Bruk\",\n      \"@type\": \"Organization\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Ragnar Vilhelm Öm",
         "jobTitle": "Manager",
-        "birthPlace": "Köla, Värmland, Sweden",
         "birthDate": "1901-06-15",
-        "parent": [
+        "birthPlace": "Köla, Värmland",
+        "parents": [
             {
-                "@type": "Person",
                 "name": "G. O. Örn",
-                "jobTitle": "Consul"
+                "@type": "Person"
             },
             {
-                "@type": "Person",
-                "name": "Josefine Örn"
+                "name": "Josefine Örn",
+                "@type": "Person"
             }
         ],
         "spouse": {
-            "@type": "Person",
-            "name": "Barbara Boddy"
+            "name": "Barbara Boddy",
+            "@type": "Person"
         },
         "children": [
             {
+                "name": "Stephan",
                 "@type": "Person",
-                "name": "Stephan Öm",
-                "birthDate": "1931-01-01"
+                "birthDate": "1931"
             },
             {
+                "name": "Monica",
                 "@type": "Person",
-                "name": "Monica Öm",
-                "birthDate": "1933-01-01"
+                "birthDate": "1933"
             }
         ],
         "education": [
             {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "diploma",
-                "educationalLevel": "HighSchool",
-                "educationalCredentialAwarded": "Graduation",
-                "educationalInstitution": {
-                    "@type": "EducationalOrganization",
-                    "name": "Stockholm High School"
-                },
-                "endDate": "1922"
-            },
-            {
-                "@type": "EducationalOccupationalCredential",
-                "educationalLevel": "University",
-                "educationalInstitution": {
-                    "@type": "EducationalOrganization",
-                    "name": "Universities in Germany and France"
-                },
+                "name": "Stud:ex. i Sthlm",
                 "startDate": "1922",
-                "endDate": "1923"
+                "@type": "EducationalOccupationalCredential"
             },
             {
-                "@type": "EducationalOccupationalCredential",
-                "educationalInstitution": {
-                    "@type": "EducationalOrganization",
-                    "name": "Kungliga Artilleri- och Ingenjörsskolan"
-                },
-                "startDate": "1923",
-                "endDate": "1926",
-                "jobTitle": "Cadet"
+                "name": "Stud. i Tyskl. o. Frankr.",
+                "startDate": "1922",
+                "endDate": "1923",
+                "@type": "EducationalOccupationalCredential"
             }
         ],
-        "employmentHistory": [
+        "jobs": [
             {
-                "@type": "Organization",
-                "name": "Agencies in London",
-                "startDate": "1927-01-01",
-                "endDate": "1929-01-01"
+                "title": "Cadet",
+                "startDate": "1923",
+                "endDate": "1926",
+                "employer": {
+                    "name": "KAI",
+                    "@type": "Organization"
+                },
+                "@type": "JobPosting"
             },
             {
-                "@type": "Organization",
-                "name": "Nilsen & Co Ltd AB",
-                "department": "Management",
-                "startDate": "1929-01-01",
-                "endDate": "1932-01-01"
+                "title": "Employed at agencies in London",
+                "startDate": "1927",
+                "endDate": "1929",
+                "employer": {
+                    "name": "N/A",
+                    "@type": "Organization"
+                },
+                "@type": "JobPosting"
             },
             {
-                "@type": "Organization",
-                "name": "Agencies in London",
-                "startDate": "1933-01-01",
-                "endDate": "1934-01-01"
+                "title": "Department Manager",
+                "startDate": "1929",
+                "endDate": "1932",
+                "employer": {
+                    "name": "Nilsen & Co. Ltd A-B",
+                    "@type": "Organization"
+                },
+                "@type": "JobPosting"
             },
             {
-                "@type": "Organization",
-                "name": "AB Emsfors Bruk",
-                "department": "Sales",
-                "startDate": "1934-01-01",
-                "endDate": "1938-01-01"
+                "title": "Employed at agencies in London",
+                "startDate": "1933",
+                "endDate": "1934",
+                "employer": {
+                    "name": "N/A",
+                    "@type": "Organization"
+                },
+                "@type": "JobPosting"
             },
             {
-                "@type": "Organization",
-                "name": "AB Emsfors Bruk",
-                "jobTitle": "Manager",
-                "startDate": "1938-01-01",
-                "endDate": "1947-01-01"
+                "title": "Sales Manager",
+                "startDate": "1934",
+                "endDate": "1938",
+                "employer": {
+                    "name": "A-B Emsfors Bruk",
+                    "@type": "Organization"
+                },
+                "@type": "JobPosting"
             },
             {
-                "@type": "Organization",
-                "name": "AB Emsfors Bruk",
-                "jobTitle": "Executive Director",
-                "startDate": "1947-01-01"
+                "title": "Manager",
+                "startDate": "1938",
+                "employer": {
+                    "name": "A-B Emsfors Bruk",
+                    "@type": "Organization"
+                },
+                "@type": "JobPosting"
+            },
+            {
+                "title": "Executive Director",
+                "startDate": "1947",
+                "employer": {
+                    "name": "A-B Emsfors Bruk",
+                    "@type": "Organization"
+                },
+                "@type": "JobPosting"
             }
         ],
         "memberOf": [
             {
-                "@type": "Organization",
-                "name": "AB Emsfors Bruk",
-                "jobTitle": "Board Member"
+                "name": "A-B Emsfors Bruk",
+                "@type": "Organization"
             }
         ]
     }

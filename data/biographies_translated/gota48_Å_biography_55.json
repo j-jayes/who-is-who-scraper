@@ -1,132 +1,124 @@
 {
     "original": "Årman, Karl Gustaf, prakt, läkare, Jönköping, f. 22/6/01 i Gustafs, Kop- parb. 1., av distr :förest. A. G. Ärman o. Maria Andersson. G. 3i7 m. fil. mag. Torborg Maria Gerdner. Barn: Torborg Anita f. 39, Tryggve 41, Birgit 43, Nils-Gustaf 45. — Stud:ex. i Sthlm 22, med. kand. 25 o. med. lic. 30 i Upps. Res. t. Tyiskl., Schweiz, Tjecko-sL, Österr. E. läk. v. Djursätra brunn’ 26-30, tif. assist :läk. v. Jönköp. las. 31, e. läk. v. med. avd. där 31-32 o. und:-läk. 32-34, tf. andre und :läk. v. Epid:-sjukh. i Sthlm 34, prakt. läk. i Jönköp. sed. 34, tf. stadisdistr :läk. där 36-39, läk. v. Epid:sjukh. 316-39, disp :läk. 37.",
-    "translated": "Årman, Karl Gustaf, civil servant, physician, Jönköping, born on June 22nd, 1901 in Gustafs, Kopparberg County, the first child of district manager A. G. Ärman and Maria Andersson. Married on March 17th, to Torborg Maria Gerdner, who holds a Bachelor of Philosophy degree. They have four children: Torborg Anita, born in 1939, Tryggve in 1941, Birgit in 1943, and Nils-Gustaf in 1945. \n\nEducational qualifications: Graduated from Stockholm Gymnasium in 1922, completed a Bachelor of Medicine degree in 1925, and obtained a Medical License in 1930 from Uppsala University. Traveled to Germany, Switzerland, Czechoslovakia, and Austria. Worked as a physician at Djursätra Sanatorium from 1926 to 1930, temporary assistant physician at Jönköping Hospital in 1931, medical department physician there from 1931 to 1932, and assistant physician from 1932 to 1934. Acted as temporary second assistant physician at the Epidemic Hospital in Stockholm in 1934. Practiced as a physician in Jönköping since 1934, temporarily serving as city district physician from 1936 to 1939. Worked as a physician at the Epidemic Hospital from 1936 to 1939 and as a dispensary physician in 1937.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Karl Gustaf Årman\",\n  \"birthDate\": \"1901-06-22\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"address\": {\n      \"@type\": \"PostalAddress\",\n      \"addressLocality\": \"Gustafs\",\n      \"addressRegion\": \"Kopparberg County\"\n    }\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"A. G. Ärman\",\n      \"jobTitle\": \"District Manager\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Maria Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Torborg Maria Gerdner\",\n    \"birthDate\": \"unknown\",\n    \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor\",\n      \"educationalLevel\": \"Bachelor of Philosophy\"\n    }\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Torborg Anita\",\n      \"birthDate\": \"1939-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tryggve\",\n      \"birthDate\": \"1941-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgit\",\n      \"birthDate\": \"1943-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Nils-Gustaf\",\n      \"birthDate\": \"1945-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary\",\n      \"educationalLevel\": \"Graduated from Stockholm Gymnasium\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"unknown\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"bachelor\",\n      \"educationalLevel\": \"Bachelor of Medicine\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"unknown\",\n      \"educationalRole\": [\"medical candidate\"]\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"license\",\n      \"educationalLevel\": \"Medical License\",\n      \"startDate\": \"1930\",\n      \"endDate\": \"unknown\",\n      \"educationalRole\": [\"Uppsala University\"]\n    }\n  ],\n  \"employment\": [\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Djursätra Sanatorium\",\n      \"startDate\": \"1926\",\n      \"endDate\": \"1930\",\n      \"jobTitle\": [\"Physician\"]\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Jönköping Hospital\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1934\",\n      \"jobTitle\": [\"Temporary Assistant Physician\", \"Medical Department Physician\", \"Assistant Physician\"]\n    },\n    {\n      \"@type\": \"Hospital\",\n      \"name\": \"Epidemic Hospital\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"unknown\",\n      \"jobTitle\": [\"Temporary Second Assistant Physician\", \"Dispensary Physician\"]\n    },\n    {\n      \"@type\": \"MedicalOrganization\",\n      \"name\": \"Private Practice\",\n      \"startDate\": \"1934\",\n      \"endDate\": \"unknown\",\n      \"jobTitle\": [\"Physician\"]\n    }\n  ]\n}",
+    "translated": "Årman, Karl Gustaf, physician, Jönköping, b. 22/6/01 in Gustafs, Kopparb. 1st district, son of district supervisor A.G. Ärman and Maria Andersson. Married in 1937 to Torborg Maria Gerdner, holder of a Bachelor of Philosophy degree. Children: Torborg Anita b. 1939, Tryggve b. 1941, Birgit b. 1943, Nils-Gustaf b. 1945. Completed secondary school examination in Stockholm in 1922, Bachelor of Medicine in 1925, and Doctor of Medicine in 1930, all at Uppsala University. Traveled to Germany, Switzerland, Czechoslovakia, and Austria. Worked as a doctor at Djursätra brunn from 1926 to 1930, temporary assistant doctor at Jönköping hospital in 1931, doctor at the medical department there from 1931 to 1932, and assistant physician from 1932 to 1934. Temporary second assistant doctor at Epidemic Hospital in Stockholm in 1934, practicing physician in Jönköping since 1934, temporary district physician there from 1936 to 1939, and physician at Epidemic Hospital from 1936 to 1939. Disposing physician in 1937.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Årman, Karl Gustaf\",\n  \"jobTitle\": \"Physician\",\n  \"birthDate\": \"1901-06-22\",\n  \"birthPlace\": \"Gustafs, Kopparb. 1st district\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ärman, A. G.\",\n      \"jobTitle\": \"District Supervisor\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Andersson, Maria\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Gerdner, Torborg Maria\",\n    \"education\": {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Philosophy\"\n    }\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Årman, Torborg Anita\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Årman, Tryggve\",\n      \"birthDate\": \"1941\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Årman, Birgit\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Årman, Nils-Gustaf\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"alumniOf\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"alumniOf\": \"Uppsala University\",\n      \"startDate\": \"1922\",\n      \"endDate\": \"1925\",\n      \"credentialCategory\": \"Secondary school examination\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"alumniOf\": \"Uppsala University\",\n      \"startDate\": \"1925\",\n      \"endDate\": \"1930\",\n      \"credentialCategory\": \"Bachelor of Medicine\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"alumniOf\": \"Uppsala University\",\n      \"startDate\": \"1930\",\n      \"credentialCategory\": \"Doctor of Medicine\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Epidemic Hospital\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Jönköping Hospital\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Temporary Assistant Doctor\",\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Assistant Physician\",\n      \"startDate\": \"1932\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Practicing Physician\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Temporary District Physician\",\n      \"startDate\": \"1936\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"MedicalSpecialty\",\n      \"name\": \"Disposing Physician\",\n      \"startDate\": \"1937\"\n    }\n  ],\n  \"knowsAbout\": [\n    \"Germany\",\n    \"Switzerland\",\n    \"Czechoslovakia\",\n    \"Austria\"\n  ]\n}",
     "structured": {
-        "@context": "https://schema.org",
+        "@context": "https://schema.org/",
         "@type": "Person",
-        "name": "Karl Gustaf Årman",
+        "name": "Årman, Karl Gustaf",
+        "jobTitle": "Physician",
         "birthDate": "1901-06-22",
-        "birthPlace": {
-            "@type": "Place",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Gustafs",
-                "addressRegion": "Kopparberg County"
-            }
-        },
+        "birthPlace": "Gustafs, Kopparb. 1st district",
         "parent": [
             {
                 "@type": "Person",
-                "name": "A. G. Ärman",
-                "jobTitle": "District Manager"
+                "name": "Ärman, A. G.",
+                "jobTitle": "District Supervisor"
             },
             {
                 "@type": "Person",
-                "name": "Maria Andersson"
+                "name": "Andersson, Maria"
             }
         ],
         "spouse": {
             "@type": "Person",
-            "name": "Torborg Maria Gerdner",
-            "birthDate": "unknown",
+            "name": "Gerdner, Torborg Maria",
             "education": {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "bachelor",
-                "educationalLevel": "Bachelor of Philosophy"
+                "credentialCategory": "Bachelor of Philosophy"
             }
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Torborg Anita",
-                "birthDate": "1939-01-01"
+                "name": "Årman, Torborg Anita",
+                "birthDate": "1939"
             },
             {
                 "@type": "Person",
-                "name": "Tryggve",
-                "birthDate": "1941-01-01"
+                "name": "Årman, Tryggve",
+                "birthDate": "1941"
             },
             {
                 "@type": "Person",
-                "name": "Birgit",
-                "birthDate": "1943-01-01"
+                "name": "Årman, Birgit",
+                "birthDate": "1943"
             },
             {
                 "@type": "Person",
-                "name": "Nils-Gustaf",
-                "birthDate": "1945-01-01"
+                "name": "Årman, Nils-Gustaf",
+                "birthDate": "1945"
             }
         ],
-        "education": [
+        "alumniOf": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "secondary",
-                "educationalLevel": "Graduated from Stockholm Gymnasium",
+                "alumniOf": "Uppsala University",
                 "startDate": "1922",
-                "endDate": "unknown"
+                "endDate": "1925",
+                "credentialCategory": "Secondary school examination"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "bachelor",
-                "educationalLevel": "Bachelor of Medicine",
+                "alumniOf": "Uppsala University",
                 "startDate": "1925",
-                "endDate": "unknown",
-                "educationalRole": [
-                    "medical candidate"
-                ]
+                "endDate": "1930",
+                "credentialCategory": "Bachelor of Medicine"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "license",
-                "educationalLevel": "Medical License",
+                "alumniOf": "Uppsala University",
                 "startDate": "1930",
-                "endDate": "unknown",
-                "educationalRole": [
-                    "Uppsala University"
-                ]
+                "credentialCategory": "Doctor of Medicine"
             }
         ],
-        "employment": [
+        "memberOf": [
             {
-                "@type": "MedicalOrganization",
-                "name": "Djursätra Sanatorium",
-                "startDate": "1926",
-                "endDate": "1930",
-                "jobTitle": [
-                    "Physician"
-                ]
-            },
-            {
-                "@type": "Hospital",
-                "name": "Jönköping Hospital",
-                "startDate": "1931",
-                "endDate": "1934",
-                "jobTitle": [
-                    "Temporary Assistant Physician",
-                    "Medical Department Physician",
-                    "Assistant Physician"
-                ]
-            },
-            {
-                "@type": "Hospital",
-                "name": "Epidemic Hospital",
-                "startDate": "1934",
-                "endDate": "unknown",
-                "jobTitle": [
-                    "Temporary Second Assistant Physician",
-                    "Dispensary Physician"
-                ]
-            },
-            {
-                "@type": "MedicalOrganization",
-                "name": "Private Practice",
-                "startDate": "1934",
-                "endDate": "unknown",
-                "jobTitle": [
-                    "Physician"
-                ]
+                "@type": "Organization",
+                "name": "Epidemic Hospital"
             }
+        ],
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Jönköping Hospital"
+            }
+        ],
+        "hasOccupation": [
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Temporary Assistant Doctor",
+                "startDate": "1931",
+                "endDate": "1932"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Assistant Physician",
+                "startDate": "1932",
+                "endDate": "1934"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Practicing Physician",
+                "startDate": "1934"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Temporary District Physician",
+                "startDate": "1936",
+                "endDate": "1939"
+            },
+            {
+                "@type": "MedicalSpecialty",
+                "name": "Disposing Physician",
+                "startDate": "1937"
+            }
+        ],
+        "knowsAbout": [
+            "Germany",
+            "Switzerland",
+            "Czechoslovakia",
+            "Austria"
         ]
     }
 }

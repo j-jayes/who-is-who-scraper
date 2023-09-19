@@ -1,47 +1,62 @@
 {
     "original": "Åren, Sven Magnus, tandläkare, Göteborg, f. 9/6/15 i Askersund av med. lic. Ture Å. O: Herta Enemark. — Stud:ex. 34, tandl :kand. 39’, tandläk:-ex. 45. Distr :tandläk. i Lerum 44-46, skoltandläk. i Gbg fr. 46.",
-    "translated": "Years, Sven Magnus, dentist, Gothenburg, b. 9/6/15 in Askersund to medical licentiate Ture Å. His spouse: Herta Enemark. — High school graduate in 1934, dental student in 1939, dental exam in 1945. District dentist in Lerum from 1944-1946, school dentist in Gothenburg from 1946.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Magnus Åren\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1915-09-06\",\n  \"birthPlace\": \"Askersund\",\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Herta Enemark\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental Student\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Dental Examination\",\n      \"endDate\": \"1945\"\n    }\n  ],\n  \"workLocation\": \"Gothenburg\",\n  \"workExperience\": [\n    {\n      \"@type\": \"Dentist\",\n      \"name\": \"District Dentist in Lerum\",\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"Dentist\",\n      \"name\": \"School Dentist in Gothenburg\",\n      \"startDate\": \"1946\"\n    }\n  ]\n}",
+    "translated": "Years, Sven Magnus, dentist, Gothenburg, born on 9/6/15 in Askersund to medical licentiate Ture Å. Spouse: Herta Enemark. — Completed secondary school in 1934, dental studies in 1939, dental examination in 1945. Worked as a dentist in Lerum from 1944-1946, and as a school dentist in Gothenburg from 1946 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Sven Magnus\",\n  \"familyName\": \"Åren\",\n  \"jobTitle\": \"Dentist\",\n  \"birthDate\": \"1915-06-09\",\n  \"birthPlace\": \"Askersund\",\n  \"parent\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Ture\",\n    \"familyName\": \"Å\",\n    \"jobTitle\": \"Medical Licentiate\"\n  },\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Herta\",\n    \"familyName\": \"Enemark\"\n  },\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"degreeName\": \"Secondary School\",\n      \"endDate\": \"1934\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"degreeName\": \"Dental Studies\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"degreeName\": \"Dental Examination\",\n      \"endDate\": \"1945\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lerum\"\n      },\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\",\n      \"roleName\": \"Dentist\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"memberOf\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Gothenburg\"\n      },\n      \"startDate\": \"1946\",\n      \"roleName\": \"School Dentist\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Sven Magnus Åren",
+        "givenName": "Sven Magnus",
+        "familyName": "Åren",
         "jobTitle": "Dentist",
-        "birthDate": "1915-09-06",
+        "birthDate": "1915-06-09",
         "birthPlace": "Askersund",
+        "parent": {
+            "@type": "Person",
+            "givenName": "Ture",
+            "familyName": "Å",
+            "jobTitle": "Medical Licentiate"
+        },
         "spouse": {
             "@type": "Person",
-            "name": "Herta Enemark"
+            "givenName": "Herta",
+            "familyName": "Enemark"
         },
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "high school diploma",
+                "degreeName": "Secondary School",
                 "endDate": "1934"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Dental Student",
+                "degreeName": "Dental Studies",
                 "endDate": "1939"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Dental Examination",
+                "degreeName": "Dental Examination",
                 "endDate": "1945"
             }
         ],
-        "workLocation": "Gothenburg",
-        "workExperience": [
+        "work": [
             {
-                "@type": "Dentist",
-                "name": "District Dentist in Lerum",
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Lerum"
+                },
                 "startDate": "1944",
-                "endDate": "1946"
+                "endDate": "1946",
+                "roleName": "Dentist"
             },
             {
-                "@type": "Dentist",
-                "name": "School Dentist in Gothenburg",
-                "startDate": "1946"
+                "@type": "OrganizationRole",
+                "memberOf": {
+                    "@type": "Organization",
+                    "name": "Gothenburg"
+                },
+                "startDate": "1946",
+                "roleName": "School Dentist"
             }
         ]
     }

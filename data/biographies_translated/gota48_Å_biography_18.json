@@ -1,28 +1,27 @@
 {
     "original": "Åhlström, Carl Erik Rudolf, härads-skrivare, Kisa, f. 7/2/99 i Klock-rike, östergötl. 1., av Rudolf Johansson o. Hanna Åhlström. G. 27 m. Ingegerd Linden. Barn: Gunnel f. 28, Bo-Bertil 31, Anne-Marie 37. — Stud:ex. 19, kanshex. 24. Anst. v. länsstyr. i östergötl. 1. fr. 24, ord. landskont. fr. 32, häradsskriv. i Kin-da o. Ydre fögd. fr. 43.",
-    "translated": "Åhlström, Carl Erik Rudolf, district clerk, Kisa, born 7/2/99 in Klockrike, Östergötland. Son of Rudolf Johansson and Hanna Åhlström. Married on 27 m. to Ingegerd Linden. Children: Gunnel, born in 1928, Bo-Bertil, born in 1931, Anne-Marie, born in 1937. Graduated from studentexamen in 1919, kansliexamen in 1924. Employed by the county board in Östergötland 1 since 1924, became a regular landskontor official in 1932, and district clerk in Kin-da and Ydre fögd from 1943 onwards.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Åhlström, Carl Erik Rudolf\",\n  \"birthDate\": \"1899-02-07\",\n  \"birthPlace\": \"Klockrike, Östergötland\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rudolf Johansson\",\n      \"spouse\": \"Hanna Åhlström\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Åhlström\",\n      \"spouse\": \"Rudolf Johansson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingegerd Linden\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnel\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo-Bertil\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"studentexamen\",\n      \"educationalLevel\": \"HighSchool\",\n      \"dateEarned\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"kansliexamen\",\n      \"educationalLevel\": \"College\",\n      \"dateEarned\": \"1924\"\n    }\n  ],\n  \"worksFor\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Länsstyrelsen i Östergötland 1\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1932\",\n      \"jobTitle\": \"Regular Landskontor Official\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Kinda and Ydre fögderi\",\n      \"startDate\": \"1943\",\n      \"jobTitle\": \"District Clerk\"\n    }\n  ]\n}",
+    "translated": "Åhlström, Carl Erik Rudolf, rural district clerk, Kisa, born on February 7th, 1899 in Klockrike, Östergötland county, son of Rudolf Johansson and Hanna Åhlström. Married on the 27th to Ingegerd Linden. Children: Gunnel, born in 1928, Bo-Bertil, born in 1931, Anne-Marie, born in 1937. Completed high school exams in 1919, clerkship examination in 1924. Employed by the county government in Östergötland county since 1924, became a regular county official in 1932, rural district clerk in Kinda and Ydre districts from 1943 onwards.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Carl Erik Rudolf Åhlström\",\n  \"birthDate\": \"1899-02-07\",\n  \"birthPlace\": \"Klockrike, Östergötland County\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Rudolf Johansson\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Hanna Åhlström\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ingegerd Linden\",\n    \"marriageDate\": \"YYYY-MM-DD\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gunnel\",\n      \"birthDate\": \"1928\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bo-Bertil\",\n      \"birthDate\": \"1931\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anne-Marie\",\n      \"birthDate\": \"1937\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"High school exams\",\n      \"dateIssued\": \"1919\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"description\": \"Clerkship examination\",\n      \"dateIssued\": \"1924\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1924\",\n      \"endDate\": \"1932\",\n      \"description\": \"Employed by the county government in Östergötland County\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1932\",\n      \"description\": \"Became a regular county official\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"startDate\": \"1943\",\n      \"description\": \"Rural district clerk in Kinda and Ydre districts\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Åhlström, Carl Erik Rudolf",
+        "name": "Carl Erik Rudolf Åhlström",
         "birthDate": "1899-02-07",
-        "birthPlace": "Klockrike, Östergötland",
-        "parent": [
+        "birthPlace": "Klockrike, Östergötland County",
+        "parents": [
             {
                 "@type": "Person",
-                "name": "Rudolf Johansson",
-                "spouse": "Hanna Åhlström"
+                "name": "Rudolf Johansson"
             },
             {
                 "@type": "Person",
-                "name": "Hanna Åhlström",
-                "spouse": "Rudolf Johansson"
+                "name": "Hanna Åhlström"
             }
         ],
         "spouse": {
             "@type": "Person",
-            "name": "Ingegerd Linden"
+            "name": "Ingegerd Linden",
+            "marriageDate": "YYYY-MM-DD"
         },
         "children": [
             {
@@ -44,30 +43,31 @@
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "studentexamen",
-                "educationalLevel": "HighSchool",
-                "dateEarned": "1919"
+                "description": "High school exams",
+                "dateIssued": "1919"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "kansliexamen",
-                "educationalLevel": "College",
-                "dateEarned": "1924"
+                "description": "Clerkship examination",
+                "dateIssued": "1924"
             }
         ],
-        "worksFor": [
+        "employmentHistory": [
             {
-                "@type": "Organization",
-                "name": "Länsstyrelsen i Östergötland 1",
+                "@type": "OrganizationRole",
                 "startDate": "1924",
                 "endDate": "1932",
-                "jobTitle": "Regular Landskontor Official"
+                "description": "Employed by the county government in Östergötland County"
             },
             {
-                "@type": "Organization",
-                "name": "Kinda and Ydre fögderi",
+                "@type": "OrganizationRole",
+                "startDate": "1932",
+                "description": "Became a regular county official"
+            },
+            {
+                "@type": "OrganizationRole",
                 "startDate": "1943",
-                "jobTitle": "District Clerk"
+                "description": "Rural district clerk in Kinda and Ydre districts"
             }
         ]
     }

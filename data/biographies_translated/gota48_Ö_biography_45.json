@@ -1,24 +1,22 @@
 {
     "original": "Österberg, Nils, distriktsveterinär, Motala, f. 26/11/86 i Sthlm av trädg:-mäst. Anders Gustaf Ö. o. Ulrika Sofia Andersson. G. 17 m. Ruth Blomgren. Barn: Ake f. 18, Margareta 20, Karin 21, Ingrid 26. — Stud:ex. 06, utex. fr. veter :högsk. 10. Distr :veter. i Nordimark 10, i Årjängs distr. 13. Distr :veter. i östergötl. 1. f. Motala distr. fr. 28. RVO.",
-    "translated": "Österberg, Nils, district veterinarian, Motala, b. 26/11/86 in Stockholm, son of the master gardener Anders Gustaf Ö. and Ulrika Sofia Andersson. Married on 17 with Ruth Blomgren. Children: Ake b. 18, Margareta b. 20, Karin b. 21, Ingrid b. 26. Completed high school in 1906, graduated from veterinary college in 1910. Worked as district veterinarian in Nordimark from 1910, in Årjäng district from 1913. Became a district veterinarian in Östergötland in 1910, stationed in Motala district from 1928. Received the Royal Order of Vasa (RVO).",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Österberg\",\n  \"birthDate\": \"1886-11-26\",\n  \"birthPlace\": \"Stockholm\",\n  \"nationality\": \"Swedish\",\n  \"occupation\": \"District veterinarian\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Motala\"\n  },\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Gustaf Österberg\",\n      \"occupation\": \"Master gardener\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulrika Sofia Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Blomgren\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ake Österberg\",\n      \"birthDate\": \"1900-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta Österberg\",\n      \"birthDate\": \"1900-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin Österberg\",\n      \"birthDate\": \"1900-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid Österberg\",\n      \"birthDate\": \"1900-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Stud:ex.\",\n      \"dateIssued\": \"1906\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Utex. fr. veter. högsk.\",\n      \"dateIssued\": \"1910\"\n    }\n  ],\n  \"work\": [\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District veterinarian\",\n      \"startDate\": \"1910\",\n      \"endDate\": null,\n      \"namedPosition\": \"Nordimark\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District veterinarian\",\n      \"startDate\": \"1913\",\n      \"endDate\": null,\n      \"namedPosition\": \"Årjäng\"\n    },\n    {\n      \"@type\": \"OrganizationRole\",\n      \"roleName\": \"District veterinarian\",\n      \"startDate\": \"1928\",\n      \"endDate\": null,\n      \"namedPosition\": \"Motala district\"\n    }\n  ],\n  \"awards\": [\n    {\n      \"@type\": \"Order\",\n      \"name\": \"Royal Order of Vasa\",\n      \"dateReceived\": null\n    }\n  ]\n}",
+    "translated": "Österberg, Nils, district veterinarian, Motala, b. 26/11/86 in Stockholm, son of horticulturist Anders Gustaf Ö. and Ulrika Sofia Andersson. Married since 17 with Ruth Blomgren. Children: Ake b. 18, Margareta b. 20, Karin b. 21, Ingrid b. 26. Completed secondary school examination in 1906, graduated from veterinary college in 1910. District veterinarian in Nordimark from 1910, in Årjäng district from 1913. District veterinarian in Östergötland from 1921 in Motala district. Awarded the Royal Victorian Order (RVO).",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Österberg\",\n  \"jobTitle\": \"District Veterinarian\",\n  \"birthDate\": \"1886-11-26\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Stockholm\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Anders Gustaf Österberg\",\n      \"jobTitle\": \"Horticulturist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulrika Sofia Andersson\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Ruth Blomgren\"\n  },\n  \"child\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ake\",\n      \"birthDate\": \"1908-??-??\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Margareta\",\n      \"birthDate\": \"1900-??-??\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Karin\",\n      \"birthDate\": \"1901-??-??\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ingrid\",\n      \"birthDate\": \"1906-??-??\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"secondary school examination\",\n      \"dateReceived\": \"1906\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"graduation\",\n      \"educationalLevel\": \"veterinary college\",\n      \"dateReceived\": \"1910\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"City\",\n      \"name\": \"Nordimark\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Årjäng\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Östergötland\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Motala\"\n    }\n  ],\n  \"honorificSuffix\": \"RVO\"\n}",
     "structured": {
-        "@context": "https://schema.org",
+        "@context": "https://schema.org/",
         "@type": "Person",
         "name": "Nils Österberg",
+        "jobTitle": "District Veterinarian",
         "birthDate": "1886-11-26",
-        "birthPlace": "Stockholm",
-        "nationality": "Swedish",
-        "occupation": "District veterinarian",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Motala"
+        "birthPlace": {
+            "@type": "City",
+            "name": "Stockholm"
         },
-        "parents": [
+        "parent": [
             {
                 "@type": "Person",
                 "name": "Anders Gustaf Österberg",
-                "occupation": "Master gardener"
+                "jobTitle": "Horticulturist"
             },
             {
                 "@type": "Person",
@@ -29,69 +27,59 @@
             "@type": "Person",
             "name": "Ruth Blomgren"
         },
-        "children": [
+        "child": [
             {
                 "@type": "Person",
-                "name": "Ake Österberg",
-                "birthDate": "1900-01-01"
+                "name": "Ake",
+                "birthDate": "1908-??-??"
             },
             {
                 "@type": "Person",
-                "name": "Margareta Österberg",
-                "birthDate": "1900-01-01"
+                "name": "Margareta",
+                "birthDate": "1900-??-??"
             },
             {
                 "@type": "Person",
-                "name": "Karin Österberg",
-                "birthDate": "1900-01-01"
+                "name": "Karin",
+                "birthDate": "1901-??-??"
             },
             {
                 "@type": "Person",
-                "name": "Ingrid Österberg",
-                "birthDate": "1900-01-01"
+                "name": "Ingrid",
+                "birthDate": "1906-??-??"
             }
         ],
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Stud:ex.",
-                "dateIssued": "1906"
+                "credentialCategory": "secondary school examination",
+                "dateReceived": "1906"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Utex. fr. veter. högsk.",
-                "dateIssued": "1910"
+                "credentialCategory": "graduation",
+                "educationalLevel": "veterinary college",
+                "dateReceived": "1910"
             }
         ],
-        "work": [
+        "workLocation": [
             {
-                "@type": "OrganizationRole",
-                "roleName": "District veterinarian",
-                "startDate": "1910",
-                "endDate": null,
-                "namedPosition": "Nordimark"
+                "@type": "City",
+                "name": "Nordimark"
             },
             {
-                "@type": "OrganizationRole",
-                "roleName": "District veterinarian",
-                "startDate": "1913",
-                "endDate": null,
-                "namedPosition": "Årjäng"
+                "@type": "City",
+                "name": "Årjäng"
             },
             {
-                "@type": "OrganizationRole",
-                "roleName": "District veterinarian",
-                "startDate": "1928",
-                "endDate": null,
-                "namedPosition": "Motala district"
+                "@type": "City",
+                "name": "Östergötland"
+            },
+            {
+                "@type": "City",
+                "name": "Motala"
             }
         ],
-        "awards": [
-            {
-                "@type": "Order",
-                "name": "Royal Order of Vasa",
-                "dateReceived": null
-            }
-        ]
+        "honorificSuffix": "RVO"
     }
 }

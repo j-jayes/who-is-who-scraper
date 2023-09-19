@@ -1,73 +1,76 @@
 {
     "original": "Zedenius, Nils Åke Gunnar, tandläkare, Sölvesborg, f. 1/5/15 i Karlskoga av tandläk. Viktor Z. o. Fanny Carl-berg. G. 42 m. Barbro Wihl. Barn: Ulf f. 43, Björn 45. — Stud :ex. i Kristinehamn 35, tandläk :ex. 41. Prakt, i Sölvesb. fr. 43.",
-    "translated": "Zedenius, Nils Åke Gunnar, dentist, Sölvesborg, b. 1/5/15 in Karlskoga to dentist Viktor Z. and Fanny Carlberg. Married in '42 to Barbro Wihl. Children: Ulf b. '43, Björn b. '45. — Completed studies in Kristinehamn in '35, obtained dental degree in '41. Practicing in Sölvesborg from '43.",
-    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Nils Åke Gunnar Zedenius\",\n  \"birthDate\": \"1915-05-01\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Karlskoga\"\n  },\n  \"occupation\": \"Dentist\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressLocality\": \"Sölvesborg\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Viktor Zedenius\",\n      \"jobTitle\": \"Dentist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Fanny Carlberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Barbro Wihl\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ulf\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Björn\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"stud\",\n      \"educationalLevel\": \"PrimaryEducation\",\n      \"studySubject\": \"Dentistry\",\n      \"alumniOf\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Kristinehamn\"\n      },\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"tandläk\",\n      \"educationalLevel\": \"ProfessionalQualification\",\n      \"studySubject\": \"Dental Medicine\",\n      \"endDate\": \"1941\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"City\",\n    \"name\": \"Sölvesborg\"\n  },\n  \"startDate\": \"1943\"\n}",
+    "translated": "Zedenius, Nils Åke Gunnar, dentist, Sölvesborg, b. 1/5/15 in Karlskoga to dentist Viktor Z. and Fanny Carl-berg. Married in 1942 to Barbro Wihl. Children: Ulf b. 1943, Björn b. 1945. — Completed studies in Kristinehamn in 1935, obtained dentist license in 1941. Practiced in Sölvesborg since 1943.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Nils\",\n  \"additionalName\": \"Åke\",\n  \"familyName\": \"Zedenius\",\n  \"birthDate\": \"1915-05-01\",\n  \"birthPlace\": \"Karlskoga\",\n  \"occupation\": \"dentist\",\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Sölvesborg\"\n    }\n  ],\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Viktor\",\n      \"familyName\": \"Zedenius\",\n      \"jobTitle\": \"dentist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Fanny\",\n      \"familyName\": \"Carl-berg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Barbro\",\n    \"familyName\": \"Wihl\",\n    \"marriageDate\": \"1942\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Ulf\",\n      \"familyName\": \"Zedenius\",\n      \"birthDate\": \"1943\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Björn\",\n      \"familyName\": \"Zedenius\",\n      \"birthDate\": \"1945\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Diploma\",\n      \"educationalLevel\": \"High school\",\n      \"name\": \"Stud :ex. i Kristinehamn\",\n      \"startDate\": \"1935\",\n      \"endDate\": \"1935\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"License\",\n      \"name\": \"tandläk :ex.\",\n      \"startDate\": \"1941\",\n      \"endDate\": \"1941\"\n    }\n  ],\n  \"workLocation\": {\n    \"@type\": \"Place\",\n    \"name\": \"Sölvesborg\",\n    \"startDate\": \"1943\"\n  }\n}",
     "structured": {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Nils Åke Gunnar Zedenius",
+        "givenName": "Nils",
+        "additionalName": "Åke",
+        "familyName": "Zedenius",
         "birthDate": "1915-05-01",
-        "birthPlace": {
-            "@type": "City",
-            "name": "Karlskoga"
-        },
-        "occupation": "Dentist",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Sölvesborg"
-        },
+        "birthPlace": "Karlskoga",
+        "occupation": "dentist",
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Sölvesborg"
+            }
+        ],
         "parent": [
             {
                 "@type": "Person",
-                "name": "Viktor Zedenius",
-                "jobTitle": "Dentist"
+                "givenName": "Viktor",
+                "familyName": "Zedenius",
+                "jobTitle": "dentist"
             },
             {
                 "@type": "Person",
-                "name": "Fanny Carlberg"
+                "givenName": "Fanny",
+                "familyName": "Carl-berg"
             }
         ],
         "spouse": {
             "@type": "Person",
-            "name": "Barbro Wihl",
+            "givenName": "Barbro",
+            "familyName": "Wihl",
             "marriageDate": "1942"
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Ulf",
+                "givenName": "Ulf",
+                "familyName": "Zedenius",
                 "birthDate": "1943"
             },
             {
                 "@type": "Person",
-                "name": "Björn",
+                "givenName": "Björn",
+                "familyName": "Zedenius",
                 "birthDate": "1945"
             }
         ],
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "stud",
-                "educationalLevel": "PrimaryEducation",
-                "studySubject": "Dentistry",
-                "alumniOf": {
-                    "@type": "EducationalOrganization",
-                    "name": "Kristinehamn"
-                },
+                "credentialCategory": "Diploma",
+                "educationalLevel": "High school",
+                "name": "Stud :ex. i Kristinehamn",
+                "startDate": "1935",
                 "endDate": "1935"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "tandläk",
-                "educationalLevel": "ProfessionalQualification",
-                "studySubject": "Dental Medicine",
+                "credentialCategory": "License",
+                "name": "tandläk :ex.",
+                "startDate": "1941",
                 "endDate": "1941"
             }
         ],
         "workLocation": {
-            "@type": "City",
-            "name": "Sölvesborg"
-        },
-        "startDate": "1943"
+            "@type": "Place",
+            "name": "Sölvesborg",
+            "startDate": "1943"
+        }
     }
 }

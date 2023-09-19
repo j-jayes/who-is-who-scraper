@@ -1,14 +1,16 @@
 {
     "original": "Zetterqvist, Sven Robert Ferdinand, disponent, Åmål, f. 3/2/94 i Uddevalla av J. A. Z. o. Ehsabetih Hult. G. m. Emy Elvira Larsson, d. 41. Barn: Stig, Birgitta (Britta), Tore. — Stud. v. Uddevalla h. a. 1. samt merk. stud. Res. t. Norge, Danm., Finl., Tyskl., Tjeckoslov. o. Österr. Anst. v. ol. föret. 12-15, kamr. v. A-B Sv. Elektromagne-ter i Åmål 16-24, inköpte o. ombild. det 24. Verkst. dir. där sed. 24. Styr:led. i fl. boL, led. av styr. f. Sv. Hand :bank. avd:kont. i Åmål, led. av folksk:styr.",
-    "translated": "Zetterqvist, Sven Robert Ferdinand, manager, Åmål, b. 3/2/94 in Uddevalla to parents J. A. Z. and Ehsabetih Hult. Married to Emy Elvira Larsson, deceased in 1941. Children: Stig, Birgitta (Britta), Tore. — Studied at Uddevalla high school, followed by notable studies abroad in Norway, Denmark, Finland, Germany, Czechoslovakia, and Austria. Employed by various companies from 1912 to 1915, then served as an assistant manager at A-B Sv. Elektromagneter in Åmål from 1916 to 1924. In 1924, he purchased and restructured the company, becoming its managing director. Held positions on multiple boards, including Swedish Handbank's local branch in Åmål, and served on the school board.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Sven Robert Ferdinand Zetterqvist\",\n  \"birthDate\": \"1894-02-03\",\n  \"birthPlace\": \"Uddevalla\",\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J. A. Zetterqvist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ehsabetih Hult\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emy Elvira Larsson\",\n    \"deathDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig Zetterqvist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Zetterqvist\",\n      \"alternateName\": \"Britta Zetterqvist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tore Zetterqvist\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school\",\n      \"educationalLevel\": \"secondary\",\n      \"educationalRole\": \"student\",\n      \"educationalOrganization\": {\n        \"@type\": \"EducationalOrganization\",\n        \"name\": \"Uddevalla High School\"\n      }\n    }\n  ],\n  \"jobTitle\": \"Manager\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Sv. Elektromagneter\",\n    \"department\": \"Åmål\",\n    \"startDate\": \"1916\",\n    \"endDate\": \"1924\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Various Companies\"\n    }\n  ],\n  \"boardMember\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Handbank\",\n      \"department\": \"Åmål\"\n    }\n  ],\n  \"memberOf\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"School Board\"\n    }\n  ],\n  \"additionalProperty\": [\n    {\n      \"@type\": \"PropertyValue\",\n      \"name\": \"Study Abroad\",\n      \"value\": [\n        \"Norway\",\n        \"Denmark\",\n        \"Finland\",\n        \"Germany\",\n        \"Czechoslovakia\",\n        \"Austria\"\n      ]\n    }\n  ]\n}",
+    "translated": "Zetterqvist, Sven Robert Ferdinand, manager, Åmål, b. 3/2/94 in Uddevalla to J. A. Z. and Ehsabetih Hult. Married to Emy Elvira Larsson, deceased in 1941. Children: Stig, Birgitta (Britta), Tore. — Stud. at Uddevalla high school 1st year and further studies. Traveled to Norway, Denmark, Finland, Germany, Czechoslovakia, and Austria to study. Employed at various companies from 1912 to 1915. Employed as a chamberlain at A-B Sv. Elektromagneter in Åmål from 1916 to 1924, bought and restructured the company in 1924. Appointed as the director since then. Board member in several companies, member of the board for the Swedish Handbank department office in Åmål, member of the school board.",
+    "structured_raw": "{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Sven\",\n  \"additionalName\": \"Robert\",\n  \"familyName\": \"Ferdinand\",\n  \"birthDate\": \"1894-02-03\",\n  \"birthPlace\": \"Uddevalla\",\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"J. A. Zetterqvist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Ehsabetih Hult\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Emy Elvira Larsson\",\n    \"deathDate\": \"1941\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Stig Zetterqvist\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Birgitta Zetterqvist\",\n      \"additionalName\": \"Britta\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Tore Zetterqvist\"\n    }\n  ],\n  \"education\": {\n    \"@type\": \"EducationalOrganization\",\n    \"name\": \"Uddevalla High School\"\n  },\n  \"jobTitle\": \"Manager\",\n  \"worksFor\": {\n    \"@type\": \"Organization\",\n    \"name\": \"A-B Sv. Elektromagneter\"\n  },\n  \"employmentHistory\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Various Companies\",\n      \"startDate\": \"1912\",\n      \"endDate\": \"1915\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Sv. Elektromagneter\",\n      \"startDate\": \"1916\",\n      \"endDate\": \"1924\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"A-B Sv. Elektromagneter\",\n      \"startDate\": \"1924\"\n    }\n  ],\n  \"boardMember\": [\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Swedish Handbank\",\n      \"department\": \"Åmål\"\n    },\n    {\n      \"@type\": \"Organization\",\n      \"name\": \"Various Companies\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"School Board\"\n  }\n}",
     "structured": {
-        "@context": "https://schema.org",
+        "@context": "http://schema.org",
         "@type": "Person",
-        "name": "Sven Robert Ferdinand Zetterqvist",
+        "givenName": "Sven",
+        "additionalName": "Robert",
+        "familyName": "Ferdinand",
         "birthDate": "1894-02-03",
         "birthPlace": "Uddevalla",
-        "parents": [
+        "parent": [
             {
                 "@type": "Person",
                 "name": "J. A. Zetterqvist"
@@ -31,37 +33,39 @@
             {
                 "@type": "Person",
                 "name": "Birgitta Zetterqvist",
-                "alternateName": "Britta Zetterqvist"
+                "additionalName": "Britta"
             },
             {
                 "@type": "Person",
                 "name": "Tore Zetterqvist"
             }
         ],
-        "education": [
-            {
-                "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "high school",
-                "educationalLevel": "secondary",
-                "educationalRole": "student",
-                "educationalOrganization": {
-                    "@type": "EducationalOrganization",
-                    "name": "Uddevalla High School"
-                }
-            }
-        ],
+        "education": {
+            "@type": "EducationalOrganization",
+            "name": "Uddevalla High School"
+        },
         "jobTitle": "Manager",
         "worksFor": {
             "@type": "Organization",
-            "name": "A-B Sv. Elektromagneter",
-            "department": "Åmål",
-            "startDate": "1916",
-            "endDate": "1924"
+            "name": "A-B Sv. Elektromagneter"
         },
         "employmentHistory": [
             {
                 "@type": "Organization",
-                "name": "Various Companies"
+                "name": "Various Companies",
+                "startDate": "1912",
+                "endDate": "1915"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Sv. Elektromagneter",
+                "startDate": "1916",
+                "endDate": "1924"
+            },
+            {
+                "@type": "Organization",
+                "name": "A-B Sv. Elektromagneter",
+                "startDate": "1924"
             }
         ],
         "boardMember": [
@@ -69,27 +73,15 @@
                 "@type": "Organization",
                 "name": "Swedish Handbank",
                 "department": "Åmål"
-            }
-        ],
-        "memberOf": [
+            },
             {
                 "@type": "Organization",
-                "name": "School Board"
+                "name": "Various Companies"
             }
         ],
-        "additionalProperty": [
-            {
-                "@type": "PropertyValue",
-                "name": "Study Abroad",
-                "value": [
-                    "Norway",
-                    "Denmark",
-                    "Finland",
-                    "Germany",
-                    "Czechoslovakia",
-                    "Austria"
-                ]
-            }
-        ]
+        "memberOf": {
+            "@type": "Organization",
+            "name": "School Board"
+        }
     }
 }

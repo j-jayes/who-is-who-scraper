@@ -1,142 +1,198 @@
 {
     "original": "Öster, Johannes Richard, fil. lic., se-minarieadjunkt, Växjö, f. 16/4/02 i Älvkarleby, Upps. 1., av ko-mmin. Richard Ö. o. Sigrid Almberg. G. 38 m. Signe Larsson. Barn: Bengt-Olof f. 39, Marianne 42. — Stud:ex. i Sthlm 26, fil. mag. i Upps. 31, fil. lic. 36, provår i Upps. 37-38. Vik. lektor v. Upps. folkskisem. 31-32, timlär. v. Upps. elem:lärov. f. fl. 32-38, Upps. ensk. lärov. 33-34, e. adj. v. Liniköp. h. a. 1. 38, e. o. adj. 39, timlär. v. Upps. yrkessk. 38-39, 1.4 41-42, Lv.2 42-46, Linköp. yrkessk. 44-46, adj. v. småsk:-sem. i Växjö 46. E. geolog v. Sv:es geolog, undersökn. fr. 40. Res. t. Danm. 34, Finl. 36. Skr.: vetensk. avh. o. upps. i geogr. o. kvartärgeologi.",
-    "translated": "Öster, Johannes Richard, BA, substitute school teacher, Växjö, b. 16/4/02 in Älvkarleby, Uppsala county, son of the vicar Richard Ö. and Sigrid Almberg. Married in 1938 to Signe Larsson. Children: Bengt-Olof b. 1939, Marianne b. 1942. Education: High school graduate in Stockholm in 1926, Bachelor of Arts in Uppsala in 1931, BA in 1936, teaching intern in Uppsala from 1937 to 1938. Substitute lecturer at Uppsala folk high school from 1931 to 1932, hourly teacher at Uppsala elementary school from 1932 to 1938, Uppsala private school in 1933-1934, assistant teacher in Liniköping from 1 January 1938, deputy assistant in 1939, hourly teacher at Uppsala vocational school from 1938 to 1939, 1 April 1941 to 1942, lieutenant 2nd class from 1942 to 1946, Liniköping vocational school from 1944 to 1946, teacher at preschool teacher's training program in Växjö from 1946. Employed as a geologist by the Swedish Geological Survey from 1940. Travelled to Denmark in 1934, Finland in 1936. Written scientific papers on geography and quaternary geology.",
-    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"name\": \"Johannes Richard Öster\",\n  \"birthDate\": \"1902-04-16\",\n  \"birthPlace\": {\n    \"@type\": \"City\",\n    \"name\": \"Älvkarleby\"\n  },\n  \"nationality\": \"Swedish\",\n  \"employment\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute School Teacher\",\n      \"startDate\": \"1931-01-01\",\n      \"endDate\": \"1946-12-31\",\n      \"location\": {\n        \"@type\": \"City\",\n        \"name\": \"Växjö\"\n      }\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Geologist\",\n      \"startDate\": \"1940-01-01\",\n      \"location\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Geological Survey\"\n      }\n    }\n  ],\n  \"parents\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Richard Öster\",\n      \"jobTitle\": \"Vicar\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sigrid Almberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"name\": \"Signe Larsson\",\n    \"marriageDate\": \"1938-01-01\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Bengt-Olof\",\n      \"birthDate\": \"1939-01-01\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Marianne\",\n      \"birthDate\": \"1942-01-01\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"High School Diploma\",\n      \"educationalLevel\": \"HighSchool\",\n      \"educationalSpecialty\": \"Graduate\",\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Stockholm\"\n      },\n      \"awardDate\": \"1926-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"educationalLevel\": \"Undergraduate\",\n      \"educationalSpecialty\": \"Arts\",\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala\"\n      },\n      \"awardDate\": \"1931-01-01\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor's Degree\",\n      \"educationalLevel\": \"Graduate\",\n      \"educationalSpecialty\": null,\n      \"awardingInstitution\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala\"\n      },\n      \"awardDate\": \"1936-01-01\"\n    }\n  ],\n  \"workLocation\": [\n    {\n      \"@type\": \"City\",\n      \"name\": \"Uppsala\"\n    },\n    {\n      \"@type\": \"City\",\n      \"name\": \"Liniköping\"\n    }\n  ],\n  \"travelHistory\": [\n    {\n      \"@type\": \"Trip\",\n      \"departureTime\": \"1934-01-01\",\n      \"departurePlace\": {\n        \"@type\": \"City\",\n        \"name\": \"Sweden\"\n      },\n      \"arrivalTime\": \"1934-01-01\",\n      \"arrivalPlace\": {\n        \"@type\": \"City\",\n        \"name\": \"Denmark\"\n      }\n    },\n    {\n      \"@type\": \"Trip\",\n      \"departureTime\": \"1936-01-01\",\n      \"departurePlace\": {\n        \"@type\": \"City\",\n        \"name\": \"Sweden\"\n      },\n      \"arrivalTime\": \"1936-01-01\",\n      \"arrivalPlace\": {\n        \"@type\": \"City\",\n        \"name\": \"Finland\"\n      }\n    }\n  ],\n  \"researchInterests\": [\n    \"Geography\",\n    \"Quaternary Geology\"\n  ]\n}",
+    "translated": "Öster, Johannes Richard, Fil. Lic., substitute teacher at a teaching seminary, Växjö, born on April 16, 1902 in Älvkarleby, Uppsala County, 1st child of clergyman Richard Ö. and Sigrid Almberg. Married in 1938 to Signe Larsson. Children: Bengt-Olof, born in 1939, Marianne, born in 1942. \nEducation: Graduated from high school in Stockholm in 1926, Bachelor of Arts in Uppsala in 1931, Fil. Lic. in 1936, served as a trainee in Uppsala from 1937-1938. Temporary lecturer at Uppsala public elementary school from 1931-1932, part-time teacher at Uppsala elementary school from 1932-1938, Uppsala private secondary school from 1933-1934, temporary assistant teacher in Linköping from January 1938, junior assistant from 1939, part-time teacher at Uppsala vocational school from 1938-1939, April 1941 to 1942, Lv.2 1942-1946, Linköping vocational school from 1944-1946, assistant teacher at Växjö preschool teacher training from 1946. \nAlso worked as a geologist for the Swedish Geological Survey from 1940. Traveled to Denmark in 1934, Finland in 1936. Written scientific dissertations and papers in geography and quaternary geology.",
+    "structured_raw": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Person\",\n  \"givenName\": \"Johannes Richard\",\n  \"familyName\": \"Öster\",\n  \"birthDate\": \"1902-04-16\",\n  \"birthPlace\": {\n    \"@type\": \"Place\",\n    \"name\": \"Älvkarleby, Uppsala County, Sweden\"\n  },\n  \"parent\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Richard\",\n      \"familyName\": \"Öster\",\n      \"jobTitle\": \"Clergyman\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Sigrid\",\n      \"familyName\": \"Almberg\"\n    }\n  ],\n  \"spouse\": {\n    \"@type\": \"Person\",\n    \"givenName\": \"Signe\",\n    \"familyName\": \"Larsson\",\n    \"marriageDate\": \"1938\"\n  },\n  \"children\": [\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Bengt-Olof\",\n      \"familyName\": \"Öster\",\n      \"birthDate\": \"1939\"\n    },\n    {\n      \"@type\": \"Person\",\n      \"givenName\": \"Marianne\",\n      \"familyName\": \"Öster\",\n      \"birthDate\": \"1942\"\n    }\n  ],\n  \"education\": [\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"high school diploma\",\n      \"issuer\": \"Stockholm\",\n      \"issueDate\": \"1926\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Bachelor of Arts\",\n      \"issuer\": \"Uppsala\",\n      \"issueDate\": \"1931\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Fil. Lic.\",\n      \"issuer\": \"Uppsala\",\n      \"issueDate\": \"1936\"\n    },\n    {\n      \"@type\": \"EducationalOccupationalCredential\",\n      \"credentialCategory\": \"Trainee\",\n      \"issuer\": \"Uppsala\",\n      \"startDate\": \"1937\",\n      \"endDate\": \"1938\"\n    }\n  ],\n  \"employmentHistory\": [\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Substitute Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Teaching Seminary, Växjö\"\n      },\n      \"startDate\": \"1931\",\n      \"endDate\": \"1932\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Part-time Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala Elementary School\"\n      },\n      \"startDate\": \"1932\",\n      \"endDate\": \"1938\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Temporary Assistant Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping\"\n      },\n      \"startDate\": \"1938-01\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Part-time Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala Vocational School\"\n      },\n      \"startDate\": \"1938\",\n      \"endDate\": \"1939\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Part-time Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Uppsala Vocational School\"\n      },\n      \"startDate\": \"1941-04\",\n      \"endDate\": \"1942\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Lv.2\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Lv.2\"\n      },\n      \"startDate\": \"1942\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Linköping Vocational School\"\n      },\n      \"startDate\": \"1944\",\n      \"endDate\": \"1946\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Assistant Teacher\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Växjö Preschool Teacher Training\"\n      },\n      \"startDate\": \"1946\"\n    },\n    {\n      \"@type\": \"JobPosting\",\n      \"title\": \"Geologist\",\n      \"hiringOrganization\": {\n        \"@type\": \"Organization\",\n        \"name\": \"Swedish Geological Survey\"\n      },\n      \"startDate\": \"1940\"\n    }\n  ],\n  \"hasOccupation\": [\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Substitute Teacher\"\n    },\n    {\n      \"@type\": \"Occupation\",\n      \"name\": \"Geologist\"\n    }\n  ],\n  \"memberOf\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Swedish Geological Survey\"\n  },\n  \"hasTravelHistory\": [\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Travel to Denmark\",\n      \"startDate\": \"1934\"\n    },\n    {\n      \"@type\": \"Trip\",\n      \"name\": \"Travel to Finland\",\n      \"startDate\": \"1936\"\n    }\n  ],\n  \"publication\": [\n    {\n      \"@type\": \"CreativeWork\",\n      \"name\": \"Written scientific dissertations and papers in geography and quaternary geology\"\n    }\n  ]\n}",
     "structured": {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Johannes Richard Öster",
+        "givenName": "Johannes Richard",
+        "familyName": "Öster",
         "birthDate": "1902-04-16",
         "birthPlace": {
-            "@type": "City",
-            "name": "Älvkarleby"
+            "@type": "Place",
+            "name": "Älvkarleby, Uppsala County, Sweden"
         },
-        "nationality": "Swedish",
-        "employment": [
-            {
-                "@type": "JobPosting",
-                "title": "Substitute School Teacher",
-                "startDate": "1931-01-01",
-                "endDate": "1946-12-31",
-                "location": {
-                    "@type": "City",
-                    "name": "Växjö"
-                }
-            },
-            {
-                "@type": "JobPosting",
-                "title": "Geologist",
-                "startDate": "1940-01-01",
-                "location": {
-                    "@type": "Organization",
-                    "name": "Swedish Geological Survey"
-                }
-            }
-        ],
-        "parents": [
+        "parent": [
             {
                 "@type": "Person",
-                "name": "Richard Öster",
-                "jobTitle": "Vicar"
+                "givenName": "Richard",
+                "familyName": "Öster",
+                "jobTitle": "Clergyman"
             },
             {
                 "@type": "Person",
-                "name": "Sigrid Almberg"
+                "givenName": "Sigrid",
+                "familyName": "Almberg"
             }
         ],
         "spouse": {
             "@type": "Person",
-            "name": "Signe Larsson",
-            "marriageDate": "1938-01-01"
+            "givenName": "Signe",
+            "familyName": "Larsson",
+            "marriageDate": "1938"
         },
         "children": [
             {
                 "@type": "Person",
-                "name": "Bengt-Olof",
-                "birthDate": "1939-01-01"
+                "givenName": "Bengt-Olof",
+                "familyName": "Öster",
+                "birthDate": "1939"
             },
             {
                 "@type": "Person",
-                "name": "Marianne",
-                "birthDate": "1942-01-01"
+                "givenName": "Marianne",
+                "familyName": "Öster",
+                "birthDate": "1942"
             }
         ],
         "education": [
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "High School Diploma",
-                "educationalLevel": "HighSchool",
-                "educationalSpecialty": "Graduate",
-                "awardingInstitution": {
-                    "@type": "Organization",
-                    "name": "Stockholm"
-                },
-                "awardDate": "1926-01-01"
+                "credentialCategory": "high school diploma",
+                "issuer": "Stockholm",
+                "issueDate": "1926"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Bachelor's Degree",
-                "educationalLevel": "Undergraduate",
-                "educationalSpecialty": "Arts",
-                "awardingInstitution": {
-                    "@type": "Organization",
-                    "name": "Uppsala"
-                },
-                "awardDate": "1931-01-01"
+                "credentialCategory": "Bachelor of Arts",
+                "issuer": "Uppsala",
+                "issueDate": "1931"
             },
             {
                 "@type": "EducationalOccupationalCredential",
-                "credentialCategory": "Bachelor's Degree",
-                "educationalLevel": "Graduate",
-                "educationalSpecialty": null,
-                "awardingInstitution": {
+                "credentialCategory": "Fil. Lic.",
+                "issuer": "Uppsala",
+                "issueDate": "1936"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Trainee",
+                "issuer": "Uppsala",
+                "startDate": "1937",
+                "endDate": "1938"
+            }
+        ],
+        "employmentHistory": [
+            {
+                "@type": "JobPosting",
+                "title": "Substitute Teacher",
+                "hiringOrganization": {
                     "@type": "Organization",
-                    "name": "Uppsala"
+                    "name": "Teaching Seminary, Växjö"
                 },
-                "awardDate": "1936-01-01"
-            }
-        ],
-        "workLocation": [
-            {
-                "@type": "City",
-                "name": "Uppsala"
+                "startDate": "1931",
+                "endDate": "1932"
             },
             {
-                "@type": "City",
-                "name": "Liniköping"
+                "@type": "JobPosting",
+                "title": "Part-time Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Uppsala Elementary School"
+                },
+                "startDate": "1932",
+                "endDate": "1938"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Temporary Assistant Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Linköping"
+                },
+                "startDate": "1938-01",
+                "endDate": "1939"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Part-time Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Uppsala Vocational School"
+                },
+                "startDate": "1938",
+                "endDate": "1939"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Part-time Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Uppsala Vocational School"
+                },
+                "startDate": "1941-04",
+                "endDate": "1942"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Lv.2",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Lv.2"
+                },
+                "startDate": "1942",
+                "endDate": "1946"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Linköping Vocational School"
+                },
+                "startDate": "1944",
+                "endDate": "1946"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Assistant Teacher",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Växjö Preschool Teacher Training"
+                },
+                "startDate": "1946"
+            },
+            {
+                "@type": "JobPosting",
+                "title": "Geologist",
+                "hiringOrganization": {
+                    "@type": "Organization",
+                    "name": "Swedish Geological Survey"
+                },
+                "startDate": "1940"
             }
         ],
-        "travelHistory": [
+        "hasOccupation": [
+            {
+                "@type": "Occupation",
+                "name": "Substitute Teacher"
+            },
+            {
+                "@type": "Occupation",
+                "name": "Geologist"
+            }
+        ],
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Swedish Geological Survey"
+        },
+        "hasTravelHistory": [
             {
                 "@type": "Trip",
-                "departureTime": "1934-01-01",
-                "departurePlace": {
-                    "@type": "City",
-                    "name": "Sweden"
-                },
-                "arrivalTime": "1934-01-01",
-                "arrivalPlace": {
-                    "@type": "City",
-                    "name": "Denmark"
-                }
+                "name": "Travel to Denmark",
+                "startDate": "1934"
             },
             {
                 "@type": "Trip",
-                "departureTime": "1936-01-01",
-                "departurePlace": {
-                    "@type": "City",
-                    "name": "Sweden"
-                },
-                "arrivalTime": "1936-01-01",
-                "arrivalPlace": {
-                    "@type": "City",
-                    "name": "Finland"
-                }
+                "name": "Travel to Finland",
+                "startDate": "1936"
             }
         ],
-        "researchInterests": [
-            "Geography",
-            "Quaternary Geology"
+        "publication": [
+            {
+                "@type": "CreativeWork",
+                "name": "Written scientific dissertations and papers in geography and quaternary geology"
+            }
         ]
     }
 }
