@@ -1,9 +1,14 @@
 name: Run Python Script with API Interaction
 
 on:
-  schedule:
+  pull_request:
+    branches:
+      - main
+
+#on:
+#  schedule:
     # This runs the workflow every 8 hours
-    - cron: '0 */8 * * *'
+#    - cron: '0 */8 * * *'
 
 jobs:
   run_script:
