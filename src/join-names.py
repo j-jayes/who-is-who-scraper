@@ -1,51 +1,59 @@
-
-"""
-This script reads a YAML file containing a table of contents for a book with chapters and page numbers,
-then processes each chapter by reading the OCR text from corresponding text files in a specified directory.
-For each chapter, it concatenates the text from the indicated page range and saves it to a new file in
-the 'data/joined' directory. Finally, it prints a message when all chapters have been processed successfully.
-
-Usage:
-python process_chapters.py
-
-Requires:
-- A YAML file named 'toc-stockholm.yaml' in the same directory as this script.
-- A directory named 'data/raw' containing the OCR text files for each page, with filenames in the
-format 'sthlm_45_page_text_{page_number}.txt', where {page_number} is the page number.
-
-Outputs:
-- A directory named 'data/joined' containing the concatenated text files for each chapter, with
-filenames in the format '{chapter}-names.txt', where {chapter} is the chapter name from the
-YAML file.
-"""
-
-
 import os
 import yaml
 
-# Read the YAML file
-with open('toc-stockholm.yaml', 'r') as yaml_file:
-    toc = yaml.safe_load(yaml_file)
+def join_text_files(book_name, start_page, end_page, letter, output_directory):
+    joined_text = ''
 
-# Create the joined directory if it doesn't exist
-os.makedirs('data/joined', exist_ok=True)
+    for page_number in range(start_page, end_page):
+        file_name = f'{book_name}_page_text_{page_number}.txt'
+        file_path = os.path.join('data', 'raw', file_name)
 
-# Process each chapter
-for chapter, pages in toc.items():
-    # If only one page is listed, convert it to a range
-    if isinstance(pages, int):
-        pages = [pages, pages]
+        if os.path.isfile(file_path):
+            with open(file_path, 'r', encoding='utf-8') as file:
+                joined_text += file.read()
+        else:
+            print(f"File not found: {file_path}")
 
-    start_page, end_page = pages
+    output_file_name = f'{book_name}_{letter}-names.txt'
+    output_file_path = os.path.join(output_directory, output_file_name)
 
-    # Read and join the OCR text for the specified pages
-    text = ''
-    for i in range(start_page, end_page + 1):
-        with open(f'data/raw/sthlm_45_page_text_{i}.txt', 'r') as page_file:
-            text += page_file.read() + '\n'
+    with open(output_file_path, 'w', encoding='utf-8') as output_file:
+        output_file.write(joined_text)
 
-    # Save the joined text to a new file
-    with open(f'data/joined/{chapter}-names.txt', 'w') as output_file:
-        output_file.write(text)
+def main():
+    books = ["sthlm45", "gota48", "skane48", "sthlm62", "svea64", "gota65", "skane66", "norr68"]
+    book_end_pages = {
+        "sthlm45": 1048,
+        "gota48": 1074,
+        "skane48": 624,
+        "sthlm62": 1498,
+        "svea64": 945,
+        "gota65": 1203,
+        "skane66": 952,
+        "norr68": 1340
+    }
 
-print('All chapters processed successfully!')
+    for book_name in books:
+        toc_path = os.path.join('data', 'book_info', f'{book_name}_toc.yaml')
+        if not os.path.exists(toc_path):
+            print(f"TOC not found for book: {book_name}. Skipping...")
+            continue
+
+        with open(toc_path, 'r', encoding='utf-8') as yaml_file:
+            toc = yaml.safe_load(yaml_file)
+
+        output_directory = os.path.join('data', 'joined_test', book_name)
+        os.makedirs(output_directory, exist_ok=True)
+
+        page_numbers = list(toc.values())
+        letters = list(toc.keys())
+
+        for i in range(len(letters)):
+            start_page = page_numbers[i]
+            end_page = page_numbers[i + 1] if i + 1 < len(page_numbers) else book_end_pages[book_name]
+            letter = letters[i]
+
+            join_text_files(book_name, start_page, end_page, letter, output_directory)
+
+if __name__ == '__main__':
+    main()

@@ -27,47 +27,47 @@ set of files, each containing a single biography.
 Things to remember Medl. av Elektroing :fören. - He is a member of the
 Swedish Association of Electrical Engineers.’ (Dalen, Sten Gunnar)
 
-List of abbreviations: FrOPlemér Franska orden Pour le mérite <br/>
-<br/>FrSvSO Franska Svarta Stjärnorden <br/> <br/>FS Fysiografiska
-sällskapet i Lund <br/> <br/>FS (militärt) flygspanarutbildning <br/>
-<br/>fs., förs. församling <br/> <br/>FSftjk (förtjk) Finska
-skyddskårernas förtjänstkors <br/> <br/>ftjk, förtjk förtjänstkors <br/>
-<br/>ftjt, förtjt förtjänsttecken <br/> <br/>Fvk Fältveterinärkåren
-<br/> <br/>GAA Gustav Adolfsakademien för folklivsforskning <br/>
-<br/>GCI (genomgått gymnastiklärarkurs vid) Gymnastiska
-<br/>Centralinstitutet <br/> <br/>Gci genomgått instruktörskurs vid
-Gymnastiska Centralinstitutet <br/> <br/>GD
+List of abbreviations: FrOPlemér Franska orden Pour le mérite `<br/>`
+`<br/>`FrSvSO Franska Svarta Stjärnorden `<br/>` `<br/>`FS Fysiografiska
+sällskapet i Lund `<br/>` `<br/>`FS (militärt) flygspanarutbildning `<br/>`
+`<br/>`fs., förs. församling `<br/>` `<br/>`FSftjk (förtjk) Finska
+skyddskårernas förtjänstkors `<br/>` `<br/>`ftjk, förtjk förtjänstkors `<br/>`
+`<br/>`ftjt, förtjt förtjänsttecken `<br/>` `<br/>`Fvk Fältveterinärkåren
+`<br/>` `<br/>`GAA Gustav Adolfsakademien för folklivsforskning `<br/>`
+`<br/>`GCI (genomgått gymnastiklärarkurs vid) Gymnastiska
+`<br/>`Centralinstitutet `<br/>` `<br/>`Gci genomgått instruktörskurs vid
+Gymnastiska Centralinstitutet `<br/>` `<br/>`GD
 gymnastikdirektörs(sjukgymnast-)kurs vid Gymnastiska
-<br/>Centralinstitutet <br/> <br/>GM guldmedalj <br/> <br/>Gm guldmärke
-<br/> <br/>G. m. gift med <br/> <br/>GmbH Gesellschaft mit beschränkter
-Haftung <br/> <br/>Gotlnb Gotlands nationalbeväring <br/> <br/>GrFenO
-Grekiska Fenixorden <br/> <br/>GrFO Grekiska Frälsarorden <br/>
-<br/>GrGO Grekiska Georg I :s orden <br/> <br/>grkkurs granatkastarkurs
-<br/> <br/>GSasp (militärt) generalstabsaspirant <br/> <br/>Gt
-guldtecken <br/> <br/>GVSbm minnesmedalj med anledning av Kronprins
-Gustafs och <br/>Kronprinsessan Victorias silverbröllop <br/>
-<br/>GV:sJmt minnestecken med anledning av Konung Gustaf V:s 70-årsdag
-<br/> <br/>GV:s01M Konung Gustaf V:s olympiska minnesmedalj <br/>
-<br/>GV:sPostJubM Konung Gustaf V:s postjubileumsmedalj <br/> <br/>HA
-Vitterhets-, historie- och antikvitetsakademien <br/> <br/>HambHk
-Hamburgs Hanseaterkors <br/> <br/>HavKalO Havaiska Kalakauaorden <br/>
-<br/>HavKamO Havaiska Kamehamea I :s orden <br/> <br/>HavKrO Havaiska
-Kronorden <br/> <br/>h c honoris causa <br/> <br/>hd härad <br/>
-<br/>HedL hedersledamot av <br/> <br/>HessPhO Hessiska Philip den
-ädelmodiges förtjänstorden <br/> <br/>HHS Handelshögskolan i Stockholm
-<br/> <br/>Hk hederskors <br/> <br/>HKS Högre konstindustriella skolan i
-Stockholm <br/> <br/>HohHO Hohenzollernska husorden <br/> <br/>HSB
-Hyresgästernas Sparkasse- o. Byggnadsförening <br/> <br/>Ht hederstecken
-<br/> <br/>ht höstterminen <br/> <br/>HushGM resp. hushållningssällskaps
-guldmedalj <br/> <br/>’liv, hemv hemvärn <br/> <br/>hvo (bef)
-hemvärnsområde(sbefälhavare) <br/> <br/>HVS Humanistiska
-vetenskapssamfundet i Uppsala <br/> <br/>Ica Inköpscentralernas A-B
-<br/> <br/>Idrm (g, s) idrottsmärke (guld, silver) <br/> <br/>IF
-idrottsförening <br/> <br/>IFO Isländska Falkens orden <br/> <br/>io
-inskrivningsområde <br/> <br/>IOGT International Order of Good Templars
-<br/> <br/>IOS Infanteriofficersskolan <br/> <br/>Iqml medaljen Illis
-quorum meruere labores <br/> <br/>IrakRO Irakiska Rafidain-orden <br/>
-<br/>9
+`<br/>`Centralinstitutet `<br/>` `<br/>`GM guldmedalj `<br/>` `<br/>`Gm guldmärke
+`<br/>` `<br/>`G. m. gift med `<br/>` `<br/>`GmbH Gesellschaft mit beschränkter
+Haftung `<br/>` `<br/>`Gotlnb Gotlands nationalbeväring `<br/>` `<br/>`GrFenO
+Grekiska Fenixorden `<br/>` `<br/>`GrFO Grekiska Frälsarorden `<br/>`
+`<br/>`GrGO Grekiska Georg I :s orden `<br/>` `<br/>`grkkurs granatkastarkurs
+`<br/>` `<br/>`GSasp (militärt) generalstabsaspirant `<br/>` `<br/>`Gt
+guldtecken `<br/>` `<br/>`GVSbm minnesmedalj med anledning av Kronprins
+Gustafs och `<br/>`Kronprinsessan Victorias silverbröllop `<br/>`
+`<br/>`GV:sJmt minnestecken med anledning av Konung Gustaf V:s 70-årsdag
+`<br/>` `<br/>`GV:s01M Konung Gustaf V:s olympiska minnesmedalj `<br/>`
+`<br/>`GV:sPostJubM Konung Gustaf V:s postjubileumsmedalj `<br/>` `<br/>`HA
+Vitterhets-, historie- och antikvitetsakademien `<br/>` `<br/>`HambHk
+Hamburgs Hanseaterkors `<br/>` `<br/>`HavKalO Havaiska Kalakauaorden `<br/>`
+`<br/>`HavKamO Havaiska Kamehamea I :s orden `<br/>` `<br/>`HavKrO Havaiska
+Kronorden `<br/>` `<br/>`h c honoris causa `<br/>` `<br/>`hd härad `<br/>`
+`<br/>`HedL hedersledamot av `<br/>` `<br/>`HessPhO Hessiska Philip den
+ädelmodiges förtjänstorden `<br/>` `<br/>`HHS Handelshögskolan i Stockholm
+`<br/>` `<br/>`Hk hederskors `<br/>` `<br/>`HKS Högre konstindustriella skolan i
+Stockholm `<br/>` `<br/>`HohHO Hohenzollernska husorden `<br/>` `<br/>`HSB
+Hyresgästernas Sparkasse- o. Byggnadsförening `<br/>` `<br/>`Ht hederstecken
+`<br/>` `<br/>`ht höstterminen `<br/>` `<br/>`HushGM resp. hushållningssällskaps
+guldmedalj `<br/>` `<br/>`’liv, hemv hemvärn `<br/>` `<br/>`hvo (bef)
+hemvärnsområde(sbefälhavare) `<br/>` `<br/>`HVS Humanistiska
+vetenskapssamfundet i Uppsala `<br/>` `<br/>`Ica Inköpscentralernas A-B
+`<br/>` `<br/>`Idrm (g, s) idrottsmärke (guld, silver) `<br/>` `<br/>`IF
+idrottsförening `<br/>` `<br/>`IFO Isländska Falkens orden `<br/>` `<br/>`io
+inskrivningsområde `<br/>` `<br/>`IOGT International Order of Good Templars
+`<br/>` `<br/>`IOS Infanteriofficersskolan `<br/>` `<br/>`Iqml medaljen Illis
+quorum meruere labores `<br/>` `<br/>`IrakRO Irakiska Rafidain-orden `<br/>`
+`<br/>`9
 
 What scraping is complete so far?? gota48
 
