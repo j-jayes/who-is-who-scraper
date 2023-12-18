@@ -3,7 +3,6 @@
 import os
 from openai import OpenAI
 import json
-import yaml
 from pathlib import Path
 import dotenv
 import concurrent.futures
@@ -226,4 +225,4 @@ def process_json_files(data_dir, file_range):
 FILE_RANGE = [0, 1]
 
 # Call the function with the appropriate data directory and file range
-process_json_files(root_dir / "data", FILE_RANGE)
+process_json_files(data_dir, FILE_RANGE)
