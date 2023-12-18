@@ -222,7 +222,7 @@ def process_json_files(data_dir, file_range):
 
 
 # File range for testing
-FILE_RANGE = [0, 1]
+FILE_RANGE = [0, 5]
 
 # Call the function with the appropriate data directory and file range
 process_json_files(data_dir, FILE_RANGE)
