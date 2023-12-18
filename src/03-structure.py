@@ -6,10 +6,12 @@ import json
 import yaml
 from pathlib import Path
 import dotenv
+import concurrent.futures
 
 # Get the current working directory (root directory of the project)
-root_dir = Path.cwd()
-data_dir = root_dir / "data"
+# root_dir = Path.cwd()
+# data_dir = root_dir / "data"
+data_dir = "./data"
 dotenv.load_dotenv()
 
 # Check if script is running within GitHub Actions
@@ -22,8 +24,6 @@ else:
     openai_api_key = os.getenv("OPEN_AI_KEY")
 
 client = OpenAI(api_key=openai_api_key)
-
-FILE_RANGE = [0, 20]
 
 schema = {
     "type": "object",
@@ -174,70 +174,55 @@ def structure_biography_info(page_text):
         return None
 
 
+def process_file(input_file_path, output_file_path):
+    if output_file_path.exists():
+        print(f"Output file already exists, skipping: {output_file_path}")
+        return
+
+    if not input_file_path.exists():
+        print(f"Input file not found: {input_file_path}")
+        return
+
+    print(f"Processing file: {input_file_path}", flush=True)
+
+    with open(input_file_path, "r", encoding="utf-8") as file:
+        page_text_in = file.read()
+
+    structured_biography_info = structure_biography_info(page_text_in)
+
+    if page_text_in is not None and structured_biography_info is not None:
+        data = {
+            "original": page_text_in,
+            "structured": structured_biography_info,
+        }
+
+        with open(output_file_path, "w", encoding="utf-8") as output_file:
+            json.dump(data, output_file, ensure_ascii=False, indent=4)
+
+        print(f"Processed file: {input_file_path}", flush=True)
+    else:
+        print(f"Error processing file {input_file_path}: structuring failed. Check the API response for more information.")
+
 def process_json_files(data_dir, file_range):
-    books = [
-        "gota48",
-        "gota65",
-        "norr68",
-        "skane48",
-        "skane66",
-        "sthlm45",
-        "sthlm62",
-        "svea64",
-    ]
+    books = ["gota48", "gota65", "norr68", "skane48", "skane66", "sthlm45", "sthlm62", "svea64"]
     letters = [chr(i) for i in range(ord("A"), ord("Z") + 1)]
     start_index, end_index = file_range
 
-    for book in books:
-        for letter in letters:
-            for file_index in range(start_index, end_index + 1):
-                input_file_path = (
-                    Path(data_dir)
-                    / f"joined_text/{book}/{letter}/{book}_{letter}_{file_index}.txt"
-                )
-                output_file_path = (
-                    Path(data_dir)
-                    / f"json_structured/{book}/{letter}/{book}_{letter}_structured_{file_index}.json"
-                )
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        futures = []
+        for book in books:
+            for letter in letters:
+                for file_index in range(start_index, end_index + 1):
+                    input_file_path = Path(data_dir) / f"joined_text/{book}/{letter}/{book}_{letter}_{file_index}.txt"
+                    output_file_path = Path(data_dir) / f"json_structured/{book}/{letter}/{book}_{letter}_structured_{file_index}.json"
+                    output_file_path.parent.mkdir(parents=True, exist_ok=True)
+                    futures.append(executor.submit(process_file, input_file_path, output_file_path))
 
-                # ensure json_structured directory exists
-                output_file_path.parent.mkdir(parents=True, exist_ok=True)
-
-                if output_file_path.exists():
-                    print(f"Output file already exists, skipping: {output_file_path}")
-                    continue
-
-                if not input_file_path.exists():
-                    print(f"Input file not found: {input_file_path}")
-                    continue
-
-                print(f"Processing file: {input_file_path}", flush=True)
-
-                with open(input_file_path, "r", encoding="utf-8") as file:
-                    page_text_in = file.read()
-
-                # Translate the biography to English and structure it
-                structured_biography_info = structure_biography_info(page_text_in)
-
-                if page_text_in is not None and structured_biography_info is not None:
-                    # Prepare JSON data
-                    data = {
-                        "original": page_text_in,
-                        "structured": structured_biography_info,
-                    }
-
-                    # Save the JSON data to the output directory
-                    with open(output_file_path, "w", encoding="utf-8") as output_file:
-                        json.dump(data, output_file, ensure_ascii=False, indent=4)
-
-                    print(f"Processed file: {input_file_path}", flush=True)
-                else:
-                    print(
-                        f"Error processing file {input_file_path}: structuring failed. Check the API response for more information."
-                    )
+        for future in concurrent.futures.as_completed(futures):
+            future.result()  # This is just to catch exceptions if any occurred during the file processing
 
 
-# File range for testing (e.g., process files 0 to 20)
+# File range for testing
 FILE_RANGE = [0, 1]
 
 # Call the function with the appropriate data directory and file range

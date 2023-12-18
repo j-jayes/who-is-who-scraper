@@ -1,7 +1,7 @@
 name: Web Scraper
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -27,7 +27,7 @@ jobs:
           git pull origin main
 
       - name: Run scraper
-        run: python src/fetch_page_text_all_books_github_actions.py
+        run: python src/00-fetch_page_text_all_books_github_actions.py
 
       - name: Commit files
         run: |
