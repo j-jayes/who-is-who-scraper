@@ -89,7 +89,6 @@ def main():
 
     all_files = sorted([f for f in os.listdir(input_directory) if f.endswith(".json")])
 
-    # Process only the first 10 files
     for file_name in all_files:
         augment_biography(input_directory, output_directory, file_name, geolocator, geocoded_cache)
 
