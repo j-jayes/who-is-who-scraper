@@ -2,3 +2,7 @@ config.yaml
 
 .venv/
 .env
+
+# ignore anything that ends in "embeddings.json"
+**/embeddings.json
+data/occupations/occupation_embeddings.json
