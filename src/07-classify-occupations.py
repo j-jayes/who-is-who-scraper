@@ -54,8 +54,6 @@ hisco_embeddings.to_json('data/occupations/hisco_embeddings.json')
 
 
 
-
-
 # Now we want to get the titles from the biographies and save them as a dataframe
 # We can do this by looping through the json files and extracting the titles
 

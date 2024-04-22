@@ -2,6 +2,7 @@
 import json
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+import pandas as pd
 
 # Function to load JSON file
 def load_json_file(file_path):
@@ -51,7 +52,40 @@ closest_hisco_matches = find_closest_hisco(occupation_embeddings_dict, hisco_emb
 # join the occupation names to the closest matches
 closest_hisco_matches = {occupation_names[k]: v for k, v in closest_hisco_matches.items()}
 
-# save the closest matches to a json file
+
+
+# There needs to be a lookup table here to replace the closest_hisco number from an index to the hisco code from the file
+# read in the hisco codes
+hisco_codes = pd.read_excel("data/occupations/3-digit-hisco.xlsx")
+
+# select the column we want, number
+hisco_codes = hisco_codes[['number']]
+# rename it to hisco_code 
+hisco_codes.columns = ['hisco_code']
+
+# Make a column called "closest_hisco" from the index in hisco_codes
+hisco_codes['closest_hisco'] = hisco_codes.index
+# make closest_hisco an integer
+hisco_codes['closest_hisco'] = hisco_codes['closest_hisco'].astype(int)
+
+# create closest_hisco_matches_df from closest_hisco_matches
+closest_hisco_matches_df = pd.DataFrame(closest_hisco_matches).transpose()
+
+# make the index a column and call it "occupation"
+closest_hisco_matches_df = closest_hisco_matches_df.reset_index().rename(columns={'index': 'occupation'})
+# make closest_hisco an integer
+closest_hisco_matches_df['closest_hisco'] = closest_hisco_matches_df['closest_hisco'].astype(int)
+
+# join the closest_hisco_matches_df to hisco_codes on "closest_hisco" with
+closest_hisco_matches_df = closest_hisco_matches_df.merge(hisco_codes, on='closest_hisco', how='left')
+
+# drop the "closest_hisco" column
+closest_hisco_matches_df = closest_hisco_matches_df.drop(columns=['closest_hisco'])
+
+closest_hisco_matches_df.columns
+
+
+# save the closest_hisco_matches_df to a json file with ensure_ascii=False
 with open('data/occupations/closest_hisco_matches.json', 'w', encoding='utf-8') as f:
-    json.dump(closest_hisco_matches, f, ensure_ascii=False, indent=4)
+    json.dump(closest_hisco_matches_df.to_dict(), f, ensure_ascii=False, indent=4)
 

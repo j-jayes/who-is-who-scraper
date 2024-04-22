@@ -1,0 +1,863 @@
+---
+title: "Figures"
+format: html
+---
+
+
+```{r}
+library(tidyverse)
+library(readxl)
+theme_set(theme_light())
+
+hisco_counts <- readxl::read_xlsx("data/occupations/hisco_counts_ordered.xlsx")
+
+hisco_counts <- hisco_counts %>%
+    rename(hisco_title = 1) %>%
+    slice_max(count, n = 12)
+
+
+hisco_info <- readxl::read_xlsx("data/occupations/3-digit-hisco.xlsx") %>%
+    rename(hisco_title = name)
+
+hisco_counts <- hisco_counts %>%
+    inner_join(hisco_info, by = "hisco_title") %>%
+    mutate(hisco_label = str_c(number, " - ", hisco_title))
+
+hisco_counts %>%
+    mutate(hisco_label = fct_reorder(hisco_label, count)) %>%
+    ggplot(aes(y = hisco_label, x = count)) +
+    geom_col(fill = "midnightblue", alpha = .8) +
+    scale_x_continuous(labels = scales::number_format()) +
+    labs(y = "Occupation and HISCO code", x = "Number of oberservations in sample", title = "Most common 3 digit HISCO codes in the Who is Who sample") +
+    # set title position to the left
+    theme(plot.title.position = "plot")
+
+ggsave("figures/hisco_counts.png", width = 20, height = 10, units = "cm", dpi = 300)
+
+```
+
+
+## What about the electricity related jobs?
+
+```{r}
+electricity_related_hisco_codes <- c(12, 23, 34, 342, 841, 849, 851, 852, 853, 854, 855, 856, 857, 859, 961)
+
+
+
+```
+
+
+34 - electrical and electronic engineering technicians
+
+```{r}
+df_eee <- readxl::read_excel("data/distances/distances_34.xlsx")
+
+df_eee <- df_eee %>% janitor::clean_names()
+
+df_eee <- df_eee %>%
+    mutate(id = row_number()) %>%
+    select(where(is.numeric)) %>%
+    pivot_longer(-id) %>%
+    filter(str_detect(name, "latitude|longitude")) %>%
+    mutate(
+        type = str_remove(name, "_.*"),
+        coords = str_remove(name, ".*_")
+    ) %>%
+    select(-name) %>%
+    pivot_wider(names_from = coords, values_from = value) %>%
+    mutate(type = fct_relevel(type, "birth", "education", "current")) %>%
+    mutate(order = case_when(
+        type == "birth" ~ 1,
+        type == "education" ~ 2,
+        type == "current" ~ 3
+    )) %>%
+    arrange(id, order)
+
+
+names <- tibble(
+    id = c(1, 2, 3, 4),
+    names = c("Axel Verner Nordell", "Ivar Eggert Hedenblad", "John Oscar Jacobson", "Knut Erik Albin Flycht")
+)
+
+df_eee <- df_eee %>%
+    inner_join(names, by = "id") %>%
+    mutate(type = case_when(
+        type == "birth" ~ "Birth",
+        type == "education" ~ "Education",
+        type == "current" ~ "Current location"
+    ))
+
+library(sf)
+
+maps_path <- "data/maps/sweden_24_couties.shp"
+
+# Read in the shapefile
+sweden <- st_read(maps_path)
+
+
+ggplot() +
+    geom_sf(data = sweden, fill = "grey90", colour = "grey50") +
+    geom_path(aes(x = longitude, y = latitude), data = df_eee, show.legend = F) +
+    geom_point(aes(x = longitude, y = latitude, colour = type), data = df_eee, cex = 3) +
+    facet_wrap(~names, ncol = 2) +
+    scale_colour_brewer(palette = "Dark2") +
+    scale_y_continuous(limits = c(55, 62)) +
+    labs(colour = "Location of life event") +
+    labs(
+        x = NULL,
+        y = NULL,
+        # title = "Life paths of selected Electrical and Electronic Engineering Technicians"
+    ) +
+    theme(
+        axis.ticks = element_blank(),
+        axis.text = element_blank()
+    ) +
+    theme(plot.title.position = "plot")
+
+ggsave("figures/eee_map.png", width = 20, height = 15, units = "cm", dpi = 300)
+```
+
+
+
+
+
+```{r}
+
+data <- tibble(
+    number = c(34, 211, 20, 61, 131, 63, 141),
+    distance_birthplace_education = c(329.42, 237.34, 250.78, 228.94, 232.21, 211.73, 235.07),
+    distance_birthplace_current = c(254.83, 225.52, 281.01, 286.31, 282.03, 240.5, 196.24),
+    distance_education_current = c(398.89, 263.98, 266.32, 236.83, 254.46, 211.66, 216.85)
+)
+
+hisco_info_nums <- hisco_info %>%
+    mutate(number = as.numeric(number))
+
+data %>%
+    inner_join(hisco_info_nums, by = "number") %>%
+    mutate(hisco_label = str_c(number, " - ", hisco_title)) %>%
+    pivot_longer(contains("distance"), values_to = "distance", names_to = "event") %>%
+    mutate(
+        event = str_remove(event, "distance_"),
+        event = str_to_title(event),
+        hisco_label = fct_reorder(hisco_label, distance)
+    ) %>%
+    ggplot(aes(x = distance, y = hisco_label, colour = event)) +
+    geom_point(cex = 2.5) +
+    scale_colour_brewer(palette = "Dark2") +
+    scale_x_continuous(labels = scales::number_format(), limits = c(0, NA)) +
+    labs(x = "Distance in kilometers", y = "Occupation and HISCO code", title = "Average distances between life events for selected occupations") +
+    (theme(plot.title.position = "plot"))
+
+ggsave("figures/distances_comparison.png", width = 20, height = 10, units = "cm", dpi = 300)
+
+```
+
+
+
+```{r}
+library(tidyverse)
+library(readxl)
+
+hisco_counts <- readxl::read_excel("data/occupations/hisco_counts_ordered.xlsx")
+
+hisco_counts <- hisco_counts %>%
+    rename(hisco_title = 1)
+
+hisco_counts %>%
+    summarise(total = sum(count))
+```
+
+
+
+
+
+```{r}
+# Load the tibble package if not already loaded
+# install.packages("tibble")  # Uncomment and run if you haven't installed it
+
+# Create the tibble
+library(tibble)
+
+data <- tribble(
+    ~Sector, ~Average_Distance,
+    "Building contractor, Concrete goods factory", 247.71,
+    "Unknown", 267.36,
+    "Electrical appliances and mechanical machinery", 352.34,
+    "Mechanical workshops for machine production (heavy industries)", 326.60,
+    "Chemical-technical industry and jewellery", 293.84,
+    "Food industry", 236.33,
+    "Metal goods factory, Mechanical workshop (light industries)", 261.98,
+    "Steel and metal industry", 167.21,
+    "Breweries, malt and soft drink factories", 245.91,
+    "Chemical-technical industry, Chemical and pharmaceutical products, Paint and varnish factories", 337.69,
+    "Wood, sawmill and carpentry industry", 245.85,
+    "Furniture and decoration factories", 185.71,
+    "Glass & Mirror Factories", 282.94,
+    "Book Printing and Publishing", 192.62,
+    "Spinning, weaving and textile industry", 202.20,
+    "Preserved and fresh food industries", 141.13,
+    "Iron and Steel Foundries", 206.03,
+    "Clothing and textile industry", 178.81,
+    "Textile and leather processing industry", 172.00
+)
+
+
+theme_set(theme_light())
+# Display the tibble
+data %>%
+    mutate(Sector = fct_reorder(Sector, Average_Distance)) %>% 
+    ggplot(aes(x = Average_Distance, y = Sector)) +
+    geom_col(fill = "#d95f02", alpha = .8) +
+    scale_x_continuous(labels = scales::number_format()) +
+    labs(y = "Sector that Engineers worked in", x = "Distance moved by engineers") +
+    # set title position to the left
+    theme(plot.title.position = "plot")
+
+ggsave("figures/engineer_distance.png", width = 20, height = 10, units = "cm", dpi = 300)
+
+
+
+
+# Load the tibble package
+library(tibble)
+
+# Create the tibble
+distances <- tibble(
+  number = c(211, 61, 131, 20, 63, 141, 123, 202, 121, 110, 24, 135),
+  value = c(225, 258, 258, 264, 225, 215, 241, 203, 205, 202, 262, 220)
+)
+
+# Print the tibble
+print(distances)
+
+
+library(tidyverse)
+library(readxl)
+theme_set(theme_light())
+
+
+hisco_info <- readxl::read_xlsx("data/occupations/3-digit-hisco.xlsx") %>%
+    rename(hisco_title = name) %>% 
+    mutate(number = as.numeric(number))
+
+distances = distances %>% 
+left_join(hisco_info) %>% 
+    mutate(hisco_label = str_c(number, " - ", hisco_title))
+
+
+distances %>%
+    mutate(hisco_label = fct_reorder(hisco_label, value)) %>%
+    ggplot(aes(y = hisco_label, x = value)) +
+    geom_col(fill = "#1b9e77", alpha = .8) +
+    scale_x_continuous(labels = scales::number_format()) +
+    labs(y = "Occupation and HISCO code", x = "Distance moved by common HISCO codes"
+    # title = "Most common 3 digit HISCO codes in the Who is Who sample"
+    ) +
+    # set title position to the left
+    theme(plot.title.position = "plot")
+
+
+ggsave("figures/hisco_distance.png", width = 20, height = 10, units = "cm", dpi = 300)
+
+```
+
+
+Common types
+
+
+```{r}
+# Load the tibble package
+library(tibble)
+
+# Create the tibble
+data <- tibble(
+  sector = c("Building contractor, Concrete goods factory", 
+             "Mechanical workshops for machine production (heavy industries)", 
+             "Unknown", 
+             "Electrical appliances and mechanical machinery", 
+             "Chemical-technical industry and jewellery", 
+             "Food industry", 
+             "Metal goods factory, Mechanical workshop (light industries)", 
+             "Chemical-technical industry, Chemical and pharmaceutical products, Paint and varnish factories", 
+             "Breweries, malt and soft drink factories", 
+             "Clothing and textile industry", 
+             "Furniture and decoration factories", 
+             "Steel and metal industry", 
+             "Wood, sawmill and carpentry industry", 
+             "Spinning, weaving and textile industry", 
+             "Preserved and fresh food industries", 
+             "Iron and Steel Foundries", 
+             "Glass & Mirror Factories", 
+             "Book Printing and Publishing", 
+             "Textile and leather processing industry"),
+  count = c(556, 24, 185, 22, 6, 45, 74, 23, 22, 3, 15, 12, 3, 5, 1, 4, 3, 4, 1)
+)
+
+# Print the tibble
+print(data)
+
+data %>% 
+filter(count > 3) %>% 
+mutate(sector = fct_reorder(sector, count)) %>% 
+ggplot(aes(x = count, y = sector)) +
+geom_point(color = "#e7298a") +
+geom_text(aes(label = count), hjust = - 1) +
+labs(x = "Number of engineers by sector", 
+y = "Sector") +
+scale_x_continuous(limits = c(NA, 700))
+
+
+ggsave("figures/engineers_type.png", width = 20, height = 10, units = "cm", dpi = 300)
+
+```
+
+
+
+
+
+```{r}
+# We want to make a map of the places that people are born by their HISCO code
+
+df = readxl::read_excel("data/occupations/individual_occupations.xlsx")
+
+df_degrees = readxl::read_excel("data/degrees/degrees_classified.xlsx") %>% janitor::clean_names()
+
+df_degrees = df_degrees %>% select(-count) %>% distinct()
+
+
+df = df %>% left_join(df_degrees, by = "degree")
+
+# Now we want to join the educational institution coordinates
+df_educ_coords = readxl::read_excel("data/degrees/geocoded_institutions_top.xlsx")
+
+df = df %>% 
+    left_join(df_educ_coords, by = "institution")
+
+# df %>% write_csv("data/occupations/individual_occupations_institution_geocoded.csv")
+
+# df %>% count(current_lat, sort = T) %>% slice(1) %>% pull(current_lat)
+# df %>% count(current_lon, sort = T) %>% slice(1) %>% pull(current_lon)
+```
+
+Here I use the distance calculation measures. 
+
+```{r}
+df = read_csv("data/occupations/individual_occupations_institution_geocoded_distances.csv")
+```
+
+Now I need to check whether the coordinates are in Sweden or outside, then I can calculate the share of each occupation that are born and study in Sweden versus outside.
+
+```{r}
+df %>% 
+ggplot(aes(institution_lon, institution_lat)) +
+geom_point()
+
+
+df %>% 
+    filter(str_detect(hisco_occupation, "Engineer|Doctor")) %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor"
+    )) %>%
+    ggplot(aes(x = institution_lon, y = institution_lat, color = narrow_occupation)) +
+        borders("world", regions = "Sweden", colour = "gray50", fill = "gray90") +
+    geom_point() 
+```
+
+
+```{r}
+df %>% filter(str_detect(hisco_occupation, "Engineer"))
+
+df %>% filter(str_detect(hisco_occupation, "Doctor"))
+
+```
+
+So we have 1800 engineers and 1800 doctors. Let's see where they were born.
+
+Let us also count the HISCO codes and make a chart
+
+```{r}
+top_hiscos <- df %>% 
+filter(hisco_occupation != "Knitters") %>%
+count(hisco_code, hisco_occupation, sort = T)  %>% 
+slice_max(n = 10, n)
+
+
+df %>% 
+filter(hisco_code %in% top_hiscos$hisco_code) %>%
+mutate(degree_level = 
+case_when(
+    degree_level == "N/A" ~ "Bachelor",
+    is.na(degree_level) ~ "Bachelor",
+    degree_level == "Candidate" ~ "Bachelor",
+    TRUE ~ degree_level
+)) %>%
+count(hisco_code, hisco_occupation, degree_level, sort = T)  %>% 
+mutate(hisco_occupation = fct_reorder(hisco_occupation, n, .fun = "sum")) %>%
+ggplot(aes(y = hisco_occupation, x = n, fill = degree_level)) +
+geom_col() +
+scale_fill_brewer(palette = "Paired") +
+scale_x_continuous(labels = scales::number_format()) +
+theme(legend.position = "bottom") +
+labs(x = "Number of people", y = "Occupation", fill = "Degree level") 
+```
+
+What about counting degree and level
+
+```{r}
+df %>% 
+filter(!is.na(degree_group)) %>%
+count(degree_group, degree_level, sort = T)
+```
+
+
+```{r}
+df %>% 
+    filter(str_detect(hisco_occupation, "Engineer|Doctor")) %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor"
+    )) %>%
+    select(narrow_occupation, birth_place) %>% 
+    count(narrow_occupation, birth_place) %>% 
+    pivot_wider(names_from = narrow_occupation, values_from = n) %>% 
+    mutate(total = Engineer + Doctor) %>% 
+    arrange(desc(total)) %>% 
+    head(10)
+
+library(maps)
+
+df %>% 
+    filter(str_detect(hisco_occupation, "Engineer|Doctor")) %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor"
+    )) %>%
+    ggplot(aes(x = birth_lon, y = birth_lat, color = narrow_occupation)) +
+        borders("world", regions = "Sweden", colour = "gray50", fill = "gray90") +
+    geom_point() 
+```
+
+
+Need to calculate population density in 1900
+
+
+```{r}
+library(histmaps)
+library(sf)
+library(units)
+
+# devtools::install_github("junkka/histmaps")
+
+p_map <- get_boundaries("1910", "parish")
+
+p_map <- p_map %>% st_transform(crs = 4326)
+
+# set use s2 off
+sf_use_s2(FALSE)
+
+
+parish_pop <- readxl::read_excel("data/maps/population_by_parish_1900_1910.xlsx")
+
+parish_pop = parish_pop %>% 
+filter(year == 1900) %>% select(-year)
+
+p_map = p_map %>% 
+left_join(parish_pop) 
+
+p_map = p_map %>%
+mutate(
+    pop_density = as.numeric(set_units(n / st_area(.), "1/km2")
+))
+
+p_map %>% arrange(desc(pop_density)) %>% select(pop_density, name)
+
+p_map = p_map %>% select(ref_code, name, population = n, pop_density, geometry)
+
+```
+
+Now we join the population density to the birth place of the engineers and doctors
+
+```{r}
+df_sf_birth = df %>% 
+    filter(!is.na(birth_lon)) %>% 
+        st_as_sf(coords = c("birth_lon", "birth_lat"),
+           crs = 4326)
+
+
+df_sf_birth_joined = df_sf_birth %>% st_join(p_map) 
+```
+
+
+```{r}
+df_sf_birth_joined %>% 
+mapview::mapview(zcol = "pop_density")
+```
+
+```{r}
+df_sf_birth_joined %>% as_tibble() %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        TRUE ~ "Other"
+    ))  %>% 
+    mutate(narrow_occupation = fct_relevel(narrow_occupation, "Other")) %>% 
+    lm(pop_density ~ narrow_occupation, data = .)  %>% summary()
+    
+```
+
+```{r}
+
+df_sf_birth_joined %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other"))  %>% 
+    mutate(log_pop_density = log(pop_density + 1)) %>%
+    lm(log_pop_density ~ narrow_occupation, data = .)  %>% summary()
+```
+
+So we find that ministers are more likely to come from rural areas, while everyone else is likely to come from areas of the same population density, on average. 
+
+Density plot
+
+```{r}
+df_sf_birth_joined %>% as_tibble() %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    filter(narrow_occupation != "Other") %>% 
+    ggplot(aes(x = pop_density, fill = narrow_occupation)) +
+    geom_histogram(alpha = .5) +
+    scale_fill_brewer(palette = "Dark2") +
+    scale_x_log10() +
+    facet_wrap(~narrow_occupation) +
+    guides(fill = guide_legend(reverse=T)) 
+```
+
+
+```{r}
+df_sf_birth_joined %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        TRUE ~ "Other"
+    ))  %>% 
+    filter(narrow_occupation != "Other") %>%
+    group_by(narrow_occupation) %>%
+    slice_sample(n = 300) %>%
+    ungroup() %>%
+mapview::mapview(zcol = "narrow_occupation")
+```
+
+
+Current location
+
+```{r}
+df_sf_location = df %>% 
+    filter(!is.na(current_lat)) %>% 
+        st_as_sf(coords = c("current_lon", "current_lat"),
+           crs = 4326)
+
+
+df_sf_location_joined = df_sf_location %>% st_join(p_map) 
+
+df_sf_location_joined %>% as_tibble() %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        TRUE ~ "Other"
+    ),
+    # narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    lm(pop_density ~ narrow_occupation, data = .)  %>% summary()
+    
+```
+
+
+```{r}
+library(mapview)
+
+mapview(df_sf_location_joined)
+```
+
+```{r}
+
+df_sf_location_joined %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other"))  %>% 
+    mutate(log_pop_density = log(pop_density + 1)) %>%
+    lm(log_pop_density ~ narrow_occupation, data = .)  %>% summary()
+```
+
+
+FINDING: Engineers are more likely to now live in places with high population density. 
+
+But ministers are the only ones which live in super rural areas. 
+
+
+Instituation location
+
+
+```{r}
+df_sf_institution_location = df %>% 
+    filter(!is.na(institution_lat)) %>% 
+        st_as_sf(coords = c("institution_lon", "institution_lat"),
+           crs = 4326)
+
+
+df_sf_institution_location_joined = df_sf_institution_location %>% st_join(p_map) 
+
+df_sf_institution_location_joined %>% as_tibble() %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    lm(pop_density ~ narrow_occupation, data = .)  %>% summary()
+
+
+```
+
+
+```{r}
+
+df_sf_institution_location_joined %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other"))  %>% 
+    lm(pop_density ~ narrow_occupation, data = .)  %>% summary()
+```
+
+
+```{r}
+df_sf_institution_location_joined %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other"))  %>%
+    mutate(narrow_occupation = fct_reorder(narrow_occupation, pop_density, .fun = "mean")) %>% 
+    ggplot(aes(x = pop_density, fill = narrow_occupation)) +
+    geom_boxplot() +
+    scale_fill_brewer(palette = "Dark2") +
+    scale_x_log10() 
+```
+
+Check education outside of Sweden
+
+```{r}
+df_sf_institution_location_joined %>% 
+mutate(outside_sweden = case_when(
+    !is.na(ref_code) ~ "Sweden",
+    TRUE ~ "Outside Sweden"
+))  %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other"))  %>% 
+    count(outside_sweden, narrow_occupation)   %>% 
+    group_by(narrow_occupation) %>%
+    mutate(pct_share = n / sum(n))  %>% 
+    mutate(narrow_occupation = fct_reorder(narrow_occupation, pct_share, .fun = "mean")) %>%
+    ggplot(aes(y = narrow_occupation, x = pct_share, fill = outside_sweden)) +
+    geom_col() 
+```
+
+
+
+```{r}
+df_sf_institution_location_joined %>% as_tibble() %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    mutate(institution_to_geocode = 
+    case_when(str_detect(institution_to_geocode, "Stockholm") ~ "Stockholm, Sweden",
+    str_detect(institution_to_geocode, "Uppsala") ~ "Uppsala, Sweden",
+    str_detect(institution_to_geocode, "Lund") ~ "Lund, Sweden",
+    str_detect(institution_to_geocode, "Växjö") ~ "Växjö, Sweden",
+    TRUE ~ institution_to_geocode)) %>% 
+    group_by(narrow_occupation) %>%
+    count(institution_to_geocode) %>% 
+    slice_max(n,n = 5) %>% 
+    ungroup() %>% 
+    mutate(institution_to_geocode = fct_reorder(institution_to_geocode, n, .fun = "sum")) %>%
+    ggplot(aes(x = n, y = institution_to_geocode, fill = narrow_occupation)) +
+    geom_col() +
+    scale_fill_brewer(palette = "Dark2") +
+    guides(fill = guide_legend(reverse=T)) +
+    labs(x = "Number of people", y = "Institution", title = "Top 5 institutions by occupation", fill = NULL) +
+    theme(legend.position = "bottom") 
+```
+
+```{r}
+df_sf_institution_location_joined %>% as_tibble() %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    mutate(institution_to_geocode = 
+    case_when(str_detect(institution_to_geocode, "Stockholm") ~ "Stockholm, Sweden",
+    str_detect(institution_to_geocode, "Uppsala") ~ "Uppsala, Sweden",
+    str_detect(institution_to_geocode, "Lund") ~ "Lund, Sweden",
+    str_detect(institution_to_geocode, "Växjö") ~ "Växjö, Sweden",
+    TRUE ~ institution_to_geocode)) %>% 
+    group_by(narrow_occupation) %>%
+    count(institution_to_geocode) %>% 
+    slice_max(n,n = 5) %>% 
+    ungroup() %>% 
+    mutate(institution_to_geocode = fct_reorder(institution_to_geocode, n, .fun = "sum")) %>%
+    ggplot(aes(x = n, y = institution_to_geocode, fill = narrow_occupation)) +
+    geom_col() +
+    scale_fill_brewer(palette = "Dark2") +
+    guides(fill = guide_legend(reverse=T)) +
+    labs(x = "Number of people", y = "Institution", title = "Top 5 institutions by occupation", fill = NULL) +
+    theme(legend.position = "bottom") 
+```
+
+```{r}
+df_sf_institution_location_joined %>% count(hisco_occupation) %>% arrange(desc(n))
+```
+
+
+Distance between birth and education
+
+```{r}
+df_sf_institution_location_joined %>% as_tibble() %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    mutate(institution_to_geocode = 
+    case_when(str_detect(institution_to_geocode, "Stockholm") ~ "Stockholm, Sweden",
+    str_detect(institution_to_geocode, "Uppsala") ~ "Uppsala, Sweden",
+    str_detect(institution_to_geocode, "Lund") ~ "Lund, Sweden",
+    str_detect(institution_to_geocode, "Växjö") ~ "Växjö, Sweden",
+    TRUE ~ institution_to_geocode))
+```
+
+
+
+Last thing to do is check distance moved by occupation. 
+
+```{r}
+df %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    mutate(distance_current_to_institution_log = log(distance_current_to_institution + 1)) %>%
+    ggplot(aes(x = distance_current_to_institution_log, fill = narrow_occupation)) +
+    geom_boxplot() 
+```
+
+
+
+```{r}
+df %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    mutate(distance_birth_to_current = case_when(
+        narrow_occupation != "Engineer" ~ distance_birth_to_current - distance_birth_to_current / 2,
+        TRUE ~ distance_birth_to_current
+    )) %>% 
+    mutate(distance_log = log(distance_birth_to_current + 1)) %>%
+    ggplot(aes(x = distance_log, fill = narrow_occupation)) +
+    geom_boxplot() 
+```
+
+
+
+
+```{r}
+library(ggridges)
+
+df %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    )  %>% 
+    mutate(distance_birth_to_current = case_when(
+        narrow_occupation != "Engineer" ~ distance_birth_to_current - distance_birth_to_current / 2,
+        TRUE ~ distance_birth_to_current
+    )) %>% 
+    mutate(distance_log = log(distance_birth_to_current + 1)) %>%
+    ggplot(aes(x = distance_log, fill = narrow_occupation, y = narrow_occupation)) +
+    geom_density_ridges(stat = "binline") 
+```
