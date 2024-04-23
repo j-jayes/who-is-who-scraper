@@ -9,6 +9,12 @@ library(tidyverse)
 library(readxl)
 theme_set(theme_light())
 
+library(ggtext)
+library(showtext)
+font_add_google("IBM Plex Mono", "ibm")
+showtext_auto(enable = TRUE)
+
+
 hisco_counts <- readxl::read_xlsx("data/occupations/hisco_counts_ordered.xlsx")
 
 hisco_counts <- hisco_counts %>%
@@ -30,9 +36,10 @@ hisco_counts %>%
     scale_x_continuous(labels = scales::number_format()) +
     labs(y = "Occupation and HISCO code", x = "Number of oberservations in sample", title = "Most common 3 digit HISCO codes in the Who is Who sample") +
     # set title position to the left
-    theme(plot.title.position = "plot")
+    theme(plot.title.position = "plot") +
+    theme(text = element_text(family = "ibm", size = 24))
 
-ggsave("figures/hisco_counts.png", width = 20, height = 10, units = "cm", dpi = 300)
+ggsave("figures/hisco_counts.png", width = 6, height = 4, units = "in")
 
 ```
 
@@ -41,9 +48,6 @@ ggsave("figures/hisco_counts.png", width = 20, height = 10, units = "cm", dpi = 
 
 ```{r}
 electricity_related_hisco_codes <- c(12, 23, 34, 342, 841, 849, 851, 852, 853, 854, 855, 856, 857, 859, 961)
-
-
-
 ```
 
 
@@ -147,7 +151,8 @@ data %>%
     scale_colour_brewer(palette = "Dark2") +
     scale_x_continuous(labels = scales::number_format(), limits = c(0, NA)) +
     labs(x = "Distance in kilometers", y = "Occupation and HISCO code", title = "Average distances between life events for selected occupations") +
-    (theme(plot.title.position = "plot"))
+    (theme(plot.title.position = "plot")) +
+        theme(text = element_text(family = "ibm", size = 24))
 
 ggsave("figures/distances_comparison.png", width = 20, height = 10, units = "cm", dpi = 300)
 
@@ -206,17 +211,23 @@ data <- tribble(
 theme_set(theme_light())
 # Display the tibble
 data %>%
+filter(Sector != "Unknown") %>%
+mutate(flag = case_when(Sector == "Electrical appliances and mechanical machinery" ~ "engineer",
+TRUE ~ "other")) %>% 
     mutate(Sector = fct_reorder(Sector, Average_Distance)) %>% 
-    ggplot(aes(x = Average_Distance, y = Sector)) +
-    geom_col(fill = "#d95f02", alpha = .8) +
+    ggplot(aes(x = Average_Distance, y = Sector, fill = flag)) +
+    geom_col(alpha = .8) +
     scale_x_continuous(labels = scales::number_format()) +
-    labs(y = "Sector that Engineers worked in", x = "Distance moved by engineers") +
+    labs(y = "Sector that Engineers worked in", x = "Distance moved by engineers",
+    # title = "Engineers in electrical appliances and mechanical machinery moved the furthest"
+    ) +
     # set title position to the left
-    theme(plot.title.position = "plot")
+    scale_fill_brewer(palette = "Dark2") +
+    theme(plot.title.position = "plot",
+    legend.position = "none") +
+    theme(text = element_text(family = "ibm", size = 24))
 
 ggsave("figures/engineer_distance.png", width = 20, height = 10, units = "cm", dpi = 300)
-
-
 
 
 # Load the tibble package
@@ -393,14 +404,22 @@ case_when(
     degree_level == "Candidate" ~ "Bachelor",
     TRUE ~ degree_level
 )) %>%
+mutate(hisco_occupation = case_when(
+    str_detect(hisco_occupation, "Minister") ~ "Ministers",
+    TRUE ~ hisco_occupation
+)) %>% 
 count(hisco_code, hisco_occupation, degree_level, sort = T)  %>% 
 mutate(hisco_occupation = fct_reorder(hisco_occupation, n, .fun = "sum")) %>%
 ggplot(aes(y = hisco_occupation, x = n, fill = degree_level)) +
-geom_col() +
+geom_col(position = "fill") +
 scale_fill_brewer(palette = "Paired") +
-scale_x_continuous(labels = scales::number_format()) +
+scale_x_continuous(labels = scales::percent_format()) +
 theme(legend.position = "bottom") +
-labs(x = "Number of people", y = "Occupation", fill = "Degree level") 
+labs(x = "Share of degrees", y = "Occupation", fill = "Degree level") +
+theme(text = element_text(family = "ibm", size = 24)) +
+guides(fill=guide_legend(nrow=2,byrow=TRUE))
+
+ggsave("figures/hisco_degree.png", width = 6, height = 4, units = "in", dpi = 300)
 ```
 
 What about counting degree and level
@@ -701,7 +720,39 @@ mutate(outside_sweden = case_when(
     geom_col() 
 ```
 
+Birth places outside of Sweden?
 
+```{r}
+df_sf_birth_joined %>% 
+mutate(outside_sweden = case_when(
+    !is.na(ref_code) ~ "Sweden",
+    TRUE ~ "Outside Sweden"
+))  %>% 
+    mutate(narrow_occupation = case_when(
+        str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+        str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+        str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+        str_detect(hisco_occupation, "Ministers") ~ "Minister",
+        str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+        TRUE ~ "Other"
+    ),
+    narrow_occupation = fct_relevel(narrow_occupation, "Other"))  %>% 
+    count(outside_sweden, narrow_occupation)   %>% 
+    group_by(narrow_occupation) %>%
+    mutate(pct_share = n / sum(n))  %>% 
+    filter(outside_sweden == "Outside Sweden") %>%
+    ungroup() %>%
+    mutate(narrow_occupation = fct_reorder(narrow_occupation, pct_share)) %>%
+    ggplot(aes(y = narrow_occupation, x = pct_share, fill = outside_sweden)) +
+    geom_col(fill = "midnightblue", alpha = .4) +
+    geom_text(aes(label = scales::percent(pct_share)), hjust = 1.1, cex = 10) +
+    scale_x_continuous(labels = scales::percent_format(accuracy = 1.1)) +
+    labs(y = "Occupation and HISCO code", x = "Share of people born outside of Sweden") +
+    theme(plot.title.position = "plot") +
+    theme(text = element_text(family = "ibm", size = 24))
+
+ggsave("figures/birth_outside_sweden.png", width = 6, height = 4, units = "in", dpi = 300)
+```
 
 ```{r}
 df_sf_institution_location_joined %>% as_tibble() %>% 
@@ -731,7 +782,10 @@ df_sf_institution_location_joined %>% as_tibble() %>%
     scale_fill_brewer(palette = "Dark2") +
     guides(fill = guide_legend(reverse=T)) +
     labs(x = "Number of people", y = "Institution", title = "Top 5 institutions by occupation", fill = NULL) +
-    theme(legend.position = "bottom") 
+    theme(legend.position = "bottom") +
+    theme(text = element_text(family = "ibm", size = 24))
+
+ggsave("figures/top_institutions.png", width = 6, height = 4, units = "in", dpi = 300)
 ```
 
 ```{r}
@@ -859,5 +913,126 @@ df %>%
     )) %>% 
     mutate(distance_log = log(distance_birth_to_current + 1)) %>%
     ggplot(aes(x = distance_log, fill = narrow_occupation, y = narrow_occupation)) +
-    geom_density_ridges(stat = "binline") 
+    geom_density_ridges(stat = "binline") +
+    scale_fill_brewer(palette = "Dark2") +
+    labs(x = "Distance moved from birthplace to current location (logged)", y = "Occupation", fill = "Occupation")+
+    theme(legend.position = "none") +
+    theme(text = element_text(family = "ibm", size = 24))
+
+
+ggsave("figures/distance_moved_birth_to_current.png", width = 6, height = 4, units = "in", dpi = 300)
+```
+
+
+
+
+Last last last thing to check is if we have more engineers born in the treated areas.
+
+
+
+```{r}
+df_treated <- readxl::read_excel("data/maps/treated_parishes_with_distance_threshold_and_population.xlsx")
+
+df_treated = df_treated %>% 
+filter(distance_to_line <= 300) %>% 
+rename(ref_code = parish_code) %>% 
+select(ref_code, treated) %>% 
+distinct()
+
+
+
+df_sf_birth_joined = df_sf_birth_joined %>% 
+left_join(df_treated, by = "ref_code")
+```
+
+
+```{r}
+treated_parish_df <- df_sf_birth_joined %>%
+    mutate(
+        narrow_occupation = case_when(
+            str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+            str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+            str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+            str_detect(hisco_occupation, "Ministers") ~ "Minister",
+            str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+            TRUE ~ "Other"
+        ),
+        narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    ) %>%
+    count(treated, narrow_occupation) %>%
+    filter(!is.na(treated)) %>%
+    group_by(narrow_occupation) %>%
+    mutate(
+        pct_share = n / sum(n),
+        treated = case_when(
+            treated == 1 ~ "Treated",
+            treated == 0 ~ "Control"
+        ),
+        treated = fct_relevel(treated, "Treated")
+    ) %>%
+    ungroup()
+
+treated_parish_order <- treated_parish_df %>%
+    filter(treated == "Treated") %>%
+    arrange(desc(pct_share)) %>%
+    mutate(order = row_number()) %>%
+    select(narrow_occupation, order)
+
+treated_parish_df %>%
+    as_tibble() %>%
+    inner_join(treated_parish_order) %>%
+    mutate(narrow_occupation = fct_reorder(narrow_occupation, -order)) %>%
+    ggplot(aes(y = narrow_occupation, x = pct_share)) +
+    geom_col(fill = "midnightblue", alpha = .4) +
+    geom_text(aes(label = scales::percent(pct_share, accuracy = 1.1)), hjust = 1.1, cex = 10) +
+    scale_x_continuous(labels = scales::percent) +
+    labs(
+        x = "Share of individuals born in parishes with early electrification",
+        y = "Occupation"
+    ) +
+    theme(text = element_text(family = "ibm", size = 24))
+
+ggsave("figures/occupation_early_access.png", width = 6, height = 4, units = "in", dpi = 300)
+
+
+
+
+```
+
+
+
+Age of individuals
+
+
+```{r}
+df %>% 
+mutate(year_of_birth = as.numeric(str_extract(birth_date, "\\d{4}"))) %>%
+    mutate(
+        narrow_occupation = case_when(
+            str_detect(hisco_occupation, "Engineer") ~ "Engineer",
+            str_detect(hisco_occupation, "Doctor") ~ "Doctor",
+            str_detect(hisco_occupation, "General Managers") ~ "General Manager",
+            str_detect(hisco_occupation, "Ministers") ~ "Minister",
+            str_detect(hisco_occupation, "Dentist") ~ "Dentist",
+            TRUE ~ "Other"
+        ),
+        narrow_occupation = fct_relevel(narrow_occupation, "Other")
+    ) %>%
+    ggplot(aes(x = year_of_birth, y = narrow_occupation, fill = narrow_occupation)) +
+    geom_density_ridges(stat = "binline") +
+    geom_vline(xintercept = 1925, linetype = "dashed", colour = "darkred") +
+    scale_fill_brewer(palette = "Dark2") +
+    scale_x_continuous(limits = c(1850, 1950)) +
+    labs(x = "Year of birth", y = "Occupation", fill = "Occupation",
+    caption = "Dotted line shows completion of `Western Line` of electricity grid") +
+    theme(legend.position = "none")
+
+```
+
+
+
+
+
+```{r}
+df_sf_birth %>% write_rds("data/occupations/individual_occupations_institution_geocoded_distances.rds")
 ```
